@@ -16,9 +16,9 @@ Video File: プロセカアフタートーク この物語は希望をのせ�
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 698
-Active Line: 714
-Video Position: 118278
+Scroll Position: 626
+Active Line: 636
+Video Position: 110233
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -244,7 +244,7 @@ Dialogue: 0,0:26:19.60,0:26:21.52,Haruka,,0,0,0,,"They're always really accurate
 Dialogue: 0,0:26:21.52,0:26:25.79,Haruka,,0,0,0,,People are probably like "wait, did they steal that from my tweet?"
 Dialogue: 0,0:26:28.72,0:26:32.51,Haruka,,0,0,0,,"You got me." Hahaha.
 Dialogue: 0,0:26:32.51,0:26:35.87,Haruka,,0,0,0,,Like, are they just taking those comments from online,
-Dialogue: 0,0:26:35.87,0:26:38.91,Haruka,,0,0,0,,or are they recruiting the actual commenters?
+Dialogue: 0,0:26:35.87,0:26:38.91,Haruka,,0,0,0,,or are they recruiting actual commenters to do the writing?
 Dialogue: 0,0:26:38.91,0:26:41.87,Haruka,,0,0,0,,I always find it super funny to think about how accurate they are.
 Dialogue: 0,0:26:41.87,0:26:48.09,Haruka,,0,0,0,,Hmm, but I think that's just one part of how realistic these stories have been feeling.
 Dialogue: 0,0:26:50.84,0:26:55.52,Haruka,,0,0,0,,In each story, I always like thinking about,
@@ -737,7 +737,8 @@ Dialogue: 0,1:04:58.17,1:05:03.37,Haruka,,0,0,0,,but I'm always ready to talk li
 Dialogue: 0,1:05:03.37,1:05:05.72,Haruka,,0,0,0,,I'll also come prepared with lots of notes again.
 Dialogue: 0,1:05:08.33,1:05:11.61,Haruka,,0,0,0,,Ah right, we're also putting out more short-form content now.
 Dialogue: 0,1:05:11.61,1:05:14.68,Haruka,,0,0,0,,Seems like there's good effort being put in, so please look forward to them.
-Dialogue: 0,1:05:14.68,1:05:22.46,Haruka,,0,0,0,,So with that, if you still haven't read through the "This story continues with hope" event story, once the next event starts,
+Dialogue: 0,1:05:14.68,1:05:20.58,Haruka,,0,0,0,,So with that, if you still haven't read through the "This story continues with hope" event story,
+Dialogue: 0,1:05:20.58,1:05:22.46,Haruka,,0,0,0,,once the next event starts,
 Dialogue: 0,1:05:22.46,1:05:25.74,Haruka,,0,0,0,,you'll be able to read the entire event story.
 Dialogue: 0,1:05:25.74,1:05:30.04,Haruka,,0,0,0,,Well, everyone here's probably read it. We've mentioned so many spoilers.
 Dialogue: 0,1:05:30.04,1:05:33.41,Haruka,,0,0,0,,Watch it again, then. Go back and watch it with a fresh perspective.
