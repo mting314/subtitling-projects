@@ -11,30 +11,29 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: ../../../../Documents/Subtitling/Project Sekai/This story continues with hope Aftertalk/プロセカアフタートーク この物語は希望をのせて編 [D6Zve2bt0Ug].mkv
-Video File: ../../../../Documents/Subtitling/Project Sekai/This story continues with hope Aftertalk/プロセカアフタートーク この物語は希望をのせて編 [D6Zve2bt0Ug].mkv
+Audio File: プロセカアフタートーク この物語は希望をのせて編 [D6Zve2bt0Ug].mkv
+Video File: プロセカアフタートーク この物語は希望をのせて編 [D6Zve2bt0Ug].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 40
-Active Line: 47
-Video Position: 24854
+Video Zoom Percent: 0.500000
+Scroll Position: 698
+Active Line: 714
+Video Position: 118278
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Lato,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,50,1
-Style: Ruby Text,Lato,48,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: Note,Lato,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,10,10,50,1
-Style: Haruka,Lato,60,&H00FFFFFF,&H000000FF,&H00FFCC99,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,100,100,50,1
+Style: Note,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,10,10,50,1
+Style: Haruka,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00D19E5F,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.5,2,200,200,60,1
 Style: --DIVIDER--,Avenir Next LT Pro,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
-Style: Haruka - PiP,Lato,60,&H00FFFFFF,&H000000FF,&H00FFCC99,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,100,100,50,1
-Style: Haruka - Top,Lato,60,&H00FFFFFF,&H000000FF,&H00FFCC99,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,100,100,50,1
+Style: Haruka - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00D19E5F,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,100,100,50,1
+Style: Haruka - Song,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00D19E5F,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.5,2,100,730,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:10:51.83,0:11:16.90,Note,,0,0,0,,{\fad(750,0)}Note: there's really bad audio lag for the first entire half of this stream.\NNot much I can do about it, sorry :/
 Dialogue: 0,0:10:54.08,0:10:58.58,Haruka,,0,0,0,,Welcome to ProSeka AfterTalk "This story continues with hope" Edition!
-Dialogue: 0,0:11:00.54,0:11:03.99,Haruka,,0,0,0,,Was that alright? Sorry, I bumped the mic a bit.
+Dialogue: 0,0:11:00.54,0:11:03.99,Haruka,,0,0,0,,Was that alright? I think I bumped the mic a bit.
+Dialogue: 0,0:11:03.99,0:11:06.85,Haruka,,0,0,0,,Sorry for waving my hands all around like that.
 Dialogue: 0,0:11:06.85,0:11:08.70,Haruka,,0,0,0,,Good evening!
 Dialogue: 0,0:11:08.70,0:11:10.07,Haruka,,0,0,0,,"Kon-more!"
 Dialogue: 0,0:11:10.07,0:11:13.14,Haruka,,0,0,0,,This is Mayu Yoshioka, voice of Haruka Kiritani from MMJ!
@@ -79,7 +78,7 @@ Dialogue: 0,0:13:35.70,0:13:37.72,Haruka,,0,0,0,,It's here!
 Dialogue: 0,0:13:37.72,0:13:40.76,Haruka,,0,0,0,,They brought my notebook over for me. We'll go over this later.
 Dialogue: 0,0:13:40.76,0:13:43.66,Haruka,,0,0,0,,Sorry for interrupting your message.
 Dialogue: 0,0:13:43.66,0:13:48.44,Haruka,,0,0,0,,"This time, MMJ were working together with the other idol groups like Cheer Day towards the same goal."
-Dialogue: 0,0:13:48.44,0:13:54.21,Default,,0,0,0,,"It was really cool to watch everyone talk things through, exchange ideas, and go back and forth on different approaches,
+Dialogue: 0,0:13:48.44,0:13:54.21,Haruka,,0,0,0,,"It was really cool to watch everyone talk things through, exchange ideas, and go back and forth on different approaches,
 Dialogue: 0,0:13:54.21,0:13:58.09,Haruka,,0,0,0,,"and through it all, Haruka-chan taking charge to get things done."
 Dialogue: 0,0:13:58.09,0:14:01.39,Haruka,,0,0,0,,"This was another great chance to see Haruka taking the initiative."
 Dialogue: 0,0:14:01.39,0:14:05.74,Haruka,,0,0,0,,"It was fun to see her work together with all the other idols."
@@ -140,18 +139,19 @@ Dialogue: 0,0:17:48.00,0:17:50.49,Haruka,,0,0,0,,I get that...
 Dialogue: 0,0:17:50.49,0:17:54.16,Haruka,,0,0,0,,That other unit "Aimu" did end up passing.
 Dialogue: 0,0:17:54.16,0:17:56.29,Haruka,,0,0,0,, I wonder what they're like...
 Dialogue: 0,0:18:02.12,0:18:05.22,Haruka,,0,0,0,,Getting 2nd is huge win for them.
-Dialogue: 0,0:18:05.22,0:18:14.21,Haruka,,0,0,0,,In the first episode, before the event, Haruka talked about how MMJ should expect a certain position based on the current online rankings.
+Dialogue: 0,0:18:05.22,0:18:11.55,Haruka,,0,0,0,,Before the event, Haruka talked about how MMJ should expect a certain position,
+Dialogue: 0,0:18:11.55,0:18:14.21,Haruka,,0,0,0,,based on the current online rankings. Back during the first episode.
 Dialogue: 0,0:18:14.21,0:18:19.95,Haruka,,0,0,0,,I totally get that, trying to get a feel out how the final rankings might end up.
 Dialogue: 0,0:18:19.95,0:18:23.94,Haruka,,0,0,0,,MMJ were definitely checking out all the rankings and predictions on the internet.
-Dialogue: 0,0:18:23.94,0:18:33.12,Haruka,,0,0,0,,All of that might have an influence on their production direction after this event
+Dialogue: 0,0:18:23.94,0:18:33.12,Haruka,,0,0,0,,All of that might have an influence on their production direction after this event.
 Dialogue: 0,0:18:33.12,0:18:37.86,Haruka,,0,0,0,,Proactively seeking out all that information online, and then deciding on a strategy from there;
 Dialogue: 0,0:18:37.86,0:18:40.94,Haruka,,0,0,0,,isn't that really mature of them? Especially since they're high schoolers!
-Dialogue: 0,0:18:40.94,0:18:45.16,Haruka,,0,0,0,,How the heck can high schoolers be that smart?
-Dialogue: 0,0:18:46.59,0:18:49.79,Haruka,,0,0,0,,Thank you so much for your message, Yukki-san.
+Dialogue: 0,0:18:40.94,0:18:45.16,Haruka,,0,0,0,,How the heck can high schoolers do all that?
+Dialogue: 0,0:18:46.59,0:18:49.79,Haruka,,0,0,0,,Thank you so much for your message, Yukki-san, and thanks everyone else.
 Dialogue: 0,0:18:49.79,0:18:53.60,Haruka,,0,0,0,,We only got to read these 3 messages,
 Dialogue: 0,0:18:53.60,0:18:58.63,Haruka,,0,0,0,,I have so much I want to talk about too, so I'm going to take over a bit now.
 Dialogue: 0,0:18:59.44,0:19:02.00,Haruka,,0,0,0,,Alright, here we go.
-Dialogue: 0,0:19:02.00,0:19:05.22,Haruka,,0,0,0,,The Lumina Grand Prix was,
+Dialogue: 0,0:19:02.00,0:19:05.22,Haruka,,0,0,0,,The Lumina Grand Prix,
 Dialogue: 0,0:19:05.22,0:19:12.10,Haruka,,0,0,0,,for all you ProSeka users, it must definitely feel like it's been going on for a while!
 Dialogue: 0,0:19:12.10,0:19:14.35,Haruka,,0,0,0,,After all, the story is shown just bit by bit.
 Dialogue: 0,0:19:14.35,0:19:19.62,Haruka,,0,0,0,,I totally get people saying "When are we gonna get to the finals?" or "I wanna see what happens next!"
@@ -159,8 +159,8 @@ Dialogue: 0,0:19:19.62,0:19:24.03,Haruka,,0,0,0,,But actually, I kind of want to
 Dialogue: 0,0:19:24.03,0:19:27.49,Haruka,,0,0,0,,after all the hard work in the qualifiers,
 Dialogue: 0,0:19:27.49,0:19:31.07,Haruka,,0,0,0,,right between passing the qualifiers and before the finals start.
 Dialogue: 0,0:19:31.07,0:19:34.72,Haruka,,0,0,0,,Even I was really nervous about the qualifiers.
-Dialogue: 0,0:19:34.72,0:19:37.73,Haruka,,0,0,0,,So when I heard this would be a Haruka focus event, I was like "ahhhhh"
-Dialogue: 0,0:19:37.73,0:19:42.20,Haruka,,0,0,0,,I'm covering {\i1}this{\i0} part of the story as a Haruka focus?
+Dialogue: 0,0:19:34.72,0:19:37.73,Haruka,,0,0,0,,So when I heard this would be a Haruka focus event, I was like "uehhh,"
+Dialogue: 0,0:19:37.73,0:19:42.20,Haruka,,0,0,0,,"I'm covering {\i1}this{\i0} part of the story from Haruka's perspective?"
 Dialogue: 0,0:19:42.20,0:19:44.51,Haruka,,0,0,0,,And especially for Haruka,
 Dialogue: 0,0:19:44.51,0:19:47.01,Haruka,,0,0,0,,we'll go more in depth later,
 Dialogue: 0,0:19:47.01,0:19:52.75,Haruka,,0,0,0,,but it's very obvious that there's a big wall between Haruka and Hiiragi-san, ReLight's producer.
@@ -172,26 +172,29 @@ Dialogue: 0,0:20:05.57,0:20:10.04,Haruka,,0,0,0,,Last time she confronted him fa
 Dialogue: 0,0:20:10.04,0:20:17.63,Haruka,,0,0,0,,it almost felt like this standoff between grown-ups in the corporate world.
 Dialogue: 0,0:20:17.63,0:20:21.20,Haruka,,0,0,0,,After which, Haruka had this really down look,
 Dialogue: 0,0:20:21.20,0:20:24.81,Haruka,,0,0,0,,like "I don't know how we're going to get through this..."
-Dialogue: 0,0:20:24.81,0:20:29.41,Haruka,,0,0,0,,but I think she grew from that. And so when she went to face Hiiragi-san again,
+Dialogue: 0,0:20:24.81,0:20:26.22,Haruka,,0,0,0,,but I think she grew from that.
+Dialogue: 0,0:20:26.22,0:20:29.41,Haruka,,0,0,0,,And so when she went to face Hiiragi-san again,
 Dialogue: 0,0:20:29.41,0:20:34.30,Haruka,,0,0,0,,I was wondering what exactly the confrontation might look like this time.
-Dialogue: 0,0:20:34.30,0:20:40.52,Haruka,,0,0,0,,But considering they're now working with ReLight in the stage right before finals,
+Dialogue: 0,0:20:34.30,0:20:37.68,Haruka,,0,0,0,,But now that they're working with ReLight in the stage right before finals as...
+Dialogue: 0,0:20:37.68,0:20:40.52,Haruka,,0,0,0,,companions? As a team?
 Dialogue: 0,0:20:40.52,0:20:46.55,Haruka,,0,0,0,,I'm really glad she got such reassuring advice.
-Dialogue: 0,0:20:46.55,0:20:51.12,Haruka,,0,0,0,,That feeling of security and strength from know that Hiiragi-san has their backs.
+Dialogue: 0,0:20:46.55,0:20:51.12,Haruka,,0,0,0,,That feeling of security and strength she must get knowing Hiiragi-san has their backs.
 Dialogue: 0,0:20:51.12,0:20:54.29,Haruka,,0,0,0,,Knowing he's this big, influential figure...
 Dialogue: 0,0:20:54.29,0:20:57.79,Haruka,,0,0,0,,She must feel so relieved knowing "ah, Hiiragi-san has our backs."
 Dialogue: 0,0:20:57.79,0:21:01.29,Haruka,,0,0,0,,You could feel that coming from each and every word that he said.
 Dialogue: 0,0:21:01.29,0:21:06.67,Haruka,,0,0,0,,I think Haruka does truly have respect and admiration for him,
-Dialogue: 0,0:21:06.67,0:21:11.73,Haruka,,0,0,0,,but at the same time, she knows that someday, she'll have to beat him.
-Dialogue: 0,0:21:11.73,0:21:17.36,Haruka,,0,0,0,,That acknowledgement, I feel, was more or less the focus of Episode 6.
+Dialogue: 0,0:21:06.67,0:21:13.50,Haruka,,0,0,0,,but at the same time, she knows that someday, she'll have to beat him.
+Dialogue: 0,0:21:13.50,0:21:17.36,Haruka,,0,0,0,,That acknowledgement, I feel, was more or less the focus of Episode 6.
 Dialogue: 0,0:21:17.36,0:21:23.04,Haruka,,0,0,0,,He's scary, that Hiiragi-san.
 Dialogue: 0,0:21:23.04,0:21:29.63,Haruka,,0,0,0,,It's like, the more you rely on him, the more he feels like he's going to be a threat later on.
-Dialogue: 0,0:21:31.36,0:21:43.69,Default,,0,0,0,,So it makes me think, what kind of team was ASRUN back when Hiiragi-san and Haruka were working together?
+Dialogue: 0,0:21:31.36,0:21:43.69,Haruka,,0,0,0,,So it makes me think, what kind of team was ASRUN back when Hiiragi-san and Haruka were working together?
 Dialogue: 0,0:21:43.69,0:21:47.34,Haruka,,0,0,0,,So Haruka's main battle was with Hiiragi-san,
 Dialogue: 0,0:21:47.34,0:21:51.68,Haruka,,0,0,0,,but that's wrapped in the wider context of preparing for the event for the cram school students.
-Dialogue: 0,0:21:51.68,0:21:58.28,Haruka,,0,0,0,,And all the other teams going to their own various locations.
-Dialogue: 0,0:21:58.28,0:22:02.92,Haruka,,0,0,0,,Arisawa-san's...
-Dialogue: 0,0:22:02.92,0:22:07.23,Haruka,,0,0,0,,ideas? As a former idol.
-Dialogue: 0,0:22:07.23,0:22:11.15,Haruka,,0,0,0,,Hearing her perspective on "this is what I wish I could have done for them".
+Dialogue: 0,0:21:51.68,0:21:55.75,Haruka,,0,0,0,,And all the other teams going to their own various locations.
+Dialogue: 0,0:21:55.75,0:21:58.28,Haruka,,0,0,0,,But, umm...
+Dialogue: 0,0:21:58.28,0:22:04.78,Haruka,,0,0,0,,Arisawa-san's... perspective?
+Dialogue: 0,0:22:04.78,0:22:07.23,Haruka,,0,0,0,,As a former idol,
+Dialogue: 0,0:22:07.23,0:22:11.15,Haruka,,0,0,0,,her perspective on "this is what I wish I could have done for them".
 Dialogue: 0,0:22:11.15,0:22:15.36,Haruka,,0,0,0,,Even if she's retired, she sees the idols of today and thinks,
 Dialogue: 0,0:22:15.36,0:22:20.48,Haruka,,0,0,0,,"I want ensure this generation has that strength to deliver hope."
 Dialogue: 0,0:22:20.48,0:22:26.06,Haruka,,0,0,0,,Ensuring the idols of this world have that... "allure?"
@@ -248,7 +251,7 @@ Dialogue: 0,0:26:50.84,0:26:55.52,Haruka,,0,0,0,,In each story, I always like th
 Dialogue: 0,0:26:55.52,0:26:59.41,Haruka,,0,0,0,,"which comments are the ones I'm most likely to have said?"
 Dialogue: 0,0:27:04.69,0:27:09.60,Haruka,,0,0,0,,Of course, there are also times where those comments are actually spoken in the story.
 Dialogue: 0,0:27:09.60,0:27:13.26,Haruka,,0,0,0,,Any time the fans themselves show up.
-Dialogue: 0,0:27:13.26,0:27:18.56,Haruka,,0,0,0,,Like, for some of the lines from MMJ fans or Cheerful＊Days fans, you'd think;
+Dialogue: 0,0:27:13.26,0:27:18.56,Haruka,,0,0,0,,Like, for some of the lines from MMJ fans or Cheerful{\fnNoto Serif JP}＊{\fn}Days fans, you'd think;
 Dialogue: 0,0:27:18.56,0:27:21.56,Haruka,,0,0,0,,"Ahh, I'd definitely say something like that."
 Dialogue: 0,0:27:24.99,0:27:30.68,Haruka,,0,0,0,,Ah, and you know, I'm glad we don't hear this as much nowadays,
 Dialogue: 0,0:27:30.68,0:27:33.68,Haruka,,0,0,0,,we don't see it as much, but earlier,
@@ -275,7 +278,7 @@ Dialogue: 0,0:29:01.63,0:29:03.92,Haruka,,0,0,0,,and I feel that part wouldn't c
 Dialogue: 0,0:29:03.92,0:29:06.49,Haruka,,0,0,0,,I bet there'd be lots of comments like "Hey, I'm new here!" Hahaha.
 Dialogue: 0,0:29:06.49,0:29:09.92,Haruka,,0,0,0,,"I just came from learning about MMJ at the Lumina Grand Prix!"
 Dialogue: 0,0:29:10.96,0:29:12.52,Haruka,,0,0,0,,Yeah, that'd be great.
-Dialogue: 0,0:29:12.52,0:29:16.01,Haruka,,0,0,0,,"I'm originally a Cheerful＊Days fan, but got interested in MMJ, so I joined their stream!"
+Dialogue: 0,0:29:12.52,0:29:16.01,Haruka,,0,0,0,,"I'm originally a Cheerful{\fnNoto Serif JP}＊{\fn}Days fan, but got interested in MMJ, so I joined their stream!"
 Dialogue: 0,0:29:16.01,0:29:17.99,Haruka,,0,0,0,,Something like that hahaha.
 Dialogue: 0,0:29:22.85,0:29:24.84,Haruka,,0,0,0,,Hahaha "Newbies! Welcome!"
 Dialogue: 0,0:29:26.24,0:29:29.96,Haruka,,0,0,0,,Everyone'd be like "Welcome!" "Welcome!" Hahaha.
@@ -320,7 +323,8 @@ Dialogue: 0,0:39:33.08,0:39:40.03,Haruka,,0,0,0,,"Fight him on this; say that we
 Dialogue: 0,0:39:40.03,0:39:41.01,Haruka,,0,0,0,,I got that direction,
 Dialogue: 0,0:39:41.01,0:39:44.55,Haruka,,0,0,0,,and I was like "wow, sounds fun, let's try it."
 Dialogue: 0,0:39:44.55,0:39:47.55,Haruka,,0,0,0,,And so that's how the second take turned out.
-Dialogue: 0,0:39:48.72,0:39:59.35,Haruka,,0,0,0,,Of course, I feel that one focal point point of this story is Haruka taking these small steps forward on her journey as a producer herself.
+Dialogue: 0,0:39:48.72,0:39:53.28,Haruka,,0,0,0,,Of course, I feel that one focal point point of this story,
+Dialogue: 0,0:39:53.28,0:39:59.35,Haruka,,0,0,0,,is Haruka taking these small steps forward on her journey as a producer herself.
 Dialogue: 0,0:39:59.35,0:40:05.60,Haruka,,0,0,0,,I really hope that came through clearly in this scene with Hiiragi-san.
 Dialogue: 0,0:40:05.60,0:40:07.71,Haruka,,0,0,0,,That's right.
 Dialogue: 0,0:40:07.71,0:40:10.61,Haruka,,0,0,0,,The sound producers and directors have all this time,
@@ -341,7 +345,7 @@ Dialogue: 0,0:40:58.40,0:41:02.80,Haruka,,0,0,0,,first and foremost, congrats on
 Dialogue: 0,0:41:02.80,0:41:04.56,Haruka,,0,0,0,,Big congrats.
 Dialogue: 0,0:41:04.56,0:41:08.94,Haruka,,0,0,0,,Honestly, I thought that just making finals would be great,
 Dialogue: 0,0:41:08.94,0:41:11.94,Haruka,,0,0,0,,but to get second place? Aren't they so amazing now?
-Dialogue: 0,0:41:13.34,0:41:15.93,Haruka,,0,0,0,,So 1st place was Cheerful＊Days,
+Dialogue: 0,0:41:13.34,0:41:15.93,Haruka,,0,0,0,,So 1st place was Cheerful{\fnNoto Serif JP}＊{\fn}Days,
 Dialogue: 0,0:41:15.93,0:41:17.17,Haruka,,0,0,0,,and MMJ got 2nd.
 Dialogue: 0,0:41:17.17,0:41:24.81,Haruka,,0,0,0,,After 3rd and 4th were announced and there were only 2 teams left, hearing Haruka not wanting to give up—
 Dialogue: 0,0:41:24.81,0:41:27.88,Haruka,,0,0,0,,I was gonna cry.
@@ -455,7 +459,7 @@ Dialogue: 0,0:47:27.15,0:47:29.98,Haruka - PiP,,0,0,0,,{\pos(650,750)}Beautiful.
 Dialogue: 0,0:47:29.98,0:47:33.09,Haruka - PiP,,0,0,0,,{\pos(650,750)}It's too much, I can't even look at him directly.
 Dialogue: 0,0:47:33.09,0:47:34.60,Haruka - PiP,,0,0,0,,{\pos(650,750)}Hiii!
 Dialogue: 0,0:47:34.60,0:47:36.21,Haruka - PiP,,0,0,0,,{\pos(650,750)}Moving on...
-Dialogue: 0,0:47:36.21,0:47:38.26,Haruka - PiP,,0,0,0,,{\pos(650,750)}Ah this was also so goodー
+Dialogue: 0,0:47:36.21,0:47:38.26,Haruka - PiP,,0,0,0,,{\pos(650,750)}Ah this was also so good—
 Dialogue: 0,0:47:38.26,0:47:41.76,Haruka - PiP,,0,0,0,,{\pos(650,750)}wait a sec, is this really only a 3-star?
 Dialogue: 0,0:47:41.76,0:47:43.20,Haruka - PiP,,0,0,0,,{\pos(650,750)}Just a 3-star?
 Dialogue: 0,0:47:43.20,0:47:47.38,Haruka - PiP,,0,0,0,,{\pos(650,750)}Ah, so cute, so pretty, just as always.
@@ -512,137 +516,232 @@ Dialogue: 0,0:50:36.19,0:50:38.70,Haruka,,0,0,0,,and then take some time to talk
 Dialogue: 0,0:50:38.70,0:50:40.71,Haruka,,0,0,0,,So without further ado, onto the video.
 Dialogue: 0,0:50:40.71,0:50:41.63,Haruka,,0,0,0,,Enjoy.
 Comment: 0,0:44:31.81,0:44:37.55,--DIVIDER--,,0,0,0,,--BEGIN CARD TALK--
-Dialogue: 0,0:52:18.21,0:52:20.16,Haruka - Top,,0,0,0,,{\pos(976,187)}So good...
-Dialogue: 0,0:52:21.36,0:52:24.15,Haruka - Top,,0,0,0,,{\pos(976,187)}That was Polar Star.
-Dialogue: 0,0:52:26.81,0:52:28.35,Haruka - Top,,0,0,0,,{\pos(976,187)}So good!
-Dialogue: 0,0:52:28.35,0:52:30.24,Haruka - Top,,0,0,0,,{\pos(976,187)}I love everything about it!
-Dialogue: 0,0:52:30.24,0:52:33.81,Haruka - Top,,0,0,0,,{\pos(976,187)}Eh, ah, umm, yeah right here.
-Dialogue: 0,0:52:34.18,0:52:38.82,Haruka - Top,,0,0,0,,{\pos(976,187)}Right here, their expressions each change one by one.
-Dialogue: 0,0:52:38.82,0:52:42.72,Haruka - Top,,0,0,0,,{\pos(976,187)}And this is from the side of the stage, fans normally can't see them from there.
-Dialogue: 0,0:52:42.72,0:52:45.88,Haruka - Top,,0,0,0,,{\pos(976,187)}But RIGHT HERE THE SHOT FROM BEHIND INTO THAT LOOK
-Dialogue: 0,0:52:45.88,0:52:48.03,Haruka - Top,,0,0,0,,{\pos(976,187)}Right?
-Dialogue: 0,0:52:48.03,0:52:49.18,Haruka - Top,,0,0,0,,{\pos(976,187)}Right there!
-Dialogue: 0,0:52:49.18,0:52:53.26,Haruka - Top,,0,0,0,,{\pos(976,187)}This is what everyone's talking about, right? That part right there.
-Dialogue: 0,0:52:53.26,0:52:54.52,Haruka - Top,,0,0,0,,{\pos(976,187)}So that's what you all mean.
-Dialogue: 0,0:52:54.52,0:52:56.32,Haruka - Top,,0,0,0,,Yeah yeah, right there.
-Dialogue: 0,0:52:56.32,0:52:59.09,Haruka - Top,,0,0,0,,Ahhhh way too good.
-Dialogue: 0,0:52:59.09,0:53:04.72,Haruka - Top,,0,0,0,,I mean come on. The quality of the MVs nowadays is just so good.
-Dialogue: 0,0:53:04.72,0:53:07.58,Haruka - Top,,0,0,0,,Right? They've come so far.
-Dialogue: 0,0:53:07.58,0:53:08.94,Haruka - Top,,0,0,0,,Look look, right here.
-Dialogue: 0,0:53:08.94,0:53:10.44,Haruka - Top,,0,0,0,,Hold up— right here—
-Dialogue: 0,0:53:10.44,0:53:11.40,Haruka - Top,,0,0,0,,Hahaha!
-Dialogue: 0,0:53:13.26,0:53:15.63,Haruka - Top,,0,0,0,,They look so good in sync like this—
-Dialogue: 0,0:53:15.63,0:53:16.55,Haruka - Top,,0,0,0,,yeah this part!
-Dialogue: 0,0:53:18.46,0:53:21.26,Haruka - Top,,0,0,0,,THIS PART TOO
-Dialogue: 0,0:53:21.26,0:53:26.46,Haruka - Top,,0,0,0,,Ah, the night sky scenery, so pretty. Beautiful.
-Dialogue: 0,0:53:26.46,0:53:30.58,Haruka - Top,,0,0,0,,The— ah! Look at the shooting stars! So good.
-Dialogue: 0,0:53:30.58,0:53:32.43,Haruka - Top,,0,0,0,,And wait for it— this part!
-Dialogue: 0,0:53:32.43,0:53:33.83,Haruka - Top,,0,0,0,,Right here!
-Dialogue: 0,0:53:33.83,0:53:35.12,Haruka - Top,,0,0,0,,Hahaha!
-Dialogue: 0,0:53:35.12,0:53:36.10,Haruka - Top,,0,0,0,,
-Dialogue: 0,0:53:36.10,0:53:39.10,Haruka - Top,,0,0,0,,And then they change formation,
-Dialogue: 0,0:53:39.10,0:53:39.84,Haruka - Top,,0,0,0,,yep.
-Dialogue: 0,0:53:39.84,0:53:42.30,Haruka - Top,,0,0,0,,Now each of them looks up, it's like the steps—
-Dialogue: 0,0:53:42.30,0:53:44.45,Haruka - Top,,0,0,0,,Then here—
-Dialogue: 0,0:53:44.45,0:53:46.34,Haruka - Top,,0,0,0,,Look, look, it's really subtle.
-Dialogue: 0,0:53:46.34,0:53:48.06,Haruka - Top,,0,0,0,,Come on, come on...
-Dialogue: 0,0:53:48.06,0:53:49.04,Haruka - Top,,0,0,0,,And then they all as one—
-Dialogue: 0,0:53:49.04,0:53:50.24,Haruka - Top,,0,0,0,,Fantastic.
-Dialogue: 0,0:53:50.24,0:53:53.78,Haruka - Top,,0,0,0,,Hahaha!
-Dialogue: 0,0:53:53.78,0:53:56.82,Haruka - Top,,0,0,0,,This part was so good!
-Dialogue: 0,0:53:56.82,0:54:00.08,Haruka - Top,,0,0,0,,The first time I watched the video, I was like "What's that up there?"
-Dialogue: 0,0:54:02.15,0:54:06.17,Haruka - Top,,0,0,0,,Back when the 3DMVs were just the on-stage dancing,
-Dialogue: 0,0:54:06.17,0:54:09.73,Haruka - Top,,0,0,0,,they did a great job of showing what the whole performance might have looked like.
-Dialogue: 0,0:54:09.73,0:54:13.17,Haruka - Top,,0,0,0,,I definitely loved those back then,
-Dialogue: 0,0:54:13.17,0:54:16.98,Haruka - Top,,0,0,0,,but the recent ones are incredible!
-Dialogue: 0,0:54:16.98,0:54:20.54,Haruka - Top,,0,0,0,,I mean, they're like whole music videos now.
-Dialogue: 0,0:54:20.54,0:54:24.05,Haruka - Top,,0,0,0,,They tell more of a whole story around the song and lyrics.
-Dialogue: 0,0:54:24.05,0:54:27.88,Haruka - Top,,0,0,0,,And that helps you understand
-Dialogue: 0,0:54:27.88,0:54:30.57,Haruka - Top,,0,0,0,,The lighting was incredible in this one too.
-Dialogue: 0,0:54:30.57,0:54:34.08,Haruka - Top,,0,0,0,,We saw the same thing in the card arts too,
-Dialogue: 0,0:54:34.08,0:54:36.29,Haruka - Top,,0,0,0,,but the illumination from the shooting stars,
-Dialogue: 0,0:54:36.29,0:54:39.01,Haruka - Top,,0,0,0,,plus that thing shining from behind? The halo?
-Dialogue: 0,0:54:39.01,0:54:40.06,Haruka - Top,,0,0,0,,What exactly was it?
-Dialogue: 0,0:54:40.06,0:54:42.20,Haruka - Top,,0,0,0,,It looked amazing!
-Dialogue: 0,0:54:42.20,0:54:45.12,Haruka - Top,,0,0,0,,The whole thing was amazing!
-Dialogue: 0,0:54:45.12,0:54:48.10,Haruka - Top,,0,0,0,,I'm just so hopeless.  I could just watch this forever.
-Dialogue: 0,0:54:50.57,0:54:52.96,Haruka - Top,,0,0,0,,Next time you watch this,
-Dialogue: 0,0:54:52.96,0:54:55.63,Haruka - Top,,0,0,0,,make sure to watch out for Airi blowing you a kiss,
-Dialogue: 0,0:54:55.63,0:54:58.08,Haruka - Top,,0,0,0,,and Haruka's wink.
-Dialogue: 0,0:54:58.08,0:55:00.25,Haruka - Top,,0,0,0,,Anyone oshi-ing them, do check those out.
-Dialogue: 0,0:55:02.13,0:55:03.22,Haruka - Top,,0,0,0,,Ah, so pretty.
-Dialogue: 0,0:55:03.22,0:55:07.92,Haruka - Top,,0,0,0,,The MV makes— the outfits look great in the MV as well.
-Dialogue: 0,0:55:07.92,0:55:11.26,Haruka - Top,,0,0,0,,Ah, I'm done. Watched too many times. Thank you.
-Dialogue: 0,0:55:12.61,0:55:15.79,Haruka - Top,,0,0,0,,Right, we should move onto talking about the song itself.
-Dialogue: 0,0:55:16.47,0:55:20.72,Haruka - Top,,0,0,0,,So speaking of "Polar Star",
-Dialogue: 0,0:55:20.72,0:55:24.47,Haruka - Top,,0,0,0,,Haruka’s evets have definitely had a streak of "cool" songs lately.
-Dialogue: 0,0:55:24.47,0:55:32.13,Haruka - Top,,0,0,0,,So I excited to see what kind of song we'd see this time around.
-Dialogue: 0,0:55:32.13,0:55:37.31,Haruka - Top,,0,0,0,,Looking at the last two songs, I realized that "cool" can come in many varieties,
-Dialogue: 0,0:55:37.31,0:55:40.31,Haruka - Top,,0,0,0,,so I thought, there's a lot more to explore within the range of "cool".
-Dialogue: 0,0:55:40.31,0:55:44.59,Haruka - Top,,0,0,0,,And so I saw this song as representing "cool through beauty".
-Dialogue: 0,0:55:44.59,0:55:47.76,Haruka - Top,,0,0,0,,It was this very refined coolness that felt really fresh.
-Dialogue: 0,0:55:47.76,0:55:51.60,Haruka - Top,,0,0,0,,It blew me away the first time I heard it.
-Dialogue: 0,0:55:51.60,0:55:53.62,Haruka - Top,,0,0,0,,Especially since—
-Dialogue: 0,0:55:53.62,0:55:58.90,Haruka - Top,,0,0,0,,'Haruka's previous songs have very beautiful harmonies.
-Dialogue: 0,0:55:58.90,0:56:00.75,Haruka - Top,,0,0,0,,That's one thing.
-Dialogue: 0,0:56:00.75,0:56:05.48,Haruka - Top,,0,0,0,,But those parts everyone comes in one by one, layering harmonies on top of each other,
-Dialogue: 0,0:56:05.48,0:56:09.55,Haruka - Top,,0,0,0,,All the small steps MMJ are taking in recent events,
-Dialogue: 0,0:56:09.55,0:56:12.54,Haruka - Top,,0,0,0,,leading them to success and seeing real results;
-Dialogue: 0,0:56:12.54,0:56:17.60,Haruka - Top,,0,0,0,,I think this song captures all of that really well.
-Dialogue: 0,0:56:17.60,0:56:21.73,Haruka - Top,,0,0,0,,The harmonies throughout the song are also so good.
-Dialogue: 0,0:56:21.73,0:56:25.94,Haruka - Top,,0,0,0,,They layered together so many different vocal lines to create those.
-Dialogue: 0,0:56:25.94,0:56:30.01,Haruka - Top,,0,0,0,,Both in the parts where they sing individually, and going into each chorus,
-Dialogue: 0,0:56:30.01,0:56:34.85,Haruka - Top,,0,0,0,,Try going back and listen closely to all those different vocal layers.
-Dialogue: 0,0:56:34.85,0:56:39.88,Haruka - Top,,0,0,0,,As for recording, what I tried to keep in mind most during recording...
-Dialogue: 0,0:56:39.88,0:56:42.29,Haruka - Top,,0,0,0,,well first of all, was trying not to cry!
-Dialogue: 0,0:56:42.29,0:56:45.39,Haruka - Top,,0,0,0,,Trying to keep composed during those parts—
-Dialogue: 0,0:56:45.39,0:56:48.14,Haruka - Top,,0,0,0,,We're idols, so our job is to deliver hope.
-Dialogue: 0,0:56:48.14,0:56:50.54,Haruka - Top,,0,0,0,,So we ourselves mustn't cry.
-Dialogue: 0,0:56:50.54,0:56:53.48,Haruka - Top,,0,0,0,,But this is a song reminiscing on all that they've been through,
-Dialogue: 0,0:56:53.48,0:57:00.80,Haruka - Top,,0,0,0,,as well as reaffirming their drive to keep pushing forward.
-Dialogue: 0,0:57:00.80,0:57:04.68,Haruka - Top,,0,0,0,,So there's a balance being struck between this cool, noble feeling,
-Dialogue: 0,0:57:04.68,0:57:07.83,Haruka - Top,,0,0,0,,while at the same time portraying an emotional nostalgia.
-Dialogue: 0,0:57:07.83,0:57:10.48,Haruka - Top,,0,0,0,,That's what makes this song so wonderful.
-Dialogue: 0,0:57:10.48,0:57:13.81,Haruka - Top,,0,0,0,,That's what I wrote. Here in my notebook.
-Dialogue: 0,0:57:13.81,0:57:16.94,Haruka - Top,,0,0,0,,Alright, and also,
-Dialogue: 0,0:57:16.94,0:57:20.27,Haruka - Top,,0,0,0,,there's also going to be a 2DMV.
-Dialogue: 0,0:57:20.27,0:57:20.96,Haruka - Top,,0,0,0,,Says here.
-Dialogue: 0,0:57:20.96,0:57:23.86,Haruka - Top,,0,0,0,,So it'll probably also be a full version.
-Dialogue: 0,0:57:23.86,0:57:30.04,Haruka - Top,,0,0,0,,That'll include parts that you don't see here in the 3DMV,
-Dialogue: 0,0:57:30.04,0:57:34.39,Haruka - Top,,0,0,0,,So try listening to both and seeing what's different.
-Dialogue: 0,0:57:34.39,0:57:40.80,Haruka - Top,,0,0,0,,Specifically, the singing in last chorus might give you a bit of a different impression from the rest.
-Dialogue: 0,0:57:40.80,0:57:42.52,Haruka - Top,,0,0,0,,So please do try listening to it.
-Dialogue: 0,0:57:42.52,0:57:45.44,Haruka - Top,,0,0,0,,On a personal note,
-Dialogue: 0,0:57:45.44,0:57:52.58,Haruka - Top,,0,0,0,,I, Mayu Yoshioka, have actually written lyrics for a song themed around the North Star before.
-Dialogue: 0,0:57:52.58,0:57:56.94,Haruka - Top,,0,0,0,,"Polar Star" meaning the same thing as the North Star.
-Dialogue: 0,0:57:56.94,0:58:02.40,Haruka - Top,,0,0,0,,But "idols" and "stars", especially the North Star,
-Dialogue: 0,0:58:02.40,0:58:04.92,Haruka - Top,,0,0,0,,have this natural connection to each other.
-Dialogue: 0,0:58:04.92,0:58:08.15,Haruka - Top,,0,0,0,,When I was writing those lyrics,
-Dialogue: 0,0:58:08.15,0:58:12.90,Haruka - Top,,0,0,0,,I thought of it taking the meaning of a landmark, as a guiding light for someone.
-Dialogue: 0,0:58:12.90,0:58:17.78,Haruka - Top,,0,0,0,,You know, North Star, the brightest one in the night sky.
-Dialogue: 0,0:58:17.78,0:58:22.12,Haruka - Top,,0,0,0,,And using its meaning as guiding light,
-Dialogue: 0,0:58:22.12,0:58:28.31,Haruka - Top,,0,0,0,,that represents this feeling of "just watch me" or "find me" really well.
-Dialogue: 0,0:58:28.31,0:58:29.26,Haruka - Top,,0,0,0,,That's the North Star.
-Dialogue: 0,0:58:29.26,0:58:31.46,Haruka - Top,,0,0,0,,And that—
-Dialogue: 0,0:58:31.46,0:58:37.46,Haruka - Top,,0,0,0,,For MMJ's story, especially in this Lumina Grand Prix arc,
-Dialogue: 0,0:58:37.46,0:58:41.18,Haruka - Top,,0,0,0,,That really resonates with finding the image of what an idol should be.
-Dialogue: 0,0:58:41.18,0:58:46.58,Haruka - Top,,0,0,0,,I thought, "Yeah, that's part of their story". Think I mentioned this before.
-Dialogue: 0,0:58:46.58,0:58:53.43,Haruka - Top,,0,0,0,,It's part of an idol's storytelling. That story an idol creates together with their fans,
-Dialogue: 0,0:58:53.43,0:58:56.46,Haruka - Top,,0,0,0,,that guiding light is a huge part of it.
-Dialogue: 0,0:58:56.46,0:58:59.00,Haruka - Top,,0,0,0,,The lyricist definitely—
-Dialogue: 0,0:58:59.00,0:59:00.66,Haruka - Top,,0,0,0,,you feel the same thing from the lyrics—
-Dialogue: 0,0:59:03.90,0:59:07.79,Haruka - Top,,0,0,0,,Yeah, definitely emotional.
-Dialogue: 0,0:59:07.79,0:59:13.96,Haruka - Top,,0,0,0,,Sorry for ranting on about a personal experience like this,
-Dialogue: 0,0:59:20.18,0:59:24.04,Haruka - Top,,0,0,0,,I'm glad I trusted in my feelings back then.
-Dialogue: 0,0:59:13.96,0:59:20.18,Haruka - Top,,0,0,0,,but knowing "ah, I wasn't alone in those feelings", it felt really validating.
-Dialogue: 0,0:59:24.04,0:59:32.19,Haruka - Top,,0,0,0,,My feelings towards idols, the way I think about them, and of course everything that Haruka has taught be about me about being an idol—
-Dialogue: 0,0:59:32.19,0:59:34.10,Haruka - Top,,0,0,0,,knowing I wasn't wrong in any of that,
-Dialogue: 0,0:59:34.10,0:59:37.50,Haruka - Top,,0,0,0,,and where MMJ goes from here...
-Dialogue: 0,0:59:37.50,0:59:43.38,Haruka - Top,,0,0,0,,Being able to reaffirm that all to myself all my thoughts on what it means to be an idol,
-Dialogue: 0,0:59:43.38,0:59:45.37,Haruka - Top,,0,0,0,,I think this song really helped me to do that.
-Dialogue: 0,0:59:45.37,0:59:52.62,Haruka - Top,,0,0,0,,I'm grateful we had such wonderful lyrics written for us.
-Dialogue: 0,0:59:52.62,0:59:57.58,Haruka - Top,,0,0,0,,The "stars" theming has been mostly Leo/need up to this point, right?
-Dialogue: 0,0:59:57.58,1:00:00.74,Haruka - Top,,0,0,0,,For ProSeka, they're kind of the owners of that.
-Dialogue: 0,1:00:00.74,1:00:05.26,Haruka - Top,,0,0,0,,I think the other users have all been kind of avoiding the overlap in theme.
-Dialogue: 0,1:00:05.26,1:00:10.73,Haruka - Top,,0,0,0,,But this time
-Dialogue: 0,1:00:10.73,1:00:13.73,Haruka - Top,,0,0,0,,
+Dialogue: 0,0:52:18.21,0:52:20.16,Haruka - Song,,0,0,0,,So good...
+Dialogue: 0,0:52:21.36,0:52:24.15,Haruka - Song,,0,0,0,,That was Polar Star.
+Dialogue: 0,0:52:26.81,0:52:28.35,Haruka - Song,,0,0,0,,So good!
+Dialogue: 0,0:52:28.35,0:52:30.24,Haruka - Song,,0,0,0,,I love everything about it!
+Dialogue: 0,0:52:30.24,0:52:33.81,Haruka - Song,,0,0,0,,Eh, ah, umm, yeah right here.
+Dialogue: 0,0:52:34.18,0:52:38.82,Haruka - Song,,0,0,0,,Right here, their expressions each change one by one.
+Dialogue: 0,0:52:38.82,0:52:42.72,Haruka - Song,,0,0,0,,And this is from the side of the stage, fans normally can't see them from there.
+Dialogue: 0,0:52:42.72,0:52:45.88,Haruka - Song,,0,0,0,,But RIGHT HERE THE SHOT FROM BEHIND INTO THAT LOOK
+Dialogue: 0,0:52:45.88,0:52:48.03,Haruka - Song,,0,0,0,,Right?
+Dialogue: 0,0:52:48.03,0:52:49.18,Haruka - Song,,0,0,0,,Right there!
+Dialogue: 0,0:52:49.18,0:52:53.26,Haruka - Song,,0,0,0,,This is what everyone's talking about, right? That part right there.
+Dialogue: 0,0:52:53.26,0:52:54.52,Haruka - Song,,0,0,0,,So that's what you all mean.
+Dialogue: 0,0:52:54.52,0:52:56.32,Haruka - Song,,0,0,0,,Yeah yeah, right there.
+Dialogue: 0,0:52:56.32,0:52:59.09,Haruka - Song,,0,0,0,,Ahhhh way too good.
+Dialogue: 0,0:52:59.09,0:53:04.72,Haruka - Song,,0,0,0,,I mean come on. The quality of the MVs nowadays is just so good.
+Dialogue: 0,0:53:04.72,0:53:07.58,Haruka - Song,,0,0,0,,Right? They've come so far.
+Dialogue: 0,0:53:07.58,0:53:08.94,Haruka - Song,,0,0,0,,Look look, right here.
+Dialogue: 0,0:53:08.94,0:53:10.44,Haruka - Song,,0,0,0,,Hold up— right here—
+Dialogue: 0,0:53:10.44,0:53:11.40,Haruka - Song,,0,0,0,,Hahaha!
+Dialogue: 0,0:53:13.26,0:53:15.63,Haruka - Song,,0,0,0,,They look so good in sync like this—
+Dialogue: 0,0:53:15.63,0:53:16.55,Haruka - Song,,0,0,0,,yeah this part!
+Dialogue: 0,0:53:18.46,0:53:21.26,Haruka - Song,,0,0,0,,THIS PART TOO
+Dialogue: 0,0:53:21.26,0:53:26.46,Haruka - Song,,0,0,0,,Ah, the night sky scenery, so pretty. Beautiful.
+Dialogue: 0,0:53:26.46,0:53:30.58,Haruka - Song,,0,0,0,,The— ah! Look at the shooting stars! So good.
+Dialogue: 0,0:53:30.58,0:53:32.43,Haruka - Song,,0,0,0,,And wait for it— this part!
+Dialogue: 0,0:53:32.43,0:53:33.83,Haruka - Song,,0,0,0,,Right here!
+Dialogue: 0,0:53:33.83,0:53:35.12,Haruka - Song,,0,0,0,,Hahaha!
+Dialogue: 0,0:53:35.12,0:53:36.10,Haruka - Song,,0,0,0,,And then—
+Dialogue: 0,0:53:36.10,0:53:39.10,Haruka - Song,,0,0,0,,And then they change formation,
+Dialogue: 0,0:53:39.10,0:53:39.84,Haruka - Song,,0,0,0,,yep.
+Dialogue: 0,0:53:39.84,0:53:42.30,Haruka - Song,,0,0,0,,Now each of them looks up, and— it's the steps—
+Dialogue: 0,0:53:42.30,0:53:44.45,Haruka - Song,,0,0,0,,Then here—
+Dialogue: 0,0:53:44.45,0:53:46.34,Haruka - Song,,0,0,0,,Look, look, it's really subtle.
+Dialogue: 0,0:53:46.34,0:53:48.06,Haruka - Song,,0,0,0,,Come on, come on...
+Dialogue: 0,0:53:48.06,0:53:49.04,Haruka - Song,,0,0,0,,And then they all—
+Dialogue: 0,0:53:49.04,0:53:50.24,Haruka - Song,,0,0,0,,Fantastic.
+Dialogue: 0,0:53:50.24,0:53:53.78,Haruka - Song,,0,0,0,,Hahaha!
+Dialogue: 0,0:53:53.78,0:53:56.82,Haruka - Song,,0,0,0,,This part was so good!
+Dialogue: 0,0:53:56.82,0:54:00.08,Haruka - Song,,0,0,0,,The first time I watched the video, I was like "What's that up there?"
+Dialogue: 0,0:54:02.15,0:54:06.17,Haruka - Song,,0,0,0,,Back when the 3DMVs were just the on-stage dancing,
+Dialogue: 0,0:54:06.17,0:54:09.73,Haruka - Song,,0,0,0,,they did a great job of showing what the whole performance might have looked like.
+Dialogue: 0,0:54:09.73,0:54:13.17,Haruka - Song,,0,0,0,,I definitely loved those back then,
+Dialogue: 0,0:54:13.17,0:54:16.98,Haruka - Song,,0,0,0,,but the recent ones are incredible!
+Dialogue: 0,0:54:16.98,0:54:20.54,Haruka - Song,,0,0,0,,I mean, they're like whole music videos now.
+Dialogue: 0,0:54:20.54,0:54:27.88,Haruka - Song,,0,0,0,,They're to a point now where tell can more of a whole story around the song and lyrics.
+Dialogue: 0,0:54:27.88,0:54:30.57,Haruka - Song,,0,0,0,,The lighting was incredible in this one too.
+Dialogue: 0,0:54:30.57,0:54:34.08,Haruka - Song,,0,0,0,,We saw the same thing in the card arts,
+Dialogue: 0,0:54:34.08,0:54:36.29,Haruka - Song,,0,0,0,,but the lighting from those stars flying around,
+Dialogue: 0,0:54:36.29,0:54:39.01,Haruka - Song,,0,0,0,,plus that light shining from behind? The halo?
+Dialogue: 0,0:54:39.01,0:54:40.06,Haruka - Song,,0,0,0,,What exactly was it?
+Dialogue: 0,0:54:40.06,0:54:42.20,Haruka - Song,,0,0,0,,Whatever it was, it looked amazing!
+Dialogue: 0,0:54:42.20,0:54:45.12,Haruka - Song,,0,0,0,,The whole thing was amazing!
+Dialogue: 0,0:54:45.12,0:54:48.10,Haruka - Song,,0,0,0,,I'm just so hopeless.  I could just watch this forever.
+Dialogue: 0,0:54:50.57,0:54:52.96,Haruka - Song,,0,0,0,,Next time you watch this,
+Dialogue: 0,0:54:52.96,0:54:55.63,Haruka - Song,,0,0,0,,definitely watch out for Airi blowing a kiss,
+Dialogue: 0,0:54:55.63,0:54:58.08,Haruka - Song,,0,0,0,,and Haruka's wink.
+Dialogue: 0,0:54:58.08,0:55:02.13,Haruka - Song,,0,0,0,,Try thinking of them as your oshis.
+Dialogue: 0,0:55:02.13,0:55:03.22,Haruka - Song,,0,0,0,,Ah, so pretty.
+Dialogue: 0,0:55:03.22,0:55:07.92,Haruka - Song,,0,0,0,,The MV makes— the outfits look great in the MV as well.
+Dialogue: 0,0:55:07.92,0:55:11.26,Haruka - Song,,0,0,0,,Ah, I'm done. Watched too many times. Thank you.
+Dialogue: 0,0:55:12.61,0:55:15.79,Haruka - Song,,0,0,0,,Right, we should move onto talking about the song itself.
+Dialogue: 0,0:55:16.47,0:55:20.72,Haruka - Song,,0,0,0,,So speaking of "Polar Star",
+Dialogue: 0,0:55:20.72,0:55:24.47,Haruka - Song,,0,0,0,,Haruka’s events have definitely had a streak of "cool" songs lately.
+Dialogue: 0,0:55:24.47,0:55:32.13,Haruka - Song,,0,0,0,,So I excited to see what kind of song we'd see this time around.
+Dialogue: 0,0:55:32.13,0:55:37.31,Haruka - Song,,0,0,0,,Looking at the last two songs, I realized that "cool" can come in many varieties,
+Dialogue: 0,0:55:37.31,0:55:40.31,Haruka - Song,,0,0,0,,so I thought, there's a lot more to explore in the "cool" of idols.
+Dialogue: 0,0:55:40.31,0:55:44.59,Haruka - Song,,0,0,0,,And so I first saw this song as representing "cool through beauty",
+Dialogue: 0,0:55:44.59,0:55:47.76,Haruka - Song,,0,0,0,,Its refined coolness felt really fresh,
+Dialogue: 0,0:55:47.76,0:55:51.60,Haruka - Song,,0,0,0,,and it totally blew me away the first time I heard it.
+Dialogue: 0,0:55:51.60,0:55:53.62,Haruka - Song,,0,0,0,,Especially since—
+Dialogue: 0,0:55:53.62,0:55:58.90,Haruka - Song,,0,0,0,,'Haruka's previous songs have very beautiful harmonies.
+Dialogue: 0,0:55:58.90,0:56:00.75,Haruka - Song,,0,0,0,,That's one thing.
+Dialogue: 0,0:56:00.75,0:56:05.48,Haruka - Song,,0,0,0,,But there's also those parts everyone comes in one by one, layering harmonies on top of each other.
+Dialogue: 0,0:56:05.48,0:56:09.55,Haruka - Song,,0,0,0,,All the small steps MMJ are taking in recent events,
+Dialogue: 0,0:56:09.55,0:56:12.54,Haruka - Song,,0,0,0,,leading them to success and seeing real results;
+Dialogue: 0,0:56:12.54,0:56:17.60,Haruka - Song,,0,0,0,,I think those layered harmonies captures all of that really well.
+Dialogue: 0,0:56:17.60,0:56:21.73,Haruka - Song,,0,0,0,,The harmonies throughout the song are also so good.
+Dialogue: 0,0:56:21.73,0:56:25.94,Haruka - Song,,0,0,0,,They layered together so many different vocal lines to create those,
+Dialogue: 0,0:56:25.94,0:56:30.01,Haruka - Song,,0,0,0,,both in the parts where they sing individually, and going into each chorus.
+Dialogue: 0,0:56:30.01,0:56:34.85,Haruka - Song,,0,0,0,,Try going back and listen closely to all those different vocal layers.
+Dialogue: 0,0:56:34.85,0:56:39.88,Haruka - Song,,0,0,0,,As for the recording, what I tried to keep in mind...
+Dialogue: 0,0:56:39.88,0:56:42.29,Haruka - Song,,0,0,0,,well first of all, was trying not to cry!
+Dialogue: 0,0:56:42.29,0:56:45.39,Haruka - Song,,0,0,0,,Trying to keep composed during those parts—
+Dialogue: 0,0:56:45.39,0:56:48.14,Haruka - Song,,0,0,0,,We're idols, so our job is to deliver hope.
+Dialogue: 0,0:56:48.14,0:56:50.54,Haruka - Song,,0,0,0,,So we ourselves mustn't cry.
+Dialogue: 0,0:56:50.54,0:56:53.48,Haruka - Song,,0,0,0,,But this is a song reminiscing on all that they've been through,
+Dialogue: 0,0:56:53.48,0:57:00.80,Haruka - Song,,0,0,0,,as well as reaffirming their drive to keep pushing forward.
+Dialogue: 0,0:57:00.80,0:57:04.68,Haruka - Song,,0,0,0,,So there's a balance being struck between this cool, noble feeling,
+Dialogue: 0,0:57:04.68,0:57:07.83,Haruka - Song,,0,0,0,,while at the same time portraying an emotional nostalgia.
+Dialogue: 0,0:57:07.83,0:57:10.48,Haruka - Song,,0,0,0,,That's what makes this song so wonderful.
+Dialogue: 0,0:57:10.48,0:57:13.81,Haruka - Song,,0,0,0,,That's what I wrote. Here in my notebook.
+Dialogue: 0,0:57:13.81,0:57:16.94,Haruka - Song,,0,0,0,,Alright, and also,
+Dialogue: 0,0:57:16.94,0:57:20.27,Haruka - Song,,0,0,0,,there's also going to be a 2DMV.
+Dialogue: 0,0:57:20.27,0:57:20.96,Haruka - Song,,0,0,0,,Says here.
+Dialogue: 0,0:57:20.96,0:57:23.86,Haruka - Song,,0,0,0,,So it'll probably also be a full version.
+Dialogue: 0,0:57:23.86,0:57:30.04,Haruka - Song,,0,0,0,,That'll include parts that you don't see here in the 3DMV,
+Dialogue: 0,0:57:30.04,0:57:34.39,Haruka - Song,,0,0,0,,So try listening to both and seeing what's different.
+Dialogue: 0,0:57:34.39,0:57:40.80,Haruka - Song,,0,0,0,,Specifically, the singing in last chorus might have a bit of a different feel from the rest.
+Dialogue: 0,0:57:40.80,0:57:42.52,Haruka - Song,,0,0,0,,So please do try listening to it.
+Dialogue: 0,0:57:42.52,0:57:45.44,Haruka - Song,,0,0,0,,With that, actually, on a personal note,
+Dialogue: 0,0:57:45.44,0:57:48.32,Haruka - Song,,0,0,0,,I, Mayu Yoshioka, have actually written lyrics for a song
+Dialogue: 0,0:57:48.32,0:57:52.58,Haruka - Song,,0,0,0,,themed around the North Star before.
+Dialogue: 0,0:57:52.58,0:57:56.94,Haruka - Song,,0,0,0,,"Polar Star" meaning the same thing as the North Star.
+Dialogue: 0,0:57:56.94,0:58:02.40,Haruka - Song,,0,0,0,,But "idols" and "stars", especially the North Star,
+Dialogue: 0,0:58:02.40,0:58:04.92,Haruka - Song,,0,0,0,,have this natural connection to each other.
+Dialogue: 0,0:58:04.92,0:58:08.15,Haruka - Song,,0,0,0,,When I was writing those lyrics,
+Dialogue: 0,0:58:08.15,0:58:12.90,Haruka - Song,,0,0,0,,I thought of it taking the meaning of a landmark, as a guiding light for someone.
+Dialogue: 0,0:58:12.90,0:58:17.78,Haruka - Song,,0,0,0,,You know, since the North Star is the brightest in the night sky,
+Dialogue: 0,0:58:17.78,0:58:22.12,Haruka - Song,,0,0,0,,using that to represent a guiding light for others.
+Dialogue: 0,0:58:22.12,0:58:28.31,Haruka - Song,,0,0,0,,It represents this feeling of "just watch me" or "find me" really well.
+Dialogue: 0,0:58:28.31,0:58:29.26,Haruka - Song,,0,0,0,,That's the North Star.
+Dialogue: 0,0:58:29.26,0:58:31.46,Haruka - Song,,0,0,0,,And that—
+Dialogue: 0,0:58:31.46,0:58:37.46,Haruka - Song,,0,0,0,,For MMJ's story, especially in this Lumina Grand Prix arc,
+Dialogue: 0,0:58:37.46,0:58:41.18,Haruka - Song,,0,0,0,,that really resonates with finding the image of what an idol should be.
+Dialogue: 0,0:58:41.18,0:58:46.58,Haruka - Song,,0,0,0,,I thought, "Yeah, that's part of their story". Think I mentioned this before.
+Dialogue: 0,0:58:46.58,0:58:53.43,Haruka - Song,,0,0,0,,It's part of an idol's storytelling. That story an idol creates together with their fans,
+Dialogue: 0,0:58:53.43,0:58:56.46,Haruka - Song,,0,0,0,,that guiding light is a huge part of it.
+Dialogue: 0,0:58:56.46,0:58:59.00,Haruka - Song,,0,0,0,,The lyricist definitely—
+Dialogue: 0,0:58:59.00,0:59:00.80,Haruka - Song,,0,0,0,,you feel the same thing from the lyrics—
+Dialogue: 0,0:59:03.90,0:59:07.79,Haruka - Song,,0,0,0,,Yeah, definitely emotional.
+Dialogue: 0,0:59:07.79,0:59:11.95,Haruka - Song,,0,0,0,,Sorry for ranting on about a personal experience like this,
+Dialogue: 0,0:59:11.95,0:59:13.96,Haruka - Song,,0,0,0,,but after seeing the title and the lyrics,
+Dialogue: 0,0:59:13.96,0:59:20.18,Haruka - Song,,0,0,0,,I felt like "ah, I wasn't alone in those feelings". It was really validating.
+Dialogue: 0,0:59:20.18,0:59:24.04,Haruka - Song,,0,0,0,,I'm glad I trusted in my feelings back then.
+Dialogue: 0,0:59:24.04,0:59:30.42,Haruka - Song,,0,0,0,,My feelings towards idols, the way I think about them,
+Dialogue: 0,0:59:30.42,0:59:32.19,Haruka - Song,,0,0,0,,everything that Haruka's taught me,
+Dialogue: 0,0:59:32.19,0:59:34.10,Haruka - Song,,0,0,0,,knowing I wasn't wrong in any of that,
+Dialogue: 0,0:59:34.10,0:59:37.50,Haruka - Song,,0,0,0,,and where MMJ goes from here...
+Dialogue: 0,0:59:37.50,0:59:43.38,Haruka - Song,,0,0,0,,Being able to reaffirm to myself all my thoughts on what it means to be an idol,
+Dialogue: 0,0:59:43.38,0:59:45.37,Haruka - Song,,0,0,0,,I think this song really helped me to do that.
+Dialogue: 0,0:59:45.37,0:59:52.62,Haruka - Song,,0,0,0,,I'm grateful we had such wonderful lyrics written for us.
+Dialogue: 0,0:59:52.62,0:59:57.58,Haruka - Song,,0,0,0,,The "stars" theming has been mostly for Leo/need up to this point, right?
+Dialogue: 0,0:59:57.58,1:00:00.74,Haruka - Song,,0,0,0,,As far as ProSeka goes, that's kind of been their thing.
+Dialogue: 0,1:00:00.74,1:00:05.26,Haruka - Song,,0,0,0,,I think the other units have all been kind of avoiding the overlap in theme.
+Dialogue: 0,1:00:05.26,1:00:09.13,Haruka - Song,,0,0,0,,But now that the characters and stories are pretty well established,
+Dialogue: 0,1:00:09.13,1:00:15.72,Haruka - Song,,0,0,0,,as a challenge, they mentioned that they wanted MMJ to try taking on a star theme.
+Dialogue: 0,1:00:15.72,1:00:17.87,Haruka - Song,,0,0,0,,And so...
+Dialogue: 0,1:00:17.87,1:00:22.62,Haruka - Song,,0,0,0,,Haruka being entrusted to take on a challenge like this,
+Dialogue: 0,1:00:22.62,1:00:24.63,Haruka - Song,,0,0,0,,at such an important point in the story,
+Dialogue: 0,1:00:24.63,1:00:27.53,Haruka - Song,,0,0,0,,I just couldn't be more glad.
+Dialogue: 0,1:00:29.90,1:00:32.34,Haruka - Song,,0,0,0,,There was still some more I wanted to talk about...
+Dialogue: 0,1:00:35.24,1:00:36.05,Haruka - Song,,0,0,0,,Oh yeah.
+Dialogue: 0,1:00:36.05,1:00:41.10,Haruka - Song,,0,0,0,,I think my absolute favorite part of the song was the harmonies,
+Dialogue: 0,1:00:41.10,1:00:42.80,Haruka - Song,,0,0,0,,and that part going into the ending...
+Dialogue: 0,1:00:44.44,1:00:47.10,Haruka - Song,,0,0,0,,where the singing changes in the final chorus.
+Dialogue: 0,1:00:47.10,1:00:51.33,Haruka - Song,,0,0,0,,so definitely check out the differences between the 2DMV full version and the 3DMV.
+Dialogue: 0,1:00:51.33,1:00:52.19,Haruka - Song,,0,0,0,,Speaking of that,
+Dialogue: 0,1:00:52.19,1:00:56.62,Haruka - Song,,0,0,0,,the 2DMV and 3DMV are now on the official ProSeka YouTube channel.
+Dialogue: 0,1:00:56.62,1:01:00.36,Haruka - Song,,0,0,0,,I've been talking so long that they've already been released.
+Dialogue: 0,1:01:00.36,1:01:03.15,Haruka - Song,,0,0,0,,So please check them out there.
+Dialogue: 0,1:01:05.53,1:01:07.63,Haruka - Song,,0,0,0,,It's just so good...
+Dialogue: 0,1:01:07.63,1:01:11.29,Haruka,,0,0,0,,Even all the stage decorations looked really good...
+Dialogue: 0,1:01:11.29,1:01:14.91,Haruka,,0,0,0,,So with that, that felt only like a short time,
+Dialogue: 0,1:01:14.91,1:01:18.27,Haruka,,0,0,0,,but this ProSeka AfterTalk "This story continues with hope" Edition
+Dialogue: 0,1:01:18.27,1:01:20.80,Haruka,,0,0,0,,is coming to a close.
+Dialogue: 0,1:01:20.80,1:01:22.84,Haruka,,0,0,0,,Let's close out by reading some comments.
+Dialogue: 0,1:01:29.96,1:01:32.71,Haruka,,0,0,0,,Sorry, I feel like I was only saying "so good".
+Dialogue: 0,1:01:34.67,1:01:39.13,Haruka,,0,0,0,,I'm so glad we had a chance to all watch the 3DMV together.
+Dialogue: 0,1:01:39.13,1:01:41.30,Haruka,,0,0,0,,That was really fun,
+Dialogue: 0,1:01:41.30,1:01:44.35,Haruka,,0,0,0,,and also being able to read all your comments in real time.
+Dialogue: 0,1:01:44.35,1:01:48.10,Haruka,,0,0,0,,I really enjoy being able to spend time with you all.
+Dialogue: 0,1:01:50.94,1:01:53.13,Haruka,,0,0,0,,Sorry for all the otaku speak.
+Dialogue: 0,1:01:53.13,1:01:56.56,Haruka,,0,0,0,,Probably couldn't make out lots of what I said. Sorry about that.
+Dialogue: 0,1:01:53.13,1:01:56.56,Note,,0,0,0,,You're telling me...
+Dialogue: 0,1:01:59.46,1:02:00.97,Haruka,,0,0,0,,"Haruka is so cool."
+Dialogue: 0,1:02:00.97,1:02:03.10,Haruka,,0,0,0,,Indeed, Haruka is very cool.
+Dialogue: 0,1:02:03.10,1:02:05.17,Haruka,,0,0,0,,You know, I bet,
+Dialogue: 0,1:02:05.17,1:02:07.58,Haruka,,0,0,0,,Haruka will get more unbelievably cool from here.
+Dialogue: 0,1:02:07.58,1:02:09.28,Haruka,,0,0,0,,I believe she will.
+Dialogue: 0,1:02:09.28,1:02:14.65,Haruka,,0,0,0,,Especially now, I think she'll continue to establish herself as a producer.
+Dialogue: 0,1:02:14.65,1:02:19.50,Haruka,,0,0,0,,Actually, I'm not sure why, but after reading the recent MMJ stories,
+Dialogue: 0,1:02:19.50,1:02:21.12,Haruka,,0,0,0,,I'm not nervous for them at all.
+Dialogue: 0,1:02:21.12,1:02:25.95,Haruka,,0,0,0,,If anything, I feel excited... more than anything else.
+Dialogue: 0,1:02:25.95,1:02:27.66,Haruka,,0,0,0,,I don't feel worried at all.
+Dialogue: 0,1:02:27.66,1:02:30.60,Haruka,,0,0,0,,And I think that's because everyone— everyone in MMJ,
+Dialogue: 0,1:02:30.60,1:02:33.60,Haruka,,0,0,0,,is so devoted to their mission to deliver hope,
+Dialogue: 0,1:02:33.60,1:02:39.02,Haruka,,0,0,0,,and they just keep pushing forward towards their goals for the sake of their fans.
+Dialogue: 0,1:02:39.02,1:02:40.81,Haruka,,0,0,0,,Now that I think about it,
+Dialogue: 0,1:02:40.81,1:02:45.33,Haruka,,0,0,0,,it almost feels nostagic remember how nervous I was for them.
+Dialogue: 0,1:02:45.33,1:02:46.84,Haruka,,0,0,0,,But now,
+Dialogue: 0,1:02:46.84,1:02:51.38,Haruka,,0,0,0,,I look at them thinking "I wonder what kind of hope they're going to bring this time."
+Dialogue: 0,1:02:51.38,1:02:54.00,Haruka,,0,0,0,,I think that's real growth there.
+Dialogue: 0,1:02:55.73,1:02:58.12,Haruka,,0,0,0,,MMJ are just so wonderful.
+Dialogue: 0,1:02:58.12,1:03:00.99,Haruka,,0,0,0,,MMJ are the best!
+Dialogue: 0,1:03:01.10,1:03:03.42,Haruka,,0,0,0,,Right? www
+Dialogue: 0,1:03:07.47,1:03:11.20,Haruka,,0,0,0,,As you might already know,
+Dialogue: 0,1:03:11.20,1:03:14.00,Haruka,,0,0,0,,in the ProSeka livestream the other day,
+Dialogue: 0,1:03:14.00,1:03:18.30,Haruka,,0,0,0,,this episode will be the last event Aftertalk.
+Dialogue: 0,1:03:18.30,1:03:21.07,Haruka,,0,0,0,,Was it really okay for me to do the last one?
+Dialogue: 0,1:03:21.07,1:03:24.63,Haruka,,0,0,0,,I mean come on, I was barely speaking coherently.
+Dialogue: 0,1:03:24.63,1:03:26.95,Haruka,,0,0,0,,My inner otaku came out a lot.
+Dialogue: 0,1:03:26.95,1:03:29.29,Haruka,,0,0,0,,Was it really okay?
+Dialogue: 0,1:03:29.29,1:03:30.58,Haruka,,0,0,0,,But still...
+Dialogue: 0,1:03:31.55,1:03:34.83,Haruka,,0,0,0,,just speaking plainly for a second,
+Dialogue: 0,1:03:34.83,1:03:38.19,Haruka,,0,0,0,,going like "that was so good!" or "what about that line?",
+Dialogue: 0,1:03:38.19,1:03:41.23,Haruka,,0,0,0,,or "that scene was awesome!", or "this art though" with everyone,
+Dialogue: 0,1:03:41.23,1:03:44.63,Haruka,,0,0,0,,being able to do that is just so much fun.
+Dialogue: 0,1:03:44.63,1:03:46.85,Haruka,,0,0,0,,How long have these been going on? 3 years?
+Dialogue: 0,1:03:46.85,1:03:48.77,Haruka,,0,0,0,,2 years?
+Dialogue: 0,1:03:48.77,1:03:49.90,Haruka,,0,0,0,,5 years? 4 or 5 years?
+Dialogue: 0,1:03:49.90,1:03:51.61,Haruka,,0,0,0,,That long? Really?
+Dialogue: 0,1:03:51.61,1:03:55.95,Haruka,,0,0,0,,The Aftertalks have been going on for a while.
+Dialogue: 0,1:04:00.39,1:04:05.10,Haruka,,0,0,0,,It's definitely sad that we're not going to be able to talk about each and every event anymore,
+Dialogue: 0,1:04:05.10,1:04:09.34,Haruka,,0,0,0,,but I definitely think there'll be more ways in the future we'll be able to get together.
+Dialogue: 0,1:04:09.34,1:04:12.58,Haruka,,0,0,0,,Personally speaking, I'm absolutely down to do more of these whenever.
+Dialogue: 0,1:04:12.58,1:04:17.30,Haruka,,0,0,0,,As long as there's a place for it, I can definitely keep talking like this.
+Dialogue: 0,1:04:17.30,1:04:21.33,Haruka,,0,0,0,,Not just for Haruka events, any MMJ focuses too.
+Dialogue: 0,1:04:21.33,1:04:23.79,Haruka,,0,0,0,,So even if we don't do this every time anymore,
+Dialogue: 0,1:04:23.79,1:04:30.02,Haruka,,0,0,0,,I'm personally wishing that we can continue talking maybe to recap at certain milestone points.
+Dialogue: 0,1:04:31.40,1:04:36.74,Haruka,,0,0,0,,Man, I kind of wish that I could just talk about all the 3DMVs.
+Dialogue: 0,1:04:36.74,1:04:38.08,Haruka,,0,0,0,,They're all so good.
+Dialogue: 0,1:04:38.08,1:04:40.21,Haruka,,0,0,0,,Not even just the Haruka event commissions,
+Dialogue: 0,1:04:40.21,1:04:42.95,Haruka,,0,0,0,,Every one I watch, I'm always like "wow these are so good!"
+Dialogue: 0,1:04:42.95,1:04:45.49,Haruka,,0,0,0,,"So good!" every time.
+Dialogue: 0,1:04:46.27,1:04:48.36,Haruka,,0,0,0,,Thanks so much again, guys.
+Dialogue: 0,1:04:49.78,1:04:54.85,Haruka,,0,0,0,,Oh yeah, and so remember to keep watching all the past Aftertalks too.
+Dialogue: 0,1:04:54.85,1:04:58.17,Haruka,,0,0,0,,I'm probably going to look at today's show and cringe at the otaku speak,
+Dialogue: 0,1:04:58.17,1:05:03.37,Haruka,,0,0,0,,but I'm always ready to talk like this, so let's just hope, and pray that another chance will come.
+Dialogue: 0,1:05:03.37,1:05:05.72,Haruka,,0,0,0,,I'll also come prepared with lots of notes again.
+Dialogue: 0,1:05:08.33,1:05:11.61,Haruka,,0,0,0,,Ah right, we're also putting out more short-form content now.
+Dialogue: 0,1:05:11.61,1:05:14.68,Haruka,,0,0,0,,Seems like there's good effort being put in, so please look forward to them.
+Dialogue: 0,1:05:14.68,1:05:22.46,Haruka,,0,0,0,,So with that, if you still haven't read through the "This story continues with hope" event story, once the next event starts,
+Dialogue: 0,1:05:22.46,1:05:25.74,Haruka,,0,0,0,,you'll be able to read the entire event story.
+Dialogue: 0,1:05:25.74,1:05:30.04,Haruka,,0,0,0,,Well, everyone here's probably read it. We've mentioned so many spoilers.
+Dialogue: 0,1:05:30.04,1:05:33.41,Haruka,,0,0,0,,Watch it again, then. Go back and watch it with a fresh perspective.
+Dialogue: 0,1:05:33.41,1:05:35.73,Haruka,,0,0,0,,So one more time, thank you for today.
+Dialogue: 0,1:05:35.73,1:05:37.89,Haruka,,0,0,0,,Let's meet again one day.
+Dialogue: 0,1:05:37.89,1:05:39.62,Haruka,,0,0,0,,Bye bye! Thank you!
+Dialogue: 0,1:05:39.62,1:05:42.62,Haruka,,0,0,0,,
