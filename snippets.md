@@ -21,3 +21,9 @@ ffmpeg -i "inputvideo" -vf "ass=subtitlename" outputvideo.mp4
 ```
 ffmpeg -i "input.mkv" -ss 00:10:52 -to 00:30:00 -c copy "pre story cut.mkv"
 ```
+
+## Convert mp4 to mkv
+
+```
+ffmpeg -i input.mp4 -c:v copy -c:a copy output.mkv
+```
