@@ -11,13 +11,14 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/Michael/Documents/GitHub/subtitling-projects/Project Sekai/Kimi to Tsunagu HeartBeat Aftertalk/Kimi to Tsunagu HeartBeat Aftertalk.mkv
-Video File: C:/Users/Michael/Documents/GitHub/subtitling-projects/Project Sekai/Kimi to Tsunagu HeartBeat Aftertalk/Kimi to Tsunagu HeartBeat Aftertalk.mkv
+Audio File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
+Video File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 13
-Video Position: 19488
+Scroll Position: 110
+Active Line: 123
+Video Position: 46023
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -41,4 +42,117 @@ Dialogue: 0,0:10:31.48,0:10:35.37,Ichika,,0,0,0,,So many good things. I was real
 Dialogue: 0,0:10:35.37,0:10:41.27,Ichika,,0,0,0,,This story made me realize the warmth and importance of bonds between people.
 Dialogue: 0,0:10:41.27,0:10:45.48,Ichika,,0,0,0,,We'll go more in depth in the story later, so please stay tuned for that.
 Dialogue: 0,0:10:45.48,0:10:49.58,Ichika,,0,0,0,,Also, Aftertalks have had a bit of a mini-renewal!
-Dialogue: 0,0:10:49.58,0:10:52.58,Ichika,,0,0,0,,
+Dialogue: 0,0:10:49.58,0:10:55.27,Ichika,,0,0,0,,We've gathered your comments for this Aftertalk sent through email as well as the submissions channel on the Discord.
+Dialogue: 0,0:10:55.27,0:10:57.63,Ichika,,0,0,0,,Thanks for all the messages everyone.
+Dialogue: 0,0:10:57.63,0:11:01.07,Ichika,,0,0,0,,We'd like to go over some of them in our program today.
+Dialogue: 0,0:11:01.07,0:11:02.92,Ichika,,0,0,0,,so please look forward to that!
+Dialogue: 0,0:11:02.92,0:11:05.38,Ichika,,0,0,0,,Also, if you have any thoughts on today's program,
+Dialogue: 0,0:11:05.38,0:11:08.91,Ichika,,0,0,0,,please post them on X with #ProSekaAftertalk.
+Dialogue: 0,0:11:08.91,0:11:11.19,Ichika,,0,0,0,,We'll also be watching the YouTube chat.
+Dialogue: 0,0:11:11.19,0:11:13.89,Ichika,,0,0,0,,Please keep all the messages coming.
+Dialogue: 0,0:11:13.89,0:11:17.19,Ichika,,0,0,0,,Already seeing lots of {\i1}"Kon-needo!"{\i0} Thanks everyone.
+Dialogue: 0,0:11:17.19,0:11:18.69,Ichika,,0,0,0,,"I just finished the story!"
+Dialogue: 0,0:11:18.69,0:11:22.81,Ichika,,0,0,0,,Thanks for rushing to come here.
+Dialogue: 0,0:11:22.81,0:11:26.57,Ichika,,0,0,0,,Right then, let's get started.
+Dialogue: 0,0:11:26.57,0:11:33.61,Ichika,,0,0,0,,We'll start by talking about the "Kimi to Tsunagu Heart Beat" story.
+Dialogue: 0,0:11:33.61,0:11:36.85,Ichika,,0,0,0,,What did you think of the story, everyone?
+Dialogue: 0,0:11:36.85,0:11:40.78,Ichika,,0,0,0,,Let's look back together while going over some of the messages you've sent in.
+Dialogue: 0,0:11:40.78,0:11:44.19,Ichika,,0,0,0,,First up, a message from "Misora"-san.
+Dialogue: 0,0:11:44.19,0:11:46.20,Ichika,,0,0,0,,"Good evening, Noguchi-san!" Good evening!
+Dialogue: 0,0:11:46.20,0:11:48.62,Ichika,,0,0,0,,"Thanks as always providing us with such a wonderful voice for Ichika."
+Dialogue: 0,0:11:48.62,0:11:50.15,Ichika,,0,0,0,,The pleasure is all mine.
+Dialogue: 0,0:11:50.15,0:11:57.27,Ichika,,0,0,0,,"Seeing Ichika-chan pour her all of her love for Miku into a new song in this story was really moving."
+Dialogue: 0,0:11:57.27,0:12:00.58,Ichika,,0,0,0,,"I couldn't stop smiling and feeling warm inside."
+Dialogue: 0,0:12:00.58,0:12:04.70,Ichika,,0,0,0,,"That last serious look from Shiho-chan has me a bit curious."
+Dialogue: 0,0:12:04.70,0:12:08.68,Ichika,,0,0,0,,"But regardless, I'm just happy that Ichika-chan is so happy."
+Dialogue: 0,0:12:08.68,0:12:12.16,Ichika,,0,0,0,,Thank you for the message, Misora-san.
+Dialogue: 0,0:12:12.16,0:12:18.52,Ichika,,0,0,0,,So this time, Ichika wrote a new song "with" around the theme of "What Miku means to me",
+Dialogue: 0,0:12:18.52,0:12:23.67,Ichika,,0,0,0,,putting in feelings of everything she's been through with Miku.
+Dialogue: 0,0:12:23.67,0:12:29.22,Ichika,,0,0,0,,Then when she uploaded it, that creator Aoi-san reacted out her,
+Dialogue: 0,0:12:29.22,0:12:35.64,Ichika,,0,0,0,,asking to make an MV together. It got so many views and just kept blowing up from there.
+Dialogue: 0,0:12:35.64,0:12:42.65,Ichika,,0,0,0,,I mentioned this at the beginning, but I just kept thinking "wow is it really okay for everything to work out this well?"
+Dialogue: 0,0:12:42.65,0:12:46.49,Ichika,,0,0,0,,Just so many good things happening for Ichika in this story.
+Dialogue: 0,0:12:46.49,0:12:55.58,Ichika,,0,0,0,,I'm really glad that Ichika was able to accomplish one of her goals of connecting people through music.
+Dialogue: 0,0:12:55.58,0:12:57.77,Ichika,,0,0,0,,It may be just a small first step for now,
+Dialogue: 0,0:12:57.77,0:13:01.57,Ichika,,0,0,0,,but I really think is a story where one of her wishes came true,
+Dialogue: 0,0:13:01.57,0:13:08.46,Ichika,,0,0,0,,I couldn't help but have a huge smile the whole time I was playing her.
+Dialogue: 0,0:13:08.46,0:13:14.20,Ichika,,0,0,0,,Oh yeah, and they mentioned that last scene with Shiho's serious look...
+Dialogue: 0,0:13:14.20,0:13:15.66,Ichika,,0,0,0,,what do you think of that, everyone?
+Dialogue: 0,0:13:15.66,0:13:17.75,Ichika,,0,0,0,,How did that make you feel?
+Dialogue: 0,0:13:17.75,0:13:19.61,Ichika,,0,0,0,,Shiho— she—
+Dialogue: 0,0:13:19.61,0:13:23.94,Ichika,,0,0,0,,she said that she was really happy for Ichika at the end there...
+Dialogue: 0,0:13:24.32,0:13:26.51,Ichika,,0,0,0,,but to me, it looked a little like,
+Dialogue: 0,0:13:26.51,0:13:29.70,Ichika,,0,0,0,,yeah... she definitely looked a bit unsettled there.
+Dialogue: 0,0:13:29.70,0:13:33.67,Ichika,,0,0,0,,You know, we haven't really seen Shiho like that.
+Dialogue: 0,0:13:33.67,0:13:37.82,Ichika,,0,0,0,,I can't help wondering what's making her feel that way.
+Dialogue: 0,0:13:37.82,0:13:40.06,Ichika,,0,0,0,,But yeah, Shiho-chan...
+Dialogue: 0,0:13:40.06,0:13:43.27,Ichika,,0,0,0,,her being so serious about this band—
+Dialogue: 0,0:13:43.27,0:13:46.66,Ichika,,0,0,0,,everyone is, but amidst all that Ichika,
+Dialogue: 0,0:13:46.66,0:13:50.13,Ichika,,0,0,0,,yeah, making Miku songs on her own,
+Dialogue: 0,0:13:50.13,0:13:53.81,Ichika,,0,0,0,,I wonder if Shiho has any feelings about that.
+Dialogue: 0,0:13:53.81,0:13:56.73,Ichika,,0,0,0,,And I wonder what kind of story that will lead to?
+Dialogue: 0,0:13:56.73,0:13:58.91,Ichika,,0,0,0,,Even I have no idea,
+Dialogue: 0,0:13:58.91,0:13:59.80,Ichika,,0,0,0,,buuuuuuut,
+Dialogue: 0,0:13:59.80,0:14:03.04,Ichika,,0,0,0,,maybe that's just how bands are, aren't they?
+Dialogue: 0,0:14:03.04,0:14:04.76,Ichika,,0,0,0,,But, I mean,
+Dialogue: 0,0:14:04.76,0:14:10.45,Ichika,,0,0,0,,there are plenty of folks who make Miku songs solo but are also part of bands, aren't there?
+Dialogue: 0,0:14:10.45,0:14:19.63,Ichika,,0,0,0,,So I hope that Ichika can also do that and continue pursuing her happiness further.
+Dialogue: 0,0:14:19.63,0:14:23.75,Ichika,,0,0,0,,I just hope that she can continue doing her best as part of Leo/need,
+Dialogue: 0,0:14:23.75,0:14:27.35,Ichika,,0,0,0,,and that she can continue creating songs with her beloved Miku.
+Dialogue: 0,0:14:27.35,0:14:33.01,Ichika,,0,0,0,,I'm not sure what the future holds for her, but let's keep watching over her warmly.
+Dialogue: 0,0:14:33.01,0:14:37.90,Ichika,,0,0,0,,Alright. Now let's move on to the next message.
+Dialogue: 0,0:14:37.90,0:14:41.26,Ichika,,0,0,0,,A message from "YMMK"-san.
+Dialogue: 0,0:14:41.26,0:14:43.30,Ichika,,0,0,0,,"Noguchi-san, {\i1}kon-needo{\i0}!" {\i1}Kon-needo{\i0}.
+Dialogue: 0,0:14:43.30,0:14:51.39,Ichika,,0,0,0,,In this event story, Ichika composed a song "with", pouring her feelings for Miku into it.
+Dialogue: 0,0:14:51.39,0:14:56.12,Ichika,,0,0,0,,"but it seemed like Ichika wasn't really thinking about what to do after she finished it."
+Dialogue: 0,0:14:56.12,0:14:56.91,Ichika,,0,0,0,,Yeah.
+Dialogue: 0,0:14:56.91,0:15:02.22,Ichika,,0,0,0,,"There was a scene where she seemed happy just to show the completed song to the rest of Leo/need."
+Dialogue: 0,0:15:02.22,0:15:07.35,Ichika,,0,0,0,,"Noguchi-san, are there any times where you also felt satisfied just by doing the task itself?"
+Dialogue: 0,0:15:07.35,0:15:09.61,Ichika,,0,0,0,,Thank you for the message.
+Dialogue: 0,0:15:09.61,0:15:14.74,Ichika,,0,0,0,,Right, Saki-chan was the one who actually suggested uploading the song after Ichika show it to them.
+Dialogue: 0,0:15:14.74,0:15:17.93,Ichika,,0,0,0,,But yeah, "things I feel satisfied just by doing"?
+Dialogue: 0,0:15:17.93,0:15:19.43,Ichika,,0,0,0,,Let me think...
+Dialogue: 0,0:15:19.43,0:15:22.61,Ichika,,0,0,0,,The other day, I tried making curry.
+Dialogue: 0,0:15:22.61,0:15:25.03,Ichika,,0,0,0,,I just felt like trying making it one day,
+Dialogue: 0,0:15:25.03,0:15:29.73,Ichika,,0,0,0,,I did feel satisfied doing it... but it was annoying to eat all of it.
+Dialogue: 0,0:15:30.41,0:15:32.74,Ichika,,0,0,0,,I made so many portions!
+Dialogue: 0,0:15:32.74,0:15:33.58,Ichika,,0,0,0,,Listen,
+Dialogue: 0,0:15:33.58,0:15:36.05,Ichika,,0,0,0,,I made way too many portions.
+Dialogue: 0,0:15:36.05,0:15:37.70,Ichika,,0,0,0,,But it's like,
+Dialogue: 0,0:15:37.70,0:15:39.89,Ichika,,0,0,0,,I really was proud of myself.
+Dialogue: 0,0:15:39.89,0:15:41.50,Ichika,,0,0,0,,I was happy with what I made.
+Dialogue: 0,0:15:41.50,0:15:46.31,Ichika,,0,0,0,,I feel like eating food you cooked yourself doesn't really have the same allure, does it.
+Dialogue: 0,0:15:46.31,0:15:48.40,Ichika,,0,0,0,,You just cook stuff, then eat it normally.
+Dialogue: 0,0:15:48.40,0:15:52.63,Ichika,,0,0,0,,You do it just for the sense of accomplishment, you know?
+Dialogue: 0,0:15:52.63,0:15:55.37,Ichika,,0,0,0,,This is kind of unrelated,
+Dialogue: 0,0:15:55.37,0:15:59.09,Ichika,,0,0,0,,but I don't actually have a knife in my place.
+Dialogue: 0,0:15:59.09,0:15:59.98,Ichika,,0,0,0,,I'm not even sure how.
+Dialogue: 0,0:15:59.98,0:16:01.80,Ichika,,0,0,0,,I definitely did have one before. I did.
+Dialogue: 0,0:16:01.80,0:16:04.91,Ichika,,0,0,0,,But somehow it suddenly vanished. Isn't that scary?
+Dialogue: 0,0:16:04.91,0:16:08.99,Ichika,,0,0,0,,I needed to cut some carrots, but I couldn't without a knife.
+Dialogue: 0,0:16:08.99,0:16:11.87,Ichika,,0,0,0,,So I ended up cutting them with scissors.
+Dialogue: 0,0:16:11.87,0:16:16.10,Ichika,,0,0,0,,I had to cut them like "{\i1}krhhhh{\i0}."
+Dialogue: 0,0:16:16.10,0:16:18.11,Ichika,,0,0,0,,That was really satisfying.
+Dialogue: 0,0:16:18.11,0:16:21.06,Ichika,,0,0,0,,Putting in the work to cut the carrots like that.
+Dialogue: 0,0:16:21.06,0:16:25.01,Ichika,,0,0,0,,I thought I wouldn't even have enough energy left to eat what I made.
+Dialogue: 0,0:16:25.01,0:16:27.94,Ichika,,0,0,0,,Just kidding. I did end up eat all of it later.
+Dialogue: 0,0:16:27.94,0:16:29.61,Ichika,,0,0,0,,Don't worry.
+Dialogue: 0,0:16:29.61,0:16:30.87,Ichika,,0,0,0,,Was was I talking about again?
+Dialogue: 0,0:16:30.87,0:16:32.57,Ichika,,0,0,0,,I completely forgot.
+Dialogue: 0,0:16:32.57,0:16:35.05,Ichika,,0,0,0,,Thank you very much for the message.
+Dialogue: 0,0:16:35.05,0:16:36.43,Ichika,,0,0,0,,Let's get back on track.
+Dialogue: 0,0:16:36.43,0:16:41.80,Ichika,,0,0,0,,I've selected some of my favorite scenes from the story for today, so let's watch them together!
+Dialogue: 0,0:16:41.80,0:16:43.66,Ichika,,0,0,0,,Here it is!
+Comment: 0,0:16:44.80,0:16:47.80,Note,,0,0,0,,------BEGIN STORY------
+Dialogue: 0,0:22:39.37,0:22:43.65,Ichika,,0,0,0,,Hmm. That's a very Ichika way of thinking.
+Comment: 0,0:25:08.58,0:25:10.30,Ichika,,0,0,0,,------END STORY------
+Dialogue: 0,0:25:06.09,0:25:10.30,Ichika,,0,0,0,,Thanks for the video. That was Chapter 8 of the story.
+Dialogue: 0,0:25:10.30,0:25:14.02,Ichika,,0,0,0,,So as for why I chose this particular scene,
+Dialogue: 0,0:25:14.02,0:25:19.87,Ichika,,0,0,0,,when Shiho asks Ichika about the song she put so much of her own feelings into going viral,
+Dialogue: 0,0:25:19.87,0:25:23.87,Ichika,,0,0,0,,and if she was bothered by strangers creating covers and their own works form it,
+Dialogue: 0,0:25:23.87,0:25:28.62,Ichika,,0,0,0,,I thought it was memorable how Ichika says "no, I'm actually really glad."
+Dialogue: 0,0:25:28.62,0:25:34.09,Ichika,,0,0,0,,I think there are some creators out there who might say "my song should sound like this,"
+Dialogue: 0,0:25:34.09,0:25:35.41,Ichika,,0,0,0,,but Ichika isn't like that.
+Dialogue: 0,0:25:35.41,0:25:44.37,Ichika,,0,0,0,,Her being able to feel "it's awesome that my song is helping connect many different people" 
+Dialogue: 0,0:25:44.37,0:25:48.41,Ichika,,0,0,0,,
+Dialogue: 0,0:25:48.41,0:25:51.41,Ichika,,0,0,0,,
