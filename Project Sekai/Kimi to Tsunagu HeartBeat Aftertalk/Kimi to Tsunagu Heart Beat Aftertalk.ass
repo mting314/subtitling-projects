@@ -15,10 +15,10 @@ Audio File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
 Video File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Scroll Position: 207
-Active Line: 221
-Video Position: 68966
+Video Zoom Percent: 0.500000
+Scroll Position: 216
+Active Line: 226
+Video Position: 69840
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,6 +26,8 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Style: Note,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 Style: Panel,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,2,5,10,10,10,1
 Style: Ichika,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00EEAA33,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,180,180,60,1
+Style: Haruka - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00EEAA33,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,100,100,50,1
+Style: Ichika - Song,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00EEAA33,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.5,2,100,730,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -214,41 +216,90 @@ Dialogue: 0,0:34:13.04,0:34:14.20,Ichika,,0,0,0,,That was the message.
 Dialogue: 0,0:34:14.20,0:34:17.83,Ichika,,0,0,0,,Now let's watch the MV together.
 Dialogue: 0,0:34:17.83,0:34:18.92,Ichika,,0,0,0,,Here we go!
 Comment: 0,0:36:06.99,0:36:06.99,Ichika,,0,0,0,,-------BEGIN SONG TALK------
-Dialogue: 0,0:36:09.03,0:36:14.90,Ichika,,0,0,0,,That was the 3DMV for Star, thanks for watching along, everyone.
-Dialogue: 0,0:36:14.90,0:36:20.10,Ichika,,0,0,0,,As the production team mentioned, we got to see lots of slice of life shots.
-Dialogue: 0,0:36:20.10,0:36:23.80,Ichika,,0,0,0,,Like when they're about to walk out on stage, didn't that just hit you?
-Dialogue: 0,0:36:23.80,0:36:27.26,Ichika,,0,0,0,,Felt like there were lots of scenes we haven't really seen before.
-Dialogue: 0,0:36:27.26,0:36:29.25,Ichika,,0,0,0,,And the sky was really pretty too.
-Dialogue: 0,0:36:29.25,0:36:31.66,Ichika,,0,0,0,,So sparkly and bright, it looked incredible.
-Dialogue: 0,0:36:31.66,0:36:34.92,Ichika,,0,0,0,,And that selfie part with everyone was also super cute.
-Dialogue: 0,0:36:34.92,0:36:36.24,Ichika,,0,0,0,,Just so bright and positive...
-Dialogue: 0,0:36:36.24,0:36:40.18,Ichika,,0,0,0,,I feel like, haven't the recent 3DMVs been so amazing?
-Dialogue: 0,0:36:40.18,0:36:43.23,Ichika,,0,0,0,,Thank you staff.
-Dialogue: 0,0:36:43.23,0:36:45.81,Ichika,,0,0,0,,Speaking of the song itself, there're a lot of "la la la"—
-Dialogue: 0,0:36:45.81,0:36:49.70,Ichika,,0,0,0,,Opening the song with the "la lala la"s was pretty impactful.
-Dialogue: 0,0:36:49.70,0:36:53.44,Ichika,,0,0,0,,Thought I was gonna run out of breath during the recording.
-Dialogue: 0,0:36:53.44,0:37:02.52,Ichika,,0,0,0,,But seeing all that excitement and passion Ichika has for songwriting and Miku...
-Dialogue: 0,0:37:02.52,0:37:04.77,Ichika,,0,0,0,,Of course, she might have her uncertainties,
-Dialogue: 0,0:37:04.77,0:37:10.58,Ichika,,0,0,0,,but she also has this willingness to just keep move forward and enjoying herself.
-Dialogue: 0,0:37:10.58,0:37:13.58,Ichika,,0,0,0,,I tried to highlight all of that during the recording.
-Dialogue: 0,0:37:13.58,0:37:15.98,Ichika,,0,0,0,,And the lyrics too... they just fit so well.
-Dialogue: 0,0:37:15.98,0:37:22.23,Ichika,,0,0,0,,Isn't it like that every time? I'm always thinking like "how do the lyrics fit the story so well every single time?"
-Dialogue: 0,0:37:22.23,0:37:24.00,Ichika,,0,0,0,,They make me so glad.
-Dialogue: 0,0:37:24.00,0:37:27.40,Ichika,,0,0,0,,
-Dialogue: 0,0:37:27.40,0:37:34.19,Ichika,,0,0,0,,Like she doesn't know what the future holds, but she's still excited and ready to move forward to whatever's next.
-Dialogue: 0,0:37:34.19,0:37:35.75,Ichika,,0,0,0,,It's super good.
-Dialogue: 0,0:37:35.75,0:37:40.01,Ichika,,0,0,0,,"Feels like they'd sing the 'la la la's together with everyone at concerts."
-Dialogue: 0,0:37:40.01,0:37:41.98,Ichika,,0,0,0,,Go for it, everyone. Do you wanna try?
-Dialogue: 0,0:37:41.98,0:37:44.26,Ichika,,0,0,0,,Let's do the 'la la la's together.
-Dialogue: 0,0:37:44.26,0:37:48.28,Ichika,,0,0,0,,I think that'd be really nice. Would be a dream come true.
-Dialogue: 0,0:37:48.28,0:37:50.54,Ichika,,0,0,0,,"The lyrics are so good." 100%.
-Dialogue: 0,0:37:50.54,0:37:54.79,Ichika,,0,0,0,,Ah yeah, the full size is already on YouTube.
-Dialogue: 0,0:37:54.79,0:37:56.09,Ichika,,0,0,0,,I already watched it.
-Dialogue: 0,0:37:56.09,0:37:59.27,Ichika,,0,0,0,,Uh, make sure to watch the 2nd prechorus.
-Dialogue: 0,0:37:59.27,0:38:01.29,Ichika,,0,0,0,,The energy just skyrockets there.
-Dialogue: 0,0:38:01.29,0:38:09.36,Ichika,,0,0,0,,For Ichika's part when she says "let's begin", I made sure to pump up the excitement there like "oh yeah, let's do this!"
-Dialogue: 0,0:38:09.36,0:38:13.55,Ichika,,0,0,0,,So please do watch the full version MV.
-Dialogue: 0,0:38:13.55,0:38:16.08,Ichika,,0,0,0,,Ah— "I'm singing along!" "100% I'll song along!"
-Dialogue: 0,0:38:16.08,0:38:18.85,Ichika,,0,0,0,,Everyone's so ready, so many excited comments.
-Dialogue: 0,0:38:18.85,0:38:22.46,Ichika,,0,0,0,,It's gonna be so much fun, everyone. 
-Dialogue: 0,0:38:22.46,0:38:25.46,Ichika,,0,0,0,,
+Dialogue: 0,0:36:09.03,0:36:14.90,Ichika - Song,,0,0,0,,That was the 3DMV for Star, thanks for watching along, everyone.
+Dialogue: 0,0:36:14.90,0:36:20.10,Ichika - Song,,0,0,0,,As the production team mentioned, we got to see lots of slice of life shots.
+Dialogue: 0,0:36:20.10,0:36:23.80,Ichika - Song,,0,0,0,,Like when they're about to walk out on stage, didn't that just hit you?
+Dialogue: 0,0:36:23.80,0:36:27.26,Ichika - Song,,0,0,0,,Felt like there were lots of scenes we haven't really seen before.
+Dialogue: 0,0:36:27.26,0:36:29.25,Ichika - Song,,0,0,0,,And the sky was really pretty too.
+Dialogue: 0,0:36:29.25,0:36:31.66,Ichika - Song,,0,0,0,,So sparkly and bright, it looked incredible.
+Dialogue: 0,0:36:31.66,0:36:34.92,Ichika - Song,,0,0,0,,And that selfie part with everyone was also super cute.
+Dialogue: 0,0:36:34.92,0:36:36.24,Ichika - Song,,0,0,0,,Just so bright and positive...
+Dialogue: 0,0:36:36.24,0:36:40.18,Ichika - Song,,0,0,0,,I feel like, haven't the recent 3DMVs been so amazing?
+Dialogue: 0,0:36:40.18,0:36:43.23,Ichika - Song,,0,0,0,,Thank you staff.
+Dialogue: 0,0:36:43.23,0:36:45.81,Ichika - Song,,0,0,0,,Speaking of the song itself, there're a lot of "la la la"—
+Dialogue: 0,0:36:45.81,0:36:49.70,Ichika - Song,,0,0,0,,Opening the song with the "la lala la"s was pretty impactful.
+Dialogue: 0,0:36:49.70,0:36:53.44,Ichika - Song,,0,0,0,,Thought I was gonna run out of breath during the recording.
+Dialogue: 0,0:36:53.44,0:37:02.52,Ichika - Song,,0,0,0,,But seeing all that excitement and passion Ichika has for songwriting and Miku...
+Dialogue: 0,0:37:02.52,0:37:04.77,Ichika - Song,,0,0,0,,Of course, she might have her uncertainties,
+Dialogue: 0,0:37:04.77,0:37:10.58,Ichika - Song,,0,0,0,,but she also has this willingness to just keep move forward and enjoying herself.
+Dialogue: 0,0:37:10.58,0:37:13.58,Ichika - Song,,0,0,0,,I tried to highlight all of that during the recording.
+Dialogue: 0,0:37:13.58,0:37:15.98,Ichika - Song,,0,0,0,,And the lyrics too... they just fit so well.
+Dialogue: 0,0:37:15.98,0:37:22.23,Ichika - Song,,0,0,0,,Isn't it like that every time? I'm always thinking like "how do the lyrics fit the story so well every single time?"
+Dialogue: 0,0:37:22.23,0:37:24.00,Ichika - Song,,0,0,0,,They make me so glad.
+Dialogue: 0,0:37:24.00,0:37:28.78,Ichika - Song,,0,0,0,,Like she might be a little nervous on where things are going to go from here,
+Dialogue: 0,0:37:28.78,0:37:34.19,Ichika - Song,,0,0,0,,but she's still excited and ready to move forward to whatever's next.
+Dialogue: 0,0:37:34.19,0:37:35.75,Ichika - Song,,0,0,0,,It's super good.
+Dialogue: 0,0:37:35.75,0:37:40.01,Ichika - Song,,0,0,0,,"Feels like they'd sing the 'la la la's together with everyone at concerts."
+Dialogue: 0,0:37:40.01,0:37:41.98,Ichika - Song,,0,0,0,,Go for it, everyone. Do you wanna try?
+Dialogue: 0,0:37:41.98,0:37:44.26,Ichika - Song,,0,0,0,,Let's do the 'la la la's together.
+Dialogue: 0,0:37:44.26,0:37:48.28,Ichika - Song,,0,0,0,,I think that'd be really nice. Would be a dream come true.
+Dialogue: 0,0:37:48.28,0:37:50.54,Ichika - Song,,0,0,0,,"The lyrics are so good." 100%.
+Dialogue: 0,0:37:50.54,0:37:54.79,Ichika - Song,,0,0,0,,Ah yeah, the full size is already on YouTube.
+Dialogue: 0,0:37:54.79,0:37:56.09,Ichika - Song,,0,0,0,,I already watched it.
+Dialogue: 0,0:37:56.09,0:37:59.27,Ichika - Song,,0,0,0,,Uh, make sure to watch the 2nd prechorus.
+Dialogue: 0,0:37:59.27,0:38:01.29,Ichika - Song,,0,0,0,,The energy just skyrockets there.
+Dialogue: 0,0:38:01.29,0:38:04.62,Ichika - Song,,0,0,0,,For Ichika's part when she says "let's begin",
+Dialogue: 0,0:38:04.62,0:38:09.36,Ichika - Song,,0,0,0,,I made sure to pump up the excitement there like "oh yeah, let's do this!"
+Dialogue: 0,0:38:09.36,0:38:13.55,Ichika - Song,,0,0,0,,So please do watch the full version MV.
+Dialogue: 0,0:38:13.55,0:38:16.08,Ichika - Song,,0,0,0,,Ah— "I'll sing along!" "100% I'll sing along!"
+Dialogue: 0,0:38:16.08,0:38:18.85,Ichika - Song,,0,0,0,,Everyone's so ready.
+Dialogue: 0,0:38:18.85,0:38:22.46,Ichika - Song,,0,0,0,,We're gonna have so much fun, everyone.
+Dialogue: 0,0:38:22.46,0:38:26.89,Ichika - Song,,0,0,0,,Maybe one day, we'll get a chance to sing this.
+Dialogue: 0,0:38:26.89,0:38:29.11,Ichika - Song,,0,0,0,,Ah, thank you. "Icchan is so cool in this song!"
+Dialogue: 0,0:38:29.11,0:38:32.69,Ichika - Song,,0,0,0,,"That part before the 2nd chorus is amazing." Thank you.
+Dialogue: 0,0:38:32.69,0:38:35.05,Ichika - Song,,0,0,0,,So actually, during the recording I thought to myself,
+Dialogue: 0,0:38:35.05,0:38:39.74,Ichika - Song,,0,0,0,,"this feels like the climax", so I really belted it for that part.
+Dialogue: 0,0:38:39.74,0:38:42.17,Ichika - Song,,0,0,0,,I'm glad you all thought it sounded so cool.
+Dialogue: 0,0:38:42.17,0:38:47.51,Ichika - Song,,0,0,0,,Ah— someone says "the power's on the same level as Regulus uohhh." Thank you for that.
+Dialogue: 0,0:38:47.51,0:38:48.38,Ichika - Song,,0,0,0,,It's good, right?
+Dialogue: 0,0:38:48.38,0:38:52.98,Ichika - Song,,0,0,0,,The short version is obviously still great, but if you listen to the full version,
+Dialogue: 0,0:38:52.98,0:38:54.89,Ichika - Song,,0,0,0,,you can experience even more of this song.
+Dialogue: 0,0:38:54.89,0:39:04.57,Ichika - Song,,0,0,0,,It's such a wonderful song, so do make sure to check out both the 2D and 3D MVs on the official ProSeka YouTube channel.
+Dialogue: 0,0:39:04.57,0:39:07.72,Ichika - Song,,0,0,0,,Well then, it was just a short time,
+Comment: 0,0:39:07.72,0:39:07.72,Note,,0,0,0,,~~~~VIDEO ENDS~~~~
+Dialogue: 0,0:39:07.72,0:39:12.89,Ichika,,0,0,0,,but that's all we have for the "Kimi to Tsunagu Heart Beat" Aftertalk.
+Dialogue: 0,0:39:12.89,0:39:16.17,Ichika,,0,0,0,,What did you think about today's episode?
+Dialogue: 0,0:39:16.17,0:39:20.61,Ichika,,0,0,0,,Actually, I just noticed it's been a really long time since the last Aftertalk for me.
+Dialogue: 0,0:39:20.61,0:39:22.38,Ichika,,0,0,0,,First time since the mini-renewal too.
+Dialogue: 0,0:39:22.38,0:39:25.98,Ichika,,0,0,0,,And for the last Ichika focus event, Shiho-chan—
+Dialogue: 0,0:39:25.98,0:39:29.57,Ichika,,0,0,0,,Yuki-chan was also there, so it's been a while since I've done this alone.
+Dialogue: 0,0:39:29.57,0:39:33.94,Ichika,,0,0,0,,But being able to see everyone's comments in real time,
+Dialogue: 0,0:39:33.94,0:39:39.51,Ichika,,0,0,0,,This is our only chance to really chat together like this, so I'm really glad.
+Dialogue: 0,0:39:39.51,0:39:41.26,Ichika,,0,0,0,,"Thank you!" "Fun stream!" "Too soon!"
+Dialogue: 0,0:39:41.26,0:39:44.79,Ichika,,0,0,0,,"I'm so glad!" "I always look forward to the Aftertalks."
+Dialogue: 0,0:39:44.79,0:39:48.86,Ichika,,0,0,0,,Actually, the Kanshasai was just the day before yesterday,
+Dialogue: 0,0:39:48.86,0:39:53.51,Ichika,,0,0,0,,so seeing everyone there, and then hearing from everyone here,
+Dialogue: 0,0:39:53.51,0:39:55.62,Ichika,,0,0,0,,so it's full speed ProSeka for me recently.
+Dialogue: 0,0:39:55.62,0:39:58.76,Ichika,,0,0,0,,But it's been a really fun week.
+Dialogue: 0,0:39:58.76,0:40:00.10,Ichika,,0,0,0,,Week? Was it a week?
+Dialogue: 0,0:40:00.10,0:40:05.66,Ichika,,0,0,0,,We actually also have the Stage Greeting for the movie this coming weekend.
+Dialogue: 0,0:40:05.66,0:40:10.07,Ichika,,0,0,0,,So lots I'm chances to see everyone this week, I'm really glad.
+Dialogue: 0,0:40:10.07,0:40:14.82,Ichika,,0,0,0,,I hope everyone continues to enjoy everything we have coming up.
+Dialogue: 0,0:40:14.82,0:40:17.55,Ichika,,0,0,0,,Ah, "thanks for the Kanshasai!" "The Kanshasai was awesome!"
+Dialogue: 0,0:40:17.55,0:40:18.22,Ichika,,0,0,0,,Thank you.
+Dialogue: 0,0:40:18.22,0:40:19.42,Ichika,,0,0,0,,Thanks for coming.
+Dialogue: 0,0:40:19.42,0:40:23.21,Ichika,,0,0,0,,And thanks to everyone who watched the live viewings or the stream.
+Dialogue: 0,0:40:23.21,0:40:27.31,Ichika,,0,0,0,,I really do get a lot of energy from all your support,
+Dialogue: 0,0:40:27.31,0:40:29.20,Ichika,,0,0,0,,and I'm looking forward to continuing.
+Dialogue: 0,0:40:29.20,0:40:30.64,Ichika,,0,0,0,,Thank you, everyone.
+Dialogue: 0,0:40:30.64,0:40:33.42,Ichika,,0,0,0,,So with that, if you haven't watched the "Hoshi wo Tsunagu—"
+Dialogue: 0,0:40:33.42,0:40:37.05,Ichika,,0,0,0,,"Kimi to Tsunagu Heart Beat"  event story yet,
+Dialogue: 0,0:40:37.05,0:40:42.40,Ichika,,0,0,0,,you can still read it in-game in the "Event Story" section under the "Story" tab, so please do so. 
+Dialogue: 0,0:40:42.40,0:40:45.64,Ichika,,0,0,0,,We'll be accepting submissions for future Aftertalks as usual.
+Dialogue: 0,0:40:45.64,0:40:53.93,Ichika,,0,0,0,,You can submit your messages in the submissions channel on the official Project Sekai Discord, or through email.
+Dialogue: 0,0:40:53.93,0:40:57.98,Ichika,,0,0,0,,Feel free to send them in after the next event starts.
+Dialogue: 0,0:40:57.98,0:41:02.06,Ichika,,0,0,0,,Please keep your messages related to the events.
+Dialogue: 0,0:41:02.06,0:41:05.76,Ichika,,0,0,0,,Well, that's all for our short time today! Thank you everyone!
+Dialogue: 0,0:41:05.76,0:41:08.56,Ichika,,0,0,0,,See you again next time!
+Dialogue: 0,0:41:08.56,0:41:13.98,Ichika,,0,0,0,,Bye bye! Thank you! Good night~
+Dialogue: 0,0:41:13.98,0:41:16.98,Ichika,,0,0,0,,
