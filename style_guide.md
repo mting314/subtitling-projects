@@ -227,6 +227,11 @@ Before finalizing:
 Examples:
 * "With Our Wounded Hands", not "Kizudarake no Te de, Watashitachi wa"
 
+### Project Sekai Terminology
+
+* "AfterTalk" should be capitalized as "AfterTalk", not "aftertalk" or "Aftertalk".
+* "ProSeka" should be capitalized as "ProSeka", not "proseka" or "Proseka".
+
 
 ## Grammar
 
