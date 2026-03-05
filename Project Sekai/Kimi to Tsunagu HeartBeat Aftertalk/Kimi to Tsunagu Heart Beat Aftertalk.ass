@@ -15,10 +15,10 @@ Audio File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
 Video File: Kimi to Tsunagu HeartBeat Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 253
-Active Line: 267
-Video Position: 67452
+Video Zoom Percent: 0.625000
+Scroll Position: 204
+Active Line: 228
+Video Position: 55936
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -172,7 +172,7 @@ Dialogue: 0,0:26:37.49,0:26:41.16,Ichika,,0,0,0,,Thank you for the comments, eve
 Dialogue: 0,0:26:41.16,0:26:43.10,Ichika,,0,0,0,,"What's gonna happen?"—
 Dialogue: 0,0:26:43.10,0:26:43.69,Ichika,,0,0,0,,Ah!
 Dialogue: 0,0:26:43.69,0:26:47.03,Ichika,,0,0,0,,Someone says "their musical direction is drifting apart."
-Dialogue: 0,0:26:47.03,0:26:49.48,Ichika,,0,0,0,,Is something going come of that? I don't know either.
+Dialogue: 0,0:26:47.03,0:26:49.48,Ichika,,0,0,0,,Will something come of that? I don't know either.
 Dialogue: 0,0:26:49.48,0:26:52.03,Ichika,,0,0,0,,I don't know what's gonna happen next...
 Comment: 0,0:26:52.03,0:26:52.89,Ichika,,0,0,0,,Timing is really weird on the line below somehow
 Dialogue: 0,0:26:52.89,0:26:57.08,Ichika,,0,0,0,,But at least things are still happy for now, so let's please leave it like that.
@@ -210,7 +210,7 @@ Dialogue: 0,0:28:36.88,0:28:40.22,Ichika - PiP,,0,0,0,,And it's super cute seein
 Dialogue: 0,0:28:40.22,0:28:45.05,Ichika - PiP,,0,0,0,,It must be really surprising getting a DM from one of your favorite creators like that.
 Dialogue: 0,0:28:45.05,0:28:47.28,Ichika - PiP,,0,0,0,,She's probably like "woah, what is it?"
 Dialogue: 0,0:28:47.28,0:28:53.16,Ichika - PiP,,0,0,0,,Super glad the DM ended up being such a great thing for her.
-Dialogue: 0,0:28:53.16,0:28:55.75,Ichika - PiP,,0,0,0,,
+Dialogue: 0,0:28:53.16,0:28:55.75,Ichika - PiP,,0,0,0,,Even her ordinary life makes a great shot.
 Dialogue: 0,0:28:55.75,0:28:56.86,Ichika - PiP,,0,0,0,,Moving on to Hona-chan.
 Dialogue: 0,0:28:58.04,0:28:58.94,Ichika - PiP,,0,0,0,,So cute.
 Dialogue: 0,0:28:59.65,0:29:01.30,Ichika - PiP,,0,0,0,,Super cute.
@@ -235,28 +235,31 @@ Dialogue: 0,0:29:44.33,0:29:45.94,Ichika - PiP,,0,0,0,,Haru-kun, right?
 Dialogue: 0,0:29:45.94,0:29:47.35,Ichika - PiP,,0,0,0,,"Everyone was talking about this!" Right?
 Dialogue: 0,0:29:47.35,0:29:48.89,Ichika - PiP,,0,0,0,,That also surprised me.
 Dialogue: 0,0:29:48.89,0:29:50.40,Ichika - PiP,,0,0,0,,Didn't realize he was so cute too.
-Dialogue: 0,0:29:50.40,0:29:51.88,Ichika - PiP,,0,0,0,,
-Dialogue: 0,0:29:51.88,0:29:55.18,Ichika - PiP,,0,0,0,,Haru-kun's also really cute.
+Dialogue: 0,0:29:50.40,0:29:52.54,Ichika - PiP,,0,0,0,,Was not expecting that.
+Dialogue: 0,0:29:52.54,0:29:55.18,Ichika - PiP,,0,0,0,,Haru-kun's really cute.
 Dialogue: 0,0:29:55.18,0:29:58.28,Ichika - PiP,,0,0,0,,I hope we get to see more of him.
 Dialogue: 0,0:29:58.28,0:29:59.75,Ichika - PiP,,0,0,0,,"He's so cute." 100%.
 Dialogue: 0,0:29:59.75,0:30:04.61,Ichika - PiP,,0,0,0,,"Seeing this little slice of life is really nice." Definitely.
-Dialogue: 0,0:30:04.61,0:30:06.92,Ichika - PiP,,0,0,0,,And of course, Honami is cooking as usual.
+Dialogue: 0,0:30:04.61,0:30:06.92,Ichika - PiP,,0,0,0,,And Honami is cooking, naturally.
 Dialogue: 0,0:30:06.92,0:30:09.20,Ichika - PiP,,0,0,0,,Hona-chan would definitely use an actual knife.
 Dialogue: 0,0:30:12.19,0:30:14.34,Ichika - PiP,,0,0,0,,Alright, here's Shiho.
 Dialogue: 0,0:30:14.34,0:30:15.86,Ichika - PiP,,0,0,0,,SO COOL!
 Dialogue: 0,0:30:15.86,0:30:17.24,Ichika - PiP,,0,0,0,,Shiho~
-Dialogue: 0,0:30:17.24,0:30:20.24,Ichika - PiP,,0,0,0,,I love how it looks like she's getting ready to take on a challenge.
-Dialogue: 0,0:30:20.24,0:30:22.91,Ichika - PiP,,0,0,0,,It's screams Shiho, I love it.
+Dialogue: 0,0:30:17.24,0:30:20.24,Ichika - PiP,,0,0,0,,I love how it looks like she's getting ready to take on the world.
+Dialogue: 0,0:30:20.24,0:30:22.91,Ichika - PiP,,0,0,0,,It screams Shiho, I love it.
 Dialogue: 0,0:30:22.91,0:30:25.91,Ichika - PiP,,0,0,0,,She looks so ready to go.
 Dialogue: 0,0:30:25.91,0:30:29.71,Ichika - PiP,,0,0,0,,Ah, what's gonna happen?
-Dialogue: 0,0:30:31.04,0:30:34.13,Ichika - PiP,,0,0,0,,Man, I really just hope everything turns out well for them.
-Dialogue: 0,0:30:34.13,0:30:37.84,Ichika - PiP,,0,0,0,,The red pants also look super cool on Shiho.
+Dialogue: 0,0:30:31.04,0:30:34.13,Ichika - PiP,,0,0,0,,Man, I just hope everything turns out well for them.
+Dialogue: 0,0:30:34.13,0:30:37.84,Ichika - PiP,,0,0,0,,The red pants look super cool on Shiho though.
 Dialogue: 0,0:30:38.53,0:30:40.41,Ichika - PiP,,0,0,0,,
 Dialogue: 0,0:30:40.41,0:30:43.60,Ichika - PiP,,0,0,0,,Someone says "very ikemen". Definitely.
 Dialogue: 0,0:30:43.60,0:30:46.91,Ichika - PiP,,0,0,0,,So cool. Cute and cool.
 Dialogue: 0,0:30:46.91,0:30:49.43,Ichika - PiP,,0,0,0,,So good. Love it.
 Dialogue: 0,0:30:49.43,0:30:51.93,Ichika - PiP,,0,0,0,,Ah. The untrained.
-Dialogue: 0,0:30:51.93,0:30:54.93,Ichika - PiP,,0,0,0,,
+Dialogue: 0,0:30:51.93,0:30:55.79,Ichika - PiP,,0,0,0,,Tuning her bass. 
+Dialogue: 0,0:30:55.79,0:31:01.64,Ichika - PiP,,0,0,0,,Wonder if all bassists look this cool when they tune.
+Dialogue: 0,0:31:01.64,0:31:04.51,Ichika - PiP,,0,0,0,,
+Dialogue: 0,0:31:04.51,0:31:07.64,Ichika - PiP,,0,0,0,,The classroom looks nice with the 
 Dialogue: 0,0:32:51.90,0:32:55.38,Ichika - PiP,,0,0,0,,{\pos(650,750)}Also, be sure to check out all the detail in the colors.
 Comment: 0,0:32:55.38,0:32:55.38,Note,,0,0,0,,~~~Card Talk end~~~
 Dialogue: 0,0:32:55.38,0:32:55.82,Ichika,,0,0,0,,Moving on,
