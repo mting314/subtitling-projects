@@ -27,3 +27,9 @@ ffmpeg -i "input.mkv" -ss 00:10:52 -to 00:30:00 -c copy "pre story cut.mkv"
 ```
 ffmpeg -i input.mp4 -c:v copy -c:a copy output.mkv
 ```
+
+## Whisper
+
+```
+whisper input.mp4 --output_format txt --task transcribe
+```
