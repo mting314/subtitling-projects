@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.468750
-Scroll Position: 31
-Active Line: 64
-Video Position: 24792
+Scroll Position: 53
+Active Line: 65
+Video Position: 24879
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -42,11 +42,11 @@ Dialogue: 0,0:10:29.06,0:10:34.14,Shiho,,0,0,0,,Right, so did you enjoy the this
 Dialogue: 0,0:10:34.14,0:10:37.59,Shiho,,0,0,0,,Yep, I sure did read it right. Thank you.
 Dialogue: 0,0:10:37.59,0:10:39.88,Shiho,,0,0,0,,"{\i1}Kon-needo{\i0}". {\i1}Kon-needo{\i0}.
 Dialogue: 0,0:10:42.45,0:10:44.63,Shiho,,0,0,0,,It's like a st st party up in here.
-Dialogue: 0,0:10:46.49,0:10:47.77,Shiho,,0,0,0,,Yeah but like, 
+Dialogue: 0,0:10:46.49,0:10:47.77,Shiho,,0,0,0,,Yeah but like,
 Dialogue: 0,0:10:47.77,0:10:50.48,Shiho,,0,0,0,,talking about the story for real,
 Dialogue: 0,0:10:50.48,0:10:54.17,Shiho,,0,0,0,,it's not like there were any earthshattering developments or decisions here,
 Dialogue: 0,0:10:54.17,0:11:00.60,Shiho,,0,0,0,,Honami was just a little uncertain on this decision in front of her.
-Dialogue: 0,0:11:00.60,0:11:07.11,Shiho,,0,0,0,,{\i1}But{\i0}, 
+Dialogue: 0,0:11:00.60,0:11:07.11,Shiho,,0,0,0,,{\i1}But{\i0},
 Dialogue: 0,0:11:07.11,0:11:09.62,Shiho,,0,0,0,,"I liked the story!" Thank you.
 Dialogue: 0,0:11:10.49,0:11:11.64,Shiho,,0,0,0,,Glad to hear.
 Dialogue: 0,0:11:11.64,0:11:14.58,Shiho,,0,0,0,,We've a big of a mini-renewal for the Aftertalks since April
@@ -59,11 +59,12 @@ Dialogue: 0,0:11:31.85,0:11:36.42,Shiho,,0,0,0,,We'll also be watching the YouTu
 Dialogue: 0,0:11:36.42,0:11:42.25,Shiho,,0,0,0,,Also, note that since the mini-renewal, we won't be watching the Afterlives. Thanks for your understanding.
 Dialogue: 0,0:11:43.50,0:11:47.49,Shiho,,0,0,0,,Yeah, they're going to have to start choosing now that they're pros.
 Dialogue: 0,0:11:49.53,0:11:52.53,Shiho,,0,0,0,,"Shindo-san helped out a ton." For sure.
-Dialogue: 0,0:11:52.53,0:11:56.77,Shiho,,0,0,0,,I remember, that part where he's on the phone with them and— what was it—
-Dialogue: 0,0:11:56.77,0:11:58.38,Shiho,,0,0,0,,
-Dialogue: 0,0:11:58.38,0:12:05.01,Shiho,,0,0,0,,
-Dialogue: 0,0:12:05.01,0:12:06.63,Shiho,,0,0,0,,
-Dialogue: 0,0:12:06.63,0:12:09.98,Shiho,,0,0,0,,I was like "ah, you can really feel that this is a fully grown man."
+Dialogue: 0,0:11:52.53,0:11:56.77,Shiho,,0,0,0,,I remember, that part where he's on the phone with her and— how to say—
+Dialogue: 0,0:11:56.77,0:11:58.38,Shiho,,0,0,0,,the splitscreen part?
+Dialogue: 0,0:11:58.38,0:12:02.78,Shiho,,0,0,0,,When it shows Honami and Shindo-san side by side,
+Dialogue: 0,0:12:02.78,0:12:05.01,Shiho,,0,0,0,,it makes Shindo's frame look even bigger.
+Dialogue: 0,0:12:05.01,0:12:05.94,Shiho,,0,0,0,,I saw it and was like,
+Dialogue: 0,0:12:05.94,0:12:10.94,Shiho,,0,0,0,,"ah, that sure is a fully grown man."
 Dialogue: 0,0:12:10.94,0:12:12.80,Shiho,,0,0,0,,"The Afterlive was really good!" Mmm!
 Dialogue: 0,0:12:12.80,0:12:14.75,Shiho,,0,0,0,,Thank you!
 Dialogue: 0,0:12:14.75,0:12:19.88,Shiho,,0,0,0,,Alright! Let's get right into the "Unsteady, still steady step" story—
@@ -89,9 +90,15 @@ Dialogue: 0,0:13:23.60,0:13:27.78,Shiho,,0,0,0,,But if it were a {\i1}real{\i0} 
 Dialogue: 0,0:13:27.78,0:13:30.87,Shiho,,0,0,0,,like I had other work scheduled on the same day,
 Dialogue: 0,0:13:30.87,0:13:32.75,Shiho,,0,0,0,,I'd just have to choose one.
 Dialogue: 0,0:13:32.75,0:13:35.19,Shiho,,0,0,0,,but if it were like the story,
-Dialogue: 0,0:13:35.19,0:13:39.13,Shiho,,0,0,0,,like if I ended up getting double booked and had to choose one,
-Dialogue: 0,0:13:39.13,0:13:41.34,Shiho,,0,0,0,,
-Dialogue: 0,0:13:41.34,0:13:43.07,Shiho,,0,0,0,,
-Dialogue: 0,0:13:43.07,0:13:44.79,Shiho,,0,0,0,,
+Dialogue: 0,0:13:35.19,0:13:41.34,Shiho,,0,0,0,,like if I ended up getting double booked and had to choose one, 
+Dialogue: 0,0:13:41.34,0:13:43.07,Shiho,,0,0,0,,I think I'd try to do both.
+Dialogue: 0,0:13:43.07,0:13:44.79,Shiho,,0,0,0,,I'd probably try something like that.
 Dialogue: 0,0:13:44.79,0:13:46.38,Shiho,,0,0,0,,
-Dialogue: 0,0:13:46.38,0:13:49.38,Shiho,,0,0,0,,
+Dialogue: 0,0:13:46.38,0:13:49.30,Shiho,,0,0,0,,
+Dialogue: 0,0:13:49.30,0:13:52.22,Shiho,,0,0,0,,I feel like I make decisions impulsively like that.
+Dialogue: 0,0:13:52.22,0:13:54.18,Shiho,,0,0,0,,Oh yeah and of course,
+Dialogue: 0,0:13:54.18,0:13:55.74,Shiho,,0,0,0,,I usually just go by vibes.
+Dialogue: 0,0:13:57.18,0:14:00.53,Shiho,,0,0,0,,So sorry I can't really be of much help.
+Dialogue: 0,0:14:02.17,0:14:04.03,Shiho,,0,0,0,,Actually, what would you all do?
+Dialogue: 0,0:14:05.14,0:14:08.32,Shiho,,0,0,0,,Yeah. "If I could swing both, I'd definitely do it."
+Dialogue: 0,0:14:08.32,0:14:11.32,Shiho,,0,0,0,,
