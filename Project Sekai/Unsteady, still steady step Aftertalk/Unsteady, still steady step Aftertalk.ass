@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.468750
-Scroll Position: 53
-Active Line: 65
-Video Position: 24879
+Scroll Position: 98
+Active Line: 114
+Video Position: 30255
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -90,7 +90,7 @@ Dialogue: 0,0:13:23.60,0:13:27.78,Shiho,,0,0,0,,But if it were a {\i1}real{\i0} 
 Dialogue: 0,0:13:27.78,0:13:30.87,Shiho,,0,0,0,,like I had other work scheduled on the same day,
 Dialogue: 0,0:13:30.87,0:13:32.75,Shiho,,0,0,0,,I'd just have to choose one.
 Dialogue: 0,0:13:32.75,0:13:35.19,Shiho,,0,0,0,,but if it were like the story,
-Dialogue: 0,0:13:35.19,0:13:41.34,Shiho,,0,0,0,,like if I ended up getting double booked and had to choose one, 
+Dialogue: 0,0:13:35.19,0:13:41.34,Shiho,,0,0,0,,like if I ended up getting double booked and had to choose one,
 Dialogue: 0,0:13:41.34,0:13:43.07,Shiho,,0,0,0,,I think I'd try to do both.
 Dialogue: 0,0:13:43.07,0:13:44.79,Shiho,,0,0,0,,I'd probably try something like that.
 Dialogue: 0,0:13:44.79,0:13:46.38,Shiho,,0,0,0,,
@@ -101,4 +101,119 @@ Dialogue: 0,0:13:54.18,0:13:55.74,Shiho,,0,0,0,,I usually just go by vibes.
 Dialogue: 0,0:13:57.18,0:14:00.53,Shiho,,0,0,0,,So sorry I can't really be of much help.
 Dialogue: 0,0:14:02.17,0:14:04.03,Shiho,,0,0,0,,Actually, what would you all do?
 Dialogue: 0,0:14:05.14,0:14:08.32,Shiho,,0,0,0,,Yeah. "If I could swing both, I'd definitely do it."
-Dialogue: 0,0:14:08.32,0:14:11.32,Shiho,,0,0,0,,
+Dialogue: 0,0:14:08.32,0:14:12.77,Shiho,,0,0,0,,As uh... selfish as that would be www
+Dialogue: 0,0:14:12.77,0:14:13.65,Shiho,,0,0,0,,Yeah...
+Dialogue: 0,0:14:14.92,0:14:17.07,Shiho,,0,0,0,,Would probably try something like that.
+Dialogue: 0,0:14:18.04,0:14:20.81,Shiho,,0,0,0,,Leave it up to vibes. Yeah.
+Dialogue: 0,0:14:20.81,0:14:23.41,Shiho,,0,0,0,,"Flip a coin." Haha maybe.
+Dialogue: 0,0:14:23.41,0:14:27.07,Shiho,,0,0,0,,
+Dialogue: 0,0:14:27.07,0:14:29.65,Shiho,,0,0,0,,Maybe if you're really don't want to regret your decision,
+Dialogue: 0,0:14:29.65,0:14:34.48,Shiho,,0,0,0,,and you really can't decide on a clear favorite, maybe leaving it up to fate makes sense.
+Dialogue: 0,0:14:34.48,0:14:38.25,Shiho,,0,0,0,,Play "eenie, meenie, miney, moe" or something.
+Dialogue: 0,0:14:38.25,0:14:44.02,Shiho,,0,0,0,,That sure is one way to do it.
+Dialogue: 0,0:14:44.02,0:14:45.83,Shiho,,0,0,0,,But I mean, like,
+Dialogue: 0,0:14:45.83,0:14:50.40,Shiho,,0,0,0,,if it really were a "one or the other" situation,
+Dialogue: 0,0:14:50.40,0:14:53.50,Shiho,,0,0,0,,I think I would just go with vibes...
+Dialogue: 0,0:14:53.50,0:14:55.93,Shiho,,0,0,0,,Like just going with whatever my gut was telling me.
+Dialogue: 0,0:14:55.93,0:15:01.90,Shiho,,0,0,0,,Even if I was just feeling it 1-2% more, I'd probably go with that one.
+Dialogue: 0,0:15:01.90,0:15:02.66,Shiho,,0,0,0,,Right? 
+Dialogue: 0,0:15:02.66,0:15:06.48,Shiho,,0,0,0,,If I were in Leo/need's specific situation in the story,
+Dialogue: 0,0:15:06.48,0:15:12.56,Shiho,,0,0,0,,and the request for the fan festa got withdrawn,
+Dialogue: 0,0:15:12.56,0:15:14.86,Shiho,,0,0,0,,I'd actually be relieved.
+Dialogue: 0,0:15:14.86,0:15:18.39,Shiho,,0,0,0,,I'd be like "Oh! We get to do both!"
+Dialogue: 0,0:15:18.39,0:15:22.81,Shiho,,0,0,0,,Probably not good to think this way but I'd be like "we got lucky!"
+Dialogue: 0,0:15:22.81,0:15:25.81,Shiho,,0,0,0,,Mmm. Something like that.
+Dialogue: 0,0:15:25.81,0:15:28.91,Shiho,,0,0,0,,Okay. Let's move onto one more message.
+Dialogue: 0,0:15:28.91,0:15:31.68,Shiho,,0,0,0,,Next up, from "Copy"-san. Thank you for the message.
+Dialogue: 0,0:15:31.68,0:15:33.74,Shiho,,0,0,0,,"Yukki, {\i1}kon-needo{\i0}." {\i1}Kon-needo{\i0}.
+Dialogue: 0,0:15:33.74,0:15:39.02,Shiho,,0,0,0,,"I was really excited to see Leo/need finally getting an opportunity to do their much-awaited one-man live."
+Dialogue: 0,0:15:39.02,0:15:44.05,Shiho,,0,0,0,,"I was secretly hoping that they would do that instrument shuffle for the real thing."
+Dialogue: 0,0:15:44.05,0:15:46.05,Shiho,,0,0,0,,Thank you for the message.
+Dialogue: 0,0:15:46.05,0:15:47.96,Shiho,,0,0,0,,Oh yeah. Would definitely want to see that.
+Dialogue: 0,0:15:49.01,0:15:51.10,Shiho,,0,0,0,,Ehhhh? Like,
+Dialogue: 0,0:15:51.88,0:15:54.16,Shiho,,0,0,0,,I, uh, I don't really think I'd like that.
+Dialogue: 0,0:15:54.16,0:16:00.14,Shiho,,0,0,0,,If I really had to do that, I'd be so nervous.
+Dialogue: 0,0:16:00.61,0:16:05.06,Shiho,,0,0,0,,I wonder... Shiho switched from bass,
+Dialogue: 0,0:16:05.06,0:16:09.84,Shiho,,0,0,0,,and had to play drums... or guitar or keyboard...
+Dialogue: 0,0:16:09.84,0:16:13.68,Shiho,,0,0,0,,Would you even be able to get her to do it? That's what I'd be wondering.
+Dialogue: 0,0:16:13.68,0:16:16.73,Shiho,,0,0,0,,I mean, if it were for rehearsal, I think she would be okay with it.
+Dialogue: 0,0:16:16.73,0:16:23.02,Shiho,,0,0,0,,As someone so talented and self-confident in her music,
+Dialogue: 0,0:16:23.02,0:16:27.58,Shiho,,0,0,0,,I think she'd have some pride on the line! Even if it were just for an MC, she'd be like "I'm not giving you my bass."
+Dialogue: 0,0:16:27.58,0:16:30.65,Shiho,,0,0,0,,That being said...
+Dialogue: 0,0:16:30.65,0:16:33.54,Shiho,,0,0,0,,{\i1}I{\i0} definitely would want to see that happen.
+Dialogue: 0,0:16:33.54,0:16:37.20,Shiho,,0,0,0,,Seeing her get flustered like that... that'd be really fun to see.
+Dialogue: 0,0:16:37.20,0:16:43.06,Shiho,,0,0,0,,
+Dialogue: 0,0:16:43.06,0:16:48.49,Shiho,,0,0,0,,If they did that, I for sure could watch that forever.
+Dialogue: 0,0:16:48.49,0:16:51.49,Shiho,,0,0,0,,
+Comment: 0,0:42:17.27,0:42:19.20,Shiho,,0,0,0,,~~~START SONG TALK~~~
+Dialogue: 0,0:42:17.27,0:42:19.55,Shiho,,0,0,0,,Waaah~
+Dialogue: 0,0:42:20.03,0:42:21.55,Shiho,,0,0,0,,Great MV.
+Dialogue: 0,0:42:21.55,0:42:24.92,Shiho,,0,0,0,,It has a feeling of, how to say, lightness and transparency,
+Dialogue: 0,0:42:24.92,0:42:28.75,Shiho,,0,0,0,,while also keeping a pop vibe. Really nice.
+Dialogue: 0,0:42:28.75,0:42:34.66,Shiho,,0,0,0,,I remember when I recorded for this song,
+Dialogue: 0,0:42:34.66,0:42:36.38,Shiho,,0,0,0,,Even thought it's pretty upbeat,
+Dialogue: 0,0:42:36.38,0:42:43.64,Shiho,,0,0,0,,I remember being asked to sing with a bit of hesitation and indecisiveness in the verse and prechorus.
+Dialogue: 0,0:42:43.64,0:42:46.94,Shiho,,0,0,0,,Almost like I was a bit worn out.
+Dialogue: 0,0:42:46.94,0:42:49.74,Shiho,,0,0,0,,And then in the chorus— how to say—
+Dialogue: 0,0:42:49.74,0:42:54.37,Shiho,,0,0,0,,we were asked to sing with a much brighter and transparent feeling,
+Dialogue: 0,0:42:54.37,0:42:57.06,Shiho,,0,0,0,,so that's how the song turned out.
+Dialogue: 0,0:42:57.06,0:43:02.90,Shiho,,0,0,0,,Also, I love the part of the lyrics that says "and on days of celebration, we'll have apple pies" so much.
+Dialogue: 0,0:43:02.90,0:43:08.34,Shiho,,0,0,0,,Actually, as far as commissioned song lyrics go,
+Dialogue: 0,0:43:08.34,0:43:15.14,Shiho,,0,0,0,,I feel like this is the first time a character's favorite items have shown up.
+Dialogue: 0,0:43:15.14,0:43:17.44,Shiho,,0,0,0,,I'm feel like that's the case.
+Dialogue: 0,0:43:17.44,0:43:21.76,Shiho,,0,0,0,,Yeah. It's a pretty new feeling. And makes it easy to remember.
+Dialogue: 0,0:43:21.76,0:43:25.64,Shiho,,0,0,0,,I remember that part being stuck in my head forever.
+Dialogue: 0,0:43:25.64,0:43:28.05,Shiho,,0,0,0,,But a good kind of "stuck in my head". I really liked it.
+Dialogue: 0,0:43:28.05,0:43:29.13,Shiho,,0,0,0,,Yeah
+Dialogue: 0,0:43:29.13,0:43:34.48,Shiho,,0,0,0,,Actually, I saw that on the Master chart, there's an "apple pie" note
+Dialogue: 0,0:43:34.48,0:43:37.20,Shiho,,0,0,0,,Somehow they made an "apple pie" note.
+Dialogue: 0,0:43:37.20,0:43:39.05,Shiho,,0,0,0,,It's a super huge apple pie.
+Dialogue: 0,0:43:40.58,0:43:44.11,Shiho,,0,0,0,,When I first played it, I was like "woah, it's an apple pie!"
+Dialogue: 0,0:43:44.11,0:43:47.55,Shiho,,0,0,0,,If you're interested, definitely try out the Master chart.
+Dialogue: 0,0:43:49.08,0:43:51.59,Shiho,,0,0,0,,Yo, will Shiho's ramen show up one day?
+Dialogue: 0,0:43:51.59,0:43:53.36,Shiho,,0,0,0,,When would it show up?
+Dialogue: 0,0:43:53.36,0:43:55.74,Shiho,,0,0,0,,Would Shiho get—
+Dialogue: 0,0:43:55.74,0:43:57.85,Shiho,,0,0,0,,Would she get a pop song like this though?
+Dialogue: 0,0:43:59.00,0:44:02.60,Shiho,,0,0,0,,I mean, {\i1}I'd{\i0} definitely be interested in seeing that.
+Dialogue: 0,0:44:03.64,0:44:07.56,Shiho,,0,0,0,,Yeah, try the Master chart. It's uh...
+Dialogue: 0,0:44:07.56,0:44:12.13,Shiho,,0,0,0,,You can, uh... they made it so you can play Master mode immediately now.
+Dialogue: 0,0:44:12.13,0:44:14.26,Shiho,,0,0,0,,So do try it.
+Dialogue: 0,0:44:14.26,0:44:17.29,Shiho,,0,0,0,,
+Dialogue: 0,0:44:18.86,0:44:20.07,Shiho,,0,0,0,,
+Dialogue: 0,0:44:20.07,0:44:23.07,Shiho,,0,0,0,,
+Dialogue: 0,0:44:23.07,0:44:24.80,Shiho,,0,0,0,,Would be cool if she got a metal song.
+Dialogue: 0,0:44:24.80,0:44:25.99,Shiho,,0,0,0,,Kind of like "JYA JYA JYA",
+Dialogue: 0,0:44:25.99,0:44:28.55,Shiho,,0,0,0,,or like "DA DO DO DAN DO" hahaha!
+Dialogue: 0,0:44:30.84,0:44:34.06,Shiho,,0,0,0,,If ti really were like that...
+Dialogue: 0,0:44:34.06,0:44:36.22,Shiho,,0,0,0,,I'd be a bit worried. If that really did happen.
+Dialogue: 0,0:44:36.22,0:44:39.57,Shiho,,0,0,0,,just make it an April Fool's song if you're really gonna do it.
+Dialogue: 0,0:44:44.26,0:44:46.75,Shiho,,0,0,0,,"Would have lots of slap bass." Yeah, I suppose it would.
+Dialogue: 0,0:44:47.93,0:44:50.27,Shiho,,0,0,0,,"The steam from the ramen would zig zag everywhere."
+Dialogue: 0,0:44:50.27,0:44:54.86,Shiho,,0,0,0,,Wow, everyone's already got so many creative ideas for this.
+Dialogue: 0,0:44:57.12,0:45:03.85,Shiho,,0,0,0,,Really though, I'm excited for any potential favorite food inclusions in upcoming songs like this.
+Dialogue: 0,0:45:03.85,0:45:08.11,Shiho,,0,0,0,,And getting to see Saki's outfit here in the MV was also really nice.
+Dialogue: 0,0:45:08.11,0:45:14.41,Shiho,,0,0,0,,That heart mark here is actually different for everyone. 
+Dialogue: 0,0:45:14.41,0:45:16.84,Shiho,,0,0,0,,It's a super duper cute 2DMV.
+Dialogue: 0,0:45:16.84,0:45:18.67,Shiho,,0,0,0,,Please check it out, everyone.
+Dialogue: 0,0:45:18.67,0:45:23.90,Shiho,,0,0,0,,the 2DMV is already uploaded to the official ProSeka YouTube channel, so be sure to watch it there.
+Comment: 0,0:45:18.67,0:45:23.90,Shiho,,0,0,0,,~~~END STORY TALK~~~
+Dialogue: 0,0:45:23.90,0:45:27.42,Shiho,,0,0,0,,Well then, it was just a short episode this time,
+Dialogue: 0,0:45:27.42,0:45:33.20,Shiho,,0,0,0,,but that's all we have for the "Unsteady, still steady step" Aftertalk.
+Dialogue: 0,0:45:33.20,0:45:34.53,Shiho,,0,0,0,,So quick!
+Dialogue: 0,0:45:35.73,0:45:38.16,Shiho,,0,0,0,,That just flew by so quick.
+Dialogue: 0,0:45:38.16,0:45:40.00,Shiho,,0,0,0,,It's already 9PM.
+Dialogue: 0,0:45:40.00,0:45:45.21,Shiho,,0,0,0,,I saw the clock when I spun around, I was like "crap, it's already 9?"
+Dialogue: 0,0:45:45.21,0:45:49.39,Shiho,,0,0,0,,I was like "I can't just be spinning here, we need to move on to watch the MV!"
+Dialogue: 0,0:45:52.48,0:45:53.90,Shiho,,0,0,0,,That really did fly by.
+Dialogue: 0,0:45:53.90,0:45:56.23,Shiho,,0,0,0,,"Let's do this again!" Yep.
+Dialogue: 0,0:45:56.23,0:45:59.65,Shiho,,0,0,0,,"But I just got here!" Yeah!
+Dialogue: 0,0:45:59.65,0:46:02.80,Shiho,,0,0,0,,
+Dialogue: 0,0:46:02.80,0:46:09.40,Shiho,,0,0,0,,So with that, if you haven't watched the "Unsteady, still steady step" event story yet,
+Dialogue: 0,0:46:09.40,0:46:15.46,Shiho,,0,0,0,,after the next event starts, you can read it in-game in the "Event Story" section under the "Story" button, so please do so.
+Dialogue: 0,0:46:15.46,0:46:18.19,Shiho,,0,0,0,,We'll be accepting submissions for future Aftertalks as usual.
+Dialogue: 0,0:46:18.19,0:46:25.06,Shiho,,0,0,0,,You can submit your messages in the submissions channel on the official Project Sekai Discord, or through email.
+Dialogue: 0,0:46:25.06,0:46:28.89,Shiho,,0,0,0,,Feel free to send them in after the next Aftertalk event starts.
+Dialogue: 0,0:46:28.89,0:46:32.54,Shiho,,0,0,0,,Please keep your messages related to the events.
+Dialogue: 0,0:46:32.54,0:46:35.02,Shiho,,0,0,0,,With that, thanks so much for a fun Aftertalk today!
+Dialogue: 0,0:46:35.02,0:46:37.18,Shiho,,0,0,0,,See you again next time!
+Dialogue: 0,0:46:37.18,0:46:41.33,Shiho,,0,0,0,,{\fad(0,500}Bye bye! 
