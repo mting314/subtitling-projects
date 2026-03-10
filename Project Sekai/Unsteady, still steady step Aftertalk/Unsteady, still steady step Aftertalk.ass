@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.468750
-Scroll Position: 98
-Active Line: 114
-Video Position: 30255
+Scroll Position: 126
+Active Line: 139
+Video Position: 33453
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -116,7 +116,7 @@ Dialogue: 0,0:14:45.83,0:14:50.40,Shiho,,0,0,0,,if it really were a "one or the 
 Dialogue: 0,0:14:50.40,0:14:53.50,Shiho,,0,0,0,,I think I would just go with vibes...
 Dialogue: 0,0:14:53.50,0:14:55.93,Shiho,,0,0,0,,Like just going with whatever my gut was telling me.
 Dialogue: 0,0:14:55.93,0:15:01.90,Shiho,,0,0,0,,Even if I was just feeling it 1-2% more, I'd probably go with that one.
-Dialogue: 0,0:15:01.90,0:15:02.66,Shiho,,0,0,0,,Right? 
+Dialogue: 0,0:15:01.90,0:15:02.66,Shiho,,0,0,0,,Right?
 Dialogue: 0,0:15:02.66,0:15:06.48,Shiho,,0,0,0,,If I were in Leo/need's specific situation in the story,
 Dialogue: 0,0:15:06.48,0:15:12.56,Shiho,,0,0,0,,and the request for the fan festa got withdrawn,
 Dialogue: 0,0:15:12.56,0:15:14.86,Shiho,,0,0,0,,I'd actually be relieved.
@@ -142,9 +142,34 @@ Dialogue: 0,0:16:23.02,0:16:27.58,Shiho,,0,0,0,,I think she'd have some pride on
 Dialogue: 0,0:16:27.58,0:16:30.65,Shiho,,0,0,0,,That being said...
 Dialogue: 0,0:16:30.65,0:16:33.54,Shiho,,0,0,0,,{\i1}I{\i0} definitely would want to see that happen.
 Dialogue: 0,0:16:33.54,0:16:37.20,Shiho,,0,0,0,,Seeing her get flustered like that... that'd be really fun to see.
-Dialogue: 0,0:16:37.20,0:16:43.06,Shiho,,0,0,0,,
-Dialogue: 0,0:16:43.06,0:16:48.49,Shiho,,0,0,0,,If they did that, I for sure could watch that forever.
-Dialogue: 0,0:16:48.49,0:16:51.49,Shiho,,0,0,0,,
+Dialogue: 0,0:16:37.20,0:16:43.06,Shiho,,0,0,0,,But yeah, I kind of wanna see everyone go "how do you play this?"
+Dialogue: 0,0:16:43.06,0:16:48.49,Shiho,,0,0,0,,I for sure could watch that forever.
+Dialogue: 0,0:16:48.49,0:16:51.49,Shiho,,0,0,0,,w
+Dialogue: 0,0:16:51.49,0:16:55.07,Shiho,,0,0,0,,But yeah, I'm interested in where the story will go from here.
+Dialogue: 0,0:16:55.07,0:16:59.10,Shiho,,0,0,0,,"I can't really imagine Shiho-chan on the drums." Ahh, that's true.
+Dialogue: 0,0:16:59.10,0:17:02.75,Shiho,,0,0,0,,Hmm, I don't know, she is good at keeping rhythm though,
+Dialogue: 0,0:17:02.75,0:17:06.56,Shiho,,0,0,0,,so I feel like she might be able to keep up.
+Dialogue: 0,0:17:06.56,0:17:10.23,Shiho,,0,0,0,,But your hands and feet are doing different things,
+Dialogue: 0,0:17:10.23,0:17:13.49,Shiho,,0,0,0,,so she might end up a little flustered too. Very interested though.
+Dialogue: 0,0:17:13.49,0:17:15.81,Shiho,,0,0,0,,"I'd wanna see her on guitar!"
+Dialogue: 0,0:17:15.81,0:17:17.06,Shiho,,0,0,0,,Mmmmm.
+Dialogue: 0,0:17:17.06,0:17:19.07,Shiho,,0,0,0,,That would be cool to see.
+Dialogue: 0,0:17:20.11,0:17:24.67,Shiho,,0,0,0,,"Everyone going 'how do you play this?' would be so cute."  Oh yeah. 100%.
+Dialogue: 0,0:17:27.00,0:17:29.05,Shiho,,0,0,0,,Ah, that would be so great to see.
+Dialogue: 0,0:17:29.05,0:17:32.58,Shiho,,0,0,0,,So yeah, everyone, definitely look forward to the coming stories.
+Dialogue: 0,0:17:32.58,0:17:35.02,Shiho,,0,0,0,,Thank you for the message.
+Dialogue: 0,0:17:35.02,0:17:43.61,Shiho,,0,0,0,,Alright, I've picked a scene from the story I'd like to talk about, so let's watch it together.
+Dialogue: 0,0:17:43.61,0:17:45.98,Shiho,,0,0,0,,This time, I chose Chapter 8.
+Dialogue: 0,0:17:45.98,0:17:47.28,Shiho,,0,0,0,,Here we go!
+Comment: 0,0:17:47.28,0:17:50.28,Shiho,,0,0,0,,~~~START STORY TALK~~~
+Dialogue: 0,0:17:52.54,0:17:55.10,Shiho,,0,0,0,,Nakashima-san, could you play guitar when you started learning bass?
+Dialogue: 0,0:17:55.10,0:17:55.63,Shiho,,0,0,0,,Nope.
+Dialogue: 0,0:17:57.26,0:17:59.24,Shiho,,0,0,0,,I gave up on guitar pretty quick.
+Dialogue: 0,0:18:10.62,0:18:14.05,Shiho,,0,0,0,,Speaking of Hona-chan as a leader, 
+Dialogue: 0,0:18:14.05,0:18:18.82,Shiho,,0,0,0,,her coming at it from the perspective of "which one will make our fans the happiest?"
+Dialogue: 0,0:18:18.82,0:18:20.75,Shiho,,0,0,0,,and going out to  all that.
+Dialogue: 0,0:18:20.75,0:18:24.64,Shiho,,0,0,0,,Actually going out of her way to really understand all the fans,
+Dialogue: 0,0:18:24.64,0:18:31.34,Shiho,,0,0,0,,I think that's incredible. Shows her determination as a leader.
 Comment: 0,0:42:17.27,0:42:19.20,Shiho,,0,0,0,,~~~START SONG TALK~~~
 Dialogue: 0,0:42:17.27,0:42:19.55,Shiho,,0,0,0,,Waaah~
 Dialogue: 0,0:42:20.03,0:42:21.55,Shiho,,0,0,0,,Great MV.
@@ -192,7 +217,7 @@ Dialogue: 0,0:44:47.93,0:44:50.27,Shiho,,0,0,0,,"The steam from the ramen would 
 Dialogue: 0,0:44:50.27,0:44:54.86,Shiho,,0,0,0,,Wow, everyone's already got so many creative ideas for this.
 Dialogue: 0,0:44:57.12,0:45:03.85,Shiho,,0,0,0,,Really though, I'm excited for any potential favorite food inclusions in upcoming songs like this.
 Dialogue: 0,0:45:03.85,0:45:08.11,Shiho,,0,0,0,,And getting to see Saki's outfit here in the MV was also really nice.
-Dialogue: 0,0:45:08.11,0:45:14.41,Shiho,,0,0,0,,That heart mark here is actually different for everyone. 
+Dialogue: 0,0:45:08.11,0:45:14.41,Shiho,,0,0,0,,That heart mark here is actually different for everyone.
 Dialogue: 0,0:45:14.41,0:45:16.84,Shiho,,0,0,0,,It's a super duper cute 2DMV.
 Dialogue: 0,0:45:16.84,0:45:18.67,Shiho,,0,0,0,,Please check it out, everyone.
 Dialogue: 0,0:45:18.67,0:45:23.90,Shiho,,0,0,0,,the 2DMV is already uploaded to the official ProSeka YouTube channel, so be sure to watch it there.
@@ -216,4 +241,4 @@ Dialogue: 0,0:46:25.06,0:46:28.89,Shiho,,0,0,0,,Feel free to send them in after 
 Dialogue: 0,0:46:28.89,0:46:32.54,Shiho,,0,0,0,,Please keep your messages related to the events.
 Dialogue: 0,0:46:32.54,0:46:35.02,Shiho,,0,0,0,,With that, thanks so much for a fun Aftertalk today!
 Dialogue: 0,0:46:35.02,0:46:37.18,Shiho,,0,0,0,,See you again next time!
-Dialogue: 0,0:46:37.18,0:46:41.33,Shiho,,0,0,0,,{\fad(0,500}Bye bye! 
+Dialogue: 0,0:46:37.18,0:46:41.33,Shiho,,0,0,0,,{\fad(0,500}Bye bye!
