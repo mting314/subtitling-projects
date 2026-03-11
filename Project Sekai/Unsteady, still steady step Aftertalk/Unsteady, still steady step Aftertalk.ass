@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.468750
-Scroll Position: 126
-Active Line: 139
-Video Position: 33453
+Scroll Position: 140
+Active Line: 152
+Video Position: 45404
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -165,11 +165,32 @@ Comment: 0,0:17:47.28,0:17:50.28,Shiho,,0,0,0,,~~~START STORY TALK~~~
 Dialogue: 0,0:17:52.54,0:17:55.10,Shiho,,0,0,0,,Nakashima-san, could you play guitar when you started learning bass?
 Dialogue: 0,0:17:55.10,0:17:55.63,Shiho,,0,0,0,,Nope.
 Dialogue: 0,0:17:57.26,0:17:59.24,Shiho,,0,0,0,,I gave up on guitar pretty quick.
-Dialogue: 0,0:18:10.62,0:18:14.05,Shiho,,0,0,0,,Speaking of Hona-chan as a leader, 
+Dialogue: 0,0:18:10.62,0:18:14.05,Shiho,,0,0,0,,Speaking of Hona-chan as a leader,
 Dialogue: 0,0:18:14.05,0:18:18.82,Shiho,,0,0,0,,her coming at it from the perspective of "which one will make our fans the happiest?"
-Dialogue: 0,0:18:18.82,0:18:20.75,Shiho,,0,0,0,,and going out to  all that.
-Dialogue: 0,0:18:20.75,0:18:24.64,Shiho,,0,0,0,,Actually going out of her way to really understand all the fans,
+Dialogue: 0,0:18:18.82,0:18:20.75,Shiho,,0,0,0,,and getting the others' opinions.
+Dialogue: 0,0:18:20.75,0:18:24.64,Shiho,,0,0,0,,Actually going out of her way to understand everyone perspective,
 Dialogue: 0,0:18:24.64,0:18:31.34,Shiho,,0,0,0,,I think that's incredible. Shows her determination as a leader.
+Dialogue: 0,0:18:52.05,0:18:58.45,Shiho,,0,0,0,,It's impressive that she realizes she needs to decide this based on her own feelings,
+Dialogue: 0,0:18:58.45,0:19:01.85,Shiho,,0,0,0,,but also realizing that can't keep everyone waiting forever.
+Dialogue: 0,0:19:23.29,0:19:26.05,Shiho,,0,0,0,,Chapter 7 was also really good.
+Dialogue: 0,0:19:41.80,0:19:44.92,Shiho,,0,0,0,,Overthinking makes it tougher to choose.
+Dialogue: 0,0:20:10.77,0:20:14.08,Shiho,,0,0,0,,Ah, it's that scene I mentioned laughing about.
+Dialogue: 0,0:20:14.08,0:20:17.41,Shiho,,0,0,0,,Shindo-san's comparatively large frame here.
+Dialogue: 0,0:20:17.41,0:20:20.41,Shiho,,0,0,0,,I was like "woah".
+Dialogue: 0,0:20:52.67,0:20:56.34,Shiho,,0,0,0,,
+Comment: 0,0:24:43.98,0:24:46.98,Note,,0,0,0,,~~~END STORY TALK~~~
+Dialogue: 0,0:24:48.92,0:24:52.05,Shiho,,0,0,0,,That was Chapter 8.
+Dialogue: 0,0:24:52.05,0:25:00.83,Shiho,,0,0,0,,So my favorite, or most memorable part was from a bit earlier in the chapter,
+Dialogue: 0,0:25:00.83,0:25:11.92,Shiho,,0,0,0,,when Honami was disappointed in herself saying "I'll thought for sure I'd be able to come to a decision," 
+Dialogue: 0,0:25:13.46,0:25:19.05,Shiho,,0,0,0,,but then resolving herself again as Leo/need's leader. That was really memorable for me.
+Dialogue: 0,0:25:20.19,0:25:24.21,Shiho,,0,0,0,,If I were in here shoes, I'd probably just take the easy way out and go like,
+Dialogue: 0,0:25:24.21,0:25:27.55,Shiho,,0,0,0,,
+Dialogue: 0,0:25:27.55,0:25:32.59,Shiho,,0,0,0,,A lot of that has to do with the fact that I've never really worked as a leader myself,
+Dialogue: 0,0:25:32.59,0:25:36.18,Shiho,,0,0,0,,but that said... how to say it...
+Dialogue: 0,0:25:36.18,0:25:44.31,Shiho,,0,0,0,,I definitely feel that Honami is super dependable and repsonsible, 
+Dialogue: 0,0:25:44.31,0:25:49.12,Shiho,,0,0,0,,but at the same time, I was hoping that nothing really serious would come up.
+Dialogue: 0,0:25:49.12,0:25:55.73,Shiho,,0,0,0,,I was worried that Honami might break down.
+Dialogue: 0,0:25:55.73,0:25:58.65,Shiho,,0,0,0,,That's why I chose this scene.
 Comment: 0,0:42:17.27,0:42:19.20,Shiho,,0,0,0,,~~~START SONG TALK~~~
 Dialogue: 0,0:42:17.27,0:42:19.55,Shiho,,0,0,0,,Waaah~
 Dialogue: 0,0:42:20.03,0:42:21.55,Shiho,,0,0,0,,Great MV.
@@ -189,10 +210,10 @@ Dialogue: 0,0:43:15.14,0:43:17.44,Shiho,,0,0,0,,I'm feel like that's the case.
 Dialogue: 0,0:43:17.44,0:43:21.76,Shiho,,0,0,0,,Yeah. It's a pretty new feeling. And makes it easy to remember.
 Dialogue: 0,0:43:21.76,0:43:25.64,Shiho,,0,0,0,,I remember that part being stuck in my head forever.
 Dialogue: 0,0:43:25.64,0:43:28.05,Shiho,,0,0,0,,But a good kind of "stuck in my head". I really liked it.
-Dialogue: 0,0:43:28.05,0:43:29.13,Shiho,,0,0,0,,Yeah
-Dialogue: 0,0:43:29.13,0:43:34.48,Shiho,,0,0,0,,Actually, I saw that on the Master chart, there's an "apple pie" note
-Dialogue: 0,0:43:34.48,0:43:37.20,Shiho,,0,0,0,,Somehow they made an "apple pie" note.
-Dialogue: 0,0:43:37.20,0:43:39.05,Shiho,,0,0,0,,It's a super huge apple pie.
+Dialogue: 0,0:43:28.05,0:43:29.13,Shiho,,0,0,0,,Yeah.
+Dialogue: 0,0:43:29.13,0:43:34.48,Shiho,,0,0,0,,Actually, I saw that on the Master chart, there's an "apple pie" note.
+Dialogue: 0,0:43:34.48,0:43:37.20,Shiho,,0,0,0,,Somehow they made an apple pie out of the hold notes.
+Dialogue: 0,0:43:37.20,0:43:39.05,Shiho,,0,0,0,,Just a huge apple pie right in the chart.
 Dialogue: 0,0:43:40.58,0:43:44.11,Shiho,,0,0,0,,When I first played it, I was like "woah, it's an apple pie!"
 Dialogue: 0,0:43:44.11,0:43:47.55,Shiho,,0,0,0,,If you're interested, definitely try out the Master chart.
 Dialogue: 0,0:43:49.08,0:43:51.59,Shiho,,0,0,0,,Yo, will Shiho's ramen show up one day?
@@ -203,13 +224,12 @@ Dialogue: 0,0:43:59.00,0:44:02.60,Shiho,,0,0,0,,I mean, {\i1}I'd{\i0} definitely
 Dialogue: 0,0:44:03.64,0:44:07.56,Shiho,,0,0,0,,Yeah, try the Master chart. It's uh...
 Dialogue: 0,0:44:07.56,0:44:12.13,Shiho,,0,0,0,,You can, uh... they made it so you can play Master mode immediately now.
 Dialogue: 0,0:44:12.13,0:44:14.26,Shiho,,0,0,0,,So do try it.
-Dialogue: 0,0:44:14.26,0:44:17.29,Shiho,,0,0,0,,
-Dialogue: 0,0:44:18.86,0:44:20.07,Shiho,,0,0,0,,
-Dialogue: 0,0:44:20.07,0:44:23.07,Shiho,,0,0,0,,
-Dialogue: 0,0:44:23.07,0:44:24.80,Shiho,,0,0,0,,Would be cool if she got a metal song.
+Dialogue: 0,0:44:14.26,0:44:17.29,Shiho,,0,0,0,,I can't imagine Shiho and ramen in a song like this.
+Dialogue: 0,0:44:18.86,0:44:23.07,Shiho,,0,0,0,,I think they should have a little fun with the idea.
+Dialogue: 0,0:44:23.07,0:44:24.80,Shiho,,0,0,0,,Like maybe she could get a metal song.
 Dialogue: 0,0:44:24.80,0:44:25.99,Shiho,,0,0,0,,Kind of like "JYA JYA JYA",
 Dialogue: 0,0:44:25.99,0:44:28.55,Shiho,,0,0,0,,or like "DA DO DO DAN DO" hahaha!
-Dialogue: 0,0:44:30.84,0:44:34.06,Shiho,,0,0,0,,If ti really were like that...
+Dialogue: 0,0:44:30.84,0:44:34.06,Shiho,,0,0,0,,If that really happened...
 Dialogue: 0,0:44:34.06,0:44:36.22,Shiho,,0,0,0,,I'd be a bit worried. If that really did happen.
 Dialogue: 0,0:44:36.22,0:44:39.57,Shiho,,0,0,0,,just make it an April Fool's song if you're really gonna do it.
 Dialogue: 0,0:44:44.26,0:44:46.75,Shiho,,0,0,0,,"Would have lots of slap bass." Yeah, I suppose it would.
