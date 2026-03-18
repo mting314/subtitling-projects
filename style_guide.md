@@ -40,7 +40,7 @@ More specific rules for subtitling Japanese seiyuu and anime content are below.
 
 ### Primary Pause Indicator: Ellipsis (`…`)
 
-Use the ellipsis (Unicode U+2026, NOT three periods) to indicate:
+Use the ellipsis (Unicode U+2026 or three periods) to indicate:
 
 - **Speaker hesitation**
 - **Trailing off**
