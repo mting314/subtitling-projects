@@ -211,7 +211,6 @@ When speakers read from prepared materials:
 
 Before finalizing:
 
-- [ ] All ellipses are Unicode (`…`) not three periods (`...`)
 - [ ] No unnecessary gaps between consecutive dialogue
 - [ ] Japanese terms in italics
 - [ ] Natural contractions used throughout
@@ -254,7 +253,10 @@ Examples:
 ### Project Sekai Terminology
 
 - "AfterTalk" should be capitalized as "AfterTalk", not "aftertalk" or "Aftertalk".
+- "AfterLive" should be written as one word (with capital "L"): "AfterLive" (singular) and "AfterLives" (plural). Do NOT write "After Lives".
 - "ProSeka" should be capitalized as "ProSeka", not "proseka" or "Proseka".
+- Use "MV" when referring to music videos (e.g., "the MV"). "2DMV" is also acceptable when specifically describing 2D music videos.
+- Use "fan festa" for the fan event term. ("fan fes" is a common shorthand but the full form is preferred.)
 - When referring to numbered sections of Project Sekai event stories, use "Episode", not "Chapter" (e.g., "Episode 1", "Episode 2"). This aligns with the game's official terminology.
 
 ## Grammar
