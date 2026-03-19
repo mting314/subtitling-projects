@@ -15,10 +15,10 @@ Audio File: Unsteady, still steady step Aftertalk.mkv
 Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.468750
-Scroll Position: 45
-Active Line: 54
-Video Position: 23890
+Video Zoom Percent: 0.625000
+Scroll Position: 60
+Active Line: 66
+Video Position: 25130
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,7 +26,7 @@ Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,12,4,2,540,540,180,1
 Style: Note,Arial,144,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
 Style: Panel,Arial,144,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,6,6,5,30,30,30,1
-Style: Shiho,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,6,4,2,200,200,50,1
+Style: Shiho,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,200,200,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -91,13 +91,12 @@ Dialogue: 0,0:13:27.78,0:13:30.87,Shiho,,0,0,0,,like I had other work scheduled 
 Dialogue: 0,0:13:30.87,0:13:32.75,Shiho,,0,0,0,,I'd just have to choose one.
 Dialogue: 0,0:13:32.75,0:13:35.19,Shiho,,0,0,0,,But if it were like the story,
 Dialogue: 0,0:13:35.19,0:13:41.34,Shiho,,0,0,0,,like if I needed to get two separate things done by the same day,
-Dialogue: 0,0:13:41.34,0:13:43.07,Shiho,,0,0,0,,I think I'd try to do both.
-Dialogue: 0,0:13:43.07,0:13:44.79,Shiho,,0,0,0,,I'd probably try something like that.
+Dialogue: 0,0:13:41.34,0:13:44.79,Shiho,,0,0,0,,I think I'd try to do both.
 Dialogue: 0,0:13:44.79,0:13:49.30,Shiho,,0,0,0,,Like, it definitely depends on what exactly I'm deciding on,
 Dialogue: 0,0:13:49.30,0:13:52.22,Shiho,,0,0,0,,but I tend to make decisions really impulsively like that.
 Dialogue: 0,0:13:52.22,0:13:54.18,Shiho,,0,0,0,,Oh yeah and of course,
 Dialogue: 0,0:13:54.18,0:13:55.74,Shiho,,0,0,0,,I usually just go by vibes.
-Dialogue: 0,0:13:57.18,0:14:00.53,Shiho,,0,0,0,,So sorry I can't really be of much help.
+Dialogue: 0,0:13:57.66,0:14:00.53,Shiho,,0,0,0,,So I can't really be of much help. Sorry.
 Dialogue: 0,0:14:02.17,0:14:04.03,Shiho,,0,0,0,,Actually, what would you all do?
 Dialogue: 0,0:14:05.14,0:14:08.32,Shiho,,0,0,0,,Yeah. "If I could swing both, I'd definitely do it."
 Dialogue: 0,0:14:08.32,0:14:12.77,Shiho,,0,0,0,,As uh... selfish as that would be www
