@@ -31,5 +31,5 @@ ffmpeg -i input.mp4 -c:v copy -c:a copy output.mkv
 ## Whisper
 
 ```
-whisper input.mp4 --output_format txt --task transcribe
+whisper input.mp4 --output_format txt --task transcribe --language Japanese
 ```
