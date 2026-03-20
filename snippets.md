@@ -33,3 +33,9 @@ ffmpeg -i input.mp4 -c:v copy -c:a copy output.mkv
 ```
 whisper input.mp4 --output_format txt --task transcribe --language Japanese
 ```
+
+## Extract mp3 from mkv
+
+```
+ffmpeg -i input.mkv -vn -acodec copy output.mp3
+```
