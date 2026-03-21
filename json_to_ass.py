@@ -113,6 +113,72 @@ def _get_word_time(word: dict, key: str, fallback: float, max_time: float) -> fl
     return val
 
 
+def _emit_line(word_data: list[tuple], style: str, comma_split_chars: int,
+               lines: list[dict]):
+    """Emit one or more dialogue lines from accumulated word data.
+
+    If the text exceeds comma_split_chars and contains commas, splits at the
+    comma with the longest pause after it (the most natural breath pause).
+    Applies recursively so both halves can be further split if still long.
+
+    word_data: list of (text, start, end) tuples
+    """
+    if not word_data:
+        return
+    text = "".join(w[0] for w in word_data).strip()
+    if not text:
+        return
+
+    # If short enough or comma splitting disabled, emit as-is
+    if comma_split_chars <= 0 or len(text) < comma_split_chars:
+        lines.append({
+            "start": word_data[0][1],
+            "end": word_data[-1][2],
+            "style": style,
+            "text": text,
+        })
+        return
+
+    # Find the best comma to split at: the one with the longest pause,
+    # as long as the first part is at least half the threshold (avoid tiny fragments)
+    min_first_part = comma_split_chars // 2
+    best_idx = -1
+    best_pause = -1.0
+    running_len = 0
+
+    for i in range(len(word_data) - 1):
+        w_text, w_start, w_end = word_data[i]
+        running_len += len(w_text)
+
+        if running_len < min_first_part:
+            continue
+        if not (w_text and w_text[-1] in "、,"):
+            continue
+
+        # Pause = gap between this word's end and next word's start
+        next_start = word_data[i + 1][1]
+        pause = next_start - w_end
+        if pause > best_pause:
+            best_pause = pause
+            best_idx = i
+
+    if best_idx < 0:
+        # No suitable comma found, emit as-is
+        lines.append({
+            "start": word_data[0][1],
+            "end": word_data[-1][2],
+            "style": style,
+            "text": text,
+        })
+        return
+
+    # Split at best comma and recurse on both halves
+    first_half = word_data[:best_idx + 1]
+    second_half = word_data[best_idx + 1:]
+    _emit_line(first_half, style, comma_split_chars, lines)
+    _emit_line(second_half, style, comma_split_chars, lines)
+
+
 def extract_dialogue_lines(results: list[dict],
                            pause_threshold: float = DEFAULT_PAUSE_THRESHOLD,
                            max_line_chars: int = DEFAULT_MAX_LINE_CHARS,
@@ -124,6 +190,9 @@ def extract_dialogue_lines(results: list[dict],
       - Sentence boundaries (。？！?!)
       - Pauses (gap between words >= pause_threshold)
       - Length limit (>= max_line_chars forces a break)
+
+    Lines exceeding comma_split_chars are further split at the comma with
+    the longest pause (most natural breath pause). This applies recursively.
 
     Punctuation-only tokens are merged into the preceding word.
 
@@ -140,7 +209,6 @@ def extract_dialogue_lines(results: list[dict],
         words = alt.get("words", [])
 
         if not words:
-            # No word-level timestamps — emit as single line
             text = alt.get("transcript", "").strip()
             if text:
                 start = parse_offset(words[0]["startOffset"]) if words else 0.0
@@ -152,7 +220,6 @@ def extract_dialogue_lines(results: list[dict],
         style = "JP" if result.get("languageCode") == "ja-jp" else "Default"
 
         # Estimate max valid time from the valid end offsets in this result.
-        # End offsets are more reliable than start offsets (which can be wildly bogus).
         valid_ends = [parse_offset(w.get("endOffset", "0s")) for w in words]
         valid_ends = [e for e in valid_ends if e > 0]
         max_valid_time = max(valid_ends) * 1.1 if valid_ends else MAX_AUDIO_LENGTH_SECS
@@ -164,7 +231,6 @@ def extract_dialogue_lines(results: list[dict],
         for word in words:
             w_start = _get_word_time(word, "startOffset", last_valid_time, max_valid_time)
             w_end = _get_word_time(word, "endOffset", w_start, max_valid_time)
-            # If end < start, the end offset is bogus — use start as end
             if w_end < w_start:
                 w_end = w_start
             last_valid_time = max(last_valid_time, w_start, w_end)
@@ -177,58 +243,35 @@ def extract_dialogue_lines(results: list[dict],
 
             processed.append((word_text, w_start, w_end))
 
-        # Build lines from processed words
-        current_words = []
-        line_start = None
-        line_end = 0.0
+        # Build lines from processed words.
+        # First pass: split at sentence enders, hard pauses, and max chars.
+        # Then _emit_line handles comma splitting on the resulting segments.
+        current_word_data = []  # list of (text, start, end) tuples
 
         for i, (word_text, w_start, w_end) in enumerate(processed):
-            if line_start is None:
-                line_start = w_start
-
             should_break = False
-            if current_words:
-                pause = w_start - line_end
+            if current_word_data:
+                prev_end = current_word_data[-1][2]
+                pause = w_start - prev_end
                 if pause >= pause_threshold:
                     should_break = True
 
-                prev_text = current_words[-1]
+                prev_text = current_word_data[-1][0]
                 if prev_text and prev_text[-1] in SENTENCE_ENDERS:
                     should_break = True
 
-                # Split at commas when the line is already long enough
-                if comma_split_chars > 0 and prev_text and prev_text[-1] in "、,":
-                    if sum(len(w) for w in current_words) >= comma_split_chars:
-                        should_break = True
-
-                if sum(len(w) for w in current_words) >= max_line_chars:
+                if sum(len(w[0]) for w in current_word_data) >= max_line_chars:
                     should_break = True
 
-            if should_break and current_words:
-                text = "".join(current_words).strip()
-                if text:
-                    lines.append({
-                        "start": line_start,
-                        "end": line_end,
-                        "style": style,
-                        "text": text,
-                    })
-                current_words = []
-                line_start = w_start
+            if should_break and current_word_data:
+                _emit_line(current_word_data, style, comma_split_chars, lines)
+                current_word_data = []
 
-            current_words.append(word_text)
-            line_end = w_end
+            current_word_data.append((word_text, w_start, w_end))
 
         # Flush remaining words
-        if current_words:
-            text = "".join(current_words).strip()
-            if text:
-                lines.append({
-                    "start": line_start,
-                    "end": line_end,
-                    "style": style,
-                    "text": text,
-                })
+        if current_word_data:
+            _emit_line(current_word_data, style, comma_split_chars, lines)
 
     return lines
 
