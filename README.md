@@ -1,0 +1,124 @@
+# Subtitling Projects
+
+Japanese-to-English fan subtitle translations for anime, game, and idol content. Subtitles are authored in Aegisub and output as ASS (Advanced SubStation Alpha) files.
+
+## Projects
+
+### Project Sekai
+
+AfterTalk streams, anniversary videos, and event content from Project Sekai: Colorful Stage! (プロジェクトセカイ カラフルステージ！).
+
+| Project | Status | Notes |
+|---------|--------|-------|
+| With Our Wounded Hands Aftertalk Part 1 | Complete | |
+| With Our Wounded Hands Aftertalk Part 2 | Complete | |
+| This story continues with hope Aftertalk | Complete | QC'd |
+| 5th Anniversary Video LeoNeed | Complete | |
+| Kimi to Tsunagu HeartBeat Aftertalk | Complete | |
+| Find the dream view Aftertalk | Complete | |
+| Unsteady, still steady step Aftertalk | Complete | |
+| Colors of Pure Sense (ena6) | In Progress | Transcript generated via Chirp 3; translation not started |
+
+### Lieraji (Liella no Radio Japan)
+
+Episodic radio show featuring the Love Live! Superstar!! Liella! cast.
+
+| Project | Status | Notes |
+|---------|--------|-------|
+| Episode 247 | In Progress | Draft translation in markdown |
+| Episode 248 | Not Started | Whisper transcript only |
+| Episode 249 | In Progress | ASS file started |
+
+### Liella 6th to 7th
+
+Love Live! Superstar!! Liella! live concert content.
+
+| Project | Status | Notes |
+|---------|--------|-------|
+| Concert MC 1 | Complete | `1-en.ass` |
+
+## Toolchain
+
+| Tool | Purpose |
+|------|---------|
+| **yt-dlp** | Download source video from YouTube/Bilibili |
+| **ffmpeg** | Convert formats, trim video, extract audio, hardsub |
+| **whisper** | Generate Japanese transcript from audio (local, quick) |
+| **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
+| **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
+| **Aegisub** | Manual subtitle editing and timing |
+
+## Transcription Pipeline
+
+For longer audio or when higher accuracy is needed, a two-script pipeline handles GCP Chirp 3 transcription:
+
+```
+audio.opus (on GCS)
+  → gcp_transcribe_batch.py (download, chunk, transcribe)
+  → raw JSON (per-chunk + merged.json)
+  → json_to_ass.py (word-level splitting, ASS generation)
+  → Transcript.ass
+  → Aegisub (manual translation and timing)
+```
+
+**Step 1: Transcribe**
+
+```bash
+export GOOGLE_CLOUD_PROJECT=your-project-id
+
+python3 gcp_transcribe_batch.py \
+  --input "gs://subtitling-projects/audio-files/audio.opus" \
+  --output "raw_transcripts/"
+```
+
+Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min).
+
+**Step 2: Generate ASS**
+
+```bash
+python3 json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
+```
+
+Re-run with different parameters without re-transcribing:
+
+```bash
+# Shorter lines, more aggressive splitting
+python3 json_to_ass.py raw_transcripts/merged.json output.ass \
+  --pause-threshold 0.5 \
+  --max-line-chars 100 \
+  --comma-split-chars 30
+```
+
+### Line Splitting Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `--pause-threshold` | 1.0s | Silence duration that always forces a line break |
+| `--max-line-chars` | 200 | Hard character limit per line |
+| `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. Set to 0 to disable |
+
+### Setup
+
+```bash
+pip3 install google-cloud-speech google-cloud-storage
+brew install ffmpeg
+gcloud auth application-default login
+```
+
+## Subtitle Conventions
+
+See `style_guide.md` for full rules. Key points:
+
+- ASS format, 1920x1080 play resolution
+- Per-speaker color-coded styles
+- Western name order ("Given Family")
+- Natural contractions ("I'm", "won't")
+- Ellipsis `...` for long pauses, em dash for interruptions
+- Japanese terms in italics via `{\i1}text{\i0}`
+- Song/event titles quoted, not italicized
+
+## References
+
+- `workflow.md` — end-to-end subtitle creation process
+- `snippets.md` — common CLI commands
+- `style_guide.md` — translation and formatting rules
