@@ -33,7 +33,10 @@ Produce txt file as transcript to pick up on parts that are harder to hear or fo
 
 ### Option B: GCP Chirp 3 (cloud, better accuracy)
 
-For longer or higher-quality transcription, use `gcp_transcribe_batch.py` with Google Cloud Speech-to-Text Chirp 3. Outputs an ASS file directly with per-line timestamps.
+For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two scripts:
+
+- `gcp_transcribe_batch.py` — transcribes audio, outputs raw JSON (expensive, run once)
+- `json_to_ass.py` — converts JSON to ASS subtitles (cheap, iterate freely)
 
 **Setup (one-time):**
 
@@ -46,17 +49,29 @@ For longer or higher-quality transcription, use `gcp_transcribe_batch.py` with G
 
 1. Extract audio: `ffmpeg -i input.mkv -vn -acodec copy audio.opus`
 2. Upload to GCS: `gsutil cp audio.opus gs://subtitling-projects/audio-files/`
-3. Run transcription:
+3. Transcribe to JSON:
    ```
    python3 gcp_transcribe_batch.py \
      --input "gs://subtitling-projects/audio-files/audio.opus" \
-     --output "Project Name/Transcript.ass" \
+     --output "Project Name/raw_transcripts"
+   ```
+4. Convert JSON to ASS:
+   ```
+   python3 json_to_ass.py \
+     "Project Name/raw_transcripts/merged.json" \
+     "Project Name/Transcript.ass" \
      --title "Project Transcript"
    ```
 
-Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min), transcribed separately, and merged back with corrected timestamps. Use `--chunk-minutes` to adjust chunk size.
+Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min), transcribed separately, and merged. Use `--chunk-minutes` to adjust chunk size.
 
-**Customizing the ASS output:**
+**Tuning ASS line splitting** (re-run json_to_ass.py without re-transcribing):
+
+- `--pause-threshold 0.5` — shorter pauses trigger line breaks (default: 1.0s)
+- `--max-line-chars 100` — shorter lines (default: 200)
+- Accepts a single JSON file or a directory of chunk files
+
+**Customizing ASS styles:**
 
 The script generates ASS files with two built-in styles:
 - **Default** — white text, for English/non-Japanese content
@@ -66,7 +81,7 @@ The style is auto-detected from the transcription language. To customize after g
 - Open in Aegisub to change fonts, colors, sizes, positioning
 - Add per-speaker styles by changing the Style column in dialogue lines
 - The header uses 1920x1080 PlayRes, Lato ExtraBold 72pt, border style 1 (outline+shadow)
-- Modify `ASS_HEADER_TEMPLATE` in `gcp_transcribe_batch.py` to change defaults for all future runs
+- Modify `ASS_HEADER_TEMPLATE` in `json_to_ass.py` to change defaults for all future runs
 
 ## Step 4: Subbing
 

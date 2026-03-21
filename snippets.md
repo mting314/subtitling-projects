@@ -40,23 +40,12 @@ whisper input.mp4 --output_format txt --task transcribe --language Japanese
 ffmpeg -i input.mkv -vn -acodec copy output.mp3
 ```
 
-## GCP Chirp 3 batch transcription
-
-Short audio (under 20 min):
+## GCP Chirp 3 batch transcription (step 1: transcribe to JSON)
 
 ```
 python3 gcp_transcribe_batch.py \
-  --input gs://subtitling-projects/audio-files/short.opus \
-  --output "output.ass"
-```
-
-Long audio (auto-splits into chunks):
-
-```
-python3 gcp_transcribe_batch.py \
-  --input "gs://subtitling-projects/audio-files/Colors of Pure Sense.opus" \
-  --output "Project Sekai/Colors of Pure Sense/Colors of Pure Sense - Transcript.ass" \
-  --title "Colors of Pure Sense Transcript"
+  --input "gs://subtitling-projects/audio-files/audio.opus" \
+  --output "raw_transcripts/"
 ```
 
 Override project/region:
@@ -64,9 +53,27 @@ Override project/region:
 ```
 python3 gcp_transcribe_batch.py \
   --input gs://bucket/file.opus \
-  --output output.ass \
+  --output raw_transcripts/ \
   --project-id my-project \
   --region us-central1
+```
+
+## Convert transcript JSON to ASS (step 2: generate subtitles)
+
+```
+python3 json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
+```
+
+Tune line splitting (re-run without re-transcribing):
+
+```
+python3 json_to_ass.py raw_transcripts/merged.json output.ass --pause-threshold 0.5 --max-line-chars 100
+```
+
+Accept a directory of chunk files:
+
+```
+python3 json_to_ass.py raw_transcripts/ output.ass
 ```
 
 ## Upload audio to GCS for transcription

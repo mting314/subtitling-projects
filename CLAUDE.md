@@ -18,8 +18,8 @@ Each project gets a subdirectory named after the content (e.g., `Project Sekai/C
 | **ffmpeg** | Convert formats, trim video, extract audio, hardsub |
 | **whisper** | Generate Japanese transcript from audio (`--language Japanese`) |
 | **Aegisub** | Manual subtitle editing (ASS format) |
-| **gcp_transcribe_batch.py** | Google Cloud Speech-to-Text (Chirp 3) batch transcription for longer audio |
-| **json_to_ass.py** | Convert GCP Speech-to-Text JSON output to ASS subtitle format |
+| **gcp_transcribe_batch.py** | Google Cloud Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
+| **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles with word-level line splitting |
 
 See `snippets.md` for common CLI commands and `workflow.md` for the end-to-end process.
 
