@@ -40,6 +40,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 200
+DEFAULT_COMMA_SPLIT_CHARS = 40
 
 
 def seconds_to_ass(seconds: float) -> str:
@@ -114,7 +115,8 @@ def _get_word_time(word: dict, key: str, fallback: float, max_time: float) -> fl
 
 def extract_dialogue_lines(results: list[dict],
                            pause_threshold: float = DEFAULT_PAUSE_THRESHOLD,
-                           max_line_chars: int = DEFAULT_MAX_LINE_CHARS) -> list[dict]:
+                           max_line_chars: int = DEFAULT_MAX_LINE_CHARS,
+                           comma_split_chars: int = DEFAULT_COMMA_SPLIT_CHARS) -> list[dict]:
     """Extract dialogue lines from transcript results using word-level timestamps.
 
     Chirp 3 often returns a single result containing all text for a chunk.
@@ -193,6 +195,11 @@ def extract_dialogue_lines(results: list[dict],
                 prev_text = current_words[-1]
                 if prev_text and prev_text[-1] in SENTENCE_ENDERS:
                     should_break = True
+
+                # Split at commas when the line is already long enough
+                if comma_split_chars > 0 and prev_text and prev_text[-1] in "、,":
+                    if sum(len(w) for w in current_words) >= comma_split_chars:
+                        should_break = True
 
                 if sum(len(w) for w in current_words) >= max_line_chars:
                     should_break = True
@@ -369,6 +376,8 @@ def main():
                         help=f"Seconds of silence to force a line break (default: {DEFAULT_PAUSE_THRESHOLD})")
     parser.add_argument("--max-line-chars", type=int, default=DEFAULT_MAX_LINE_CHARS,
                         help=f"Max characters per line before forcing a break (default: {DEFAULT_MAX_LINE_CHARS})")
+    parser.add_argument("--comma-split-chars", type=int, default=DEFAULT_COMMA_SPLIT_CHARS,
+                        help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})")
 
     args = parser.parse_args()
 
@@ -382,11 +391,14 @@ def main():
 
     # Extract dialogue lines
     print(f"\nSplitting into dialogue lines...")
-    print(f"  Pause threshold: {args.pause_threshold}s")
-    print(f"  Max line chars:  {args.max_line_chars}")
+    print(f"  Pause threshold:    {args.pause_threshold}s")
+    print(f"  Max line chars:     {args.max_line_chars}")
+    print(f"  Comma split chars:  {args.comma_split_chars}" +
+          (" (disabled)" if args.comma_split_chars <= 0 else ""))
     lines = extract_dialogue_lines(results,
                                    pause_threshold=args.pause_threshold,
-                                   max_line_chars=args.max_line_chars)
+                                   max_line_chars=args.max_line_chars,
+                                   comma_split_chars=args.comma_split_chars)
 
     # Sort by start time
     lines.sort(key=lambda x: x["start"])
