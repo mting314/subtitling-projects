@@ -54,7 +54,7 @@ For longer or higher-quality transcription, use `gcp_transcribe_batch.py` with G
      --title "Project Transcript"
    ```
 
-Audio longer than 20 minutes is automatically split into chunks (default 18 min with 30s overlap), transcribed separately, and merged back with corrected timestamps. Use `--chunk-minutes` to adjust chunk size.
+Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min), transcribed separately, and merged back with corrected timestamps. Use `--chunk-minutes` to adjust chunk size.
 
 **Customizing the ASS output:**
 
