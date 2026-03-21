@@ -1,0 +1,482 @@
+{
+  "results": [
+    {
+      "languageCode": "ja-JP",
+      "resultEndOffset": "3240.00s",
+      "alternatives": [
+        {
+          "transcript": "します。ね、違うこと書いちゃっても紹介されなくてもったいないんでね。はい。ということで15分、まもなくあと10何秒、数十秒でえ、2D MV 見れるので一緒にね、あの、また私は、あの、画面閉じたら見るんですけどみんなも見てみてください。ということで皆さんまたお会いしましょう。さようなら。まであの日",
+          "words": [
+            {
+              "word": "し",
+              "startOffset": "3240.00s",
+              "endOffset": "3240.16s"
+            },
+            {
+              "word": "ます",
+              "startOffset": "3240.16s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3240.16s",
+              "endOffset": "3240.44s"
+            },
+            {
+              "word": "ね",
+              "startOffset": "3240.68s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3240.68s",
+              "endOffset": "3240.80s"
+            },
+            {
+              "word": "違う",
+              "startOffset": "3240.80s",
+              "endOffset": "3241.08s"
+            },
+            {
+              "word": "こと",
+              "startOffset": "3241.08s",
+              "endOffset": "3241.32s"
+            },
+            {
+              "word": "書い",
+              "startOffset": "3241.32s",
+              "endOffset": "3241.52s"
+            },
+            {
+              "word": "ちゃっ",
+              "startOffset": "3241.52s",
+              "endOffset": "3241.68s"
+            },
+            {
+              "word": "て",
+              "startOffset": "3241.68s",
+              "endOffset": "3241.76s"
+            },
+            {
+              "word": "も",
+              "startOffset": "3241.76s",
+              "endOffset": "3241.84s"
+            },
+            {
+              "word": "紹介",
+              "startOffset": "3241.84s",
+              "endOffset": "3242.20s"
+            },
+            {
+              "word": "さ",
+              "startOffset": "3242.20s",
+              "endOffset": "3242.32s"
+            },
+            {
+              "word": "れ",
+              "startOffset": "3242.32s",
+              "endOffset": "3242.40s"
+            },
+            {
+              "word": "なく",
+              "startOffset": "3242.40s",
+              "endOffset": "3242.60s"
+            },
+            {
+              "word": "て",
+              "startOffset": "3242.60s",
+              "endOffset": "3242.68s"
+            },
+            {
+              "word": "もったい",
+              "startOffset": "3242.68s",
+              "endOffset": "3243.04s"
+            },
+            {
+              "word": "ない",
+              "startOffset": "3243.04s",
+              "endOffset": "3243.20s"
+            },
+            {
+              "word": "ん",
+              "startOffset": "3243.20s",
+              "endOffset": "3243.24s"
+            },
+            {
+              "word": "で",
+              "startOffset": "3243.24s",
+              "endOffset": "3243.32s"
+            },
+            {
+              "word": "ね",
+              "startOffset": "3243.32s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3243.32s",
+              "endOffset": "3243.56s"
+            },
+            {
+              "word": "はい",
+              "startOffset": "3243.84s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3243.84s",
+              "endOffset": "3244.20s"
+            },
+            {
+              "word": "と",
+              "startOffset": "3244.56s",
+              "endOffset": "3244.68s"
+            },
+            {
+              "word": "いう",
+              "startOffset": "3244.68s",
+              "endOffset": "3244.76s"
+            },
+            {
+              "word": "こと",
+              "startOffset": "3244.76s",
+              "endOffset": "3245.00s"
+            },
+            {
+              "word": "で",
+              "startOffset": "3245.00s",
+              "endOffset": "3245.24s"
+            },
+            {
+              "word": "15",
+              "startOffset": "3245.80s",
+              "endOffset": "3246.04s"
+            },
+            {
+              "word": "分",
+              "startOffset": "3246.04s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3246.04s",
+              "endOffset": "3246.28s"
+            },
+            {
+              "word": "ま",
+              "startOffset": "3246.32s",
+              "endOffset": "3246.44s"
+            },
+            {
+              "word": "も",
+              "startOffset": "3246.44s",
+              "endOffset": "3246.56s"
+            },
+            {
+              "word": "なく",
+              "startOffset": "3246.56s",
+              "endOffset": "3246.80s"
+            },
+            {
+              "word": "あと",
+              "startOffset": "3246.80s",
+              "endOffset": "3247.00s"
+            },
+            {
+              "word": "10",
+              "startOffset": "3247.32s",
+              "endOffset": "3247.56s"
+            },
+            {
+              "word": "何",
+              "startOffset": "3247.56s",
+              "endOffset": "3247.76s"
+            },
+            {
+              "word": "秒",
+              "startOffset": "3247.76s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3247.76s",
+              "endOffset": "3248.00s"
+            },
+            {
+              "word": "数十",
+              "startOffset": "3248.20s",
+              "endOffset": "3248.68s"
+            },
+            {
+              "word": "秒",
+              "startOffset": "3248.68s",
+              "endOffset": "3248.88s"
+            },
+            {
+              "word": "で",
+              "startOffset": "3248.88s",
+              "endOffset": "3249.16s"
+            },
+            {
+              "word": "え",
+              "startOffset": "3249.48s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3249.48s",
+              "endOffset": "3249.72s"
+            },
+            {
+              "word": "2D",
+              "startOffset": "3249.72s",
+              "endOffset": "3250.04s"
+            },
+            {
+              "word": "MV",
+              "startOffset": "3250.04s",
+              "endOffset": "3250.44s"
+            },
+            {
+              "word": "見れる",
+              "startOffset": "3250.44s",
+              "endOffset": "3250.80s"
+            },
+            {
+              "word": "の",
+              "startOffset": "3250.80s",
+              "endOffset": "3250.92s"
+            },
+            {
+              "word": "で",
+              "startOffset": "3250.92s",
+              "endOffset": "3251.20s"
+            },
+            {
+              "word": "一緒",
+              "startOffset": "3251.52s",
+              "endOffset": "3251.84s"
+            },
+            {
+              "word": "に",
+              "startOffset": "3251.84s",
+              "endOffset": "3251.96s"
+            },
+            {
+              "word": "ね",
+              "startOffset": "3251.96s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3251.96s",
+              "endOffset": "3252.28s"
+            },
+            {
+              "word": "あの",
+              "startOffset": "3252.60s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3252.60s",
+              "endOffset": "3252.92s"
+            },
+            {
+              "word": "また",
+              "startOffset": "3252.92s",
+              "endOffset": "3253.32s"
+            },
+            {
+              "word": "私",
+              "startOffset": "3253.44s",
+              "endOffset": "3253.76s"
+            },
+            {
+              "word": "は",
+              "startOffset": "3253.76s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3253.76s",
+              "endOffset": "3253.92s"
+            },
+            {
+              "word": "あの",
+              "startOffset": "3253.92s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "、",
+              "startOffset": "3253.92s",
+              "endOffset": "3254.20s"
+            },
+            {
+              "word": "画面",
+              "startOffset": "3254.48s",
+              "endOffset": "3254.80s"
+            },
+            {
+              "word": "閉じ",
+              "startOffset": "3254.80s",
+              "endOffset": "3255.08s"
+            },
+            {
+              "word": "たら",
+              "startOffset": "3255.08s",
+              "endOffset": "3255.28s"
+            },
+            {
+              "word": "見る",
+              "startOffset": "3255.28s",
+              "endOffset": "3255.56s"
+            },
+            {
+              "word": "ん",
+              "startOffset": "3255.56s",
+              "endOffset": "3255.60s"
+            },
+            {
+              "word": "です",
+              "startOffset": "3255.60s",
+              "endOffset": "3255.80s"
+            },
+            {
+              "word": "けど",
+              "startOffset": "3255.80s",
+              "endOffset": "3256.16s"
+            },
+            {
+              "word": "みんな",
+              "startOffset": "3256.56s",
+              "endOffset": "3256.80s"
+            },
+            {
+              "word": "も",
+              "startOffset": "3256.80s",
+              "endOffset": "3256.88s"
+            },
+            {
+              "word": "見",
+              "startOffset": "3256.88s",
+              "endOffset": "3257.04s"
+            },
+            {
+              "word": "て",
+              "startOffset": "3257.04s",
+              "endOffset": "3257.12s"
+            },
+            {
+              "word": "み",
+              "startOffset": "3257.12s",
+              "endOffset": "3257.24s"
+            },
+            {
+              "word": "て",
+              "startOffset": "3257.24s",
+              "endOffset": "3257.36s"
+            },
+            {
+              "word": "ください",
+              "startOffset": "3257.36s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3257.36s",
+              "endOffset": "3258.00s"
+            },
+            {
+              "word": "と",
+              "startOffset": "3258.28s",
+              "endOffset": "3258.36s"
+            },
+            {
+              "word": "いう",
+              "startOffset": "3258.36s",
+              "endOffset": "3258.44s"
+            },
+            {
+              "word": "こと",
+              "startOffset": "3258.44s",
+              "endOffset": "3258.72s"
+            },
+            {
+              "word": "で",
+              "startOffset": "3258.72s",
+              "endOffset": "3259.00s"
+            },
+            {
+              "word": "皆",
+              "startOffset": "3259.80s",
+              "endOffset": "3260.04s"
+            },
+            {
+              "word": "さん",
+              "startOffset": "3260.04s",
+              "endOffset": "3260.24s"
+            },
+            {
+              "word": "また",
+              "startOffset": "3260.24s",
+              "endOffset": "3260.52s"
+            },
+            {
+              "word": "お",
+              "startOffset": "3260.52s",
+              "endOffset": "3260.56s"
+            },
+            {
+              "word": "会い",
+              "startOffset": "3260.56s",
+              "endOffset": "3260.72s"
+            },
+            {
+              "word": "し",
+              "startOffset": "3260.72s",
+              "endOffset": "3260.84s"
+            },
+            {
+              "word": "ましょう",
+              "startOffset": "3260.84s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3260.84s",
+              "endOffset": "3261.36s"
+            },
+            {
+              "word": "さようなら",
+              "startOffset": "3261.72s",
+              "endOffset": "3240.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "3261.72s",
+              "endOffset": "3263.80s"
+            },
+            {
+              "word": "まで",
+              "startOffset": "3279.44s",
+              "endOffset": "3279.56s"
+            },
+            {
+              "word": "あの",
+              "startOffset": "3280.52s",
+              "endOffset": "3280.76s"
+            },
+            {
+              "word": "日",
+              "startOffset": "3280.76s",
+              "endOffset": "3280.84s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chunk_start": 3240.0,
+  "chunk_duration": 78.02
+}
