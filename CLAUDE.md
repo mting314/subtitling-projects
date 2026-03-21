@@ -10,7 +10,11 @@ Japanese-to-English subtitle translation for anime/game content. Primary subtitl
 
 Each project gets a subdirectory named after the content (e.g., `Project Sekai/Colors of Pure Sense/`). Subtitle files, transcripts, and audio/video intermediates live together in each subdirectory.
 
+See `README.md` for full project progress table.
+
 ## Toolchain
+
+Two-script pipeline for GCP Chirp 3 transcription:
 
 | Tool | Purpose |
 |------|---------|
@@ -18,8 +22,32 @@ Each project gets a subdirectory named after the content (e.g., `Project Sekai/C
 | **ffmpeg** | Convert formats, trim video, extract audio, hardsub |
 | **whisper** | Generate Japanese transcript from audio (`--language Japanese`) |
 | **Aegisub** | Manual subtitle editing (ASS format) |
-| **gcp_transcribe_batch.py** | Google Cloud Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
-| **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles with word-level line splitting |
+| **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Auto-splits audio >20 min into non-overlapping chunks. Requires `google-cloud-speech`, `google-cloud-storage`, `ffmpeg` |
+| **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
+
+### Transcription pipeline
+
+```
+gcp_transcribe_batch.py --input gs://... --output raw_transcripts/
+json_to_ass.py raw_transcripts/merged.json output.ass
+```
+
+### json_to_ass.py parameters
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--pause-threshold` | 1.0s | Silence duration that always forces a line break |
+| `--max-line-chars` | 200 | Hard character limit per line |
+| `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. 0 to disable |
+
+### Key technical notes
+
+- **Non-overlapping chunks**: Overlap was removed because the API transcribes the same audio differently per chunk, making deduplication unreliable.
+- **Word-level splitting**: Chirp 3 returns 1 giant result per chunk. We split using word timestamps at sentence enders (。？！), pauses ≥1s, max chars, and commas on long lines.
+- **Smart comma splitting**: `_emit_line()` recursively splits lines >40 chars at the comma with the longest pause after it. Min first-part = threshold/2 to avoid tiny fragments.
+- **Bogus timestamps**: API sometimes returns zero, negative, or absurdly large offsets. Cross-checked per word (start vs end); end < start gets clamped.
+- **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.
+- **GCS bucket**: `gs://subtitling-projects/audio-files/`
 
 See `snippets.md` for common CLI commands and `workflow.md` for the end-to-end process.
 
@@ -48,6 +76,7 @@ Full rules in `style_guide.md`. Key points:
 Commit message format:
 - Work in progress: `wip: description` or `project-shortname: wip, description`
 - Completed/QC: `project-shortname: QC`
+- Tooling: `refactor:`, `fix:`, `docs:` prefixes
 - Other: `project-shortname: description`
 
-Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense).
+Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense), `ichi6` (Unsteady, still steady step).
