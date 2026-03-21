@@ -19,7 +19,6 @@ from google.cloud.speech_v2.types import cloud_speech
 from google.cloud import storage
 
 
-DEFAULT_PROJECT_ID = "future-name-201021"
 DEFAULT_REGION = "us"
 DEFAULT_CHUNK_MINUTES = 18
 OVERLAP_SECONDS = 30
@@ -80,29 +79,34 @@ def get_audio_duration(local_path: str) -> float:
     return float(result.stdout.strip())
 
 
-def download_from_gcs(uri: str, local_path: str):
+def _storage_client(project_id: str) -> storage.Client:
+    """Create a GCS client with the given project ID."""
+    return storage.Client(project=project_id)
+
+
+def download_from_gcs(uri: str, local_path: str, project_id: str):
     """Download a file from GCS to a local path."""
     bucket_name, blob_path = parse_gcs_uri(uri)
-    client = storage.Client()
+    client = _storage_client(project_id)
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(blob_path)
     blob.download_to_filename(local_path)
     print(f"Downloaded {uri} -> {local_path}")
 
 
-def upload_to_gcs(local_path: str, uri: str):
+def upload_to_gcs(local_path: str, uri: str, project_id: str):
     """Upload a local file to GCS."""
     bucket_name, blob_path = parse_gcs_uri(uri)
-    client = storage.Client()
+    client = _storage_client(project_id)
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(blob_path)
     blob.upload_from_filename(local_path)
     print(f"Uploaded {local_path} -> {uri}")
 
 
-def delete_gcs_blobs(uris: list[str]):
+def delete_gcs_blobs(uris: list[str], project_id: str):
     """Delete a list of GCS URIs."""
-    client = storage.Client()
+    client = _storage_client(project_id)
     for uri in uris:
         bucket_name, blob_path = parse_gcs_uri(uri)
         bucket = client.bucket(bucket_name)
@@ -282,7 +286,7 @@ def main():
     parser.add_argument("--title", default=None,
                         help="ASS file title (defaults to output filename)")
     parser.add_argument("--project-id", default=None,
-                        help=f"GCP project ID (default: $GOOGLE_CLOUD_PROJECT or '{DEFAULT_PROJECT_ID}')")
+                        help="GCP project ID (default: $GOOGLE_CLOUD_PROJECT)")
     parser.add_argument("--region", default=DEFAULT_REGION,
                         help=f"GCP region (default: '{DEFAULT_REGION}')")
     parser.add_argument("--chunk-minutes", type=float, default=DEFAULT_CHUNK_MINUTES,
@@ -290,7 +294,9 @@ def main():
 
     args = parser.parse_args()
 
-    project_id = args.project_id or os.getenv("GOOGLE_CLOUD_PROJECT", DEFAULT_PROJECT_ID)
+    project_id = args.project_id or os.getenv("GOOGLE_CLOUD_PROJECT")
+    if not project_id:
+        parser.error("GCP project ID required: set GOOGLE_CLOUD_PROJECT env var or pass --project-id")
     chunk_seconds = args.chunk_minutes * 60
     title = args.title or Path(args.output).stem
 
@@ -299,7 +305,7 @@ def main():
         input_bucket, input_blob = parse_gcs_uri(args.input)
         ext = Path(input_blob).suffix
         local_audio = os.path.join(tmp_dir, f"input{ext}")
-        download_from_gcs(args.input, local_audio)
+        download_from_gcs(args.input, local_audio, project_id)
 
         # Get duration and decide whether to split
         duration = get_audio_duration(local_audio)
@@ -323,7 +329,7 @@ def main():
             for chunk_path, _ in chunks:
                 chunk_name = Path(chunk_path).name
                 chunk_uri = f"{tmp_gcs_prefix}{chunk_name}"
-                upload_to_gcs(chunk_path, chunk_uri)
+                upload_to_gcs(chunk_path, chunk_uri, project_id)
                 chunk_uris.append(chunk_uri)
 
             # Transcribe chunks (up to 15 per BatchRecognize request, but we do
@@ -341,7 +347,7 @@ def main():
                 # Clean up temp GCS files
                 print("\nCleaning up temporary GCS files...")
                 try:
-                    delete_gcs_blobs(chunk_uris)
+                    delete_gcs_blobs(chunk_uris, project_id)
                 except Exception as e:
                     print(f"Warning: failed to clean up some GCS files: {e}")
 
