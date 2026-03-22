@@ -49,9 +49,10 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass
 - **Non-overlapping chunks**: Overlap was removed because the API transcribes the same audio differently per chunk, making deduplication unreliable.
 - **Word-level splitting**: Chirp 3 returns 1 giant result per chunk. We split using word timestamps at sentence enders (。？！), pauses ≥1s, max chars, and commas on long lines.
 - **Smart comma splitting**: `_emit_line()` recursively splits lines >40 chars at the comma with the longest pause after it. Min first-part = threshold/2 to avoid tiny fragments.
-- **Bogus timestamps**: API sometimes returns zero, negative, or absurdly large offsets. Cross-checked per word (start vs end); end < start gets clamped.
+- **Local file input**: `--input` accepts local video/audio files or `gs://` URIs. Video files are auto-detected (via ffprobe) and audio is extracted with stream copy (no re-encoding). The audio codec is probed to pick the right container extension (opus→.opus, aac→.m4a, etc.).
+- **Bogus timestamps**: Chirp 3 sometimes returns zero, negative, or absurdly large word `endOffset` values. These are clamped to `startOffset` *before* adding the chunk time offset — otherwise a bogus `0s` end becomes a plausible-looking timestamp after the offset is added (e.g., `0 + 1080 = 1080s`). Offsets exceeding the chunk duration are also clamped.
 - **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.
-- **GCS bucket**: `gs://subtitling-projects/audio-files/`
+- **GCS bucket**: `gs://subtitling-projects/audio-files/`. Local files are uploaded to `gs://{bucket}/tmp/` for transcription, then cleaned up. Override with `--gcs-bucket`.
 
 See `snippets.md` for common CLI commands and `workflow.md` for the end-to-end process.
 
@@ -83,4 +84,4 @@ Commit message format:
 - Tooling: `refactor:`, `fix:`, `docs:` prefixes
 - Other: `project-shortname: description`
 
-Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense), `ichi6` (Unsteady, still steady step).
+Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense), `ichi6` (Unsteady, still steady step), `mizu6` (Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk).
