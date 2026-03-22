@@ -58,6 +58,15 @@ uv run gcp_transcribe_batch.py \
   --output "raw_transcripts/"
 ```
 
+Skip leading silence/intro (e.g., 2 minutes):
+
+```
+uv run gcp_transcribe_batch.py \
+  --input "video.mkv" \
+  --output "raw_transcripts/" \
+  --trim-start 120
+```
+
 Override project/region:
 
 ```

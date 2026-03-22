@@ -29,6 +29,12 @@ Two-script pipeline for GCP Chirp 3 transcription:
 
 Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync` to install, then use `uv run` to execute scripts.
 
+### gcp_transcribe_batch.py parameters
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
+
 ### Transcription pipeline
 
 ```
@@ -52,6 +58,7 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass
 - **Local file input**: `--input` accepts local video/audio files or `gs://` URIs. Video files are auto-detected (via ffprobe) and audio is extracted with stream copy (no re-encoding). The audio codec is probed to pick the right container extension (opus→.opus, aac→.m4a, etc.).
 - **Bogus timestamps**: Chirp 3 sometimes returns zero, negative, or absurdly large word `endOffset` values. These are clamped to `startOffset` *before* adding the chunk time offset — otherwise a bogus `0s` end becomes a plausible-looking timestamp after the offset is added (e.g., `0 + 1080 = 1080s`). Offsets exceeding the chunk duration are also clamped.
 - **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.
+- **Trim offset**: `--trim-start` trims leading audio (e.g., silence or intros) before sending to the API. The trim offset is added back to all word timestamps so they match the original file's timeline. Stored in `merged.json` as `trim_offset`.
 - **GCS bucket**: `gs://subtitling-projects/audio-files/`. Local files are uploaded to `gs://{bucket}/tmp/` for transcription, then cleaned up. Override with `--gcs-bucket`.
 
 See `snippets.md` for common CLI commands and `workflow.md` for the end-to-end process.

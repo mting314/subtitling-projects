@@ -76,6 +76,12 @@ uv run gcp_transcribe_batch.py \
 uv run gcp_transcribe_batch.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
   --output "raw_transcripts/"
+
+# Skip leading silence/intro (timestamps still align with original file)
+uv run gcp_transcribe_batch.py \
+  --input "video.mkv" \
+  --output "raw_transcripts/" \
+  --trim-start 120
 ```
 
 Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min). Video files are detected and audio is extracted (stream copy, no re-encoding).
@@ -148,9 +154,7 @@ See `style_guide.md` for full rules. Key points:
 
 ### Bugs
 
-- **Chirp 3 fails on large leading silence**: When audio begins with a long silent section, Chirp 3 produces wildly incorrect timestamps (e.g., jumping from `164s` to `267s` mid-word). Possible fixes:
-  - Detect the first speech onset via audio analysis and trim leading silence automatically
-  - Add a `--trim-start` flag for users to manually specify how much leading silence to remove
+- ~~**Chirp 3 fails on large leading silence**~~: Resolved — use `--trim-start <seconds>` to skip leading silence before transcription. Timestamps are automatically offset to align with the original file
 
 ### Enhancements
 

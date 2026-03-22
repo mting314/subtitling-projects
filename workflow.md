@@ -63,6 +63,8 @@ For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two 
 
 Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min), transcribed separately, and merged. Use `--chunk-minutes` to adjust chunk size.
 
+If the audio has a long silent intro that causes Chirp 3 to produce bad timestamps, use `--trim-start <seconds>` to skip it. The trim offset is added back to all timestamps so they align with the original file.
+
 **Tuning ASS line splitting** (re-run json_to_ass.py without re-transcribing):
 
 - `--pause-threshold 0.5` — shorter pauses trigger line breaks (default: 1.0s)
