@@ -164,6 +164,7 @@ See `style_guide.md` for full rules. Key points:
   - Use a pause duration threshold as a fallback when punctuation is absent
   - Use semantic/linguistic analysis to find natural break points in the Japanese text
 - **Fix subtitle flashing**: When consecutive lines have a very small gap (e.g., <100ms), the subtitle briefly disappears and reappears, causing a visible flash. Add a post-processing pass (in `json_to_ass.py` or a separate script) to snap near-adjacent lines together (gap → 0) to eliminate flashing.
+- **Overlapping speakers**: When multiple speakers talk simultaneously, Chirp 3 merges their words into a single interleaved stream, producing lines that are confusing and unreadable. Investigate whether Chirp 3's raw output can separate simultaneous speakers (e.g., via speaker diarization or multiple alternatives). If so, update `json_to_ass.py` to split overlapping speakers into separate ASS lines. If not, this is a fundamental limitation of the current approach.
 - **End-to-end pipeline orchestration**: Currently requires running `gcp_transcribe_batch.py` and `json_to_ass.py` as separate manual steps. Find a less clunky way to orchestrate the full transcribe-to-ASS flow in a single invocation.
 
 ## References
