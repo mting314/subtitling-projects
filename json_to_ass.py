@@ -43,6 +43,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 200
 DEFAULT_COMMA_SPLIT_CHARS = 40
+DEFAULT_SNAP_GAP = 0.1
 
 
 def seconds_to_ass(seconds: float) -> str:
@@ -271,6 +272,26 @@ def extract_dialogue_lines(results: list[dict],
     return lines
 
 
+def snap_gaps(lines: list[dict], max_gap: float) -> int:
+    """Snap near-adjacent lines together to eliminate subtitle flashing.
+
+    When consecutive lines of the same style have a small gap (0 < gap <= max_gap),
+    extends the earlier line's end to match the next line's start.
+
+    Lines must already be sorted by start time. Mutates in place.
+    Returns the number of gaps snapped.
+    """
+    count = 0
+    for i in range(len(lines) - 1):
+        if lines[i]["style"] != lines[i + 1]["style"]:
+            continue
+        gap = lines[i + 1]["start"] - lines[i]["end"]
+        if 0 < gap <= max_gap:
+            lines[i]["end"] = lines[i + 1]["start"]
+            count += 1
+    return count
+
+
 def lines_to_ass(lines: list[dict], title: str) -> str:
     """Convert dialogue lines to a complete ASS file string."""
     content = ASS_HEADER_TEMPLATE.format(title=title)
@@ -416,6 +437,8 @@ def main():
                         help=f"Max characters per line before forcing a break (default: {DEFAULT_MAX_LINE_CHARS})")
     parser.add_argument("--comma-split-chars", type=int, default=DEFAULT_COMMA_SPLIT_CHARS,
                         help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})")
+    parser.add_argument("--snap-gap", type=float, default=DEFAULT_SNAP_GAP,
+                        help=f"Snap gaps smaller than this (seconds) between same-style lines. 0 to disable (default: {DEFAULT_SNAP_GAP})")
 
     args = parser.parse_args()
 
@@ -440,6 +463,11 @@ def main():
 
     # Sort by start time
     lines.sort(key=lambda x: x["start"])
+
+    # Snap small gaps between same-style lines to prevent flashing
+    if args.snap_gap > 0:
+        snapped = snap_gaps(lines, args.snap_gap)
+        print(f"  Snapped {snapped} gap(s) under {args.snap_gap}s")
 
     # Generate ASS
     ass_content = lines_to_ass(lines, title)
