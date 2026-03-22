@@ -8,7 +8,7 @@ import unittest
 from json_to_ass import (
     seconds_to_ass, _get_word_time, _emit_line,
     extract_dialogue_lines, load_transcript, lines_to_ass,
-    snap_gaps,
+    snap_gaps, enforce_min_duration,
 )
 
 
@@ -275,6 +275,80 @@ class TestSnapGaps(unittest.TestCase):
             self._line(5.0, 6.0),   # not snapped (1.0s gap)
         ]
         count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 2)
+
+
+class TestEnforceMinDuration(unittest.TestCase):
+    def _line(self, start, end, style="JP"):
+        return {"start": start, "end": end, "style": style, "text": "テスト"}
+
+    def test_short_line_extended_via_lead_out(self):
+        """Short line extends end when there's room after it."""
+        lines = [self._line(1.0, 1.2), self._line(3.0, 4.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        self.assertAlmostEqual(lines[0]["start"], 1.0)
+        self.assertAlmostEqual(lines[0]["end"], 1.5)
+
+    def test_short_line_extended_via_lead_in(self):
+        """Short line extends start when end is blocked by next line."""
+        lines = [self._line(1.0, 1.5), self._line(2.0, 2.1), self._line(2.1, 3.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        # Lead-out blocked by next line at 2.1 (0 room), so lead-in extends back
+        self.assertAlmostEqual(lines[1]["start"], 1.6)
+        self.assertAlmostEqual(lines[1]["end"], 2.1)
+
+    def test_both_lead_in_and_lead_out(self):
+        """Short line sandwiched tightly uses both lead-out and lead-in."""
+        lines = [self._line(0.0, 0.8), self._line(1.0, 1.1), self._line(1.2, 2.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        # Lead-out: 1.1 -> 1.2 (+0.1), still need 0.3 more
+        self.assertAlmostEqual(lines[1]["end"], 1.2)
+        # Lead-in: 1.0 -> 0.8 (capped by prev end), gets +0.2
+        self.assertAlmostEqual(lines[1]["start"], 0.8)
+
+    def test_long_enough_line_unchanged(self):
+        """Lines already meeting min duration are not touched."""
+        lines = [self._line(1.0, 2.0), self._line(3.0, 4.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 0)
+        self.assertAlmostEqual(lines[0]["end"], 2.0)
+
+    def test_no_overlap_with_next_line(self):
+        """Extension never overlaps into the next line."""
+        lines = [self._line(1.0, 1.1), self._line(1.2, 2.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        # Lead-out capped at next start (1.2, +0.1), then lead-in fills the rest (-0.3)
+        self.assertAlmostEqual(lines[0]["end"], 1.2)
+        self.assertAlmostEqual(lines[0]["start"], 0.7)
+
+    def test_no_overlap_with_previous_line(self):
+        """Lead-in never overlaps into the previous line."""
+        lines = [self._line(1.0, 1.95), self._line(2.0, 2.1), self._line(2.1, 3.0)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        # Lead-out blocked (next at 2.1, 0 room), lead-in capped at prev end (1.95)
+        self.assertAlmostEqual(lines[1]["start"], 1.95)
+
+    def test_first_line_lead_in_stops_at_zero(self):
+        """First line's lead-in doesn't go below 0."""
+        lines = [self._line(0.1, 0.2)]
+        count = enforce_min_duration(lines, 0.5)
+        self.assertEqual(count, 1)
+        # Lead-out: 0.2 -> 0.6 (+0.4, plenty of room), done
+        self.assertAlmostEqual(lines[0]["start"], 0.1)
+        self.assertAlmostEqual(lines[0]["end"], 0.6)
+
+    def test_returns_correct_count(self):
+        lines = [
+            self._line(1.0, 1.1),  # extended
+            self._line(3.0, 4.0),  # fine
+            self._line(5.0, 5.2),  # extended
+        ]
+        count = enforce_min_duration(lines, 0.5)
         self.assertEqual(count, 2)
 
 
