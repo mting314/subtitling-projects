@@ -25,6 +25,7 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 | **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
 | **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting) |
+| **tests/** | Unit tests (`unittest`). Run with `uv run python -m unittest discover -s tests -v`. All external deps mocked — no network, GCP, or ffmpeg needed |
 
 ### Environment
 

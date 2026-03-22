@@ -48,6 +48,7 @@ Love Live! Superstar!! Liella! live concert content.
 | **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
 | **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps) |
+| **tests/** | Unit tests (`unittest`) for utils/ and main scripts. All external deps mocked |
 | **Aegisub** | Manual subtitle editing and timing |
 
 ## Transcription Pipeline
@@ -150,6 +151,14 @@ See `style_guide.md` for full rules. Key points:
 - Ellipsis `...` for long pauses, em dash for interruptions
 - Japanese terms in italics via `{\i1}text{\i0}`
 - Song/event titles quoted, not italicized
+
+## Testing
+
+```bash
+uv run python -m unittest discover -s tests -v
+```
+
+65 tests covering timestamp parsing, bogus value clamping, line splitting, ASS output, transcript loading, and `transcript_to_json`. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## TODO
 

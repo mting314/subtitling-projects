@@ -95,6 +95,12 @@ Accept a directory of chunk files:
 uv run json_to_ass.py raw_transcripts/ output.ass
 ```
 
+## Run tests
+
+```
+uv run python -m unittest discover -s tests -v
+```
+
 ## Upload audio to GCS for transcription
 
 ```
