@@ -144,6 +144,22 @@ See `style_guide.md` for full rules. Key points:
 - Japanese terms in italics via `{\i1}text{\i0}`
 - Song/event titles quoted, not italicized
 
+## TODO
+
+### Bugs
+
+- **Chirp 3 fails on large leading silence**: When audio begins with a long silent section, Chirp 3 produces wildly incorrect timestamps (e.g., jumping from `164s` to `267s` mid-word). Possible fixes:
+  - Detect the first speech onset via audio analysis and trim leading silence automatically
+  - Add a `--trim-start` flag for users to manually specify how much leading silence to remove
+
+### Enhancements
+
+- **Intelligent audio chunking based on silence**: Currently audio is split into fixed ~18-minute chunks, which risks cutting mid-sentence. Instead, detect long silent portions in the audio and split at those boundaries.
+- **Language-aware line splitting**: Line splitting currently relies on punctuation and pause duration, which is deterministic but naive. When Chirp 3 omits punctuation, lines can run on too long. Future improvements:
+  - Use a pause duration threshold as a fallback when punctuation is absent
+  - Use semantic/linguistic analysis to find natural break points in the Japanese text
+- **End-to-end pipeline orchestration**: Currently requires running `gcp_transcribe_batch.py` and `json_to_ass.py` as separate manual steps. Find a less clunky way to orchestrate the full transcribe-to-ASS flow in a single invocation.
+
 ## References
 
 - `workflow.md` — end-to-end subtitle creation process
