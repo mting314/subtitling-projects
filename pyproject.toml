@@ -1,0 +1,9 @@
+[project]
+name = "subtitling-projects"
+version = "0.1.0"
+description = "Japanese-to-English subtitle translation toolchain"
+requires-python = ">=3.11"
+dependencies = [
+    "google-cloud-speech>=2.30",
+    "google-cloud-storage>=2.18",
+]

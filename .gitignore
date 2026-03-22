@@ -8,3 +8,7 @@
 .vscode/settings.json
 .env
 *.pyc
+
+# virtual environments
+.venv/
+subtitling-projects/

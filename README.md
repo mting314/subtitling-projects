@@ -99,11 +99,31 @@ python3 json_to_ass.py raw_transcripts/merged.json output.ass \
 
 ### Setup
 
+Requires [uv](https://docs.astral.sh/uv/getting-started/installation/), ffmpeg, and a GCP project with Speech-to-Text API enabled.
+
 ```bash
-pip3 install google-cloud-speech google-cloud-storage
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install Python dependencies
+uv sync
+
+# Install ffmpeg (macOS)
 brew install ffmpeg
+
+# Authenticate with GCP
 gcloud auth application-default login
+export GOOGLE_CLOUD_PROJECT=your-project-id
 ```
+
+Run scripts with `uv run` to use the managed environment:
+
+```bash
+uv run python3 gcp_transcribe_batch.py --input audio.opus --output raw_transcripts/
+uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass
+```
+
+`json_to_ass.py` has no external dependencies and can also be run directly with any Python 3.11+.
 
 ## Subtitle Conventions
 
