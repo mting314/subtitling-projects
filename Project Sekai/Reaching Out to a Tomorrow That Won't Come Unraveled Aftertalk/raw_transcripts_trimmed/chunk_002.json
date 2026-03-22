@@ -1,0 +1,4068 @@
+{
+  "results": [
+    {
+      "languageCode": "ja-JP",
+      "resultEndOffset": "2730.00s",
+      "alternatives": [
+        {
+          "transcript": "ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。ああ。",
+          "words": [
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2757.68s",
+              "endOffset": "2757.68s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2757.68s",
+              "endOffset": "2757.72s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2757.76s",
+              "endOffset": "2757.76s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2757.76s",
+              "endOffset": "2757.80s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2757.84s",
+              "endOffset": "2757.84s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2757.84s",
+              "endOffset": "2757.88s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2757.92s",
+              "endOffset": "2757.92s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2757.92s",
+              "endOffset": "2757.96s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.00s",
+              "endOffset": "2758.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.00s",
+              "endOffset": "2758.04s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.08s",
+              "endOffset": "2758.08s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.08s",
+              "endOffset": "2758.12s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.16s",
+              "endOffset": "2758.16s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.16s",
+              "endOffset": "2758.20s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.24s",
+              "endOffset": "2758.24s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.24s",
+              "endOffset": "2758.28s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.32s",
+              "endOffset": "2758.32s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.32s",
+              "endOffset": "2758.36s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.40s",
+              "endOffset": "2758.40s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.40s",
+              "endOffset": "2758.44s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.48s",
+              "endOffset": "2758.48s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.48s",
+              "endOffset": "2758.52s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.56s",
+              "endOffset": "2758.56s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.56s",
+              "endOffset": "2758.60s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.64s",
+              "endOffset": "2758.64s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.64s",
+              "endOffset": "2758.68s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.72s",
+              "endOffset": "2758.72s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.72s",
+              "endOffset": "2758.76s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.80s",
+              "endOffset": "2758.80s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.80s",
+              "endOffset": "2758.84s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.88s",
+              "endOffset": "2758.88s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.88s",
+              "endOffset": "2758.92s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2758.96s",
+              "endOffset": "2758.96s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2758.96s",
+              "endOffset": "2759.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.04s",
+              "endOffset": "2759.04s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.04s",
+              "endOffset": "2759.08s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.12s",
+              "endOffset": "2759.12s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.12s",
+              "endOffset": "2759.16s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.20s",
+              "endOffset": "2759.20s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.20s",
+              "endOffset": "2759.24s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.28s",
+              "endOffset": "2759.28s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.28s",
+              "endOffset": "2759.32s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.36s",
+              "endOffset": "2759.36s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.36s",
+              "endOffset": "2759.40s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.44s",
+              "endOffset": "2759.44s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.44s",
+              "endOffset": "2759.48s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.52s",
+              "endOffset": "2759.52s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.52s",
+              "endOffset": "2759.56s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.60s",
+              "endOffset": "2759.60s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.60s",
+              "endOffset": "2759.64s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.68s",
+              "endOffset": "2759.68s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.68s",
+              "endOffset": "2759.72s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.76s",
+              "endOffset": "2759.76s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.76s",
+              "endOffset": "2759.80s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.84s",
+              "endOffset": "2759.84s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.84s",
+              "endOffset": "2759.88s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2759.92s",
+              "endOffset": "2759.92s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2759.92s",
+              "endOffset": "2759.96s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.00s",
+              "endOffset": "2760.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.00s",
+              "endOffset": "2760.04s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.08s",
+              "endOffset": "2760.08s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.08s",
+              "endOffset": "2760.12s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.16s",
+              "endOffset": "2760.16s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.16s",
+              "endOffset": "2760.20s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.24s",
+              "endOffset": "2760.24s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.24s",
+              "endOffset": "2760.28s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.32s",
+              "endOffset": "2760.32s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.32s",
+              "endOffset": "2760.36s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.40s",
+              "endOffset": "2760.40s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.40s",
+              "endOffset": "2760.44s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.48s",
+              "endOffset": "2760.48s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.48s",
+              "endOffset": "2760.52s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.56s",
+              "endOffset": "2760.56s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.56s",
+              "endOffset": "2760.60s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.64s",
+              "endOffset": "2760.64s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.64s",
+              "endOffset": "2760.68s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.72s",
+              "endOffset": "2760.72s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.72s",
+              "endOffset": "2760.76s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.80s",
+              "endOffset": "2760.80s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.80s",
+              "endOffset": "2760.84s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.88s",
+              "endOffset": "2760.88s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.88s",
+              "endOffset": "2760.92s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2760.96s",
+              "endOffset": "2760.96s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2760.96s",
+              "endOffset": "2761.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.04s",
+              "endOffset": "2761.04s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.04s",
+              "endOffset": "2761.08s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.12s",
+              "endOffset": "2761.12s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.12s",
+              "endOffset": "2761.16s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.20s",
+              "endOffset": "2761.20s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.20s",
+              "endOffset": "2761.24s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.28s",
+              "endOffset": "2761.28s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.28s",
+              "endOffset": "2761.32s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.36s",
+              "endOffset": "2761.36s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.36s",
+              "endOffset": "2761.40s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.44s",
+              "endOffset": "2761.44s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.44s",
+              "endOffset": "2761.48s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.56s",
+              "endOffset": "2761.56s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.60s",
+              "endOffset": "2761.60s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.60s",
+              "endOffset": "2761.64s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.68s",
+              "endOffset": "2761.68s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.68s",
+              "endOffset": "2761.72s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.76s",
+              "endOffset": "2761.76s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.76s",
+              "endOffset": "2761.80s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.84s",
+              "endOffset": "2761.84s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.84s",
+              "endOffset": "2761.88s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2761.92s",
+              "endOffset": "2761.92s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2761.92s",
+              "endOffset": "2761.96s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.00s",
+              "endOffset": "2762.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.00s",
+              "endOffset": "2762.04s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.08s",
+              "endOffset": "2762.08s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.08s",
+              "endOffset": "2762.12s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.16s",
+              "endOffset": "2762.16s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.16s",
+              "endOffset": "2762.20s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.28s",
+              "endOffset": "2762.28s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.28s",
+              "endOffset": "2762.32s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.36s",
+              "endOffset": "2762.36s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.36s",
+              "endOffset": "2762.40s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.44s",
+              "endOffset": "2762.44s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.44s",
+              "endOffset": "2762.48s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.52s",
+              "endOffset": "2762.52s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.52s",
+              "endOffset": "2762.56s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.60s",
+              "endOffset": "2762.60s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.60s",
+              "endOffset": "2762.64s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.68s",
+              "endOffset": "2762.68s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.68s",
+              "endOffset": "2762.72s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.80s",
+              "endOffset": "2762.80s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.80s",
+              "endOffset": "2762.84s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.88s",
+              "endOffset": "2762.88s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.88s",
+              "endOffset": "2762.92s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2762.96s",
+              "endOffset": "2762.96s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2762.96s",
+              "endOffset": "2763.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.04s",
+              "endOffset": "2763.04s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.04s",
+              "endOffset": "2763.08s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.12s",
+              "endOffset": "2763.12s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.12s",
+              "endOffset": "2763.16s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.20s",
+              "endOffset": "2763.20s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.20s",
+              "endOffset": "2763.24s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.28s",
+              "endOffset": "2763.28s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.28s",
+              "endOffset": "2763.32s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.36s",
+              "endOffset": "2763.36s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.36s",
+              "endOffset": "2763.40s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.44s",
+              "endOffset": "2763.44s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.44s",
+              "endOffset": "2763.48s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.52s",
+              "endOffset": "2763.52s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.52s",
+              "endOffset": "2763.56s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.60s",
+              "endOffset": "2763.60s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.60s",
+              "endOffset": "2763.64s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.68s",
+              "endOffset": "2763.68s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.68s",
+              "endOffset": "2763.72s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.76s",
+              "endOffset": "2763.76s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.76s",
+              "endOffset": "2763.80s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.84s",
+              "endOffset": "2763.84s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.84s",
+              "endOffset": "2763.88s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2763.92s",
+              "endOffset": "2763.92s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2763.92s",
+              "endOffset": "2763.96s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2764.00s",
+              "endOffset": "2764.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.00s",
+              "endOffset": "2764.04s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2764.08s",
+              "endOffset": "2764.08s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.08s",
+              "endOffset": "2764.12s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2764.16s",
+              "endOffset": "2764.16s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.16s",
+              "endOffset": "2764.20s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2764.24s",
+              "endOffset": "2764.24s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.24s",
+              "endOffset": "2764.28s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.36s",
+              "endOffset": "2764.36s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.44s",
+              "endOffset": "2764.44s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.52s",
+              "endOffset": "2764.52s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.60s",
+              "endOffset": "2764.60s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2764.68s",
+              "endOffset": "2764.68s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.40s",
+              "endOffset": "2765.40s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.40s",
+              "endOffset": "2765.44s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.48s",
+              "endOffset": "2765.48s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.48s",
+              "endOffset": "2765.52s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.52s",
+              "endOffset": "2765.52s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.52s",
+              "endOffset": "2765.56s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.60s",
+              "endOffset": "2765.60s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.60s",
+              "endOffset": "2765.64s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.64s",
+              "endOffset": "2765.64s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.64s",
+              "endOffset": "2765.68s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2765.72s",
+              "endOffset": "2765.72s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2765.72s",
+              "endOffset": "2765.76s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2767.40s",
+              "endOffset": "2767.40s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "ああ",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            },
+            {
+              "word": "。",
+              "startOffset": "2730.00s",
+              "endOffset": "2730.00s"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chunk_start": 2160.0,
+  "chunk_duration": 102.02,
+  "trim_offset": 570.0
+}
