@@ -213,8 +213,13 @@ def parse_offset(offset_str) -> float:
     return float(str(offset_str).rstrip("s"))
 
 
-def transcript_to_json(transcript, time_offset: float = 0.0) -> list[dict]:
-    """Convert a protobuf transcript to a JSON-serializable list of results."""
+def transcript_to_json(transcript, time_offset: float = 0.0,
+                       chunk_duration: float = 0.0) -> list[dict]:
+    """Convert a protobuf transcript to a JSON-serializable list of results.
+
+    chunk_duration: if >0, used to detect absurdly large timestamps that
+    exceed the chunk length (another Chirp 3 bug).
+    """
     results = []
     for result in transcript.results:
         if not result.alternatives:
@@ -222,10 +227,21 @@ def transcript_to_json(transcript, time_offset: float = 0.0) -> list[dict]:
         alt = result.alternatives[0]
         words = []
         for w in alt.words:
+            start = parse_offset(w.start_offset)
+            end = parse_offset(w.end_offset)
+            # Chirp 3 sometimes returns bogus word offsets: zero, negative,
+            # the chunk duration, or absurdly large values. These must be
+            # clamped before adding time_offset, otherwise the chunk start
+            # gets added to a zero value and produces a plausible-looking but
+            # wrong timestamp (e.g. 0 + 1080 = 1080s instead of ~1310s).
+            if end <= 0 or end < start:
+                end = start
+            if chunk_duration > 0 and end > chunk_duration:
+                end = start
             words.append({
                 "word": w.word,
-                "startOffset": f"{parse_offset(w.start_offset) + time_offset:.2f}s",
-                "endOffset": f"{parse_offset(w.end_offset) + time_offset:.2f}s",
+                "startOffset": f"{start + time_offset:.2f}s",
+                "endOffset": f"{end + time_offset:.2f}s",
             })
         results.append({
             "languageCode": result.language_code,
@@ -351,7 +367,7 @@ def main():
                 num_words = sum(len(r.alternatives[0].words) for r in transcript.results if r.alternatives)
                 print(f"  API returned {num_results} result(s), {num_words} total words")
 
-                raw_data = transcript_to_json(transcript)
+                raw_data = transcript_to_json(transcript, chunk_duration=duration)
                 all_raw_results.extend(raw_data)
                 chunk_path = output_dir / "transcript.json"
                 chunk_path.write_text(json.dumps({"results": raw_data}, indent=2, ensure_ascii=False),
@@ -408,7 +424,8 @@ def main():
                                     for r in transcript.results if r.alternatives)
                     print(f"  API returned {num_results} result(s), {num_words} total words")
 
-                    raw_data = transcript_to_json(transcript, time_offset=chunk_start)
+                    raw_data = transcript_to_json(transcript, time_offset=chunk_start,
+                                                    chunk_duration=chunk_dur)
                     all_raw_results.extend(raw_data)
                     raw_path = output_dir / f"chunk_{i:03d}.json"
                     raw_path.write_text(
