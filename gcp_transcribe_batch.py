@@ -23,9 +23,15 @@ from google.cloud import storage
 
 DEFAULT_REGION = "us"
 DEFAULT_CHUNK_MINUTES = 18
+DEFAULT_GCS_BUCKET = "subtitling-projects"
 MAX_WORD_TIMESTAMP_MINUTES = 20
 MAX_BATCH_FILES = 15
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
+
+
+def is_gcs_uri(path: str) -> bool:
+    """Check whether a path is a GCS URI (gs://...)."""
+    return path.startswith("gs://")
 
 
 def seconds_to_timestamp(seconds: float) -> str:
@@ -43,6 +49,35 @@ def parse_gcs_uri(uri: str) -> tuple[str, str]:
     if parsed.scheme != "gs":
         raise ValueError(f"Expected gs:// URI, got: {uri}")
     return parsed.netloc, parsed.path.lstrip("/")
+
+
+def has_video_stream(local_path: str) -> bool:
+    """Check if a file contains a video stream (i.e. is a video container, not pure audio)."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "error",
+            "-select_streams", "v",
+            "-show_entries", "stream=codec_type",
+            "-of", "csv=p=0",
+            local_path,
+        ],
+        capture_output=True, text=True,
+    )
+    return "video" in result.stdout
+
+
+def extract_audio(local_path: str, output_path: str) -> str:
+    """Extract audio from a video file, copying the audio stream without re-encoding."""
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-i", local_path,
+            "-vn", "-acodec", "copy",
+            output_path,
+        ],
+        capture_output=True, check=True,
+    )
+    print(f"Extracted audio: {local_path} -> {output_path}")
+    return output_path
 
 
 def get_audio_duration(local_path: str) -> float:
@@ -205,12 +240,13 @@ def transcript_to_json(transcript, time_offset: float = 0.0) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Transcribe audio from GCS using GCP Speech-to-Text (Chirp 3) and save raw JSON. "
+        description="Transcribe audio using GCP Speech-to-Text (Chirp 3) and save raw JSON. "
+                    "Accepts a local audio/video file or a GCS URI (gs://...). "
                     "Automatically splits audio longer than 20 minutes into chunks. "
                     "Use json_to_ass.py to convert output to ASS subtitles."
     )
     parser.add_argument("--input", required=True,
-                        help="GCS URI for audio file (gs://bucket/path/file.opus)")
+                        help="Local audio/video file or GCS URI (gs://bucket/path/file.opus)")
     parser.add_argument("--output", required=True,
                         help="Output directory for JSON transcript files")
     parser.add_argument("--project-id", default=None,
@@ -219,6 +255,8 @@ def main():
                         help=f"GCP region (default: '{DEFAULT_REGION}')")
     parser.add_argument("--chunk-minutes", type=float, default=DEFAULT_CHUNK_MINUTES,
                         help=f"Chunk duration in minutes (default: {DEFAULT_CHUNK_MINUTES})")
+    parser.add_argument("--gcs-bucket", default=DEFAULT_GCS_BUCKET,
+                        help=f"GCS bucket for uploading local files (default: '{DEFAULT_GCS_BUCKET}')")
 
     args = parser.parse_args()
 
@@ -230,23 +268,60 @@ def main():
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    input_is_gcs = is_gcs_uri(args.input)
+    input_label = "(GCS)" if input_is_gcs else "(local)"
+
     print(f"\n{'='*60}")
     print(f"GCP Chirp 3 Batch Transcription")
     print(f"{'='*60}")
-    print(f"  Input:      {args.input}")
+    print(f"  Input:      {args.input} {input_label}")
     print(f"  Output:     {output_dir}")
     print(f"  Project:    {project_id}")
     print(f"  Region:     {args.region}")
     print(f"  Chunk size: {args.chunk_minutes} min")
+    if not input_is_gcs:
+        print(f"  GCS bucket: {args.gcs_bucket}")
     print(f"{'='*60}\n")
 
     with tempfile.TemporaryDirectory() as tmp_dir:
-        # Step 1: Download audio from GCS
-        print("[1/4] Downloading audio from GCS...")
-        input_bucket, input_blob = parse_gcs_uri(args.input)
-        ext = Path(input_blob).suffix
-        local_audio = os.path.join(tmp_dir, f"input{ext}")
-        download_from_gcs(args.input, local_audio, project_id)
+        # Step 1: Get audio locally
+        input_gcs_uri = None  # set if we already have a GCS URI for transcription
+        if input_is_gcs:
+            print("[1/4] Downloading audio from GCS...")
+            _bucket, input_blob = parse_gcs_uri(args.input)
+            ext = Path(input_blob).suffix
+            local_audio = os.path.join(tmp_dir, f"input{ext}")
+            download_from_gcs(args.input, local_audio, project_id)
+            input_gcs_uri = args.input
+        else:
+            print("[1/4] Using local audio file...")
+            local_path = Path(args.input)
+            if not local_path.is_file():
+                parser.error(f"Local file not found: {args.input}")
+            local_audio = str(local_path)
+            ext = local_path.suffix
+            print(f"  File: {local_audio}")
+
+        # Extract audio if input is a video container
+        if has_video_stream(local_audio):
+            print("  Detected video stream, extracting audio...")
+            # Probe audio codec to pick the right container extension
+            codec_result = subprocess.run(
+                ["ffprobe", "-v", "error", "-select_streams", "a:0",
+                 "-show_entries", "stream=codec_name", "-of", "csv=p=0",
+                 local_audio],
+                capture_output=True, text=True,
+            )
+            codec = codec_result.stdout.strip()
+            codec_ext_map = {"opus": ".opus", "vorbis": ".ogg", "aac": ".m4a",
+                             "mp3": ".mp3", "flac": ".flac", "pcm_s16le": ".wav"}
+            ext = codec_ext_map.get(codec, ".ogg")
+            print(f"  Audio codec: {codec} -> container: {ext}")
+            audio_path = os.path.join(tmp_dir, f"extracted_audio{ext}")
+            extract_audio(local_audio, audio_path)
+            local_audio = audio_path
+            # Invalidate any existing GCS URI since we now have a different file
+            input_gcs_uri = None
 
         # Step 2: Analyze audio duration
         print("\n[2/4] Analyzing audio duration...")
@@ -260,17 +335,35 @@ def main():
             # Short audio — transcribe directly
             print(f"  -> Under limit, no splitting needed")
             print("\n[3/4] Transcribing (single file)...")
-            transcript = transcribe_batch(args.input, project_id, args.region)
-            num_results = len(transcript.results)
-            num_words = sum(len(r.alternatives[0].words) for r in transcript.results if r.alternatives)
-            print(f"  API returned {num_results} result(s), {num_words} total words")
 
-            raw_data = transcript_to_json(transcript)
-            all_raw_results.extend(raw_data)
-            chunk_path = output_dir / "transcript.json"
-            chunk_path.write_text(json.dumps({"results": raw_data}, indent=2, ensure_ascii=False),
-                                  encoding="utf-8")
-            print(f"  Saved to {chunk_path}")
+            # Upload local file to GCS if needed
+            uploaded_input = False
+            if input_gcs_uri is None:
+                filename = Path(local_audio).name
+                input_gcs_uri = f"gs://{args.gcs_bucket}/tmp/transcribe_input/{filename}"
+                print(f"  Uploading to {input_gcs_uri}...")
+                upload_to_gcs(local_audio, input_gcs_uri, project_id)
+                uploaded_input = True
+
+            try:
+                transcript = transcribe_batch(input_gcs_uri, project_id, args.region)
+                num_results = len(transcript.results)
+                num_words = sum(len(r.alternatives[0].words) for r in transcript.results if r.alternatives)
+                print(f"  API returned {num_results} result(s), {num_words} total words")
+
+                raw_data = transcript_to_json(transcript)
+                all_raw_results.extend(raw_data)
+                chunk_path = output_dir / "transcript.json"
+                chunk_path.write_text(json.dumps({"results": raw_data}, indent=2, ensure_ascii=False),
+                                      encoding="utf-8")
+                print(f"  Saved to {chunk_path}")
+            finally:
+                if uploaded_input:
+                    print(f"  Cleaning up temporary GCS file...")
+                    try:
+                        delete_gcs_blobs([input_gcs_uri], project_id)
+                    except Exception as e:
+                        print(f"  Warning: failed to clean up GCS file: {e}")
         else:
             # Long audio — split into chunks
             print(f"  -> Exceeds limit, splitting required")
@@ -290,7 +383,7 @@ def main():
             # Upload chunks to GCS
             print(f"\n  Uploading chunks to GCS...")
             chunk_uris = []
-            tmp_gcs_prefix = f"gs://{input_bucket}/tmp/transcribe_chunks/"
+            tmp_gcs_prefix = f"gs://{args.gcs_bucket}/tmp/transcribe_chunks/"
             for chunk_path, _ in chunks:
                 chunk_name = Path(chunk_path).name
                 chunk_uri = f"{tmp_gcs_prefix}{chunk_name}"
