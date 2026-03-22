@@ -43,7 +43,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 200
 DEFAULT_COMMA_SPLIT_CHARS = 40
-DEFAULT_SNAP_GAP = 0.1
+DEFAULT_SNAP_GAP = 0.25
 
 
 def seconds_to_ass(seconds: float) -> str:
