@@ -20,13 +20,20 @@ More specific rules for subtitling Japanese seiyuu and anime content are below.
 
 ### Gap Handling
 
-- **Minimize gaps** between consecutive lines from the same or different speakers
-- Gaps under 1 second are acceptable in fast conversation
+**Gaps are bad. Continuity is good.**
+
+- **Under 250ms**: Must not exist. These cause visible flashing. The `--snap-gap` flag (default 0.25s) eliminates these automatically
+- **250–500ms**: Should only exist at scene changes. If there's no scene change, close the gap
+- **500ms+**: Acceptable only for intentional pauses (scene transitions, audience reactions, physical actions)
 - **Acceptable gap scenarios:**
-  - Scene/topic transitions (5+ seconds)
+  - Scene/topic transitions (500ms+)
   - Audience reactions (cheering, applause) — 1–3 seconds
   - Physical actions (standing up, moving) — 1–3 seconds
   - Reading comprehension time after long lines
+
+### Minimum Line Duration
+
+**A line must stay on screen for at least 500ms.** The viewer needs time to read it. The `--min-duration` flag (default 0.5s) enforces this automatically by adding lead-in/lead-out time to short lines.
 
 ### Overlapping Dialogue
 

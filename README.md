@@ -104,6 +104,7 @@ python3 json_to_ass.py raw_transcripts/merged.json output.ass \
 | `--max-line-chars` | 200 | Hard character limit per line |
 | `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. Set to 0 to disable |
 | `--snap-gap` | 0.25 | Snap gaps smaller than this (seconds) between same-style lines to prevent flashing. Set to 0 to disable |
+| `--min-duration` | 0.5 | Minimum line duration in seconds. Short lines get lead-out/lead-in padding. Set to 0 to disable |
 
 ### Setup
 
@@ -151,7 +152,7 @@ See `style_guide.md` for full rules. Key points:
 uv run python -m unittest discover -s tests -v
 ```
 
-72 tests covering timestamp parsing, bogus value clamping, line splitting, gap snapping, ASS output, transcript loading, `transcript_to_json`, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+80 tests covering timestamp parsing, bogus value clamping, line splitting, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## TODO
 
