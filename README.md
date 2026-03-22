@@ -163,6 +163,7 @@ See `style_guide.md` for full rules. Key points:
 - **Language-aware line splitting**: Line splitting currently relies on punctuation and pause duration, which is deterministic but naive. When Chirp 3 omits punctuation, lines can run on too long. Future improvements:
   - Use a pause duration threshold as a fallback when punctuation is absent
   - Use semantic/linguistic analysis to find natural break points in the Japanese text
+- **Fix subtitle flashing**: When consecutive lines have a very small gap (e.g., <100ms), the subtitle briefly disappears and reappears, causing a visible flash. Add a post-processing pass (in `json_to_ass.py` or a separate script) to snap near-adjacent lines together (gap → 0) to eliminate flashing.
 - **End-to-end pipeline orchestration**: Currently requires running `gcp_transcribe_batch.py` and `json_to_ass.py` as separate manual steps. Find a less clunky way to orchestrate the full transcribe-to-ASS flow in a single invocation.
 
 ## References
