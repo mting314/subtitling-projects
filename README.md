@@ -18,6 +18,7 @@ AfterTalk streams, anniversary videos, and event content from Project Sekai: Col
 | Find the dream view Aftertalk | Complete | |
 | Unsteady, still steady step Aftertalk | Complete | |
 | Colors of Pure Sense (ena6) | In Progress | Transcript generated via Chirp 3; translation not started |
+| Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk (mizu6) | In Progress | Transcript generated via Chirp 3; translation not started |
 
 ### Lieraji (Liella no Radio Japan)
 
@@ -53,8 +54,8 @@ Love Live! Superstar!! Liella! live concert content.
 For longer audio or when higher accuracy is needed, a two-script pipeline handles GCP Chirp 3 transcription:
 
 ```
-audio.opus (on GCS)
-  → gcp_transcribe_batch.py (download, chunk, transcribe)
+local video/audio (or GCS URI)
+  → gcp_transcribe_batch.py (extract audio, chunk, upload, transcribe)
   → raw JSON (per-chunk + merged.json)
   → json_to_ass.py (word-level splitting, ASS generation)
   → Transcript.ass
@@ -66,12 +67,18 @@ audio.opus (on GCS)
 ```bash
 export GOOGLE_CLOUD_PROJECT=your-project-id
 
-python3 gcp_transcribe_batch.py \
+# From a local video file (auto-extracts audio)
+uv run gcp_transcribe_batch.py \
+  --input "video.mkv" \
+  --output "raw_transcripts/"
+
+# Or from a GCS URI
+uv run gcp_transcribe_batch.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
   --output "raw_transcripts/"
 ```
 
-Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min).
+Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min). Video files are detected and audio is extracted (stream copy, no re-encoding).
 
 **Step 2: Generate ASS**
 
