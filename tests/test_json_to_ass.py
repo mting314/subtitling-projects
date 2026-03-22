@@ -8,6 +8,7 @@ import unittest
 from json_to_ass import (
     seconds_to_ass, _get_word_time, _emit_line,
     extract_dialogue_lines, load_transcript, lines_to_ass,
+    snap_gaps,
 )
 
 
@@ -224,6 +225,57 @@ class TestLinesToAss(unittest.TestCase):
         ass = lines_to_ass([], "Empty")
         self.assertIn("[Script Info]", ass)
         self.assertNotIn("Dialogue:", ass)
+
+
+class TestSnapGaps(unittest.TestCase):
+    def _line(self, start, end, style="JP"):
+        return {"start": start, "end": end, "style": style, "text": "テスト"}
+
+    def test_small_gap_snapped(self):
+        lines = [self._line(1.0, 2.0), self._line(2.05, 3.0)]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 1)
+        self.assertAlmostEqual(lines[0]["end"], 2.05)
+
+    def test_large_gap_preserved(self):
+        lines = [self._line(1.0, 2.0), self._line(2.5, 3.0)]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 0)
+        self.assertAlmostEqual(lines[0]["end"], 2.0)
+
+    def test_zero_gap_no_change(self):
+        lines = [self._line(1.0, 2.0), self._line(2.0, 3.0)]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 0)
+        self.assertAlmostEqual(lines[0]["end"], 2.0)
+
+    def test_negative_gap_no_change(self):
+        lines = [self._line(1.0, 2.5), self._line(2.0, 3.0)]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 0)
+        self.assertAlmostEqual(lines[0]["end"], 2.5)
+
+    def test_different_styles_not_snapped(self):
+        lines = [self._line(1.0, 2.0, "JP"), self._line(2.05, 3.0, "Default")]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 0)
+        self.assertAlmostEqual(lines[0]["end"], 2.0)
+
+    def test_same_style_snapped(self):
+        lines = [self._line(1.0, 2.0, "Default"), self._line(2.08, 3.0, "Default")]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 1)
+        self.assertAlmostEqual(lines[0]["end"], 2.08)
+
+    def test_returns_correct_count(self):
+        lines = [
+            self._line(1.0, 2.0),
+            self._line(2.03, 3.0),  # snapped
+            self._line(3.05, 4.0),  # snapped
+            self._line(5.0, 6.0),   # not snapped (1.0s gap)
+        ]
+        count = snap_gaps(lines, 0.1)
+        self.assertEqual(count, 2)
 
 
 if __name__ == "__main__":
