@@ -40,24 +40,22 @@ For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two 
 
 **Setup (one-time):**
 
-1. Install dependencies: `pip3 install google-cloud-speech google-cloud-storage`
+1. Install dependencies: `uv sync`
 2. Install ffmpeg: `brew install ffmpeg`
 3. Authenticate: `gcloud auth application-default login`
-4. Set project: `export GOOGLE_CLOUD_PROJECT=your-project-id`
+4. Set project ID in `.env`: `GOOGLE_CLOUD_PROJECT=your-project-id`
 
 **Usage:**
 
-1. Extract audio: `ffmpeg -i input.mkv -vn -acodec copy audio.opus`
-2. Upload to GCS: `gsutil cp audio.opus gs://subtitling-projects/audio-files/`
-3. Transcribe to JSON:
+1. Transcribe to JSON (auto-extracts audio from video, uploads to GCS, chunks if needed):
    ```
-   python3 gcp_transcribe_batch.py \
-     --input "gs://subtitling-projects/audio-files/audio.opus" \
+   uv run gcp_transcribe_batch.py \
+     --input "Project Name/video.mkv" \
      --output "Project Name/raw_transcripts"
    ```
-4. Convert JSON to ASS:
+2. Convert JSON to ASS:
    ```
-   python3 json_to_ass.py \
+   uv run json_to_ass.py \
      "Project Name/raw_transcripts/merged.json" \
      "Project Name/Transcript.ass" \
      --title "Project Transcript"

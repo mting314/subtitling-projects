@@ -15,6 +15,7 @@ import tempfile
 from pathlib import Path
 from urllib.parse import urlparse
 
+from dotenv import load_dotenv
 from google.api_core.client_options import ClientOptions
 from google.cloud.speech_v2 import SpeechClient
 from google.cloud.speech_v2.types import cloud_speech
@@ -259,6 +260,7 @@ def transcript_to_json(transcript, time_offset: float = 0.0,
 
 
 def main():
+    load_dotenv()
     parser = argparse.ArgumentParser(
         description="Transcribe audio using GCP Speech-to-Text (Chirp 3) and save raw JSON. "
                     "Accepts a local audio/video file or a GCS URI (gs://...). "

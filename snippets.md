@@ -42,8 +42,18 @@ ffmpeg -i input.mkv -vn -acodec copy output.mp3
 
 ## GCP Chirp 3 batch transcription (step 1: transcribe to JSON)
 
+Project ID is loaded from `.env` automatically. Override with `--project-id` if needed.
+
 ```
-python3 gcp_transcribe_batch.py \
+uv run gcp_transcribe_batch.py \
+  --input "video.mkv" \
+  --output "raw_transcripts/"
+```
+
+From a GCS URI:
+
+```
+uv run gcp_transcribe_batch.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
   --output "raw_transcripts/"
 ```
@@ -51,7 +61,7 @@ python3 gcp_transcribe_batch.py \
 Override project/region:
 
 ```
-python3 gcp_transcribe_batch.py \
+uv run gcp_transcribe_batch.py \
   --input gs://bucket/file.opus \
   --output raw_transcripts/ \
   --project-id my-project \
@@ -61,19 +71,19 @@ python3 gcp_transcribe_batch.py \
 ## Convert transcript JSON to ASS (step 2: generate subtitles)
 
 ```
-python3 json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
+uv run json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
 ```
 
 Tune line splitting (re-run without re-transcribing):
 
 ```
-python3 json_to_ass.py raw_transcripts/merged.json output.ass --pause-threshold 0.5 --max-line-chars 100
+uv run json_to_ass.py raw_transcripts/merged.json output.ass --pause-threshold 0.5 --max-line-chars 100
 ```
 
 Accept a directory of chunk files:
 
 ```
-python3 json_to_ass.py raw_transcripts/ output.ass
+uv run json_to_ass.py raw_transcripts/ output.ass
 ```
 
 ## Upload audio to GCS for transcription
