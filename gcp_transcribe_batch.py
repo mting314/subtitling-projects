@@ -13,161 +13,27 @@ import os
 import subprocess
 import tempfile
 from pathlib import Path
-from urllib.parse import urlparse
 
 from dotenv import load_dotenv
 from google.api_core.client_options import ClientOptions
 from google.cloud.speech_v2 import SpeechClient
 from google.cloud.speech_v2.types import cloud_speech
-from google.cloud import storage
+
+from utils.audio import (
+    has_video_stream, extract_audio, trim_audio, get_audio_duration, split_audio,
+    MAX_WORD_TIMESTAMP_MINUTES,
+)
+from utils.gcs import (
+    is_gcs_uri, parse_gcs_uri, download_from_gcs, upload_to_gcs, delete_gcs_blobs,
+)
+from utils.time import parse_offset, seconds_to_timestamp
 
 
 DEFAULT_REGION = "us"
 DEFAULT_CHUNK_MINUTES = 18
 DEFAULT_GCS_BUCKET = "subtitling-projects"
-MAX_WORD_TIMESTAMP_MINUTES = 20
 MAX_BATCH_FILES = 15
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
-
-
-def is_gcs_uri(path: str) -> bool:
-    """Check whether a path is a GCS URI (gs://...)."""
-    return path.startswith("gs://")
-
-
-def seconds_to_timestamp(seconds: float) -> str:
-    """Convert seconds to 'H:MM:SS.CC' for display."""
-    h = int(seconds // 3600)
-    m = int((seconds % 3600) // 60)
-    s = int(seconds % 60)
-    cs = round((seconds % 1) * 100)
-    return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
-
-
-def parse_gcs_uri(uri: str) -> tuple[str, str]:
-    """Parse a gs:// URI into (bucket, blob_path)."""
-    parsed = urlparse(uri)
-    if parsed.scheme != "gs":
-        raise ValueError(f"Expected gs:// URI, got: {uri}")
-    return parsed.netloc, parsed.path.lstrip("/")
-
-
-def has_video_stream(local_path: str) -> bool:
-    """Check if a file contains a video stream (i.e. is a video container, not pure audio)."""
-    result = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-select_streams", "v",
-            "-show_entries", "stream=codec_type",
-            "-of", "csv=p=0",
-            local_path,
-        ],
-        capture_output=True, text=True,
-    )
-    return "video" in result.stdout
-
-
-def extract_audio(local_path: str, output_path: str) -> str:
-    """Extract audio from a video file, copying the audio stream without re-encoding."""
-    subprocess.run(
-        [
-            "ffmpeg", "-y", "-i", local_path,
-            "-vn", "-acodec", "copy",
-            output_path,
-        ],
-        capture_output=True, check=True,
-    )
-    print(f"Extracted audio: {local_path} -> {output_path}")
-    return output_path
-
-
-def get_audio_duration(local_path: str) -> float:
-    """Get audio duration in seconds using ffprobe."""
-    result = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-show_entries", "format=duration",
-            "-of", "csv=p=0",
-            local_path,
-        ],
-        capture_output=True, text=True, check=True,
-    )
-    return float(result.stdout.strip())
-
-
-def _storage_client(project_id: str) -> storage.Client:
-    """Create a GCS client with the given project ID."""
-    return storage.Client(project=project_id)
-
-
-def download_from_gcs(uri: str, local_path: str, project_id: str):
-    """Download a file from GCS to a local path."""
-    bucket_name, blob_path = parse_gcs_uri(uri)
-    client = _storage_client(project_id)
-    bucket = client.bucket(bucket_name)
-    blob = bucket.blob(blob_path)
-    blob.download_to_filename(local_path)
-    print(f"Downloaded {uri} -> {local_path}")
-
-
-def upload_to_gcs(local_path: str, uri: str, project_id: str):
-    """Upload a local file to GCS."""
-    bucket_name, blob_path = parse_gcs_uri(uri)
-    client = _storage_client(project_id)
-    bucket = client.bucket(bucket_name)
-    blob = bucket.blob(blob_path)
-    blob.upload_from_filename(local_path)
-    print(f"Uploaded {local_path} -> {uri}")
-
-
-def delete_gcs_blobs(uris: list[str], project_id: str):
-    """Delete a list of GCS URIs."""
-    client = _storage_client(project_id)
-    for uri in uris:
-        bucket_name, blob_path = parse_gcs_uri(uri)
-        bucket = client.bucket(bucket_name)
-        blob = bucket.blob(blob_path)
-        blob.delete()
-        print(f"Deleted {uri}")
-
-
-def split_audio(local_path: str, chunk_seconds: float,
-                output_dir: str) -> list[tuple[str, float]]:
-    """Split audio into non-overlapping chunks.
-
-    Returns list of (chunk_path, chunk_start_seconds) tuples.
-    """
-    duration = get_audio_duration(local_path)
-    ext = Path(local_path).suffix
-
-    if duration <= MAX_WORD_TIMESTAMP_MINUTES * 60:
-        return [(local_path, 0.0)]
-
-    chunks = []
-    start = 0.0
-    chunk_idx = 0
-
-    while start < duration:
-        chunk_path = os.path.join(output_dir, f"chunk_{chunk_idx:03d}{ext}")
-        chunk_duration = min(chunk_seconds, duration - start)
-
-        subprocess.run(
-            [
-                "ffmpeg", "-y", "-i", local_path,
-                "-ss", str(start),
-                "-t", str(chunk_duration),
-                "-vn", "-acodec", "copy",
-                chunk_path,
-            ],
-            capture_output=True, check=True,
-        )
-        print(f"Split chunk {chunk_idx}: start={start:.1f}s, duration={chunk_duration:.1f}s")
-        chunks.append((chunk_path, start))
-
-        start += chunk_seconds
-        chunk_idx += 1
-
-    return chunks
 
 
 def transcribe_batch(audio_uri: str, project_id: str, region: str) -> cloud_speech.BatchRecognizeResults:
@@ -279,6 +145,8 @@ def main():
                         help=f"Chunk duration in minutes (default: {DEFAULT_CHUNK_MINUTES})")
     parser.add_argument("--gcs-bucket", default=DEFAULT_GCS_BUCKET,
                         help=f"GCS bucket for uploading local files (default: '{DEFAULT_GCS_BUCKET}')")
+    parser.add_argument("--trim-start", type=float, default=0.0,
+                        help="Skip this many seconds of audio before transcribing (default: 0, no trim)")
 
     args = parser.parse_args()
 
@@ -286,6 +154,7 @@ def main():
     if not project_id:
         parser.error("GCP project ID required: set GOOGLE_CLOUD_PROJECT env var or pass --project-id")
     chunk_seconds = args.chunk_minutes * 60
+    trim_offset = args.trim_start
 
     output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -303,6 +172,8 @@ def main():
     print(f"  Chunk size: {args.chunk_minutes} min")
     if not input_is_gcs:
         print(f"  GCS bucket: {args.gcs_bucket}")
+    if trim_offset > 0:
+        print(f"  Trim start: {trim_offset:.1f}s ({trim_offset/60:.1f} min)")
     print(f"{'='*60}\n")
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -345,6 +216,14 @@ def main():
             # Invalidate any existing GCS URI since we now have a different file
             input_gcs_uri = None
 
+        # Trim leading audio if requested
+        if trim_offset > 0:
+            trimmed_path = os.path.join(tmp_dir, f"trimmed{Path(local_audio).suffix}")
+            trim_audio(local_audio, trim_offset, trimmed_path)
+            local_audio = trimmed_path
+            # Invalidate any existing GCS URI since we now have a different file
+            input_gcs_uri = None
+
         # Step 2: Analyze audio duration
         print("\n[2/4] Analyzing audio duration...")
         duration = get_audio_duration(local_audio)
@@ -373,7 +252,8 @@ def main():
                 num_words = sum(len(r.alternatives[0].words) for r in transcript.results if r.alternatives)
                 print(f"  API returned {num_results} result(s), {num_words} total words")
 
-                raw_data = transcript_to_json(transcript, chunk_duration=duration)
+                raw_data = transcript_to_json(transcript, time_offset=trim_offset,
+                                                chunk_duration=duration)
                 all_raw_results.extend(raw_data)
                 chunk_path = output_dir / "transcript.json"
                 chunk_path.write_text(json.dumps({"results": raw_data}, indent=2, ensure_ascii=False),
@@ -430,14 +310,16 @@ def main():
                                     for r in transcript.results if r.alternatives)
                     print(f"  API returned {num_results} result(s), {num_words} total words")
 
-                    raw_data = transcript_to_json(transcript, time_offset=chunk_start,
+                    raw_data = transcript_to_json(transcript, time_offset=chunk_start + trim_offset,
                                                     chunk_duration=chunk_dur)
                     all_raw_results.extend(raw_data)
                     raw_path = output_dir / f"chunk_{i:03d}.json"
+                    chunk_meta = {"results": raw_data, "chunk_start": chunk_start,
+                                    "chunk_duration": chunk_dur}
+                    if trim_offset > 0:
+                        chunk_meta["trim_offset"] = trim_offset
                     raw_path.write_text(
-                        json.dumps({"results": raw_data, "chunk_start": chunk_start,
-                                    "chunk_duration": chunk_dur},
-                                   indent=2, ensure_ascii=False),
+                        json.dumps(chunk_meta, indent=2, ensure_ascii=False),
                         encoding="utf-8")
                     print(f"  Saved to {raw_path}")
             finally:
@@ -449,8 +331,11 @@ def main():
 
     # Save merged transcript
     merged_path = output_dir / "merged.json"
+    merged_data = {"results": all_raw_results}
+    if trim_offset > 0:
+        merged_data["trim_offset"] = trim_offset
     merged_path.write_text(
-        json.dumps({"results": all_raw_results}, indent=2, ensure_ascii=False),
+        json.dumps(merged_data, indent=2, ensure_ascii=False),
         encoding="utf-8")
 
     # Summary

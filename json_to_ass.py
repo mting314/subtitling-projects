@@ -14,6 +14,8 @@ import json
 import sys
 from pathlib import Path
 
+from utils.time import parse_offset
+
 
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
 
@@ -50,13 +52,6 @@ def seconds_to_ass(seconds: float) -> str:
     s = int(seconds % 60)
     cs = round((seconds % 1) * 100)
     return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
-
-
-def parse_offset(time_str) -> float:
-    """Parse a time string like '123.456s' to float seconds."""
-    if isinstance(time_str, (int, float)):
-        return float(time_str)
-    return float(str(time_str).rstrip("s"))
 
 
 def load_transcript(input_path: str) -> list[dict]:

@@ -14,7 +14,7 @@ See `README.md` for full project progress table.
 
 ## Toolchain
 
-Two-script pipeline for GCP Chirp 3 transcription:
+Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `utils/`:
 
 | Tool | Purpose |
 |------|---------|
@@ -24,6 +24,7 @@ Two-script pipeline for GCP Chirp 3 transcription:
 | **Aegisub** | Manual subtitle editing (ASS format) |
 | **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
+| **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting) |
 
 ### Environment
 

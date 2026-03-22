@@ -47,6 +47,7 @@ Love Live! Superstar!! Liella! live concert content.
 | **whisper** | Generate Japanese transcript from audio (local, quick) |
 | **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
+| **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps) |
 | **Aegisub** | Manual subtitle editing and timing |
 
 ## Transcription Pipeline
