@@ -230,13 +230,17 @@ def transcript_to_json(transcript, time_offset: float = 0.0,
             start = parse_offset(w.start_offset)
             end = parse_offset(w.end_offset)
             # Chirp 3 sometimes returns bogus word offsets: zero, negative,
-            # the chunk duration, or absurdly large values. These must be
-            # clamped before adding time_offset, otherwise the chunk start
-            # gets added to a zero value and produces a plausible-looking but
-            # wrong timestamp (e.g. 0 + 1080 = 1080s instead of ~1310s).
+            # the chunk duration, or absurdly large values for both start
+            # and end. These must be clamped before adding time_offset,
+            # otherwise the chunk start gets added to a zero value and
+            # produces a plausible-looking but wrong timestamp
+            # (e.g. 0 + 1080 = 1080s instead of ~1310s).
+            if chunk_duration > 0:
+                if start > chunk_duration:
+                    start = end if end <= chunk_duration else 0
+                if end > chunk_duration:
+                    end = start
             if end <= 0 or end < start:
-                end = start
-            if chunk_duration > 0 and end > chunk_duration:
                 end = start
             words.append({
                 "word": w.word,
