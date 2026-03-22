@@ -44,6 +44,7 @@ DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 200
 DEFAULT_COMMA_SPLIT_CHARS = 40
 DEFAULT_SNAP_GAP = 0.25
+DEFAULT_MIN_DURATION = 0.5
 
 
 def seconds_to_ass(seconds: float) -> str:
@@ -292,6 +293,47 @@ def snap_gaps(lines: list[dict], max_gap: float) -> int:
     return count
 
 
+def enforce_min_duration(lines: list[dict], min_dur: float) -> int:
+    """Ensure every line stays on screen for at least min_dur seconds.
+
+    For lines shorter than min_dur, extends lead-out (end time) first,
+    then lead-in (start time) if needed, without overlapping neighbors.
+
+    Lines must already be sorted by start time. Mutates in place.
+    Returns the number of lines extended.
+    """
+    count = 0
+    for i in range(len(lines)):
+        duration = lines[i]["end"] - lines[i]["start"]
+        if duration >= min_dur:
+            continue
+
+        needed = min_dur - duration
+        extended = False
+
+        # Lead-out: extend end toward next line's start
+        max_end = lines[i + 1]["start"] if i + 1 < len(lines) else float("inf")
+        end_room = max_end - lines[i]["end"]
+        if end_room > 0:
+            extend = min(needed, end_room)
+            lines[i]["end"] += extend
+            needed -= extend
+            extended = True
+
+        # Lead-in: extend start earlier toward previous line's end
+        if needed > 0:
+            min_start = lines[i - 1]["end"] if i > 0 else 0.0
+            start_room = lines[i]["start"] - min_start
+            if start_room > 0:
+                extend = min(needed, start_room)
+                lines[i]["start"] -= extend
+                extended = True
+
+        if extended:
+            count += 1
+    return count
+
+
 def lines_to_ass(lines: list[dict], title: str) -> str:
     """Convert dialogue lines to a complete ASS file string."""
     content = ASS_HEADER_TEMPLATE.format(title=title)
@@ -439,6 +481,8 @@ def main():
                         help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})")
     parser.add_argument("--snap-gap", type=float, default=DEFAULT_SNAP_GAP,
                         help=f"Snap gaps smaller than this (seconds) between same-style lines. 0 to disable (default: {DEFAULT_SNAP_GAP})")
+    parser.add_argument("--min-duration", type=float, default=DEFAULT_MIN_DURATION,
+                        help=f"Minimum line duration in seconds. Short lines get lead-in/lead-out. 0 to disable (default: {DEFAULT_MIN_DURATION})")
 
     args = parser.parse_args()
 
@@ -468,6 +512,11 @@ def main():
     if args.snap_gap > 0:
         snapped = snap_gaps(lines, args.snap_gap)
         print(f"  Snapped {snapped} gap(s) under {args.snap_gap}s")
+
+    # Enforce minimum line duration
+    if args.min_duration > 0:
+        extended = enforce_min_duration(lines, args.min_duration)
+        print(f"  Extended {extended} line(s) to meet {args.min_duration}s minimum duration")
 
     # Generate ASS
     ass_content = lines_to_ass(lines, title)
