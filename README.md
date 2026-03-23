@@ -336,16 +336,20 @@ uv run python -m unittest discover -s tests -v
 
 ## Major Milestones
 
-### Speaker separation for overlapping dialogue
+### Multi-speaker subtitle generation
 
-When multiple speakers talk simultaneously, Chirp 3 merges their words into a single interleaved stream, producing lines that are confusing and unreadable. This is one of the biggest quality issues with multi-speaker content like AfterTalks.
+Multi-speaker audio content (radio shows, talk streams) is common in the content we subtitle. The industry-standard format for two-speaker radio subtitles positions each speaker's dialogue on their side of the screen with character portraits and name labels — see the [Project Sekai Radio show playlist](https://www.youtube.com/watch?v=8ybnIY9JeyY&list=PL8WITjk7vmaRmv5gyjtTo3sPOV-8bMYf9) for reference.
 
-**Goal:** Separate simultaneous speakers into distinct ASS lines so each speaker's dialogue is readable independently.
+![Multi-speaker subtitle reference](docs/multi-speaker-reference.png)
+
+Currently, Chirp 3 merges all speakers into a single interleaved stream with no speaker attribution, making it impossible to assign lines to speakers automatically.
+
+**Goal:** Generate speaker-attributed ASS subtitles with per-speaker styles (left/right positioning, character names) from multi-speaker audio input.
 
 **Approach (to investigate):**
-- Determine if Chirp 3's raw output can distinguish simultaneous speakers (e.g., via speaker diarization or multiple alternatives)
-- If so, update `json_to_ass.py` to split overlapping speakers into separate ASS lines with per-speaker styles
+- Determine if Chirp 3's raw output can distinguish speakers (e.g., via speaker diarization or multiple alternatives)
 - If not, evaluate alternative STT APIs or post-processing with speaker diarization models
+- Generate ASS with per-speaker styles: left-aligned and right-aligned dialogue, speaker name labels, and optional character portraits
 
 ### Language-aware line splitting
 
