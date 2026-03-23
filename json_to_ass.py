@@ -14,7 +14,8 @@ import json
 import sys
 from pathlib import Path
 
-from utils.time import parse_offset
+from quality_report import write_reports
+from utils.time import parse_offset, seconds_to_timestamp
 
 
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
@@ -45,15 +46,6 @@ DEFAULT_MAX_LINE_CHARS = 200
 DEFAULT_COMMA_SPLIT_CHARS = 40
 DEFAULT_SNAP_GAP = 0.25
 DEFAULT_MIN_DURATION = 0.5
-
-
-def seconds_to_ass(seconds: float) -> str:
-    """Convert seconds to ASS timestamp format 'H:MM:SS.CC'."""
-    h = int(seconds // 3600)
-    m = int((seconds % 3600) // 60)
-    s = int(seconds % 60)
-    cs = round((seconds % 1) * 100)
-    return f"{h}:{m:02d}:{s:02d}.{cs:02d}"
 
 
 def load_transcript(input_path: str) -> list[dict]:
@@ -354,156 +346,10 @@ def lines_to_ass(lines: list[dict], title: str) -> str:
     """Convert dialogue lines to a complete ASS file string."""
     content = ASS_HEADER_TEMPLATE.format(title=title)
     for line in lines:
-        start_ass = seconds_to_ass(line["start"])
-        end_ass = seconds_to_ass(line["end"])
+        start_ass = seconds_to_timestamp(line["start"])
+        end_ass = seconds_to_timestamp(line["end"])
         content += f"Dialogue: 0,{start_ass},{end_ass},{line['style']},,0,0,0,,{line['text']}\n"
     return content
-
-
-def print_quality_report(lines: list[dict]):
-    """Print ASS file stats and quality warnings."""
-    if not lines:
-        print("  Dialogue lines: 0")
-        print("\n  WARNING: No dialogue lines generated!")
-        return
-
-    text_lengths = [len(line["text"]) for line in lines]
-    durations = [line["end"] - line["start"] for line in lines]
-    total_chars = sum(text_lengths)
-
-    print("\n  --- ASS File Stats ---")
-    print(f"  Dialogue lines:  {len(lines)}")
-    print(f"  Total characters: {total_chars}")
-    print(
-        f"  Time range:      {seconds_to_ass(lines[0]['start'])} - "
-        f"{seconds_to_ass(lines[-1]['end'])}"
-    )
-
-    print("\n  --- Line Length (characters) ---")
-    print(f"  Min:     {min(text_lengths)}")
-    print(f"  Max:     {max(text_lengths)}")
-    print(f"  Mean:    {total_chars / len(lines):.1f}")
-    print(f"  Median:  {sorted(text_lengths)[len(text_lengths) // 2]}")
-
-    print("\n  --- Line Duration (seconds) ---")
-    print(f"  Min:     {min(durations):.2f}s")
-    print(f"  Max:     {max(durations):.2f}s")
-    print(f"  Mean:    {sum(durations) / len(durations):.2f}s")
-    print(f"  Median:  {sorted(durations)[len(durations) // 2]:.2f}s")
-
-    issues = []
-
-    zero_dur = [i for i, d in enumerate(durations) if d <= 0]
-    if zero_dur:
-        issues.append(
-            f"  - {len(zero_dur)} line(s) with zero or negative duration "
-            f"(likely bogus timestamps)"
-        )
-        for idx in zero_dur[:5]:
-            line = lines[idx]
-            issues.append(
-                f"      line {idx + 1}: {seconds_to_ass(line['start'])} -> "
-                f'{seconds_to_ass(line["end"])}  "{line["text"][:50]}"'
-            )
-        if len(zero_dur) > 5:
-            issues.append(f"      ... and {len(zero_dur) - 5} more")
-
-    long_lines = [(i, length) for i, length in enumerate(text_lengths) if length > 200]
-    if long_lines:
-        issues.append(
-            f"  - {len(long_lines)} line(s) over 200 characters "
-            f"(may need manual splitting in Aegisub)"
-        )
-        for idx, length in long_lines[:3]:
-            issues.append(f"      line {idx + 1}: {length} chars")
-        if len(long_lines) > 3:
-            issues.append(f"      ... and {len(long_lines) - 3} more")
-
-    short_lines = [
-        (i, lines[i]["text"]) for i, length in enumerate(text_lengths) if length < 3
-    ]
-    if short_lines:
-        issues.append(
-            f"  - {len(short_lines)} line(s) under 3 characters "
-            f"(likely noise or artifacts)"
-        )
-        for idx, text in short_lines[:5]:
-            issues.append(f'      line {idx + 1}: "{text}"')
-        if len(short_lines) > 5:
-            issues.append(f"      ... and {len(short_lines) - 5} more")
-
-    long_dur = [(i, d) for i, d in enumerate(durations) if d > 60]
-    if long_dur:
-        issues.append(
-            f"  - {len(long_dur)} line(s) spanning over 60 seconds "
-            f"(likely timestamp gaps from API)"
-        )
-        for idx, dur in long_dur[:3]:
-            line = lines[idx]
-            issues.append(
-                f"      line {idx + 1}: {dur:.1f}s  "
-                f"{seconds_to_ass(line['start'])} -> {seconds_to_ass(line['end'])}"
-            )
-        if len(long_dur) > 3:
-            issues.append(f"      ... and {len(long_dur) - 3} more")
-
-    inverted = [i for i, d in enumerate(durations) if d < 0]
-    if inverted:
-        issues.append(
-            f"  - {len(inverted)} line(s) with end time before start time "
-            f"(bogus timestamps)"
-        )
-        for idx in inverted[:3]:
-            line = lines[idx]
-            issues.append(
-                f"      line {idx + 1}: {seconds_to_ass(line['start'])} -> "
-                f"{seconds_to_ass(line['end'])}"
-            )
-        if len(inverted) > 3:
-            issues.append(f"      ... and {len(inverted) - 3} more")
-
-    overlaps = []
-    for i in range(len(lines) - 1):
-        if lines[i + 1]["start"] < lines[i]["end"] - 0.1:
-            overlaps.append(i)
-    if overlaps:
-        issues.append(
-            f"  - {len(overlaps)} pair(s) of overlapping lines "
-            f"(next line starts before current ends)"
-        )
-        for idx in overlaps[:3]:
-            issues.append(
-                f"      lines {idx + 1}-{idx + 2}: "
-                f"end={seconds_to_ass(lines[idx]['end'])} > "
-                f"start={seconds_to_ass(lines[idx + 1]['start'])}"
-            )
-        if len(overlaps) > 3:
-            issues.append(f"      ... and {len(overlaps) - 3} more")
-
-    gaps = []
-    for i in range(len(lines) - 1):
-        gap = lines[i + 1]["start"] - lines[i]["end"]
-        if gap > 30:
-            gaps.append((i, gap))
-    if gaps:
-        issues.append(
-            f"  - {len(gaps)} gap(s) over 30 seconds between lines "
-            f"(silence, music, or missed speech)"
-        )
-        for idx, gap in gaps[:3]:
-            issues.append(
-                f"      between lines {idx + 1}-{idx + 2}: "
-                f"{gap:.1f}s gap at {seconds_to_ass(lines[idx]['end'])}"
-            )
-        if len(gaps) > 3:
-            issues.append(f"      ... and {len(gaps) - 3} more")
-
-    if issues:
-        print(f"\n  --- Quality Warnings ({len(issues)} issues) ---")
-        for issue in issues:
-            print(issue)
-    else:
-        print("\n  --- Quality: No issues detected ---")
 
 
 def main():
@@ -547,6 +393,11 @@ def main():
         type=float,
         default=DEFAULT_MIN_DURATION,
         help=f"Minimum line duration in seconds. Short lines get lead-in/lead-out. 0 to disable (default: {DEFAULT_MIN_DURATION})",
+    )
+    parser.add_argument(
+        "--video",
+        default=None,
+        help="Path to source video file. Embeds a player in the HTML report for click-to-seek",
     )
 
     args = parser.parse_args()
@@ -601,7 +452,7 @@ def main():
     output_path.write_text(ass_content, encoding="utf-8")
 
     print(f"\nGenerated: {args.output}")
-    print_quality_report(lines)
+    write_reports(lines, args.output, video_path=args.video, title=title)
 
 
 if __name__ == "__main__":

@@ -6,7 +6,6 @@ import tempfile
 import unittest
 
 from json_to_ass import (
-    seconds_to_ass,
     _get_word_time,
     _emit_line,
     extract_dialogue_lines,
@@ -15,17 +14,19 @@ from json_to_ass import (
     snap_gaps,
     enforce_min_duration,
 )
+from quality_report import analyze_quality
+from utils.time import seconds_to_timestamp
 
 
 class TestSecondsToAss(unittest.TestCase):
     def test_zero(self):
-        self.assertEqual(seconds_to_ass(0.0), "0:00:00.00")
+        self.assertEqual(seconds_to_timestamp(0.0), "0:00:00.00")
 
     def test_complex_time(self):
-        self.assertEqual(seconds_to_ass(3723.5), "1:02:03.50")
+        self.assertEqual(seconds_to_timestamp(3723.5), "1:02:03.50")
 
     def test_sub_second(self):
-        self.assertEqual(seconds_to_ass(0.75), "0:00:00.75")
+        self.assertEqual(seconds_to_timestamp(0.75), "0:00:00.75")
 
 
 class TestGetWordTime(unittest.TestCase):
@@ -357,6 +358,98 @@ class TestEnforceMinDuration(unittest.TestCase):
         ]
         count = enforce_min_duration(lines, 0.5)
         self.assertEqual(count, 2)
+
+
+class TestAnalyzeQuality(unittest.TestCase):
+    def _line(self, start, end, text="テスト", style="JP"):
+        return {"start": start, "end": end, "style": style, "text": text}
+
+    def test_empty_lines(self):
+        report = analyze_quality([])
+        self.assertEqual(report["stats"]["num_lines"], 0)
+        self.assertIsNone(report["stats"]["time_range"])
+        for v in report["issues"].values():
+            self.assertEqual(len(v), 0)
+
+    def test_return_structure(self):
+        lines = [self._line(1.0, 2.0), self._line(3.0, 4.0)]
+        report = analyze_quality(lines)
+        self.assertIn("stats", report)
+        self.assertIn("issues", report)
+        self.assertEqual(report["stats"]["num_lines"], 2)
+        self.assertIsNotNone(report["stats"]["time_range"])
+        self.assertIsNotNone(report["stats"]["length_stats"])
+        self.assertIsNotNone(report["stats"]["duration_stats"])
+        for key in [
+            "zero_duration",
+            "long_lines",
+            "short_lines",
+            "long_duration",
+            "inverted",
+            "overlaps",
+            "large_gaps",
+        ]:
+            self.assertIn(key, report["issues"])
+
+    def test_stats_values(self):
+        lines = [
+            self._line(1.0, 3.0, "abc"),
+            self._line(4.0, 5.0, "defgh"),
+        ]
+        report = analyze_quality(lines)
+        self.assertEqual(report["stats"]["total_chars"], 8)
+        self.assertEqual(report["stats"]["time_range"], (1.0, 5.0))
+        self.assertEqual(report["stats"]["length_stats"]["min"], 3)
+        self.assertEqual(report["stats"]["length_stats"]["max"], 5)
+        self.assertAlmostEqual(report["stats"]["duration_stats"]["min"], 1.0)
+        self.assertAlmostEqual(report["stats"]["duration_stats"]["max"], 2.0)
+
+    def test_zero_duration_detected(self):
+        lines = [self._line(1.0, 1.0)]
+        report = analyze_quality(lines)
+        self.assertEqual(report["issues"]["zero_duration"], [0])
+
+    def test_inverted_detected(self):
+        lines = [self._line(2.0, 1.0)]
+        report = analyze_quality(lines)
+        self.assertEqual(report["issues"]["inverted"], [0])
+
+    def test_long_lines_detected(self):
+        lines = [self._line(1.0, 2.0, "a" * 201)]
+        report = analyze_quality(lines)
+        self.assertEqual(len(report["issues"]["long_lines"]), 1)
+        self.assertEqual(report["issues"]["long_lines"][0], (0, 201))
+
+    def test_short_lines_detected(self):
+        lines = [self._line(1.0, 2.0, "ab")]
+        report = analyze_quality(lines)
+        self.assertEqual(len(report["issues"]["short_lines"]), 1)
+        self.assertEqual(report["issues"]["short_lines"][0], (0, "ab"))
+
+    def test_long_duration_detected(self):
+        lines = [self._line(1.0, 62.0)]
+        report = analyze_quality(lines)
+        self.assertEqual(len(report["issues"]["long_duration"]), 1)
+
+    def test_overlaps_detected(self):
+        lines = [self._line(1.0, 3.0), self._line(2.0, 4.0)]
+        report = analyze_quality(lines)
+        self.assertEqual(report["issues"]["overlaps"], [0])
+
+    def test_large_gaps_detected(self):
+        lines = [self._line(1.0, 2.0), self._line(33.0, 34.0)]
+        report = analyze_quality(lines)
+        self.assertEqual(len(report["issues"]["large_gaps"]), 1)
+        self.assertAlmostEqual(report["issues"]["large_gaps"][0][1], 31.0)
+
+    def test_clean_lines_no_issues(self):
+        lines = [
+            self._line(1.0, 2.0, "Hello"),
+            self._line(2.5, 3.5, "World"),
+        ]
+        report = analyze_quality(lines)
+        for v in report["issues"].values():
+            self.assertEqual(len(v), 0)
 
 
 if __name__ == "__main__":
