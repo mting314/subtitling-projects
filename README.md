@@ -357,6 +357,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 ### Enhancements
 
 - **Intelligent audio chunking based on silence**: Currently audio is split into fixed ~18-minute chunks, which risks cutting mid-sentence. Instead, detect long silent portions in the audio and split at those boundaries.
+- **Template-based translation for episodic programs**: Many seiyuu radio shows and similar programs follow a weekly/episodic format with recurring structure — the same "corners" (segments) each week, similar opening/closing phrases, and set introductions (e.g., "Hello and welcome to [show name]", "This is a corner where we [do X]"). Investigate using per-program template files with these recurring phrases to assist AI translation. The template would provide consistent translations for set phrases across episodes, reducing repetitive work and improving consistency. Particularly relevant for Lieraji and similar episodic content.
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `gcp_transcribe_batch.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 
