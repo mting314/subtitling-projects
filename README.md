@@ -187,6 +187,8 @@ When accumulated text reaches `--max-line-chars` (default 50), a break is forced
 
 After the initial split, any line exceeding `--comma-split-chars` (default 40) is further split at the **comma with the longest pause after it** — the most natural breath point. This applies recursively, so both halves can be split again if still long.
 
+If no comma is found and the line still exceeds `--max-line-chars`, it falls back to splitting at the **word boundary with the longest pause** — the most natural breath point regardless of punctuation. This handles cases where Chirp 3 omits all punctuation from a long stretch of speech.
+
 ```
 Before comma splitting (69 chars):
   "また、私も恵那と同じように自分と向き合うことが怖くて逃げていましたが、
@@ -341,7 +343,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-102 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+105 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
