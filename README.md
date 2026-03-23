@@ -88,7 +88,7 @@ uv run transcribe.py \
   --ass-output "custom.ass"
 ```
 
-Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min). Video files are detected and audio is extracted (stream copy, no re-encoding).
+[Chirp 3 only supports word-level timestamps for audio up to 20 minutes](https://cloud.google.com/speech-to-text/docs/models/chirp-3). Audio longer than this is automatically split into non-overlapping chunks (default 18 min), each chunk is transcribed separately, and the transcripts are stitched back together with adjusted timestamps into a single `merged.json`. Video files are detected and audio is extracted (stream copy, no re-encoding).
 
 **Tune line splitting** (re-run `json_to_ass.py` without re-transcribing):
 
