@@ -47,7 +47,7 @@ Love Live! Superstar!! Liella! live concert content.
 | **yt-dlp** | Download source video from YouTube/Bilibili |
 | **ffmpeg** | Convert formats, trim video, extract audio, hardsub |
 | **whisper** | Generate Japanese transcript from audio (local, quick) |
-| **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
+| **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
 | **quality_report.py** | Quality analysis and reporting — `.log` (untruncated) and interactive `.html` viewer |
 | **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps) |
@@ -60,7 +60,7 @@ For longer audio or when higher accuracy is needed, a two-script pipeline handle
 
 ```
 local video/audio (or GCS URI)
-  → gcp_transcribe_batch.py (extract audio, chunk, upload, transcribe, generate ASS)
+  → transcribe.py (extract audio, chunk, upload, transcribe, generate ASS)
   → raw JSON (per-chunk + merged.json) + Transcript.ass + .log + .html
   → Aegisub (manual translation and timing)
 ```
@@ -71,18 +71,18 @@ local video/audio (or GCS URI)
 export GOOGLE_CLOUD_PROJECT=your-project-id
 
 # From a local video file (auto-extracts audio)
-uv run gcp_transcribe_batch.py --input "video.mkv"
+uv run transcribe.py --input "video.mkv"
 
 # Or from a GCS URI
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
   --transcripts-dir "raw_transcripts/"
 
 # Skip leading silence/intro (timestamps still align with original file)
-uv run gcp_transcribe_batch.py --input "video.mkv" --trim-start 120
+uv run transcribe.py --input "video.mkv" --trim-start 120
 
 # Override output paths
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "video.mkv" \
   --transcripts-dir "raw_transcripts/" \
   --ass-output "custom.ass"
@@ -262,7 +262,7 @@ export GOOGLE_CLOUD_PROJECT=your-project-id
 Run scripts with `uv run` to use the managed environment:
 
 ```bash
-uv run python3 gcp_transcribe_batch.py --input audio.opus
+uv run python3 transcribe.py --input audio.opus
 uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass  # tune splitting only
 ```
 
@@ -270,7 +270,7 @@ uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass  # tune spl
 
 ## Quality Reports
 
-Both `gcp_transcribe_batch.py` and `json_to_ass.py` automatically generate quality reports alongside the ASS output. Every run produces three files:
+Both `transcribe.py` and `json_to_ass.py` automatically generate quality reports alongside the ASS output. Every run produces three files:
 
 | Output | Description |
 |--------|-------------|
@@ -294,6 +294,10 @@ The HTML report provides a visual overview of all dialogue lines, color-coded by
 - **Click any row** to expand and see which specific issues affect it
 - **Sticky header** keeps the filters and column headers visible while scrolling
 
+> Yes I'm aware that this is basically just recreating Aegisub but worse; this was another intentional design decision as a better option to highlight issues. The original option I could think of was to print a comment line above every single flagged line in the ASS file, but that's even more cluttered and harder to read; especially since as of now there's a lot of false positives (e.g., weird lines created from BGM) that are not actually problematic.
+
+> I think this is a good start for the report idea and deserves some iteration. There should be more interactivity or visualization not provided by Aegisub. One idea is a timeline of lines across a video duration with hoverability to see issues with overlap. Another is a word cloud of the most common words in the transcript that can be fed to GCP Chirp model adaptations.
+
 ### Video Player
 
 When a source video is available, the HTML report embeds an interactive video player for reviewing flagged lines in context:
@@ -303,7 +307,7 @@ When a source video is available, the HTML report embeds an interactive video pl
 uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
 ```
 
-`gcp_transcribe_batch.py` automatically embeds the video when the input is a local file.
+`transcribe.py` automatically embeds the video when the input is a local file.
 
 - **Click any line** in the table to seek the video to that timestamp and play
 - The **selected line text** is displayed in a styled text box next to the video
@@ -341,16 +345,20 @@ uv run python -m unittest discover -s tests -v
 
 ## Major Milestones
 
-### Speaker separation for overlapping dialogue
+### Multi-speaker subtitle generation
 
-When multiple speakers talk simultaneously, Chirp 3 merges their words into a single interleaved stream, producing lines that are confusing and unreadable. This is one of the biggest quality issues with multi-speaker content like AfterTalks.
+Multi-speaker audio content (radio shows, talk streams) is common in the content we subtitle. The industry-standard format for two-speaker radio subtitles positions each speaker's dialogue on their side of the screen with character portraits and name labels — see the [Project Sekai Radio show playlist](https://www.youtube.com/watch?v=8ybnIY9JeyY&list=PL8WITjk7vmaRmv5gyjtTo3sPOV-8bMYf9) for reference.
 
-**Goal:** Separate simultaneous speakers into distinct ASS lines so each speaker's dialogue is readable independently.
+![Multi-speaker subtitle reference](docs/multi-speaker-reference.png)
+
+Currently, Chirp 3 merges all speakers into a single interleaved stream with no speaker attribution, making it impossible to assign lines to speakers automatically.
+
+**Goal:** Generate speaker-attributed ASS subtitles with per-speaker styles (left/right positioning, character names) from multi-speaker audio input.
 
 **Approach (to investigate):**
-- Determine if Chirp 3's raw output can distinguish simultaneous speakers (e.g., via speaker diarization or multiple alternatives)
-- If so, update `json_to_ass.py` to split overlapping speakers into separate ASS lines with per-speaker styles
+- Determine if Chirp 3's raw output can distinguish speakers (e.g., via speaker diarization or multiple alternatives)
 - If not, evaluate alternative STT APIs or post-processing with speaker diarization models
+- Generate ASS with per-speaker styles: left-aligned and right-aligned dialogue, speaker name labels, and optional character portraits
 
 ### Language-aware line splitting
 
@@ -372,9 +380,10 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 ### Enhancements
 
 - **Intelligent audio chunking based on silence**: Currently audio is split into fixed ~18-minute chunks, which risks cutting mid-sentence. Instead, detect long silent portions in the audio and split at those boundaries.
+- **Customizable ASS styles**: The ASS header is currently a hardcoded template with fixed styles (Default, JP). Instead, support configurable styles — e.g., per-speaker colors, font choices, positioning — via a style config file or CLI flags. This is a prerequisite for multi-speaker subtitle generation.
 - **Template-based translation for episodic programs**: Many seiyuu radio shows and similar programs follow a weekly/episodic format with recurring structure — the same "corners" (segments) each week, similar opening/closing phrases, and set introductions (e.g., "Hello and welcome to [show name]", "This is a corner where we [do X]"). Investigate using per-program template files with these recurring phrases to assist AI translation. The template would provide consistent translations for set phrases across episodes, reducing repetitive work and improving consistency. Particularly relevant for Lieraji and similar episodic content.
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
-- ~~**End-to-end pipeline orchestration**~~: Resolved — `gcp_transcribe_batch.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
+- ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 
 ## References
 

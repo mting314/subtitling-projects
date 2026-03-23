@@ -22,7 +22,7 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 | **ffmpeg** | Convert formats, trim video, extract audio, hardsub |
 | **whisper** | Generate Japanese transcript from audio (`--language Japanese`) |
 | **Aegisub** | Manual subtitle editing (ASS format) |
-| **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
+| **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
 | **quality_report.py** | Quality analysis and reporting. Generates `.log` (untruncated plain text) and `.html` (interactive viewer with color-coded issues, filter buttons, optional video player with click-to-seek). Called automatically by both scripts via `write_reports()` |
 | **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting) |
@@ -32,7 +32,7 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 
 Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync` to install, then use `uv run` to execute scripts.
 
-### gcp_transcribe_batch.py parameters
+### transcribe.py parameters
 
 | Flag | Default | Purpose |
 |------|---------|---------|
@@ -43,7 +43,7 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 ### Transcription pipeline
 
 ```
-uv run gcp_transcribe_batch.py --input local_video.mkv
+uv run transcribe.py --input local_video.mkv
 ```
 
 ASS subtitles are generated automatically. Re-run `json_to_ass.py` to tune splitting:
@@ -76,7 +76,7 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
 # Generates: output.ass, output.log, output.html (with embedded video player)
 ```
 
-`gcp_transcribe_batch.py` auto-passes the local input file as the video source.
+`transcribe.py` auto-passes the local input file as the video source.
 
 ### Key technical notes
 

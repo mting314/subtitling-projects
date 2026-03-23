@@ -35,7 +35,7 @@ Produce txt file as transcript to pick up on parts that are harder to hear or fo
 
 For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two scripts:
 
-- `gcp_transcribe_batch.py` — transcribes audio, outputs raw JSON (expensive, run once)
+- `transcribe.py` — transcribes audio, outputs raw JSON (expensive, run once)
 - `json_to_ass.py` — converts JSON to ASS subtitles (cheap, iterate freely)
 
 **Setup (one-time):**
@@ -49,7 +49,7 @@ For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two 
 
 Single command — transcribes and generates ASS automatically:
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "Project Name/video.mkv"
 ```
 
@@ -57,7 +57,7 @@ Raw JSON is saved to `Project Name/raw_transcripts/` and ASS to `Project Name/vi
 
 Override output paths:
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "Project Name/video.mkv" \
   --transcripts-dir "Project Name/raw_transcripts" \
   --ass-output "Project Name/Transcript.ass"
