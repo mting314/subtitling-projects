@@ -2,7 +2,7 @@
 """Convert GCP Speech-to-Text JSON transcripts to ASS subtitle files.
 
 Handles two input formats:
-  1. A single JSON file (merged.json or transcript.json from gcp_transcribe_batch.py)
+  1. A single JSON file (merged.json or transcript.json from transcribe.py)
   2. A directory of chunk JSON files (reads all chunk_*.json and merged.json)
 
 Splits Chirp 3's single-result-per-chunk output into subtitle-sized lines
@@ -391,7 +391,7 @@ def lines_to_ass(lines: list[dict], title: str) -> str:
 def main():
     parser = argparse.ArgumentParser(
         description="Convert GCP Speech-to-Text JSON transcripts to ASS subtitle files. "
-        "Accepts a single JSON file or a directory of chunk files from gcp_transcribe_batch.py."
+        "Accepts a single JSON file or a directory of chunk files from transcribe.py."
     )
     parser.add_argument(
         "input", help="Path to JSON transcript file or directory of chunk files"
