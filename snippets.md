@@ -46,7 +46,7 @@ Project ID is loaded from `.env` automatically. Override with `--project-id` if 
 ASS subtitles are generated automatically after transcription.
 
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "video.mkv"
 ```
 
@@ -55,7 +55,7 @@ Raw JSON transcripts are saved to `raw_transcripts/` next to the input file by d
 Override transcript directory or ASS output path:
 
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "video.mkv" \
   --transcripts-dir "custom_transcripts/" \
   --ass-output "custom_output.ass"
@@ -64,7 +64,7 @@ uv run gcp_transcribe_batch.py \
 From a GCS URI:
 
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
   --transcripts-dir "raw_transcripts/"
 ```
@@ -72,7 +72,7 @@ uv run gcp_transcribe_batch.py \
 Skip leading silence/intro (e.g., 2 minutes):
 
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input "video.mkv" \
   --trim-start 120
 ```
@@ -80,7 +80,7 @@ uv run gcp_transcribe_batch.py \
 Override project/region:
 
 ```
-uv run gcp_transcribe_batch.py \
+uv run transcribe.py \
   --input gs://bucket/file.opus \
   --project-id my-project \
   --region us-central1

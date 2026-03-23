@@ -1,9 +1,9 @@
-"""Tests for gcp_transcribe_batch.transcript_to_json and ASS integration."""
+"""Tests for transcribe.transcript_to_json and ASS integration."""
 
 import unittest
 from unittest.mock import MagicMock
 
-from gcp_transcribe_batch import transcript_to_json
+from transcribe import transcript_to_json
 from json_to_ass import (
     extract_dialogue_lines,
     snap_gaps,
