@@ -6,9 +6,14 @@ import tempfile
 import unittest
 
 from json_to_ass import (
-    seconds_to_ass, _get_word_time, _emit_line,
-    extract_dialogue_lines, load_transcript, lines_to_ass,
-    snap_gaps, enforce_min_duration,
+    seconds_to_ass,
+    _get_word_time,
+    _emit_line,
+    extract_dialogue_lines,
+    load_transcript,
+    lines_to_ass,
+    snap_gaps,
+    enforce_min_duration,
 )
 
 
@@ -71,7 +76,7 @@ class TestEmitLine(unittest.TestCase):
         """Long text with commas should split at the comma with longest pause."""
         # Create words totaling >40 chars with a comma
         word_data = [
-            ("これは長いテキストです、", 1.0, 2.0),   # 12 chars, has comma
+            ("これは長いテキストです、", 1.0, 2.0),  # 12 chars, has comma
             ("もっと長いテキストがここにあります、", 2.0, 3.0),  # 16 chars, has comma
             ("最後のテキストです。", 3.5, 4.0),  # big pause before this = 0.5s
         ]
@@ -105,10 +110,12 @@ class TestExtractDialogueLines(unittest.TestCase):
         """Helper to create a transcript result dict."""
         return {
             "languageCode": lang,
-            "alternatives": [{
-                "transcript": "".join(w["word"] for w in words),
-                "words": words,
-            }],
+            "alternatives": [
+                {
+                    "transcript": "".join(w["word"] for w in words),
+                    "words": words,
+                }
+            ],
         }
 
     def _make_word(self, text, start, end):
@@ -272,7 +279,7 @@ class TestSnapGaps(unittest.TestCase):
             self._line(1.0, 2.0),
             self._line(2.03, 3.0),  # snapped
             self._line(3.05, 4.0),  # snapped
-            self._line(5.0, 6.0),   # not snapped (1.0s gap)
+            self._line(5.0, 6.0),  # not snapped (1.0s gap)
         ]
         count = snap_gaps(lines, 0.1)
         self.assertEqual(count, 2)

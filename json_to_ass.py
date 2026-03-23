@@ -79,7 +79,10 @@ def load_transcript(input_path: str) -> list[dict]:
         # Otherwise load all chunk files in order
         chunk_files = sorted(path.glob("chunk_*.json"))
         if not chunk_files:
-            print(f"Error: no chunk_*.json or merged.json found in {path}", file=sys.stderr)
+            print(
+                f"Error: no chunk_*.json or merged.json found in {path}",
+                file=sys.stderr,
+            )
             sys.exit(1)
 
         all_results = []
@@ -110,8 +113,9 @@ def _get_word_time(word: dict, key: str, fallback: float, max_time: float) -> fl
     return val
 
 
-def _emit_line(word_data: list[tuple], style: str, comma_split_chars: int,
-               lines: list[dict]):
+def _emit_line(
+    word_data: list[tuple], style: str, comma_split_chars: int, lines: list[dict]
+):
     """Emit one or more dialogue lines from accumulated word data.
 
     If the text exceeds comma_split_chars and contains commas, splits at the
@@ -128,12 +132,14 @@ def _emit_line(word_data: list[tuple], style: str, comma_split_chars: int,
 
     # If short enough or comma splitting disabled, emit as-is
     if comma_split_chars <= 0 or len(text) < comma_split_chars:
-        lines.append({
-            "start": word_data[0][1],
-            "end": word_data[-1][2],
-            "style": style,
-            "text": text,
-        })
+        lines.append(
+            {
+                "start": word_data[0][1],
+                "end": word_data[-1][2],
+                "style": style,
+                "text": text,
+            }
+        )
         return
 
     # Find the best comma to split at: the one with the longest pause,
@@ -161,25 +167,29 @@ def _emit_line(word_data: list[tuple], style: str, comma_split_chars: int,
 
     if best_idx < 0:
         # No suitable comma found, emit as-is
-        lines.append({
-            "start": word_data[0][1],
-            "end": word_data[-1][2],
-            "style": style,
-            "text": text,
-        })
+        lines.append(
+            {
+                "start": word_data[0][1],
+                "end": word_data[-1][2],
+                "style": style,
+                "text": text,
+            }
+        )
         return
 
     # Split at best comma and recurse on both halves
-    first_half = word_data[:best_idx + 1]
-    second_half = word_data[best_idx + 1:]
+    first_half = word_data[: best_idx + 1]
+    second_half = word_data[best_idx + 1 :]
     _emit_line(first_half, style, comma_split_chars, lines)
     _emit_line(second_half, style, comma_split_chars, lines)
 
 
-def extract_dialogue_lines(results: list[dict],
-                           pause_threshold: float = DEFAULT_PAUSE_THRESHOLD,
-                           max_line_chars: int = DEFAULT_MAX_LINE_CHARS,
-                           comma_split_chars: int = DEFAULT_COMMA_SPLIT_CHARS) -> list[dict]:
+def extract_dialogue_lines(
+    results: list[dict],
+    pause_threshold: float = DEFAULT_PAUSE_THRESHOLD,
+    max_line_chars: int = DEFAULT_MAX_LINE_CHARS,
+    comma_split_chars: int = DEFAULT_COMMA_SPLIT_CHARS,
+) -> list[dict]:
     """Extract dialogue lines from transcript results using word-level timestamps.
 
     Chirp 3 often returns a single result containing all text for a chunk.
@@ -226,7 +236,9 @@ def extract_dialogue_lines(results: list[dict],
         last_valid_time = 0.0
 
         for word in words:
-            w_start = _get_word_time(word, "startOffset", last_valid_time, max_valid_time)
+            w_start = _get_word_time(
+                word, "startOffset", last_valid_time, max_valid_time
+            )
             w_end = _get_word_time(word, "endOffset", w_start, max_valid_time)
             if w_end < w_start:
                 w_end = w_start
@@ -235,7 +247,11 @@ def extract_dialogue_lines(results: list[dict],
             word_text = word.get("word", "")
             if word_text.strip() in PUNCTUATION_ONLY and processed:
                 prev_text, prev_start, prev_end = processed[-1]
-                processed[-1] = (prev_text + word_text, prev_start, max(prev_end, w_end))
+                processed[-1] = (
+                    prev_text + word_text,
+                    prev_start,
+                    max(prev_end, w_end),
+                )
                 continue
 
             processed.append((word_text, w_start, w_end))
@@ -347,27 +363,29 @@ def lines_to_ass(lines: list[dict], title: str) -> str:
 def print_quality_report(lines: list[dict]):
     """Print ASS file stats and quality warnings."""
     if not lines:
-        print(f"  Dialogue lines: 0")
-        print(f"\n  WARNING: No dialogue lines generated!")
+        print("  Dialogue lines: 0")
+        print("\n  WARNING: No dialogue lines generated!")
         return
 
     text_lengths = [len(line["text"]) for line in lines]
     durations = [line["end"] - line["start"] for line in lines]
     total_chars = sum(text_lengths)
 
-    print(f"\n  --- ASS File Stats ---")
+    print("\n  --- ASS File Stats ---")
     print(f"  Dialogue lines:  {len(lines)}")
     print(f"  Total characters: {total_chars}")
-    print(f"  Time range:      {seconds_to_ass(lines[0]['start'])} - "
-          f"{seconds_to_ass(lines[-1]['end'])}")
+    print(
+        f"  Time range:      {seconds_to_ass(lines[0]['start'])} - "
+        f"{seconds_to_ass(lines[-1]['end'])}"
+    )
 
-    print(f"\n  --- Line Length (characters) ---")
+    print("\n  --- Line Length (characters) ---")
     print(f"  Min:     {min(text_lengths)}")
     print(f"  Max:     {max(text_lengths)}")
     print(f"  Mean:    {total_chars / len(lines):.1f}")
     print(f"  Median:  {sorted(text_lengths)[len(text_lengths) // 2]}")
 
-    print(f"\n  --- Line Duration (seconds) ---")
+    print("\n  --- Line Duration (seconds) ---")
     print(f"  Min:     {min(durations):.2f}s")
     print(f"  Max:     {max(durations):.2f}s")
     print(f"  Mean:    {sum(durations) / len(durations):.2f}s")
@@ -377,80 +395,106 @@ def print_quality_report(lines: list[dict]):
 
     zero_dur = [i for i, d in enumerate(durations) if d <= 0]
     if zero_dur:
-        issues.append(f"  - {len(zero_dur)} line(s) with zero or negative duration "
-                      f"(likely bogus timestamps)")
+        issues.append(
+            f"  - {len(zero_dur)} line(s) with zero or negative duration "
+            f"(likely bogus timestamps)"
+        )
         for idx in zero_dur[:5]:
             line = lines[idx]
-            issues.append(f"      line {idx+1}: {seconds_to_ass(line['start'])} -> "
-                          f"{seconds_to_ass(line['end'])}  \"{line['text'][:50]}\"")
+            issues.append(
+                f"      line {idx + 1}: {seconds_to_ass(line['start'])} -> "
+                f'{seconds_to_ass(line["end"])}  "{line["text"][:50]}"'
+            )
         if len(zero_dur) > 5:
             issues.append(f"      ... and {len(zero_dur) - 5} more")
 
-    long_lines = [(i, l) for i, l in enumerate(text_lengths) if l > 200]
+    long_lines = [(i, length) for i, length in enumerate(text_lengths) if length > 200]
     if long_lines:
-        issues.append(f"  - {len(long_lines)} line(s) over 200 characters "
-                      f"(may need manual splitting in Aegisub)")
+        issues.append(
+            f"  - {len(long_lines)} line(s) over 200 characters "
+            f"(may need manual splitting in Aegisub)"
+        )
         for idx, length in long_lines[:3]:
-            issues.append(f"      line {idx+1}: {length} chars")
+            issues.append(f"      line {idx + 1}: {length} chars")
         if len(long_lines) > 3:
             issues.append(f"      ... and {len(long_lines) - 3} more")
 
-    short_lines = [(i, lines[i]["text"]) for i, l in enumerate(text_lengths) if l < 3]
+    short_lines = [
+        (i, lines[i]["text"]) for i, length in enumerate(text_lengths) if length < 3
+    ]
     if short_lines:
-        issues.append(f"  - {len(short_lines)} line(s) under 3 characters "
-                      f"(likely noise or artifacts)")
+        issues.append(
+            f"  - {len(short_lines)} line(s) under 3 characters "
+            f"(likely noise or artifacts)"
+        )
         for idx, text in short_lines[:5]:
-            issues.append(f"      line {idx+1}: \"{text}\"")
+            issues.append(f'      line {idx + 1}: "{text}"')
         if len(short_lines) > 5:
             issues.append(f"      ... and {len(short_lines) - 5} more")
 
     long_dur = [(i, d) for i, d in enumerate(durations) if d > 60]
     if long_dur:
-        issues.append(f"  - {len(long_dur)} line(s) spanning over 60 seconds "
-                      f"(likely timestamp gaps from API)")
+        issues.append(
+            f"  - {len(long_dur)} line(s) spanning over 60 seconds "
+            f"(likely timestamp gaps from API)"
+        )
         for idx, dur in long_dur[:3]:
             line = lines[idx]
-            issues.append(f"      line {idx+1}: {dur:.1f}s  "
-                          f"{seconds_to_ass(line['start'])} -> {seconds_to_ass(line['end'])}")
+            issues.append(
+                f"      line {idx + 1}: {dur:.1f}s  "
+                f"{seconds_to_ass(line['start'])} -> {seconds_to_ass(line['end'])}"
+            )
         if len(long_dur) > 3:
             issues.append(f"      ... and {len(long_dur) - 3} more")
 
     inverted = [i for i, d in enumerate(durations) if d < 0]
     if inverted:
-        issues.append(f"  - {len(inverted)} line(s) with end time before start time "
-                      f"(bogus timestamps)")
+        issues.append(
+            f"  - {len(inverted)} line(s) with end time before start time "
+            f"(bogus timestamps)"
+        )
         for idx in inverted[:3]:
             line = lines[idx]
-            issues.append(f"      line {idx+1}: {seconds_to_ass(line['start'])} -> "
-                          f"{seconds_to_ass(line['end'])}")
+            issues.append(
+                f"      line {idx + 1}: {seconds_to_ass(line['start'])} -> "
+                f"{seconds_to_ass(line['end'])}"
+            )
         if len(inverted) > 3:
             issues.append(f"      ... and {len(inverted) - 3} more")
 
     overlaps = []
     for i in range(len(lines) - 1):
-        if lines[i+1]["start"] < lines[i]["end"] - 0.1:
+        if lines[i + 1]["start"] < lines[i]["end"] - 0.1:
             overlaps.append(i)
     if overlaps:
-        issues.append(f"  - {len(overlaps)} pair(s) of overlapping lines "
-                      f"(next line starts before current ends)")
+        issues.append(
+            f"  - {len(overlaps)} pair(s) of overlapping lines "
+            f"(next line starts before current ends)"
+        )
         for idx in overlaps[:3]:
-            issues.append(f"      lines {idx+1}-{idx+2}: "
-                          f"end={seconds_to_ass(lines[idx]['end'])} > "
-                          f"start={seconds_to_ass(lines[idx+1]['start'])}")
+            issues.append(
+                f"      lines {idx + 1}-{idx + 2}: "
+                f"end={seconds_to_ass(lines[idx]['end'])} > "
+                f"start={seconds_to_ass(lines[idx + 1]['start'])}"
+            )
         if len(overlaps) > 3:
             issues.append(f"      ... and {len(overlaps) - 3} more")
 
     gaps = []
     for i in range(len(lines) - 1):
-        gap = lines[i+1]["start"] - lines[i]["end"]
+        gap = lines[i + 1]["start"] - lines[i]["end"]
         if gap > 30:
             gaps.append((i, gap))
     if gaps:
-        issues.append(f"  - {len(gaps)} gap(s) over 30 seconds between lines "
-                      f"(silence, music, or missed speech)")
+        issues.append(
+            f"  - {len(gaps)} gap(s) over 30 seconds between lines "
+            f"(silence, music, or missed speech)"
+        )
         for idx, gap in gaps[:3]:
-            issues.append(f"      between lines {idx+1}-{idx+2}: "
-                          f"{gap:.1f}s gap at {seconds_to_ass(lines[idx]['end'])}")
+            issues.append(
+                f"      between lines {idx + 1}-{idx + 2}: "
+                f"{gap:.1f}s gap at {seconds_to_ass(lines[idx]['end'])}"
+            )
         if len(gaps) > 3:
             issues.append(f"      ... and {len(gaps) - 3} more")
 
@@ -459,30 +503,51 @@ def print_quality_report(lines: list[dict]):
         for issue in issues:
             print(issue)
     else:
-        print(f"\n  --- Quality: No issues detected ---")
+        print("\n  --- Quality: No issues detected ---")
 
 
 def main():
     parser = argparse.ArgumentParser(
         description="Convert GCP Speech-to-Text JSON transcripts to ASS subtitle files. "
-                    "Accepts a single JSON file or a directory of chunk files from gcp_transcribe_batch.py."
+        "Accepts a single JSON file or a directory of chunk files from gcp_transcribe_batch.py."
     )
-    parser.add_argument("input",
-                        help="Path to JSON transcript file or directory of chunk files")
-    parser.add_argument("output",
-                        help="Output path for ASS subtitle file")
-    parser.add_argument("--title", default=None,
-                        help="ASS file title (defaults to output filename)")
-    parser.add_argument("--pause-threshold", type=float, default=DEFAULT_PAUSE_THRESHOLD,
-                        help=f"Seconds of silence to force a line break (default: {DEFAULT_PAUSE_THRESHOLD})")
-    parser.add_argument("--max-line-chars", type=int, default=DEFAULT_MAX_LINE_CHARS,
-                        help=f"Max characters per line before forcing a break (default: {DEFAULT_MAX_LINE_CHARS})")
-    parser.add_argument("--comma-split-chars", type=int, default=DEFAULT_COMMA_SPLIT_CHARS,
-                        help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})")
-    parser.add_argument("--snap-gap", type=float, default=DEFAULT_SNAP_GAP,
-                        help=f"Snap gaps smaller than this (seconds) between same-style lines. 0 to disable (default: {DEFAULT_SNAP_GAP})")
-    parser.add_argument("--min-duration", type=float, default=DEFAULT_MIN_DURATION,
-                        help=f"Minimum line duration in seconds. Short lines get lead-in/lead-out. 0 to disable (default: {DEFAULT_MIN_DURATION})")
+    parser.add_argument(
+        "input", help="Path to JSON transcript file or directory of chunk files"
+    )
+    parser.add_argument("output", help="Output path for ASS subtitle file")
+    parser.add_argument(
+        "--title", default=None, help="ASS file title (defaults to output filename)"
+    )
+    parser.add_argument(
+        "--pause-threshold",
+        type=float,
+        default=DEFAULT_PAUSE_THRESHOLD,
+        help=f"Seconds of silence to force a line break (default: {DEFAULT_PAUSE_THRESHOLD})",
+    )
+    parser.add_argument(
+        "--max-line-chars",
+        type=int,
+        default=DEFAULT_MAX_LINE_CHARS,
+        help=f"Max characters per line before forcing a break (default: {DEFAULT_MAX_LINE_CHARS})",
+    )
+    parser.add_argument(
+        "--comma-split-chars",
+        type=int,
+        default=DEFAULT_COMMA_SPLIT_CHARS,
+        help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})",
+    )
+    parser.add_argument(
+        "--snap-gap",
+        type=float,
+        default=DEFAULT_SNAP_GAP,
+        help=f"Snap gaps smaller than this (seconds) between same-style lines. 0 to disable (default: {DEFAULT_SNAP_GAP})",
+    )
+    parser.add_argument(
+        "--min-duration",
+        type=float,
+        default=DEFAULT_MIN_DURATION,
+        help=f"Minimum line duration in seconds. Short lines get lead-in/lead-out. 0 to disable (default: {DEFAULT_MIN_DURATION})",
+    )
 
     args = parser.parse_args()
 
@@ -491,19 +556,27 @@ def main():
     # Load transcript
     print(f"Loading transcript from: {args.input}")
     results = load_transcript(args.input)
-    total_words = sum(len(r["alternatives"][0].get("words", [])) for r in results if r.get("alternatives"))
+    total_words = sum(
+        len(r["alternatives"][0].get("words", []))
+        for r in results
+        if r.get("alternatives")
+    )
     print(f"  {len(results)} result(s), {total_words} total words")
 
     # Extract dialogue lines
-    print(f"\nSplitting into dialogue lines...")
+    print("\nSplitting into dialogue lines...")
     print(f"  Pause threshold:    {args.pause_threshold}s")
     print(f"  Max line chars:     {args.max_line_chars}")
-    print(f"  Comma split chars:  {args.comma_split_chars}" +
-          (" (disabled)" if args.comma_split_chars <= 0 else ""))
-    lines = extract_dialogue_lines(results,
-                                   pause_threshold=args.pause_threshold,
-                                   max_line_chars=args.max_line_chars,
-                                   comma_split_chars=args.comma_split_chars)
+    print(
+        f"  Comma split chars:  {args.comma_split_chars}"
+        + (" (disabled)" if args.comma_split_chars <= 0 else "")
+    )
+    lines = extract_dialogue_lines(
+        results,
+        pause_threshold=args.pause_threshold,
+        max_line_chars=args.max_line_chars,
+        comma_split_chars=args.comma_split_chars,
+    )
 
     # Sort by start time
     lines.sort(key=lambda x: x["start"])
@@ -516,7 +589,9 @@ def main():
     # Enforce minimum line duration
     if args.min_duration > 0:
         extended = enforce_min_duration(lines, args.min_duration)
-        print(f"  Extended {extended} line(s) to meet {args.min_duration}s minimum duration")
+        print(
+            f"  Extended {extended} line(s) to meet {args.min_duration}s minimum duration"
+        )
 
     # Generate ASS
     ass_content = lines_to_ass(lines, title)

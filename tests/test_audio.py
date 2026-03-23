@@ -3,7 +3,13 @@
 import unittest
 from unittest.mock import patch, MagicMock
 
-from utils.audio import has_video_stream, get_audio_duration, extract_audio, trim_audio, split_audio
+from utils.audio import (
+    has_video_stream,
+    get_audio_duration,
+    extract_audio,
+    trim_audio,
+    split_audio,
+)
 
 
 class TestHasVideoStream(unittest.TestCase):
