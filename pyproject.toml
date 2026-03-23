@@ -8,3 +8,8 @@ dependencies = [
     "google-cloud-storage>=2.18",
     "python-dotenv>=1.2.2",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.7",
+]
