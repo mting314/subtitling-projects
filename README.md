@@ -179,9 +179,9 @@ Line 13  [622.08s → 622.68s]  "あの"
 Line 14  [624.04s → 632.80s]  "進学とか進路とか決めなきゃいけない時期のこと..."
 ```
 
-#### 3. Max character limit (200 chars)
+#### 3. Max character limit (50 chars)
 
-When accumulated text reaches `--max-line-chars` (default 200), a break is forced regardless of punctuation or pauses. This is a safety net for cases where Chirp 3 omits all punctuation.
+When accumulated text reaches `--max-line-chars` (default 50), a break is forced regardless of punctuation or pauses. This is a safety net for cases where Chirp 3 omits all punctuation.
 
 #### 4. Smart comma splitting (recursive)
 
@@ -232,7 +232,7 @@ After:   Line 5 [...→ 595.48s]    Line 6 [595.48s →...]     seamless
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `--pause-threshold` | 1.0s | Silence duration that always forces a line break |
-| `--max-line-chars` | 200 | Hard character limit per line |
+| `--max-line-chars` | 50 | Hard character limit per line |
 | `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. Set to 0 to disable |
 | `--lead-in` | 0.125 | Lead-in padding in seconds (subtitle appears before speech). Set to 0 to disable |
 | `--lead-out` | 0.5 | Lead-out padding in seconds (subtitle lingers after speech). Set to 0 to disable |

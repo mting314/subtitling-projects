@@ -57,7 +57,7 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass
 | Flag | Default | Purpose |
 |------|---------|---------|
 | `--pause-threshold` | 1.0s | Silence duration that always forces a line break |
-| `--max-line-chars` | 200 | Hard character limit per line |
+| `--max-line-chars` | 50 | Hard character limit per line |
 | `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. 0 to disable |
 | `--lead-in` | 0.125 | Lead-in padding in seconds (subtitle appears before speech). Always applies full amount; previous line's lead-out yields. 0 to disable |
 | `--lead-out` | 0.5 | Lead-out padding in seconds (subtitle lingers after speech). Capped at next line's (shifted) start. 0 to disable |
