@@ -96,7 +96,9 @@ Audio longer than 20 minutes is automatically split into non-overlapping chunks 
 python3 json_to_ass.py raw_transcripts/merged.json output.ass \
   --pause-threshold 0.5 \
   --max-line-chars 100 \
-  --comma-split-chars 30
+  --comma-split-chars 30 \
+  --lead-in 0.125 \
+  --lead-out 0.5
 ```
 
 ### How Line Splitting Works
@@ -203,7 +205,9 @@ The minimum first-part length is half the threshold (20 chars by default) to avo
 
 #### Post-processing
 
-After splitting, two post-processing passes clean up timing:
+After splitting, three post-processing passes clean up timing:
+
+**Lead-in/lead-out** (`--lead-in` 0.125s, `--lead-out` 0.5s): Per fansubbing best practices ([Doki Timing Guide](https://yukisubs.wordpress.com/wp-content/uploads/2016/10/doki_timing_guide.pdf)), subtitles should appear slightly before the speaker starts talking and linger slightly after they finish. This gives the viewer time to register the subtitle. Each line's start is extended earlier by the lead-in value and end is extended later by the lead-out value, capped at neighboring lines to prevent overlap.
 
 **Gap snapping** (`--snap-gap`, default 0.25s): When two consecutive same-style lines have a tiny gap between them (e.g., 0.16s), the gap causes a visible "flash" in the subtitle display. The earlier line's end time is extended to meet the next line's start:
 
@@ -221,6 +225,8 @@ After:   Line 5 [...→ 595.48s]    Line 6 [595.48s →...]     seamless
 | `--pause-threshold` | 1.0s | Silence duration that always forces a line break |
 | `--max-line-chars` | 200 | Hard character limit per line |
 | `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. Set to 0 to disable |
+| `--lead-in` | 0.125 | Lead-in padding in seconds (subtitle appears before speech). Set to 0 to disable |
+| `--lead-out` | 0.5 | Lead-out padding in seconds (subtitle lingers after speech). Set to 0 to disable |
 | `--snap-gap` | 0.25 | Snap gaps smaller than this (seconds) between same-style lines to prevent flashing. Set to 0 to disable |
 | `--min-duration` | 0.5 | Minimum line duration in seconds. Short lines get lead-out/lead-in padding. Set to 0 to disable |
 | `--video` | None | Path to source video file. Embeds a player in the HTML report for click-to-seek |
@@ -322,7 +328,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-92 tests covering timestamp parsing, bogus value clamping, line splitting, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+102 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
