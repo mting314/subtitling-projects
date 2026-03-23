@@ -47,19 +47,21 @@ For longer or higher-quality transcription, use GCP Speech-to-Text Chirp 3. Two 
 
 **Usage:**
 
-1. Transcribe to JSON (auto-extracts audio from video, uploads to GCS, chunks if needed):
-   ```
-   uv run gcp_transcribe_batch.py \
-     --input "Project Name/video.mkv" \
-     --output "Project Name/raw_transcripts"
-   ```
-2. Convert JSON to ASS:
-   ```
-   uv run json_to_ass.py \
-     "Project Name/raw_transcripts/merged.json" \
-     "Project Name/Transcript.ass" \
-     --title "Project Transcript"
-   ```
+Single command — transcribes and generates ASS automatically:
+```
+uv run gcp_transcribe_batch.py \
+  --input "Project Name/video.mkv"
+```
+
+Raw JSON is saved to `Project Name/raw_transcripts/` and ASS to `Project Name/video.ass` by default.
+
+Override output paths:
+```
+uv run gcp_transcribe_batch.py \
+  --input "Project Name/video.mkv" \
+  --transcripts-dir "Project Name/raw_transcripts" \
+  --ass-output "Project Name/Transcript.ass"
+```
 
 Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min), transcribed separately, and merged. Use `--chunk-minutes` to adjust chunk size.
 

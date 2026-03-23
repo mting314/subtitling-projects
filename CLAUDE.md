@@ -35,12 +35,19 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 
 | Flag | Default | Purpose |
 |------|---------|---------|
+| `--transcripts-dir` | `raw_transcripts/` next to input | Output directory for raw JSON transcript files (optional) |
+| `--ass-output` | Input filename with `.ass` extension | Override ASS output filename (optional) |
 | `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
 
 ### Transcription pipeline
 
 ```
-uv run gcp_transcribe_batch.py --input local_video.mkv --output raw_transcripts/
+uv run gcp_transcribe_batch.py --input local_video.mkv
+```
+
+ASS subtitles are generated automatically. Re-run `json_to_ass.py` to tune splitting:
+
+```
 uv run json_to_ass.py raw_transcripts/merged.json output.ass
 ```
 

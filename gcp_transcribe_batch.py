@@ -4,7 +4,8 @@
 Handles audio longer than the 20-minute word-timestamp limit by splitting into chunks,
 transcribing each via BatchRecognize, and saving raw JSON transcripts.
 
-Use json_to_ass.py to convert the output JSON into ASS subtitle files.
+Automatically generates an ASS subtitle file after transcription. Re-run json_to_ass.py
+separately to tune splitting parameters without re-transcribing.
 """
 
 import argparse
@@ -27,6 +28,10 @@ from utils.gcs import (
     is_gcs_uri, parse_gcs_uri, download_from_gcs, upload_to_gcs, delete_gcs_blobs,
 )
 from utils.time import parse_offset, seconds_to_timestamp
+from json_to_ass import (
+    extract_dialogue_lines, lines_to_ass, print_quality_report,
+    DEFAULT_PAUSE_THRESHOLD, DEFAULT_MAX_LINE_CHARS, DEFAULT_COMMA_SPLIT_CHARS,
+)
 
 
 DEFAULT_REGION = "us"
@@ -128,15 +133,17 @@ def transcript_to_json(transcript, time_offset: float = 0.0,
 def main():
     load_dotenv()
     parser = argparse.ArgumentParser(
-        description="Transcribe audio using GCP Speech-to-Text (Chirp 3) and save raw JSON. "
+        description="Transcribe audio using GCP Speech-to-Text (Chirp 3) and generate ASS subtitles. "
                     "Accepts a local audio/video file or a GCS URI (gs://...). "
                     "Automatically splits audio longer than 20 minutes into chunks. "
-                    "Use json_to_ass.py to convert output to ASS subtitles."
+                    "Raw JSON transcripts are saved for re-running json_to_ass.py with different parameters."
     )
     parser.add_argument("--input", required=True,
                         help="Local audio/video file or GCS URI (gs://bucket/path/file.opus)")
-    parser.add_argument("--output", required=True,
-                        help="Output directory for JSON transcript files")
+    parser.add_argument("--transcripts-dir", default=None,
+                        help="Output directory for raw JSON transcript files (default: raw_transcripts/ next to input file)")
+    parser.add_argument("--ass-output", default=None,
+                        help="Override ASS output filename (default: input filename with .ass extension)")
     parser.add_argument("--project-id", default=None,
                         help="GCP project ID (default: $GOOGLE_CLOUD_PROJECT)")
     parser.add_argument("--region", default=DEFAULT_REGION,
@@ -156,17 +163,32 @@ def main():
     chunk_seconds = args.chunk_minutes * 60
     trim_offset = args.trim_start
 
-    output_dir = Path(args.output)
-    output_dir.mkdir(parents=True, exist_ok=True)
-
     input_is_gcs = is_gcs_uri(args.input)
     input_label = "(GCS)" if input_is_gcs else "(local)"
+
+    # Derive transcripts directory
+    if args.transcripts_dir:
+        transcripts_dir = Path(args.transcripts_dir)
+    elif input_is_gcs:
+        transcripts_dir = Path("raw_transcripts")
+    else:
+        transcripts_dir = Path(args.input).parent / "raw_transcripts"
+    transcripts_dir.mkdir(parents=True, exist_ok=True)
+
+    # Derive ASS output path
+    if args.ass_output:
+        ass_output = Path(args.ass_output)
+    elif input_is_gcs:
+        ass_output = transcripts_dir / (Path(args.input).stem + ".ass")
+    else:
+        ass_output = Path(args.input).with_suffix(".ass")
 
     print(f"\n{'='*60}")
     print(f"GCP Chirp 3 Batch Transcription")
     print(f"{'='*60}")
     print(f"  Input:      {args.input} {input_label}")
-    print(f"  Output:     {output_dir}")
+    print(f"  Transcripts: {transcripts_dir}")
+    print(f"  ASS output: {ass_output}")
     print(f"  Project:    {project_id}")
     print(f"  Region:     {args.region}")
     print(f"  Chunk size: {args.chunk_minutes} min")
@@ -255,7 +277,7 @@ def main():
                 raw_data = transcript_to_json(transcript, time_offset=trim_offset,
                                                 chunk_duration=duration)
                 all_raw_results.extend(raw_data)
-                chunk_path = output_dir / "transcript.json"
+                chunk_path = transcripts_dir / "transcript.json"
                 chunk_path.write_text(json.dumps({"results": raw_data}, indent=2, ensure_ascii=False),
                                       encoding="utf-8")
                 print(f"  Saved to {chunk_path}")
@@ -313,7 +335,7 @@ def main():
                     raw_data = transcript_to_json(transcript, time_offset=chunk_start + trim_offset,
                                                     chunk_duration=chunk_dur)
                     all_raw_results.extend(raw_data)
-                    raw_path = output_dir / f"chunk_{i:03d}.json"
+                    raw_path = transcripts_dir / f"chunk_{i:03d}.json"
                     chunk_meta = {"results": raw_data, "chunk_start": chunk_start,
                                     "chunk_duration": chunk_dur}
                     if trim_offset > 0:
@@ -330,7 +352,7 @@ def main():
                     print(f"  Warning: failed to clean up some GCS files: {e}")
 
     # Save merged transcript
-    merged_path = output_dir / "merged.json"
+    merged_path = transcripts_dir / "merged.json"
     merged_data = {"results": all_raw_results}
     if trim_offset > 0:
         merged_data["trim_offset"] = trim_offset
@@ -343,12 +365,25 @@ def main():
     print(f"\n{'='*60}")
     print(f"Transcription complete!")
     print(f"{'='*60}")
-    print(f"  Output directory: {output_dir}")
+    print(f"  Transcripts dir:   {transcripts_dir}")
     print(f"  Merged transcript: {merged_path}")
     print(f"  Total results:     {len(all_raw_results)}")
     print(f"  Total words:       {total_words}")
-    print(f"\nNext step: convert to ASS subtitles with:")
-    print(f"  python3 json_to_ass.py {merged_path} output.ass")
+
+    # Generate ASS subtitle file
+    print(f"\n[4/4] Generating ASS subtitles...")
+    title = ass_output.stem
+    lines = extract_dialogue_lines(all_raw_results,
+                                   pause_threshold=DEFAULT_PAUSE_THRESHOLD,
+                                   max_line_chars=DEFAULT_MAX_LINE_CHARS,
+                                   comma_split_chars=DEFAULT_COMMA_SPLIT_CHARS)
+    lines.sort(key=lambda x: x["start"])
+    ass_content = lines_to_ass(lines, title)
+    ass_output.parent.mkdir(parents=True, exist_ok=True)
+    ass_output.write_text(ass_content, encoding="utf-8")
+    print(f"  Generated: {ass_output}")
+    print_quality_report(lines)
+    print(f"\nTune splitting: uv run json_to_ass.py {merged_path} {ass_output}")
 
 
 if __name__ == "__main__":
