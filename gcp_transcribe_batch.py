@@ -38,12 +38,15 @@ from utils.gcs import (
 from utils.time import parse_offset, seconds_to_timestamp
 from json_to_ass import (
     extract_dialogue_lines,
+    pad_timing,
     snap_gaps,
     enforce_min_duration,
     lines_to_ass,
     DEFAULT_PAUSE_THRESHOLD,
     DEFAULT_MAX_LINE_CHARS,
     DEFAULT_COMMA_SPLIT_CHARS,
+    DEFAULT_LEAD_IN,
+    DEFAULT_LEAD_OUT,
     DEFAULT_SNAP_GAP,
     DEFAULT_MIN_DURATION,
 )
@@ -469,6 +472,10 @@ def main():
         comma_split_chars=DEFAULT_COMMA_SPLIT_CHARS,
     )
     lines.sort(key=lambda x: x["start"])
+    padded = pad_timing(lines, DEFAULT_LEAD_IN, DEFAULT_LEAD_OUT)
+    print(
+        f"  Padded {padded} line(s) (lead-in: {DEFAULT_LEAD_IN}s, lead-out: {DEFAULT_LEAD_OUT}s)"
+    )
     snapped = snap_gaps(lines, DEFAULT_SNAP_GAP)
     print(f"  Snapped {snapped} gap(s) under {DEFAULT_SNAP_GAP}s")
     extended = enforce_min_duration(lines, DEFAULT_MIN_DURATION)
