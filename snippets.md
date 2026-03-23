@@ -40,14 +40,25 @@ whisper input.mp4 --output_format txt --task transcribe --language Japanese
 ffmpeg -i input.mkv -vn -acodec copy output.mp3
 ```
 
-## GCP Chirp 3 batch transcription (step 1: transcribe to JSON)
+## GCP Chirp 3 batch transcription (transcribe + generate ASS)
 
 Project ID is loaded from `.env` automatically. Override with `--project-id` if needed.
+ASS subtitles are generated automatically after transcription.
+
+```
+uv run gcp_transcribe_batch.py \
+  --input "video.mkv"
+```
+
+Raw JSON transcripts are saved to `raw_transcripts/` next to the input file by default.
+
+Override transcript directory or ASS output path:
 
 ```
 uv run gcp_transcribe_batch.py \
   --input "video.mkv" \
-  --output "raw_transcripts/"
+  --transcripts-dir "custom_transcripts/" \
+  --ass-output "custom_output.ass"
 ```
 
 From a GCS URI:
@@ -55,7 +66,7 @@ From a GCS URI:
 ```
 uv run gcp_transcribe_batch.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
-  --output "raw_transcripts/"
+  --transcripts-dir "raw_transcripts/"
 ```
 
 Skip leading silence/intro (e.g., 2 minutes):
@@ -63,7 +74,6 @@ Skip leading silence/intro (e.g., 2 minutes):
 ```
 uv run gcp_transcribe_batch.py \
   --input "video.mkv" \
-  --output "raw_transcripts/" \
   --trim-start 120
 ```
 
@@ -72,18 +82,15 @@ Override project/region:
 ```
 uv run gcp_transcribe_batch.py \
   --input gs://bucket/file.opus \
-  --output raw_transcripts/ \
   --project-id my-project \
   --region us-central1
 ```
 
-## Convert transcript JSON to ASS (step 2: generate subtitles)
+## Tune ASS line splitting (re-run without re-transcribing)
 
 ```
 uv run json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
 ```
-
-Tune line splitting (re-run without re-transcribing):
 
 ```
 uv run json_to_ass.py raw_transcripts/merged.json output.ass --pause-threshold 0.5 --max-line-chars 100

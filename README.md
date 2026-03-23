@@ -57,47 +57,39 @@ For longer audio or when higher accuracy is needed, a two-script pipeline handle
 
 ```
 local video/audio (or GCS URI)
-  → gcp_transcribe_batch.py (extract audio, chunk, upload, transcribe)
-  → raw JSON (per-chunk + merged.json)
-  → json_to_ass.py (word-level splitting, ASS generation)
-  → Transcript.ass
+  → gcp_transcribe_batch.py (extract audio, chunk, upload, transcribe, generate ASS)
+  → raw JSON (per-chunk + merged.json) + Transcript.ass
   → Aegisub (manual translation and timing)
 ```
 
-**Step 1: Transcribe**
+**Transcribe + generate ASS (single command)**
 
 ```bash
 export GOOGLE_CLOUD_PROJECT=your-project-id
 
 # From a local video file (auto-extracts audio)
-uv run gcp_transcribe_batch.py \
-  --input "video.mkv" \
-  --output "raw_transcripts/"
+uv run gcp_transcribe_batch.py --input "video.mkv"
 
 # Or from a GCS URI
 uv run gcp_transcribe_batch.py \
   --input "gs://subtitling-projects/audio-files/audio.opus" \
-  --output "raw_transcripts/"
+  --transcripts-dir "raw_transcripts/"
 
 # Skip leading silence/intro (timestamps still align with original file)
+uv run gcp_transcribe_batch.py --input "video.mkv" --trim-start 120
+
+# Override output paths
 uv run gcp_transcribe_batch.py \
   --input "video.mkv" \
-  --output "raw_transcripts/" \
-  --trim-start 120
+  --transcripts-dir "raw_transcripts/" \
+  --ass-output "custom.ass"
 ```
 
 Audio longer than 20 minutes is automatically split into non-overlapping chunks (default 18 min). Video files are detected and audio is extracted (stream copy, no re-encoding).
 
-**Step 2: Generate ASS**
+**Tune line splitting** (re-run `json_to_ass.py` without re-transcribing):
 
 ```bash
-python3 json_to_ass.py raw_transcripts/merged.json output.ass --title "My Transcript"
-```
-
-Re-run with different parameters without re-transcribing:
-
-```bash
-# Shorter lines, more aggressive splitting
 python3 json_to_ass.py raw_transcripts/merged.json output.ass \
   --pause-threshold 0.5 \
   --max-line-chars 100 \
@@ -134,8 +126,8 @@ export GOOGLE_CLOUD_PROJECT=your-project-id
 Run scripts with `uv run` to use the managed environment:
 
 ```bash
-uv run python3 gcp_transcribe_batch.py --input audio.opus --output raw_transcripts/
-uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass
+uv run python3 gcp_transcribe_batch.py --input audio.opus
+uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass  # tune splitting only
 ```
 
 `json_to_ass.py` has no external dependencies and can also be run directly with any Python 3.11+.
@@ -158,7 +150,7 @@ See `style_guide.md` for full rules. Key points:
 uv run python -m unittest discover -s tests -v
 ```
 
-65 tests covering timestamp parsing, bogus value clamping, line splitting, ASS output, transcript loading, and `transcript_to_json`. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+66 tests covering timestamp parsing, bogus value clamping, line splitting, ASS output, transcript loading, `transcript_to_json`, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## TODO
 
@@ -174,7 +166,7 @@ uv run python -m unittest discover -s tests -v
   - Use semantic/linguistic analysis to find natural break points in the Japanese text
 - **Fix subtitle flashing**: When consecutive lines have a very small gap (e.g., <100ms), the subtitle briefly disappears and reappears, causing a visible flash. Add a post-processing pass (in `json_to_ass.py` or a separate script) to snap near-adjacent lines together (gap → 0) to eliminate flashing.
 - **Overlapping speakers**: When multiple speakers talk simultaneously, Chirp 3 merges their words into a single interleaved stream, producing lines that are confusing and unreadable. Investigate whether Chirp 3's raw output can separate simultaneous speakers (e.g., via speaker diarization or multiple alternatives). If so, update `json_to_ass.py` to split overlapping speakers into separate ASS lines. If not, this is a fundamental limitation of the current approach.
-- **End-to-end pipeline orchestration**: Currently requires running `gcp_transcribe_batch.py` and `json_to_ass.py` as separate manual steps. Find a less clunky way to orchestrate the full transcribe-to-ASS flow in a single invocation.
+- ~~**End-to-end pipeline orchestration**~~: Resolved — `gcp_transcribe_batch.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 
 ## References
 
