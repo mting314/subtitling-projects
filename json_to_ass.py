@@ -44,6 +44,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 200
 DEFAULT_COMMA_SPLIT_CHARS = 40
+DEFAULT_LEAD_IN = 0.125
+DEFAULT_LEAD_OUT = 0.5
 DEFAULT_SNAP_GAP = 0.25
 DEFAULT_MIN_DURATION = 0.5
 
@@ -281,6 +283,40 @@ def extract_dialogue_lines(
     return lines
 
 
+def pad_timing(lines: list[dict], lead_in: float, lead_out: float) -> int:
+    """Add lead-in and lead-out padding to subtitle timing.
+
+    Extends each line's start earlier by lead_in and end later by lead_out,
+    without overlapping neighboring lines or going below 0.
+
+    Lines must already be sorted by start time. Mutates in place.
+    Returns the number of lines modified.
+    """
+    count = 0
+    for i in range(len(lines)):
+        modified = False
+
+        # Lead-in: extend start earlier
+        if lead_in > 0:
+            min_start = lines[i - 1]["end"] if i > 0 else 0.0
+            new_start = max(lines[i]["start"] - lead_in, min_start)
+            if new_start < lines[i]["start"]:
+                lines[i]["start"] = new_start
+                modified = True
+
+        # Lead-out: extend end later
+        if lead_out > 0:
+            max_end = lines[i + 1]["start"] if i + 1 < len(lines) else float("inf")
+            new_end = min(lines[i]["end"] + lead_out, max_end)
+            if new_end > lines[i]["end"]:
+                lines[i]["end"] = new_end
+                modified = True
+
+        if modified:
+            count += 1
+    return count
+
+
 def snap_gaps(lines: list[dict], max_gap: float) -> int:
     """Snap near-adjacent lines together to eliminate subtitle flashing.
 
@@ -383,6 +419,18 @@ def main():
         help=f"Split at commas when line exceeds this length. 0 to disable (default: {DEFAULT_COMMA_SPLIT_CHARS})",
     )
     parser.add_argument(
+        "--lead-in",
+        type=float,
+        default=DEFAULT_LEAD_IN,
+        help=f"Lead-in padding in seconds (subtitle appears before speech). 0 to disable (default: {DEFAULT_LEAD_IN})",
+    )
+    parser.add_argument(
+        "--lead-out",
+        type=float,
+        default=DEFAULT_LEAD_OUT,
+        help=f"Lead-out padding in seconds (subtitle lingers after speech). 0 to disable (default: {DEFAULT_LEAD_OUT})",
+    )
+    parser.add_argument(
         "--snap-gap",
         type=float,
         default=DEFAULT_SNAP_GAP,
@@ -431,6 +479,13 @@ def main():
 
     # Sort by start time
     lines.sort(key=lambda x: x["start"])
+
+    # Add lead-in/lead-out padding
+    if args.lead_in > 0 or args.lead_out > 0:
+        padded = pad_timing(lines, args.lead_in, args.lead_out)
+        print(
+            f"  Padded {padded} line(s) (lead-in: {args.lead_in}s, lead-out: {args.lead_out}s)"
+        )
 
     # Snap small gaps between same-style lines to prevent flashing
     if args.snap_gap > 0:
