@@ -41,13 +41,13 @@ from json_to_ass import (
     snap_gaps,
     enforce_min_duration,
     lines_to_ass,
-    print_quality_report,
     DEFAULT_PAUSE_THRESHOLD,
     DEFAULT_MAX_LINE_CHARS,
     DEFAULT_COMMA_SPLIT_CHARS,
     DEFAULT_SNAP_GAP,
     DEFAULT_MIN_DURATION,
 )
+from quality_report import write_reports
 
 
 DEFAULT_REGION = "us"
@@ -479,7 +479,10 @@ def main():
     ass_output.parent.mkdir(parents=True, exist_ok=True)
     ass_output.write_text(ass_content, encoding="utf-8")
     print(f"  Generated: {ass_output}")
-    print_quality_report(lines)
+    # Pass original input as video source (only if it's a local file, not GCS)
+    video_path = None if input_is_gcs else args.input
+    write_reports(lines, str(ass_output), video_path=video_path, title=title)
+
     print(f"\nTune splitting: uv run json_to_ass.py {merged_path} {ass_output}")
 
 
