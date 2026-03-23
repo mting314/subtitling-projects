@@ -207,7 +207,16 @@ The minimum first-part length is half the threshold (20 chars by default) to avo
 
 After splitting, three post-processing passes clean up timing:
 
-**Lead-in/lead-out** (`--lead-in` 0.125s, `--lead-out` 0.5s): Per fansubbing best practices ([Doki Timing Guide](https://yukisubs.wordpress.com/wp-content/uploads/2016/10/doki_timing_guide.pdf)), subtitles should appear slightly before the speaker starts talking and linger slightly after they finish. This gives the viewer time to register the subtitle. Each line's start is extended earlier by the lead-in value and end is extended later by the lead-out value, capped at neighboring lines to prevent overlap.
+**Lead-in/lead-out** (`--lead-in` 0.125s, `--lead-out` 0.5s): Per fansubbing best practices ([Doki Timing Guide](https://yukisubs.wordpress.com/wp-content/uploads/2016/10/doki_timing_guide.pdf)), subtitles should appear slightly before the speaker starts talking and linger slightly after they finish. This gives the viewer time to register the subtitle.
+
+Lead-in always applies the full amount (the subtitle must appear exactly 125ms before speech), even if it pushes into the previous line's time. Lead-out then yields — the previous line's end is capped or shrunk to match the next line's shifted start. This means the connection point between adjacent lines shifts earlier by the lead-in amount:
+
+```
+Word timestamps:     Line 5 [...→ 42.52s]  ─ 0.04s gap ─  Line 6 [42.56s →...]
+After lead-in/out:   Line 5 [...→ 42.43s]  Line 6 [42.43s →...]
+                                    ↑ line 6 start shifted back full 125ms
+                                      line 5 end yields to match
+```
 
 **Gap snapping** (`--snap-gap`, default 0.25s): When two consecutive same-style lines have a tiny gap between them (e.g., 0.16s), the gap causes a visible "flash" in the subtitle display. The earlier line's end time is extended to meet the next line's start:
 
