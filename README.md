@@ -285,6 +285,10 @@ The HTML report provides a visual overview of all dialogue lines, color-coded by
 - **Click any row** to expand and see which specific issues affect it
 - **Sticky header** keeps the filters and column headers visible while scrolling
 
+> Yes I'm aware that this is basically just recreating Aegisub but worse; this was another intentional design decision as a better option to highlight issues. The original option I could think of was to print a comment line above every single flagged line in the ASS file, but that's even more cluttered and harder to read; especially since as of now there's a lot of false positives (e.g., weird lines created from BGM) that are not actually problematic.
+
+> I think this is a good start for the report idea and deserves some iteration. There should be more interactivity or visualization not provided by Aegisub. One idea is a timeline of lines across a video duration with hoverability to see issues with overlap. Another is a word cloud of the most common words in the transcript that can be fed to GCP Chirp model adaptations.
+
 ### Video Player
 
 When a source video is available, the HTML report embeds an interactive video player for reviewing flagged lines in context:
