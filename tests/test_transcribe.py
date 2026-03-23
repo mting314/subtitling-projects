@@ -4,7 +4,9 @@ import unittest
 from unittest.mock import MagicMock
 
 from gcp_transcribe_batch import transcript_to_json
-from json_to_ass import extract_dialogue_lines, lines_to_ass
+from json_to_ass import (
+    extract_dialogue_lines, snap_gaps, enforce_min_duration, lines_to_ass,
+)
 
 
 def _make_word(text, start_seconds, end_seconds):
@@ -142,7 +144,7 @@ class TestAssOutputIntegration(unittest.TestCase):
     """Verify transcript_to_json output feeds through the full ASS pipeline."""
 
     def test_end_to_end_ass_generation(self):
-        """transcript_to_json → extract_dialogue_lines → lines_to_ass."""
+        """transcript_to_json → extract_dialogue_lines → snap_gaps → enforce_min_duration → lines_to_ass."""
         transcript = _make_transcript([
             [("こんにちは。", 1.0, 2.0), ("今日は", 2.5, 3.0), ("いい天気ですね。", 3.2, 4.5)],
             [("はい、", 5.0, 5.5), ("そうですね。", 5.8, 6.5)],
@@ -153,6 +155,8 @@ class TestAssOutputIntegration(unittest.TestCase):
         self.assertGreater(len(lines), 0)
 
         lines.sort(key=lambda x: x["start"])
+        snap_gaps(lines, 0.25)
+        enforce_min_duration(lines, 0.5)
 
         ass_content = lines_to_ass(lines, "Test Title")
         self.assertIn("[Script Info]", ass_content)
