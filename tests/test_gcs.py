@@ -3,7 +3,13 @@
 import unittest
 from unittest.mock import patch, MagicMock
 
-from utils.gcs import is_gcs_uri, parse_gcs_uri, download_from_gcs, upload_to_gcs, delete_gcs_blobs
+from utils.gcs import (
+    is_gcs_uri,
+    parse_gcs_uri,
+    download_from_gcs,
+    upload_to_gcs,
+    delete_gcs_blobs,
+)
 
 
 class TestIsGcsUri(unittest.TestCase):

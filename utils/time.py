@@ -3,7 +3,7 @@
 
 def parse_offset(offset_str) -> float:
     """Parse a protobuf Duration or string like '123.456s' to float seconds."""
-    if hasattr(offset_str, 'total_seconds'):
+    if hasattr(offset_str, "total_seconds"):
         return offset_str.total_seconds()
     if isinstance(offset_str, (int, float)):
         return float(offset_str)
