@@ -70,7 +70,7 @@ If the audio has a long silent intro that causes Chirp 3 to produce bad timestam
 **Tuning ASS line splitting** (re-run json_to_ass.py without re-transcribing):
 
 - `--pause-threshold 0.5` — shorter pauses trigger line breaks (default: 1.0s)
-- `--max-line-chars 100` — shorter lines (default: 200)
+- `--max-line-chars 30` — shorter lines (default: 50)
 - Accepts a single JSON file or a directory of chunk files
 
 **Customizing ASS styles:**
