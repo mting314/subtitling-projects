@@ -88,12 +88,36 @@ class TestEmitLine(unittest.TestCase):
         self.assertGreater(len(lines), 1)
 
     def test_long_text_no_commas(self):
-        """Long text without commas emits as single line."""
+        """Long text without commas emits as single line when under max_line_chars."""
         word_data = [
             ("これは長いテキストですがコンマがありません。", 1.0, 2.0),
         ]
         lines = []
         _emit_line(word_data, "JP", 10, lines)
+        self.assertEqual(len(lines), 1)
+
+    def test_pause_split_fallback(self):
+        """Long text without commas splits at longest pause when over max_line_chars."""
+        word_data = [
+            ("これは長いテキストです", 1.0, 2.0),  # 11 chars
+            ("もっと長いテキストがあります", 2.1, 3.0),  # 0.1s pause
+            ("ここで区切るべき", 3.0, 4.0),  # 0s pause
+            ("最後の部分です", 5.0, 6.0),  # 1.0s pause before this — longest
+        ]
+        lines = []
+        _emit_line(word_data, "JP", 40, lines, max_line_chars=30)
+        # Should split at the longest pause (before 最後の部分です)
+        self.assertEqual(len(lines), 2)
+        self.assertIn("最後の部分です", lines[1]["text"])
+
+    def test_pause_split_not_triggered_under_max(self):
+        """Pause split doesn't trigger when text is under max_line_chars."""
+        word_data = [
+            ("短いテキスト", 1.0, 2.0),
+            ("もう少し", 3.0, 4.0),
+        ]
+        lines = []
+        _emit_line(word_data, "JP", 40, lines, max_line_chars=50)
         self.assertEqual(len(lines), 1)
 
     def test_comma_split_disabled(self):

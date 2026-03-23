@@ -82,7 +82,7 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
 
 - **Non-overlapping chunks**: Overlap was removed because the API transcribes the same audio differently per chunk, making deduplication unreliable.
 - **Word-level splitting**: Chirp 3 returns 1 giant result per chunk. We split using word timestamps at sentence enders (。？！), pauses ≥1s, max chars, and commas on long lines.
-- **Smart comma splitting**: `_emit_line()` recursively splits lines >40 chars at the comma with the longest pause after it. Min first-part = threshold/2 to avoid tiny fragments.
+- **Smart comma splitting**: `_emit_line()` recursively splits lines >40 chars at the comma with the longest pause after it. Min first-part = threshold/2 to avoid tiny fragments. Falls back to splitting at the longest pause at any word boundary when no comma is found and the line exceeds `max-line-chars`.
 - **Local file input**: `--input` accepts local video/audio files or `gs://` URIs. Video files are auto-detected (via ffprobe) and audio is extracted with stream copy (no re-encoding). The audio codec is probed to pick the right container extension (opus→.opus, aac→.m4a, etc.).
 - **Bogus timestamps**: Chirp 3 sometimes returns zero, negative, or absurdly large word `endOffset` values. These are clamped to `startOffset` *before* adding the chunk time offset — otherwise a bogus `0s` end becomes a plausible-looking timestamp after the offset is added (e.g., `0 + 1080 = 1080s`). Offsets exceeding the chunk duration are also clamped.
 - **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.

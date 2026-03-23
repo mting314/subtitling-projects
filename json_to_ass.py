@@ -108,12 +108,18 @@ def _get_word_time(word: dict, key: str, fallback: float, max_time: float) -> fl
 
 
 def _emit_line(
-    word_data: list[tuple], style: str, comma_split_chars: int, lines: list[dict]
+    word_data: list[tuple],
+    style: str,
+    comma_split_chars: int,
+    lines: list[dict],
+    max_line_chars: int = 0,
 ):
     """Emit one or more dialogue lines from accumulated word data.
 
     If the text exceeds comma_split_chars and contains commas, splits at the
     comma with the longest pause after it (the most natural breath pause).
+    If no comma is found and the text exceeds max_line_chars, falls back to
+    splitting at the word boundary with the longest pause.
     Applies recursively so both halves can be further split if still long.
 
     word_data: list of (text, start, end) tuples
@@ -159,23 +165,51 @@ def _emit_line(
             best_pause = pause
             best_idx = i
 
-    if best_idx < 0:
-        # No suitable comma found, emit as-is
-        lines.append(
-            {
-                "start": word_data[0][1],
-                "end": word_data[-1][2],
-                "style": style,
-                "text": text,
-            }
-        )
+    if best_idx >= 0:
+        # Split at best comma and recurse on both halves
+        first_half = word_data[: best_idx + 1]
+        second_half = word_data[best_idx + 1 :]
+        _emit_line(first_half, style, comma_split_chars, lines, max_line_chars)
+        _emit_line(second_half, style, comma_split_chars, lines, max_line_chars)
         return
 
-    # Split at best comma and recurse on both halves
-    first_half = word_data[: best_idx + 1]
-    second_half = word_data[best_idx + 1 :]
-    _emit_line(first_half, style, comma_split_chars, lines)
-    _emit_line(second_half, style, comma_split_chars, lines)
+    # No comma found. If over max_line_chars, split at the longest pause
+    # at any word boundary (most natural breath point).
+    if max_line_chars > 0 and len(text) >= max_line_chars and len(word_data) > 1:
+        min_first = max_line_chars // 4
+        pause_idx = -1
+        pause_best = -1.0
+        pause_len = 0
+
+        for i in range(len(word_data) - 1):
+            w_text, w_start, w_end = word_data[i]
+            pause_len += len(w_text)
+
+            if pause_len < min_first:
+                continue
+
+            next_start = word_data[i + 1][1]
+            pause = next_start - w_end
+            if pause > pause_best:
+                pause_best = pause
+                pause_idx = i
+
+        if pause_idx >= 0:
+            first_half = word_data[: pause_idx + 1]
+            second_half = word_data[pause_idx + 1 :]
+            _emit_line(first_half, style, comma_split_chars, lines, max_line_chars)
+            _emit_line(second_half, style, comma_split_chars, lines, max_line_chars)
+            return
+
+    # No suitable split point found, emit as-is
+    lines.append(
+        {
+            "start": word_data[0][1],
+            "end": word_data[-1][2],
+            "style": style,
+            "text": text,
+        }
+    )
 
 
 def extract_dialogue_lines(
@@ -271,14 +305,18 @@ def extract_dialogue_lines(
                     should_break = True
 
             if should_break and current_word_data:
-                _emit_line(current_word_data, style, comma_split_chars, lines)
+                _emit_line(
+                    current_word_data, style, comma_split_chars, lines, max_line_chars
+                )
                 current_word_data = []
 
             current_word_data.append((word_text, w_start, w_end))
 
         # Flush remaining words
         if current_word_data:
-            _emit_line(current_word_data, style, comma_split_chars, lines)
+            _emit_line(
+                current_word_data, style, comma_split_chars, lines, max_line_chars
+            )
 
     return lines
 
