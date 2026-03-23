@@ -248,23 +248,36 @@ class TestPadTiming(unittest.TestCase):
         self.assertAlmostEqual(lines[0]["start"], 4.875)
         self.assertAlmostEqual(lines[0]["end"], 6.5)
 
-    def test_no_overlap_with_previous(self):
-        """Lead-in doesn't overlap into previous line's end."""
+    def test_lead_in_pushes_past_previous_end(self):
+        """Lead-in applies full amount even if it overlaps previous line's time."""
         lines = [self._line(1.0, 2.0), self._line(2.05, 3.0)]
         count = pad_timing(lines, 0.125, 0.5)
         self.assertEqual(count, 2)
-        # First line's lead-out extends end to 2.05 (capped at next start)
-        self.assertAlmostEqual(lines[0]["end"], 2.05)
-        # Second line's lead-in capped at first line's (now extended) end: 2.05
-        self.assertAlmostEqual(lines[1]["start"], 2.05)
+        # Pass 1: line[1] start 2.05 - 0.125 = 1.925 (not capped at prev end)
+        self.assertAlmostEqual(lines[1]["start"], 1.925)
+        # Pass 2: line[0] end 2.0 + 0.5 = 2.5, shrunk to line[1] start (1.925)
+        self.assertAlmostEqual(lines[0]["end"], 1.925)
+
+    def test_connection_point_shifts_back(self):
+        """When gap > lead-in, connection point shifts back by lead-in amount."""
+        # Gap of 0.5s between lines — lead-in of 0.125 has room to fully apply
+        lines = [self._line(1.0, 2.0), self._line(2.5, 3.0)]
+        count = pad_timing(lines, 0.125, 0.5)
+        self.assertEqual(count, 2)
+        # Pass 1: line[1] start 2.5 - 0.125 = 2.375
+        self.assertAlmostEqual(lines[1]["start"], 2.375)
+        # Pass 2: line[0] end 2.0 + 0.5 = 2.5, capped at line[1] start (2.375) → 2.375
+        self.assertAlmostEqual(lines[0]["end"], 2.375)
 
     def test_no_overlap_with_next(self):
-        """Lead-out doesn't overlap into next line's start."""
+        """Lead-out capped at next line's shifted start (after lead-in)."""
         lines = [self._line(1.0, 2.0), self._line(2.2, 3.0)]
         count = pad_timing(lines, 0.125, 0.5)
         self.assertEqual(count, 2)
-        # First line's lead-out capped at next line's start (2.2), not 2.0 + 0.5
-        self.assertAlmostEqual(lines[0]["end"], 2.2)
+        # Pass 1: line[1] start 2.2 - 0.125 = 2.075
+        self.assertAlmostEqual(lines[1]["start"], 2.075)
+        # Pass 2: line[0] end 2.0 + 0.5 = 2.5, capped at line[1] shifted start (2.075)
+        self.assertAlmostEqual(lines[0]["end"], 2.075)
 
     def test_first_line_capped_at_zero(self):
         """First line's lead-in doesn't go below 0."""
@@ -315,15 +328,17 @@ class TestPadTiming(unittest.TestCase):
         count = pad_timing(lines, 0.125, 0.5)
         self.assertEqual(count, 3)
 
-    def test_tight_lines_no_room(self):
-        """Adjacent lines with no gap: lead-in/lead-out capped at boundaries."""
+    def test_tight_lines_lead_in_wins(self):
+        """Adjacent lines: lead-in pushes into previous line, shrinking its lead-out."""
         lines = [self._line(1.0, 2.0), self._line(2.0, 3.0)]
         pad_timing(lines, 0.125, 0.5)
-        # First: lead-in shifts start, lead-out capped at next start (2.0)
+        # First: lead-in shifts start to 0.875
         self.assertAlmostEqual(lines[0]["start"], 0.875)
-        self.assertAlmostEqual(lines[0]["end"], 2.0)
-        # Second: lead-in capped at prev end (2.0), lead-out extends
-        self.assertAlmostEqual(lines[1]["start"], 2.0)
+        # Second: lead-in shifts start to 1.875 (full 125ms, into line 0's time)
+        self.assertAlmostEqual(lines[1]["start"], 1.875)
+        # First: lead-out shrunk from 2.0 to 1.875 (yields to line 1's lead-in)
+        self.assertAlmostEqual(lines[0]["end"], 1.875)
+        # Second: lead-out extends freely
         self.assertAlmostEqual(lines[1]["end"], 3.5)
 
 
