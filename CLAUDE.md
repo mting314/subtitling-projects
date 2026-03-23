@@ -8,7 +8,7 @@ Japanese-to-English subtitle translation for anime/game content. Primary subtitl
 - **Lieraji** - Episodic radio show (Liella no Radio Japan), Love Live! Superstar!! cast
 - **Liella 6th to 7th** - Love Live! Superstar!! Liella! live concert content
 
-Each project gets a subdirectory named after the content (e.g., `Project Sekai/Colors of Pure Sense/`). Subtitle files, transcripts, and audio/video intermediates live together in each subdirectory.
+All projects live under `projects/`, each in a subdirectory named after the content (e.g., `projects/Project Sekai/Colors of Pure Sense/`). Subtitle files, transcripts, and audio/video intermediates live together in each subdirectory.
 
 See `README.md` for full project progress table.
 
@@ -24,6 +24,7 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 | **Aegisub** | Manual subtitle editing (ASS format) |
 | **gcp_transcribe_batch.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
+| **quality_report.py** | Quality analysis and reporting. Generates `.log` (untruncated plain text) and `.html` (interactive viewer with color-coded issues, filter buttons, optional video player with click-to-seek). Called automatically by both scripts via `write_reports()` |
 | **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting) |
 | **tests/** | Unit tests (`unittest`). Run with `uv run python -m unittest discover -s tests -v`. All external deps mocked — no network, GCP, or ffmpeg needed |
 
@@ -60,6 +61,20 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass
 | `--comma-split-chars` | 40 | Lines over this length get split at the comma with the longest pause. 0 to disable |
 | `--snap-gap` | 0.25 | Snap gaps smaller than this (seconds) between same-style lines to prevent flashing. 0 to disable |
 | `--min-duration` | 0.5 | Minimum line duration in seconds. Short lines get lead-out/lead-in padding. 0 to disable |
+| `--video` | None | Path to source video file. Embeds an HTML5 player in the HTML report for click-to-seek |
+
+### Quality reports
+
+Both scripts automatically generate quality reports next to the ASS output:
+- **`.log`** — untruncated plain text with all flagged lines (console output truncates to first 3–5)
+- **`.html`** — interactive viewer with color-coded rows (red=critical, orange=warning, yellow=info, blue=gaps), filter buttons, expandable issue details, and optional video player
+
+```
+uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
+# Generates: output.ass, output.log, output.html (with embedded video player)
+```
+
+`gcp_transcribe_batch.py` auto-passes the local input file as the video source.
 
 ### Key technical notes
 
