@@ -1,9 +1,10 @@
-"""Tests for gcp_transcribe_batch.transcript_to_json."""
+"""Tests for gcp_transcribe_batch.transcript_to_json and ASS integration."""
 
 import unittest
 from unittest.mock import MagicMock
 
 from gcp_transcribe_batch import transcript_to_json
+from json_to_ass import extract_dialogue_lines, lines_to_ass
 
 
 def _make_word(text, start_seconds, end_seconds):
@@ -135,6 +136,32 @@ class TestTranscriptToJson(unittest.TestCase):
         transcript.results = [result]
         results = transcript_to_json(transcript)
         self.assertEqual(len(results), 0)
+
+
+class TestAssOutputIntegration(unittest.TestCase):
+    """Verify transcript_to_json output feeds through the full ASS pipeline."""
+
+    def test_end_to_end_ass_generation(self):
+        """transcript_to_json → extract_dialogue_lines → lines_to_ass."""
+        transcript = _make_transcript([
+            [("こんにちは。", 1.0, 2.0), ("今日は", 2.5, 3.0), ("いい天気ですね。", 3.2, 4.5)],
+            [("はい、", 5.0, 5.5), ("そうですね。", 5.8, 6.5)],
+        ])
+        raw_results = transcript_to_json(transcript, time_offset=0.0)
+
+        lines = extract_dialogue_lines(raw_results)
+        self.assertGreater(len(lines), 0)
+
+        lines.sort(key=lambda x: x["start"])
+
+        ass_content = lines_to_ass(lines, "Test Title")
+        self.assertIn("[Script Info]", ass_content)
+        self.assertIn("Title: Test Title", ass_content)
+        self.assertIn("[Events]", ass_content)
+        self.assertIn("Dialogue:", ass_content)
+
+        for line in lines:
+            self.assertGreaterEqual(line["end"] - line["start"], 0)
 
 
 if __name__ == "__main__":
