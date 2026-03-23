@@ -29,8 +29,10 @@ from utils.gcs import (
 )
 from utils.time import parse_offset, seconds_to_timestamp
 from json_to_ass import (
-    extract_dialogue_lines, lines_to_ass, print_quality_report,
-    DEFAULT_PAUSE_THRESHOLD, DEFAULT_MAX_LINE_CHARS, DEFAULT_COMMA_SPLIT_CHARS,
+    extract_dialogue_lines, snap_gaps, enforce_min_duration,
+    lines_to_ass, print_quality_report,
+    DEFAULT_PAUSE_THRESHOLD, DEFAULT_MAX_LINE_CHARS,
+    DEFAULT_COMMA_SPLIT_CHARS, DEFAULT_SNAP_GAP, DEFAULT_MIN_DURATION,
 )
 
 
@@ -378,6 +380,10 @@ def main():
                                    max_line_chars=DEFAULT_MAX_LINE_CHARS,
                                    comma_split_chars=DEFAULT_COMMA_SPLIT_CHARS)
     lines.sort(key=lambda x: x["start"])
+    snapped = snap_gaps(lines, DEFAULT_SNAP_GAP)
+    print(f"  Snapped {snapped} gap(s) under {DEFAULT_SNAP_GAP}s")
+    extended = enforce_min_duration(lines, DEFAULT_MIN_DURATION)
+    print(f"  Extended {extended} line(s) to meet {DEFAULT_MIN_DURATION}s minimum duration")
     ass_content = lines_to_ass(lines, title)
     ass_output.parent.mkdir(parents=True, exist_ok=True)
     ass_output.write_text(ass_content, encoding="utf-8")

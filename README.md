@@ -152,7 +152,7 @@ See `style_guide.md` for full rules. Key points:
 uv run python -m unittest discover -s tests -v
 ```
 
-80 tests covering timestamp parsing, bogus value clamping, line splitting, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+81 tests covering timestamp parsing, bogus value clamping, line splitting, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
 
 ## TODO
 
