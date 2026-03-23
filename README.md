@@ -261,10 +261,11 @@ gcloud auth application-default login
 export GOOGLE_CLOUD_PROJECT=your-project-id
 ```
 
-Run scripts with `uv run` to use the managed environment:
+Run scripts with `uv run` to use the managed environment. `--input` accepts video or audio files (video containers are auto-detected and audio is extracted):
 
 ```bash
-uv run python3 transcribe.py --input audio.opus
+uv run python3 transcribe.py --input video.mkv   # video: auto-extracts audio
+uv run python3 transcribe.py --input audio.opus   # audio: used directly
 uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass  # tune splitting only
 ```
 
