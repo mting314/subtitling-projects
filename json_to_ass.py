@@ -286,35 +286,36 @@ def extract_dialogue_lines(
 def pad_timing(lines: list[dict], lead_in: float, lead_out: float) -> int:
     """Add lead-in and lead-out padding to subtitle timing.
 
-    Extends each line's start earlier by lead_in and end later by lead_out,
-    without overlapping neighboring lines or going below 0.
+    Lead-in always applies the full amount (capped only at 0.0), even if it
+    overlaps into the previous line's time — per standard fansubbing practice,
+    the subtitle must appear the full lead-in duration before speech starts.
+    The previous line's lead-out then yields to the next line's shifted start.
+
+    Two-pass approach: lead-in is applied first to all lines, then lead-out
+    extends ends but caps at the next line's (already shifted) start.
 
     Lines must already be sorted by start time. Mutates in place.
     Returns the number of lines modified.
     """
-    count = 0
-    for i in range(len(lines)):
-        modified = False
+    modified = [False] * len(lines)
 
-        # Lead-in: extend start earlier
-        if lead_in > 0:
-            min_start = lines[i - 1]["end"] if i > 0 else 0.0
-            new_start = max(lines[i]["start"] - lead_in, min_start)
+    # Pass 1: lead-in (shift starts earlier, capped only at 0)
+    if lead_in > 0:
+        for i in range(len(lines)):
+            new_start = max(lines[i]["start"] - lead_in, 0.0)
             if new_start < lines[i]["start"]:
                 lines[i]["start"] = new_start
-                modified = True
+                modified[i] = True
 
-        # Lead-out: extend end later
-        if lead_out > 0:
-            max_end = lines[i + 1]["start"] if i + 1 < len(lines) else float("inf")
-            new_end = min(lines[i]["end"] + lead_out, max_end)
-            if new_end > lines[i]["end"]:
-                lines[i]["end"] = new_end
-                modified = True
+    # Pass 2: lead-out (extend ends, cap/shrink at next line's shifted start)
+    for i in range(len(lines)):
+        max_end = lines[i + 1]["start"] if i + 1 < len(lines) else float("inf")
+        new_end = min(lines[i]["end"] + lead_out, max_end)
+        if new_end != lines[i]["end"]:
+            lines[i]["end"] = new_end
+            modified[i] = True
 
-        if modified:
-            count += 1
-    return count
+    return sum(modified)
 
 
 def snap_gaps(lines: list[dict], max_gap: float) -> int:
