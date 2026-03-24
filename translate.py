@@ -102,11 +102,11 @@ def parse_structured_response(response_text: str, expected_count: int, start_idx
     try:
         data = json.loads(response_text)
     except json.JSONDecodeError:
-        print(f"  Warning: response is not valid JSON", file=sys.stderr)
+        print("  Warning: response is not valid JSON", file=sys.stderr)
         return [""] * expected_count
 
     if not isinstance(data, list):
-        print(f"  Warning: response is not a JSON array", file=sys.stderr)
+        print("  Warning: response is not a JSON array", file=sys.stderr)
         return [""] * expected_count
 
     # Build lookup by id
@@ -287,7 +287,7 @@ def main():
         all_translations.extend(translations)
 
     # Apply translations to events
-    print(f"\n[4/4] Writing translated ASS file...")
+    print("\n[4/4] Writing translated ASS file...")
     for idx, translation in zip(dialogue_indices, all_translations):
         data["events"][idx]["text"] = translation
 

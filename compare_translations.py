@@ -24,8 +24,8 @@ def generate_comparison_html(
     path = Path(html_path)
     num_lines = min(len(source_lines), len(translated_lines))
 
-    total_jp_chars = sum(len(l["text"]) for l in source_lines[:num_lines])
-    total_en_chars = sum(len(l["text"]) for l in translated_lines[:num_lines])
+    total_jp_chars = sum(len(ln["text"]) for ln in source_lines[:num_lines])
+    total_en_chars = sum(len(ln["text"]) for ln in translated_lines[:num_lines])
     ratio = total_en_chars / total_jp_chars if total_jp_chars > 0 else 0
 
     # Resolve video path
@@ -310,7 +310,7 @@ def main():
 
     title = args.title or translated_path.stem
 
-    print(f"Generating comparison report...")
+    print("Generating comparison report...")
     print(f"  Source:     {source_path}")
     print(f"  Translated: {translated_path}")
 
@@ -338,8 +338,8 @@ def main():
     )
 
     num_lines = min(len(source_lines), len(translated_lines))
-    total_jp = sum(len(l["text"]) for l in source_lines[:num_lines])
-    total_en = sum(len(l["text"]) for l in translated_lines[:num_lines])
+    total_jp = sum(len(ln["text"]) for ln in source_lines[:num_lines])
+    total_en = sum(len(ln["text"]) for ln in translated_lines[:num_lines])
 
     print(f"\n  Lines:      {num_lines}")
     print(f"  JP chars:   {total_jp}")
