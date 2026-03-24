@@ -119,9 +119,9 @@ Use ASS italic tags `{\i1}text{\i0}` for:
 
 ### Preserve Natural Speech Patterns
 
-**Filler words:** Keep them for authenticity
+**Filler words:** Drop standalone filler sounds ("um", "uh", "ah", "oh", "er") that add no meaning. Keep transitional phrases that carry conversational flow:
 
-- "Like," "Err…," "Well," "I mean,"
+- "Like," "Well," "I mean," "You know,"
 - Example: `"Like, I don't think I've talked to her face-to-face."`
 
 **Repetition:** Preserve when intentional
@@ -153,19 +153,7 @@ Keep short, natural reactions:
 - Styles are color-coded by speaker (see V4+ Styles section)
 - Use the Name field to identify speaker (though it may be left blank)
 
-### Speaker Styles Used
-
-| Style Name | Speaker         | Color (Outline)        |
-| ---------- | --------------- | ---------------------- |
-| Sayurin    | Date Sayuri     | Orange (#F27521)       |
-| Liyuu      | Liyuu           | Gold (#6CC1E3)         |
-| Paychan    | Aoyama Nagisa   | Green (#3BAE2B)        |
-| Nakochan   | Konoe Nako      | Purple (#FF6E90)       |
-| Nagichan   | Okuyama Nagi    | Dark Red (#000A0)      |
-| Nonchan    | Suzuhara Nozomi | Cyan (#EEC400)         |
-| Yabuchan   | Yabuki Akane    | Blue (#F23B4C)         |
-| Kumachan   | Okuma Wakana    | Yellow-Green (#17D8BD) |
-| Emorin     | Emori Aya       | Pink (#F273C4)         |
+Speaker styles (names, colors) are defined per-project in each project's `translation_reference.md`.
 
 ---
 
@@ -221,7 +209,7 @@ Before finalizing:
 - [ ] No unnecessary gaps between consecutive dialogue
 - [ ] Japanese terms in italics
 - [ ] Natural contractions used throughout
-- [ ] Filler words preserved for authenticity
+- [ ] Standalone filler sounds dropped, transitional phrases kept
 - [ ] Line durations within target ranges
 - [ ] Speaker styles correctly assigned
 - [ ] Emphasis italics applied where needed
@@ -237,7 +225,7 @@ Before finalizing:
 | Japanese terms   | `{\i1}kabedon{\i0}`    | `kabedon` / `"kabedon"` |
 | Emphasis         | `It {\i1}is{\i0} real` | `It IS real`            |
 | Trailing off     | `So cute…`             | `So cute...`            |
-| Filler words     | `Like, I guess…`       | (omitting "Like,")      |
+| Transitional     | `Like, I guess…`       | `Um, like, I guess…`    |
 
 # Human Generated Section
 
@@ -257,14 +245,7 @@ Examples:
 
 - "With Our Wounded Hands", not "Kizudarake no Te de, Watashitachi wa"
 
-### Project Sekai Terminology
-
-- "AfterTalk" should be capitalized as "AfterTalk", not "aftertalk" or "Aftertalk".
-- "AfterLive" should be written as one word (with capital "L"): "AfterLive" (singular) and "AfterLives" (plural). Do NOT write "After Lives".
-- "ProSeka" should be capitalized as "ProSeka", not "proseka" or "Proseka".
-- Use "MV" when referring to music videos (e.g., "the MV"). "2DMV" is also acceptable when specifically describing 2D music videos.
-- Use "fan festa" for the fan event term. ("fan fes" is a common shorthand but the full form is preferred.)
-- When referring to numbered sections of Project Sekai event stories, use "Episode", not "Chapter" (e.g., "Episode 1", "Episode 2"). This aligns with the game's official terminology.
+Project-specific terminology (e.g., ProSeka, Lieraji) is defined in each project's `translation_reference.md`.
 
 ## Grammar
 

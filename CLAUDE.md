@@ -25,7 +25,9 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 | **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
 | **quality_report.py** | Quality analysis and reporting. Generates `.log` (untruncated plain text) and `.html` (interactive viewer with color-coded issues, filter buttons, optional video player with click-to-seek). Called automatically by both scripts via `write_reports()` |
-| **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting) |
+| **translate.py** | Translate Japanese ASS subtitles to English using Gemini via Vertex AI. Sends lines in batches with translation context (instructions, style guide, project reference with fixed translations). Auto-generates comparison report |
+| **compare_translations.py** | Generate side-by-side JP vs EN comparison HTML report. Same dark theme as quality_report.py, with char ratio warnings and optional video player |
+| **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting), `utils/ass_parser.py` (ASS file parsing/writing) |
 | **tests/** | Unit tests (`unittest`). Run with `uv run python -m unittest discover -s tests -v`. All external deps mocked — no network, GCP, or ffmpeg needed |
 
 ### Environment
@@ -77,6 +79,54 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
 ```
 
 `transcribe.py` auto-passes the local input file as the video source.
+
+### Translation pipeline
+
+```
+uv run translate.py --input source_jp.ass --project projects/Lieraji/translation_reference.md
+```
+
+Auto-generates a comparison report. Re-run comparison separately:
+
+```
+uv run compare_translations.py --source source_jp.ass --translated source_jp_en.ass --video source.mkv
+```
+
+### translate.py parameters
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--input` | required | Source ASS file (Japanese) |
+| `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
+| `--project` | None | Path to project `translation_reference.md` |
+| `--instructions` | `translation_instructions.md` | Path to top-level instructions |
+| `--model` | `gemini-2.5-flash` | Gemini model to use |
+| `--batch-size` | 50 | Lines per API request |
+| `--video` | None | Video path for comparison report |
+
+### compare_translations.py parameters
+
+| Flag | Default | Purpose |
+|------|---------|---------|
+| `--source` | required | Source ASS file (Japanese) |
+| `--translated` | required | Translated ASS file (English) |
+| `--video` | None | Path to source video file for embedded player |
+| `--title` | translated filename stem | Report title |
+
+### Translation context files
+
+- **`translation_instructions.md`** — self-contained Gemini system prompt. Includes all translation directives (cross-line context, no-blank-lines, filler handling, line-ending flow, phrase grouping) AND formatting rules (punctuation, italics, contractions, naming, cultural terms). This is the only style reference sent to the model — `style_guide.md` is NOT loaded
+- **`style_guide.md`** — human-only reference for manual Aegisub work. Not used by `translate.py`
+- **Per-project `translation_reference.md`** — character context, fixed translations for recurring lines, franchise terminology. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
+
+### Key translation technical notes
+
+- **Structured output**: Uses Gemini's `response_schema` with a `TranslatedSubtitle` Pydantic model (`id`, `original`, `translated`) for reliable JSON output. No text-format parsing needed
+- **Cross-line context**: Prompt instructs the model to read neighboring lines before translating, so split sentences flow naturally across subtitle lines
+- **No blank lines**: Every source line produces a non-empty translation. Filler-only lines are absorbed by redistributing the surrounding sentence across them
+- **Filler word handling**: Standalone fillers ("um", "uh", "ah") are not translated literally — their lines carry redistributed text instead. Transitional phrases ("Well then,", "You know,") are kept
+- **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line. Logical phrases (article + noun) are kept together on the same line
+- **Glossary enforcement**: Fixed translations from `translation_reference.md` are used verbatim for recurring scripted lines
 
 ### Key technical notes
 
