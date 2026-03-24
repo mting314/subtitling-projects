@@ -123,8 +123,9 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 - **Structured output**: Uses Gemini's `response_schema` with a `TranslatedSubtitle` Pydantic model (`id`, `original`, `translated`) for reliable JSON output. No text-format parsing needed
 - **Cross-line context**: Prompt instructs the model to read neighboring lines before translating, so split sentences flow naturally across subtitle lines
-- **Filler word handling**: Standalone fillers ("um", "uh", "ah") are dropped; transitional phrases ("Well then,", "You know,") are kept
-- **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line
+- **No blank lines**: Every source line produces a non-empty translation. Filler-only lines are absorbed by redistributing the surrounding sentence across them
+- **Filler word handling**: Standalone fillers ("um", "uh", "ah") are not translated literally — their lines carry redistributed text instead. Transitional phrases ("Well then,", "You know,") are kept
+- **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line. Logical phrases (article + noun) are kept together on the same line
 - **Glossary enforcement**: Fixed translations from `translation_reference.md` are used verbatim for recurring scripted lines
 
 ### Key technical notes

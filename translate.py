@@ -145,7 +145,7 @@ def parse_structured_response(response_text: str, expected_count: int, start_idx
     return result
 
 
-MAX_RETRIES = 2
+MAX_RETRIES = 3
 
 
 def translate_batch(
