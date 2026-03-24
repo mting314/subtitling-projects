@@ -38,17 +38,17 @@ class TestBuildSystemPrompt(unittest.TestCase):
             f.write("# Test Instructions\nBe accurate.")
             f.flush()
             try:
-                prompt = build_system_prompt(f.name, "nonexistent.md", None)
+                prompt = build_system_prompt(f.name, None)
                 self.assertIn("Test Instructions", prompt)
             finally:
                 os.unlink(f.name)
 
     def test_missing_instructions_still_works(self):
-        prompt = build_system_prompt("nonexistent.md", "nonexistent.md", None)
+        prompt = build_system_prompt("nonexistent.md", None)
         self.assertIn("professional Japanese-to-English subtitle translator", prompt)
 
     def test_preamble_always_present(self):
-        prompt = build_system_prompt("nonexistent.md", "nonexistent.md", None)
+        prompt = build_system_prompt("nonexistent.md", None)
         self.assertIn("JSON array", prompt)
         self.assertIn("translated", prompt)
 
@@ -60,7 +60,7 @@ class TestBuildSystemPrompt(unittest.TestCase):
                 ref.write("# Project Reference\nMailbox!")
                 ref.flush()
                 try:
-                    prompt = build_system_prompt(inst.name, "nonexistent.md", ref.name)
+                    prompt = build_system_prompt(inst.name, ref.name)
                     self.assertIn("Project Reference", prompt)
                     self.assertIn("Mailbox!", prompt)
                 finally:

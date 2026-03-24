@@ -26,7 +26,6 @@ from utils.ass_parser import parse_ass, write_ass
 DEFAULT_MODEL = "gemini-2.5-flash"
 DEFAULT_BATCH_SIZE = 50
 DEFAULT_INSTRUCTIONS_PATH = "translation_instructions.md"
-STYLE_GUIDE_PATH = "style_guide.md"
 
 
 class TranslatedSubtitle(BaseModel):
@@ -48,7 +47,7 @@ Each batch is a JSON array of objects with "id", "style" (speaker), and "text" (
 Return a JSON array with the same number of objects, each containing "id" (matching the input), \
 "original" (the input text), and "translated" (your English translation).
 
-Follow the translation instructions, style guide, and project reference below."""
+Follow the translation instructions and project reference below."""
 
 
 def load_text_file(path: str) -> str | None:
@@ -61,7 +60,6 @@ def load_text_file(path: str) -> str | None:
 
 def build_system_prompt(
     instructions_path: str,
-    style_guide_path: str,
     project_ref_path: str | None,
 ) -> str:
     """Build the system instruction from translation context files."""
@@ -72,10 +70,6 @@ def build_system_prompt(
         parts.append(instructions)
     else:
         print(f"  Warning: instructions file not found: {instructions_path}", file=sys.stderr)
-
-    style_guide = load_text_file(style_guide_path)
-    if style_guide:
-        parts.append(style_guide)
 
     if project_ref_path:
         project_ref = load_text_file(project_ref_path)
@@ -268,7 +262,6 @@ def main():
     print("\n[2/4] Building translation context...")
     system_prompt = build_system_prompt(
         args.instructions,
-        STYLE_GUIDE_PATH,
         args.project,
     )
     print(f"  System prompt: {len(system_prompt)} chars")

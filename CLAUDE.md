@@ -115,8 +115,8 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 ### Translation context files
 
-- **`translation_instructions.md`** — AI translator system prompt: cross-line context rules, line-ending flow, filler word handling, glossary enforcement, output schema
-- **`style_guide.md`** — subtitle formatting, punctuation, pause rules. Project-specific terminology and speaker styles are delegated to `translation_reference.md`
+- **`translation_instructions.md`** — self-contained Gemini system prompt. Includes all translation directives (cross-line context, no-blank-lines, filler handling, line-ending flow, phrase grouping) AND formatting rules (punctuation, italics, contractions, naming, cultural terms). This is the only style reference sent to the model — `style_guide.md` is NOT loaded
+- **`style_guide.md`** — human-only reference for manual Aegisub work. Not used by `translate.py`
 - **Per-project `translation_reference.md`** — character context, fixed translations for recurring lines, franchise terminology. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
 
 ### Key translation technical notes
