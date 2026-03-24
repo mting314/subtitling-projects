@@ -50,7 +50,9 @@ Love Live! Superstar!! Liella! live concert content.
 | **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
 | **quality_report.py** | Quality analysis and reporting — `.log` (untruncated) and interactive `.html` viewer |
-| **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps) |
+| **translate.py** | JP→EN translation via Gemini (Vertex AI). Structured JSON output, cross-line context, fixed phrase glossary |
+| **compare_translations.py** | Side-by-side JP/EN comparison HTML report with char ratio warnings and optional video player |
+| **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps), `ass_parser.py` (ASS parsing/writing) |
 | **tests/** | Unit tests (`unittest`) for utils/ and main scripts. All external deps mocked |
 | **Aegisub** | Manual subtitle editing and timing |
 
@@ -271,6 +273,89 @@ uv run python3 json_to_ass.py raw_transcripts/merged.json output.ass  # tune spl
 
 `json_to_ass.py` has no external dependencies and can also be run directly with any Python 3.11+.
 
+## Translation Pipeline
+
+After transcription generates a timed Japanese ASS file, `translate.py` translates it to English using Gemini via Vertex AI:
+
+```
+source_jp.ass (timed Japanese subtitles)
+  → translate.py (batch translation with project context)
+  → source_jp_en.ass (English subtitles, same timing)
+  → source_jp_en_comparison.html (side-by-side JP/EN report)
+  → Aegisub (manual QC and refinement)
+```
+
+**Translate a subtitle file:**
+
+```bash
+# Basic translation
+uv run translate.py --input "transcript.ass"
+
+# With project-specific context (fixed phrases, character info, terminology)
+uv run translate.py \
+  --input "transcript.ass" \
+  --project "projects/Project Sekai/translation_reference.md"
+
+# With video for comparison report
+uv run translate.py \
+  --input "transcript.ass" \
+  --project "projects/Project Sekai/translation_reference.md" \
+  --video "source.mkv"
+```
+
+**Re-generate comparison report** (without re-translating):
+
+```bash
+uv run compare_translations.py \
+  --source "transcript.ass" \
+  --translated "transcript_en.ass" \
+  --video "source.mkv"
+```
+
+### How Translation Works
+
+Translation is sent to Gemini in batches (default 50 lines) with a structured JSON schema for reliable output. Each batch includes the full translation context as a system prompt:
+
+1. **System preamble** — explains the translator role and expected JSON I/O format
+2. **Translation instructions** (`translation_instructions.md`) — cross-line context rules, line-ending flow, filler word handling, glossary enforcement
+3. **Style guide** (`style_guide.md`) — subtitle formatting, punctuation, pause conventions
+4. **Project reference** (`translation_reference.md`) — character context, fixed translations for recurring scripted lines, franchise terminology
+
+The model receives each batch as a JSON array of `{id, style, text}` objects and returns `{id, original, translated}` objects via Gemini's `response_schema` (Pydantic `TranslatedSubtitle` model). This structured output eliminates the need for fragile text parsing.
+
+### Translation Context Files
+
+Each project can have a `translation_reference.md` that provides:
+
+- **Fixed translations** — recurring scripted lines (intros, greetings, segment names, sign-offs) with established English translations. The model uses these verbatim when it recognizes the Japanese text, even with minor transcription variations
+- **Character/speaker context** — who the speakers are, their speaking styles, voice actors, and relationships
+- **Franchise terminology** — project-specific terms with exact capitalization and spelling (e.g., "AfterTalk", "ProSeka", "Wonderhoi!")
+
+Translation references exist for:
+- `projects/Lieraji/translation_reference.md` — Lieraji radio show hosts, greetings, segment names
+- `projects/Project Sekai/translation_reference.md` — all 20 ProSeka characters with VAs and personalities (sourced from [Sekaipedia](http://sekaipedia.org/wiki/)), AfterTalk fixed phrases, unit terminology
+
+### Translation Parameters
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `--input` | required | Source ASS file (Japanese) |
+| `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
+| `--project` | None | Path to project `translation_reference.md` |
+| `--instructions` | `translation_instructions.md` | Path to top-level translation instructions |
+| `--model` | `gemini-2.5-flash` | Gemini model to use |
+| `--batch-size` | 50 | Lines per API request |
+| `--video` | None | Video path for comparison report |
+
+### Comparison Report
+
+`compare_translations.py` generates an interactive HTML report (same dark theme as the quality report) showing source Japanese and translated English side-by-side:
+
+- **Stats cards** — line count, JP/EN character counts, EN/JP ratio
+- **Color-coded rows** — orange for suspiciously short translations, yellow for very long ones
+- **Filter buttons** — show all, short translations only, long translations only
+- **Optional video player** — click any row to seek and play, with JP and EN text displayed in a "Now Playing" panel
+
 ## Quality Reports
 
 Both `transcribe.py` and `json_to_ass.py` automatically generate quality reports alongside the ASS output. Every run produces three files:
@@ -344,7 +429,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-105 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, and end-to-end ASS integration. All external dependencies (ffmpeg, GCS) are mocked — no network access or credentials needed.
+148 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
@@ -384,7 +469,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 
 - **Intelligent audio chunking based on silence**: Currently audio is split into fixed ~18-minute chunks, which risks cutting mid-sentence. Instead, detect long silent portions in the audio and split at those boundaries.
 - **Customizable ASS styles**: The ASS header is currently a hardcoded template with fixed styles (Default, JP). Instead, support configurable styles — e.g., per-speaker colors, font choices, positioning — via a style config file or CLI flags. This is a prerequisite for multi-speaker subtitle generation.
-- **Template-based translation for episodic programs**: Many seiyuu radio shows and similar programs follow a weekly/episodic format with recurring structure — the same "corners" (segments) each week, similar opening/closing phrases, and set introductions (e.g., "Hello and welcome to [show name]", "This is a corner where we [do X]"). Investigate using per-program template files with these recurring phrases to assist AI translation. The template would provide consistent translations for set phrases across episodes, reducing repetitive work and improving consistency. Particularly relevant for Lieraji and similar episodic content.
+- ~~**Template-based translation for episodic programs**~~: Resolved — `translate.py` uses per-project `translation_reference.md` files with fixed translations for recurring scripted lines (intros, greetings, segment names), character context, and franchise terminology. References exist for Lieraji and Project Sekai AfterTalks
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 
@@ -392,4 +477,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 
 - `workflow.md` — end-to-end subtitle creation process
 - `snippets.md` — common CLI commands
-- `style_guide.md` — translation and formatting rules
+- `style_guide.md` — subtitle formatting and style rules
+- `translation_instructions.md` — AI translation prompt (cross-line context, filler handling, glossary rules)
+- `projects/Lieraji/translation_reference.md` — Lieraji fixed translations and character context
+- `projects/Project Sekai/translation_reference.md` — ProSeka AfterTalk fixed translations, all 20 characters
