@@ -1,14 +1,14 @@
 """Tests for translate.py."""
 
+import json
 import os
 import tempfile
 import unittest
-from unittest.mock import MagicMock, patch
 
 from translate import (
     build_system_prompt,
-    format_lines_for_prompt,
-    parse_translation_response,
+    format_batch_input,
+    parse_structured_response,
 )
 
 
@@ -40,13 +40,17 @@ class TestBuildSystemPrompt(unittest.TestCase):
             try:
                 prompt = build_system_prompt(f.name, "nonexistent.md", None)
                 self.assertIn("Test Instructions", prompt)
-                self.assertIn("Output Format", prompt)
             finally:
                 os.unlink(f.name)
 
     def test_missing_instructions_still_works(self):
         prompt = build_system_prompt("nonexistent.md", "nonexistent.md", None)
-        self.assertIn("Output Format", prompt)
+        self.assertIn("professional Japanese-to-English subtitle translator", prompt)
+
+    def test_preamble_always_present(self):
+        prompt = build_system_prompt("nonexistent.md", "nonexistent.md", None)
+        self.assertIn("JSON array", prompt)
+        self.assertIn("translated", prompt)
 
     def test_with_project_ref(self):
         with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False) as inst:
@@ -64,84 +68,104 @@ class TestBuildSystemPrompt(unittest.TestCase):
                     os.unlink(ref.name)
 
 
-class TestFormatLinesForPrompt(unittest.TestCase):
+class TestFormatBatchInput(unittest.TestCase):
     def test_basic_formatting(self):
         events = [
             {"style": "Default", "text": "こんにちは"},
             {"style": "Speaker1", "text": "ありがとう"},
         ]
-        result = format_lines_for_prompt(events, 0)
-        self.assertEqual(result, "1|[Default] こんにちは\n2|[Speaker1] ありがとう")
+        result = json.loads(format_batch_input(events, 0))
+        self.assertEqual(len(result), 2)
+        self.assertEqual(result[0]["id"], 1)
+        self.assertEqual(result[0]["style"], "Default")
+        self.assertEqual(result[0]["text"], "こんにちは")
+        self.assertEqual(result[1]["id"], 2)
 
     def test_offset_numbering(self):
         events = [{"style": "Default", "text": "テスト"}]
-        result = format_lines_for_prompt(events, 10)
-        self.assertTrue(result.startswith("11|"))
+        result = json.loads(format_batch_input(events, 10))
+        self.assertEqual(result[0]["id"], 11)
 
     def test_empty_style(self):
         events = [{"style": "", "text": "テスト"}]
-        result = format_lines_for_prompt(events, 0)
-        self.assertEqual(result, "1|テスト")
+        result = json.loads(format_batch_input(events, 0))
+        self.assertEqual(result[0]["style"], "")
+        self.assertEqual(result[0]["text"], "テスト")
+
+    def test_output_is_valid_json(self):
+        events = [
+            {"style": "Default", "text": 'Text with "quotes" and {tags}'},
+        ]
+        result_str = format_batch_input(events, 0)
+        parsed = json.loads(result_str)
+        self.assertEqual(parsed[0]["text"], 'Text with "quotes" and {tags}')
 
 
-class TestParseTranslationResponse(unittest.TestCase):
+class TestParseStructuredResponse(unittest.TestCase):
     def test_basic_parsing(self):
-        response = "1|Hello!\n2|Thank you!\n3|Goodbye!"
-        result = parse_translation_response(response, 3, 0)
+        response = json.dumps([
+            {"id": 1, "original": "こんにちは", "translated": "Hello!"},
+            {"id": 2, "original": "ありがとう", "translated": "Thank you!"},
+            {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
+        ])
+        result = parse_structured_response(response, 3, 0)
         self.assertEqual(result, ["Hello!", "Thank you!", "Goodbye!"])
 
     def test_with_offset(self):
-        response = "11|Hello!\n12|Thank you!"
-        result = parse_translation_response(response, 2, 10)
+        response = json.dumps([
+            {"id": 11, "original": "こんにちは", "translated": "Hello!"},
+            {"id": 12, "original": "ありがとう", "translated": "Thank you!"},
+        ])
+        result = parse_structured_response(response, 2, 10)
         self.assertEqual(result, ["Hello!", "Thank you!"])
 
     def test_missing_line(self):
-        response = "1|Hello!\n3|Goodbye!"
-        result = parse_translation_response(response, 3, 0)
+        response = json.dumps([
+            {"id": 1, "original": "こんにちは", "translated": "Hello!"},
+            {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
+        ])
+        result = parse_structured_response(response, 3, 0)
         self.assertEqual(result[0], "Hello!")
-        self.assertEqual(result[1], "")  # missing line 2
+        self.assertEqual(result[1], "")
         self.assertEqual(result[2], "Goodbye!")
-
-    def test_blank_lines_in_response(self):
-        response = "\n1|Hello!\n\n2|Thank you!\n"
-        result = parse_translation_response(response, 2, 0)
-        self.assertEqual(result, ["Hello!", "Thank you!"])
-
-    def test_preserves_ass_tags(self):
-        response = "1|{\\i1}Hello{\\i0} world!"
-        result = parse_translation_response(response, 1, 0)
-        self.assertEqual(result[0], "{\\i1}Hello{\\i0} world!")
-
-    def test_text_with_pipe(self):
-        response = "1|Hello | world"
-        result = parse_translation_response(response, 1, 0)
-        self.assertEqual(result[0], "Hello | world")
-
-    def test_numbered_list_format(self):
-        response = "1. Hello!\n2. Thank you!\n3. Goodbye!"
-        result = parse_translation_response(response, 3, 0)
-        self.assertEqual(result, ["Hello!", "Thank you!", "Goodbye!"])
-
-    def test_colon_format(self):
-        response = "1: Hello!\n2: Thank you!"
-        result = parse_translation_response(response, 2, 0)
-        self.assertEqual(result, ["Hello!", "Thank you!"])
-
-    def test_code_fence_stripped(self):
-        response = "```\n1|Hello!\n2|Thank you!\n```"
-        result = parse_translation_response(response, 2, 0)
-        self.assertEqual(result, ["Hello!", "Thank you!"])
-
-    def test_style_tag_echo_stripped(self):
-        response = "1|[Default] Hello!\n2|[Speaker1] Thank you!"
-        result = parse_translation_response(response, 2, 0)
-        self.assertEqual(result, ["Hello!", "Thank you!"])
 
     def test_renumbered_from_one(self):
         """Gemini sometimes renumbers from 1 instead of using the offset."""
-        response = "1|Hello!\n2|Thank you!\n3|Goodbye!"
-        result = parse_translation_response(response, 3, 100)
+        response = json.dumps([
+            {"id": 1, "original": "a", "translated": "Hello!"},
+            {"id": 2, "original": "b", "translated": "Thank you!"},
+            {"id": 3, "original": "c", "translated": "Goodbye!"},
+        ])
+        result = parse_structured_response(response, 3, 100)
         self.assertEqual(result, ["Hello!", "Thank you!", "Goodbye!"])
+
+    def test_preserves_ass_tags(self):
+        response = json.dumps([
+            {"id": 1, "original": "test", "translated": "{\\i1}Hello{\\i0} world!"},
+        ])
+        result = parse_structured_response(response, 1, 0)
+        self.assertEqual(result[0], "{\\i1}Hello{\\i0} world!")
+
+    def test_invalid_json(self):
+        result = parse_structured_response("not json at all", 3, 0)
+        self.assertEqual(result, ["", "", ""])
+
+    def test_not_array(self):
+        result = parse_structured_response('{"key": "value"}', 1, 0)
+        self.assertEqual(result, [""])
+
+    def test_empty_array(self):
+        result = parse_structured_response("[]", 2, 0)
+        self.assertEqual(result, ["", ""])
+
+    def test_items_without_required_fields(self):
+        response = json.dumps([
+            {"id": 1, "translated": "Hello!"},
+            {"id": 2, "text": "raw"},
+        ])
+        result = parse_structured_response(response, 2, 0)
+        self.assertEqual(result[0], "Hello!")
+        self.assertEqual(result[1], "")
 
 
 class TestTranslateIntegration(unittest.TestCase):

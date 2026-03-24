@@ -4,17 +4,21 @@
 Reads a Japanese ASS file, sends dialogue lines to Gemini with translation context
 (instructions, style guide, project reference with fixed translations), and writes
 a translated ASS file preserving all timing, styles, and formatting.
+
+Uses structured JSON output for reliable 1:1 line correspondence.
 """
 
 import argparse
+import json
 import os
-import re
 import sys
+import time
 from pathlib import Path
 
 from dotenv import load_dotenv
 from google import genai
 from google.genai.types import GenerateContentConfig
+from pydantic import BaseModel
 
 from utils.ass_parser import parse_ass, write_ass
 
@@ -23,6 +27,28 @@ DEFAULT_MODEL = "gemini-2.5-flash"
 DEFAULT_BATCH_SIZE = 50
 DEFAULT_INSTRUCTIONS_PATH = "translation_instructions.md"
 STYLE_GUIDE_PATH = "style_guide.md"
+
+
+class TranslatedSubtitle(BaseModel):
+    """Schema for a single translated subtitle line."""
+
+    id: int
+    original: str
+    translated: str
+
+
+SYSTEM_PREAMBLE = """\
+You are a professional Japanese-to-English subtitle translator and localizer.
+
+You will receive batches of subtitle lines from a transcribed and timed Japanese \
+subtitle file (ASS format). The lines have already been split and timed from speech \
+recognition — your job is only to translate the text, not to change timing or structure.
+
+Each batch is a JSON array of objects with "id", "style" (speaker), and "text" (Japanese). \
+Return a JSON array with the same number of objects, each containing "id" (matching the input), \
+"original" (the input text), and "translated" (your English translation).
+
+Follow the translation instructions, style guide, and project reference below."""
 
 
 def load_text_file(path: str) -> str | None:
@@ -39,7 +65,7 @@ def build_system_prompt(
     project_ref_path: str | None,
 ) -> str:
     """Build the system instruction from translation context files."""
-    parts = []
+    parts = [SYSTEM_PREAMBLE]
 
     instructions = load_text_file(instructions_path)
     if instructions:
@@ -58,76 +84,46 @@ def build_system_prompt(
         else:
             print(f"  Warning: project reference not found: {project_ref_path}", file=sys.stderr)
 
-    parts.append(
-        "## Output Format\n\n"
-        "You will receive numbered subtitle lines. Return ONLY the translated lines "
-        "in the exact same numbered format. Do not add or remove lines. "
-        "Do not include the original Japanese. Each line must start with its number "
-        "followed by a pipe and the translated text.\n\n"
-        "Example input:\n"
-        "1|[Speaker1] こんにちは\n"
-        "2|[Speaker2] ありがとう\n\n"
-        "Example output:\n"
-        "1|Hello!\n"
-        "2|Thank you!\n\n"
-        "If a line is empty or contains only whitespace, return the number with an empty text.\n"
-        "Preserve any ASS override tags like {\\i1}text{\\i0} in the translation."
-    )
-
     return "\n\n---\n\n".join(parts)
 
 
-def format_lines_for_prompt(events: list[dict], start_idx: int) -> str:
-    """Format dialogue events as numbered lines for the Gemini prompt."""
-    lines = []
+def format_batch_input(events: list[dict], start_idx: int) -> str:
+    """Format dialogue events as a JSON array for the Gemini prompt."""
+    items = []
     for i, event in enumerate(events):
-        num = start_idx + i + 1
-        style_tag = f"[{event['style']}] " if event["style"] else ""
-        lines.append(f"{num}|{style_tag}{event['text']}")
-    return "\n".join(lines)
+        items.append({
+            "id": start_idx + i + 1,
+            "style": event["style"],
+            "text": event["text"],
+        })
+    return json.dumps(items, ensure_ascii=False)
 
 
-def parse_translation_response(response_text: str, expected_count: int, start_idx: int) -> list[str]:
-    """Parse numbered translation lines from Gemini response.
+def parse_structured_response(response_text: str, expected_count: int, start_idx: int) -> list[str]:
+    """Parse structured JSON response into ordered translation list.
 
-    Handles multiple formats Gemini may return:
-      - "1|text" (requested format)
-      - "1. text" (numbered list)
-      - "1: text" (colon-separated)
-      - Lines inside ```code blocks```
-
-    Returns a list of translated text strings in order.
+    Expects a JSON array of {id, original, translated} objects.
+    Falls back gracefully if the structure is slightly off.
     """
-    # Strip markdown code fences if present
-    text = response_text.strip()
-    if text.startswith("```"):
-        lines = text.splitlines()
-        # Remove first and last ``` lines
-        if lines[0].startswith("```"):
-            lines = lines[1:]
-        if lines and lines[-1].strip() == "```":
-            lines = lines[:-1]
-        text = "\n".join(lines)
+    try:
+        data = json.loads(response_text)
+    except json.JSONDecodeError:
+        print(f"  Warning: response is not valid JSON", file=sys.stderr)
+        return [""] * expected_count
 
+    if not isinstance(data, list):
+        print(f"  Warning: response is not a JSON array", file=sys.stderr)
+        return [""] * expected_count
+
+    # Build lookup by id
     translations = {}
-    for line in text.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        # Try multiple numbered formats: "N|text", "N. text", "N: text"
-        m = re.match(r"^(\d+)\s*[|.:)\-]\s*(.*)$", line)
-        if m:
-            num = int(m.group(1))
-            translated = m.group(2).strip()
-            # Skip if the "translation" is just the style tag repeated (Gemini echo)
-            if translated.startswith("[") and "] " in translated:
-                translated = translated.split("] ", 1)[1]
-            translations[num] = translated
+    for item in data:
+        if isinstance(item, dict) and "id" in item and "translated" in item:
+            translations[item["id"]] = item["translated"]
 
-    # Check if Gemini renumbered from 1 instead of using the expected offset
+    # Check if IDs are 1-based instead of using expected offset
     first_expected = start_idx + 1
     if first_expected not in translations and 1 in translations:
-        # Gemini returned 1-based numbering — shift all keys
         shifted = {}
         for num, val in translations.items():
             shifted[num + start_idx] = val
@@ -160,9 +156,7 @@ def translate_batch(
     start_idx: int,
 ) -> list[str]:
     """Translate a batch of events via Gemini, with retry on high miss rate."""
-    import time
-
-    user_content = format_lines_for_prompt(events, start_idx)
+    user_content = format_batch_input(events, start_idx)
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -171,7 +165,9 @@ def translate_batch(
                 contents=user_content,
                 config=GenerateContentConfig(
                     system_instruction=system_prompt,
-                    temperature=0.3,
+                    response_mime_type="application/json",
+                    response_schema=list[TranslatedSubtitle],
+                    temperature=0.1,
                 ),
             )
         except Exception as e:
@@ -181,7 +177,7 @@ def translate_batch(
                 continue
             raise
 
-        result = parse_translation_response(response.text, len(events), start_idx)
+        result = parse_structured_response(response.text, len(events), start_idx)
         missing = sum(1 for t in result if t == "")
         if missing == 0 or attempt == MAX_RETRIES:
             return result
@@ -319,7 +315,6 @@ def main():
     import subprocess
     result = subprocess.run(compare_args, capture_output=True, text=True)
     if result.returncode == 0:
-        # Print last few lines which contain the output path
         for line in result.stdout.strip().splitlines()[-3:]:
             print(f"  {line}")
     else:
