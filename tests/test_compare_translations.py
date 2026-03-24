@@ -54,7 +54,12 @@ class TestGenerateComparisonHtml(unittest.TestCase):
 
     def test_short_translation_highlighted(self):
         source = [
-            {"start": 0, "end": 1, "style": "Default", "text": "これは長いテキストです"},
+            {
+                "start": 0,
+                "end": 1,
+                "style": "Default",
+                "text": "これは長いテキストです",
+            },
         ]
         translated = [
             {"start": 0, "end": 1, "style": "Default", "text": "X"},
@@ -78,7 +83,9 @@ class TestGenerateComparisonHtml(unittest.TestCase):
 
     def test_special_chars_escaped(self):
         source = [{"start": 0, "end": 1, "style": "Default", "text": "A < B & C > D"}]
-        translated = [{"start": 0, "end": 1, "style": "Default", "text": "A < B & C > D"}]
+        translated = [
+            {"start": 0, "end": 1, "style": "Default", "text": "A < B & C > D"}
+        ]
         generate_comparison_html(source, translated, self.html_path)
         content = open(self.html_path, encoding="utf-8").read()
         self.assertIn("&amp;", content)

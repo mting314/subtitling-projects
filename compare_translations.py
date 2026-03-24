@@ -115,8 +115,12 @@ def generate_comparison_html(
             row_class = "severity-yellow"
             data_filter = 'data-issue-long="1"'
 
-        escaped_jp = src["text"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        escaped_en = tgt["text"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        escaped_jp = (
+            src["text"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        )
+        escaped_en = (
+            tgt["text"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        )
 
         table_rows.append(
             f'<tr class="{row_class}" {data_filter} '
@@ -128,8 +132,8 @@ def generate_comparison_html(
             f"<td>{seconds_to_timestamp(src['end'])}</td>"
             f"<td>{dur:.2f}s</td>"
             f"<td>{src['style']}</td>"
-            f"<td class=\"jp-text\">{escaped_jp}</td>"
-            f"<td class=\"en-text\">{escaped_en}</td>"
+            f'<td class="jp-text">{escaped_jp}</td>'
+            f'<td class="en-text">{escaped_en}</td>'
             f"<td>{jp_chars}/{en_chars}</td>"
             f"</tr>"
         )
@@ -137,12 +141,20 @@ def generate_comparison_html(
     rows_html = "\n".join(table_rows)
 
     # Count issues for filter buttons
-    short_count = sum(1 for i in range(num_lines)
-                      if len(source_lines[i]["text"]) > 5
-                      and len(translated_lines[i]["text"]) / max(len(source_lines[i]["text"]), 1) < 0.3)
-    long_count = sum(1 for i in range(num_lines)
-                     if len(source_lines[i]["text"]) > 3
-                     and len(translated_lines[i]["text"]) / max(len(source_lines[i]["text"]), 1) > 3.0)
+    short_count = sum(
+        1
+        for i in range(num_lines)
+        if len(source_lines[i]["text"]) > 5
+        and len(translated_lines[i]["text"]) / max(len(source_lines[i]["text"]), 1)
+        < 0.3
+    )
+    long_count = sum(
+        1
+        for i in range(num_lines)
+        if len(source_lines[i]["text"]) > 3
+        and len(translated_lines[i]["text"]) / max(len(source_lines[i]["text"]), 1)
+        > 3.0
+    )
 
     html = f"""\
 <!DOCTYPE html>
@@ -282,19 +294,23 @@ def main():
         description="Generate side-by-side JP vs EN comparison report for translated subtitles."
     )
     parser.add_argument(
-        "--source", required=True,
+        "--source",
+        required=True,
         help="Source ASS file (Japanese)",
     )
     parser.add_argument(
-        "--translated", required=True,
+        "--translated",
+        required=True,
         help="Translated ASS file (English)",
     )
     parser.add_argument(
-        "--video", default=None,
+        "--video",
+        default=None,
         help="Path to source video file for embedded player",
     )
     parser.add_argument(
-        "--title", default=None,
+        "--title",
+        default=None,
         help="Report title (default: translated filename)",
     )
 
@@ -328,7 +344,9 @@ def main():
             file=sys.stderr,
         )
 
-    html_path = translated_path.with_stem(translated_path.stem + "_comparison").with_suffix(".html")
+    html_path = translated_path.with_stem(
+        translated_path.stem + "_comparison"
+    ).with_suffix(".html")
     generate_comparison_html(
         source_lines,
         translated_lines,

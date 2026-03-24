@@ -56,7 +56,9 @@ class TestBuildSystemPrompt(unittest.TestCase):
         with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False) as inst:
             inst.write("Instructions")
             inst.flush()
-            with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False) as ref:
+            with tempfile.NamedTemporaryFile(
+                mode="w", suffix=".md", delete=False
+            ) as ref:
                 ref.write("# Project Reference\nMailbox!")
                 ref.flush()
                 try:
@@ -103,27 +105,33 @@ class TestFormatBatchInput(unittest.TestCase):
 
 class TestParseStructuredResponse(unittest.TestCase):
     def test_basic_parsing(self):
-        response = json.dumps([
-            {"id": 1, "original": "こんにちは", "translated": "Hello!"},
-            {"id": 2, "original": "ありがとう", "translated": "Thank you!"},
-            {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 1, "original": "こんにちは", "translated": "Hello!"},
+                {"id": 2, "original": "ありがとう", "translated": "Thank you!"},
+                {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
+            ]
+        )
         result = parse_structured_response(response, 3, 0)
         self.assertEqual(result, ["Hello!", "Thank you!", "Goodbye!"])
 
     def test_with_offset(self):
-        response = json.dumps([
-            {"id": 11, "original": "こんにちは", "translated": "Hello!"},
-            {"id": 12, "original": "ありがとう", "translated": "Thank you!"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 11, "original": "こんにちは", "translated": "Hello!"},
+                {"id": 12, "original": "ありがとう", "translated": "Thank you!"},
+            ]
+        )
         result = parse_structured_response(response, 2, 10)
         self.assertEqual(result, ["Hello!", "Thank you!"])
 
     def test_missing_line(self):
-        response = json.dumps([
-            {"id": 1, "original": "こんにちは", "translated": "Hello!"},
-            {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 1, "original": "こんにちは", "translated": "Hello!"},
+                {"id": 3, "original": "さようなら", "translated": "Goodbye!"},
+            ]
+        )
         result = parse_structured_response(response, 3, 0)
         self.assertEqual(result[0], "Hello!")
         self.assertEqual(result[1], "")
@@ -131,18 +139,22 @@ class TestParseStructuredResponse(unittest.TestCase):
 
     def test_renumbered_from_one(self):
         """Gemini sometimes renumbers from 1 instead of using the offset."""
-        response = json.dumps([
-            {"id": 1, "original": "a", "translated": "Hello!"},
-            {"id": 2, "original": "b", "translated": "Thank you!"},
-            {"id": 3, "original": "c", "translated": "Goodbye!"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 1, "original": "a", "translated": "Hello!"},
+                {"id": 2, "original": "b", "translated": "Thank you!"},
+                {"id": 3, "original": "c", "translated": "Goodbye!"},
+            ]
+        )
         result = parse_structured_response(response, 3, 100)
         self.assertEqual(result, ["Hello!", "Thank you!", "Goodbye!"])
 
     def test_preserves_ass_tags(self):
-        response = json.dumps([
-            {"id": 1, "original": "test", "translated": "{\\i1}Hello{\\i0} world!"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 1, "original": "test", "translated": "{\\i1}Hello{\\i0} world!"},
+            ]
+        )
         result = parse_structured_response(response, 1, 0)
         self.assertEqual(result[0], "{\\i1}Hello{\\i0} world!")
 
@@ -159,10 +171,12 @@ class TestParseStructuredResponse(unittest.TestCase):
         self.assertEqual(result, ["", ""])
 
     def test_items_without_required_fields(self):
-        response = json.dumps([
-            {"id": 1, "translated": "Hello!"},
-            {"id": 2, "text": "raw"},
-        ])
+        response = json.dumps(
+            [
+                {"id": 1, "translated": "Hello!"},
+                {"id": 2, "text": "raw"},
+            ]
+        )
         result = parse_structured_response(response, 2, 0)
         self.assertEqual(result[0], "Hello!")
         self.assertEqual(result[1], "")
@@ -186,6 +200,7 @@ class TestTranslateIntegration(unittest.TestCase):
 
     def test_ass_parsing_preserves_comments(self):
         from utils.ass_parser import parse_ass
+
         data = parse_ass(self.tmpfile.name)
         types = [e["type"] for e in data["events"]]
         self.assertIn("Comment", types)

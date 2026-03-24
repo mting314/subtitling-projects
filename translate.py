@@ -69,14 +69,20 @@ def build_system_prompt(
     if instructions:
         parts.append(instructions)
     else:
-        print(f"  Warning: instructions file not found: {instructions_path}", file=sys.stderr)
+        print(
+            f"  Warning: instructions file not found: {instructions_path}",
+            file=sys.stderr,
+        )
 
     if project_ref_path:
         project_ref = load_text_file(project_ref_path)
         if project_ref:
             parts.append(project_ref)
         else:
-            print(f"  Warning: project reference not found: {project_ref_path}", file=sys.stderr)
+            print(
+                f"  Warning: project reference not found: {project_ref_path}",
+                file=sys.stderr,
+            )
 
     return "\n\n---\n\n".join(parts)
 
@@ -85,15 +91,19 @@ def format_batch_input(events: list[dict], start_idx: int) -> str:
     """Format dialogue events as a JSON array for the Gemini prompt."""
     items = []
     for i, event in enumerate(events):
-        items.append({
-            "id": start_idx + i + 1,
-            "style": event["style"],
-            "text": event["text"],
-        })
+        items.append(
+            {
+                "id": start_idx + i + 1,
+                "style": event["style"],
+                "text": event["text"],
+            }
+        )
     return json.dumps(items, ensure_ascii=False)
 
 
-def parse_structured_response(response_text: str, expected_count: int, start_idx: int) -> list[str]:
+def parse_structured_response(
+    response_text: str, expected_count: int, start_idx: int
+) -> list[str]:
     """Parse structured JSON response into ordered translation list.
 
     Expects a JSON array of {id, original, translated} objects.
@@ -134,7 +144,10 @@ def parse_structured_response(response_text: str, expected_count: int, start_idx
             result.append("")
 
     if missing > 0:
-        print(f"  Warning: {missing}/{expected_count} lines missing from response", file=sys.stderr)
+        print(
+            f"  Warning: {missing}/{expected_count} lines missing from response",
+            file=sys.stderr,
+        )
 
     return result
 
@@ -166,7 +179,10 @@ def translate_batch(
             )
         except Exception as e:
             if attempt < MAX_RETRIES:
-                print(f"  API error: {e.__class__.__name__}, retrying in 5s...", file=sys.stderr)
+                print(
+                    f"  API error: {e.__class__.__name__}, retrying in 5s...",
+                    file=sys.stderr,
+                )
                 time.sleep(5)
                 continue
             raise
@@ -175,7 +191,9 @@ def translate_batch(
         missing = sum(1 for t in result if t == "")
         if missing == 0 or attempt == MAX_RETRIES:
             return result
-        print(f"  Retrying batch (attempt {attempt + 1}/{MAX_RETRIES}, {missing} missing)...")
+        print(
+            f"  Retrying batch (attempt {attempt + 1}/{MAX_RETRIES}, {missing} missing)..."
+        )
         time.sleep(2)
 
     return result
@@ -188,35 +206,44 @@ def main():
         "Preserves timing, styles, and formatting. Sends lines in batches."
     )
     parser.add_argument(
-        "--input", required=True,
+        "--input",
+        required=True,
         help="Source ASS file (Japanese)",
     )
     parser.add_argument(
-        "--output", default=None,
+        "--output",
+        default=None,
         help="Output ASS file (English). Default: {input_stem}_en.ass",
     )
     parser.add_argument(
-        "--project", default=None,
+        "--project",
+        default=None,
         help="Path to project translation_reference.md",
     )
     parser.add_argument(
-        "--instructions", default=DEFAULT_INSTRUCTIONS_PATH,
+        "--instructions",
+        default=DEFAULT_INSTRUCTIONS_PATH,
         help=f"Path to translation instructions (default: {DEFAULT_INSTRUCTIONS_PATH})",
     )
     parser.add_argument(
-        "--model", default=DEFAULT_MODEL,
+        "--model",
+        default=DEFAULT_MODEL,
         help=f"Gemini model to use (default: {DEFAULT_MODEL})",
     )
     parser.add_argument(
-        "--batch-size", type=int, default=DEFAULT_BATCH_SIZE,
+        "--batch-size",
+        type=int,
+        default=DEFAULT_BATCH_SIZE,
         help=f"Lines per API request (default: {DEFAULT_BATCH_SIZE})",
     )
     parser.add_argument(
-        "--project-id", default=None,
+        "--project-id",
+        default=None,
         help="GCP project ID (default: $GOOGLE_CLOUD_PROJECT)",
     )
     parser.add_argument(
-        "--video", default=None,
+        "--video",
+        default=None,
         help="Video path for comparison report",
     )
 
@@ -232,7 +259,11 @@ def main():
     if not input_path.is_file():
         parser.error(f"Input file not found: {args.input}")
 
-    output_path = Path(args.output) if args.output else input_path.with_stem(input_path.stem + "_en")
+    output_path = (
+        Path(args.output)
+        if args.output
+        else input_path.with_stem(input_path.stem + "_en")
+    )
 
     print(f"\n{'=' * 60}")
     print("Gemini Translation")
@@ -298,20 +329,27 @@ def main():
     # Auto-run comparison report
     print("\n  Generating comparison report...")
     compare_args = [
-        sys.executable, "compare_translations.py",
-        "--source", str(input_path),
-        "--translated", str(output_path),
+        sys.executable,
+        "compare_translations.py",
+        "--source",
+        str(input_path),
+        "--translated",
+        str(output_path),
     ]
     if args.video:
         compare_args.extend(["--video", args.video])
 
     import subprocess
+
     result = subprocess.run(compare_args, capture_output=True, text=True)
     if result.returncode == 0:
         for line in result.stdout.strip().splitlines()[-3:]:
             print(f"  {line}")
     else:
-        print(f"  Warning: comparison report failed: {result.stderr[:200]}", file=sys.stderr)
+        print(
+            f"  Warning: comparison report failed: {result.stderr[:200]}",
+            file=sys.stderr,
+        )
 
     print(f"\nTranslation complete: {output_path}")
 

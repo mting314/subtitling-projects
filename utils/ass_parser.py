@@ -8,16 +8,16 @@ from pathlib import Path
 # Format: Type: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 _EVENT_RE = re.compile(
     r"^(Dialogue|Comment):\s*"
-    r"(\d+),"           # Layer
+    r"(\d+),"  # Layer
     r"(\d+:\d{2}:\d{2}\.\d{2}),"  # Start
     r"(\d+:\d{2}:\d{2}\.\d{2}),"  # End
-    r"([^,]*),"         # Style
-    r"([^,]*),"         # Name
-    r"(\d+),"           # MarginL
-    r"(\d+),"           # MarginR
-    r"(\d+),"           # MarginV
-    r"([^,]*),"         # Effect
-    r"(.*)"             # Text (may contain commas)
+    r"([^,]*),"  # Style
+    r"([^,]*),"  # Name
+    r"(\d+),"  # MarginL
+    r"(\d+),"  # MarginR
+    r"(\d+),"  # MarginV
+    r"([^,]*),"  # Effect
+    r"(.*)"  # Text (may contain commas)
 )
 
 
@@ -103,19 +103,21 @@ def parse_ass(path: str | Path) -> dict:
             else:
                 m = _EVENT_RE.match(stripped)
                 if m:
-                    result["events"].append({
-                        "type": m.group(1),
-                        "layer": int(m.group(2)),
-                        "start": m.group(3),
-                        "end": m.group(4),
-                        "style": m.group(5),
-                        "name": m.group(6),
-                        "marginl": int(m.group(7)),
-                        "marginr": int(m.group(8)),
-                        "marginv": int(m.group(9)),
-                        "effect": m.group(10),
-                        "text": m.group(11),
-                    })
+                    result["events"].append(
+                        {
+                            "type": m.group(1),
+                            "layer": int(m.group(2)),
+                            "start": m.group(3),
+                            "end": m.group(4),
+                            "style": m.group(5),
+                            "name": m.group(6),
+                            "marginl": int(m.group(7)),
+                            "marginr": int(m.group(8)),
+                            "marginv": int(m.group(9)),
+                            "effect": m.group(10),
+                            "text": m.group(11),
+                        }
+                    )
 
     result["script_info"] = "\n".join(script_info_lines)
     result["garbage"] = "\n".join(garbage_lines)
