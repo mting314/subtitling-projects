@@ -115,8 +115,17 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 ### Translation context files
 
-- **`translation_instructions.md`** — top-level translation guidance (tone, formatting, honorifics)
+- **`translation_instructions.md`** — AI translator system prompt: cross-line context rules, line-ending flow, filler word handling, glossary enforcement, output schema
+- **`style_guide.md`** — subtitle formatting, punctuation, pause rules. Project-specific terminology and speaker styles are delegated to `translation_reference.md`
 - **Per-project `translation_reference.md`** — character context, fixed translations for recurring lines, franchise terminology. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
+
+### Key translation technical notes
+
+- **Structured output**: Uses Gemini's `response_schema` with a `TranslatedSubtitle` Pydantic model (`id`, `original`, `translated`) for reliable JSON output. No text-format parsing needed
+- **Cross-line context**: Prompt instructs the model to read neighboring lines before translating, so split sentences flow naturally across subtitle lines
+- **Filler word handling**: Standalone fillers ("um", "uh", "ah") are dropped; transitional phrases ("Well then,", "You know,") are kept
+- **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line
+- **Glossary enforcement**: Fixed translations from `translation_reference.md` are used verbatim for recurring scripted lines
 
 ### Key technical notes
 
