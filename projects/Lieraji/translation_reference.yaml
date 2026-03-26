@@ -1,0 +1,58 @@
+# Lieraji Translation Reference
+
+project:
+  name: "Lieraji"
+  description: >-
+    Liella no Radio Japan (リエラのRadio Japan), a weekly radio show
+    for the Love Live! Superstar!! franchise. Features voice actors
+    from Liella! discussing the franchise, reading listener mail,
+    and playing games.
+  franchise: "Love Live! Superstar!!"
+  group: "Liella!"
+  school: "Yuigaoka Girls' High School (結ヶ丘女子高等学校)"
+  format: "Weekly radio show, ~30 minutes per episode"
+
+glossary: []
+
+segments:
+  - term: "メールボックス"
+    translation: "Mailbox"
+  - term: "リエラジチャレンジ"
+    translation: "Lieraji Challenge"
+  - term: "ヒトコト"
+    translation: "Hitokoto (One Word)"
+
+replacements:
+  - original: "みなさーん / こんにちはー"
+    translation: "Everyone, / good afternoon!"
+    context: "Opening greeting (all hosts)"
+  - original: "渋谷花音役、さやりんこと、伊達さゆりです"
+    translation: "This is Sayuri Date, a.k.a. Sayurin, playing the role of Kanon Shibuya."
+    context: "Self-intro (Sayu)"
+  - original: "鬼塚冬毬役、さくちゃんこと、坂倉花です"
+    translation: "This is Sakura Sakakura, a.k.a. Sakuchan, playing the role of Tomari Onitsuka."
+    context: "Self-intro (Saku)"
+  - original: "鬼塚夏美役、えもりんこと、絵森彩です"
+    translation: "This is Aya Emori, a.k.a. Emorin, playing the role of Natsumi Onitsuka."
+    context: "Self-intro (Emo)"
+  - original: "私たち / リエラです！よろしくお願いしまーす！"
+    translation: "We are... / Liella! We'll be in your care!"
+    context: "Group intro"
+  - original: "由宇女ランチタイム放送局、リエラジ！レッツスーパー... / スタート！"
+    translation: "Yuigaoka Lunchtime Radio, Lieraji! Let's Super... / Start!"
+    context: "Show kickoff"
+  - original: "メールボックス！"
+    translation: "Mailbox!"
+    context: "Mail segment intro"
+  - original: "メールありがとう"
+    translation: "Thanks for the mail!"
+    context: "After reading sender name"
+  - original: "ラジオネーム"
+    translation: "Radio name:"
+    context: "Before reading listener pen name"
+  - original: "それではまた来週"
+    translation: "See you again next week!"
+    context: "Sign-off"
+  - original: "バイバーイ"
+    translation: "Bye-bye!"
+    context: "Final farewell"
