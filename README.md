@@ -472,6 +472,8 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - ~~**Template-based translation for episodic programs**~~: Resolved — `translate.py` uses per-project `translation_reference.md` files with fixed translations for recurring scripted lines (intros, greetings, segment names), character context, and franchise terminology. References exist for Lieraji and Project Sekai AfterTalks
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
+- **Better GCS storage management**: Organize uploaded audio into per-project directories instead of a flat `tmp/` prefix. Add cleanup logic so temporary GCS files are removed when transcription is interrupted or fails (e.g., via signal handler or atexit).
+- **Vector embeddings for translation context**: Explore embedding finished JP→EN transcription pairs to build a retrieval-augmented translation agent. Could improve consistency across projects by surfacing similar previously-translated lines as few-shot examples for Gemini.
 
 ## References
 
