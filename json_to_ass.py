@@ -15,14 +15,16 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+import yaml
+
 from quality_report import write_reports
 from utils.time import parse_offset, seconds_to_timestamp
 
 
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
 
-# ASS file template
-ASS_HEADER_TEMPLATE = """\
+# ASS file template — split into header and events so styles can be injected
+ASS_SCRIPT_INFO = """\
 [Script Info]
 ; Generated from speech-to-text transcript
 Title: {title}
@@ -32,15 +34,35 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
+"""
 
-[V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
-Style: JP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
+ASS_STYLES_FORMAT = (
+    "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, "
+    "OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, "
+    "ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, "
+    "Alignment, MarginL, MarginR, MarginV, Encoding"
+)
 
+ASS_DEFAULT_STYLES = [
+    "Style: Default,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1",
+    "Style: JP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1",
+]
+
+ASS_EVENTS_HEADER = """\
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
+
+# Auto-assigned colors for diarized speakers when no speaker map is provided.
+# Colors are ASS &HAABBGGRR format (alpha, blue, green, red).
+SPEAKER_COLORS = [
+    "&H0000FFFF",  # yellow
+    "&H00FF8080",  # light blue
+    "&H008080FF",  # salmon/coral
+    "&H0080FF80",  # light green
+    "&H00FF80FF",  # pink/magenta
+    "&H0080FFFF",  # light orange
+]
 
 DEFAULT_PAUSE_THRESHOLD = 1.0
 DEFAULT_MAX_LINE_CHARS = 50
@@ -49,6 +71,154 @@ DEFAULT_LEAD_IN = 0.125
 DEFAULT_LEAD_OUT = 0.5
 DEFAULT_SNAP_GAP = 0.25
 DEFAULT_MIN_DURATION = 0.5
+
+
+def _make_ass_style_line(
+    name: str,
+    primary_color: str = "&H00FFFFFF",
+    outline_color: str = "&H00000000",
+    alignment: int = 2,
+) -> str:
+    """Build an ASS Style: line with the given parameters, using defaults for the rest."""
+    return (
+        f"Style: {name},Lato ExtraBold,72,{primary_color},&H000000FF,"
+        f"{outline_color},&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,"
+        f"{alignment},200,200,60,1"
+    )
+
+
+def load_speaker_map(map_path: str) -> dict:
+    """Load a speaker_map.yaml and resolve speaker profiles.
+
+    Returns a dict mapping API labels to dicts with 'character' and 'ass_style' keys:
+        {"1": {"character": "Mizuki Akiyama", "ass_style": {...}}, ...}
+
+    The speaker profile YAML files are resolved relative to the speaker map's
+    project directory (looks for a sibling or ancestor ``speakers/`` dir).
+    """
+    map_file = Path(map_path)
+    with open(map_file, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+
+    speakers_config = data.get("speakers", {})
+    if not speakers_config:
+        return {}
+
+    # Find the speakers/ directory — walk up from the map file's parent
+    speakers_dir = None
+    search = map_file.parent
+    for _ in range(5):  # don't walk too far up
+        candidate = search / "speakers"
+        if candidate.is_dir():
+            speakers_dir = candidate
+            break
+        search = search.parent
+
+    result = {}
+    for label, entry in speakers_config.items():
+        profile_name = entry.get("profile", "")
+        target_role = entry.get("role")
+
+        # Load the speaker profile YAML
+        character = label  # fallback to raw label
+        ass_style = {}
+
+        if speakers_dir and profile_name:
+            profile_path = speakers_dir / f"{profile_name}.yaml"
+            if profile_path.exists():
+                with open(profile_path, "r", encoding="utf-8") as f:
+                    profile = yaml.safe_load(f)
+
+                roles = profile.get("roles", [])
+                role = None
+                if target_role:
+                    # Find the matching role by character name
+                    role = next(
+                        (r for r in roles if r.get("character") == target_role),
+                        None,
+                    )
+                if role is None and roles:
+                    role = roles[0]  # default to first role
+
+                if role:
+                    character = role.get("character", character)
+                    ass_style = role.get("ass_style", {})
+
+        result[str(label)] = {"character": character, "ass_style": ass_style}
+
+    return result
+
+
+def generate_speaker_styles(
+    lines: list[dict], speaker_map: dict | None = None
+) -> list[str]:
+    """Generate ASS Style: lines for each unique speaker in the dialogue lines.
+
+    With speaker_map: uses character names and role-level colors.
+    Without speaker_map: auto-assigns colors from SPEAKER_COLORS for each unique
+    label that isn't a built-in style (Default, JP).
+    """
+    # Collect unique styles from dialogue lines
+    unique_styles = []
+    seen = set()
+    for line in lines:
+        s = line["style"]
+        if s not in seen:
+            seen.add(s)
+            unique_styles.append(s)
+
+    # Built-in styles that already have definitions
+    builtin = {"Default", "JP"}
+
+    styles = []
+    if speaker_map:
+        # Generate named styles from the map
+        for style_name in unique_styles:
+            if style_name in builtin:
+                continue
+            entry = speaker_map.get(style_name)
+            if entry:
+                ass = entry.get("ass_style", {})
+                styles.append(
+                    _make_ass_style_line(
+                        entry["character"],
+                        primary_color=ass.get("primary_color", "&H00FFFFFF"),
+                        outline_color=ass.get("outline_color", "&H00000000"),
+                        alignment=ass.get("alignment", 2),
+                    )
+                )
+            else:
+                # Label exists in dialogue but not in the map — auto-color
+                idx = len(styles) % len(SPEAKER_COLORS)
+                styles.append(
+                    _make_ass_style_line(style_name, primary_color=SPEAKER_COLORS[idx])
+                )
+    else:
+        # No map — auto-color for each non-builtin style
+        color_idx = 0
+        for style_name in unique_styles:
+            if style_name in builtin:
+                continue
+            styles.append(
+                _make_ass_style_line(
+                    style_name,
+                    primary_color=SPEAKER_COLORS[color_idx % len(SPEAKER_COLORS)],
+                )
+            )
+            color_idx += 1
+
+    return styles
+
+
+def remap_styles(lines: list[dict], speaker_map: dict) -> None:
+    """Replace raw API labels with character names in dialogue lines.
+
+    Mutates lines in place.
+    """
+    for line in lines:
+        entry = speaker_map.get(line["style"])
+        if entry:
+            line["style"] = entry["character"]
 
 
 def load_transcript(input_path: str) -> list[dict]:
@@ -450,9 +620,23 @@ def enforce_min_duration(lines: list[dict], min_dur: float) -> int:
     return count
 
 
-def lines_to_ass(lines: list[dict], title: str) -> str:
-    """Convert dialogue lines to a complete ASS file string."""
-    content = ASS_HEADER_TEMPLATE.format(title=title)
+def lines_to_ass(
+    lines: list[dict], title: str, speaker_styles: list[str] | None = None
+) -> str:
+    """Convert dialogue lines to a complete ASS file string.
+
+    speaker_styles: optional list of additional ASS Style: lines to inject
+    (e.g., per-speaker styles from generate_speaker_styles).
+    """
+    content = ASS_SCRIPT_INFO.format(title=title)
+    content += "\n[V4+ Styles]\n"
+    content += ASS_STYLES_FORMAT + "\n"
+    for s in ASS_DEFAULT_STYLES:
+        content += s + "\n"
+    if speaker_styles:
+        for s in speaker_styles:
+            content += s + "\n"
+    content += "\n" + ASS_EVENTS_HEADER
     for line in lines:
         start_ass = seconds_to_timestamp(line["start"])
         end_ass = seconds_to_timestamp(line["end"])
@@ -519,6 +703,11 @@ def main():
         default=None,
         help="Path to source video file. Embeds a player in the HTML report for click-to-seek",
     )
+    parser.add_argument(
+        "--speaker-map",
+        default=None,
+        help="Path to speaker_map.yaml mapping API speaker labels to speaker profiles with character names and colors",
+    )
 
     args = parser.parse_args()
 
@@ -571,8 +760,27 @@ def main():
             f"  Extended {extended} line(s) to meet {args.min_duration}s minimum duration"
         )
 
+    # Load speaker map if provided
+    speaker_map = None
+    if args.speaker_map:
+        print(f"\n  Loading speaker map: {args.speaker_map}")
+        speaker_map = load_speaker_map(args.speaker_map)
+        for label, entry in speaker_map.items():
+            print(f"    {label} -> {entry['character']}")
+
+    # Generate speaker styles BEFORE remapping (styles reference raw labels)
+    builtin = {"Default", "JP"}
+    has_speaker_styles = any(line["style"] not in builtin for line in lines)
+    speaker_styles = None
+    if has_speaker_styles:
+        speaker_styles = generate_speaker_styles(lines, speaker_map)
+
+    # Remap raw labels to character names in dialogue lines
+    if speaker_map:
+        remap_styles(lines, speaker_map)
+
     # Generate ASS
-    ass_content = lines_to_ass(lines, title)
+    ass_content = lines_to_ass(lines, title, speaker_styles=speaker_styles)
 
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)

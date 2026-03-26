@@ -8,13 +8,18 @@ import unittest
 from json_to_ass import (
     _get_word_time,
     _emit_line,
+    _make_ass_style_line,
     _resolve_style,
     extract_dialogue_lines,
+    generate_speaker_styles,
+    load_speaker_map,
     load_transcript,
     lines_to_ass,
     pad_timing,
+    remap_styles,
     snap_gaps,
     enforce_min_duration,
+    SPEAKER_COLORS,
 )
 from quality_report import analyze_quality
 from utils.time import seconds_to_timestamp
@@ -557,6 +562,295 @@ class TestEnforceMinDuration(unittest.TestCase):
         ]
         count = enforce_min_duration(lines, 0.5)
         self.assertEqual(count, 2)
+
+
+class TestGenerateSpeakerStylesNoMap(unittest.TestCase):
+    """Auto-colored styles for raw speaker labels (no speaker map)."""
+
+    def _line(self, start, end, style="JP"):
+        return {"start": start, "end": end, "style": style, "text": "テスト"}
+
+    def test_auto_colors_for_diarized_labels(self):
+        lines = [self._line(1.0, 2.0, "1"), self._line(3.0, 4.0, "2")]
+        styles = generate_speaker_styles(lines)
+        self.assertEqual(len(styles), 2)
+        self.assertIn("Style: 1,", styles[0])
+        self.assertIn("Style: 2,", styles[1])
+        # Check they got different colors
+        self.assertIn(SPEAKER_COLORS[0], styles[0])
+        self.assertIn(SPEAKER_COLORS[1], styles[1])
+
+    def test_builtin_styles_excluded(self):
+        lines = [self._line(1.0, 2.0, "JP"), self._line(3.0, 4.0, "Default")]
+        styles = generate_speaker_styles(lines)
+        self.assertEqual(len(styles), 0)
+
+    def test_mixed_builtin_and_speaker(self):
+        lines = [
+            self._line(1.0, 2.0, "JP"),
+            self._line(3.0, 4.0, "1"),
+        ]
+        styles = generate_speaker_styles(lines)
+        self.assertEqual(len(styles), 1)
+        self.assertIn("Style: 1,", styles[0])
+
+    def test_color_cycling(self):
+        """More speakers than colors wraps around."""
+        lines = [self._line(float(i), float(i + 1), str(i)) for i in range(8)]
+        styles = generate_speaker_styles(lines)
+        self.assertEqual(len(styles), 8)
+        # Colors should cycle
+        self.assertIn(SPEAKER_COLORS[0], styles[0])
+        self.assertIn(SPEAKER_COLORS[6 % len(SPEAKER_COLORS)], styles[6])
+
+
+class TestGenerateSpeakerStylesWithMap(unittest.TestCase):
+    """Named styles from speaker map with profile colors."""
+
+    def _line(self, start, end, style="JP"):
+        return {"start": start, "end": end, "style": style, "text": "テスト"}
+
+    def test_named_styles_from_map(self):
+        # generate_speaker_styles is called BEFORE remap_styles, so lines
+        # still have raw labels ("1", "2") as style names
+        lines_raw = [
+            self._line(1.0, 2.0, "1"),
+            self._line(3.0, 4.0, "2"),
+        ]
+        speaker_map = {
+            "1": {
+                "character": "Mizuki Akiyama",
+                "ass_style": {"primary_color": "&H0000FFFF"},
+            },
+            "2": {
+                "character": "Ena Shinonome",
+                "ass_style": {"primary_color": "&H00FF8080"},
+            },
+        }
+        styles = generate_speaker_styles(lines_raw, speaker_map)
+        self.assertEqual(len(styles), 2)
+        self.assertIn("Style: Mizuki Akiyama,", styles[0])
+        self.assertIn("&H0000FFFF", styles[0])
+        self.assertIn("Style: Ena Shinonome,", styles[1])
+        self.assertIn("&H00FF8080", styles[1])
+
+    def test_unmapped_label_gets_auto_color(self):
+        """Labels not in the map get auto-colored styles."""
+        lines = [self._line(1.0, 2.0, "1"), self._line(3.0, 4.0, "3")]
+        speaker_map = {
+            "1": {
+                "character": "Mizuki Akiyama",
+                "ass_style": {"primary_color": "&H0000FFFF"},
+            },
+        }
+        styles = generate_speaker_styles(lines, speaker_map)
+        self.assertEqual(len(styles), 2)
+        self.assertIn("Style: Mizuki Akiyama,", styles[0])
+        self.assertIn("Style: 3,", styles[1])
+
+
+class TestLinesToAssWithSpeakerStyles(unittest.TestCase):
+    """Speaker styles injected into ASS output."""
+
+    def test_speaker_styles_in_output(self):
+        lines = [
+            {"start": 1.0, "end": 2.0, "style": "Mizuki Akiyama", "text": "テスト"}
+        ]
+        speaker_styles = [
+            "Style: Mizuki Akiyama,Lato ExtraBold,72,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1"
+        ]
+        ass = lines_to_ass(lines, "Test", speaker_styles=speaker_styles)
+        self.assertIn("Style: Mizuki Akiyama,", ass)
+        self.assertIn("Style: Default,", ass)
+        self.assertIn("Style: JP,", ass)
+        self.assertIn("[Events]", ass)
+        # Speaker style should appear after default styles
+        default_pos = ass.index("Style: JP,")
+        speaker_pos = ass.index("Style: Mizuki Akiyama,")
+        self.assertGreater(speaker_pos, default_pos)
+
+    def test_no_speaker_styles(self):
+        lines = [{"start": 1.0, "end": 2.0, "style": "JP", "text": "テスト"}]
+        ass = lines_to_ass(lines, "Test")
+        self.assertIn("Style: Default,", ass)
+        self.assertIn("Style: JP,", ass)
+        self.assertIn("[Events]", ass)
+
+
+class TestLoadSpeakerMap(unittest.TestCase):
+    def test_load_with_profiles(self):
+        """Load speaker map that references profile YAML files."""
+        import yaml
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            # Create speakers/ directory with a profile
+            speakers_dir = os.path.join(tmp_dir, "speakers")
+            os.makedirs(speakers_dir)
+
+            profile = {
+                "name": "Hinata Sato",
+                "name_jp": "佐藤日向",
+                "roles": [
+                    {
+                        "character": "Mizuki Akiyama",
+                        "character_jp": "暁山瑞希",
+                        "ass_style": {
+                            "primary_color": "&H0000FFFF",
+                            "outline_color": "&H00000000",
+                        },
+                    }
+                ],
+            }
+            with open(os.path.join(speakers_dir, "hinata_sato.yaml"), "w") as f:
+                yaml.dump(profile, f)
+
+            # Create speaker_map.yaml
+            map_data = {
+                "speakers": {
+                    "1": {"profile": "hinata_sato", "role": "Mizuki Akiyama"},
+                }
+            }
+            map_path = os.path.join(tmp_dir, "speaker_map.yaml")
+            with open(map_path, "w") as f:
+                yaml.dump(map_data, f)
+
+            result = load_speaker_map(map_path)
+            self.assertIn("1", result)
+            self.assertEqual(result["1"]["character"], "Mizuki Akiyama")
+            self.assertEqual(result["1"]["ass_style"]["primary_color"], "&H0000FFFF")
+
+    def test_load_missing_profile_falls_back_to_label(self):
+        """Missing profile file falls back to raw label."""
+        import yaml
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            map_data = {
+                "speakers": {
+                    "1": {"profile": "nonexistent"},
+                }
+            }
+            map_path = os.path.join(tmp_dir, "speaker_map.yaml")
+            with open(map_path, "w") as f:
+                yaml.dump(map_data, f)
+
+            result = load_speaker_map(map_path)
+            self.assertIn("1", result)
+            self.assertEqual(result["1"]["character"], "1")
+
+    def test_load_role_selection(self):
+        """Selecting a specific role from a multi-role profile."""
+        import yaml
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            speakers_dir = os.path.join(tmp_dir, "speakers")
+            os.makedirs(speakers_dir)
+
+            profile = {
+                "name": "Test Actor",
+                "roles": [
+                    {"character": "Character A"},
+                    {
+                        "character": "Character B",
+                        "ass_style": {"primary_color": "&H00FF0000"},
+                    },
+                ],
+            }
+            with open(os.path.join(speakers_dir, "test_actor.yaml"), "w") as f:
+                yaml.dump(profile, f)
+
+            map_data = {
+                "speakers": {
+                    "1": {"profile": "test_actor", "role": "Character B"},
+                }
+            }
+            map_path = os.path.join(tmp_dir, "speaker_map.yaml")
+            with open(map_path, "w") as f:
+                yaml.dump(map_data, f)
+
+            result = load_speaker_map(map_path)
+            self.assertEqual(result["1"]["character"], "Character B")
+            self.assertEqual(result["1"]["ass_style"]["primary_color"], "&H00FF0000")
+
+    def test_default_to_first_role(self):
+        """When no role specified, defaults to first role."""
+        import yaml
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            speakers_dir = os.path.join(tmp_dir, "speakers")
+            os.makedirs(speakers_dir)
+
+            profile = {
+                "name": "Test Actor",
+                "roles": [
+                    {"character": "First Role"},
+                    {"character": "Second Role"},
+                ],
+            }
+            with open(os.path.join(speakers_dir, "test_actor.yaml"), "w") as f:
+                yaml.dump(profile, f)
+
+            map_data = {"speakers": {"1": {"profile": "test_actor"}}}
+            map_path = os.path.join(tmp_dir, "speaker_map.yaml")
+            with open(map_path, "w") as f:
+                yaml.dump(map_data, f)
+
+            result = load_speaker_map(map_path)
+            self.assertEqual(result["1"]["character"], "First Role")
+
+
+class TestRemapStyles(unittest.TestCase):
+    """Speaker label remapping: "1" -> "Mizuki Akiyama" in dialogue lines."""
+
+    def test_remap_labels_to_character_names(self):
+        lines = [
+            {"start": 1.0, "end": 2.0, "style": "1", "text": "こんにちは"},
+            {"start": 3.0, "end": 4.0, "style": "2", "text": "さようなら"},
+        ]
+        speaker_map = {
+            "1": {"character": "Mizuki Akiyama", "ass_style": {}},
+            "2": {"character": "Ena Shinonome", "ass_style": {}},
+        }
+        remap_styles(lines, speaker_map)
+        self.assertEqual(lines[0]["style"], "Mizuki Akiyama")
+        self.assertEqual(lines[1]["style"], "Ena Shinonome")
+
+    def test_unmapped_label_preserved(self):
+        lines = [
+            {"start": 1.0, "end": 2.0, "style": "1", "text": "テスト"},
+            {"start": 3.0, "end": 4.0, "style": "3", "text": "テスト"},
+        ]
+        speaker_map = {
+            "1": {"character": "Mizuki Akiyama", "ass_style": {}},
+        }
+        remap_styles(lines, speaker_map)
+        self.assertEqual(lines[0]["style"], "Mizuki Akiyama")
+        self.assertEqual(lines[1]["style"], "3")
+
+    def test_builtin_styles_unaffected(self):
+        lines = [
+            {"start": 1.0, "end": 2.0, "style": "JP", "text": "テスト"},
+        ]
+        speaker_map = {
+            "1": {"character": "Mizuki Akiyama", "ass_style": {}},
+        }
+        remap_styles(lines, speaker_map)
+        self.assertEqual(lines[0]["style"], "JP")
+
+
+class TestMakeAssStyleLine(unittest.TestCase):
+    def test_default_values(self):
+        line = _make_ass_style_line("Test")
+        self.assertIn("Style: Test,", line)
+        self.assertIn("&H00FFFFFF", line)
+        self.assertIn(",2,200,200,60,1", line)
+
+    def test_custom_color(self):
+        line = _make_ass_style_line("Speaker", primary_color="&H0000FFFF")
+        self.assertIn("&H0000FFFF", line)
+
+    def test_custom_alignment(self):
+        line = _make_ass_style_line("Speaker", alignment=8)
+        self.assertIn(",8,200,200,60,1", line)
 
 
 class TestAnalyzeQuality(unittest.TestCase):
