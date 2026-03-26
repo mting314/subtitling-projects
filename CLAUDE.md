@@ -41,6 +41,8 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 | `--transcripts-dir` | `raw_transcripts/` next to input | Output directory for raw JSON transcript files (optional) |
 | `--ass-output` | Input stem + ` - Transcript.ass` | Override ASS output filename (optional) |
 | `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
+| `--diarize` | off | Enable speaker diarization. Adds per-word `speakerLabel` to transcript JSON. In ASS output, speaker labels become style names and speaker changes force line breaks |
+| `--speakers` | 0 | Number of speakers (implies `--diarize`). Hints the API with exact speaker count via `min_speaker_count` / `max_speaker_count` |
 
 ### Transcription pipeline
 

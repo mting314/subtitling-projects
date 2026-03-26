@@ -83,6 +83,12 @@ uv run transcribe.py \
 # Skip leading silence/intro (timestamps still align with original file)
 uv run transcribe.py --input "video.mkv" --trim-start 120
 
+# Enable speaker diarization (adds per-word speaker labels)
+uv run transcribe.py --input "video.mkv" --diarize
+
+# Diarize with known speaker count (implies --diarize)
+uv run transcribe.py --input "video.mkv" --speakers 2
+
 # Override output paths
 uv run transcribe.py \
   --input "video.mkv" \
@@ -429,7 +435,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-148 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
+157 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
@@ -439,14 +445,17 @@ Multi-speaker audio content (radio shows, talk streams) is common in the content
 
 ![Multi-speaker subtitle reference](docs/multi-speaker-reference.png)
 
-Currently, Chirp 3 merges all speakers into a single interleaved stream with no speaker attribution, making it impossible to assign lines to speakers automatically.
+Chirp 3 supports speaker diarization via `SpeakerDiarizationConfig`, which adds a `speaker_label` string to each `WordInfo`. The `--diarize` flag enables this, and `--speakers N` hints the API with an exact speaker count (also implies `--diarize`). The pipeline now:
+- Preserves per-word `speakerLabel` in transcript JSON
+- Uses majority-vote speaker labels as ASS style names per line
+- Forces line breaks at speaker changes
 
-**Goal:** Generate speaker-attributed ASS subtitles with per-speaker styles (left/right positioning, character names) from multi-speaker audio input.
+Speaker labels are currently raw API values ("1", "2", etc.) — not yet mapped to named characters.
 
-**Approach (to investigate):**
-- Determine if Chirp 3's raw output can distinguish speakers (e.g., via speaker diarization or multiple alternatives)
-- If not, evaluate alternative STT APIs or post-processing with speaker diarization models
-- Generate ASS with per-speaker styles: left-aligned and right-aligned dialogue, speaker name labels, and optional character portraits
+**Remaining work:**
+- Speaker label → named style mapping (connect API labels to `speakers/*.yaml` profiles with character names, colors, positioning)
+- Multi-speaker ASS layout (side-by-side positioning, per-speaker colors, character portraits)
+- Speaker label consistency across chunks (labels may reset per chunk)
 
 ### Language-aware line splitting
 
@@ -472,6 +481,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - ~~**Template-based translation for episodic programs**~~: Resolved — `translate.py` uses per-project `translation_reference.md` files with fixed translations for recurring scripted lines (intros, greetings, segment names), character context, and franchise terminology. References exist for Lieraji and Project Sekai AfterTalks
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
+- **Transcript normalization and phrase adaptation**: Explore Chirp 3's [`TranscriptNormalization`](https://docs.cloud.google.com/python/docs/reference/speech/latest/google.cloud.speech_v2.types.TranscriptNormalization) to normalize transcript output (e.g., numbers, dates, abbreviations) before translation. Also explore [`PhraseSet`](https://docs.cloud.google.com/python/docs/reference/speech/latest/google.cloud.speech_v2.types.PhraseSet) to boost recognition of project-specific terms (character names, franchise vocabulary) using data from `translation_reference.md`. Investigate other libraries that could help with pre-translation normalization.
 - **Better GCS storage management**: Organize uploaded audio into per-project directories instead of a flat `tmp/` prefix. Add cleanup logic so temporary GCS files are removed when transcription is interrupted or fails (e.g., via signal handler or atexit).
 - **Vector embeddings for translation context**: Explore embedding finished JP→EN transcription pairs to build a retrieval-augmented translation agent. Could improve consistency across projects by surfacing similar previously-translated lines as few-shot examples for Gemini.
 - **Structured translation references with per-speaker profiles**: Currently `translation_reference.md` is a single flat markdown file. Move to a more structured format (e.g., YAML/JSON) with individual speaker profile files, so each speaker's voice, personality, speech patterns, and fixed phrases are self-contained and composable across projects.
