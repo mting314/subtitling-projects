@@ -89,6 +89,10 @@ uv run transcribe.py --input "video.mkv" --diarize
 # Diarize with known speaker count (implies --diarize)
 uv run transcribe.py --input "video.mkv" --speakers 2
 
+# Diarize with speaker map (named styles and colors)
+uv run transcribe.py --input "video.mkv" --speakers 2 \
+  --speaker-map "projects/Project Sekai/Colors of Pure Sense/speaker_map.yaml"
+
 # Override output paths
 uv run transcribe.py \
   --input "video.mkv" \
@@ -249,6 +253,41 @@ After:   Line 5 [...→ 595.48s]    Line 6 [595.48s →...]     seamless
 | `--snap-gap` | 0.25 | Snap gaps smaller than this (seconds) between same-style lines to prevent flashing. Set to 0 to disable |
 | `--min-duration` | 0.5 | Minimum line duration in seconds. Short lines get lead-out/lead-in padding. Set to 0 to disable |
 | `--video` | None | Path to source video file. Embeds a player in the HTML report for click-to-seek |
+| `--speaker-map` | None | Path to `speaker_map.yaml` mapping API speaker labels to named characters with custom ASS styles |
+
+### Speaker Map
+
+When using `--diarize`, speaker labels are raw API values ("1", "2"). Use `--speaker-map` to map them to named characters with custom colors:
+
+```bash
+uv run json_to_ass.py raw_transcripts/merged.json output.ass \
+  --speaker-map projects/Project\ Sekai/Colors\ of\ Pure\ Sense/speaker_map.yaml
+```
+
+A `speaker_map.yaml` references per-project speaker profile YAML files:
+
+```yaml
+speakers:
+  "1":
+    profile: hinata_sato        # references speakers/hinata_sato.yaml
+    role: "Mizuki Akiyama"      # which role (optional, defaults to first)
+  "2":
+    profile: ruriko_noguchi
+```
+
+ASS styling (colors, alignment) is defined on roles within speaker profiles:
+
+```yaml
+# In speakers/hinata_sato.yaml
+roles:
+  - character: "Mizuki Akiyama"
+    ass_style:
+      primary_color: "&H0000FFFF"   # yellow (ASS &HAABBGGRR)
+      outline_color: "&H00000000"
+      alignment: 2                   # bottom-center (default)
+```
+
+Without `--speaker-map`, diarized output auto-generates style definitions with distinct colors from a built-in palette.
 
 ### Setup
 
@@ -435,7 +474,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-157 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
+175 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
@@ -450,11 +489,10 @@ Chirp 3 supports speaker diarization via `SpeakerDiarizationConfig`, which adds 
 - Uses majority-vote speaker labels as ASS style names per line
 - Forces line breaks at speaker changes
 
-Speaker labels are currently raw API values ("1", "2", etc.) — not yet mapped to named characters.
+Speaker labels can be mapped to named characters with custom ASS styles via `--speaker-map`, which references per-project `speakers/*.yaml` profiles. Without a speaker map, auto-generated style definitions with distinct colors are created for each unique speaker label.
 
 **Remaining work:**
-- Speaker label → named style mapping (connect API labels to `speakers/*.yaml` profiles with character names, colors, positioning)
-- Multi-speaker ASS layout (side-by-side positioning, per-speaker colors, character portraits)
+- Multi-speaker ASS layout (side-by-side positioning, character portraits)
 - Speaker label consistency across chunks (labels may reset per chunk)
 
 ### Language-aware line splitting
@@ -477,7 +515,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 ### Enhancements
 
 - **Intelligent audio chunking based on silence**: Currently audio is split into fixed ~18-minute chunks, which risks cutting mid-sentence. Instead, detect long silent portions in the audio and split at those boundaries.
-- **Customizable ASS styles**: The ASS header is currently a hardcoded template with fixed styles (Default, JP). Instead, support configurable styles — e.g., per-speaker colors, font choices, positioning — via a style config file or CLI flags. This is a prerequisite for multi-speaker subtitle generation.
+- ~~**Customizable ASS styles**~~: Resolved — `--speaker-map` maps diarized speaker labels to named characters with per-role ASS styling (colors, alignment) from `speakers/*.yaml` profiles. Without a map, auto-generated styles with distinct colors are created for each speaker label. Full font/positioning customization remains for future work.
 - ~~**Template-based translation for episodic programs**~~: Resolved — `translate.py` uses per-project `translation_reference.md` files with fixed translations for recurring scripted lines (intros, greetings, segment names), character context, and franchise terminology. References exist for Lieraji and Project Sekai AfterTalks
 - ~~**Fix subtitle flashing**~~: Resolved — `json_to_ass.py` now snaps near-adjacent same-style lines together via `--snap-gap` (default 0.1s). Gaps smaller than the threshold are closed by extending the earlier line's end time.
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.

@@ -43,6 +43,7 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 | `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
 | `--diarize` | off | Enable speaker diarization. Adds per-word `speakerLabel` to transcript JSON. In ASS output, speaker labels become style names and speaker changes force line breaks |
 | `--speakers` | 0 | Number of speakers (implies `--diarize`). Hints the API with exact speaker count via `min_speaker_count` / `max_speaker_count` |
+| `--speaker-map` | None | Path to `speaker_map.yaml` mapping API speaker labels to speaker profiles with character names and ASS styling |
 
 ### Transcription pipeline
 
@@ -68,6 +69,33 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass
 | `--snap-gap` | 0.25 | Snap gaps smaller than this (seconds) between same-style lines to prevent flashing. 0 to disable |
 | `--min-duration` | 0.5 | Minimum line duration in seconds. Short lines get lead-out/lead-in padding. 0 to disable |
 | `--video` | None | Path to source video file. Embeds an HTML5 player in the HTML report for click-to-seek |
+| `--speaker-map` | None | Path to `speaker_map.yaml` mapping API speaker labels to speaker profiles with character names and ASS styling |
+
+### Speaker map
+
+When `--diarize` is used, speaker labels are raw API values ("1", "2"). A `speaker_map.yaml` maps these to named characters with custom ASS styles:
+
+```yaml
+# projects/Project Sekai/Colors of Pure Sense/speaker_map.yaml
+speakers:
+  "1":
+    profile: hinata_sato        # references speakers/hinata_sato.yaml
+    role: "Mizuki Akiyama"      # which role (optional, defaults to first role)
+  "2":
+    profile: ruriko_noguchi
+```
+
+Speaker profiles live in per-project `speakers/` directories (e.g., `projects/Project Sekai/speakers/hinata_sato.yaml`). ASS styling (colors, alignment) is defined on the **role** within each profile:
+
+```yaml
+# In speakers/hinata_sato.yaml, under a role entry:
+ass_style:
+  primary_color: "&H0000FFFF"   # yellow (ASS &HAABBGGRR format)
+  outline_color: "&H00000000"
+  alignment: 2                   # bottom-center (default)
+```
+
+Without `--speaker-map`, diarized output auto-generates style definitions with distinct colors from a built-in palette for each unique speaker label.
 
 ### Quality reports
 
