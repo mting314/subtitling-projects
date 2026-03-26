@@ -15,14 +15,31 @@ project:
 glossary: []
 
 segments:
-  - term: "メールボックス"
-    translation: "Mailbox"
-  - term: "リエラジチャレンジ"
-    translation: "Lieraji Challenge"
-  - term: "ヒトコト"
-    translation: "Hitokoto (One Word)"
+  - name: "Mailbox"
+    description: "Hosts read and respond to listener mail. Lines include radio names, listener questions/comments, and the hosts' reactions."
+    intro:
+      original: "メールボックス！"
+      translation: "Mailbox!"
+    cues:
+      - "メールボックス"
+      - "メールを読んでいきましょう"
+      - "メールが届いています"
+  - name: "Lieraji Challenge"
+    description: "Hosts attempt a fun challenge or game. Lines include challenge rules, attempts, reactions, and results."
+    intro:
+      original: "リエラジチャレンジ！"
+      translation: "Lieraji Challenge!"
+    cues:
+      - "リエラジチャレンジ"
+  - name: "Hitokoto (One Word)"
+    description: "Hosts summarize a topic or give a quick take in one word or phrase. Lines are typically short and punchy."
+    intro:
+      original: "ヒトコト！"
+      translation: "Hitokoto!"
+    cues:
+      - "ヒトコト"
 
-replacements:
+fixed_lines:
   - original: "みなさーん / こんにちはー"
     translation: "Everyone, / good afternoon!"
     context: "Opening greeting (all hosts)"
@@ -41,9 +58,6 @@ replacements:
   - original: "由宇女ランチタイム放送局、リエラジ！レッツスーパー... / スタート！"
     translation: "Yuigaoka Lunchtime Radio, Lieraji! Let's Super... / Start!"
     context: "Show kickoff"
-  - original: "メールボックス！"
-    translation: "Mailbox!"
-    context: "Mail segment intro"
   - original: "メールありがとう"
     translation: "Thanks for the mail!"
     context: "After reading sender name"
@@ -56,3 +70,5 @@ replacements:
   - original: "バイバーイ"
     translation: "Bye-bye!"
     context: "Final farewell"
+
+replacements: []

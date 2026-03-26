@@ -63,9 +63,38 @@ glossary:
     translation: "Momojan"
     notes: "Common abbreviation for MORE MORE JUMP!"
 
-segments: []
+segments:
+  - name: "Card Illustrations"
+    description: "Host reviews event card art, comparing before and after training illustrations. Lines discuss card art, expressions, outfits, and training upgrades."
+    intro:
+      original: "カードイラストを見ていきましょう"
+      translation: "Let's take a look at the card illustrations."
+    cues:
+      - "カードイラストを見ていきましょう"
+      - "今回のイベントのカードを見ていきましょう"
+      - "イラストコーナー"
+      - "カードイラスト"
+  - name: "3DMV"
+    description: "Host watches and reacts to the event's 3D music video. Lines discuss choreography, camera angles, character expressions, and song impressions."
+    intro:
+      original: "3DMVを見ていきましょう"
+      translation: "Let's watch the 3DMV."
+    cues:
+      - "3DMVを見ていきましょう"
+      - "MVを見ていきましょう"
+      - "3DMVを流します"
+  - name: "Fan Letter Corner"
+    description: "Host reads and responds to fan letters/messages submitted via Discord and email. Lines include pen names (ラジオネーム/ペンネーム), fan comments, and the host's reactions."
+    intro:
+      original: "おたよりを紹介していきます"
+      translation: "Let's go through some of your messages."
+    cues:
+      - "おたよりコーナー"
+      - "おたよりを紹介"
+      - "おたよりを読んでいきましょう"
+      - "皆さんからいただいたおたより"
 
-replacements:
+fixed_lines:
   # Opening Sequence
   - original: "プロセカアフタートーク「{イベント名}」編"
     translation: 'Welcome to ProSeka AfterTalk "{Event Name}" Edition!'
@@ -130,6 +159,30 @@ replacements:
   - original: "バイバーイ"
     translation: "Bye bye!"
     context: "Final farewell"
+
+replacements:
+  # Fan letter/message — Chirp 3 uses 4+ variants
+  - variant: "お頼り"
+    canonical: "おたより"
+  - variant: "お手紙"
+    canonical: "おたより"
+  - variant: "お便り"
+    canonical: "おたより"
+  # 3DMV — mizu6 drops the D
+  - variant: "3MV"
+    canonical: "3DMV"
+  - variant: "2MV"
+    canonical: "2DMV"
+  - variant: "3 DMV"
+    canonical: "3DMV"
+  # Discord spelling
+  - variant: "ディスコート"
+    canonical: "ディスコード"
+  - variant: "Discord"
+    canonical: "ディスコード"
+  # Composed song kanji
+  - variant: "描き下ろし"
+    canonical: "書き下ろし"
 
 # Character relationships for context
 notes: |

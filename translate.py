@@ -105,25 +105,53 @@ def format_yaml_reference(data: dict, speakers: list[dict]) -> str:
     segments = data.get("segments", [])
     if segments:
         lines = [
-            "## Segment Names",
-            "These are segment/section markers in the show:",
+            "## Show Segments",
+            "The show is divided into named segments. Each segment has cue "
+            "phrases that the host uses to announce it, but due to transcription "
+            "inconsistency or speaker variation, the actual line may not exactly "
+            "match any listed cue. If you think a line is announcing a segment, "
+            "check the subsequent lines — if they match the segment's description, "
+            "translate the indication line using the segment name.",
         ]
         for entry in segments:
-            lines.append(f"- {entry['term']} → {entry['translation']}")
+            lines.append(f"\n**{entry['name']}**")
+            if entry.get("description"):
+                lines.append(f"  {entry['description']}")
+            intro = entry.get("intro")
+            if intro:
+                lines.append(f"  Intro: {intro['original']} → {intro['translation']}")
+            cues = entry.get("cues", [])
+            if cues:
+                lines.append(f"  Cues: {', '.join(cues)}")
         sections.append("\n".join(lines))
 
-    # Replacements
-    replacements = data.get("replacements", [])
-    if replacements:
+    # Fixed lines (JP→EN scripted lines)
+    fixed_lines = data.get("fixed_lines", [])
+    if fixed_lines:
         lines = [
             "## Fixed Translations",
             "Use these exact translations for recurring scripted lines "
             "(allow for minor transcription variations):",
         ]
-        for entry in replacements:
+        for entry in fixed_lines:
             line = f"- {entry['original']} → {entry['translation']}"
             if entry.get("context"):
                 line += f" [{entry['context']}]"
+            lines.append(line)
+        sections.append("\n".join(lines))
+
+    # Replacements (JP→JP transcription normalization)
+    replacements = data.get("replacements", [])
+    if replacements:
+        lines = [
+            "## Transcription Variants",
+            "The following are transcription variants of the same word. "
+            "Treat them as identical when translating:",
+        ]
+        for entry in replacements:
+            line = f"- {entry['variant']} → {entry['canonical']}"
+            if entry.get("notes"):
+                line += f" ({entry['notes']})"
             lines.append(line)
         sections.append("\n".join(lines))
 
