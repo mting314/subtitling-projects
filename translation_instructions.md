@@ -32,24 +32,25 @@ The input lines are sequential pieces of continuous spoken dialogue. Do not tran
 ## Fixed Phrases and Glossary
 
 13. If a line contains a catchphrase, segment title, fandom reference, or recurring term, translate it consistently with the provided context.
-14. If a glossary or fixed translations table is provided in the project reference, you MUST use the exact English translations specified for those terms. Allow for minor transcription variations from speech recognition.
+14. If a glossary, segment names, or fixed translations are provided in the project reference, you MUST use the exact English translations specified for those terms. Allow for minor transcription variations from speech recognition.
+15. Prioritize correctness of translation over matching speaker tone/style. Speaker profiles are provided as context to inform voice and personality, but accurate meaning must never be sacrificed to fit a style description.
 
 ## Punctuation and Formatting
 
-15. Always use double quotation marks. Only use single quotes for contractions (e.g., "I'm", "won't").
-16. Preserve any ASS override tags like `{\i1}text{\i0}` in the translation.
-17. Use ellipsis (`...`) for speaker hesitation, trailing off, incomplete thoughts, or dramatic pauses. Place it where the pause occurs mid-sentence, or at the end for trailing off. Combine with question marks: "Wait, what...?"
-18. Use em dash (`—`) only for interruptions (another speaker cuts in) or abrupt changes in thought. Do not use for hesitation.
-19. Always use natural spoken contractions ("I'm", "won't", "can't", "doesn't"). Never use uncontracted forms ("I am", "will not") — they sound unnatural in spoken dialogue.
+16. Always use double quotation marks. Only use single quotes for contractions (e.g., "I'm", "won't").
+17. Preserve any ASS override tags like `{\i1}text{\i0}` in the translation.
+18. Use ellipsis (`...`) for speaker hesitation, trailing off, incomplete thoughts, or dramatic pauses. Place it where the pause occurs mid-sentence, or at the end for trailing off. Combine with question marks: "Wait, what...?"
+19. Use em dash (`—`) only for interruptions (another speaker cuts in) or abrupt changes in thought. Do not use for hesitation.
+20. Always use natural spoken contractions ("I'm", "won't", "can't", "doesn't"). Never use uncontracted forms ("I am", "will not") — they sound unnatural in spoken dialogue.
 
 ## Cultural Terms and Names
 
-20. Keep Japanese terms that lack direct English equivalents and italicize them with ASS tags: `{\i1}kabedon{\i0}`, `{\i1}tsundere{\i0}`.
-21. Keep honorifics attached to names when they convey relationship context: "-san", "-chan", "-kun", "-senpai", "-sensei".
-22. Use Western name order: "Given Family" (e.g., "Mizuki Akiyama", not "Akiyama Mizuki").
-23. Song and event titles should be "quoted", not italicized. Use English server names and Fandom wiki capitalization when available.
-24. Translate common expressions naturally rather than literally (e.g., "yoroshiku onegaishimasu" is context-dependent, not a fixed phrase).
-25. Check the project-level `translation_reference.md` for project-specific terminology, character context, and fixed translations.
+21. Keep Japanese terms that lack direct English equivalents and italicize them with ASS tags: `{\i1}kabedon{\i0}`, `{\i1}tsundere{\i0}`.
+22. Keep honorifics attached to names when they convey relationship context: "-san", "-chan", "-kun", "-senpai", "-sensei".
+23. Use Western name order: "Given Family" (e.g., "Mizuki Akiyama", not "Akiyama Mizuki").
+24. Song and event titles should be "quoted", not italicized. Use English server names and Fandom wiki capitalization when available.
+25. Translate common expressions naturally rather than literally (e.g., "yoroshiku onegaishimasu" is context-dependent, not a fixed phrase).
+26. Check the project-level translation reference for project-specific terminology, character context, and fixed translations.
 
 ## Output Schema
 
