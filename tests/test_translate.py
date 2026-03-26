@@ -201,16 +201,40 @@ class TestFormatYamlReference(unittest.TestCase):
     def test_segments_section(self):
         data = {
             "segments": [
-                {"term": "メールボックス", "translation": "Mailbox"},
+                {
+                    "name": "Mailbox",
+                    "description": "Hosts read listener mail.",
+                    "intro": {
+                        "original": "メールボックス！",
+                        "translation": "Mailbox!",
+                    },
+                    "cues": ["メールボックス", "メールを読んでいきましょう"],
+                },
             ]
         }
         result = format_yaml_reference(data, [])
-        self.assertIn("## Segment Names", result)
-        self.assertIn("メールボックス → Mailbox", result)
+        self.assertIn("## Show Segments", result)
+        self.assertIn("**Mailbox**", result)
+        self.assertIn("Hosts read listener mail.", result)
+        self.assertIn("Intro: メールボックス！ → Mailbox!", result)
+        self.assertIn("メールを読んでいきましょう", result)
+        self.assertIn("check the subsequent lines", result)
 
-    def test_replacements_section(self):
+    def test_segments_without_intro_or_cues(self):
         data = {
-            "replacements": [
+            "segments": [
+                {"name": "Bonus Corner", "description": "A bonus segment."},
+            ]
+        }
+        result = format_yaml_reference(data, [])
+        self.assertIn("**Bonus Corner**", result)
+        self.assertIn("A bonus segment.", result)
+        self.assertNotIn("Intro:", result)
+        self.assertNotIn("Cues:", result)
+
+    def test_fixed_lines_section(self):
+        data = {
+            "fixed_lines": [
                 {
                     "original": "皆さんこんばんは",
                     "translation": "Good evening, everyone!",
@@ -223,15 +247,39 @@ class TestFormatYamlReference(unittest.TestCase):
         self.assertIn("皆さんこんばんは → Good evening, everyone!", result)
         self.assertIn("[Standard greeting]", result)
 
-    def test_replacement_without_context(self):
+    def test_fixed_line_without_context(self):
         data = {
-            "replacements": [
+            "fixed_lines": [
                 {"original": "バイバーイ", "translation": "Bye bye!"},
             ]
         }
         result = format_yaml_reference(data, [])
         self.assertIn("バイバーイ → Bye bye!", result)
         self.assertNotIn("[", result.split("Bye bye!")[1].split("\n")[0])
+
+    def test_replacements_section(self):
+        data = {
+            "replacements": [
+                {
+                    "variant": "お頼り",
+                    "canonical": "おたより",
+                    "notes": "Chirp 3 variant",
+                },
+            ]
+        }
+        result = format_yaml_reference(data, [])
+        self.assertIn("## Transcription Variants", result)
+        self.assertIn("お頼り → おたより (Chirp 3 variant)", result)
+
+    def test_replacement_without_notes(self):
+        data = {
+            "replacements": [
+                {"variant": "3MV", "canonical": "3DMV"},
+            ]
+        }
+        result = format_yaml_reference(data, [])
+        self.assertIn("3MV → 3DMV", result)
+        self.assertNotIn("(", result.split("3DMV")[1].split("\n")[0])
 
     def test_speakers_from_files(self):
         speakers = [
