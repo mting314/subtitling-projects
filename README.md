@@ -327,9 +327,10 @@ The model receives each batch as a JSON array of `{id, style, text}` objects and
 
 Each project can have a `translation_reference.yaml` (structured YAML) or legacy `translation_reference.md` (flat markdown). YAML references are parsed into targeted prompt sections:
 
-- **Glossary** (`glossary:`) — terms that appear in dialogue with consistent translations (e.g., "プロセカ" → "ProSeka")
-- **Segments** (`segments:`) — recurring structural/segment markers in the show (e.g., "メールボックス" → "Mailbox")
-- **Fixed translations** (`replacements:`) — recurring scripted lines with exact translations. The model uses these verbatim when it recognizes the Japanese text, even with minor transcription variations
+- **Glossary** (`glossary:`) — JP→EN. Short terms/phrases with fixed English translations (e.g., "プロセカ" → "ProSeka")
+- **Segments** (`segments:`) — named show sections with semantic descriptions and cue phrases for fuzzy matching. Each segment has a `name`, `description` (what follows), and `cues` (JP phrases that announce the segment). The AI checks subsequent lines against the description to confirm a segment transition
+- **Fixed lines** (`fixed_lines:`) — JP→EN. Full scripted sentences with exact English translations for recurring lines (intros, greetings, sign-offs). The model uses these verbatim, even with minor transcription variations
+- **Replacements** (`replacements:`) — JP→JP. Transcription normalization — maps Chirp 3 variants to canonical Japanese forms so the model treats them identically (e.g., "お頼り" → "おたより")
 - **Speaker profiles** (`speakers/*.yaml`) — per-VA YAML files auto-discovered from a `speakers/` directory next to the reference file. Each file contains the VA's name, character roles, speaking style, and optional greetings. Translation accuracy is prioritized over matching speaker tone
 - **Project context** (`project:`) — franchise name, description, and metadata
 
@@ -476,7 +477,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 - **Better GCS storage management**: Organize uploaded audio into per-project directories instead of a flat `tmp/` prefix. Add cleanup logic so temporary GCS files are removed when transcription is interrupted or fails (e.g., via signal handler or atexit).
 - **Vector embeddings for translation context**: Explore embedding finished JP→EN transcription pairs to build a retrieval-augmented translation agent. Could improve consistency across projects by surfacing similar previously-translated lines as few-shot examples for Gemini.
-- ~~**Structured translation references with per-speaker profiles**~~: Resolved — `translation_reference.yaml` uses structured YAML with separate sections for glossary, segments, fixed replacements, and project context. Per-speaker profiles live in `speakers/*.yaml` files keyed by voice actor, auto-discovered by `translate.py`. Legacy `.md` references are still supported
+- ~~**Structured translation references with per-speaker profiles**~~: Resolved — `translation_reference.yaml` uses structured YAML with sections for glossary (JP→EN terms), fixed_lines (JP→EN scripted sentences), replacements (JP→JP transcription normalization), segments (show sections), and project context. Per-speaker profiles live in `speakers/*.yaml` files keyed by voice actor, auto-discovered by `translate.py`. Legacy `.md` references are still supported
 
 ## References
 

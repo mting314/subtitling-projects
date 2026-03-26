@@ -117,7 +117,7 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 - **`translation_instructions.md`** — self-contained Gemini system prompt. Includes all translation directives (cross-line context, no-blank-lines, filler handling, line-ending flow, phrase grouping) AND formatting rules (punctuation, italics, contractions, naming, cultural terms). This is the only style reference sent to the model — `style_guide.md` is NOT loaded
 - **`style_guide.md`** — human-only reference for manual Aegisub work. Not used by `translate.py`
-- **Per-project `translation_reference.yaml`** — structured YAML with separate sections for glossary, segments, fixed replacements, and project context. Speaker profiles are auto-loaded from `speakers/*.yaml` in the same directory. Legacy `.md` references are still supported for backward compatibility. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
+- **Per-project `translation_reference.yaml`** — structured YAML with sections for glossary (JP→EN terms), fixed_lines (JP→EN scripted sentences), replacements (JP→JP transcription normalization), segments (named show sections with cue phrases and descriptions for fuzzy matching), and project context. Speaker profiles are auto-loaded from `speakers/*.yaml` in the same directory. Legacy `.md` references are still supported for backward compatibility. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
 - **Per-project `speakers/*.yaml`** — individual speaker profile files keyed by voice actor name. Each file contains the VA's name, roles (characters they voice), speaking style, and optional greetings. Auto-discovered by `translate.py` when using a YAML reference
 
 ### Key translation technical notes
@@ -127,7 +127,7 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 - **No blank lines**: Every source line produces a non-empty translation. Filler-only lines are absorbed by redistributing the surrounding sentence across them
 - **Filler word handling**: Standalone fillers ("um", "uh", "ah") are not translated literally — their lines carry redistributed text instead. Transitional phrases ("Well then,", "You know,") are kept
 - **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line. Logical phrases (article + noun) are kept together on the same line
-- **Glossary enforcement**: Fixed translations from `translation_reference.yaml` are used verbatim for recurring scripted lines
+- **Glossary enforcement**: Fixed translations from `translation_reference.yaml` (`glossary` for terms, `fixed_lines` for scripted sentences) are used verbatim. `replacements` maps Chirp 3 transcription variants to canonical Japanese forms so the model treats them identically
 - **Speaker profiles**: Per-speaker YAML files (`speakers/*.yaml`) provide voice/personality context to the model, but translation accuracy is prioritized over matching speaker tone
 
 ### Key technical notes
