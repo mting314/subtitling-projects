@@ -39,7 +39,7 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 | Flag | Default | Purpose |
 |------|---------|---------|
 | `--transcripts-dir` | `raw_transcripts/` next to input | Output directory for raw JSON transcript files (optional) |
-| `--ass-output` | Input filename with `.ass` extension | Override ASS output filename (optional) |
+| `--ass-output` | Input stem + ` - Transcript.ass` | Override ASS output filename (optional) |
 | `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
 
 ### Transcription pipeline
@@ -133,7 +133,7 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 - **Non-overlapping chunks**: Overlap was removed because the API transcribes the same audio differently per chunk, making deduplication unreliable.
 - **Word-level splitting**: Chirp 3 returns 1 giant result per chunk. We split using word timestamps at sentence enders (。？！), pauses ≥1s, max chars, and commas on long lines.
 - **Smart comma splitting**: `_emit_line()` recursively splits lines >40 chars at the comma with the longest pause after it. Min first-part = threshold/2 to avoid tiny fragments. Falls back to splitting at the longest pause at any word boundary when no comma is found and the line exceeds `max-line-chars`.
-- **Local file input**: `--input` accepts local video/audio files or `gs://` URIs. Video files are auto-detected (via ffprobe) and audio is extracted with stream copy (no re-encoding). The audio codec is probed to pick the right container extension (opus→.opus, aac→.m4a, etc.).
+- **Local file input**: `--input` accepts local video/audio files or `gs://` URIs. Video files are auto-detected (via ffprobe) and audio is extracted with stream copy (no re-encoding). The audio codec is probed to pick the right container extension (opus→.opus, aac→.m4a, etc.). Non-Opus audio (e.g., AAC) is automatically re-encoded to Opus before uploading — Chirp 3 returns empty results for AAC input.
 - **Bogus timestamps**: Chirp 3 sometimes returns zero, negative, or absurdly large word `endOffset` values. These are clamped to `startOffset` *before* adding the chunk time offset — otherwise a bogus `0s` end becomes a plausible-looking timestamp after the offset is added (e.g., `0 + 1080 = 1080s`). Offsets exceeding the chunk duration are also clamped.
 - **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.
 - **Trim offset**: `--trim-start` trims leading audio (e.g., silence or intros) before sending to the API. The trim offset is added back to all word timestamps so they match the original file's timeline. Stored in `merged.json` as `trim_offset`.
@@ -170,3 +170,7 @@ Commit message format:
 - Other: `project-shortname: description`
 
 Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense), `ichi6` (Unsteady, still steady step), `mizu6` (Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk).
+
+## Documentation Rules
+
+- When updating documentation, always update **both** `README.md` and `CLAUDE.md`. They document the same toolchain from different angles (README for humans/GitHub, CLAUDE.md for AI agent context), so changes must be mirrored to keep them in sync.
