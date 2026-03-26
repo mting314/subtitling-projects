@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proseka Aftertalk With Wounded Hands - Transcript</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: #1a1a2e; color: #e0e0e0; padding: 20px; }
+  h1 { color: #fff; margin-bottom: 16px; }
+  .stats-grid { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .stat-card { background: #16213e; border-radius: 8px; padding: 16px; flex: 1; min-width: 150px; }
+  .stat-value { font-size: 1.5em; font-weight: bold; color: #fff; }
+  .stat-label { font-size: 0.85em; color: #888; margin-top: 4px; }
+  .stat-detail { font-size: 0.9em; color: #ccc; margin-top: 8px; }
+  #sticky-top { position: sticky; top: 0; z-index: 10; background: #1a1a2e;
+                 padding-bottom: 4px; }
+  .filters { margin: 8px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer;
+                 font-size: 0.85em; font-weight: 600; transition: opacity 0.2s; }
+  .filter-btn.inactive { opacity: 0.35; }
+  .btn-red { background: #ff4d4d; color: #fff; }
+  .btn-orange { background: #ff9933; color: #fff; }
+  .btn-yellow { background: #e6c300; color: #1a1a2e; }
+  .btn-blue { background: #4d94ff; color: #fff; }
+  .btn-all { background: #555; color: #fff; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 0.85em; }
+  th { background: #0f3460; color: #fff; padding: 10px 8px; text-align: left;
+       position: sticky; top: 0; z-index: 2; }
+  td { padding: 8px; border-bottom: 1px solid #222; vertical-align: top; }
+  tr { cursor: pointer; transition: background 0.15s; }
+  tr:hover { background: #1e2d4a !important; }
+  tr.selected { outline: 2px solid #4d94ff; }
+  .severity-red { background: rgba(255,77,77,0.15); }
+  .severity-orange { background: rgba(255,153,51,0.12); }
+  .severity-yellow { background: rgba(230,195,0,0.10); }
+  .severity-blue { background: rgba(77,148,255,0.10); }
+  .detail-row { cursor: default; }
+  .detail-row:hover { background: inherit !important; }
+  .detail-row td { padding: 4px 8px 8px 32px; border-bottom: 2px solid #333; }
+  .issue-tag { display: inline-block; border-radius: 4px; padding: 2px 8px;
+               margin-right: 6px; font-size: 0.8em; font-weight: 600; }
+  .tag-red { background: #ff4d4d; color: #fff; }
+  .tag-orange { background: #ff9933; color: #fff; }
+  .tag-yellow { background: #e6c300; color: #1a1a2e; }
+  .tag-blue { background: #4d94ff; color: #fff; }
+  .hidden-row { display: none !important; }
+  #player-section { display: flex; gap: 16px; align-items: stretch;
+                     padding: 8px 0; }
+  #video-wrap { width: 420px; min-width: 200px; flex-shrink: 0;
+                 resize: horizontal; overflow: hidden; }
+  #video { width: 100%; background: #000; border-radius: 8px;
+            display: block; }
+  #now-playing { flex: 1; background: #16213e; border-radius: 8px;
+                  padding: 10px 14px; border: 1px solid #2a3a5c;
+                  align-self: stretch; display: flex; flex-direction: column; }
+  #now-header { display: flex; justify-content: space-between;
+                 margin-bottom: 6px; }
+  #now-line-num { font-size: 0.75em; color: #4d94ff; font-weight: 600; }
+  #now-time { font-size: 0.75em; color: #888; font-family: monospace; }
+  #now-text { font-size: 1em; color: #fff; line-height: 1.5;
+               background: #0d1a30; border: 1px solid #2a3a5c; border-radius: 6px;
+               padding: 10px 12px; white-space: pre-wrap; word-break: break-word;
+               flex: 1; overflow-y: auto; }
+  th { top: 0; }
+</style>
+</head>
+<body>
+<h1>Quality Report — Proseka Aftertalk With Wounded Hands - Transcript</h1>
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-value">117</div><div class="stat-label">Lines</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">2610</div><div class="stat-label">Characters</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">2</div><div class="stat-label">Issues</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">0:00:00.00 - 0:07:35.46</div>
+    <div class="stat-label">Time Range</div>
+  </div>
+</div>
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-label">Line Length (chars)</div>
+    <div class="stat-detail">Min: 2 | Max: 48 | Mean: 22.3 | Median: 22</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">Line Duration (seconds)</div>
+    <div class="stat-detail">Min: 0.36s | Max: 12.54s | Mean: 3.78s | Median: 3.64s</div>
+  </div>
+</div>
+<div id="sticky-top">
+<div id="player-section">
+  <div id="video-wrap">
+    <video id="video" controls preload="metadata">
+      <source src="Proseka Aftertalk With Wounded Hands.mkv">
+    </video>
+  </div>
+  <div id="now-playing">
+    <div id="now-header">
+      <span id="now-line-num"></span>
+      <span id="now-time"></span>
+    </div>
+    <div id="now-text">Click a line to preview</div>
+  </div>
+</div>
+<div class="filters">
+  <button class="filter-btn btn-all" onclick="filterAll()">All</button>
+  <button class="filter-btn btn-red" data-filter="red" onclick="toggleFilter(this)">
+    Critical (0)</button>
+  <button class="filter-btn btn-orange" data-filter="orange" onclick="toggleFilter(this)">
+    Warning (0)</button>
+  <button class="filter-btn btn-yellow" data-filter="yellow" onclick="toggleFilter(this)">
+    Info (2)</button>
+  <button class="filter-btn btn-blue" data-filter="blue" onclick="toggleFilter(this)">
+    Gaps (0)</button>
+  <button class="filter-btn btn-all" onclick="filterIssuesOnly()">Issues Only</button>
+</div>
+</div>
+<table>
+<thead><tr>
+  <th>#</th><th>Start</th><th>End</th><th>Duration</th>
+  <th>Chars</th><th>Style</th><th>Text</th>
+</tr></thead>
+<tbody>
+<tr class=""  data-start="0.000" data-end="12.540" data-text="はい。" onclick="onRowClick(this)"><td>1</td><td>0:00:00.00</td><td>0:00:12.54</td><td>12.54s</td><td>3</td><td>Default</td><td>はい。</td></tr>
+<tr class=""  data-start="15.395" data-end="16.820" data-text="ということで" onclick="onRowClick(this)"><td>2</td><td>0:00:15.39</td><td>0:00:16.82</td><td>1.43s</td><td>6</td><td>Default</td><td>ということで</td></tr>
+<tr class=""  data-start="17.315" data-end="21.555" data-text="今日はね、あの、私たちが喋るというよりかはね、" onclick="onRowClick(this)"><td>3</td><td>0:00:17.32</td><td>0:00:21.55</td><td>4.24s</td><td>23</td><td>Default</td><td>今日はね、あの、私たちが喋るというよりかはね、</td></tr>
+<tr class=""  data-start="21.555" data-end="25.035" data-text="このシーンをしっかり見ていただきたいということで見ていただき" onclick="onRowClick(this)"><td>4</td><td>0:00:21.55</td><td>0:00:25.04</td><td>3.48s</td><td>30</td><td>Default</td><td>このシーンをしっかり見ていただきたいということで見ていただき</td></tr>
+<tr class=""  data-start="25.035" data-end="26.460" data-text="ましたけれども" onclick="onRowClick(this)"><td>5</td><td>0:00:25.04</td><td>0:00:26.46</td><td>1.43s</td><td>7</td><td>Default</td><td>ましたけれども</td></tr>
+<tr class=""  data-start="27.275" data-end="32.835" data-text="皆さん感想すごくコメントで書いてくださっていてありがとうございます。" onclick="onRowClick(this)"><td>6</td><td>0:00:27.27</td><td>0:00:32.84</td><td>5.56s</td><td>34</td><td>Default</td><td>皆さん感想すごくコメントで書いてくださっていてありがとうございます。</td></tr>
+<tr class=""  data-start="32.835" data-end="36.595" data-text="私たちもね、このお話を踏まえて、こう、ま、" onclick="onRowClick(this)"><td>7</td><td>0:00:32.84</td><td>0:00:36.59</td><td>3.76s</td><td>21</td><td>Default</td><td>私たちもね、このお話を踏まえて、こう、ま、</td></tr>
+<tr class=""  data-start="36.595" data-end="40.795" data-text="演者としてどういう風に演じたかなとかそういうのをお話できたら" onclick="onRowClick(this)"><td>8</td><td>0:00:36.59</td><td>0:00:40.80</td><td>4.20s</td><td>30</td><td>Default</td><td>演者としてどういう風に演じたかなとかそういうのをお話できたら</td></tr>
+<tr class=""  data-start="40.795" data-end="48.915" data-text="なって思うんですけれども、ま、あくまで演じる時に心がけていたことというねエピソードですのでそれを" onclick="onRowClick(this)"><td>9</td><td>0:00:40.80</td><td>0:00:48.91</td><td>8.12s</td><td>48</td><td>Default</td><td>なって思うんですけれども、ま、あくまで演じる時に心がけていたことというねエピソードですのでそれを</td></tr>
+<tr class="severity-yellow" data-issue-yellow="1" data-start="48.915" data-end="49.475" data-text="胸に" onclick="onRowClick(this)"><td>10</td><td>0:00:48.91</td><td>0:00:49.48</td><td>0.56s</td><td>2</td><td>Default</td><td>胸に</td></tr>
+<tr class="detail-row" style="display:none"><td colspan="7"><span class="issue-tag tag-yellow">Text <3 chars</span></td></tr>
+<tr class=""  data-start="49.475" data-end="55.140" data-text="聞いていただきたいんですけれども、まず絵名的には、ま、今回のこの8話をですね" onclick="onRowClick(this)"><td>11</td><td>0:00:49.48</td><td>0:00:55.14</td><td>5.66s</td><td>38</td><td>Default</td><td>聞いていただきたいんですけれども、まず絵名的には、ま、今回のこの8話をですね</td></tr>
+<tr class=""  data-start="55.515" data-end="61.035" data-text="ま、8話だけじゃなくて今回のあの、前回のストーリーも踏まえて" onclick="onRowClick(this)"><td>12</td><td>0:00:55.52</td><td>0:01:01.03</td><td>5.52s</td><td>30</td><td>Default</td><td>ま、8話だけじゃなくて今回のあの、前回のストーリーも踏まえて</td></tr>
+<tr class=""  data-start="61.035" data-end="64.755" data-text="自分がこう絵名の立場に立って物考えてみた" onclick="onRowClick(this)"><td>13</td><td>0:01:01.03</td><td>0:01:04.75</td><td>3.72s</td><td>20</td><td>Default</td><td>自分がこう絵名の立場に立って物考えてみた</td></tr>
+<tr class=""  data-start="64.755" data-end="70.260" data-text="時に、やっぱり正解っていうのは全然見つけることができなくてこう実際" onclick="onRowClick(this)"><td>14</td><td>0:01:04.75</td><td>0:01:10.26</td><td>5.51s</td><td>33</td><td>Default</td><td>時に、やっぱり正解っていうのは全然見つけることができなくてこう実際</td></tr>
+<tr class=""  data-start="70.555" data-end="74.235" data-text="どういう風に思うんだろうとかどんな" onclick="onRowClick(this)"><td>15</td><td>0:01:10.56</td><td>0:01:14.23</td><td>3.68s</td><td>17</td><td>Default</td><td>どういう風に思うんだろうとかどんな</td></tr>
+<tr class=""  data-start="74.235" data-end="84.035" data-text="風に行動するんだろうって考えて考えて絵名の立場になってみてこう台本をずっと見つめ続けていての" onclick="onRowClick(this)"><td>16</td><td>0:01:14.23</td><td>0:01:24.03</td><td>9.80s</td><td>46</td><td>Default</td><td>風に行動するんだろうって考えて考えて絵名の立場になってみてこう台本をずっと見つめ続けていての</td></tr>
+<tr class=""  data-start="84.035" data-end="84.955" data-text="最後の8" onclick="onRowClick(this)"><td>17</td><td>0:01:24.03</td><td>0:01:24.95</td><td>0.92s</td><td>4</td><td>Default</td><td>最後の8</td></tr>
+<tr class=""  data-start="84.955" data-end="87.620" data-text="話だったんですけれども" onclick="onRowClick(this)"><td>18</td><td>0:01:24.95</td><td>0:01:27.62</td><td>2.67s</td><td>11</td><td>Default</td><td>話だったんですけれども</td></tr>
+<tr class=""  data-start="87.995" data-end="90.260" data-text="やっぱりこう私自身も" onclick="onRowClick(this)"><td>19</td><td>0:01:27.100</td><td>0:01:30.26</td><td>2.27s</td><td>10</td><td>Default</td><td>やっぱりこう私自身も</td></tr>
+<tr class=""  data-start="90.995" data-end="96.595" data-text="イベントストーリーだったりとか演出全体のこう何でしょう、" onclick="onRowClick(this)"><td>20</td><td>0:01:30.100</td><td>0:01:36.59</td><td>5.60s</td><td>28</td><td>Default</td><td>イベントストーリーだったりとか演出全体のこう何でしょう、</td></tr>
+<tr class=""  data-start="96.595" data-end="100.795" data-text="雰囲気に引っ張られてしまってなんかこうちょっと" onclick="onRowClick(this)"><td>21</td><td>0:01:36.59</td><td>0:01:40.80</td><td>4.20s</td><td>23</td><td>Default</td><td>雰囲気に引っ張られてしまってなんかこうちょっと</td></tr>
+<tr class=""  data-start="100.795" data-end="106.115" data-text="こう何でしょうねな、涙涙のほうというかうん、" onclick="onRowClick(this)"><td>22</td><td>0:01:40.80</td><td>0:01:46.11</td><td>5.32s</td><td>22</td><td>Default</td><td>こう何でしょうねな、涙涙のほうというかうん、</td></tr>
+<tr class=""  data-start="106.115" data-end="110.075" data-text="どうしても行きたくなったりとかこう気持ち的にね、こうどう" onclick="onRowClick(this)"><td>23</td><td>0:01:46.11</td><td>0:01:50.08</td><td>3.96s</td><td>28</td><td>Default</td><td>どうしても行きたくなったりとかこう気持ち的にね、こうどう</td></tr>
+<tr class=""  data-start="110.075" data-end="113.755" data-text="してもき、涙が溢れちゃうというか感じだったんですけど、" onclick="onRowClick(this)"><td>24</td><td>0:01:50.08</td><td>0:01:53.75</td><td>3.68s</td><td>27</td><td>Default</td><td>してもき、涙が溢れちゃうというか感じだったんですけど、</td></tr>
+<tr class=""  data-start="113.755" data-end="117.995" data-text="そして台本のほうもあの、8話の台本にはこうこう" onclick="onRowClick(this)"><td>25</td><td>0:01:53.75</td><td>0:01:57.100</td><td>4.24s</td><td>23</td><td>Default</td><td>そして台本のほうもあの、8話の台本にはこうこう</td></tr>
+<tr class=""  data-start="117.995" data-end="121.755" data-text="いう風に演じてほしいみたいなニュアンスが毎回書いてあるんですけど、" onclick="onRowClick(this)"><td>26</td><td>0:01:57.100</td><td>0:02:01.75</td><td>3.76s</td><td>33</td><td>Default</td><td>いう風に演じてほしいみたいなニュアンスが毎回書いてあるんですけど、</td></tr>
+<tr class=""  data-start="121.755" data-end="124.195" data-text="ここで泣いて、ここで鼻をすすってみたい" onclick="onRowClick(this)"><td>27</td><td>0:02:01.75</td><td>0:02:04.19</td><td>2.44s</td><td>19</td><td>Default</td><td>ここで泣いて、ここで鼻をすすってみたい</td></tr>
+<tr class=""  data-start="124.195" data-end="131.875" data-text="な、こう細かい指示もあって、で、それを踏まえて私は最初じゃあここで涙を流す絵名、" onclick="onRowClick(this)"><td>28</td><td>0:02:04.19</td><td>0:02:11.88</td><td>7.68s</td><td>40</td><td>Default</td><td>な、こう細かい指示もあって、で、それを踏まえて私は最初じゃあここで涙を流す絵名、</td></tr>
+<tr class=""  data-start="131.875" data-end="132.915" data-text="どういう風に演じようっ" onclick="onRowClick(this)"><td>29</td><td>0:02:11.88</td><td>0:02:12.91</td><td>1.04s</td><td>11</td><td>Default</td><td>どういう風に演じようっ</td></tr>
+<tr class=""  data-start="132.915" data-end="137.835" data-text="て思った時に本当にこうあなたはあなたのままでいいんだよ、" onclick="onRowClick(this)"><td>30</td><td>0:02:12.91</td><td>0:02:17.84</td><td>4.92s</td><td>28</td><td>Default</td><td>て思った時に本当にこうあなたはあなたのままでいいんだよ、</td></tr>
+<tr class=""  data-start="137.835" data-end="140.795" data-text="あなたが大切なんだよっていうことを瑞希に伝え" onclick="onRowClick(this)"><td>31</td><td>0:02:17.84</td><td>0:02:20.79</td><td>2.96s</td><td>22</td><td>Default</td><td>あなたが大切なんだよっていうことを瑞希に伝え</td></tr>
+<tr class=""  data-start="140.795" data-end="145.035" data-text="たいっていう一心でこう演じるプランを考えていたし、" onclick="onRowClick(this)"><td>32</td><td>0:02:20.79</td><td>0:02:25.03</td><td>4.24s</td><td>25</td><td>Default</td><td>たいっていう一心でこう演じるプランを考えていたし、</td></tr>
+<tr class=""  data-start="145.035" data-end="150.315" data-text="自分も自分の正直な心でそういう風に演じたいなって思っ" onclick="onRowClick(this)"><td>33</td><td>0:02:25.03</td><td>0:02:30.31</td><td>5.28s</td><td>26</td><td>Default</td><td>自分も自分の正直な心でそういう風に演じたいなって思っ</td></tr>
+<tr class=""  data-start="150.315" data-end="153.955" data-text="たんですけどこう実際収録に行って" onclick="onRowClick(this)"><td>34</td><td>0:02:30.31</td><td>0:02:33.96</td><td>3.64s</td><td>16</td><td>Default</td><td>たんですけどこう実際収録に行って</td></tr>
+<tr class=""  data-start="153.955" data-end="158.195" data-text="聞いていただいた後にディレクションでキャットファイトがしたいって言わ" onclick="onRowClick(this)"><td>35</td><td>0:02:33.96</td><td>0:02:38.19</td><td>4.24s</td><td>34</td><td>Default</td><td>聞いていただいた後にディレクションでキャットファイトがしたいって言わ</td></tr>
+<tr class=""  data-start="158.195" data-end="159.395" data-text="れたんですね。" onclick="onRowClick(this)"><td>36</td><td>0:02:38.19</td><td>0:02:39.40</td><td>1.20s</td><td>7</td><td>Default</td><td>れたんですね。</td></tr>
+<tr class=""  data-start="159.395" data-end="165.235" data-text="で、瑞希と絵名のキャットファイトが見てみたいって言われた時にじゃあ泣かなくていいんですね" onclick="onRowClick(this)"><td>37</td><td>0:02:39.40</td><td>0:02:45.24</td><td>5.84s</td><td>44</td><td>Default</td><td>で、瑞希と絵名のキャットファイトが見てみたいって言われた時にじゃあ泣かなくていいんですね</td></tr>
+<tr class=""  data-start="165.235" data-end="165.835" data-text="戦っていいん" onclick="onRowClick(this)"><td>38</td><td>0:02:45.24</td><td>0:02:45.84</td><td>0.60s</td><td>6</td><td>Default</td><td>戦っていいん</td></tr>
+<tr class=""  data-start="165.835" data-end="168.835" data-text="ですねっていう風にお話をしたわけですよ。" onclick="onRowClick(this)"><td>39</td><td>0:02:45.84</td><td>0:02:48.84</td><td>3.00s</td><td>20</td><td>Default</td><td>ですねっていう風にお話をしたわけですよ。</td></tr>
+<tr class=""  data-start="168.835" data-end="174.795" data-text="で、じゃあそうなる絵名ってどういう絵名だろうって思った時に私はすごくハッとして" onclick="onRowClick(this)"><td>40</td><td>0:02:48.84</td><td>0:02:54.79</td><td>5.96s</td><td>39</td><td>Default</td><td>で、じゃあそうなる絵名ってどういう絵名だろうって思った時に私はすごくハッとして</td></tr>
+<tr class=""  data-start="174.795" data-end="176.635" data-text="絵名は変わってないって" onclick="onRowClick(this)"><td>41</td><td>0:02:54.79</td><td>0:02:56.63</td><td>1.84s</td><td>11</td><td>Default</td><td>絵名は変わってないって</td></tr>
+<tr class=""  data-start="176.635" data-end="179.955" data-text="言ってんじゃん台本でって思ったんですね。" onclick="onRowClick(this)"><td>42</td><td>0:02:56.63</td><td>0:02:59.96</td><td>3.32s</td><td>20</td><td>Default</td><td>言ってんじゃん台本でって思ったんですね。</td></tr>
+<tr class=""  data-start="179.955" data-end="185.675" data-text="で、私が今までやろうとしていたり台本のト書きにあったプランもとても素敵なんですけど、" onclick="onRowClick(this)"><td>43</td><td>0:02:59.96</td><td>0:03:05.68</td><td>5.72s</td><td>42</td><td>Default</td><td>で、私が今までやろうとしていたり台本のト書きにあったプランもとても素敵なんですけど、</td></tr>
+<tr class=""  data-start="185.675" data-end="187.195" data-text="でもそれって瑞希" onclick="onRowClick(this)"><td>44</td><td>0:03:05.68</td><td>0:03:07.19</td><td>1.52s</td><td>8</td><td>Default</td><td>でもそれって瑞希</td></tr>
+<tr class=""  data-start="187.195" data-end="196.675" data-text="を大切に思うがあまり必要以上に気にかけていっしまってでもそれって違うような、" onclick="onRowClick(this)"><td>45</td><td>0:03:07.19</td><td>0:03:16.68</td><td>9.48s</td><td>38</td><td>Default</td><td>を大切に思うがあまり必要以上に気にかけていっしまってでもそれって違うような、</td></tr>
+<tr class=""  data-start="196.675" data-end="199.435" data-text="絵名だったら違うなって思っ" onclick="onRowClick(this)"><td>46</td><td>0:03:16.68</td><td>0:03:19.44</td><td>2.76s</td><td>13</td><td>Default</td><td>絵名だったら違うなって思っ</td></tr>
+<tr class=""  data-start="199.435" data-end="199.835" data-text="たんですよ。" onclick="onRowClick(this)"><td>47</td><td>0:03:19.44</td><td>0:03:19.84</td><td>0.40s</td><td>6</td><td>Default</td><td>たんですよ。</td></tr>
+<tr class=""  data-start="199.835" data-end="204.635" data-text="そ、大切に思う気持ちは本当に大、大事ですけど、" onclick="onRowClick(this)"><td>48</td><td>0:03:19.84</td><td>0:03:24.63</td><td>4.80s</td><td>23</td><td>Default</td><td>そ、大切に思う気持ちは本当に大、大事ですけど、</td></tr>
+<tr class=""  data-start="204.635" data-end="209.635" data-text="でも大切に思うからこそ自分の気持ちをぶつけたりとか何で" onclick="onRowClick(this)"><td>49</td><td>0:03:24.63</td><td>0:03:29.63</td><td>5.00s</td><td>27</td><td>Default</td><td>でも大切に思うからこそ自分の気持ちをぶつけたりとか何で</td></tr>
+<tr class=""  data-start="209.635" data-end="215.060" data-text="伝わらないのっていつも通りに喧嘩することが" onclick="onRowClick(this)"><td>50</td><td>0:03:29.63</td><td>0:03:35.06</td><td>5.43s</td><td>21</td><td>Default</td><td>伝わらないのっていつも通りに喧嘩することが</td></tr>
+<tr class=""  data-start="215.915" data-end="218.700" data-text="大事だったんだなっていう風に、なんかこうやっぱり" onclick="onRowClick(this)"><td>51</td><td>0:03:35.91</td><td>0:03:38.70</td><td>2.78s</td><td>24</td><td>Default</td><td>大事だったんだなっていう風に、なんかこうやっぱり</td></tr>
+<tr class=""  data-start="219.155" data-end="220.700" data-text="絵名じゃないから" onclick="onRowClick(this)"><td>52</td><td>0:03:39.16</td><td>0:03:40.70</td><td>1.54s</td><td>8</td><td>Default</td><td>絵名じゃないから</td></tr>
+<tr class=""  data-start="221.115" data-end="229.955" data-text="全部を見てるとなんか壮大なことのように確かに問題自体は本当に瑞希にしかわからないことだけど、" onclick="onRowClick(this)"><td>53</td><td>0:03:41.12</td><td>0:03:49.96</td><td>8.84s</td><td>46</td><td>Default</td><td>全部を見てるとなんか壮大なことのように確かに問題自体は本当に瑞希にしかわからないことだけど、</td></tr>
+<tr class=""  data-start="229.955" data-end="230.395" data-text="でも多分" onclick="onRowClick(this)"><td>54</td><td>0:03:49.96</td><td>0:03:50.40</td><td>0.44s</td><td>4</td><td>Default</td><td>でも多分</td></tr>
+<tr class=""  data-start="230.395" data-end="235.515" data-text="2人にとって絵名にとっては喧嘩ってだけで多分、" onclick="onRowClick(this)"><td>55</td><td>0:03:50.40</td><td>0:03:55.51</td><td>5.12s</td><td>23</td><td>Default</td><td>2人にとって絵名にとっては喧嘩ってだけで多分、</td></tr>
+<tr class=""  data-start="235.515" data-end="241.235" data-text="私が思うだけですけどでもなんか私たちが傍から見てすごく" onclick="onRowClick(this)"><td>56</td><td>0:03:55.51</td><td>0:04:01.24</td><td>5.72s</td><td>27</td><td>Default</td><td>私が思うだけですけどでもなんか私たちが傍から見てすごく</td></tr>
+<tr class=""  data-start="241.235" data-end="243.475" data-text="大ごとにしてしまったけど" onclick="onRowClick(this)"><td>57</td><td>0:04:01.24</td><td>0:04:03.47</td><td>2.24s</td><td>12</td><td>Default</td><td>大ごとにしてしまったけど</td></tr>
+<tr class=""  data-start="243.475" data-end="248.755" data-text="今までちゃんとしてこなかった人とぶつかるっていうことを初めて2人はしたんだなっ" onclick="onRowClick(this)"><td>58</td><td>0:04:03.47</td><td>0:04:08.75</td><td>5.28s</td><td>39</td><td>Default</td><td>今までちゃんとしてこなかった人とぶつかるっていうことを初めて2人はしたんだなっ</td></tr>
+<tr class=""  data-start="248.755" data-end="257.515" data-text="ていう解釈でなるほどっていう風に思いながら演じさせていただきました。" onclick="onRowClick(this)"><td>59</td><td>0:04:08.75</td><td>0:04:17.51</td><td>8.76s</td><td>34</td><td>Default</td><td>ていう解釈でなるほどっていう風に思いながら演じさせていただきました。</td></tr>
+<tr class=""  data-start="257.515" data-end="263.635" data-text="なのでイラストとあまりにもこう想像していたイラストと" onclick="onRowClick(this)"><td>60</td><td>0:04:17.51</td><td>0:04:23.63</td><td>6.12s</td><td>26</td><td>Default</td><td>なのでイラストとあまりにもこう想像していたイラストと</td></tr>
+<tr class=""  data-start="263.635" data-end="266.275" data-text="怒ってる絵名っていうのが結びつかなくて大丈夫かなっ" onclick="onRowClick(this)"><td>61</td><td>0:04:23.63</td><td>0:04:26.27</td><td>2.64s</td><td>25</td><td>Default</td><td>怒ってる絵名っていうのが結びつかなくて大丈夫かなっ</td></tr>
+<tr class=""  data-start="266.275" data-end="272.020" data-text="て思ってたんですがすごい素敵になっていてホッとしているというのが" onclick="onRowClick(this)"><td>62</td><td>0:04:26.27</td><td>0:04:32.02</td><td>5.75s</td><td>32</td><td>Default</td><td>て思ってたんですがすごい素敵になっていてホッとしているというのが</td></tr>
+<tr class=""  data-start="272.795" data-end="274.475" data-text="気持ちでございました。" onclick="onRowClick(this)"><td>63</td><td>0:04:32.80</td><td>0:04:34.48</td><td>1.68s</td><td>11</td><td>Default</td><td>気持ちでございました。</td></tr>
+<tr class=""  data-start="274.475" data-end="274.835" data-text="はい。" onclick="onRowClick(this)"><td>64</td><td>0:04:34.48</td><td>0:04:34.83</td><td>0.36s</td><td>3</td><td>Default</td><td>はい。</td></tr>
+<tr class=""  data-start="274.835" data-end="277.915" data-text="ま、そんな8話もありつつ、ま、せっかくなのでね、" onclick="onRowClick(this)"><td>65</td><td>0:04:34.83</td><td>0:04:37.92</td><td>3.08s</td><td>24</td><td>Default</td><td>ま、そんな8話もありつつ、ま、せっかくなのでね、</td></tr>
+<tr class=""  data-start="277.915" data-end="280.995" data-text="瑞希も結構今回の8話もそうですし、" onclick="onRowClick(this)"><td>66</td><td>0:04:37.92</td><td>0:04:40.100</td><td>3.08s</td><td>17</td><td>Default</td><td>瑞希も結構今回の8話もそうですし、</td></tr>
+<tr class=""  data-start="280.995" data-end="283.235" data-text="前回の8話も絵名と" onclick="onRowClick(this)"><td>67</td><td>0:04:40.100</td><td>0:04:43.24</td><td>2.24s</td><td>9</td><td>Default</td><td>前回の8話も絵名と</td></tr>
+<tr class=""  data-start="283.235" data-end="289.115" data-text="瑞希の掛け合いっていうのもあってお話聞きたいなっていうところではあるんですがいけますかね、" onclick="onRowClick(this)"><td>68</td><td>0:04:43.24</td><td>0:04:49.12</td><td>5.88s</td><td>45</td><td>Default</td><td>瑞希の掛け合いっていうのもあってお話聞きたいなっていうところではあるんですがいけますかね、</td></tr>
+<tr class=""  data-start="289.115" data-end="290.075" data-text="時間的に?" onclick="onRowClick(this)"><td>69</td><td>0:04:49.12</td><td>0:04:50.07</td><td>0.96s</td><td>5</td><td>Default</td><td>時間的に?</td></tr>
+<tr class=""  data-start="290.075" data-end="293.820" data-text="ねま、瑞希的にはやっぱり" onclick="onRowClick(this)"><td>70</td><td>0:04:50.07</td><td>0:04:53.82</td><td>3.75s</td><td>12</td><td>Default</td><td>ねま、瑞希的にはやっぱり</td></tr>
+<tr class=""  data-start="294.915" data-end="297.715" data-text="ま、どっちの8話も見逃せないですよね。" onclick="onRowClick(this)"><td>71</td><td>0:04:54.92</td><td>0:04:57.71</td><td>2.80s</td><td>19</td><td>Default</td><td>ま、どっちの8話も見逃せないですよね。</td></tr>
+<tr class=""  data-start="297.715" data-end="302.515" data-text="結構前回の8話は絵名結構こう言葉が見つからないっていうのもあるんで、" onclick="onRowClick(this)"><td>72</td><td>0:04:57.71</td><td>0:05:02.51</td><td>4.80s</td><td>34</td><td>Default</td><td>結構前回の8話は絵名結構こう言葉が見つからないっていうのもあるんで、</td></tr>
+<tr class=""  data-start="302.515" data-end="304.475" data-text="私的にはその、もうただそれだけだっ" onclick="onRowClick(this)"><td>73</td><td>0:05:02.51</td><td>0:05:04.48</td><td>1.96s</td><td>17</td><td>Default</td><td>私的にはその、もうただそれだけだっ</td></tr>
+<tr class=""  data-start="304.475" data-end="307.475" data-text="たのであれですけど、どうですか?" onclick="onRowClick(this)"><td>74</td><td>0:05:04.48</td><td>0:05:07.48</td><td>3.00s</td><td>16</td><td>Default</td><td>たのであれですけど、どうですか?</td></tr>
+<tr class=""  data-start="307.475" data-end="309.060" data-text="瑞希ちゃんそうですね。" onclick="onRowClick(this)"><td>75</td><td>0:05:07.48</td><td>0:05:09.06</td><td>1.58s</td><td>11</td><td>Default</td><td>瑞希ちゃんそうですね。</td></tr>
+<tr class=""  data-start="309.675" data-end="315.995" data-text="ま、なんかそのキャラがどう思ってただろうとか私の口から言うのはちょっと違うと思うので、" onclick="onRowClick(this)"><td>76</td><td>0:05:09.68</td><td>0:05:15.100</td><td>6.32s</td><td>43</td><td>Default</td><td>ま、なんかそのキャラがどう思ってただろうとか私の口から言うのはちょっと違うと思うので、</td></tr>
+<tr class=""  data-start="315.995" data-end="317.355" data-text="技術面のほうで" onclick="onRowClick(this)"><td>77</td><td>0:05:15.100</td><td>0:05:17.36</td><td>1.36s</td><td>7</td><td>Default</td><td>技術面のほうで</td></tr>
+<tr class=""  data-start="317.355" data-end="325.755" data-text="ちょっとお話しさせていただくとその私結構前回の傾曲の道はいずこへと今回のね、" onclick="onRowClick(this)"><td>78</td><td>0:05:17.36</td><td>0:05:25.75</td><td>8.40s</td><td>38</td><td>Default</td><td>ちょっとお話しさせていただくとその私結構前回の傾曲の道はいずこへと今回のね、</td></tr>
+<tr class=""  data-start="325.755" data-end="327.835" data-text="収録の仕方で立って撮らせ" onclick="onRowClick(this)"><td>79</td><td>0:05:25.75</td><td>0:05:27.83</td><td>2.08s</td><td>12</td><td>Default</td><td>収録の仕方で立って撮らせ</td></tr>
+<tr class=""  data-start="327.835" data-end="330.555" data-text="てくださいっていうか結構ねギリギリまで迷って、" onclick="onRowClick(this)"><td>80</td><td>0:05:27.83</td><td>0:05:30.56</td><td>2.72s</td><td>23</td><td>Default</td><td>てくださいっていうか結構ねギリギリまで迷って、</td></tr>
+<tr class=""  data-start="330.555" data-end="334.955" data-text="ていうのもちょ、私自身が、あの、ま、アフレコのスタイルっ" onclick="onRowClick(this)"><td>81</td><td>0:05:30.56</td><td>0:05:34.95</td><td>4.40s</td><td>28</td><td>Default</td><td>ていうのもちょ、私自身が、あの、ま、アフレコのスタイルっ</td></tr>
+<tr class=""  data-start="334.955" data-end="340.835" data-text="てなるとその声でお芝居しなきゃって思っちゃうタイプだからこそ立ったほうが、" onclick="onRowClick(this)"><td>82</td><td>0:05:34.95</td><td>0:05:40.83</td><td>5.88s</td><td>37</td><td>Default</td><td>てなるとその声でお芝居しなきゃって思っちゃうタイプだからこそ立ったほうが、</td></tr>
+<tr class=""  data-start="340.835" data-end="342.515" data-text="ちょ、舞台と一緒だからできる" onclick="onRowClick(this)"><td>83</td><td>0:05:40.83</td><td>0:05:42.51</td><td>1.68s</td><td>14</td><td>Default</td><td>ちょ、舞台と一緒だからできる</td></tr>
+<tr class=""  data-start="342.515" data-end="345.300" data-text="かなと思ったんですけど、その" onclick="onRowClick(this)"><td>84</td><td>0:05:42.51</td><td>0:05:45.30</td><td>2.79s</td><td>14</td><td>Default</td><td>かなと思ったんですけど、その</td></tr>
+<tr class=""  data-start="345.915" data-end="350.795" data-text="泣くってなると足に、ま、もちろん力は入らなくなるっていうのもあって" onclick="onRowClick(this)"><td>85</td><td>0:05:45.92</td><td>0:05:50.80</td><td>4.88s</td><td>33</td><td>Default</td><td>泣くってなると足に、ま、もちろん力は入らなくなるっていうのもあって</td></tr>
+<tr class=""  data-start="350.795" data-end="353.235" data-text="いい意味でその声に集中するってなっ" onclick="onRowClick(this)"><td>86</td><td>0:05:50.80</td><td>0:05:53.24</td><td>2.44s</td><td>17</td><td>Default</td><td>いい意味でその声に集中するってなっ</td></tr>
+<tr class=""  data-start="353.235" data-end="356.315" data-text="たら座ってたほうがいいのかなと思い撮らせていただいて、" onclick="onRowClick(this)"><td>87</td><td>0:05:53.24</td><td>0:05:56.31</td><td>3.08s</td><td>27</td><td>Default</td><td>たら座ってたほうがいいのかなと思い撮らせていただいて、</td></tr>
+<tr class=""  data-start="356.315" data-end="361.700" data-text="前回の傾曲の道はいずこへの8話をはその私の" onclick="onRowClick(this)"><td>88</td><td>0:05:56.31</td><td>0:06:01.70</td><td>5.38s</td><td>21</td><td>Default</td><td>前回の傾曲の道はいずこへの8話をはその私の</td></tr>
+<tr class=""  data-start="362.475" data-end="366.380" data-text="最初作ってたプランニングは泣きながらでもその" onclick="onRowClick(this)"><td>89</td><td>0:06:02.48</td><td>0:06:06.38</td><td>3.90s</td><td>22</td><td>Default</td><td>最初作ってたプランニングは泣きながらでもその</td></tr>
+<tr class=""  data-start="367.115" data-end="370.315" data-text="ちゃんと言葉は話っていうイメージだったので、" onclick="onRowClick(this)"><td>90</td><td>0:06:07.12</td><td>0:06:10.31</td><td>3.20s</td><td>22</td><td>Default</td><td>ちゃんと言葉は話っていうイメージだったので、</td></tr>
+<tr class=""  data-start="370.315" data-end="372.595" data-text="もっと泣いてほしいですっていうディレクションがあって、そっ" onclick="onRowClick(this)"><td>91</td><td>0:06:10.31</td><td>0:06:12.60</td><td>2.28s</td><td>29</td><td>Default</td><td>もっと泣いてほしいですっていうディレクションがあって、そっ</td></tr>
+<tr class=""  data-start="372.595" data-end="375.180" data-text="から多分34本くらい撮って" onclick="onRowClick(this)"><td>92</td><td>0:06:12.60</td><td>0:06:15.18</td><td>2.58s</td><td>13</td><td>Default</td><td>から多分34本くらい撮って</td></tr>
+<tr class=""  data-start="375.635" data-end="378.875" data-text="そこから私は稔ちゃんのセリフを聞かずに、" onclick="onRowClick(this)"><td>93</td><td>0:06:15.63</td><td>0:06:18.88</td><td>3.24s</td><td>20</td><td>Default</td><td>そこから私は稔ちゃんのセリフを聞かずに、</td></tr>
+<tr class=""  data-start="378.875" data-end="383.035" data-text="あの、前回も今回も撮ってるので、皆さんと同じタイミングでその" onclick="onRowClick(this)"><td>94</td><td>0:06:18.88</td><td>0:06:23.04</td><td>4.16s</td><td>30</td><td>Default</td><td>あの、前回も今回も撮ってるので、皆さんと同じタイミングでその</td></tr>
+<tr class=""  data-start="383.035" data-end="385.355" data-text="2人の掛け合いを聞いたっていうのもあって、あ、" onclick="onRowClick(this)"><td>95</td><td>0:06:23.04</td><td>0:06:25.36</td><td>2.32s</td><td>23</td><td>Default</td><td>2人の掛け合いを聞いたっていうのもあって、あ、</td></tr>
+<tr class=""  data-start="385.355" data-end="388.475" data-text="こんな風に作品として仕上がったんだなっていう風に、" onclick="onRowClick(this)"><td>96</td><td>0:06:25.36</td><td>0:06:28.48</td><td>3.12s</td><td>25</td><td>Default</td><td>こんな風に作品として仕上がったんだなっていう風に、</td></tr>
+<tr class="severity-yellow" data-issue-yellow="1" data-start="388.475" data-end="388.875" data-text="あの" onclick="onRowClick(this)"><td>97</td><td>0:06:28.48</td><td>0:06:28.88</td><td>0.40s</td><td>2</td><td>Default</td><td>あの</td></tr>
+<tr class="detail-row" style="display:none"><td colspan="7"><span class="issue-tag tag-yellow">Text <3 chars</span></td></tr>
+<tr class=""  data-start="388.875" data-end="396.155" data-text="思えたので、あの、私的には、あの、全力を尽くさせていただいたなと思っております。" onclick="onRowClick(this)"><td>98</td><td>0:06:28.88</td><td>0:06:36.15</td><td>7.28s</td><td>40</td><td>Default</td><td>思えたので、あの、私的には、あの、全力を尽くさせていただいたなと思っております。</td></tr>
+<tr class=""  data-start="396.155" data-end="401.155" data-text="なんか結構こう会ったりはするので、収録では会えないんですけど、" onclick="onRowClick(this)"><td>99</td><td>0:06:36.15</td><td>0:06:41.15</td><td>5.00s</td><td>31</td><td>Default</td><td>なんか結構こう会ったりはするので、収録では会えないんですけど、</td></tr>
+<tr class=""  data-start="401.155" data-end="402.195" data-text="結構どうやって撮った?" onclick="onRowClick(this)"><td>100</td><td>0:06:41.15</td><td>0:06:42.19</td><td>1.04s</td><td>11</td><td>Default</td><td>結構どうやって撮った?</td></tr>
+<tr class=""  data-start="402.195" data-end="402.835" data-text="どうやって言われた?" onclick="onRowClick(this)"><td>101</td><td>0:06:42.19</td><td>0:06:42.83</td><td>0.64s</td><td>10</td><td>Default</td><td>どうやって言われた?</td></tr>
+<tr class=""  data-start="402.835" data-end="406.235" data-text="みたいなのずっと話しててなんかこれはね、" onclick="onRowClick(this)"><td>102</td><td>0:06:42.83</td><td>0:06:46.24</td><td>3.40s</td><td>20</td><td>Default</td><td>みたいなのずっと話しててなんかこれはね、</td></tr>
+<tr class=""  data-start="406.235" data-end="410.115" data-text="スタッフさんにちょっとちょっとした要望なんですけど、なんかこう" onclick="onRowClick(this)"><td>103</td><td>0:06:46.24</td><td>0:06:50.12</td><td>3.88s</td><td>31</td><td>Default</td><td>スタッフさんにちょっとちょっとした要望なんですけど、なんかこう</td></tr>
+<tr class=""  data-start="410.115" data-end="418.035" data-text="いつか掛け合いで一緒に同じスタジオに入って撮れたら素敵だねっていうのは言っていて、" onclick="onRowClick(this)"><td>104</td><td>0:06:50.12</td><td>0:06:58.04</td><td>7.92s</td><td>41</td><td>Default</td><td>いつか掛け合いで一緒に同じスタジオに入って撮れたら素敵だねっていうのは言っていて、</td></tr>
+<tr class=""  data-start="418.035" data-end="418.955" data-text="なんかすごくプラの" onclick="onRowClick(this)"><td>105</td><td>0:06:58.04</td><td>0:06:58.95</td><td>0.92s</td><td>9</td><td>Default</td><td>なんかすごくプラの</td></tr>
+<tr class=""  data-start="418.955" data-end="425.635" data-text="セカンドスタッフさん、演者さんのお芝居すごくリスペクトしてくださるからこそなんかまた" onclick="onRowClick(this)"><td>106</td><td>0:06:58.95</td><td>0:07:05.63</td><td>6.68s</td><td>42</td><td>Default</td><td>セカンドスタッフさん、演者さんのお芝居すごくリスペクトしてくださるからこそなんかまた</td></tr>
+<tr class=""  data-start="425.635" data-end="426.715" data-text="成長した瑞希と絵" onclick="onRowClick(this)"><td>107</td><td>0:07:05.63</td><td>0:07:06.71</td><td>1.08s</td><td>8</td><td>Default</td><td>成長した瑞希と絵</td></tr>
+<tr class=""  data-start="426.715" data-end="430.595" data-text="名がまた何か大きな壁にぶつかるかもしれないし、" onclick="onRowClick(this)"><td>108</td><td>0:07:06.71</td><td>0:07:10.60</td><td>3.88s</td><td>23</td><td>Default</td><td>名がまた何か大きな壁にぶつかるかもしれないし、</td></tr>
+<tr class=""  data-start="430.595" data-end="433.155" data-text="でも誰かを助けるために動くかもしれないし、" onclick="onRowClick(this)"><td>109</td><td>0:07:10.60</td><td>0:07:13.15</td><td>2.56s</td><td>21</td><td>Default</td><td>でも誰かを助けるために動くかもしれないし、</td></tr>
+<tr class=""  data-start="433.155" data-end="433.755" data-text="なんかそういう" onclick="onRowClick(this)"><td>110</td><td>0:07:13.15</td><td>0:07:13.75</td><td>0.60s</td><td>7</td><td>Default</td><td>なんかそういう</td></tr>
+<tr class=""  data-start="433.755" data-end="438.955" data-text="素敵なシーンで今度は一緒に掛け合えたらいいななんて思ってます。" onclick="onRowClick(this)"><td>111</td><td>0:07:13.75</td><td>0:07:18.95</td><td>5.20s</td><td>31</td><td>Default</td><td>素敵なシーンで今度は一緒に掛け合えたらいいななんて思ってます。</td></tr>
+<tr class=""  data-start="438.955" data-end="443.315" data-text="で、それがない中でこうようはまったなっていうちょっとうちら、" onclick="onRowClick(this)"><td>112</td><td>0:07:18.95</td><td>0:07:23.31</td><td>4.36s</td><td>30</td><td>Default</td><td>で、それがない中でこうようはまったなっていうちょっとうちら、</td></tr>
+<tr class=""  data-start="443.315" data-end="445.715" data-text="いや、イェーイみたいなとこもありますけど、" onclick="onRowClick(this)"><td>113</td><td>0:07:23.31</td><td>0:07:25.71</td><td>2.40s</td><td>21</td><td>Default</td><td>いや、イェーイみたいなとこもありますけど、</td></tr>
+<tr class=""  data-start="445.715" data-end="448.195" data-text="はい、じゃあこんな感じでお話ししましたが、" onclick="onRowClick(this)"><td>114</td><td>0:07:25.71</td><td>0:07:28.19</td><td>2.48s</td><td>21</td><td>Default</td><td>はい、じゃあこんな感じでお話ししましたが、</td></tr>
+<tr class=""  data-start="448.195" data-end="452.755" data-text="もうそろそろ時間ですのでここからはアフターライブを皆さんで" onclick="onRowClick(this)"><td>115</td><td>0:07:28.19</td><td>0:07:32.75</td><td>4.56s</td><td>29</td><td>Default</td><td>もうそろそろ時間ですのでここからはアフターライブを皆さんで</td></tr>
+<tr class=""  data-start="452.755" data-end="454.355" data-text="見ていきたいと思います。" onclick="onRowClick(this)"><td>116</td><td>0:07:32.75</td><td>0:07:34.36</td><td>1.60s</td><td>12</td><td>Default</td><td>見ていきたいと思います。</td></tr>
+<tr class=""  data-start="454.355" data-end="455.460" data-text="プライベート" onclick="onRowClick(this)"><td>117</td><td>0:07:34.36</td><td>0:07:35.46</td><td>1.10s</td><td>6</td><td>Default</td><td>プライベート</td></tr>
+</tbody>
+</table>
+<script>
+const video = document.getElementById('video');
+const nowLineNum = document.getElementById('now-line-num');
+const nowTime = document.getElementById('now-time');
+const nowText = document.getElementById('now-text');
+let selectedRow = null;
+
+function onRowClick(row) {
+  // Toggle detail row
+  const next = row.nextElementSibling;
+  if (next && next.classList.contains('detail-row')) {
+    next.style.display = next.style.display === 'none' ? '' : 'none';
+  }
+  // Select line and seek video
+  if (selectedRow) selectedRow.classList.remove('selected');
+  row.classList.add('selected');
+  selectedRow = row;
+  const lineNum = row.cells[0].textContent;
+  const text = row.getAttribute('data-text');
+  const startTime = row.cells[1].textContent;
+  const endTime = row.cells[2].textContent;
+  if (nowLineNum) nowLineNum.textContent = 'Line #' + lineNum;
+  if (nowTime) nowTime.textContent = startTime + ' → ' + endTime;
+  if (nowText) nowText.textContent = text;
+  if (video) {
+    const t = parseFloat(row.getAttribute('data-start'));
+    video.currentTime = t;
+    video.play();
+  }
+}
+const activeFilters = new Set();
+function applyFilters() {
+  const rows = document.querySelectorAll('tbody tr:not(.detail-row)');
+  rows.forEach(row => {
+    if (activeFilters.size === 0) {
+      row.classList.remove('hidden-row');
+      return;
+    }
+    let show = false;
+    for (const f of activeFilters) {
+      if (row.getAttribute('data-issue-' + f) === '1') show = true;
+    }
+    row.classList.toggle('hidden-row', !show);
+    const next = row.nextElementSibling;
+    if (next && next.classList.contains('detail-row')) {
+      if (!show) next.style.display = 'none';
+    }
+  });
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+    btn.classList.toggle('inactive', activeFilters.size > 0 && !activeFilters.has(btn.dataset.filter));
+  });
+}
+function toggleFilter(btn) {
+  const f = btn.dataset.filter;
+  if (activeFilters.has(f)) activeFilters.delete(f); else activeFilters.add(f);
+  applyFilters();
+}
+function filterAll() {
+  activeFilters.clear();
+  applyFilters();
+}
+function filterIssuesOnly() {
+  activeFilters.clear();
+  ['red','orange','yellow','blue'].forEach(f => activeFilters.add(f));
+  applyFilters();
+}
+// Pin table headers just below the sticky top bar
+(function() {
+  const stickyTop = document.getElementById('sticky-top');
+  if (!stickyTop) return;
+  function updateThTop() {
+    const h = stickyTop.offsetHeight;
+    document.querySelectorAll('th').forEach(th => th.style.top = h + 'px');
+  }
+  updateThTop();
+  window.addEventListener('resize', updateThTop);
+  new ResizeObserver(updateThTop).observe(stickyTop);
+})();
+</script>
+</body>
+</html>
