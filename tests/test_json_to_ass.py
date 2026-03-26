@@ -8,6 +8,7 @@ import unittest
 from json_to_ass import (
     _get_word_time,
     _emit_line,
+    _resolve_style,
     extract_dialogue_lines,
     load_transcript,
     lines_to_ass,
@@ -61,7 +62,7 @@ class TestGetWordTime(unittest.TestCase):
 
 class TestEmitLine(unittest.TestCase):
     def test_short_text_single_line(self):
-        word_data = [("こんにちは", 1.0, 2.0)]
+        word_data = [("こんにちは", 1.0, 2.0, "")]
         lines = []
         _emit_line(word_data, "JP", 40, lines)
         self.assertEqual(len(lines), 1)
@@ -78,9 +79,14 @@ class TestEmitLine(unittest.TestCase):
         """Long text with commas should split at the comma with longest pause."""
         # Create words totaling >40 chars with a comma
         word_data = [
-            ("これは長いテキストです、", 1.0, 2.0),  # 12 chars, has comma
-            ("もっと長いテキストがここにあります、", 2.0, 3.0),  # 16 chars, has comma
-            ("最後のテキストです。", 3.5, 4.0),  # big pause before this = 0.5s
+            ("これは長いテキストです、", 1.0, 2.0, ""),  # 12 chars, has comma
+            (
+                "もっと長いテキストがここにあります、",
+                2.0,
+                3.0,
+                "",
+            ),  # 16 chars, has comma
+            ("最後のテキストです。", 3.5, 4.0, ""),  # big pause before this = 0.5s
         ]
         lines = []
         _emit_line(word_data, "JP", 20, lines)
@@ -90,7 +96,7 @@ class TestEmitLine(unittest.TestCase):
     def test_long_text_no_commas(self):
         """Long text without commas emits as single line when under max_line_chars."""
         word_data = [
-            ("これは長いテキストですがコンマがありません。", 1.0, 2.0),
+            ("これは長いテキストですがコンマがありません。", 1.0, 2.0, ""),
         ]
         lines = []
         _emit_line(word_data, "JP", 10, lines)
@@ -99,10 +105,10 @@ class TestEmitLine(unittest.TestCase):
     def test_pause_split_fallback(self):
         """Long text without commas splits at longest pause when over max_line_chars."""
         word_data = [
-            ("これは長いテキストです", 1.0, 2.0),  # 11 chars
-            ("もっと長いテキストがあります", 2.1, 3.0),  # 0.1s pause
-            ("ここで区切るべき", 3.0, 4.0),  # 0s pause
-            ("最後の部分です", 5.0, 6.0),  # 1.0s pause before this — longest
+            ("これは長いテキストです", 1.0, 2.0, ""),  # 11 chars
+            ("もっと長いテキストがあります", 2.1, 3.0, ""),  # 0.1s pause
+            ("ここで区切るべき", 3.0, 4.0, ""),  # 0s pause
+            ("最後の部分です", 5.0, 6.0, ""),  # 1.0s pause before this — longest
         ]
         lines = []
         _emit_line(word_data, "JP", 40, lines, max_line_chars=30)
@@ -113,8 +119,8 @@ class TestEmitLine(unittest.TestCase):
     def test_pause_split_not_triggered_under_max(self):
         """Pause split doesn't trigger when text is under max_line_chars."""
         word_data = [
-            ("短いテキスト", 1.0, 2.0),
-            ("もう少し", 3.0, 4.0),
+            ("短いテキスト", 1.0, 2.0, ""),
+            ("もう少し", 3.0, 4.0, ""),
         ]
         lines = []
         _emit_line(word_data, "JP", 40, lines, max_line_chars=50)
@@ -123,8 +129,8 @@ class TestEmitLine(unittest.TestCase):
     def test_comma_split_disabled(self):
         """When comma_split_chars=0, no splitting occurs."""
         word_data = [
-            ("長いテキスト、", 1.0, 2.0),
-            ("もっとテキスト。", 2.5, 3.0),
+            ("長いテキスト、", 1.0, 2.0, ""),
+            ("もっとテキスト。", 2.5, 3.0, ""),
         ]
         lines = []
         _emit_line(word_data, "JP", 0, lines)
@@ -205,6 +211,68 @@ class TestExtractDialogueLines(unittest.TestCase):
         result = {"alternatives": []}
         lines = extract_dialogue_lines([result])
         self.assertEqual(lines, [])
+
+    def test_speaker_change_forces_break(self):
+        """Words with different speaker labels should split into separate lines."""
+        words = [
+            {**self._make_word("こんにちは", 1.0, 2.0), "speakerLabel": "1"},
+            {**self._make_word("さようなら", 2.1, 3.0), "speakerLabel": "2"},
+        ]
+        result = self._make_result(words)
+        lines = extract_dialogue_lines([result])
+        self.assertEqual(len(lines), 2)
+        self.assertEqual(lines[0]["style"], "1")
+        self.assertEqual(lines[1]["style"], "2")
+
+    def test_no_speaker_label_falls_back_to_language_style(self):
+        """Words without speaker labels use language-based style."""
+        words = [self._make_word("テスト", 1.0, 2.0)]
+        result = self._make_result(words, lang="ja-jp")
+        lines = extract_dialogue_lines([result])
+        self.assertEqual(lines[0]["style"], "JP")
+
+    def test_same_speaker_no_break(self):
+        """Words with the same speaker label don't force a break."""
+        words = [
+            {**self._make_word("こんにちは", 1.0, 2.0), "speakerLabel": "1"},
+            {**self._make_word("元気ですか", 2.1, 3.0), "speakerLabel": "1"},
+        ]
+        result = self._make_result(words)
+        lines = extract_dialogue_lines([result])
+        self.assertEqual(len(lines), 1)
+        self.assertEqual(lines[0]["style"], "1")
+
+
+class TestResolveStyle(unittest.TestCase):
+    def test_majority_voting(self):
+        """Most common speaker label wins."""
+        word_data = [
+            ("a", 1.0, 2.0, "1"),
+            ("b", 2.0, 3.0, "2"),
+            ("c", 3.0, 4.0, "1"),
+        ]
+        self.assertEqual(_resolve_style(word_data, "JP"), "1")
+
+    def test_no_labels_falls_back(self):
+        """Empty labels fall back to the language-based style."""
+        word_data = [
+            ("a", 1.0, 2.0, ""),
+            ("b", 2.0, 3.0, ""),
+        ]
+        self.assertEqual(_resolve_style(word_data, "JP"), "JP")
+
+    def test_single_label(self):
+        word_data = [("a", 1.0, 2.0, "3")]
+        self.assertEqual(_resolve_style(word_data, "Default"), "3")
+
+    def test_mixed_labels_and_empty(self):
+        """Empty labels are ignored in voting."""
+        word_data = [
+            ("a", 1.0, 2.0, ""),
+            ("b", 2.0, 3.0, "2"),
+            ("c", 3.0, 4.0, ""),
+        ]
+        self.assertEqual(_resolve_style(word_data, "JP"), "2")
 
 
 class TestLoadTranscript(unittest.TestCase):

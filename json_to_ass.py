@@ -12,6 +12,7 @@ using word-level timestamps, sentence boundaries, and pause detection.
 import argparse
 import json
 import sys
+from collections import Counter
 from pathlib import Path
 
 from quality_report import write_reports
@@ -107,6 +108,20 @@ def _get_word_time(word: dict, key: str, fallback: float, max_time: float) -> fl
     return val
 
 
+def _resolve_style(word_data: list[tuple], fallback_style: str) -> str:
+    """Determine the ASS style for a line from its words' speaker labels.
+
+    Uses the most common speaker label among the words. Falls back to the
+    language-based style (e.g., "JP", "Default") when no labels are present.
+    """
+    labels = [w[3] for w in word_data if w[3]]
+    if not labels:
+        return fallback_style
+    # Most common label wins
+    most_common = Counter(labels).most_common(1)[0][0]
+    return most_common
+
+
 def _emit_line(
     word_data: list[tuple],
     style: str,
@@ -150,7 +165,7 @@ def _emit_line(
     running_len = 0
 
     for i in range(len(word_data) - 1):
-        w_text, w_start, w_end = word_data[i]
+        w_text, w_end = word_data[i][0], word_data[i][2]
         running_len += len(w_text)
 
         if running_len < min_first_part:
@@ -182,7 +197,7 @@ def _emit_line(
         pause_len = 0
 
         for i in range(len(word_data) - 1):
-            w_text, w_start, w_end = word_data[i]
+            w_text, w_end = word_data[i][0], word_data[i][2]
             pause_len += len(w_text)
 
             if pause_len < min_first:
@@ -260,7 +275,7 @@ def extract_dialogue_lines(
         max_valid_time = max(valid_ends) * 1.1 if valid_ends else MAX_AUDIO_LENGTH_SECS
 
         # Pre-process: collect words with valid timestamps, merge punctuation tokens
-        processed = []  # list of (text, start, end)
+        processed = []  # list of (text, start, end, speaker)
         last_valid_time = 0.0
 
         for word in words:
@@ -273,23 +288,26 @@ def extract_dialogue_lines(
             last_valid_time = max(last_valid_time, w_start, w_end)
 
             word_text = word.get("word", "")
+            speaker = word.get("speakerLabel", "")
             if word_text.strip() in PUNCTUATION_ONLY and processed:
-                prev_text, prev_start, prev_end = processed[-1]
+                prev_text, prev_start, prev_end, prev_speaker = processed[-1]
                 processed[-1] = (
                     prev_text + word_text,
                     prev_start,
                     max(prev_end, w_end),
+                    prev_speaker,
                 )
                 continue
 
-            processed.append((word_text, w_start, w_end))
+            processed.append((word_text, w_start, w_end, speaker))
 
         # Build lines from processed words.
-        # First pass: split at sentence enders, hard pauses, and max chars.
+        # First pass: split at sentence enders, hard pauses, max chars,
+        # and speaker changes (when diarization labels are present).
         # Then _emit_line handles comma splitting on the resulting segments.
-        current_word_data = []  # list of (text, start, end) tuples
+        current_word_data = []  # list of (text, start, end, speaker) tuples
 
-        for i, (word_text, w_start, w_end) in enumerate(processed):
+        for i, (word_text, w_start, w_end, speaker) in enumerate(processed):
             should_break = False
             if current_word_data:
                 prev_end = current_word_data[-1][2]
@@ -304,18 +322,33 @@ def extract_dialogue_lines(
                 if sum(len(w[0]) for w in current_word_data) >= max_line_chars:
                     should_break = True
 
+                # Break on speaker change (diarization)
+                prev_speaker = current_word_data[-1][3]
+                if speaker and prev_speaker and speaker != prev_speaker:
+                    should_break = True
+
             if should_break and current_word_data:
+                line_style = _resolve_style(current_word_data, style)
                 _emit_line(
-                    current_word_data, style, comma_split_chars, lines, max_line_chars
+                    current_word_data,
+                    line_style,
+                    comma_split_chars,
+                    lines,
+                    max_line_chars,
                 )
                 current_word_data = []
 
-            current_word_data.append((word_text, w_start, w_end))
+            current_word_data.append((word_text, w_start, w_end, speaker))
 
         # Flush remaining words
         if current_word_data:
+            line_style = _resolve_style(current_word_data, style)
             _emit_line(
-                current_word_data, style, comma_split_chars, lines, max_line_chars
+                current_word_data,
+                line_style,
+                comma_split_chars,
+                lines,
+                max_line_chars,
             )
 
     return lines

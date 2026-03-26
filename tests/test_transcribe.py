@@ -12,7 +12,7 @@ from json_to_ass import (
 )
 
 
-def _make_word(text, start_seconds, end_seconds):
+def _make_word(text, start_seconds, end_seconds, speaker_label=""):
     """Create a mock protobuf word with start/end offsets."""
     word = MagicMock()
     word.word = text
@@ -20,6 +20,7 @@ def _make_word(text, start_seconds, end_seconds):
     word.start_offset.total_seconds.return_value = start_seconds
     word.end_offset = MagicMock()
     word.end_offset.total_seconds.return_value = end_seconds
+    word.speaker_label = speaker_label
     return word
 
 
@@ -152,6 +153,34 @@ class TestTranscriptToJson(unittest.TestCase):
         )
         results = transcript_to_json(transcript, time_offset=500.0)
         self.assertEqual(results[0]["resultEndOffset"], "510.00s")
+
+    def test_speaker_label_preserved(self):
+        """Non-empty speaker_label should appear as speakerLabel in word output."""
+        transcript = _make_transcript(
+            [
+                [("hello", 1.0, 2.0), ("world", 2.5, 3.0)],
+            ]
+        )
+        # Set speaker labels on the mock words
+        transcript.results[0].alternatives[0].words[0].speaker_label = "1"
+        transcript.results[0].alternatives[0].words[1].speaker_label = "2"
+
+        results = transcript_to_json(transcript, time_offset=0.0)
+        words = results[0]["alternatives"][0]["words"]
+        self.assertEqual(words[0]["speakerLabel"], "1")
+        self.assertEqual(words[1]["speakerLabel"], "2")
+
+    def test_empty_speaker_label_omitted(self):
+        """Empty speaker_label should not appear in word output."""
+        transcript = _make_transcript(
+            [
+                [("hello", 1.0, 2.0)],
+            ]
+        )
+        # speaker_label defaults to "" via _make_word
+        results = transcript_to_json(transcript, time_offset=0.0)
+        words = results[0]["alternatives"][0]["words"]
+        self.assertNotIn("speakerLabel", words[0])
 
     def test_no_alternatives_skipped(self):
         transcript = MagicMock()

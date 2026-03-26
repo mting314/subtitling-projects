@@ -61,7 +61,11 @@ MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
 
 
 def transcribe_batch(
-    audio_uri: str, project_id: str, region: str
+    audio_uri: str,
+    project_id: str,
+    region: str,
+    diarize: bool = False,
+    speaker_count: int = 0,
 ) -> cloud_speech.BatchRecognizeResults:
     """Transcribe a single audio file via GCP BatchRecognize with Chirp 3."""
     client = SpeechClient(
@@ -70,14 +74,24 @@ def transcribe_batch(
         )
     )
 
+    features = cloud_speech.RecognitionFeatures(
+        enable_word_time_offsets=True,
+        enable_automatic_punctuation=True,
+    )
+    if diarize:
+        diarization_kwargs = {}
+        if speaker_count > 0:
+            diarization_kwargs["min_speaker_count"] = speaker_count
+            diarization_kwargs["max_speaker_count"] = speaker_count
+        features.diarization_config = cloud_speech.SpeakerDiarizationConfig(
+            **diarization_kwargs
+        )
+
     config = cloud_speech.RecognitionConfig(
         auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
         language_codes=["ja-JP", "en-US"],
         model="chirp_3",
-        features=cloud_speech.RecognitionFeatures(
-            enable_word_time_offsets=True,
-            enable_automatic_punctuation=True,
-        ),
+        features=features,
     )
 
     file_metadata = cloud_speech.BatchRecognizeFileMetadata(uri=audio_uri)
@@ -127,13 +141,14 @@ def transcript_to_json(
                     end = start
             if end <= 0 or end < start:
                 end = start
-            words.append(
-                {
-                    "word": w.word,
-                    "startOffset": f"{start + time_offset:.2f}s",
-                    "endOffset": f"{end + time_offset:.2f}s",
-                }
-            )
+            word_entry = {
+                "word": w.word,
+                "startOffset": f"{start + time_offset:.2f}s",
+                "endOffset": f"{end + time_offset:.2f}s",
+            }
+            if w.speaker_label:
+                word_entry["speakerLabel"] = w.speaker_label
+            words.append(word_entry)
         results.append(
             {
                 "languageCode": result.language_code,
@@ -199,8 +214,23 @@ def main():
         default=0.0,
         help="Skip this many seconds of audio before transcribing (default: 0, no trim)",
     )
+    parser.add_argument(
+        "--diarize",
+        action="store_true",
+        help="Enable speaker diarization (adds per-word speaker labels to transcript)",
+    )
+    parser.add_argument(
+        "--speakers",
+        type=int,
+        default=0,
+        help="Number of speakers (implies --diarize). Hints the API with exact speaker count",
+    )
 
     args = parser.parse_args()
+
+    # --speakers implies --diarize
+    if args.speakers > 0:
+        args.diarize = True
 
     project_id = args.project_id or os.getenv("GOOGLE_CLOUD_PROJECT")
     if not project_id:
@@ -245,6 +275,10 @@ def main():
         print(f"  GCS bucket: {args.gcs_bucket}")
     if trim_offset > 0:
         print(f"  Trim start: {trim_offset:.1f}s ({trim_offset / 60:.1f} min)")
+    if args.diarize:
+        print("  Diarize:    enabled")
+    if args.speakers > 0:
+        print(f"  Speakers:   {args.speakers}")
     print(f"{'=' * 60}\n")
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -357,7 +391,13 @@ def main():
                 uploaded_input = True
 
             try:
-                transcript = transcribe_batch(input_gcs_uri, project_id, args.region)
+                transcript = transcribe_batch(
+                    input_gcs_uri,
+                    project_id,
+                    args.region,
+                    diarize=args.diarize,
+                    speaker_count=args.speakers,
+                )
                 num_results = len(transcript.results)
                 num_words = sum(
                     len(r.alternatives[0].words)
@@ -428,7 +468,13 @@ def main():
                     )
                     print(f"  URI: {chunk_uri}")
 
-                    transcript = transcribe_batch(chunk_uri, project_id, args.region)
+                    transcript = transcribe_batch(
+                        chunk_uri,
+                        project_id,
+                        args.region,
+                        diarize=args.diarize,
+                        speaker_count=args.speakers,
+                    )
 
                     num_results = len(transcript.results)
                     num_words = sum(
