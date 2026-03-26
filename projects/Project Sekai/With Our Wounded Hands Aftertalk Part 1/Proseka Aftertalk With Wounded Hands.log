@@ -1,0 +1,22 @@
+=== Quality Report ===
+
+--- Stats ---
+Dialogue lines:  117
+Total characters: 2610
+Time range:      0:00:00.00 - 0:07:35.46
+
+--- Line Length (characters) ---
+Min:     2
+Max:     48
+Mean:    22.3
+Median:  22
+
+--- Line Duration (seconds) ---
+Min:     0.36s
+Max:     12.54s
+Mean:    3.78s
+Median:  3.64s
+
+--- Short lines (<3 chars) (2 lines) ---
+  line 10: 0:00:48.91 -> 0:00:49.48  text="胸に"  "胸に"
+  line 97: 0:06:28.48 -> 0:06:28.88  text="あの"  "あの"
