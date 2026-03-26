@@ -15,6 +15,7 @@ import sys
 import time
 from pathlib import Path
 
+import yaml
 from dotenv import load_dotenv
 from google import genai
 from google.genai.types import GenerateContentConfig
@@ -58,11 +59,139 @@ def load_text_file(path: str) -> str | None:
     return None
 
 
+def load_speaker_files(ref_path: Path) -> list[dict]:
+    """Auto-discover and load speakers/*.yaml files relative to a reference file."""
+    speakers_dir = ref_path.parent / "speakers"
+    if not speakers_dir.is_dir():
+        return []
+    speakers = []
+    for f in sorted(speakers_dir.glob("*.yaml")):
+        with open(f, encoding="utf-8") as fh:
+            data = yaml.safe_load(fh)
+            if data:
+                speakers.append(data)
+    return speakers
+
+
+def format_yaml_reference(data: dict, speakers: list[dict]) -> str:
+    """Format parsed YAML reference data into targeted prompt sections."""
+    sections = []
+
+    # Project context
+    project = data.get("project", {})
+    if project:
+        lines = [f"## Project: {project.get('name', 'Unknown')}"]
+        if project.get("description"):
+            lines.append(project["description"])
+        if project.get("franchise"):
+            lines.append(f"Franchise: {project['franchise']}")
+        sections.append("\n".join(lines))
+
+    # Glossary
+    glossary = data.get("glossary", [])
+    if glossary:
+        lines = [
+            "## Glossary",
+            "Use these translations for the following terms:",
+        ]
+        for entry in glossary:
+            line = f"- {entry['term']} → {entry['translation']}"
+            if entry.get("notes"):
+                line += f" ({entry['notes']})"
+            lines.append(line)
+        sections.append("\n".join(lines))
+
+    # Segments
+    segments = data.get("segments", [])
+    if segments:
+        lines = [
+            "## Segment Names",
+            "These are segment/section markers in the show:",
+        ]
+        for entry in segments:
+            lines.append(f"- {entry['term']} → {entry['translation']}")
+        sections.append("\n".join(lines))
+
+    # Replacements
+    replacements = data.get("replacements", [])
+    if replacements:
+        lines = [
+            "## Fixed Translations",
+            "Use these exact translations for recurring scripted lines "
+            "(allow for minor transcription variations):",
+        ]
+        for entry in replacements:
+            line = f"- {entry['original']} → {entry['translation']}"
+            if entry.get("context"):
+                line += f" [{entry['context']}]"
+            lines.append(line)
+        sections.append("\n".join(lines))
+
+    # Speakers (merged from inline + speaker files)
+    inline_speakers = data.get("speakers", [])
+    all_speakers = inline_speakers + speakers
+    if all_speakers:
+        lines = [
+            "## Speaker Profiles",
+            "Speaker profiles for voice and style reference. "
+            "Prioritize translation accuracy over matching speaker tone.",
+        ]
+        for speaker in all_speakers:
+            name = speaker.get("name", "Unknown")
+            name_jp = speaker.get("name_jp", "")
+            nickname = speaker.get("nickname", "")
+            header = name
+            if name_jp:
+                header += f" ({name_jp})"
+            if nickname:
+                header += f" — {nickname}"
+            lines.append(f"\n**{header}**")
+            for role in speaker.get("roles", []):
+                char = role.get("character", "")
+                char_jp = role.get("character_jp", "")
+                unit = role.get("unit", "")
+                style = role.get("style", "")
+                greeting = role.get("greeting", "")
+                role_line = f"  - Character: {char}"
+                if char_jp:
+                    role_line += f" ({char_jp})"
+                if unit:
+                    role_line += f" | Unit: {unit}"
+                lines.append(role_line)
+                if style:
+                    lines.append(f"    Style: {style}")
+                if greeting:
+                    lines.append(f"    Greeting: {greeting}")
+        sections.append("\n".join(lines))
+
+    # Notes
+    notes = data.get("notes")
+    if notes:
+        sections.append(f"## Additional Notes\n{notes.strip()}")
+
+    # Hosts
+    hosts = data.get("hosts", [])
+    if hosts:
+        lines = ["## Hosts"]
+        for h in hosts:
+            lines.append(
+                f"- {h.get('aftertalk', '')}: {h.get('host', '')} ({h.get('unit', '')})"
+            )
+        sections.append("\n".join(lines))
+
+    return "\n\n".join(sections)
+
+
 def build_system_prompt(
     instructions_path: str,
     project_ref_path: str | None,
 ) -> str:
-    """Build the system instruction from translation context files."""
+    """Build the system instruction from translation context files.
+
+    Supports both YAML (.yaml) and legacy markdown (.md) reference files.
+    YAML files are parsed into structured prompt sections with auto-discovered
+    speaker profiles from speakers/*.yaml.
+    """
     parts = [SYSTEM_PREAMBLE]
 
     instructions = load_text_file(instructions_path)
@@ -75,14 +204,21 @@ def build_system_prompt(
         )
 
     if project_ref_path:
-        project_ref = load_text_file(project_ref_path)
-        if project_ref:
-            parts.append(project_ref)
-        else:
+        ref_p = Path(project_ref_path)
+        if not ref_p.is_file():
             print(
                 f"  Warning: project reference not found: {project_ref_path}",
                 file=sys.stderr,
             )
+        elif ref_p.suffix in (".yaml", ".yml"):
+            with open(ref_p, encoding="utf-8") as f:
+                data = yaml.safe_load(f)
+            speakers = load_speaker_files(ref_p)
+            formatted = format_yaml_reference(data, speakers)
+            parts.append(formatted)
+        else:
+            project_ref = ref_p.read_text(encoding="utf-8")
+            parts.append(project_ref)
 
     return "\n\n---\n\n".join(parts)
 
@@ -218,7 +354,7 @@ def main():
     parser.add_argument(
         "--project",
         default=None,
-        help="Path to project translation_reference.md",
+        help="Path to project translation_reference.yaml (or legacy .md)",
     )
     parser.add_argument(
         "--instructions",
