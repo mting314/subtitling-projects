@@ -474,6 +474,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 - **Better GCS storage management**: Organize uploaded audio into per-project directories instead of a flat `tmp/` prefix. Add cleanup logic so temporary GCS files are removed when transcription is interrupted or fails (e.g., via signal handler or atexit).
 - **Vector embeddings for translation context**: Explore embedding finished JP→EN transcription pairs to build a retrieval-augmented translation agent. Could improve consistency across projects by surfacing similar previously-translated lines as few-shot examples for Gemini.
+- **Structured translation references with per-speaker profiles**: Currently `translation_reference.md` is a single flat markdown file. Move to a more structured format (e.g., YAML/JSON) with individual speaker profile files, so each speaker's voice, personality, speech patterns, and fixed phrases are self-contained and composable across projects.
 
 ## References
 
