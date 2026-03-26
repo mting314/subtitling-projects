@@ -294,12 +294,12 @@ uv run translate.py --input "transcript.ass"
 # With project-specific context (fixed phrases, character info, terminology)
 uv run translate.py \
   --input "transcript.ass" \
-  --project "projects/Project Sekai/translation_reference.md"
+  --project "projects/Project Sekai/translation_reference.yaml"
 
 # With video for comparison report
 uv run translate.py \
   --input "transcript.ass" \
-  --project "projects/Project Sekai/translation_reference.md" \
+  --project "projects/Project Sekai/translation_reference.yaml" \
   --video "source.mkv"
 ```
 
@@ -319,21 +319,23 @@ Translation is sent to Gemini in batches (default 50 lines) with a structured JS
 1. **System preamble** — explains the translator role and expected JSON I/O format
 2. **Translation instructions** (`translation_instructions.md`) — cross-line context rules, line-ending flow, filler word handling, glossary enforcement
 3. **Style guide** (`style_guide.md`) — subtitle formatting, punctuation, pause conventions
-4. **Project reference** (`translation_reference.md`) — character context, fixed translations for recurring scripted lines, franchise terminology
+4. **Project reference** (`translation_reference.yaml`) — structured YAML with glossary, segment names, fixed translations, speaker profiles, and franchise terminology. Auto-discovers `speakers/*.yaml` for per-VA context. Legacy `.md` references are also supported
 
 The model receives each batch as a JSON array of `{id, style, text}` objects and returns `{id, original, translated}` objects via Gemini's `response_schema` (Pydantic `TranslatedSubtitle` model). This structured output eliminates the need for fragile text parsing.
 
 ### Translation Context Files
 
-Each project can have a `translation_reference.md` that provides:
+Each project can have a `translation_reference.yaml` (structured YAML) or legacy `translation_reference.md` (flat markdown). YAML references are parsed into targeted prompt sections:
 
-- **Fixed translations** — recurring scripted lines (intros, greetings, segment names, sign-offs) with established English translations. The model uses these verbatim when it recognizes the Japanese text, even with minor transcription variations
-- **Character/speaker context** — who the speakers are, their speaking styles, voice actors, and relationships
-- **Franchise terminology** — project-specific terms with exact capitalization and spelling (e.g., "AfterTalk", "ProSeka", "Wonderhoi!")
+- **Glossary** (`glossary:`) — terms that appear in dialogue with consistent translations (e.g., "プロセカ" → "ProSeka")
+- **Segments** (`segments:`) — recurring structural/segment markers in the show (e.g., "メールボックス" → "Mailbox")
+- **Fixed translations** (`replacements:`) — recurring scripted lines with exact translations. The model uses these verbatim when it recognizes the Japanese text, even with minor transcription variations
+- **Speaker profiles** (`speakers/*.yaml`) — per-VA YAML files auto-discovered from a `speakers/` directory next to the reference file. Each file contains the VA's name, character roles, speaking style, and optional greetings. Translation accuracy is prioritized over matching speaker tone
+- **Project context** (`project:`) — franchise name, description, and metadata
 
 Translation references exist for:
-- `projects/Lieraji/translation_reference.md` — Lieraji radio show hosts, greetings, segment names
-- `projects/Project Sekai/translation_reference.md` — all 20 ProSeka characters with VAs and personalities (sourced from [Sekaipedia](http://sekaipedia.org/wiki/)), AfterTalk fixed phrases, unit terminology
+- `projects/Lieraji/translation_reference.yaml` — Lieraji radio show context, greetings, segment names, with 9 speaker profiles
+- `projects/Project Sekai/translation_reference.yaml` — ProSeka AfterTalk context, fixed phrases, unit terminology, with 20 speaker profiles (sourced from [Sekaipedia](http://sekaipedia.org/wiki/))
 
 ### Translation Parameters
 
@@ -341,7 +343,7 @@ Translation references exist for:
 |-----------|---------|-------------|
 | `--input` | required | Source ASS file (Japanese) |
 | `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
-| `--project` | None | Path to project `translation_reference.md` |
+| `--project` | None | Path to project `translation_reference.yaml` (or legacy `.md`) |
 | `--instructions` | `translation_instructions.md` | Path to top-level translation instructions |
 | `--model` | `gemini-2.5-flash` | Gemini model to use |
 | `--batch-size` | 50 | Lines per API request |
@@ -429,7 +431,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-148 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
+168 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 
@@ -474,7 +476,7 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - ~~**End-to-end pipeline orchestration**~~: Resolved — `transcribe.py` now generates ASS subtitles automatically after transcription. Re-run `json_to_ass.py` separately to tune splitting parameters.
 - **Better GCS storage management**: Organize uploaded audio into per-project directories instead of a flat `tmp/` prefix. Add cleanup logic so temporary GCS files are removed when transcription is interrupted or fails (e.g., via signal handler or atexit).
 - **Vector embeddings for translation context**: Explore embedding finished JP→EN transcription pairs to build a retrieval-augmented translation agent. Could improve consistency across projects by surfacing similar previously-translated lines as few-shot examples for Gemini.
-- **Structured translation references with per-speaker profiles**: Currently `translation_reference.md` is a single flat markdown file. Move to a more structured format (e.g., YAML/JSON) with individual speaker profile files, so each speaker's voice, personality, speech patterns, and fixed phrases are self-contained and composable across projects.
+- ~~**Structured translation references with per-speaker profiles**~~: Resolved — `translation_reference.yaml` uses structured YAML with separate sections for glossary, segments, fixed replacements, and project context. Per-speaker profiles live in `speakers/*.yaml` files keyed by voice actor, auto-discovered by `translate.py`. Legacy `.md` references are still supported
 
 ## References
 
@@ -482,5 +484,5 @@ Line splitting currently relies on punctuation and pause duration, which is dete
 - `snippets.md` — common CLI commands
 - `style_guide.md` — subtitle formatting and style rules
 - `translation_instructions.md` — AI translation prompt (cross-line context, filler handling, glossary rules)
-- `projects/Lieraji/translation_reference.md` — Lieraji fixed translations and character context
-- `projects/Project Sekai/translation_reference.md` — ProSeka AfterTalk fixed translations, all 20 characters
+- `projects/Lieraji/translation_reference.yaml` — Lieraji fixed translations and character context
+- `projects/Project Sekai/translation_reference.yaml` — ProSeka AfterTalk fixed translations, all 20 characters

@@ -83,7 +83,7 @@ uv run json_to_ass.py raw_transcripts/merged.json output.ass --video source.mkv
 ### Translation pipeline
 
 ```
-uv run translate.py --input source_jp.ass --project projects/Lieraji/translation_reference.md
+uv run translate.py --input source_jp.ass --project projects/Lieraji/translation_reference.yaml
 ```
 
 Auto-generates a comparison report. Re-run comparison separately:
@@ -98,7 +98,7 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 |------|---------|---------|
 | `--input` | required | Source ASS file (Japanese) |
 | `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
-| `--project` | None | Path to project `translation_reference.md` |
+| `--project` | None | Path to project `translation_reference.yaml` (or legacy `.md`) |
 | `--instructions` | `translation_instructions.md` | Path to top-level instructions |
 | `--model` | `gemini-2.5-flash` | Gemini model to use |
 | `--batch-size` | 50 | Lines per API request |
@@ -117,7 +117,8 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 - **`translation_instructions.md`** — self-contained Gemini system prompt. Includes all translation directives (cross-line context, no-blank-lines, filler handling, line-ending flow, phrase grouping) AND formatting rules (punctuation, italics, contractions, naming, cultural terms). This is the only style reference sent to the model — `style_guide.md` is NOT loaded
 - **`style_guide.md`** — human-only reference for manual Aegisub work. Not used by `translate.py`
-- **Per-project `translation_reference.md`** — character context, fixed translations for recurring lines, franchise terminology. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
+- **Per-project `translation_reference.yaml`** — structured YAML with separate sections for glossary, segments, fixed replacements, and project context. Speaker profiles are auto-loaded from `speakers/*.yaml` in the same directory. Legacy `.md` references are still supported for backward compatibility. Exists for `projects/Lieraji/` and `projects/Project Sekai/`
+- **Per-project `speakers/*.yaml`** — individual speaker profile files keyed by voice actor name. Each file contains the VA's name, roles (characters they voice), speaking style, and optional greetings. Auto-discovered by `translate.py` when using a YAML reference
 
 ### Key translation technical notes
 
@@ -126,7 +127,8 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 - **No blank lines**: Every source line produces a non-empty translation. Filler-only lines are absorbed by redistributing the surrounding sentence across them
 - **Filler word handling**: Standalone fillers ("um", "uh", "ah") are not translated literally — their lines carry redistributed text instead. Transitional phrases ("Well then,", "You know,") are kept
 - **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line. Logical phrases (article + noun) are kept together on the same line
-- **Glossary enforcement**: Fixed translations from `translation_reference.md` are used verbatim for recurring scripted lines
+- **Glossary enforcement**: Fixed translations from `translation_reference.yaml` are used verbatim for recurring scripted lines
+- **Speaker profiles**: Per-speaker YAML files (`speakers/*.yaml`) provide voice/personality context to the model, but translation accuracy is prioritized over matching speaker tone
 
 ### Key technical notes
 
