@@ -169,7 +169,7 @@ Commit message format:
 - Tooling: `refactor:`, `fix:`, `docs:` prefixes
 - Other: `project-shortname: description`
 
-Project shortnames from commit history: `hona5` (This story continues with hope AfterTalk), `ena6` (Colors of Pure Sense), `ichi6` (Unsteady, still steady step), `mizu6` (Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk).
+Project shortnames from commit history: `ena5` (With Our Wounded Hands Aftertalk), `hona5` (This story continues with hope AfterTalk), `ichi6` (Kimi to Tsunagu HeartBeat Aftertalk), `ena6` (Colors of Pure Sense), `mizu6` (Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk).
 
 ## Documentation Rules
 
