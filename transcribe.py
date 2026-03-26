@@ -170,7 +170,7 @@ def main():
     parser.add_argument(
         "--ass-output",
         default=None,
-        help="Override ASS output filename (default: input filename with .ass extension)",
+        help="Override ASS output filename (default: input stem + ' - Transcript.ass')",
     )
     parser.add_argument(
         "--project-id",
@@ -226,9 +226,11 @@ def main():
     if args.ass_output:
         ass_output = Path(args.ass_output)
     elif input_is_gcs:
-        ass_output = transcripts_dir / (Path(args.input).stem + ".ass")
+        ass_output = transcripts_dir / (Path(args.input).stem + " - Transcript.ass")
     else:
-        ass_output = Path(args.input).with_suffix(".ass")
+        ass_output = Path(args.input).with_name(
+            Path(args.input).stem + " - Transcript.ass"
+        )
 
     print(f"\n{'=' * 60}")
     print("GCP Chirp 3 Batch Transcription")
@@ -298,6 +300,27 @@ def main():
             audio_path = os.path.join(tmp_dir, f"extracted_audio{ext}")
             extract_audio(local_audio, audio_path)
             local_audio = audio_path
+
+            # Re-encode to Opus if needed — Chirp 3 returns empty results for AAC
+            if codec != "opus":
+                opus_path = os.path.join(tmp_dir, "extracted_audio.opus")
+                print(f"  Re-encoding {codec} -> opus for Chirp 3 compatibility...")
+                subprocess.run(
+                    [
+                        "ffmpeg",
+                        "-y",
+                        "-i",
+                        audio_path,
+                        "-c:a",
+                        "libopus",
+                        "-b:a",
+                        "64k",
+                        opus_path,
+                    ],
+                    capture_output=True,
+                    check=True,
+                )
+                local_audio = opus_path
             # Invalidate any existing GCS URI since we now have a different file
             input_gcs_uri = None
 
