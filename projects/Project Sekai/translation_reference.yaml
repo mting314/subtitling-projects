@@ -1,0 +1,164 @@
+# Project Sekai AfterTalk Translation Reference
+# For detailed character and franchise info, see https://sekaipedia.org/wiki/
+
+project:
+  name: "ProSeka AfterTalk"
+  description: >-
+    Solo host watches event story scenes and reads fan letters.
+    Recurring livestream series for the mobile rhythm game
+    Project Sekai: Colorful Stage! feat. Hatsune Miku.
+    Streams air on YouTube after each event ends.
+  franchise: "Project Sekai: Colorful Stage! feat. Hatsune Miku"
+  franchise_jp: "プロジェクトセカイ カラフルステージ！ feat. 初音ミク"
+  short_name: "ProSeka (プロセカ), capital S"
+  school: "Miyamasuzaka Girls Academy (宮益坂女子学園)"
+
+glossary:
+  - term: "プロセカ"
+    translation: "ProSeka"
+    notes: "Short name for the game. Capital S"
+  - term: "アフタートーク"
+    translation: "AfterTalk"
+    notes: "Capital T, one word"
+  - term: "アフターライブ"
+    translation: "AfterLive / AfterLives"
+    notes: "Capital L, one word"
+  - term: "イベントストーリー"
+    translation: "event story"
+    notes: "Lowercase"
+  - term: "書き下ろし楽曲"
+    translation: "written-down song / commissioned song"
+    notes: "Songs composed specifically for an event"
+  - term: "MV"
+    translation: "MV"
+    notes: 'Music video. "2DMV" for 2D music videos'
+  - term: "バーチャルシンガー"
+    translation: "Virtual Singer(s)"
+    notes: "Miku, Rin, Len, Luka, MEIKO, KAITO"
+  - term: "セカイ"
+    translation: "SEKAI"
+    notes: "The virtual worlds, each tied to a unit. All caps"
+  - term: "断片セカイ"
+    translation: "Fragment SEKAI"
+    notes: "Temporary character-specific sub-worlds"
+  - term: "ファンフェスタ"
+    translation: "fan festa"
+    notes: '"Fan fes" acceptable as shorthand'
+  - term: "ワンダーホイ"
+    translation: "Wonderhoi!"
+    notes: "Wonderlands x Showtime greeting"
+  - term: "レオニ"
+    translation: "Leoni"
+    notes: "Common abbreviation for Leo/need"
+  - term: "ニーゴ"
+    translation: "Niigo"
+    notes: "Common abbreviation for Nightcord at 25:00"
+  - term: "ビビバス"
+    translation: "Vivibasu"
+    notes: "Common abbreviation for Vivid BAD SQUAD"
+  - term: "ワンダショ"
+    translation: "Wandasho"
+    notes: "Common abbreviation for Wonderlands x Showtime"
+  - term: "モモジャン"
+    translation: "Momojan"
+    notes: "Common abbreviation for MORE MORE JUMP!"
+
+segments: []
+
+replacements:
+  # Opening Sequence
+  - original: "プロセカアフタートーク「{イベント名}」編"
+    translation: 'Welcome to ProSeka AfterTalk "{Event Name}" Edition!'
+    context: "Title card / opening line"
+  - original: "皆さんこんばんは"
+    translation: "Good evening, everyone!"
+    context: "Standard greeting"
+  - original: "{ユニット名}で{キャラ名}役の{声優名}です"
+    translation: "This is {VA Name}, voice of {Character Name} from {Unit}."
+    context: "Self-introduction"
+  - original: "コンニード"
+    translation: "{\\i1}Kon-needo{\\i0}"
+    context: "Leo/need fan greeting (portmanteau). Always italicized"
+  - original: "コンモア"
+    translation: "Kon-more"
+    context: "MMJ fan greeting. Always italicized when used as a standalone greeting"
+  # Program Description
+  - original: "このプロセカアフタートークは皆さんから頂いたおたよりを紹介しながらイベントを振り返る配信となっております"
+    translation: "In this edition of ProSeka AfterTalk, we'll look back at this event while covering messages you, the fans, have sent in."
+    context: "Standard program description (minor wording varies)"
+  - original: "今回は「{イベント名}」編となっています"
+    translation: 'This time, we''ll be covering the "{Event Name}" event.'
+    context: "Event identification"
+  - original: "皆様ストーリーはお楽しみいただけましたでしょうか"
+    translation: "Did you enjoy the story, everyone?"
+    context: "After event intro"
+  - original: "事前にプロセカ公式Discordとメールでおたよりを募集しました"
+    translation: "We've gathered your comments for this AfterTalk sent through email and the submissions channel on Discord."
+    context: "Submission source"
+  - original: "たくさんのメッセージありがとうございます"
+    translation: "Thanks for all the messages, everyone."
+    context: "After mentioning submissions"
+  # Fan Letter Reading
+  - original: "おたより"
+    translation: "letter / message"
+    context: '"Letter" when reading one, "messages" in plural/general'
+  - original: "ラジオネーム"
+    translation: "From: {name}-san"
+    context: "Before reading sender's pen name. Also ペンネーム"
+  - original: "メッセージありがとうございます"
+    translation: "Thanks for the message!"
+    context: "After reading a letter"
+  # Closing Sequence
+  - original: "アフタートークのおたよりは引き続き募集しています"
+    translation: "We'll be accepting submissions for future AfterTalks as usual."
+    context: "Submission call-to-action"
+  - original: "プロセカ公式Discordのおたより投稿チャンネルで投稿できます"
+    translation: "You can submit them in the submissions channel on the official Project Sekai Discord."
+    context: "Discord submissions"
+  - original: "メールでも受け付けています"
+    translation: "or through email."
+    context: "Email submissions"
+  - original: "イベントに関連した内容でお願いします"
+    translation: "Please keep your messages related to the events."
+    context: "Content guidelines"
+  - original: "Xで #プロセカアフタートーク をつけて投稿してください"
+    translation: "Please post them on X with #ProSekaAfterTalk."
+    context: "Hashtag is #ProSekaAfterTalk (capital T)"
+  - original: "それでは、今日はこの辺で！また次回お会いしましょう！"
+    translation: "Well, that's all for today! See you again next time!"
+    context: "Sign-off"
+  - original: "バイバーイ"
+    translation: "Bye bye!"
+    context: "Final farewell"
+
+# Character relationships for context
+notes: |
+  Key relationships:
+  - Shiho and Shizuku Hinomori are sisters (Shiho is Leo/need, Shizuku is MMJ)
+  - Akito and Ena Shinonome are siblings (Akito is VBS, Ena is N25)
+  - Tsukasa and Saki Tenma are siblings (Tsukasa is WxS, Saki is Leo/need)
+  - Mizuki uses "boku" (ボク) — use "they/them" pronouns when the speaker's intent is ambiguous
+  - Virtual Singers: Hatsune Miku, Kagamine Rin, Kagamine Len, Megurine Luka, MEIKO (all caps), KAITO (all caps)
+  - Units: Leo/need (School SEKAI), MORE MORE JUMP! (Stage SEKAI), Vivid BAD SQUAD/VBS (Street SEKAI), Wonderlands x Showtime/WxS (Wonderland SEKAI), Nightcord at 25:00/N25/Niigo (Empty SEKAI)
+  - Event stories are called "Episodes", not "Chapters"
+
+# Hosts by AfterTalk
+hosts:
+  - aftertalk: "Find the dream view"
+    host: "Shiho (Yuki Nakashima)"
+    unit: "Leo/need"
+  - aftertalk: "Kimi to Tsunagu Heart Beat"
+    host: "Ichika (Ruriko Noguchi)"
+    unit: "Leo/need"
+  - aftertalk: "This story continues with hope"
+    host: "Haruka (Mayu Yoshioka)"
+    unit: "MMJ"
+  - aftertalk: "Unsteady, still steady step"
+    host: "Shiho (Yuki Nakashima)"
+    unit: "Leo/need"
+  - aftertalk: "Reaching Out to a Tomorrow That Won't Come Unraveled"
+    host: "Mizuki (Hinata Sato)"
+    unit: "N25"
+  - aftertalk: 'With Our Wounded Hands Part 1 & 2'
+    host: "Ena (Minori Suzuki) + Mizuki (Hinata Sato)"
+    unit: "N25"

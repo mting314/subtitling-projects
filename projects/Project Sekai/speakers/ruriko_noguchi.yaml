@@ -1,0 +1,8 @@
+name: "Ruriko Noguchi"
+name_jp: "野口瑠璃子"
+roles:
+  - character: "Ichika Hoshino"
+    character_jp: "星乃一歌"
+    unit: "Leo/need"
+    style: "Kind and caring but struggles with self-expression. Overthinks situations, deeply considerate"
+    greeting: "{\\i1}Kon-needo{\\i0}"

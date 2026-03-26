@@ -1,0 +1,8 @@
+name: "Yuki Nakashima"
+name_jp: "中島由貴"
+roles:
+  - character: "Shiho Hinomori"
+    character_jp: "日野森志歩"
+    unit: "Leo/need"
+    style: "Blunt and introverted, speaks harshly but genuinely. Easily embarrassed about cute things"
+    greeting: "{\\i1}Kon-needo{\\i0}"
