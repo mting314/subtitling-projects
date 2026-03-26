@@ -1,0 +1,10 @@
+# Speaker map for Colors of Pure Sense AfterTalk
+# Maps API diarization labels to speaker profiles.
+# Usage: uv run json_to_ass.py transcript.json output.ass --speaker-map speaker_map.yaml
+speakers:
+  "1":
+    profile: hinata_sato
+    role: "Mizuki Akiyama"
+  "2":
+    profile: ruriko_noguchi
+    role: "Ena Shinonome"

@@ -42,6 +42,9 @@ from json_to_ass import (
     snap_gaps,
     enforce_min_duration,
     lines_to_ass,
+    load_speaker_map,
+    remap_styles,
+    generate_speaker_styles,
     DEFAULT_PAUSE_THRESHOLD,
     DEFAULT_MAX_LINE_CHARS,
     DEFAULT_COMMA_SPLIT_CHARS,
@@ -224,6 +227,11 @@ def main():
         type=int,
         default=0,
         help="Number of speakers (implies --diarize). Hints the API with exact speaker count",
+    )
+    parser.add_argument(
+        "--speaker-map",
+        default=None,
+        help="Path to speaker_map.yaml mapping API speaker labels to speaker profiles",
     )
 
     args = parser.parse_args()
@@ -551,7 +559,25 @@ def main():
     print(
         f"  Extended {extended} line(s) to meet {DEFAULT_MIN_DURATION}s minimum duration"
     )
-    ass_content = lines_to_ass(lines, title)
+
+    # Load speaker map if provided
+    speaker_map = None
+    if args.speaker_map:
+        print(f"  Loading speaker map: {args.speaker_map}")
+        speaker_map = load_speaker_map(args.speaker_map)
+
+    # Generate speaker styles BEFORE remapping (styles reference raw labels)
+    builtin = {"Default", "JP"}
+    has_speaker_styles = any(line["style"] not in builtin for line in lines)
+    speaker_styles = None
+    if has_speaker_styles:
+        speaker_styles = generate_speaker_styles(lines, speaker_map)
+
+    # Remap raw labels to character names in dialogue lines
+    if speaker_map:
+        remap_styles(lines, speaker_map)
+
+    ass_content = lines_to_ass(lines, title, speaker_styles=speaker_styles)
     ass_output.parent.mkdir(parents=True, exist_ok=True)
     ass_output.write_text(ass_content, encoding="utf-8")
     print(f"  Generated: {ass_output}")
