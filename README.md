@@ -50,8 +50,9 @@ Love Live! Superstar!! Liella! live concert content.
 | **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS with word-level line splitting |
 | **quality_report.py** | Quality analysis and reporting — `.log` (untruncated) and interactive `.html` viewer |
-| **translate.py** | JP→EN translation via Gemini (Vertex AI). Structured JSON output, cross-line context, fixed phrase glossary |
+| **translate.py** | JP→EN translation via Gemini (Vertex AI). Structured JSON output, cross-line context, fixed phrase glossary. Separate API/content retries with exponential backoff, checkpoint resume |
 | **compare_translations.py** | Side-by-side JP/EN comparison HTML report with char ratio warnings and optional video player |
+| **post_processing.py** | Post-processing for translated subtitles. Merges absorbed empty lines into neighbors |
 | **utils/** | Shared utility modules: `audio.py` (ffmpeg/ffprobe), `gcs.py` (GCS ops), `time.py` (timestamps), `ass_parser.py` (ASS parsing/writing) |
 | **tests/** | Unit tests (`unittest`) for utils/ and main scripts. All external deps mocked |
 | **Aegisub** | Manual subtitle editing and timing |
@@ -323,6 +324,21 @@ Translation is sent to Gemini in batches (default 50 lines) with a structured JS
 
 The model receives each batch as a JSON array of `{id, style, text}` objects and returns `{id, original, translated}` objects via Gemini's `response_schema` (Pydantic `TranslatedSubtitle` model). This structured output eliminates the need for fragile text parsing.
 
+#### Retry and resilience
+
+**Separate retry counters** prevent connection errors from consuming content-retry budget:
+
+- **API retries** (`MAX_API_RETRIES=5`) — for connection errors (`RemoteProtocolError`, timeouts, 5xx) with exponential backoff (2s, 4s, 8s, 16s, 32s)
+- **Content retries** (`MAX_CONTENT_RETRIES=3`) — for missing lines (IDs absent from response). Only missing IDs trigger retries — intentionally empty translations (absorbed filler lines) do not
+
+**Inter-batch delay** — 1s pause between batches to reduce rate limit pressure.
+
+**Checkpoint resume** — a `.partial.json` checkpoint file is written after each batch. If translation is interrupted (crash, timeout, Ctrl-C), restarting the same command resumes from the last completed batch. The checkpoint is deleted on successful completion.
+
+#### Post-processing
+
+After translation, `merge_absorbed_lines()` cleans up lines where the translator absorbed one line's content into a neighbor (common for filler-only or sentence-continuation lines). Empty dialogue lines are removed and their timing is merged into the previous non-empty line (or the next, if at the start).
+
 ### Translation Context Files
 
 Each project can have a `translation_reference.md` that provides:
@@ -429,7 +445,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-148 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
+170 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, API/content retry logic, checkpoint save/load/resume, absorbed line merging, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 

@@ -25,8 +25,9 @@ Two-script pipeline for GCP Chirp 3 transcription, with shared utilities in `uti
 | **transcribe.py** | GCP Speech-to-Text (Chirp 3) batch transcription, outputs raw JSON. Accepts local files or GCS URIs. Auto-splits audio >20 min into non-overlapping chunks. Run with `uv run` |
 | **json_to_ass.py** | Convert Chirp 3 JSON transcripts to ASS subtitles. Word-level line splitting with smart comma splitting (longest pause). No GCP dependencies — re-run freely to tune parameters |
 | **quality_report.py** | Quality analysis and reporting. Generates `.log` (untruncated plain text) and `.html` (interactive viewer with color-coded issues, filter buttons, optional video player with click-to-seek). Called automatically by both scripts via `write_reports()` |
-| **translate.py** | Translate Japanese ASS subtitles to English using Gemini via Vertex AI. Sends lines in batches with translation context (instructions, style guide, project reference with fixed translations). Auto-generates comparison report |
+| **translate.py** | Translate Japanese ASS subtitles to English using Gemini via Vertex AI. Sends lines in batches with translation context (instructions, style guide, project reference with fixed translations). Separate API/content retries with exponential backoff, checkpoint resume. Auto-generates comparison report |
 | **compare_translations.py** | Generate side-by-side JP vs EN comparison HTML report. Same dark theme as quality_report.py, with char ratio warnings and optional video player |
+| **post_processing.py** | Post-processing for translated subtitles. Merges absorbed empty lines (filler/continuation) into neighboring lines |
 | **utils/** | Shared utility modules: `utils/audio.py` (ffmpeg/ffprobe helpers), `utils/gcs.py` (GCS operations), `utils/time.py` (timestamp parsing/formatting), `utils/ass_parser.py` (ASS file parsing/writing) |
 | **tests/** | Unit tests (`unittest`). Run with `uv run python -m unittest discover -s tests -v`. All external deps mocked — no network, GCP, or ffmpeg needed |
 
@@ -123,10 +124,14 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 
 - **Structured output**: Uses Gemini's `response_schema` with a `TranslatedSubtitle` Pydantic model (`id`, `original`, `translated`) for reliable JSON output. No text-format parsing needed
 - **Cross-line context**: Prompt instructs the model to read neighboring lines before translating, so split sentences flow naturally across subtitle lines
-- **No blank lines**: Every source line produces a non-empty translation. Filler-only lines are absorbed by redistributing the surrounding sentence across them
+- **No blank lines**: Every source line should produce a non-empty translation. Filler-only or continuation lines may be absorbed into neighbors by the model, producing empty translations. These are cleaned up by post-processing (see below)
 - **Filler word handling**: Standalone fillers ("um", "uh", "ah") are not translated literally — their lines carry redistributed text instead. Transitional phrases ("Well then,", "You know,") are kept
 - **Line-ending flow**: Lines end on natural punctuation; trailing connectives ("but", "and", "so") move to the next line. Logical phrases (article + noun) are kept together on the same line
 - **Glossary enforcement**: Fixed translations from `translation_reference.md` are used verbatim for recurring scripted lines
+- **Separate retry counters**: `MAX_API_RETRIES=5` for connection errors (exponential backoff: 2s, 4s, 8s, 16s, 32s) and `MAX_CONTENT_RETRIES=3` for missing IDs in the response. Empty translations with present IDs (absorbed lines) do not trigger content retries
+- **Checkpoint resume**: `.partial.json` checkpoint written after each batch. Interrupted translations resume from last completed batch. Checkpoint deleted on success
+- **Inter-batch delay**: 1s pause between batches to reduce rate limit pressure
+- **Post-processing**: `merge_absorbed_lines()` in `post_processing.py` removes empty dialogue lines and extends the previous line's end time to cover the absorbed line's duration
 
 ### Key technical notes
 
