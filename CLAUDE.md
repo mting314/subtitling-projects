@@ -101,8 +101,8 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 | `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
 | `--project` | None | Path to project `translation_reference.md` |
 | `--instructions` | `translation_instructions.md` | Path to top-level instructions |
-| `--model` | `gemini-2.5-flash` | Gemini model to use |
-| `--batch-size` | 50 | Lines per API request |
+| `--model` | `gemini-3-flash-preview` | Gemini model to use |
+| `--batch-size` | 25 | Lines per API request |
 | `--video` | None | Video path for comparison report |
 
 ### compare_translations.py parameters

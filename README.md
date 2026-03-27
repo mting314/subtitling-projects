@@ -315,7 +315,7 @@ uv run compare_translations.py \
 
 ### How Translation Works
 
-Translation is sent to Gemini in batches (default 50 lines) with a structured JSON schema for reliable output. Each batch includes the full translation context as a system prompt:
+Translation is sent to Gemini in batches (default 25 lines) with a structured JSON schema for reliable output. Each batch includes the full translation context as a system prompt:
 
 1. **System preamble** — explains the translator role and expected JSON I/O format
 2. **Translation instructions** (`translation_instructions.md`) — cross-line context rules, line-ending flow, filler word handling, glossary enforcement
@@ -359,8 +359,8 @@ Translation references exist for:
 | `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
 | `--project` | None | Path to project `translation_reference.md` |
 | `--instructions` | `translation_instructions.md` | Path to top-level translation instructions |
-| `--model` | `gemini-2.5-flash` | Gemini model to use |
-| `--batch-size` | 50 | Lines per API request |
+| `--model` | `gemini-3-flash-preview` | Gemini model to use |
+| `--batch-size` | 25 | Lines per API request |
 | `--video` | None | Video path for comparison report |
 
 ### Comparison Report
