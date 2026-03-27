@@ -24,7 +24,7 @@ from post_processing import merge_absorbed_lines
 from utils.ass_parser import parse_ass, write_ass
 
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3-flash-preview"
 DEFAULT_BATCH_SIZE = 25
 DEFAULT_INSTRUCTIONS_PATH = "translation_instructions.md"
 
@@ -357,7 +357,7 @@ def main():
     client = genai.Client(
         vertexai=True,
         project=project_id,
-        location="us-west1",
+        location="global",
     )
 
     checkpoint_path = Path(str(output_path) + ".partial.json")

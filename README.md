@@ -359,7 +359,7 @@ Translation references exist for:
 | `--output` | `{input_stem}_en.ass` | Output ASS file (English) |
 | `--project` | None | Path to project `translation_reference.md` |
 | `--instructions` | `translation_instructions.md` | Path to top-level translation instructions |
-| `--model` | `gemini-2.5-flash` | Gemini model to use |
+| `--model` | `gemini-3-flash-preview` | Gemini model to use |
 | `--batch-size` | 25 | Lines per API request |
 | `--video` | None | Video path for comparison report |
 
