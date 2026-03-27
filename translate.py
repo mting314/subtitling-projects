@@ -24,8 +24,8 @@ from post_processing import merge_absorbed_lines
 from utils.ass_parser import parse_ass, write_ass
 
 
-DEFAULT_MODEL = "gemini-2.5-flash"
-DEFAULT_BATCH_SIZE = 50
+DEFAULT_MODEL = "gemini-3-flash-preview"
+DEFAULT_BATCH_SIZE = 25
 DEFAULT_INSTRUCTIONS_PATH = "translation_instructions.md"
 
 
@@ -62,6 +62,7 @@ def load_text_file(path: str) -> str | None:
 def build_system_prompt(
     instructions_path: str,
     project_ref_path: str | None,
+    profile_path: str | None = None,
 ) -> str:
     """Build the system instruction from translation context files."""
     parts = [SYSTEM_PREAMBLE]
@@ -82,6 +83,16 @@ def build_system_prompt(
         else:
             print(
                 f"  Warning: project reference not found: {project_ref_path}",
+                file=sys.stderr,
+            )
+
+    if profile_path:
+        profile = load_text_file(profile_path)
+        if profile:
+            parts.append(profile)
+        else:
+            print(
+                f"  Warning: profile not found: {profile_path}",
                 file=sys.stderr,
             )
 
@@ -282,6 +293,11 @@ def main():
         default=None,
         help="Video path for comparison report",
     )
+    parser.add_argument(
+        "--profile",
+        default=None,
+        help="Path to speaker/unit profile (e.g., profiles/n25.md)",
+    )
 
     args = parser.parse_args()
 
@@ -311,6 +327,8 @@ def main():
     print(f"  Instructions: {args.instructions}")
     if args.project:
         print(f"  Project ref:  {args.project}")
+    if args.profile:
+        print(f"  Profile:      {args.profile}")
     print(f"{'=' * 60}\n")
 
     # Parse input ASS
@@ -330,6 +348,7 @@ def main():
     system_prompt = build_system_prompt(
         args.instructions,
         args.project,
+        profile_path=args.profile,
     )
     print(f"  System prompt: {len(system_prompt)} chars")
 
@@ -338,7 +357,7 @@ def main():
     client = genai.Client(
         vertexai=True,
         project=project_id,
-        location="us-central1",
+        location="global",
     )
 
     checkpoint_path = Path(str(output_path) + ".partial.json")
