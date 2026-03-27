@@ -25,7 +25,7 @@ from utils.ass_parser import parse_ass, write_ass
 
 
 DEFAULT_MODEL = "gemini-2.5-flash"
-DEFAULT_BATCH_SIZE = 50
+DEFAULT_BATCH_SIZE = 25
 DEFAULT_INSTRUCTIONS_PATH = "translation_instructions.md"
 
 
