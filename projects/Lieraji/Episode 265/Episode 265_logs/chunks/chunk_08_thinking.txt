@@ -1,0 +1,5 @@
+**Drafting Translations**
+
+My main focus is finalizing the English translations for each line of the subtitles. I've re-read the context, refined some phrasings for clarity and natural flow, and corrected a potential mishearing. I'm also confirming the proper use of speaker names and the glossary to maintain consistency. The JSON structure is verified and ready for the final output.
+
+
