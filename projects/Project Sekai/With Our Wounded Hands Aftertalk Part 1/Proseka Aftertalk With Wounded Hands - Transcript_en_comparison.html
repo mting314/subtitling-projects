@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proseka Aftertalk With Wounded Hands - Transcript_en</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: #1a1a2e; color: #e0e0e0; padding: 20px; }
+  h1 { color: #fff; margin-bottom: 16px; }
+  .stats-grid { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .stat-card { background: #16213e; border-radius: 8px; padding: 16px; flex: 1; min-width: 150px; }
+  .stat-value { font-size: 1.5em; font-weight: bold; color: #fff; }
+  .stat-label { font-size: 0.85em; color: #888; margin-top: 4px; }
+  #sticky-top { position: sticky; top: 0; z-index: 10; background: #1a1a2e; padding-bottom: 4px; }
+  .filters { margin: 8px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer;
+                 font-size: 0.85em; font-weight: 600; transition: opacity 0.2s; }
+  .filter-btn.inactive { opacity: 0.35; }
+  .btn-all { background: #555; color: #fff; }
+  .btn-orange { background: #ff9933; color: #fff; }
+  .btn-yellow { background: #e6c300; color: #1a1a2e; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 0.85em; }
+  th { background: #0f3460; color: #fff; padding: 10px 8px; text-align: left;
+       position: sticky; top: 0; z-index: 2; }
+  td { padding: 8px; border-bottom: 1px solid #222; vertical-align: top; }
+  tr { cursor: pointer; transition: background 0.15s; }
+  tr:hover { background: #1e2d4a !important; }
+  tr.selected { outline: 2px solid #4d94ff; }
+  .severity-orange { background: rgba(255,153,51,0.12); }
+  .severity-yellow { background: rgba(230,195,0,0.10); }
+  .jp-text { color: #ffcc66; }
+  .en-text { color: #66ccff; }
+  .hidden-row { display: none !important; }
+  #player-section { display: flex; gap: 16px; align-items: stretch; padding: 8px 0; }
+  #video-wrap { width: 420px; min-width: 200px; flex-shrink: 0; resize: horizontal; overflow: hidden; }
+  #video { width: 100%; background: #000; border-radius: 8px; display: block; }
+  #now-playing { flex: 1; background: #16213e; border-radius: 8px; padding: 10px 14px;
+                  border: 1px solid #2a3a5c; display: flex; flex-direction: column; gap: 6px; }
+  #now-header { display: flex; justify-content: space-between; margin-bottom: 4px; }
+  #now-line-num { font-size: 0.75em; color: #4d94ff; font-weight: 600; }
+  #now-time { font-size: 0.75em; color: #888; font-family: monospace; }
+  .now-text { font-size: 1em; line-height: 1.5; background: #0d1a30;
+              border: 1px solid #2a3a5c; border-radius: 6px; padding: 10px 12px;
+              white-space: pre-wrap; word-break: break-word; flex: 1; overflow-y: auto; }
+  #now-jp { color: #ffcc66; }
+  #now-en { color: #66ccff; }
+  th { top: 0; }
+</style>
+</head>
+<body>
+<h1>Translation Comparison &mdash; Proseka Aftertalk With Wounded Hands - Transcript_en</h1>
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-value">109</div><div class="stat-label">Lines</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">2440</div><div class="stat-label">JP Characters</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">5217</div><div class="stat-label">EN Characters</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value">2.14</div><div class="stat-label">EN/JP Ratio</div>
+  </div>
+</div>
+<div id="sticky-top">
+<div id="player-section">
+  <div id="video-wrap">
+    <video id="video" controls preload="metadata">
+      <source src="Proseka Aftertalk With Wounded Hands.mkv">
+    </video>
+  </div>
+  <div id="now-playing">
+    <div id="now-header">
+      <span id="now-line-num"></span>
+      <span id="now-time"></span>
+    </div>
+    <div id="now-jp" class="now-text">Click a line to preview</div>
+    <div id="now-en" class="now-text"></div>
+  </div>
+</div>
+<div class="filters">
+  <button class="filter-btn btn-all" onclick="filterAll()">All</button>
+  <button class="filter-btn btn-orange" data-filter="short" onclick="toggleFilter(this)">
+    Short translations (0)</button>
+  <button class="filter-btn btn-yellow" data-filter="long" onclick="toggleFilter(this)">
+    Long translations (17)</button>
+</div>
+</div>
+<table>
+<thead><tr>
+  <th>#</th><th>Start</th><th>End</th><th>Duration</th>
+  <th>Style</th><th>Japanese</th><th>English</th><th>Chars (JP/EN)</th>
+</tr></thead>
+<tbody>
+<tr class=""  data-start="0.000" data-end="12.540" data-jp="はい。" data-en="Right." onclick="onRowClick(this)"><td>1</td><td>0:00:00.00</td><td>0:00:12.54</td><td>12.54s</td><td>Default</td><td class="jp-text">はい。</td><td class="en-text">Right.</td><td>3/6</td></tr>
+<tr class=""  data-start="15.390" data-end="16.820" data-jp="ということで" data-en="So," onclick="onRowClick(this)"><td>2</td><td>0:00:15.39</td><td>0:00:16.82</td><td>1.43s</td><td>Default</td><td class="jp-text">ということで</td><td class="en-text">So,</td><td>6/3</td></tr>
+<tr class=""  data-start="17.320" data-end="21.550" data-jp="今日はね、あの、私たちが喋るというよりかはね、" data-en="today, rather than us just talking," onclick="onRowClick(this)"><td>3</td><td>0:00:17.32</td><td>0:00:21.55</td><td>4.23s</td><td>Default</td><td class="jp-text">今日はね、あの、私たちが喋るというよりかはね、</td><td class="en-text">today, rather than us just talking,</td><td>23/35</td></tr>
+<tr class=""  data-start="21.550" data-end="25.040" data-jp="このシーンをしっかり見ていただきたいということで見ていただき" data-en="we wanted you to really watch this scene, so we just had you" onclick="onRowClick(this)"><td>4</td><td>0:00:21.55</td><td>0:00:25.04</td><td>3.49s</td><td>Default</td><td class="jp-text">このシーンをしっかり見ていただきたいということで見ていただき</td><td class="en-text">we wanted you to really watch this scene, so we just had you</td><td>30/60</td></tr>
+<tr class=""  data-start="25.040" data-end="26.460" data-jp="ましたけれども" data-en="take a look at it." onclick="onRowClick(this)"><td>5</td><td>0:00:25.04</td><td>0:00:26.46</td><td>1.42s</td><td>Default</td><td class="jp-text">ましたけれども</td><td class="en-text">take a look at it.</td><td>7/18</td></tr>
+<tr class=""  data-start="27.270" data-end="32.840" data-jp="皆さん感想すごくコメントで書いてくださっていてありがとうございます。" data-en="Thank you all for sharing so many of your thoughts in the comments." onclick="onRowClick(this)"><td>6</td><td>0:00:27.27</td><td>0:00:32.84</td><td>5.57s</td><td>Default</td><td class="jp-text">皆さん感想すごくコメントで書いてくださっていてありがとうございます。</td><td class="en-text">Thank you all for sharing so many of your thoughts in the comments.</td><td>34/67</td></tr>
+<tr class=""  data-start="32.840" data-end="36.590" data-jp="私たちもね、このお話を踏まえて、こう、ま、" data-en="Based on this story, we'd like to talk about" onclick="onRowClick(this)"><td>7</td><td>0:00:32.84</td><td>0:00:36.59</td><td>3.75s</td><td>Default</td><td class="jp-text">私たちもね、このお話を踏まえて、こう、ま、</td><td class="en-text">Based on this story, we'd like to talk about</td><td>21/44</td></tr>
+<tr class=""  data-start="36.590" data-end="40.800" data-jp="演者としてどういう風に演じたかなとかそういうのをお話できたら" data-en="how we approached our performances as actors." onclick="onRowClick(this)"><td>8</td><td>0:00:36.59</td><td>0:00:40.80</td><td>4.21s</td><td>Default</td><td class="jp-text">演者としてどういう風に演じたかなとかそういうのをお話できたら</td><td class="en-text">how we approached our performances as actors.</td><td>30/45</td></tr>
+<tr class=""  data-start="40.800" data-end="48.910" data-jp="なって思うんですけれども、ま、あくまで演じる時に心がけていたことというねエピソードですのでそれを" data-en="Please keep in mind that these are just our personal thoughts on what we focused on while acting," onclick="onRowClick(this)"><td>9</td><td>0:00:40.80</td><td>0:00:48.91</td><td>8.11s</td><td>Default</td><td class="jp-text">なって思うんですけれども、ま、あくまで演じる時に心がけていたことというねエピソードですのでそれを</td><td class="en-text">Please keep in mind that these are just our personal thoughts on what we focused on while acting,</td><td>48/97</td></tr>
+<tr class=""  data-start="48.910" data-end="49.480" data-jp="胸に" data-en="so please keep that in mind..." onclick="onRowClick(this)"><td>10</td><td>0:00:48.91</td><td>0:00:49.48</td><td>0.57s</td><td>Default</td><td class="jp-text">胸に</td><td class="en-text">so please keep that in mind...</td><td>2/30</td></tr>
+<tr class=""  data-start="49.480" data-end="55.140" data-jp="聞いていただきたいんですけれども、まず絵名的には、ま、今回のこの8話をですね" data-en="...as you listen. First, regarding Ena, for this Episode 8—" onclick="onRowClick(this)"><td>11</td><td>0:00:49.48</td><td>0:00:55.14</td><td>5.66s</td><td>Default</td><td class="jp-text">聞いていただきたいんですけれども、まず絵名的には、ま、今回のこの8話をですね</td><td class="en-text">...as you listen. First, regarding Ena, for this Episode 8—</td><td>38/59</td></tr>
+<tr class=""  data-start="55.520" data-end="61.030" data-jp="ま、8話だけじゃなくて今回のあの、前回のストーリーも踏まえて" data-en="well, not just Episode 8, but taking the previous story into account too—" onclick="onRowClick(this)"><td>12</td><td>0:00:55.52</td><td>0:01:01.03</td><td>5.51s</td><td>Default</td><td class="jp-text">ま、8話だけじゃなくて今回のあの、前回のストーリーも踏まえて</td><td class="en-text">well, not just Episode 8, but taking the previous story into account too—</td><td>30/73</td></tr>
+<tr class=""  data-start="61.030" data-end="64.750" data-jp="自分がこう絵名の立場に立って物考えてみた" data-en="when I tried to put myself in Ena's shoes" onclick="onRowClick(this)"><td>13</td><td>0:01:01.03</td><td>0:01:04.75</td><td>3.72s</td><td>Default</td><td class="jp-text">自分がこう絵名の立場に立って物考えてみた</td><td class="en-text">when I tried to put myself in Ena's shoes</td><td>20/41</td></tr>
+<tr class=""  data-start="64.750" data-end="70.260" data-jp="時に、やっぱり正解っていうのは全然見つけることができなくてこう実際" data-en="and think about things, I really couldn't find a "correct" answer at all." onclick="onRowClick(this)"><td>14</td><td>0:01:04.75</td><td>0:01:10.26</td><td>5.51s</td><td>Default</td><td class="jp-text">時に、やっぱり正解っていうのは全然見つけることができなくてこう実際</td><td class="en-text">and think about things, I really couldn't find a "correct" answer at all.</td><td>33/73</td></tr>
+<tr class=""  data-start="70.560" data-end="74.230" data-jp="どういう風に思うんだろうとかどんな" data-en="I wondered how she would actually feel," onclick="onRowClick(this)"><td>15</td><td>0:01:10.56</td><td>0:01:14.23</td><td>3.67s</td><td>Default</td><td class="jp-text">どういう風に思うんだろうとかどんな</td><td class="en-text">I wondered how she would actually feel,</td><td>17/39</td></tr>
+<tr class=""  data-start="74.230" data-end="84.030" data-jp="風に行動するんだろうって考えて考えて絵名の立場になってみてこう台本をずっと見つめ続けていての" data-en="or how she would act. I thought about it over and over, staring at the script from Ena's perspective until..." onclick="onRowClick(this)"><td>16</td><td>0:01:14.23</td><td>0:01:24.03</td><td>9.80s</td><td>Default</td><td class="jp-text">風に行動するんだろうって考えて考えて絵名の立場になってみてこう台本をずっと見つめ続けていての</td><td class="en-text">or how she would act. I thought about it over and over, staring at the script from Ena's perspective until...</td><td>46/109</td></tr>
+<tr class=""  data-start="84.030" data-end="84.950" data-jp="最後の8" data-en="...the final" onclick="onRowClick(this)"><td>17</td><td>0:01:24.03</td><td>0:01:24.95</td><td>0.92s</td><td>Default</td><td class="jp-text">最後の8</td><td class="en-text">...the final</td><td>4/12</td></tr>
+<tr class=""  data-start="84.950" data-end="87.620" data-jp="話だったんですけれども" data-en="Episode 8." onclick="onRowClick(this)"><td>18</td><td>0:01:24.95</td><td>0:01:27.62</td><td>2.67s</td><td>Default</td><td class="jp-text">話だったんですけれども</td><td class="en-text">Episode 8.</td><td>11/10</td></tr>
+<tr class=""  data-start="96.590" data-end="100.800" data-jp="雰囲気に引っ張られてしまってなんかこうちょっと" data-en="I got swept up in the atmosphere, and it was a bit..." onclick="onRowClick(this)"><td>19</td><td>0:01:36.59</td><td>0:01:40.80</td><td>4.21s</td><td>Default</td><td class="jp-text">雰囲気に引っ張られてしまってなんかこうちょっと</td><td class="en-text">I got swept up in the atmosphere, and it was a bit...</td><td>23/53</td></tr>
+<tr class=""  data-start="100.800" data-end="106.110" data-jp="こう何でしょうねな、涙涙のほうというかうん、" data-en="how should I put it... I was on the verge of tears." onclick="onRowClick(this)"><td>20</td><td>0:01:40.80</td><td>0:01:46.11</td><td>5.31s</td><td>Default</td><td class="jp-text">こう何でしょうねな、涙涙のほうというかうん、</td><td class="en-text">how should I put it... I was on the verge of tears.</td><td>22/51</td></tr>
+<tr class=""  data-start="106.110" data-end="110.080" data-jp="どうしても行きたくなったりとかこう気持ち的にね、こうどう" data-en="Emotionally, I just felt like I was going to..." onclick="onRowClick(this)"><td>21</td><td>0:01:46.11</td><td>0:01:50.08</td><td>3.97s</td><td>Default</td><td class="jp-text">どうしても行きたくなったりとかこう気持ち的にね、こうどう</td><td class="en-text">Emotionally, I just felt like I was going to...</td><td>28/47</td></tr>
+<tr class=""  data-start="110.080" data-end="113.750" data-jp="してもき、涙が溢れちゃうというか感じだったんですけど、" data-en="well, the tears were just overflowing." onclick="onRowClick(this)"><td>22</td><td>0:01:50.08</td><td>0:01:53.75</td><td>3.67s</td><td>Default</td><td class="jp-text">してもき、涙が溢れちゃうというか感じだったんですけど、</td><td class="en-text">well, the tears were just overflowing.</td><td>27/38</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="121.750" data-end="124.190" data-jp="ここで泣いて、ここで鼻をすすってみたい" data-en="There were detailed instructions like, "Cry here," or "Sniffle here."" onclick="onRowClick(this)"><td>23</td><td>0:02:01.75</td><td>0:02:04.19</td><td>2.44s</td><td>Default</td><td class="jp-text">ここで泣いて、ここで鼻をすすってみたい</td><td class="en-text">There were detailed instructions like, "Cry here," or "Sniffle here."</td><td>19/69</td></tr>
+<tr class=""  data-start="124.190" data-end="131.880" data-jp="な、こう細かい指示もあって、で、それを踏まえて私は最初じゃあここで涙を流す絵名、" data-en="So based on that, I first thought about how to play Ena as she cries here," onclick="onRowClick(this)"><td>24</td><td>0:02:04.19</td><td>0:02:11.88</td><td>7.69s</td><td>Default</td><td class="jp-text">な、こう細かい指示もあって、で、それを踏まえて私は最初じゃあここで涙を流す絵名、</td><td class="en-text">So based on that, I first thought about how to play Ena as she cries here,</td><td>40/74</td></tr>
+<tr class=""  data-start="131.880" data-end="132.910" data-jp="どういう風に演じようっ" data-en="and how I should approach it." onclick="onRowClick(this)"><td>25</td><td>0:02:11.88</td><td>0:02:12.91</td><td>1.03s</td><td>Default</td><td class="jp-text">どういう風に演じようっ</td><td class="en-text">and how I should approach it.</td><td>11/29</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="132.910" data-end="137.840" data-jp="て思った時に本当にこうあなたはあなたのままでいいんだよ、" data-en="When I thought about it, I really wanted to tell Mizuki, "You're fine just the way you are,"" onclick="onRowClick(this)"><td>26</td><td>0:02:12.91</td><td>0:02:17.84</td><td>4.93s</td><td>Default</td><td class="jp-text">て思った時に本当にこうあなたはあなたのままでいいんだよ、</td><td class="en-text">When I thought about it, I really wanted to tell Mizuki, "You're fine just the way you are,"</td><td>28/92</td></tr>
+<tr class=""  data-start="137.840" data-end="140.790" data-jp="あなたが大切なんだよっていうことを瑞希に伝え" data-en="and "You're important to me." I was planning my performance" onclick="onRowClick(this)"><td>27</td><td>0:02:17.84</td><td>0:02:20.79</td><td>2.95s</td><td>Default</td><td class="jp-text">あなたが大切なんだよっていうことを瑞希に伝え</td><td class="en-text">and "You're important to me." I was planning my performance</td><td>22/59</td></tr>
+<tr class=""  data-start="140.790" data-end="145.030" data-jp="たいっていう一心でこう演じるプランを考えていたし、" data-en="with that single-minded focus in mind." onclick="onRowClick(this)"><td>28</td><td>0:02:20.79</td><td>0:02:25.03</td><td>4.24s</td><td>Default</td><td class="jp-text">たいっていう一心でこう演じるプランを考えていたし、</td><td class="en-text">with that single-minded focus in mind.</td><td>25/38</td></tr>
+<tr class=""  data-start="145.030" data-end="150.310" data-jp="自分も自分の正直な心でそういう風に演じたいなって思っ" data-en="I wanted to act with my own honest feelings," onclick="onRowClick(this)"><td>29</td><td>0:02:25.03</td><td>0:02:30.31</td><td>5.28s</td><td>Default</td><td class="jp-text">自分も自分の正直な心でそういう風に演じたいなって思っ</td><td class="en-text">I wanted to act with my own honest feelings,</td><td>26/44</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="150.310" data-end="153.960" data-jp="たんですけどこう実際収録に行って" data-en="but when I actually went to the recording session," onclick="onRowClick(this)"><td>30</td><td>0:02:30.31</td><td>0:02:33.96</td><td>3.65s</td><td>Default</td><td class="jp-text">たんですけどこう実際収録に行って</td><td class="en-text">but when I actually went to the recording session,</td><td>16/50</td></tr>
+<tr class=""  data-start="153.960" data-end="158.190" data-jp="聞いていただいた後にディレクションでキャットファイトがしたいって言わ" data-en="after they heard my first take, the director told me they wanted a "catfight."" onclick="onRowClick(this)"><td>31</td><td>0:02:33.96</td><td>0:02:38.19</td><td>4.23s</td><td>Default</td><td class="jp-text">聞いていただいた後にディレクションでキャットファイトがしたいって言わ</td><td class="en-text">after they heard my first take, the director told me they wanted a "catfight."</td><td>34/78</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="158.190" data-end="159.400" data-jp="れたんですね。" data-en="That's what they said." onclick="onRowClick(this)"><td>32</td><td>0:02:38.19</td><td>0:02:39.40</td><td>1.21s</td><td>Default</td><td class="jp-text">れたんですね。</td><td class="en-text">That's what they said.</td><td>7/22</td></tr>
+<tr class=""  data-start="159.400" data-end="165.240" data-jp="で、瑞希と絵名のキャットファイトが見てみたいって言われた時にじゃあ泣かなくていいんですね" data-en="When they said they wanted to see a catfight between Mizuki and Ena, I asked, "So I don't have to cry?" onclick="onRowClick(this)"><td>33</td><td>0:02:39.40</td><td>0:02:45.24</td><td>5.84s</td><td>Default</td><td class="jp-text">で、瑞希と絵名のキャットファイトが見てみたいって言われた時にじゃあ泣かなくていいんですね</td><td class="en-text">When they said they wanted to see a catfight between Mizuki and Ena, I asked, "So I don't have to cry?</td><td>44/102</td></tr>
+<tr class=""  data-start="165.240" data-end="165.840" data-jp="戦っていいん" data-en="I can actually" onclick="onRowClick(this)"><td>34</td><td>0:02:45.24</td><td>0:02:45.84</td><td>0.60s</td><td>Default</td><td class="jp-text">戦っていいん</td><td class="en-text">I can actually</td><td>6/14</td></tr>
+<tr class=""  data-start="165.840" data-end="168.840" data-jp="ですねっていう風にお話をしたわけですよ。" data-en="fight with them?"" onclick="onRowClick(this)"><td>35</td><td>0:02:45.84</td><td>0:02:48.84</td><td>3.00s</td><td>Default</td><td class="jp-text">ですねっていう風にお話をしたわけですよ。</td><td class="en-text">fight with them?"</td><td>20/17</td></tr>
+<tr class=""  data-start="168.840" data-end="174.790" data-jp="で、じゃあそうなる絵名ってどういう絵名だろうって思った時に私はすごくハッとして" data-en="Then I started wondering what kind of Ena would do that, and it suddenly hit me." onclick="onRowClick(this)"><td>36</td><td>0:02:48.84</td><td>0:02:54.79</td><td>5.95s</td><td>Default</td><td class="jp-text">で、じゃあそうなる絵名ってどういう絵名だろうって思った時に私はすごくハッとして</td><td class="en-text">Then I started wondering what kind of Ena would do that, and it suddenly hit me.</td><td>39/80</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="174.790" data-end="176.630" data-jp="絵名は変わってないって" data-en="Ena even says, "I haven't changed,"" onclick="onRowClick(this)"><td>37</td><td>0:02:54.79</td><td>0:02:56.63</td><td>1.84s</td><td>Default</td><td class="jp-text">絵名は変わってないって</td><td class="en-text">Ena even says, "I haven't changed,"</td><td>11/35</td></tr>
+<tr class=""  data-start="176.630" data-end="179.960" data-jp="言ってんじゃん台本でって思ったんですね。" data-en="right there in the script." onclick="onRowClick(this)"><td>38</td><td>0:02:56.63</td><td>0:02:59.96</td><td>3.33s</td><td>Default</td><td class="jp-text">言ってんじゃん台本でって思ったんですね。</td><td class="en-text">right there in the script.</td><td>20/26</td></tr>
+<tr class=""  data-start="179.960" data-end="185.680" data-jp="で、私が今までやろうとしていたり台本のト書きにあったプランもとても素敵なんですけど、" data-en="My original plan and the stage directions were both very lovely," onclick="onRowClick(this)"><td>39</td><td>0:02:59.96</td><td>0:03:05.68</td><td>5.72s</td><td>Default</td><td class="jp-text">で、私が今までやろうとしていたり台本のト書きにあったプランもとても素敵なんですけど、</td><td class="en-text">My original plan and the stage directions were both very lovely,</td><td>42/64</td></tr>
+<tr class=""  data-start="185.680" data-end="187.190" data-jp="でもそれって瑞希" data-en="but that came from" onclick="onRowClick(this)"><td>40</td><td>0:03:05.68</td><td>0:03:07.19</td><td>1.51s</td><td>Default</td><td class="jp-text">でもそれって瑞希</td><td class="en-text">but that came from</td><td>8/18</td></tr>
+<tr class=""  data-start="187.190" data-end="196.680" data-jp="を大切に思うがあまり必要以上に気にかけていっしまってでもそれって違うような、" data-en="caring about Mizuki so much that I was being overly considerate. I felt like that wasn't right..." onclick="onRowClick(this)"><td>41</td><td>0:03:07.19</td><td>0:03:16.68</td><td>9.49s</td><td>Default</td><td class="jp-text">を大切に思うがあまり必要以上に気にかけていっしまってでもそれって違うような、</td><td class="en-text">caring about Mizuki so much that I was being overly considerate. I felt like that wasn't right...</td><td>38/97</td></tr>
+<tr class=""  data-start="196.680" data-end="199.440" data-jp="絵名だったら違うなって思っ" data-en="I realized that if it were Ena," onclick="onRowClick(this)"><td>42</td><td>0:03:16.68</td><td>0:03:19.44</td><td>2.76s</td><td>Default</td><td class="jp-text">絵名だったら違うなって思っ</td><td class="en-text">I realized that if it were Ena,</td><td>13/31</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="199.440" data-end="199.840" data-jp="たんですよ。" data-en="she would do things differently." onclick="onRowClick(this)"><td>43</td><td>0:03:19.44</td><td>0:03:19.84</td><td>0.40s</td><td>Default</td><td class="jp-text">たんですよ。</td><td class="en-text">she would do things differently.</td><td>6/32</td></tr>
+<tr class=""  data-start="199.840" data-end="204.630" data-jp="そ、大切に思う気持ちは本当に大、大事ですけど、" data-en="Of course, those feelings of caring are very important," onclick="onRowClick(this)"><td>44</td><td>0:03:19.84</td><td>0:03:24.63</td><td>4.79s</td><td>Default</td><td class="jp-text">そ、大切に思う気持ちは本当に大、大事ですけど、</td><td class="en-text">Of course, those feelings of caring are very important,</td><td>23/55</td></tr>
+<tr class=""  data-start="204.630" data-end="209.630" data-jp="でも大切に思うからこそ自分の気持ちをぶつけたりとか何で" data-en="but because she cares, she should be able to clash with them and ask," onclick="onRowClick(this)"><td>45</td><td>0:03:24.63</td><td>0:03:29.63</td><td>5.00s</td><td>Default</td><td class="jp-text">でも大切に思うからこそ自分の気持ちをぶつけたりとか何で</td><td class="en-text">but because she cares, she should be able to clash with them and ask,</td><td>27/69</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="209.630" data-end="215.060" data-jp="伝わらないのっていつも通りに喧嘩することが" data-en=""Why don't you understand?" I realized that having their usual fight" onclick="onRowClick(this)"><td>46</td><td>0:03:29.63</td><td>0:03:35.06</td><td>5.43s</td><td>Default</td><td class="jp-text">伝わらないのっていつも通りに喧嘩することが</td><td class="en-text">"Why don't you understand?" I realized that having their usual fight</td><td>21/68</td></tr>
+<tr class=""  data-start="215.910" data-end="218.700" data-jp="大事だったんだなっていう風に、なんかこうやっぱり" data-en="was actually the important part." onclick="onRowClick(this)"><td>47</td><td>0:03:35.91</td><td>0:03:38.70</td><td>2.79s</td><td>Default</td><td class="jp-text">大事だったんだなっていう風に、なんかこうやっぱり</td><td class="en-text">was actually the important part.</td><td>24/32</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="219.160" data-end="220.700" data-jp="絵名じゃないから" data-en="Since I'm not Ena myself," onclick="onRowClick(this)"><td>48</td><td>0:03:39.16</td><td>0:03:40.70</td><td>1.54s</td><td>Default</td><td class="jp-text">絵名じゃないから</td><td class="en-text">Since I'm not Ena myself,</td><td>8/25</td></tr>
+<tr class=""  data-start="221.120" data-end="229.960" data-jp="全部を見てるとなんか壮大なことのように確かに問題自体は本当に瑞希にしかわからないことだけど、" data-en="looking at it from the outside makes it seem like this grand ordeal—and the problem itself is something only Mizuki can truly understand—" onclick="onRowClick(this)"><td>49</td><td>0:03:41.12</td><td>0:03:49.96</td><td>8.84s</td><td>Default</td><td class="jp-text">全部を見てるとなんか壮大なことのように確かに問題自体は本当に瑞希にしかわからないことだけど、</td><td class="en-text">looking at it from the outside makes it seem like this grand ordeal—and the problem itself is something only Mizuki can truly understand—</td><td>46/137</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="229.960" data-end="230.400" data-jp="でも多分" data-en="but I think..." onclick="onRowClick(this)"><td>50</td><td>0:03:49.96</td><td>0:03:50.40</td><td>0.44s</td><td>Default</td><td class="jp-text">でも多分</td><td class="en-text">but I think...</td><td>4/14</td></tr>
+<tr class=""  data-start="230.400" data-end="235.510" data-jp="2人にとって絵名にとっては喧嘩ってだけで多分、" data-en="For the two of them—and for Ena—it was probably just a fight." onclick="onRowClick(this)"><td>51</td><td>0:03:50.40</td><td>0:03:55.51</td><td>5.11s</td><td>Default</td><td class="jp-text">2人にとって絵名にとっては喧嘩ってだけで多分、</td><td class="en-text">For the two of them—and for Ena—it was probably just a fight.</td><td>23/61</td></tr>
+<tr class=""  data-start="235.510" data-end="241.240" data-jp="私が思うだけですけどでもなんか私たちが傍から見てすごく" data-en="This is just my opinion, but even though we made it out to be" onclick="onRowClick(this)"><td>52</td><td>0:03:55.51</td><td>0:04:01.24</td><td>5.73s</td><td>Default</td><td class="jp-text">私が思うだけですけどでもなんか私たちが傍から見てすごく</td><td class="en-text">This is just my opinion, but even though we made it out to be</td><td>27/61</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="241.240" data-end="243.470" data-jp="大ごとにしてしまったけど" data-en="a huge deal from an outsider's perspective..." onclick="onRowClick(this)"><td>53</td><td>0:04:01.24</td><td>0:04:03.47</td><td>2.23s</td><td>Default</td><td class="jp-text">大ごとにしてしまったけど</td><td class="en-text">a huge deal from an outsider's perspective...</td><td>12/45</td></tr>
+<tr class=""  data-start="243.470" data-end="248.750" data-jp="今までちゃんとしてこなかった人とぶつかるっていうことを初めて2人はしたんだなっ" data-en="...I interpreted it as the first time these two finally clashed with someone," onclick="onRowClick(this)"><td>54</td><td>0:04:03.47</td><td>0:04:08.75</td><td>5.28s</td><td>Default</td><td class="jp-text">今までちゃんとしてこなかった人とぶつかるっていうことを初めて2人はしたんだなっ</td><td class="en-text">...I interpreted it as the first time these two finally clashed with someone,</td><td>39/77</td></tr>
+<tr class=""  data-start="248.750" data-end="257.510" data-jp="ていう解釈でなるほどっていう風に思いながら演じさせていただきました。" data-en="and I kept that in mind while performing the role." onclick="onRowClick(this)"><td>55</td><td>0:04:08.75</td><td>0:04:17.51</td><td>8.76s</td><td>Default</td><td class="jp-text">ていう解釈でなるほどっていう風に思いながら演じさせていただきました。</td><td class="en-text">and I kept that in mind while performing the role.</td><td>34/50</td></tr>
+<tr class=""  data-start="257.510" data-end="263.630" data-jp="なのでイラストとあまりにもこう想像していたイラストと" data-en="I was actually worried because I couldn't quite connect" onclick="onRowClick(this)"><td>56</td><td>0:04:17.51</td><td>0:04:23.63</td><td>6.12s</td><td>Default</td><td class="jp-text">なのでイラストとあまりにもこう想像していたイラストと</td><td class="en-text">I was actually worried because I couldn't quite connect</td><td>26/55</td></tr>
+<tr class=""  data-start="263.630" data-end="266.270" data-jp="怒ってる絵名っていうのが結びつかなくて大丈夫かなっ" data-en="the angry Ena I'd imagined with the illustration..." onclick="onRowClick(this)"><td>57</td><td>0:04:23.63</td><td>0:04:26.27</td><td>2.64s</td><td>Default</td><td class="jp-text">怒ってる絵名っていうのが結びつかなくて大丈夫かなっ</td><td class="en-text">the angry Ena I'd imagined with the illustration...</td><td>25/51</td></tr>
+<tr class=""  data-start="266.270" data-end="272.020" data-jp="て思ってたんですがすごい素敵になっていてホッとしているというのが" data-en="...but it turned out so wonderful that I'm just relieved." onclick="onRowClick(this)"><td>58</td><td>0:04:26.27</td><td>0:04:32.02</td><td>5.75s</td><td>Default</td><td class="jp-text">て思ってたんですがすごい素敵になっていてホッとしているというのが</td><td class="en-text">...but it turned out so wonderful that I'm just relieved.</td><td>32/57</td></tr>
+<tr class=""  data-start="272.800" data-end="274.480" data-jp="気持ちでございました。" data-en="That's how I feel." onclick="onRowClick(this)"><td>59</td><td>0:04:32.80</td><td>0:04:34.48</td><td>1.68s</td><td>Default</td><td class="jp-text">気持ちでございました。</td><td class="en-text">That's how I feel.</td><td>11/18</td></tr>
+<tr class=""  data-start="274.480" data-end="274.830" data-jp="はい。" data-en="Yes." onclick="onRowClick(this)"><td>60</td><td>0:04:34.48</td><td>0:04:34.83</td><td>0.35s</td><td>Default</td><td class="jp-text">はい。</td><td class="en-text">Yes.</td><td>3/4</td></tr>
+<tr class=""  data-start="274.830" data-end="277.920" data-jp="ま、そんな8話もありつつ、ま、せっかくなのでね、" data-en="Well, Episode 8 was like that, but since we're here," onclick="onRowClick(this)"><td>61</td><td>0:04:34.83</td><td>0:04:37.92</td><td>3.09s</td><td>Default</td><td class="jp-text">ま、そんな8話もありつつ、ま、せっかくなのでね、</td><td class="en-text">Well, Episode 8 was like that, but since we're here,</td><td>24/52</td></tr>
+<tr class=""  data-start="283.240" data-end="289.120" data-jp="瑞希の掛け合いっていうのもあってお話聞きたいなっていうところではあるんですがいけますかね、" data-en="I'd also like to hear about the banter with Mizuki. Do we have time for that," onclick="onRowClick(this)"><td>62</td><td>0:04:43.24</td><td>0:04:49.12</td><td>5.88s</td><td>Default</td><td class="jp-text">瑞希の掛け合いっていうのもあってお話聞きたいなっていうところではあるんですがいけますかね、</td><td class="en-text">I'd also like to hear about the banter with Mizuki. Do we have time for that,</td><td>45/77</td></tr>
+<tr class=""  data-start="289.120" data-end="290.070" data-jp="時間的に?" data-en="schedule-wise?" onclick="onRowClick(this)"><td>63</td><td>0:04:49.12</td><td>0:04:50.07</td><td>0.95s</td><td>Default</td><td class="jp-text">時間的に?</td><td class="en-text">schedule-wise?</td><td>5/14</td></tr>
+<tr class=""  data-start="290.070" data-end="293.820" data-jp="ねま、瑞希的にはやっぱり" data-en="Well, from Mizuki's perspective," onclick="onRowClick(this)"><td>64</td><td>0:04:50.07</td><td>0:04:53.82</td><td>3.75s</td><td>Default</td><td class="jp-text">ねま、瑞希的にはやっぱり</td><td class="en-text">Well, from Mizuki's perspective,</td><td>12/32</td></tr>
+<tr class=""  data-start="294.920" data-end="297.710" data-jp="ま、どっちの8話も見逃せないですよね。" data-en="you really can't miss Episode 8 in either case." onclick="onRowClick(this)"><td>65</td><td>0:04:54.92</td><td>0:04:57.71</td><td>2.79s</td><td>Default</td><td class="jp-text">ま、どっちの8話も見逃せないですよね。</td><td class="en-text">you really can't miss Episode 8 in either case.</td><td>19/47</td></tr>
+<tr class=""  data-start="297.710" data-end="302.510" data-jp="結構前回の8話は絵名結構こう言葉が見つからないっていうのもあるんで、" data-en="In the previous Episode 8, Ena was often at a loss for words," onclick="onRowClick(this)"><td>66</td><td>0:04:57.71</td><td>0:05:02.51</td><td>4.80s</td><td>Default</td><td class="jp-text">結構前回の8話は絵名結構こう言葉が見つからないっていうのもあるんで、</td><td class="en-text">In the previous Episode 8, Ena was often at a loss for words,</td><td>34/61</td></tr>
+<tr class=""  data-start="302.510" data-end="304.480" data-jp="私的にはその、もうただそれだけだっ" data-en="so for me, that was really all there was to it." onclick="onRowClick(this)"><td>67</td><td>0:05:02.51</td><td>0:05:04.48</td><td>1.97s</td><td>Default</td><td class="jp-text">私的にはその、もうただそれだけだっ</td><td class="en-text">so for me, that was really all there was to it.</td><td>17/47</td></tr>
+<tr class=""  data-start="304.480" data-end="307.480" data-jp="たのであれですけど、どうですか?" data-en="But what about you?" onclick="onRowClick(this)"><td>68</td><td>0:05:04.48</td><td>0:05:07.48</td><td>3.00s</td><td>Default</td><td class="jp-text">たのであれですけど、どうですか?</td><td class="en-text">But what about you?</td><td>16/19</td></tr>
+<tr class=""  data-start="307.480" data-end="309.060" data-jp="瑞希ちゃんそうですね。" data-en="Mizuki-{\i1}chan{\i0}, right..." onclick="onRowClick(this)"><td>69</td><td>0:05:07.48</td><td>0:05:09.06</td><td>1.58s</td><td>Default</td><td class="jp-text">瑞希ちゃんそうですね。</td><td class="en-text">Mizuki-{\i1}chan{\i0}, right...</td><td>11/31</td></tr>
+<tr class=""  data-start="317.360" data-end="325.750" data-jp="ちょっとお話しさせていただくとその私結構前回の傾曲の道はいずこへと今回のね、" data-en="To talk about it a bit... for the previous event, "Where Shall This Path Lead?", and this one," onclick="onRowClick(this)"><td>70</td><td>0:05:17.36</td><td>0:05:25.75</td><td>8.39s</td><td>Default</td><td class="jp-text">ちょっとお話しさせていただくとその私結構前回の傾曲の道はいずこへと今回のね、</td><td class="en-text">To talk about it a bit... for the previous event, "Where Shall This Path Lead?", and this one,</td><td>38/94</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="325.750" data-end="327.830" data-jp="収録の仕方で立って撮らせ" data-en="I actually asked to record standing up." onclick="onRowClick(this)"><td>71</td><td>0:05:25.75</td><td>0:05:27.83</td><td>2.08s</td><td>Default</td><td class="jp-text">収録の仕方で立って撮らせ</td><td class="en-text">I actually asked to record standing up.</td><td>12/39</td></tr>
+<tr class=""  data-start="327.830" data-end="330.560" data-jp="てくださいっていうか結構ねギリギリまで迷って、" data-en="I was hesitating until the very last minute, though." onclick="onRowClick(this)"><td>72</td><td>0:05:27.83</td><td>0:05:30.56</td><td>2.73s</td><td>Default</td><td class="jp-text">てくださいっていうか結構ねギリギリまで迷って、</td><td class="en-text">I was hesitating until the very last minute, though.</td><td>23/52</td></tr>
+<tr class=""  data-start="330.560" data-end="334.950" data-jp="ていうのもちょ、私自身が、あの、ま、アフレコのスタイルっ" data-en="Because when it comes to voice acting," onclick="onRowClick(this)"><td>73</td><td>0:05:30.56</td><td>0:05:34.95</td><td>4.39s</td><td>Default</td><td class="jp-text">ていうのもちょ、私自身が、あの、ま、アフレコのスタイルっ</td><td class="en-text">Because when it comes to voice acting,</td><td>28/38</td></tr>
+<tr class=""  data-start="334.950" data-end="340.830" data-jp="てなるとその声でお芝居しなきゃって思っちゃうタイプだからこそ立ったほうが、" data-en="I'm the type who feels I need to really "act" with my voice," onclick="onRowClick(this)"><td>74</td><td>0:05:34.95</td><td>0:05:40.83</td><td>5.88s</td><td>Default</td><td class="jp-text">てなるとその声でお芝居しなきゃって思っちゃうタイプだからこそ立ったほうが、</td><td class="en-text">I'm the type who feels I need to really "act" with my voice,</td><td>37/60</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="340.830" data-end="342.510" data-jp="ちょ、舞台と一緒だからできる" data-en="so standing up makes it feel more like being on stage." onclick="onRowClick(this)"><td>75</td><td>0:05:40.83</td><td>0:05:42.51</td><td>1.68s</td><td>Default</td><td class="jp-text">ちょ、舞台と一緒だからできる</td><td class="en-text">so standing up makes it feel more like being on stage.</td><td>14/54</td></tr>
+<tr class=""  data-start="342.510" data-end="345.300" data-jp="かなと思ったんですけど、その" data-en="I thought about it, and well..." onclick="onRowClick(this)"><td>76</td><td>0:05:42.51</td><td>0:05:45.30</td><td>2.79s</td><td>Default</td><td class="jp-text">かなと思ったんですけど、その</td><td class="en-text">I thought about it, and well...</td><td>14/31</td></tr>
+<tr class=""  data-start="345.920" data-end="350.800" data-jp="泣くってなると足に、ま、もちろん力は入らなくなるっていうのもあって" data-en="when you're crying, your legs naturally lose their strength." onclick="onRowClick(this)"><td>77</td><td>0:05:45.92</td><td>0:05:50.80</td><td>4.88s</td><td>Default</td><td class="jp-text">泣くってなると足に、ま、もちろん力は入らなくなるっていうのもあって</td><td class="en-text">when you're crying, your legs naturally lose their strength.</td><td>33/60</td></tr>
+<tr class=""  data-start="350.800" data-end="353.240" data-jp="いい意味でその声に集中するってなっ" data-en="So, to really focus on the voice," onclick="onRowClick(this)"><td>78</td><td>0:05:50.80</td><td>0:05:53.24</td><td>2.44s</td><td>Default</td><td class="jp-text">いい意味でその声に集中するってなっ</td><td class="en-text">So, to really focus on the voice,</td><td>17/33</td></tr>
+<tr class=""  data-start="353.240" data-end="356.310" data-jp="たら座ってたほうがいいのかなと思い撮らせていただいて、" data-en="I thought it might be better to sit down while recording." onclick="onRowClick(this)"><td>79</td><td>0:05:53.24</td><td>0:05:56.31</td><td>3.07s</td><td>Default</td><td class="jp-text">たら座ってたほうがいいのかなと思い撮らせていただいて、</td><td class="en-text">I thought it might be better to sit down while recording.</td><td>27/57</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="356.310" data-end="361.700" data-jp="前回の傾曲の道はいずこへの8話をはその私の" data-en="For Episode 8 of the previous event, "The Path to the Curved Melody"..." onclick="onRowClick(this)"><td>80</td><td>0:05:56.31</td><td>0:06:01.70</td><td>5.39s</td><td>Default</td><td class="jp-text">前回の傾曲の道はいずこへの8話をはその私の</td><td class="en-text">For Episode 8 of the previous event, "The Path to the Curved Melody"...</td><td>21/71</td></tr>
+<tr class=""  data-start="362.480" data-end="366.380" data-jp="最初作ってたプランニングは泣きながらでもその" data-en="my initial plan was that even while crying," onclick="onRowClick(this)"><td>81</td><td>0:06:02.48</td><td>0:06:06.38</td><td>3.90s</td><td>Default</td><td class="jp-text">最初作ってたプランニングは泣きながらでもその</td><td class="en-text">my initial plan was that even while crying,</td><td>22/43</td></tr>
+<tr class=""  data-start="367.120" data-end="370.310" data-jp="ちゃんと言葉は話っていうイメージだったので、" data-en="they would still be able to speak clearly." onclick="onRowClick(this)"><td>82</td><td>0:06:07.12</td><td>0:06:10.31</td><td>3.19s</td><td>Default</td><td class="jp-text">ちゃんと言葉は話っていうイメージだったので、</td><td class="en-text">they would still be able to speak clearly.</td><td>22/42</td></tr>
+<tr class=""  data-start="370.310" data-end="372.600" data-jp="もっと泣いてほしいですっていうディレクションがあって、そっ" data-en="But I got direction saying, "I want you to cry more," so" onclick="onRowClick(this)"><td>83</td><td>0:06:10.31</td><td>0:06:12.60</td><td>2.29s</td><td>Default</td><td class="jp-text">もっと泣いてほしいですっていうディレクションがあって、そっ</td><td class="en-text">But I got direction saying, "I want you to cry more," so</td><td>29/56</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="372.600" data-end="375.180" data-jp="から多分34本くらい撮って" data-en="I probably did about three or four more takes after that." onclick="onRowClick(this)"><td>84</td><td>0:06:12.60</td><td>0:06:15.18</td><td>2.58s</td><td>Default</td><td class="jp-text">から多分34本くらい撮って</td><td class="en-text">I probably did about three or four more takes after that.</td><td>13/57</td></tr>
+<tr class=""  data-start="375.630" data-end="378.880" data-jp="そこから私は稔ちゃんのセリフを聞かずに、" data-en="I recorded both that time and this time" onclick="onRowClick(this)"><td>85</td><td>0:06:15.63</td><td>0:06:18.88</td><td>3.25s</td><td>Default</td><td class="jp-text">そこから私は稔ちゃんのセリフを聞かずに、</td><td class="en-text">I recorded both that time and this time</td><td>20/39</td></tr>
+<tr class=""  data-start="378.880" data-end="383.040" data-jp="あの、前回も今回も撮ってるので、皆さんと同じタイミングでその" data-en="without hearing Minori-chan's lines, so I heard their conversation" onclick="onRowClick(this)"><td>86</td><td>0:06:18.88</td><td>0:06:23.04</td><td>4.16s</td><td>Default</td><td class="jp-text">あの、前回も今回も撮ってるので、皆さんと同じタイミングでその</td><td class="en-text">without hearing Minori-chan's lines, so I heard their conversation</td><td>30/66</td></tr>
+<tr class=""  data-start="383.040" data-end="385.360" data-jp="2人の掛け合いを聞いたっていうのもあって、あ、" data-en="at the same time as all of you. I was like, "Oh," onclick="onRowClick(this)"><td>87</td><td>0:06:23.04</td><td>0:06:25.36</td><td>2.32s</td><td>Default</td><td class="jp-text">2人の掛け合いを聞いたっていうのもあって、あ、</td><td class="en-text">at the same time as all of you. I was like, "Oh,</td><td>23/48</td></tr>
+<tr class=""  data-start="385.360" data-end="388.480" data-jp="こんな風に作品として仕上がったんだなっていう風に、" data-en="so this is how the final scene turned out!"" onclick="onRowClick(this)"><td>88</td><td>0:06:25.36</td><td>0:06:28.48</td><td>3.12s</td><td>Default</td><td class="jp-text">こんな風に作品として仕上がったんだなっていう風に、</td><td class="en-text">so this is how the final scene turned out!"</td><td>25/43</td></tr>
+<tr class=""  data-start="388.480" data-end="388.880" data-jp="あの" data-en="And well," onclick="onRowClick(this)"><td>89</td><td>0:06:28.48</td><td>0:06:28.88</td><td>0.40s</td><td>Default</td><td class="jp-text">あの</td><td class="en-text">And well,</td><td>2/9</td></tr>
+<tr class=""  data-start="388.880" data-end="396.150" data-jp="思えたので、あの、私的には、あの、全力を尽くさせていただいたなと思っております。" data-en="because of that, I feel like I was able to give it my absolute all." onclick="onRowClick(this)"><td>90</td><td>0:06:28.88</td><td>0:06:36.15</td><td>7.27s</td><td>Default</td><td class="jp-text">思えたので、あの、私的には、あの、全力を尽くさせていただいたなと思っております。</td><td class="en-text">because of that, I feel like I was able to give it my absolute all.</td><td>40/67</td></tr>
+<tr class=""  data-start="396.150" data-end="401.150" data-jp="なんか結構こう会ったりはするので、収録では会えないんですけど、" data-en="We see each other quite often even if we don't meet during recording," onclick="onRowClick(this)"><td>91</td><td>0:06:36.15</td><td>0:06:41.15</td><td>5.00s</td><td>Default</td><td class="jp-text">なんか結構こう会ったりはするので、収録では会えないんですけど、</td><td class="en-text">We see each other quite often even if we don't meet during recording,</td><td>31/69</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="401.150" data-end="402.190" data-jp="結構どうやって撮った?" data-en="so we're always asking each other, "How did you record that?"" onclick="onRowClick(this)"><td>92</td><td>0:06:41.15</td><td>0:06:42.19</td><td>1.04s</td><td>Default</td><td class="jp-text">結構どうやって撮った?</td><td class="en-text">so we're always asking each other, "How did you record that?"</td><td>11/61</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="402.190" data-end="402.830" data-jp="どうやって言われた?" data-en="or "What kind of direction did you get?"" onclick="onRowClick(this)"><td>93</td><td>0:06:42.19</td><td>0:06:42.83</td><td>0.64s</td><td>Default</td><td class="jp-text">どうやって言われた?</td><td class="en-text">or "What kind of direction did you get?"</td><td>10/40</td></tr>
+<tr class=""  data-start="402.830" data-end="406.240" data-jp="みたいなのずっと話しててなんかこれはね、" data-en="We talk about that all the time. And, well..." onclick="onRowClick(this)"><td>94</td><td>0:06:42.83</td><td>0:06:46.24</td><td>3.41s</td><td>Default</td><td class="jp-text">みたいなのずっと話しててなんかこれはね、</td><td class="en-text">We talk about that all the time. And, well...</td><td>20/45</td></tr>
+<tr class=""  data-start="406.240" data-end="410.120" data-jp="スタッフさんにちょっとちょっとした要望なんですけど、なんかこう" data-en="this is just a small request for the staff, but" onclick="onRowClick(this)"><td>95</td><td>0:06:46.24</td><td>0:06:50.12</td><td>3.88s</td><td>Default</td><td class="jp-text">スタッフさんにちょっとちょっとした要望なんですけど、なんかこう</td><td class="en-text">this is just a small request for the staff, but</td><td>31/47</td></tr>
+<tr class=""  data-start="410.120" data-end="418.040" data-jp="いつか掛け合いで一緒に同じスタジオに入って撮れたら素敵だねっていうのは言っていて、" data-en="we were saying how wonderful it would be if we could record together in the same studio one day." onclick="onRowClick(this)"><td>96</td><td>0:06:50.12</td><td>0:06:58.04</td><td>7.92s</td><td>Default</td><td class="jp-text">いつか掛け合いで一緒に同じスタジオに入って撮れたら素敵だねっていうのは言っていて、</td><td class="en-text">we were saying how wonderful it would be if we could record together in the same studio one day.</td><td>41/96</td></tr>
+<tr class=""  data-start="418.040" data-end="418.950" data-jp="なんかすごくプラの" data-en="The ProSeka staff" onclick="onRowClick(this)"><td>97</td><td>0:06:58.04</td><td>0:06:58.95</td><td>0.91s</td><td>Default</td><td class="jp-text">なんかすごくプラの</td><td class="en-text">The ProSeka staff</td><td>9/17</td></tr>
+<tr class=""  data-start="418.950" data-end="425.630" data-jp="セカンドスタッフさん、演者さんのお芝居すごくリスペクトしてくださるからこそなんかまた" data-en="really respect the actors' performances, so as" onclick="onRowClick(this)"><td>98</td><td>0:06:58.95</td><td>0:07:05.63</td><td>6.68s</td><td>Default</td><td class="jp-text">セカンドスタッフさん、演者さんのお芝居すごくリスペクトしてくださるからこそなんかまた</td><td class="en-text">really respect the actors' performances, so as</td><td>42/46</td></tr>
+<tr class=""  data-start="425.630" data-end="426.710" data-jp="成長した瑞希と絵" data-en="Mizuki and Ena grow," onclick="onRowClick(this)"><td>99</td><td>0:07:05.63</td><td>0:07:06.71</td><td>1.08s</td><td>Default</td><td class="jp-text">成長した瑞希と絵</td><td class="en-text">Mizuki and Ena grow,</td><td>8/20</td></tr>
+<tr class=""  data-start="426.710" data-end="430.600" data-jp="名がまた何か大きな壁にぶつかるかもしれないし、" data-en="they might run into another big wall again." onclick="onRowClick(this)"><td>100</td><td>0:07:06.71</td><td>0:07:10.60</td><td>3.89s</td><td>Default</td><td class="jp-text">名がまた何か大きな壁にぶつかるかもしれないし、</td><td class="en-text">they might run into another big wall again.</td><td>23/43</td></tr>
+<tr class=""  data-start="430.600" data-end="433.150" data-jp="でも誰かを助けるために動くかもしれないし、" data-en="But they might take action to save someone," onclick="onRowClick(this)"><td>101</td><td>0:07:10.60</td><td>0:07:13.15</td><td>2.55s</td><td>Default</td><td class="jp-text">でも誰かを助けるために動くかもしれないし、</td><td class="en-text">But they might take action to save someone,</td><td>21/43</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="433.150" data-end="433.750" data-jp="なんかそういう" data-en="and I hope that next time," onclick="onRowClick(this)"><td>102</td><td>0:07:13.15</td><td>0:07:13.75</td><td>0.60s</td><td>Default</td><td class="jp-text">なんかそういう</td><td class="en-text">and I hope that next time,</td><td>7/26</td></tr>
+<tr class=""  data-start="433.750" data-end="438.950" data-jp="素敵なシーンで今度は一緒に掛け合えたらいいななんて思ってます。" data-en="we can have a back-and-forth in a wonderful scene like that." onclick="onRowClick(this)"><td>103</td><td>0:07:13.75</td><td>0:07:18.95</td><td>5.20s</td><td>Default</td><td class="jp-text">素敵なシーンで今度は一緒に掛け合えたらいいななんて思ってます。</td><td class="en-text">we can have a back-and-forth in a wonderful scene like that.</td><td>31/60</td></tr>
+<tr class=""  data-start="438.950" data-end="443.310" data-jp="で、それがない中でこうようはまったなっていうちょっとうちら、" data-en="And even without that, we're kind of like, "We really nailed it!"" onclick="onRowClick(this)"><td>104</td><td>0:07:18.95</td><td>0:07:23.31</td><td>4.36s</td><td>Default</td><td class="jp-text">で、それがない中でこうようはまったなっていうちょっとうちら、</td><td class="en-text">And even without that, we're kind of like, "We really nailed it!"</td><td>30/65</td></tr>
+<tr class=""  data-start="443.310" data-end="445.710" data-jp="いや、イェーイみたいなとこもありますけど、" data-en="Or rather, "Yay!" in a way, but..." onclick="onRowClick(this)"><td>105</td><td>0:07:23.31</td><td>0:07:25.71</td><td>2.40s</td><td>Default</td><td class="jp-text">いや、イェーイみたいなとこもありますけど、</td><td class="en-text">Or rather, "Yay!" in a way, but...</td><td>21/34</td></tr>
+<tr class=""  data-start="445.710" data-end="448.190" data-jp="はい、じゃあこんな感じでお話ししましたが、" data-en="Anyway, we've talked quite a bit," onclick="onRowClick(this)"><td>106</td><td>0:07:25.71</td><td>0:07:28.19</td><td>2.48s</td><td>Default</td><td class="jp-text">はい、じゃあこんな感じでお話ししましたが、</td><td class="en-text">Anyway, we've talked quite a bit,</td><td>21/33</td></tr>
+<tr class=""  data-start="448.190" data-end="452.750" data-jp="もうそろそろ時間ですのでここからはアフターライブを皆さんで" data-en="but it's almost time, so let's all watch" onclick="onRowClick(this)"><td>107</td><td>0:07:28.19</td><td>0:07:32.75</td><td>4.56s</td><td>Default</td><td class="jp-text">もうそろそろ時間ですのでここからはアフターライブを皆さんで</td><td class="en-text">but it's almost time, so let's all watch</td><td>29/40</td></tr>
+<tr class=""  data-start="452.750" data-end="454.360" data-jp="見ていきたいと思います。" data-en="the AfterLive together." onclick="onRowClick(this)"><td>108</td><td>0:07:32.75</td><td>0:07:34.36</td><td>1.61s</td><td>Default</td><td class="jp-text">見ていきたいと思います。</td><td class="en-text">the AfterLive together.</td><td>12/23</td></tr>
+<tr class=""  data-start="454.360" data-end="455.460" data-jp="プライベート" data-en="Private..." onclick="onRowClick(this)"><td>109</td><td>0:07:34.36</td><td>0:07:35.46</td><td>1.10s</td><td>Default</td><td class="jp-text">プライベート</td><td class="en-text">Private...</td><td>6/10</td></tr>
+</tbody>
+</table>
+<script>
+const video = document.getElementById('video');
+const nowLineNum = document.getElementById('now-line-num');
+const nowTime = document.getElementById('now-time');
+const nowJp = document.getElementById('now-jp');
+const nowEn = document.getElementById('now-en');
+let selectedRow = null;
+
+function onRowClick(row) {
+  if (selectedRow) selectedRow.classList.remove('selected');
+  row.classList.add('selected');
+  selectedRow = row;
+  const lineNum = row.cells[0].textContent;
+  const startTime = row.cells[1].textContent;
+  const endTime = row.cells[2].textContent;
+  if (nowLineNum) nowLineNum.textContent = 'Line #' + lineNum;
+  if (nowTime) nowTime.textContent = startTime + ' \u2192 ' + endTime;
+  if (nowJp) nowJp.textContent = row.getAttribute('data-jp');
+  if (nowEn) nowEn.textContent = row.getAttribute('data-en');
+  if (video) {
+    const t = parseFloat(row.getAttribute('data-start'));
+    video.currentTime = t;
+    video.play();
+  }
+}
+
+const activeFilters = new Set();
+function applyFilters() {
+  const rows = document.querySelectorAll('tbody tr');
+  rows.forEach(row => {
+    if (activeFilters.size === 0) {
+      row.classList.remove('hidden-row');
+      return;
+    }
+    let show = false;
+    for (const f of activeFilters) {
+      if (row.getAttribute('data-issue-' + f) === '1') show = true;
+    }
+    row.classList.toggle('hidden-row', !show);
+  });
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+    btn.classList.toggle('inactive', activeFilters.size > 0 && !activeFilters.has(btn.dataset.filter));
+  });
+}
+function toggleFilter(btn) {
+  const f = btn.dataset.filter;
+  if (activeFilters.has(f)) activeFilters.delete(f); else activeFilters.add(f);
+  applyFilters();
+}
+function filterAll() {
+  activeFilters.clear();
+  applyFilters();
+}
+// Pin table headers below sticky top bar
+(function() {
+  const stickyTop = document.getElementById('sticky-top');
+  if (!stickyTop) return;
+  function updateThTop() {
+    const h = stickyTop.offsetHeight;
+    document.querySelectorAll('th').forEach(th => th.style.top = h + 'px');
+  }
+  updateThTop();
+  window.addEventListener('resize', updateThTop);
+  new ResizeObserver(updateThTop).observe(stickyTop);
+})();
+</script>
+</body>
+</html>
