@@ -50,3 +50,10 @@ Recurring scripted lines that appear in most episodes. Use these established tra
 | メールボックス | Mailbox |
 | リエラジチャレンジ | Lieraji Challenge |
 | ヒトコト | Hitokoto (One Word) |
+
+## Transcript Normalization
+
+Corrections for known Chirp 3 misrecognitions. Each entry replaces the search term in the raw transcript.
+
+| Search | Replace | Case Sensitive |
+|--------|---------|----------------|

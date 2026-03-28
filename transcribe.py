@@ -58,10 +58,102 @@ DEFAULT_CHUNK_MINUTES = 18
 DEFAULT_GCS_BUCKET = "subtitling-projects"
 MAX_BATCH_FILES = 15
 MAX_AUDIO_LENGTH_SECS = 8 * 60 * 60
+MAX_NORMALIZATION_ENTRIES = 100
+MAX_NORMALIZATION_FIELD_LEN = 100
+
+
+def parse_normalization_entries(
+    md_path: str,
+) -> list[cloud_speech.TranscriptNormalization.Entry]:
+    """Parse transcript normalization entries from a markdown file.
+
+    Looks for a '## Transcript Normalization' section containing a markdown table
+    with Search, Replace, and Case Sensitive columns.
+    """
+    path = Path(md_path)
+    if not path.is_file():
+        return []
+
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+
+    # Find the normalization section
+    section_idx = None
+    for i, line in enumerate(lines):
+        if line.strip().lower() == "## transcript normalization":
+            section_idx = i
+            break
+
+    if section_idx is None:
+        return []
+
+    # Find the table rows (skip header row and separator row)
+    entries = []
+    in_table = False
+    header_seen = False
+    for i in range(section_idx + 1, len(lines)):
+        line = lines[i].strip()
+        # Stop at next section
+        if line.startswith("## "):
+            break
+        if not line.startswith("|"):
+            if in_table:
+                break
+            continue
+        if not header_seen:
+            header_seen = True
+            continue
+        # Skip separator row (e.g., |--------|---------|----------------|)
+        if all(c in "|- " for c in line):
+            in_table = True
+            continue
+        in_table = True
+
+        # Parse table row: | Search | Replace | Case Sensitive |
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) < 2:
+            continue
+
+        search = cells[0].strip()
+        replace = cells[1].strip()
+        case_sensitive = True
+        if len(cells) >= 3:
+            cs_val = cells[2].strip().lower()
+            case_sensitive = cs_val not in ("no", "false", "0")
+
+        if not search:
+            continue
+        if len(search) > MAX_NORMALIZATION_FIELD_LEN:
+            raise ValueError(
+                f"Normalization search term exceeds {MAX_NORMALIZATION_FIELD_LEN} chars: '{search[:50]}...'"
+            )
+        if len(replace) > MAX_NORMALIZATION_FIELD_LEN:
+            raise ValueError(
+                f"Normalization replace term exceeds {MAX_NORMALIZATION_FIELD_LEN} chars: '{replace[:50]}...'"
+            )
+
+        entries.append(
+            cloud_speech.TranscriptNormalization.Entry(
+                search=search,
+                replace=replace,
+                case_sensitive=case_sensitive,
+            )
+        )
+
+    if len(entries) > MAX_NORMALIZATION_ENTRIES:
+        raise ValueError(
+            f"Too many normalization entries ({len(entries)}), max is {MAX_NORMALIZATION_ENTRIES}"
+        )
+
+    return entries
 
 
 def transcribe_batch(
-    audio_uri: str, project_id: str, region: str
+    audio_uri: str,
+    project_id: str,
+    region: str,
+    normalization_entries: list[cloud_speech.TranscriptNormalization.Entry]
+    | None = None,
 ) -> cloud_speech.BatchRecognizeResults:
     """Transcribe a single audio file via GCP BatchRecognize with Chirp 3."""
     client = SpeechClient(
@@ -70,7 +162,7 @@ def transcribe_batch(
         )
     )
 
-    config = cloud_speech.RecognitionConfig(
+    config_kwargs = dict(
         auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
         language_codes=["ja-JP", "en-US"],
         model="chirp_3",
@@ -79,6 +171,11 @@ def transcribe_batch(
             enable_automatic_punctuation=True,
         ),
     )
+    if normalization_entries:
+        config_kwargs["transcript_normalization"] = (
+            cloud_speech.TranscriptNormalization(entries=normalization_entries)
+        )
+    config = cloud_speech.RecognitionConfig(**config_kwargs)
 
     file_metadata = cloud_speech.BatchRecognizeFileMetadata(uri=audio_uri)
 
@@ -199,6 +296,11 @@ def main():
         default=0.0,
         help="Skip this many seconds of audio before transcribing (default: 0, no trim)",
     )
+    parser.add_argument(
+        "--normalization",
+        default=None,
+        help="Path to a markdown file with a '## Transcript Normalization' section (e.g., a project's translation_reference.md)",
+    )
 
     args = parser.parse_args()
 
@@ -209,6 +311,11 @@ def main():
         )
     chunk_seconds = args.chunk_minutes * 60
     trim_offset = args.trim_start
+
+    # Parse normalization entries
+    normalization_entries = []
+    if args.normalization:
+        normalization_entries = parse_normalization_entries(args.normalization)
 
     input_is_gcs = is_gcs_uri(args.input)
     input_label = "(GCS)" if input_is_gcs else "(local)"
@@ -245,6 +352,10 @@ def main():
         print(f"  GCS bucket: {args.gcs_bucket}")
     if trim_offset > 0:
         print(f"  Trim start: {trim_offset:.1f}s ({trim_offset / 60:.1f} min)")
+    if normalization_entries:
+        print(
+            f"  Normalization: {len(normalization_entries)} entries from {args.normalization}"
+        )
     print(f"{'=' * 60}\n")
 
     with tempfile.TemporaryDirectory() as tmp_dir:
@@ -357,7 +468,9 @@ def main():
                 uploaded_input = True
 
             try:
-                transcript = transcribe_batch(input_gcs_uri, project_id, args.region)
+                transcript = transcribe_batch(
+                    input_gcs_uri, project_id, args.region, normalization_entries
+                )
                 num_results = len(transcript.results)
                 num_words = sum(
                     len(r.alternatives[0].words)
@@ -428,7 +541,9 @@ def main():
                     )
                     print(f"  URI: {chunk_uri}")
 
-                    transcript = transcribe_batch(chunk_uri, project_id, args.region)
+                    transcript = transcribe_batch(
+                        chunk_uri, project_id, args.region, normalization_entries
+                    )
 
                     num_results = len(transcript.results)
                     num_words = sum(

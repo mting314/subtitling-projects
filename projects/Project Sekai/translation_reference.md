@@ -49,3 +49,10 @@ Recurring scripted lines that appear across most AfterTalk editions. Use these e
 | ビビバス | Vivibasu | Common abbreviation for Vivid BAD SQUAD |
 | ワンダショ | Wandasho | Common abbreviation for Wonderlands x Showtime |
 | モモジャン | Momojan | Common abbreviation for MORE MORE JUMP! |
+
+## Transcript Normalization
+
+Corrections for known Chirp 3 misrecognitions. Each entry replaces the search term in the raw transcript.
+
+| Search | Replace | Case Sensitive |
+|--------|---------|----------------|

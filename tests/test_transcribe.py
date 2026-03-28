@@ -1,9 +1,13 @@
-"""Tests for transcribe.transcript_to_json and ASS integration."""
+"""Tests for transcribe.transcript_to_json, parse_normalization_entries, and ASS integration."""
 
+import os
+import tempfile
 import unittest
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
 
-from transcribe import transcript_to_json
+from google.cloud.speech_v2.types import cloud_speech
+
+from transcribe import transcript_to_json, parse_normalization_entries, transcribe_batch
 from json_to_ass import (
     extract_dialogue_lines,
     snap_gaps,
@@ -194,6 +198,153 @@ class TestAssOutputIntegration(unittest.TestCase):
 
         for line in lines:
             self.assertGreaterEqual(line["end"] - line["start"], 0)
+
+
+class TestParseNormalizationEntries(unittest.TestCase):
+    def _write_temp_md(self, content):
+        f = tempfile.NamedTemporaryFile(
+            mode="w", suffix=".md", delete=False, encoding="utf-8"
+        )
+        f.write(content)
+        f.close()
+        self.addCleanup(os.unlink, f.name)
+        return f.name
+
+    def test_valid_table(self):
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n"
+            "| foo | bar | yes |\n"
+            "| baz | qux | no |\n"
+        )
+        entries = parse_normalization_entries(md)
+        self.assertEqual(len(entries), 2)
+        self.assertEqual(entries[0].search, "foo")
+        self.assertEqual(entries[0].replace, "bar")
+        self.assertTrue(entries[0].case_sensitive)
+        self.assertEqual(entries[1].search, "baz")
+        self.assertEqual(entries[1].replace, "qux")
+        self.assertFalse(entries[1].case_sensitive)
+
+    def test_empty_table(self):
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n"
+        )
+        entries = parse_normalization_entries(md)
+        self.assertEqual(entries, [])
+
+    def test_missing_section(self):
+        md = self._write_temp_md("## Some Other Section\n\nContent here\n")
+        entries = parse_normalization_entries(md)
+        self.assertEqual(entries, [])
+
+    def test_nonexistent_file(self):
+        entries = parse_normalization_entries("/nonexistent/path.md")
+        self.assertEqual(entries, [])
+
+    def test_too_many_entries(self):
+        rows = "\n".join(f"| search{i} | replace{i} | yes |" for i in range(101))
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n" + rows + "\n"
+        )
+        with self.assertRaises(ValueError, msg="Too many normalization entries"):
+            parse_normalization_entries(md)
+
+    def test_search_too_long(self):
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n"
+            f"| {'x' * 101} | bar | yes |\n"
+        )
+        with self.assertRaises(ValueError, msg="search term exceeds"):
+            parse_normalization_entries(md)
+
+    def test_replace_too_long(self):
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n"
+            f"| foo | {'y' * 101} | yes |\n"
+        )
+        with self.assertRaises(ValueError, msg="replace term exceeds"):
+            parse_normalization_entries(md)
+
+    def test_case_sensitive_defaults_true(self):
+        md = self._write_temp_md(
+            "## Transcript Normalization\n\n"
+            "| Search | Replace |\n"
+            "|--------|--------|\n"
+            "| foo | bar |\n"
+        )
+        entries = parse_normalization_entries(md)
+        self.assertEqual(len(entries), 1)
+        self.assertTrue(entries[0].case_sensitive)
+
+    def test_section_among_other_content(self):
+        md = self._write_temp_md(
+            "## Fixed Translations\n\nSome content\n\n"
+            "## Transcript Normalization\n\n"
+            "Description text\n\n"
+            "| Search | Replace | Case Sensitive |\n"
+            "|--------|---------|----------------|\n"
+            "| alpha | beta | yes |\n\n"
+            "## Another Section\n\nMore content\n"
+        )
+        entries = parse_normalization_entries(md)
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0].search, "alpha")
+
+
+class TestTranscribeBatchConfig(unittest.TestCase):
+    @patch("transcribe.SpeechClient")
+    def test_config_without_normalization(self, mock_client_cls):
+        mock_client = MagicMock()
+        mock_client_cls.return_value = mock_client
+        mock_op = MagicMock()
+        mock_client.batch_recognize.return_value = mock_op
+        mock_response = MagicMock()
+        mock_op.result.return_value = mock_response
+        mock_response.results = {"gs://bucket/audio.opus": MagicMock()}
+
+        transcribe_batch("gs://bucket/audio.opus", "my-project", "us")
+
+        call_args = mock_client.batch_recognize.call_args
+        request = (
+            call_args[1]["request"] if "request" in call_args[1] else call_args[0][0]
+        )
+        config = request.config
+        self.assertFalse(config.transcript_normalization.entries)
+
+    @patch("transcribe.SpeechClient")
+    def test_config_with_normalization(self, mock_client_cls):
+        mock_client = MagicMock()
+        mock_client_cls.return_value = mock_client
+        mock_op = MagicMock()
+        mock_client.batch_recognize.return_value = mock_op
+        mock_response = MagicMock()
+        mock_op.result.return_value = mock_response
+        mock_response.results = {"gs://bucket/audio.opus": MagicMock()}
+
+        entries = [
+            cloud_speech.TranscriptNormalization.Entry(
+                search="foo", replace="bar", case_sensitive=True
+            )
+        ]
+        transcribe_batch("gs://bucket/audio.opus", "my-project", "us", entries)
+
+        call_args = mock_client.batch_recognize.call_args
+        request = (
+            call_args[1]["request"] if "request" in call_args[1] else call_args[0][0]
+        )
+        config = request.config
+        self.assertEqual(len(config.transcript_normalization.entries), 1)
+        self.assertEqual(config.transcript_normalization.entries[0].search, "foo")
 
 
 if __name__ == "__main__":

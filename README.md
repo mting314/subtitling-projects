@@ -84,6 +84,11 @@ uv run transcribe.py \
 # Skip leading silence/intro (timestamps still align with original file)
 uv run transcribe.py --input "video.mkv" --trim-start 120
 
+# Fix known misrecognitions via transcript normalization
+uv run transcribe.py \
+  --input "video.mkv" \
+  --normalization "projects/Project Sekai/translation_reference.md"
+
 # Override output paths
 uv run transcribe.py \
   --input "video.mkv" \
@@ -92,6 +97,8 @@ uv run transcribe.py \
 ```
 
 [Chirp 3 only supports word-level timestamps for audio up to 20 minutes](https://cloud.google.com/speech-to-text/docs/models/chirp-3). Audio longer than this is automatically split into non-overlapping chunks (default 18 min), each chunk is transcribed separately, and the transcripts are stitched back together with adjusted timestamps into a single `merged.json`. Video files are detected and audio is extracted (stream copy, no re-encoding). Non-Opus audio (e.g., AAC from MP4/MKV) is automatically re-encoded to Opus before uploading — Chirp 3 returns empty results for AAC input.
+
+**Transcript normalization** (`--normalization`): Chirp 3 consistently misrecognizes certain proper nouns and terms. The `--normalization` flag points to a markdown file (typically a project's `translation_reference.md`) containing a `## Transcript Normalization` table with search/replace entries. These are sent to the GCP API as `TranscriptNormalization` to fix known misrecognitions before the transcript is returned. Max 100 entries, 100 chars per field. Whether normalization applies to word-level tokens (`words[].word`) in addition to the transcript text is unverified.
 
 **Tune line splitting** (re-run `json_to_ass.py` without re-transcribing):
 
@@ -445,7 +452,7 @@ Many of the timing practices implemented by the ASS generation script (gap snapp
 uv run python -m unittest discover -s tests -v
 ```
 
-170 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, API/content retry logic, checkpoint save/load/resume, absorbed line merging, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
+181 tests covering timestamp parsing, bogus value clamping, line splitting, lead-in/lead-out padding, gap snapping, min duration, ASS output, transcript loading, `transcript_to_json`, transcript normalization parsing, quality analysis, ASS parsing/writing roundtrip, translation prompt assembly, structured response parsing, API/content retry logic, checkpoint save/load/resume, absorbed line merging, comparison report generation, and end-to-end integration. All external dependencies (ffmpeg, GCS, Gemini) are mocked — no network access or credentials needed.
 
 ## Major Milestones
 

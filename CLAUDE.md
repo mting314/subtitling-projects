@@ -42,6 +42,7 @@ Python dependencies managed with [uv](https://docs.astral.sh/uv/). Run `uv sync`
 | `--transcripts-dir` | `raw_transcripts/` next to input | Output directory for raw JSON transcript files (optional) |
 | `--ass-output` | Input stem + ` - Transcript.ass` | Override ASS output filename (optional) |
 | `--trim-start` | 0.0 | Skip this many seconds of leading audio before transcribing. Timestamps are offset so they align with the original file |
+| `--normalization` | None | Path to a markdown file with a `## Transcript Normalization` section for correcting known Chirp 3 misrecognitions (e.g., a project's `translation_reference.md`) |
 
 ### Transcription pipeline
 
@@ -143,6 +144,7 @@ uv run compare_translations.py --source source_jp.ass --translated source_jp_en.
 - **GCP project ID**: set via `GOOGLE_CLOUD_PROJECT` env var or `--project-id` flag.
 - **Trim offset**: `--trim-start` trims leading audio (e.g., silence or intros) before sending to the API. The trim offset is added back to all word timestamps so they match the original file's timeline. Stored in `merged.json` as `trim_offset`.
 - **GCS bucket**: `gs://subtitling-projects/audio-files/`. Local files are uploaded to `gs://{bucket}/tmp/` for transcription, then cleaned up. Override with `--gcs-bucket`.
+- **Transcript normalization**: `--normalization` points to a markdown file (typically a project's `translation_reference.md`) containing a `## Transcript Normalization` table with search/replace entries. These are sent to the API as `TranscriptNormalization` to fix known Chirp 3 misrecognitions (e.g., character names). Max 100 entries, 100 chars each. Whether normalization applies to `words[].word` tokens (not just the transcript text) is unverified — test after adding entries.
 
 See `snippets.md` for common CLI commands and `workflow.md` for the end-to-end process.
 
