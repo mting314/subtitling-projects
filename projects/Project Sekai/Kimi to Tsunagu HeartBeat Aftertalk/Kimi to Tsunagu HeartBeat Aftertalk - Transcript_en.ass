@@ -1,0 +1,764 @@
+[Script Info]
+; Generated from speech-to-text transcript
+Title: Kimi to Tsunagu HeartBeat Aftertalk - Transcript
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
+Style: JP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.12,Default,,0,0,0,,It was a story where things finally came true, so I'm...
+Dialogue: 0,0:00:10.12,0:00:11.52,Default,,0,0,0,,...looking forward to looking back on it with you all. Please stick with me!
+Dialogue: 0,0:00:11.52,0:00:11.60,Default,,0,0,0,,Also, AfterTalk has undergone a bit of a mini-renewal.
+Dialogue: 0,0:00:11.60,0:02:07.11,Default,,0,0,0,,We've been collecting messages via the official ProSeka Discord and email.
+Dialogue: 0,0:02:07.11,0:02:11.28,Default,,0,0,0,,I remember performing with a heart full of...
+Dialogue: 0,0:02:11.28,0:02:13.07,Default,,0,0,0,,...bright and happy feelings.
+Dialogue: 0,0:02:13.07,0:02:13.57,Default,,0,0,0,,It was a story where I really felt Shiho-chan's significance.
+Dialogue: 0,0:10:55.20,0:10:57.55,Default,,0,0,0,,Thank you all so much.
+Dialogue: 0,0:10:57.55,0:11:02.88,Default,,0,0,0,,I'll be reading the letters we received during the show, so please look forward to it!
+Dialogue: 0,0:11:02.88,0:11:08.88,Default,,0,0,0,,Also, please post your thoughts on the event or this stream using the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:11:08.88,0:11:11.03,Default,,0,0,0,,I'm also keeping an eye on the YouTube chat,
+Dialogue: 0,0:11:11.03,0:11:13.84,Default,,0,0,0,,so I'll be picking out comments that catch my eye.
+Dialogue: 0,0:11:13.84,0:11:16.15,Default,,0,0,0,,I see lots of "{\i1}Kon-needo{\i0}" coming in!
+Dialogue: 0,0:11:16.15,0:11:17.15,Default,,0,0,0,,Thank you!
+Dialogue: 0,0:11:17.15,0:11:20.91,Default,,0,0,0,,Thank you for the comment saying you just finished reading the story.
+Dialogue: 0,0:11:20.91,0:11:22.75,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,0:11:22.75,0:11:26.51,Default,,0,0,0,,Well then, let's get started right away.
+Dialogue: 0,0:11:26.51,0:11:33.51,Default,,0,0,0,,I'd like to talk about the story for "Connecting with You: Heartbeat."
+Dialogue: 0,0:11:33.51,0:11:36.79,Default,,0,0,0,,How did you all like it this time?
+Dialogue: 0,0:11:36.79,0:11:40.63,Default,,0,0,0,,I'd like to look back on it while reading your letters.
+Dialogue: 0,0:11:40.63,0:11:44.12,Default,,0,0,0,,First is a letter from Misora-san.
+Dialogue: 0,0:11:44.12,0:11:45.43,Default,,0,0,0,,From: Misora-san. "Noguchi-san, {\i1}Kon-needo{\i0}!"
+Dialogue: 0,0:11:45.43,0:11:46.12,Default,,0,0,0,,{\i1}Kon-needo{\i0}!
+Dialogue: 0,0:11:46.12,0:11:48.48,Default,,0,0,0,,"Thank you for always providing such a wonderful voice."
+Dialogue: 0,0:11:48.48,0:11:50.08,Default,,0,0,0,,Thank you as well!
+Dialogue: 0,0:11:50.08,0:11:52.32,Default,,0,0,0,,While reading this event story,
+Dialogue: 0,0:11:52.32,0:11:57.12,Default,,0,0,0,,the part where Ichika-chan put her strong feelings for Miku-chan into a song
+Dialogue: 0,0:11:57.12,0:12:00.55,Default,,0,0,0,,was so moving and made me feel all warm and fuzzy.
+Dialogue: 0,0:12:00.55,0:12:04.63,Default,,0,0,0,,I'm also really curious about Shiho-chan's meaningful look at the end.
+Dialogue: 0,0:12:04.63,0:12:09.43,Default,,0,0,0,,Anyway, seeing Ichika-chan look so happy made me happy too.
+Dialogue: 0,0:12:09.43,0:12:12.15,Default,,0,0,0,,Misora-san, thanks for the message!
+Dialogue: 0,0:12:12.15,0:12:18.36,Default,,0,0,0,,Right, this time Ichika wrote a song with the theme "What Miku means to me,"
+Dialogue: 0,0:12:18.36,0:12:20.15,Default,,0,0,0,,and she created a song called "With" that's packed with
+Dialogue: 0,0:12:20.15,0:12:23.60,Default,,0,0,0,,everything about Miku and Ichika's journey so far.
+Dialogue: 0,0:12:23.60,0:12:30.51,Default,,0,0,0,,She uploaded it, then a creator named Aoi-san reached out to make an MV,
+Dialogue: 0,0:12:30.51,0:12:31.15,Default,,0,0,0,,and from there,
+Dialogue: 0,0:12:31.15,0:12:35.60,Default,,0,0,0,,it got so many views and started spreading in all sorts of ways.
+Dialogue: 0,0:12:35.60,0:12:39.51,Default,,0,0,0,,Like I said at the start, it was a story full of joy and happiness,
+Dialogue: 0,0:12:39.51,0:12:42.51,Default,,0,0,0,,to the point where I wondered if it was okay to be this happy.
+Dialogue: 0,0:12:42.51,0:12:47.32,Default,,0,0,0,,It was such a heartwarming story,
+Dialogue: 0,0:12:47.32,0:12:48.03,Default,,0,0,0,,and it made me really happy too.
+Dialogue: 0,0:12:48.03,0:12:55.51,Default,,0,0,0,,Ichika's goal of connecting people through music has already been achieved.
+Dialogue: 0,0:12:55.51,0:13:01.43,Default,,0,0,0,,Well, it's only the first step, but since it was a story where her wishes came true,
+Dialogue: 0,0:13:01.43,0:13:02.91,Default,,0,0,0,,I remember performing the role
+Dialogue: 0,0:13:02.91,0:13:08.43,Default,,0,0,0,,with a very bright and joyful heart.
+Dialogue: 0,0:13:08.43,0:13:14.88,Default,,0,0,0,,And you mentioned being curious about Shiho-chan's meaningful look at the end.
+Dialogue: 0,0:13:14.88,0:13:15.60,Default,,0,0,0,,What do you all think?
+Dialogue: 0,0:13:15.60,0:13:17.55,Default,,0,0,0,,How did it make you feel?
+Dialogue: 0,0:13:17.55,0:13:24.43,Default,,0,0,0,,Shiho ended by saying, "Ichika looks like she's having a lot of fun," but...
+Dialogue: 0,0:13:24.43,0:13:25.72,Default,,0,0,0,,As for me...
+Dialogue: 0,0:13:25.72,0:13:29.96,Default,,0,0,0,,Well, I guess it's true that there's a slightly uneasy feeling, but
+Dialogue: 0,0:13:29.96,0:13:33.55,Default,,0,0,0,,I don't think Shiho is feeling that uneasy yet.
+Dialogue: 0,0:13:33.55,0:13:36.12,Default,,0,0,0,,No, I think she's more like, 'What is this feeling?' That's what I think, but anyway,
+Dialogue: 0,0:13:36.12,0:13:36.62,Default,,0,0,0,,for this AfterTalk, we were soliciting messages.
+Dialogue: 0,0:13:44.67,0:13:47.67,Default,,0,0,0,,But amidst all that, Ichika was making songs with Miku-san all by herself, and
+Dialogue: 0,0:13:47.67,0:13:50.20,Default,,0,0,0,,I think she must have felt something from that experience.
+Dialogue: 0,0:13:50.20,0:13:54.08,Default,,0,0,0,,Well,
+Dialogue: 0,0:13:54.08,0:13:54.32,Default,,0,0,0,,I have no idea what kind of story this will become from now on,
+Dialogue: 0,0:13:54.32,0:13:58.88,Default,,0,0,0,,but I'm looking forward to finding out. Hmm.
+Dialogue: 0,0:13:58.88,0:14:02.88,Default,,0,0,0,,Wow, is that what bands are like? I don't know.
+Dialogue: 0,0:14:02.88,0:14:07.24,Default,,0,0,0,,But you know, there are so many people who make songs with Miku-san,
+Dialogue: 0,0:14:07.24,0:14:10.36,Default,,0,0,0,,but also play in their own bands, right?
+Dialogue: 0,0:14:10.36,0:14:15.55,Default,,0,0,0,,So I hope Ichika can continue to do many happy things
+Dialogue: 0,0:14:15.55,0:14:18.43,Default,,0,0,0,,in that same good way.
+Dialogue: 0,0:14:18.43,0:14:23.63,Default,,0,0,0,,So, I also want them to do their best as Leo/need, as a band,
+Dialogue: 0,0:14:23.63,0:14:25.60,Default,,0,0,0,,and I want her to continue making music with Miku-san, whom she loves so much.
+Dialogue: 0,0:14:25.60,0:14:31.79,Default,,0,0,0,,I don't know what will happen in the future, but I hope we can all watch over them
+Dialogue: 0,0:14:31.79,0:14:32.96,Default,,0,0,0,,warmly.
+Dialogue: 0,0:14:32.96,0:14:34.08,Default,,0,0,0,,Yes.
+Dialogue: 0,0:14:34.08,0:14:37.91,Default,,0,0,0,,Well then, I'd like to introduce one more message.
+Dialogue: 0,0:14:37.91,0:14:41.15,Default,,0,0,0,,From: YMNK-san.
+Dialogue: 0,0:14:41.15,0:14:42.32,Default,,0,0,0,,Noguchi-san, {}i1{}Kon-needo{}i0.
+Dialogue: 0,0:14:42.32,0:14:43.24,Default,,0,0,0,,{}i1{}Kon-needo{}i0.
+Dialogue: 0,0:14:43.24,0:14:48.32,Default,,0,0,0,,Uh, in this event story, Ichika created the song "With",
+Dialogue: 0,0:14:48.32,0:14:50.67,Default,,0,0,0,,pouring her feelings about herself and Miku into it.
+Dialogue: 0,0:14:56.79,0:15:02.20,Default,,0,0,0,,There was a scene where, after finishing the song and having everyone listen, she already seemed satisfied.
+Dialogue: 0,0:15:02.20,0:15:02.91,Default,,0,0,0,,Noguchi-san,
+Dialogue: 0,0:15:02.91,0:15:07.32,Default,,0,0,0,,have you ever felt satisfied just by doing something, to the point where you didn't feel the need to do anything further?
+Dialogue: 0,0:15:07.32,0:15:08.24,Default,,0,0,0,,That's what they asked.
+Dialogue: 0,0:15:08.24,0:15:09.51,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:15:09.51,0:15:14.72,Default,,0,0,0,,You know, Saki-chan told her, 'Since you went to all that trouble, why not upload it?' and that's when she did.
+Dialogue: 0,0:15:14.72,0:15:17.96,Default,,0,0,0,,Huh, something where I felt satisfied just by doing it?
+Dialogue: 0,0:15:17.96,0:15:19.36,Default,,0,0,0,,Hmm, let's see.
+Dialogue: 0,0:15:19.36,0:15:22.55,Default,,0,0,0,,Recently, uh, I made curry.
+Dialogue: 0,0:15:22.55,0:15:26.50,Default,,0,0,0,,I suddenly wanted to make curry, and then I felt satisfied,
+Dialogue: 0,0:15:26.88,0:15:28.62,Default,,0,0,0,,like, 'Eating it is too much trouble.'
+Dialogue: 0,0:15:30.32,0:15:32.12,Default,,0,0,0,,I made several days' worth, you know.
+Dialogue: 0,0:15:32.12,0:15:38.79,Default,,0,0,0,,You know, everyone, I made several days' worth, but I just felt truly satisfied.
+Dialogue: 0,0:15:38.79,0:15:39.84,Default,,0,0,0,,Exactly.
+Dialogue: 0,0:15:39.84,0:15:46.84,Default,,0,0,0,,I made it and felt satisfied, and then, I guess food I make myself isn't all that appealing, you know.
+Dialogue: 0,0:15:46.84,0:15:52.60,Default,,0,0,0,,I did eat it normally, but I guess it's like I felt satisfied just by cooking it.
+Dialogue: 0,0:15:52.60,0:15:57.10,Default,,0,0,0,,And, this is totally unrelated, but, uh, I didn't have a kitchen knife at home.
+Dialogue: 0,0:15:57.82,0:15:58.32,Default,,0,0,0,,I didn't have one.
+Dialogue: 0,0:15:58.32,0:15:59.91,Default,,0,0,0,,I don't know why.
+Dialogue: 0,0:15:59.91,0:16:00.72,Default,,0,0,0,,I had one, you know.
+Dialogue: 0,0:16:00.72,0:16:03.24,Default,,0,0,0,,I had one, but the knife suddenly disappeared.
+Dialogue: 0,0:16:03.24,0:16:04.15,Default,,0,0,0,,Isn't that scary?
+Dialogue: 0,0:16:04.15,0:16:07.18,Default,,0,0,0,,So, I wanted to cut the carrots, but
+Dialogue: 0,0:16:07.67,0:16:11.06,Default,,0,0,0,,I couldn't, so I used scissors.
+Dialogue: 0,0:16:11.84,0:16:12.66,Default,,0,0,0,,And then I just went
+Dialogue: 0,0:16:13.03,0:16:15.03,Default,,0,0,0,,'snip, snip' and cut them. That's the story.
+Dialogue: 0,0:16:15.03,0:16:15.74,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:16.03,0:16:17.36,Default,,0,0,0,,Were you satisfied with that?
+Dialogue: 0,0:16:17.36,0:16:18.08,Default,,0,0,0,,Yes.
+Dialogue: 0,0:16:18.08,0:16:19.06,Default,,0,0,0,,I put so much
+Dialogue: 0,0:16:19.51,0:16:23.20,Default,,0,0,0,,effort into making it that I was satisfied, and I didn't have the energy to eat it,
+Dialogue: 0,0:16:23.20,0:16:24.91,Default,,0,0,0,,I guess.
+Dialogue: 0,0:16:24.91,0:16:26.39,Default,,0,0,0,,You'd probably say, 'No way!'
+Dialogue: 0,0:16:26.39,0:16:29.22,Default,,0,0,0,,Well, I did eat it later, so don't worry.
+Dialogue: 0,0:16:29.51,0:16:31.15,Default,,0,0,0,,What was that story about?
+Dialogue: 0,0:16:31.15,0:16:32.26,Default,,0,0,0,,Seriously.
+Dialogue: 0,0:16:32.51,0:16:34.39,Default,,0,0,0,,Thank you for the question.
+Dialogue: 0,0:16:34.39,0:16:34.96,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:34.96,0:16:40.24,Default,,0,0,0,,Anyway, let's get back on track. This time too, I've picked out scenes I personally want to talk about,
+Dialogue: 0,0:16:40.24,0:16:40.79,Default,,0,0,0,,so let's watch them
+Dialogue: 0,0:16:40.79,0:16:41.67,Default,,0,0,0,,together.
+Dialogue: 0,0:16:41.67,0:16:43.74,Default,,0,0,0,,Now, please enjoy the video.
+Dialogue: 0,0:16:47.39,0:16:52.22,Default,,0,0,0,,Alright, this time I picked out Episode 8.
+Dialogue: 0,0:16:55.20,0:16:56.06,Default,,0,0,0,,3 million...
+Dialogue: 0,0:16:57.63,0:16:59.30,Default,,0,0,0,,Isn't that amazing?
+Dialogue: 0,0:17:01.03,0:17:06.70,Default,,0,0,0,,I think it means a lot of people listened to it smoothly, which is great.
+Dialogue: 0,0:17:08.76,0:17:09.74,Default,,0,0,0,,Really.
+Dialogue: 0,0:17:13.71,0:17:14.70,Default,,0,0,0,,That's right.
+Dialogue: 0,0:17:15.28,0:17:19.02,Default,,0,0,0,,I feel like many people must have helped make this connection.
+Dialogue: 0,0:17:28.95,0:17:31.99,Default,,0,0,0,,Honestly, I didn't expect it to be this fast.
+Dialogue: 0,0:17:31.99,0:17:33.34,Default,,0,0,0,,I think so too.
+Dialogue: 0,0:17:36.47,0:17:39.02,Default,,0,0,0,,I wonder if it'll be 5 million?
+Dialogue: 0,0:17:39.60,0:17:41.82,Default,,0,0,0,,It'd be nice if we could reach that as a commemorative milestone.
+Dialogue: 0,0:17:43.04,0:17:43.74,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:17:44.04,0:17:48.70,Default,,0,0,0,,We should start listening together from around 4.95 million views.
+Dialogue: 0,0:17:52.67,0:17:55.78,Default,,0,0,0,,Waiting for 50,000 more sounds tough.
+Dialogue: 0,0:17:56.08,0:17:59.88,Default,,0,0,0,,It's great, even with KAITO-san's quiet comment, given the current momentum,
+Dialogue: 0,0:17:59.88,0:18:04.82,Default,,0,0,0,,and that surprising second place, I wonder if that was a big factor.
+Dialogue: 0,0:18:05.19,0:18:06.98,Default,,0,0,0,,Haruka-chan mentioned at the beginning that,
+Dialogue: 0,0:18:07.63,0:18:14.15,Default,,0,0,0,,you know, 'on the internet, it's being predicted like this, but...'
+Dialogue: 0,0:18:14.15,0:18:17.63,Default,,0,0,0,,Like, what's the actual ranking by feel?
+Dialogue: 0,0:18:17.63,0:18:19.30,Default,,0,0,0,,They're watching it,
+Dialogue: 0,0:18:19.91,0:18:20.60,Default,,0,0,0,,thinking it's real.
+Dialogue: 0,0:18:20.60,0:18:23.91,Default,,0,0,0,,Momojan also takes into account things like online vote counts and predictions,
+Dialogue: 0,0:18:23.91,0:18:31.98,Default,,0,0,0,,using them as reference for their future productions.
+Dialogue: 0,0:18:32.28,0:18:35.15,Default,,0,0,0,,I thought it was really mature of them to gather all the hints they could get,
+Dialogue: 0,0:18:35.15,0:18:39.23,Default,,0,0,0,,and then think about what to do next based on that.
+Dialogue: 0,0:18:39.23,0:18:40.91,Default,,0,0,0,,But they're high schoolers!
+Dialogue: 0,0:18:40.91,0:18:43.58,Default,,0,0,0,,I don't think high schoolers could do something like that.
+Dialogue: 0,0:18:45.12,0:18:47.95,Default,,0,0,0,,Well then, thank you very much for all your messages.
+Dialogue: 0,0:18:47.95,0:18:49.71,Default,,0,0,0,,Thank you too, Yukki-san.
+Dialogue: 0,0:18:49.71,0:18:53.28,Default,,0,0,0,,Well, about the messages, there are only these two, but
+Dialogue: 0,0:18:53.28,0:18:55.91,Default,,0,0,0,,I have so much I want to talk about,
+Dialogue: 0,0:18:55.91,0:18:56.47,Default,,0,0,0,,so please let me
+Dialogue: 0,0:18:56.47,0:18:57.54,Default,,0,0,0,,take my time.
+Dialogue: 0,0:18:59.43,0:19:00.90,Default,,0,0,0,,You know,
+Dialogue: 0,0:19:02.39,0:19:05.71,Default,,0,0,0,,the Lumina Grand Prix, for users,
+Dialogue: 0,0:19:05.71,0:19:08.60,Default,,0,0,0,,for ProSeka users, it felt like it took a really long time,
+Dialogue: 0,0:19:08.60,0:19:09.71,Default,,0,0,0,,didn't it?
+Dialogue: 0,0:19:09.71,0:19:12.08,Default,,0,0,0,,They kept releasing it little by little, and you'd wonder
+Dialogue: 0,0:19:12.08,0:19:16.28,Default,,0,0,0,,when the preliminaries would finally end.
+Dialogue: 0,0:19:16.28,0:19:19.67,Default,,0,0,0,,While there was a feeling of wanting to see the continuation quickly,
+Dialogue: 0,0:19:19.67,0:19:23.19,Default,,0,0,0,,there was also a part of me that wished it would never end.
+Dialogue: 0,0:19:23.19,0:19:30.54,Default,,0,0,0,,When I was right in that in-between state, at this timing when it finally went from preliminaries to finals,
+Dialogue: 0,0:19:31.04,0:19:33.80,Default,,0,0,0,,I was incredibly nervous.
+Dialogue: 0,0:19:33.80,0:19:37.30,Default,,0,0,0,,And then, when I realized it was Haruka's banner, I thought, 'Wait,
+Dialogue: 0,0:19:37.71,0:19:41.82,Default,,0,0,0,,this story is going to be told from Haruka's perspective?'
+Dialogue: 0,0:19:42.19,0:19:46.91,Default,,0,0,0,,You know, especially in Haruka's case, as I'll talk about a bit later,
+Dialogue: 0,0:19:46.91,0:19:51.08,Default,,0,0,0,,there's a clear wall, Hiiragi-san, and 'Rewrite',
+Dialogue: 0,0:19:51.08,0:19:52.76,Default,,0,0,0,,isn't there?
+Dialogue: 0,0:19:52.76,0:19:55.19,Default,,0,0,0,,That unavoidable presence.
+Dialogue: 0,0:19:55.19,0:19:58.22,Default,,0,0,0,,She has to confront that again, you know.
+Dialogue: 0,0:19:58.95,0:20:05.18,Default,,0,0,0,,Last time, when she fought—well, 'fought' might be the wrong word—with Hiiragi-san,
+Dialogue: 0,0:20:05.56,0:20:09.66,Default,,0,0,0,,when they confronted each other and talked one-on-one, it depicted a battle
+Dialogue: 0,0:20:10.04,0:20:15.10,Default,,0,0,0,,with an adult in the real industry, you know,
+Dialogue: 0,0:20:15.63,0:20:20.08,Default,,0,0,0,,and Haruka's expression was very dark.
+Dialogue: 0,0:20:20.08,0:20:23.99,Default,,0,0,0,,So, it was a growth that happened while thinking,
+Dialogue: 0,0:20:23.99,0:20:28.12,Default,,0,0,0,,'Oh no, I might not be able to overcome this wall.' That's why, this time,
+Dialogue: 0,0:20:28.12,0:20:31.76,Default,,0,0,0,,I was reminded again, 'Wow, what kind of battle will Haruka have with Hiiragi next?'
+Dialogue: 0,0:20:31.76,0:20:37.06,Default,,0,0,0,,When that happened, I thought, 'Is the advice you get from a teammate,
+Dialogue: 0,0:20:37.63,0:20:45.66,Default,,0,0,0,,from Rewrite, right before the finals, really this reassuring?'
+Dialogue: 0,0:20:46.47,0:20:53.34,Default,,0,0,0,,When you have her on your side, that reassurance, that strength...
+Dialogue: 0,0:20:53.95,0:20:57.60,Default,,0,0,0,,...that overwhelming presence, and the feeling of security that 'everything will be fine if she's here'...
+Dialogue: 0,0:20:57.60,0:21:02.28,Default,,0,0,0,,Every single word from Hiiragi-san conveyed all of that,
+Dialogue: 0,0:21:02.28,0:21:06.63,Default,,0,0,0,,and I really felt that this is probably where Haruka respects her, where she wants to aim for,
+Dialogue: 0,0:21:06.63,0:21:08.15,Default,,0,0,0,,and also a big wall she has to overcome,
+Dialogue: 0,0:21:08.15,0:21:12.90,Default,,0,0,0,,I really felt that.
+Dialogue: 0,0:21:13.43,0:21:14.28,Default,,0,0,0,,Was it episode 6?
+Dialogue: 0,0:21:14.28,0:21:16.18,Default,,0,0,0,,I think it was around that time.
+Dialogue: 0,0:21:17.36,0:21:18.36,Default,,0,0,0,,It's scary.
+Dialogue: 0,0:21:18.36,0:21:21.78,Default,,0,0,0,,The more reliable Hiiragi-san's presence becomes,
+Dialogue: 0,0:21:22.99,0:21:27.90,Default,,0,0,0,,the more I simultaneously feel the threat of what's to come.
+Dialogue: 0,0:21:29.67,0:21:30.34,Default,,0,0,0,,Right?
+Dialogue: 0,0:21:31.43,0:21:37.98,Default,,0,0,0,,And so, I really wondered what kind of team Aslan was,
+Dialogue: 0,0:21:38.39,0:21:43.18,Default,,0,0,0,,the one Haruka was in with Hiiragi-san back then.
+Dialogue: 0,0:21:43.63,0:21:46.70,Default,,0,0,0,,Speaking of Haruka, it's Hiiragi-san, but looking at the whole picture,
+Dialogue: 0,0:21:47.32,0:21:51.63,Default,,0,0,0,,other teams probably went to various places for events,
+Dialogue: 0,0:21:51.63,0:21:54.23,Default,,0,0,0,,starting with cram schools, I think, you know,
+Dialogue: 0,0:21:54.23,0:21:57.14,Default,,0,0,0,,like, uh...
+Dialogue: 0,0:21:58.23,0:22:01.10,Default,,0,0,0,,Arisa-san's...
+Dialogue: 0,0:22:02.88,0:22:04.10,Default,,0,0,0,,I thought about it.
+Dialogue: 0,0:22:04.71,0:22:06.30,Default,,0,0,0,,From the perspective of a former idol,
+Dialogue: 0,0:22:07.15,0:22:12.91,Default,,0,0,0,,I felt like, 'I wanted to do this for them, but I can't now.
+Dialogue: 0,0:22:12.91,0:22:18.47,Default,,0,0,0,,I want to entrust that power to the new generation of idols.'
+Dialogue: 0,0:22:18.47,0:22:25.30,Default,,0,0,0,,The idols in this SEKAI, their... what is it, their charisma?
+Dialogue: 0,0:22:26.04,0:22:27.46,Default,,0,0,0,,It's just insane, I thought.
+Dialogue: 0,0:22:28.56,0:22:29.63,Default,,0,0,0,,What was that?
+Dialogue: 0,0:22:29.63,0:22:35.98,Default,,0,0,0,,You guys, being entrusted by these legendary idols, you're truly amazing.
+Dialogue: 0,0:22:36.60,0:22:39.02,Default,,0,0,0,,I really felt that throughout the story.
+Dialogue: 0,0:22:42.15,0:22:42.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:22:45.88,0:22:46.58,Default,,0,0,0,,Right.
+Dialogue: 0,0:22:48.36,0:22:49.08,Default,,0,0,0,,It's good.
+Dialogue: 0,0:22:49.08,0:22:52.15,Default,,0,0,0,,Right, you know, Kiriya isn't good, is he?
+Dialogue: 0,0:22:52.15,0:22:55.38,Default,,0,0,0,,I really love the line, 'You got me.'
+Dialogue: 0,0:22:55.67,0:22:58.84,Default,,0,0,0,,When I'm recording, I only get the script, of course.
+Dialogue: 0,0:22:58.84,0:23:02.52,Default,,0,0,0,,It's not like we're doing a back-and-forth exchange, so the finished product, you know,
+Dialogue: 0,0:23:02.52,0:23:07.80,Default,,0,0,0,,I play the game and hear it for the first time there,
+Dialogue: 0,0:23:07.80,0:23:08.63,Default,,0,0,0,,but the scenario was already great, wasn't it?
+Dialogue: 0,0:23:08.63,0:23:10.94,Default,,0,0,0,,Oh, right, that scene with Arisa-san and Hiiragi-san.
+Dialogue: 0,0:23:12.95,0:23:17.14,Default,,0,0,0,,That was just amazing.
+Dialogue: 0,0:23:19.04,0:23:21.67,Default,,0,0,0,,There's a part of me that played just to see that scene.
+Dialogue: 0,0:23:21.67,0:23:22.43,Default,,0,0,0,,This time around.
+Dialogue: 0,0:23:22.43,0:23:25.39,Default,,0,0,0,,Of course, I wanted to see all of Momo-chan's scenes,
+Dialogue: 0,0:23:25.39,0:23:28.52,Default,,0,0,0,,but I especially made sure to engrave that one into my memory
+Dialogue: 0,0:23:28.52,0:23:28.76,Default,,0,0,0,,when I watched it.
+Dialogue: 0,0:23:28.76,0:23:29.66,Default,,0,0,0,,Right.
+Dialogue: 0,0:23:31.39,0:23:35.60,Default,,0,0,0,,It seems like a change is coming, so the screen will go dark for a moment.
+Dialogue: 0,0:23:35.60,0:23:59.78,Default,,0,0,0,,We'll be making adjustments, so please wait just a moment.
+Dialogue: 0,0:24:00.56,0:24:01.94,Default,,0,0,0,,I'll still keep talking, you know.
+Dialogue: 0,0:24:05.23,0:24:16.70,Default,,0,0,0,,I guess I'll wait for the next comments to come in.
+Dialogue: 0,0:24:18.23,0:24:19.54,Default,,0,0,0,,Can everyone hear me?
+Dialogue: 0,0:24:21.43,0:24:22.23,Default,,0,0,0,,Oh, you can hear me?
+Dialogue: 0,0:24:22.23,0:24:25.10,Default,,0,0,0,,Okay.
+Dialogue: 0,0:24:27.08,0:24:30.22,Default,,0,0,0,,I've confirmed that everyone's comments have come back,
+Dialogue: 0,0:24:30.80,0:24:31.90,Default,,0,0,0,,so I'll continue.
+Dialogue: 0,0:24:33.63,0:24:34.66,Default,,0,0,0,,Right.
+Dialogue: 0,0:24:35.15,0:24:37.56,Default,,0,0,0,,Ah, so, there are 8 episodes in total.
+Dialogue: 0,0:24:37.56,0:24:42.18,Default,,0,0,0,,I've been talking about Episode 6 this whole time, but let's talk about the other episodes too, okay?
+Dialogue: 0,0:24:43.88,0:24:47.32,Default,,0,0,0,,The two-week 'Away Team Live'.
+Dialogue: 0,0:24:47.32,0:24:52.95,Default,,0,0,0,,When I think about how the previous Lumina Grand Prixes were held over much shorter periods,
+Dialogue: 0,0:24:52.95,0:24:53.63,Default,,0,0,0,,I realized what an amazing thing
+Dialogue: 0,0:24:53.63,0:24:55.43,Default,,0,0,0,,they were doing.
+Dialogue: 0,0:24:55.43,0:25:03.08,Default,,0,0,0,,You know, even before, they'd swap with other teams and shuffle songs and perform them,
+Dialogue: 0,0:25:03.08,0:25:04.71,Default,,0,0,0,,but to think they did that every few days,
+Dialogue: 0,0:25:04.71,0:25:08.28,Default,,0,0,0,,everyone's memory...
+Dialogue: 0,0:25:08.28,0:25:11.46,Default,,0,0,0,,Wow, my honest impression was, 'They're so young!'
+Dialogue: 0,0:25:12.04,0:25:15.18,Default,,0,0,0,,The speed is just incredible.
+Dialogue: 0,0:25:15.76,0:25:21.90,Default,,0,0,0,,For active idols to learn songs... I mean, we heard that Minori
+Dialogue: 0,0:25:22.32,0:25:26.60,Default,,0,0,0,,is good at free-copying, but even other members still learn
+Dialogue: 0,0:25:26.60,0:25:31.47,Default,,0,0,0,,songs from other units. They memorize the songs,
+Dialogue: 0,0:25:31.47,0:25:35.80,Default,,0,0,0,,learn the dances, think about formations,
+Dialogue: 0,0:25:35.80,0:25:37.36,Default,,0,0,0,,and perform them originally, you know.
+Dialogue: 0,0:25:37.36,0:25:39.63,Default,,0,0,0,,And they also bring out their own strengths.
+Dialogue: 0,0:25:39.63,0:25:41.66,Default,,0,0,0,,They have too much to think about, don't they?
+Dialogue: 0,0:25:41.95,0:25:43.60,Default,,0,0,0,,They do it so well.
+Dialogue: 0,0:25:43.60,0:25:45.06,Default,,0,0,0,,I really want to learn from them.
+Dialogue: 0,0:25:48.28,0:25:50.10,Default,,0,0,0,,It's truly amazing, isn't it?
+Dialogue: 0,0:25:51.95,0:25:56.36,Default,,0,0,0,,And, you know, what I found most interesting and kept watching was
+Dialogue: 0,0:25:56.36,0:25:57.95,Default,,0,0,0,,the comments.
+Dialogue: 0,0:25:57.95,0:26:00.26,Default,,0,0,0,,Every time, the comments
+Dialogue: 0,0:26:00.88,0:26:03.66,Default,,0,0,0,,from viewers that appear
+Dialogue: 0,0:26:04.19,0:26:07.22,Default,,0,0,0,,in Momojan's events...
+Dialogue: 0,0:26:07.80,0:26:09.66,Default,,0,0,0,,Aren't those written by everyone?
+Dialogue: 0,0:26:10.67,0:26:12.94,Default,,0,0,0,,I think I've seen them before.
+Dialogue: 0,0:26:13.91,0:26:17.14,Default,,0,0,0,,You know, I feel like there's a writer just for those comments.
+Dialogue: 0,0:26:19.56,0:26:21.47,Default,,0,0,0,,The accuracy is so high every time.
+Dialogue: 0,0:26:21.47,0:26:26.02,Default,,0,0,0,,I think there are a lot of people who feel like, 'Hey, I think I've tweeted this before.'
+Dialogue: 0,0:26:28.41,0:26:28.91,Default,,0,0,0,,Hehe.
+Dialogue: 0,0:26:28.91,0:26:29.90,Default,,0,0,0,,Busted.
+Dialogue: 0,0:26:32.47,0:26:38.10,Default,,0,0,0,,Oh, right, so either they're taking someone's comments, or they're
+Dialogue: 0,0:26:38.91,0:26:39.80,Default,,0,0,0,,calling in someone specifically for that. They're always so real.
+Dialogue: 0,0:26:39.80,0:26:42.43,Default,,0,0,0,,It's really interesting, yeah.
+Dialogue: 0,0:26:42.43,0:26:47.50,Default,,0,0,0,,I feel like that's one of the points that makes it feel real, you know?
+Dialogue: 0,0:26:48.12,0:26:48.82,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:26:50.84,0:26:55.47,Default,,0,0,0,,And every time, I'm a little curious about which comment in this story,
+Dialogue: 0,0:26:55.47,0:26:58.86,Default,,0,0,0,,I'd probably say myself.
+Dialogue: 0,0:27:01.32,0:27:02.02,Default,,0,0,0,,You know?
+Dialogue: 0,0:27:04.67,0:27:12.15,Default,,0,0,0,,Of course, sometimes they're lines of dialogue, but there are also descriptions of fans, right?
+Dialogue: 0,0:27:12.15,0:27:14.94,Default,,0,0,0,,Like Momoka's fans, or...
+Dialogue: 0,0:27:24.43,0:27:30.63,Default,,0,0,0,,Yeah, oh, right. It's a blessing that we don't hear that much anymore.
+Dialogue: 0,0:27:30.63,0:27:37.06,Default,,0,0,0,,It doesn't come up now, but back then, when people were like, "Who's Momoka?"
+Dialogue: 0,0:27:37.56,0:27:39.10,Default,,0,0,0,,Especially Minori,
+Dialogue: 0,0:27:39.95,0:27:45.32,Default,,0,0,0,,and the other members were already doing their thing, at times like that, there were some really...
+Dialogue: 0,0:27:45.32,0:27:46.88,Default,,0,0,0,,rather harsh comments.
+Dialogue: 0,0:27:46.88,0:27:48.78,Default,,0,0,0,,Yeah, there were.
+Dialogue: 0,0:27:49.23,0:27:52.95,Default,,0,0,0,,When you think about it, the current environment is so much better, isn't it?
+Dialogue: 0,0:27:52.95,0:27:57.26,Default,,0,0,0,,It makes me so happy that everyone says, "Oh, Momoka!"
+Dialogue: 0,0:28:01.32,0:28:02.02,Default,,0,0,0,,Right.
+Dialogue: 0,0:28:04.84,0:28:06.43,Default,,0,0,0,,It's gotten a lot kinder, hasn't it?
+Dialogue: 0,0:28:06.43,0:28:10.60,Default,,0,0,0,,Or rather, it means Momoka has become
+Dialogue: 0,0:28:10.60,0:28:14.38,Default,,0,0,0,,more widely known to everyone.
+Dialogue: 0,0:28:15.28,0:28:17.94,Default,,0,0,0,,Like appearing on TV and stuff.
+Dialogue: 0,0:28:19.15,0:28:19.86,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:28:21.04,0:28:25.10,Default,,0,0,0,,I really think the power of comments is incredible.
+Dialogue: 0,0:28:28.39,0:28:29.15,Default,,0,0,0,,It's all about effort, isn't it?
+Dialogue: 0,0:28:29.15,0:28:31.34,Default,,0,0,0,,Exactly, Momoka's effort.
+Dialogue: 0,0:28:33.56,0:28:34.22,Default,,0,0,0,,Right.
+Dialogue: 0,0:28:36.76,0:28:40.71,Default,,0,0,0,,Now everyone can see the comments, and they're all so welcoming, right?
+Dialogue: 0,0:28:40.71,0:28:42.66,Default,,0,0,0,,So you can watch with peace of mind.
+Dialogue: 0,0:28:44.91,0:28:46.84,Default,,0,0,0,,Yeah, really.
+Dialogue: 0,0:28:46.84,0:28:48.46,Default,,0,0,0,,Because it's now,
+Dialogue: 0,0:28:48.99,0:28:54.63,Default,,0,0,0,,if Momo-chan streamed by herself, the chat would be...
+Dialogue: 0,0:28:54.63,0:28:56.42,Default,,0,0,0,,...quite different, wouldn't it?
+Dialogue: 0,0:28:56.91,0:28:57.47,Default,,0,0,0,,The vibe, you know.
+Dialogue: 0,0:28:57.47,0:29:01.63,Default,,0,0,0,,Well, but there would also be fans who've been supporting her since back then,
+Dialogue: 0,0:29:01.63,0:29:03.58,Default,,0,0,0,,so that might not change.
+Dialogue: 0,0:29:03.91,0:29:06.43,Default,,0,0,0,,Like, "I'm new," or "I just arrived."
+Dialogue: 0,0:29:06.43,0:29:08.86,Default,,0,0,0,,"I came after watching the Lumina Grand Prix."
+Dialogue: 0,0:29:10.95,0:29:13.06,Default,,0,0,0,,Oh, that's nice, originally...
+Dialogue: 0,0:29:30.76,0:29:31.95,Default,,0,0,0,,Ah, a first-timer, huh?
+Dialogue: 0,0:29:31.95,0:29:33.34,Default,,0,0,0,,Yeah, that happens.
+Dialogue: 0,0:29:37.19,0:29:38.62,Default,,0,0,0,,Oh, really.
+Dialogue: 0,0:29:39.99,0:29:42.06,Default,,0,0,0,,Like, "Hello, first-timers!"
+Dialogue: 0,0:29:43.71,0:29:45.42,Default,,0,0,0,,It would actually get pretty wild.
+Dialogue: 0,0:29:46.56,0:29:49.54,Default,,0,0,0,,Ah, that's right. Like, "I came from Lumigra."
+Dialogue: 0,0:29:51.15,0:29:54.50,Default,,0,0,0,,Oh no, what if "Lumigra" gets officially adopted?
+Dialogue: 0,0:29:55.15,0:29:55.88,Default,,0,0,0,,Just kidding.
+Dialogue: 0,0:29:55.88,0:29:57.34,Default,,0,0,0,,I'm just saying it.
+Dialogue: 0,0:29:58.41,0:29:58.91,Default,,0,0,0,,Right.
+Dialogue: 0,0:29:58.91,0:30:06.06,Default,,0,0,0,,Anyway, I've also done a general review, so for now,
+Dialogue: 0,0:30:06.63,0:30:10.58,Default,,0,0,0,,right, let's set Episode 8 aside for a moment. What I want to see here is...
+Dialogue: 0,0:30:11.23,0:30:15.76,Default,,0,0,0,,I've picked out a scene I personally want to talk about, and as you might have guessed, it's Episode 6.
+Dialogue: 0,0:30:15.76,0:30:16.80,Default,,0,0,0,,Please take a look.
+Dialogue: 0,0:30:16.80,0:30:17.70,Default,,0,0,0,,Go ahead.
+Dialogue: 0,0:30:20.19,0:30:21.10,Default,,0,0,0,,Okay.
+Dialogue: 0,0:30:21.63,0:30:25.15,Default,,0,0,0,,Well, I also considered Episode 8, but if I watched Episode 8, I'd just burst into tears.
+Dialogue: 0,0:30:25.15,0:30:27.95,Default,,0,0,0,,My current prediction for Rewrite's ranking is Hiiragi-san...
+Dialogue: 0,0:30:27.95,0:30:30.04,Default,,0,0,0,,5th place, or 5th place.
+Dialogue: 0,0:30:30.04,0:30:33.63,Default,,0,0,0,,They're right on the border of whether they can advance to the main competition.
+Dialogue: 0,0:30:33.63,0:30:34.12,Default,,0,0,0,,That's right.
+Dialogue: 0,0:30:34.12,0:30:35.46,Default,,0,0,0,,That's a good rank.
+Dialogue: 0,0:30:36.88,0:30:40.56,Default,,0,0,0,,Isn't it great that you can say, "that's a good rank"?
+Dialogue: 0,0:30:40.56,0:30:44.23,Default,,0,0,0,,This event hasn't fully taken shape yet.
+Dialogue: 0,0:30:44.23,0:30:45.19,Default,,0,0,0,,It's not in.
+Dialogue: 0,0:30:45.19,0:30:49.70,Default,,0,0,0,,It's not in yet, but isn't it great that you can already say, "that's a good rank"?
+Dialogue: 0,0:30:50.12,0:30:51.18,Default,,0,0,0,,Oh, here it comes.
+Dialogue: 0,0:30:55.88,0:30:57.02,Default,,0,0,0,,Kiriya.
+Dialogue: 0,0:30:57.52,0:30:58.22,Default,,0,0,0,,Mm-hm.
+Dialogue: 0,0:30:58.63,0:31:01.10,Default,,0,0,0,,Sensei, it's been a while.
+Dialogue: 0,0:31:01.47,0:31:03.34,Default,,0,0,0,,I crossed my arms without realizing it.
+Dialogue: 0,0:31:05.56,0:31:06.15,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:31:06.15,0:31:07.28,Default,,0,0,0,,I get nervous.
+Dialogue: 0,0:31:07.28,0:31:08.91,Default,,0,0,0,,When I just look at Hiiragi-san.
+Dialogue: 0,0:31:08.91,0:31:10.58,Default,,0,0,0,,But this time...
+Dialogue: 0,0:31:10.95,0:31:13.99,Default,,0,0,0,,It doesn't seem like we just ran into each other by chance.
+Dialogue: 0,0:31:13.99,0:31:15.28,Default,,0,0,0,,Too mature.
+Dialogue: 0,0:31:15.28,0:31:16.10,Default,,0,0,0,,Yes.
+Dialogue: 0,0:31:16.56,0:31:17.50,Default,,0,0,0,,That's right.
+Dialogue: 0,0:31:18.28,0:31:22.67,Default,,0,0,0,,I heard from Tsubaki-san and the others that Hiiragi-san would be here today.
+Dialogue: 0,0:31:22.67,0:31:23.94,Default,,0,0,0,,They're too nice.
+Dialogue: 0,0:31:25.52,0:31:26.12,Default,,0,0,0,,What do you want?
+Dialogue: 0,0:31:26.12,0:31:27.46,Default,,0,0,0,,They're too nice.
+Dialogue: 0,0:31:29.28,0:31:31.18,Default,,0,0,0,,I came to ask a favor.
+Dialogue: 0,0:31:31.52,0:31:33.15,Default,,0,0,0,,You're so cool, Haruka.
+Dialogue: 0,0:31:33.15,0:31:34.22,Default,,0,0,0,,A favor?
+Dialogue: 0,0:31:35.12,0:31:35.91,Default,,0,0,0,,You're right.
+Dialogue: 0,0:31:35.91,0:31:36.84,Default,,0,0,0,,It's surprising, isn't it?
+Dialogue: 0,0:31:36.84,0:31:38.26,Default,,0,0,0,,I was surprised too.
+Dialogue: 0,0:31:38.88,0:31:40.06,Default,,0,0,0,,Hiiragi-san,
+Dialogue: 0,0:31:40.63,0:31:44.06,Default,,0,0,0,,could you please give us some advice
+Dialogue: 0,0:31:45.39,0:31:49.62,Default,,0,0,0,,for our event during this Lumina Time?
+Dialogue: 0,0:31:55.99,0:31:59.50,Default,,0,0,0,,This time, it was supposed to be a project you all came up with yourselves, wasn't it?
+Dialogue: 0,0:32:00.12,0:32:01.39,Default,,0,0,0,,You're absolutely right.
+Dialogue: 0,0:32:01.39,0:32:07.18,Default,,0,0,0,,The rules stated that we should think of everything, including the setlist and staging.
+Dialogue: 0,0:32:08.63,0:32:15.95,Default,,0,0,0,,However, there's no problem asking for advice on the overall concept and production policy.
+Dialogue: 0,0:32:15.95,0:32:16.63,Default,,0,0,0,,She got ahead of them.
+Dialogue: 0,0:32:16.63,0:32:17.91,Default,,0,0,0,,I also confirmed with management.
+Dialogue: 0,0:32:17.91,0:32:19.04,Default,,0,0,0,,I confirmed with them.
+Dialogue: 0,0:32:19.04,0:32:20.32,Default,,0,0,0,,So it's fine.
+Dialogue: 0,0:32:20.32,0:32:21.42,Default,,0,0,0,,You're sure?
+Dialogue: 0,0:32:22.36,0:32:27.38,Default,,0,0,0,,But in this Grand Prix, you all are Rewrite's rivals, aren't you?
+Dialogue: 0,0:32:28.04,0:32:29.76,Default,,0,0,0,,Why ask me?
+Dialogue: 0,0:32:29.76,0:32:31.76,Default,,0,0,0,,You already know the answer to that, don't you?
+Dialogue: 0,0:32:31.76,0:32:38.78,Default,,0,0,0,,It's because I believe there's no other producer who has aimed to deliver hope and actually done so more than Hiiragi-san.
+Dialogue: 0,0:32:39.04,0:32:44.38,Default,,0,0,0,,Can I put it into words? Besides, we and Rewrite are on the same team now.
+Dialogue: 0,0:32:45.32,0:32:48.46,Default,,0,0,0,,This outcome will affect Rewrite as well.
+Dialogue: 0,0:32:50.12,0:32:52.90,Default,,0,0,0,,Rewrite's predicted rank is currently 5th.
+Dialogue: 0,0:32:53.67,0:32:57.19,Default,,0,0,0,,There's a high chance they'll win even without my help.
+Dialogue: 0,0:32:57.19,0:32:58.47,Default,,0,0,0,,But from here, from here...
+Dialogue: 0,0:32:58.47,0:33:01.66,Default,,0,0,0,,Even so, it's not 100%.
+Dialogue: 0,0:33:02.32,0:33:05.76,Default,,0,0,0,,Then there's still a chance they could lose.
+Dialogue: 0,0:33:05.76,0:33:08.26,Default,,0,0,0,,I want to increase their chances of winning even more.
+Dialogue: 0,0:33:08.88,0:33:10.23,Default,,0,0,0,,Don't you agree?
+Dialogue: 0,0:33:10.23,0:33:12.50,Default,,0,0,0,,Can high schoolers use 'angle' like that?
+Dialogue: 0,0:33:12.80,0:33:14.62,Default,,0,0,0,,I can't, even now.
+Dialogue: 0,0:33:17.71,0:33:18.50,Default,,0,0,0,,There it is.
+Dialogue: 0,0:33:19.56,0:33:20.47,Default,,0,0,0,,So cool.
+Dialogue: 0,0:33:20.47,0:33:23.28,Default,,0,0,0,,So please, I'm begging you.
+Dialogue: 0,0:33:23.28,0:33:24.52,Default,,0,0,0,,Hiiragi-san.
+Dialogue: 0,0:33:24.52,0:33:25.90,Default,,0,0,0,,To win,
+Dialogue: 0,0:33:26.63,0:33:28.62,Default,,0,0,0,,and to deliver hope,
+Dialogue: 0,0:33:29.08,0:33:30.76,Default,,0,0,0,,please give us your advice.
+Dialogue: 0,0:33:30.76,0:33:34.70,Default,,0,0,0,,They specifically chose the words 'to deliver hope' here, didn't they?
+Dialogue: 0,0:33:35.28,0:33:36.56,Default,,0,0,0,,So cool.
+Dialogue: 0,0:33:36.56,0:33:38.06,Default,,0,0,0,,What do you want to know?
+Dialogue: 0,0:33:40.36,0:33:47.42,Default,,0,0,0,,Right now, we're struggling because we don't have a clear criterion for how to narrow down the ideas we've come up with.
+Dialogue: 0,0:33:49.28,0:33:50.43,Default,,0,0,0,,Please take a look at this.
+Dialogue: 0,0:33:50.43,0:33:51.43,Default,,0,0,0,,Oh, let me see that document.
+Dialogue: 0,0:33:51.43,0:33:54.26,Default,,0,0,0,,It's a list of the event ideas we have right now.
+Dialogue: 0,0:33:57.19,0:33:58.56,Default,,0,0,0,,Wow, you're so well-prepared.
+Dialogue: 0,0:33:58.56,0:33:58.88,Default,,0,0,0,,Yes, we are.
+Dialogue: 0,0:33:58.88,0:34:01.58,Default,,0,0,0,,I think all the ideas themselves are good.
+Dialogue: 0,0:34:01.88,0:34:06.94,Default,,0,0,0,,But how should we put them together for the event?
+Dialogue: 0,0:34:07.71,0:34:09.90,Default,,0,0,0,,It's about whether we can create a path.
+Dialogue: 0,0:34:12.36,0:34:13.42,Default,,0,0,0,,A path?
+Dialogue: 0,0:34:15.07,0:34:15.94,Default,,0,0,0,,That's right.
+Dialogue: 0,0:34:16.36,0:34:17.38,Default,,0,0,0,,In other words,
+Dialogue: 0,0:34:18.47,0:34:25.54,Default,,0,0,0,,it's about whether we can create a path that makes those who find it difficult to look forward believe in a story of hope again.
+Dialogue: 0,0:34:27.16,0:34:29.30,Default,,0,0,0,,That will be our criterion.
+Dialogue: 0,0:34:30.43,0:34:32.66,Default,,0,0,0,,A story of hope...
+Dialogue: 0,0:34:35.55,0:34:37.34,Default,,0,0,0,,That's what I thought it meant.
+Dialogue: 0,0:34:39.59,0:34:41.06,Default,,0,0,0,,I couldn't breathe just now.
+Dialogue: 0,0:34:45.88,0:34:47.11,Default,,0,0,0,,Huh, we're back, aren't we?
+Dialogue: 0,0:34:47.11,0:34:48.91,Default,,0,0,0,,Advice from Hiiragi-san?
+Dialogue: 0,0:34:48.91,0:34:49.39,Default,,0,0,0,,They gave it to you, right?
+Dialogue: 0,0:34:49.39,0:34:50.78,Default,,0,0,0,,I was really surprised by this.
+Dialogue: 0,0:34:53.11,0:34:54.26,Default,,0,0,0,,I never thought...
+Dialogue: 0,0:34:54.99,0:34:59.46,Default,,0,0,0,,you'd go talk to a producer from another group. I'm surprised.
+Dialogue: 0,0:34:59.72,0:35:06.59,Default,,0,0,0,,As far as I know, they're the person who can view these kinds of events most objectively, so I thought they'd surely give us good ideas.
+Dialogue: 0,0:35:06.59,0:35:08.24,Default,,0,0,0,,You really see them as a person, don't you?
+Dialogue: 0,0:35:08.24,0:35:14.62,Default,,0,0,0,,When we were first asked for Hiiragi-san's schedule, we were surprised too.
+Dialogue: 0,0:35:16.59,0:35:18.34,Default,,0,0,0,,Sorry for making such a difficult request.
+Dialogue: 0,0:35:18.88,0:35:23.26,Default,,0,0,0,,I wanted to sort things out in my head, so I wanted to talk to you directly.
+Dialogue: 0,0:35:24.99,0:35:26.07,Default,,0,0,0,,It's no problem.
+Dialogue: 0,0:35:26.07,0:35:28.74,Default,,0,0,0,,Hiiragi-san is someone we can rely on, after all.
+Dialogue: 0,0:35:30.91,0:35:31.98,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:35:34.16,0:35:37.28,Default,,0,0,0,,So, the advice I got from Hiiragi-san was that it's good
+Dialogue: 0,0:35:37.28,0:35:40.64,Default,,0,0,0,,to build the entire event with rivals and become a bit more open,
+Dialogue: 0,0:35:40.64,0:35:41.47,Default,,0,0,0,,right?
+Dialogue: 0,0:35:41.47,0:35:43.06,Default,,0,0,0,,Could you take a look?
+Dialogue: 0,0:35:44.59,0:35:45.84,Default,,0,0,0,,Of course.
+Dialogue: 0,0:35:45.84,0:35:46.98,Default,,0,0,0,,I'll send it over.
+Dialogue: 0,0:35:50.95,0:35:55.51,Default,,0,0,0,,Knowing what happens next, this certainly seems like it could work.
+Dialogue: 0,0:35:55.51,0:35:57.30,Default,,0,0,0,,Even Hikari-san,
+Dialogue: 0,0:35:57.80,0:35:59.59,Default,,0,0,0,,this won't make for good streaming content, will it?
+Dialogue: 0,0:35:59.59,0:35:59.88,Default,,0,0,0,,That's
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,You know, I really wanted to know more about Hikari.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I really want them to perform together again, don't you?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I'm super curious about what kind of songs Hikarin actually sings.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,She's cute, isn't she?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Um, after this, we'll see the card illustration.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Airi, I think?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,She's in Airi's card, you know.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yeah, I know.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's tough when you create too many characters, you know.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's tough to create a persona.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And there will definitely come a moment when you have to overcome that.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I get it.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,But Hikarin is who she is now because she overcame that.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I hope Hikarin keeps doing her best.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And what will happen in the finals from now on?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's finally the finals, but it's still like the preliminaries, you know.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,The real show is yet to come.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,What kind of sights will we see with the remaining four groups?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I'm really looking forward to it.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Well then, shall we take a look at the card illustrations?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yes.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Alright, excuse me, first up is Haruka-sensei.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Haruka-sensei.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yes, here it is.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yeah, this one was cool too.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,When the banner was announced, I felt a shiver down my spine, thinking, 'Oh, she still has this cool side to her, doesn't she?'
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I couldn't help but grin, thinking, 'Yeah, she's got it.'
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's great.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And then there's this!
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Huh? This, um, I wonder if everyone knows about this.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,These gloves, you know, the ones that don't cover the whole area.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Gloves with no surface area at all.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,What do you call them?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This definitely suits Haruka-san, doesn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's great, isn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And, well, we'll definitely talk about the costume details later.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Let's look at this.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Alright.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Well, if we don't keep going, we won't make any progress.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So, here it is.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This is what I was just talking about.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Hikarin and Airi at the cram school.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,These two were great too.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,They feel like the variety show duo.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,You really get the sense that the atmosphere changes from here, don't you?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,They're so cute. Their height...
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,...and you know, I only realized Hikari was surprisingly short when her full-body illustration came out.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So cute.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Airi's great too.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And then, it's beautiful, isn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This one, you know.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Like this, maybe?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So, everyone, try looking at it vertically.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's really good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Wow, the lighting is beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,That feeling of light shining from behind, right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So detailed.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Seriously, when I do this... wait, has it just been the back of my head showing this whole time?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Just a moment.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Ah, Ren-kun.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This was really good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, and the notebook is subtly a penguin.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Cute.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, Haruka's penguin... her love for penguins shows up even in places like this.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, wait, there's a penguin in the stationery too!
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right, um, Ren-kun's standing illustration right now... is it what you'd call his old outfit? I'm not sure.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Since it's his outfit from the beginning, it's nice to see him in these kinds of illustrations now, isn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And he's cool.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Nice.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Ah, well, this is something I can't quite look at directly.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Hee.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Next.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Ah, this was good, good... Seriously, is this really a 3-star?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Really a 3-star?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Ah, it's cute.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Truly beautiful today as well.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's wonderful, isn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Thank you as always.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And this is it.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Is this really a 3-star?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Is it really a 3-star?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I don't even know the standards anymore.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yes, it's Minori-chan.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's Minori-chan.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, it's beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Somehow, this time, the illustrations overall have a beautiful black tone,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,like a night sky. So here, we can clearly see the details
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,of the costume, right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,The lining is green, isn't it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I guess it's the Momojan color.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Nice.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Minori, you're beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Alright, so we've seen all of them.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Uh, this time we've received comments about these costumes from the illustration production team.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I'd like to read them now.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This time, facing the challenge of performing a joint live show with multiple idols in an unfamiliar place,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Haruka plays an active role in leading it to success.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,That's the story.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Drawing inspiration from elements like the joint live show in the story, we narrowed down what we wanted to showcase,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,In the pitch-black night sky, we aimed to express a particularly shining
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Momojan.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Therefore, this time, we intentionally went with a simple combination design using black fabric and eye-catching star decorations,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And unlike Leoni,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's a design themed around stars shining in the night sky.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Since it's designed with 80-90% black fabric in mind,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,to avoid looking too cheap, we're using velvet and satin-like textures
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,to give it a luxurious sheen, along with some intricate details.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This way, even with a detailed costume, it becomes a mature idol outfit
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,that gives Momojan a fresh impression.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yeah, that's really true.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,You know velvet, right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's like a really nice carpet.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,A really nice carpet that makes you want to touch it.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,That fabric is often used for winter-style idol costumes,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,and it's absolutely perfect for a season like December.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,The luster and luxurious feel when it hits the light.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Satin is the same.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Satin shines really nicely when it catches the light,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,but velvet also has a surprisingly dignified feel,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,absorbing and reflecting light beautifully.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Isn't it amazing how they illustrate the fabric so well?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This is it.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This is the attention to detail in Momojan's costumes.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's wonderful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, time's already up.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Can you watch it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Can you watch it?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Yeah, this one makes me cry too.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,We'll be watching the 3DMV, though.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Rather than just listening to the song on its own, please watch it with the 3DMV.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Absolutely.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Well, we're about to watch it now, but...
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So, next,
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,we'll watch the 3DMV that Karasuya-sabou-san commissioned for this event, and then
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,we'll talk about the song.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,First, please watch the 3DMV.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Here you go.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Look, the scenery always covered in...
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,...under a sky that saw it. A voyage continued aimlessly, swept along, always making mistakes, nothing ever disappearing.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,I felt like I was humming that nostalgic song.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Look, look, watch me!
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Keep shining so I don't get lost anymore. Look, watch me, keep shining so I don't get lost anymore.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Okay.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And that was "Horasa."
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's all good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Um, oh, wait, you know, the way each person's expression becomes visible here.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,On the side of the stage, you know, fans can definitely only see it from above the stage, but...
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,this part behind the scenes, what we're about to see now...
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,...these expressions.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This part.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Everyone definitely says it here, right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's the part where everyone says "yeah?" together.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,That's what it is, right?
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, yeah, exactly.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This part is great.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,You know, the music video's quality is so good, it's elevated. Ah, this part.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Uh, wait a moment.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Um, you know, this part, where they're all in sync, it's beautiful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Oh, this is nice.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,You know, this part here, this is also good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And wow, this background design, they're singing with all their might, it's really good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's wonderful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,And this, wow, beautiful, the stars.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,It's so good.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,After this, here, this part.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Here.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Then after this, the formation change, yes.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Each person's expression, this, the stairs, right, right.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This part.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,So, look closely.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,Each one, little by little, you know... this part, it's one whole with everyone. It's wonderful.
+Dialogue: 0,0:35:59.88,0:35:59.88,Default,,0,0,0,,This is just great, you know.
+Dialogue: 0,0:35:59.88,0:36:00.50,Default,,0,0,0,,Honestly, when I first saw this, I was like, 'Whoa, what is this?'
+Dialogue: 0,0:36:01.72,0:36:02.42,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:36:04.76,0:36:05.74,Default,,0,0,0,,But
+Dialogue: 0,0:36:07.91,0:36:10.14,Default,,0,0,0,,he can deliver hope.
+Dialogue: 0,0:36:10.80,0:36:12.30,Default,,0,0,0,,I think so.
+Dialogue: 0,0:36:14.95,0:36:16.38,Default,,0,0,0,,If Haruka thinks so...
+Dialogue: 0,0:36:19.24,0:36:20.26,Default,,0,0,0,,I
+Dialogue: 0,0:36:20.64,0:36:21.76,Default,,0,0,0,,want to go with this plan.
+Dialogue: 0,0:36:21.76,0:36:25.54,Default,,0,0,0,,Right, so Rewrite is what's going to back this up, you know?
+Dialogue: 0,0:36:27.55,0:36:28.88,Default,,0,0,0,,Of course, yes.
+Dialogue: 0,0:36:28.88,0:36:33.07,Default,,0,0,0,,I do think it's best to consider the worries and the impact on voting as much as possible.
+Dialogue: 0,0:36:33.07,0:36:37.28,Default,,0,0,0,,I think the members will say it's fine, of course.
+Dialogue: 0,0:36:37.28,0:36:42.95,Default,,0,0,0,,Because what we should do as idols is, more than anything, deliver hope to the people right in front of us.
+Dialogue: 0,0:36:42.95,0:36:47.55,Default,,0,0,0,,Rewrite, who we'd see as rivals, in the sense that our concepts overlap.
+Dialogue: 0,0:36:47.55,0:36:50.74,Default,,0,0,0,,And what's more, they went to ask Hiiragi-san without permission, right?
+Dialogue: 0,0:36:51.07,0:36:52.42,Default,,0,0,0,,Well, not exactly without permission.
+Dialogue: 0,0:36:52.68,0:36:56.55,Default,,0,0,0,,In that sense, we'd naturally go with Haruka's plan.
+Dialogue: 0,0:36:56.55,0:37:01.86,Default,,0,0,0,,Even though I think it can't be helped, for Rewrite to properly say that's good there...
+Dialogue: 0,0:37:03.07,0:37:08.28,Default,,0,0,0,,It's good to see that they're willing to cooperate with the same feelings, even though they're rivals.
+Dialogue: 0,0:37:08.28,0:37:11.32,Default,,0,0,0,,Because we absolutely want to deliver hope to those kids.
+Dialogue: 0,0:37:11.32,0:37:12.06,Default,,0,0,0,,That's the idea.
+Dialogue: 0,0:37:17.39,0:37:24.59,Default,,0,0,0,,But this idea also has the possibility of leaving our fans watching the stream behind.
+Dialogue: 0,0:37:24.59,0:37:26.16,Default,,0,0,0,,She knows that.
+Dialogue: 0,0:37:26.16,0:37:31.99,Default,,0,0,0,,Arima-san is amazing; her perspective is so human, and I like that.
+Dialogue: 0,0:37:31.99,0:37:33.62,Default,,0,0,0,,Our fans,
+Dialogue: 0,0:37:34.07,0:37:38.94,Default,,0,0,0,,I think, believe we'll give our all to those girls here.
+Dialogue: 0,0:37:42.03,0:37:45.46,Default,,0,0,0,,Yes, Arima-san is such a good person, she even thinks of all the fans.
+Dialogue: 0,0:37:46.76,0:37:51.46,Default,,0,0,0,,That's what I want to say, but we also
+Dialogue: 0,0:37:51.84,0:37:55.14,Default,,0,0,0,,don't want to be a team that can't deliver hope.
+Dialogue: 0,0:37:55.68,0:37:57.42,Default,,0,0,0,,Ah, then,
+Dialogue: 0,0:37:58.32,0:38:01.76,Default,,0,0,0,,since Arima-san is involved, she'll do it seriously.
+Dialogue: 0,0:38:01.76,0:38:03.95,Default,,0,0,0,,I wonder if she's finally showing us her true self.
+Dialogue: 0,0:38:03.95,0:38:04.55,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:38:04.55,0:38:05.66,Default,,0,0,0,,I don't know though.
+Dialogue: 0,0:38:07.59,0:38:08.94,Default,,0,0,0,,Well then, everyone.
+Dialogue: 0,0:38:09.36,0:38:13.58,Default,,0,0,0,,It's strange, I've been calling her Arima, Arima this whole time, but I'm actually calling her Hiiragi-san.
+Dialogue: 0,0:38:17.99,0:38:22.86,Default,,0,0,0,,Yes, so, you've just watched Episode 6.
+Dialogue: 0,0:38:23.59,0:38:25.28,Default,,0,0,0,,Right, yes.
+Dialogue: 0,0:38:25.28,0:38:31.59,Default,,0,0,0,,Um, I've been saying this even before we started, before watching this, but the conversation between Hiiragi-san and Haruka, you know,
+Dialogue: 0,0:38:31.59,0:38:33.84,Default,,0,0,0,,the strength to go and negotiate directly one-on-one
+Dialogue: 0,0:38:33.84,0:38:37.99,Default,,0,0,0,,is truly wonderful,
+Dialogue: 0,0:38:37.99,0:38:43.82,Default,,0,0,0,,And what's more, knowing that they confronted each other during Haruka's previous event, to go again
+Dialogue: 0,0:38:44.55,0:38:49.62,Default,,0,0,0,,to meet Hiiragi-san, what she's carrying is a bit different from back then.
+Dialogue: 0,0:38:50.07,0:38:53.28,Default,,0,0,0,,That, you know, I thought was really cool,
+Dialogue: 0,0:38:53.28,0:38:59.68,Default,,0,0,0,,Actually, this confrontation scene, we shot it twice,
+Dialogue: 0,0:38:59.68,0:38:59.95,Default,,0,0,0,,probably two takes.
+Dialogue: 0,0:38:59.95,0:39:03.46,Default,,0,0,0,,The second take was used, but when I did the first one,
+Dialogue: 0,0:39:04.16,0:39:08.76,Default,,0,0,0,,Haruka still had this feeling towards Hiiragi-san, this...
+Dialogue: 0,0:39:08.76,0:39:11.95,Default,,0,0,0,,...slight anxiety towards adults,
+Dialogue: 0,0:39:11.95,0:39:12.39,Default,,0,0,0,,like, 'What should I do now?'
+Dialogue: 0,0:39:12.39,0:39:15.84,Default,,0,0,0,,She didn't know what to do, so she honestly went to ask for advice.
+Dialogue: 0,0:39:15.84,0:39:17.91,Default,,0,0,0,,She was a bit hesitant at that point.
+Dialogue: 0,0:39:17.91,0:39:20.62,Default,,0,0,0,,But it wasn't like that; here,
+Dialogue: 0,0:39:21.59,0:39:24.94,Default,,0,0,0,,they wanted me to play it as Haruka challenging him.
+Dialogue: 0,0:39:25.32,0:39:30.99,Default,,0,0,0,,Yes, to Hiiragi-san. I was going to him for advice,
+Dialogue: 0,0:39:30.99,0:39:33.03,Default,,0,0,0,,but I was given the direction to challenge him, saying,
+Dialogue: 0,0:39:33.03,0:39:34.42,Default,,0,0,0,,'You need an angle, right? To definitely get past this point,
+Dialogue: 0,0:39:34.88,0:39:40.95,Default,,0,0,0,,why don't you cooperate?'
+Dialogue: 0,0:39:40.95,0:39:41.76,Default,,0,0,0,,What? That sounds so
+Dialogue: 0,0:39:41.76,0:39:43.50,Default,,0,0,0,,interesting! I want to do that!
+Dialogue: 0,0:39:44.51,0:39:47.47,Default,,0,0,0,,And that's what I did in the second take, the one you just heard.
+Dialogue: 0,0:39:47.47,0:39:53.20,Default,,0,0,0,,Of course, I believe that Haruka's position as a producer
+Dialogue: 0,0:39:53.20,0:39:54.68,Default,,0,0,0,,is gradually being established within her,
+Dialogue: 0,0:39:54.68,0:39:58.78,Default,,0,0,0,,and that's one of the core themes of this story.
+Dialogue: 0,0:39:59.28,0:40:05.55,Default,,0,0,0,,I hope that was clearly conveyed in the scene with Hiiragi-san.
+Dialogue: 0,0:40:05.55,0:40:06.86,Default,,0,0,0,,Eventually, even the sound director,
+Dialogue: 0,0:40:07.68,0:40:14.11,Default,,0,0,0,,who gives me directions, has been creating Haruka's character with me,
+Dialogue: 0,0:40:14.11,0:40:14.51,Default,,0,0,0,,so I'm really happy to hear them gradually suggest things like,
+Dialogue: 0,0:40:14.51,0:40:16.07,Default,,0,0,0,,'Haruka can show a bit more of herself here,
+Dialogue: 0,0:40:16.07,0:40:19.95,Default,,0,0,0,,don't you think?'
+Dialogue: 0,0:40:19.95,0:40:23.28,Default,,0,0,0,,Especially in Episode 6, that really comes through.
+Dialogue: 0,0:40:23.28,0:40:26.32,Default,,0,0,0,,That's a part I really wanted all of you to see.
+Dialogue: 0,0:40:26.32,0:40:27.18,Default,,0,0,0,,Right.
+Dialogue: 0,0:40:28.32,0:40:29.16,Default,,0,0,0,,I guess that's about it.
+Dialogue: 0,0:40:29.16,0:40:29.82,Default,,0,0,0,,Oh!
+Dialogue: 0,0:40:30.72,0:40:31.55,Default,,0,0,0,,My earring fell off.
+Dialogue: 0,0:40:31.55,0:40:32.62,Default,,0,0,0,,Just a moment.
+Dialogue: 0,0:40:37.72,0:40:39.66,Default,,0,0,0,,Anyway,
+Dialogue: 0,0:40:40.20,0:40:46.02,Default,,0,0,0,,Okay, we'll pause the Episode 6 recap here and move on to the card illustrations, I think.
+Dialogue: 0,0:40:49.80,0:40:50.94,Default,,0,0,0,,Oh, is that alright?
+Dialogue: 0,0:40:52.07,0:40:53.10,Default,,0,0,0,,Episode 8.
+Dialogue: 0,0:40:54.36,0:40:55.42,Default,,0,0,0,,Episode 8.
+Dialogue: 0,0:40:56.16,0:40:57.34,Default,,0,0,0,,Seriously,
+Dialogue: 0,0:40:58.51,0:41:02.22,Default,,0,0,0,,First of all, congratulations on advancing, Momojan!
+Dialogue: 0,0:41:02.80,0:41:04.34,Default,,0,0,0,,Seriously, congratulations!
+Dialogue: 0,0:41:04.57,0:41:05.07,Default,,0,0,0,,It's great.
+Dialogue: 0,0:41:05.07,0:41:08.88,Default,,0,0,0,,It's fine, I just thought it'd be good if they could make it to the finals.
+Dialogue: 0,0:41:08.88,0:41:10.28,Default,,0,0,0,,But they got second place!
+Dialogue: 0,0:41:10.28,0:41:12.18,Default,,0,0,0,,That's a huge leap forward!
+Dialogue: 0,0:41:13.36,0:41:17.07,Default,,0,0,0,,Right? Chi-A was first, and Momojan was second.
+Dialogue: 0,0:41:17.07,0:41:24.06,Default,,0,0,0,,When there were only two groups left, Haruka's feeling of 'we can't give up here yet'...
+Dialogue: 0,0:41:24.80,0:41:25.82,Default,,0,0,0,,Ah, I'm about to cry.
+Dialogue: 0,0:41:27.84,0:41:29.68,Default,,0,0,0,,That scene was so cool.
+Dialogue: 0,0:41:29.68,0:41:36.30,Default,,0,0,0,,When the other members were thinking, 'Ah, it might be over,' Haruka was like...
+Dialogue: 0,0:41:37.72,0:41:38.78,Default,,0,0,0,,...I'm about to cry.
+Dialogue: 0,0:41:39.03,0:41:41.99,Default,,0,0,0,,That scene, it was really good, and it conveyed that you can't give up yet.
+Dialogue: 0,0:41:41.99,0:41:45.99,Default,,0,0,0,,And then, Haruka, representing everyone, says 'Thank you' first.
+Dialogue: 0,0:41:45.99,0:41:48.90,Default,,0,0,0,,That 'Thank you' was truly a tear-jerker.
+Dialogue: 0,0:41:50.20,0:41:51.16,Default,,0,0,0,,Of course, it's Haruka.
+Dialogue: 0,0:41:51.16,0:41:55.06,Default,,0,0,0,,She's saying it as Haruka, but I was just so happy about everything, truly happy.
+Dialogue: 0,0:41:55.68,0:41:56.38,Default,,0,0,0,,Right.
+Dialogue: 0,0:41:57.64,0:41:59.90,Default,,0,0,0,,But, that 'Thank you,' you know.
+Dialogue: 0,0:42:00.91,0:42:01.78,Default,,0,0,0,,Somehow,
+Dialogue: 0,0:42:02.36,0:42:05.20,Default,,0,0,0,,I think we recorded that part twice at first.
+Dialogue: 0,0:42:05.20,0:42:09.43,Default,,0,0,0,,The first time, I was trying to do it with the feeling of needing to be really solid,
+Dialogue: 0,0:42:09.43,0:42:12.36,Default,,0,0,0,,but they said, 'No, I think you can show more emotion.'
+Dialogue: 0,0:42:12.36,0:42:15.22,Default,,0,0,0,,Because this is a turning point, and I thought, 'That's true.'
+Dialogue: 0,0:42:15.64,0:42:17.94,Default,,0,0,0,,When I read it again, it was just too good.
+Dialogue: 0,0:42:18.95,0:42:21.38,Default,,0,0,0,,And I thought, 'Can I really cry a second time?'
+Dialogue: 0,0:42:22.32,0:42:25.34,Default,,0,0,0,,Yeah, I ended up giving my full-power 'Thank you.'
+Dialogue: 0,0:42:25.80,0:42:29.14,Default,,0,0,0,,And then, right, Hikarin,
+Dialogue: 0,0:42:29.59,0:42:36.16,Default,,0,0,0,,this time in the qualifiers, she was a respectable 5th, but since only four groups could advance, Hikarin,
+Dialogue: 0,0:42:36.16,0:42:38.91,Default,,0,0,0,,said that her dream
+Dialogue: 0,0:42:38.91,0:42:40.80,Default,,0,0,0,,would end here for now, but that
+Dialogue: 0,0:42:40.80,0:42:45.72,Default,,0,0,0,,everyone else would surely continue to shine.
+Dialogue: 0,0:42:45.72,0:42:50.03,Default,,0,0,0,,It was a qualifying round where I was really helped by Hikarin's unique way of speaking,
+Dialogue: 0,0:42:50.03,0:42:51.98,Default,,0,0,0,,especially Minori, you know.
+Dialogue: 0,0:42:52.28,0:42:57.32,Default,,0,0,0,,So, including that bond, it's really sad that Hikarin won't be there anymore,
+Dialogue: 0,0:42:57.32,0:42:58.64,Default,,0,0,0,,but because we connect everyone's will
+Dialogue: 0,0:42:58.64,0:43:02.74,Default,,0,0,0,,that's what makes us a team.
+Dialogue: 0,0:43:03.43,0:43:08.42,Default,,0,0,0,,I really felt that the final match of those preliminaries would resonate deeply.
+Dialogue: 0,0:43:09.43,0:43:11.90,Default,,0,0,0,,Also, personally, when Hikarin's
+Dialogue: 0,0:43:12.47,0:43:14.62,Default,,0,0,0,,visual design was added,
+Dialogue: 0,0:43:15.36,0:43:18.22,Default,,0,0,0,,I was incredibly happy.
+Dialogue: 0,0:43:18.84,0:43:21.32,Default,,0,0,0,,I was so curious about her, wondering what kind of girl she was,
+Dialogue: 0,0:43:21.32,0:43:23.91,Default,,0,0,0,,and I had imagined her from the feel of her voice, but
+Dialogue: 0,0:43:23.91,0:43:25.82,Default,,0,0,0,,she's super cute!
+Dialogue: 0,0:43:26.72,0:43:28.46,Default,,0,0,0,,It was packed with so much.
