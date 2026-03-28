@@ -1,0 +1,13 @@
+# Speaker map for With Our Wounded Hands AfterTalk Part 1 (N25)
+# Chirp 3 uses 0-based speaker labels. Verify against the diarized
+# transcript and swap if needed.
+
+[speakers."0"]
+name = "Suzuki Minori"
+character = "Ena Shinonome"
+color = "#FFA0A0"
+
+[speakers."1"]
+name = "Sato Hinata"
+character = "Mizuki Akiyama"
+color = "#A0D0FF"

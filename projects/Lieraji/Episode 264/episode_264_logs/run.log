@@ -1,0 +1,107 @@
+2026-03-28 15:00:35,640:INFO:autosub.cli: Saving log to projects/Lieraji/Episode 264/translated_newlog_logs/run.log
+2026-03-28 15:00:35,642:INFO:autosub.pipeline.translate.main: Loading 'projects/Lieraji/Episode 264/Episode 264_original.ass' for translation...
+2026-03-28 15:00:36,121:WARNING:autosub.pipeline.translate.chunker:   Segment at line 40 exceeds chunk_size (281 > 80), sub-splitting. Consider adding more corners to the profile.
+2026-03-28 15:00:36,121:WARNING:autosub.pipeline.translate.chunker:   Segment at line 321 exceeds chunk_size (202 > 80), sub-splitting. Consider adding more corners to the profile.
+2026-03-28 15:00:36,121:INFO:autosub.pipeline.translate.chunker: Corner-aware chunking: 8 boundaries found at lines [40, 321, 523, 594, 599, 640, 641, 642], producing 11 chunks of sizes [40, 80, 80, 80, 41, 80, 80, 42, 71, 46, 9]
+2026-03-28 15:00:36,121:WARNING:autosub.pipeline.translate.main: Chunk 11 not in checkpoint — nothing to retry.
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main: Resuming from checkpoint: 10/11 chunks already completed.
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main: Translating 649 subtitle lines in 11 chunks of up to 80...
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 1/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 2/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 3/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 4/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 5/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 6/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 7/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 8/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 9/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 10/11 — skipped (checkpoint)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:   Chunk 11/11 (lines 641-649, 9 lines)
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:     first: それでは、今回のLove Live! Superstar!!結ヶ丘ランチタイム放...
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.main:     last:  Love Live! Superstar!!結ヶ丘ランチタイム放送局リエラジ
+2026-03-28 15:00:36,122:INFO:autosub.pipeline.translate.translator: Translating 9 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 15:00:36,155:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 15:00:36,161:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-03-28 15:00:36,161:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-03-28 15:00:36,171:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-03-28 15:00:36,636:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-03-28 15:00:36,637:DEBUG:httpcore.connection: connect_tcp.started host='localhost' port=10054 local_address=None timeout=None socket_options=None
+2026-03-28 15:00:36,637:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x113332330>
+2026-03-28 15:00:36,637:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:00:36,637:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:00:36,638:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'CONNECT']>
+2026-03-28 15:00:36,638:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:00:36,638:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:00:36,711:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.0', 200, b'', [(b'x-x2pagentd-session-id', b''), (b'x-fb-x2pagent-request-id', b''), (b'Date', b'Sat, 28 Mar 2026 22:00:36 UTC'), (b'Connection', b'close')])
+2026-03-28 15:00:36,711:DEBUG:httpcore.proxy: start_tls.started ssl_context=<ssl.SSLContext object at 0x1132b5550> server_hostname='aiplatform.googleapis.com' timeout=None
+2026-03-28 15:00:36,778:DEBUG:httpcore.proxy: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1133a0b00>
+2026-03-28 15:00:36,778:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-03-28 15:00:36,778:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:00:36,778:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-03-28 15:00:36,779:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:00:36,779:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-03-28 15:01:36,789:DEBUG:httpcore.http11: receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-28 15:01:36,790:DEBUG:httpcore.http11: response_closed.started
+2026-03-28 15:01:36,791:DEBUG:httpcore.http11: response_closed.complete
+2026-03-28 15:01:36,794:WARNING:autosub.pipeline.translate.main:   Chunk 11: Attempt 1 failed: Vertex translator request to Vertex failed after 60.6s: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global). Retrying in 10s...
+2026-03-28 15:01:46,799:INFO:autosub.pipeline.translate.translator: Translating 9 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 15:01:46,825:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 15:01:46,839:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-03-28 15:01:47,082:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-03-28 15:01:47,083:DEBUG:httpcore.connection: connect_tcp.started host='localhost' port=10054 local_address=None timeout=None socket_options=None
+2026-03-28 15:01:47,146:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1133a3560>
+2026-03-28 15:01:47,146:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:01:47,147:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:01:47,147:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'CONNECT']>
+2026-03-28 15:01:47,147:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:01:47,147:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:01:47,323:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.0', 200, b'', [(b'x-x2pagentd-session-id', b''), (b'x-fb-x2pagent-request-id', b''), (b'Date', b'Sat, 28 Mar 2026 22:01:47 UTC'), (b'Connection', b'close')])
+2026-03-28 15:01:47,323:DEBUG:httpcore.proxy: start_tls.started ssl_context=<ssl.SSLContext object at 0x11334be50> server_hostname='aiplatform.googleapis.com' timeout=None
+2026-03-28 15:01:47,390:DEBUG:httpcore.proxy: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1133a2d80>
+2026-03-28 15:01:47,390:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-03-28 15:01:47,391:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:01:47,391:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-03-28 15:01:47,391:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:01:47,391:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-03-28 15:02:47,402:DEBUG:httpcore.http11: receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-28 15:02:47,403:DEBUG:httpcore.http11: response_closed.started
+2026-03-28 15:02:47,403:DEBUG:httpcore.http11: response_closed.complete
+2026-03-28 15:02:47,404:WARNING:autosub.pipeline.translate.main:   Chunk 11: Attempt 2 failed: Vertex translator request to Vertex failed after 60.6s: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global). Retrying in 20s...
+2026-03-28 15:03:07,409:INFO:autosub.pipeline.translate.translator: Translating 9 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 15:03:07,424:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 15:03:07,433:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-03-28 15:03:07,690:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-03-28 15:03:07,691:DEBUG:httpcore.connection: connect_tcp.started host='localhost' port=10054 local_address=None timeout=None socket_options=None
+2026-03-28 15:03:07,692:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1133a0c20>
+2026-03-28 15:03:07,692:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:03:07,692:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:03:07,692:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'CONNECT']>
+2026-03-28 15:03:07,692:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:03:07,692:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'CONNECT']>
+2026-03-28 15:03:07,768:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.0', 200, b'', [(b'x-x2pagentd-session-id', b''), (b'x-fb-x2pagent-request-id', b''), (b'Date', b'Sat, 28 Mar 2026 22:03:07 UTC'), (b'Connection', b'close')])
+2026-03-28 15:03:07,768:DEBUG:httpcore.proxy: start_tls.started ssl_context=<ssl.SSLContext object at 0x1133adf50> server_hostname='aiplatform.googleapis.com' timeout=None
+2026-03-28 15:03:07,836:DEBUG:httpcore.proxy: start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1133a3320>
+2026-03-28 15:03:07,836:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-03-28 15:03:07,836:DEBUG:httpcore.http11: send_request_headers.complete
+2026-03-28 15:03:07,836:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-03-28 15:03:07,836:DEBUG:httpcore.http11: send_request_body.complete
+2026-03-28 15:03:07,836:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-03-28 15:03:24,174:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sat, 28 Mar 2026 22:03:24 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-03-28 15:03:24,176:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-03-28 15:03:24,176:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-03-28 15:03:24,187:DEBUG:httpcore.http11: receive_response_body.complete
+2026-03-28 15:03:24,188:DEBUG:httpcore.http11: response_closed.started
+2026-03-28 15:03:24,188:DEBUG:httpcore.http11: response_closed.complete
+2026-03-28 15:03:24,191:INFO:autosub.core.llm.vertex: Vertex translator tokens: prompt=1566, candidates=196, thoughts=2633, total=4395
+2026-03-28 15:03:24,195:INFO:autosub.pipeline.translate.main: Removed checkpoint file.
+2026-03-28 15:03:24,195:INFO:autosub.pipeline.translate.main: Applying translations to subtitle events...
+2026-03-28 15:03:24,195:INFO:autosub.pipeline.translate.main:   Corner detected at line 1: Opening Skit
+2026-03-28 15:03:24,195:INFO:autosub.pipeline.translate.main:   Corner detected at line 41: Suggestion Box
+2026-03-28 15:03:24,195:INFO:autosub.pipeline.translate.main:   Corner detected at line 516: Lunchtime Request
+2026-03-28 15:03:24,196:DEBUG:autosub.pipeline.translate.main:   Skipping duplicate corner at line 524: Lunchtime Request
+2026-03-28 15:03:24,196:INFO:autosub.pipeline.translate.main:   Corner detected at line 549: Closing
+2026-03-28 15:03:24,196:DEBUG:autosub.pipeline.translate.main:   Skipping duplicate corner at line 595: Closing
+2026-03-28 15:03:24,196:DEBUG:autosub.pipeline.translate.main:   Skipping duplicate corner at line 641: Closing
+2026-03-28 15:03:24,196:INFO:autosub.pipeline.translate.main: Inserted 4 corner marker(s): Opening Skit, Suggestion Box, Lunchtime Request, Closing
+2026-03-28 15:03:24,196:INFO:autosub.pipeline.translate.main: Writing translated .ass file to projects/Lieraji/Episode 264/translated_newlog.ass...
+2026-03-28 15:03:24,198:INFO:autosub.pipeline.translate.main: Translation complete!

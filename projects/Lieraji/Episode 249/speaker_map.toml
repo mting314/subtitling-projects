@@ -1,0 +1,18 @@
+# Speaker map for Lieraji Episode 249
+# Hosts: Sakakura Sakura (Tomari), Date Sayuri (Kanon), Aoyama Nagisa (Sumire)
+# Chirp 3 uses 0-based labels. Verify and swap after first transcription.
+
+[speakers."0"]
+name = "Sakakura Sakura"
+character = "Tomari Onitsuka"
+color = "#4CD2E2"
+
+[speakers."1"]
+name = "Date Sayuri"
+character = "Kanon Shibuya"
+color = "#FF7F27"
+
+[speakers."2"]
+name = "Aoyama Nagisa"
+character = "Sumire Heanna"
+color = "#74F466"

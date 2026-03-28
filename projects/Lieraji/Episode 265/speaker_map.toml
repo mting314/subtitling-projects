@@ -1,0 +1,36 @@
+# Speaker map (updated by review-speakers)
+
+[speakers."1"]
+name = "Date Sayuri"
+character = "Kanon Shibuya"
+color = "#FF7F27"
+
+[speakers."2"]
+name = "Sakakura Sakura"
+character = "Tomari Onitsuka"
+color = "#4CD2E2"
+
+[speakers."3"]
+name = "Yabushima Akane"
+character = "Mei Yoneme"
+color = "#74F466"
+
+[speakers."5"]
+name = "Date Sayuri"
+character = "Kanon Shibuya"
+color = "#FF7F27"
+
+[speakers."6"]
+name = "Date Sayuri"
+character = "Kanon Shibuya"
+color = "#FF7F27"
+
+[speakers."7"]
+name = "Sakakura Sakura"
+character = "Tomari Onitsuka"
+color = "#4CD2E2"
+
+[speakers."8"]
+name = "Yabushima Akane"
+character = "Mei Yoneme"
+color = "#74F466"
