@@ -1,0 +1,14 @@
+# Speaker map for Lieraji Episode 264
+# Main MC: Date Sayuri (Kanon), Sakakura Sakura (Tomari)
+# No guest — 2 speakers only
+# Chirp 3 uses 0-based labels. Verify and swap after first transcription.
+
+[speakers."0"]
+name = "Date Sayuri"
+character = "Kanon Shibuya"
+color = "#FF7F27"
+
+[speakers."1"]
+name = "Sakakura Sakura"
+character = "Tomari Onitsuka"
+color = "#4CD2E2"

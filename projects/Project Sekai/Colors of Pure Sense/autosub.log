@@ -1,0 +1,146 @@
+2026-03-28 00:45:05,716:INFO:autosub.cli: Saving log to /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/autosub.log
+2026-03-28 00:45:05,717:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-03-28 00:45:05,717:INFO:autosub.pipeline.transcribe.main: Extracting audio from /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense.mkv...
+2026-03-28 00:45:11,261:INFO:autosub.pipeline.transcribe.main: Audio duration: 3318.00 seconds
+2026-03-28 00:45:11,261:INFO:autosub.pipeline.transcribe.main: Uploading audio to autosub_staging/a8e234ed-937b-4e55-af94-baa252efdd95_Colors of Pure Sense_audio.wav...
+2026-03-28 00:45:19,831:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/a8e234ed-937b-4e55-af94-baa252efdd95_Colors of Pure Sense_audio.wav...
+2026-03-28 00:52:46,730:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-03-28 00:52:46,811:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/a8e234ed-937b-4e55-af94-baa252efdd95_Colors of Pure Sense_audio.wav...
+2026-03-28 00:52:47,715:INFO:autosub.pipeline.transcribe.main: Found 6421 transcribed words. Saving to /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/transcript.json...
+2026-03-28 00:52:47,721:INFO:autosub.cli: [Step 1.5/4] Processing Video Keyframes & Metadata...
+2026-03-28 00:52:47,815:INFO:autosub.cli: Extracting keyframes to /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_keyframes.log...
+2026-03-28 00:52:47,816:WARNING:autosub.cli: Failed to process keyframes: SCXvid not found in system PATH. Please install SCXvid.exe
+2026-03-28 00:52:47,816:INFO:autosub.cli: [Step 2/4] Formatting...
+2026-03-28 00:52:47,816:INFO:autosub.pipeline.format.main: Loading transcript from /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/transcript.json...
+2026-03-28 00:52:47,827:INFO:autosub.pipeline.format.main: Chunking transcript into semantic subtitle lines...
+2026-03-28 00:52:47,835:INFO:autosub.pipeline.format.main: Generated 565 subtitle lines.
+2026-03-28 00:52:47,835:INFO:autosub.pipeline.format.main: Applying radio discourse extension...
+2026-03-28 00:52:48,432:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 00:53:48,829:WARNING:autosub.extensions.radio_discourse.main: Vertex radio discourse classification failed; falling back to rules.
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/autosub/core/llm/vertex.py", line 53, in _generate_structured_json
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/models.py", line 5621, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/models.py", line 4283, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1396, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1232, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1202, in _request_once
+    response = self._httpx_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/autosub/extensions/radio_discourse/main.py", line 93, in apply_radio_discourse
+    resolved_roles = classify_roles_with_vertex(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/extensions/radio_discourse/classifier.py", line 124, in classify_roles_with_vertex
+    decisions = classifier.classify_window(window)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/extensions/radio_discourse/classifier.py", line 79, in classify_window
+    response_json, diagnostics = self._generate_structured_json(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/core/llm/vertex.py", line 64, in _generate_structured_json
+    raise VertexRequestError(
+autosub.core.errors.VertexRequestError: Vertex radio discourse classifier request to Vertex failed: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global)
+2026-03-28 00:53:48,840:INFO:autosub.pipeline.format.main: Radio discourse extension produced 565 subtitle lines.
+2026-03-28 00:53:48,840:INFO:autosub.pipeline.format.main: Applying timing rules (snapping, keyframes, min duration)...
+2026-03-28 00:53:48,841:INFO:autosub.pipeline.format.main: Writing .ass file to /Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/original.ass...
+2026-03-28 00:53:48,846:INFO:autosub.pipeline.format.main: Subtitle formatting complete!
+2026-03-28 00:53:48,847:INFO:autosub.cli: [Step 3/4] Translating...
+2026-03-28 00:53:48,847:INFO:autosub.pipeline.translate.main: Loading '/Users/michaelting/github/autosub/projects/Project Sekai/Colors of Pure Sense/original.ass' for translation...
+2026-03-28 00:53:48,852:WARNING:autosub.pipeline.translate.chunker:   Segment at line 112 exceeds chunk_size (275 > 80), sub-splitting. Consider adding more corners to the profile.
+2026-03-28 00:53:48,852:WARNING:autosub.pipeline.translate.chunker:   Segment at line 449 exceeds chunk_size (115 > 80), sub-splitting. Consider adding more corners to the profile.
+2026-03-28 00:53:48,852:INFO:autosub.pipeline.translate.chunker: Corner-aware chunking: 6 boundaries found at lines [48, 63, 112, 120, 387, 449], producing 10 chunks of sizes [48, 15, 49, 80, 80, 80, 35, 62, 80, 35]
+2026-03-28 00:53:48,852:INFO:autosub.pipeline.translate.main: Translating 564 subtitle lines in 10 chunks of up to 80...
+2026-03-28 00:53:48,852:INFO:autosub.pipeline.translate.main:   Chunk 1/10 (48 lines)...
+2026-03-28 00:53:48,852:INFO:autosub.pipeline.translate.translator: Translating 48 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 00:53:48,862:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 00:54:49,485:WARNING:autosub.pipeline.translate.main:   Chunk 1: Attempt 1 failed: Vertex translator request to Vertex failed: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global). Retrying in 10s...
+2026-03-28 00:54:59,487:INFO:autosub.pipeline.translate.translator: Translating 48 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 00:54:59,514:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 00:56:00,190:WARNING:autosub.pipeline.translate.main:   Chunk 1: Attempt 2 failed: Vertex translator request to Vertex failed: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global). Retrying in 20s...
+2026-03-28 00:56:20,196:INFO:autosub.pipeline.translate.translator: Translating 48 subtitle shards using Vertex AI model 'gemini-3-flash-preview' in 'global'...
+2026-03-28 00:56:20,209:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-03-28 00:57:20,822:ERROR:autosub.pipeline.translate.main:   Chunk 1: Failed after 3 attempts: Vertex translator request to Vertex failed: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global)
+2026-03-28 00:57:20,823:ERROR:autosub.cli: Failed during translation: Vertex translator request to Vertex failed: Server disconnected without sending a response. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global)
