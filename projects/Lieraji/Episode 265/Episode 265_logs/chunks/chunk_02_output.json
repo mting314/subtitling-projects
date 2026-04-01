@@ -1,130 +1,322 @@
 [
   {
     "id": 0,
-    "translated": "I'm Sakakura Sakura, also known as Sakuchan, the voice of Tomari Onitsuka."
+    "translated": "And now, we've received an email just a moment ago."
   },
   {
     "id": 1,
-    "translated": "And I'm Yabushima Akane, also known as Yabuchan,"
-  },
-  {
-    "id": 2,
-    "translated": "the voice of Mei Yoneme."
-  },
-  {
-    "id": 3,
-    "translated": "Together, we are..."
-  },
-  {
-    "id": 4,
-    "translated": "Liella!"
-  },
-  {
-    "id": 5,
-    "translated": "It's a pleasure to be here!"
-  },
-  {
-    "id": 6,
-    "translated": "Yay!"
-  },
-  {
-    "id": 7,
-    "translated": "So, this time we're bringing you the trio of Tomari, Kanon, and Mei."
-  },
-  {
-    "id": 8,
-    "translated": "Mei-chan's here too."
-  },
-  {
-    "id": 9,
-    "translated": "Let's do this."
-  },
-  {
-    "id": 10,
-    "translated": "Welcome!"
-  },
-  {
-    "id": 11,
-    "translated": "Glad to have you."
-  },
-  {
-    "id": 12,
-    "translated": "Thanks for having me."
-  },
-  {
-    "id": 13,
-    "translated": "Today is March 24th, but coming up on March 28th, which is Sunny Pa Day..."
-  },
-  {
-    "id": 14,
-    "translated": "It's the birthday of Hijirisawa Yuna's voice actress, Yoshitake-chan!"
-  },
-  {
-    "id": 15,
-    "translated": "That's amazing!"
-  },
-  {
-    "id": 16,
-    "translated": "Happy birthday!"
-  },
-  {
-    "id": 17,
-    "translated": "Sunny Pa Day really is Sunny Pa Day."
-  },
-  {
-    "id": 18,
-    "translated": "It must be fate."
-  },
-  {
-    "id": 19,
-    "translated": "Right? It's too perfect."
-  },
-  {
-    "id": 20,
-    "translated": "Isn't it incredible?"
-  },
-  {
-    "id": 21,
-    "translated": "It really is. Happy birthday!"
-  },
-  {
-    "id": 22,
-    "translated": "Let's all celebrate when the day comes."
-  },
-  {
-    "id": 23,
-    "translated": "Please do!"
-  },
-  {
-    "id": 24,
-    "translated": "We're counting on you."
-  },
-  {
-    "id": 25,
-    "translated": "[CORNER: Suggestion Box] Now then, we've received some mail."
-  },
-  {
-    "id": 26,
     "translated": "Yes. I'll read it."
   },
   {
+    "id": 2,
+    "translated": "It's from Liella Name, Kabo-san."
+  },
+  {
+    "id": 3,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 4,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 5,
+    "translated": "Congratulations on being chosen to perform at LuckyFes."
+  },
+  {
+    "id": 6,
+    "translated": "Thank you."
+  },
+  {
+    "id": 7,
+    "translated": "Ibaraki is the hometown of the Onitsuka sisters and also my own hometown,"
+  },
+  {
+    "id": 8,
+    "translated": "so seeing Liella live there was a dream of mine. I almost screamed at work when I saw the news!"
+  },
+  {
+    "id": 9,
+    "translated": "Yeah."
+  },
+  {
+    "id": 10,
+    "translated": "The venue, Hitachi Seaside Park, is a place where I have many memories of school trips,"
+  },
+  {
+    "id": 11,
+    "translated": "and of having barbecues with my family and friends when I was younger."
+  },
+  {
+    "id": 12,
+    "translated": "So, I'm very happy to be able to make new memories there with everyone in Liella."
+  },
+  {
+    "id": 13,
+    "translated": "Yeah."
+  },
+  {
+    "id": 14,
+    "translated": "I'm really looking forward to having the best time with Liella again this summer."
+  },
+  {
+    "id": 15,
+    "translated": "So the email says."
+  },
+  {
+    "id": 16,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 17,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 18,
+    "translated": "Next is Liella Name, Takashi-san from Sendai. Thank you."
+  },
+  {
+    "id": 19,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 20,
+    "translated": "Congratulations on your appearance at LuckyFes."
+  },
+  {
+    "id": 21,
+    "translated": "Yeah. Thank you."
+  },
+  {
+    "id": 22,
+    "translated": "Since the festival is in Ibaraki, a place with deep ties to the series,"
+  },
+  {
+    "id": 23,
+    "translated": "I think it will feel extra special."
+  },
+  {
+    "id": 24,
+    "translated": "Yeah."
+  },
+  {
+    "id": 25,
+    "translated": "Since it's a summer festival, please whip the crowd into a frenzy with Liella's hot performance!"
+  },
+  {
+    "id": 26,
+    "translated": "Yeah."
+  },
+  {
     "id": 27,
-    "translated": "It's from Liella name: Kabo-san."
+    "translated": "I'm also looking forward to seeing if you'll perform any classic summer songs."
   },
   {
     "id": 28,
-    "translated": "Thank you so much."
+    "translated": "True. Oh, and if you have any goals for the festival"
   },
   {
     "id": 29,
-    "translated": "Thank you!"
+    "translated": "or things you'd like to try at a summer fest, I'd be happy if you could let us know."
   },
   {
     "id": 30,
-    "translated": "\"Congratulations on being confirmed to perform at LuckyFes!\""
+    "translated": "So the email says."
   },
   {
     "id": 31,
-    "translated": "Thank you!"
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 32,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 33,
+    "translated": "Yes, Liella will be appearing at LuckyFes on Day 2, the 9th."
+  },
+  {
+    "id": 34,
+    "translated": "We've been confirmed to perform."
+  },
+  {
+    "id": 35,
+    "translated": "Confirmed!"
+  },
+  {
+    "id": 36,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 37,
+    "translated": "Thank you very much."
+  },
+  {
+    "id": 38,
+    "translated": "I'm so happy."
+  },
+  {
+    "id": 39,
+    "translated": "That's amazing."
+  },
+  {
+    "id": 40,
+    "translated": "I'm glad it's in Ibaraki."
+  },
+  {
+    "id": 41,
+    "translated": "I know, right?"
+  },
+  {
+    "id": 42,
+    "translated": "It's great."
+  },
+  {
+    "id": 43,
+    "translated": "It really is the Onitsuka sisters' hometown,"
+  },
+  {
+    "id": 44,
+    "translated": "and we've always wanted to perform in Ibaraki someday,"
+  },
+  {
+    "id": 45,
+    "translated": "so I'm so glad it's coming true. And the other artists are just..."
+  },
+  {
+    "id": 46,
+    "translated": "...incredible!"
+  },
+  {
+    "id": 47,
+    "translated": "Right?"
+  },
+  {
+    "id": 48,
+    "translated": "I was surprised."
+  },
+  {
+    "id": 49,
+    "translated": "I was so surprised."
+  },
+  {
+    "id": 50,
+    "translated": "Yeah."
+  },
+  {
+    "id": 51,
+    "translated": "We'll do our best to show off Liella's power and not be outdone!"
+  },
+  {
+    "id": 52,
+    "translated": "Yeah."
+  },
+  {
+    "id": 53,
+    "translated": "We look forward to seeing you there."
+  },
+  {
+    "id": 54,
+    "translated": "Please come!"
+  },
+  {
+    "id": 55,
+    "translated": "It's the middle of summer, after all."
+  },
+  {
+    "id": 56,
+    "translated": "August 8th and 9th."
+  },
+  {
+    "id": 57,
+    "translated": "Make sure to stay energized,"
+  },
+  {
+    "id": 58,
+    "translated": "and come visit us!"
+  },
+  {
+    "id": 59,
+    "translated": "Right."
+  },
+  {
+    "id": 60,
+    "translated": "Bring your sports drinks."
+  },
+  {
+    "id": 61,
+    "translated": "Bring your sports drinks."
+  },
+  {
+    "id": 62,
+    "translated": "Are we going to perform while holding sports drinks?"
+  },
+  {
+    "id": 63,
+    "translated": "Well, should we do that then?"
+  },
+  {
+    "id": 64,
+    "translated": "They might end up spraying everywhere."
+  },
+  {
+    "id": 65,
+    "translated": "Spraying everywhere, huh?"
+  },
+  {
+    "id": 66,
+    "translated": "That's bad."
+  },
+  {
+    "id": 67,
+    "translated": "So sticky."
+  },
+  {
+    "id": 68,
+    "translated": "Our bodies would be all sticky!"
+  },
+  {
+    "id": 69,
+    "translated": "Even though it's a festival."
+  },
+  {
+    "id": 70,
+    "translated": "Even though it's a festival!"
+  },
+  {
+    "id": 71,
+    "translated": "It's too hot."
+  },
+  {
+    "id": 72,
+    "translated": "Please come and see us, everyone."
+  },
+  {
+    "id": 73,
+    "translated": "We look forward to seeing you!"
+  },
+  {
+    "id": 74,
+    "translated": "Now then, everyone, please stay with us until the end."
+  },
+  {
+    "id": 75,
+    "translated": "Love Live! Superstar!! Yuigaoka Broadcasting Station Liella Let's Super Star!"
+  },
+  {
+    "id": 76,
+    "translated": "Love Live! Superstar!! Yuigaoka Broadcasting Station Liella"
+  },
+  {
+    "id": 77,
+    "translated": "This is the Yuigaoka Girls' High School Suggestion Box, where we introduce your letters."
+  },
+  {
+    "id": 78,
+    "translated": "Now then, everyone together... Ready, set, Suggestion Box!"
+  },
+  {
+    "id": 79,
+    "translated": "All right, let's introduce an email."
   }
 ]
