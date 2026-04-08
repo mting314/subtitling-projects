@@ -1,0 +1,34 @@
+2026-04-08 00:28:49,717:INFO:autosub.cli: Saving log to /Users/michaelting/github/autosub/projects/projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_logs_20260408_002849/run.log
+2026-04-08 00:28:49,719:INFO:autosub.pipeline.translate.main: Loading '/Users/michaelting/github/autosub/projects/projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_original.ass' for translation...
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.main: Removed previous LLM trace file.
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.main: Translating 357 subtitle lines in 5 chunks of up to 80...
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.main:   Chunk 1/5 (lines 1-80, 80 lines)
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.main:     first: プロセカトークColorsofPureSense編
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.main:     last:  え、他者評価、かっこ自撮りなどでしか自己肯定感を上げられなかった絵名がやっと私は...
+2026-04-08 00:28:49,723:INFO:autosub.pipeline.translate.translator: Translating 80 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-04-08 00:28:49,757:DEBUG:asyncio: Using selector: KqueueSelector
+2026-04-08 00:28:49,762:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-04-08 00:28:49,763:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-04-08 00:28:49,763:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-04-08 00:28:49,772:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-08 00:28:49,906:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-08 00:28:49,908:DEBUG:httpcore.connection: connect_tcp.started host='localhost' port=10054 local_address=None timeout=600.0 socket_options=None
+2026-04-08 00:28:49,910:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11354cd70>
+2026-04-08 00:28:49,910:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'CONNECT']>
+2026-04-08 00:28:49,910:DEBUG:httpcore.http11: send_request_headers.complete
+2026-04-08 00:28:49,911:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'CONNECT']>
+2026-04-08 00:28:49,911:DEBUG:httpcore.http11: send_request_body.complete
+2026-04-08 00:28:49,911:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'CONNECT']>
+2026-04-08 00:28:49,962:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.0', 200, b'', [(b'x-x2pagentd-session-id', b''), (b'x-fb-x2pagent-request-id', b''), (b'Date', b'Wed, 08 Apr 2026 07:28:49 UTC'), (b'Connection', b'close')])
+2026-04-08 00:28:49,962:DEBUG:httpcore.proxy: start_tls.started ssl_context=<ssl.SSLContext object at 0x1121d3050> server_hostname='aiplatform.googleapis.com' timeout=600.0
+2026-04-08 00:28:49,988:DEBUG:httpcore.proxy: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x11354c6e0>
+2026-04-08 00:28:49,989:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-04-08 00:28:49,989:DEBUG:httpcore.http11: send_request_headers.complete
+2026-04-08 00:28:49,989:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-04-08 00:28:49,989:DEBUG:httpcore.http11: send_request_body.complete
+2026-04-08 00:28:49,989:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-04-08 00:29:50,008:DEBUG:httpcore.http11: receive_response_headers.failed exception=ReadError(BrokenResourceError())
+2026-04-08 00:29:50,009:DEBUG:httpcore.http11: response_closed.started
+2026-04-08 00:29:50,009:DEBUG:httpcore.http11: response_closed.complete
+2026-04-08 00:29:50,043:ERROR:autosub.pipeline.translate.main: Wrote translation error details to /Users/michaelting/github/autosub/projects/projects/Project Sekai/Colors of Pure Sense/translated.error.txt.
+2026-04-08 00:29:50,044:ERROR:autosub.cli: Error during translation: LLM translator request to LLM failed:  (project_id=future-name-201021; model=gemini-3-flash-preview; location=global)

@@ -1,0 +1,186 @@
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/http_proxy.py", line 343, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/autosub/core/llm/pydantic_ai.py", line 495, in _run_structured_output
+    result = agent.run_sync(user_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/agent/abstract.py", line 443, in run_sync
+    return _utils.get_event_loop().run_until_complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/agent/abstract.py", line 330, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/run.py", line 356, in next
+    return await self._run_node_with_hooks(node, self._advance_graph)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/run.py", line 282, in _run_node_with_hooks
+    return await self._wrap_and_advance(run_context, node, step_fn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/run.py", line 262, in _wrap_and_advance
+    result = await cap.on_node_run_error(run_context, node=node, error=e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/capabilities/combined.py", line 215, in on_node_run_error
+    raise error
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/run.py", line 260, in _wrap_and_advance
+    result = await cap.wrap_node_run(run_context, node=node, handler=step_fn)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/capabilities/combined.py", line 201, in wrap_node_run
+    return await chain(node)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/run.py", line 238, in _advance_graph
+    task = await self._graph_run.next(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/graph.py", line 497, in next
+    return await anext(self)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/graph.py", line 471, in __anext__
+    self._next = await self._iterator.asend(self._next)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/graph.py", line 580, in iter_graph
+    raise task_result.error
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/graph.py", line 754, in _run_tracked_task
+    result = await self._run_task(t_)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/graph.py", line 795, in _run_task
+    output = await node.call(step_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_graph/beta/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/_agent_graph.py", line 521, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/_agent_graph.py", line 736, in _make_request
+    model_response = await ctx.deps.root_capability.on_model_request_error(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/capabilities/combined.py", line 276, in on_model_request_error
+    raise error
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/_agent_graph.py", line 726, in _make_request
+    model_response = await ctx.deps.root_capability.wrap_model_request(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/capabilities/combined.py", line 262, in wrap_model_request
+    return await chain(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/_agent_graph.py", line 712, in model_handler
+    response = await req_ctx.model.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/models/google.py", line 316, in request
+    response = await self._generate_content(messages, False, model_settings, model_request_parameters)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/pydantic_ai/models/google.py", line 516, in _generate_content
+    return await func(model=self._model_name, contents=contents, config=config)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/models.py", line 7487, in generate_content
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6242, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1442, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1375, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1348, in _async_request_once
+    client_response = await self._async_httpx_client.request(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/fbcode/platform010/Python3.12.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/michaelting/github/autosub/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/michaelting/github/autosub/autosub/pipeline/translate/main.py", line 154, in translate_subtitles
+    translated_texts, splits = _translate_chunked(
+                               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/pipeline/translate/main.py", line 424, in _translate_chunked
+    results = translator.translate(chunk)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/pipeline/translate/translator.py", line 108, in translate
+    translations, diagnostics = self._run_structured_output(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/michaelting/github/autosub/autosub/core/llm/pydantic_ai.py", line 504, in _run_structured_output
+    raise self._map_run_error(exc, operation_name) from exc
+autosub.core.errors.VertexRequestError: LLM translator request to LLM failed:  (project_id=future-name-201021; model=gemini-3-flash-preview; location=global)
