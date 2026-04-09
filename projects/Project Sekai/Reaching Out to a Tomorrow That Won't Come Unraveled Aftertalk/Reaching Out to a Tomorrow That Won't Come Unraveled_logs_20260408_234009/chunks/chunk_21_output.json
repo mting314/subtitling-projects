@@ -1,11 +1,11 @@
 [
   {
     "id": 0,
-    "translated": "[CORNER: Story Watchalong] Yeah."
+    "translated": "Yeah."
   },
   {
     "id": 1,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 2,
@@ -13,19 +13,19 @@
   },
   {
     "id": 3,
-    "translated": "..."
+    "translated": "Yeah."
   },
   {
     "id": 4,
-    "translated": "Yeah, yeah."
+    "translated": "Yeah."
   },
   {
     "id": 5,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 6,
-    "translated": "Right, right."
+    "translated": "Yeah."
   },
   {
     "id": 7,
@@ -33,7 +33,7 @@
   },
   {
     "id": 8,
-    "translated": "Mhm."
+    "translated": "Yeah."
   },
   {
     "id": 9,
@@ -41,7 +41,7 @@
   },
   {
     "id": 10,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 11,
@@ -49,7 +49,7 @@
   },
   {
     "id": 12,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 13,
@@ -57,7 +57,7 @@
   },
   {
     "id": 14,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 15,
@@ -65,15 +65,15 @@
   },
   {
     "id": 16,
-    "translated": "..."
+    "translated": "Yeah."
   },
   {
     "id": 17,
-    "translated": "Yeah, yeah."
+    "translated": "Yeah."
   },
   {
     "id": 18,
-    "translated": "Right, right."
+    "translated": "Yeah."
   },
   {
     "id": 19,
@@ -81,35 +81,35 @@
   },
   {
     "id": 20,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 21,
-    "translated": "..."
+    "translated": "Yeah."
   },
   {
     "id": 22,
-    "translated": "Yeah, yeah."
+    "translated": "Yeah."
   },
   {
     "id": 23,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 24,
-    "translated": "..."
+    "translated": "Yeah."
   },
   {
     "id": 25,
-    "translated": "Yeah, yeah."
+    "translated": "Yeah."
   },
   {
     "id": 26,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 27,
-    "translated": "Right, right."
+    "translated": "Yeah."
   },
   {
     "id": 28,
@@ -117,7 +117,7 @@
   },
   {
     "id": 29,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 30,
@@ -125,11 +125,11 @@
   },
   {
     "id": 31,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 32,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 33,
@@ -137,11 +137,11 @@
   },
   {
     "id": 34,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 35,
-    "translated": "..."
+    "translated": "Yeah."
   },
   {
     "id": 36,
@@ -149,19 +149,19 @@
   },
   {
     "id": 37,
-    "translated": "Right."
-  },
-  {
-    "id": 38,
     "translated": "Yeah."
   },
   {
+    "id": 38,
+    "translated": "Yeah"
+  },
+  {
     "id": 39,
-    "translated": "I see."
+    "translated": "."
   },
   {
     "id": 40,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 41,
@@ -169,7 +169,7 @@
   },
   {
     "id": 42,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 43,
@@ -177,11 +177,11 @@
   },
   {
     "id": 44,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 45,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 46,
@@ -189,7 +189,7 @@
   },
   {
     "id": 47,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 48,
@@ -197,11 +197,11 @@
   },
   {
     "id": 49,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 50,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 51,
@@ -209,7 +209,7 @@
   },
   {
     "id": 52,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 53,
@@ -217,11 +217,11 @@
   },
   {
     "id": 54,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 55,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 56,
@@ -229,7 +229,7 @@
   },
   {
     "id": 57,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 58,
@@ -237,11 +237,11 @@
   },
   {
     "id": 59,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 60,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 61,
@@ -249,7 +249,7 @@
   },
   {
     "id": 62,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 63,
@@ -257,11 +257,11 @@
   },
   {
     "id": 64,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 65,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 66,
@@ -269,7 +269,7 @@
   },
   {
     "id": 67,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 68,
@@ -277,11 +277,11 @@
   },
   {
     "id": 69,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 70,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 71,
@@ -289,7 +289,7 @@
   },
   {
     "id": 72,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 73,
@@ -297,11 +297,11 @@
   },
   {
     "id": 74,
-    "translated": "I see."
+    "translated": "Yeah."
   },
   {
     "id": 75,
-    "translated": "Right."
+    "translated": "Yeah."
   },
   {
     "id": 76,
@@ -309,14 +309,14 @@
   },
   {
     "id": 77,
-    "translated": "Right."
-  },
-  {
-    "id": 78,
     "translated": "Yeah."
   },
   {
+    "id": 78,
+    "translated": "Oh, oh, oh."
+  },
+  {
     "id": 79,
-    "translated": "I see."
+    "translated": "Oh, oh, oh."
   }
 ]
