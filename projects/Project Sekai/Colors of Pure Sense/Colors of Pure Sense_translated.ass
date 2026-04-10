@@ -16,9 +16,9 @@ Video File: Colors of Pure Sense.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 152
-Active Line: 163
-Video Position: 69110
+Scroll Position: 179
+Active Line: 184
+Video Position: 72702
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -160,7 +160,7 @@ Dialogue: 0,0:34:33.96,0:34:37.08,DefaultOnibe,host,0,0,0,,I acted this out with
 Dialogue: 0,0:34:38.84,0:34:49.12,DefaultOnibe,host,0,0,0,,In the end, I felt like Ena was finally at peace.
 Dialogue: 0,0:34:49.12,0:35:03.80,DefaultOnibe,host,0,0,0,,The reason I chose episodes 7 and 8 is because of her father.
 Dialogue: 0,0:35:03.80,0:35:11.45,DefaultOnibe,host,0,0,0,,They've been through a lot, and there were times she couldn't face him, but she really admires him.
-Dialogue: 0,0:35:11.45,0:35:26.22,DefaultOnibe,host,0,0,0,,As she hit puberty and things happened, and since her dad isn't great with words, she ended up hiding her respect for him out of frustration. But as she grew as an artist, she remembered those feelings. 
+Dialogue: 0,0:35:11.45,0:35:26.22,DefaultOnibe,host,0,0,0,,As she hit puberty and things happened, and since her dad isn't great with words, she ended up hiding her respect for him out of frustration. But as she grew as an artist, she remembered those feelings.
 Dialogue: 0,0:35:26.22,0:35:31.62,DefaultOnibe,host,0,0,0,,That's why I got to voicing young Ena was so special. As a child, she was so pure, and everything was new and sparkling. Her father was in that world,
 Dialogue: 0,0:35:31.62,0:35:39.15,DefaultOnibe,host,0,0,0,,As a child, she was so pure, and everything was new and sparkling.
 Dialogue: 0,0:35:39.15,0:35:49.42,DefaultOnibe,host,0,0,0,,And in that world was her father, and he was someone she looked up to.
@@ -186,29 +186,32 @@ Dialogue: 0,0:37:34.50,0:37:45.20,DefaultOnibe,host,0,0,0,,But more than that, s
 Dialogue: 0,0:37:45.20,0:37:46.20,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:37:48.16,0:37:59.24,DefaultOnibe,host,0,0,0,,I was so happy that I cried for her as Minori Suzuki, thinking "Congratulations!"
 Dialogue: 0,0:37:59.24,0:38:04.24,DefaultOnibe,host,0,0,0,,And while reading, I felt Ena's relief that she finally made it here.
-Dialogue: 0,0:38:05.48,0:38:14.64,DefaultOnibe,host,0,0,0,,She could finally feel a simple emotion. That tension she's been carrying finally snapped.
+Dialogue: 0,0:38:05.48,0:38:14.64,DefaultOnibe,host,0,0,0,,She could finally feel this simple feeling. She's worked so hard to come to this point and finally let go of all that tension and angst.
 Dialogue: 0,0:38:15.36,0:38:17.28,DefaultOnibe,host,0,0,0,,Ah, sorry... I have plenty of tissues here.
 Comment: 0,0:38:18.12,0:38:23.64,DefaultOnibe,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:38:18.12,0:38:23.64,DefaultOnibe,host,0,0,0,,Yeah, I put those feelings into it and the tears just started flowing naturally.
+Dialogue: 0,0:38:18.12,0:38:23.64,DefaultOnibe,host,0,0,0,,Yeah, I put all those feelings into acting and the tears just started flowing naturally.
 Dialogue: 0,0:38:23.64,0:38:29.28,DefaultOnibe,host,0,0,0,,There were parts where I got choked up and couldn't get the words out, but that's what acting is all about.
-Dialogue: 0,0:38:29.28,0:38:35.82,DefaultOnibe,host,0,0,0,,If I'm crying as Ena, then the character on screen is crying too.
-Dialogue: 0,0:38:35.82,0:38:39.88,DefaultOnibe,host,0,0,0,,Since I was crying as Ena, she was crying with me.
-Dialogue: 0,0:38:41.52,0:38:47.49,DefaultOnibe,host,0,0,0,,Usually, the dialogue moves forward with a button press, but they adjusted to my timing.
-Dialogue: 0,0:38:47.49,0:38:57.54,DefaultOnibe,host,0,0,0,,They didn't cut the recording and cherished every moment until the button was pressed. I'm so grateful.
-Dialogue: 0,0:38:57.54,0:39:10.10,DefaultOnibe,host,0,0,0,,I've received so many comments saying this was a great story. And it wasn't just about how my acting was,
-Dialogue: 0,0:39:10.10,0:39:12.42,DefaultOnibe,host,0,0,0,,or how my voice sounded as Suzuki Minori.
-Dialogue: 0,0:39:12.42,0:39:27.38,DefaultOnibe,host,0,0,0,,Instead of focusing on me, everyone really took Ena's way of life to heart. Some felt encouraged to work hard too,
-Dialogue: 0,0:39:27.38,0:39:33.12,DefaultOnibe,host,0,0,0,,and long-time fans were just so happy for her.
-Dialogue: 0,0:39:33.12,0:39:45.00,DefaultOnibe,host,0,0,0,,Even though her journey is just beginning, I'm so glad people felt so much for Ena.
-Dialogue: 0,0:39:45.00,0:39:54.58,DefaultOnibe,host,0,0,0,,I poured my absolute all into Ena for this, so I'm really happy with how it turned out.
+Dialogue: 0,0:38:29.28,0:38:34.45,DefaultOnibe,host,0,0,0,,That actually helps get across Ena's feelings though acting all the more.
+Dialogue: 0,0:38:34.45,0:38:35.82,DefaultOnibe,host,0,0,0,,Since I started crying—
+Dialogue: 0,0:38:35.82,0:38:39.88,DefaultOnibe,host,0,0,0,,Since I started crying as Ena, I knew she was crying with me.
+Dialogue: 0,0:38:41.52,0:38:43.67,DefaultOnibe,host_meta,0,0,0,,They actually adjusted to my timing—
+Dialogue: 0,0:38:43.67,0:38:47.49,DefaultOnibe,host,0,0,0,,So usually, you can click to advance the dialogue right as the line ends,
+Dialogue: 0,0:38:47.49,0:38:57.54,DefaultOnibe,host,0,0,0,,but they didn't cut any of the recording and let the pauses naturally hold before showing the next button. I'm so grateful.
+Dialogue: 0,0:38:57.54,0:39:05.30,DefaultOnibe,host,0,0,0,,I've received so many comments saying this was a great story.
+Dialogue: 0,0:39:05.30,0:39:12.42,DefaultOnibe,host,0,0,0,,And it wasn't just about how my acting was, or how my voice sounded as Suzuki Minori.
+Dialogue: 0,0:39:12.42,0:39:21.62,DefaultOnibe,host,0,0,0,,Instead of focusing on me, everyone really took Ena's way of life to heart.
+Dialogue: 0,0:39:21.62,0:39:27.38,DefaultOnibe,host,0,0,0,,So many people were glad for here, some felt encouraged to work hard too,
+Dialogue: 0,0:39:27.38,0:39:33.12,DefaultOnibe,host,0,0,0,,and long-time fans were just so glad to see her payoff.
+Dialogue: 0,0:39:33.12,0:39:45.00,DefaultOnibe,host,0,0,0,,Even though her journey is just beginning, I'm so glad people care so much for Ena.
+Dialogue: 0,0:39:45.00,0:39:54.58,DefaultOnibe,host,0,0,0,,I poured my absolute all into portraying Ena and how far she's come for this, so I'm really happy with how it turned out.
 Dialogue: 0,0:39:54.58,0:39:55.43,DefaultOnibe,host,0,0,0,,That's right.
 Dialogue: 0,0:39:55.43,0:39:56.07,DefaultOnibe,host,0,0,0,,Yeah.
 Dialogue: 0,0:39:57.26,0:39:58.56,DefaultOnibe,host,0,0,0,,Now, let's take a look at the illustrations.
 Dialogue: 0,0:39:58.56,0:40:07.05,DefaultOnibe,host,0,0,0,,By the way, I chose this one because it's the moment Ena finally sees a glimmer of hope after suffering for her art.
 Dialogue: 0,0:40:07.05,0:40:07.75,DefaultOnibe,host,0,0,0,,All right.
 Dialogue: 0,0:40:08.34,0:40:15.18,DefaultOnibe,host,0,0,0,,Let's spend about four minutes looking at the card illustrations together.
-Dialogue: 0,0:40:15.18,0:40:22.98,DefaultOnibe,host_meta,0,0,0,,Before that, I have some comments from the illustration team about the costumes to share.
-Dialogue: 0,0:40:22.98,0:40:34.38,DefaultOnibe,listener_mail,0,0,0,,"The theme of this story is Ena's struggle to get into art school, nearly giving up after falling short,"
+Dialogue: 0,0:40:15.18,0:40:23.38,DefaultOnibe,host_meta,0,0,0,,Before that, I have some comments from the illustration team about the costumes to share.
+Dialogue: 0,0:40:23.38,0:40:34.38,DefaultOnibe,listener_mail,0,0,0,,"The theme of this story is Ena's struggle to get into art school, nearly giving up after falling short,"
 Dialogue: 0,0:40:34.38,0:40:37.52,DefaultOnibe,listener_mail,0,0,0,,"but ultimately deciding not to quit."
 Dialogue: 0,0:40:37.52,0:40:41.52,DefaultOnibe,listener_mail,0,0,0,,"The motif is an art apron over a school uniform,"
 Dialogue: 0,0:40:41.52,0:40:45.42,DefaultOnibe,listener_mail,0,0,0,,"designed to capture Ena's look as a student preparing for entrance exams."
@@ -361,7 +364,7 @@ Dialogue: 0,0:52:41.66,0:52:42.50,DefaultOnibe,host,0,0,0,,Please keep cheering 
 Dialogue: 0,0:52:42.50,0:52:44.42,DefaultOnibe,host,0,0,0,,To those who already do, thank you so much.
 Dialogue: 0,0:52:44.94,0:52:47.38,DefaultOnibe,host,0,0,0,,I'm not Ena myself,
 Dialogue: 0,0:52:47.38,0:52:50.72,DefaultOnibe,host,0,0,0,,but as the person who voices her,
-Dialogue: 0,0:52:50.72,0:52:55.18,DefaultOnibe,host,0,0,0,,I feel like I'm someone close to her. 
+Dialogue: 0,0:52:50.72,0:52:55.18,DefaultOnibe,host,0,0,0,,I feel like I'm someone close to her.
 Dialogue: 0,0:52:55.18,0:53:09.88,DefaultOnibe,host,0,0,0,,She's made a new resolution, and I'll work hard as an actress to express her growth, so please keep watching over her.
 Dialogue: 0,0:53:09.88,0:53:11.34,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:53:11.34,0:53:18.38,DefaultOnibe,host,0,0,0,,It's been a short time, but that's all for this ProSeka AfterTalk: Colors of Pure Sense edition.
