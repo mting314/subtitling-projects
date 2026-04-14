@@ -16,9 +16,9 @@ Video File: Colors of Pure Sense.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 213
-Active Line: 225
-Video Position: 77568
+Scroll Position: 18
+Active Line: 28
+Video Position: 21520
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,8 +27,8 @@ Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:09:53.12,0:09:57.92,DefaultOnibe,host,0,0,0,,ProSeka AfterTalk: Colors of Pure Sense Edition
-Dialogue: 0,0:10:00.72,0:10:01.96,DefaultOnibe,host,0,0,0,,Hello! Good evening.
+Dialogue: 0,0:09:53.12,0:09:57.92,DefaultOnibe,host,0,0,0,,Welcome to ProSeka AfterTalk: Colors of Pure Sense edition!
+Dialogue: 0,0:10:00.72,0:10:01.96,DefaultOnibe,host,0,0,0,,Good evening, everyone!.
 Dialogue: 0,0:10:01.96,0:10:05.92,DefaultOnibe,host,0,0,0,,I'm Minori Suzuki, the voice of Ena Shinonome from Nightcord at 25:00.
 Dialogue: 0,0:10:05.92,0:10:13.14,DefaultOnibe,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event while sharing the messages we've received from all of you.
 Dialogue: 0,0:10:13.14,0:10:16.76,DefaultOnibe,host,0,0,0,,Today, we're covering the Colors of Pure Sense event.
@@ -36,50 +36,47 @@ Dialogue: 0,0:10:16.76,0:10:20.28,DefaultOnibe,host,0,0,0,,Did everyone enjoy th
 Dialogue: 0,0:10:20.92,0:10:22.12,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:10:22.12,0:10:25.84,DefaultOnibe,host,0,0,0,,Between the fan festa and the movie stage greetings,
 Dialogue: 0,0:10:25.84,0:10:30.54,DefaultOnibe,host,0,0,0,,the real-life cast events have been quite busy lately.
-Dialogue: 0,0:10:30.54,0:10:35.26,DefaultOnibe,host,0,0,0,,But right after that, we have this Niigo event, Ena's story event.
+Dialogue: 0,0:10:30.54,0:10:35.26,DefaultOnibe,host,0,0,0,,And then right after that, we have this N25 event, an Ena's focus event.
 Dialogue: 0,0:10:35.26,0:10:39.10,DefaultOnibe,host,0,0,0,,I'm sure it's been a bit of a whirlwind for everyone,
 Dialogue: 0,0:10:39.10,0:10:42.50,DefaultOnibe,host,0,0,0,,but I hope you've been enjoying it all.
-Dialogue: 0,0:10:42.50,0:10:49.48,DefaultOnibe,host,0,0,0,,We were collecting letters for the AfterTalk via the official ProSeka Discord and email.
-Dialogue: 0,0:10:50.08,0:10:52.88,DefaultOnibe,host,0,0,0,,Thank you all for your letters.
-Dialogue: 0,0:10:53.40,0:10:56.04,DefaultOnibe,host,0,0,0,,I'm so curious that I almost want to ask the staff to let me see all of them secretly.
-Dialogue: 0,0:10:56.04,0:10:58.84,DefaultOnibe,host,0,0,0,,I'm really interested in what you all thought.
-Dialogue: 0,0:10:58.84,0:11:04.94,DefaultOnibe,host,0,0,0,,I'll be introducing some of the letters we received during the show, so please look forward to that.
+Dialogue: 0,0:10:42.50,0:10:49.48,DefaultOnibe,host,0,0,0,,We've gathered your comments for this Aftertalk sent through email as well as the submissions channel on the Discord.
+Dialogue: 0,0:10:50.68,0:10:52.88,DefaultOnibe,host,0,0,0,,Thank you all for your letters.
+Dialogue: 0,0:10:53.40,0:10:58.84,DefaultOnibe,host,0,0,0,,I was so curious about what everyone had to say, I wanted to ask the staff to let me see all of them secretly.
+Dialogue: 0,0:10:58.84,0:11:04.94,DefaultOnibe,host,0,0,0,,We'll go over some of your messages in our program today, so please look forward to that.
 Dialogue: 0,0:11:04.94,0:11:11.52,DefaultOnibe,host,0,0,0,,Also, please post your thoughts on the event or this broadcast using the hashtag #ProSekaAfterTalk.
-Dialogue: 0,0:11:11.52,0:11:14.42,DefaultOnibe,host,0,0,0,,I'm also watching the YouTube chat, so if you have any comments,
-Dialogue: 0,0:11:14.42,0:11:17.93,DefaultOnibe,host,0,0,0,,I'll be picking up the ones that catch my eye.
+Dialogue: 0,0:11:11.52,0:11:17.93,DefaultOnibe,host,0,0,0,,We'll also be watching the YouTube chat, so please keep all the messages coming.
 Dialogue: 0,0:11:17.93,0:11:18.61,DefaultOnibe,host,0,0,0,,All right.
-Dialogue: 0,0:11:19.24,0:11:22.56,DefaultOnibe,host,0,0,0,,Like, "It was a great story," and so on.
-Dialogue: 0,0:11:22.56,0:11:24.52,DefaultOnibe,host,0,0,0,,I see "Little Niigo" in the chat too.
-Dialogue: 0,0:11:24.52,0:11:25.64,DefaultOnibe,host,0,0,0,,Yes, Little Niigo.
-Dialogue: 0,0:11:26.48,0:11:30.80,DefaultOnibe,host,0,0,0,,And today, we have the AfterLive at 10:00 PM,
-Dialogue: 0,0:11:30.80,0:11:37.00,DefaultOnibe,host,0,0,0,,and the 3DMV for this event will be released at 10:05 PM,
+Dialogue: 0,0:11:20.82,0:11:22.56,DefaultOnibe,host,0,0,0,,Some people saying "I liked the story",
+Dialogue: 0,0:11:22.56,0:11:24.52,DefaultOnibe,host,0,0,0,,I see some "{\i1}kon-niigo{\i0}"s too.
+Dialogue: 0,0:11:24.52,0:11:25.64,DefaultOnibe,host,0,0,0,,Yes, {\i1}kon-niigo{\i0}.
+Dialogue: 0,0:11:26.48,0:11:37.00,DefaultOnibe,host,0,0,0,,Also, there'll be an AfterLive for this event at 10PM, and the 3DMV for this event will be released at 10:05,
 Dialogue: 0,0:11:37.00,0:11:40.16,DefaultOnibe,host,0,0,0,,so I'd like to watch that with everyone.
-Dialogue: 0,0:11:40.16,0:11:48.40,DefaultOnibe,host,0,0,0,,So, while I want to stick to the schedule, I also want to spend a bit more time watching the story videos.
-Dialogue: 0,0:11:48.40,0:11:53.86,DefaultOnibe,host,0,0,0,,I was a bit selfish and asked for the story segments to be longer than usual today,
-Dialogue: 0,0:11:53.86,0:11:56.68,DefaultOnibe,host,0,0,0,,so I hope you'll enjoy watching them with me.
-Dialogue: 0,0:11:57.32,0:12:04.24,DefaultOnibe,host,0,0,0,,Now, let's get right into talking about the story
-Dialogue: 0,0:12:04.24,0:12:05.76,DefaultOnibe,host,0,0,0,,of Colors of Pure Sense.
-Dialogue: 0,0:12:05.76,0:12:09.02,DefaultOnibe,host,0,0,0,,How did you all like the story this time?
-Dialogue: 0,0:12:09.02,0:12:14.08,DefaultOnibe,host,0,0,0,,Let's look back on it together while reading your letters.
-Dialogue: 0,0:12:14.08,0:12:19.44,DefaultOnibe,host,0,0,0,,This is actually my first time doing the ProSeka AfterTalk since it was renewed.
-Dialogue: 0,0:12:19.44,0:12:22.98,DefaultOnibe,host,0,0,0,,It's been about a year, and back then it was before the renewal,
-Dialogue: 0,0:12:22.98,0:12:30.24,DefaultOnibe,host,0,0,0,,so this is my first time doing the segment where I weave words together from your letters.
-Dialogue: 0,0:12:30.24,0:12:32.00,DefaultOnibe,host,0,0,0,,I'm quite excited.
+Dialogue: 0,0:11:40.16,0:11:44.12,DefaultOnibe,host,0,0,0,,We'll try to stick to the schedule,
+Dialogue: 0,0:11:44.12,0:11:48.40,DefaultOnibe,host,0,0,0,,{\i1}but{\i0} I did want to spend a bit longer watching the story this time.
+Dialogue: 0,0:11:48.40,0:11:53.86,DefaultOnibe,,0,0,0,,I did ask staff if I could indulge myself on the story this time, so we'll spend a bit more time watching it.
+Dialogue: 0,0:11:53.86,0:11:56.68,DefaultOnibe,host,0,0,0,,I hope you'll enjoy watching it with me.
+Dialogue: 0,0:11:57.32,0:12:05.76,DefaultOnibe,host,0,0,0,,So with that, let's jump right into talking about the Colors of Pure Sense event story.
+Dialogue: 0,0:12:05.76,0:12:09.02,DefaultOnibe,host,0,0,0,,How did you like the story, everyone?
+Dialogue: 0,0:12:09.02,0:12:14.08,DefaultOnibe,host,0,0,0,,Let's look back together while going over some of the messages you've sent in.
+Dialogue: 0,0:12:14.08,0:12:19.44,DefaultOnibe,host,0,0,0,,So actually, this is the first time I've done an AfterTalk since they got renewed.
+Dialogue: 0,0:12:19.44,0:12:22.98,DefaultOnibe,host,0,0,0,,Last time I was here was a year ago, and that's around when the renewal happened,
+Dialogue: 0,0:12:22.98,0:12:30.24,DefaultOnibe,host,0,0,0,,so I haven't gotten a chance to bring your thoughts into the story talk yet.
+Dialogue: 0,0:12:30.24,0:12:32.00,DefaultOnibe,host,0,0,0,,I'm excited.
 Dialogue: 0,0:12:32.00,0:12:35.16,DefaultOnibe,host_meta,0,0,0,,This letter is from Amelia Time.
-Dialogue: 0,0:12:35.16,0:12:36.82,DefaultOnibe,listener_mail,0,0,0,,"They wrote, "This is my first time sending in my thoughts.""
+Dialogue: 0,0:12:35.16,0:12:36.82,DefaultOnibe,listener_mail,0,0,0,,"This is the first time I'm writing in!"
 Dialogue: 0,0:12:36.82,0:12:37.76,DefaultOnibe,host,0,0,0,,Thank you!
-Dialogue: 0,0:12:37.76,0:12:43.98,DefaultOnibe,listener_mail,0,0,0,,"The scene that left an impression on me was when Ena deleted her selfie account."
-Dialogue: 0,0:12:43.98,0:12:50.24,DefaultOnibe,listener_mail,0,0,0,,"I felt her growth when Ena, who used to run away from her art, finally decided to face it head-on."
+Dialogue: 0,0:12:37.76,0:12:43.98,DefaultOnibe,listener_mail,0,0,0,,"My favorite scene was the one where Ena deletes her selfie account."
+Dialogue: 0,0:12:43.98,0:12:50.24,DefaultOnibe,listener_mail,0,0,0,,"Seeing her make the decision to stop running away and finally confront her art really showed how much she's grown."
 Dialogue: 0,0:12:50.24,0:12:55.86,DefaultOnibe,listener_mail,0,0,0,,"Like Ena, I was also afraid of facing myself and kept running away,"
 Dialogue: 0,0:12:55.86,0:12:59.06,DefaultOnibe,listener_mail,0,0,0,,"but seeing Ena's positive attitude gave me the push I needed,"
 Dialogue: 0,0:12:59.06,0:13:00.96,DefaultOnibe,listener_mail,0,0,0,,"and made me want to do my best too."
 Dialogue: 0,0:13:00.96,0:13:07.44,DefaultOnibe,listener_mail,0,0,0,,"Suzuki-san, what kind of feelings did you put into your performance of Ena this time?"
-Dialogue: 0,0:13:07.44,0:13:10.32,DefaultOnibe,host_meta,0,0,0,,Thank you very much for the letter.
-Dialogue: 0,0:13:11.08,0:13:15.32,DefaultOnibe,host,0,0,0,,Amelia Time, thank you for such a lovely message.
+Dialogue: 0,0:13:07.44,0:13:10.32,DefaultOnibe,host_meta,0,0,0,,Thank you very much for the message.
+Dialogue: 0,0:13:11.08,0:13:15.32,DefaultOnibe,host,0,0,0,,That was a wonderful message, Amelia Time.
 Dialogue: 0,0:13:16.28,0:13:17.14,DefaultOnibe,host,0,0,0,,Let's see.
 Dialogue: 0,0:13:17.14,0:13:23.16,DefaultOnibe,host,0,0,0,,I'd like to talk more about it while watching the story later,
 Dialogue: 0,0:13:23.16,0:13:36.58,DefaultOnibe,host,0,0,0,,but something I'm more conscious of when acting as Ena, both in this event and when singing recent N25 songs,
-Dialogue: 0,0:13:36.58,0:13:42.16,DefaultOnibe,host,0,0,0,,is resolve to not go back to the old Ena.
+Dialogue: 0,0:13:36.58,0:13:42.16,DefaultOnibe,host,0,0,0,,is her resolve to not go back to the old Ena.
 Dialogue: 0,0:13:42.16,0:13:46.48,DefaultOnibe,host,0,0,0,,I personally kept that in mind because,
 Dialogue: 0,0:13:47.56,0:13:57.15,DefaultOnibe,host,0,0,0,,even if the pace is slow, Ena is moving forward bit by bit.
 Dialogue: 0,0:13:57.15,0:14:04.76,DefaultOnibe,host,0,0,0,,So while N25's songs often has negative or pessimistic lyrics,
@@ -131,36 +128,32 @@ Dialogue: 0,0:17:39.88,0:17:41.44,DefaultOnibe,host,0,0,0,,so let's watch them t
 Dialogue: 0,0:17:41.44,0:17:44.92,DefaultOnibe,host,0,0,0,,I was a bit selfish today with the selection.
 Dialogue: 0,0:17:44.92,0:17:48.12,DefaultOnibe,host,0,0,0,,The staff are shaking their heads when I say "selfish,"
 Dialogue: 0,0:17:48.12,0:17:48.78,DefaultOnibe,host,0,0,0,,But um,
-Dialogue: 0,0:17:49.50,0:17:54.90,DefaultOnibe,host,0,0,0,, I actually really wanted to watch from episode 1 to 8 with you all.
-Dialogue: 0,0:17:54.90,0:18:00.88,DefaultOnibe,host,0,0,0,,But let's just watch episodes 7 and 8.
+Dialogue: 0,0:17:49.50,0:17:54.90,DefaultOnibe,host,0,0,0,, I actually really wanted to watch from Episode 1 to 8 with you all.
+Dialogue: 0,0:17:54.90,0:18:00.88,DefaultOnibe,host,0,0,0,,But let's just watch Episodes 7 and 8.
 Dialogue: 0,0:18:00.88,0:18:05.22,DefaultOnibe,host,0,0,0,,This is an AfterTalk, so Minori will be be talking quite a bit.
 Dialogue: 0,0:18:05.22,0:18:06.94,DefaultOnibe,host,0,0,0,,Minori, uh, that's me.
 Dialogue: 0,0:18:07.82,0:18:14.16,DefaultOnibe,host,0,0,0,,So if you think I'm yapping too much, please go back and watch the story in the game later.
 Dialogue: 0,0:18:14.16,0:18:15.34,DefaultOnibe,host,0,0,0,,Let's get started.
 Dialogue: 0,0:18:15.34,0:18:17.20,DefaultOnibe,host,0,0,0,,Episodes 7 and 8.
 Dialogue: 0,0:18:17.20,0:18:18.10,DefaultOnibe,host,0,0,0,,Here we go.
-Dialogue: 0,0:33:34.83,0:33:35.57,DefaultOnibe,host,0,0,0,,No way!
-Dialogue: 0,0:33:35.57,0:33:36.33,DefaultOnibe,host,0,0,0,,What?
-Dialogue: 0,0:33:36.33,0:33:37.32,DefaultOnibe,host,0,0,0,,She's calmed down.
 Dialogue: 0,0:33:37.32,0:33:39.52,DefaultOnibe,host,0,0,0,,I think she knew deep down all along.
-Dialogue: 0,0:33:40.20,0:33:42.20,DefaultOnibe,host,0,0,0,,She's deleting her account... she's not hacked.
+Dialogue: 0,0:33:40.20,0:33:42.20,DefaultOnibe,host,0,0,0,,Like, "I'm just avoiding it, aren't I?"
 Dialogue: 0,0:33:42.80,0:33:47.12,DefaultOnibe,host,0,0,0,,Ena's already made so many promises to herself,
-Dialogue: 0,0:33:47.64,0:33:48.62,DefaultOnibe,host,0,0,0,,So with her selfie account,
-Dialogue: 0,0:33:52.95,0:33:57.96,DefaultOnibe,host,0,0,0,,she knew she'd been using it as an escape or crutch for herself.
+Dialogue: 0,0:33:52.95,0:33:57.96,DefaultOnibe,host,0,0,0,,so she knew she'd been using selfies as an escape or a crutch.
 Dialogue: 0,0:33:58.72,0:34:00.00,DefaultOnibe,host,0,0,0,,But she couldn't run away.
 Dialogue: 0,0:34:00.00,0:34:01.56,DefaultOnibe,host,0,0,0,,She wants to go to Tobi.
-Dialogue: 0,0:34:01.56,0:34:05.76,DefaultOnibe,host,0,0,0,,But she didn't have the resolve to tell those herself or those around her yet.
-Dialogue: 0,0:34:05.76,0:34:06.26,DefaultOnibe,host,0,0,0,,She acted like
-Dialogue: 0,0:34:08.16,0:34:11.36,DefaultOnibe,host,0,0,0,,it wasn't a big deal, but this time,
-Dialogue: 0,0:34:13.88,0:34:18.00,DefaultOnibe,host,0,0,0,,she's actually quitting and making a real decision.
-Dialogue: 0,0:34:20.80,0:34:31.88,DefaultOnibe,host,0,0,0,,She knows it's not a smooth road ahead, but it feels like the fog in her heart has cleared.
-Dialogue: 0,0:34:33.96,0:34:37.08,DefaultOnibe,host,0,0,0,,I knew Ena had a lot on her mind of the road ahead,
+Dialogue: 0,0:34:01.56,0:34:08.95,DefaultOnibe,host,0,0,0,,But she didn't have the resolve to tell those herself or those around her yet.
+Dialogue: 0,0:34:13.88,0:34:18.00,DefaultOnibe,host,0,0,0,,But this time, she's telling herself "no, I {\i1}won't{\i0} run away," and "I {\i1}will{\i0} decide."
+Dialogue: 0,0:34:20.80,0:34:26.18,DefaultOnibe,host,0,0,0,,She knows it's not a smooth road ahead, but it feels like the fog in her heart has cleared.
+Dialogue: 0,0:34:26.18,0:34:29.72,DefaultOnibe,host,0,0,0,,{\pos(660,926)}She feels that relief, but also there's a lot ahead for her.
+Dialogue: 0,0:34:29.72,0:34:31.88,DefaultOnibe,host,0,0,0,,She feels that relief, but also there's a lot ahead for her.
+Dialogue: 0,0:34:33.96,0:34:37.45,DefaultOnibe,host,0,0,0,,I knew Ena had a lot on her mind about the road ahead,
 Dialogue: 0,0:34:38.84,0:34:49.12,DefaultOnibe,host,0,0,0,,but I also knew that she felt a huge sense of relief after all this. So I acted with this both feelings in mind.
-Dialogue: 0,0:34:49.12,0:34:56.75,DefaultOnibe,host,0,0,0,,The reason I chose episodes 7 and 8 is because of her father.
+Dialogue: 0,0:34:49.12,0:34:56.75,DefaultOnibe,host,0,0,0,,The reason I chose Episodes 7 and 8 is because of her father.
 Dialogue: 0,0:34:56.75,0:35:04.25,DefaultOnibe,host,0,0,0,,They've been through a lot, and there were times she couldn't face him, but she really admires him.
 Dialogue: 0,0:35:04.25,0:35:07.35,DefaultOnibe,host,0,0,0,,As she grew up a lot happened between them,
-Dialogue: 0,0:35:07.35,0:35:11.45,DefaultOnibe,host,0,0,0,,and since her dad isn't great with words,
-Dialogue: 0,0:35:11.45,0:35:26.22,DefaultOnibe,host,0,0,0,,But as she grew as an artist, she remembered those feelings of admiration for him she hid out of frustration.
+Dialogue: 0,0:35:07.35,0:35:11.45,DefaultOnibe,host,0,0,0,,and he isn't the best with words, so she butted heads with him a bit.
+Dialogue: 0,0:35:11.45,0:35:26.22,DefaultOnibe,host,0,0,0,,But as she grew as an artist, she started to remember those feelings of admiration for him she hid out of frustration.
 Dialogue: 0,0:35:26.22,0:35:31.62,DefaultOnibe,host,0,0,0,,That's why I got to voicing young Ena was so special.
 Dialogue: 0,0:35:31.62,0:35:39.15,DefaultOnibe,host,0,0,0,,As a child, she was so pure, and everything was new and sparkling.
 Dialogue: 0,0:35:39.15,0:35:49.42,DefaultOnibe,host,0,0,0,,And in that world was her father, and he was someone she looked up to.
@@ -360,17 +353,15 @@ Dialogue: 0,0:52:24.46,0:52:29.78,DefaultOnibe,host,0,0,0,,Well, I've truly entr
 Comment: 0,0:52:29.78,0:52:37.78,DefaultOnibe,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:52:29.78,0:52:37.78,DefaultOnibe,host,0,0,0,,More than anything, I hope you can feel Ena's thoughts and attitude through the music and the story.
 Dialogue: 0,0:52:38.30,0:52:41.66,DefaultOnibe,host,0,0,0,,Everyone, please continue to support Ena.
-Dialogue: 0,0:52:41.66,0:52:42.50,DefaultOnibe,host,0,0,0,,Please keep cheering her on.
-Dialogue: 0,0:52:42.50,0:52:44.42,DefaultOnibe,host,0,0,0,,To those who already do, thank you so much.
+Dialogue: 0,0:52:41.66,0:52:44.42,DefaultOnibe,host,0,0,0,,Thank you so much for watching over her.
 Dialogue: 0,0:52:44.94,0:52:47.38,DefaultOnibe,host,0,0,0,,Though I may not Ena herself,
-Dialogue: 0,0:52:47.38,0:52:50.72,DefaultOnibe,host,0,0,0,,as the person who voices her,
-Dialogue: 0,0:52:50.72,0:52:55.18,DefaultOnibe,host,0,0,0,,I feel like I'm someone close to her.
+Dialogue: 0,0:52:47.38,0:52:55.18,DefaultOnibe,host,0,0,0,,but as the person who voices her, I feel like I'm someone close to her.
 Dialogue: 0,0:52:55.18,0:53:09.88,DefaultOnibe,host,0,0,0,,She's made a new resolution, and I'll work hard as an actress to express her growth, so please keep watching over her.
 Dialogue: 0,0:53:09.88,0:53:11.34,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:53:11.34,0:53:18.38,DefaultOnibe,host,0,0,0,,It's been a short time, but that's all for this ProSeka AfterTalk: Colors of Pure Sense edition.
 Dialogue: 0,0:53:18.38,0:53:20.90,DefaultOnibe,host,0,0,0,,To everyone watching the stream, how did you like it?
-Dialogue: 0,0:53:21.46,0:53:28.00,DefaultOnibe,host,0,0,0,,If you haven't finished the story for the "Colors of Pure Sense" event yet...
-Dialogue: 0,0:53:28.00,0:53:31.14,DefaultOnibe,host,0,0,0,,Did I look a bit silly crying like that?
+Dialogue: 0,0:53:21.46,0:53:28.00,DefaultOnibe,host,0,0,0,,If you haven't finished the story for the Colors of Pure Sense event yet...
+Dialogue: 0,0:53:28.00,0:53:31.14,DefaultOnibe,host,0,0,0,,Did I look funny crying so much like this?
 Dialogue: 0,0:53:32.42,0:53:38.02,DefaultOnibe,host,0,0,0,,You can read the whole thing from the Event Story menu once the next event starts.
 Dialogue: 0,0:53:38.02,0:53:39.60,DefaultOnibe,host,0,0,0,,So please, give it a read.
 Dialogue: 0,0:53:39.60,0:53:43.70,DefaultOnibe,host,0,0,0,,We're always looking for messages for our AfterTalks.
@@ -382,5 +373,5 @@ Dialogue: 0,0:54:03.71,0:54:04.46,DefaultOnibe,host,0,0,0,,Right.
 Dialogue: 0,0:54:04.46,0:54:08.18,DefaultOnibe,host,0,0,0,,In just about ten or twenty seconds...
 Dialogue: 0,0:54:08.18,0:54:12.94,DefaultOnibe,host,0,0,0,,the 2DMV will be out, so let's watch it together.
 Dialogue: 0,0:54:12.94,0:54:18.16,DefaultOnibe,host,0,0,0,,I'll watch it as soon as we close out here, so you should all check it out too.
-Dialogue: 0,0:54:18.16,0:54:21.56,DefaultOnibe,host,0,0,0,,Well then, I'll see you all again.
+Dialogue: 0,0:54:18.16,0:54:21.56,DefaultOnibe,host,0,0,0,,So with that, see you next time.
 Dialogue: 0,0:54:21.56,0:54:23.86,DefaultOnibe,host,0,0,0,,Goodbye!
