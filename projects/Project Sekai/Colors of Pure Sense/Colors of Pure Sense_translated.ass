@@ -16,14 +16,16 @@ Video File: Colors of Pure Sense.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 18
-Active Line: 28
-Video Position: 21520
+Scroll Position: 255
+Active Line: 266
+Video Position: 87740
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
-Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
+Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,60,1
+Style: PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: DefaultOnibe - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006381A1,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -135,17 +137,19 @@ Dialogue: 0,0:18:05.22,0:18:06.94,DefaultOnibe,host,0,0,0,,Minori, uh, that's me
 Dialogue: 0,0:18:07.82,0:18:14.16,DefaultOnibe,host,0,0,0,,So if you think I'm yapping too much, please go back and watch the story in the game later.
 Dialogue: 0,0:18:14.16,0:18:15.34,DefaultOnibe,host,0,0,0,,Let's get started.
 Dialogue: 0,0:18:15.34,0:18:17.20,DefaultOnibe,host,0,0,0,,Episodes 7 and 8.
-Dialogue: 0,0:18:17.20,0:18:18.10,DefaultOnibe,host,0,0,0,,Here we go.
-Dialogue: 0,0:33:37.32,0:33:39.52,DefaultOnibe,host,0,0,0,,I think she knew deep down all along.
-Dialogue: 0,0:33:40.20,0:33:42.20,DefaultOnibe,host,0,0,0,,Like, "I'm just avoiding it, aren't I?"
-Dialogue: 0,0:33:42.80,0:33:47.12,DefaultOnibe,host,0,0,0,,Ena's already made so many promises to herself,
-Dialogue: 0,0:33:52.95,0:33:57.96,DefaultOnibe,host,0,0,0,,so she knew she'd been using selfies as an escape or a crutch.
-Dialogue: 0,0:33:58.72,0:34:00.00,DefaultOnibe,host,0,0,0,,But she couldn't run away.
-Dialogue: 0,0:34:00.00,0:34:01.56,DefaultOnibe,host,0,0,0,,She wants to go to Tobi.
-Dialogue: 0,0:34:01.56,0:34:08.95,DefaultOnibe,host,0,0,0,,But she didn't have the resolve to tell herself or those around her yet.
-Dialogue: 0,0:34:13.88,0:34:18.00,DefaultOnibe,host,0,0,0,,But this time, she's telling herself "no, I {\i1}won't{\i0} run away," and "I {\i1}will{\i0} decide."
-Dialogue: 0,0:34:20.80,0:34:26.18,DefaultOnibe,host,0,0,0,,She knows it's not a smooth road ahead, but it feels like the fog in her heart has cleared.
-Dialogue: 0,0:34:26.18,0:34:31.88,DefaultOnibe,host,0,0,0,,She feels that relief, but also there's a lot ahead for her.
+Dialogue: 0,0:18:17.20,0:18:18.55,DefaultOnibe,host,0,0,0,,Here we go.
+Dialogue: 0,0:33:37.32,0:33:39.52,PiP,host,0,0,0,,{\pos(650,750)}I think she knew deep down all along.
+Dialogue: 0,0:33:40.20,0:33:42.20,PiP,host,0,0,0,,{\pos(650,750)}Like, "I'm just avoiding it, aren't I?"
+Dialogue: 0,0:33:42.80,0:33:47.12,PiP,host,0,0,0,,{\pos(650,750)}Ena's already made so many promises to herself,
+Dialogue: 0,0:33:52.95,0:33:57.96,PiP,host,0,0,0,,{\pos(650,750)}so she knew she'd been using selfies as an escape or a crutch.
+Dialogue: 0,0:33:58.72,0:34:00.00,PiP,host,0,0,0,,{\pos(650,750)}But she couldn't run away.
+Dialogue: 0,0:34:00.00,0:34:01.56,PiP,host,0,0,0,,{\pos(650,750)}She wants to go to Toubi.
+Dialogue: 0,0:34:01.56,0:34:08.95,PiP,host,0,0,0,,{\pos(650,750)}But she didn't have the resolve to tell herself or those around her yet.
+Dialogue: 0,0:34:13.88,0:34:18.00,PiP,host,0,0,0,,{\pos(650,750)}But this time, she's telling herself "no, I {\i1}won't{\i0} run away," and "I {\i1}will{\i0} decide."
+Dialogue: 0,0:34:20.80,0:34:26.18,PiP,host,0,0,0,,{\pos(650,750)}She knows it's not a smooth road ahead, but it feels like the fog in her heart has cleared.
+Dialogue: 0,0:34:26.18,0:34:29.72,PiP,host,0,0,0,,{\pos(650,750)}She feels that relief, but also there's a lot ahead for her.
+Comment: 0,0:34:29.72,0:34:33.96,DefaultOnibe,host,0,0,0,,Below is an intentional duplication to make the transition from PiP to fullscreen smoother
+Dialogue: 0,0:34:29.72,0:34:33.96,DefaultOnibe,host,0,0,0,,She feels that relief, but also there's a lot ahead for her.
 Dialogue: 0,0:34:33.96,0:34:37.45,DefaultOnibe,host,0,0,0,,I knew Ena had a lot on her mind about the road ahead,
 Dialogue: 0,0:34:38.84,0:34:49.12,DefaultOnibe,host,0,0,0,,but I also knew that she felt a huge sense of relief after all this. So I acted with both of these feelings in mind.
 Dialogue: 0,0:34:49.12,0:34:56.75,DefaultOnibe,host,0,0,0,,The reason I chose Episodes 7 and 8 is because of her father.
@@ -154,7 +158,7 @@ Dialogue: 0,0:35:04.25,0:35:07.35,DefaultOnibe,host,0,0,0,,As she grew up a lot 
 Dialogue: 0,0:35:07.35,0:35:11.45,DefaultOnibe,host,0,0,0,,and he isn't the best with words, so she butted heads with him a bit.
 Dialogue: 0,0:35:11.45,0:35:26.22,DefaultOnibe,host,0,0,0,,But as she grew as an artist, she started to remember those feelings of admiration for him she hid out of frustration.
 Dialogue: 0,0:35:26.22,0:35:31.62,DefaultOnibe,host,0,0,0,,That's why getting to voice young Ena was so special.
-Dialogue: 0,0:35:31.62,0:35:39.15,DefaultOnibe,host,0,0,0,,As a child, she was so pure, and everything was new and sparkling.
+Dialogue: 0,0:35:31.62,0:35:39.15,DefaultOnibe,host,0,0,0,,As a child, she was so pure. Everything was new and sparkling.
 Dialogue: 0,0:35:39.15,0:35:49.42,DefaultOnibe,host,0,0,0,,And in that world was her father, and he was someone she looked up to.
 Dialogue: 0,0:35:49.42,0:35:52.60,DefaultOnibe,host,0,0,0,,Someone who creates amazing things.
 Dialogue: 0,0:35:54.12,0:36:00.91,DefaultOnibe,host,0,0,0,,I imagined Ena talking to him as just this mass of pure light.
@@ -268,53 +272,44 @@ Dialogue: 0,0:44:37.24,0:44:39.18,DefaultOnibe,host,0,0,0,,Man, it really is a g
 Dialogue: 0,0:44:39.18,0:44:41.58,DefaultOnibe,host,0,0,0,,Ena is so loved.
 Dialogue: 0,0:44:41.58,0:44:43.62,DefaultOnibe,host,0,0,0,,I'm so grateful we got such a wonderful story.
 Dialogue: 0,0:44:43.62,0:44:50.18,DefaultOnibe,host,0,0,0,,With that said, I'd like to talk about the music after we watch the 3DMV that was written specifically for this event.
-Dialogue: 0,0:44:50.18,0:44:51.92,DefaultOnibe,host,0,0,0,,Please, take a look.
-Dialogue: 0,0:45:01.88,0:45:11.52,DefaultOnibe,host,0,0,0,,Breathing inside a borrowed life, in a body that can't become anyone.
-Dialogue: 0,0:45:13.12,0:45:21.76,DefaultOnibe,host,0,0,0,,If I dive deep into the depths, the me from that day...
-Dialogue: 0,0:45:23.52,0:45:26.72,DefaultOnibe,host,0,0,0,,is still smiling.
-Dialogue: 0,0:45:38.36,0:45:47.64,DefaultOnibe,host,0,0,0,,Looking back, there were certainly fragments of dreams sprouting in my chest.
-Dialogue: 0,0:45:49.36,0:46:00.44,DefaultOnibe,host,0,0,0,,Pressed down by the weight of strings, they eventually turned into hatred.
-Dialogue: 0,0:46:01.24,0:46:08.56,DefaultOnibe,host,0,0,0,,There's no use in trying to stroke the past.
-Dialogue: 0,0:46:10.92,0:46:20.20,DefaultOnibe,host,0,0,0,,This small, gentle light... my belief still won't reach.
-Dialogue: 0,0:46:20.92,0:46:33.84,DefaultOnibe,host,0,0,0,,Even so, I want to draw more of the future with these hands on the white scenery before me.
-Dialogue: 0,0:46:38.80,0:46:44.96,DefaultOnibe,host,0,0,0,,Even if the past isn't beautiful, I'll be myself.
-Dialogue: 0,0:46:47.28,0:46:49.44,DefaultOnibe,host,0,0,0,,I just want to draw...
-Dialogue: 0,0:46:52.88,0:46:55.72,DefaultOnibe,host,0,0,0,,this world that reflects in my eyes.
-Dialogue: 0,0:47:02.57,0:47:04.52,DefaultOnibe,host,0,0,0,,{\pos(666,992)}And we're back. Sorry about that.
-Dialogue: 0,0:47:04.52,0:47:06.56,DefaultOnibe,host,0,0,0,,{\pos(666,992)}My screen just popped up there.
-Dialogue: 0,0:47:06.56,0:47:15.84,DefaultOnibe,host,0,0,0,,{\pos(666,992)}That was the 3DMV for the song Chouchou-P wrote for this event, titled "The Name of Your Drawing."
-Dialogue: 0,0:47:17.24,0:47:21.00,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Wait, I got mixed up. That was the 3DMV for "The name of painting."
-Dialogue: 0,0:47:21.52,0:47:22.12,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Uh...
-Dialogue: 0,0:47:23.76,0:47:26.96,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Should I do this first? Oh, I see.
-Dialogue: 0,0:47:28.36,0:47:32.44,DefaultOnibe,host,0,0,0,,{\pos(666,992)}For a second, I mixed up my own notes with Chouchou-P's comments.
-Dialogue: 0,0:47:32.44,0:47:33.72,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I was like, "Wait, what?"
-Dialogue: 0,0:47:33.72,0:47:40.04,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Ok so, let me read the notes I sent to the staff beforehand.
-Dialogue: 0,0:47:40.56,0:47:46.68,DefaultOnibe,host,0,0,0,,{\pos(666,992)}"Just listening to it evokes memories of Ena's long journey, and it brings me to tears."
-Dialogue: 0,0:47:46.68,0:47:53.96,DefaultOnibe,host,0,0,0,,{\pos(666,992)}"The title has her name in it, so I felt it was truly a song written for Ena."
-Dialogue: 0,0:47:54.84,0:48:00.57,DefaultOnibe,host,0,0,0,,{\pos(666,992)}"Embracing the regret and pain that she's felt along her journey, instead of just lamenting it,"
-Dialogue: 0,0:48:00.57,0:48:08.18,DefaultOnibe,host,0,0,0,,{\pos(666,992)}"I sang with the newfound optimism and determination she has to turn those feelings into strength."
-Dialogue: 0,0:48:08.18,0:48:11.04,DefaultOnibe,host,0,0,0,,{\pos(666,992)}That's what past-me sent in to the staff.
-Dialogue: 0,0:48:12.64,0:48:16.70,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Chouchou-P's actual comments were introduced on the ProSeka News Station and such.
-Dialogue: 0,0:48:16.70,0:48:20.60,DefaultOnibe,host,0,0,0,,{\pos(666,992)}They should be on Twitter—I mean, X—as well, so please check them out.
-Dialogue: 0,0:48:21.16,0:48:24.56,DefaultOnibe,host,0,0,0,,{\pos(666,992)}But yeah, those were the feelings I put into the song.
-Dialogue: 0,0:48:24.56,0:48:25.56,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Well...
-Dialogue: 0,0:48:26.24,0:48:30.76,DefaultOnibe,host,0,0,0,,{\pos(666,992)}There are lyrics that feel like she's looking back at the past.
-Dialogue: 0,0:48:31.28,0:48:35.12,DefaultOnibe,host,0,0,0,,{\pos(666,992)}But it really is like the {\i1}current{\i0} Ena is the one doing the reflecting.
-Dialogue: 0,0:48:35.76,0:48:40.04,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I'm sure Ena has regrets,
-Dialogue: 0,0:48:40.04,0:48:44.66,DefaultOnibe,host,0,0,0,,{\pos(666,992)}But I think she's a girl who understands that those regrets made her who she is today.
-Dialogue: 0,0:48:44.66,0:48:55.62,DefaultOnibe,host,0,0,0,,{\pos(666,992)}So even for the phrases about the past, I didn't want to sing them with the pure regret of the old Ena.
-Dialogue: 0,0:48:55.62,0:49:01.84,DefaultOnibe,host,0,0,0,,{\pos(666,992)}So while embracing those feelings, I sang with her newer sense of resolve.
-Dialogue: 0,0:49:01.84,0:49:04.18,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Like I said during the story part,
-Dialogue: 0,0:49:04.18,0:49:10.80,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I tried to include that sense of relief and the brightness of finally feeling the joy in painting again.
-Dialogue: 0,0:49:10.80,0:49:15.46,DefaultOnibe,host,0,0,0,,{\pos(666,992)}But also that this isn't the goal; it's a new start.
-Dialogue: 0,0:49:17.46,0:49:24.54,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I was very conscious of capturing that duality while singing.
-Dialogue: 0,0:49:24.54,0:49:30.18,DefaultOnibe,host,0,0,0,,{\pos(666,992)}So rather than a huge outburst or breakthrough of emotion,
-Dialogue: 0,0:49:30.18,0:49:36.70,DefaultOnibe,host,0,0,0,,{\pos(666,992)}it's more like quietly reflecting within myself to cheer myself on.
-Dialogue: 0,0:49:36.70,0:49:41.72,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Like patting my own chest and saying, "Let's do this."
-Dialogue: 0,0:49:41.72,0:49:46.32,DefaultOnibe,host,0,0,0,,{\pos(666,992)}That's the image I had in mind as I sang.
-Dialogue: 0,0:49:46.32,0:49:48.70,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I just end up crying, though.
-Dialogue: 0,0:49:49.58,0:49:52.14,DefaultOnibe,host,0,0,0,,{\pos(666,992)}I've already heard the full version, you see.
-Dialogue: 0,0:49:52.14,0:49:53.56,DefaultOnibe,host,0,0,0,,{\pos(666,992)}Since I'm the one who sang it.
+Dialogue: 0,0:44:50.18,0:44:51.92,DefaultOnibe,host,0,0,0,,Here we go!
+Dialogue: 0,0:47:02.57,0:47:03.92,DefaultOnibe - Shifted,host,0,0,0,,And we're back.
+Dialogue: 0,0:47:03.92,0:47:06.56,DefaultOnibe - Shifted,host,0,0,0,,Sorry, I just suddenly appeared.
+Dialogue: 0,0:47:06.56,0:47:15.84,DefaultOnibe - Shifted,host,0,0,0,,That was the 3DMV for the song Chouchou-P wrote for this event, titled "The Name of Your Drawing."
+Dialogue: 0,0:47:17.24,0:47:21.00,DefaultOnibe - Shifted,host,0,0,0,,Wait, I got mixed up. That was the 3DMV for "The name of painting."
+Dialogue: 0,0:47:21.52,0:47:22.12,DefaultOnibe - Shifted,host,0,0,0,,Uh...
+Dialogue: 0,0:47:23.76,0:47:26.96,DefaultOnibe - Shifted,host,0,0,0,,Should I do this first? Oh, I see.
+Dialogue: 0,0:47:28.36,0:47:32.44,DefaultOnibe - Shifted,host,0,0,0,,For a second, I mixed up my own notes with Chouchou-P's comments.
+Dialogue: 0,0:47:32.44,0:47:33.72,DefaultOnibe - Shifted,host,0,0,0,,I was like, "Wait, what?"
+Dialogue: 0,0:47:33.72,0:47:40.04,DefaultOnibe - Shifted,host,0,0,0,,Ok so, let me read the notes I sent to the staff beforehand.
+Dialogue: 0,0:47:40.56,0:47:46.68,DefaultOnibe - Shifted,host,0,0,0,,"Just listening to it evokes memories of Ena's long journey, and it brings me to tears."
+Dialogue: 0,0:47:46.68,0:47:53.96,DefaultOnibe - Shifted,host,0,0,0,,"The title has her name in it, so I felt it was truly a song written for Ena."
+Dialogue: 0,0:47:54.84,0:48:00.57,DefaultOnibe - Shifted,host,0,0,0,,"Embracing the regret and pain that she's felt along her journey, instead of just lamenting it,"
+Dialogue: 0,0:48:00.57,0:48:08.18,DefaultOnibe - Shifted,host,0,0,0,,"I sang with the newfound optimism and determination she has to turn those feelings into strength."
+Dialogue: 0,0:48:08.18,0:48:11.04,DefaultOnibe - Shifted,host,0,0,0,,That's what past-me sent in to the staff.
+Dialogue: 0,0:48:12.64,0:48:16.70,DefaultOnibe - Shifted,host,0,0,0,,We already shared Chouchou-P's actual comments on the ProSeka News Station.
+Dialogue: 0,0:48:16.70,0:48:20.60,DefaultOnibe - Shifted,host,0,0,0,,They should be on Twitter—I mean, X—as well, so please check them out.
+Dialogue: 0,0:48:21.16,0:48:24.56,DefaultOnibe - Shifted,host,0,0,0,,But yeah, those were the feelings I put into the song.
+Dialogue: 0,0:48:24.56,0:48:25.56,DefaultOnibe - Shifted,host,0,0,0,,Well...
+Dialogue: 0,0:48:26.24,0:48:30.76,DefaultOnibe - Shifted,host,0,0,0,,There are lyrics that feel like she's looking back at the past.
+Dialogue: 0,0:48:31.28,0:48:35.12,DefaultOnibe - Shifted,host,0,0,0,,But it really is like the {\i1}current{\i0} Ena is the one doing the reflecting.
+Dialogue: 0,0:48:35.76,0:48:40.04,DefaultOnibe - Shifted,host,0,0,0,,I'm sure Ena has regrets,
+Dialogue: 0,0:48:40.04,0:48:44.66,DefaultOnibe - Shifted,host,0,0,0,,but I think she's someone who understands that those regrets made her who she is today.
+Dialogue: 0,0:48:44.66,0:48:47.45,DefaultOnibe - Shifted,host,0,0,0,,So for the phrases about those regrets,
+Dialogue: 0,0:48:47.45,0:48:55.62,DefaultOnibe - Shifted,host,0,0,0,,I didn't want to sing them with the pure angst the old Ena might have.
+Dialogue: 0,0:48:55.62,0:49:01.84,DefaultOnibe - Shifted,host,0,0,0,,So while embracing those regrets, I sang with her newer sense of resolve.
+Dialogue: 0,0:49:01.84,0:49:04.18,DefaultOnibe - Shifted,host,0,0,0,,Like I said during the story part,
+Dialogue: 0,0:49:04.18,0:49:06.15,DefaultOnibe - Shifted,host,0,0,0,,I tried to include that sense of relief,
+Dialogue: 0,0:49:06.15,0:49:10.80,DefaultOnibe - Shifted,host,0,0,0,,and the brightness that came with the joy in painting again.
+Dialogue: 0,0:49:10.80,0:49:15.46,DefaultOnibe - Shifted,host,0,0,0,,But also that this isn't the goal; it's a new start.
+Dialogue: 0,0:49:17.46,0:49:24.54,DefaultOnibe - Shifted,host,0,0,0,,I was very conscious of capturing that duality while singing.
+Dialogue: 0,0:49:24.54,0:49:30.18,DefaultOnibe - Shifted,host,0,0,0,,So rather than a huge outburst or breakthrough of emotion,
+Dialogue: 0,0:49:30.18,0:49:36.70,DefaultOnibe - Shifted,host,0,0,0,,it's more like her quietly reflecting to encourage herself.
+Dialogue: 0,0:49:36.70,0:49:41.72,DefaultOnibe - Shifted,host,0,0,0,,Like patting herself on the chest and saying, "Let's do this."
+Dialogue: 0,0:49:41.72,0:49:46.32,DefaultOnibe - Shifted,host,0,0,0,,That's the image I had in mind as I sang.
+Dialogue: 0,0:49:46.32,0:49:48.70,DefaultOnibe - Shifted,host,0,0,0,,I just end up crying, though.
+Dialogue: 0,0:49:49.58,0:49:52.14,DefaultOnibe - Shifted,host,0,0,0,,I've already heard the full version, you see.
+Dialogue: 0,0:49:52.14,0:49:53.56,DefaultOnibe - Shifted,host,0,0,0,,Since I'm the one who sang it.
 Dialogue: 0,0:49:53.56,0:49:54.68,DefaultOnibe,host,0,0,0,,I'm sorry.
 Dialogue: 0,0:49:54.68,0:49:57.04,DefaultOnibe,host,0,0,0,,I just can't help but cry.
 Dialogue: 0,0:49:57.04,0:49:58.82,DefaultOnibe,host,0,0,0,,I'm just so hopeless.
