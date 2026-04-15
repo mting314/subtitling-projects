@@ -22,6 +22,27 @@ ffmpeg -i "inputvideo" -vf "ass=subtitlename" outputvideo.mp4
 ffmpeg -i "input.mkv" -ss 00:10:52 -to 00:30:00 -c copy "pre story cut.mkv"
 ```
 
+## Hardsub + trim (single command)
+
+Subs must be burned before trimming (trimming invalidates .ass timestamps).
+This works because ffmpeg applies the subtitle filter on the full timeline, then trims at output.
+
+```
+ffmpeg -i "input.mkv" -vf "ass=subtitle.ass" -ss 00:10:52 -to 00:30:00 "final.mp4"
+```
+
+As a reusable function:
+
+```bash
+hardsub_trim() {
+  local input="$1" subs="$2" start="$3" end="$4" output="$5"
+  ffmpeg -i "$input" -vf "ass=$subs" -ss "$start" -to "$end" "$output"
+}
+
+# Usage:
+hardsub_trim "input.mkv" "subtitle.ass" "00:10:52" "00:30:00" "final.mp4"
+```
+
 ## Convert mp4 to mkv
 
 ```
