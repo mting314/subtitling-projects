@@ -31,10 +31,14 @@ NUM_SEGMENTS=$(( ${#SEGMENTS[@]} / 2 ))
 TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
+# Symlink subtitle file to a spaceless name (ass= filter can't handle spaces)
+SUBS_LINK="$TMPDIR/subs.ass"
+ln -sf "$(cd "$(dirname "$SUBS")" && pwd)/$(basename "$SUBS")" "$SUBS_LINK"
+
 if [ "$NUM_SEGMENTS" -eq 1 ]; then
   # Single segment — no concat needed
   echo "Hardsubbing + trimming: ${SEGMENTS[0]} to ${SEGMENTS[1]}"
-  ffmpeg -i "$INPUT" -vf "ass='$SUBS'" -ss "${SEGMENTS[0]}" -to "${SEGMENTS[1]}" "$OUTPUT" -y
+  ffmpeg -i "$INPUT" -vf "ass=$SUBS_LINK" -ss "${SEGMENTS[0]}" -to "${SEGMENTS[1]}" "$OUTPUT" -y
 else
   # Multiple segments — hardsub+trim each, then concat
   CONCAT_FILE="$TMPDIR/concat.txt"
@@ -45,7 +49,7 @@ else
     END="${SEGMENTS[$((i*2+1))]}"
     PART="$TMPDIR/part$((i+1)).mp4"
     echo "Segment $((i+1))/$NUM_SEGMENTS: $START to $END"
-    ffmpeg -i "$INPUT" -vf "ass='$SUBS'" -ss "$START" -to "$END" "$PART" -y 2>/dev/null &
+    ffmpeg -i "$INPUT" -vf "ass=$SUBS_LINK" -ss "$START" -to "$END" "$PART" -y 2>/dev/null &
     PIDS+=($!)
     echo "file '$PART'" >> "$CONCAT_FILE"
   done

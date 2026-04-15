@@ -38,14 +38,36 @@ The transcription and translation pipeline is in a separate repo: [mting314/auto
 
 After QC, burn subtitles into video and trim to the subbed portion. **Must hardsub before trimming** — trimming invalidates .ass timestamps.
 
+### `hardsub_trim.sh`
+
+Script at repo root. Handles single or multiple segments with automatic concatenation.
+
 ```bash
-# Single command (subs applied on full timeline, then trimmed at output)
-ffmpeg -i "input.mkv" -vf "ass=subtitle.ass" -ss 00:09:30 -to 00:55:00 "final.mp4"
+# Single segment
+./hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start> <end>
+
+# Multiple segments (gaps like story recaps/songs are skipped)
+./hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> <start2> <end2> ...
 ```
 
-Timestamps for each project are saved in `scratch_notes.txt` within each project folder.
+Example (Colors of Pure Sense — 2 segments, skipping story recap):
+```bash
+./hardsub_trim.sh \
+  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense.mkv" \
+  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
+  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_final.mp4" \
+  00:09:45 00:18:19 \
+  00:33:35 00:55:30
+```
 
-See `snippets.md` for the reusable `hardsub_trim` shell function.
+**Notes:**
+- Requires ffmpeg built with libass (`brew install libass`, then `brew reinstall --build-from-source ffmpeg`)
+- The `ass=` filter doesn't handle spaces in filenames — the script creates a symlink to work around this
+- Multiple segments are encoded in parallel, then concatenated with `-c copy` (no re-encode)
+- Timestamps for each project are saved in `scratch_notes.txt` within each project folder
+- To auto-detect segments from subtitle gaps, analyze the .ass file for gaps > 30 seconds
+
+See `snippets.md` for standalone ffmpeg commands.
 
 ## YouTube Video Blurbs
 
