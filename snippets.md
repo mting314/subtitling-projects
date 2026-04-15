@@ -43,6 +43,24 @@ hardsub_trim() {
 hardsub_trim "input.mkv" "subtitle.ass" "00:10:52" "00:30:00" "final.mp4"
 ```
 
+## Hardsub + trim (multiple segments, then concatenate)
+
+For videos with gaps (e.g., skipping story recaps or songs between subbed portions).
+
+```bash
+# 1. Hardsub + trim each segment
+ffmpeg -i "input.mkv" -vf "ass=subtitle.ass" -ss 00:09:45 -to 00:18:19 "part1.mp4"
+ffmpeg -i "input.mkv" -vf "ass=subtitle.ass" -ss 00:33:35 -to 00:55:30 "part2.mp4"
+
+# 2. Concatenate (no re-encode since parts share encoding)
+echo "file 'part1.mp4'" > concat.txt
+echo "file 'part2.mp4'" >> concat.txt
+ffmpeg -f concat -safe 0 -i concat.txt -c copy "final.mp4"
+
+# 3. Cleanup
+rm part1.mp4 part2.mp4 concat.txt
+```
+
 ## Convert mp4 to mkv
 
 ```
