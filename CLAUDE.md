@@ -34,6 +34,29 @@ The transcription and translation pipeline is in a separate repo: [mting314/auto
 - **Song/event titles**: quoted, not italicized
 - **Project Sekai terms**: "AfterTalk" (capital T), "AfterLive" (capital L), "ProSeka" (capital S)
 
+## Post-Pipeline: Hardsub + Trim
+
+After QC, burn subtitles into video and trim to the subbed portion. **Must hardsub before trimming** — trimming invalidates .ass timestamps.
+
+```bash
+# Single command (subs applied on full timeline, then trimmed at output)
+ffmpeg -i "input.mkv" -vf "ass=subtitle.ass" -ss 00:09:30 -to 00:55:00 "final.mp4"
+```
+
+Timestamps for each project are saved in `scratch_notes.txt` within each project folder.
+
+See `snippets.md` for the reusable `hardsub_trim` shell function.
+
+## YouTube Video Blurbs
+
+When writing YouTube descriptions for subtitled videos, follow this format:
+1. VA name + character they voice + what the content covers
+2. 1-2 sentences teasing highlights/fun moments
+3. Link to original video
+4. Credits/references if applicable
+
+Example tone: casual, enthusiastic, highlights personality moments from the VAs.
+
 ## Git Conventions
 
 - `project-shortname: description` for project work
