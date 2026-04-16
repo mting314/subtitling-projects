@@ -1,0 +1,49 @@
+2026-04-15 21:39:39,738:INFO:autosub.cli: Saving log to projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk_logs_20260415_213939/run.log
+2026-04-15 21:39:39,740:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-04-15 21:39:39,740:INFO:autosub.pipeline.transcribe.main: Starting chirp_3 transcription for 2 segment(s) from projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv
+2026-04-15 21:39:39,740:INFO:autosub.pipeline.transcribe.main: Submitting 2 transcription segment(s) with up to 2 concurrent worker(s)...
+2026-04-15 21:39:39,740:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 1 (start=00:00:00, end=00:39:10)...
+2026-04-15 21:39:39,740:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 2 (start=00:42:15, end=00:49:14)...
+2026-04-15 21:39:41,061:INFO:autosub.pipeline.transcribe.main: Segment 2 audio duration: 419.01 seconds
+2026-04-15 21:39:41,062:INFO:autosub.pipeline.transcribe.main: Uploading segment 2 audio to autosub_staging/74f66601-fb6a-4563-985f-2831550a740a_Unsteady, still steady step Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus...
+2026-04-15 21:39:41,065:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-04-15 21:39:41,066:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-04-15 21:39:41,076:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-15 21:39:41,084:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-15 21:39:41,338:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-15 21:39:41,339:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-15 21:39:41,767:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1324
+2026-04-15 21:39:41,785:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 4 speaker(s)
+2026-04-15 21:39:41,785:DEBUG:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 does not support SpeechAdaptation
+2026-04-15 21:39:41,785:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/74f66601-fb6a-4563-985f-2831550a740a_Unsteady, still steady step Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus...
+2026-04-15 21:39:41,909:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-15 21:39:42,126:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-15 21:39:42,569:INFO:autosub.pipeline.transcribe.api: Submitted chirp_3 batch job projects/278890546984/locations/us/operations/v2-7438152b-0000-216f-abf0-ac3eb15e51ac for gs://subtitling-projects/autosub_staging/74f66601-fb6a-4563-985f-2831550a740a_Unsteady, still steady step Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus. Polling every 15 seconds.
+2026-04-15 21:39:46,807:INFO:autosub.pipeline.transcribe.main: Segment 1 audio duration: 2350.01 seconds
+2026-04-15 21:39:46,965:INFO:autosub.pipeline.transcribe.audio:   Chunk 0: 0s - 1080s (1080s)
+2026-04-15 21:39:47,191:INFO:autosub.pipeline.transcribe.audio:   Chunk 1: 1080s - 2160s (1080s)
+2026-04-15 21:39:47,410:INFO:autosub.pipeline.transcribe.audio:   Chunk 2: 2160s - 2350s (190s)
+2026-04-15 21:39:47,410:INFO:autosub.pipeline.transcribe.main: Split audio into 3 chunks (18 min each)
+2026-04-15 21:39:47,446:INFO:autosub.pipeline.transcribe.main:   Chunk 1/3: uploading to autosub_staging/79b546e5-d05f-4f55-b9f2-41ba64ee04d7_chunk_000.opus...
+2026-04-15 21:39:47,451:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-15 21:39:47,451:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-15 21:39:47,676:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-15 21:39:47,676:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-15 21:39:47,821:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable HTTP/1.1" 200 0
+2026-04-15 21:39:48,542:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "PUT /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable&upload_id=AMNfjG00J6dZX255f0cJIlTlZv3Ke3WTT0XYMZxbUoRBv9VTtAVTly22yHwanDS7S7KdtxMvJDExpN3yCwE0sUUAR27Vqx0LDG3pJ4e5BjZnITw HTTP/1.1" 200 1040
+2026-04-15 21:39:48,547:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 4 speaker(s)
+2026-04-15 21:39:48,548:DEBUG:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 does not support SpeechAdaptation
+2026-04-15 21:39:48,548:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/79b546e5-d05f-4f55-b9f2-41ba64ee04d7_chunk_000.opus...
+2026-04-15 21:39:48,939:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-15 21:39:49,162:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-15 21:39:49,603:INFO:autosub.pipeline.transcribe.api: Submitted chirp_3 batch job projects/278890546984/locations/us/operations/v2-6f36b9b6-0000-2079-a1ae-34391605619b for gs://subtitling-projects/autosub_staging/79b546e5-d05f-4f55-b9f2-41ba64ee04d7_chunk_000.opus. Polling every 15 seconds.
+2026-04-15 21:40:28,650:INFO:autosub.pipeline.transcribe.api: chirp_3 batch job projects/278890546984/locations/us/operations/v2-7438152b-0000-216f-abf0-ac3eb15e51ac for gs://subtitling-projects/autosub_staging/74f66601-fb6a-4563-985f-2831550a740a_Unsteady, still steady step Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus completed in 0m 46s.
+2026-04-15 21:40:28,650:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-04-15 21:40:28,667:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/74f66601-fb6a-4563-985f-2831550a740a_Unsteady, still steady step Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus...
+2026-04-15 21:40:28,673:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-15 21:40:28,674:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-15 21:40:28,908:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-15 21:40:28,910:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-15 21:40:29,054:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F74f66601-fb6a-4563-985f-2831550a740a_Unsteady%2C%20still%20steady%20step%20Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus?fields=name&prettyPrint=false HTTP/1.1" 200 145
+2026-04-15 21:40:29,142:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F74f66601-fb6a-4563-985f-2831550a740a_Unsteady%2C%20still%20steady%20step%20Aftertalk_audio_c8ea3151e0f74dc5aa82cff2f81b6f6b.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-04-15 21:40:51,305:INFO:autosub.pipeline.transcribe.api: Still waiting on chirp_3 batch job projects/278890546984/locations/us/operations/v2-6f36b9b6-0000-2079-a1ae-34391605619b for gs://subtitling-projects/autosub_staging/79b546e5-d05f-4f55-b9f2-41ba64ee04d7_chunk_000.opus after 1m 01s.

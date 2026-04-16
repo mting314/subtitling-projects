@@ -1,0 +1,44 @@
+# Lieraji Episode 265 - Scratch Notes
+
+## Transcription (from autosub run 2026-03-28)
+Full file, no segments
+Audio duration: 2042.45s (~34:02)
+Split into 2 chunks (18 min each) for Chirp 3
+
+## Command
+
+```bash
+uv run autosub run \
+  "projects/projects/Lieraji/Episode 265/Episode 265.mkv" \
+  --profile lieraji \
+  --backend chirp_3 \
+  --speakers 3 \
+  --speaker-map "projects/projects/Lieraji/Episode 265/speaker_map.toml" \
+  --chunk-size 80 \
+  --save-log \
+  --mark-chunks \
+  --llm-reasoning-effort minimal
+```
+
+## Timestamps for hardsub + trim
+Subtitle range: 0:00:05.00 - 0:33:39.20
+START="00:00:00"
+END="00:33:42"
+
+## Cast
+Date Sayuri (voice of Kanon Shibuya)
+Sakakura Sakura (voice of Tomari Onitsuka)
+Yabushima Akane (voice of Mei Yoneme)
+
+## Notes
+- 3 hosts
+- Discussion about Mei's growth and reliability
+- References to Music World arc and Chisato-senpai
+
+## YouTube Blurb (draft)
+
+Date Sayuri (voice of Kanon), Sakakura Sakura (voice of Tomari), and Yabushima Akane (voice of Mei) on Liella no Radio Japan, Episode 265.
+
+Kanon and Tomari hype up how reliable Mei has become, Mei gets flustered trying to deflect the praise, and they reminisce about the Music World arc. Plus the senpais admit that watching Mei work hard makes them feel like they can't afford to lose either.
+
+Original video: TODO
