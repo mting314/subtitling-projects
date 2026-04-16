@@ -1,0 +1,58 @@
+# Reaching Out to a Tomorrow That Won't Come Unraveled - Scratch Notes
+
+## Transcription segments (from autosub run 2026-04-09)
+# Segment 1: start=9:30, end=15:00 (330s)
+# Segment 2: start=24:45, end=35:45 (660s)
+# Segment 3: start=37:55, end=55:00 (557s)
+# Gaps: 15:00-24:45 = story recap, 35:45-37:55 = song
+
+## Timestamps for hardsub + trim
+# START="00:09:30"
+# END="00:55:00"
+
+## VA
+# Hinata Sato (voice of Mizuki Akiyama, N25)
+
+## Notes
+# - Mizuki's focus event
+# - Solo host (Hinata Sato)
+# - Story about Niigo members facing their futures, education/career paths
+# - Renewed AfterTalk format (Discord + email submissions)
+
+## YouTube Blurb (draft)
+# Hinata Sato (voice of Mizuki) recaps the story, song, and illustrations for Mizuki's focus event, "Reaching Out to a Tomorrow That Won't Come Unraveled", in the ProSeka AfterTalk.
+#
+# Watch her share surprisingly personal reflections on career choices and effort, get emotional about Mizuki finally finding a passion worth pursuing, and dress up to match the event illustration.
+#
+# Original video: TODO
+
+## Autosub commands
+
+# Re-run translation with medium thinking (transcription + formatting already done)
+uv run autosub translate "/Users/michaelting/github/autosub/projects/projects/Project Sekai/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled_original.ass" \
+  --profile proseka/n25 \
+  --chunk-size 80 \
+  --save-log \
+  --llm-reasoning-effort medium \
+  --mark-chunks
+
+# Full pipeline run (3 segments: skip story recap 15:00-24:45, skip song 35:45-37:55)
+uv run autosub run "/Users/michaelting/github/autosub/projects/projects/Project Sekai/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled.mkv" \
+  --profile proseka/n25 \
+  --chunk-size 80 \
+  --save-log \
+  --start 9:30 --end 15:00 \
+  --start 24:45 --end 35:45 \
+  --start 37:55 --end 55:00 \
+  --llm-reasoning-effort medium \
+  --mark-chunks
+
+# Corners extension test run (Chirp 3, format-time corners, 2026-04-11)
+uv run autosub run "projects/projects/Project Sekai/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled.mkv" \
+  --profile proseka/n25 \
+  --backend chirp_3 \
+  --chunk-size 80 \
+  --save-log \
+  --start 9:30 --end 15:00 \
+  --start 24:45 --end 35:45 \
+  --start 37:55 --end 55:00
