@@ -16,9 +16,9 @@ Video File: Colors of Pure Sense.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 269
-Active Line: 285
-Video Position: 87602
+Scroll Position: 76
+Active Line: 77
+Video Position: 28502
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -106,12 +106,12 @@ Dialogue: 0,0:15:42.98,0:15:44.42,DefaultOnibe,listener_mail,0,0,0,,"Hello, Mino
 Dialogue: 0,0:15:44.42,0:15:45.22,DefaultOnibe,host,0,0,0,,Hello!
 Dialogue: 0,0:15:45.22,0:15:48.98,DefaultOnibe,listener_mail,0,0,0,,"I read through Colors of Pure Sense."
 Dialogue: 0,0:15:48.98,0:15:50.06,DefaultOnibe,host,0,0,0,,Thank you.
-Comment: 0,0:15:50.06,0:15:58.30,DefaultOnibe,listener_mail,0,0,0,,[WIP]"The scene in Episode 7 where Ena gets so excited getting carried away by her joy in painting really left an impression on me."
-Dialogue: 0,0:15:50.06,0:15:58.30,DefaultOnibe,listener_mail,0,0,0,,"The scene in Episode 7 where Ena gets so excited getting carried away by her joy in painting really left an impression on me."
-Dialogue: 0,0:15:58.86,0:16:04.28,DefaultOnibe,listener_mail,0,0,0,,"Ena previously could only feel validation from others, like with her selfie account,"
-Dialogue: 0,0:16:04.28,0:16:06.45,DefaultOnibe,listener_mail,0,0,0,,"but she finally realized, 'I'm fine just as I am.'"
+Dialogue: 0,0:15:50.06,0:15:53.92,DefaultOnibe,listener_mail,0,0,0,,"One scene that left an impression on me was in Episode 7,"
+Dialogue: 0,0:15:53.92,0:15:58.30,DefaultOnibe,listener_mail,0,0,0,,"where Ena gets carried away with excitement after finding her own joy in painting."
+Dialogue: 0,0:15:58.86,0:16:04.28,DefaultOnibe,listener_mail,0,0,0,,"Previously only feeling validation from others, like with her selfie account,"
+Dialogue: 0,0:16:04.28,0:16:06.45,DefaultOnibe,listener_mail,0,0,0,,"she finally realized, 'I'm fine just as I am.'"
 Dialogue: 0,0:16:06.45,0:16:11.02,DefaultOnibe,listener_mail,0,0,0,,"'My world and the way I express myself can be as free as I want them to be.'"
-Dialogue: 0,0:16:11.02,0:16:16.16,DefaultOnibe,listener_mail,0,0,0,,"Seeing Ena's world gradually become more colorful and her eyes start to sparkle,"
+Dialogue: 0,0:16:11.02,0:16:16.16,DefaultOnibe,listener_mail,0,0,0,,"Ena's world gradually becomes more colorful and her eyes start to sparkle,"
 Dialogue: 0,0:16:16.16,0:16:22.08,DefaultOnibe,listener_mail,0,0,0,,"all as she finds her joy in painting. I connected with that moment thanks to your voice, Minori-san,"
 Dialogue: 0,0:16:22.08,0:16:23.30,DefaultOnibe,listener_mail,0,0,0,,"It moved me to tears."
 Dialogue: 0,0:16:23.30,0:16:27.42,DefaultOnibe,listener_mail,0,0,0,,"I want to continue watching over and supporting Ena,"
@@ -169,10 +169,9 @@ Dialogue: 0,0:35:31.62,0:35:39.15,DefaultOnibe,host,0,0,0,,As a child, she was s
 Dialogue: 0,0:35:39.15,0:35:49.42,DefaultOnibe,host,0,0,0,,And in that world was her father, and he was someone she looked up to.
 Dialogue: 0,0:35:49.42,0:35:52.60,DefaultOnibe,host,0,0,0,,Someone who creates amazing things.
 Dialogue: 0,0:35:54.12,0:36:00.91,DefaultOnibe,host,0,0,0,,I imagined Ena talking to him as just this mass of pure light.
-Dialogue: 0,0:36:00.91,0:36:14.62,DefaultOnibe,host,0,0,0,,I played that scene keeping in mind that feeling of wonder and delight Ena had for her father and the art he created.
+Dialogue: 0,0:36:00.91,0:36:14.62,DefaultOnibe,host,0,0,0,,So I played that scene with Ena's feeling of wonder and delight she had for her father and his art.
 Dialogue: 0,0:36:14.62,0:36:21.22,DefaultOnibe,host,0,0,0,,And because of that, I could continue acting Ena's drawing scene,
 Dialogue: 0,0:36:21.22,0:36:25.68,DefaultOnibe,host,0,0,0,,while keeping that same wonderful and sparkling feeling.
-Comment: 0,0:36:25.68,0:36:37.36,DefaultOnibe,host,0,0,0,,[WIP split] Playing that scene with Ena being able to draw with so much joy while embracing those feelings she had watching her father was really important to me.
 Dialogue: 0,0:36:25.68,0:36:33.78,DefaultOnibe,host,0,0,0,,Playing that scene with Ena painting with so much joy, remembering those feelings she had watching her father,
 Dialogue: 0,0:36:33.78,0:36:37.36,DefaultOnibe,host,0,0,0,,that was really important to me.
 Dialogue: 0,0:36:38.12,0:36:41.22,DefaultOnibe,host,0,0,0,,And for the first time, she could honestly say, "I'm having fun."
@@ -193,7 +192,8 @@ Dialogue: 0,0:37:43.15,0:37:45.20,DefaultOnibe,host,0,0,0,,well, "pay off" is ov
 Dialogue: 0,0:37:45.20,0:37:46.20,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:37:48.16,0:37:59.24,DefaultOnibe,host,0,0,0,,I was so happy that I cried for her as Minori Suzuki. I was like "Good for you!"
 Dialogue: 0,0:37:59.24,0:38:04.24,DefaultOnibe,host,0,0,0,,And while reading, I felt Ena's relief that she finally made it here.
-Dialogue: 0,0:38:05.48,0:38:14.64,DefaultOnibe,host,0,0,0,,She could finally feel this simple feeling. She's worked so hard to come to this point and finally let go of all that tension and angst.
+Dialogue: 0,0:38:05.48,0:38:09.85,DefaultOnibe,host,0,0,0,,She could finally feel this simple feeling.
+Dialogue: 0,0:38:09.85,0:38:14.64,DefaultOnibe,host,0,0,0,,She's worked so hard to come to this point and finally let go of all that tension and angst.
 Dialogue: 0,0:38:15.36,0:38:17.28,DefaultOnibe,host,0,0,0,,Ah, sorry... I have plenty of tissues here.
 Comment: 0,0:38:18.12,0:38:23.64,DefaultOnibe,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:38:18.12,0:38:23.64,DefaultOnibe,host,0,0,0,,Yeah, I put all those feelings into the acting and the tears just started flowing naturally.
@@ -355,8 +355,10 @@ Dialogue: 0,0:51:18.62,0:51:23.30,DefaultOnibe,host,0,0,0,,But then I saw it was
 Dialogue: 0,0:51:23.30,0:51:32.58,DefaultOnibe,host,0,0,0,,Of course, I'm always happy when other characters get a lot of screen time for their fans, too.
 Dialogue: 0,0:51:32.58,0:51:41.08,DefaultOnibe,host,0,0,0,,But this MV put such a huge spotlight on Ena, and it matched the story so perfectly.
 Dialogue: 0,0:51:41.08,0:51:46.32,DefaultOnibe,host,0,0,0,,It really felt like it was capturing Ena's journey and current attitude.
-Dialogue: 0,0:51:46.32,0:51:51.26,DefaultOnibe,host,0,0,0,,As her voice actress, that made me so incredibly happy.
-Dialogue: 0,0:51:52.26,0:52:04.14,DefaultOnibe,host,0,0,0,,It's always been like this, but Ena's commissioned songs always feel like she's getting closer and closer to the surface.
+Dialogue: 0,0:51:46.32,0:51:51.61,DefaultOnibe,host,0,0,0,,As her voice actress, that made me so incredibly happy.
+Dialogue: 0,0:51:52.20,0:51:53.53,DefaultOnibe,,0,0,0,,Seeing her painting like that too.
+Dialogue: 0,0:51:53.53,0:51:55.62,DefaultOnibe,host,0,0,0,,You know, I feel this every time,
+Dialogue: 0,0:51:55.62,0:52:04.14,DefaultOnibe,host,0,0,0,,but Ena's commissioned songs always feel like she's getting closer and closer to the surface.
 Dialogue: 0,0:52:04.14,0:52:07.26,DefaultOnibe,host,0,0,0,,Well, that's just my own otaku analysis.
 Dialogue: 0,0:52:07.26,0:52:08.86,DefaultOnibe,host,0,0,0,,But things like that make me happy too.
 Dialogue: 0,0:52:08.86,0:52:15.22,DefaultOnibe,host,0,0,0,,I've only seen it a few times myself, so I want to sit down and watch it properly.
