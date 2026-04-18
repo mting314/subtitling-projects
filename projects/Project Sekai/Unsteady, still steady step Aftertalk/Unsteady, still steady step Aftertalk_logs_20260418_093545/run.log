@@ -1,0 +1,74 @@
+2026-04-18 09:35:45,155:INFO:autosub.cli: Saving log to projects\projects\Project Sekai\Unsteady, still steady step Aftertalk\Unsteady, still steady step Aftertalk_logs_20260418_093545\run.log
+2026-04-18 09:35:45,158:WARNING:autosub.core.profile: Profile proseka/leoneed.toml not found in profiles/local, profiles/examples, or profiles/.
+2026-04-18 09:35:45,158:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-04-18 09:35:45,158:INFO:autosub.pipeline.transcribe.main: Starting chirp_3 transcription for 2 segment(s) from projects\projects\Project Sekai\Unsteady, still steady step Aftertalk\Unsteady, still steady step Aftertalk.mkv
+2026-04-18 09:35:45,158:INFO:autosub.pipeline.transcribe.main: Submitting 2 transcription segment(s) with up to 2 concurrent worker(s)...
+2026-04-18 09:35:45,159:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 1 (start=00:00:00, end=00:39:10)...
+2026-04-18 09:35:45,159:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 2 (start=00:42:15, end=00:49:14)...
+2026-04-18 09:35:47,695:INFO:autosub.pipeline.transcribe.main: Segment 2 audio duration: 419.01 seconds
+2026-04-18 09:35:47,695:INFO:autosub.pipeline.transcribe.main: Uploading segment 2 audio to autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus...
+2026-04-18 09:35:47,695:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-04-18 09:35:47,695:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-04-18 09:36:33,940:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-18 09:36:33,969:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-18 09:36:34,128:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-18 09:36:34,138:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-18 09:36:34,536:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1324
+2026-04-18 09:36:36,934:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus...
+2026-04-18 09:36:36,986:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-18 09:36:37,126:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-18 09:36:37,489:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6a1fdbb9-0000-2dd0-8327-7474463f1225 for gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus. Polling every 15 seconds.
+2026-04-18 09:37:38,761:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6a1fdbb9-0000-2dd0-8327-7474463f1225 for gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus after 1m 01s.
+2026-04-18 09:38:39,941:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6a1fdbb9-0000-2dd0-8327-7474463f1225 for gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus after 2m 02s.
+2026-04-18 09:39:41,245:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6a1fdbb9-0000-2dd0-8327-7474463f1225 for gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus after 3m 03s.
+2026-04-18 09:39:41,709:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6a1fdbb9-0000-2dd0-8327-7474463f1225 for gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus completed in 3m 04s.
+2026-04-18 09:39:41,709:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-04-18 09:39:41,753:WARNING:autosub.pipeline.transcribe.main: Clamped 370 bogus word timestamp(s) from Chirp API response.
+2026-04-18 09:39:41,865:WARNING:autosub.pipeline.transcribe.main: Clamped 370 bogus segment word timestamp(s) from Chirp API response.
+2026-04-18 09:39:41,865:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/ecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady, still steady step Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus...
+2026-04-18 09:39:43,644:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-18 09:39:43,648:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-18 09:39:43,759:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-18 09:39:43,761:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-04-18 09:39:43,877:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2Fecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady%2C%20still%20steady%20step%20Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus?fields=name&prettyPrint=false HTTP/1.1" 200 145
+2026-04-18 09:39:43,990:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2Fecd8687d-6210-49bb-a3bd-485bd693beb4_Unsteady%2C%20still%20steady%20step%20Aftertalk_audio_bfc87316bc2b4a13ab67aadd4071f551.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-04-18 09:39:43,990:ERROR:autosub.cli: Failed during transcription (RuntimeError: One or more transcription segments failed: segment 1: [WinError 2] The system cannot find the file specified)
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\pipeline\transcribe\main.py", line 557, in transcribe
+    segment_results[segment.index] = future.result()
+                                     ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\pipeline\transcribe\main.py", line 263, in _transcribe_time_range
+    audio_path = audio.extract_audio(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\pipeline\transcribe\audio.py", line 59, in extract_audio
+    .run(capture_stdout=True, capture_stderr=True)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\ffmpeg\_run.py", line 313, in run
+    process = run_async(
+              ^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\ffmpeg\_run.py", line 284, in run_async
+    return subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\cli.py", line 967, in run
+    transcribe_main.transcribe(
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\pipeline\transcribe\main.py", line 566, in transcribe
+    raise RuntimeError(
+RuntimeError: One or more transcription segments failed: segment 1: [WinError 2] The system cannot find the file specified

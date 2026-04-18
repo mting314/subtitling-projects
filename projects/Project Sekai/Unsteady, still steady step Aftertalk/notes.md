@@ -27,4 +27,4 @@ uv run autosub run \
 - 野口瑠璃子 (Noguchi Ruriko) — 星乃一歌 (Ichika Hoshino)
 - 磯部花凛 (Isobe Karin) — 天馬咲希 (Saki Tenma)
 - 上田麗奈 (Ueda Reina) — 望月穂波 (Honami Mochizuki)
-- 中島由貴 (Nakajima Yuki) — 日野森志歩 (Shiho Hinomori)
+- 中島由貴 (Nakashima Yuki) — 日野森志歩 (Shiho Hinomori)
