@@ -13,7 +13,6 @@ uv run autosub run \
   "projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
   --profile proseka/leoneed \
   --backend chirp_3 \
-  --speakers 4 \
   --start 00:00:00 --end 00:39:10 \
   --start 00:42:15 --end 00:49:14 \
   --chunk-size 80 \
