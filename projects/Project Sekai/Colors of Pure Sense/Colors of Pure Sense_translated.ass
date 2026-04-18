@@ -16,9 +16,9 @@ Video File: Colors of Pure Sense.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 134
-Active Line: 143
-Video Position: 65571
+Scroll Position: 269
+Active Line: 285
+Video Position: 87602
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -173,13 +173,14 @@ Dialogue: 0,0:36:00.91,0:36:14.62,DefaultOnibe,host,0,0,0,,I played that scene k
 Dialogue: 0,0:36:14.62,0:36:21.22,DefaultOnibe,host,0,0,0,,And because of that, I could continue acting Ena's drawing scene,
 Dialogue: 0,0:36:21.22,0:36:25.68,DefaultOnibe,host,0,0,0,,while keeping that same wonderful and sparkling feeling.
 Comment: 0,0:36:25.68,0:36:37.36,DefaultOnibe,host,0,0,0,,[WIP split] Playing that scene with Ena being able to draw with so much joy while embracing those feelings she had watching her father was really important to me.
-Dialogue: 0,0:36:25.68,0:36:37.36,DefaultOnibe,host,0,0,0,,Playing that scene with Ena being able to draw with so much joy while embracing those feelings she had watching her father was really important to me.
+Dialogue: 0,0:36:25.68,0:36:33.78,DefaultOnibe,host,0,0,0,,Playing that scene with Ena painting with so much joy, remembering those feelings she had watching her father,
+Dialogue: 0,0:36:33.78,0:36:37.36,DefaultOnibe,host,0,0,0,,that was really important to me.
 Dialogue: 0,0:36:38.12,0:36:41.22,DefaultOnibe,host,0,0,0,,And for the first time, she could honestly say, "I'm having fun."
-Dialogue: 0,0:36:41.22,0:36:47.54,DefaultOnibe,host,0,0,0,,This is such an important point for Ena to reach.
+Dialogue: 0,0:36:41.22,0:36:47.54,DefaultOnibe,host,0,0,0,,That was such an important point for Ena to reach.
 Dialogue: 0,0:36:47.54,0:36:50.24,DefaultOnibe,host,0,0,0,,She's still on her journey, but she finally made it here.
 Dialogue: 0,0:36:51.32,0:36:53.52,DefaultOnibe,host,0,0,0,,And so— Oh, I'm gonna cry.
 Dialogue: 0,0:36:54.08,0:36:59.16,DefaultOnibe,host,0,0,0,,And so when— Ah, this is bad.
-Dialogue: 0,0:37:00.68,0:37:06.05,DefaultOnibe,host,0,0,0,,When I first saw the script at home, I cried so much.
+Dialogue: 0,0:37:00.68,0:37:06.05,DefaultOnibe,host,0,0,0,,When I first read the script at home, I cried so much.
 Dialogue: 0,0:37:06.05,0:37:07.54,DefaultOnibe,host,0,0,0,,I was just so happy for her.
 Dialogue: 0,0:37:07.54,0:37:10.08,DefaultOnibe,host,0,0,0,,Wah! This is a total broadcast accident.
 Dialogue: 0,0:37:12.42,0:37:17.04,DefaultOnibe,host,0,0,0,,It's been five years—well, not five years in Ena's timeline—
@@ -221,8 +222,8 @@ Dialogue: 0,0:40:07.05,0:40:07.75,DefaultOnibe,host,0,0,0,,All right.
 Dialogue: 0,0:40:08.34,0:40:15.18,DefaultOnibe,host,0,0,0,,Let's spend about four minutes looking at the card illustrations together.
 Dialogue: 0,0:40:15.18,0:40:23.38,DefaultOnibe,host_meta,0,0,0,,Before that, I have some comments about the costumes to share from the illustration team.
 Dialogue: 0,0:40:23.38,0:40:31.32,PiP,listener_mail,0,0,0,,{\pos(650,750)}"The theme of this story is Ena's struggle to get into art school,"
-Dialogue: 0,0:40:31.32,0:40:35.43,PiP,listener_mail,0,0,0,,{\pos(650,750)}"becoming discouraged after not getting the grades she was hoping for,"
-Dialogue: 0,0:40:35.43,0:40:37.52,PiP,listener_mail,0,0,0,,{\pos(650,750)}"but ultimately not giving up."
+Dialogue: 0,0:40:31.32,0:40:34.39,PiP,listener_mail,0,0,0,,{\pos(650,750)}"becoming discouraged after not getting the grades she was hoping for,"
+Dialogue: 0,0:40:34.39,0:40:37.52,PiP,listener_mail,0,0,0,,{\pos(650,750)}"but ultimately not giving up."
 Dialogue: 0,0:40:37.52,0:40:41.52,PiP,listener_mail,0,0,0,,{\pos(650,750)}"Our motif this time was an art apron over a school uniform,"
 Dialogue: 0,0:40:41.52,0:40:45.42,PiP,listener_mail,0,0,0,,{\pos(650,750)}"designed to capture Ena's look as a student preparing for entrance exams."
 Dialogue: 0,0:40:45.42,0:40:52.64,PiP,listener_mail,0,0,0,,{\pos(650,750)}"While she's had other apron outfits, this time we gave Ena a patched-up one."
@@ -252,7 +253,7 @@ Dialogue: 0,0:42:15.01,0:42:15.82,PiP,host,0,0,0,,{\pos(650,750)}So cute.
 Dialogue: 0,0:42:16.54,0:42:19.58,PiP,host,0,0,0,,{\pos(650,750)}And finally, Mafuyu— wait, oops.
 Dialogue: 0,0:42:20.38,0:42:22.49,PiP,host,0,0,0,,{\pos(650,750)}Ah, I can't long-press.
 Dialogue: 0,0:42:22.49,0:42:23.20,PiP,host,0,0,0,,{\pos(650,750)}There we go.
-Dialogue: 0,0:42:23.62,0:42:25.14,PiP,host,0,0,0,,{\pos(650,750)}She's holding the apron.
+Dialogue: 0,0:42:23.62,0:42:25.14,PiP,host,0,0,0,,{\pos(650,750)}She's holding her apron.
 Dialogue: 0,0:42:25.14,0:42:26.50,PiP,host,0,0,0,,{\pos(650,750)}Yes, so adorable.
 Dialogue: 0,0:42:27.18,0:42:29.68,PiP,host,0,0,0,,{\pos(650,750)}Thank you so much.
 Dialogue: 0,0:42:29.68,0:42:34.94,PiP,host,0,0,0,,{\pos(650,750)}So, you've seen the untrained and trained illustrations...
@@ -271,7 +272,7 @@ Dialogue: 0,0:43:21.07,0:43:24.72,DefaultOnibe,host,0,0,0,,But before this event
 Dialogue: 0,0:43:24.72,0:43:31.98,DefaultOnibe,host,0,0,0,,and I passed an actual art prep school, the kind Ena would attend. It was just right there on the street.
 Dialogue: 0,0:43:31.98,0:43:43.82,DefaultOnibe,host,0,0,0,,I felt this intense tension just looking from the outside, and it reminded me how tough her world is.
 Dialogue: 0,0:43:43.82,0:43:46.34,DefaultOnibe,host,0,0,0,,And I put those thoughts into the recording.
-Dialogue: 0,0:43:46.34,0:43:57.62,DefaultOnibe,host,0,0,0,,Every day, I try to act in a way that conveys the reality of Ena's situation.
+Dialogue: 0,0:43:46.34,0:43:57.62,DefaultOnibe,host,0,0,0,,Even if it's just small things like that, every time I perform, I do my best to share Ena's world with everyone.
 Dialogue: 0,0:43:57.62,0:43:58.78,DefaultOnibe,host,0,0,0,,Thank you.
 Dialogue: 0,0:43:59.41,0:43:59.97,DefaultOnibe,host,0,0,0,,All right.
 Dialogue: 0,0:43:59.97,0:44:02.00,DefaultOnibe,host,0,0,0,,So...
