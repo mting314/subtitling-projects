@@ -15,10 +15,10 @@ Audio File: Unsteady, still steady step Aftertalk.mkv
 Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 60
-Active Line: 66
-Video Position: 25130
+Video Zoom Percent: 0.500000
+Scroll Position: 180
+Active Line: 194
+Video Position: 49659
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,7 +26,7 @@ Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,12,4,2,540,540,180,1
 Style: Note,Arial,144,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,6,2,30,30,30,1
 Style: Panel,Arial,144,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,6,6,5,30,30,30,1
-Style: Shiho,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,200,200,50,1
+Style: Shiho,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,6,2,2,300,300,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -166,106 +166,29 @@ Comment: 0,0:17:47.28,0:17:50.28,Shiho,,0,0,0,human,~~~START STORY WATCHALONG~~~
 Dialogue: 0,0:17:52.54,0:17:55.10,Shiho,,0,0,0,human,Nakashima-san, could you play guitar when you started learning bass?
 Dialogue: 0,0:17:55.10,0:17:55.63,Shiho,,0,0,0,human,Nope.
 Dialogue: 0,0:17:57.26,0:17:59.24,Shiho,,0,0,0,human,I gave up on guitar pretty quick.
-Dialogue: 0,0:17:58.96,0:18:03.24,Shiho,,0,0,0,autosub,She said she looked into everything she possibly could on her own.
-Dialogue: 0,0:18:04.72,0:18:08.40,Shiho,,0,0,0,autosub,She understands how both sides of the audience feel now.
 Dialogue: 0,0:18:10.62,0:18:14.05,Shiho,,0,0,0,human,Speaking of Hona-chan as a leader,
 Dialogue: 0,0:18:14.05,0:18:18.82,Shiho,,0,0,0,human,her coming at it from the perspective of "which one will make our fans the happiest?"
 Dialogue: 0,0:18:18.82,0:18:20.75,Shiho,,0,0,0,human,and getting the others' opinions.
 Dialogue: 0,0:18:20.75,0:18:24.64,Shiho,,0,0,0,human,Actually going out of her way to understand everyone's perspective,
 Dialogue: 0,0:18:24.64,0:18:31.34,Shiho,,0,0,0,human,I think that's incredible. Shows her determination as a leader.
-Dialogue: 0,0:18:44.47,0:18:44.97,Shiho,,0,0,0,autosub,That is why
-Dialogue: 0,0:18:47.48,0:18:50.64,Shiho,,0,0,0,autosub,she needs to make up her mind.
 Dialogue: 0,0:18:52.05,0:18:58.45,Shiho,,0,0,0,human,It's impressive that she realizes she needs to decide this based on her own feelings,
 Dialogue: 0,0:18:58.45,0:19:01.85,Shiho,,0,0,0,human,but also realizing that can't keep everyone waiting forever.
-Dialogue: 0,0:19:03.23,0:19:03.73,Shiho,,0,0,0,autosub,Look.
-Dialogue: 0,0:19:04.28,0:19:08.72,Shiho,,0,0,0,autosub,The fans will definitely be happy with a new song for the one-man.
-Dialogue: 0,0:19:09.56,0:19:14.68,Shiho,,0,0,0,autosub,And she thinks Saki-chan and Shiho-chan would surely want to do that too.
-Dialogue: 0,0:19:15.87,0:19:16.37,Shiho,,0,0,0,autosub,However,
-Dialogue: 0,0:19:19.32,0:19:22.04,Shiho,,0,0,0,autosub,I really love this song.
 Dialogue: 0,0:19:23.29,0:19:26.05,Shiho,,0,0,0,human,Chapter 7 was also really good.
-Dialogue: 0,0:19:31.44,0:19:36.40,Shiho,,0,0,0,autosub,She wants people who love Virtual Singers to hear their music too.
-Dialogue: 0,0:19:38.28,0:19:41.04,Shiho,,0,0,0,autosub,Ichika-chan surely feels the same way.
 Dialogue: 0,0:19:41.80,0:19:44.92,Shiho,,0,0,0,human,Overthinking makes it tougher to choose.
-Dialogue: 0,0:19:44.92,0:19:46.88,Shiho,,0,0,0,autosub,If I have to choose one,
-Dialogue: 0,0:19:48.72,0:19:49.24,Shiho,,0,0,0,autosub,then I...
-Dialogue: 0,0:19:52.64,0:19:54.56,Shiho,,0,0,0,autosub,What I choose is...
-Dialogue: 0,0:20:00.89,0:20:01.39,Shiho,,0,0,0,autosub,Wait?
-Dialogue: 0,0:20:02.12,0:20:03.04,Shiho,,0,0,0,autosub,Shindo-san?
-Dialogue: 0,0:20:06.36,0:20:08.08,Shiho,,0,0,0,autosub,Good work today.
-Dialogue: 0,0:20:09.32,0:20:10.20,Shiho,,0,0,0,autosub,Good work.
 Dialogue: 0,0:20:10.77,0:20:14.08,Shiho,,0,0,0,human,Ah, it's that scene I mentioned laughing about.
 Dialogue: 0,0:20:14.08,0:20:17.41,Shiho,,0,0,0,human,Shindo-san's comparatively large frame here.
 Dialogue: 0,0:20:17.41,0:20:20.41,Shiho,,0,0,0,human,I was like "woah".
 Comment: 0,0:20:20.81,0:20:21.31,Shiho,,0,0,0,autosub,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:20:20.81,0:20:21.31,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:20:21.88,0:20:22.44,Shiho,,0,0,0,autosub,Actually,
-Dialogue: 0,0:20:24.40,0:20:28.12,Shiho,,0,0,0,autosub,the request for the new song for the Fan Festa has been withdrawn.
-Dialogue: 0,0:20:30.13,0:20:30.63,Shiho,,0,0,0,autosub,?
-Dialogue: 0,0:20:33.44,0:20:35.08,Shiho,,0,0,0,autosub,Please, don't be alarmed.
-Dialogue: 0,0:20:36.00,0:20:38.56,Shiho,,0,0,0,autosub,It wasn't due to any fault on our part.
-Dialogue: 0,0:20:39.80,0:20:41.84,Shiho,,0,0,0,autosub,The representative just contacted me.
-Dialogue: 0,0:20:42.76,0:20:45.68,Shiho,,0,0,0,autosub,It seems they heard back from the creator who was ill.
-Dialogue: 0,0:20:46.55,0:20:47.05,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:20:47.60,0:20:51.24,Shiho,,0,0,0,autosub,So you mean the person who was originally in charge of the song?
-Dialogue: 0,0:20:51.24,0:20:51.99,Shiho,,0,0,0,autosub,Yes.
 Dialogue: 0,0:20:55.44,0:20:57.19,Shiho,,0,0,0,human,
-Dialogue: 0,0:21:01.04,0:21:04.88,Shiho,,0,0,0,autosub,It sounded like they were ready to prostrate themselves over the phone.
-Dialogue: 0,0:21:05.59,0:21:06.09,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:21:06.60,0:21:08.00,Shiho,,0,0,0,autosub,I see.
-Dialogue: 0,0:21:09.64,0:21:12.44,Shiho,,0,0,0,autosub,But I'm glad they're feeling better.
-Dialogue: 0,0:21:13.56,0:21:17.28,Shiho,,0,0,0,autosub,It is a bit disappointing that the offer fell through, though.
-Dialogue: 0,0:21:18.92,0:21:19.64,Shiho,,0,0,0,autosub,True.
-Dialogue: 0,0:21:20.68,0:21:23.32,Shiho,,0,0,0,autosub,However, we actually received a new request.
-Dialogue: 0,0:21:24.04,0:21:25.04,Shiho,,0,0,0,autosub,A new one?
 Dialogue: 0,0:21:33.05,0:21:35.29,Shiho,,0,0,0,human,Good for them.
 Dialogue: 0,0:21:35.29,0:21:38.01,Shiho,,0,0,0,human,This is an amazing opportunity for them.
-Dialogue: 0,0:21:39.53,0:21:40.03,Shiho,,0,0,0,autosub,?
-Dialogue: 0,0:21:42.96,0:21:47.48,Shiho,,0,0,0,autosub,It's a bit further out, but I think we should consider it positively.
-Dialogue: 0,0:21:48.24,0:21:51.48,Shiho,,0,0,0,autosub,Since it's in the future, there shouldn't be any scheduling issues.
-Dialogue: 0,0:21:53.04,0:21:53.64,Shiho,,0,0,0,autosub,I understand.
-Dialogue: 0,0:21:54.52,0:21:58.44,Shiho,,0,0,0,autosub,I'll talk to the rest of the members about it.
-Dialogue: 0,0:21:59.48,0:22:00.16,Shiho,,0,0,0,autosub,Please do.
-Dialogue: 0,0:22:00.92,0:22:05.08,Shiho,,0,0,0,autosub,There's no rush, so feel free to take your time deciding.
 Dialogue: 0,0:22:11.34,0:22:14.47,Shiho,,0,0,0,human,
 Dialogue: 0,0:22:16.10,0:22:17.93,Shiho,,0,0,0,human,
-Dialogue: 0,0:22:18.79,0:22:19.29,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:22:20.24,0:22:22.16,Shiho,,0,0,0,autosub,I think it couldn't be helped.
-Dialogue: 0,0:22:23.40,0:22:26.68,Shiho,,0,0,0,autosub,Besides, I'm glad we found out before we officially accepted.
-Dialogue: 0,0:22:28.08,0:22:30.36,Shiho,,0,0,0,autosub,I'm relieved to hear you say that.
-Dialogue: 0,0:22:31.80,0:22:39.48,Shiho,,0,0,0,autosub,I'll do my best to support you so you can focus on the one-man live and the new songs.
-Dialogue: 0,0:22:41.88,0:22:42.48,Shiho,,0,0,0,autosub,We're counting on you.
-Dialogue: 0,0:22:45.56,0:22:46.20,Shiho,,0,0,0,autosub,That's good.
-Dialogue: 0,0:22:50.92,0:22:52.32,Shiho,,0,0,0,autosub,Right now, I...
-Dialogue: 0,0:22:54.40,0:22:58.16,Shiho,,0,0,0,autosub,Well then, I'll leave contacting the other members to you.
-Dialogue: 0,0:22:59.92,0:23:02.92,Shiho,,0,0,0,autosub,I'll get in touch with the staff for the one-man live.
-Dialogue: 0,0:23:03.96,0:23:06.12,Shiho,,0,0,0,autosub,I want to proceed with the setlist that includes the new song.
-Dialogue: 0,0:23:07.53,0:23:08.03,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:23:08.54,0:23:09.04,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:23:09.04,0:23:10.00,Shiho,,0,0,0,autosub,I'll let them know.
-Dialogue: 0,0:23:11.36,0:23:12.36,Shiho,,0,0,0,autosub,Thank you very much.
-Dialogue: 0,0:23:13.24,0:23:14.88,Shiho,,0,0,0,autosub,I'll be going now.
-Dialogue: 0,0:23:20.72,0:23:21.40,Shiho,,0,0,0,autosub,I...
-Dialogue: 0,0:23:28.08,0:23:31.52,Shiho,,0,0,0,autosub,I feel so relieved right now.
-Dialogue: 0,0:23:32.37,0:23:32.87,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:23:35.08,0:23:35.64,Shiho,,0,0,0,autosub,Yeah.
-Dialogue: 0,0:23:36.32,0:23:38.92,Shiho,,0,0,0,autosub,I'm just so relieved.
-Dialogue: 0,0:23:44.20,0:23:54.36,Shiho,,0,0,0,autosub,I thought I had to make a choice, that I had to pick one over the other, but now that I don't have to...
-Dialogue: 0,0:23:56.32,0:23:57.32,Shiho,,0,0,0,autosub,I'm just glad.
 Dialogue: 0,0:23:58.00,0:24:00.09,Shiho,,0,0,0,human,
 Dialogue: 0,0:24:02.94,0:24:04.23,Shiho,,0,0,0,human,
 Dialogue: 0,0:24:04.23,0:24:05.45,Shiho,,0,0,0,human,
 Dialogue: 0,0:24:05.45,0:24:08.45,Shiho,,0,0,0,human,
-Dialogue: 0,0:24:17.05,0:24:17.69,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:24:19.48,0:24:24.12,Shiho,,0,0,0,autosub,Times when I'll have to make a decision where there is no right answer.
-Dialogue: 0,0:24:24.84,0:24:25.36,Shiho,,0,0,0,autosub,That's why...
-Dialogue: 0,0:24:28.40,0:24:30.08,Shiho,,0,0,0,autosub,I need to become someone who can make those choices.
-Dialogue: 0,0:24:31.09,0:24:31.73,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:24:31.73,0:24:33.48,Shiho,,0,0,0,autosub,So that I can lead everyone.
-Dialogue: 0,0:24:35.56,0:24:37.20,Shiho,,0,0,0,autosub,She's leading herself.
-Dialogue: 0,0:24:37.20,0:24:40.16,Shiho,,0,0,0,autosub,As the leader of Leo/need.
 Comment: 0,0:24:43.98,0:24:46.98,Note,,0,0,0,human,~~~END STORY WATCHALONG~~~
-Dialogue: 0,0:24:44.79,0:24:45.29,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:24:48.17,0:24:48.83,Shiho,,0,0,0,autosub,.
 Dialogue: 0,0:24:48.92,0:24:52.05,Shiho,,0,0,0,human,That was Chapter 8.
 Dialogue: 0,0:24:52.05,0:25:00.83,Shiho,,0,0,0,human,So my favorite, or most memorable part was that part just before,
 Dialogue: 0,0:25:00.83,0:25:03.46,Shiho,,0,0,0,human,when Honami was thinking,
@@ -281,27 +204,26 @@ Dialogue: 0,0:25:36.18,0:25:44.31,Shiho,,0,0,0,human,I definitely feel that Hona
 Dialogue: 0,0:25:44.31,0:25:49.12,Shiho,,0,0,0,human,but at the same time, I kept hoping that things wouldn't get too serious.
 Dialogue: 0,0:25:49.12,0:25:55.73,Shiho,,0,0,0,human,I was worried that Honami-chan might panic if she really did have to make that tough decision.
 Dialogue: 0,0:25:55.73,0:25:58.65,Shiho,,0,0,0,human,So that was our scene for today.
-Dialogue: 0,0:25:59.04,0:26:07.02,Shiho,,0,0,0,autosub,This time, the offer was almost withdrawn, but then they were told they could have a slot...
-Dialogue: 0,0:26:07.02,0:26:17.84,Shiho,,0,0,0,autosub,You might feel lucky, but if it was withdrawn without a second chance, you'd definitely regret not speaking up sooner.
+Dialogue: 0,0:25:59.04,0:26:02.95,Shiho,,0,0,0,autosub,This time, they got a bit lucky and the original creator was able to step back in,
+Dialogue: 0,0:26:02.95,0:26:07.02,Shiho,,0,0,0,autosub,but then they were told they would be considered next time...
+Dialogue: 0,0:26:07.02,0:26:17.84,Shiho,,0,0,0,autosub,So Honami might think "that was lucky", but if it was withdrawn without a second chance, she'd definitely regret not speaking up sooner.
 Dialogue: 0,0:26:18.48,0:26:21.34,Shiho,,0,0,0,autosub,Decisions like that are really difficult.
 Dialogue: 0,0:26:21.34,0:26:28.16,Shiho,,0,0,0,autosub,But there are many times in life when you have to make those kinds of choices.
 Dialogue: 0,0:26:28.16,0:26:33.44,Shiho,,0,0,0,autosub,I'm not sure how Honami will make her choices from now on, or
 Dialogue: 0,0:26:33.44,0:26:37.50,Shiho,,0,0,0,autosub,what kind of path Leo/need will take, but
-Dialogue: 0,0:26:37.50,0:26:45.94,Shiho,,0,0,0,autosub,I want to keep watching over them. I hope they don't end up on bad terms or
-Dialogue: 0,0:26:45.94,0:26:50.76,Shiho,,0,0,0,autosub,have their mental health suffer.
+Dialogue: 0,0:26:37.50,0:26:41.75,Shiho,,0,0,0,autosub,I want to keep watching over them. I hope they don't end up on bad terms or
+Dialogue: 0,0:26:41.75,0:26:45.94,Shiho,,0,0,0,autosub,And I pray they don't end up on bad terms,
+Dialogue: 0,0:26:45.94,0:26:50.76,Shiho,,0,0,0,autosub,or have their mental health suffer.
 Dialogue: 0,0:26:52.52,0:26:56.32,Shiho,,0,0,0,autosub,I honestly don't know what kind of story is waiting for us either.
-Dialogue: 0,0:26:57.04,0:26:57.56,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:26:58.36,0:26:59.08,Shiho,,0,0,0,autosub,That's just how it is.
-Dialogue: 0,0:26:59.08,0:27:05.28,Shiho,,0,0,0,autosub,Project Sekai event stories always leave some kind of foreshadowing.
+Dialogue: 0,0:26:58.36,0:27:05.63,Shiho,,0,0,0,autosub,Yeah. Project Sekai event stories always leave some kind of foreshadowing.
 Dialogue: 0,0:27:06.08,0:27:08.32,Shiho,,0,0,0,autosub,It's only natural, since the story continues.
 Dialogue: 0,0:27:08.84,0:27:11.68,Shiho,,0,0,0,autosub,It's natural, but still...
-Dialogue: 0,0:27:13.00,0:27:15.16,Shiho,,0,0,0,autosub,I wish she could share some of Yukki's lightheartedness.
+Dialogue: 0,0:27:13.00,0:27:15.16,Shiho,,0,0,0,autosub,"Save some lightheartedness for the rest of us, Yukki!"
 Dialogue: 0,0:27:16.04,0:27:19.04,Shiho,,0,0,0,autosub,Well, maybe it's still too early for that.
 Dialogue: 0,0:27:20.44,0:27:22.32,Shiho,,0,0,0,autosub,They're still high school students, after all.
-Dialogue: 0,0:27:22.92,0:27:25.96,Shiho,,0,0,0,autosub,I want them to worry a lot,
+Dialogue: 0,0:27:22.92,0:27:25.96,Shiho,,0,0,0,autosub,I kind of want them to worry a lot,
 Dialogue: 0,0:27:26.84,0:27:29.60,Shiho,,0,0,0,autosub,and learn from their failures.
 Dialogue: 0,0:27:32.92,0:27:34.20,Shiho,,0,0,0,autosub,It'll be okay.
-Dialogue: 0,0:27:34.77,0:27:35.29,Shiho,,0,0,0,autosub,.
 Dialogue: 0,0:27:35.29,0:27:39.64,Shiho,,0,0,0,autosub,That said, there was one more scene that caught my eye personally.
 Dialogue: 0,0:27:39.64,0:27:44.82,Shiho,,0,0,0,autosub,It was in Episode 7, and it also appeared in the middle of Episode 8.
 Dialogue: 0,0:27:44.82,0:27:53.88,Shiho,,0,0,0,autosub,I really liked the part in Episode 7 where Honami and Ichika go to see Miku's concert. Ichika was more excited than usual.
