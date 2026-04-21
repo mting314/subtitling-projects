@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 228
-Active Line: 255
-Video Position: 51317
+Scroll Position: 286
+Active Line: 302
+Video Position: 56459
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -285,49 +285,53 @@ Dialogue: 0,0:28:19.12,0:28:22.26,Shiho,,0,0,0,autosub,So guys... you should go 
 Dialogue: 0,0:28:22.26,0:28:24.60,Shiho,,0,0,0,autosub,That part was super adorable.
 Dialogue: 0,0:28:26.12,0:28:27.56,Shiho,,0,0,0,autosub,I want to go to a Miku live too!
 Dialogue: 0,0:28:27.56,0:28:28.92,Shiho,,0,0,0,autosub,100%.
-Dialogue: 0,0:28:30.56,0:28:36.48,Shiho,,0,0,0,autosub,Back when the title was still "MikuPa," I'm from Wakayama,
-Dialogue: 0,0:28:36.48,0:28:39.68,Shiho,,0,0,0,autosub,and there was a concert there. I was just as excited as Ichika.
-Dialogue: 0,0:28:40.20,0:28:41.54,Shiho,,0,0,0,autosub,I was like, "It's Miku!"
-Dialogue: 0,0:28:41.54,0:28:42.82,Shiho,,0,0,0,autosub,"It's Miku!"
-Dialogue: 0,0:28:42.82,0:28:44.96,Shiho,,0,0,0,autosub,I was getting all hyped up like that.
-Dialogue: 0,0:28:45.55,0:28:46.14,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:28:46.14,0:28:49.30,Shiho,,0,0,0,autosub,I want everyone to experience that feeling too.
-Dialogue: 0,0:28:49.30,0:28:52.64,Shiho,,0,0,0,autosub,Anyway, I got a bit sidetracked again. This time,
-Dialogue: 0,0:28:52.64,0:28:55.80,Shiho,,0,0,0,autosub,I'd like to take a look at the card illustrations.
-Dialogue: 0,0:28:55.80,0:29:01.86,Shiho,,0,0,0,autosub,First, I'll share some comments from the illustration team regarding the outfits.
-Dialogue: 0,0:29:01.86,0:29:09.02,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance and weight of making decisions as a leader.
-Dialogue: 0,0:29:09.02,0:29:22.24,Shiho,,0,0,0,autosub,It's an episode about a leader's struggles, but the design reflects a positive outlook on the best choice for Leo/need.
+Dialogue: 0,0:28:30.56,0:28:34.92,Shiho,,0,0,0,autosub,Actually, back when the title was still "MikuPa,"
+Dialogue: 0,0:28:34.92,0:28:38.05,Shiho,,0,0,0,autosub,I'm originally from Wakayama, and there happened to be a live there.
+Dialogue: 0,0:28:38.05,0:28:40.20,Shiho,,0,0,0,autosub,I was just as excited as Ichika.
+Dialogue: 0,0:28:40.20,0:28:41.54,Shiho,,0,0,0,autosub,I was like, "It's Miku-chan!"
+Dialogue: 0,0:28:41.54,0:28:42.41,Shiho,,0,0,0,autosub,"Miku!"
+Dialogue: 0,0:28:43.01,0:28:44.96,Shiho,,0,0,0,autosub,I was super hyped for that.
+Dialogue: 0,0:28:45.55,0:28:49.30,Shiho,,0,0,0,autosub,I hope everyone gets a chance to be as excited as that.
+Dialogue: 0,0:28:49.30,0:28:51.52,Shiho,,0,0,0,autosub,Anyway, I got a bit sidetracked again.
+Dialogue: 0,0:28:51.52,0:28:55.80,Shiho,,0,0,0,,Now let's take a look at some fo look the card illustrations.
+Dialogue: 0,0:28:55.80,0:29:01.86,Shiho,,0,0,0,autosub,First, I'll share some comments from the illustration team about the outfits.
+Dialogue: 0,0:29:02.06,0:29:09.02,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance and weight of making decisions as a leader.
+Dialogue: 0,0:29:09.20,0:29:12.02,Shiho,,0,0,0,autosub,While the story showed her struggling with this decision,
+Dialogue: 0,0:29:12.02,0:29:22.24,Shiho,,0,0,0,autosub,the outfit design reflects a positive outlook on the best choice for Leo/need.
+Comment: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,[WIP] check these translation
 Dialogue: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,Inspired by the rhythmic song, it captures a lightheartedness that keeps moving forward, with a sweet cuteness rare for the band.
 Dialogue: 0,0:29:27.00,0:29:32.16,Shiho,,0,0,0,autosub,The design features pop and cute star patterns along with casual sneakers.
-Dialogue: 0,0:29:32.72,0:29:41.06,Shiho,,0,0,0,autosub,To show them choosing their path, each of the three has a planisphere-like element in their outfit.
+Dialogue: 0,0:29:32.72,0:29:36.78,Shiho,,0,0,0,autosub,Also, to symbolize Leo/need choosing their path as a band,
+Dialogue: 0,0:29:36.78,0:29:41.06,Shiho,,0,0,0,autosub,each of the three has a star chart-like element in their outfit.
 Dialogue: 0,0:29:41.06,0:29:45.72,Shiho,,0,0,0,autosub,We also incorporated items where the color palette is meant to resemble a compass.
 Dialogue: 0,0:29:46.40,0:29:51.40,Shiho,,0,0,0,autosub,This palette represents the choice between Leo/need's new song and Miku's song,
-Dialogue: 0,0:29:51.40,0:29:59.64,Shiho,,0,0,0,autosub,symbolizing the many choices that will continue to appear in the future.
-Dialogue: 0,0:29:59.64,0:30:00.32,Shiho,,0,0,0,autosub,Let's take a look.
-Dialogue: 0,0:30:01.56,0:30:04.52,Shiho,,0,0,0,autosub,Now, where should we start?
-Dialogue: 0,0:30:05.56,0:30:06.64,Shiho,,0,0,0,autosub,From where?
-Dialogue: 0,0:30:07.44,0:30:09.72,Shiho,,0,0,0,autosub,Do we usually start with the 4-stars?
-Dialogue: 0,0:30:10.48,0:30:12.12,Shiho,,0,0,0,autosub,Let's start with the 4-stars then.
-Dialogue: 0,0:30:12.72,0:30:13.70,Shiho,,0,0,0,autosub,Here they are.
-Dialogue: 0,0:30:13.70,0:30:18.36,Shiho,,0,0,0,autosub,This is the card illustration for the scene that appeared in Episode 8.
-Dialogue: 0,0:30:18.36,0:30:19.72,Shiho,,0,0,0,autosub,This is the pre-training version.
-Dialogue: 0,0:30:20.24,0:30:28.84,Shiho,,0,0,0,autosub,Honami has a bit of a surprised look on her face, but that smartphone case is so soothing.
-Dialogue: 0,0:30:30.84,0:30:33.72,Shiho,,0,0,0,autosub,Is that a Shiba Inu on it?
+Dialogue: 0,0:29:51.40,0:29:59.46,Shiho,,0,0,0,autosub,representing the many choices that will have to make in the future.
+Dialogue: 0,0:29:59.46,0:30:00.32,Shiho,,0,0,0,autosub,Let's take a look.
+Dialogue: 0,0:30:01.56,0:30:04.02,Shiho,,0,0,0,autosub,Alright, so...
+Dialogue: 0,0:30:05.56,0:30:06.64,Shiho,,0,0,0,autosub,Who should we start from?
+Dialogue: 0,0:30:07.44,0:30:09.99,Shiho,,0,0,0,autosub,Do we usually start with the 4-stars?
+Dialogue: 0,0:30:10.48,0:30:12.31,Shiho,,0,0,0,autosub,Let's start with the 4-stars then.
+Dialogue: 0,0:30:12.83,0:30:13.70,Shiho,,0,0,0,autosub,Here's Honami.
+Dialogue: 0,0:30:13.70,0:30:18.36,Shiho,,0,0,0,autosub,This is from that scene in Episode 8.
+Dialogue: 0,0:30:18.36,0:30:19.72,Shiho,,0,0,0,autosub,This is the untrained.
+Dialogue: 0,0:30:20.24,0:30:25.42,Shiho,,0,0,0,autosub,Hmm. Honami has a bit of a stunned look on her face,
+Dialogue: 0,0:30:25.42,0:30:28.84,Shiho,,0,0,0,autosub,{\i1}but{\i0} her smartphone case is super soothing.
+Dialogue: 0,0:30:30.84,0:30:34.28,Shiho,,0,0,0,autosub,Is that a Shiba Inu on it?
 Dialogue: 0,0:30:34.28,0:30:36.40,Shiho,,0,0,0,autosub,It looks like one. It's very comforting.
-Dialogue: 0,0:30:38.00,0:30:39.44,Shiho,,0,0,0,autosub,And here is the post-training version.
-Dialogue: 0,0:30:39.44,0:30:40.56,Shiho,,0,0,0,autosub,Oh, this is nice.
-Dialogue: 0,0:30:42.12,0:30:48.68,Shiho,,0,0,0,autosub,This one is in portrait orientation. It looks even better when you view it that way.
-Dialogue: 0,0:30:50.36,0:30:55.54,Shiho,,0,0,0,autosub,Leo/need hasn't really had anything this pop and cute until now.
-Dialogue: 0,0:30:55.54,0:30:56.23,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:30:57.80,0:30:59.00,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:30:59.00,0:31:01.20,Shiho,,0,0,0,autosub,There's so much detail in it.
-Dialogue: 0,0:31:01.84,0:31:04.92,Shiho,,0,0,0,autosub,And look, there's a dog in the building in the background.
-Dialogue: 0,0:31:07.24,0:31:09.80,Shiho,,0,0,0,autosub,I love it. There's a compass on the bag too.
+Dialogue: 0,0:30:38.00,0:30:39.44,Shiho,,0,0,0,autosub,And here's the trained art.
+Dialogue: 0,0:30:39.44,0:30:40.91,Shiho,,0,0,0,autosub,Very nice.
+Dialogue: 0,0:30:42.12,0:30:44.62,Shiho,,0,0,0,autosub,It's kind of a portrait shot, isn't it.
+Dialogue: 0,0:30:44.62,0:30:49.03,Shiho,,0,0,0,autosub,It looks even better when you view it that way.
+Dialogue: 0,0:30:50.36,0:30:55.54,Shiho,,0,0,0,autosub,Now that you mention it, yeah, Leo/need hasn't really had anything this pop and cute yet.
+Dialogue: 0,0:30:57.80,0:30:59.00,Shiho,,0,0,0,autosub,I want it.
+Dialogue: 0,0:30:59.00,0:31:01.20,Shiho,,0,0,0,autosub,So many stars dotted around
+Dialogue: 0,0:31:01.84,0:31:05.27,Shiho,,0,0,0,autosub,And look, there's a dog in the building in the background.
+Dialogue: 0,0:31:07.24,0:31:09.80,Shiho,,0,0,0,autosub,Oh yeah, and there's a compass on the bag too.
 Comment: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,autosub,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,autosub,...
-Dialogue: 0,0:31:12.92,0:31:17.08,Shiho,,0,0,0,autosub,So, this is Honami's post-training art.
-Dialogue: 0,0:31:17.08,0:31:19.76,Shiho,,0,0,0,autosub,And the can is actually apple juice.
-Dialogue: 0,0:31:20.32,0:31:20.96,Shiho,,0,0,0,autosub,.
+Dialogue: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,autosub,So stylish!
+Dialogue: 0,0:31:12.92,0:31:17.08,Shiho,,0,0,0,autosub,So, that was the Honami training art.
+Dialogue: 0,0:31:17.08,0:31:19.76,Shiho,,0,0,0,autosub,Wait, that's a apple badge, isn't it?
+Dialogue: 0,0:31:20.32,0:31:20.96,Shiho,,0,0,0,autosub,Cute~
 Dialogue: 0,0:31:21.96,0:31:22.72,Shiho,,0,0,0,autosub,It's so good.
 Dialogue: 0,0:31:24.44,0:31:27.08,Shiho,,0,0,0,autosub,Moving on...
 Dialogue: 0,0:31:28.24,0:31:30.60,Shiho,,0,0,0,autosub,Ichika's training art.
