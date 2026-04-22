@@ -15,10 +15,10 @@ Audio File: Unsteady, still steady step Aftertalk.mkv
 Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 286
-Active Line: 302
-Video Position: 56459
+Video Zoom Percent: 0.375000
+Scroll Position: 314
+Active Line: 326
+Video Position: 58588
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -313,54 +313,49 @@ Dialogue: 0,0:30:07.44,0:30:09.99,Shiho,,0,0,0,autosub,Do we usually start with 
 Dialogue: 0,0:30:10.48,0:30:12.31,Shiho,,0,0,0,autosub,Let's start with the 4-stars then.
 Dialogue: 0,0:30:12.83,0:30:13.70,Shiho,,0,0,0,autosub,Here's Honami.
 Dialogue: 0,0:30:13.70,0:30:18.36,Shiho,,0,0,0,autosub,This is from that scene in Episode 8.
-Dialogue: 0,0:30:18.36,0:30:19.72,Shiho,,0,0,0,autosub,This is the untrained.
-Dialogue: 0,0:30:20.24,0:30:25.42,Shiho,,0,0,0,autosub,Hmm. Honami has a bit of a stunned look on her face,
+Dialogue: 0,0:30:18.36,0:30:20.24,Shiho,,0,0,0,autosub,This is the untrained.
+Dialogue: 0,0:30:20.24,0:30:25.42,Shiho,,0,0,0,autosub,Hmm. Honami has a bit of a stunned look here,
 Dialogue: 0,0:30:25.42,0:30:28.84,Shiho,,0,0,0,autosub,{\i1}but{\i0} her smartphone case is super soothing.
-Dialogue: 0,0:30:30.84,0:30:34.28,Shiho,,0,0,0,autosub,Is that a Shiba Inu on it?
-Dialogue: 0,0:30:34.28,0:30:36.40,Shiho,,0,0,0,autosub,It looks like one. It's very comforting.
+Dialogue: 0,0:30:30.84,0:30:34.28,Shiho,,0,0,0,autosub,Is that a Shiba Inu?
+Dialogue: 0,0:30:34.28,0:30:36.40,Shiho,,0,0,0,autosub,It looks like one. Very comforting.
 Dialogue: 0,0:30:38.00,0:30:39.44,Shiho,,0,0,0,autosub,And here's the trained art.
 Dialogue: 0,0:30:39.44,0:30:40.91,Shiho,,0,0,0,autosub,Very nice.
 Dialogue: 0,0:30:42.12,0:30:44.62,Shiho,,0,0,0,autosub,It's kind of a portrait shot, isn't it.
-Dialogue: 0,0:30:44.62,0:30:49.03,Shiho,,0,0,0,autosub,It looks even better when you view it that way.
-Dialogue: 0,0:30:50.36,0:30:55.54,Shiho,,0,0,0,autosub,Now that you mention it, yeah, Leo/need hasn't really had anything this pop and cute yet.
-Dialogue: 0,0:30:57.80,0:30:59.00,Shiho,,0,0,0,autosub,I want it.
-Dialogue: 0,0:30:59.00,0:31:01.20,Shiho,,0,0,0,autosub,So many stars dotted around
-Dialogue: 0,0:31:01.84,0:31:05.27,Shiho,,0,0,0,autosub,And look, there's a dog in the building in the background.
-Dialogue: 0,0:31:07.24,0:31:09.80,Shiho,,0,0,0,autosub,Oh yeah, and there's a compass on the bag too.
+Dialogue: 0,0:30:44.62,0:30:49.03,Shiho,,0,0,0,autosub,It looks really good if you turn it that way.
+Dialogue: 0,0:30:50.36,0:30:55.54,Shiho,,0,0,0,autosub,Now I think about it, Leo/need hasn't really had anything this pop and cute yet.
+Dialogue: 0,0:30:57.80,0:30:59.00,Shiho,,0,0,0,autosub,Oh yeah, and the stars.
+Dialogue: 0,0:30:59.00,0:31:01.20,Shiho,,0,0,0,autosub,So many stars all over the art.
+Dialogue: 0,0:31:01.84,0:31:05.27,Shiho,,0,0,0,autosub,And look, there's a dog on that building signboard in the background.
+Dialogue: 0,0:31:07.24,0:31:09.80,Shiho,,0,0,0,autosub,Oh yeah, and she has a compass on the bag too.
 Comment: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,autosub,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,autosub,So stylish!
-Dialogue: 0,0:31:12.92,0:31:17.08,Shiho,,0,0,0,autosub,So, that was the Honami training art.
+Dialogue: 0,0:31:12.92,0:31:17.08,Shiho,,0,0,0,autosub,So, that was the Honami trained art.
 Dialogue: 0,0:31:17.08,0:31:19.76,Shiho,,0,0,0,autosub,Wait, that's a apple badge, isn't it?
 Dialogue: 0,0:31:20.32,0:31:20.96,Shiho,,0,0,0,autosub,Cute~
-Dialogue: 0,0:31:21.96,0:31:22.72,Shiho,,0,0,0,autosub,It's so good.
-Dialogue: 0,0:31:24.44,0:31:27.08,Shiho,,0,0,0,autosub,Moving on...
-Dialogue: 0,0:31:28.24,0:31:30.60,Shiho,,0,0,0,autosub,Ichika's training art.
-Dialogue: 0,0:31:30.60,0:31:32.28,Shiho,,0,0,0,autosub,This was in Episode 7.
-Dialogue: 0,0:31:32.96,0:31:39.36,Shiho,,0,0,0,autosub,Ichika was telling us not to worry too much about it.
-Dialogue: 0,0:31:40.71,0:31:41.34,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:31:41.34,0:31:44.36,Shiho,,0,0,0,autosub,And here is the post-training version.
-Dialogue: 0,0:31:44.36,0:31:44.86,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:31:48.00,0:31:49.14,Shiho,,0,0,0,autosub,I'm losing my vocabulary here.
-Dialogue: 0,0:31:49.14,0:31:49.96,Shiho,,0,0,0,autosub,It's just too good.
-Dialogue: 0,0:31:50.68,0:31:58.52,Shiho,,0,0,0,autosub,I can't say anything but 'it's good.' I love how the whole scene is visible in Ichika's art.
-Dialogue: 0,0:32:00.16,0:32:04.00,Shiho,,0,0,0,autosub,And the way she's sitting with her knees up with her guitar on her back is just wonderful.
-Dialogue: 0,0:32:04.88,0:32:09.22,Shiho,,0,0,0,autosub,I call it 'sankaku-zuwari' (triangle sit).
-Dialogue: 0,0:32:09.22,0:32:10.45,Shiho,,0,0,0,autosub,Is that what it's called?
-Dialogue: 0,0:32:10.45,0:32:11.09,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:32:11.68,0:32:13.24,Shiho,,0,0,0,autosub,Oh, my regional dialect is showing.
-Dialogue: 0,0:32:15.16,0:32:16.97,Shiho,,0,0,0,autosub,Is 'sankaku-zuwari' a Kansai thing?
-Dialogue: 0,0:32:16.97,0:32:17.61,Shiho,,0,0,0,autosub,People say it, right?
-Dialogue: 0,0:32:18.20,0:32:19.30,Shiho,,0,0,0,autosub,You've never heard it?
-Dialogue: 0,0:32:19.30,0:32:20.54,Shiho,,0,0,0,autosub,No?
-Dialogue: 0,0:32:20.54,0:32:21.27,Shiho,,0,0,0,autosub,Really?
+Dialogue: 0,0:31:21.96,0:31:23.07,Shiho,,0,0,0,autosub,So good.
+Dialogue: 0,0:31:24.44,0:31:27.43,Shiho,,0,0,0,autosub,Moving on... to Ichika.
+Dialogue: 0,0:31:28.24,0:31:30.60,Shiho,,0,0,0,autosub,Ichika's trained art.
+Dialogue: 0,0:31:30.60,0:31:32.28,Shiho,,0,0,0,autosub,This was from Episode 7.
+Dialogue: 0,0:31:32.96,0:31:39.36,Shiho,,0,0,0,autosub,Ichika was telling Honami too much about it.
+Dialogue: 0,0:31:41.41,0:31:44.36,Shiho,,0,0,0,autosub,And here is the post-training version.
+Dialogue: 0,0:31:44.46,0:31:45.86,Shiho,,0,0,0,autosub,Wow~
+Dialogue: 0,0:31:48.00,0:31:52.27,Shiho,,0,0,0,autosub,I'm rlosing my vocabulary here. All I've been saying is "so good".
+Comment: 0,0:31:54.20,0:31:58.52,Shiho,,0,0,0,autosub,[WIP] Check translation
+Dialogue: 0,0:31:54.20,0:31:58.52,Shiho,,0,0,0,autosub,I love how the whole scene is visible in Ichika's art.
+Dialogue: 0,0:32:00.16,0:32:04.38,Shiho,,0,0,0,autosub,And the way she's sitting with her knees up and her guitar on her back looks nice.
+Dialogue: 0,0:32:04.88,0:32:09.22,Shiho,,0,0,0,autosub,I call it '{\i1}sankaku-zuwari{\i0}' (triangle sitting).
+Dialogue: 0,0:32:09.22,0:32:11.09,Shiho,,0,0,0,autosub,It's called "{\i1}taiiku-zuwari{\i0} (gym sitting)?" Ah.
+Dialogue: 0,0:32:11.68,0:32:13.47,Shiho,,0,0,0,autosub,My regional dialect is showing.
+Dialogue: 0,0:32:15.16,0:32:17.61,Shiho,,0,0,0,autosub,Is '{\i1}sankaku-zuwari{\i0}' just a Kansai thing?
+Dialogue: 0,0:32:18.20,0:32:19.44,Shiho,,0,0,0,autosub,You've never heard it?
+Dialogue: 0,0:32:19.44,0:32:20.72,Shiho,,0,0,0,autosub,No?
+Dialogue: 0,0:32:20.72,0:32:21.88,Shiho,,0,0,0,autosub,Really?
 Dialogue: 0,0:32:21.88,0:32:22.62,Shiho,,0,0,0,autosub,You haven't?
-Dialogue: 0,0:32:22.62,0:32:23.20,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:32:23.20,0:32:23.80,Shiho,,0,0,0,autosub,Wait?
-Dialogue: 0,0:32:23.80,0:32:25.20,Shiho,,0,0,0,autosub,Sorry, I meant 'taiiku-zuwari' (gym sit).
-Dialogue: 0,0:32:26.39,0:32:26.89,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:32:28.87,0:32:29.37,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:32:29.92,0:32:31.08,Shiho,,0,0,0,autosub,Is it a dialect?
-Dialogue: 0,0:32:31.08,0:32:32.12,Shiho,,0,0,0,autosub,My apologies.
+Dialogue: 0,0:32:22.62,0:32:23.80,Shiho,,0,0,0,autosub,"{\i1}Sankaku-zuwari{\i0}"—you haven't?
+Dialogue: 0,0:32:23.80,0:32:25.20,Shiho,,0,0,0,autosub,Sorry, I meant 'taiiku-zuwari,' then.
+Dialogue: 0,0:32:26.39,0:32:27.45,Shiho,,0,0,0,autosub,
+Dialogue: 0,0:32:29.92,0:32:31.15,Shiho,,0,0,0,autosub,That was a dialect thing?
+Dialogue: 0,0:32:31.15,0:32:32.47,Shiho,,0,0,0,autosub,My apologies.
 Dialogue: 0,0:32:32.92,0:32:35.84,Shiho,,0,0,0,autosub,Doesn't sitting like that feel so 'student-like'?
 Dialogue: 0,0:32:36.44,0:32:39.36,Shiho,,0,0,0,autosub,You don't really sit like that once you're an adult.
 Dialogue: 0,0:32:39.36,0:32:41.04,Shiho,,0,0,0,autosub,Maybe only during a photoshoot.
