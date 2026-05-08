@@ -15,10 +15,10 @@ Audio File: Unsteady, still steady step Aftertalk.mkv
 Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.375000
-Scroll Position: 377
-Active Line: 386
-Video Position: 63811
+Video Zoom Percent: 0.500000
+Scroll Position: 441
+Active Line: 453
+Video Position: 70011
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -418,73 +418,73 @@ Dialogue: 0,0:35:22.84,0:35:25.24,Shiho,,0,0,0,autosub,But isn't this so good th
 Dialogue: 0,0:35:25.24,0:35:27.02,Shiho,,0,0,0,autosub,She looks a bit sleepy.
 Dialogue: 0,0:35:27.02,0:35:28.84,Shiho,,0,0,0,autosub,Maybe she slept too much the day before.
 Dialogue: 0,0:35:28.84,0:35:30.88,Shiho,,0,0,0,autosub,She looks so sleepy.
-Dialogue: 0,0:35:30.88,0:35:31.80,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:35:34.00,0:35:34.64,Shiho,,0,0,0,autosub,Very much so.
-Dialogue: 0,0:35:34.64,0:35:41.20,Shiho,,0,0,0,autosub,Plus, on the wall in the back, is that a photo
-Dialogue: 0,0:35:41.20,0:35:42.80,Shiho,,0,0,0,autosub,from the autumn shuffle event? Having that there is a nice touch.
-Dialogue: 0,0:35:42.80,0:35:44.28,Shiho,,0,0,0,autosub,I should look at this instead of that.
+Dialogue: 0,0:35:30.88,0:35:31.80,Shiho,,0,0,0,autosub,{\i1}Ahh{\i0}, so cute.
+Dialogue: 0,0:35:34.00,0:35:34.64,Shiho,,0,0,0,autosub,Super duper cute.
+Dialogue: 0,0:35:34.64,0:35:41.20,Shiho,,0,0,0,autosub,Plus, on the wall in the back, is that a photo from the autumn shuffle event? 
+Dialogue: 0,0:35:41.20,0:35:42.80,Shiho,,0,0,0,autosub,That's a nice touch.
+Dialogue: 0,0:35:42.80,0:35:44.65,Shiho,,0,0,0,autosub,Ah, I should be looking here.
 Dialogue: 0,0:35:46.80,0:35:48.04,Shiho,,0,0,0,autosub,This is really great.
-Dialogue: 0,0:35:48.04,0:35:54.58,Shiho,,0,0,0,autosub,I'm happy I can see the details of Shiho's room like this,
-Dialogue: 0,0:35:54.58,0:35:56.52,Shiho,,0,0,0,autosub,and even the soles of her feet.
+Dialogue: 0,0:35:48.04,0:35:54.58,Shiho,,0,0,0,autosub,I'm happy I can see so many little details of Shiho's room like this,
+Dialogue: 0,0:35:54.58,0:35:56.81,Shiho,,0,0,0,autosub,and even the soles of her feet.
 Dialogue: 0,0:35:59.04,0:36:01.48,Shiho,,0,0,0,autosub,Usually, they're wearing shoes,
-Dialogue: 0,0:36:02.04,0:36:04.32,Shiho,,0,0,0,autosub,or you just can't see their feet at all.
+Dialogue: 0,0:36:02.04,0:36:04.32,Shiho,,0,0,0,autosub,so you don't get a chance to look at their feet.
 Dialogue: 0,0:36:04.92,0:36:09.84,Shiho,,0,0,0,autosub,Seeing the soles of a character's feet, especially a 2D one,
 Dialogue: 0,0:36:09.84,0:36:11.80,Shiho,,0,0,0,autosub,is actually kind of nice.
 Dialogue: 0,0:36:11.80,0:36:12.84,Shiho,,0,0,0,autosub,What am I even saying?
-Dialogue: 0,0:36:17.40,0:36:18.16,Shiho,,0,0,0,autosub,Am I a creep?
-Dialogue: 0,0:36:19.16,0:36:20.36,Shiho,,0,0,0,autosub,I'm going to get scolded,
-Dialogue: 0,0:36:21.00,0:36:22.16,Shiho,,0,0,0,autosub,by the devs.
-Dialogue: 0,0:36:22.16,0:36:23.68,Shiho,,0,0,0,autosub,"Please don't look at things like that!"
-Dialogue: 0,0:36:24.28,0:36:26.40,Shiho,,0,0,0,autosub,Then don't draw it in the first place, honestly!
-Dialogue: 0,0:36:29.68,0:36:31.04,Shiho,,0,0,0,autosub,They'll ask me what's wrong with me.
+Dialogue: 0,0:36:17.40,0:36:18.40,Shiho,,0,0,0,autosub,Am I a creep?
+Dialogue: 0,0:36:19.16,0:36:20.36,Shiho,,0,0,0,autosub,Someone's gonna chew me out.
+Dialogue: 0,0:36:21.00,0:36:22.16,Shiho,,0,0,0,autosub,Maybe the devs.
+Dialogue: 0,0:36:22.16,0:36:24.28,Shiho,,0,0,0,autosub,"Please don't look at that stuff!"
+Dialogue: 0,0:36:24.28,0:36:26.75,Shiho,,0,0,0,autosub,Then don't draw it in the first place, honestly!
+Dialogue: 0,0:36:29.68,0:36:31.39,Shiho,,0,0,0,autosub,They'll ask me what's wrong with me.
 Dialogue: 0,0:36:32.44,0:36:34.68,Shiho,,0,0,0,autosub,No, no, I'm just overflowing with love.
-Dialogue: 0,0:36:34.68,0:36:36.58,Shiho,,0,0,0,autosub,And that was only the Pre-Training version.
-Dialogue: 0,0:36:36.58,0:36:38.28,Shiho,,0,0,0,autosub,Let's look at the Post-Training one too.
+Dialogue: 0,0:36:34.68,0:36:36.58,Shiho,,0,0,0,autosub,And that was only the untrained.
+Dialogue: 0,0:36:36.58,0:36:38.28,Shiho,,0,0,0,autosub,Let's look at the trained art too.
 Dialogue: 0,0:36:38.28,0:36:39.20,Shiho,,0,0,0,autosub,Oh, it went back.
-Dialogue: 0,0:36:41.12,0:36:41.98,Shiho,,0,0,0,autosub,Post-Training.
-Dialogue: 0,0:36:41.98,0:36:43.00,Shiho,,0,0,0,autosub,This is nice.
-Dialogue: 0,0:36:44.20,0:36:45.64,Shiho,,0,0,0,autosub,So cute.
-Dialogue: 0,0:36:46.24,0:36:49.04,Shiho,,0,0,0,autosub,That varsity jacket...
-Dialogue: 0,0:36:49.80,0:36:50.88,Shiho,,0,0,0,autosub,And...
-Dialogue: 0,0:36:52.40,0:36:55.80,Shiho,,0,0,0,autosub,it's rare to see her with something like tea.
+Dialogue: 0,0:36:41.12,0:36:43.35,Shiho,,0,0,0,autosub,Here's the trained. Very nice~
+Dialogue: 0,0:36:44.20,0:36:45.76,Shiho,,0,0,0,autosub,So cute.
+Dialogue: 0,0:36:46.24,0:36:49.04,Shiho,,0,0,0,autosub,That varsity jacket looks so good on her.
+Dialogue: 0,0:36:52.40,0:36:55.80,Shiho,,0,0,0,autosub,Also, I feel like you don't see her with an iced tea drink like that too much.
 Dialogue: 0,0:36:56.44,0:36:58.54,Shiho,,0,0,0,autosub,Maybe it's apple tea?
 Dialogue: 0,0:36:58.54,0:36:59.52,Shiho,,0,0,0,autosub,I have a feeling it is.
-Dialogue: 0,0:36:59.52,0:37:03.12,Shiho,,0,0,0,autosub,She's drinking that... I didn't know Shiho drank apple tea.
+Dialogue: 0,0:36:59.52,0:37:03.47,Shiho,,0,0,0,autosub,Wow... I didn't know Shiho drank apple tea.
 Dialogue: 0,0:37:06.72,0:37:07.96,Shiho,,0,0,0,autosub,It really gives off that vibe.
 Dialogue: 0,0:37:09.08,0:37:10.28,Shiho,,0,0,0,autosub,It's lovely.
-Dialogue: 0,0:37:10.96,0:37:18.76,Shiho,,0,0,0,autosub,The location looks like it's in front of a music store, which really fits her.
-Dialogue: 0,0:37:19.60,0:37:26.66,Shiho,,0,0,0,autosub,Also, since Shiho's character color is light green,
-Dialogue: 0,0:37:26.66,0:37:30.74,Shiho,,0,0,0,autosub,using a green apple like this is a great touch.
+Dialogue: 0,0:37:10.96,0:37:18.76,Shiho,,0,0,0,autosub,And it looks like she's in front of a music store, which really fits her.
+Dialogue: 0,0:37:19.60,0:37:26.66,Shiho,,0,0,0,autosub,Also, Shiho's character color is light green,
+Dialogue: 0,0:37:26.66,0:37:30.74,Shiho,,0,0,0,autosub,so the green apple is a great touch.
 Dialogue: 0,0:37:30.74,0:37:31.69,Shiho,,0,0,0,autosub,It's so good.
-Dialogue: 0,0:37:31.69,0:37:32.20,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:37:32.20,0:37:33.16,Shiho,,0,0,0,autosub,I almost spun around again.
+Dialogue: 0,0:37:31.69,0:37:32.20,Shiho,,0,0,0,autosub,Oh crap—
+Dialogue: 0,0:37:32.20,0:37:33.51,Shiho,,0,0,0,autosub,I almost spun around again.
 Dialogue: 0,0:37:34.20,0:37:35.60,Shiho,,0,0,0,autosub,I was about to spin again.
 Dialogue: 0,0:37:35.60,0:37:36.92,Shiho,,0,0,0,autosub,My apologies.
-Dialogue: 0,0:37:38.16,0:37:40.38,Shiho,,0,0,0,autosub,And finally... Saki.
-Dialogue: 0,0:37:40.38,0:37:43.82,Shiho,,0,0,0,autosub,This is Saki's 2-star card.
-Dialogue: 0,0:37:43.82,0:37:49.66,Shiho,,0,0,0,autosub,When Saki wears it, the atmosphere changes,
-Dialogue: 0,0:37:49.66,0:37:52.84,Shiho,,0,0,0,autosub,and she looks so much more mature. It's amazing.
-Dialogue: 0,0:37:53.56,0:37:54.40,Shiho,,0,0,0,autosub,Really amazing.
-Dialogue: 0,0:37:55.04,0:38:00.82,Shiho,,0,0,0,autosub,The logo on the sleeve is great too. I want that logo.
+Dialogue: 0,0:37:38.16,0:37:40.38,Shiho,,0,0,0,autosub,And finally... MEIKO.
+Dialogue: 0,0:37:40.38,0:37:43.82,Shiho,,0,0,0,autosub,This is MEIKO's 2-star card.
+Dialogue: 0,0:37:43.82,0:37:45.02,Shiho,,0,0,0,autosub,Wow~
+Dialogue: 0,0:37:45.02,0:37:49.66,Shiho,,0,0,0,autosub,When MEIKO wears the varsity jacket, it's a completely different vibe,
+Dialogue: 0,0:37:49.66,0:37:52.84,Shiho,,0,0,0,autosub,She looks so much more mature. It's amazing.
+Dialogue: 0,0:37:53.56,0:37:54.50,Shiho,,0,0,0,autosub,Really amazing.
 Dialogue: 0,0:38:00.82,0:38:01.76,Shiho,,0,0,0,autosub,Leo/need.
-Dialogue: 0,0:38:01.76,0:38:03.86,Shiho,,0,0,0,autosub,The Ln logo.
-Dialogue: 0,0:38:03.86,0:38:06.40,Shiho,,0,0,0,autosub,I want it so bad, I wish they'd make it into merch.
-Dialogue: 0,0:38:07.84,0:38:09.80,Shiho,,0,0,0,autosub,Someone said it's okay to spin as many times as I want.
-Dialogue: 0,0:38:09.80,0:38:10.72,Shiho,,0,0,0,autosub,But it's embarrassing, so I'll stop.
-Dialogue: 0,0:38:13.08,0:38:17.60,Shiho,,0,0,0,autosub,You usually do these After Talks alone, at your own pace,
+Dialogue: 0,0:37:55.04,0:37:59.12,Shiho,,0,0,0,autosub,The logo on the sleeve is great too. I want that logo.
+Dialogue: 0,0:37:59.12,0:38:00.82,Shiho,,0,0,0,autosub,And that logo— I need it.
+Dialogue: 0,0:38:01.76,0:38:03.86,Shiho,,0,0,0,autosub,That "LN" logo.
+Dialogue: 0,0:38:03.86,0:38:06.40,Shiho,,0,0,0,autosub,It's be cool if they they'd make it into merch so I could get it.
+Dialogue: 0,0:38:07.84,0:38:09.80,Shiho,,0,0,0,autosub,"Spin as many times as you like."
+Dialogue: 0,0:38:09.80,0:38:11.07,Shiho,,0,0,0,autosub,It's too embarrassing!
+Dialogue: 0,0:38:13.08,0:38:17.60,Shiho,,0,0,0,autosub,You usually do these AfterTalks alone, at your own pace,
 Dialogue: 0,0:38:17.60,0:38:23.48,Shiho,,0,0,0,autosub,so I end up acting like my usual self, which is embarrassing to watch later.
-Dialogue: 0,0:38:24.88,0:38:33.68,Shiho,,0,0,0,autosub,Even though it's an official stream, I'm just going at my own pace,
-Dialogue: 0,0:38:34.96,0:38:35.96,Shiho,,0,0,0,autosub,so I start to wonder if this is really okay.
-Dialogue: 0,0:38:37.19,0:38:37.88,Shiho,,0,0,0,autosub,.
+Dialogue: 0,0:38:24.88,0:38:31.34,Shiho,,0,0,0,autosub,Even though this is an official PJSK stream, I just go at my own pace,
+Dialogue: 0,0:38:31.34,0:38:36.87,Shiho,,0,0,0,autosub,so sometimes I'm like "is this really okay?"
 Dialogue: 0,0:38:37.88,0:38:39.24,Shiho,,0,0,0,autosub,I'm so sorry, really.
-Dialogue: 0,0:38:40.20,0:38:42.24,Shiho,,0,0,0,autosub,I really want that Leo/need logo.
+Dialogue: 0,0:38:40.20,0:38:42.24,Shiho,,0,0,0,autosub,But I really want that Leo/need logo though.
 Dialogue: 0,0:38:42.24,0:38:44.92,Shiho,,0,0,0,autosub,I want them to release it as a patch or something.
 Dialogue: 0,0:38:45.52,0:38:47.76,Shiho,,0,0,0,autosub,Please make it happen someday, higher-ups.
 Comment: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,autosub,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,autosub,Please enjoy.
-Dialogue: 0,0:38:48.98,0:38:51.88,Shiho,,0,0,0,autosub,So, let's take a look at the illustrations.
+Dialogue: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,autosub,Please and thank you.
+Dialogue: 0,0:38:48.98,0:38:51.88,Shiho,,0,0,0,autosub,Alright, that's all for the card illustrations.
 Dialogue: 0,0:38:52.72,0:38:53.70,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:38:53.70,0:39:05.44,Shiho,,0,0,0,autosub,Next, I'd like to talk about the song and the MV while watching the 2D MV for 'Transparent Palette,' which Akuera-san drew specifically for this event.
+Dialogue: 0,0:38:53.70,0:39:01.95,Shiho,,0,0,0,autosub,Next, let's watch the 2DMV for 'Transparent Palette,' the song for this event commissioned from aqu3ra.
+Dialogue: 0,0:39:01.95,0:39:05.44,Shiho,,0,0,0,autosub,Next, I'd like to talk about the song and the MV while watching the 2D MV for 'Transparent Palette,' 
 Dialogue: 0,0:39:05.44,0:39:09.68,Shiho,,0,0,0,autosub,So, let's watch the 2D MV that was released yesterday.
 Comment: 0,0:42:17.27,0:42:19.20,Shiho,,0,0,0,human,~~~START SONG TALK~~~
 Dialogue: 0,0:42:17.27,0:42:19.55,Shiho,,0,0,0,human,Waaah~
