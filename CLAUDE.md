@@ -64,7 +64,7 @@ Example (Colors of Pure Sense — 2 segments, skipping story recap):
 - Requires ffmpeg built with libass (`brew install libass`, then `brew reinstall --build-from-source ffmpeg`)
 - The `ass=` filter doesn't handle spaces in filenames — the script creates a symlink to work around this
 - Multiple segments are encoded in parallel, then concatenated with `-c copy` (no re-encode)
-- Timestamps for each project are saved in `scratch_notes.txt` within each project folder
+- Timestamps for each project are saved in `notes.md` within each project folder
 - To auto-detect segments from subtitle gaps, analyze the .ass file for gaps > 30 seconds
 
 See `snippets.md` for standalone ffmpeg commands.
