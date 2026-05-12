@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "text": "よかっ。",
+    "start_time": 4254.7,
+    "end_time": 4255.2,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 1,
+    "text": "ありがとうござい。",
+    "start_time": 4255.2,
+    "end_time": 4256.32,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 2,
+    "text": "。",
+    "start_time": 4257.2,
+    "end_time": 4257.76,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 3,
+    "text": "、今日までの、このほどかれた糸のその先にストーリーまだ見終わってないっていう方は次回のイベントが始まると同時にストーリーのイベントストーリーから全て読むことができるようになっていますの、",
+    "start_time": 4258.44,
+    "end_time": 4271.64,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 4,
+    "text": "ぜひぜひ何度でも読んで。",
+    "start_time": 4271.64,
+    "end_time": 4273.76,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 5,
+    "text": "よろしくお願いし。",
+    "start_time": 4273.76,
+    "end_time": 4275.32,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 6,
+    "text": "で、皆さん",
+    "start_time": 4276.72,
+    "end_time": 4277.44,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 7,
+    "text": "ありがとうございまし。",
+    "start_time": 4278.96,
+    "end_time": 4280.12,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  },
+  {
+    "id": 8,
+    "text": "バイ。",
+    "start_time": 4281.32,
+    "end_time": 4282.04,
+    "speaker": "",
+    "role": null,
+    "corner": null
+  }
+]
