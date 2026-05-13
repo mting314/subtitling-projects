@@ -16,9 +16,9 @@ Video File: Unsteady, still steady step Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 441
-Active Line: 453
-Video Position: 70011
+Scroll Position: 355
+Active Line: 364
+Video Position: 62154
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -372,7 +372,7 @@ Dialogue: 0,0:33:13.56,0:33:16.62,Shiho,,0,0,0,autosub,and you can even see some
 Dialogue: 0,0:33:16.62,0:33:18.23,Shiho,,0,0,0,autosub,Super cute.
 Dialogue: 0,0:33:19.35,0:33:20.60,Shiho,,0,0,0,autosub,That was Ichika.
 Dialogue: 0,0:33:20.60,0:33:22.48,Shiho,,0,0,0,autosub,Next is Rin.
-Dialogue: 0,0:33:23.28,0:33:25.72,Shiho,,0,0,0,autosub,Untrained Rin.
+Dialogue: 0,0:33:23.28,0:33:25.72,Shiho,,0,0,0,autosub,The super cute untrained Rin.
 Dialogue: 0,0:33:27.36,0:33:29.36,Shiho,,0,0,0,autosub,She's all excited for the party.
 Dialogue: 0,0:33:30.60,0:33:31.42,Shiho,,0,0,0,autosub,That's our Rin.
 Dialogue: 0,0:33:31.42,0:33:34.26,Shiho,,0,0,0,autosub,Leo/need Rin is so good.
@@ -387,14 +387,14 @@ Dialogue: 0,0:33:58.64,0:34:00.14,Shiho,,0,0,0,autosub,And here's the trained ar
 Dialogue: 0,0:34:00.14,0:34:00.76,Shiho,,0,0,0,autosub,Wow!
 Dialogue: 0,0:34:04.64,0:34:05.50,Shiho,,0,0,0,autosub,So good.
 Dialogue: 0,0:34:05.50,0:34:09.76,Shiho,,0,0,0,autosub,This really captures all of Rin's...
-Dialogue: 0,0:34:09.76,0:34:11.44,Shiho,,0,0,0,autosub,charm.
+Dialogue: 0,0:34:09.76,0:34:11.93,Shiho,,0,0,0,autosub,Rin's charm.
 Dialogue: 0,0:34:12.80,0:34:16.24,Shiho,,0,0,0,autosub,I love that she's wearing a sleeveless top underneath.
 Dialogue: 0,0:34:18.32,0:34:21.70,Shiho,,0,0,0,autosub,And the uhh... what do you call this again?
 Dialogue: 0,0:34:21.70,0:34:23.12,Shiho,,0,0,0,autosub,The thing on the side of the road?
 Dialogue: 0,0:34:23.12,0:34:26.12,Shiho,,0,0,0,autosub,I love that she's balancing on it.
-Dialogue: 0,0:34:26.12,0:34:28.16,Shiho,,0,0,0,autosub,It's so like Rin.
-Dialogue: 0,0:34:28.16,0:34:31.80,Shiho,,0,0,0,autosub,I want to tell her not to swing her instrument around.
-Dialogue: 0,0:34:31.80,0:34:33.84,Shiho,,0,0,0,autosub,I want to tell her not to get hurt.
+Dialogue: 0,0:34:26.12,0:34:28.16,Shiho,,0,0,0,autosub,It's so Rin.
+Dialogue: 0,0:34:28.16,0:34:31.80,Shiho,,0,0,0,autosub,I want be like "no don't swing her your guitar around!"
+Dialogue: 0,0:34:31.80,0:34:33.84,Shiho,,0,0,0,autosub,"Don't fall and get hurt!"
 Dialogue: 0,0:34:35.16,0:34:37.12,Shiho,,0,0,0,autosub,And the loose socks again are cute.
 Dialogue: 0,0:34:37.64,0:34:39.64,Shiho,,0,0,0,autosub,Trends always come back around eventually.
 Dialogue: 0,0:34:41.44,0:34:42.64,Shiho,,0,0,0,autosub,Super cute.
@@ -420,7 +420,7 @@ Dialogue: 0,0:35:27.02,0:35:28.84,Shiho,,0,0,0,autosub,Maybe she slept too much 
 Dialogue: 0,0:35:28.84,0:35:30.88,Shiho,,0,0,0,autosub,She looks so sleepy.
 Dialogue: 0,0:35:30.88,0:35:31.80,Shiho,,0,0,0,autosub,{\i1}Ahh{\i0}, so cute.
 Dialogue: 0,0:35:34.00,0:35:34.64,Shiho,,0,0,0,autosub,Super duper cute.
-Dialogue: 0,0:35:34.64,0:35:41.20,Shiho,,0,0,0,autosub,Plus, on the wall in the back, is that a photo from the autumn shuffle event? 
+Dialogue: 0,0:35:34.64,0:35:41.20,Shiho,,0,0,0,autosub,Plus, on the wall in the back, is that a photo from the autumn shuffle event?
 Dialogue: 0,0:35:41.20,0:35:42.80,Shiho,,0,0,0,autosub,That's a nice touch.
 Dialogue: 0,0:35:42.80,0:35:44.65,Shiho,,0,0,0,autosub,Ah, I should be looking here.
 Dialogue: 0,0:35:46.80,0:35:48.04,Shiho,,0,0,0,autosub,This is really great.
@@ -483,9 +483,10 @@ Comment: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,autosub,[autosub] Chunk boundary â
 Dialogue: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,autosub,Please and thank you.
 Dialogue: 0,0:38:48.98,0:38:51.88,Shiho,,0,0,0,autosub,Alright, that's all for the card illustrations.
 Dialogue: 0,0:38:52.72,0:38:53.70,Shiho,,0,0,0,autosub,.
-Dialogue: 0,0:38:53.70,0:39:01.95,Shiho,,0,0,0,autosub,Next, let's watch the 2DMV for 'Transparent Palette,' the song for this event commissioned from aqu3ra.
-Dialogue: 0,0:39:01.95,0:39:05.44,Shiho,,0,0,0,autosub,Next, I'd like to talk about the song and the MV while watching the 2D MV for 'Transparent Palette,' 
-Dialogue: 0,0:39:05.44,0:39:09.68,Shiho,,0,0,0,autosub,So, let's watch the 2D MV that was released yesterday.
+Dialogue: 0,0:38:53.70,0:39:01.95,Shiho,,0,0,0,autosub,and then we we'll talk a bit about the song and MV afterwards.
+Dialogue: 0,0:39:01.95,0:39:05.44,Shiho,,0,0,0,autosub,and then we we'll talk a bit about the song and MV afterwards.
+Dialogue: 0,0:39:05.44,0:39:09.91,Shiho,,0,0,0,autosub,So without further ado, just released yesterday, here's the 2DMV.
+Dialogue: 0,0:39:09.91,0:39:10.69,Shiho,,0,0,0,,Here we go!
 Comment: 0,0:42:17.27,0:42:19.20,Shiho,,0,0,0,human,~~~START SONG TALK~~~
 Dialogue: 0,0:42:17.27,0:42:19.55,Shiho,,0,0,0,human,Waaah~
 Dialogue: 0,0:42:20.03,0:42:21.55,Shiho,,0,0,0,human,Great MV.
@@ -546,7 +547,6 @@ Dialogue: 0,0:45:35.73,0:45:38.16,Shiho,,0,0,0,human,That just flew by so quick.
 Dialogue: 0,0:45:38.16,0:45:40.00,Shiho,,0,0,0,human,It's already 9PM.
 Dialogue: 0,0:45:40.00,0:45:45.21,Shiho,,0,0,0,human,I saw the clock when I spun around, I was like "crap, it's already 9?"
 Dialogue: 0,0:45:45.21,0:45:49.39,Shiho,,0,0,0,human,I was like "I can't just be spinning here, we need to move on to watch the MV!"
-Dialogue: 0,0:45:51.37,0:45:51.87,Shiho,,0,0,0,autosub,.
 Dialogue: 0,0:45:52.48,0:45:53.90,Shiho,,0,0,0,human,That really did fly by.
 Dialogue: 0,0:45:53.90,0:45:56.23,Shiho,,0,0,0,human,"Let's do this again!" Yep.
 Dialogue: 0,0:45:56.23,0:45:59.65,Shiho,,0,0,0,human,"But I just got here!" Yeah!
