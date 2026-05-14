@@ -1,0 +1,17 @@
+# Per-event config for the "Unsteady, still steady step" AfterTalk.
+# Auto-discovered by autosub when running from this directory.
+# Cast comes from the leoneed profile by default; override [[speakers.cast]]
+# here only when guests join.
+
+title = "Unsteady, still steady step"
+
+# Transcription hints — pushed to ASR vocab on top of the profile vocab.
+vocab = [
+    "アクエラ",
+    "透明パレット",
+]
+
+# Translation glossary — overrides/augments the profile glossary.
+[glossary]
+"アクエラ" = "aqu3ra"
+"透明パレット" = "Transparent Palette"
