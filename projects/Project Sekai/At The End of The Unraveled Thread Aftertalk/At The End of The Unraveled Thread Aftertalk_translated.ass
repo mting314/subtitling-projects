@@ -10,14 +10,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: At The End of The Unraveled Thread Aftertalk.mkv
-Video File: At The End of The Unraveled Thread Aftertalk.mkv
+Audio File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
+Video File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
 Scroll Position: 299
-Active Line: 311
-Video Position: 114730
+Active Line: 320
+Video Position: 115678
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -320,32 +320,32 @@ Dialogue: 0,1:01:56.08,1:01:58.54,Default,,0,0,0,,They all worked incredibly har
 Dialogue: 0,1:01:58.54,1:02:03.80,Default,,0,0,0,,That's why they get so genuinely jealous and why they're so motivated.
 Comment: 0,1:02:07.80,1:02:09.44,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,1:02:07.80,1:02:09.79,Default,,0,0,0,,So that made it quite intense.
-Dialogue: 0,1:02:10.48,1:02:14.72,Default,,0,0,0,,I thought Arisa as someone really straightforward,
-Dialogue: 0,1:02:14.72,1:02:17.20,Default,,0,0,0,,and then, Shizuku...
-Dialogue: 0,1:02:20.48,1:02:26.56,Default,,0,0,0,,The moment she met Arisa and the others members of Cheerful Days,
-Dialogue: 0,1:02:28.21,1:02:33.50,Default,,0,0,0,,Arisa was like, "I'm going all out, so you'd better do the same."
+Dialogue: 0,1:02:10.48,1:02:14.72,Default,,0,0,0,,I feel like Arisa is someone who's really straightforward,
+Dialogue: 0,1:02:14.72,1:02:17.20,Default,,0,0,0,,and so, Shizuku...
+Dialogue: 0,1:02:20.48,1:02:26.56,Default,,0,0,0,,When she met Arisa and the other Cheerful Days members,
+Dialogue: 0,1:02:28.21,1:02:33.50,Default,,0,0,0,,Arisa immediately was like, "I'm going all out, so you'd better do the same."
 Dialogue: 0,1:02:34.56,1:02:39.76,Default,,0,0,0,,She really wasn't hiding anything with those words of hers.
-Dialogue: 0,1:02:42.16,1:02:50.80,Default,,0,0,0,,I thought her straightforwardness, always giving it her all, was really cool.
+Dialogue: 0,1:02:42.16,1:02:50.80,Default,,0,0,0,,I thought that straightforwardness, always giving it her all, was really cool.
 Dialogue: 0,1:02:55.50,1:02:56.63,Default,,0,0,0,,That being said...
-Dialogue: 0,1:02:57.36,1:02:59.12,Default,,0,0,0,,Well...
-Dialogue: 0,1:03:02.95,1:03:06.00,Default,,0,0,0,,hiding their outfits like that...
-Dialogue: 0,1:03:06.00,1:03:07.67,Default,,0,0,0,,
-Dialogue: 0,1:03:09.84,1:03:14.92,Default,,0,0,0,,The way she went about it... wasn't the best way to handle it.
-Dialogue: 0,1:03:16.68,1:03:17.55,Default,,0,0,0,,So...
-Dialogue: 0,1:03:19.92,1:03:26.08,Default,,0,0,0,,And so really wanting to be the center— it's definitely not a bad thing feelings.
-Dialogue: 0,1:03:26.08,1:03:32.88,Default,,0,0,0,,I understand that those "damn it" feelings come from feeling so strongly about that.
-Dialogue: 0,1:03:33.84,1:03:38.20,Default,,0,0,0,,I'm not perfect either, I also feel that way sometimes.
-Dialogue: 0,1:03:38.72,1:03:44.32,Default,,0,0,0,,It's just if you externalize those feelings of jealousy the wrong way,
+Dialogue: 0,1:02:57.36,1:02:59.47,Default,,0,0,0,,like we saw in the story—
+Dialogue: 0,1:03:00.63,1:03:02.95,Default,,0,0,0,,what was it...
+Dialogue: 0,1:03:02.95,1:03:07.67,Default,,0,0,0,,when the other members went and hid Shizuku's outfit like that...
+Dialogue: 0,1:03:09.84,1:03:14.92,Default,,0,0,0,,The way they went about it... wasn't the best way to handle it.
+Dialogue: 0,1:03:19.92,1:03:26.08,Default,,0,0,0,,I'm not saying it's a bad thing to want to be the center like that.
+Dialogue: 0,1:03:26.08,1:03:32.88,Default,,0,0,0,,I completely understand being really motivated like that, and then feeling like "damn it."
+Dialogue: 0,1:03:33.84,1:03:38.20,Default,,0,0,0,,I'm definitely not perfect either, I struggle with this too.
+Dialogue: 0,1:03:38.72,1:03:44.32,Default,,0,0,0,,It's just if you fixate on those feelings of jealously and let it control how you treat others,
 Dialogue: 0,1:03:44.32,1:03:46.75,Default,,0,0,0,,really bad things can happen.
-Dialogue: 0,1:03:46.75,1:03:48.94,Default,,0,0,0,,It's a difficult thing!
-Dialogue: 0,1:03:48.94,1:03:55.20,Default,,0,0,0,,It's just that you need to find a way to come to terms with that yourself.
-Dialogue: 0,1:03:56.44,1:04:01.10,Default,,0,0,0,,That "I won't lose" feeling can lead to growth
-Dialogue: 0,1:04:01.10,1:04:05.62,Default,,0,0,0,,and become the energy to work hard. I want to be that kind of person too.
-Dialogue: 0,1:04:05.62,1:04:07.76,Default,,0,0,0,,I have those feelings myself sometimes.
-Dialogue: 0,1:04:08.36,1:04:11.88,Default,,0,0,0,,Like, "I'm so jealous of her," and things like that. Really.
-Dialogue: 0,1:04:11.88,1:04:12.96,Default,,0,0,0,,Seriously.
-Dialogue: 0,1:04:12.96,1:04:14.64,Default,,0,0,0,,Every single day, really.
-Dialogue: 0,1:04:15.92,1:04:16.74,Default,,0,0,0,,I feel it.
+Dialogue: 0,1:03:46.75,1:03:48.94,Default,,0,0,0,,It's a really difficult thing!
+Dialogue: 0,1:03:48.94,1:03:55.55,Default,,0,0,0,,It's something you just need to focus on and confront within yourself.
+Dialogue: 0,1:03:56.44,1:04:01.10,Default,,0,0,0,,That "I won't lose" feeling can help motivate you,
+Dialogue: 0,1:04:01.10,1:04:03.35,Default,,0,0,0,,and push you to improve yourself.
+Dialogue: 0,1:04:03.35,1:04:05.62,Default,,0,0,0,,I strive for that myself.
+Dialogue: 0,1:04:05.62,1:04:08.36,Default,,0,0,0,,I definitely feel that jealousy all the time though,
+Dialogue: 0,1:04:08.36,1:04:10.95,Default,,0,0,0,,I've definitely thought, "ah she must have it nice," or "damn it, why her?"
+Dialogue: 0,1:04:10.95,1:04:12.96,Default,,0,0,0,,I really do. I'm serious.
+Dialogue: 0,1:04:12.96,1:04:14.64,Default,,0,0,0,,Every single day, actually.
+Dialogue: 0,1:04:15.92,1:04:16.74,Default,,0,0,0,,I really do have those feelings.
 Dialogue: 0,1:04:16.74,1:04:19.20,Default,,0,0,0,,But on the other hand, Shizuku...
 Dialogue: 0,1:04:19.96,1:04:27.08,Default,,0,0,0,,This time, towards the girls who were seriously aiming for the center position...
 Dialogue: 0,1:04:27.84,1:04:30.04,Default,,0,0,0,,She said some things she shouldn't have.
