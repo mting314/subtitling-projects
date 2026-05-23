@@ -10,14 +10,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
-Video File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
+Audio File: ../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
+Video File: ../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 299
-Active Line: 320
-Video Position: 115678
+Scroll Position: 258
+Active Line: 279
+Video Position: 109776
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -298,75 +298,71 @@ Dialogue: 0,1:00:27.40,1:00:28.72,Default,,0,0,0,,So it all clicks for me now.
 Dialogue: 0,1:00:28.72,1:00:30.11,Default,,0,0,0,,That's really cool.
 Dialogue: 0,1:00:31.12,1:00:35.87,Default,,0,0,0,,And the story of Thumbelina is about how if you don't give up,
 Dialogue: 0,1:00:37.44,1:00:40.92,Default,,0,0,0,,you can make your dreams come true and be free.
-Dialogue: 0,1:00:41.80,1:00:44.55,Default,,0,0,0,,I was like, "That's fits this story so well!" Shizuku is saved by the swallows,
+Dialogue: 0,1:00:41.80,1:00:44.55,Default,,0,0,0,,I was like, "That's fits this story so well!"
 Dialogue: 0,1:00:44.55,1:00:47.56,Default,,0,0,0,,Shizuku getting saved by the swallows,
 Dialogue: 0,1:00:47.56,1:00:49.11,Default,,0,0,0,,and now she can spread her wings.
-Dialogue: 0,1:00:50.08,1:00:51.60,Default,,0,0,0,,Isn't that just so
-Dialogue: 0,1:00:52.96,1:00:55.84,Default,,0,0,0,,That's how it feels. Thank you for the info.
+Dialogue: 0,1:00:50.08,1:00:51.60,Default,,0,0,0,,Doesn't that just hit the feels?
+Dialogue: 0,1:00:52.96,1:00:55.84,Default,,0,0,0,,That's what I wanted to share. Thanks so much for telling me about that!
 Comment: 0,1:00:57.80,1:00:59.20,Default,,0,0,0,,~~~ END CARD TALK, START ARISA TALK~~~
-Dialogue: 0,1:00:59.20,1:01:03.04,Default,,0,0,0,,So, that was everything for the "At The End of The Unraveled Thread" event.
-Dialogue: 0,1:01:03.04,1:01:07.04,Default,,0,0,0,,The story, the art, everything came together so wonderfully.
+Dialogue: 0,1:00:59.20,1:01:03.04,Default,,0,0,0,,So that was everything for the "At The End of The Unraveled Thread" event.
+Dialogue: 0,1:01:03.04,1:01:07.04,Default,,0,0,0,,The story, the art, everything came together so beautifully.
 Dialogue: 0,1:01:07.04,1:01:08.68,Default,,0,0,0,,Thank you so much.
-Dialogue: 0,1:01:11.60,1:01:18.48,Default,,0,0,0,,So actually, I really want to talk about Arisa-chan now.
+Dialogue: 0,1:01:11.60,1:01:18.48,Default,,0,0,0,,So actually, I really want to talk a bit about Arisa-chan now.
 Dialogue: 0,1:01:20.12,1:01:23.92,Default,,0,0,0,,So from the premise of the story,
 Dialogue: 0,1:01:23.92,1:01:30.48,Default,,0,0,0,,Shizuku and the Cheerful＊Days members clash quite a bit.
-Dialogue: 0,1:01:30.48,1:01:35.94,Default,,0,0,0,,So, looking at Arisa-chan and the other former Cheerful＊Days girls from a certain perspective,
-Dialogue: 0,1:01:35.94,1:01:37.62,Default,,0,0,0,,maybe not as villains per se,
-Dialogue: 0,1:01:37.62,1:01:41.52,Default,,0,0,0,,but there were moments where you might go "grr" or "who do they think they are".
+Dialogue: 0,1:01:30.48,1:01:35.94,Default,,0,0,0,,So, looking at Arisa-chan and the rest of the Cheerful＊Days girls from a certain perspective,
+Dialogue: 0,1:01:35.94,1:01:37.62,Default,,0,0,0,,maybe you wouldn't call them villains per se,
+Dialogue: 0,1:01:37.62,1:01:41.52,Default,,0,0,0,,but there were moments where you might go "grr" or "just who do they think they are?"
 Dialogue: 0,1:01:43.00,1:01:44.64,Default,,0,0,0,,But you know,
 Dialogue: 0,1:01:45.44,1:01:50.22,Default,,0,0,0,,Mei-chan mentioned it too, but they're all serious about being idols,
 Dialogue: 0,1:01:50.22,1:01:56.08,Default,,0,0,0,,and they all seriously wanted that center position Shizuku had.
 Dialogue: 0,1:01:56.08,1:01:58.54,Default,,0,0,0,,They all worked incredibly hard.
 Dialogue: 0,1:01:58.54,1:02:03.80,Default,,0,0,0,,That's why they get so genuinely jealous and why they're so motivated.
-Comment: 0,1:02:07.80,1:02:09.44,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:02:07.80,1:02:09.79,Default,,0,0,0,,So that made it quite intense.
+Dialogue: 0,1:02:07.80,1:02:09.79,Default,,0,0,0,,So their feelings were pretty intense.
 Dialogue: 0,1:02:10.48,1:02:14.72,Default,,0,0,0,,I feel like Arisa is someone who's really straightforward,
-Dialogue: 0,1:02:14.72,1:02:17.20,Default,,0,0,0,,and so, Shizuku...
-Dialogue: 0,1:02:20.48,1:02:26.56,Default,,0,0,0,,When she met Arisa and the other Cheerful Days members,
-Dialogue: 0,1:02:28.21,1:02:33.50,Default,,0,0,0,,Arisa immediately was like, "I'm going all out, so you'd better do the same."
+Dialogue: 0,1:02:14.72,1:02:17.44,Default,,0,0,0,,and so, Shizuku...
+Dialogue: 0,1:02:20.48,1:02:26.56,Default,,0,0,0,,Right when she met Arisa and the other Cheerful Days members,
+Dialogue: 0,1:02:28.21,1:02:33.50,Default,,0,0,0,,Arisa immediately went, "I'm going all out, so you'd better do the same."
 Dialogue: 0,1:02:34.56,1:02:39.76,Default,,0,0,0,,She really wasn't hiding anything with those words of hers.
 Dialogue: 0,1:02:42.16,1:02:50.80,Default,,0,0,0,,I thought that straightforwardness, always giving it her all, was really cool.
 Dialogue: 0,1:02:55.50,1:02:56.63,Default,,0,0,0,,That being said...
-Dialogue: 0,1:02:57.36,1:02:59.47,Default,,0,0,0,,like we saw in the story—
+Dialogue: 0,1:02:57.36,1:02:59.47,Default,,0,0,0,,when we saw in the story—
 Dialogue: 0,1:03:00.63,1:03:02.95,Default,,0,0,0,,what was it...
 Dialogue: 0,1:03:02.95,1:03:07.67,Default,,0,0,0,,when the other members went and hid Shizuku's outfit like that...
 Dialogue: 0,1:03:09.84,1:03:14.92,Default,,0,0,0,,The way they went about it... wasn't the best way to handle it.
 Dialogue: 0,1:03:19.92,1:03:26.08,Default,,0,0,0,,I'm not saying it's a bad thing to want to be the center like that.
-Dialogue: 0,1:03:26.08,1:03:32.88,Default,,0,0,0,,I completely understand being really motivated like that, and then feeling like "damn it."
+Dialogue: 0,1:03:26.08,1:03:32.88,Default,,0,0,0,,I completely understand being so motivated that it becomes more like frustration with others.
 Dialogue: 0,1:03:33.84,1:03:38.20,Default,,0,0,0,,I'm definitely not perfect either, I struggle with this too.
-Dialogue: 0,1:03:38.72,1:03:44.32,Default,,0,0,0,,It's just if you fixate on those feelings of jealously and let it control how you treat others,
-Dialogue: 0,1:03:44.32,1:03:46.75,Default,,0,0,0,,really bad things can happen.
+Dialogue: 0,1:03:38.72,1:03:44.46,Default,,0,0,0,,It's just if you fixate on those feelings of jealously and let it control how you treat others,
+Dialogue: 0,1:03:44.46,1:03:46.75,Default,,0,0,0,,really bad things can happen.
 Dialogue: 0,1:03:46.75,1:03:48.94,Default,,0,0,0,,It's a really difficult thing!
-Dialogue: 0,1:03:48.94,1:03:55.55,Default,,0,0,0,,It's something you just need to focus on and confront within yourself.
-Dialogue: 0,1:03:56.44,1:04:01.10,Default,,0,0,0,,That "I won't lose" feeling can help motivate you,
+Dialogue: 0,1:03:48.94,1:03:55.55,Default,,0,0,0,,It's just something you need to take time with and confront within yourself.
+Dialogue: 0,1:03:56.44,1:04:01.10,Default,,0,0,0,,That "I won't lose" feeling can actually help motivate you,
 Dialogue: 0,1:04:01.10,1:04:03.35,Default,,0,0,0,,and push you to improve yourself.
 Dialogue: 0,1:04:03.35,1:04:05.62,Default,,0,0,0,,I strive for that myself.
 Dialogue: 0,1:04:05.62,1:04:08.36,Default,,0,0,0,,I definitely feel that jealousy all the time though,
-Dialogue: 0,1:04:08.36,1:04:10.95,Default,,0,0,0,,I've definitely thought, "ah she must have it nice," or "damn it, why her?"
+Dialogue: 0,1:04:08.36,1:04:10.95,Default,,0,0,0,,Like "ah, she must have it nice," or "damn it, why her?"
 Dialogue: 0,1:04:10.95,1:04:12.96,Default,,0,0,0,,I really do. I'm serious.
-Dialogue: 0,1:04:12.96,1:04:14.64,Default,,0,0,0,,Every single day, actually.
-Dialogue: 0,1:04:15.92,1:04:16.74,Default,,0,0,0,,I really do have those feelings.
-Dialogue: 0,1:04:16.74,1:04:19.20,Default,,0,0,0,,But on the other hand, Shizuku...
-Dialogue: 0,1:04:19.96,1:04:27.08,Default,,0,0,0,,This time, towards the girls who were seriously aiming for the center position...
-Dialogue: 0,1:04:27.84,1:04:30.04,Default,,0,0,0,,She said some things she shouldn't have.
-Dialogue: 0,1:04:30.04,1:04:32.58,Default,,0,0,0,,Of course, she didn't mean any harm.
-Dialogue: 0,1:04:32.58,1:04:34.40,Default,,0,0,0,,I think everyone who knows Shizuku
-Dialogue: 0,1:04:35.08,1:04:38.20,Default,,0,0,0,,understands that about her.
-Dialogue: 0,1:04:38.20,1:04:39.88,Default,,0,0,0,,It's not that she had bad intentions.
-Dialogue: 0,1:04:40.72,1:04:45.32,Default,,0,0,0,,Shizuku was just so overwhelmed at the time,
-Dialogue: 0,1:04:45.32,1:04:53.52,Default,,0,0,0,,and she could only see what was right in front of her. That's why she blurted out that someone else might be better for the center.
-Dialogue: 0,1:04:53.52,1:04:54.42,Default,,0,0,0,,It just came out.
-Dialogue: 0,1:04:54.42,1:04:56.20,Default,,0,0,0,,I understand that feeling too.
+Dialogue: 0,1:04:12.96,1:04:14.99,Default,,0,0,0,,Every single day, actually.
+Dialogue: 0,1:04:15.92,1:04:16.86,Default,,0,0,0,,I really do get those feelings.
+Dialogue: 0,1:04:16.86,1:04:19.20,Default,,0,0,0,,But on the other hand, Shizuku...
+Dialogue: 0,1:04:19.96,1:04:27.84,Default,,0,0,0,,because the other girls all really wanted to become the center,
+Dialogue: 0,1:04:27.84,1:04:31.30,Default,,0,0,0,,what she said hurt them.
+Dialogue: 0,1:04:31.30,1:04:38.28,Default,,0,0,0,,Of course, she didn't say it out of spite. I think we all know that Shizuku's not that kind of person.
+Dialogue: 0,1:04:38.28,1:04:40.72,Default,,0,0,0,,It's not that she had bad intentions.
+Dialogue: 0,1:04:40.72,1:04:45.32,Default,,0,0,0,,She was just so overwhelmed with all the expectations at the time,
+Dialogue: 0,1:04:45.32,1:04:48.35,Default,,0,0,0,,that she could only see what was right in front of her.
+Dialogue: 0,1:04:48.35,1:04:53.52,Default,,0,0,0,,And that anxiety made her say that someone else might be better for the center.
+Dialogue: 0,1:04:53.52,1:04:54.54,Default,,0,0,0,,It just came out.
+Dialogue: 0,1:04:54.54,1:04:56.20,Default,,0,0,0,,I understand that feeling too.
 Dialogue: 0,1:04:56.80,1:04:59.44,Default,,0,0,0,,The pressure of being the center is insane.
-Dialogue: 0,1:04:59.44,1:05:05.62,Default,,0,0,0,,Between the expectations and her persona... Shizuku wasn't being her true self.
+Dialogue: 0,1:04:59.44,1:05:03.52,Default,,0,0,0,,Between all the expectations and having to keep up that persona...
+Dialogue: 0,1:05:03.52,1:05:05.62,Default,,0,0,0,,Shizuku could't be her true self.
 Dialogue: 0,1:05:05.62,1:05:09.20,Default,,0,0,0,,She had a character she maintained thanks to everyone, which made it even harder.
 Dialogue: 0,1:05:10.20,1:05:11.20,Default,,0,0,0,,That was part of it too.
-Dialogue: 0,1:05:12.28,1:05:13.12,Default,,0,0,0,,Truly.
-Comment: 0,1:05:15.36,1:05:16.50,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:05:15.36,1:05:16.50,Default,,0,0,0,,It's so raw.
-Dialogue: 0,1:05:16.50,1:05:17.36,Default,,0,0,0,,This...
-Dialogue: 0,1:05:17.91,1:05:18.41,Default,,0,0,0,,It really is.
-Dialogue: 0,1:05:20.08,1:05:21.16,Default,,0,0,0,,It's just so intense.
+Dialogue: 0,1:05:12.28,1:05:17.36,Default,,0,0,0,,This story was just... just too real. 
+Dialogue: 0,1:05:17.91,1:05:18.63,Default,,0,0,0,,It really was.
+Dialogue: 0,1:05:20.08,1:05:21.16,Default,,0,0,0,,Way too real.
 Dialogue: 0,1:05:21.16,1:05:23.44,Default,,0,0,0,,At such a sensitive, young age,
 Dialogue: 0,1:05:24.40,1:05:27.96,Default,,0,0,0,,and on top of that, having to be chosen by someone else to succeed...
 Dialogue: 0,1:05:29.00,1:05:29.92,Default,,0,0,0,,It's just cruel.
