@@ -15,9 +15,9 @@ Video File: ../../../../../../Library/Application Support/Aegisub/recovered/../.
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 351
+Scroll Position: 363
 Active Line: 376
-Video Position: 123124
+Video Position: 122671
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -360,7 +360,7 @@ Dialogue: 0,1:04:59.44,1:05:03.52,Default,,0,0,0,,Between all the expectations a
 Dialogue: 0,1:05:03.52,1:05:05.62,Default,,0,0,0,,Shizuku could't be her true self.
 Dialogue: 0,1:05:05.62,1:05:10.20,Default,,0,0,0,,Plus she had to maintain that character everyone was expecting, which made it even harder.
 Dialogue: 0,1:05:10.20,1:05:11.45,Default,,0,0,0,,That was part of it too.
-Dialogue: 0,1:05:12.28,1:05:17.36,Default,,0,0,0,,This story was just... just too real. 
+Dialogue: 0,1:05:12.28,1:05:17.36,Default,,0,0,0,,This story was just... just too real.
 Dialogue: 0,1:05:17.91,1:05:18.63,Default,,0,0,0,,It really was.
 Dialogue: 0,1:05:20.08,1:05:21.16,Default,,0,0,0,,Way too real.
 Dialogue: 0,1:05:21.16,1:05:23.65,Default,,0,0,0,,At such a sensitive, young age,
@@ -380,26 +380,28 @@ Dialogue: 0,1:06:13.34,1:06:16.64,Default,,0,0,0,,Arisa-chan also stuck to her g
 Dialogue: 0,1:06:17.52,1:06:19.98,Default,,0,0,0,,Nothing she said was wrong.
 Dialogue: 0,1:06:19.98,1:06:22.12,Default,,0,0,0,,Her actions might have been wrong,
 Dialogue: 0,1:06:22.12,1:06:24.55,Default,,0,0,0,,but her words weren't wrong at all.
-Dialogue: 0,1:06:24.55,1:06:28.24,Default,,0,0,0,,Even during the AiHaza recording scene we just watched,
+Dialogue: 0,1:06:24.55,1:06:28.24,Default,,0,0,0,,Even during the iHaz recording scene we just watched,
 Dialogue: 0,1:06:28.76,1:06:36.75,Default,,0,0,0,,you might wonder why she'd press Shizuku so hard on a TV show,
-Dialogue: 0,1:06:36.75,1:06:49.28,Default,,0,0,0,,but she went that hard knowing full well that the viewers wanted to see idols have those deep conversations.
+Dialogue: 0,1:06:36.75,1:06:49.28,Default,,0,0,0,,but she pressed so hard knowing full well that the viewers wanted to see those deep conversations from idols.
 Dialogue: 0,1:06:49.28,1:06:52.52,Default,,0,0,0,,All of that was to liven up the program.
-Dialogue: 0,1:06:53.52,1:07:04.38,Default,,0,0,0,,She worked with Marina-chan and the Cheerful*Days members to make it exciting, and you can really feel her dedication.
+Dialogue: 0,1:06:53.52,1:07:00.02,Default,,0,0,0,,She worked with the other Cheerful Days members like Marina-chan and Hina-dan to make it exciting.
+Dialogue: 0,1:07:00.02,1:07:04.38,Default,,0,0,0,,You can really feel her dedication through that.
 Dialogue: 0,1:07:04.38,1:07:06.79,Default,,0,0,0,,She's a true professional.
-Dialogue: 0,1:07:08.40,1:07:09.96,Default,,0,0,0,,It was nerve-wracking, though.
+Dialogue: 0,1:07:08.40,1:07:09.96,Default,,0,0,0,,That was really tense, though.
 Dialogue: 0,1:07:09.96,1:07:14.44,Default,,0,0,0,,Even I was so anxious, wondering how it would turn out.
 Dialogue: 0,1:07:14.44,1:07:16.08,Default,,0,0,0,,But Arisa's not a bad person at heart.
 Dialogue: 0,1:07:16.08,1:07:20.97,Default,,0,0,0,,She's just very straightforward, serious, and strict with both herself and others.
 Dialogue: 0,1:07:23.48,1:07:25.60,Default,,0,0,0,,That what I wanted to talk about.
 Dialogue: 0,1:07:26.68,1:07:28.04,Default,,0,0,0,,I ended up rambling quite a bit.
-Dialogue: 0,1:07:28.25,1:07:30.00,Default,,0,0,0,,I'm glad I got to talk about all that.
-Dialogue: 0,1:07:31.20,1:07:32.24,Default,,0,0,0,,That's why...
-Dialogue: 0,1:07:32.24,1:07:38.10,Default,,0,0,0,,When you're working your hardest, your own camera becomes subjective.
-Dialogue: 0,1:07:38.10,1:07:44.76,Default,,0,0,0,,You can only see what's right in front of you. In those moments, you need to pull the camera higher, kind of like a drone...
+Dialogue: 0,1:07:28.25,1:07:30.32,Default,,0,0,0,,I'm glad I got to talk about all that.
+Dialogue: 0,1:07:31.20,1:07:32.24,Default,,0,0,0,,And so...
+Dialogue: 0,1:07:32.24,1:07:38.10,Default,,0,0,0,,When you're working really hard, your own camera tends to tunnel vision on just yourself.
+Dialogue: 0,1:07:38.10,1:07:40.48,Default,,0,0,0,,You start to only see what's right in front of you.
+Dialogue: 0,1:07:40.48,1:07:44.76,Default,,0,0,0,,When that happens, you need to pull the camera higher, kind of like a drone,
 Dialogue: 0,1:07:44.76,1:07:50.60,Default,,0,0,0,,and try to look at things from a broader, bird's-eye view.
-Dialogue: 0,1:07:50.60,1:07:56.52,Default,,0,0,0,,If you do that, even in moments when you're wondering "Why?"...
-Dialogue: 0,1:07:56.52,1:08:01.60,Default,,0,0,0,,you might realize the other person had their own position or feelings.
-Dialogue: 0,1:08:01.60,1:08:08.60,Default,,0,0,0,,If you can understand what was happening where you couldn't see, I'm sure you'll be able to reach an understanding.
+Dialogue: 0,1:07:50.60,1:07:56.52,Default,,0,0,0,,If you do that, if you ever find yourself wondering "why was that person like that?"...
+Dialogue: 0,1:07:56.52,1:08:01.60,Default,,0,0,0,,you might realize they had their own position or reasons for feeling the way they did.
+Dialogue: 0,1:08:01.60,1:08:08.60,Default,,0,0,0,,If you can try to understand what's happening under the surface of what people show, work towards understanding each other better.
 Dialogue: 0,1:08:08.60,1:08:17.95,Default,,0,0,0,,It'll help you communicate better too. This is a great lesson for daily life.
 Dialogue: 0,1:08:24.12,1:08:33.64,Default,,0,0,0,,This was a turning point where Shizuku took a step forward. We saw her purity, her strength,
 Dialogue: 0,1:08:33.64,1:08:36.12,Default,,0,0,0,,and just how cool she can be.
