@@ -10,427 +10,433 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
-Video File: ../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
+Last Style Storage: Default
+Audio File: ../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
+Video File: ../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/../../../../../../Library/Application Support/Aegisub/recovered/../../../../github/autosub/projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 129
-Active Line: 144
-Video Position: 96471
+Video Zoom Percent: 0.500000
+Scroll Position: 353
+Active Line: 372
+Video Position: 122619
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
+Style: Shizuku,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00B2C470,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,300,300,60,1
+Style: Shizuku - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00B2C470,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:09:54.00,0:09:58.36,Default,,0,0,0,,Hello, everyone.
-Dialogue: 0,0:09:58.88,0:10:03.40,Default,,0,0,0,,Welcome to ProSeka AfterTalk: At The End of The Unraveled Thread edition!
-Dialogue: 0,0:10:07.84,0:10:11.06,Default,,0,0,0,,I'm Honnizumi Rina, the voice of Hinomori Shizuku from MORE MORE JUMP!
-Dialogue: 0,0:10:11.06,0:10:12.44,Default,,0,0,0,,It's a pleasure to be here.
-Dialogue: 0,0:10:13.00,0:10:24.68,Default,,0,0,0,,This ProSeka AfterTalk is a program where we'll look back on the event and enjoy the AfterLive together with everyone watching!
-Dialogue: 0,0:10:24.68,0:10:29.14,Default,,0,0,0,,We'll be covering the 'At The End of The Unraveled Thread' story this time.
-Dialogue: 0,0:10:29.14,0:10:35.96,Default,,0,0,0,,The event just finished a moment ago. How did you all like the story?
-Dialogue: 0,0:10:36.68,0:10:40.16,Default,,0,0,0,,I have so much I want to talk about!
-Dialogue: 0,0:10:40.16,0:10:41.40,Default,,0,0,0,,Wasn't it amazing?
-Dialogue: 0,0:10:42.48,0:10:54.68,Default,,0,0,0,,That definitely was an eventful story, and I want to talk about all of it today.
-Dialogue: 0,0:10:55.52,0:10:56.72,Default,,0,0,0,,I'm looking forward to it.
-Dialogue: 0,0:10:56.72,0:11:05.04,Default,,0,0,0,,Feel free to post your thoughts on the event using the hashtag #ProSekaAfterTalk.
-Dialogue: 0,0:11:05.04,0:11:10.14,Default,,0,0,0,,The staff have set up the YouTube chat so I can see it right here,
-Dialogue: 0,0:11:10.14,0:11:14.28,Default,,0,0,0,,so I'll be reading your comments as we go.
-Dialogue: 0,0:11:14.96,0:11:26.40,Default,,0,0,0,,Also, they've given me a phone I can use to watch the story and illustrations with you all.
-Dialogue: 0,0:11:27.00,0:11:35.84,Default,,0,0,0,,I'll also be personally using the phone for today's AfterLive,
-Dialogue: 0,0:11:35.84,0:11:39.58,Default,,0,0,0,,so we can all join the same room and watch the show together.
-Dialogue: 0,0:11:39.58,0:11:49.48,Default,,0,0,0,,I'll create a room ID right before the AfterLive starts, so we can all join at the same time.
-Dialogue: 0,0:11:49.48,0:11:59.14,Default,,0,0,0,,You might need to switch devices or apps, so I'd appreciate it if you could get everything ready now.
-Dialogue: 0,0:11:59.14,0:12:00.55,Default,,0,0,0,,Thank you for your cooperation.
-Dialogue: 0,0:12:01.48,0:12:05.44,Default,,0,0,0,,Now, let's get into our lookback of the event.
-Dialogue: 0,0:12:06.52,0:12:11.46,Default,,0,0,0,,We'll start with reviewing the 'At The End of The Unraveled Thread' event story.
-Dialogue: 0,0:12:11.46,0:12:19.40,Default,,0,0,0,,I see comments like, "The entertainment industry is so scary."
-Dialogue: 0,0:12:20.00,0:12:33.84,Default,,0,0,0,,I really felt that the way Shizuku faced her past was so cool when I first read the script.
-Dialogue: 0,0:12:33.84,0:12:40.60,Default,,0,0,0,,The story really depicts the realistic behind-the-scenes side of things.
-Dialogue: 0,0:12:40.60,0:12:44.12,Default,,0,0,0,,There were some quite painful scenes,
-Dialogue: 0,0:12:44.12,0:12:49.07,Default,,0,0,0,,but because Shizuku faced them head-on without running away,
-Dialogue: 0,0:12:50.40,0:12:53.52,Default,,0,0,0,,she was able to make everything work out well in the end.
-Dialogue: 0,0:12:54.12,0:12:56.78,Default,,0,0,0,,I really want to tell Shizuku she did a great job!
-Dialogue: 0,0:12:56.78,0:12:59.80,Default,,0,0,0,,I want to thank the other MORE MORE JUMP members too!
-Dialogue: 0,0:13:00.32,0:13:04.76,Default,,0,0,0,,I'll go more in-depth about it later.
-Dialogue: 0,0:13:05.44,0:13:11.80,Default,,0,0,0,,Right, I'd also like to watch one of the story episodes with everyone today.
-Dialogue: 0,0:13:12.76,0:13:13.88,Default,,0,0,0,,Which episode should we do?
-Dialogue: 0,0:13:14.92,0:13:17.88,Default,,0,0,0,,I'd like to see the... the main event?
-Dialogue: 0,0:13:18.84,0:13:24.90,Default,,0,0,0,,The iHaz filming scene where MMJ and Cheerful＊Days go at it.
-Dialogue: 0,0:13:24.90,0:13:27.00,Default,,0,0,0,,What do you think?
-Dialogue: 0,0:13:27.00,0:13:28.28,Default,,0,0,0,,Maybe Episode 7 or 8?
-Dialogue: 0,0:13:29.56,0:13:30.42,Default,,0,0,0,,I think that'd be—
-Dialogue: 0,0:13:31.35,0:13:33.04,Default,,0,0,0,,What do you all think?
-Dialogue: 0,0:13:33.04,0:13:36.31,Default,,0,0,0,,Yeah, we got to see a little more of Shizuku's past this time.
-Dialogue: 0,0:13:36.92,0:13:44.60,Default,,0,0,0,,We've seen bits of her time in Cheerful＊Days before,
-Dialogue: 0,0:13:44.60,0:13:51.42,Default,,0,0,0,,but this time we got to see the nitty gritty of what actually happened.
-Dialogue: 0,0:13:51.42,0:13:54.72,Default,,0,0,0,,It's hard to choose, but maybe 7 or 8?
-Dialogue: 0,0:13:55.36,0:13:56.83,Default,,0,0,0,,It looks like there are a lot of votes for 7.
-Dialogue: 0,0:14:00.48,0:14:02.36,Default,,0,0,0,,Should we go with 7?
-Dialogue: 0,0:14:03.12,0:14:04.24,Default,,0,0,0,,Is 7 okay with everyone?
-Comment: 0,0:14:04.24,0:14:04.87,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:14:05.44,0:14:09.06,Default,,0,0,0,,Alright everyone, let's watch Episode 7 together.
-Dialogue: 0,0:14:12.00,0:14:16.64,Default,,0,0,0,,Watching it with all of you makes it so much fun.
-Dialogue: 0,0:14:19.32,0:14:19.96,Default,,0,0,0,,Episode 7.
-Dialogue: 0,0:27:45.75,0:27:48.20,Default,,0,0,0,,Thank you so much, everyone.
-Dialogue: 0,0:27:49.40,0:27:56.00,Default,,0,0,0,,I see everyone in the YouTube chat saying how emotional that was and cheering for Shizuku.
-Dialogue: 0,0:27:56.00,0:27:57.60,Default,,0,0,0,,Thank you so much!
-Dialogue: 0,0:28:03.80,0:28:04.44,Default,,0,0,0,,So...
-Dialogue: 0,0:28:07.16,0:28:09.68,Default,,0,0,0,,we have to move onto the next part soon,
-Dialogue: 0,0:28:11.12,0:28:14.07,Default,,0,0,0,,so I'll keep my thoughts brief for now, but...
-Dialogue: 0,0:28:16.96,0:28:22.80,Default,,0,0,0,,Seeing Shizuku's past like that...
-Dialogue: 0,0:28:22.80,0:28:24.92,Default,,0,0,0,,Shizuku is such a kind person.
-Dialogue: 0,0:28:26.36,0:28:28.75,Default,,0,0,0,,She has such a strong will.
-Dialogue: 0,0:28:28.75,0:28:38.32,Default,,0,0,0,,This scene really highlighted her strength in being able to say "thank you" face-to-face with Arisa like that.
-Dialogue: 0,0:28:38.32,0:28:47.10,Default,,0,0,0,,To put all her feelings into words, and to have the courage to do it right in the middle of filming,
-Dialogue: 0,0:28:47.10,0:28:53.88,Default,,0,0,0,,and being able to clearly express everything she wanted to say,
-Dialogue: 0,0:28:53.88,0:28:56.02,Default,,0,0,0,,isn't Shizuku is the coolest person in the world?
-Dialogue: 0,0:28:56.02,0:28:58.08,Default,,0,0,0,,I really just want to give her a hug.
-Dialogue: 0,0:28:58.08,0:29:00.54,Default,,0,0,0,,I'm already hugging her in my heart.
-Dialogue: 0,0:29:00.54,0:29:02.00,Default,,0,0,0,,She's just the best.
-Dialogue: 0,0:29:02.68,0:29:07.88,Default,,0,0,0,,And while herself Shizuku didn't get angry, but Airi-chan got all fiesty in her place, didn't she?
-Dialogue: 0,0:29:07.88,0:29:11.04,Default,,0,0,0,,That dynamic is just so good.
-Dialogue: 0,0:29:12.52,0:29:16.08,Default,,0,0,0,,We got to see more of the intense idol business,
-Dialogue: 0,0:29:16.08,0:29:19.88,Default,,0,0,0,,And speaking of Airi-chan, I have some thoughts on her role in all this too.
-Dialogue: 0,0:29:19.88,0:29:21.96,Default,,0,0,0,,We'll get more into that later.
-Dialogue: 0,0:29:21.96,0:29:25.72,Default,,0,0,0,,But for now, are you ready with your phones, everyone?
-Dialogue: 0,0:29:27.38,0:29:32.86,Default,,0,0,0,,We'll be watching the 10PM AfterLive together in a bit.
-Dialogue: 0,0:48:31.13,0:48:33.38,Default,,0,0,0,,Thank you very much.
-Dialogue: 0,0:48:33.38,0:48:35.48,Default,,0,0,0,,I'm so glad we got to watch that all together.
-Dialogue: 0,0:48:36.56,0:48:38.16,Default,,0,0,0,,Ah~
-Dialogue: 0,0:48:39.08,0:48:40.56,Default,,0,0,0,,My heart is just racing.
-Dialogue: 0,0:48:42.32,0:48:45.00,Default,,0,0,0,,What did you think?
-Dialogue: 0,0:48:45.00,0:48:47.10,Default,,0,0,0,,That was the new song for this event.
-Dialogue: 0,0:48:47.10,0:48:53.48,Default,,0,0,0,,I think they previewed it a little during the last WonderShow Channel stream.
-Dialogue: 0,0:48:56.01,0:48:57.52,Default,,0,0,0,,But that was super cool, wasn't it?
-Dialogue: 0,0:48:58.24,0:49:04.62,Default,,0,0,0,,We've seen lots of different kinds of songs from MMJ so far,
-Dialogue: 0,0:49:04.62,0:49:14.48,Default,,0,0,0,,and I feel like we get to see different emotions or facets of the group come out each time.
-Dialogue: 0,0:49:14.48,0:49:20.00,Default,,0,0,0,,And so this was yet another kind of "coolness" we got to see.
-Dialogue: 0,0:49:21.00,0:49:25.52,Default,,0,0,0,,Since this was an AfterLive, seeing it as a live performance with the costumes...
-Dialogue: 0,0:49:25.52,0:49:28.84,Default,,0,0,0,,Everything came together and looked so cool.
-Dialogue: 0,0:49:29.48,0:49:32.22,Default,,0,0,0,,And the way it went dark for a moment before the pre-chorus,
-Dialogue: 0,0:49:32.22,0:49:35.08,Default,,0,0,0,,and then Len-kun came to the center...
-Dialogue: 0,0:49:36.44,0:49:39.06,Default,,0,0,0,,I really loved the lighting in that part.
-Dialogue: 0,0:49:39.06,0:49:40.72,Default,,0,0,0,,That was awesome.
-Dialogue: 0,0:49:41.60,0:49:45.52,Default,,0,0,0,,Ah yeah, and the high notes were cool too.
-Dialogue: 0,0:49:45.52,0:49:47.48,Default,,0,0,0,,Recording those was a lot of fun.
-Dialogue: 0,0:49:48.40,0:49:51.00,Default,,0,0,0,,So speaking of recording for this song,
-Dialogue: 0,0:49:53.84,0:49:57.00,Default,,0,0,0,,It's not just the theme, but I think...
-Dialogue: 0,0:49:57.84,0:50:04.56,Default,,0,0,0,,In this story, Shizuku took yet another step deeper into her facing her struggles.
-Dialogue: 0,0:50:05.24,0:50:06.48,Default,,0,0,0,,And for me,
-Dialogue: 0,0:50:07.60,0:50:15.40,Default,,0,0,0,,seeing Shizuku get her wings and awaken... I felt this song has that kind of power.
-Dialogue: 0,0:50:15.40,0:50:17.39,Default,,0,0,0,,That's what I thought when I first read the lyrics.
-Dialogue: 0,0:50:18.52,0:50:23.27,Default,,0,0,0,,The lyrics are filled with so many emotions,
-Dialogue: 0,0:50:24.60,0:50:27.04,Default,,0,0,0,,so I really wanted to express them with everything I had.
-Dialogue: 0,0:50:27.88,0:50:33.88,Default,,0,0,0,,What we just showed you was the game-size version.
-Dialogue: 0,0:50:34.96,0:50:41.56,Default,,0,0,0,,I hope we'll have the chance to share the full version with you, someday.
-Dialogue: 0,0:50:41.56,0:50:43.52,Default,,0,0,0,,When you do listen to it,
-Dialogue: 0,0:50:45.04,0:50:51.46,Default,,0,0,0,,there's a part at the end second verse, going into the chorus, where I almost feel like she's taking off flying!
-Dialogue: 0,0:50:51.46,0:50:56.36,Default,,0,0,0,,I'd love it if you listen to that part and experience it for yourself.
-Dialogue: 0,0:50:57.64,0:50:59.87,Default,,0,0,0,,Everyone wants to hear the full version!
-Dialogue: 0,0:51:02.20,0:51:06.32,Default,,0,0,0,,But even in the game size version,
-Dialogue: 0,0:51:07.92,0:51:09.39,Default,,0,0,0,,at the end of the chorus,
-Dialogue: 0,0:51:09.84,0:51:15.60,Default,,0,0,0,,I think the "I having nothing left to fear" lyrics really touched everyone.
-Dialogue: 0,0:51:15.60,0:51:16.86,Default,,0,0,0,,That was so good!
-Dialogue: 0,0:51:16.86,0:51:22.20,Default,,0,0,0,,And then everyone waves like this, and the stage suddenly brightens up.
-Dialogue: 0,0:51:23.00,0:51:24.24,Default,,0,0,0,,I thought that part...
-Dialogue: 0,0:51:25.96,0:51:26.83,Default,,0,0,0,,was really nice!
-Dialogue: 0,0:51:29.90,0:51:34.40,Default,,0,0,0,,Alright, thank you all so much for having fun watching the AfterLive with us!
-Dialogue: 0,0:51:35.12,0:51:41.32,Default,,0,0,0,,The 3DMV was posted on the official ProSeka YouTube channel today at 10:10 PM.
-Dialogue: 0,0:51:41.32,0:51:42.71,Default,,0,0,0,,Ah, it's already premiering!
-Dialogue: 0,0:51:43.52,0:51:47.76,Default,,0,0,0,,Looks like It's already up, so please check it out.
-Dialogue: 0,0:51:47.76,0:51:48.84,Default,,0,0,0,,Please watch it a lot.
-Dialogue: 0,0:51:48.84,0:51:51.76,Default,,0,0,0,,Thank you so much.
-Dialogue: 0,0:51:53.64,0:51:54.40,Default,,0,0,0,,And now,
-Dialogue: 0,0:51:55.60,0:52:04.04,Default,,0,0,0,,let's take a look at the newly added card illustrations.
-Dialogue: 0,0:52:04.04,0:52:06.04,Default,,0,0,0,,There are five cards for us to look at,
-Dialogue: 0,0:52:07.60,0:52:11.44,Default,,0,0,0,,and they're all so cute!
-Dialogue: 0,0:52:13.70,0:52:15.72,Default,,0,0,0,,Let's start by looking at Shizuku's.
-Dialogue: 0,0:52:20.80,0:52:22.48,Default,,0,0,0,,Isn't this amazing?
-Dialogue: 0,0:52:23.44,0:52:24.64,Default,,0,0,0,,This is the trained art.
-Dialogue: 0,0:52:26.36,0:52:27.18,Default,,0,0,0,,It's like...
-Dialogue: 0,0:52:28.92,0:52:35.92,Default,,0,0,0,,The large flower Shizuku is sitting on...
-Dialogue: 0,0:52:35.92,0:52:39.12,Default,,0,0,0,,it kind of feels like it's made of stained glass.
-Dialogue: 0,0:52:40.48,0:52:46.07,Default,,0,0,0,,I think that smooth glass-like texture looks really good.
-Dialogue: 0,0:52:47.04,0:52:53.68,Default,,0,0,0,,It has a certain fleeting, almost fragile beauty to it.
-Dialogue: 0,0:52:55.04,0:52:56.98,Default,,0,0,0,,Love it.
-Dialogue: 0,0:52:56.98,0:52:59.28,Default,,0,0,0,,And this is the untrained.
-Dialogue: 0,0:52:59.84,0:53:03.64,Default,,0,0,0,,I think this was the art that was previewed a bit (in the event Twitter anouncement).
-Dialogue: 0,0:53:04.92,0:53:08.92,Default,,0,0,0,,A bit of Arisa was visible in the corner
-Dialogue: 0,0:53:10.64,0:53:13.36,Default,,0,0,0,,I saw people posting about that a lot Twitter.
-Dialogue: 0,0:53:14.15,0:53:14.83,Default,,0,0,0,,Like—
-Dialogue: 0,0:53:15.68,0:53:18.34,Default,,0,0,0,,doesn't it make you go "Just who does she think she is?"
-Dialogue: 0,0:53:19.04,0:53:20.12,Default,,0,0,0,,It does, doesn't it?
-Comment: 0,0:53:20.56,0:53:22.32,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:53:20.56,0:53:22.32,Default,,0,0,0,,This art is just...
-Dialogue: 0,0:53:23.48,0:53:29.16,Default,,0,0,0,,Looking at this one alone, Shizuku has such a cheerful expression.
-Dialogue: 0,0:53:29.16,0:53:33.88,Default,,0,0,0,,But then Airi is going ">:(" while Arisa is walking away like ":/".
-Dialogue: 0,0:53:33.88,0:53:35.68,Default,,0,0,0,,This shot alone is really funny,
-Dialogue: 0,0:53:35.68,0:53:39.47,Default,,0,0,0,,but if you read the story you can understand what's going on here.
-Dialogue: 0,0:53:41.48,0:53:43.95,Default,,0,0,0,,This is a great shot though.
-Dialogue: 0,0:53:43.95,0:53:48.10,Default,,0,0,0,,Arisa is great, and Airi's expression...
-Dialogue: 0,0:53:48.10,0:53:48.96,Default,,0,0,0,,I really like it.
-Dialogue: 0,0:53:49.80,0:53:51.28,Default,,0,0,0,,Next is Minori.
-Dialogue: 0,0:53:52.52,0:53:53.60,Default,,0,0,0,,Isn't she adorable?
-Dialogue: 0,0:53:53.60,0:53:54.72,Default,,0,0,0,,Here's the trained art.
-Dialogue: 0,0:53:56.28,0:53:58.06,Default,,0,0,0,,Super cute.
-Dialogue: 0,0:53:58.06,0:54:05.56,Default,,0,0,0,,It's a total change from Shizuku's outfit, black and white with red accents.
-Dialogue: 0,0:54:06.48,0:54:07.60,Default,,0,0,0,,Super cute.
-Dialogue: 0,0:54:08.84,0:54:09.76,Default,,0,0,0,,And the leaf!
-Dialogue: 0,0:54:10.40,0:54:13.00,Default,,0,0,0,,The way she's wearing the leaf on her head...
-Dialogue: 0,0:54:14.48,0:54:15.44,Default,,0,0,0,,...is just so cute, right?
-Dialogue: 0,0:54:16.16,0:54:21.87,Default,,0,0,0,,I called her a Korpokkur earlier.
-Dialogue: 0,0:54:21.87,0:54:23.80,Default,,0,0,0,,She has kind of feels like a fairy, super cute.
-Dialogue: 0,0:54:24.96,0:54:28.74,Default,,0,0,0,,And this is the untrained.
-Dialogue: 0,0:54:28.74,0:54:30.00,Default,,0,0,0,,Snacking time.
-Dialogue: 0,0:54:30.58,0:54:32.39,Default,,0,0,0,,So actually,
-Dialogue: 0,0:54:33.16,0:54:42.12,Default,,0,0,0,,ProSeka recordings are just like this too, but in the green rooms staff always provide us with delicious food.
-Dialogue: 0,0:54:42.78,0:54:45.32,Default,,0,0,0,,We got bento today too.
-Dialogue: 0,0:54:45.32,0:54:48.63,Default,,0,0,0,,But yeah, having snacks laid out like this vis actually quite realistic.
-Dialogue: 0,0:54:50.16,0:54:56.60,Default,,0,0,0,,Normally you're nervous before a show, but the snacks are so good you just nom away at them.
-Dialogue: 0,0:54:56.60,0:54:59.38,Default,,0,0,0,,Oh yeah, definitely check out the side story for this card too.
-Dialogue: 0,0:54:59.38,0:55:00.95,Default,,0,0,0,,It's really cute.
-Dialogue: 0,0:55:05.64,0:55:07.68,Default,,0,0,0,,And next is Airi.
-Dialogue: 0,0:55:07.68,0:55:09.04,Default,,0,0,0,,This is her trained art.
-Dialogue: 0,0:55:10.32,0:55:15.10,Default,,0,0,0,,Her outfit is pretty similar to Minori's,
-Dialogue: 0,0:55:15.10,0:55:18.15,Default,,0,0,0,,but the skirt is slightly different.
-Dialogue: 0,0:55:18.15,0:55:23.60,Default,,0,0,0,,Airi has flowers spread out like a pannier. It's so cute.
-Dialogue: 0,0:55:27.24,0:55:28.58,Default,,0,0,0,,I can't stop looking at it.
-Dialogue: 0,0:55:29.80,0:55:34.56,Default,,0,0,0,,The droplets scattered around her make it feel like the rain just stopped.
-Dialogue: 0,0:55:35.52,0:55:40.44,Default,,0,0,0,,And that feeling really reminds me of the story.
-Dialogue: 0,0:55:41.44,0:55:43.04,Default,,0,0,0,,Here's the untrained.
-Dialogue: 0,0:55:43.04,0:55:46.08,Default,,0,0,0,,This is another still from the story.
-Dialogue: 0,0:55:47.00,0:55:53.42,Default,,0,0,0,,Airi's always worrying about Shizuku, isn't she.
-Dialogue: 0,0:55:53.42,0:55:55.72,Default,,0,0,0,,She'll was checking on her like "Are you really okay with this?"
-Dialogue: 0,0:55:55.72,0:55:58.28,Default,,0,0,0,,Shizuku tends not to speak up about stuff like this,
-Dialogue: 0,0:55:59.80,0:56:02.08,Default,,0,0,0,,so Airi is always looking out for her.
-Dialogue: 0,0:56:03.32,0:56:04.48,Default,,0,0,0,,She really is.
-Comment: 0,0:56:04.48,0:56:05.24,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:56:04.48,0:56:05.24,Default,,0,0,0,,And Airi...
-Dialogue: 0,0:56:05.96,0:56:08.72,Default,,0,0,0,,Without Airi, the Shizuku we know today wouldn't exist.
-Dialogue: 0,0:56:09.60,0:56:12.04,Default,,0,0,0,,Even back in her Cheerful Days days, Airi...
-Dialogue: 0,0:56:14.68,0:56:17.88,Default,,0,0,0,,Airi encouraged her so much during back when she was on QT.
-Dialogue: 0,0:56:17.88,0:56:20.48,Default,,0,0,0,,You can really see their bond.
-Dialogue: 0,0:56:21.44,0:56:22.56,Default,,0,0,0,,And then there's Haruka.
-Dialogue: 0,0:56:24.04,0:56:26.32,Default,,0,0,0,,Her trained art is amazing.
-Dialogue: 0,0:56:26.32,0:56:27.08,Default,,0,0,0,,That...
-Dialogue: 0,0:56:28.52,0:56:30.84,Default,,0,0,0,,the frog there looks so surprised.
-Dialogue: 0,0:56:30.84,0:56:33.56,Default,,0,0,0,,Isn't her expression just so cute?
-Dialogue: 0,0:56:34.24,0:56:35.80,Default,,0,0,0,,Landing on the lilypad like that.
-Dialogue: 0,0:56:38.00,0:56:38.78,Default,,0,0,0,,It's so good.
-Dialogue: 0,0:56:38.78,0:56:43.60,Default,,0,0,0,,Haruka's outfit isn't just red, it has some orange in it too.
-Dialogue: 0,0:56:44.60,0:56:45.72,Default,,0,0,0,,Very cute.
-Dialogue: 0,0:56:48.04,0:56:50.16,Default,,0,0,0,,There's lots of subtle differences in the outfits.
-Dialogue: 0,0:56:51.80,0:56:52.74,Default,,0,0,0,,That's really cool.
-Dialogue: 0,0:56:52.74,0:56:54.72,Default,,0,0,0,,The lotuses also look really pretty.
-Dialogue: 0,0:57:03.76,0:57:04.92,Default,,0,0,0,,And here's the untrained.
-Dialogue: 0,0:57:05.52,0:57:09.96,Default,,0,0,0,,Is this the actual filming studio for AiHaza?
-Dialogue: 0,0:57:09.96,0:57:13.48,Default,,0,0,0,,The background, the camera crew, the emergency exit sign in the back...
-Dialogue: 0,0:57:13.48,0:57:14.88,Default,,0,0,0,,and by the door in the back,
-Dialogue: 0,0:57:14.88,0:57:16.24,Default,,0,0,0,,you can actually see the emergency exit sign lit up.
-Dialogue: 0,0:57:16.84,0:57:20.65,Default,,0,0,0,,And then the monitor in the bottom right under the camera.
-Dialogue: 0,0:57:20.65,0:57:21.77,Default,,0,0,0,,It all feels so real!
-Dialogue: 0,0:57:21.77,0:57:23.36,Default,,0,0,0,,It really looks exactly like this.
-Dialogue: 0,0:57:23.36,0:57:27.28,Default,,0,0,0,,The perspective you have when standing in a studio with cameras.
-Dialogue: 0,0:57:28.84,0:57:30.16,Default,,0,0,0,,Haruka here...
-Dialogue: 0,0:57:31.84,0:57:35.32,Default,,0,0,0,,...looks so nervous, like she's right about to go on for the real thing.
-Dialogue: 0,0:57:36.60,0:57:39.28,Default,,0,0,0,,This expression is so good.
-Dialogue: 0,0:57:39.88,0:57:41.50,Default,,0,0,0,,The camera?
-Dialogue: 0,0:57:41.50,0:57:42.80,Default,,0,0,0,,But it really is like this.
-Dialogue: 0,0:57:43.80,0:57:48.08,Default,,0,0,0,,They're constantly filming different expressions from various angles...
-Dialogue: 0,0:57:48.08,0:57:51.08,Default,,0,0,0,,...switching between cameras to create the screen...
-Dialogue: 0,0:57:52.36,0:57:55.96,Default,,0,0,0,,...that everyone usually sees. So this is what it's like.
-Dialogue: 0,0:57:55.96,0:57:57.04,Default,,0,0,0,,It's so realistic.
-Dialogue: 0,0:57:59.00,0:58:02.08,Default,,0,0,0,,And finally, Meiko.
-Dialogue: 0,0:58:03.16,0:58:05.52,Default,,0,0,0,,Meiko, you look so elegant.
-Dialogue: 0,0:58:06.84,0:58:12.94,Default,,0,0,0,,This white... this white outfit is just...
-Dialogue: 0,0:58:12.94,0:58:14.08,Default,,0,0,0,,But it suits her so well.
-Dialogue: 0,0:58:14.08,0:58:15.20,Default,,0,0,0,,That's our Meiko.
-Dialogue: 0,0:58:19.76,0:58:21.16,Default,,0,0,0,,She looks so mature.
-Dialogue: 0,0:58:21.16,0:58:22.82,Default,,0,0,0,,It's wonderful.
-Dialogue: 0,0:58:22.82,0:58:24.16,Default,,0,0,0,,Holding the flowers...
-Dialogue: 0,0:58:25.72,0:58:26.64,Default,,0,0,0,,...she's so cute.
-Dialogue: 0,0:58:26.64,0:58:29.80,Default,,0,0,0,,The way the sleeves flare out a bit is great.
-Dialogue: 0,0:58:32.04,0:58:34.16,Default,,0,0,0,,And so...
-Dialogue: 0,0:58:34.96,0:58:39.40,Default,,0,0,0,,Looking at this, I wanted to write that the group name got smaller...
-Dialogue: 0,0:58:39.40,0:58:41.96,Default,,0,0,0,,...but because of the character limit, it just says "got small."
-Dialogue: 0,0:58:42.92,0:58:43.84,Default,,0,0,0,,That happens sometimes.
-Dialogue: 0,0:58:45.40,0:58:46.16,Default,,0,0,0,,What do you mean?
-Comment: 0,0:58:48.08,0:58:49.60,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:58:48.08,0:58:49.60,Default,,0,0,0,,"The outfits are really cute!"
-Dialogue: 0,0:58:50.96,0:58:52.32,Default,,0,0,0,,Yeah they are pretty simple, but—
-Dialogue: 0,0:58:52.32,0:58:56.19,Default,,0,0,0,,Oh yeah yeah, I actually saw this comment from earlier.
-Dialogue: 0,0:58:57.00,0:59:03.29,Default,,0,0,0,,They were talking about something they realized about all the outfits.
-Dialogue: 0,0:59:03.83,0:59:12.02,Default,,0,0,0,,So when I first saw the illustration, I just like "oh look, she's like a fairy! Fufufu that's so cute!"
-Dialogue: 0,0:59:12.02,0:59:17.55,Default,,0,0,0,,But that commenter said that this might be based on Thumbelina. Now, for me,
-Dialogue: 0,0:59:17.55,0:59:21.76,Default,,0,0,0,,I've definitely heard of a fairy tale called "Thumbelina" before,
-Dialogue: 0,0:59:22.64,0:59:24.04,Default,,0,0,0,,but I'd never actually read it.
-Dialogue: 0,0:59:24.04,0:59:26.36,Default,,0,0,0,,So when I looked up what kind of story it was,
-Dialogue: 0,0:59:27.12,0:59:35.88,Default,,0,0,0,,it's about a tiny girl born from a flower who gets named Thumbelina.
-Dialogue: 0,0:59:35.88,0:59:40.88,Default,,0,0,0,,She gets kidnapped and faces all sorts of dangers.
-Dialogue: 0,0:59:40.88,0:59:43.60,Default,,0,0,0,,She really goes through a lot of difficult things.
-Dialogue: 0,0:59:43.60,0:59:46.90,Default,,0,0,0,,But in the very end, a swa... swallow?
-Dialogue: 0,0:59:46.90,0:59:49.84,Default,,0,0,0,,A swallow saves her,
-Dialogue: 0,0:59:49.84,0:59:53.76,Default,,0,0,0,,and she finds freedom in a happy ending.
-Dialogue: 0,0:59:54.39,0:59:55.39,Default,,0,0,0,,And looking here...
-Dialogue: 0,0:59:57.76,0:59:59.64,Default,,0,0,0,,Aren't these costumes like swallows?
-Dialogue: 0,0:59:59.64,1:00:00.87,Default,,0,0,0,,The black and white...
-Dialogue: 0,1:00:02.68,1:00:06.52,Default,,0,0,0,,Minori-chan, Airi-chan, and Haruka-chan.
-Dialogue: 0,1:00:06.52,1:00:09.03,Default,,0,0,0,,When they pointed it out, they do look a bit like swallows.
-Dialogue: 0,1:00:09.60,1:00:13.72,Default,,0,0,0,,The yellow on their chests looks like a beak.
-Dialogue: 0,1:00:13.72,1:00:15.82,Default,,0,0,0,,Whoever noticed that is amazing.
-Dialogue: 0,1:00:15.82,1:00:17.32,Default,,0,0,0,,I'm so glad they told me about that.
-Dialogue: 0,1:00:17.92,1:00:21.84,Default,,0,0,0,,It really makes so much sense now.
-Dialogue: 0,1:00:21.84,1:00:24.44,Default,,0,0,0,,It changes how I see the set. There's even a frog here.
-Dialogue: 0,1:00:24.44,1:00:26.68,Default,,0,0,0,,There's a frog in Thumbelina too.
-Dialogue: 0,1:00:27.40,1:00:28.72,Default,,0,0,0,,So it all clicks for me now.
-Dialogue: 0,1:00:28.72,1:00:30.11,Default,,0,0,0,,That's really cool.
-Dialogue: 0,1:00:31.12,1:00:35.87,Default,,0,0,0,,And the story of Thumbelina is about how if you don't give up,
-Dialogue: 0,1:00:37.44,1:00:40.92,Default,,0,0,0,,you can make your dreams come true and be free.
-Dialogue: 0,1:00:41.80,1:00:44.55,Default,,0,0,0,,I was like, "That's fits this story so well!"
-Dialogue: 0,1:00:44.55,1:00:47.56,Default,,0,0,0,,Shizuku getting saved by the swallows,
-Dialogue: 0,1:00:47.56,1:00:49.11,Default,,0,0,0,,and now she can spread her wings.
-Dialogue: 0,1:00:50.08,1:00:51.60,Default,,0,0,0,,Doesn't that just hit the feels?
-Dialogue: 0,1:00:52.96,1:00:55.84,Default,,0,0,0,,That's what I wanted to share. Thanks so much for telling me about that!
-Comment: 0,1:00:57.80,1:00:59.20,Default,,0,0,0,,~~~ END CARD TALK, START ARISA TALK~~~
-Dialogue: 0,1:00:59.20,1:01:03.04,Default,,0,0,0,,So that was everything for the "At The End of The Unraveled Thread" event.
-Dialogue: 0,1:01:03.04,1:01:07.04,Default,,0,0,0,,The story, the art, everything came together so beautifully.
-Dialogue: 0,1:01:07.04,1:01:08.68,Default,,0,0,0,,Thank you so much.
-Dialogue: 0,1:01:11.60,1:01:18.48,Default,,0,0,0,,So actually, I really want to talk a bit about Arisa-chan now.
-Dialogue: 0,1:01:20.12,1:01:23.92,Default,,0,0,0,,So from the premise of the story,
-Dialogue: 0,1:01:23.92,1:01:30.48,Default,,0,0,0,,Shizuku and the Cheerful＊Days members clash quite a bit.
-Dialogue: 0,1:01:30.48,1:01:35.94,Default,,0,0,0,,So, looking at Arisa-chan and the rest of the Cheerful＊Days girls from a certain perspective,
-Dialogue: 0,1:01:35.94,1:01:37.62,Default,,0,0,0,,maybe you wouldn't call them villains per se,
-Dialogue: 0,1:01:37.62,1:01:41.52,Default,,0,0,0,,but there were moments where you might go "grr" or "just who do they think they are?"
-Dialogue: 0,1:01:43.00,1:01:44.64,Default,,0,0,0,,But you know,
-Dialogue: 0,1:01:45.44,1:01:50.22,Default,,0,0,0,,Mei-chan mentioned it too, but they're all serious about being idols.
-Dialogue: 0,1:01:50.22,1:01:56.08,Default,,0,0,0,,They were all after that center position Shizuku had.
-Dialogue: 0,1:01:56.08,1:01:58.54,Default,,0,0,0,,They all worked incredibly hard.
-Dialogue: 0,1:01:58.54,1:02:03.80,Default,,0,0,0,,That's why they get so genuinely jealous of her, and why they're so motivated to continue working.
-Dialogue: 0,1:02:07.80,1:02:09.79,Default,,0,0,0,,So their feelings were pretty intense.
-Dialogue: 0,1:02:10.48,1:02:14.72,Default,,0,0,0,,I feel like Arisa is someone who's really straightforward,
-Dialogue: 0,1:02:14.72,1:02:17.44,Default,,0,0,0,,and so, Shizuku...
-Dialogue: 0,1:02:20.48,1:02:26.56,Default,,0,0,0,,Right when she met Arisa and the other Cheerful Days members,
-Dialogue: 0,1:02:28.21,1:02:33.50,Default,,0,0,0,,Arisa immediately went, "I'm going all out, so you'd better do the same."
-Dialogue: 0,1:02:34.56,1:02:39.76,Default,,0,0,0,,She really wasn't hiding anything with those words of hers.
-Dialogue: 0,1:02:42.16,1:02:50.80,Default,,0,0,0,,I thought that straightforwardness, always giving it her all, was really cool.
-Dialogue: 0,1:02:55.50,1:02:56.63,Default,,0,0,0,,That being said...
-Dialogue: 0,1:02:57.36,1:02:59.47,Default,,0,0,0,,when we saw in the story—
-Dialogue: 0,1:03:00.63,1:03:02.95,Default,,0,0,0,,what was it...
-Dialogue: 0,1:03:02.95,1:03:07.67,Default,,0,0,0,,when the other members went and hid Shizuku's outfit like that...
-Dialogue: 0,1:03:09.84,1:03:14.92,Default,,0,0,0,,The way they went about it... wasn't the best way to handle it.
-Dialogue: 0,1:03:19.92,1:03:26.08,Default,,0,0,0,,I'm not saying it's a bad thing to really want to be the center like that.
-Dialogue: 0,1:03:26.08,1:03:32.88,Default,,0,0,0,,I completely understand being so driven that you start feeling like "damn it" towards others.
-Dialogue: 0,1:03:33.84,1:03:38.20,Default,,0,0,0,,I'm definitely not perfect either, I struggle with this too.
-Dialogue: 0,1:03:38.72,1:03:44.46,Default,,0,0,0,,It's just if you fixate on those feelings of jealously and let it control how you treat others,
-Dialogue: 0,1:03:44.46,1:03:46.75,Default,,0,0,0,,really bad things can happen.
-Dialogue: 0,1:03:46.75,1:03:48.94,Default,,0,0,0,,It's a really difficult thing!
-Dialogue: 0,1:03:48.94,1:03:55.55,Default,,0,0,0,,It's just something you need to take time with and confront within yourself.
-Dialogue: 0,1:03:56.44,1:04:01.10,Default,,0,0,0,,That "I won't lose" feeling can actually help motivate you,
-Dialogue: 0,1:04:01.10,1:04:03.35,Default,,0,0,0,,and push you to improve yourself.
-Dialogue: 0,1:04:03.35,1:04:05.62,Default,,0,0,0,,I strive for that myself.
-Dialogue: 0,1:04:05.62,1:04:08.36,Default,,0,0,0,,I definitely feel that jealousy all the time though,
-Dialogue: 0,1:04:08.36,1:04:10.95,Default,,0,0,0,,Like "ah, she must have it nice," or "damn it, why her?"
-Dialogue: 0,1:04:10.95,1:04:12.96,Default,,0,0,0,,I really do. I'm serious.
-Dialogue: 0,1:04:12.96,1:04:14.99,Default,,0,0,0,,Every single day, actually.
-Dialogue: 0,1:04:15.92,1:04:16.86,Default,,0,0,0,,I really do get those feelings.
-Dialogue: 0,1:04:16.86,1:04:19.20,Default,,0,0,0,,But on the other hand, Shizuku...
-Dialogue: 0,1:04:19.96,1:04:27.84,Default,,0,0,0,,because the other girls all really wanted to become the center,
-Dialogue: 0,1:04:27.84,1:04:31.30,Default,,0,0,0,,what Shizuku said hurt them.
-Dialogue: 0,1:04:31.30,1:04:38.28,Default,,0,0,0,,Of course, she didn't say it out of spite. I think we all know that Shizuku's not that kind of person.
-Dialogue: 0,1:04:38.28,1:04:40.72,Default,,0,0,0,,It's not that she had bad intentions.
-Dialogue: 0,1:04:40.72,1:04:45.32,Default,,0,0,0,,She was just so overwhelmed with all the expectations at the time,
-Dialogue: 0,1:04:45.32,1:04:48.35,Default,,0,0,0,,that she could only see what was right in front of her.
-Dialogue: 0,1:04:48.35,1:04:53.52,Default,,0,0,0,,And that anxiety made her say that someone else might be better for the center.
-Dialogue: 0,1:04:53.52,1:04:54.54,Default,,0,0,0,,It was heat of the moment.
-Dialogue: 0,1:04:54.54,1:04:56.20,Default,,0,0,0,,I definitely understand that.
-Dialogue: 0,1:04:56.80,1:04:59.44,Default,,0,0,0,,The pressure of being the center is insane.
-Dialogue: 0,1:04:59.44,1:05:03.52,Default,,0,0,0,,Between all the expectations and having to keep up that persona...
-Dialogue: 0,1:05:03.52,1:05:05.62,Default,,0,0,0,,Shizuku could't be her true self.
-Dialogue: 0,1:05:05.62,1:05:10.20,Default,,0,0,0,,Plus she had to maintain that character everyone was expecting, which made it even harder.
-Dialogue: 0,1:05:10.20,1:05:11.45,Default,,0,0,0,,That was part of it too.
-Dialogue: 0,1:05:12.28,1:05:17.36,Default,,0,0,0,,This story was just... just too real.
-Dialogue: 0,1:05:17.91,1:05:18.63,Default,,0,0,0,,It really was.
-Dialogue: 0,1:05:20.08,1:05:21.16,Default,,0,0,0,,Way too real.
-Dialogue: 0,1:05:21.16,1:05:23.65,Default,,0,0,0,,At such a sensitive, young age,
-Dialogue: 0,1:05:24.40,1:05:27.96,Default,,0,0,0,,and on top of that, having to be chosen by someone else to succeed...
-Dialogue: 0,1:05:29.00,1:05:30.27,Default,,0,0,0,,It's just cruel.
-Dialogue: 0,1:05:30.27,1:05:33.51,Default,,0,0,0,,Working hard alone won't make you the center.
-Dialogue: 0,1:05:34.92,1:05:40.80,Default,,0,0,0,,You need someone to recognize you and say, "You're the center."
-Dialogue: 0,1:05:41.92,1:05:43.08,Default,,0,0,0,,That's what makes it so tough.
-Dialogue: 0,1:05:43.08,1:05:46.84,Default,,0,0,0,,But I suppose that's exactly why they're able to shine so brightly.
-Dialogue: 0,1:05:48.08,1:05:48.88,Default,,0,0,0,,I really felt that.
-Dialogue: 0,1:05:49.96,1:05:53.68,Default,,0,0,0,,Looking at this scenario, I thought to myself...
-Dialogue: 0,1:05:55.08,1:05:56.36,Default,,0,0,0,,"I really need to be careful."
-Dialogue: 0,1:05:57.60,1:06:00.92,Default,,0,0,0,,But because of her past, we have the Shizuku we have now.
-Dialogue: 0,1:06:00.92,1:06:05.92,Default,,0,0,0,,Without this, we wouldn't have MORE MORE JUMP!, and I'm so grateful for that.
-Dialogue: 0,1:06:08.80,1:06:13.34,Default,,0,0,0,,Shizuku said "Thank you" too. Truly, thank you.
-Dialogue: 0,1:06:13.34,1:06:16.64,Default,,0,0,0,,Arisa-chan also stuck to her guns until the very end.
-Dialogue: 0,1:06:17.52,1:06:19.98,Default,,0,0,0,,Nothing she said was wrong.
-Dialogue: 0,1:06:19.98,1:06:22.12,Default,,0,0,0,,Her actions might have been wrong,
-Dialogue: 0,1:06:22.12,1:06:24.55,Default,,0,0,0,,but her words weren't wrong at all.
-Dialogue: 0,1:06:24.55,1:06:28.24,Default,,0,0,0,,Even during the iHaz recording scene we just watched,
-Dialogue: 0,1:06:28.76,1:06:36.75,Default,,0,0,0,,you might wonder why she'd press Shizuku so hard on a TV show,
-Dialogue: 0,1:06:36.75,1:06:49.28,Default,,0,0,0,,but she pressed so hard knowing full well that the viewers wanted to see those deep conversations from idols.
-Dialogue: 0,1:06:49.28,1:06:52.52,Default,,0,0,0,,All of that was to liven up the program.
-Dialogue: 0,1:06:53.52,1:07:00.02,Default,,0,0,0,,She worked with the other Cheerful Days members like Marina-chan and Hina-dan to make it exciting.
-Dialogue: 0,1:07:00.02,1:07:04.38,Default,,0,0,0,,You can really feel her dedication through that.
-Dialogue: 0,1:07:04.38,1:07:06.79,Default,,0,0,0,,She's a true professional.
-Dialogue: 0,1:07:08.40,1:07:09.96,Default,,0,0,0,,That was really tense, though.
-Dialogue: 0,1:07:09.96,1:07:14.44,Default,,0,0,0,,Even I was so anxious, wondering how it would turn out.
-Dialogue: 0,1:07:14.44,1:07:16.08,Default,,0,0,0,,But Arisa's not a bad person at heart.
-Dialogue: 0,1:07:16.08,1:07:20.97,Default,,0,0,0,,She's just very straightforward, serious, and strict with both herself and others.
-Dialogue: 0,1:07:23.48,1:07:25.60,Default,,0,0,0,,That what I wanted to talk about.
-Dialogue: 0,1:07:26.68,1:07:28.04,Default,,0,0,0,,I ended up rambling quite a bit.
-Dialogue: 0,1:07:28.25,1:07:30.32,Default,,0,0,0,,I'm glad I got to talk about all that.
-Dialogue: 0,1:07:31.20,1:07:32.24,Default,,0,0,0,,And so...
-Dialogue: 0,1:07:32.24,1:07:38.10,Default,,0,0,0,,When you're working really hard, your own camera tends to tunnel vision on just yourself.
-Dialogue: 0,1:07:38.10,1:07:40.48,Default,,0,0,0,,You start to only see what's right in front of you.
-Dialogue: 0,1:07:40.48,1:07:44.76,Default,,0,0,0,,When that happens, you need to pull the camera higher, kind of like a drone,
-Dialogue: 0,1:07:44.76,1:07:50.60,Default,,0,0,0,,and try to look at things from a broader, bird's-eye view.
-Dialogue: 0,1:07:50.60,1:07:56.52,Default,,0,0,0,,If you do that, if you ever find yourself wondering "why was that person like that?"...
-Dialogue: 0,1:07:56.52,1:08:01.60,Default,,0,0,0,,you might realize they had their own position or reasons for feeling the way they did.
-Dialogue: 0,1:08:01.60,1:08:08.60,Default,,0,0,0,,If you can try to understand what's happening under the surface of what people show, work towards understanding each other better.
-Dialogue: 0,1:08:08.60,1:08:17.95,Default,,0,0,0,,It'll help you communicate better too. This is a great lesson for daily life.
-Dialogue: 0,1:08:24.12,1:08:30.82,Default,,0,0,0,,This was a turning point where Shizuku took a step forward.
-Dialogue: 0,1:08:30.82,1:08:33.64,Default,,0,0,0,,We saw her purity, her strength,
-Dialogue: 0,1:08:33.64,1:08:36.12,Default,,0,0,0,,and just how cool she can be.
-Dialogue: 0,1:08:37.92,1:08:44.56,Default,,0,0,0,,Also, the title "At The End of The Unraveled Thread" has the word "thread" in it.
-Comment: 0,1:08:44.56,1:08:51.76,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:08:44.56,1:08:50.88,Default,,0,0,0,,The lyrics of "Metamo Re:born" also mention "threads". It's kind of like a key word.
-Dialogue: 0,1:08:50.88,1:08:51.84,Default,,0,0,0,,I think that's really nice.
-Dialogue: 0,1:08:51.84,1:08:55.24,Default,,0,0,0,,I really like the little connections like that.
-Dialogue: 0,1:08:59.86,1:09:09.30,Default,,0,0,0,,I'm sure everyone has lots of thoughts about the event and story, so please feel free to tweet using the hashtag.
-Dialogue: 0,1:09:09.30,1:09:17.08,Default,,0,0,0,,It's a very raw story, so I feel like different people will empathize with different characters.
-Dialogue: 0,1:09:17.08,1:09:23.60,Default,,0,0,0,,It's natural to have many different feelings, so I hope you all share those too.
-Dialogue: 0,1:09:24.35,1:09:26.04,Default,,0,0,0,,That was a really good story!
-Dialogue: 0,1:09:27.25,1:09:27.75,Default,,0,0,0,,YES!
-Dialogue: 0,1:09:27.75,1:09:28.44,Default,,0,0,0,,And so with that...
-Dialogue: 0,1:09:30.24,1:09:32.17,Default,,0,0,0,,I've been pretty put together today, haven't I?
-Dialogue: 0,1:09:33.52,1:09:35.36,Default,,0,0,0,,I even surprised myself.
-Dialogue: 0,1:09:35.36,1:09:43.60,Default,,0,0,0,,Since I'm alone today, and the story being what it was, I came prepared to say what I really wanted to say.
-Dialogue: 0,1:09:43.60,1:09:44.94,Default,,0,0,0,,See, I can be put together!
-Dialogue: 0,1:09:44.94,1:09:53.16,Default,,0,0,0,,I'm often MC the WonderShow Channel livestreams,
-Dialogue: 0,1:09:53.16,1:09:58.92,Default,,0,0,0,,so maybe you'd think at first that I would be a bit nervous here,
-Dialogue: 0,1:09:59.52,1:10:04.64,Default,,0,0,0,,but I do have times when I speak seriously like this!
-Dialogue: 0,1:10:06.00,1:10:07.30,Default,,0,0,0,,I appreciate you all listening!
-Dialogue: 0,1:10:07.30,1:10:08.40,Default,,0,0,0,,Thank you very much.
-Dialogue: 0,1:10:09.20,1:10:13.74,Default,,0,0,0,,And so, even though it was just a short time,
-Dialogue: 0,1:10:13.74,1:10:21.92,Default,,0,0,0,,that's all we have for our "ProSeka AfterTalk: At The End of The Unraveled Thread" edition.
-Dialogue: 0,1:10:22.44,1:10:24.52,Default,,0,0,0,,Thanks everyone for watching along!
-Dialogue: 0,1:10:24.52,1:10:28.56,Default,,0,0,0,,Thanks for so many comments! I was sure to keep up with all of them.
-Dialogue: 0,1:10:28.56,1:10:32.76,Default,,0,0,0,,I'm sorry I couldn't get to all of them.
-Dialogue: 0,1:10:33.63,1:10:40.36,Default,,0,0,0,,Being able to watch the AfterLivein the same room together,
-Dialogue: 0,1:10:40.36,1:10:50.24,Default,,0,0,0,,and connecting with everyone watching the stream in real-time has a different kind of appeal compared to watching alone.
-Dialogue: 0,1:10:50.24,1:10:52.48,Default,,0,0,0,,How was it for all of you?
-Dialogue: 0,1:10:52.48,1:10:53.32,Default,,0,0,0,,Did you have fun?
-Dialogue: 0,1:10:54.70,1:10:55.20,Default,,0,0,0,,I'm glad.
-Dialogue: 0,1:10:55.20,1:10:56.32,Default,,0,0,0,,Thank you so much.
-Dialogue: 0,1:10:58.44,1:11:11.64,Default,,0,0,0,,If you haven't finished the "At The End of The Unraveled Thread" story yet, you can read it all in the Event Stories menu once the next event starts.
-Dialogue: 0,1:11:11.64,1:11:13.78,Default,,0,0,0,,So please, read it as many times as you like.
-Dialogue: 0,1:11:13.78,1:11:15.36,Default,,0,0,0,,Thank you.
-Dialogue: 0,1:11:16.72,1:11:20.12,Default,,0,0,0,,Well then, thank you very much, everyone.
-Dialogue: 0,1:11:21.32,1:11:22.04,Default,,0,0,0,,Bye bye!
+Dialogue: 0,0:09:54.00,0:09:58.36,Shizuku,,0,0,0,,Hello, everyone.
+Dialogue: 0,0:09:58.88,0:10:03.40,Shizuku,,0,0,0,,Welcome to ProSeka AfterTalk: At The End of The Unraveled Thread edition!
+Dialogue: 0,0:10:07.84,0:10:11.06,Shizuku,,0,0,0,,I'm Honnizumi Rina, the voice of Hinomori Shizuku from MORE MORE JUMP!
+Dialogue: 0,0:10:11.06,0:10:12.44,Shizuku,,0,0,0,,It's a pleasure to be here.
+Dialogue: 0,0:10:13.00,0:10:24.68,Shizuku,,0,0,0,,This ProSeka AfterTalk is a program where we'll look back on the event and enjoy the AfterLive together with everyone watching!
+Dialogue: 0,0:10:24.68,0:10:29.14,Shizuku,,0,0,0,,We'll be covering the 'At The End of The Unraveled Thread' story this time.
+Dialogue: 0,0:10:29.14,0:10:35.96,Shizuku,,0,0,0,,The event just finished a moment ago. How did you all like the story?
+Dialogue: 0,0:10:36.68,0:10:40.16,Shizuku,,0,0,0,,I have so much I want to talk about!
+Dialogue: 0,0:10:40.16,0:10:41.40,Shizuku,,0,0,0,,Wasn't it amazing?
+Dialogue: 0,0:10:42.48,0:10:54.68,Shizuku,,0,0,0,,That was definitely an eventful story, and I want to talk about all of it today.
+Dialogue: 0,0:10:55.52,0:10:56.72,Shizuku,,0,0,0,,I'm looking forward to it.
+Dialogue: 0,0:10:56.72,0:11:05.04,Shizuku,,0,0,0,,Feel free to post your thoughts on the event using the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:11:05.04,0:11:10.14,Shizuku,,0,0,0,,The staff have set up the YouTube chat so I can see it right here,
+Dialogue: 0,0:11:10.14,0:11:14.28,Shizuku,,0,0,0,,so I'll be reading your comments as we go.
+Dialogue: 0,0:11:14.96,0:11:26.40,Shizuku,,0,0,0,,Also, they've given me a phone I can use to watch the story and illustrations with you all.
+Dialogue: 0,0:11:27.00,0:11:35.84,Shizuku,,0,0,0,,I'll also be personally using the phone for today's AfterLive,
+Dialogue: 0,0:11:35.84,0:11:39.58,Shizuku,,0,0,0,,so we can all join the same room and watch the show together.
+Dialogue: 0,0:11:39.58,0:11:49.48,Shizuku,,0,0,0,,I'll create a room ID right before the AfterLive starts, so we can all join at the same time.
+Dialogue: 0,0:11:49.48,0:11:59.14,Shizuku,,0,0,0,,You might need to switch devices or apps, so I'd appreciate it if you could get everything ready now.
+Dialogue: 0,0:11:59.14,0:12:00.55,Shizuku,,0,0,0,,Thank you for your cooperation.
+Dialogue: 0,0:12:01.48,0:12:05.44,Shizuku,,0,0,0,,Now, let's get into our lookback of the event.
+Dialogue: 0,0:12:06.52,0:12:11.46,Shizuku,,0,0,0,,We'll start with reviewing the 'At The End of The Unraveled Thread' event story.
+Dialogue: 0,0:12:11.46,0:12:19.40,Shizuku,,0,0,0,,I see comments like, "The entertainment industry is so scary."
+Dialogue: 0,0:12:20.00,0:12:33.84,Shizuku,,0,0,0,,I really felt that the way Shizuku faced her past was so cool when I first read the script.
+Dialogue: 0,0:12:33.84,0:12:40.60,Shizuku,,0,0,0,,The story really depicts the realistic behind-the-scenes side of things.
+Dialogue: 0,0:12:40.60,0:12:44.12,Shizuku,,0,0,0,,There were some quite painful scenes,
+Dialogue: 0,0:12:44.12,0:12:49.07,Shizuku,,0,0,0,,but because Shizuku faced them head-on without running away,
+Dialogue: 0,0:12:50.40,0:12:53.52,Shizuku,,0,0,0,,she was able to make everything work out well in the end.
+Dialogue: 0,0:12:54.12,0:12:56.78,Shizuku,,0,0,0,,I really want to tell Shizuku she did a great job!
+Dialogue: 0,0:12:56.78,0:12:59.80,Shizuku,,0,0,0,,I want to thank the other MORE MORE JUMP! members too!
+Dialogue: 0,0:13:00.32,0:13:04.76,Shizuku,,0,0,0,,I'll go more in-depth about it later.
+Dialogue: 0,0:13:05.44,0:13:11.80,Shizuku,,0,0,0,,Right, I'd also like to watch one of the story episodes with everyone today.
+Dialogue: 0,0:13:12.76,0:13:13.88,Shizuku,,0,0,0,,Which episode should we do?
+Dialogue: 0,0:13:14.92,0:13:17.88,Shizuku,,0,0,0,,I'd like to see the... the main event?
+Dialogue: 0,0:13:18.84,0:13:24.90,Shizuku,,0,0,0,,The iHaz filming scene where MMJ and Cheerful＊Days go at it.
+Dialogue: 0,0:13:24.90,0:13:27.00,Shizuku,,0,0,0,,What do you think?
+Dialogue: 0,0:13:27.00,0:13:28.28,Shizuku,,0,0,0,,Maybe Episode 7 or 8?
+Dialogue: 0,0:13:29.56,0:13:30.42,Shizuku,,0,0,0,,I think that'd be—
+Dialogue: 0,0:13:31.35,0:13:33.04,Shizuku,,0,0,0,,What do you all think?
+Dialogue: 0,0:13:33.04,0:13:36.31,Shizuku,,0,0,0,,Yeah, we got to see a little more of Shizuku's past this time.
+Dialogue: 0,0:13:36.92,0:13:44.60,Shizuku,,0,0,0,,We've seen bits of her time in Cheerful＊Days before,
+Dialogue: 0,0:13:44.60,0:13:51.42,Shizuku,,0,0,0,,but this time we got to see the nitty-gritty of what actually happened.
+Dialogue: 0,0:13:51.42,0:13:54.72,Shizuku,,0,0,0,,It's hard to choose, but maybe 7 or 8?
+Dialogue: 0,0:13:55.36,0:13:56.83,Shizuku,,0,0,0,,It looks like there are a lot of votes for 7.
+Dialogue: 0,0:14:00.48,0:14:02.36,Shizuku,,0,0,0,,Should we go with 7?
+Dialogue: 0,0:14:03.12,0:14:04.24,Shizuku,,0,0,0,,Is 7 okay with everyone?
+Comment: 0,0:14:04.24,0:14:04.87,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:14:05.44,0:14:09.06,Shizuku,,0,0,0,,Alright everyone, let's watch Episode 7 together.
+Dialogue: 0,0:14:12.00,0:14:16.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Watching it with all of you makes it so much fun.
+Dialogue: 0,0:14:19.32,0:14:20.31,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Episode 7.
+Dialogue: 0,0:27:45.75,0:27:48.20,Shizuku,,0,0,0,,Thank you so much, everyone.
+Dialogue: 0,0:27:49.40,0:27:56.00,Shizuku,,0,0,0,,I see everyone in the YouTube chat saying how emotional that was and cheering for Shizuku.
+Dialogue: 0,0:27:56.00,0:27:57.60,Shizuku,,0,0,0,,Thank you so much!
+Dialogue: 0,0:28:03.80,0:28:04.44,Shizuku,,0,0,0,,So...
+Dialogue: 0,0:28:07.16,0:28:09.68,Shizuku,,0,0,0,,we have to move on to the next part soon,
+Dialogue: 0,0:28:11.12,0:28:14.07,Shizuku,,0,0,0,,so I'll keep my thoughts brief for now, but...
+Dialogue: 0,0:28:16.96,0:28:22.80,Shizuku,,0,0,0,,Seeing Shizuku's past like that...
+Dialogue: 0,0:28:22.80,0:28:24.92,Shizuku,,0,0,0,,Shizuku is such a kind person.
+Dialogue: 0,0:28:26.36,0:28:28.75,Shizuku,,0,0,0,,She has such a strong will.
+Dialogue: 0,0:28:28.75,0:28:38.32,Shizuku,,0,0,0,,This scene really showed how strong she is, being able to say "thank you" to Arisa's face like that.
+Dialogue: 0,0:28:38.32,0:28:47.10,Shizuku,,0,0,0,,To put all her feelings into words, and to have the courage to do it right in the middle of filming,
+Dialogue: 0,0:28:47.10,0:28:53.88,Shizuku,,0,0,0,,and being able to clearly express everything she wanted to say,
+Dialogue: 0,0:28:53.88,0:28:56.02,Shizuku,,0,0,0,,isn't Shizuku the coolest person in the world?
+Dialogue: 0,0:28:56.02,0:28:58.08,Shizuku,,0,0,0,,I really just want to give her a hug.
+Dialogue: 0,0:28:58.08,0:29:00.54,Shizuku,,0,0,0,,I'm already hugging her in my heart.
+Dialogue: 0,0:29:00.54,0:29:02.00,Shizuku,,0,0,0,,She's just the best.
+Dialogue: 0,0:29:02.68,0:29:07.88,Shizuku,,0,0,0,,And while Shizuku herself didn't get angry, Airi-chan got all feisty in her place, didn't she?
+Dialogue: 0,0:29:07.88,0:29:11.04,Shizuku,,0,0,0,,That dynamic is just so good.
+Dialogue: 0,0:29:12.52,0:29:16.08,Shizuku,,0,0,0,,We got to see more of the intense idol business,
+Dialogue: 0,0:29:16.08,0:29:19.88,Shizuku,,0,0,0,,And speaking of Airi-chan, I have some thoughts on her role in all this too.
+Dialogue: 0,0:29:19.88,0:29:21.96,Shizuku,,0,0,0,,We'll get more into that later.
+Dialogue: 0,0:29:21.96,0:29:25.72,Shizuku,,0,0,0,,But for now, are you ready with your phones, everyone?
+Dialogue: 0,0:29:27.38,0:29:32.86,Shizuku,,0,0,0,,We'll be watching the 10PM AfterLive together in a bit.
+Dialogue: 0,0:48:31.13,0:48:33.38,Shizuku,,0,0,0,,Thank you very much.
+Dialogue: 0,0:48:33.38,0:48:35.48,Shizuku,,0,0,0,,I'm so glad we got to watch that all together.
+Dialogue: 0,0:48:36.56,0:48:38.16,Shizuku,,0,0,0,,Ah~
+Dialogue: 0,0:48:39.08,0:48:40.56,Shizuku,,0,0,0,,My heart is just racing.
+Dialogue: 0,0:48:42.32,0:48:45.00,Shizuku,,0,0,0,,What did you think?
+Dialogue: 0,0:48:45.00,0:48:47.10,Shizuku,,0,0,0,,That was the new song for this event.
+Dialogue: 0,0:48:47.10,0:48:53.48,Shizuku,,0,0,0,,I think they previewed it a little during the last WonderShow Channel stream.
+Dialogue: 0,0:48:56.01,0:48:57.52,Shizuku,,0,0,0,,But that was super cool, wasn't it?
+Dialogue: 0,0:48:58.24,0:49:04.62,Shizuku,,0,0,0,,We've seen lots of different kinds of songs from MMJ so far,
+Dialogue: 0,0:49:04.62,0:49:14.48,Shizuku,,0,0,0,,and I feel like we get to see different emotions or facets of the group come out each time.
+Dialogue: 0,0:49:14.48,0:49:20.00,Shizuku,,0,0,0,,And this was yet another kind of "coolness" we got to see from them.
+Dialogue: 0,0:49:21.00,0:49:25.52,Shizuku,,0,0,0,,Since this was an AfterLive, seeing it as a live performance with the costumes...
+Dialogue: 0,0:49:25.52,0:49:28.84,Shizuku,,0,0,0,,Everything came together and looked so cool.
+Dialogue: 0,0:49:29.48,0:49:32.22,Shizuku,,0,0,0,,And the way it went dark for a moment before the pre-chorus,
+Dialogue: 0,0:49:32.22,0:49:35.08,Shizuku,,0,0,0,,and then Len-kun came to the center...
+Dialogue: 0,0:49:36.44,0:49:39.06,Shizuku,,0,0,0,,I really loved the lighting in that part.
+Dialogue: 0,0:49:39.06,0:49:40.72,Shizuku,,0,0,0,,That was awesome.
+Dialogue: 0,0:49:41.60,0:49:45.52,Shizuku,,0,0,0,,Ah yeah, and the high notes were cool too.
+Dialogue: 0,0:49:45.52,0:49:47.48,Shizuku,,0,0,0,,Recording those was a lot of fun.
+Dialogue: 0,0:49:48.40,0:49:51.00,Shizuku,,0,0,0,,So speaking of recording for this song,
+Dialogue: 0,0:49:53.84,0:49:57.00,Shizuku,,0,0,0,,It's not just the theme, but I think...
+Dialogue: 0,0:49:57.84,0:50:04.56,Shizuku,,0,0,0,,In this story, Shizuku took yet another step deeper into facing her struggles.
+Dialogue: 0,0:50:05.24,0:50:06.48,Shizuku,,0,0,0,,And for me,
+Dialogue: 0,0:50:07.60,0:50:15.40,Shizuku,,0,0,0,,seeing Shizuku get her wings and awaken... I felt this song has that kind of power.
+Dialogue: 0,0:50:15.40,0:50:17.39,Shizuku,,0,0,0,,That's what I thought when I first read the lyrics.
+Dialogue: 0,0:50:18.52,0:50:23.27,Shizuku,,0,0,0,,The lyrics are filled with so many emotions,
+Dialogue: 0,0:50:24.60,0:50:27.04,Shizuku,,0,0,0,,so I really wanted to express them with everything I had.
+Dialogue: 0,0:50:27.88,0:50:33.88,Shizuku,,0,0,0,,What we just showed you was the game-size version.
+Dialogue: 0,0:50:34.96,0:50:41.56,Shizuku,,0,0,0,,I hope we'll have the chance to share the full version with you, someday.
+Dialogue: 0,0:50:41.56,0:50:43.52,Shizuku,,0,0,0,,When you do listen to it,
+Dialogue: 0,0:50:45.04,0:50:51.46,Shizuku,,0,0,0,,there's a part at the end of the second verse, going into the chorus, where I almost feel like she's taking off flying!
+Dialogue: 0,0:50:51.46,0:50:56.36,Shizuku,,0,0,0,,I'd love it if you listen to that part and experience it for yourself.
+Dialogue: 0,0:50:57.64,0:50:59.87,Shizuku,,0,0,0,,Everyone wants to hear the full version!
+Dialogue: 0,0:51:02.20,0:51:06.32,Shizuku,,0,0,0,,But even in the game-size version,
+Dialogue: 0,0:51:07.92,0:51:09.39,Shizuku,,0,0,0,,at the end of the chorus,
+Dialogue: 0,0:51:09.84,0:51:15.60,Shizuku,,0,0,0,,I think the "I have nothing left to fear" lyrics really touched everyone.
+Dialogue: 0,0:51:15.60,0:51:16.86,Shizuku,,0,0,0,,That was so good!
+Dialogue: 0,0:51:16.86,0:51:22.20,Shizuku,,0,0,0,,And then everyone waves like this, and the stage suddenly brightens up.
+Dialogue: 0,0:51:23.00,0:51:24.24,Shizuku,,0,0,0,,I thought that part...
+Dialogue: 0,0:51:25.96,0:51:26.83,Shizuku,,0,0,0,,was really nice!
+Dialogue: 0,0:51:29.90,0:51:34.40,Shizuku,,0,0,0,,Alright, thank you all so much for having fun watching the AfterLive with us!
+Dialogue: 0,0:51:35.12,0:51:41.32,Shizuku,,0,0,0,,The 3DMV was posted on the official ProSeka YouTube channel today at 10:10 PM.
+Dialogue: 0,0:51:41.32,0:51:42.71,Shizuku,,0,0,0,,Ah, it's already premiering!
+Dialogue: 0,0:51:43.52,0:51:47.76,Shizuku,,0,0,0,,Looks like it's already up, so please check it out.
+Dialogue: 0,0:51:47.76,0:51:48.84,Shizuku,,0,0,0,,Please watch it a lot.
+Dialogue: 0,0:51:48.84,0:51:51.76,Shizuku,,0,0,0,,Thank you so much.
+Dialogue: 0,0:51:53.64,0:51:54.40,Shizuku,,0,0,0,,And now,
+Dialogue: 0,0:51:55.60,0:52:04.04,Shizuku,,0,0,0,,let's take a look at the newly added card illustrations.
+Dialogue: 0,0:52:04.04,0:52:06.04,Shizuku,,0,0,0,,There are five cards for us to look at,
+Dialogue: 0,0:52:07.60,0:52:11.44,Shizuku,,0,0,0,,and they're all so cute!
+Comment: 0,0:52:11.44,0:52:13.70,Shizuku,,0,0,0,,~~Card talk starts~~
+Dialogue: 0,0:52:13.70,0:52:15.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Let's start by looking at Shizuku's.
+Dialogue: 0,0:52:20.80,0:52:22.48,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Isn't this amazing?
+Dialogue: 0,0:52:23.44,0:52:24.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This is the trained art.
+Dialogue: 0,0:52:26.36,0:52:27.18,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's like...
+Dialogue: 0,0:52:28.92,0:52:35.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The large flower Shizuku is sitting on...
+Dialogue: 0,0:52:35.92,0:52:39.12,Shizuku - PiP,,0,0,0,,{\pos(650,750)}it kind of feels like it's made of stained glass.
+Dialogue: 0,0:52:40.48,0:52:46.07,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I think that smooth glass-like texture looks really good.
+Dialogue: 0,0:52:47.04,0:52:53.68,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It has a certain fleeting, almost fragile beauty to it.
+Dialogue: 0,0:52:55.04,0:52:56.98,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Love it.
+Dialogue: 0,0:52:56.98,0:52:59.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And this is the untrained.
+Dialogue: 0,0:52:59.84,0:53:03.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I think this was the art that was previewed a bit (in the event Twitter announcement).
+Dialogue: 0,0:53:04.92,0:53:08.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}A bit of Arisa was visible in the corner.
+Dialogue: 0,0:53:10.64,0:53:13.36,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I saw people posting about that a lot on Twitter.
+Dialogue: 0,0:53:14.15,0:53:14.83,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Like—
+Dialogue: 0,0:53:15.68,0:53:18.34,Shizuku - PiP,,0,0,0,,{\pos(650,750)}doesn't it make you go "Just who does she think she is?"
+Dialogue: 0,0:53:19.04,0:53:20.12,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It does, doesn't it?
+Dialogue: 0,0:53:20.56,0:53:22.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This art is just...
+Dialogue: 0,0:53:23.48,0:53:29.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Looking at this one alone, Shizuku has such a cheerful expression.
+Dialogue: 0,0:53:29.16,0:53:33.88,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But then Airi is going ">:(" while Arisa is walking away like ":/".
+Dialogue: 0,0:53:33.88,0:53:35.68,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This shot alone is really funny,
+Dialogue: 0,0:53:35.68,0:53:39.47,Shizuku - PiP,,0,0,0,,{\pos(650,750)}but if you read the story you can understand what's going on here.
+Dialogue: 0,0:53:41.48,0:53:43.95,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This is a great shot though.
+Dialogue: 0,0:53:43.95,0:53:48.10,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Arisa is great, and Airi's expression...
+Dialogue: 0,0:53:48.10,0:53:48.96,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I really like it.
+Dialogue: 0,0:53:49.80,0:53:51.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Next is Minori.
+Dialogue: 0,0:53:52.52,0:53:53.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Isn't she adorable?
+Dialogue: 0,0:53:53.60,0:53:54.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Here's the trained art.
+Dialogue: 0,0:53:56.28,0:53:58.06,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Super cute.
+Dialogue: 0,0:53:58.06,0:54:05.56,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's a total change from Shizuku's outfit, black and white with red accents.
+Dialogue: 0,0:54:06.48,0:54:07.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Super cute.
+Dialogue: 0,0:54:08.84,0:54:09.76,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And the leaf!
+Dialogue: 0,0:54:10.40,0:54:13.00,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The way she's wearing the leaf on her head...
+Dialogue: 0,0:54:14.48,0:54:15.44,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...is just so cute, right?
+Dialogue: 0,0:54:16.16,0:54:21.87,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I called her a Korpokkur earlier.
+Dialogue: 0,0:54:21.87,0:54:23.80,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She kind of feels like a fairy, super cute.
+Dialogue: 0,0:54:24.96,0:54:28.74,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And this is the untrained.
+Dialogue: 0,0:54:28.74,0:54:30.00,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Snacking time.
+Dialogue: 0,0:54:30.58,0:54:32.39,Shizuku - PiP,,0,0,0,,{\pos(650,750)}So actually,
+Dialogue: 0,0:54:33.16,0:54:36.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}ProSeka recordings are just like this too,
+Dialogue: 0,0:54:36.08,0:54:42.12,Shizuku - PiP,,0,0,0,,{\pos(650,750)}but in the green rooms, staff always provide us with delicious food.
+Dialogue: 0,0:54:42.78,0:54:45.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}We got bento today too.
+Dialogue: 0,0:54:45.32,0:54:48.63,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But yeah, having snacks laid out like this is actually quite realistic.
+Dialogue: 0,0:54:50.14,0:54:53.97,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Normally you can be pretty nervous before a show,
+Dialogue: 0,0:54:53.97,0:54:56.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}but the snacks are so good you just nom away at them.
+Dialogue: 0,0:54:56.60,0:54:59.38,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Oh yeah, definitely check out the side story for this card too.
+Dialogue: 0,0:54:59.38,0:55:00.95,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's really cute.
+Dialogue: 0,0:55:05.64,0:55:07.68,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And next is Airi.
+Dialogue: 0,0:55:07.68,0:55:09.04,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This is her trained art.
+Dialogue: 0,0:55:10.32,0:55:15.10,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Her outfit is pretty similar to Minori's,
+Dialogue: 0,0:55:15.10,0:55:18.15,Shizuku - PiP,,0,0,0,,{\pos(650,750)}but the skirt is slightly different.
+Dialogue: 0,0:55:18.15,0:55:23.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Airi has flowers spread out like a pannier. It's so cute.
+Dialogue: 0,0:55:27.24,0:55:28.58,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I can't stop looking at it.
+Dialogue: 0,0:55:29.80,0:55:34.56,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The droplets scattered around her make it feel like the rain just stopped.
+Dialogue: 0,0:55:35.52,0:55:40.44,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And that feeling really reminds me of the story.
+Dialogue: 0,0:55:41.44,0:55:43.04,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Here's the untrained.
+Dialogue: 0,0:55:43.04,0:55:46.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This is another still from the story.
+Dialogue: 0,0:55:47.00,0:55:53.42,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Airi's always worrying about Shizuku, isn't she.
+Dialogue: 0,0:55:53.42,0:55:55.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She'd be checking on her like "Are you really okay with this?"
+Dialogue: 0,0:55:55.72,0:55:58.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Shizuku tends not to speak up about stuff like this,
+Dialogue: 0,0:55:59.80,0:56:02.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}so Airi is always looking out for her.
+Dialogue: 0,0:56:03.32,0:56:04.48,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She really is.
+Dialogue: 0,0:56:04.48,0:56:05.24,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And Airi...
+Dialogue: 0,0:56:05.96,0:56:08.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Without Airi, the Shizuku we know today wouldn't exist.
+Dialogue: 0,0:56:09.60,0:56:12.04,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Even back in her Cheerful＊Days days, Airi...
+Dialogue: 0,0:56:14.68,0:56:17.88,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Airi encouraged her so much back when she was on QT.
+Dialogue: 0,0:56:17.88,0:56:20.48,Shizuku - PiP,,0,0,0,,{\pos(650,750)}You can really see their bond.
+Dialogue: 0,0:56:21.44,0:56:22.56,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And then there's Haruka.
+Dialogue: 0,0:56:24.04,0:56:26.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Her trained art is amazing.
+Dialogue: 0,0:56:26.32,0:56:27.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That...
+Dialogue: 0,0:56:28.52,0:56:30.84,Shizuku - PiP,,0,0,0,,{\pos(650,750)}the frog there looks so surprised.
+Dialogue: 0,0:56:30.84,0:56:33.56,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Isn't her expression just so cute?
+Dialogue: 0,0:56:34.24,0:56:35.80,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Landing on the lilypad like that.
+Dialogue: 0,0:56:38.00,0:56:38.78,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's so good.
+Dialogue: 0,0:56:38.78,0:56:43.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Haruka's outfit isn't just red, it has some orange in it too.
+Dialogue: 0,0:56:44.60,0:56:45.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Very cute.
+Dialogue: 0,0:56:48.04,0:56:50.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}There's lots of subtle differences in the outfits.
+Dialogue: 0,0:56:51.80,0:56:52.74,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That's really cool.
+Dialogue: 0,0:56:52.74,0:56:54.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The lotuses also look really pretty.
+Dialogue: 0,0:57:03.76,0:57:04.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And here's the untrained.
+Dialogue: 0,0:57:05.52,0:57:09.96,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Is this the actual filming studio for iHaz?
+Dialogue: 0,0:57:09.96,0:57:13.48,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The background, the camera crew, the emergency exit sign in the back...
+Dialogue: 0,0:57:13.48,0:57:14.88,Shizuku - PiP,,0,0,0,,{\pos(650,750)}and by the door in the back,
+Dialogue: 0,0:57:14.88,0:57:16.24,Shizuku - PiP,,0,0,0,,{\pos(650,750)}you can actually see the emergency exit sign lit up.
+Dialogue: 0,0:57:16.84,0:57:20.65,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And then the monitor in the bottom right under the camera.
+Dialogue: 0,0:57:20.65,0:57:21.77,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It all feels so real!
+Dialogue: 0,0:57:21.77,0:57:23.36,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It really looks exactly like this.
+Dialogue: 0,0:57:23.36,0:57:27.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The perspective you have when standing in a studio with cameras.
+Dialogue: 0,0:57:28.84,0:57:30.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Haruka here...
+Dialogue: 0,0:57:31.84,0:57:35.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...looks so nervous, like she's right about to go on for the real thing.
+Dialogue: 0,0:57:36.60,0:57:39.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This expression is so good.
+Dialogue: 0,0:57:39.88,0:57:41.50,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The camera?
+Dialogue: 0,0:57:41.50,0:57:42.80,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But it really is like this.
+Dialogue: 0,0:57:43.80,0:57:48.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}They're constantly filming different expressions from various angles...
+Dialogue: 0,0:57:48.08,0:57:51.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...switching between cameras to create the screen...
+Dialogue: 0,0:57:52.36,0:57:55.96,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...that everyone usually sees. So this is what it's like.
+Dialogue: 0,0:57:55.96,0:57:57.04,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's so realistic.
+Dialogue: 0,0:57:59.00,0:58:02.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And finally, Meiko.
+Dialogue: 0,0:58:03.16,0:58:05.52,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Meiko, you look so elegant.
+Dialogue: 0,0:58:06.84,0:58:12.94,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This white... this white outfit is just...
+Dialogue: 0,0:58:12.94,0:58:14.08,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But it suits her so well.
+Dialogue: 0,0:58:14.08,0:58:15.20,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That's our Meiko.
+Dialogue: 0,0:58:19.76,0:58:21.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She looks so mature.
+Dialogue: 0,0:58:21.16,0:58:22.82,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It's wonderful.
+Dialogue: 0,0:58:22.82,0:58:24.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Holding the flowers...
+Dialogue: 0,0:58:25.72,0:58:26.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...she's so cute.
+Dialogue: 0,0:58:26.64,0:58:29.80,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The way the sleeves flare out a bit is great.
+Dialogue: 0,0:58:32.04,0:58:34.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And so...
+Dialogue: 0,0:58:34.96,0:58:39.40,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Looking at this, I wanted to write that the group name got smaller...
+Dialogue: 0,0:58:39.40,0:58:41.96,Shizuku - PiP,,0,0,0,,{\pos(650,750)}...but because of the character limit, it just says "got small."
+Dialogue: 0,0:58:42.92,0:58:43.84,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That happens sometimes.
+Dialogue: 0,0:58:45.40,0:58:46.16,Shizuku - PiP,,0,0,0,,{\pos(650,750)}What do you mean?
+Comment: 0,0:58:48.08,0:58:49.60,Shizuku - PiP,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:58:48.08,0:58:49.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}"The outfits are really cute!"
+Dialogue: 0,0:58:50.96,0:58:52.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Yeah, they are pretty simple, but—
+Dialogue: 0,0:58:52.32,0:58:56.19,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Oh yeah yeah, I actually saw this comment from earlier.
+Dialogue: 0,0:58:57.00,0:59:03.29,Shizuku - PiP,,0,0,0,,{\pos(650,750)}They were talking about something they realized about all the outfits.
+Dialogue: 0,0:59:03.83,0:59:06.75,Shizuku - PiP,,0,0,0,,{\pos(650,750)}So when I first saw the art,
+Dialogue: 0,0:59:06.75,0:59:12.02,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I was just like "oh look, she's like a fairy! Fufufu, that's so cute!"
+Dialogue: 0,0:59:12.02,0:59:17.55,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But that commenter said that this might be based on Thumbelina. Now, for me,
+Dialogue: 0,0:59:17.55,0:59:21.76,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I've definitely heard of a fairy tale called "Thumbelina" before,
+Dialogue: 0,0:59:22.64,0:59:24.04,Shizuku - PiP,,0,0,0,,{\pos(650,750)}but I'd never actually read it.
+Dialogue: 0,0:59:24.04,0:59:26.36,Shizuku - PiP,,0,0,0,,{\pos(650,750)}So when I looked up what kind of story it was,
+Dialogue: 0,0:59:27.12,0:59:35.88,Shizuku - PiP,,0,0,0,,{\pos(650,750)}it's about a tiny girl born from a flower who gets named Thumbelina.
+Dialogue: 0,0:59:35.88,0:59:40.88,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She gets kidnapped and faces all sorts of dangers.
+Dialogue: 0,0:59:40.88,0:59:43.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}She really goes through a lot of difficult things.
+Dialogue: 0,0:59:43.60,0:59:46.90,Shizuku - PiP,,0,0,0,,{\pos(650,750)}But in the very end, a swa... swallow?
+Dialogue: 0,0:59:46.90,0:59:49.84,Shizuku - PiP,,0,0,0,,{\pos(650,750)}A swallow saves her,
+Dialogue: 0,0:59:49.84,0:59:53.76,Shizuku - PiP,,0,0,0,,{\pos(650,750)}and she finds freedom in a happy ending.
+Dialogue: 0,0:59:54.39,0:59:55.39,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And looking here...
+Dialogue: 0,0:59:57.76,0:59:59.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Aren't these costumes like swallows?
+Dialogue: 0,0:59:59.64,1:00:00.87,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The black and white...
+Dialogue: 0,1:00:02.68,1:00:06.52,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Minori-chan, Airi-chan, and Haruka-chan.
+Dialogue: 0,1:00:06.52,1:00:09.03,Shizuku - PiP,,0,0,0,,{\pos(650,750)}When they pointed it out, they do look a bit like swallows.
+Dialogue: 0,1:00:09.60,1:00:13.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}The yellow on their chests looks like a beak.
+Dialogue: 0,1:00:13.72,1:00:15.82,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Whoever noticed that is amazing.
+Dialogue: 0,1:00:15.82,1:00:17.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I'm so glad they told me about that.
+Dialogue: 0,1:00:17.92,1:00:21.84,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It really makes so much sense now.
+Dialogue: 0,1:00:21.84,1:00:24.44,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It changes how I see the set. There's even a frog here.
+Dialogue: 0,1:00:24.44,1:00:26.68,Shizuku - PiP,,0,0,0,,{\pos(650,750)}There's a frog in Thumbelina too.
+Dialogue: 0,1:00:27.40,1:00:28.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}So it all clicks for me now.
+Dialogue: 0,1:00:28.72,1:00:30.11,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That's really cool.
+Dialogue: 0,1:00:31.12,1:00:35.87,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And the story of Thumbelina is about how if you don't give up,
+Dialogue: 0,1:00:37.44,1:00:40.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}you can make your dreams come true and be free.
+Dialogue: 0,1:00:41.80,1:00:44.55,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I was like, "That fits this story so well!"
+Dialogue: 0,1:00:44.55,1:00:47.56,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Shizuku getting saved by the swallows,
+Dialogue: 0,1:00:47.56,1:00:49.11,Shizuku - PiP,,0,0,0,,{\pos(650,750)}and now she can spread her wings.
+Dialogue: 0,1:00:50.08,1:00:51.60,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Doesn't that just hit the feels?
+Dialogue: 0,1:00:52.96,1:00:55.84,Shizuku - PiP,,0,0,0,,{\pos(650,750)}That's what I wanted to share. Thanks so much for telling me about that!
+Comment: 0,1:00:57.80,1:00:59.20,Shizuku,,0,0,0,,~~~ END CARD TALK, START ARISA TALK~~~
+Dialogue: 0,1:00:59.20,1:01:03.04,Shizuku,,0,0,0,,So that was everything for the "At The End of The Unraveled Thread" event.
+Dialogue: 0,1:01:03.04,1:01:07.04,Shizuku,,0,0,0,,The story, the art, everything came together so beautifully.
+Dialogue: 0,1:01:07.04,1:01:08.68,Shizuku,,0,0,0,,Thank you so much.
+Dialogue: 0,1:01:11.60,1:01:18.48,Shizuku,,0,0,0,,So actually, I really want to talk a bit about Arisa-chan now.
+Dialogue: 0,1:01:20.12,1:01:23.92,Shizuku,,0,0,0,,So from the premise of the story,
+Dialogue: 0,1:01:23.92,1:01:30.48,Shizuku,,0,0,0,,Shizuku and the Cheerful＊Days members clash quite a bit.
+Dialogue: 0,1:01:30.48,1:01:35.94,Shizuku,,0,0,0,,So, looking at Arisa-chan and the rest of the Cheerful＊Days girls from a certain perspective,
+Dialogue: 0,1:01:35.94,1:01:37.62,Shizuku,,0,0,0,,maybe you wouldn't call them villains per se,
+Dialogue: 0,1:01:37.62,1:01:41.52,Shizuku,,0,0,0,,but there were moments where you might go "grr" or "just who do they think they are?"
+Dialogue: 0,1:01:43.00,1:01:44.64,Shizuku,,0,0,0,,But you know,
+Dialogue: 0,1:01:45.44,1:01:50.22,Shizuku,,0,0,0,,Mei-chan mentioned it too, but they're all serious about being idols.
+Dialogue: 0,1:01:50.22,1:01:56.08,Shizuku,,0,0,0,,They were all after that center position Shizuku had.
+Dialogue: 0,1:01:56.08,1:01:58.54,Shizuku,,0,0,0,,They all worked incredibly hard.
+Dialogue: 0,1:01:58.54,1:02:03.80,Shizuku,,0,0,0,,That's why they get so genuinely jealous of her, and why they're so motivated to continue working.
+Dialogue: 0,1:02:07.80,1:02:09.79,Shizuku,,0,0,0,,So their feelings were pretty intense.
+Dialogue: 0,1:02:10.48,1:02:14.72,Shizuku,,0,0,0,,I feel like Arisa is someone who's really straightforward,
+Dialogue: 0,1:02:14.72,1:02:17.44,Shizuku,,0,0,0,,and so, Shizuku...
+Dialogue: 0,1:02:20.48,1:02:26.56,Shizuku,,0,0,0,,Right when she met Arisa and the other Cheerful＊Days members,
+Dialogue: 0,1:02:28.21,1:02:33.50,Shizuku,,0,0,0,,Arisa immediately went, "I'm going all out, so you'd better do the same."
+Dialogue: 0,1:02:34.56,1:02:39.76,Shizuku,,0,0,0,,She really wasn't hiding anything with those words of hers.
+Dialogue: 0,1:02:42.16,1:02:50.80,Shizuku,,0,0,0,,I thought that straightforwardness, always giving it her all, was really cool.
+Dialogue: 0,1:02:55.50,1:02:56.63,Shizuku,,0,0,0,,That being said...
+Dialogue: 0,1:02:57.36,1:02:59.47,Shizuku,,0,0,0,,when we saw in the story—
+Dialogue: 0,1:03:00.63,1:03:02.95,Shizuku,,0,0,0,,what was it...
+Dialogue: 0,1:03:02.95,1:03:07.67,Shizuku,,0,0,0,,when the other members went and hid Shizuku's outfit like that...
+Dialogue: 0,1:03:09.84,1:03:14.92,Shizuku,,0,0,0,,The way they went about it... wasn't the best way to handle it.
+Dialogue: 0,1:03:19.92,1:03:26.08,Shizuku,,0,0,0,,I'm not saying it's a bad thing to really want to be the center like that.
+Dialogue: 0,1:03:26.08,1:03:32.88,Shizuku,,0,0,0,,I completely understand being so driven that you start feeling like "damn it" towards others.
+Dialogue: 0,1:03:33.84,1:03:38.20,Shizuku,,0,0,0,,I'm definitely not perfect either, I struggle with this too.
+Dialogue: 0,1:03:38.72,1:03:44.46,Shizuku,,0,0,0,,It's just if you fixate on those feelings of jealousy and let it control how you treat others,
+Dialogue: 0,1:03:44.46,1:03:46.75,Shizuku,,0,0,0,,really bad things can happen.
+Dialogue: 0,1:03:46.75,1:03:48.94,Shizuku,,0,0,0,,It's a really difficult thing!
+Dialogue: 0,1:03:48.94,1:03:55.55,Shizuku,,0,0,0,,It's just something you need to take time with and confront within yourself.
+Dialogue: 0,1:03:56.44,1:04:01.10,Shizuku,,0,0,0,,That "I won't lose" feeling can actually help motivate you,
+Dialogue: 0,1:04:01.10,1:04:03.35,Shizuku,,0,0,0,,and push you to improve yourself.
+Dialogue: 0,1:04:03.35,1:04:05.62,Shizuku,,0,0,0,,I strive for that myself.
+Dialogue: 0,1:04:05.62,1:04:08.36,Shizuku,,0,0,0,,I definitely feel that jealousy all the time though,
+Dialogue: 0,1:04:08.36,1:04:10.95,Shizuku,,0,0,0,,Like "ah, she must have it nice," or "damn it, why her?"
+Dialogue: 0,1:04:10.95,1:04:12.96,Shizuku,,0,0,0,,I really do. I'm serious.
+Dialogue: 0,1:04:12.96,1:04:14.99,Shizuku,,0,0,0,,Every single day, actually.
+Dialogue: 0,1:04:15.92,1:04:16.86,Shizuku,,0,0,0,,I really do get those feelings.
+Dialogue: 0,1:04:16.86,1:04:19.20,Shizuku,,0,0,0,,But on the other hand, Shizuku...
+Dialogue: 0,1:04:19.96,1:04:27.84,Shizuku,,0,0,0,,because the other girls all really wanted to become the center,
+Dialogue: 0,1:04:27.84,1:04:31.30,Shizuku,,0,0,0,,what Shizuku said hurt them.
+Dialogue: 0,1:04:31.30,1:04:38.28,Shizuku,,0,0,0,,Of course, she didn't say it out of spite. I think we all know that Shizuku's not that kind of person.
+Dialogue: 0,1:04:38.28,1:04:40.72,Shizuku,,0,0,0,,It's not that she had bad intentions.
+Dialogue: 0,1:04:40.72,1:04:45.32,Shizuku,,0,0,0,,She was just so overwhelmed with all the expectations at the time,
+Dialogue: 0,1:04:45.32,1:04:48.35,Shizuku,,0,0,0,,that she could only see what was right in front of her.
+Dialogue: 0,1:04:48.35,1:04:53.52,Shizuku,,0,0,0,,And that anxiety made her say that someone else might be better for the center.
+Dialogue: 0,1:04:53.52,1:04:54.54,Shizuku,,0,0,0,,It was the heat of the moment.
+Dialogue: 0,1:04:54.54,1:04:56.20,Shizuku,,0,0,0,,I definitely understand that.
+Dialogue: 0,1:04:56.80,1:04:59.44,Shizuku,,0,0,0,,The pressure of being the center is insane.
+Dialogue: 0,1:04:59.44,1:05:03.52,Shizuku,,0,0,0,,Between all the expectations and having to keep up that persona...
+Dialogue: 0,1:05:03.52,1:05:05.62,Shizuku,,0,0,0,,Shizuku couldn't be her true self.
+Dialogue: 0,1:05:05.62,1:05:10.20,Shizuku,,0,0,0,,Plus she had to maintain that character everyone was expecting, which made it even harder.
+Dialogue: 0,1:05:10.20,1:05:11.45,Shizuku,,0,0,0,,That was part of it too.
+Dialogue: 0,1:05:12.28,1:05:17.36,Shizuku,,0,0,0,,This story was just... just too real.
+Dialogue: 0,1:05:17.91,1:05:18.63,Shizuku,,0,0,0,,It really was.
+Dialogue: 0,1:05:20.08,1:05:21.16,Shizuku,,0,0,0,,Way too real.
+Dialogue: 0,1:05:21.16,1:05:23.65,Shizuku,,0,0,0,,At such a sensitive, young age,
+Dialogue: 0,1:05:24.40,1:05:27.96,Shizuku,,0,0,0,,and on top of that, having to be chosen by someone else to succeed...
+Dialogue: 0,1:05:29.00,1:05:30.27,Shizuku,,0,0,0,,It's just cruel.
+Dialogue: 0,1:05:30.27,1:05:33.51,Shizuku,,0,0,0,,Working hard alone won't make you the center.
+Dialogue: 0,1:05:34.92,1:05:40.80,Shizuku,,0,0,0,,You need someone to recognize you and say, "You're the center."
+Dialogue: 0,1:05:41.92,1:05:43.08,Shizuku,,0,0,0,,That's what makes it so tough.
+Dialogue: 0,1:05:43.08,1:05:46.84,Shizuku,,0,0,0,,But I suppose that's exactly why they're able to shine so brightly.
+Dialogue: 0,1:05:48.08,1:05:48.88,Shizuku,,0,0,0,,I really felt that.
+Dialogue: 0,1:05:49.96,1:05:53.68,Shizuku,,0,0,0,,Looking at this scenario, I thought to myself...
+Dialogue: 0,1:05:55.08,1:05:56.36,Shizuku,,0,0,0,,"I really need to be careful."
+Dialogue: 0,1:05:57.60,1:06:00.92,Shizuku,,0,0,0,,But because of her past, we have the Shizuku we have now.
+Dialogue: 0,1:06:00.92,1:06:05.92,Shizuku,,0,0,0,,Without this, we wouldn't have MORE MORE JUMP!, and I'm so grateful for that.
+Dialogue: 0,1:06:08.80,1:06:13.34,Shizuku,,0,0,0,,Shizuku said "Thank you" too. Truly, thank you.
+Dialogue: 0,1:06:13.34,1:06:16.64,Shizuku,,0,0,0,,Arisa-chan also stuck to her guns until the very end.
+Dialogue: 0,1:06:17.52,1:06:19.98,Shizuku,,0,0,0,,Nothing she said was wrong.
+Dialogue: 0,1:06:19.98,1:06:22.12,Shizuku,,0,0,0,,Her actions might have been wrong,
+Dialogue: 0,1:06:22.12,1:06:24.55,Shizuku,,0,0,0,,but her words weren't wrong at all.
+Dialogue: 0,1:06:24.55,1:06:28.24,Shizuku,,0,0,0,,Even during the iHaz recording scene we just watched,
+Dialogue: 0,1:06:28.76,1:06:36.75,Shizuku,,0,0,0,,you might wonder why she'd press Shizuku so hard on a TV show,
+Dialogue: 0,1:06:36.75,1:06:42.45,Shizuku,,0,0,0,,but the reason she pressed so hard,
+Dialogue: 0,1:06:42.45,1:06:49.28,Shizuku,,0,0,0,,was that she knew full well that the viewers wanted to see that behind-the-scenes idol drama.
+Dialogue: 0,1:06:49.28,1:06:52.52,Shizuku,,0,0,0,,All of that was to make the program more exciting.
+Dialogue: 0,1:06:53.52,1:07:00.02,Shizuku,,0,0,0,,She even used her position as MC to bring in Marina-chan and Hina-dan to stir up the conversation even more.
+Dialogue: 0,1:07:00.02,1:07:04.38,Shizuku,,0,0,0,,You can really feel her dedication through that.
+Dialogue: 0,1:07:04.38,1:07:06.79,Shizuku,,0,0,0,,She's a true professional.
+Dialogue: 0,1:07:08.40,1:07:09.96,Shizuku,,0,0,0,,That was really tense, though.
+Dialogue: 0,1:07:09.96,1:07:14.44,Shizuku,,0,0,0,,Even I was so anxious, wondering how it would turn out.
+Dialogue: 0,1:07:14.44,1:07:16.08,Shizuku,,0,0,0,,But Arisa's not a bad person at heart.
+Dialogue: 0,1:07:16.08,1:07:20.97,Shizuku,,0,0,0,,She's just very straightforward, serious, and strict with both herself and others.
+Dialogue: 0,1:07:23.48,1:07:25.60,Shizuku,,0,0,0,,That's what I wanted to talk about.
+Dialogue: 0,1:07:26.68,1:07:28.04,Shizuku,,0,0,0,,I ended up rambling quite a bit.
+Dialogue: 0,1:07:28.25,1:07:30.32,Shizuku,,0,0,0,,I'm glad I got to talk about all that.
+Dialogue: 0,1:07:31.20,1:07:32.24,Shizuku,,0,0,0,,And so...
+Dialogue: 0,1:07:32.24,1:07:38.10,Shizuku,,0,0,0,,When you're working really hard, your own camera tends to tunnel vision on just yourself.
+Dialogue: 0,1:07:38.10,1:07:40.48,Shizuku,,0,0,0,,You start to only see what's right in front of you.
+Dialogue: 0,1:07:40.48,1:07:44.76,Shizuku,,0,0,0,,When that happens, you need to pull the camera higher, kind of like a drone,
+Dialogue: 0,1:07:44.76,1:07:50.60,Shizuku,,0,0,0,,and try to look at things from a broader, bird's-eye view.
+Dialogue: 0,1:07:50.60,1:07:56.52,Shizuku,,0,0,0,,If you do that, if you ever find yourself wondering "why was that person like that?"...
+Dialogue: 0,1:07:56.52,1:08:01.60,Shizuku,,0,0,0,,you might realize they had their own position or reasons for feeling the way they did.
+Dialogue: 0,1:08:01.60,1:08:07.28,Shizuku,,0,0,0,,If you try to understand what's going on beneath the surface of what people show you,
+Dialogue: 0,1:08:07.28,1:08:08.60,Shizuku,,0,0,0,,you can understand each other better.
+Dialogue: 0,1:08:08.60,1:08:17.95,Shizuku,,0,0,0,,That kind of thing really helps in everyday life too.
+Dialogue: 0,1:08:24.12,1:08:30.82,Shizuku,,0,0,0,,This was a turning point where Shizuku took a step forward.
+Dialogue: 0,1:08:30.82,1:08:33.64,Shizuku,,0,0,0,,We saw her purity, her strength,
+Dialogue: 0,1:08:33.64,1:08:36.12,Shizuku,,0,0,0,,and just how cool she can be.
+Dialogue: 0,1:08:37.92,1:08:44.56,Shizuku,,0,0,0,,Also, the title "At The End of The Unraveled Thread" has the word "thread" in it.
+Comment: 0,1:08:44.56,1:08:51.76,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,1:08:44.56,1:08:50.88,Shizuku,,0,0,0,,The lyrics of "Metamo Re:born" also mention "threads". It's kind of like a key word.
+Dialogue: 0,1:08:50.88,1:08:51.84,Shizuku,,0,0,0,,I think that's really nice.
+Dialogue: 0,1:08:51.84,1:08:55.24,Shizuku,,0,0,0,,I really like the little connections like that.
+Dialogue: 0,1:08:59.86,1:09:09.30,Shizuku,,0,0,0,,I'm sure everyone has lots of thoughts about the event and story, so please feel free to tweet using the hashtag.
+Dialogue: 0,1:09:09.30,1:09:17.08,Shizuku,,0,0,0,,It's a very raw story, so I feel like different people will empathize with different characters.
+Dialogue: 0,1:09:17.08,1:09:23.60,Shizuku,,0,0,0,,It's natural to have many different feelings, so I hope you all share those too.
+Dialogue: 0,1:09:24.35,1:09:26.04,Shizuku,,0,0,0,,That was a really good story!
+Dialogue: 0,1:09:27.25,1:09:27.75,Shizuku,,0,0,0,,YES!
+Dialogue: 0,1:09:27.75,1:09:28.44,Shizuku,,0,0,0,,And so with that...
+Dialogue: 0,1:09:30.24,1:09:32.17,Shizuku,,0,0,0,,I've been pretty put together today, haven't I?
+Dialogue: 0,1:09:33.52,1:09:35.36,Shizuku,,0,0,0,,I even surprised myself.
+Dialogue: 0,1:09:35.36,1:09:43.60,Shizuku,,0,0,0,,Since I'm alone today, and the story being what it was, I came prepared to say what I really wanted to say.
+Dialogue: 0,1:09:43.60,1:09:44.94,Shizuku,,0,0,0,,See, I can be put together!
+Dialogue: 0,1:09:44.94,1:09:53.16,Shizuku,,0,0,0,,I often MC the WonderShow Channel livestreams,
+Dialogue: 0,1:09:53.16,1:09:58.92,Shizuku,,0,0,0,,so maybe you'd think at first that I would be a bit nervous here,
+Dialogue: 0,1:09:59.52,1:10:04.64,Shizuku,,0,0,0,,but I do have times when I speak seriously like this!
+Dialogue: 0,1:10:06.00,1:10:07.30,Shizuku,,0,0,0,,I appreciate you all listening!
+Dialogue: 0,1:10:07.30,1:10:08.40,Shizuku,,0,0,0,,Thank you very much.
+Dialogue: 0,1:10:09.20,1:10:13.74,Shizuku,,0,0,0,,And so, even though it was just a short time,
+Dialogue: 0,1:10:13.74,1:10:21.92,Shizuku,,0,0,0,,that's all we have for our "ProSeka AfterTalk: At The End of The Unraveled Thread" edition.
+Dialogue: 0,1:10:22.44,1:10:24.52,Shizuku,,0,0,0,,Thanks everyone for watching along!
+Dialogue: 0,1:10:24.52,1:10:28.56,Shizuku,,0,0,0,,Thanks for so many comments! I was sure to keep up with all of them.
+Dialogue: 0,1:10:28.56,1:10:32.76,Shizuku,,0,0,0,,I'm sorry I couldn't get to all of them.
+Dialogue: 0,1:10:33.63,1:10:40.36,Shizuku,,0,0,0,,Being able to watch the AfterLive in the same room together,
+Dialogue: 0,1:10:40.36,1:10:50.24,Shizuku,,0,0,0,,and connecting with everyone watching the stream in real-time has a different kind of appeal compared to watching alone.
+Dialogue: 0,1:10:50.24,1:10:52.48,Shizuku,,0,0,0,,How was it for all of you?
+Dialogue: 0,1:10:52.48,1:10:53.32,Shizuku,,0,0,0,,Did you have fun?
+Dialogue: 0,1:10:54.70,1:10:55.20,Shizuku,,0,0,0,,I'm glad.
+Dialogue: 0,1:10:55.20,1:10:56.32,Shizuku,,0,0,0,,Thank you so much.
+Dialogue: 0,1:10:58.44,1:11:11.64,Shizuku,,0,0,0,,If you haven't finished the "At The End of The Unraveled Thread" story yet, you can read it all in the Event Stories menu once the next event starts.
+Dialogue: 0,1:11:11.64,1:11:13.78,Shizuku,,0,0,0,,So please, read it as many times as you like.
+Dialogue: 0,1:11:13.78,1:11:15.36,Shizuku,,0,0,0,,Thank you.
+Dialogue: 0,1:11:16.72,1:11:20.12,Shizuku,,0,0,0,,Well then, thank you very much, everyone.
+Dialogue: 0,1:11:21.32,1:11:22.04,Shizuku,,0,0,0,,Bye bye!
