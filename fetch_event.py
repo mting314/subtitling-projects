@@ -2,10 +2,11 @@
 """Fetch Project Sekai event story data from sekai-world master DB and asset CDN.
 
 Usage:
-    python3 fetch_event.py <event_id>
+    python3 fetch_event.py "grow glorious"
+    python3 fetch_event.py "unraveled thread"
     python3 fetch_event.py 151
-    python3 fetch_event.py 151 --episodes 7 8
-    python3 fetch_event.py 151 --transcript
+    python3 fetch_event.py "grow" --transcript --episodes 7 8
+    python3 fetch_event.py --list
 """
 
 import argparse
@@ -35,8 +36,59 @@ def ts_to_date(ts_ms: int) -> str:
     return datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
 
 
+def fetch_all_events() -> list[dict]:
+    return fetch_json(f"{MASTER_DB}/events.json")
+
+
+def fuzzy_match_event(events: list[dict], query: str) -> list[dict]:
+    query_lower = query.lower()
+    tokens = query_lower.split()
+    matches = []
+    for event in events:
+        name = event.get("name", "").lower()
+        if all(tok in name for tok in tokens):
+            matches.append(event)
+    return matches
+
+
+def resolve_event(query: str) -> dict:
+    events = fetch_all_events()
+    if query.isdigit():
+        event = find_by_id(events, int(query))
+        if not event:
+            print(f"Error: event ID {query} not found", file=sys.stderr)
+            sys.exit(1)
+        return event
+
+    matches = fuzzy_match_event(events, query)
+    if not matches:
+        print(f"No events matching '{query}'.", file=sys.stderr)
+        print("Try --list to see all events, or use a different search term.", file=sys.stderr)
+        sys.exit(1)
+    if len(matches) == 1:
+        return matches[0]
+
+    print(f"Multiple events matching '{query}':\n", file=sys.stderr)
+    for m in matches:
+        date = ts_to_date(m["startAt"])
+        print(f"  {m['id']:>4}  {date}  {m['name']}", file=sys.stderr)
+    print(f"\nNarrow your search or use the event ID.", file=sys.stderr)
+    sys.exit(1)
+
+
+def list_events(query: str | None = None):
+    events = fetch_all_events()
+    if query:
+        events = fuzzy_match_event(events, query)
+    events.sort(key=lambda e: e.get("startAt", 0), reverse=True)
+    for e in events:
+        date = ts_to_date(e["startAt"])
+        unit = e.get("unit", "?")
+        print(f"  {e['id']:>4}  {date}  [{unit:<10}]  {e['name']}")
+
+
 def fetch_event_metadata(event_id: int) -> dict:
-    events = fetch_json(f"{MASTER_DB}/events.json")
+    events = fetch_all_events()
     event = find_by_id(events, event_id)
     if not event:
         print(f"Error: event {event_id} not found", file=sys.stderr)
@@ -156,7 +208,9 @@ def print_transcript(event_id: int, episode_nums: list[int] | None = None):
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch Project Sekai event story data")
-    parser.add_argument("event_id", type=int, help="Event ID (e.g. 151)")
+    parser.add_argument(
+        "event", nargs="?", help="Event name (fuzzy match) or ID (e.g. 'grow glorious', 151)"
+    )
     parser.add_argument(
         "--episodes", type=int, nargs="+", help="Specific episode numbers to fetch"
     )
@@ -166,15 +220,26 @@ def main():
     parser.add_argument(
         "--json", action="store_true", help="Output summary as JSON"
     )
+    parser.add_argument(
+        "--list", action="store_true", help="List all events (optionally filtered by query)"
+    )
     args = parser.parse_args()
 
-    info = print_summary(args.event_id)
+    if args.list:
+        list_events(args.event)
+        return
+
+    if not args.event:
+        parser.error("event name or ID required (or use --list)")
+
+    event = resolve_event(args.event)
+    info = print_summary(event["id"])
 
     if args.json:
         print(f"\n{json.dumps(info, ensure_ascii=False, indent=2)}")
 
     if args.transcript:
-        print_transcript(args.event_id, args.episodes)
+        print_transcript(event["id"], args.episodes)
 
 
 if __name__ == "__main__":
