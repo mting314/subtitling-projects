@@ -1,6 +1,6 @@
 # At The End of The Unraveled Thread Aftertalk
 
-**Commit prefix**: `endthread` (TBD — confirm when first commit lands)
+**Commit prefix**: `shizu3` (TBD — confirm when first commit lands)
 
 ## Segments
 
@@ -71,4 +71,9 @@ TBD — fill in after editorial pass
 TBD
 
 ## YouTube Blurb (draft)
-TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
+
+This episode of ProSeka AfterTalk has Rina Honnizumi (voice of Shizuku Hinomori) covering the MORE MORE JUMP! event "At The End of The Unraveled Thread", where Shizuku confronts her past with Cheerful＊Days and faces Arisa head-on during a joint iHaz filming.
+
+She walks through the new card illustrations, including Shizuku's stained-glass trained art and a viewer's observation that the costumes might be based on Thumbelina (swallows, frogs, and all). She also gives an extended, heartfelt take on Arisa's character, the complexity of jealousy in competitive idol life, and how pulling your perspective up "like a drone" helps you understand people better. Solo hosting today, and she's pretty proud of how put together she was.
+
+Original video: TODO
