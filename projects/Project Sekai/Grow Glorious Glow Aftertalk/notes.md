@@ -24,17 +24,30 @@ Shizuku receives an invitation to audition for a cosmetics CM for the major bran
 
 ## Segments
 
+Cuts to remove (everything else is kept):
+- start → 9:51 — intro delay
+- 13:12 → 21:24 — story watchalong
+- 34:38 → 36:31 — cut
+- 39:54 → 47:44 — cut
+- 1:10:06 → end — outro
+
 Kept segments (transcribed + translated):
-TBD — fill in after first watch
+- 00:09:51 → 00:13:12 (post-intro host segment)
+- 00:21:24 → 00:34:38 (post-story discussion)
+- 00:36:31 → 00:39:54 (between cuts)
+- 00:47:44 → 01:10:06 (post-MV to closing)
 
 ## Command (full pipeline)
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/Grow Glorious Glow Aftertalk/Grow Glorious Glow Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Grow Glorious Glow Aftertalk/Grow glorious glow Aftertalk.mkv" \
   --profile proseka/mmj \
   --backend chirp_3 \
-  --start TBD --end TBD \
+  --start 00:09:51 --end 00:13:12 \
+  --start 00:21:24 --end 00:34:38 \
+  --start 00:36:31 --end 00:39:54 \
+  --start 00:47:44 --end 01:10:06 \
   --chunk-size 30 \
   --llm-reasoning-effort low \
   --mark-chunks \
@@ -44,20 +57,14 @@ uv run autosub run \
 ## Profile
 - `proseka/mmj`
 
-## MMJ Cast
-- 小倉唯 (Ogura Yui) — 花里みのり (Minori Hanasato)
-- 吉岡真優 (Yoshioka Mayu) — 桐谷遥 (Haruka Kiritani)
-- 降幡愛 (Furihata Ai) — 桃井愛莉 (Airi Momoi)
-- 本泉莉奈 (Honnizumi Rina) — 日野森雫 (Shizuku Hinomori)
-
 ## VA
-TBD — confirm host VA after watching opener
+- 本泉莉奈 (Honnizumi Rina)
 
 ## Notes
 TBD — fill in after editorial pass
 
 ## YouTube Title
-TBD
+Grow Glorious Glow Aftertalk (feat. Shizuku's VA)
 
 ## YouTube Blurb (draft)
 TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
