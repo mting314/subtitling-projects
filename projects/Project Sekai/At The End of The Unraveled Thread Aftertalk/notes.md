@@ -62,7 +62,7 @@ To regenerate cleanly, re-run from scratch with the full command above. ~5 min w
 - 本泉莉奈 (Honnizumi Rina) — 日野森雫 (Shizuku Hinomori)
 
 ## VA
-TBD — confirm host VA after watching opener
+- 本泉莉奈 (Honnizumi Rina)
 
 ## Notes
 TBD — fill in after editorial pass
@@ -72,8 +72,8 @@ TBD
 
 ## YouTube Blurb (draft)
 
-This episode of ProSeka AfterTalk has Rina Honnizumi (voice of Shizuku Hinomori) covering the MORE MORE JUMP! event "At The End of The Unraveled Thread", where Shizuku confronts her past with Cheerful＊Days and faces Arisa head-on during a joint iHaz filming.
+This episode of ProSeka AfterTalk has Rina Honnizumi (voice of Shizuku Hinomori) covering the MORE MORE JUMP! event "At The End of The Unraveled Thread", where Shizuku confronts her past with Cheerful＊Days and faces Arisa head-on during a joint filming for MMJ's first TV appearance.
 
-She walks through the new card illustrations, including Shizuku's stained-glass trained art and a viewer's observation that the costumes might be based on Thumbelina (swallows, frogs, and all). She also gives an extended, heartfelt take on Arisa's character, the complexity of jealousy in competitive idol life, and how pulling your perspective up "like a drone camera" helps you understand people better. Solo hosting today, and she's pretty proud of how put together she was.
+She walks through the new card illustrations, including Shizuku's stained-glass trained art and a viewer's observation that the costumes might be based on Thumbelina (swallows, frogs, and all). She also gives an extended, heartfelt take on Arisa's character, the complexities of jealousy in competitive idol life, and how pulling your perspective up "like a drone camera" helps you understand people better. Solo hosting today, and she's pretty proud of how put together she was.
 
 Original video: https://www.youtube.com/watch?v=fHymS-ZEr9w
