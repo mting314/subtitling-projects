@@ -25,7 +25,6 @@ uv run autosub run \
   --start 00:09:54 --end 00:14:21 \
   --start 00:27:42 --end 00:29:22 \
   --start 00:48:31 --end 01:11:24 \
-  --chunk-size 30 \
   --llm-reasoning-effort low \
   --mark-chunks \
   --save-log
