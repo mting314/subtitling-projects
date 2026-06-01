@@ -12,727 +12,644 @@ Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:09:51.00,0:09:52.40,Default,host,0,0,0,,ProSeka Talk.
-Dialogue: 0,0:09:57.80,0:10:00.24,Default,host,0,0,0,,Grow Glorious Grow edition.
-Dialogue: 0,0:10:03.04,0:10:04.32,Default,host,0,0,0,,Good evening, everyone.
-Dialogue: 0,0:10:04.88,0:10:07.80,Default,host,0,0,0,,I'm Rina Honnizumi, the voice of Momojan's Shizuku Hinomori.
-Dialogue: 0,0:10:09.17,0:10:09.67,Default,host,0,0,0,,Yes.
-Dialogue: 0,0:10:10.40,0:10:22.24,Default,host,0,0,0,,This ProSeka AfterTalk is a place where we look back on the event story and enjoy the AfterLive together with everyone watching the stream.
-Dialogue: 0,0:10:22.96,0:10:27.40,Default,host,0,0,0,,This time, we're covering the Grow Glorious Grow event.
-Dialogue: 0,0:10:27.92,0:10:35.50,Default,host,0,0,0,,The event just ended a moment ago, but did you all check it out?
-Dialogue: 0,0:10:35.50,0:10:36.68,Default,host,0,0,0,,How was it?
-Dialogue: 0,0:10:36.68,0:10:41.68,Default,host,0,0,0,,I'll be keeping an eye on the comments, so please send them in.
-Dialogue: 0,0:10:41.68,0:10:48.92,Default,host,0,0,0,,Actually, I jotted down some notes earlier about things I wanted to talk about,
-Dialogue: 0,0:10:48.92,0:10:54.08,Default,host,0,0,0,,so I'm looking forward to discussing those with all of you.
-Dialogue: 0,0:10:54.08,0:10:55.70,Default,host,0,0,0,,That's the plan, anyway.
+Dialogue: 0,0:09:51.00,0:09:52.40,Default,host,0,0,0,,Welcome to ProSeka AfterTalk:
+Dialogue: 0,0:09:57.80,0:09:59.92,Default,host,0,0,0,,"Grow Glorious Grow" edition!
+Dialogue: 0,0:10:03.04,0:10:04.32,Default,host,0,0,0,,Hello, everyone.
+Dialogue: 0,0:10:04.92,0:10:07.80,Default,host,0,0,0,,I'm Rina Honnizumi, the voice of Shizuku Hinomori from MORE MORE JUMP!.
+Dialogue: 0,0:10:09.15,0:10:09.65,Default,host,0,0,0,,...
+Dialogue: 0,0:10:10.40,0:10:22.20,Default,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event story and enjoy the AfterLive together with everyone watching.
+Dialogue: 0,0:10:22.96,0:10:27.36,Default,host,0,0,0,,This time, it's the "Grow Glorious Grow" edition.
+Dialogue: 0,0:10:27.92,0:10:35.52,Default,host,0,0,0,,The event just ended a moment ago, but did you all check it out?
+Dialogue: 0,0:10:35.52,0:10:36.68,Default,host,0,0,0,,What did you think?
+Dialogue: 0,0:10:36.68,0:10:41.68,Default,host,0,0,0,,I'll be keeping an eye on the comments, so please join in!
+Dialogue: 0,0:10:41.68,0:10:48.92,Default,host,0,0,0,,I actually jotted down some notes earlier
+Dialogue: 0,0:10:48.92,0:10:54.08,Default,host,0,0,0,,about things I really wanted to talk about,
+Dialogue: 0,0:10:54.08,0:10:55.70,Default,host,0,0,0,,so I'm hoping to go over those with you all.
 Dialogue: 0,0:10:55.70,0:10:57.52,Default,host,0,0,0,,I was just so surprised.
-Dialogue: 0,0:10:57.52,0:11:06.36,Default,host,0,0,0,,Both as Momojan and as Shizuku, she's overcome so many walls, and she'd already grown wings and taken flight, but...
-Dialogue: 0,0:11:06.36,0:11:08.44,Default,host,0,0,0,,She's still surpassing herself.
-Dialogue: 0,0:11:09.48,0:11:11.06,Default,host,0,0,0,,Her growth just doesn't stop.
-Dialogue: 0,0:11:11.06,0:11:12.24,Default,host,0,0,0,,She's truly cool.
-Dialogue: 0,0:11:13.40,0:11:21.80,Default,host,0,0,0,,So, please post your thoughts on the event and this broadcast using the hashtag #ProSekaAfterTalk.
-Dialogue: 0,0:11:21.80,0:11:25.60,Default,host,0,0,0,,I have the YouTube chat right here in front of me,
-Dialogue: 0,0:11:25.60,0:11:28.38,Default,host,0,0,0,,so I'll be picking up any comments that catch my eye.
-Dialogue: 0,0:11:28.38,0:11:29.86,Default,host,0,0,0,,Oh, Kon-more!
-Dialogue: 0,0:11:29.86,0:11:31.20,Default,host,0,0,0,,Thank you.
-Dialogue: 0,0:11:31.88,0:11:36.00,Default,host,0,0,0,,The staff has provided me with a device again this time,
-Dialogue: 0,0:11:36.00,0:11:42.64,Default,host,0,0,0,,so I'd like to use it to look at the story and the illustrations of the members appearing in this event.
-Dialogue: 0,0:11:43.28,0:11:50.04,Default,host,0,0,0,,Also, I'll be creating a private room for the AfterLive so we can watch it together.
-Dialogue: 0,0:11:50.04,0:11:56.96,Default,host,0,0,0,,I'll share the Room ID around 21:55, and I'll let you know again when the time comes.
-Comment: 0,0:11:56.96,0:12:01.48,Default,,0,0,0,corner,=== Corner: Story Watchalong ===
-Dialogue: 0,0:11:56.96,0:12:01.48,Default,host,0,0,0,,Get your devices ready, let's watch it together.
-Dialogue: 0,0:12:01.48,0:12:03.06,Default,host,0,0,0,,Please join in.
-Dialogue: 0,0:12:03.06,0:12:04.28,Default,host,0,0,0,,I'm looking forward to it.
+Dialogue: 0,0:10:57.52,0:11:03.40,Default,host,0,0,0,,Both for MMJ and for Shizuku, they've overcome so many hurdles,
+Dialogue: 0,0:11:03.40,0:11:07.56,Default,host,0,0,0,,and even though she'd already grown wings and taken flight,
+Dialogue: 0,0:11:07.56,0:11:08.40,Default,host,0,0,0,,she's still surpassing herself!
+Dialogue: 0,0:11:09.48,0:11:11.08,Default,host,0,0,0,,Her growth just never stops.
+Dialogue: 0,0:11:11.08,0:11:12.24,Default,host,0,0,0,,It's honestly so cool.
+Dialogue: 0,0:11:13.40,0:11:21.80,Default,host,0,0,0,,Please post your thoughts on the event or the stream using the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:11:21.80,0:11:25.62,Default,host,0,0,0,,The staff have set up the YouTube chat so I can see it right here,
+Dialogue: 0,0:11:25.62,0:11:28.38,Default,host,0,0,0,,so I'll be picking out comments that catch my eye.
+Dialogue: 0,0:11:28.38,0:11:29.86,Default,host,0,0,0,,Let's see...
+Dialogue: 0,0:11:29.86,0:11:31.20,Default,host,0,0,0,,Thank you so much!
+Dialogue: 0,0:11:31.88,0:11:35.98,Default,host,0,0,0,,The staff have provided me with a device again today,
+Dialogue: 0,0:11:35.98,0:11:42.64,Default,host,0,0,0,,so I'd like to look back at the story and the member illustrations with you.
+Dialogue: 0,0:11:43.28,0:11:50.04,Default,host,0,0,0,,Also, I'll be creating a private room to watch the AfterLive together.
+Dialogue: 0,0:11:50.04,0:11:57.00,Default,host,0,0,0,,I'll share the Room ID at 21:55, so I'll let you know then.
+Dialogue: 0,0:11:57.00,0:12:01.50,Default,host,0,0,0,,Please get your devices ready so we can watch it together.
+Dialogue: 0,0:12:01.50,0:12:03.04,Default,host,0,0,0,,I hope you'll all join in!
+Comment: 0,0:12:03.04,0:12:04.28,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:12:03.04,0:12:04.28,Default,host,0,0,0,,Let's get started!
 Comment: 0,0:12:07.00,0:12:14.02,Default,,0,0,0,corner,=== Corner: Story Watchalong ===
-Dialogue: 0,0:12:07.00,0:12:14.02,Default,host_meta,0,0,0,,Now then, let's dive right into the story for this event, Grow Glorious Grow.
-Dialogue: 0,0:12:14.02,0:12:19.12,Default,host,0,0,0,,I want to look back on it, but first,
-Dialogue: 0,0:12:20.68,0:12:21.76,Default,host,0,0,0,,I'd like to watch a bit with everyone.
-Dialogue: 0,0:12:22.36,0:12:23.08,Default,host,0,0,0,,Just one episode.
-Dialogue: 0,0:12:24.49,0:12:24.99,Default,host,0,0,0,,And,
-Dialogue: 0,0:12:26.48,0:12:28.24,Default,host,0,0,0,,well, opinions might be split.
-Dialogue: 0,0:12:29.00,0:12:29.84,Default,host,0,0,0,,I have a feeling.
-Dialogue: 0,0:12:30.88,0:12:36.82,Default,host,0,0,0,,But I'm personally thinking I'd like to see Episode 7. What do you think?
-Dialogue: 0,0:12:36.82,0:12:38.52,Default,host,0,0,0,,How about you all?
+Dialogue: 0,0:12:07.00,0:12:14.02,Default,host_meta,0,0,0,,Now then, I'd like to look back on the story of
+Dialogue: 0,0:12:14.02,0:12:19.12,Default,host,0,0,0,,"Grow Glorious Grow," but first, I want to watch
+Dialogue: 0,0:12:20.68,0:12:21.80,Default,host,0,0,0,,one episode together with everyone.
+Dialogue: 0,0:12:22.36,0:12:23.12,Default,host,0,0,0,,Just one episode.
+Dialogue: 0,0:12:24.51,0:12:25.01,Default,host,0,0,0,,I think
+Dialogue: 0,0:12:26.48,0:12:28.24,Default,host,0,0,0,,opinions might be split,
+Dialogue: 0,0:12:29.00,0:12:29.84,Default,host,0,0,0,,just a hunch.
+Dialogue: 0,0:12:30.88,0:12:36.84,Default,host,0,0,0,,Actually, I was thinking I'd like to see Episode 7.
+Dialogue: 0,0:12:36.84,0:12:38.52,Default,host,0,0,0,,What do you all think?
 Dialogue: 0,0:12:39.12,0:12:41.56,Default,host,0,0,0,,Please let me know in the comments.
-Dialogue: 0,0:12:42.24,0:12:45.20,Default,host,0,0,0,,Ah, look, people are already saying 7.
-Dialogue: 0,0:12:45.20,0:12:46.64,Default,host,0,0,0,,You're all so kind.
-Dialogue: 0,0:12:46.64,0:12:47.64,Default,host,0,0,0,,Thank you.
-Dialogue: 0,0:12:47.64,0:12:52.08,Default,host,0,0,0,,Oh, 7 would be good? 7 it is then. Since you're all suggesting it,
-Dialogue: 0,0:12:52.08,0:12:53.40,Default,host,0,0,0,,thank you very much.
-Dialogue: 0,0:12:53.40,0:12:58.76,Default,host,0,0,0,,Then let's watch Episode 7 together.
-Dialogue: 0,0:13:00.19,0:13:00.69,Default,host,0,0,0,,Here you go.
-Dialogue: 0,0:13:02.00,0:13:03.24,Default,host,0,0,0,,Oh, I'm the one who has to start it.
-Dialogue: 0,0:13:03.24,0:13:03.74,Default,host,0,0,0,,I'm sorry.
-Dialogue: 0,0:13:05.24,0:13:06.24,Default,host,0,0,0,,It's not "here you go."
-Dialogue: 0,0:13:06.84,0:13:08.88,Default,host,0,0,0,,My bad, I'll start it now.
-Dialogue: 0,0:13:08.88,0:13:09.38,Default,host,0,0,0,,Yeah.
-Dialogue: 0,0:21:24.00,0:21:25.32,Default,host,0,0,0,,I won't lose!
-Dialogue: 0,0:21:26.88,0:21:30.04,Default,host,0,0,0,,Hagiyama-chan is such a good girl, seriously.
-Dialogue: 0,0:21:32.44,0:21:33.12,Default,host,0,0,0,,.
-Dialogue: 0,0:21:37.36,0:21:40.42,Default,host,0,0,0,,And... that's as far as we go.
-Dialogue: 0,0:21:40.42,0:21:44.56,Default,host,0,0,0,,That was the moment they truly recognized each other as rivals.
-Comment: 0,0:21:45.36,0:21:49.00,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:21:45.36,0:21:49.00,Default,host,0,0,0,,With that said, let's watch Episode 7 together.
-Dialogue: 0,0:21:49.00,0:21:50.36,Default,host,0,0,0,,That went by so fast!
-Dialogue: 0,0:21:50.36,0:21:51.72,Default,host,0,0,0,,And that's it for the clip.
-Dialogue: 0,0:21:52.32,0:21:59.76,Default,host,0,0,0,,Actually, I really love the part after this, where everyone...
-Dialogue: 0,0:21:59.76,0:22:02.92,Default,host,0,0,0,,When they're all at More More House watching the commercial that actually aired, and we see Saito-san...
-Dialogue: 0,0:22:02.92,0:22:11.10,Default,host,0,0,0,,I love that part, and I also love seeing Minori-chan getting all pure and excited, screaming with joy.
-Dialogue: 0,0:22:11.10,0:22:12.08,Default,host,0,0,0,,That's all for now.
-Dialogue: 0,0:22:12.08,0:22:12.88,Default,host,0,0,0,,.
-Dialogue: 0,0:22:12.88,0:22:14.56,Default,host,0,0,0,,Anyway, thank you so much.
-Dialogue: 0,0:22:15.48,0:22:19.22,Default,host,0,0,0,,Um, I have so much I want to say, but we need to start the live show together at 10:55.
-Dialogue: 0,0:22:19.22,0:22:23.00,Default,host,0,0,0,,I really want to see the live show, so everyone, please keep an eye on the clock too.
-Dialogue: 0,0:22:23.00,0:22:23.50,Default,host,0,0,0,,.
-Dialogue: 0,0:22:24.20,0:22:29.64,Default,host,0,0,0,,I might just keep talking without noticing the time... but I really want to chat.
-Dialogue: 0,0:22:29.64,0:22:32.48,Default,host,0,0,0,,I think I'll talk for as long as time allows.
-Dialogue: 0,0:22:33.04,0:22:35.04,Default,host,0,0,0,,Where should I start?
+Dialogue: 0,0:12:42.24,0:12:46.64,Default,host,0,0,0,,Oh, you're already saying "7"! Everyone is so kind.
+Dialogue: 0,0:12:46.64,0:12:47.66,Default,host,0,0,0,,Thank you.
+Dialogue: 0,0:12:47.66,0:12:52.06,Default,host,0,0,0,,So Episode 7 is good? 7 it is. I'll go with your choice.
+Dialogue: 0,0:12:52.06,0:12:53.40,Default,host,0,0,0,,Thank you very much.
+Dialogue: 0,0:12:53.40,0:12:58.76,Default,host,0,0,0,,Alright, let's watch Episode 7 together.
+Dialogue: 0,0:13:00.19,0:13:00.69,Default,host,0,0,0,,
+Dialogue: 0,0:13:02.00,0:13:03.24,Default,host,0,0,0,,Wait, I'm the one who has to play it!
+Dialogue: 0,0:13:03.24,0:13:03.74,Default,host,0,0,0,,Sorry.
+Dialogue: 0,0:13:05.28,0:13:06.24,Default,host,0,0,0,,I shouldn't have said "here you go."
+Dialogue: 0,0:13:06.79,0:13:07.50,Default,host,0,0,0,,My apologies.
+Dialogue: 0,0:13:07.50,0:13:08.88,Default,host,0,0,0,,I'll start it now.
+Dialogue: 0,0:13:08.88,0:13:09.38,Default,host,0,0,0,,
+Dialogue: 0,0:21:24.00,0:21:25.32,Default,host,0,0,0,,"I won't lose!"
+Dialogue: 0,0:21:26.96,0:21:30.04,Default,host,0,0,0,,Hagiyama-chan is seriously such a good girl.
+Dialogue: 0,0:21:32.44,0:21:33.12,Default,host,0,0,0,,
+Dialogue: 0,0:21:37.40,0:21:38.48,Default,host,0,0,0,,And there we go.
+Dialogue: 0,0:21:38.48,0:21:40.40,Default,host,0,0,0,,That's as far as we go.
+Dialogue: 0,0:21:40.40,0:21:44.56,Default,host,0,0,0,,That was the moment they recognized each other as rivals.
+Dialogue: 0,0:21:45.36,0:21:49.00,Default,host,0,0,0,,And that was Episode 7. We watched it together.
+Dialogue: 0,0:21:49.00,0:21:50.38,Default,host,0,0,0,,It went by so fast!
+Comment: 0,0:21:50.38,0:21:51.72,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:21:50.38,0:21:51.72,Default,host,0,0,0,,And that's as far as we'll watch.
+Dialogue: 0,0:21:52.32,0:21:59.76,Default,host,0,0,0,,Actually, I really love the part that comes after this,
+Dialogue: 0,0:21:59.76,0:22:02.92,Default,host,0,0,0,,where everyone is at Momo House watching the commercial that finally aired,
+Dialogue: 0,0:22:02.92,0:22:03.92,Default,host,0,0,0,,and we see Saito-san's reaction.
+Dialogue: 0,0:22:04.56,0:22:11.08,Default,host,0,0,0,,I also love seeing Minori-chan getting all pure and excited, squealing over it.
+Dialogue: 0,0:22:11.08,0:22:12.10,Default,host,0,0,0,,But that's all for the clips.
+Dialogue: 0,0:22:12.10,0:22:14.56,Default,host,0,0,0,,Thank you very much for watching with me.
+Dialogue: 0,0:22:15.52,0:22:19.26,Default,host,0,0,0,,I have so much I want to say, but we need to watch the live show at 10:55 PM,
+Dialogue: 0,0:22:19.26,0:22:23.00,Default,host,0,0,0,,so everyone, please keep an eye on the clock.
+Dialogue: 0,0:22:23.00,0:22:29.64,Default,host,0,0,0,,I might just keep talking without noticing the time, but I really want to chat,
+Dialogue: 0,0:22:29.64,0:22:32.48,Default,host,0,0,0,,so I'll talk as much as time allows.
+Dialogue: 0,0:22:33.08,0:22:35.00,Default,host,0,0,0,,Where should I start?
 Dialogue: 0,0:22:36.36,0:22:38.48,Default,host,0,0,0,,Right.
-Dialogue: 0,0:22:40.20,0:22:48.44,Default,host,0,0,0,,There are a few scenes I like... Let's review some parts that weren't in the episodes we just watched.
-Dialogue: 0,0:22:48.44,0:22:56.36,Default,host,0,0,0,,Hagiyama-san from Rewrite, who was there, previously performed with them at the Idol Lover festival in a past event.
-Dialogue: 0,0:22:56.36,0:23:02.32,Default,host,0,0,0,,She's a member of a wonderful unit that met Momojan there, and it feels like they'll develop a nice rivalry going forward.
-Dialogue: 0,0:23:02.32,0:23:11.04,Default,host,0,0,0,,And here she is again,
-Dialogue: 0,0:23:11.04,0:23:14.70,Default,host,0,0,0,,appearing as Shizuku's rival while they co-star as models.
-Dialogue: 0,0:23:14.70,0:23:21.44,Default,host,0,0,0,,They're both stepping up their game, and I'm really looking forward to seeing what's next for those two.
-Dialogue: 0,0:23:21.44,0:23:23.52,Default,host,0,0,0,,Also, regarding Shizuku's past,
-Dialogue: 0,0:23:25.16,0:23:32.96,Default,host,0,0,0,,there were several flashback scenes. I've forgotten exactly which episodes they were in, so...
-Dialogue: 0,0:23:32.96,0:23:42.32,Default,host,0,0,0,,I'd love for everyone to go back and watch them, but a junior member who greeted Shizuku during her Cheerful＊Days era makes an appearance.
-Dialogue: 0,0:23:43.08,0:23:54.56,Default,host,0,0,0,,Back then, Shizuku was overwhelmed with work and was being produced as a "mysterious" idol.
-Dialogue: 0,0:23:54.56,0:24:01.00,Default,host,0,0,0,,It was a really painful time when she was pushing herself so hard. And in the middle of that,
-Dialogue: 0,0:24:01.00,0:24:06.76,Default,host,0,0,0,,a new junior member joined... She had worked so hard to get in because she admired her seniors.
-Dialogue: 0,0:24:07.52,0:24:11.50,Default,host,0,0,0,,There's a scene where she tells Shizuku directly, "That's why I'm going to do my best too."
-Dialogue: 0,0:24:11.50,0:24:15.48,Default,host,0,0,0,,At that moment, Shizuku... for me, I...
-Comment: 0,0:24:17.04,0:24:21.94,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:24:17.04,0:24:21.94,Default,host,0,0,0,,It was a time when Shizuku felt she wasn't suited to be the center of Cheerful Days and was feeling really down,
-Dialogue: 0,0:24:21.94,0:24:28.70,Default,host,0,0,0,,but by meeting those juniors, she realized she was carrying their futures on her shoulders too.
-Dialogue: 0,0:24:28.70,0:24:35.00,Default,host,0,0,0,,She felt that if she lacked confidence, she had to polish herself until she found it.
+Dialogue: 0,0:22:40.20,0:22:48.44,Default,host,0,0,0,,I have a few favorite scenes that weren't in the episodes we just watched, so let's review.
+Dialogue: 0,0:22:48.44,0:22:56.36,Default,host,0,0,0,,Hagiyama-san from Rewrite, who was in the commercial, previously appeared in the Idol Lovers festival.
+Dialogue: 0,0:22:56.36,0:23:02.34,Default,host,0,0,0,,She's a member of a wonderful unit that seems like they'll have a good rivalry with Momojan,
+Dialogue: 0,0:23:02.34,0:23:11.04,Default,host,0,0,0,,and it was great to see them meet like that. But here,
+Dialogue: 0,0:23:11.04,0:23:14.70,Default,host,0,0,0,,she appears again as Shizuku's rival while they're co-starring as models.
+Dialogue: 0,0:23:14.70,0:23:21.46,Default,host,0,0,0,,They're both stepping up their game, and I'm really looking forward to seeing them both in the future.
+Dialogue: 0,0:23:21.46,0:23:23.52,Default,host,0,0,0,,Also, regarding Shizuku's past...
+Dialogue: 0,0:23:25.16,0:23:32.96,Default,host,0,0,0,,There were several flashback scenes. I can't remember exactly which episode numbers they were,
+Dialogue: 0,0:23:32.96,0:23:42.36,Default,host,0,0,0,,but I'd love for everyone to go back and watch them. A junior member from her Cheerful＊Days era appears to greet her.
+Dialogue: 0,0:23:43.08,0:23:54.56,Default,host,0,0,0,,Back then, Shizuku was being produced as a mysterious idol and was completely overwhelmed with work.
+Dialogue: 0,0:23:54.56,0:24:01.00,Default,host,0,0,0,,It was a really painful time for her, but she was trying her absolute best. And then,
+Dialogue: 0,0:24:01.00,0:24:06.76,Default,host,0,0,0,,this new junior member joined. She had worked so hard to join because she looked up to her seniors.
+Dialogue: 0,0:24:07.56,0:24:11.56,Default,host,0,0,0,,There's a scene where she tells Shizuku directly that she's going to do her best too.
+Dialogue: 0,0:24:11.56,0:24:15.48,Default,host,0,0,0,,At that time, Shizuku was already...
+Dialogue: 0,0:24:17.08,0:24:21.94,Default,host,0,0,0,,She was feeling really down, thinking she wasn't suited to be the center of Cheerful＊Days.
+Dialogue: 0,0:24:21.94,0:24:28.74,Default,host,0,0,0,,But by meeting that junior, she realized she was carrying the future of those girls on her shoulders too.
+Dialogue: 0,0:24:28.74,0:24:35.00,Default,host,0,0,0,,She decided that if she lacked confidence, she had to polish herself until she finally found it.
+Comment: 0,0:24:35.00,0:24:35.50,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:24:35.00,0:24:35.50,Default,host,0,0,0,,This...
-Dialogue: 0,0:24:36.88,0:24:39.56,Default,host,0,0,0,,this was another important encounter for her, meeting those juniors.
-Dialogue: 0,0:24:40.44,0:24:47.16,Default,host,0,0,0,,That was a scene that really moved me and that I personally loved.
-Dialogue: 0,0:24:47.84,0:24:56.52,Default,host,0,0,0,,Also, the Momojan members... After Shizuku passed the audition this time,
-Dialogue: 0,0:24:58.04,0:25:01.28,Default,host,0,0,0,,while she was practicing silently by herself,
-Dialogue: 0,0:25:02.88,0:25:08.16,Default,host,0,0,0,,they brought her some snacks and things. In the card stories,
-Dialogue: 0,0:25:08.16,0:25:11.64,Default,host,0,0,0,,that sense of distance they have at that moment
-Dialogue: 0,0:25:13.56,0:25:14.92,Default,host,0,0,0,,is depicted really well.
-Dialogue: 0,0:25:16.84,0:25:25.52,Default,host,0,0,0,,Airi-chan especially knows Shizuku from her Cheerful Days era so well,
-Dialogue: 0,0:25:27.12,0:25:35.64,Default,host,0,0,0,,so she can feel Shizuku's level of commitment without needing any words. That's why Airi-chan intentionally didn't say anything,
-Dialogue: 0,0:25:35.64,0:25:42.34,Default,host,0,0,0,,and just watched over her. That dynamic within Momojan...
-Dialogue: 0,0:25:42.34,0:25:47.52,Default,host,0,0,0,,it really makes me feel all over again what wonderful girls they are.
-Dialogue: 0,0:25:48.48,0:25:54.28,Default,host,0,0,0,,Shizuku was like a string pulled taut the whole time,
-Dialogue: 0,0:25:54.28,0:26:12.42,Default,host,0,0,0,,with this intense tension and a sense of fragility, but Airi-chan was happy to see Shizuku looking like she did back when she was the center of Cheerful Days.
-Dialogue: 0,0:26:12.42,0:26:14.20,Default,host,0,0,0,,It's just so emotional, really.
-Dialogue: 0,0:26:15.32,0:26:19.90,Default,host,0,0,0,,But Airi-chan also knows how much Shizuku suffered back then.
-Dialogue: 0,0:26:19.90,0:26:21.68,Default,host,0,0,0,,Of course, she doesn't say that to Shizuku directly,
-Dialogue: 0,0:26:23.52,0:26:29.16,Default,host,0,0,0,,but she takes all of that into account while watching her grow. That's their relationship.
-Dialogue: 0,0:26:30.56,0:26:34.10,Default,host,0,0,0,,I really felt like saying "Thank you for writing this"
-Dialogue: 0,0:26:34.10,0:26:37.12,Default,host,0,0,0,,during the recording session.
-Dialogue: 0,0:26:38.32,0:26:43.04,Default,host,0,0,0,,Looking at the comments... Yes, everyone, it's all about trust.
-Dialogue: 0,0:26:43.84,0:26:44.68,Default,host,0,0,0,,Exactly.
-Dialogue: 0,0:26:46.76,0:26:51.56,Default,host,0,0,0,,Now, about Shizuku's side story, part two.
-Dialogue: 0,0:26:52.44,0:26:53.12,Default,host,0,0,0,,It's a nice way of giving back.
-Dialogue: 0,0:26:54.40,0:27:01.44,Default,host,0,0,0,,Everyone was thinking about what they could do for Shizuku and taking action.
-Dialogue: 0,0:27:02.00,0:27:11.10,Default,host,0,0,0,,Since she was being stoic and restricting her diet, they brought her snacks
-Dialogue: 0,0:27:11.10,0:27:15.28,Default,host,0,0,0,,that were high in nutrition and low in fat. That's just pure love, honestly.
-Comment: 0,0:27:15.28,0:27:16.24,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:27:15.28,0:27:16.24,Default,host,0,0,0,,It's all about supporting each other.
-Dialogue: 0,0:27:17.24,0:27:18.96,Default,host,0,0,0,,Exactly... Come on, talk a bit more.
+Dialogue: 0,0:24:36.92,0:24:39.56,Default,host,0,0,0,,this was also a fated encounter, with her junior.
+Dialogue: 0,0:24:40.44,0:24:43.80,Default,host,0,0,0,,It's a scene that really moved me,
+Dialogue: 0,0:24:45.36,0:24:47.16,Default,host,0,0,0,,and one of my favorites.
+Dialogue: 0,0:24:47.84,0:24:52.76,Default,host,0,0,0,,Also, the Momojan members... after Shizuku
+Dialogue: 0,0:24:54.28,0:24:56.52,Default,host,0,0,0,,passed the audition,
+Dialogue: 0,0:24:58.08,0:25:01.28,Default,host,0,0,0,,she was practicing all by herself,
+Dialogue: 0,0:25:02.92,0:25:05.74,Default,host,0,0,0,,and they brought her some refreshments.
+Dialogue: 0,0:25:05.74,0:25:10.42,Default,host,0,0,0,,That's also depicted in the card stories,
+Dialogue: 0,0:25:10.42,0:25:11.64,Default,host,0,0,0,,that specific
+Dialogue: 0,0:25:13.60,0:25:14.92,Default,host,0,0,0,,sense of distance between them.
+Dialogue: 0,0:25:16.84,0:25:25.52,Default,host,0,0,0,,Airi especially knows Shizuku well from her Cheerful Days era,
+Dialogue: 0,0:25:27.12,0:25:35.64,Default,host,0,0,0,,so she can tell how serious Shizuku is without a single word. Airi doesn't even say anything,
+Dialogue: 0,0:25:35.64,0:25:42.36,Default,host,0,0,0,,she just watches over her. It really makes me realize
+Dialogue: 0,0:25:42.36,0:25:47.48,Default,host,0,0,0,,what wonderful girls the Momojan members are.
+Dialogue: 0,0:25:48.52,0:25:54.30,Default,host,0,0,0,,Shizuku was like a tightly wound string,
+Dialogue: 0,0:25:54.30,0:25:56.72,Default,host,0,0,0,,there was so much tension.
+Dialogue: 0,0:25:57.32,0:26:12.46,Default,host,0,0,0,,It felt a bit precarious, but Airi was happy to see the Shizuku who was the center of Cheerful Days again.
+Dialogue: 0,0:26:12.46,0:26:14.20,Default,host,0,0,0,,It's so emotional, really.
+Dialogue: 0,0:26:15.32,0:26:19.90,Default,host,0,0,0,,But Airi also knows that Shizuku suffered back then.
+Dialogue: 0,0:26:19.90,0:26:21.68,Default,host,0,0,0,,She doesn't say it to her face, of course,
+Dialogue: 0,0:26:23.52,0:26:29.20,Default,host,0,0,0,,but she's watching over her growth, including all of that. That's their relationship.
+Dialogue: 0,0:26:30.60,0:26:34.12,Default,host,0,0,0,,I was honestly thinking, "Thank you so much for writing this,"
+Dialogue: 0,0:26:34.12,0:26:37.12,Default,host,0,0,0,,while we were recording.
+Dialogue: 0,0:26:38.32,0:26:43.04,Default,host,0,0,0,,Looking at the comments... everyone's saying "trust."
+Dialogue: 0,0:26:43.84,0:26:44.68,Default,host,0,0,0,,That's it exactly.
+Dialogue: 0,0:26:46.76,0:26:51.56,Default,host,0,0,0,,In the second part of Shizuku's side story...
+Dialogue: 0,0:26:52.44,0:27:01.44,Default,host,0,0,0,,everyone is thinking about what they can do for Shizuku and taking action.
+Dialogue: 0,0:27:02.00,0:27:11.10,Default,host,0,0,0,,Since she was being so stoic with her diet, they brought her high-nutrition, low-fat
+Dialogue: 0,0:27:11.10,0:27:15.30,Default,host,0,0,0,,meals as refreshments. That's true love, honestly.
+Comment: 0,0:27:15.30,0:27:16.24,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:27:15.30,0:27:16.24,Default,host,0,0,0,,It's all about supporting each other.
+Dialogue: 0,0:27:17.28,0:27:18.96,Default,host,0,0,0,,I mean... I should probably talk about it a bit more.
 Dialogue: 0,0:27:20.12,0:27:20.68,Default,host,0,0,0,,Right.
-Dialogue: 0,0:27:22.84,0:27:23.92,Default,host,0,0,0,,Should we go with the drama?
-Comment: 0,0:27:27.52,0:27:29.12,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
-Dialogue: 0,0:27:27.52,0:27:29.12,Default,host_meta,0,0,0,,So, about that Grand Fleur commercial...
-Dialogue: 0,0:27:30.80,0:27:34.80,Default,host,0,0,0,,What did you all think of the footage
-Dialogue: 0,0:27:36.36,0:27:39.02,Default,host,0,0,0,,that actually aired in the story?
-Dialogue: 0,0:27:39.02,0:27:45.68,Default,host,0,0,0,,When I record for the game, I usually record my lines alone.
-Dialogue: 0,0:27:45.68,0:27:57.40,Default,host,0,0,0,,It seems Hagiyama-san had already finished her voice recording, and we had some lines to say in unison.
-Dialogue: 0,0:27:57.40,0:28:03.62,Default,host,0,0,0,,There was a line where Hagiyama-san and Shizuku, along with the others, had to say "Grand Fleur" together.
-Dialogue: 0,0:28:03.62,0:28:11.08,Default,host,0,0,0,,Normally, for lines in unison, they play the previously recorded voice into my headphones,
-Dialogue: 0,0:28:11.08,0:28:16.98,Default,host,0,0,0,,and I listen to that while recording my part to match the timing.
-Dialogue: 0,0:28:16.98,0:28:24.16,Default,host,0,0,0,,That's the usual pattern for delivering perfectly synchronized voices to everyone, but get this...
-Dialogue: 0,0:28:24.16,0:28:26.52,Default,host,0,0,0,,We recorded that without matching it to anything.
-Dialogue: 0,0:28:26.52,0:28:29.08,Default,host,0,0,0,,And yet, it was so perfectly in sync!
-Dialogue: 0,0:28:29.84,0:28:37.92,Default,host,0,0,0,,I was so surprised. I saw the finished version at the same time as all of you, and it was amazing.
-Dialogue: 0,0:28:38.92,0:28:45.34,Default,host,0,0,0,,I got an "OK" right away. I thought I might have to redo it, but I guess
-Dialogue: 0,0:28:45.34,0:28:51.32,Default,host,0,0,0,,Hagiyama-chan and Shizuku were just naturally on the same wavelength.
-Dialogue: 0,0:28:51.88,0:28:55.00,Default,host,0,0,0,,I can't believe that actually happened!
-Dialogue: 0,0:28:55.60,0:29:01.70,Default,host,0,0,0,,The lines were actually quite long, too, like "The new Floraison Éclat..."
-Dialogue: 0,0:29:01.70,0:29:06.22,Default,host,0,0,0,,I even looked up what kind of color "Floraison Éclat" was.
-Dialogue: 0,0:29:06.22,0:29:08.60,Default,host,0,0,0,,It seemed like a really beautiful floral color.
-Dialogue: 0,0:29:10.44,0:29:11.54,Default,host,0,0,0,,I was just so shocked.
-Dialogue: 0,0:29:11.54,0:29:13.56,Default,host,0,0,0,,I'm glad everyone is saying it's amazing, too.
-Dialogue: 0,0:29:14.23,0:29:14.73,Default,host,0,0,0,, 
-Dialogue: 0,0:29:15.44,0:29:19.00,Default,host,0,0,0,,I thought that was a pretty rare occurrence.
+Dialogue: 0,0:27:22.84,0:27:23.88,Default,host,0,0,0,,Let's talk about the story.
+Dialogue: 0,0:27:27.56,0:27:29.12,Default,host,0,0,0,,Regarding the Grand Fleur CM,
+Dialogue: 0,0:27:30.80,0:27:34.80,Default,host,0,0,0,,how did everyone feel when you saw
+Dialogue: 0,0:27:36.40,0:27:39.02,Default,host,0,0,0,, the actual footage that was aired?
+Dialogue: 0,0:27:39.02,0:27:45.68,Default,host,0,0,0,,When we record for the game, we usually do it alone.
+Dialogue: 0,0:27:45.68,0:27:57.40,Default,host,0,0,0,,It seems Hagiyama-san had already finished her recording, and there were lines we had to say in unison.
+Dialogue: 0,0:27:57.40,0:28:03.64,Default,host,0,0,0,,There was a line where Hagiyama-san and Shizuku say "Grand Fleur" together.
+Dialogue: 0,0:28:03.64,0:28:11.08,Default,host,0,0,0,,Normally, for lines in unison, they play the other person's pre-recorded voice
+Dialogue: 0,0:28:11.08,0:28:16.98,Default,host,0,0,0,,into our headphones, and we record while listening to it to match the timing.
+Dialogue: 0,0:28:16.98,0:28:23.36,Default,host,0,0,0,,That's the usual pattern for delivering perfectly synced voices to everyone, but...
+Dialogue: 0,0:28:23.36,0:28:26.52,Default,host,0,0,0,,surprisingly, we recorded that without any guide at all!
+Dialogue: 0,0:28:26.52,0:28:29.08,Default,host,0,0,0,,And yet, it was so perfectly in sync.
+Dialogue: 0,0:28:29.88,0:28:31.32,Default,host,0,0,0,,I was so shocked.
+Dialogue: 0,0:28:31.96,0:28:37.92,Default,host,0,0,0,,I saw the finished version at the same time as everyone else, and it was amazing.
+Dialogue: 0,0:28:38.92,0:28:41.14,Default,host,0,0,0,,We got an "OK" right away.
+Dialogue: 0,0:28:41.14,0:28:50.36,Default,host,0,0,0,,I thought we might need a retake, but I guess Hagiyama-chan and Shizuku were just perfectly in tune
+Dialogue: 0,0:28:50.36,0:28:51.28,Default,host,0,0,0,,naturally.
+Dialogue: 0,0:28:51.92,0:28:55.00,Default,host,0,0,0,,Can things like this really happen? Apparently, they can!
+Dialogue: 0,0:28:55.64,0:29:01.72,Default,host,0,0,0,,The lines were actually quite long, too... like the part about "Floraison Éclat."
+Dialogue: 0,0:29:01.72,0:29:06.24,Default,host,0,0,0,,I even looked up what kind of color "Floraison Éclat" was.
+Dialogue: 0,0:29:06.24,0:29:08.60,Default,host,0,0,0,,It seemed like a really beautiful flower color.
+Dialogue: 0,0:29:10.44,0:29:11.54,Default,host,0,0,0,,I was really surprised.
+Dialogue: 0,0:29:11.54,0:29:13.56,Default,host,0,0,0,,Everyone in the chat is saying it's amazing, too.
+Dialogue: 0,0:29:14.25,0:29:14.75,Default,host,0,0,0,, 
+Dialogue: 0,0:29:15.44,0:29:18.96,Default,host,0,0,0,,I thought it was quite a rare occurrence.
 Dialogue: 0,0:29:20.88,0:29:28.88,Default,host,0,0,0,,It makes me happy that these two, who met as good rivals, could be so in sync.
-Dialogue: 0,0:29:30.12,0:29:37.44,Default,host,0,0,0,,I hope they continue to push each other to new heights alongside the other girls from RE:LITE.
-Dialogue: 0,0:29:37.44,0:29:38.12,Default,host,0,0,0,,I really do.
-Dialogue: 0,0:29:40.33,0:29:40.83,Default,host,0,0,0,, 
+Dialogue: 0,0:29:30.12,0:29:37.44,Default,host,0,0,0,,I hope they continue to push each other to new heights with the girls from Rewrite.
+Comment: 0,0:29:37.44,0:29:38.12,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:29:37.44,0:29:38.12,Default,host,0,0,0,,With each other.
+Dialogue: 0,0:29:40.35,0:29:40.85,Default,host,0,0,0,,...
 Dialogue: 0,0:29:41.68,0:29:43.24,Default,host,0,0,0,,Let's talk a bit more.
-Dialogue: 0,0:29:45.47,0:29:45.97,Default,host,0,0,0,,Right.
-Dialogue: 0,0:29:47.96,0:30:00.82,Default,host,0,0,0,,Going back to the flashback scenes for a moment... when Shizuku was searching for what she was lacking,
-Dialogue: 0,0:30:00.82,0:30:06.68,Default,host,0,0,0,,MIKU-chan was in Shizuku's room, and Shizuku decided to watch some old footage...
-Comment: 0,0:30:06.68,0:30:11.70,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:30:06.68,0:30:11.70,Default,host,0,0,0,,It was around the scene where MIKU-chan asks Shizuku-chan how she's doing.
-Dialogue: 0,0:30:11.70,0:30:20.10,Default,host,0,0,0,,In the scene where they watch footage of Shizuku from her Cheerful Days era, there are lines from the past Shizuku.
-Dialogue: 0,0:30:20.10,0:30:21.80,Default,host,0,0,0,,"I need to do it more like this..."
-Dialogue: 0,0:30:21.80,0:30:31.80,Default,host,0,0,0,,We actually recorded several different patterns of her muttering to herself like that.
-Dialogue: 0,0:30:31.80,0:30:32.43,Default,host,0,0,0,,Really.
-Dialogue: 0,0:30:32.43,0:30:37.76,Default,host,0,0,0,,We delivered one of those versions to all of you, but...
-Dialogue: 0,0:30:37.76,0:30:48.20,Default,host,0,0,0,,For the patterns, there was a version of Shizuku that felt more precarious, like you'd be worried just watching her.
-Dialogue: 0,0:30:49.04,0:31:04.48,Default,host,0,0,0,,She was really pushing herself to the limit, thinking she had to master the dance to carry the weight of being the center of Cheerful Days.
-Dialogue: 0,0:31:05.28,0:31:11.62,Default,host,0,0,0,,I recorded several takes of that desperate Shizuku. I felt like...
-Dialogue: 0,0:31:11.62,0:31:18.74,Default,host,0,0,0,,We've seen Shizuku backed into a corner like this a few times before,
+Dialogue: 0,0:29:45.49,0:29:45.99,Default,host,0,0,0,,Right.
+Dialogue: 0,0:29:47.96,0:29:53.00,Default,host,0,0,0,,I'm going back to talking about the flashback scenes again,
+Dialogue: 0,0:29:53.00,0:29:59.12,Default,host,0,0,0,,but it was when Shizuku was searching for
+Dialogue: 0,0:29:59.12,0:30:00.82,Default,host,0,0,0,,what it was she was lacking.
+Dialogue: 0,0:30:00.82,0:30:11.70,Default,host,0,0,0,,It was around the scene where Miku-chan calls out to her when Shizuku decides to watch some old footage in her room.
+Dialogue: 0,0:30:11.70,0:30:20.10,Default,host,0,0,0,,In that scene where she watches footage from her Cheerful Days era, there are lines from the past Shizuku.
+Dialogue: 0,0:30:20.10,0:30:21.76,Default,host,0,0,0,,She's muttering to herself,
+Dialogue: 0,0:30:21.76,0:30:25.44,Default,host,0,0,0,,"I need to do it more like this..."
+Dialogue: 0,0:30:26.60,0:30:32.40,Default,host,0,0,0,,We actually recorded several different patterns for that part.
+Dialogue: 0,0:30:32.40,0:30:36.76,Default,host,0,0,0,,And we delivered one of those versions to all of you.
+Dialogue: 0,0:30:37.36,0:30:43.58,Default,host,0,0,0,,As for the patterns... there was one where she sounded more precarious,
+Dialogue: 0,0:30:43.58,0:30:48.20,Default,host,0,0,0,,like a Shizuku who makes you worried just by looking at her.
+Dialogue: 0,0:30:49.08,0:31:04.44,Default,host,0,0,0,,She was really cornering herself, thinking she had to master the dance to carry the weight of being the center of Cheerful Days.
+Dialogue: 0,0:31:05.19,0:31:05.80,Default,host,0,0,0,,She felt like there was no turning back.
+Dialogue: 0,0:31:05.80,0:31:11.64,Default,host,0,0,0,,We recorded a few patterns of that desperate Shizuku, and I felt like...
+Dialogue: 0,0:31:11.64,0:31:18.74,Default,host,0,0,0,,Well, we've seen Shizuku cornered like this a few times before,
 Dialogue: 0,0:31:18.74,0:31:23.28,Default,host,0,0,0,,but it's been a while since she went that far. It was actually quite tough,
-Dialogue: 0,0:31:23.28,0:31:26.14,Default,host,0,0,0,,and there were several scenes that were pretty painful to perform.
-Dialogue: 0,0:31:26.14,0:31:37.10,Default,host,0,0,0,,Flashbacks to the Cheerful Days era always involve lines where she's pushing herself, which can be hard for me too.
-Dialogue: 0,0:31:37.10,0:31:41.64,Default,host,0,0,0,,But that Shizuku is what leads to the Shizuku we have now.
-Dialogue: 0,0:31:41.64,0:31:44.92,Default,host,0,0,0,,I thought having that contrast would create more of a story.
-Dialogue: 0,0:31:46.47,0:31:46.97,Default,host,0,0,0,,That's what I felt.
-Dialogue: 0,0:31:48.32,0:31:49.12,Default,host,0,0,0,,...
-Dialogue: 0,0:31:49.76,0:31:55.24,Default,host,0,0,0,,And yet, a cornered Shizuku has a certain charm of her own,
-Dialogue: 0,0:31:55.24,0:31:56.44,Default,host,0,0,0,,in a way.
+Dialogue: 0,0:31:23.28,0:31:26.14,Default,host,0,0,0,,and there were several scenes that were pretty painful to record.
+Dialogue: 0,0:31:26.14,0:31:37.10,Default,host,0,0,0,,Flashbacks to her Cheerful Days era always involve lines where she's pushing herself too hard, which is painful for me too,
+Dialogue: 0,0:31:37.10,0:31:41.64,Default,host,0,0,0,,but that Shizuku is what leads to the Shizuku we have now.
+Dialogue: 0,0:31:41.64,0:31:44.88,Default,host,0,0,0,,I thought having that gap would create more of a sense of drama.
+Dialogue: 0,0:31:46.47,0:31:46.97,Default,host,0,0,0,,That's what I was thinking.
+Dialogue: 0,0:31:48.36,0:31:49.12,Default,host,0,0,0,,...
+Dialogue: 0,0:31:49.76,0:31:55.24,Default,host,0,0,0,,A cornered Shizuku has a certain charm to her,
+Dialogue: 0,0:31:55.24,0:31:56.40,Default,host,0,0,0,,in its own way.
 Dialogue: 0,0:31:57.64,0:32:03.12,Default,host,0,0,0,,Especially since she was being promoted as the "mysterious Shizuku" back then,
-Dialogue: 0,0:32:03.12,0:32:06.40,Default,host,0,0,0,,she never showed that side of her hard work.
-Dialogue: 0,0:32:07.68,0:32:16.72,Default,host,0,0,0,,That's why seeing her silently working so hard by herself behind the scenes feels so lonely.
-Dialogue: 0,0:32:17.72,0:32:20.36,Default,host,0,0,0,,Like she was doing her absolute best all on her own.
-Dialogue: 0,0:32:21.12,0:32:25.84,Default,host,0,0,0,,That's why it connects to the episode with her juniors I mentioned earlier,
-Dialogue: 0,0:32:27.68,0:32:29.20,Default,host,0,0,0,,where Shizuku feels like she has to work hard
+Dialogue: 0,0:32:03.12,0:32:06.40,Default,host,0,0,0,,and she never showed that side of her effort to anyone.
+Comment: 0,0:32:07.72,0:32:16.72,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:32:07.72,0:32:16.72,Default,host,0,0,0,,Seeing how she kept working so hard in silence behind the scenes,
+Dialogue: 0,0:32:17.72,0:32:20.36,Default,host,0,0,0,,it really makes you feel how lonely she was, doing her absolute best all on her own.
+Dialogue: 0,0:32:21.12,0:32:25.84,Default,host,0,0,0,,And that connects back to the story about her juniors I mentioned earlier,
+Dialogue: 0,0:32:27.72,0:32:29.16,Default,host,0,0,0,,where Shizuku feels like she has to work hard
 Dialogue: 0,0:32:31.00,0:32:33.24,Default,host,0,0,0,,for their sake as well.
-Dialogue: 0,0:32:34.73,0:32:35.47,Default,host,0,0,0,,...
-Dialogue: 0,0:32:35.47,0:32:38.88,Default,host,0,0,0,,Thinking about it that way, I'm so glad she met Momojan.
-Dialogue: 0,0:32:39.80,0:32:42.12,Default,host,0,0,0,,Seriously, Minori...
-Dialogue: 0,0:32:42.80,0:32:43.68,Default,host,0,0,0,,Haruka...
-Comment: 0,0:32:44.28,0:32:45.18,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:32:44.28,0:32:45.18,Default,host,0,0,0,,That's Airi for you.
-Dialogue: 0,0:32:45.18,0:32:46.68,Default,host,0,0,0,,That's how it feels.
-Dialogue: 0,0:32:47.61,0:32:48.11,Default,host,0,0,0,,...
-Dialogue: 0,0:32:48.84,0:32:54.58,Default,host,0,0,0,,Anyway, it's about time for me to start getting ready for the AfterLive.
-Dialogue: 0,0:32:54.58,0:33:01.82,Default,host,0,0,0,,I'll reveal the Room ID around 10:55, so everyone, please get your devices ready.
-Dialogue: 0,0:33:01.82,0:33:05.32,Default,host,0,0,0,,We'll do a "ready, set, go" so take your time.
-Dialogue: 0,0:33:06.56,0:33:10.96,Default,host,0,0,0,,I'll try my best not to make any mistakes while setting this up.
-Dialogue: 0,0:33:11.96,0:33:15.00,Default,host,0,0,0,,Okay, creating the room...
-Dialogue: 0,0:33:19.57,0:33:20.07,Default,host,0,0,0,,...
-Dialogue: 0,0:33:24.88,0:33:27.72,Default,host,0,0,0,,Writing down the numbers now.
-Dialogue: 0,0:33:27.72,0:33:28.41,Default,host,0,0,0,,...
-Dialogue: 0,0:33:28.41,0:33:30.40,Default,host,0,0,0,,I'm not showing it yet, everyone!
-Dialogue: 0,0:33:31.20,0:33:32.40,Default,host,0,0,0,,I'll show it on the count of three.
+Dialogue: 0,0:32:34.77,0:32:35.49,Default,host,0,0,0,,
+Dialogue: 0,0:32:35.49,0:32:38.88,Default,host,0,0,0,,Thinking about it that way, I'm so glad she met Momojan.
+Dialogue: 0,0:32:39.80,0:32:42.16,Default,host,0,0,0,,Seriously, Minori,
+Dialogue: 0,0:32:42.80,0:32:43.68,Default,host,0,0,0,,Haruka,
+Dialogue: 0,0:32:44.32,0:32:45.18,Default,host,0,0,0,,and Airi...
+Dialogue: 0,0:32:45.18,0:32:46.68,Default,host,0,0,0,,That's really how it feels.
+Dialogue: 0,0:32:47.61,0:32:48.11,Default,host,0,0,0,,
+Dialogue: 0,0:32:48.84,0:32:54.58,Default,host,0,0,0,,Anyway, it's about time for me to get ready for the AfterLive.
+Dialogue: 0,0:32:54.58,0:33:01.82,Default,host,0,0,0,,I'll reveal the room ID around 10:55, so everyone, please get your devices ready.
+Dialogue: 0,0:33:01.82,0:33:02.36,Default,host,0,0,0,,
+Dialogue: 0,0:33:03.60,0:33:05.32,Default,host,0,0,0,,We'll all join at the same time.
+Dialogue: 0,0:33:06.56,0:33:10.92,Default,host,0,0,0,,I'll be careful not to make any mistakes with the controls here.
+Dialogue: 0,0:33:12.00,0:33:15.00,Default,host,0,0,0,,Creating the room...
+Dialogue: 0,0:33:19.57,0:33:20.07,Default,host,0,0,0,,
+Dialogue: 0,0:33:24.92,0:33:27.72,Default,host,0,0,0,,Now I'll write down the numbers.
+Dialogue: 0,0:33:27.72,0:33:28.41,Default,host,0,0,0,,
+Dialogue: 0,0:33:28.41,0:33:30.36,Default,host,0,0,0,,I'm not showing them yet, everyone.
+Dialogue: 0,0:33:31.20,0:33:32.40,Default,host,0,0,0,,I'll show them to you all at once.
 Dialogue: 0,0:33:34.00,0:33:35.96,Default,host,0,0,0,,Please have your devices ready.
 Dialogue: 0,0:33:36.88,0:33:38.48,Default,host,0,0,0,,It'll be around 10:55.
-Dialogue: 0,0:33:46.36,0:33:48.24,Default,host,0,0,0,,Wait, it won't fit on this, sorry.
-Dialogue: 0,0:33:49.61,0:33:50.35,Default,host,0,0,0,,My bad.
-Dialogue: 0,0:33:50.35,0:33:52.84,Default,host,0,0,0,,This ID has six digits.
-Dialogue: 0,0:34:07.67,0:34:08.17,Default,host,0,0,0,,...
-Dialogue: 0,0:34:09.28,0:34:10.80,Default,host,0,0,0,,I managed to write it down correctly.
-Dialogue: 0,0:34:12.80,0:34:13.64,Default,host,0,0,0,,Is everyone ready?
-Dialogue: 0,0:34:13.64,0:34:14.96,Default,host,0,0,0,,Ready?
-Dialogue: 0,0:34:15.84,0:34:19.54,Default,host,0,0,0,,Type it in and enter on my signal.
-Dialogue: 0,0:34:19.54,0:34:23.04,Default,host,0,0,0,,Space is limited, so it's first-come, first-served.
-Dialogue: 0,0:34:23.92,0:34:25.32,Default,host,0,0,0,,Good luck!
-Dialogue: 0,0:34:27.32,0:34:30.04,Default,host,0,0,0,,Let's all get hyped together.
-Dialogue: 0,0:34:30.04,0:34:31.92,Default,host,0,0,0,,It's the first time everyone's hearing the song, after all.
-Dialogue: 0,0:34:32.76,0:34:33.68,Default,host,0,0,0,,I'm so excited.
-Dialogue: 0,0:34:33.68,0:34:37.60,Default,host,0,0,0,,It's my first time seeing it too, wow.
-Dialogue: 0,0:36:31.00,0:36:36.80,Default,host,0,0,0,,The AfterLive starts at 22:00.
-Comment: 0,0:36:37.80,0:36:43.38,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
-Dialogue: 0,0:36:37.80,0:36:43.38,Default,host_meta,0,0,0,,I'm planning to introduce the cards and everything today, but...
-Dialogue: 0,0:36:43.38,0:36:44.44,Default,host,0,0,0,,Just a moment ago,
+Dialogue: 0,0:33:46.36,0:33:48.24,Default,host,0,0,0,,Oh, it won't fit here, sorry.
+Dialogue: 0,0:33:48.89,0:33:49.50,Default,host,0,0,0,,
+Dialogue: 0,0:33:49.50,0:33:50.11,Default,host,0,0,0,,Sorry.
+Dialogue: 0,0:33:50.64,0:33:52.80,Default,host,0,0,0,,There are six digits in total.
+Dialogue: 0,0:34:07.71,0:34:08.21,Default,host,0,0,0,,
+Comment: 0,0:34:09.28,0:34:10.76,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:34:09.28,0:34:10.76,Default,host,0,0,0,,I managed to write it down without any mistakes!
+Dialogue: 0,0:34:12.84,0:34:13.64,Default,host,0,0,0,,Is everyone...
+Dialogue: 0,0:34:13.64,0:34:14.96,Default,host,0,0,0,,ready?
+Dialogue: 0,0:34:15.88,0:34:19.58,Default,host,0,0,0,,Type it in and enter on the count of three!
+Dialogue: 0,0:34:19.58,0:34:23.04,Default,host,0,0,0,,Space is limited, so it'll be first-come, first-served.
+Dialogue: 0,0:34:23.92,0:34:25.32,Default,host,0,0,0,,I'm counting on you!
+Dialogue: 0,0:34:27.32,0:34:30.04,Default,host,0,0,0,,I really want us all to get hyped together!
+Dialogue: 0,0:34:30.04,0:34:31.92,Default,host,0,0,0,,It's the first time everyone's hearing this song, after all.
+Dialogue: 0,0:34:32.76,0:34:33.70,Default,host,0,0,0,,I'm so excited!
+Dialogue: 0,0:34:33.70,0:34:37.56,Default,host,0,0,0,,It's my first time seeing it too, how amazing!
+Dialogue: 0,0:36:31.00,0:36:36.80,Default,host,0,0,0,,The AfterLive starts at 10:00 PM!
+Comment: 0,0:36:37.80,0:36:43.40,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
+Dialogue: 0,0:36:37.80,0:36:43.40,Default,host_meta,0,0,0,,I'm planning to introduce the cards today, but...
+Dialogue: 0,0:36:43.40,0:36:44.44,Default,host,0,0,0,,Just a moment ago,
 Dialogue: 0,0:36:46.04,0:36:47.46,Default,host,0,0,0,,I was so surprised.
-Dialogue: 0,0:36:47.46,0:36:58.20,Default,host,0,0,0,,The illustration used for Shizuku's banner this time... I was like, "Is this really the untrained version?"
+Dialogue: 0,0:36:47.46,0:36:58.16,Default,host,0,0,0,,I saw the illustration used for Shizuku's banner this time and thought, "Wait, is this really the untrained version?"
 Dialogue: 0,0:36:59.60,0:37:01.52,Default,host,0,0,0,,The quality is high enough to be a trained version.
 Dialogue: 0,0:37:01.52,0:37:02.56,Default,host,0,0,0,,It really shocked me.
-Dialogue: 0,0:37:02.56,0:37:07.72,Default,host,0,0,0,,I actually got a sneak peek during the voice recording session,
-Dialogue: 0,0:37:07.72,0:37:10.52,Default,host,0,0,0,,of how Shizuku would look this time.
-Dialogue: 0,0:37:11.17,0:37:11.67,Default,host,0,0,0,,And man,
+Dialogue: 0,0:37:02.56,0:37:07.76,Default,host,0,0,0,,Actually, I got a look at it during the voice recording session.
+Dialogue: 0,0:37:07.76,0:37:10.52,Default,host,0,0,0,,This is how Shizuku looks this time.
+Dialogue: 0,0:37:11.03,0:37:11.53,Default,host,0,0,0,,And man,
 Dialogue: 0,0:37:13.84,0:37:14.92,Default,host,0,0,0,,it was just incredible.
-Dialogue: 0,0:37:14.92,0:37:15.82,Default,host,0,0,0,,I couldn't help but applaud.
+Dialogue: 0,0:37:14.92,0:37:15.82,Default,host,0,0,0,,I even started clapping.
 Dialogue: 0,0:37:15.82,0:37:16.80,Default,host,0,0,0,,Seriously.
-Dialogue: 0,0:37:17.56,0:37:20.46,Default,host,0,0,0,,I really wish they would sell this actual makeup line.
+Dialogue: 0,0:37:17.56,0:37:20.46,Default,host,0,0,0,,I really wish they'd actually sell these cosmetics.
 Dialogue: 0,0:37:20.46,0:37:23.32,Default,host,0,0,0,,This is just amazing.
 Dialogue: 0,0:37:23.32,0:37:24.24,Default,host,0,0,0,,Truly.
-Dialogue: 0,0:37:24.80,0:37:34.40,Default,host,0,0,0,,We've seen Shizuku looking cool in a few events before, but...
-Dialogue: 0,0:37:34.40,0:37:44.92,Default,host,0,0,0,,the sparkle in her eyes is different here. Her strength and all her hard work really show in her expression.
-Dialogue: 0,0:37:44.92,0:37:46.16,Default,host,0,0,0,,She looks so cool.
-Dialogue: 0,0:37:46.76,0:37:52.12,Default,host,0,0,0,,The trained illustration is also amazing. It's like she's under a blue sky,
-Dialogue: 0,0:37:52.12,0:37:59.84,Default,host,0,0,0,,and you can see her looking like she's about to take flight. Let's all look at the cards together later.
-Dialogue: 0,0:37:59.84,0:38:01.56,Default,host,0,0,0,,They're wonderful.
-Dialogue: 0,0:38:01.56,0:38:02.96,Default,host,0,0,0,,The outfits are cute too.
+Dialogue: 0,0:37:24.80,0:37:34.40,Default,host,0,0,0,,We've seen cool versions of Shizuku in a few events before, but...
+Dialogue: 0,0:37:34.40,0:37:38.64,Default,host,0,0,0,,there's a different sparkle in her eyes this time, a real sense of her strength.
+Dialogue: 0,0:37:39.84,0:37:44.92,Default,host,0,0,0,,You can really see all of Shizuku's hard work reflected in her expression.
+Dialogue: 0,0:37:44.92,0:37:46.20,Default,host,0,0,0,,She looked so cool.
+Dialogue: 0,0:37:46.76,0:37:49.04,Default,host,0,0,0,,And the trained illustration is amazing too.
+Dialogue: 0,0:37:49.56,0:37:56.88,Default,host,0,0,0,,You can see her looking like she's about to take flight into the blue sky.
+Dialogue: 0,0:37:56.88,0:37:59.84,Default,host,0,0,0,,Let's take a look at the cards together later.
+Dialogue: 0,0:37:59.84,0:38:01.58,Default,host,0,0,0,,They're incredible.
+Dialogue: 0,0:38:01.58,0:38:02.96,Default,host,0,0,0,,The outfits are cute too.
 Dialogue: 0,0:38:04.92,0:38:06.48,Default,host,0,0,0,,It's like a hotel...
-Dialogue: 0,0:38:08.60,0:38:09.92,Default,host,0,0,0,,A hotel?
-Dialogue: 0,0:38:12.08,0:38:15.32,Default,host,0,0,0,,The script says it's a studio.
+Dialogue: 0,0:38:08.64,0:38:09.92,Default,host,0,0,0,,A hotel?
+Dialogue: 0,0:38:12.08,0:38:15.36,Default,host,0,0,0,,The script says it's a studio.
 Dialogue: 0,0:38:16.88,0:38:18.20,Default,host,0,0,0,,It's such a...
-Dialogue: 0,0:38:20.92,0:38:29.32,Default,host,0,0,0,,I thought the set really fit the concept this time. It feels very mature.
-Dialogue: 0,0:38:29.32,0:38:36.68,Default,host,0,0,0,,But since the goal was to attract a younger audience than Grand Fleur's usual target demographic,
-Dialogue: 0,0:38:36.68,0:38:41.40,Default,host,0,0,0,,Hagiyama-chan and Shizuku were selected for the job.
-Dialogue: 0,0:38:41.40,0:38:46.16,Default,host,0,0,0,,They fit the concept so perfectly that it just made me happy.
-Comment: 0,0:38:46.68,0:38:55.32,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:38:46.68,0:38:55.32,Default,host,0,0,0,,ProSeka really does a great job showing so many different sides of the characters.
-Dialogue: 0,0:38:55.32,0:38:55.96,Default,host,0,0,0,,They really do.
-Dialogue: 0,0:38:56.52,0:38:59.12,Default,host,0,0,0,,Speaking as a fan myself,
-Dialogue: 0,0:38:59.68,0:39:03.04,Default,host,0,0,0,,seeing such a wide range for the characters...
-Dialogue: 0,0:39:03.56,0:39:06.68,Default,host,0,0,0,,I bet there were people who literally fell out of their chairs because it was so beautiful.
-Dialogue: 0,0:39:06.68,0:39:07.60,Default,host,0,0,0,,Right?
-Dialogue: 0,0:39:07.60,0:39:08.57,Default,host,0,0,0,,...
-Dialogue: 0,0:39:08.57,0:39:10.28,Default,host,0,0,0,,I mean, you would fall over seeing this.
-Dialogue: 0,0:39:10.28,0:39:11.74,Default,host,0,0,0,,It's seriously mind-blowing.
+Dialogue: 0,0:38:20.88,0:38:29.34,Default,host,0,0,0,,I thought the set really fit the concept this time. It feels very mature.
+Dialogue: 0,0:38:29.34,0:38:36.68,Default,host,0,0,0,,But since they wanted to attract a younger audience than Grand Fleur's usual target demographic...
+Comment: 0,0:38:36.68,0:38:41.40,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:38:36.68,0:38:41.40,Default,host,0,0,0,,This time, Hagiyama-chan and Shizuku were featured,
+Dialogue: 0,0:38:41.40,0:38:46.16,Default,host,0,0,0,,and they fit the concept so perfectly that it just made me so happy.
+Dialogue: 0,0:38:46.68,0:38:55.32,Default,host,0,0,0,,ProSeka really shows us so many different sides of the characters,
+Dialogue: 0,0:38:55.32,0:38:56.00,Default,host,0,0,0,,they really do.
+Dialogue: 0,0:38:56.52,0:38:59.12,Default,host,0,0,0,,Seriously, speaking as a fan myself,
+Dialogue: 0,0:38:59.64,0:39:03.04,Default,host,0,0,0,,showing such a wide range for the characters...
+Dialogue: 0,0:39:03.60,0:39:06.68,Default,host,0,0,0,,I bet there were people who literally fell out of their chairs...
+Dialogue: 0,0:39:06.68,0:39:07.64,Default,host,0,0,0,,?
+Dialogue: 0,0:39:07.64,0:39:08.57,Default,host,0,0,0,,.
+Dialogue: 0,0:39:08.57,0:39:10.28,Default,host,0,0,0,,You'd definitely fall off. This one is just...
+Dialogue: 0,0:39:10.28,0:39:11.74,Default,host,0,0,0,,It's honestly mind-blowing.
 Dialogue: 0,0:39:11.74,0:39:13.16,Default,host,0,0,0,,I was surprised too.
-Dialogue: 0,0:39:14.60,0:39:18.16,Default,host,0,0,0,,I saw it trending on X earlier.
-Dialogue: 0,0:39:18.16,0:39:22.20,Default,host,0,0,0,,I figured it had to be something about ProSeka.
-Dialogue: 0,0:39:22.20,0:39:26.74,Default,host,0,0,0,,The banner had just been revealed, and I happened to see it right then.
-Dialogue: 0,0:39:26.74,0:39:34.94,Default,host,0,0,0,,When the official account posted the image for Shizuku's event banner on X,
-Dialogue: 0,0:39:34.94,0:39:37.82,Default,host,0,0,0,,everyone's reactions were just incredible.
-Dialogue: 0,0:39:37.82,0:39:40.28,Default,host,0,0,0,,It made me so happy.
-Dialogue: 0,0:39:41.12,0:39:43.22,Default,host,0,0,0,,Okay everyone, it's almost time to start.
-Dialogue: 0,0:39:43.22,0:39:44.80,Default,host,0,0,0,,About ten seconds left.
-Dialogue: 0,0:39:44.80,0:39:46.06,Default,host,0,0,0,,...
-Dialogue: 0,0:39:46.06,0:39:47.12,Default,host,0,0,0,,I'm so nervous!
-Dialogue: 0,0:39:48.76,0:39:51.16,Default,host,0,0,0,,I'm glad I get to enjoy this with all of you.
+Dialogue: 0,0:39:14.60,0:39:18.16,Default,host,0,0,0,,It was even trending on X, too.
+Dialogue: 0,0:39:18.16,0:39:24.20,Default,host,0,0,0,,I thought, "This must be for ProSeka," when the banner was revealed.
+Dialogue: 0,0:39:24.20,0:39:27.96,Default,host,0,0,0,,I happened to be looking at X right at that moment,
+Dialogue: 0,0:39:27.96,0:39:34.96,Default,host,0,0,0,,and when the official account posted the image of Shizuku's banner for this event,
+Dialogue: 0,0:39:34.96,0:39:37.84,Default,host,0,0,0,,everyone reacted so strongly.
+Dialogue: 0,0:39:37.84,0:39:40.28,Default,host,0,0,0,,It made me happy too.
+Dialogue: 0,0:39:41.12,0:39:43.22,Default,host,0,0,0,,It's almost time to start, everyone.
+Dialogue: 0,0:39:43.22,0:39:44.82,Default,host,0,0,0,,About 10 seconds left.
+Dialogue: 0,0:39:44.82,0:39:46.08,Default,host,0,0,0,,...
+Dialogue: 0,0:39:46.08,0:39:47.16,Default,host,0,0,0,,I'm so excited.
+Dialogue: 0,0:39:48.80,0:39:51.16,Default,host,0,0,0,,I'm going to enjoy this with all of you.
 Dialogue: 0,0:39:51.16,0:39:51.71,Default,host,0,0,0,,...
 Dialogue: 0,0:39:52.32,0:39:53.52,Default,host,0,0,0,,...
-Dialogue: 0,0:47:44.00,0:47:46.16,Default,host,0,0,0,,...
-Dialogue: 0,0:47:48.04,0:47:50.44,Default,host,0,0,0,,So, what did you all think?
-Comment: 0,0:47:51.28,0:47:57.92,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
-Dialogue: 0,0:47:51.28,0:47:57.92,Default,host_meta,0,0,0,,Thank you, r-906, for writing "Hashiru" for Momojan.
-Dialogue: 0,0:47:57.92,0:47:58.63,Default,host,0,0,0,,It's such a great song.
-Dialogue: 0,0:48:00.92,0:48:01.96,Default,host,0,0,0,,Shizuku says,
-Dialogue: 0,0:48:03.64,0:48:05.56,Default,host,0,0,0,,"Look at me."
-Dialogue: 0,0:48:06.84,0:48:10.20,Default,host,0,0,0,,I've never seen her be this strong before.
-Dialogue: 0,0:48:11.28,0:48:14.56,Default,host,0,0,0,,It really makes me feel so emotional, seriously.
-Dialogue: 0,0:48:17.64,0:48:18.72,Default,host,0,0,0,,In the chorus lyrics,
-Dialogue: 0,0:48:20.20,0:48:22.28,Default,host,0,0,0,,it says, "Can you tell who the lead is?"
-Dialogue: 0,0:48:22.92,0:48:26.00,Default,host,0,0,0,,And then, "Look at me."
-Dialogue: 0,0:48:27.16,0:48:34.48,Default,host,0,0,0,,I feel like this really shows... earlier, Shizuku said she'd started leaning on everyone since joining Momojan.
-Dialogue: 0,0:48:34.48,0:48:38.20,Default,host,0,0,0,,That's how she described it, but...
-Dialogue: 0,0:48:39.08,0:48:41.84,Default,host,0,0,0,,well, that's definitely not a bad thing.
-Dialogue: 0,0:48:42.76,0:48:48.32,Default,host,0,0,0,,It was progress in its own way, but she called it "leaning on them."
-Dialogue: 0,0:48:49.12,0:48:51.16,Default,host,0,0,0,,And now, she's climbing
-Dialogue: 0,0:48:51.88,0:48:52.80,Default,host,0,0,0,,to even greater
-Dialogue: 0,0:48:53.72,0:48:54.48,Default,host,0,0,0,,heights.
-Dialogue: 0,0:48:56.36,0:49:01.20,Default,host,0,0,0,,Thank you so much for writing a song and lyrics that perfectly symbolize that growth.
-Dialogue: 0,0:49:01.20,0:49:04.00,Default,host,0,0,0,,Seriously, thank you, r-906.
-Dialogue: 0,0:49:04.84,0:49:05.68,Default,host,0,0,0,,So...
-Dialogue: 0,0:49:06.32,0:49:12.68,Default,host,0,0,0,,it's been added to the game now, and I really want you all to pay attention to the lyrics.
-Dialogue: 0,0:49:12.68,0:49:15.40,Default,host,0,0,0,,How should I put it... wait?
-Dialogue: 0,0:49:16.92,0:49:19.90,Default,host,0,0,0,,After the first chorus, there's a solo part where,
-Dialogue: 0,0:49:19.90,0:49:21.80,Default,host,0,0,0,,one by one, everyone comes to the center and...
-Dialogue: 0,0:49:22.81,0:49:23.31,Default,host,0,0,0,,well...
-Dialogue: 0,0:49:25.16,0:49:27.02,Default,host,0,0,0,,wasn't that just incredible?
-Dialogue: 0,0:49:27.02,0:49:32.39,Default,host,0,0,0,,The part where Shizuku comes to the center and turns around...
-Dialogue: 0,0:49:32.39,0:49:33.13,Default,host,0,0,0,,and...
-Dialogue: 0,0:49:34.68,0:49:39.72,Default,host,0,0,0,,I really felt like the formation and the choreography were just god-tier.
-Dialogue: 0,0:49:39.72,0:49:43.20,Default,host,0,0,0,,The lighting, the stage, and the outfits too.
-Dialogue: 0,0:49:44.00,0:49:45.52,Default,host,0,0,0,,The outfits were insane.
-Comment: 0,0:49:46.76,0:49:47.38,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:47:44.00,0:47:46.20,Default,host,0,0,0,,.
+Comment: 0,0:47:48.08,0:47:50.44,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
+Dialogue: 0,0:47:48.08,0:47:50.44,Default,host_meta,0,0,0,,So, what did everyone think?
+Dialogue: 0,0:47:51.32,0:47:56.34,Default,host,0,0,0,,Yuuyu-san wrote this new song for Momojan,
+Dialogue: 0,0:47:56.34,0:47:57.90,Default,host,0,0,0,,"Hashiru".
+Dialogue: 0,0:47:57.90,0:47:58.63,Default,host,0,0,0,,.
+Dialogue: 0,0:48:00.92,0:48:01.88,Default,host,0,0,0,,Shizuku says,
+Dialogue: 0,0:48:03.68,0:48:05.52,Default,host,0,0,0,,"Look at me."
+Dialogue: 0,0:48:06.88,0:48:10.16,Default,host,0,0,0,,She's never been this strong before.
+Dialogue: 0,0:48:11.32,0:48:13.00,Default,host,0,0,0,,It's so deeply moving.
+Dialogue: 0,0:48:13.00,0:48:14.56,Default,host,0,0,0,,I seriously started crying.
+Dialogue: 0,0:48:17.64,0:48:18.72,Default,host,0,0,0,,In the lyrics for the chorus,
+Dialogue: 0,0:48:20.24,0:48:22.28,Default,host,0,0,0,,it says, "Can you tell who the lead is?"
+Dialogue: 0,0:48:22.92,0:48:25.96,Default,host,0,0,0,,She's asking everyone to look at her.
+Dialogue: 0,0:48:27.16,0:48:34.50,Default,host,0,0,0,,I feel like... earlier, Shizuku mentioned that since joining MORE MORE JUMP!, she's been relying on everyone,
+Dialogue: 0,0:48:34.50,0:48:39.54,Default,host,0,0,0,,or rather, she described it as "spoiling herself."
+Dialogue: 0,0:48:39.54,0:48:45.80,Default,host,0,0,0,,But that's definitely not a bad thing; it's a form of progress for her.
+Dialogue: 0,0:48:45.80,0:48:54.48,Default,host,0,0,0,,However, she chose to call it "spoiling herself" and decided to aim for even greater heights.
+Dialogue: 0,0:48:55.09,0:48:55.59,Default,host,0,0,0,,.
+Dialogue: 0,0:48:56.36,0:49:01.50,Default,host,0,0,0,,Yuuyu-san wrote a song and lyrics that perfectly symbolize that growth.
+Dialogue: 0,0:49:01.50,0:49:04.00,Default,host,0,0,0,,Yuuyu-san, thank you so much, seriously.
+Dialogue: 0,0:49:04.84,0:49:14.20,Default,host,0,0,0,,Once it's added to the game, I really want you to pay attention to the lyrics. How should I put it...
+Dialogue: 0,0:49:14.20,0:49:15.48,Default,host,0,0,0,,Oh?
+Dialogue: 0,0:49:16.92,0:49:23.20,Default,host,0,0,0,,After the first chorus, there's a solo section where everyone comes to the center one by one, and...
+Dialogue: 0,0:49:25.20,0:49:27.02,Default,host,0,0,0,,Wasn't that just incredible?
+Dialogue: 0,0:49:27.02,0:49:33.12,Default,host,0,0,0,,The part where Shizuku comes to the center and turns around...
+Dialogue: 0,0:49:34.72,0:49:39.72,Default,host,0,0,0,,I really felt like the choreography and formations were just god-tier.
+Dialogue: 0,0:49:39.72,0:49:43.16,Default,host,0,0,0,,The lighting, the stage... and the outfits too.
+Dialogue: 0,0:49:44.00,0:49:45.52,Default,host,0,0,0,,The outfits were amazing.
 Dialogue: 0,0:49:46.76,0:49:47.38,Default,host,0,0,0,,Seriously.
-Dialogue: 0,0:49:47.38,0:49:51.94,Default,host,0,0,0,,I touched on it a bit with the cards, but you can see a glimpse of it there too.
-Dialogue: 0,0:49:51.94,0:49:55.64,Default,host,0,0,0,,Let's all pour our love into it together later, seriously.
-Dialogue: 0,0:49:55.64,0:49:57.88,Default,host,0,0,0,,Seriously, thank you so much for all the comments.
-Dialogue: 0,0:49:57.88,0:49:59.24,Default,host,0,0,0,,Everyone's crying a little.
-Dialogue: 0,0:50:00.48,0:50:01.78,Default,host,0,0,0,,I totally get that feeling.
-Dialogue: 0,0:50:01.78,0:50:02.58,Default,host,0,0,0,,...
-Dialogue: 0,0:50:02.58,0:50:04.00,Default,host,0,0,0,,The outfits were so cute too.
-Dialogue: 0,0:50:04.76,0:50:07.52,Default,host,0,0,0,,They really grab your attention, seriously.
-Dialogue: 0,0:50:08.32,0:50:10.24,Default,host,0,0,0,,I'm so excited to see what's next
-Dialogue: 0,0:50:11.56,0:50:14.02,Default,host,0,0,0,,for Momojan, honestly.
-Dialogue: 0,0:50:14.02,0:50:14.96,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:50:15.88,0:50:21.66,Default,host,0,0,0,,By the way, the 3DMV was uploaded to the official ProSeka YouTube channel
-Dialogue: 0,0:50:21.66,0:50:24.60,Default,host,0,0,0,,at 10:10 PM.
-Dialogue: 0,0:50:25.44,0:50:26.78,Default,host,0,0,0,,It's up now.
-Dialogue: 0,0:50:26.78,0:50:28.18,Default,host,0,0,0,,It's already live.
-Dialogue: 0,0:50:28.18,0:50:30.04,Default,host,0,0,0,,Please go check it out.
-Dialogue: 0,0:50:30.04,0:50:34.00,Default,host,0,0,0,,Since we're here, I'd love for you to watch this broadcast with me,
-Dialogue: 0,0:50:34.56,0:50:35.44,Default,host,0,0,0,,and then...
-Dialogue: 0,0:50:36.44,0:50:39.60,Default,host,0,0,0,,Please watch it a bunch of times later. But if you want to see it right now,
-Dialogue: 0,0:50:39.60,0:50:40.80,Default,host,0,0,0,,go ahead and watch it now.
-Dialogue: 0,0:50:40.80,0:50:43.04,Default,host,0,0,0,,Seriously, I'm so excited for the 3DMV.
-Dialogue: 0,0:50:43.04,0:50:43.69,Default,host,0,0,0,,...
-Dialogue: 0,0:50:43.69,0:50:44.80,Default,host,0,0,0,,Please look forward to it.
-Dialogue: 0,0:50:45.32,0:50:47.36,Default,host,0,0,0,,Thank you so much for the talk.
-Dialogue: 0,0:50:48.60,0:50:49.58,Default,host,0,0,0,,...
-Dialogue: 0,0:50:49.58,0:50:50.20,Default,host,0,0,0,,Being able to
-Dialogue: 0,0:50:50.88,0:50:53.48,Default,host,0,0,0,,deliver a new song to everyone like this...
-Dialogue: 0,0:50:54.08,0:50:54.60,Default,host,0,0,0,,Anyway,
-Dialogue: 0,0:50:55.64,0:50:59.66,Default,host,0,0,0,,there are five members in total who were newly added this time.
-Comment: 0,0:50:59.66,0:51:03.44,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:50:59.66,0:51:03.44,Default,host,0,0,0,,Everyone, did you check out the side stories?
-Dialogue: 0,0:51:03.44,0:51:04.28,Default,host,0,0,0,,Wait, just a second...
-Comment: 0,0:51:05.16,0:51:06.88,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
-Dialogue: 0,0:51:05.16,0:51:06.88,Default,host_meta,0,0,0,,Let's take a look at the members.
-Dialogue: 0,0:51:07.76,0:51:08.28,Default,host,0,0,0,,...
-Dialogue: 0,0:51:09.96,0:51:10.76,Default,host,0,0,0,,Here we go...
-Dialogue: 0,0:51:11.44,0:51:12.88,Default,host,0,0,0,,Shizuku.
-Dialogue: 0,0:51:14.04,0:51:16.90,Default,host,0,0,0,,The trained version...
-Dialogue: 0,0:51:16.90,0:51:18.00,Default,host,0,0,0,,Trained.
-Dialogue: 0,0:51:18.88,0:51:23.12,Default,host,0,0,0,,Isn't the outfit from earlier just incredible?
-Dialogue: 0,0:51:23.92,0:51:26.38,Default,host,0,0,0,,Seriously, she's truly taking flight.
-Dialogue: 0,0:51:26.38,0:51:29.38,Default,host,0,0,0,,I really love the expression on Shizuku's face as she looks back.
-Dialogue: 0,0:51:29.38,0:51:31.76,Default,host,0,0,0,,I think you guys might relate to this...
-Dialogue: 0,0:51:32.28,0:51:33.96,Default,host,0,0,0,,It shows such strength.
-Dialogue: 0,0:51:33.96,0:51:35.00,Default,host,0,0,0,,It really does.
-Dialogue: 0,0:51:35.52,0:51:38.56,Default,host,0,0,0,,And this... should I call it a flag?
-Dialogue: 0,0:51:38.56,0:51:43.04,Default,host,0,0,0,,It's like a flag... do you see how it's shaped like a wing?
-Dialogue: 0,0:51:43.04,0:51:44.44,Default,host,0,0,0,,On the left side...
-Dialogue: 0,0:51:45.48,0:51:51.76,Default,host,0,0,0,,In the story, there was a metaphor about Shizuku being like a swan...
-Dialogue: 0,0:51:51.76,0:51:52.39,Default,host,0,0,0,,...
-Dialogue: 0,0:51:53.32,0:51:54.84,Default,host,0,0,0,,How they look elegant above the water...
-Dialogue: 0,0:51:56.08,0:51:56.80,Default,host,0,0,0,,...that's how they appear,
-Dialogue: 0,0:51:57.76,0:52:00.74,Default,host,0,0,0,,but beneath the surface, they're paddling their feet like crazy.
-Dialogue: 0,0:52:00.74,0:52:05.78,Default,host,0,0,0,,I really love that comparison, saying that's exactly what Shizuku is like.
-Dialogue: 0,0:52:05.78,0:52:09.28,Default,host,0,0,0,,This illustration really captures that feeling perfectly.
-Dialogue: 0,0:52:10.24,0:52:11.16,Default,host,0,0,0,,It's a beautiful illustration.
-Dialogue: 0,0:52:11.16,0:52:12.36,Default,host,0,0,0,,So gorgeous.
+Dialogue: 0,0:49:47.38,0:49:54.02,Default,host,0,0,0,,I mentioned the cards briefly, but you can see it in the cards too, so later, let's all...
+Dialogue: 0,0:49:54.02,0:49:55.64,Default,host,0,0,0,,show them some love, seriously.
+Comment: 0,0:49:55.64,0:49:57.88,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:49:55.64,0:49:57.88,Default,host,0,0,0,,Seriously, thank you for all the comments.
+Dialogue: 0,0:49:57.88,0:49:59.24,Default,host,0,0,0,,Everyone's crying a little bit.
+Dialogue: 0,0:50:00.52,0:50:01.78,Default,host,0,0,0,,I totally get it...
+Dialogue: 0,0:50:01.78,0:50:02.60,Default,host,0,0,0,,...
+Dialogue: 0,0:50:02.60,0:50:04.00,Default,host,0,0,0,,The outfits were so cute too.
+Dialogue: 0,0:50:04.80,0:50:07.48,Default,host,0,0,0,,They really catch your eye, seriously.
+Dialogue: 0,0:50:08.32,0:50:13.53,Default,host,0,0,0,,It's a song that really makes me excited for Momojan's future,
+Dialogue: 0,0:50:13.53,0:50:14.06,Default,host,0,0,0,,it really is.
+Dialogue: 0,0:50:14.06,0:50:14.96,Default,host,0,0,0,,Thank you so much.
+Dialogue: 0,0:50:15.92,0:50:26.78,Default,host,0,0,0,,And with that, the 3DMV was just uploaded to the official ProSeka YouTube channel at 10:10 PM.
+Dialogue: 0,0:50:26.78,0:50:28.20,Default,host,0,0,0,,It's already live!
+Dialogue: 0,0:50:28.20,0:50:30.04,Default,host,0,0,0,,Please go check it out.
+Dialogue: 0,0:50:30.04,0:50:34.88,Default,host,0,0,0,,Well, since you're here, I'd love for you to stay and watch the rest of this stream with me,
+Dialogue: 0,0:50:34.88,0:50:37.96,Default,host,0,0,0,,and then you can go watch the MV as many times as you want afterward.
+Dialogue: 0,0:50:37.96,0:50:40.84,Default,host,0,0,0,,But if you really want to see it right now, go ahead and watch it,
+Dialogue: 0,0:50:40.84,0:50:43.04,Default,host,0,0,0,,seriously. I'm so excited for the 3DMV!
+Dialogue: 0,0:50:43.04,0:50:43.71,Default,host,0,0,0,,...
+Dialogue: 0,0:50:43.71,0:50:45.04,Default,host,0,0,0,,Please check it out.
+Dialogue: 0,0:50:45.04,0:50:47.36,Default,host,0,0,0,,Haruka, thank you so much.
+Dialogue: 0,0:50:48.64,0:50:49.56,Default,host,0,0,0,,...
+Dialogue: 0,0:50:49.56,0:50:53.44,Default,host,0,0,0,,I'm so glad we can deliver another new song to everyone like this.
+Dialogue: 0,0:50:54.08,0:50:59.68,Default,host,0,0,0,,So, there are five members in total who were newly added this time.
+Comment: 0,0:50:59.68,0:51:03.44,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
+Dialogue: 0,0:50:59.68,0:51:03.44,Default,host_meta,0,0,0,,Did everyone check out the illustrations and side stories?
+Dialogue: 0,0:51:03.44,0:51:06.88,Default,host,0,0,0,,Let's take a look at the members right now.
+Dialogue: 0,0:51:07.76,0:51:08.28,Default,host,0,0,0,,Alright.
+Dialogue: 0,0:51:09.96,0:51:10.76,Default,host,0,0,0,,Let's go.
+Dialogue: 0,0:51:11.44,0:51:12.88,Default,host,0,0,0,,First up is Shizuku.
+Dialogue: 0,0:51:14.04,0:51:16.92,Default,host,0,0,0,,This is the trained art...
+Dialogue: 0,0:51:16.92,0:51:18.00,Default,host,0,0,0,,Here is the trained version.
+Dialogue: 0,0:51:18.92,0:51:23.12,Default,host,0,0,0,,Isn't the vibe of this outfit just incredible?
+Dialogue: 0,0:51:23.92,0:51:26.40,Default,host,0,0,0,,She's really taking flight, for real.
+Dialogue: 0,0:51:26.40,0:51:29.38,Default,host,0,0,0,,I love the expression Shizuku has as she looks back.
+Dialogue: 0,0:51:29.38,0:51:31.72,Default,host,0,0,0,,I think everyone can relate to this feeling.
+Dialogue: 0,0:51:32.32,0:51:35.00,Default,host,0,0,0,,You can really feel her strength.
+Dialogue: 0,0:51:35.56,0:51:41.38,Default,host,0,0,0,,And these... should I call them banners? These flags...
+Dialogue: 0,0:51:41.38,0:51:43.04,Default,host,0,0,0,,Can you tell they're shaped like wings?
+Dialogue: 0,0:51:43.04,0:51:51.82,Default,host,0,0,0,,On the left side... in the story, there was that swan metaphor,
+Dialogue: 0,0:51:51.82,0:52:00.74,Default,host,0,0,0,,about how they look elegant above the water but are paddling like crazy underneath.
+Dialogue: 0,0:52:00.74,0:52:05.78,Default,host,0,0,0,,That's exactly like Shizuku. I really love that metaphor,
+Dialogue: 0,0:52:05.78,0:52:12.36,Default,host,0,0,0,,and this illustration really makes me think of that. It's so beautiful.
 Dialogue: 0,0:52:12.36,0:52:15.24,Default,host,0,0,0,,Next, here is the untrained version.
-Dialogue: 0,0:52:15.24,0:52:16.28,Default,host,0,0,0,,The banner art.
-Dialogue: 0,0:52:16.28,0:52:17.24,Default,host,0,0,0,,Oh my gosh.
-Dialogue: 0,0:52:17.24,0:52:22.42,Default,host,0,0,0,,This appeared in the story earlier too... it really surprised me.
-Dialogue: 0,0:52:22.42,0:52:24.16,Default,host,0,0,0,,Look at Shizuku here...
-Dialogue: 0,0:52:24.16,0:52:25.88,Default,host,0,0,0,,Isn't she sparkling?
-Comment: 0,0:52:27.24,0:52:30.16,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:52:27.24,0:52:30.16,Default,host,0,0,0,,The level of expression just keeps getting better and better.
-Dialogue: 0,0:52:30.16,0:52:34.00,Default,host,0,0,0,,Look at the way Shizuku is holding that poster in her right hand...
-Dialogue: 0,0:52:34.53,0:52:35.03,Default,host,0,0,0,,...
-Dialogue: 0,0:52:35.64,0:52:38.08,Default,host,0,0,0,,Seriously, I want this for myself.
-Dialogue: 0,0:52:38.76,0:52:41.20,Default,host,0,0,0,,It is just too beautiful.
-Dialogue: 0,0:52:42.08,0:52:43.04,Default,host,0,0,0,,I could stare at it forever.
-Dialogue: 0,0:52:43.04,0:52:44.64,Default,host,0,0,0,,Seriously.
-Dialogue: 0,0:52:45.80,0:52:47.66,Default,host,0,0,0,,Maybe I should use this as a reference.
-Dialogue: 0,0:52:47.66,0:52:48.35,Default,host,0,0,0,,...
-Dialogue: 0,0:52:49.08,0:52:50.56,Default,host,0,0,0,,It is seriously good.
-Dialogue: 0,0:52:50.56,0:52:54.80,Default,host,0,0,0,,When it is zoomed in like this... by the way...
-Dialogue: 0,0:52:54.80,0:52:57.32,Default,host,0,0,0,,Since she looks so mature, I tried to act a bit more mature myself
-Dialogue: 0,0:52:58.04,0:52:59.50,Default,host,0,0,0,,while performing her voice.
-Dialogue: 0,0:52:59.50,0:53:04.20,Default,host,0,0,0,,I can't help but be conscious of it when the art is this wonderful.
+Dialogue: 0,0:52:15.24,0:52:16.28,Default,host,0,0,0,,This is the banner card.
+Dialogue: 0,0:52:16.28,0:52:22.42,Default,host,0,0,0,,This is insane. It appeared in the story earlier, and I was so shocked.
+Dialogue: 0,0:52:22.42,0:52:24.16,Default,host,0,0,0,,Look at Shizuku here.
+Dialogue: 0,0:52:24.16,0:52:25.88,Default,host,0,0,0,,She's sparkling, right?
+Dialogue: 0,0:52:27.28,0:52:30.16,Default,host,0,0,0,,The level of expression just keeps going up and up.
+Dialogue: 0,0:52:30.16,0:52:34.00,Default,host,0,0,0,,And the cosmetics Shizuku is holding in her right hand...
+Dialogue: 0,0:52:34.64,0:52:38.08,Default,host,0,0,0,,I seriously want this new product for myself.
+Dialogue: 0,0:52:38.76,0:52:41.20,Default,host,0,0,0,,She's just too beautiful.
+Dialogue: 0,0:52:42.08,0:52:43.16,Default,host,0,0,0,,I could look at this forever.
+Dialogue: 0,0:52:44.04,0:52:44.64,Default,host,0,0,0,,Seriously.
+Dialogue: 0,0:52:45.80,0:52:47.70,Default,host,0,0,0,,Maybe I should use this makeup as a reference.
+Comment: 0,0:52:47.70,0:52:49.78,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:52:47.70,0:52:49.78,Default,host,0,0,0,,Seriously this time.
+Dialogue: 0,0:52:49.78,0:52:51.20,Default,host,0,0,0,,Okay, just like this.
+Dialogue: 0,0:52:51.20,0:52:55.80,Default,host,0,0,0,,Zoom in a bit... By the way, Shizuku looks a bit more mature today,
+Dialogue: 0,0:52:55.80,0:52:59.52,Default,host,0,0,0,,so I actually had my own look done a bit more maturely too.
+Dialogue: 0,0:52:59.52,0:53:04.20,Default,host,0,0,0,,I can't help but be conscious of it when Shizuku is drawn so beautifully.
 Dialogue: 0,0:53:05.28,0:53:06.20,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:53:06.96,0:53:07.96,Default,host,0,0,0,,That was Shizuku.
-Dialogue: 0,0:53:08.93,0:53:09.43,Default,host,0,0,0,,Next up is...
-Dialogue: 0,0:53:10.24,0:53:11.08,Default,host,0,0,0,,Minori-chan!
-Dialogue: 0,0:53:12.32,0:53:14.56,Default,host,0,0,0,,...
-Dialogue: 0,0:53:14.56,0:53:15.94,Default,host,0,0,0,,She is bursting with energy!
-Dialogue: 0,0:53:15.94,0:53:18.96,Default,host,0,0,0,,I love Minori-chan's jumps. You know,
-Dialogue: 0,0:53:20.12,0:53:23.72,Default,host,0,0,0,,she is always the one jumping the highest during our lives.
-Dialogue: 0,0:53:23.72,0:53:25.56,Default,host,0,0,0,,She is seriously the personification of Momojan.
-Dialogue: 0,0:53:26.40,0:53:27.44,Default,host,0,0,0,,That leap...
-Dialogue: 0,0:53:28.08,0:53:30.72,Default,host,0,0,0,,Minori-chan's full effort really reaches you.
-Dialogue: 0,0:53:31.56,0:53:33.52,Default,host,0,0,0,,It really does.
-Dialogue: 0,0:53:37.89,0:53:38.39,Default,host,0,0,0,,...
-Dialogue: 0,0:53:39.57,0:53:40.07,Default,host,0,0,0,,...
-Dialogue: 0,0:53:41.20,0:53:43.40,Default,host,0,0,0,,This angle is also just irresistible.
-Dialogue: 0,0:53:43.40,0:53:45.14,Default,host,0,0,0,,You can even see her shoes...
-Comment: 0,0:53:45.14,0:53:46.92,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:53:45.14,0:53:46.92,Default,host,0,0,0,,There are wings on the heels of the shoes.
+Dialogue: 0,0:53:07.00,0:53:07.96,Default,host,0,0,0,,It's Shizuku!
+Dialogue: 0,0:53:09.00,0:53:11.32,Default,host,0,0,0,,Next is Minori-chan.
+Dialogue: 0,0:53:12.32,0:53:14.56,Default,host,0,0,0,,The trained art...
+Dialogue: 0,0:53:14.56,0:53:15.94,Default,host,0,0,0,,She's bursting with energy!
+Dialogue: 0,0:53:15.94,0:53:23.28,Default,host,0,0,0,,I love Minori-chan's jumps. She's always the one bouncing around the most during lives,
+Dialogue: 0,0:53:23.28,0:53:25.56,Default,host,0,0,0,,that girl. She really is Momojan.
+Dialogue: 0,0:53:26.40,0:53:30.72,Default,host,0,0,0,,Minori-chan's jumping power and her full effort really reach you.
+Dialogue: 0,0:53:31.56,0:53:33.52,Default,host,0,0,0,,They really do.
+Dialogue: 0,0:53:37.91,0:53:38.41,Default,host,0,0,0,,...
+Dialogue: 0,0:53:39.61,0:53:40.11,Default,host,0,0,0,,...
+Dialogue: 0,0:53:41.20,0:53:43.08,Default,host,0,0,0,,This angle is just irresistible.
+Dialogue: 0,0:53:43.08,0:53:45.14,Default,host,0,0,0,,It is. Everyone, look at the shoes.
+Dialogue: 0,0:53:45.14,0:53:46.92,Default,host,0,0,0,,There are wings on the heels of the shoes!
 Dialogue: 0,0:53:47.82,0:53:48.32,Default,host,0,0,0,,Isn't that amazing?
-Dialogue: 0,0:53:48.32,0:53:51.32,Default,host,0,0,0,,The attention to detail is just...
-Dialogue: 0,0:53:52.20,0:53:52.84,Default,host,0,0,0,,I can really feel the dedication.
-Dialogue: 0,0:53:53.40,0:53:54.58,Default,host,0,0,0,,...
-Dialogue: 0,0:53:54.58,0:53:57.20,Default,host,0,0,0,,The designs are slightly different for each member,
-Dialogue: 0,0:53:58.20,0:53:59.32,Default,host,0,0,0,,so I can't help but stare at them.
-Dialogue: 0,0:53:59.32,0:54:02.48,Default,host,0,0,0,,...
-Dialogue: 0,0:54:03.08,0:54:04.44,Default,host,0,0,0,,Wait, seriously...
-Dialogue: 0,0:54:05.60,0:54:08.88,Default,host,0,0,0,,That was Episode 7 just now. Look at what happens after.
-Dialogue: 0,0:54:08.88,0:54:09.38,Default,host,0,0,0,,...
-Dialogue: 0,0:54:10.20,0:54:15.80,Default,host,0,0,0,,This is when everyone watched the Grand Fleur commercial together,
-Dialogue: 0,0:54:17.24,0:54:18.36,Default,host,0,0,0,,and then this expression.
-Dialogue: 0,0:54:20.56,0:54:25.48,Default,host,0,0,0,,Airi's look here is just... I love this vibe.
-Dialogue: 0,0:54:27.08,0:54:27.64,Default,host,0,0,0,,Isn't she cute?
-Dialogue: 0,0:54:28.24,0:54:30.78,Default,host,0,0,0,,Minori, seriously, thank you.
+Dialogue: 0,0:53:48.32,0:53:52.84,Default,host,0,0,0,,I can really feel the incredible attention to detail in the small things.
+Dialogue: 0,0:53:53.40,0:53:54.60,Default,host,0,0,0,,...
+Dialogue: 0,0:53:54.60,0:53:59.34,Default,host,0,0,0,,The designs are slightly different for each member, so I can't help but look closely.
+Dialogue: 0,0:53:59.34,0:54:02.48,Default,host,0,0,0,,...
+Dialogue: 0,0:54:03.08,0:54:08.64,Default,host,0,0,0,,Wait, seriously, we just saw Episode 7, but looking at the story after that,
+Dialogue: 0,0:54:08.64,0:54:18.36,Default,host,0,0,0,,this... this is that expression she makes when they all watch the aired Grand Fleur commercial together.
+Dialogue: 0,0:54:20.56,0:54:25.48,Default,host,0,0,0,,And this sort of... look on Airi-chan's face...
+Dialogue: 0,0:54:27.12,0:54:27.64,Default,host,0,0,0,,Isn't it cute?
+Dialogue: 0,0:54:28.28,0:54:30.78,Default,host,0,0,0,,Minori-chan, thank you so much, seriously.
 Dialogue: 0,0:54:30.78,0:54:31.43,Default,host,0,0,0,,...
-Dialogue: 0,0:54:32.16,0:54:34.72,Default,host,0,0,0,,And then, there's that.
-Dialogue: 0,0:54:35.96,0:54:37.08,Default,host,0,0,0,,It's Momo House.
-Dialogue: 0,0:54:38.00,0:54:41.00,Default,host,0,0,0,,This is the first time I've seen Momo House from this angle.
-Dialogue: 0,0:54:41.52,0:54:42.50,Default,host,0,0,0,,This illustration...
-Dialogue: 0,0:54:42.50,0:54:43.96,Default,host,0,0,0,,So that's what it looked like!
-Dialogue: 0,0:54:44.60,0:54:47.28,Default,host,0,0,0,,It's so heartwarming. It's Momo House.
-Dialogue: 0,0:54:48.48,0:54:52.70,Default,host,0,0,0,,Moving on... MIKU.
-Dialogue: 0,0:54:52.70,0:54:55.12,Default,host,0,0,0,,You can feel such a strong sense of will
-Dialogue: 0,0:54:55.88,0:54:57.40,Default,host,0,0,0,,from this MIKU.
-Dialogue: 0,0:54:59.12,0:54:59.96,Default,host,0,0,0,,It's so good.
-Dialogue: 0,0:55:01.32,0:55:02.48,Default,host,0,0,0,,MIKU...
-Dialogue: 0,0:55:03.20,0:55:06.32,Default,host,0,0,0,,She shows so many different expressions depending on her resolve,
-Dialogue: 0,0:55:07.20,0:55:11.32,Default,host,0,0,0,,and it's like she's carrying Shizuku's determination right along with her.
-Comment: 0,0:55:11.32,0:55:16.36,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:55:11.32,0:55:16.36,Default,host,0,0,0,,MIKU also, well, she stayed close to Shizuku in her own way,
-Dialogue: 0,0:55:16.36,0:55:21.52,Default,host,0,0,0,,and treated her with such a wonderful sense of distance. MIKU supported her,
-Dialogue: 0,0:55:22.16,0:55:25.24,Default,host,0,0,0,,and she was able to overcome it. Truly.
-Dialogue: 0,0:55:25.24,0:55:26.44,Default,host,0,0,0,,She's a goddess, seriously.
-Dialogue: 0,0:55:26.44,0:55:27.24,Default,host,0,0,0,,For real.
-Dialogue: 0,0:55:27.84,0:55:29.92,Default,host,0,0,0,,MIKU is so cool too.
-Dialogue: 0,0:55:30.88,0:55:31.88,Default,host,0,0,0,,She looks so strong.
-Dialogue: 0,0:55:31.88,0:55:32.63,Default,host,0,0,0,,.
-Dialogue: 0,0:55:33.20,0:55:34.88,Default,host,0,0,0,,Seriously, cool MIKU is just... I...
-Dialogue: 0,0:55:35.56,0:55:36.52,Default,host,0,0,0,,.
-Dialogue: 0,0:55:36.52,0:55:37.56,Default,host,0,0,0,,.
-Dialogue: 0,0:55:39.24,0:55:40.96,Default,host,0,0,0,,Thank you for the comments.
-Dialogue: 0,0:55:41.92,0:55:43.04,Default,host,0,0,0,,Miyashitsu.
-Dialogue: 0,0:55:43.04,0:55:45.20,Default,host,0,0,0,,The untrained art...
-Dialogue: 0,0:55:45.80,0:55:46.84,Default,host,0,0,0,,This is...
-Dialogue: 0,0:55:47.72,0:55:50.36,Default,host,0,0,0,,It's that one. Not from just now.
-Dialogue: 0,0:55:50.36,0:55:51.88,Default,host,0,0,0,,This is it.
-Dialogue: 0,0:55:53.20,0:55:57.20,Default,host,0,0,0,,It's from when I was talking about the Shizuku of the past,
-Dialogue: 0,0:55:58.00,0:56:02.16,Default,host,0,0,0,,the two of them are watching Shizuku practicing her dancing.
-Dialogue: 0,0:56:02.16,0:56:05.96,Default,host,0,0,0,,It's MIKU staying close to her while they check the screen together.
-Dialogue: 0,0:56:06.66,0:56:07.16,Default,host,0,0,0,,Thank you.
-Dialogue: 0,0:56:07.16,0:56:08.68,Default,host,0,0,0,,Man, this distance between them is so good.
-Dialogue: 0,0:56:08.68,0:56:11.68,Default,host,0,0,0,,Watching over her from so close by.
-Dialogue: 0,0:56:13.36,0:56:15.36,Default,host,0,0,0,,This scene is exactly that one.
-Dialogue: 0,0:56:15.36,0:56:16.40,Default,host,0,0,0,,From the past...
-Dialogue: 0,0:56:17.36,0:56:18.12,Default,host,0,0,0,,.
-Dialogue: 0,0:56:20.36,0:56:21.28,Default,host,0,0,0,,Well,
-Dialogue: 0,0:56:22.52,0:56:25.28,Default,host,0,0,0,,about the Shizuku of the past,
-Dialogue: 0,0:56:25.88,0:56:28.20,Default,host,0,0,0,,it's the part where she tells her that she's the Shizuku of today.
-Dialogue: 0,0:56:29.36,0:56:30.22,Default,host,0,0,0,,That's the spot.
-Comment: 0,0:56:30.22,0:56:35.56,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:56:30.22,0:56:35.56,Default,host,0,0,0,,So, Shizuku watches footage of her past self and says it doesn't even feel like her.
-Dialogue: 0,0:56:36.76,0:56:38.80,Default,host,0,0,0,,And this is the scene where MIKU tells her,
-Dialogue: 0,0:56:39.60,0:56:41.72,Default,host,0,0,0,,"This is you too, Shizuku-chan."
-Dialogue: 0,0:56:42.23,0:56:42.73,Default,host,0,0,0,,Wow.
-Dialogue: 0,0:56:43.96,0:56:45.12,Default,host,0,0,0,,It's so heartwarming.
-Dialogue: 0,0:56:45.12,0:56:47.96,Default,host,0,0,0,,You can really feel that she's not alone.
-Dialogue: 0,0:56:48.92,0:56:51.44,Default,host,0,0,0,,MIKU is always there to support us, truly.
+Comment: 0,0:54:32.16,0:54:37.04,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:54:32.16,0:54:37.04,Default,host,0,0,0,,Also, this background... it's the Momo House.
+Dialogue: 0,0:54:38.00,0:54:41.00,Default,host,0,0,0,,I've never seen the Momo House from this angle before.
+Dialogue: 0,0:54:41.56,0:54:42.48,Default,host,0,0,0,,This illustration...
+Dialogue: 0,0:54:42.48,0:54:47.28,Default,host,0,0,0,,Seeing it like this makes the Momo House feel so cozy.
+Dialogue: 0,0:54:48.52,0:54:52.70,Default,host,0,0,0,,Next up is... MIKU.
+Dialogue: 0,0:54:52.70,0:54:57.40,Default,host,0,0,0,,You can really feel a strong sense of determination from this MIKU.
+Dialogue: 0,0:54:59.16,0:54:59.72,Default,host,0,0,0,,It's so good.
+Dialogue: 0,0:55:01.32,0:55:07.56,Default,host,0,0,0,,MIKU really shows so many different expressions depending on how strong her will is.
+Dialogue: 0,0:55:07.56,0:55:11.32,Default,host,0,0,0,,This time, it's almost like she's carrying Shizuku's resolve right along with her.
+Dialogue: 0,0:55:11.32,0:55:19.06,Default,host,0,0,0,,MIKU stayed close to Shizuku this time, supporting her with such a wonderful sense of distance.
+Dialogue: 0,0:55:19.06,0:55:25.92,Default,host,0,0,0,,Shizuku was able to overcome it because MIKU supported her. She's truly a goddess.
+Dialogue: 0,0:55:25.92,0:55:26.47,Default,host,0,0,0,,Seriously.
+Dialogue: 0,0:55:26.47,0:55:27.24,Default,host,0,0,0,,She really is.
+Dialogue: 0,0:55:27.84,0:55:29.88,Default,host,0,0,0,,MIKU looks so cool too.
+Dialogue: 0,0:55:30.92,0:55:31.88,Default,host,0,0,0,,She looks so strong.
+Dialogue: 0,0:55:31.88,0:55:32.63,Default,host,0,0,0,,?
+Dialogue: 0,0:55:33.20,0:55:36.54,Default,host,0,0,0,,I really love this cool MIKU too.
+Dialogue: 0,0:55:36.54,0:55:37.56,Default,host,0,0,0,,.
+Dialogue: 0,0:55:39.24,0:55:40.96,Default,host,0,0,0,,Thank you for all the comments, everyone.
+Dialogue: 0,0:55:41.96,0:55:45.20,Default,host,0,0,0,,And here is the untrained art of MIKU and Shizuku.
+Dialogue: 0,0:55:45.80,0:55:50.38,Default,host,0,0,0,,This is from that scene... wait, not that one.
+Dialogue: 0,0:55:50.38,0:55:51.88,Default,host,0,0,0,,This is the one.
+Dialogue: 0,0:55:53.20,0:56:02.16,Default,host,0,0,0,,It's the two of them watching the old footage of Shizuku practicing her dancing, like Shizuku mentioned earlier.
+Dialogue: 0,0:56:02.16,0:56:07.20,Default,host,0,0,0,,It's MIKU staying close to her while they check the screen together.
+Dialogue: 0,0:56:07.20,0:56:08.72,Default,host,0,0,0,,I love the distance between them here.
+Dialogue: 0,0:56:08.72,0:56:11.68,Default,host,0,0,0,,She's watching over her from so close by.
+Dialogue: 0,0:56:13.40,0:56:18.12,Default,host,0,0,0,,This scene is exactly that... where she tells her that the old Shizuku
+Dialogue: 0,0:56:20.36,0:56:30.24,Default,host,0,0,0,,is also the same Shizuku she is today.
+Dialogue: 0,0:56:30.24,0:56:41.72,Default,host,0,0,0,,Shizuku watches her old self and says, "It doesn't feel like me," but MIKU tells her, "This is you too, Shizuku."
+Dialogue: 0,0:56:42.24,0:56:45.16,Default,host,0,0,0,,It's such a heartwarming scene.
+Comment: 0,0:56:45.16,0:56:48.00,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:56:45.16,0:56:48.00,Default,host,0,0,0,,It really shows that she's not alone.
+Dialogue: 0,0:56:48.92,0:56:51.44,Default,host,0,0,0,,MIKU, thank you for always supporting her, really.
 Dialogue: 0,0:56:52.20,0:56:52.72,Default,host,0,0,0,,Seriously.
-Dialogue: 0,0:56:54.52,0:56:55.48,Default,host,0,0,0,,It makes me so happy.
-Dialogue: 0,0:56:56.36,0:56:57.40,Default,host,0,0,0,,Moving on...
-Dialogue: 0,0:56:58.52,0:57:02.16,Default,host,0,0,0,,Here's Haruka-chan's trained art.
-Dialogue: 0,0:57:03.40,0:57:06.56,Default,host,0,0,0,,She's sitting down... this is nice.
-Dialogue: 0,0:57:07.08,0:57:09.60,Default,host,0,0,0,,That look of her watching over Shizuku.
+Dialogue: 0,0:56:54.56,0:56:55.48,Default,host,0,0,0,,It makes me so happy.
+Dialogue: 0,0:56:56.40,0:56:57.36,Default,host,0,0,0,,Moving on...
+Dialogue: 0,0:56:58.52,0:57:02.16,Default,host,0,0,0,,Here is Haruka-chan's trained art.
+Dialogue: 0,0:57:03.40,0:57:05.16,Default,host,0,0,0,,She's sitting down in this one.
+Dialogue: 0,0:57:05.76,0:57:06.56,Default,host,0,0,0,,It's so nice.
+Dialogue: 0,0:57:07.08,0:57:09.64,Default,host,0,0,0,,This one also shows her watching over Shizuku.
 Dialogue: 0,0:57:11.48,0:57:12.08,Default,host,0,0,0,,...
-Dialogue: 0,0:57:12.08,0:57:16.12,Default,host,0,0,0,,Everyone understands Shizuku so well.
-Dialogue: 0,0:57:16.12,0:57:17.92,Default,host,0,0,0,,Well, they all understand each other, but...
+Dialogue: 0,0:57:13.20,0:57:16.14,Default,host,0,0,0,,Everyone understands Shizuku so well.
+Dialogue: 0,0:57:16.14,0:57:17.92,Default,host,0,0,0,,Well, they all understand each other.
 Dialogue: 0,0:57:20.24,0:57:22.00,Default,host,0,0,0,,Units are just so great.
-Dialogue: 0,0:57:24.28,0:57:25.40,Default,host,0,0,0,,Everyone is there for her,
-Dialogue: 0,0:57:26.40,0:57:29.48,Default,host,0,0,0,,and because Shizuku is there, everyone else is there too.
-Dialogue: 0,0:57:30.48,0:57:31.32,Default,host,0,0,0,,Seriously, I just...
-Dialogue: 0,0:57:32.41,0:57:32.91,Default,host,0,0,0,,...
-Dialogue: 0,0:57:33.56,0:57:35.42,Default,host,0,0,0,,Really, always...
+Dialogue: 0,0:57:24.28,0:57:29.48,Default,host,0,0,0,,Shizuku is here because of everyone, and everyone is here because of Shizuku.
+Dialogue: 0,0:57:30.52,0:57:32.84,Default,host,0,0,0,,Seriously, it's like...
+Dialogue: 0,0:57:33.92,0:57:35.42,Default,host,0,0,0,,Really... always.
 Dialogue: 0,0:57:35.42,0:57:36.64,Default,host,0,0,0,,I can't stop saying thank you.
-Dialogue: 0,0:57:37.20,0:57:39.28,Default,host,0,0,0,,This white clover is nice too, the three-leaf one.
-Dialogue: 0,0:57:40.04,0:57:40.60,Default,host,0,0,0,,Momojan.
-Dialogue: 0,0:57:41.92,0:57:46.16,Default,host,0,0,0,,The coloring is slightly different for each of them.
-Dialogue: 0,0:57:46.16,0:57:51.40,Default,host,0,0,0,,This time, it's all unified with a blue sky, as if to cheer on Shizuku as she takes flight.
-Dialogue: 0,0:57:52.24,0:57:54.84,Default,host,0,0,0,,It really suits Haruka.
-Dialogue: 0,0:57:56.60,0:57:57.64,Default,host,0,0,0,,It's lovely.
-Dialogue: 0,0:57:58.96,0:58:04.28,Default,host,0,0,0,,Personally, I like that Shizuku is wearing short pants... the shorts and...
-Comment: 0,0:58:05.48,0:58:08.08,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:58:05.48,0:58:08.08,Default,host,0,0,0,,The legs are asymmetrical too...
-Dialogue: 0,0:58:09.00,0:58:11.92,Default,host,0,0,0,,And this is what you'd call the "absolute territory."
+Dialogue: 0,0:57:37.24,0:57:40.60,Default,host,0,0,0,,This white clover is nice too, and the three-leaf motif.
+Dialogue: 0,0:57:41.96,0:57:53.66,Default,host,0,0,0,,The coloring is a bit different every time, and this time it's all unified with a blue sky, as if to cheer on Shizuku as she takes flight. This blue really suits her.
+Dialogue: 0,0:57:53.66,0:57:54.84,Default,host,0,0,0,,It's like Haruka's color.
+Dialogue: 0,0:57:56.60,0:57:58.04,Default,host,0,0,0,,It's lovely.
+Dialogue: 0,0:57:58.96,0:58:07.36,Default,host,0,0,0,,Personally, I like the shorts. Shizuku has different lengths on her left and right legs.
+Dialogue: 0,0:58:07.36,0:58:11.92,Default,host,0,0,0,,This... what you'd call the "absolute territory," this part right here.
 Dialogue: 0,0:58:12.44,0:58:13.04,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:58:13.04,0:58:16.28,Default,host,0,0,0,,It's lovely.
-Dialogue: 0,0:58:16.28,0:58:18.40,Default,host,0,0,0,,Shorts really suit Haruka-chan.
-Dialogue: 0,0:58:19.20,0:58:20.32,Default,host,0,0,0,,She looks as brilliant as ever.
-Dialogue: 0,0:58:22.04,0:58:24.68,Default,host,0,0,0,,Now, for this illustration...
-Dialogue: 0,0:58:24.68,0:58:27.34,Default,host,0,0,0,,This is the untrained version.
+Dialogue: 0,0:58:13.04,0:58:13.74,Default,host,0,0,0,,...
+Dialogue: 0,0:58:13.74,0:58:14.39,Default,host,0,0,0,,Seriously.
+Dialogue: 0,0:58:15.64,0:58:16.32,Default,host,0,0,0,,...
+Dialogue: 0,0:58:16.32,0:58:18.40,Default,host,0,0,0,,Haruka-chan looks great in shorts too.
+Dialogue: 0,0:58:19.20,0:58:20.28,Default,host,0,0,0,,She's truly amazing.
+Dialogue: 0,0:58:22.08,0:58:24.36,Default,host,0,0,0,,This illustration is just...
+Comment: 0,0:58:24.88,0:58:27.34,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,0:58:24.88,0:58:27.34,Default,host,0,0,0,,This is... this one is the untrained art.
 Dialogue: 0,0:58:27.34,0:58:28.72,Default,host,0,0,0,,Haruka is...
-Dialogue: 0,0:58:30.56,0:58:35.36,Default,host,0,0,0,,She's making a high-nutrition, low-calorie meal
-Dialogue: 0,0:58:35.96,0:58:37.44,Default,host,0,0,0,,specifically for Shizuku.
-Dialogue: 0,0:58:37.44,0:58:38.56,Default,host,0,0,0,,Seriously, she's amazing.
-Dialogue: 0,0:58:39.40,0:58:44.24,Default,host,0,0,0,,Haruka-chan is so stoic and works so hard on her own diet,
-Dialogue: 0,0:58:44.24,0:58:45.64,Default,host,0,0,0,,
-Dialogue: 0,0:58:46.40,0:58:48.24,Default,host,0,0,0,,so of course she's very knowledgeable,
-Dialogue: 0,0:58:49.44,0:58:52.36,Default,host,0,0,0,,she knows so much about nutritional value.
-Dialogue: 0,0:58:52.36,0:58:56.56,Default,host,0,0,0,,Even I learn things just by looking at the script.
-Dialogue: 0,0:58:57.11,0:58:57.61,Default,host,0,0,0,,
-Dialogue: 0,0:58:58.28,0:59:00.88,Default,host,0,0,0,,Like, "This is a bit high in fat," or,
-Dialogue: 0,0:59:02.28,0:59:07.44,Default,host,0,0,0,,"This is a sweet you can eat even on a low-carb diet."
-Dialogue: 0,0:59:07.44,0:59:12.84,Default,host,0,0,0,,I'm like, "Oh, I see!" and use it as a reference myself sometimes.
-Dialogue: 0,0:59:12.84,0:59:17.40,Default,host,0,0,0,,Physical health... food is the foundation of your physical health.
-Dialogue: 0,0:59:17.40,0:59:18.82,Default,host,0,0,0,,It starts with the body.
-Dialogue: 0,0:59:18.82,0:59:19.51,Default,host,0,0,0,,
-Dialogue: 0,0:59:20.04,0:59:21.08,Default,host,0,0,0,,Building the body.
-Dialogue: 0,0:59:22.68,0:59:23.64,Default,host,0,0,0,,And that's how Haruka-chan
-Dialogue: 0,0:59:24.56,0:59:26.24,Default,host,0,0,0,,is supporting Shizuku.
-Dialogue: 0,0:59:26.76,0:59:28.74,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:59:28.74,0:59:30.44,Default,host,0,0,0,,It's so colorful,
-Dialogue: 0,0:59:31.80,0:59:32.36,Default,host,0,0,0,,it looks great.
-Comment: 0,0:59:32.36,0:59:33.16,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:59:32.36,0:59:33.16,Default,host,0,0,0,,Delicious.
-Dialogue: 0,0:59:34.48,0:59:36.80,Default,host,0,0,0,,...Airi.
-Dialogue: 0,0:59:37.32,0:59:41.08,Default,host,0,0,0,,For Airi-chan, we only have the untrained version.
-Dialogue: 0,0:59:41.08,0:59:42.28,Default,host,0,0,0,,Isn't she cute?
-Dialogue: 0,0:59:42.84,0:59:45.24,Default,host,0,0,0,,She's showing her midriff, which is so typical of Airi-chan.
-Dialogue: 0,0:59:46.13,0:59:46.63,Default,host,0,0,0,,.
-Dialogue: 0,0:59:48.72,0:59:50.44,Default,host,0,0,0,,Airi-chan is just so cute.
-Dialogue: 0,0:59:51.00,0:59:51.96,Default,host,0,0,0,,That wink...
-Dialogue: 0,0:59:53.08,0:59:55.40,Default,host,0,0,0,,She's just bursting with energy,
-Dialogue: 0,0:59:56.28,0:59:57.88,Default,host,0,0,0,,it really shows.
-Dialogue: 0,0:59:57.88,0:59:58.84,Default,host,0,0,0,,.
-Dialogue: 0,0:59:59.96,1:00:01.46,Default,host,0,0,0,,When you think of Airi-chan,
-Dialogue: 0,1:00:01.46,1:00:02.58,Default,host,0,0,0,,you can't go wrong with this.
-Dialogue: 0,1:00:02.58,1:00:03.76,Default,host,0,0,0,,Seriously.
-Dialogue: 0,1:00:04.52,1:00:05.68,Default,host,0,0,0,,Honestly...
-Dialogue: 0,1:00:06.56,1:00:08.34,Default,host,0,0,0,,...this.
-Dialogue: 0,1:00:08.34,1:00:11.00,Default,host,0,0,0,,I was really happy we could look at these together just now.
+Dialogue: 0,0:58:30.60,0:58:37.44,Default,host,0,0,0,,making this highly nutritious, low, low-calorie meal for Shizuku.
+Dialogue: 0,0:58:37.44,0:58:38.60,Default,host,0,0,0,,Seriously, for real.
+Dialogue: 0,0:58:39.40,0:58:44.30,Default,host,0,0,0,,Haruka-chan is such a stoic girl who works so hard on her diet,
+Dialogue: 0,0:58:44.30,0:58:52.36,Default,host,0,0,0,,so she's naturally very knowledgeable about food and nutrition.
+Dialogue: 0,0:58:52.36,0:58:56.60,Default,host,0,0,0,,I actually learn a lot myself
+Dialogue: 0,0:58:57.15,0:58:57.65,Default,host,0,0,0,,just by reading the script.
+Dialogue: 0,0:58:58.28,0:59:04.58,Default,host,0,0,0,,Like, 'this is a bit high in fat,' or 'this is a sweet
+Dialogue: 0,0:59:04.58,0:59:07.42,Default,host,0,0,0,,you can eat even on a low-carb diet.'
+Dialogue: 0,0:59:07.42,0:59:13.74,Default,host,0,0,0,,I'm like, 'Oh, I see,' and I even use it as a reference sometimes.
+Dialogue: 0,0:59:13.74,0:59:18.82,Default,host,0,0,0,,Physical health... food is the foundation of your physique,
+Dialogue: 0,0:59:18.82,0:59:19.51,Default,host,0,0,0,,it starts with the body.
+Dialogue: 0,0:59:20.04,0:59:21.08,Default,host,0,0,0,,Building your body.
+Dialogue: 0,0:59:22.68,0:59:26.52,Default,host,0,0,0,,Haruka-chan supports Shizuku in ways like this.
+Dialogue: 0,0:59:26.52,0:59:28.74,Default,host,0,0,0,,Thank you so much.
+Dialogue: 0,0:59:28.74,0:59:33.16,Default,host,0,0,0,,These colorful vegetables look great, they look delicious.
+Dialogue: 0,0:59:34.52,0:59:37.08,Default,host,0,0,0,,And then, Airi.
+Dialogue: 0,0:59:37.08,0:59:41.08,Default,host,0,0,0,,For Airi-chan, we only have the untrained art.
+Dialogue: 0,0:59:41.08,0:59:42.32,Default,host,0,0,0,,Isn't she cute?
+Dialogue: 0,0:59:42.84,0:59:45.24,Default,host,0,0,0,,When you think of Airi-chan, you think of the midriff look.
+Dialogue: 0,0:59:46.17,0:59:46.67,Default,host,0,0,0,,It's a classic.
+Dialogue: 0,0:59:48.72,0:59:50.44,Default,host,0,0,0,,Airi-chan is so cute.
+Dialogue: 0,0:59:51.00,0:59:52.00,Default,host,0,0,0,,That wink!
+Dialogue: 0,0:59:53.08,0:59:57.90,Default,host,0,0,0,,It really gives you a burst of energy,
+Dialogue: 0,0:59:57.90,0:59:58.84,Default,host,0,0,0,,it really does.
+Dialogue: 0,0:59:59.96,1:00:02.58,Default,host,0,0,0,,When it comes to Airi-chan, you can't go wrong.
+Dialogue: 0,1:00:02.58,1:00:03.76,Default,host,0,0,0,,Truly.
+Dialogue: 0,1:00:04.52,1:00:08.36,Default,host,0,0,0,,Everyone, really...
+Dialogue: 0,1:00:08.36,1:00:11.04,Default,host,0,0,0,,I'm so glad we could look at these together just now.
+Comment: 0,1:00:12.77,1:00:13.27,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,1:00:12.77,1:00:13.27,Default,host,0,0,0,,.
-Dialogue: 0,1:00:15.16,1:00:16.28,Default,host,0,0,0,,And with that,
-Dialogue: 0,1:00:17.04,1:00:20.16,Default,host,0,0,0,,we've managed to see all of them for this time.
-Dialogue: 0,1:00:20.84,1:00:21.68,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,1:00:21.68,1:00:25.60,Default,host,0,0,0,,Some of you mentioned it in the comments too, but for this event...
-Dialogue: 0,1:00:25.60,1:00:26.88,Default,host,0,0,0,,...?
+Dialogue: 0,1:00:15.16,1:00:20.16,Default,host,0,0,0,,And with that, we've seen all the cards for this event.
+Dialogue: 0,1:00:20.84,1:00:21.68,Default,host,0,0,0,,Thank you very much.
+Dialogue: 0,1:00:21.68,1:00:25.60,Default,host,0,0,0,,Someone mentioned this in the comments earlier, but for this time...
+Dialogue: 0,1:00:25.60,1:00:26.88,Default,host,0,0,0,,What was it?
 Dialogue: 0,1:00:26.88,1:00:27.88,Default,host,0,0,0,,The team name.
-Dialogue: 0,1:00:27.88,1:00:29.98,Default,host,0,0,0,,I made it "Fabulous."
-Dialogue: 0,1:00:29.98,1:00:33.40,Default,host,0,0,0,,Yes, Fabulous. Honestly, that one word says it all.
-Dialogue: 0,1:00:34.05,1:00:34.55,Default,host,0,0,0,,.
-Dialogue: 0,1:00:36.04,1:00:37.04,Default,host,0,0,0,,Thank you.
-Dialogue: 0,1:00:38.80,1:00:39.52,Default,host,0,0,0,,So,
-Dialogue: 0,1:00:40.16,1:00:42.52,Default,host,0,0,0,,let me talk a little bit more.
-Comment: 0,1:00:42.52,1:00:43.48,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:00:42.52,1:00:43.48,Default,host,0,0,0,,And...
-Dialogue: 0,1:00:44.68,1:00:47.74,Default,host,0,0,0,,I touched on that, but wait, how far did I get?
-Dialogue: 0,1:00:47.74,1:00:50.12,Default,host,0,0,0,,Right, I talked about my favorite scenes.
-Dialogue: 0,1:00:50.64,1:00:55.16,Default,host,0,0,0,,And I mentioned the achievement of their voices syncing up for the Grand Fleur commercial.
-Dialogue: 0,1:00:55.72,1:00:56.80,Default,host,0,0,0,,Yeah, that's right.
-Dialogue: 0,1:00:56.80,1:00:57.30,Default,host,0,0,0,,So...
-Dialogue: 0,1:00:59.52,1:01:03.08,Default,host,0,0,0,,In this story, when Shizuku was working on Grand Fleur,
-Dialogue: 0,1:01:03.88,1:01:04.88,Default,host,0,0,0,,and she wanted to improve...
-Dialogue: 0,1:01:05.80,1:01:08.56,Default,host,0,0,0,,She saw Hagiyama-chan's performance,
-Dialogue: 0,1:01:10.00,1:01:16.74,Default,host,0,0,0,,and seeing her strength made her realize, "This is what I'm missing!"
-Dialogue: 0,1:01:16.74,1:01:18.88,Default,host,0,0,0,,There was that scene where she finally found it.
-Dialogue: 0,1:01:20.44,1:01:26.22,Default,host,0,0,0,,I actually really empathized with Shizuku in that moment.
-Dialogue: 0,1:01:26.22,1:01:32.36,Default,host,0,0,0,,When I'm doing my own work and activities,
-Dialogue: 0,1:01:32.36,1:01:36.08,Default,host,0,0,0,,there are so many times when I'm faced with what I'm lacking.
-Dialogue: 0,1:01:36.08,1:01:41.98,Default,host,0,0,0,,I'm aware that I'm missing something, and I run right into that wall,
-Dialogue: 0,1:01:41.98,1:01:46.68,Default,host,0,0,0,,but as for what specifically I should do to grasp that missing piece,
-Dialogue: 0,1:01:46.68,1:01:48.12,Default,host,0,0,0,,I just don't know.
-Dialogue: 0,1:01:48.64,1:01:49.60,Default,host,0,0,0,,I seriously have no idea.
-Dialogue: 0,1:01:50.36,1:01:55.28,Default,host,0,0,0,,Honestly, I could probably call this the main challenge of my life.
-Dialogue: 0,1:01:56.04,1:01:59.80,Default,host,0,0,0,,I'm very blessed with my environment, and the people around me
-Dialogue: 0,1:01:59.80,1:02:04.12,Default,host,0,0,0,,are all such charming, cool, and wonderful people.
-Dialogue: 0,1:02:04.72,1:02:07.84,Default,host,0,0,0,,Because of that, I see them having things that I don't have.
-Dialogue: 0,1:02:08.91,1:02:09.41,Default,host,0,0,0,,That's how it is.
-Dialogue: 0,1:02:09.93,1:02:10.43,Default,host,0,0,0,,In other words...
-Dialogue: 0,1:02:12.04,1:02:16.28,Default,host,0,0,0,,They look so radiant, and they possess things I lack.
-Dialogue: 0,1:02:17.36,1:02:20.88,Default,host,0,0,0,,When I'm struggling in those moments,
-Dialogue: 0,1:02:22.00,1:02:30.94,Default,host,0,0,0,,I get this image of myself struggling in the deep sea where I can't see any light or the path ahead.
-Dialogue: 0,1:02:30.94,1:02:32.32,Default,host,0,0,0,,It's really painful.
-Dialogue: 0,1:02:33.00,1:02:35.32,Default,host,0,0,0,,It's like no matter what I do, it backfires,
-Dialogue: 0,1:02:36.36,1:02:37.60,Default,host,0,0,0,,or I just can't get any results.
-Comment: 0,1:02:38.12,1:02:40.32,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:02:38.12,1:02:40.32,Default,host,0,0,0,,Maybe some of you...
-Dialogue: 0,1:02:41.08,1:02:43.80,Default,host,0,0,0,,I think there might be some people who feel this way.
+Dialogue: 0,1:00:27.88,1:00:29.94,Default,host,0,0,0,,I made it "Fabulous."
+Dialogue: 0,1:00:29.94,1:00:33.40,Default,host,0,0,0,,It really is fabulous. That's the only word for it, seriously.
+Dialogue: 0,1:00:34.07,1:00:34.57,Default,host,0,0,0,,.
+Dialogue: 0,1:00:36.08,1:00:37.04,Default,host,0,0,0,,Thank you.
+Dialogue: 0,1:00:38.80,1:00:42.52,Default,host,0,0,0,,Anyway, let me talk a bit more.
+Dialogue: 0,1:00:42.52,1:00:47.74,Default,host,0,0,0,,I touched on this earlier, but how far did I get?
+Dialogue: 0,1:00:47.74,1:00:50.40,Default,host,0,0,0,,Right, I talked about my favorite scenes.
+Dialogue: 0,1:00:50.40,1:00:55.16,Default,host,0,0,0,,And about the achievement of our voices syncing up in the "Grand Fleur" commercial.
+Dialogue: 0,1:00:55.72,1:00:56.80,Default,host,0,0,0,,Yes, that's right.
+Dialogue: 0,1:00:56.80,1:00:57.30,Default,host,0,0,0,,Well...
+Dialogue: 0,1:00:59.52,1:01:11.34,Default,host,0,0,0,,In this story, when Shizuku was facing the "Grand Fleur" audition, she saw Hagiyama-chan's performance.
+Dialogue: 0,1:01:11.34,1:01:18.88,Default,host,0,0,0,,She saw that powerful light of hers and realized, "This is what I'm lacking." There was a scene like that, right?
+Dialogue: 0,1:01:20.44,1:01:26.22,Default,host,0,0,0,,I really empathized with Shizuku on that point.
+Dialogue: 0,1:01:26.22,1:01:32.36,Default,host,0,0,0,,In my own daily activities,
+Dialogue: 0,1:01:32.36,1:01:35.84,Default,host,0,0,0,,there are so many times when I'm faced with my own shortcomings.
+Dialogue: 0,1:01:36.36,1:01:42.20,Default,host,0,0,0,,I'm aware that I'm lacking things and I run into those walls,
+Dialogue: 0,1:01:42.20,1:01:47.68,Default,host,0,0,0,,but I don't know specifically what I should do to grasp what's missing.
+Dialogue: 0,1:01:47.68,1:01:48.41,Default,host,0,0,0,,This...
+Dialogue: 0,1:01:48.41,1:01:49.60,Default,host,0,0,0,,I really don't know.
+Dialogue: 0,1:01:50.36,1:01:55.28,Default,host,0,0,0,,Honestly, I could even call this one of my life's biggest challenges.
+Dialogue: 0,1:01:56.04,1:02:02.00,Default,host,0,0,0,,I'm very blessed with my environment, and the people around me are all so charming and...
+Dialogue: 0,1:02:02.00,1:02:04.12,Default,host,0,0,0,,just wonderful people.
+Dialogue: 0,1:02:04.72,1:02:09.40,Default,host,0,0,0,,Because of that, they have things that I don't.
+Dialogue: 0,1:02:09.95,1:02:10.45,Default,host,0,0,0,,In other words...
+Comment: 0,1:02:12.04,1:02:16.28,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,1:02:12.04,1:02:16.28,Default,host,0,0,0,,They shine so brightly and have charms that I don't have.
+Dialogue: 0,1:02:17.36,1:02:23.66,Default,host,0,0,0,,And when I'm struggling like that, I imagine being in the deep sea,
+Dialogue: 0,1:02:23.66,1:02:32.28,Default,host,0,0,0,,struggling in the dark where I can't see what's ahead. It's just so painful.
+Dialogue: 0,1:02:33.00,1:02:37.88,Default,host,0,0,0,,It's like everything you do backfires, or you just don't see any results.
+Dialogue: 0,1:02:37.88,1:02:43.80,Default,host,0,0,0,,Maybe some of you feel the same way too.
 Dialogue: 0,1:02:44.47,1:02:45.14,Default,host,0,0,0,,.
-Dialogue: 0,1:02:45.14,1:02:46.86,Default,host,0,0,0,,There are times when things are just incredibly painful.
-Dialogue: 0,1:02:46.86,1:02:47.52,Default,host,0,0,0,,But,
-Dialogue: 0,1:02:49.52,1:02:50.96,Default,host,0,0,0,,when you finally realize it,
-Dialogue: 0,1:02:52.12,1:02:56.72,Default,host,0,0,0,,you realize, "This... this is what I was looking for."
-Dialogue: 0,1:02:56.72,1:02:59.14,Default,host,0,0,0,,There's a moment where it all clicks.
-Dialogue: 0,1:02:59.14,1:03:00.12,Default,host,0,0,0,,It's strange,
-Dialogue: 0,1:03:01.04,1:03:05.20,Default,host,0,0,0,,but you can only understand it the moment you find it.
-Dialogue: 0,1:03:06.56,1:03:11.12,Default,host,0,0,0,,I'm sorry, I'm not sure if I'm explaining this well.
-Dialogue: 0,1:03:11.84,1:03:16.46,Default,host,0,0,0,,I'm sorry for not having the right words, but in my experience,
-Dialogue: 0,1:03:16.46,1:03:21.62,Default,host,0,0,0,,it's something you only understand once you find that light,
-Dialogue: 0,1:03:21.62,1:03:22.76,Default,host,0,0,0,,and you realize, "This was it."
-Dialogue: 0,1:03:23.68,1:03:26.12,Default,host,0,0,0,,You can never see it while you're still struggling,
-Dialogue: 0,1:03:27.08,1:03:29.10,Default,host,0,0,0,,only the version of you that found it can understand.
-Dialogue: 0,1:03:29.10,1:03:31.68,Default,host,0,0,0,,So, if right now...
-Dialogue: 0,1:03:33.16,1:03:34.28,Default,host,0,0,0,,...
-Dialogue: 0,1:03:35.40,1:03:37.28,Default,host,0,0,0,,if there's anyone out there who is struggling right now,
-Dialogue: 0,1:03:38.36,1:03:42.08,Default,host,0,0,0,,it might be painful at this moment,
-Dialogue: 0,1:03:42.72,1:03:45.92,Default,host,0,0,0,,but there will be a moment when that light is in your hands.
-Dialogue: 0,1:03:47.55,1:03:48.14,Default,host,0,0,0,,I know it.
-Dialogue: 0,1:03:48.14,1:03:48.74,Default,host,0,0,0,,Truly.
-Dialogue: 0,1:03:48.74,1:03:50.00,Default,host,0,0,0,,This is just my take.
-Dialogue: 0,1:03:50.00,1:03:55.48,Default,host,0,0,0,,I hope for a world where that light is within your reach someday.
-Dialogue: 0,1:03:55.48,1:03:56.11,Default,host,0,0,0,,.
-Dialogue: 0,1:03:57.20,1:04:02.24,Default,host,0,0,0,,That's what I wanted to convey through this story and through Shizuku.
-Dialogue: 0,1:04:02.24,1:04:06.64,Default,host,0,0,0,,That was the personal theme I took away from it.
-Dialogue: 0,1:04:07.80,1:04:10.58,Default,host,0,0,0,,So, let's both keep doing our best.
-Dialogue: 0,1:04:10.58,1:04:11.64,Default,host,0,0,0,,Through everything.
-Comment: 0,1:04:12.56,1:04:16.44,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:04:12.56,1:04:16.44,Default,host,0,0,0,,Whether it is club activities, work, or job hunting,
-Dialogue: 0,1:04:17.72,1:04:18.64,Default,host,0,0,0,,...
-Dialogue: 0,1:04:19.52,1:04:24.08,Default,host,0,0,0,,I know things can be tough. In times like those, I hope you can use ProSeka's stories
-Dialogue: 0,1:04:24.08,1:04:27.72,Default,host,0,0,0,,to take a little breather, or listen to lots of our songs.
-Dialogue: 0,1:04:27.72,1:04:31.96,Default,host,0,0,0,,It would make me so happy if they could become a source of strength or healing for everyone.
-Dialogue: 0,1:04:31.96,1:04:32.46,Default,host,0,0,0,,That is...
-Dialogue: 0,1:04:33.08,1:04:33.68,Default,host,0,0,0,,what I was thinking.
-Dialogue: 0,1:04:34.36,1:04:38.36,Default,host,0,0,0,,When you lack confidence... well, it was the same for Shizuku. Shizuku,
-Dialogue: 0,1:04:38.87,1:04:39.38,Default,host,0,0,0,,right?
-Dialogue: 0,1:04:39.38,1:04:46.24,Default,host,0,0,0,,She was happy to pass the Grand Fleur audition, but she did not know
-Dialogue: 0,1:04:47.04,1:04:52.60,Default,host,0,0,0,,what she needed to do to have the strength to be worthy of co-starring with Hagiyama.
-Dialogue: 0,1:04:52.60,1:04:54.00,Default,host,0,0,0,,Being in that state of not knowing,
-Dialogue: 0,1:04:54.72,1:04:57.36,Default,host,0,0,0,,and then having the actual performance approach... that is terrifying, right?
-Dialogue: 0,1:04:58.76,1:05:00.80,Default,host,0,0,0,,Knowing that you are lacking something,
-Dialogue: 0,1:05:01.56,1:05:04.60,Default,host,0,0,0,,and having to smash through the wall right in front of you...
-Dialogue: 0,1:05:04.60,1:05:05.48,Default,host,0,0,0,,it is just so scary.
-Dialogue: 0,1:05:06.28,1:05:07.64,Default,host,0,0,0,,That lack of confidence,
-Dialogue: 0,1:05:08.28,1:05:11.32,Default,host,0,0,0,,and that fear... it was one of the scenes I really empathized with.
-Dialogue: 0,1:05:12.12,1:05:12.72,Default,host,0,0,0,,It really was.
-Dialogue: 0,1:05:14.32,1:05:16.32,Default,host,0,0,0,,And then, this part.
-Dialogue: 0,1:05:16.32,1:05:16.95,Default,host,0,0,0,,Um,
-Dialogue: 0,1:05:19.20,1:05:22.92,Default,host,0,0,0,,after seeing Hagiyama-chan's performance,
-Dialogue: 0,1:05:23.64,1:05:24.28,Default,host,0,0,0,,...
-Dialogue: 0,1:05:25.68,1:05:28.24,Default,host,0,0,0,,not wanting to lose to anyone, or give in...
-Dialogue: 0,1:05:29.04,1:05:30.88,Default,host,0,0,0,,Shizuku,
-Dialogue: 0,1:05:31.80,1:05:32.80,Default,host,0,0,0,,she felt that.
-Dialogue: 0,1:05:33.60,1:05:38.58,Default,host,0,0,0,,When Hagiyama-chan asked Shizuku what she was thinking during the audition,
-Dialogue: 0,1:05:38.58,1:06:04.12,Default,host,0,0,0,,I think it was during the fitting... she said she was thinking about giving a performance that would surpass her opponent. That really struck a chord with me. I'm lucky enough to get to take many auditions myself, but I get so nervous that I end up putting a lot of pressure on myself.
-Dialogue: 0,1:06:04.12,1:06:10.70,Default,host,0,0,0,,And of course, because they are such wonderful works, I start worrying if I'll be the one to...
-Dialogue: 0,1:06:10.70,1:06:17.38,Default,host,0,0,0,,drag the project down, or if I can do it well, or if I'll be a burden to my co-stars.
-Comment: 0,1:06:17.38,1:06:18.78,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:06:17.38,1:06:18.78,Default,host,0,0,0,,There are so many different feelings involved.
-Dialogue: 0,1:06:18.78,1:06:26.02,Default,host,0,0,0,,Sometimes you feel like you're going to be crushed by your own thoughts, but in those moments,
-Dialogue: 0,1:06:26.02,1:06:32.72,Default,host,0,0,0,,if you have that feeling of not wanting to lose or back down, you can hold onto yourself more strongly.
+Dialogue: 0,1:02:45.14,1:02:46.88,Default,host,0,0,0,,There are times when it's just so painful.
+Dialogue: 0,1:02:46.88,1:02:47.48,Default,host,0,0,0,,But you know,
+Dialogue: 0,1:02:49.52,1:02:55.16,Default,host,0,0,0,,there's a moment when you suddenly realize, "This is it..."
+Dialogue: 0,1:02:55.16,1:02:59.14,Default,host,0,0,0,,Like, "This is what I was looking for all along."
+Dialogue: 0,1:02:59.14,1:03:05.20,Default,host,0,0,0,,It's strange, but you only understand it once you've actually found it.
+Dialogue: 0,1:03:06.56,1:03:14.94,Default,host,0,0,0,,I'm sorry if I'm not explaining this well, I'm struggling to find the right words,
+Dialogue: 0,1:03:14.94,1:03:16.72,Default,host,0,0,0,,but in my experience...
+Dialogue: 0,1:03:17.40,1:03:22.76,Default,host,0,0,0,,there's something you only realize once you find that light, like "Oh, this was it."
+Dialogue: 0,1:03:23.68,1:03:29.10,Default,host,0,0,0,,You can't see it while you're struggling; only the "you" who found it can know.
+Dialogue: 0,1:03:29.10,1:03:31.64,Default,host,0,0,0,,So for those of you
+Dialogue: 0,1:03:33.20,1:03:45.32,Default,host,0,0,0,,who might be struggling right now, it might be hard, but one day that light will be in your hands.
+Dialogue: 0,1:03:45.32,1:03:45.92,Default,host,0,0,0,,That moment
+Dialogue: 0,1:03:47.56,1:03:48.74,Default,host,0,0,0,,will definitely come. Truly.
+Dialogue: 0,1:03:48.74,1:03:50.02,Default,host,0,0,0,,That's just how I feel.
+Dialogue: 0,1:03:50.02,1:03:55.49,Default,host,0,0,0,,I want this to be a world where that light is already within reach.
+Dialogue: 0,1:03:55.49,1:03:56.13,Default,host,0,0,0,,.
+Dialogue: 0,1:03:57.20,1:04:02.28,Default,host,0,0,0,,That's a theme I personally wanted to convey through this story,
+Dialogue: 0,1:04:02.28,1:04:08.88,Default,host,0,0,0,,and through Shizuku as well.
+Dialogue: 0,1:04:08.88,1:04:10.60,Default,host,0,0,0,,So let's both keep doing our best.
+Dialogue: 0,1:04:10.60,1:04:18.04,Default,host,0,0,0,,Whether it's club activities, work, or job hunting,
+Dialogue: 0,1:04:18.04,1:04:24.08,Default,host,0,0,0,,I know things can be tough. In those times, I hope you'll look at ProSeka stories,
+Dialogue: 0,1:04:24.08,1:04:27.72,Default,host,0,0,0,,take a little break, and listen to lots of the songs.
+Dialogue: 0,1:04:27.72,1:04:33.68,Default,host,0,0,0,,I'd be so happy if they could be a source of strength or healing for you.
+Dialogue: 0,1:04:34.36,1:04:39.34,Default,host,0,0,0,,When you lack confidence... Shizuku was like that too, wasn't she?
+Comment: 0,1:04:39.34,1:04:55.56,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,1:04:39.34,1:04:55.56,Default,host,0,0,0,,Shizuku was happy to pass the "Grand Fleur" audition, but she didn't know what she needed to do to reach a level worthy of performing alongside Hagiyama-san,
+Dialogue: 0,1:04:55.56,1:04:57.36,Default,host,0,0,0,,so facing the actual performance like that is so scary.
+Dialogue: 0,1:04:58.76,1:05:05.44,Default,host,0,0,0,,It's terrifying to have to face the wall in front of you when you know you're still lacking something.
+Dialogue: 0,1:05:06.28,1:05:12.72,Default,host,0,0,0,,That fear from a lack of confidence was a scene I really empathized with.
+Dialogue: 0,1:05:14.32,1:05:16.32,Default,host,0,0,0,,Also, also, there's this.
+Dialogue: 0,1:05:16.32,1:05:16.95,Default,host,0,0,0,,You see...
+Dialogue: 0,1:05:19.20,1:05:32.40,Default,host,0,0,0,,Shizuku felt Hagiyama-chan's unyielding will to never lose or back down during her performance,
+Dialogue: 0,1:05:32.40,1:05:40.10,Default,host,0,0,0,,and during the costume fitting, Hagiyama-chan asked Shizuku what she was thinking about during the audition.
+Dialogue: 0,1:05:40.10,1:06:04.12,Default,host,0,0,0,,She said she wanted to give a performance that would surpass her opponent, which really struck a chord. I'm lucky to go to many auditions, but I get so nervous that I put a lot of pressure on myself.
+Dialogue: 0,1:06:04.12,1:06:10.70,Default,host,0,0,0,,And since it's such a wonderful project, I worry about whether I...
+Dialogue: 0,1:06:10.70,1:06:17.38,Default,host,0,0,0,,...might hold the production back, if I can do it well, or if I'll be a burden to my co-stars.
+Dialogue: 0,1:06:17.38,1:06:18.78,Default,host,0,0,0,,All these different thoughts go through your head.
+Dialogue: 0,1:06:18.78,1:06:26.02,Default,host,0,0,0,,There are times when I feel like I'm going to be crushed by those feelings, but in those moments, if I had that will to never lose
+Dialogue: 0,1:06:26.02,1:06:32.72,Default,host,0,0,0,,or back down, I felt like I could stand much firmer as myself.
 Dialogue: 0,1:06:33.48,1:06:35.54,Default,host,0,0,0,,Hagiyama-chan is seriously so strong.
-Dialogue: 0,1:06:35.54,1:06:36.72,Default,host,0,0,0,,Really.
-Dialogue: 0,1:06:37.36,1:06:39.20,Default,host,0,0,0,,I ended up learning a lot from her too.
-Dialogue: 0,1:06:39.20,1:06:40.44,Default,host,0,0,0,,Just like Shizuku did.
-Dialogue: 0,1:06:40.44,1:06:41.19,Default,host,0,0,0,,Truly.
-Dialogue: 0,1:06:41.92,1:06:49.20,Default,host,0,0,0,,When someone has a heart that strong, I feel like I'm about to grow wings myself.
-Dialogue: 0,1:06:49.20,1:06:50.24,Default,host,0,0,0,,Like I'm ready to take flight.
-Dialogue: 0,1:06:50.24,1:06:52.54,Default,host,0,0,0,,I'll do my best right alongside Shizuku.
-Dialogue: 0,1:06:52.54,1:06:54.08,Default,host,0,0,0,,I look forward to working with you all.
-Dialogue: 0,1:06:55.08,1:06:56.16,Default,host,0,0,0,,That's what I wanted to say.
-Dialogue: 0,1:06:56.96,1:06:58.06,Default,host,0,0,0,,I learn so much from this.
-Dialogue: 0,1:06:58.06,1:07:00.82,Default,host,0,0,0,,The stories in ProSeka are just, seriously...
-Dialogue: 0,1:07:00.82,1:07:02.92,Default,host,0,0,0,,They're so educational for me.
-Dialogue: 0,1:07:03.44,1:07:06.08,Default,host,0,0,0,,They've become a source of emotional support.
-Dialogue: 0,1:07:06.84,1:07:14.14,Default,host,0,0,0,,I'd be so happy if they resonate with all of you in the same way.
-Dialogue: 0,1:07:14.14,1:07:14.92,Default,host,0,0,0,,.
-Dialogue: 0,1:07:15.64,1:07:18.48,Default,host,0,0,0,,Everyone is telling me "Let's do our best!"
-Dialogue: 0,1:07:19.20,1:07:20.92,Default,host,0,0,0,,Let's do it together, everyone.
+Dialogue: 0,1:06:35.54,1:06:36.68,Default,host,0,0,0,,Really.
+Dialogue: 0,1:06:37.36,1:06:40.36,Default,host,0,0,0,,I ended up learning a lot too, just like Shizuku.
+Dialogue: 0,1:06:40.36,1:06:41.16,Default,host,0,0,0,,Truly.
+Dialogue: 0,1:06:41.88,1:06:49.20,Default,host,0,0,0,,I felt like if I had a heart that strong, I might even grow wings myself.
+Dialogue: 0,1:06:49.20,1:06:51.18,Default,host,0,0,0,,I'd take flight, just like Shizuku.
+Dialogue: 0,1:06:51.18,1:06:52.52,Default,host,0,0,0,,I'll do my best too.
+Dialogue: 0,1:06:52.52,1:06:54.08,Default,host,0,0,0,,I'm counting on your support!
+Dialogue: 0,1:06:55.08,1:06:56.16,Default,host,0,0,0,,That's what I wanted to share.
+Dialogue: 0,1:06:56.96,1:06:58.06,Default,host,0,0,0,,I learn so much.
+Dialogue: 0,1:06:58.06,1:07:00.82,Default,host,0,0,0,,Seriously, the ProSeka stories...
+Dialogue: 0,1:07:00.82,1:07:02.92,Default,host,0,0,0,,...really teach me a lot.
+Dialogue: 0,1:07:03.44,1:07:06.08,Default,host,0,0,0,,They've become a source of emotional support for me.
+Dialogue: 0,1:07:06.84,1:07:07.80,Default,host,0,0,0,,I feel the same way.
+Dialogue: 0,1:07:08.52,1:07:14.06,Default,host,0,0,0,,I'd be so happy if it resonated with all of you as well.
+Dialogue: 0,1:07:14.06,1:07:14.71,Default,host,0,0,0,,.
+Comment: 0,1:07:15.64,1:07:17.72,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,1:07:15.64,1:07:17.72,Default,host,0,0,0,,Everyone's telling me, "Let's do our best!"
+Dialogue: 0,1:07:17.72,1:07:18.48,Default,host,0,0,0,,
+Dialogue: 0,1:07:19.20,1:07:20.92,Default,host,0,0,0,,Everyone, together.
 Dialogue: 0,1:07:20.92,1:07:22.05,Default,host,0,0,0,,Supporting each other.
-Dialogue: 0,1:07:22.05,1:07:22.56,Default,host,0,0,0,,.
-Dialogue: 0,1:07:22.56,1:07:23.72,Default,host,0,0,0,,Thank you for the support.
-Dialogue: 0,1:07:24.26,1:07:24.76,Default,host,0,0,0,,.
-Dialogue: 0,1:07:24.76,1:07:25.44,Default,host,0,0,0,,I'll work hard.
-Dialogue: 0,1:07:26.12,1:07:29.20,Default,host,0,0,0,,My heart is right there with Shizuku.
-Dialogue: 0,1:07:29.20,1:07:29.70,Default,host,0,0,0,,.
-Dialogue: 0,1:07:31.16,1:07:34.00,Default,host,0,0,0,,With that, I have no regrets.
-Dialogue: 0,1:07:34.00,1:07:37.66,Default,host,0,0,0,,I made sure to memo everything I wanted to talk about, and I've said it all.
-Comment: 0,1:07:37.66,1:07:38.19,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:07:37.66,1:07:38.19,Default,host,0,0,0,,.
-Dialogue: 0,1:07:39.76,1:07:40.88,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,1:07:40.88,1:07:43.00,Default,host,0,0,0,,Thank you for staying with me for so long.
-Dialogue: 0,1:07:43.00,1:07:49.58,Default,host,0,0,0,,The 3DMV for "Hashiru, Todoku" that we just watched together has been released, so...
-Dialogue: 0,1:07:49.58,1:07:50.20,Default,host,0,0,0,,Please check it out.
-Dialogue: 0,1:07:50.72,1:07:51.92,Default,host,0,0,0,,Oh, sorry, I made a mistake.
-Dialogue: 0,1:07:51.92,1:07:53.08,Default,host,0,0,0,,Was it 2D?
-Dialogue: 0,1:07:53.88,1:07:59.78,Default,host,0,0,0,,The 2DMV was just uploaded to the official YouTube channel, so please watch it.
+Dialogue: 0,1:07:22.05,1:07:22.56,Default,host,0,0,0,,
+Dialogue: 0,1:07:22.56,1:07:24.76,Default,host,0,0,0,,Thank you for all your support.
+Dialogue: 0,1:07:24.76,1:07:25.48,Default,host,0,0,0,,I'll do my best too.
+Dialogue: 0,1:07:26.16,1:07:29.20,Default,host,0,0,0,,In my heart, I'm always right there with Shizuku.
+Dialogue: 0,1:07:29.20,1:07:29.70,Default,host,0,0,0,,
+Dialogue: 0,1:07:31.16,1:07:34.02,Default,host,0,0,0,,So, I don't have any regrets left.
+Dialogue: 0,1:07:34.02,1:07:37.67,Default,host,0,0,0,,I had notes on everything I wanted to talk about, and I've managed to say it all.
+Dialogue: 0,1:07:37.67,1:07:38.21,Default,host,0,0,0,,
+Dialogue: 0,1:07:39.76,1:07:40.90,Default,host,0,0,0,,Thank you so much.
+Dialogue: 0,1:07:40.90,1:07:46.52,Default,host,0,0,0,,Thank you for sticking with me for so long. The "Run, Deliver" 3DMV
+Dialogue: 0,1:07:46.52,1:07:50.20,Default,host,0,0,0,,is also out, so please check it out.
+Dialogue: 0,1:07:50.72,1:07:51.92,Default,host,0,0,0,,Oh, wait, sorry, I got that wrong.
+Dialogue: 0,1:07:51.92,1:07:53.08,Default,host,0,0,0,,2D?
+Dialogue: 0,1:07:53.88,1:07:59.78,Default,host,0,0,0,,The 2DMV was just uploaded to the official YouTube channel, so please go watch it.
 Dialogue: 0,1:07:59.78,1:08:00.80,Default,host,0,0,0,,It was the 2DMV.
 Dialogue: 0,1:08:00.80,1:08:01.40,Default,host,0,0,0,,Sorry about that.
-Dialogue: 0,1:08:02.56,1:08:03.96,Default,host,0,0,0,,I appreciate your understanding.
-Dialogue: 0,1:08:04.60,1:08:11.46,Default,host,0,0,0,,Both the 2DMV and the 3DMV... let me summarize.
-Dialogue: 0,1:08:11.46,1:08:23.60,Default,host,0,0,0,,Both the 3DMV and 2DMV for "Hashiru, Todoku" have just been released on the official YouTube channel.
-Dialogue: 0,1:08:25.80,1:08:28.36,Default,host,0,0,0,,Sorry, I always get a bit flustered, I apologize.
-Dialogue: 0,1:08:29.56,1:08:30.58,Default,host,0,0,0,,I'm a little bit...
-Dialogue: 0,1:08:30.58,1:08:34.92,Default,host,0,0,0,,Once this is over, please go and watch them a lot, everyone.
-Dialogue: 0,1:08:34.92,1:08:36.18,Default,host,0,0,0,,Thank you very much.
-Dialogue: 0,1:08:36.18,1:08:37.14,Default,host,0,0,0,,.
-Dialogue: 0,1:08:37.14,1:08:38.28,Default,host,0,0,0,,.
-Dialogue: 0,1:08:38.88,1:08:40.18,Default,host,0,0,0,,Everyone is saying they'll watch it.
-Dialogue: 0,1:08:40.18,1:08:41.54,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,1:08:41.54,1:08:52.74,Default,host,0,0,0,,And with that, this short ProSeka AfterTalk for the "Glow Glorious Glow" event has come to an end.
-Dialogue: 0,1:08:52.74,1:08:55.40,Default,host,0,0,0,,To everyone watching the stream, how did you like it?
-Dialogue: 0,1:08:55.40,1:09:01.96,Default,host,0,0,0,,I'm so happy because everyone's comments were so supportive.
-Dialogue: 0,1:09:01.96,1:09:04.92,Default,host,0,0,0,,Momojan is truly the best.
-Dialogue: 0,1:09:05.52,1:09:08.50,Default,host,0,0,0,,They just keep on growing and growing.
-Dialogue: 0,1:09:08.50,1:09:13.96,Default,host,0,0,0,,Growth with no ceiling is truly dazzling, isn't it?
-Dialogue: 0,1:09:15.68,1:09:18.40,Default,host,0,0,0,,Thank you so much, everyone, really.
-Dialogue: 0,1:09:18.40,1:09:19.28,Default,host,0,0,0,,I had a lot of fun.
-Dialogue: 0,1:09:19.28,1:09:20.64,Default,host,0,0,0,,I really did.
-Comment: 0,1:09:21.48,1:09:26.38,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:09:21.48,1:09:26.38,Default,host,0,0,0,,And that's it for today's look at Grow Glorious Grow... that's a mouthful.
-Dialogue: 0,1:09:26.38,1:09:38.22,Default,host,0,0,0,,If you haven't finished reading Grow Glorious Grow yet, you'll be able to read the full event story from the archives once the next event starts.
-Dialogue: 0,1:09:38.22,1:09:40.72,Default,host,0,0,0,,So please, read it as many times as you like.
-Dialogue: 0,1:09:40.72,1:09:47.46,Default,host,0,0,0,,The scenes I mentioned earlier that we didn't get to watch together today are all in there too,
-Dialogue: 0,1:09:47.46,1:09:48.14,Default,host,0,0,0,,so definitely check them out.
-Dialogue: 0,1:09:48.14,1:09:51.80,Default,host,0,0,0,,I'd be so happy if you're reading and think, "Oh, Hon-chan mentioned this part!"
-Dialogue: 0,1:09:52.32,1:09:53.44,Default,host,0,0,0,,Thank you so much.
-Dialogue: 0,1:09:54.56,1:09:59.42,Default,host,0,0,0,,And with that, thank you all for sticking with me for so long today.
-Dialogue: 0,1:09:59.42,1:10:01.24,Default,host,0,0,0,,I'll see you again soon.
-Dialogue: 0,1:10:01.24,1:10:02.00,Default,host,0,0,0,,Bye-bye!
+Dialogue: 0,1:08:02.56,1:08:03.96,Default,host,0,0,0,,Please check it out!
+Dialogue: 0,1:08:04.60,1:08:11.46,Default,host,0,0,0,,Both the 2DMV and the 3DMV... let me rephrase.
+Dialogue: 0,1:08:11.46,1:08:23.60,Default,host,0,0,0,,Both the 3DMV and the 2DMV for "Run, Deliver" were just released on the official YouTube channel.
+Dialogue: 0,1:08:25.80,1:08:28.36,Default,host,0,0,0,,Sorry, I'm always getting so flustered. My apologies.
+Dialogue: 0,1:08:29.52,1:08:30.56,Default,host,0,0,0,,I'm going to...
+Dialogue: 0,1:08:30.56,1:08:34.90,Default,host,0,0,0,,Once this stream is over, please watch them as much as you can.
+Dialogue: 0,1:08:34.90,1:08:36.18,Default,host,0,0,0,,Thank you!
+Dialogue: 0,1:08:36.18,1:08:37.14,Default,host,0,0,0,,
+Dialogue: 0,1:08:37.14,1:08:38.28,Default,host,0,0,0,,Everyone...
+Dialogue: 0,1:08:38.92,1:08:40.22,Default,host,0,0,0,,Everyone's saying they're going to watch it.
+Comment: 0,1:08:40.22,1:08:41.54,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
+Dialogue: 0,1:08:40.22,1:08:41.54,Default,host,0,0,0,,Thank you so much.
+Dialogue: 0,1:08:41.54,1:08:52.76,Default,host,0,0,0,,And with that, it's time to wrap up this edition of ProSeka AfterTalk: "Glow Glorious Glow" edition!
+Dialogue: 0,1:08:52.76,1:08:55.42,Default,host,0,0,0,,To everyone watching the stream, how did you like it?
+Dialogue: 0,1:08:55.42,1:09:01.72,Default,host,0,0,0,,Wow, seeing all your supportive comments has made me so happy.
+Dialogue: 0,1:09:02.24,1:09:04.92,Default,host,0,0,0,,Momojan is just the best, seriously.
+Dialogue: 0,1:09:05.56,1:09:08.50,Default,host,0,0,0,,They just keep on growing more and more.
+Dialogue: 0,1:09:08.50,1:09:13.96,Default,host,0,0,0,,Growth without a ceiling is truly dazzling to witness.
+Dialogue: 0,1:09:15.68,1:09:18.40,Default,host,0,0,0,,Thank you all so much, really.
+Dialogue: 0,1:09:18.40,1:09:19.30,Default,host,0,0,0,,I had so much fun.
+Dialogue: 0,1:09:19.30,1:09:20.68,Default,host,0,0,0,,I really did.
+Dialogue: 0,1:09:21.48,1:09:26.38,Default,host,0,0,0,,Anyway, about "Glow Glorious Glow"... that's a bit of a tongue twister!
+Dialogue: 0,1:09:26.38,1:09:38.22,Default,host,0,0,0,,If you haven't finished reading "Glow Glorious Glow" yet, you can read it all in the Event Stories menu once the next event starts.
+Dialogue: 0,1:09:38.22,1:09:40.72,Default,host,0,0,0,,So please, read it over and over again.
+Dialogue: 0,1:09:40.72,1:09:47.46,Default,host,0,0,0,,The scenes I mentioned earlier that we didn't get to watch together today are all in there,
+Dialogue: 0,1:09:47.46,1:09:51.80,Default,host,0,0,0,,so I'd be happy if you think, "Oh, Hon-chan mentioned this part!" while you're reading.
+Dialogue: 0,1:09:52.32,1:09:53.44,Default,host,0,0,0,,Please check it out!
+Dialogue: 0,1:09:54.56,1:09:59.42,Default,host,0,0,0,,Well then, thank you all so much for sticking with me today.
+Dialogue: 0,1:09:59.42,1:10:01.26,Default,host,0,0,0,,See you again next time!
+Dialogue: 0,1:10:01.26,1:10:02.00,Default,host,0,0,0,,Bye bye!
