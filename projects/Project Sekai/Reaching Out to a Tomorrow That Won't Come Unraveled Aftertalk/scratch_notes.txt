@@ -56,3 +56,16 @@ uv run autosub run "projects/projects/Project Sekai/Reaching Out to a Tomorrow T
   --start 9:30 --end 15:00 \
   --start 24:45 --end 35:45 \
   --start 37:55 --end 55:00
+
+# Docker remote run (GCP VM via remote.sh, 2026-06-02)
+# e2-standard-2, Chirp 3, medium thinking (but Gemini didn't engage thoughts)
+./scripts/remote.sh \
+  "projects/projects/Project Sekai/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled.mkv" \
+  run --profile proseka/n25 --backend chirp_3 \
+  --start 9:30 --end 15:00 \
+  --start 24:45 --end 35:45 \
+  --start 37:55 --end 55:00 \
+  --chunk-size 80 \
+  --llm-reasoning-effort medium \
+  --mark-chunks \
+  --save-log
