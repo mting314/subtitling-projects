@@ -15,9 +15,9 @@ Video File: Grow glorious glow Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 159
-Active Line: 172
-Video Position: 56585
+Scroll Position: 165
+Active Line: 184
+Video Position: 58665
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -199,23 +199,19 @@ Dialogue: 0,0:31:05.80,0:31:11.64,Shizuku,host,0,0,0,,We recorded a few patterns
 Dialogue: 0,0:31:11.64,0:31:18.74,Shizuku,host,0,0,0,,Well, we've seen Shizuku cornered like this a few times before,
 Dialogue: 0,0:31:18.74,0:31:23.28,Shizuku,host,0,0,0,,but it's been a while since she went that far.
 Dialogue: 0,0:31:23.28,0:31:26.14,Shizuku,host,0,0,0,,It was actually quite tough, and there were several scenes that were pretty painful to record.
-Dialogue: 0,0:31:26.14,0:31:37.10,Shizuku,host,0,0,0,,Those almost intrusive flashbacks to her Cheerful Days era always involve lines where she's pushing herself too hard, which is painful for me too,
-Dialogue: 0,0:31:37.10,0:31:41.64,Shizuku,host,0,0,0,,but that Shizuku is what leads to the Shizuku we have now.
-Dialogue: 0,0:31:41.64,0:31:44.88,Shizuku,host,0,0,0,,I thought having that gap would create more of a sense of drama.
-Dialogue: 0,0:31:46.47,0:31:46.97,Shizuku,host,0,0,0,,That's what I was thinking.
-Dialogue: 0,0:31:48.36,0:31:49.12,Shizuku,host,0,0,0,,...
-Dialogue: 0,0:31:49.76,0:31:55.24,Shizuku,host,0,0,0,,A cornered Shizuku has a certain charm to her,
-Dialogue: 0,0:31:55.24,0:31:56.40,Shizuku,host,0,0,0,,in its own way.
+Dialogue: 0,0:31:26.14,0:31:32.13,Shizuku,host,0,0,0,,Especially those almost flashbacks to her time in Cheerful Days.
+Dialogue: 0,0:31:32.13,0:31:37.10,Shizuku,host,0,0,0,,There's a lot of lines where she's pushing herself too hard. Those can painful for even for me too.
+Dialogue: 0,0:31:37.10,0:31:41.64,Shizuku,host,0,0,0,,But that Shizuku is what led us to the Shizuku we have today.
+Dialogue: 0,0:31:41.64,0:31:44.88,Shizuku,host,0,0,0,,That gap creates more of a sense of drama.
+Dialogue: 0,0:31:49.76,0:31:56.40,Shizuku,host,0,0,0,,A cornered Shizuku has a certain charm to her, in its own way.
 Dialogue: 0,0:31:57.64,0:32:03.12,Shizuku,host,0,0,0,,Especially since she was being promoted as the "mysterious Shizuku" back then,
-Dialogue: 0,0:32:03.12,0:32:06.40,Shizuku,host,0,0,0,,and she never showed that side of her effort to anyone.
+Dialogue: 0,0:32:03.12,0:32:06.40,Shizuku,host,0,0,0,,and she never showed all that effort she was putting in under the surface.
 Comment: 0,0:32:07.72,0:32:16.72,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:32:07.72,0:32:16.72,Shizuku,host,0,0,0,,Seeing how she kept working so hard in silence behind the scenes,
-Dialogue: 0,0:32:17.72,0:32:20.36,Shizuku,host,0,0,0,,it really makes you feel how lonely she was, doing her absolute best all on her own.
-Dialogue: 0,0:32:21.12,0:32:25.84,Shizuku,host,0,0,0,,And that connects back to the story about her juniors I mentioned earlier,
-Dialogue: 0,0:32:27.72,0:32:29.16,Shizuku,host,0,0,0,,where Shizuku feels like she has to work hard
-Dialogue: 0,0:32:31.00,0:32:33.24,Shizuku,host,0,0,0,,for their sake as well.
-Dialogue: 0,0:32:34.77,0:32:35.49,Shizuku,host,0,0,0,,
-Dialogue: 0,0:32:35.49,0:32:38.88,Shizuku,host,0,0,0,,Thinking about it that way, I'm so glad she met Momojan.
+Dialogue: 0,0:32:07.72,0:32:15.02,Shizuku,host,0,0,0,,Seeing how she kept working so hard in silence behind the scenes,
+Dialogue: 0,0:32:15.02,0:32:20.36,Shizuku,host,0,0,0,,it really makes you feel how lonely she was, working her absolute hardest all on her own.
+Dialogue: 0,0:32:21.12,0:32:26.19,Shizuku,host,0,0,0,,And that connects back to the story about her Cheerful Days juniors I mentioned earlier,
+Dialogue: 0,0:32:27.72,0:32:33.24,Shizuku,host,0,0,0,,where Shizuku feels like she has to work hard for their sake as well.
+Dialogue: 0,0:32:35.49,0:32:38.88,Shizuku,host,0,0,0,,Thinking about it that way, I'm so glad she met MMJ.
 Dialogue: 0,0:32:39.80,0:32:42.16,Shizuku,host,0,0,0,,Seriously, Minori,
 Dialogue: 0,0:32:42.80,0:32:43.68,Shizuku,host,0,0,0,,Haruka,
 Dialogue: 0,0:32:44.32,0:32:45.18,Shizuku,host,0,0,0,,and Airi...
