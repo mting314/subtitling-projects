@@ -10,14 +10,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: Grow glorious glow Aftertalk.mkv
-Video File: Grow glorious glow Aftertalk.mkv
+Audio File: Grow glorious glow Aftertalk.mp4
+Video File: Grow glorious glow Aftertalk.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 402
-Active Line: 423
-Video Position: 103329
+Scroll Position: 429
+Active Line: 434
+Video Position: 104369
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -451,28 +451,28 @@ Dialogue: 0,0:57:13.20,0:57:16.14,Shizuku - PiP,host,0,0,0,,Everyone understands
 Dialogue: 0,0:57:16.14,0:57:17.92,Shizuku - PiP,host,0,0,0,,Well, they all understand each other.
 Dialogue: 0,0:57:20.24,0:57:22.00,Shizuku - PiP,host,0,0,0,,Units are just so great.
 Dialogue: 0,0:57:24.28,0:57:29.48,Shizuku - PiP,host,0,0,0,,Shizuku is here because of everyone, and everyone is here because of Shizuku.
-Dialogue: 0,0:57:30.52,0:57:32.84,Shizuku - PiP,host,0,0,0,,Seriously, it's like...
-Dialogue: 0,0:57:33.92,0:57:35.42,Shizuku - PiP,host,0,0,0,,Really... always.
+Dialogue: 0,0:57:30.52,0:57:32.64,Shizuku - PiP,host,0,0,0,,Seriously, it's like...
+Dialogue: 0,0:57:33.92,0:57:35.42,Shizuku - PiP,host,0,0,0,,Thank you so much everyone.
 Dialogue: 0,0:57:35.42,0:57:36.64,Shizuku - PiP,host,0,0,0,,I can't stop saying thank you.
-Dialogue: 0,0:57:37.24,0:57:40.60,Shizuku - PiP,host,0,0,0,,This white clover is nice too, and the three-leaf motif.
-Dialogue: 0,0:57:41.96,0:57:53.66,Shizuku - PiP,host,0,0,0,,The coloring is a bit different every time, and this time it's all unified with a blue sky, as if to cheer on Shizuku as she takes flight. This blue really suits her.
+Dialogue: 0,0:57:37.24,0:57:40.60,Shizuku - PiP,host,0,0,0,,This white MMJ three-leaf clover is nice too.
+Dialogue: 0,0:57:41.96,0:57:46.25,Shizuku - PiP,host_meta,0,0,0,,Even if the color is a bit different in each card,
+Dialogue: 0,0:57:46.25,0:57:49.72,Shizuku - PiP,host_meta,0,0,0,,it feels like everyone's all connected under the same blue sky,
+Dialogue: 0,0:57:49.72,0:57:52.25,Shizuku - PiP,host_meta,0,0,0,,almost like if to cheer on Shizuku as she takes flight.
+Dialogue: 0,0:57:52.25,0:57:53.66,Shizuku - PiP,host_meta,0,0,0,,And that blue looks so good on everyone!
 Dialogue: 0,0:57:53.66,0:57:54.84,Shizuku - PiP,host,0,0,0,,It's like Haruka's color.
-Dialogue: 0,0:57:56.60,0:57:58.04,Shizuku - PiP,host,0,0,0,,It's lovely.
-Dialogue: 0,0:57:58.96,0:58:07.36,Shizuku - PiP,host,0,0,0,,Personally, I like the shorts. Shizuku has different lengths on her left and right legs.
-Dialogue: 0,0:58:07.36,0:58:11.92,Shizuku - PiP,host,0,0,0,,This... what you'd call the "absolute territory," this part right here.
-Dialogue: 0,0:58:12.44,0:58:13.04,Shizuku - PiP,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:58:13.04,0:58:13.74,Shizuku - PiP,host,0,0,0,,...
-Dialogue: 0,0:58:13.74,0:58:14.39,Shizuku - PiP,host,0,0,0,,Seriously.
-Dialogue: 0,0:58:15.64,0:58:16.32,Shizuku - PiP,host,0,0,0,,...
-Dialogue: 0,0:58:16.32,0:58:18.40,Shizuku - PiP,host,0,0,0,,Haruka-chan looks great in shorts too.
-Dialogue: 0,0:58:19.20,0:58:20.28,Shizuku - PiP,host,0,0,0,,She's truly amazing.
-Dialogue: 0,0:58:22.08,0:58:24.36,Shizuku - PiP,host,0,0,0,,This illustration is just...
+Dialogue: 0,0:57:56.60,0:57:58.40,Shizuku - PiP,host,0,0,0,,It's so lovely.
+Dialogue: 0,0:57:58.96,0:58:02.02,Shizuku - PiP,host,0,0,0,,I also personally like those shorts.
+Dialogue: 0,0:58:02.02,0:58:07.36,Shizuku - PiP,host,0,0,0,,Shizuku has different lengths on her left and right legs.
+Dialogue: 0,0:58:07.36,0:58:12.05,Shizuku - PiP,host,0,0,0,,You can see the... the so-called "absolute territory," this part right here.
+Dialogue: 0,0:58:12.44,0:58:13.04,Shizuku - PiP,host,0,0,0,,Thank you.
+Dialogue: 0,0:58:15.64,0:58:18.40,Shizuku - PiP,host,0,0,0,,Haruka-chan looks great in shorts too.
+Dialogue: 0,0:58:19.20,0:58:20.28,Shizuku - PiP,host,0,0,0,,No surprises there.
+Dialogue: 0,0:58:22.08,0:58:24.36,Shizuku - PiP,host,0,0,0,,Oh yeah! And this illustration is just...
 Comment: 0,0:58:24.88,0:58:27.34,Shizuku - PiP,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:58:24.88,0:58:27.34,Shizuku - PiP,host,0,0,0,,This is... this one is the untrained art.
-Dialogue: 0,0:58:27.34,0:58:28.72,Shizuku - PiP,host,0,0,0,,Haruka is...
-Dialogue: 0,0:58:30.60,0:58:37.44,Shizuku - PiP,host,0,0,0,,making this highly nutritious, low, low-calorie meal for Shizuku.
-Dialogue: 0,0:58:37.44,0:58:38.60,Shizuku - PiP,host,0,0,0,,Seriously, for real.
-Dialogue: 0,0:58:39.40,0:58:44.30,Shizuku - PiP,host,0,0,0,,Haruka-chan is such a stoic girl who works so hard on her diet,
+Dialogue: 0,0:58:24.88,0:58:27.34,Shizuku - PiP,host,0,0,0,,This is the untrained art.
+Dialogue: 0,0:58:27.34,0:58:37.44,Shizuku - PiP,host,0,0,0,,We get to see Haruka making this nutritious, low-calorie meal for Shizuku.
+Dialogue: 0,0:58:37.44,0:58:38.60,Shizuku - PiP,host,0,0,0,,So intense.
+Dialogue: 0,0:58:39.40,0:58:44.30,Shizuku - PiP,host,0,0,0,,We know Haruka-chan is a very  person who works so hard on her diet,
 Dialogue: 0,0:58:44.30,0:58:52.36,Shizuku - PiP,host,0,0,0,,so she's naturally very knowledgeable about food and nutrition.
 Dialogue: 0,0:58:52.36,0:58:56.60,Shizuku - PiP,host,0,0,0,,I actually learn a lot myself
 Dialogue: 0,0:58:57.15,0:58:57.65,Shizuku - PiP,host,0,0,0,,just by reading the script.
