@@ -14,10 +14,10 @@ Audio File: Grow glorious glow Aftertalk.mp4
 Video File: Grow glorious glow Aftertalk.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 429
-Active Line: 434
-Video Position: 104369
+Video Zoom Percent: 1.250000
+Scroll Position: 514
+Active Line: 536
+Video Position: 117430
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -462,97 +462,93 @@ Dialogue: 0,0:57:52.25,0:57:53.66,Shizuku - PiP,host_meta,0,0,0,,And that blue l
 Dialogue: 0,0:57:53.66,0:57:54.84,Shizuku - PiP,host,0,0,0,,It's like Haruka's color.
 Dialogue: 0,0:57:56.60,0:57:58.40,Shizuku - PiP,host,0,0,0,,It's so lovely.
 Dialogue: 0,0:57:58.96,0:58:02.02,Shizuku - PiP,host,0,0,0,,I also personally like those shorts.
-Dialogue: 0,0:58:02.02,0:58:07.36,Shizuku - PiP,host,0,0,0,,Shizuku has different lengths on her left and right legs.
-Dialogue: 0,0:58:07.36,0:58:12.05,Shizuku - PiP,host,0,0,0,,You can see the... the so-called "absolute territory," this part right here.
-Dialogue: 0,0:58:12.44,0:58:13.04,Shizuku - PiP,host,0,0,0,,Thank you.
+Dialogue: 0,0:58:02.02,0:58:07.36,Shizuku - PiP,host,0,0,0,,I know Shizuku has different lengths on her left and right legs.
+Dialogue: 0,0:58:07.36,0:58:12.05,Shizuku - PiP,host,0,0,0,,But here, you can see the... the so-called "absolute territory" part right here.
+Dialogue: 0,0:58:12.44,0:58:13.72,Shizuku - PiP,host,0,0,0,,Thank you.
 Dialogue: 0,0:58:15.64,0:58:18.40,Shizuku - PiP,host,0,0,0,,Haruka-chan looks great in shorts too.
 Dialogue: 0,0:58:19.20,0:58:20.28,Shizuku - PiP,host,0,0,0,,No surprises there.
 Dialogue: 0,0:58:22.08,0:58:24.36,Shizuku - PiP,host,0,0,0,,Oh yeah! And this illustration is just...
 Comment: 0,0:58:24.88,0:58:27.34,Shizuku - PiP,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:58:24.88,0:58:27.34,Shizuku - PiP,host,0,0,0,,This is the untrained art.
 Dialogue: 0,0:58:27.34,0:58:37.44,Shizuku - PiP,host,0,0,0,,We get to see Haruka making this nutritious, low-calorie meal for Shizuku.
-Dialogue: 0,0:58:37.44,0:58:38.60,Shizuku - PiP,host,0,0,0,,So intense.
-Dialogue: 0,0:58:39.40,0:58:44.30,Shizuku - PiP,host,0,0,0,,We know Haruka-chan is a very  person who works so hard on her diet,
-Dialogue: 0,0:58:44.30,0:58:52.36,Shizuku - PiP,host,0,0,0,,so she's naturally very knowledgeable about food and nutrition.
-Dialogue: 0,0:58:52.36,0:58:56.60,Shizuku - PiP,host,0,0,0,,I actually learn a lot myself
-Dialogue: 0,0:58:57.15,0:58:57.65,Shizuku - PiP,host,0,0,0,,just by reading the script.
-Dialogue: 0,0:58:58.28,0:59:04.58,Shizuku - PiP,host,0,0,0,,Like, 'this is a bit high in fat,' or 'this is a sweet
-Dialogue: 0,0:59:04.58,0:59:07.42,Shizuku - PiP,host,0,0,0,,you can eat even on a low-carb diet.'
-Dialogue: 0,0:59:07.42,0:59:13.74,Shizuku - PiP,host,0,0,0,,I'm like, 'Oh, I see,' and I even use it as a reference sometimes.
-Dialogue: 0,0:59:13.74,0:59:18.82,Shizuku - PiP,host,0,0,0,,Physical health... food is the foundation of your physique,
-Dialogue: 0,0:59:18.82,0:59:19.51,Shizuku - PiP,host,0,0,0,,it starts with the body.
-Dialogue: 0,0:59:20.04,0:59:21.08,Shizuku - PiP,host,0,0,0,,Building your body.
+Dialogue: 0,0:58:37.44,0:58:38.60,Shizuku - PiP,host,0,0,0,,She's so into it.
+Dialogue: 0,0:58:39.40,0:58:44.30,Shizuku - PiP,host,0,0,0,,We know Haruka-chan is someone very into dieting,
+Dialogue: 0,0:58:44.30,0:58:49.46,Shizuku - PiP,host,0,0,0,,so she's naturally very knowledgeable about eating healthy.
+Dialogue: 0,0:58:49.46,0:58:52.56,Shizuku - PiP,,0,0,0,,She probably knows the nutrition values of just about everything.
+Dialogue: 0,0:58:52.56,0:58:57.65,Shizuku - PiP,host,0,0,0,,I actually learn a lot myself just by reading the script.
+Dialogue: 0,0:58:58.28,0:59:01.08,Shizuku - PiP,host,0,0,0,,Like, 'this is a bit high in fat,' or—
+Dialogue: 0,0:59:02.25,0:59:03.65,Shizuku - PiP,host,0,0,0,,what was it again...
+Dialogue: 0,0:59:03.65,0:59:04.68,Shizuku - PiP,host,0,0,0,,Right, keto diet.
+Dialogue: 0,0:59:04.68,0:59:07.42,Shizuku - PiP,host,0,0,0,,Something like 'This is a sweet you can eat even on a keto diet.'
+Dialogue: 0,0:59:07.42,0:59:13.74,Shizuku - PiP,host,0,0,0,,I'm like, 'Oh, I see,' and I even save it as a reference sometimes.
+Dialogue: 0,0:59:13.74,0:59:18.82,Shizuku - PiP,host,0,0,0,,Physical health... food is the foundation of your physique.
+Dialogue: 0,0:59:20.04,0:59:21.43,Shizuku - PiP,host,0,0,0,,Important for building your body.
 Dialogue: 0,0:59:22.68,0:59:26.52,Shizuku - PiP,host,0,0,0,,Haruka-chan supports Shizuku in ways like this.
 Dialogue: 0,0:59:26.52,0:59:28.74,Shizuku - PiP,host,0,0,0,,Thank you so much.
-Dialogue: 0,0:59:28.74,0:59:33.16,Shizuku - PiP,host,0,0,0,,These colorful vegetables look great, they look delicious.
-Dialogue: 0,0:59:34.52,0:59:37.08,Shizuku - PiP,host,0,0,0,,And then, Airi.
+Dialogue: 0,0:59:28.74,0:59:33.51,Shizuku - PiP,host,0,0,0,,Those veggies look really fresh and delicious.
+Dialogue: 0,0:59:34.52,0:59:37.08,Shizuku - PiP,host,0,0,0,,And last up is Airi-chan.
 Dialogue: 0,0:59:37.08,0:59:41.08,Shizuku - PiP,host,0,0,0,,For Airi-chan, we only have the untrained art.
-Dialogue: 0,0:59:41.08,0:59:42.32,Shizuku - PiP,host,0,0,0,,Isn't she cute?
-Dialogue: 0,0:59:42.84,0:59:45.24,Shizuku - PiP,host,0,0,0,,When you think of Airi-chan, you think of the midriff look.
-Dialogue: 0,0:59:46.17,0:59:46.67,Shizuku - PiP,host,0,0,0,,It's a classic.
+Dialogue: 0,0:59:41.08,0:59:42.84,Shizuku - PiP,host,0,0,0,,Isn't she cute?
+Dialogue: 0,0:59:42.84,0:59:45.59,Shizuku - PiP,host,0,0,0,,When you think of Airi-chan, you think of the midriff look.
 Dialogue: 0,0:59:48.72,0:59:50.44,Shizuku - PiP,host,0,0,0,,Airi-chan is so cute.
-Dialogue: 0,0:59:51.00,0:59:52.00,Shizuku - PiP,host,0,0,0,,That wink!
-Dialogue: 0,0:59:53.08,0:59:57.90,Shizuku - PiP,host,0,0,0,,It really gives you a burst of energy,
-Dialogue: 0,0:59:57.90,0:59:58.84,Shizuku - PiP,host,0,0,0,,it really does.
-Dialogue: 0,0:59:59.96,1:00:02.58,Shizuku - PiP,host,0,0,0,,When it comes to Airi-chan, you can't go wrong.
-Dialogue: 0,1:00:02.58,1:00:03.76,Shizuku - PiP,host,0,0,0,,Truly.
-Dialogue: 0,1:00:04.52,1:00:08.36,Shizuku - PiP,host,0,0,0,,Everyone, really...
-Dialogue: 0,1:00:08.36,1:00:11.04,Shizuku - PiP,host,0,0,0,,I'm so glad we could look at these together just now.
+Dialogue: 0,0:59:51.00,0:59:52.00,Shizuku - PiP,host,0,0,0,,And that wink!
+Dialogue: 0,0:59:53.08,0:59:57.90,Shizuku - PiP,host,0,0,0,,It really gives you a burst of energy.
+Dialogue: 0,0:59:57.90,0:59:58.84,Shizuku - PiP,host,0,0,0,,Super cute.
+Comment: 0,0:59:58.84,0:59:59.96,Shizuku - PiP,,0,0,0,,Below translation is missing heso
+Dialogue: 0,0:59:59.96,1:00:02.58,Shizuku - PiP,host,0,0,0,,Airi-chan sure has a lot of midriff in her outfits.
+Dialogue: 0,1:00:02.58,1:00:03.76,Shizuku - PiP,host,0,0,0,,I'm not complaining.
+Dialogue: 0,1:00:04.52,1:00:08.36,Shizuku - PiP,host,0,0,0,,Everyone looks so good in these outfits.
+Dialogue: 0,1:00:08.36,1:00:11.04,Shizuku - PiP,host,0,0,0,,I'm so glad we could look at them together.
 Comment: 0,1:00:12.77,1:00:13.27,Shizuku - PiP,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:00:12.77,1:00:13.27,Shizuku - PiP,host,0,0,0,,.
-Dialogue: 0,1:00:15.16,1:00:20.16,Shizuku - PiP,host,0,0,0,,And with that, we've seen all the cards for this event.
+Dialogue: 0,1:00:15.16,1:00:20.16,Shizuku - PiP,host,0,0,0,,And with that, that was all the cards for this event.
 Dialogue: 0,1:00:20.84,1:00:21.68,Shizuku - PiP,host,0,0,0,,Thank you very much.
 Dialogue: 0,1:00:21.68,1:00:25.60,Shizuku - PiP,host,0,0,0,,Someone mentioned this in the comments earlier, but for this time...
 Dialogue: 0,1:00:25.60,1:00:26.88,Shizuku - PiP,host,0,0,0,,What was it?
 Dialogue: 0,1:00:26.88,1:00:27.88,Shizuku - PiP,host,0,0,0,,The team name.
 Dialogue: 0,1:00:27.88,1:00:29.94,Shizuku - PiP,host,0,0,0,,I made it "Fabulous."
-Dialogue: 0,1:00:29.94,1:00:33.40,Shizuku - PiP,host,0,0,0,,It really is fabulous. That's the only word for it, seriously.
-Dialogue: 0,1:00:34.07,1:00:34.57,Shizuku - PiP,host,0,0,0,,.
+Dialogue: 0,1:00:29.94,1:00:33.40,Shizuku - PiP,host,0,0,0,,Everyone really is fabulous. That sums it up in one word.
 Dialogue: 0,1:00:36.08,1:00:37.04,Shizuku - PiP,host,0,0,0,,Thank you.
-Dialogue: 0,1:00:38.80,1:00:42.52,Shizuku - PiP,host,0,0,0,,Anyway, let me talk a bit more.
-Dialogue: 0,1:00:42.52,1:00:44.57,Shizuku - PiP,host,0,0,0,,So earlier i...
+Dialogue: 0,1:00:38.80,1:00:42.52,Shizuku - PiP,host,0,0,0,,Anyway, there was something else I wanted to mention.
+Dialogue: 0,1:00:42.52,1:00:44.57,Shizuku - PiP,host,0,0,0,,So earlier I...
 Dialogue: 0,1:00:44.57,1:00:47.57,Shizuku,,0,0,0,,I touched on this earlier, but how far did I get?
 Dialogue: 0,1:00:47.74,1:00:50.40,Shizuku,host,0,0,0,,Right, I talked about my favorite scenes.
-Dialogue: 0,1:00:50.40,1:00:55.16,Shizuku,host,0,0,0,,And about the achievement of our voices syncing up in the "Grand Fleur" commercial.
-Dialogue: 0,1:00:55.72,1:00:56.80,Shizuku,host,0,0,0,,Yes, that's right.
-Dialogue: 0,1:00:56.80,1:00:57.30,Shizuku,host,0,0,0,,Well...
-Dialogue: 0,1:00:59.52,1:01:11.34,Shizuku,host,0,0,0,,In this story, when Shizuku was facing the "Grand Fleur" audition, she saw Hagiyama-chan's performance.
+Dialogue: 0,1:00:50.40,1:00:55.16,Shizuku,host,0,0,0,,And how our voices miraculously synced up in the "Grand Fleur" commercial.
+Dialogue: 0,1:00:55.72,1:00:56.80,Shizuku,host,0,0,0,,And so... ah, that's right.
+Dialogue: 0,1:00:56.80,1:00:57.30,Shizuku,host,0,0,0,,So...
+Dialogue: 0,1:00:59.52,1:01:07.05,Shizuku,host,0,0,0,,In the story, when Shizuku was auditioning for the "Grand Fleur" commercial,
+Dialogue: 0,1:01:07.05,1:01:11.34,Shizuku,host,0,0,0,,she was watching Hagiyama-chan's performance.
 Dialogue: 0,1:01:11.34,1:01:18.88,Shizuku,host,0,0,0,,She saw that powerful light of hers and realized, "This is what I'm lacking." There was a scene like that, right?
-Dialogue: 0,1:01:20.44,1:01:26.22,Shizuku,host,0,0,0,,I really empathized with Shizuku on that point.
-Dialogue: 0,1:01:26.22,1:01:32.36,Shizuku,host,0,0,0,,In my own daily activities,
-Dialogue: 0,1:01:32.36,1:01:35.84,Shizuku,host,0,0,0,,there are so many times when I'm faced with my own shortcomings.
-Dialogue: 0,1:01:36.36,1:01:42.20,Shizuku,host,0,0,0,,I'm aware that I'm lacking things and I run into those walls,
-Dialogue: 0,1:01:42.20,1:01:47.68,Shizuku,host,0,0,0,,but I don't know specifically what I should do to grasp what's missing.
-Dialogue: 0,1:01:47.68,1:01:48.41,Shizuku,host,0,0,0,,This...
-Dialogue: 0,1:01:48.41,1:01:49.60,Shizuku,host,0,0,0,,I really don't know.
+Dialogue: 0,1:01:20.44,1:01:26.22,Shizuku,host,0,0,0,,I really empathized with Shizuku there.
+Dialogue: 0,1:01:26.22,1:01:32.36,Shizuku,host,0,0,0,,In the many activities I'm lucky enough to participate in,
+Dialogue: 0,1:01:32.36,1:01:36.36,Shizuku,host,0,0,0,,there are so many times when I'm faced with my own shortcomings.
+Dialogue: 0,1:01:36.36,1:01:42.20,Shizuku,host,0,0,0,,I'm made aware of where I'm lacking, and I run into those walls,
+Dialogue: 0,1:01:42.20,1:01:47.68,Shizuku,host,0,0,0,,but I don't know what exactly I should be doing to overcome those.
+Dialogue: 0,1:01:47.68,1:01:49.60,Shizuku,host,0,0,0,,I'm like, "What do I do!"
 Dialogue: 0,1:01:50.36,1:01:55.28,Shizuku,host,0,0,0,,Honestly, I could even call this one of my life's biggest challenges.
-Dialogue: 0,1:01:56.04,1:02:02.00,Shizuku,host,0,0,0,,I'm very blessed with my environment, and the people around me are all so charming and...
-Dialogue: 0,1:02:02.00,1:02:04.12,Shizuku,host,0,0,0,,just wonderful people.
-Dialogue: 0,1:02:04.72,1:02:09.40,Shizuku,host,0,0,0,,Because of that, they have things that I don't.
-Dialogue: 0,1:02:09.95,1:02:10.45,Shizuku,host,0,0,0,,In other words...
+Dialogue: 0,1:01:56.04,1:02:04.12,Shizuku,host,0,0,0,,I'm very blessed in this line of work, to have the opportunity to be near so many cool and amazing people.
+Dialogue: 0,1:02:04.72,1:02:09.40,Shizuku,host,0,0,0,,But because of that, I notice they have things that I don't.
+Dialogue: 0,1:02:09.95,1:02:10.80,Shizuku,host,0,0,0,,In other words...
 Comment: 0,1:02:12.04,1:02:16.28,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,1:02:12.04,1:02:16.28,Shizuku,host,0,0,0,,They shine so brightly and have charms that I don't have.
-Dialogue: 0,1:02:17.36,1:02:23.66,Shizuku,host,0,0,0,,And when I'm struggling like that, I imagine being in the deep sea,
-Dialogue: 0,1:02:23.66,1:02:32.28,Shizuku,host,0,0,0,,struggling in the dark where I can't see what's ahead. It's just so painful.
+Dialogue: 0,1:02:17.36,1:02:23.66,Shizuku,host,0,0,0,,And when I'm struggling like that, it can sometimes feel like being in the deep sea,
+Dialogue: 0,1:02:23.66,1:02:31.18,Shizuku,host,0,0,0,,struggling in the dark where I can't see what's ahead. It's just so painful.
+Dialogue: 0,1:02:31.18,1:02:32.28,Shizuku,host,0,0,0,,It's really tough.
 Dialogue: 0,1:02:33.00,1:02:37.88,Shizuku,host,0,0,0,,It's like everything you do backfires, or you just don't see any results.
 Dialogue: 0,1:02:37.88,1:02:43.80,Shizuku,host,0,0,0,,Maybe some of you feel the same way too.
-Dialogue: 0,1:02:44.47,1:02:45.14,Shizuku,host,0,0,0,,.
-Dialogue: 0,1:02:45.14,1:02:46.88,Shizuku,host,0,0,0,,There are times when it's just so painful.
-Dialogue: 0,1:02:46.88,1:02:47.48,Shizuku,host,0,0,0,,But you know,
-Dialogue: 0,1:02:49.52,1:02:55.16,Shizuku,host,0,0,0,,there's a moment when you suddenly realize, "This is it..."
+Dialogue: 0,1:02:45.14,1:02:46.88,Shizuku,host,0,0,0,,I have those really painful times too.
+Dialogue: 0,1:02:46.88,1:02:47.64,Shizuku,host,0,0,0,,But you know,
+Dialogue: 0,1:02:49.52,1:02:55.16,Shizuku,host,0,0,0,,sometimes there's a moment when you suddenly realize, "Oh, that's it!"
 Dialogue: 0,1:02:55.16,1:02:59.14,Shizuku,host,0,0,0,,Like, "This is what I was looking for all along."
-Dialogue: 0,1:02:59.14,1:03:05.20,Shizuku,host,0,0,0,,It's strange, but you only understand it once you've actually found it.
+Dialogue: 0,1:02:59.14,1:03:05.55,Shizuku,host,0,0,0,,It's strange, but you only understand it once you've actually found it.
 Dialogue: 0,1:03:06.56,1:03:14.94,Shizuku,host,0,0,0,,I'm sorry if I'm not explaining this well, I'm struggling to find the right words,
 Dialogue: 0,1:03:14.94,1:03:16.72,Shizuku,host,0,0,0,,but in my experience...
-Dialogue: 0,1:03:17.40,1:03:22.76,Shizuku,host,0,0,0,,there's something you only realize once you find that light, like "Oh, this was it."
+Dialogue: 0,1:03:17.40,1:03:22.76,Shizuku,host,0,0,0,,it's something you only realize once you find that light, like "Oh, this was it."
 Dialogue: 0,1:03:23.68,1:03:29.10,Shizuku,host,0,0,0,,You can't see it while you're struggling; only the "you" who found it can know.
-Dialogue: 0,1:03:29.10,1:03:31.64,Shizuku,host,0,0,0,,So for those of you
-Dialogue: 0,1:03:33.20,1:03:45.32,Shizuku,host,0,0,0,,who might be struggling right now, it might be hard, but one day that light will be in your hands.
-Dialogue: 0,1:03:45.32,1:03:45.92,Shizuku,host,0,0,0,,That moment
-Dialogue: 0,1:03:47.56,1:03:48.74,Shizuku,host,0,0,0,,will definitely come. Truly.
-Dialogue: 0,1:03:48.74,1:03:50.02,Shizuku,host,0,0,0,,That's just how I feel.
-Dialogue: 0,1:03:50.02,1:03:55.49,Shizuku,host,0,0,0,,I want this to be a world where that light is already within reach.
-Dialogue: 0,1:03:55.49,1:03:56.13,Shizuku,host,0,0,0,,.
+Dialogue: 0,1:03:29.10,1:03:39.79,Shizuku,host,0,0,0,,So for those of you who might be struggling right now,
+Dialogue: 0,1:03:39.79,1:03:45.92,Shizuku,host,0,0,0,,it might be tough right now, but one day that light will be in your hands.
+Dialogue: 0,1:03:47.56,1:03:48.74,Shizuku,host,0,0,0,,It will come. I guarantee it.
+Dialogue: 0,1:03:48.74,1:03:50.02,Shizuku,host,0,0,0,,Take it from me!
+Dialogue: 0,1:03:50.02,1:03:55.49,Shizuku,host,0,0,0,,I want this to be a world where everyone can reach that light.
 Dialogue: 0,1:03:57.20,1:04:02.28,Shizuku,host,0,0,0,,That's a theme I personally wanted to convey through this story,
 Dialogue: 0,1:04:02.28,1:04:08.88,Shizuku,host,0,0,0,,and through Shizuku as well.
 Dialogue: 0,1:04:08.88,1:04:10.60,Shizuku,host,0,0,0,,So let's both keep doing our best.
@@ -562,11 +558,12 @@ Dialogue: 0,1:04:24.08,1:04:27.72,Shizuku,host,0,0,0,,take a little break, and l
 Dialogue: 0,1:04:27.72,1:04:33.68,Shizuku,host,0,0,0,,I'd be so happy if they could be a source of strength or healing for you.
 Dialogue: 0,1:04:34.36,1:04:39.34,Shizuku,host,0,0,0,,When you lack confidence... Shizuku was like that too, wasn't she?
 Comment: 0,1:04:39.34,1:04:55.56,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,1:04:39.34,1:04:55.56,Shizuku,host,0,0,0,,Shizuku was happy to pass the "Grand Fleur" audition, but she didn't know what she needed to do to reach a level worthy of performing alongside Hagiyama-san,
-Dialogue: 0,1:04:55.56,1:04:57.36,Shizuku,host,0,0,0,,so facing the actual performance like that is so scary.
+Dialogue: 0,1:04:39.34,1:04:44.48,Shizuku,host,0,0,0,,Shizuku was happy to pass the "Grand Fleur" audition,
+Dialogue: 0,1:04:44.48,1:04:54.72,Shizuku,host,0,0,0,,but she didn't know what she needed to do to reach a level worthy of performing alongside Hagiyama-san,
+Dialogue: 0,1:04:54.72,1:04:57.36,Shizuku,host,0,0,0,,so she was nervous for the actual recording.
 Dialogue: 0,1:04:58.76,1:05:05.44,Shizuku,host,0,0,0,,It's terrifying to have to face the wall in front of you when you know you're still lacking something.
 Dialogue: 0,1:05:06.28,1:05:12.72,Shizuku,host,0,0,0,,That fear from a lack of confidence was a scene I really empathized with.
-Dialogue: 0,1:05:14.32,1:05:16.32,Shizuku,host,0,0,0,,Also, also, there's this.
+Dialogue: 0,1:05:14.32,1:05:16.32,Shizuku,host,0,0,0,,Oh yeah, and one more thing
 Dialogue: 0,1:05:16.32,1:05:16.95,Shizuku,host,0,0,0,,You see...
 Dialogue: 0,1:05:19.20,1:05:32.40,Shizuku,host,0,0,0,,Shizuku felt Hagiyama-chan's unyielding will to never lose or back down during her performance,
 Dialogue: 0,1:05:32.40,1:05:40.10,Shizuku,host,0,0,0,,and during the costume fitting, Hagiyama-chan asked Shizuku what she was thinking about during the audition.
