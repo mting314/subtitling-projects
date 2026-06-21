@@ -10,14 +10,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: Grow glorious glow Aftertalk.mp4
-Video File: Grow glorious glow Aftertalk.mp4
+Audio File: Grow glorious glow Aftertalk.mkv
+Video File: Grow glorious glow Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
-Scroll Position: 514
-Active Line: 536
-Video Position: 117430
+Scroll Position: 532
+Active Line: 542
+Video Position: 118632
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -509,15 +509,15 @@ Dialogue: 0,1:00:27.88,1:00:29.94,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}I mad
 Dialogue: 0,1:00:29.94,1:00:33.40,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}Everyone really is fabulous. That sums it up in one word.
 Dialogue: 0,1:00:36.08,1:00:37.04,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}Thank you.
 Dialogue: 0,1:00:38.80,1:00:42.52,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}Anyway, there was something else I wanted to mention.
-Dialogue: 0,1:00:42.52,1:00:44.57,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}So earlier I...
-Dialogue: 0,1:00:44.57,1:00:47.57,Shizuku,,0,0,0,,I touched on this earlier, but how far did I get?
-Dialogue: 0,1:00:47.74,1:00:50.40,Shizuku,host,0,0,0,,Right, I talked about my favorite scenes.
-Dialogue: 0,1:00:50.40,1:00:55.16,Shizuku,host,0,0,0,,And how our voices miraculously synced up in the "Grand Fleur" commercial.
+Dialogue: 0,1:00:42.52,1:00:43.92,Shizuku - PiP,host,0,0,0,,{\pos(650,750)}So earlier I...
+Dialogue: 0,1:00:44.67,1:00:47.57,Shizuku,,0,0,0,,I touched on this earlier, but where did I leave off?
+Dialogue: 0,1:00:47.74,1:00:50.40,Shizuku,host,0,0,0,,I remember talking about my favorite scenes,
+Dialogue: 0,1:00:50.40,1:00:55.16,Shizuku,host,0,0,0,,and how our voices miraculously synced up in the "Grand Fleur" commercial.
 Dialogue: 0,1:00:55.72,1:00:56.80,Shizuku,host,0,0,0,,And so... ah, that's right.
-Dialogue: 0,1:00:56.80,1:00:57.30,Shizuku,host,0,0,0,,So...
+Dialogue: 0,1:00:56.80,1:00:57.65,Shizuku,host,0,0,0,,So...
 Dialogue: 0,1:00:59.52,1:01:07.05,Shizuku,host,0,0,0,,In the story, when Shizuku was auditioning for the "Grand Fleur" commercial,
 Dialogue: 0,1:01:07.05,1:01:11.34,Shizuku,host,0,0,0,,she was watching Hagiyama-chan's performance.
-Dialogue: 0,1:01:11.34,1:01:18.88,Shizuku,host,0,0,0,,She saw that powerful light of hers and realized, "This is what I'm lacking." There was a scene like that, right?
+Dialogue: 0,1:01:11.34,1:01:18.88,Shizuku,host,0,0,0,,Shizuku saw that powerful light of hers and realized, "This is what I'm lacking." There was a scene like that, right?
 Dialogue: 0,1:01:20.44,1:01:26.22,Shizuku,host,0,0,0,,I really empathized with Shizuku there.
 Dialogue: 0,1:01:26.22,1:01:32.36,Shizuku,host,0,0,0,,In the many activities I'm lucky enough to participate in,
 Dialogue: 0,1:01:32.36,1:01:36.36,Shizuku,host,0,0,0,,there are so many times when I'm faced with my own shortcomings.
@@ -525,12 +525,13 @@ Dialogue: 0,1:01:36.36,1:01:42.20,Shizuku,host,0,0,0,,I'm made aware of where I'
 Dialogue: 0,1:01:42.20,1:01:47.68,Shizuku,host,0,0,0,,but I don't know what exactly I should be doing to overcome those.
 Dialogue: 0,1:01:47.68,1:01:49.60,Shizuku,host,0,0,0,,I'm like, "What do I do!"
 Dialogue: 0,1:01:50.36,1:01:55.28,Shizuku,host,0,0,0,,Honestly, I could even call this one of my life's biggest challenges.
-Dialogue: 0,1:01:56.04,1:02:04.12,Shizuku,host,0,0,0,,I'm very blessed in this line of work, to have the opportunity to be near so many cool and amazing people.
-Dialogue: 0,1:02:04.72,1:02:09.40,Shizuku,host,0,0,0,,But because of that, I notice they have things that I don't.
+Dialogue: 0,1:01:56.04,1:01:58.55,Shizuku,host,0,0,0,,I'm very blessed in this line of work,
+Dialogue: 0,1:01:58.55,1:02:04.47,Shizuku,host,0,0,0,,having the opportunity to be around so many cool and amazing people.
+Dialogue: 0,1:02:04.72,1:02:09.95,Shizuku,host,0,0,0,,But because of that, I notice they have things that I don't.
 Dialogue: 0,1:02:09.95,1:02:10.80,Shizuku,host,0,0,0,,In other words...
 Comment: 0,1:02:12.04,1:02:16.28,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,1:02:12.04,1:02:16.28,Shizuku,host,0,0,0,,They shine so brightly and have charms that I don't have.
-Dialogue: 0,1:02:17.36,1:02:23.66,Shizuku,host,0,0,0,,And when I'm struggling like that, it can sometimes feel like being in the deep sea,
+Dialogue: 0,1:02:17.36,1:02:23.66,Shizuku,host,0,0,0,,And when I'm struggling like that, it can sometimes feel like being deep under the ocean,
 Dialogue: 0,1:02:23.66,1:02:31.18,Shizuku,host,0,0,0,,struggling in the dark where I can't see what's ahead. It's just so painful.
 Dialogue: 0,1:02:31.18,1:02:32.28,Shizuku,host,0,0,0,,It's really tough.
 Dialogue: 0,1:02:33.00,1:02:37.88,Shizuku,host,0,0,0,,It's like everything you do backfires, or you just don't see any results.
@@ -548,26 +549,28 @@ Dialogue: 0,1:03:29.10,1:03:39.79,Shizuku,host,0,0,0,,So for those of you who mi
 Dialogue: 0,1:03:39.79,1:03:45.92,Shizuku,host,0,0,0,,it might be tough right now, but one day that light will be in your hands.
 Dialogue: 0,1:03:47.56,1:03:48.74,Shizuku,host,0,0,0,,It will come. I guarantee it.
 Dialogue: 0,1:03:48.74,1:03:50.02,Shizuku,host,0,0,0,,Take it from me!
-Dialogue: 0,1:03:50.02,1:03:55.49,Shizuku,host,0,0,0,,I want this to be a world where everyone can reach that light.
-Dialogue: 0,1:03:57.20,1:04:02.28,Shizuku,host,0,0,0,,That's a theme I personally wanted to convey through this story,
-Dialogue: 0,1:04:02.28,1:04:08.88,Shizuku,host,0,0,0,,and through Shizuku as well.
-Dialogue: 0,1:04:08.88,1:04:10.60,Shizuku,host,0,0,0,,So let's both keep doing our best.
+Dialogue: 0,1:03:50.02,1:03:55.68,Shizuku,host,0,0,0,,I want this to be a world where everyone can reach that light.
+Dialogue: 0,1:03:57.20,1:04:08.88,Shizuku,host,0,0,0,,That's a theme I personally wanted to convey through this story and through Shizuku herself.
+Dialogue: 0,1:04:08.88,1:04:10.60,Shizuku,host,0,0,0,,So let's all keep doing our best.
 Dialogue: 0,1:04:10.60,1:04:18.04,Shizuku,host,0,0,0,,Whether it's club activities, work, or job hunting,
-Dialogue: 0,1:04:18.04,1:04:24.08,Shizuku,host,0,0,0,,I know things can be tough. In those times, I hope you'll look at ProSeka stories,
-Dialogue: 0,1:04:24.08,1:04:27.72,Shizuku,host,0,0,0,,take a little break, and listen to lots of the songs.
+Dialogue: 0,1:04:18.04,1:04:21.68,Shizuku,host,0,0,0,,I know things can get tough.
+Dialogue: 0,1:04:21.68,1:04:27.72,Shizuku,host,0,0,0,,So I hope you can take chances to relaex by watch at ProSeka stories and listening to the songs.
 Dialogue: 0,1:04:27.72,1:04:33.68,Shizuku,host,0,0,0,,I'd be so happy if they could be a source of strength or healing for you.
 Dialogue: 0,1:04:34.36,1:04:39.34,Shizuku,host,0,0,0,,When you lack confidence... Shizuku was like that too, wasn't she?
 Comment: 0,1:04:39.34,1:04:55.56,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,1:04:39.34,1:04:44.48,Shizuku,host,0,0,0,,Shizuku was happy to pass the "Grand Fleur" audition,
 Dialogue: 0,1:04:44.48,1:04:54.72,Shizuku,host,0,0,0,,but she didn't know what she needed to do to reach a level worthy of performing alongside Hagiyama-san,
-Dialogue: 0,1:04:54.72,1:04:57.36,Shizuku,host,0,0,0,,so she was nervous for the actual recording.
-Dialogue: 0,1:04:58.76,1:05:05.44,Shizuku,host,0,0,0,,It's terrifying to have to face the wall in front of you when you know you're still lacking something.
-Dialogue: 0,1:05:06.28,1:05:12.72,Shizuku,host,0,0,0,,That fear from a lack of confidence was a scene I really empathized with.
-Dialogue: 0,1:05:14.32,1:05:16.32,Shizuku,host,0,0,0,,Oh yeah, and one more thing
+Dialogue: 0,1:04:54.72,1:04:57.71,Shizuku,host,0,0,0,,so she was nervous for the actual recording.
+Dialogue: 0,1:04:58.76,1:05:05.44,Shizuku,host,0,0,0,,It's really scary having to face a challenge right in front of you when you feel you're not good enough.
+Dialogue: 0,1:05:06.28,1:05:12.72,Shizuku,host,0,0,0,,I really empathized with that Shizuku feeling so uncertain in herself.
+Dialogue: 0,1:05:14.32,1:05:16.32,Shizuku,host,0,0,0,,Oh yeah, and one more thing.
 Dialogue: 0,1:05:16.32,1:05:16.95,Shizuku,host,0,0,0,,You see...
-Dialogue: 0,1:05:19.20,1:05:32.40,Shizuku,host,0,0,0,,Shizuku felt Hagiyama-chan's unyielding will to never lose or back down during her performance,
-Dialogue: 0,1:05:32.40,1:05:40.10,Shizuku,host,0,0,0,,and during the costume fitting, Hagiyama-chan asked Shizuku what she was thinking about during the audition.
-Dialogue: 0,1:05:40.10,1:06:04.12,Shizuku,host,0,0,0,,She said she wanted to give a performance that would surpass her opponent, which really struck a chord. I'm lucky to go to many auditions, but I get so nervous that I put a lot of pressure on myself.
+Dialogue: 0,1:05:19.20,1:05:23.27,Shizuku,host,0,0,0,,When she was watching Hagiyama's performance during the audition,
+Dialogue: 0,1:05:25.68,1:05:32.40,Shizuku,host,0,0,0,,Shiuzku felt her unyielding will to never lose or back down.
+Dialogue: 0,1:05:32.40,1:05:40.10,Shizuku,host,0,0,0,,Then during the costume fitting, Hagiyama-chan asked Shizuku what she was thinking about during the audition.
+Dialogue: 0,1:05:40.10,1:05:49.52,Shizuku,host,0,0,0,,And Shizuku said she wanted to give a performance that would surpass her opponent.
+Dialogue: 0,1:05:49.52,1:05:53.52,Shizuku,host,0,0,0,,That really struck a chord with me.
+Dialogue: 0,1:05:53.52,1:06:04.12,Shizuku,host,0,0,0,,I'm lucky to be able to do so many auditions, but I get so nervous that I put a lot of pressure on myself.
 Dialogue: 0,1:06:04.12,1:06:10.70,Shizuku,host,0,0,0,,And since it's such a wonderful project, I worry about whether I...
 Dialogue: 0,1:06:10.70,1:06:17.38,Shizuku,host,0,0,0,,...might hold the production back, if I can do it well, or if I'll be a burden to my co-stars.
 Dialogue: 0,1:06:17.38,1:06:18.78,Shizuku,host,0,0,0,,All these different thoughts go through your head.
