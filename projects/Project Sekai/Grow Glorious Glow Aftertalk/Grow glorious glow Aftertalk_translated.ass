@@ -15,9 +15,9 @@ Video File: Grow glorious glow Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
-Scroll Position: 596
-Active Line: 606
-Video Position: 124992
+Scroll Position: 75
+Active Line: 83
+Video Position: 43319
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,45 +27,40 @@ Style: Shizuku - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00B2C470,&H000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:09:51.00,0:09:59.92,Shizuku,host,0,0,0,,Welcome to ProSeka AfterTalk: "Grow Glorious Grow" edition!
+Dialogue: 0,0:09:55.52,0:10:02.43,Shizuku,host,0,0,0,,Welcome to ProSeka AfterTalk: "Grow Glorious Grow" edition!
 Dialogue: 0,0:10:03.04,0:10:04.32,Shizuku,host,0,0,0,,Hello, everyone.
-Dialogue: 0,0:10:04.88,0:10:07.80,Shizuku,host,0,0,0,,I'm Rina Honnizumi, the voice of MMJ's Shizuku Hinomori.
-Dialogue: 0,0:10:10.40,0:10:22.24,Shizuku,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event story and enjoy the AfterLive together!
+Dialogue: 0,0:10:04.88,0:10:07.80,Shizuku,host,0,0,0,,I'm Rina Honnizumi, the voice of Shizuku Hinomori from MORE MORE JUMP!
+Dialogue: 0,0:10:10.40,0:10:22.96,Shizuku,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event story and enjoy the AfterLive together!
 Dialogue: 0,0:10:22.96,0:10:27.40,Shizuku,host,0,0,0,,This time, we're covering the "grow glorious grow" event.
 Dialogue: 0,0:10:27.92,0:10:35.52,Shizuku,host,0,0,0,,The event just ended a moment ago, but did you all check it out?
 Dialogue: 0,0:10:35.52,0:10:36.68,Shizuku,host,0,0,0,,What did you think?
 Dialogue: 0,0:10:36.68,0:10:41.68,Shizuku,host,0,0,0,,I'll be keeping an eye on the comments, so please join in!
-Dialogue: 0,0:10:41.68,0:10:48.92,Shizuku,host,0,0,0,,I actually jotted down some notes earlier
-Dialogue: 0,0:10:48.92,0:10:54.08,Shizuku,host,0,0,0,,about things I really wanted to talk about,
-Dialogue: 0,0:10:54.08,0:10:55.70,Shizuku,host,0,0,0,,so I'm hoping to go over those with you all.
-Dialogue: 0,0:10:55.70,0:10:57.52,Shizuku,host,0,0,0,,I was just so surprised.
-Dialogue: 0,0:10:57.52,0:11:03.40,Shizuku,host,0,0,0,,Both for MMJ and for Shizuku, they've overcome so many hurdles,
-Dialogue: 0,0:11:03.40,0:11:07.56,Shizuku,host,0,0,0,,and even though she'd already grown wings and taken flight,
-Dialogue: 0,0:11:07.56,0:11:08.40,Shizuku,host,0,0,0,,she's still surpassing herself!
-Dialogue: 0,0:11:09.48,0:11:11.08,Shizuku,host,0,0,0,,Her growth just never stops.
-Dialogue: 0,0:11:11.08,0:11:12.24,Shizuku,host,0,0,0,,It's honestly so cool.
-Dialogue: 0,0:11:13.40,0:11:21.80,Shizuku,host,0,0,0,,Please post your thoughts on the event or the stream using the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:10:41.68,0:10:52.05,Shizuku,host,0,0,0,,I actually jotted down some notes earlier about some things I really wanted to talk about,
+Dialogue: 0,0:10:52.05,0:10:55.70,Shizuku,host,0,0,0,,so I'm hoping to go over those with you all a bit later.
+Dialogue: 0,0:10:55.70,0:10:57.52,Shizuku,host,0,0,0,,But yeah, this story really blew me away!
+Dialogue: 0,0:10:57.52,0:11:03.40,Shizuku,host,0,0,0,,Both MMJ and Shizuku herself have overcome so many hurdles,
+Dialogue: 0,0:11:03.40,0:11:06.52,Shizuku,host,0,0,0,,and even though she'd already said she wants to grown wings and taken flight,
+Dialogue: 0,0:11:06.52,0:11:08.40,Shizuku,host,0,0,0,,she's still finding new ways to surpass herself!
+Dialogue: 0,0:11:09.48,0:11:11.08,Shizuku,host,0,0,0,,There's no stop.
+Dialogue: 0,0:11:11.08,0:11:12.24,Shizuku,host,0,0,0,,It's amazing.
+Dialogue: 0,0:11:13.40,0:11:21.80,Shizuku,host,0,0,0,,So, please post your thoughts on the event or the stream using the hashtag #ProSekaAfterTalk.
 Dialogue: 0,0:11:21.80,0:11:25.62,Shizuku,host,0,0,0,,The staff have set up the YouTube chat so I can see it right here,
 Dialogue: 0,0:11:25.62,0:11:28.38,Shizuku,host,0,0,0,,so I'll be picking out comments that catch my eye.
-Dialogue: 0,0:11:28.38,0:11:29.86,Shizuku,host,0,0,0,,Let's see...
+Dialogue: 0,0:11:28.38,0:11:29.86,Shizuku,host,0,0,0,,Let's see... ah, good evening!
 Dialogue: 0,0:11:29.86,0:11:31.20,Shizuku,host,0,0,0,,Thank you so much!
 Dialogue: 0,0:11:31.88,0:11:35.98,Shizuku,host,0,0,0,,The staff have provided me with a device again today,
 Dialogue: 0,0:11:35.98,0:11:42.64,Shizuku,host,0,0,0,,so I'd like to look back at the story and the member illustrations with you.
 Dialogue: 0,0:11:43.28,0:11:50.04,Shizuku,host,0,0,0,,Also, I'll be creating a private room to watch the AfterLive together.
-Dialogue: 0,0:11:50.04,0:11:57.00,Shizuku,host,0,0,0,,I'll share the Room ID at 21:55, so I'll let you know then.
-Dialogue: 0,0:11:57.00,0:12:01.50,Shizuku,host,0,0,0,,Please get your devices ready so we can watch it together.
-Dialogue: 0,0:12:01.50,0:12:03.04,Shizuku,host,0,0,0,,I hope you'll all join in!
-Comment: 0,0:12:03.04,0:12:04.28,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:12:03.04,0:12:04.28,Shizuku,host,0,0,0,,Let's get started!
+Dialogue: 0,0:11:50.04,0:11:54.78,Shizuku,host,0,0,0,,I'll share the Room ID at 9:55PM, so I'll let you know then.
+Dialogue: 0,0:11:54.78,0:12:01.50,Shizuku,host,0,0,0,,I'll announce it again closer to the starting time, so please get your devices ready so we can watch it together.
+Dialogue: 0,0:12:01.50,0:12:04.28,Shizuku,host,0,0,0,,I hope you'll all join in! Let's get started!
 Comment: 0,0:12:07.00,0:12:14.02,Shizuku,,0,0,0,corner,=== Corner: Story Watchalong ===
-Dialogue: 0,0:12:07.00,0:12:14.02,Shizuku,host_meta,0,0,0,,Now then, I'd like to look back on the story of
-Dialogue: 0,0:12:14.02,0:12:19.12,Shizuku,host,0,0,0,,"Grow Glorious Grow," but first, I want to watch
-Dialogue: 0,0:12:20.68,0:12:21.80,Shizuku,host,0,0,0,,one episode together with everyone.
+Dialogue: 0,0:12:07.00,0:12:16.90,Shizuku,host_meta,0,0,0,,Now then, I'd like to look back on the story of "Grow Glorious Grow,"
+Dialogue: 0,0:12:16.90,0:12:22.36,Shizuku,host,0,0,0,,but first, I want to watch one episode together with everyone.
 Dialogue: 0,0:12:22.36,0:12:23.12,Shizuku,host,0,0,0,,Just one episode.
-Dialogue: 0,0:12:24.51,0:12:25.01,Shizuku,host,0,0,0,,I think
-Dialogue: 0,0:12:26.48,0:12:28.24,Shizuku,host,0,0,0,,opinions might be split,
-Dialogue: 0,0:12:29.00,0:12:29.84,Shizuku,host,0,0,0,,just a hunch.
-Dialogue: 0,0:12:30.88,0:12:36.84,Shizuku,host,0,0,0,,Actually, I was thinking I'd like to see Episode 7.
+Dialogue: 0,0:12:26.48,0:12:29.00,Shizuku,host,0,0,0,,I feel like opinions might be split.
+Dialogue: 0,0:12:29.00,0:12:29.84,Shizuku,host,0,0,0,,Just a hunch.
+Dialogue: 0,0:12:30.88,0:12:36.84,Shizuku,host,0,0,0,,But I was actually thinking I'd like to watch Episode 7.
 Dialogue: 0,0:12:36.84,0:12:38.52,Shizuku,host,0,0,0,,What do you all think?
 Dialogue: 0,0:12:39.12,0:12:41.56,Shizuku,host,0,0,0,,Please let me know in the comments.
 Dialogue: 0,0:12:42.24,0:12:46.64,Shizuku,host,0,0,0,,Oh, you're already saying "7"! Everyone is so kind.
@@ -73,47 +68,49 @@ Dialogue: 0,0:12:46.64,0:12:47.66,Shizuku,host,0,0,0,,Thank you.
 Dialogue: 0,0:12:47.66,0:12:52.06,Shizuku,host,0,0,0,,So Episode 7 is good? 7 it is. I'll go with your choice.
 Dialogue: 0,0:12:52.06,0:12:53.40,Shizuku,host,0,0,0,,Thank you very much.
 Dialogue: 0,0:12:53.40,0:12:58.76,Shizuku,host,0,0,0,,Alright, let's watch Episode 7 together.
-Dialogue: 0,0:13:00.19,0:13:00.69,Shizuku,host,0,0,0,,
-Dialogue: 0,0:13:02.00,0:13:03.24,Shizuku,host,0,0,0,,Wait, I'm the one who has to play it!
-Dialogue: 0,0:13:03.24,0:13:03.74,Shizuku,host,0,0,0,,Sorry.
-Dialogue: 0,0:13:05.28,0:13:06.24,Shizuku,host,0,0,0,,I shouldn't have said "here you go."
+Dialogue: 0,0:13:00.19,0:13:00.69,Shizuku,host,0,0,0,,Here we go!
+Dialogue: 0,0:13:02.00,0:13:03.34,Shizuku,host,0,0,0,,Wait, I'm the one who has to start it!
+Dialogue: 0,0:13:03.34,0:13:04.30,Shizuku,host,0,0,0,,Sorry!
+Dialogue: 0,0:13:05.28,0:13:06.24,Shizuku,host,0,0,0,,I shouldn't have said "here we go!"
 Dialogue: 0,0:13:06.79,0:13:07.50,Shizuku,host,0,0,0,,My apologies.
 Dialogue: 0,0:13:07.50,0:13:08.88,Shizuku,host,0,0,0,,I'll start it now.
-Dialogue: 0,0:13:08.88,0:13:09.38,Shizuku,host,0,0,0,,
-Dialogue: 0,0:21:24.00,0:21:25.32,Shizuku,host,0,0,0,,"I won't lose!"
-Dialogue: 0,0:21:26.96,0:21:30.04,Shizuku,host,0,0,0,,Hagiyama-chan is seriously such a good girl.
-Dialogue: 0,0:21:32.44,0:21:33.12,Shizuku,host,0,0,0,,
-Dialogue: 0,0:21:37.40,0:21:38.48,Shizuku,host,0,0,0,,And there we go.
-Dialogue: 0,0:21:38.48,0:21:40.40,Shizuku,host,0,0,0,,That's as far as we go.
-Dialogue: 0,0:21:40.40,0:21:44.56,Shizuku,host,0,0,0,,That was the moment they recognized each other as rivals.
-Dialogue: 0,0:21:45.36,0:21:49.00,Shizuku,host,0,0,0,,And that was Episode 7. We watched it together.
-Dialogue: 0,0:21:49.00,0:21:50.38,Shizuku,host,0,0,0,,It went by so fast!
+Comment: 0,0:21:24.00,0:21:25.32,Shizuku,host,0,0,0,,"I won't lose!"
+Comment: 0,0:21:26.96,0:21:30.04,Shizuku,host,0,0,0,,Hagiyama-chan is seriously such a good girl.
+Comment: 0,0:21:32.44,0:21:33.12,Shizuku,host,0,0,0,,
+Dialogue: 0,0:21:37.40,0:21:38.41,Shizuku,host,0,0,0,,And there we go.
+Dialogue: 0,0:21:38.41,0:21:40.40,Shizuku - PiP,host,0,0,0,,Ah— that's where the episode ends.
+Dialogue: 0,0:21:40.40,0:21:44.56,Shizuku - PiP,host,0,0,0,,That was the moment they recognized each other as rivals.
+Dialogue: 0,0:21:45.36,0:21:49.00,Shizuku - PiP,host,0,0,0,,So that was Episode 7.
+Dialogue: 0,0:21:49.00,0:21:49.65,Shizuku - PiP,host,0,0,0,,That went by so fast!
+Dialogue: 0,0:21:49.65,0:21:50.38,Shizuku,host,0,0,0,,That went by so fast!
 Comment: 0,0:21:50.38,0:21:51.72,Shizuku,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:21:50.38,0:21:51.72,Shizuku,host,0,0,0,,And that's as far as we'll watch.
-Dialogue: 0,0:21:52.32,0:21:59.76,Shizuku,host,0,0,0,,Actually, I really love the part that comes after this,
-Dialogue: 0,0:21:59.76,0:22:02.92,Shizuku,host,0,0,0,,where everyone is at Momo House watching the commercial that finally aired,
-Dialogue: 0,0:22:02.92,0:22:03.92,Shizuku,host,0,0,0,,and we see Saito-san's reaction.
-Dialogue: 0,0:22:04.56,0:22:11.08,Shizuku,host,0,0,0,,I also love seeing Minori-chan getting all pure and excited, squealing over it.
-Dialogue: 0,0:22:11.08,0:22:12.10,Shizuku,host,0,0,0,,But that's all for the clips.
+Dialogue: 0,0:21:50.38,0:21:51.72,Shizuku,host,0,0,0,,So that's where it ends!
+Dialogue: 0,0:21:52.32,0:21:59.76,Shizuku,host,0,0,0,,Actually, I really love the part that comes after this, when the commercial finally airs,
+Dialogue: 0,0:21:59.76,0:22:02.12,Shizuku,host,0,0,0,,and everyone is at Momo House watching it. 
+Dialogue: 0,0:22:02.12,0:22:04.56,Shizuku,host,0,0,0,,Saito-san's reaction's reaction was also pretty great.
+Dialogue: 0,0:22:04.56,0:22:11.08,Shizuku,host,0,0,0,,I also love seeing Minori-chan getting all excited and squealing. She's so pure.
+Dialogue: 0,0:22:11.08,0:22:12.10,Shizuku,host,0,0,0,,But that's all for the watchalong.
 Dialogue: 0,0:22:12.10,0:22:14.56,Shizuku,host,0,0,0,,Thank you very much for watching with me.
-Dialogue: 0,0:22:15.52,0:22:19.26,Shizuku,host,0,0,0,,I have so much I want to say, but we need to watch the live show at 10:55 PM,
+Dialogue: 0,0:22:15.52,0:22:19.26,Shizuku,host,0,0,0,,I have so much I want to say, but we need to watch the live show at 9:55 PM,
 Dialogue: 0,0:22:19.26,0:22:23.00,Shizuku,host,0,0,0,,so everyone, please keep an eye on the clock.
-Dialogue: 0,0:22:23.00,0:22:29.64,Shizuku,host,0,0,0,,I might just keep talking without noticing the time, but I really want to chat,
-Dialogue: 0,0:22:29.64,0:22:32.48,Shizuku,host,0,0,0,,so I'll talk as much as time allows.
+Dialogue: 0,0:22:23.00,0:22:28.12,Shizuku,host,0,0,0,,I might just keep yapping endlessly and lose track of the time,
+Dialogue: 0,0:22:28.12,0:22:33.08,Shizuku,host,0,0,0,,but there's so much I really wanted to talk about, so I'll squeeze as much in here as time allows.
 Dialogue: 0,0:22:33.08,0:22:35.00,Shizuku,host,0,0,0,,Where should I start?
-Dialogue: 0,0:22:36.36,0:22:38.48,Shizuku,host,0,0,0,,Right.
 Dialogue: 0,0:22:40.20,0:22:48.44,Shizuku,host,0,0,0,,I have a few favorite scenes that weren't in the episodes we just watched, so let's review.
-Dialogue: 0,0:22:48.44,0:22:56.36,Shizuku,host,0,0,0,,Hagiyama-san from Rewrite, who was in the commercial, previously appeared in the Idol Lovers festival.
-Dialogue: 0,0:22:56.36,0:23:02.34,Shizuku,host,0,0,0,,She's a member of a wonderful unit that seems like they'll have a good rivalry with MMJ,
-Dialogue: 0,0:23:02.34,0:23:11.04,Shizuku,host,0,0,0,,and it was great to see them meet like that. But here,
-Dialogue: 0,0:23:11.04,0:23:14.70,Shizuku,host,0,0,0,,she appears again as Shizuku's rival while they're co-starring as models.
+Dialogue: 0,0:22:48.44,0:22:51.95,Shizuku,host,0,0,0,,So Hagiyama-san from ReLight ended up in the commercial with Shizuku,
+Dialogue: 0,0:22:51.95,0:22:56.36,Shizuku,host,0,0,0,,but she actually previously appeared in a previous event in the Idol Lovers Festival.
+Dialogue: 0,0:22:56.36,0:23:02.34,Shizuku,host,0,0,0,,So I feel like they'll continue to foster a good, healthy rivalry with MMJ,
+Dialogue: 0,0:23:02.34,0:23:07.30,Shizuku,host,0,0,0,,and it was great to see her and Shizuku meet like that.
+Dialogue: 0,0:23:10.18,0:23:14.70,Shizuku,host,0,0,0,,But here, she appears again as Shizuku's rival while they're co-starring as models.
 Dialogue: 0,0:23:14.70,0:23:21.46,Shizuku,host,0,0,0,,They're both stepping up their game, and I'm really looking forward to seeing them both in the future.
 Dialogue: 0,0:23:21.46,0:23:23.52,Shizuku,host,0,0,0,,Also, regarding Shizuku's past...
-Dialogue: 0,0:23:25.16,0:23:32.96,Shizuku,host,0,0,0,,There were several flashback scenes. I can't remember exactly which episode numbers they were,
-Dialogue: 0,0:23:32.96,0:23:42.36,Shizuku,host,0,0,0,,but I'd love for everyone to go back and watch them. A junior member from her Cheerful＊Days era appears to greet her.
+Dialogue: 0,0:23:25.16,0:23:32.96,Shizuku,host,0,0,0,,There were several flashback scenes. I can't remember exactly which exact episodes they were in,
+Dialogue: 0,0:23:32.96,0:23:37.72,Shizuku,host,0,0,0,,but I'd love for everyone to go back and watch them.
+Dialogue: 0,0:23:37.72,0:23:42.36,Shizuku,host,0,0,0,,A junior member from her Cheerful＊Days era appears to greet her.
 Dialogue: 0,0:23:43.08,0:23:54.56,Shizuku,host,0,0,0,,Back then, Shizuku was being produced as a mysterious idol and was completely overwhelmed with work.
-Dialogue: 0,0:23:54.56,0:24:01.00,Shizuku,host,0,0,0,,It was a really painful time for her, but she was trying her absolute best. And then,
-Dialogue: 0,0:24:01.00,0:24:06.76,Shizuku,host,0,0,0,,this new junior member joined. She had worked so hard to join because she looked up to her seniors.
+Dialogue: 0,0:23:54.56,0:23:59.82,Shizuku,host,0,0,0,,It was a really painful time for her, and she worked so hard to push through it.
+Dialogue: 0,0:23:59.82,0:24:03.95,Shizuku,host,0,0,0,,And then, this new junior member joined.
+Dialogue: 0,0:24:03.95,0:24:07.56,Shizuku,host,0,0,0,,She said she had worked so hard to join because she looked up to her seniors.
 Dialogue: 0,0:24:07.56,0:24:11.56,Shizuku,host,0,0,0,,There's a scene where she tells Shizuku directly that she's going to do her best too.
 Dialogue: 0,0:24:11.56,0:24:15.48,Shizuku,host,0,0,0,,At that time, Shizuku was already...
 Dialogue: 0,0:24:17.08,0:24:21.94,Shizuku,host,0,0,0,,She was feeling really down, thinking she wasn't suited to be the center of Cheerful＊Days.
@@ -573,7 +570,7 @@ Dialogue: 0,1:05:49.52,1:05:53.52,Shizuku,host,0,0,0,,That really struck a chord
 Dialogue: 0,1:05:53.52,1:06:00.12,Shizuku,host,0,0,0,,I'm lucky to be have the opportunity to do so lots of different auditions auditions,
 Dialogue: 0,1:06:00.12,1:06:04.12,Shizuku,host,0,0,0,,but I get so nervous and put lot of pressure on myself.
 Comment: 0,1:06:04.12,1:06:04.12,Shizuku,,0,0,0,,Review translation below
-Dialogue: 0,1:06:04.12,1:06:08.38,Shizuku,host,0,0,0,,And since it's such a wonderful project, 
+Dialogue: 0,1:06:04.12,1:06:08.38,Shizuku,host,0,0,0,,And since it's such a wonderful project,
 Dialogue: 0,1:06:09.70,1:06:14.82,Shizuku,host,0,0,0,,I worry about whether I might hold the production back, or my acting was any good,
 Dialogue: 0,1:06:14.82,1:06:17.38,Shizuku,host,0,0,0,,or if I'll be a burden to my co-stars.
 Dialogue: 0,1:06:17.38,1:06:18.78,Shizuku,host,0,0,0,,All these different thoughts go through my head.
@@ -609,7 +606,7 @@ Dialogue: 0,1:07:53.88,1:07:59.78,Shizuku,host,0,0,0,,The 2DMV was just uploaded
 Dialogue: 0,1:07:59.78,1:08:00.80,Shizuku,host,0,0,0,,It was the 2DMV.
 Dialogue: 0,1:08:00.80,1:08:01.75,Shizuku,host,0,0,0,,Sorry about that.
 Dialogue: 0,1:08:02.56,1:08:03.96,Shizuku,host,0,0,0,,Please check it out!
-Dialogue: 0,1:08:04.60,1:08:14.92,Comment,host,0,0,0,,I had to listen to this 20 times to untangle everything 💀 
+Dialogue: 0,1:08:04.60,1:08:14.92,Comment,host,0,0,0,,I had to listen to this 20 times to untangle everything 💀
 Dialogue: 0,1:08:04.60,1:08:09.92,Shizuku,host,0,0,0,,Both the 2DMV and the 3DMV, and the 2D— 2DMV
 Dialogue: 0,1:08:09.92,1:08:11.46,Shizuku,host,0,0,0,,Hehe. Let me try that again.
 Dialogue: 0,1:08:11.46,1:08:14.22,Shizuku,host,0,0,0,,Both the 3DMV and the 2DMV for—
