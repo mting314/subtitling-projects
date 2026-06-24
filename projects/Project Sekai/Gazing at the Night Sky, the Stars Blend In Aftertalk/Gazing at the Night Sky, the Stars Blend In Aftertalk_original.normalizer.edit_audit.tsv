@@ -1,0 +1,9 @@
+line_id	source_text	replacement_text	start_char	end_char	status
+20	こんにー	コンニード	0	4	accepted
+28	こんにーど	コンニード	4	9	accepted
+56	こんにー	コンニード	3	7	accepted
+57	こんにー	コンニード	0	4	accepted
+116	こんにー	コンニード	3	7	accepted
+117	こんにー	コンニード	0	4	accepted
+19	こんにーど	コンニード	4	9	rejected
+19	こんにーど	コンニード	5	10	repaired
