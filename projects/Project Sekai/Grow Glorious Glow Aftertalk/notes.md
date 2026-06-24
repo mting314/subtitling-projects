@@ -67,4 +67,9 @@ TBD — fill in after editorial pass
 Grow Glorious Glow Aftertalk (feat. Shizuku's VA)
 
 ## YouTube Blurb (draft)
-TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
+
+This episode of ProSeka AfterTalk has Rina Honnizumi (voice of Shizuku Hinomori) covering the MORE MORE JUMP! event "Grow Glorious Glow," where Shizuku auditions for a Grand Fleur cosmetics commercial and goes head to head with the seasoned model Yuu Hagiyama. Hosting solo this time, she watches Episode 7 with viewers and unpacks how Shizuku closes the gap with her rival by drawing on her Cheerful＊Days past.
+
+She walks through the new card illustrations, pointing out the wings hidden in Shizuku's banner art and the swan metaphor behind the trained version, and admits she could stare at the artwork forever. She breaks down recording the "Grand Fleur" commercial, including the moment her and Hagiyama's lines synced perfectly on the first take without either of them hearing the other, and gushes over the commissioned song "Hashiru! Tooku! Todoku!" by Usushioshisuu. The episode closes on a heartfelt stretch about facing your own shortcomings and trusting that the light you're searching for will eventually reach you, right before she completely tangles herself up trying to say "2DMV" and "3DMV."
+
+Original video: (add link)
