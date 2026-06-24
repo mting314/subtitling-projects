@@ -14,7 +14,7 @@ All projects live under `projects/`, each in a subdirectory named after the cont
 
 Each subtitled video moves through these stages:
 
-1. **Generate** — run the autosub pipeline (transcribe → format → translate → postprocess) to produce `<name>_translated.ass`. Tooling lives in the [autosub](https://github.com/mting314/autosub) repo.
+1. **Generate** — set up the project (folder, `notes.md`, video download) and run the autosub pipeline (transcribe → format → translate → postprocess) to produce `<name>_translated.ass`. New-project setup steps are in [`aftertalk_project_setup.md`](aftertalk_project_setup.md); tooling lives in the [autosub](https://github.com/mting314/autosub) repo.
 2. **QC review** — human pass over `<name>_translated.ass` for consistency, grammar, spelling, and style. Follow [`subtitle_review_guide.md`](subtitle_review_guide.md).
 3. **Hardsub + trim** — burn the reviewed subs into the video and trim to the subbed portion with `hardsub_trim.sh` (see [Post-Pipeline: Hardsub + Trim](#post-pipeline-hardsub--trim)).
 4. **Publish** — write the YouTube description ([YouTube Video Blurbs](#youtube-video-blurbs)).
