@@ -10,6 +10,15 @@ Project files for Japanese-to-English fan subtitle translations. This repo track
 
 All projects live under `projects/`, each in a subdirectory named after the content.
 
+## Workflow
+
+Each subtitled video moves through these stages:
+
+1. **Generate** — run the autosub pipeline (transcribe → format → translate → postprocess) to produce `<name>_translated.ass`. Tooling lives in the [autosub](https://github.com/mting314/autosub) repo.
+2. **QC review** — human pass over `<name>_translated.ass` for consistency, grammar, spelling, and style. Follow [`subtitle_review_guide.md`](subtitle_review_guide.md).
+3. **Hardsub + trim** — burn the reviewed subs into the video and trim to the subbed portion with `hardsub_trim.sh` (see [Post-Pipeline: Hardsub + Trim](#post-pipeline-hardsub--trim)).
+4. **Publish** — write the YouTube description ([YouTube Video Blurbs](#youtube-video-blurbs)).
+
 ## Tooling
 
 The transcription and translation pipeline is in a separate repo: [mting314/autosub](https://github.com/mting314/autosub). The legacy pipeline scripts are preserved on the `ai-sub` branch of this repo.
@@ -33,6 +42,20 @@ The transcription and translation pipeline is in a separate repo: [mting314/auto
 - **Contractions**: always use natural spoken forms
 - **Song/event titles**: quoted, not italicized
 - **Project Sekai terms**: "AfterTalk" (capital T), "AfterLive" (capital L), "ProSeka" (capital S)
+
+## QC Review
+
+Before hardsubbing, do a human-pass review of `<name>_translated.ass`. The full checklist
+is in **[`subtitle_review_guide.md`](subtitle_review_guide.md)** — read it before reviewing.
+
+In short, review across four dimensions:
+
+- **Consistency** — grep each recurring term (titles, song names, character names + honorifics, stylized names) and enforce one canonical form. See the Project Sekai glossary in the guide.
+- **Grammar** — especially the capitalization/continuation rule (a comma-broken line → next line lowercase; a sentence-ending line → next line capitalized).
+- **Spelling** — name typos and duplicated words/clauses from the STT/LLM.
+- **Style** — natural casual spoken English, not academic.
+
+Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img2ass` lines), suggest edits as a table and confirm before applying, apply with a line-targeted script that dry-runs each replacement, then re-grep to verify the consistency counts.
 
 ## Post-Pipeline: Hardsub + Trim
 
