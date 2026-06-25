@@ -96,3 +96,13 @@ TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
 ## Source
 - Original video: https://www.youtube.com/watch?v=kK3aZTzvyGs
 - Video ID: kK3aZTzvyGs | Duration: 1:02:48
+
+### Download command (yt-dlp)
+
+```bash
+yt-dlp --no-update --no-playlist \
+  -f "137+251/bv*[height<=1080]+ba/b" \
+  --merge-output-format mkv \
+  -o "projects/projects/Project Sekai/Gazing at the Night Sky, the Stars Blend In Aftertalk/Gazing at the Night Sky, the Stars Blend In Aftertalk.mkv" \
+  "https://www.youtube.com/watch?v=kK3aZTzvyGs"
+```
