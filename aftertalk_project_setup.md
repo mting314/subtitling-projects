@@ -107,7 +107,8 @@ mkdir -p "projects/Project Sekai/<English event name> Aftertalk"
 Create `notes.md` from the template (copy an existing one, e.g.
 `Grow Glorious Glow Aftertalk/notes.md`). Sections: event details (JP/EN name, id, unit,
 focus character, host VA, stream date, song/composer), episode titles, story premise,
-segments, the autosub command, profile, cast, VA, YouTube title/blurb, source URL.
+segments, the autosub command, profile, cast, VA, YouTube title/blurb, source URL, and
+the **raw yt-dlp download command** (see step 5 — paste the exact command used).
 Set the commit prefix per character+number (e.g. `shizu5` for Shizuku, `saki1` for Saki).
 
 ## 5. Download the video as mkv
@@ -132,6 +133,10 @@ yt-dlp --no-update --no-playlist \
 > cases where those exact ids are absent. mkv muxes avc+opus without re-encoding.
 > `.mkv` and the rest of the video files are gitignored — only `notes.md` and the `.ass`
 > outputs get committed.
+
+**Record this exact command in the project's `notes.md`** (under a `## Source` →
+`### Download command (yt-dlp)` block). The `.mkv` itself is gitignored, so the command is
+the only committed record of how to re-fetch it — keep it reproducible.
 
 ## 6. Scope segments + build the autosub command
 
