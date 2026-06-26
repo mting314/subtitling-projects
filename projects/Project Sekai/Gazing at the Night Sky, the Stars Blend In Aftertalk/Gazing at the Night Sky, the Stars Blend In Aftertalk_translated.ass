@@ -14,9 +14,9 @@ Audio File: Gazing at the Night Sky, the Stars Blend In Aftertalk.mkv
 Video File: Gazing at the Night Sky, the Stars Blend In Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Scroll Position: 72
-Active Line: 88
-Video Position: 28446
+Scroll Position: 134
+Active Line: 151
+Video Position: 37430
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -92,95 +92,90 @@ Dialogue: 0,0:14:03.52,0:14:09.34,Default,listener_mail,0,0,0,,"I'll wish upon a
 Dialogue: 0,0:14:09.34,0:14:11.16,Default,host,0,0,0,,Thank you for writing in.
 Dialogue: 0,0:14:12.40,0:14:14.16,Default,host,0,0,0,,Yeah, that's right.
 Dialogue: 0,0:14:14.16,0:14:16.12,Default,host,0,0,0,,How should I put it...
-Dialogue: 0,0:14:16.12,0:14:22.12,Default,host,0,0,0,,when a girl who's usually so cheerful is suddenly...
-Dialogue: 0,0:14:22.12,0:14:25.80,Default,host,0,0,0,,looking a bit down. I wouldn't fully call it a "gap", but...
+Dialogue: 0,0:14:16.12,0:14:23.65,Default,host,0,0,0,,when a girl who's usually so cheerful is suddenly starts looking down like that.
+Comment: 0,0:14:22.12,0:14:22.12,Default,,0,0,0,,What's a betterr word for "gap"
+Dialogue: 0,0:14:23.65,0:14:25.80,Default,host,0,0,0,,Like, I wouldn't fully call it a "gap", but...
 Dialogue: 0,0:14:25.80,0:14:30.30,Default,host,0,0,0,,Even in their everyday lives,
 Dialogue: 0,0:14:30.30,0:14:37.16,Default,host,0,0,0,,seeing that kind of gap in someone makes you worry about them more than usual.
 Dialogue: 0,0:14:37.16,0:14:40.62,Default,host,0,0,0,,And in this event, it was just like you wrote.
 Dialogue: 0,0:14:40.62,0:14:43.78,Default,host,0,0,0,,Usually, Saki-chan's more...
-Dialogue: 0,0:14:43.78,0:14:49.56,Default,host,0,0,0,,more the type to go full steam ahead, like "Let's do this!" or "Let's go!"
-Dialogue: 0,0:14:49.56,0:14:53.88,Default,host,0,0,0,,And the rest of Leo/need is usually like, "Good grief," or something,
-Dialogue: 0,0:14:54.60,0:14:57.73,Default,host,0,0,0,,and especially Shiho-chan, who always goes "Geez",
-Dialogue: 0,0:14:57.73,0:15:00.82,Default,host,0,0,0,,but everyone still goes along with her. She really brightens up the place.
-Dialogue: 0,0:15:00.82,0:15:03.64,Default,host,0,0,0,,She really brightens up the place.
-Dialogue: 0,0:15:04.48,0:15:07.52,Default,host,0,0,0,,You can usually count on Saki to brighten things up,
-Dialogue: 0,0:15:07.52,0:15:16.76,Default,host,0,0,0,,but at the very end of this story, those lingering feelings started to surface...
+Dialogue: 0,0:14:43.78,0:14:49.56,Default,host,0,0,0,,more the type to go full steam ahead, like "Let's do this!" or "Let's go!",
+Dialogue: 0,0:14:49.56,0:14:53.88,Default,host,0,0,0,,and the rest of Leo/need is would go, "Good grief."
+Dialogue: 0,0:14:54.60,0:14:57.73,Default,host,0,0,0,,Especially Shiho-chan, who always goes "Geez."
+Dialogue: 0,0:14:57.73,0:15:00.82,Default,host,0,0,0,,But in the end everyone still goes along with her.
+Dialogue: 0,0:15:00.82,0:15:03.64,Default,host,0,0,0,,She really brightens things up.
+Dialogue: 0,0:15:04.48,0:15:07.52,Default,host,0,0,0,,You can usually count on Saki to be super bright like that,
+Dialogue: 0,0:15:07.52,0:15:16.76,Default,host,0,0,0,,but at the very end of this story, her lingering feelings started to surface...
 Dialogue: 0,0:15:16.76,0:15:21.12,Default,host,0,0,0,,I don't know what happens after this myself,
-Dialogue: 0,0:15:21.12,0:15:29.96,Default,host,0,0,0,,but in this story, she makes the choice not to say anything for now.
-Dialogue: 0,0:15:29.96,0:15:31.00,Default,host,0,0,0,,And...
+Dialogue: 0,0:15:21.12,0:15:30.17,Default,host,0,0,0,,but in this story, she makes the choice not to say anything for now.
+Dialogue: 0,0:15:30.17,0:15:31.84,Default,host,0,0,0,,And so I...
 Dialogue: 0,0:15:31.84,0:15:34.92,Default,host,0,0,0,,I don't know "gap" is the right word for it,
-Dialogue: 0,0:15:35.56,0:15:40.48,Default,host,0,0,0,,but seeing that normally-cheerful Saki-chan make this choice...
-Dialogue: 0,0:15:41.07,0:15:41.57,Default,host,0,0,0,,it's...
-Dialogue: 0,0:15:44.84,0:15:47.52,Default,host,0,0,0,,it was quite surprising.
+Dialogue: 0,0:15:35.56,0:15:41.07,Default,host,0,0,0,,but seeing Saki-chan make this choice when she's normally so earnest...
+Dialogue: 0,0:15:41.07,0:15:41.92,Default,host,0,0,0,,it was...
+Dialogue: 0,0:15:44.84,0:15:48.20,Default,host,0,0,0,,it was quite surprising.
 Dialogue: 0,0:15:48.20,0:15:53.68,Default,host,0,0,0,,But it also shows just how much she cares about everyone in Leo/need.
-Dialogue: 0,0:15:53.68,0:15:59.74,Default,host,0,0,0,,Of course, it's been in the stories up until now too, like Shiho-chan's...
-Dialogue: 0,0:15:59.74,0:16:04.72,Default,host,0,0,0,,determination toward their dream of going professional.
-Dialogue: 0,0:16:04.72,0:16:14.32,Default,host,0,0,0,,Because she treasures those feelings, Saki-chan arrived at this decision.
+Dialogue: 0,0:15:53.68,0:15:57.65,Default,host,0,0,0,,Of course we've seen examples of her friends' passion in past stories,
+Dialogue: 0,0:15:57.65,0:16:04.72,Default,host,0,0,0,,like Shiho-chan's determination toward their dream of going professional.
+Dialogue: 0,0:16:04.72,0:16:14.32,Default,host,0,0,0,,Her treasuring all their feelings is what led Saki-chan to make this decision.
 Dialogue: 0,0:16:14.32,0:16:16.52,Default,host,0,0,0,,I really feel like...
 Dialogue: 0,0:16:17.40,0:16:23.03,Default,host,0,0,0,,I just want to watch over Saki-chan as a fan myself.
 Comment: 0,0:16:23.03,0:16:23.73,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:16:24.32,0:16:28.16,Default,host,0,0,0,,When it comes to the lines I deliver as Saki...
-Dialogue: 0,0:16:28.80,0:16:35.18,Default,host,0,0,0,,This time, since I'm also someone working in this industry,
+Dialogue: 0,0:16:24.32,0:16:28.16,Default,host,0,0,0,,But as the one delivering the lines as Saki...
+Dialogue: 0,0:16:28.80,0:16:35.18,Default,host,0,0,0,,since I'm also in this industry myself,
 Dialogue: 0,0:16:35.18,0:16:40.88,Default,host,0,0,0,,I felt like I could empathize with Saki-chan's feelings in a lot of different ways.
 Dialogue: 0,0:16:40.88,0:16:49.20,Default,host,0,0,0,,Especially speaking as a performer too, I could understand the way Saki-chan felt in this story.
 Dialogue: 0,0:16:49.20,0:16:55.08,Default,host,0,0,0,,I think it's also because I've been with Saki-chan for a long time now.
-Dialogue: 0,0:16:55.08,0:17:00.12,Default,host,0,0,0,,Because I understand those various emotions, it was really painful for me too.
+Dialogue: 0,0:16:55.08,0:17:00.47,Default,host,0,0,0,,Because I understand those various emotions, it was really painful for me too.
 Dialogue: 0,0:17:01.44,0:17:04.72,Default,host,0,0,0,,I'd like to introduce another message.
 Dialogue: 0,0:17:05.28,0:17:07.70,Default,host_meta,0,0,0,,This one is from Sakaguchi-san.
 Dialogue: 0,0:17:07.70,0:17:09.22,Default,host_meta,0,0,0,,Thank you so much.
 Dialogue: 0,0:17:09.22,0:17:10.72,Default,host,0,0,0,,That's right, these three.
-Dialogue: 0,0:17:11.47,0:17:11.97,Default,host,0,0,0,,...
 Dialogue: 0,0:17:12.72,0:17:15.28,Default,listener_mail,0,0,0,,"Ending the year like this is way too rough!" they said.
 Dialogue: 0,0:17:16.36,0:17:18.60,Default,host,0,0,0,,Thanks for all the comments, everyone.
-Dialogue: 0,0:17:20.11,0:17:20.61,Default,host,0,0,0,,...
-Dialogue: 0,0:17:22.92,0:17:28.64,Default,host,0,0,0,,And having that professional mindset after finishing their solo show, maybe it's because they've grown up.
-Dialogue: 0,0:17:28.64,0:17:35.12,Default,host,0,0,0,,It's true, everyone has shown so much growth
-Dialogue: 0,0:17:35.12,0:17:36.52,Default,host,0,0,0,,throughout this journey.
-Dialogue: 0,0:17:36.52,0:17:44.82,Default,host,0,0,0,,Their ways of thinking change, and their emotions move in different ways than before, so it's only natural,
-Dialogue: 0,0:17:44.82,0:17:45.40,Default,host,0,0,0,,I suppose.
+Dialogue: 0,0:17:22.92,0:17:28.64,Default,host,0,0,0,,And thinking more like pros now that they've finished their solo show, maybe it's because they've grown up.
+Dialogue: 0,0:17:28.64,0:17:36.52,Default,host,0,0,0,,It's true, everyone has shown so much growth throughout this journey.
+Dialogue: 0,0:17:36.52,0:17:43.67,Default,host,0,0,0,,Their ways of thinking change, and their emotions move in different ways than before, so it's only natural, I suppose.
+Dialogue: 0,0:17:43.67,0:17:45.78,Default,host,0,0,0,,I suppose that's just part of growing up.
 Dialogue: 0,0:17:46.52,0:17:49.36,Default,host_meta,0,0,0,,Now, let me read the message from Sakaguchi-san.
 Dialogue: 0,0:17:49.36,0:17:50.64,Default,listener_mail,0,0,0,,"Isobe-san, kon-needo!"
 Dialogue: 0,0:17:50.64,0:17:51.92,Default,listener_mail,0,0,0,,Kon-needo!
 Dialogue: 0,0:17:52.76,0:17:59.70,Default,listener_mail,0,0,0,,"This event story had many scenes of Saki-chan's time in the hospital and her inner conflicts,
 Dialogue: 0,0:17:59.70,0:18:02.96,Default,listener_mail,0,0,0,,and watching it really made my heart ache.
-Dialogue: 0,0:18:03.92,0:18:15.28,Default,listener_mail,0,0,0,,Especially at the end of Episode 8, when Saki-chan resolved never to reveal her feelings just so she could stay with everyone, I was so overwhelmed that I burst into tears."
+Dialogue: 0,0:18:03.92,0:18:13.35,Default,listener_mail,0,0,0,,Especially at the end of Episode 8, when Saki-chan resolved never to reveal her feelings just so she could stay with everyone,"
+Dialogue: 0,0:18:13.35,0:18:15.63,Default,listener_mail,0,0,0,,"I was so overwhelmed that I burst into tears."
 Dialogue: 0,0:18:16.44,0:18:17.64,Default,listener_mail,0,0,0,,Thank you for that.
 Dialogue: 0,0:18:18.32,0:18:26.16,Default,listener_mail,0,0,0,,"So, I have a question. Was there anything you kept in mind when performing the painful scenes in Episodes 4 and 8?
 Dialogue: 0,0:18:26.16,0:18:29.72,Default,listener_mail,0,0,0,,I'd also like to know what kind of mindset you had during the recording."
 Dialogue: 0,0:18:30.44,0:18:34.50,Default,listener_mail,0,0,0,,Isobe-san, you did post a little bit on X about the recording session,
 Comment: 0,0:18:34.50,0:18:36.36,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:18:34.50,0:18:36.36,Default,listener_mail,0,0,0,,It made me want to get to know her even more deeply.
-Dialogue: 0,0:18:37.00,0:18:42.06,Default,listener_mail,0,0,0,,At the same time, it made me feel once again how glad I am that Isobe-san is the one playing Saki-chan.
-Dialogue: 0,0:18:42.06,0:18:42.68,Default,listener_mail,0,0,0,,Thank you.
-Dialogue: 0,0:18:43.79,0:18:44.29,Default,listener_mail,0,0,0,,I love the Saki-chan that Isobe-san plays.
-Dialogue: 0,0:18:44.88,0:18:47.16,Default,listener_mail,0,0,0,,The cold days are continuing, so please take care of yourself.
+Dialogue: 0,0:18:34.50,0:18:37.00,Default,listener_mail,0,0,0,,"but I'm interested if you have anything more to share."
+Dialogue: 0,0:18:37.00,0:18:42.06,Default,listener_mail,0,0,0,,"Your performance made me feel once again how glad I am that Isobe-san is the one playing Saki-chan."
+Dialogue: 0,0:18:42.06,0:18:43.20,Default,listener_mail,0,0,0,,Thank you.
+Dialogue: 0,0:18:43.79,0:18:44.29,Default,listener_mail,0,0,0,,"I love the way that you play Saki-chan."
+Dialogue: 0,0:18:44.88,0:18:47.16,Default,listener_mail,0,0,0,,"It's still pretty cold, so please take care of yourself."
 Dialogue: 0,0:18:47.16,0:18:50.86,Default,listener_mail,0,0,0,,Thank you so much for such a polite and thoughtful message.
-Dialogue: 0,0:18:50.86,0:18:53.76,Default,host,0,0,0,,First of all, hearing you say that makes me so incredibly happy.
-Dialogue: 0,0:18:54.44,0:18:58.88,Default,host,0,0,0,,It really does.
-Dialogue: 0,0:18:58.88,0:19:00.12,Default,host,0,0,0,,That's right.
-Dialogue: 0,0:19:00.79,0:19:01.29,Default,host,0,0,0,,Like I mentioned a bit earlier, this time I felt close to Saki-chan's feelings from many different angles.
-Dialogue: 0,0:19:02.60,0:19:03.57,Default,host,0,0,0,,There was Saki's own perspective, and then there were the feelings I had
-Dialogue: 0,0:19:03.57,0:19:04.44,Default,host,0,0,0,,when I first read the script myself.
-Dialogue: 0,0:19:04.44,0:19:13.68,Default,host,0,0,0,,My own perspective as a professional actress also played a part.
-Dialogue: 0,0:19:13.68,0:19:18.72,Default,host,0,0,0,,All those things overlapped, and as you wrote, episodes 4 and 8 were truly painful.
-Dialogue: 0,0:19:18.72,0:19:23.44,Default,host,0,0,0,,During the recording session, how should I put it?
-Dialogue: 0,0:19:23.96,0:19:30.88,Default,host,0,0,0,,It was like...
-Dialogue: 0,0:19:30.88,0:19:38.86,Default,host,0,0,0,,I had to try my best to stay calm, if that's the right way to say it?
-Dialogue: 0,0:19:38.86,0:19:43.00,Default,host,0,0,0,,Because it felt like my emotions were just going to overflow.
-Dialogue: 0,0:19:44.16,0:19:46.12,Default,host,0,0,0,,Even with all those different thoughts swirling around,
-Dialogue: 0,0:19:47.95,0:19:48.45,Default,host,0,0,0,,I tried to keep Saki-chan's core as my focus.
-Dialogue: 0,0:19:49.00,0:19:55.92,Default,host,0,0,0,,You mentioned that I seemed to be conscious of what was important,
-Dialogue: 0,0:19:56.92,0:20:02.44,Default,host,0,0,0,,and while my own feelings were getting mixed in from various angles,
-Dialogue: 0,0:20:03.28,0:20:10.44,Default,host,0,0,0,,if I let that happen too much, it would just be too painful.
-Dialogue: 0,0:20:11.11,0:20:11.61,Default,host,0,0,0,,I felt like my emotions would just completely take over.
-Dialogue: 0,0:20:12.24,0:20:17.56,Default,host,0,0,0,,When it comes to the actual recording session,
-Dialogue: 0,0:20:17.56,0:20:24.20,Default,host,0,0,0,,what matters most is how Saki-chan sees this story.
-Dialogue: 0,0:20:24.20,0:20:24.97,Default,host,0,0,0,,As an actress, that's what I believe is most important.
-Dialogue: 0,0:20:24.97,0:20:32.52,Default,host,0,0,0,,So I really tried to focus on that.
-Dialogue: 0,0:20:32.52,0:20:38.56,Default,host,0,0,0,,I'm so glad that came through to you.
-Dialogue: 0,0:20:38.56,0:20:47.12,Default,host,0,0,0,,Thank you for the wonderful message.
+Dialogue: 0,0:18:50.86,0:18:53.76,Default,host,0,0,0,,
+Dialogue: 0,0:18:54.44,0:18:58.88,Default,host,0,0,0,,First of all, hearing you say that makes me so incredibly happy.
+Dialogue: 0,0:18:58.88,0:19:00.12,Default,host,0,0,0,,Thank you so much.
+Dialogue: 0,0:19:02.60,0:19:03.57,Default,host,0,0,0,,Yeah...
+Dialogue: 0,0:19:04.66,0:19:13.68,Default,host,0,0,0,,Like I mentioned a bit earlier, this time I felt close to Saki-chan's feelings from many different angles.
+Dialogue: 0,0:19:13.68,0:19:18.72,Default,host,0,0,0,,There was Saki's own perspective, and then there were the feelings I had
+Dialogue: 0,0:19:18.72,0:19:23.44,Default,host,0,0,0,,when I first read the script myself.
+Dialogue: 0,0:19:23.96,0:19:30.88,Default,host,0,0,0,,My own perspective as a professional actress also played a part.
+Dialogue: 0,0:19:30.88,0:19:38.86,Default,host,0,0,0,,All those things overlapped, and as you wrote, episodes 4 and 8 were truly painful.
+Dialogue: 0,0:19:38.86,0:19:43.00,Default,host,0,0,0,,During the recording session... how should I put it? 
+Dialogue: 0,0:19:49.00,0:19:55.92,Default,host,0,0,0,,I had to try my best to stay calm, if that's the right way to say it?
+Dialogue: 0,0:19:56.92,0:20:02.44,Default,host,0,0,0,,Even with all those different thoughts swirling around,
+Dialogue: 0,0:20:03.28,0:20:07.45,Default,host,0,0,0,,I tried to keep Saki-chan's core as my focus.
+Dialogue: 0,0:20:07.45,0:20:10.44,Default,host,0,0,0,,—And so even thought a lot was going through my mind
+Dialogue: 0,0:20:12.24,0:20:17.56,Default,host,0,0,0,,This listener did ask about what I had in mind for the recording,
+Dialogue: 0,0:20:17.56,0:20:24.50,Default,host,0,0,0,,and while my own feelings were coming through for a lot of different reasons,
+Dialogue: 0,0:20:24.50,0:20:32.52,Default,host,0,0,0,,if I let that happen too much, it would just be too painful. I felt like my emotions would just completely take over.
+Dialogue: 0,0:20:32.52,0:20:38.56,Default,host,0,0,0,,When it comes to the actual recording session,
+Dialogue: 0,0:20:38.56,0:20:46.12,Default,host,0,0,0,,what matters most is how Saki-chan sees this story.
+Dialogue: 0,0:20:46.12,0:20:47.12,Default,host,0,0,0,,As an actress, that's what I believe is most important.
 Comment: 0,0:20:47.64,0:20:52.32,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:20:47.64,0:20:52.32,Default,host,0,0,0,,So, I had to keep a core focus on how Saki-chan would feel...
+Dialogue: 0,0:20:47.64,0:20:52.32,Default,host,0,0,0,,So, I really wanted to keep a core focus on how Saki-chan would feel,
 Dialogue: 0,0:20:52.32,0:20:56.96,Default,host,0,0,0,,Maintaining that objective perspective while working is really...
 Dialogue: 0,0:20:56.96,0:21:02.20,Default,host,0,0,0,,Well, right now, I'm trying my hardest to face the performance
 Dialogue: 0,0:21:02.20,0:21:06.56,Default,host,0,0,0,,and express things as Saki-chan would when I go into recording.
