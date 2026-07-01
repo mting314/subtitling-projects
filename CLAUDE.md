@@ -59,7 +59,9 @@ Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img
 
 **Positional styles (PiP / song-shift):** a layout pass, also before hardsub, so subs clear on-screen content. Run `apply_positional_styles.py` (repo root). See the "Positional styles" section of [`subtitle_review_guide.md`](subtitle_review_guide.md).
 
-**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, hardsub segment-finding (`find_segments.py`), and the YouTube title + description in one place.
+**Line length (max 2 rows):** 3+ rows is bad practice. Detect by rendering with `detect_long_lines.py` (via `uv run --with pillow --with numpy`); fix each flagged line by splitting into two events or rewording, then re-run to confirm 0 flagged. See "Dimension 5" in [`subtitle_review_guide.md`](subtitle_review_guide.md).
+
+**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, line-length QC (`detect_long_lines.py`), hardsub segment-finding (`find_segments.py`), and the YouTube title + description in one place.
 
 ## Post-Pipeline: Hardsub + Trim
 

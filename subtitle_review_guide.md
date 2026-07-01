@@ -162,6 +162,34 @@ academic essay. The pipeline output is usually close; tighten the literal/stiff 
 
 ---
 
+## Dimension 5 — Line length (max 2 rows on screen)
+
+3+ rows is bad subtitling practice: it forces the viewer's eyes to sweep too far and eats
+screen real estate. Target **≤2 rows** for every line. Row count depends on libass's actual
+wrapping under each line's *style* — `Saki - PiP` (wrap ~1020px) and `Saki - Side Song`
+(~1090px) wrap narrower than the main style (~1320px), so the same text can be 2 rows in one
+and 3 in another. **Measure by rendering, don't guess.**
+
+Detect (renders each line under its real style over black, counts rows by projection):
+```bash
+uv run --with pillow --with numpy python3 detect_long_lines.py "<name>_translated.ass"
+```
+It flags every line rendering to >2 rows. Fix each one of two ways, and **re-render to
+confirm the fix is ≤2 rows before applying**:
+
+- **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, or a
+  sentence end). Split the *time* proportionally to each half's length (cues are usually
+  6–10s, plenty for two). Preserves the exact wording.
+- **Reword shorter**, preserving meaning + the casual spoken style.
+
+Prefer split when it's two real clauses/sentences or has a natural pause (`...`); reword when
+it's a single breath. Re-run the detector after applying — the target is **0 flagged**.
+
+Runs after text edits (a reword can change wrapping) and pairs with the positional pass,
+since PiP/Side-Song lines are the most frequent 3-row offenders.
+
+---
+
 ## Positional styles — PiP + song-shift (do before hardsub)
 
 Separate from the four text dimensions: a **layout pass** so subtitles never sit on top of
