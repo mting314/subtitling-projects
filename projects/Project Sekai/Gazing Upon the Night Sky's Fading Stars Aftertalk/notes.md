@@ -2,8 +2,10 @@
 
 **Commit prefix**: `saki7`
 
-> **English title is a working translation** of 仰ぐ夜空に、星は紛れて — confirm/adjust before publishing.
-> The folder, mkv, and output files are named after it, so renaming later means renaming those too.
+> **English title (FINAL): "Gazing Upon the Night Sky's Fading Stars"** (仰ぐ夜空に、星は紛れて).
+> Confirmed 2026-07-01; folder, mkv, `.ass`, and all output files renamed to match (was
+> the working title "Gazing at the Night Sky, the Stars Blend In"). In-file event-title
+> mentions all synced to this form during the QC pass.
 
 ## Event Details
 
@@ -44,21 +46,27 @@ scoping the video / reading the event story.)
 > watchalong(s), and the MV viewing(s); keep the host's talking segments.
 > Fill in the kept ranges below, then mirror them into the autosub command.
 
-Cuts to remove (everything else is kept):
-- start → TBD — intro delay
-- TBD → TBD — story watchalong
-- TBD → TBD — MV viewing
-- TBD → end — outro
+Determined from gaps in the rendered subtitle timeline (verified against the raw
+transcript on 2026-07-01):
 
-Kept segments (transcribed + translated):
-- TBD → TBD
-- TBD → TBD
+Cuts to remove (everything else is kept):
+- 0:00:00 → 0:01:37 — intro delay (no host talk)
+- 0:05:27 → 0:10:54 — opening PV / digest (0 words in transcript — silent)
+- 0:27:40 → 0:36:06 — Episode 4 story watchalong (949 words = in-game story audio)
+- 0:51:00 → 0:52:26 — "Hanamusubi" 2DMV viewing (127 words = song lyrics)
+- 1:00:11 → end — outro
+
+Kept segments (host's talk — hardsub these, ~43 min total):
+- 0:01:37 → 0:05:27
+- 0:10:54 → 0:27:40
+- 0:36:06 → 0:51:00
+- 0:52:26 → 1:00:11
 
 ## Command (full pipeline — review/adjust segments before running)
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/Gazing at the Night Sky, the Stars Blend In Aftertalk/Gazing at the Night Sky, the Stars Blend In Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
   --profile proseka/leoneed \
   --backend chirp_3 \
   --start 00:00:00 --end 00:00:00 \
@@ -88,10 +96,14 @@ uv run autosub run \
 TBD — fill in after editorial pass
 
 ## YouTube Title
-[ENG SUB] Gazing Upon the Night Sky's Fading Stars Aftertalk (feat. Saki's VA)
+[ENG SUB] Gazing Upon the Night Sky's Fading Stars Aftertalk feat. Karin Isobe (Saki's VA)
 
-## YouTube Blurb (draft)
-TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
+## YouTube Blurb
+This episode of ProSeka AfterTalk has Karin Isobe (voice of Saki Tenma) covering the Leo/need event "Gazing Upon the Night Sky's Fading Stars," a heavy story where Saki, on the road to the group's first one-man live, gets pulled back into the loneliness of her hospital past and quietly decides to keep her feelings to herself so she can stay by everyone's side. Hosting solo, she reads through viewer messages and rewatches Episode 4 with the audience, digging into why Saki's usual brightness makes those buried emotions land even harder.
+
+She reflects on voicing Saki after all these years, how there's barely any friction left between her and the character now, and how genuinely painful Episodes 4 and 8 were to record. She walks through the new adventurer-themed card illustrations, noting that only Saki's cloak is a flat yellow instead of a gradient to signal her hiding her true feelings, that even her covered mouth is part of the design, and gushing over Honami's "MAMA" energy and the stars Saki cradles in the final art. She also breaks down the commissioned song "Hanamusubi" by Kuriyama Yuri and its just-released 2DMV, from the airy, no-room-to-breathe high chorus to the emotion she poured into every lyric, all while fretting that she's talking too much and fumbling the word "2DMV" one too many times.
+
+Original video: https://www.youtube.com/watch?v=kK3aZTzvyGs
 
 ## Source
 - Original video: https://www.youtube.com/watch?v=kK3aZTzvyGs
@@ -103,6 +115,6 @@ TBD — draft after editorial pass per `~/.claude/.../youtube_blurb_style.md`
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Project Sekai/Gazing at the Night Sky, the Stars Blend In Aftertalk/Gazing at the Night Sky, the Stars Blend In Aftertalk.mkv" \
+  -o "projects/projects/Project Sekai/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=kK3aZTzvyGs"
 ```
