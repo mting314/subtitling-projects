@@ -57,6 +57,10 @@ In short, review across four dimensions:
 
 Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img2ass` lines), suggest edits as a table and confirm before applying, apply with a line-targeted script that dry-runs each replacement, then re-grep to verify the consistency counts.
 
+**Positional styles (PiP / song-shift):** a layout pass, also before hardsub, so subs clear on-screen content. Run `apply_positional_styles.py` (repo root). See the "Positional styles" section of [`subtitle_review_guide.md`](subtitle_review_guide.md).
+
+**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, hardsub segment-finding (`find_segments.py`), and the YouTube title + description in one place.
+
 ## Post-Pipeline: Hardsub + Trim
 
 After QC, burn subtitles into video and trim to the subbed portion. **Must hardsub before trimming** — trimming invalidates .ass timestamps.
@@ -88,7 +92,7 @@ Example (Colors of Pure Sense — 2 segments, skipping story recap):
 - The `ass=` filter doesn't handle spaces in filenames — the script creates a symlink to work around this
 - Multiple segments are encoded in parallel, then concatenated with `-c copy` (no re-encode)
 - Timestamps for each project are saved in `notes.md` within each project folder
-- To auto-detect segments from subtitle gaps, analyze the .ass file for gaps > 30 seconds
+- To auto-detect keep-segments, run `find_segments.py <translated.ass> --transcript <transcript.json> --hardsub <mkv>:<out.mp4>` — it finds gaps in the rendered timeline, classifies each (silent vs watchalong audio) against the transcript, and prints a ready-to-run `hardsub_trim.sh` command
 
 See `snippets.md` for standalone ffmpeg commands.
 
