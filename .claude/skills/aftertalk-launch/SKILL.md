@@ -79,7 +79,10 @@ uv run --with pillow --with numpy python3 detect_long_lines.py \
 ```
 For each flagged line, offer the user **both** fixes and apply their choice:
 - **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, sentence
-  end); split the time proportionally to each half's length. Preserves exact wording.
+  end) with `split_subtitle_line.py --line N --before "<clause>" --transcript <t.json>`.
+  It sets the *time* split on a real breath: proportional-by-length estimate, then snaps
+  to the largest word-gap within ±1s of it (rejecting distant mid-sentence pauses and any
+  snap that leaves a half too short to read). Preserves exact wording + `\pos`.
 - **Reword shorter**, preserving meaning + casual style.
 
 Prefer split for two real clauses/sentences or a natural `...` pause; reword for a single
@@ -106,6 +109,13 @@ watchalong you're intentionally cutting (its own audio, not host talk). **Confir
 the cut plan with the user** before rendering — cutting is an editorial call, and
 the render is expensive. Record the ranges in the project's `notes.md` "Segments".
 
+**Fade-aware boundaries:** passing `--mkv` (or `--hardsub`, which reuses its MKV)
+makes it run `blackdetect` near each boundary and pull the cut just clear of any
+source fade. Watchalongs/MVs fade to/from black at their edges; the pad can push a
+cut into a fade, and two cut-adjacent half-fades meeting at a concat join produce a
+black flash. It emits sub-second boundaries — no subtitles lost (the pad region is
+sub-free). The script reports e.g. `end 0:51:00->0:50:59.69 (source fade)`.
+
 Then **hardsub** (the `--hardsub` flag prints this command; must hardsub before
 trimming — trimming invalidates .ass timestamps):
 ```bash
@@ -114,7 +124,9 @@ trimming — trimming invalidates .ass timestamps):
 ```
 Requires ffmpeg built with libass. Segments encode in parallel, then concat with
 `-c copy`. The script symlinks the subs to a spaceless name (the `ass=` filter
-can't handle spaces).
+can't handle spaces). It also runs a **post-render `blackdetect`** and warns about
+any black intervals — a black flash at a join usually means a source fade got
+caught at a cut boundary (re-run `find_segments.py --mkv` and re-render if so).
 
 ---
 
