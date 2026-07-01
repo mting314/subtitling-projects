@@ -94,7 +94,7 @@ Example (Colors of Pure Sense — 2 segments, skipping story recap):
 - The `ass=` filter doesn't handle spaces in filenames — the script creates a symlink to work around this
 - Multiple segments are encoded in parallel, then concatenated with `-c copy` (no re-encode)
 - Timestamps for each project are saved in `notes.md` within each project folder
-- To auto-detect keep-segments, run `find_segments.py <translated.ass> --transcript <transcript.json> --hardsub <mkv>:<out.mp4>` — it finds gaps in the rendered timeline, classifies each (silent vs watchalong audio) against the transcript, and prints a ready-to-run `hardsub_trim.sh` command
+- To auto-detect keep-segments, run `find_segments.py <translated.ass> --transcript <transcript.json> --hardsub <mkv>:<out.mp4>` — it finds gaps in the rendered timeline, classifies each (silent vs watchalong audio) against the transcript, and prints a ready-to-run `hardsub_trim.sh` command. With `--mkv`/`--hardsub` it's **fade-aware**: runs `blackdetect` near each boundary and pulls cuts clear of source fades (avoids black flashes at joins). `hardsub_trim.sh` also runs a post-render `blackdetect` and warns if any black remains.
 
 See `snippets.md` for standalone ffmpeg commands.
 

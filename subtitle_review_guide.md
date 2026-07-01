@@ -178,8 +178,12 @@ It flags every line rendering to >2 rows. Fix each one of two ways, and **re-ren
 confirm the fix is ≤2 rows before applying**:
 
 - **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, or a
-  sentence end). Split the *time* proportionally to each half's length (cues are usually
-  6–10s, plenty for two). Preserves the exact wording.
+  sentence end) using `split_subtitle_line.py --line N --before "<clause>" --transcript
+  <t.json>`. The *time* split lands on a real breath: it estimates proportionally by each
+  half's length, then snaps to the largest word-gap within ±1s (rejecting a distant
+  mid-sentence pause, or any snap that leaves a half under ~1s to read). Preserves exact
+  wording and any `\pos`. The transcript words are source-language, so they're used only
+  for *timing* (silence is language-agnostic), never to choose the text split point.
 - **Reword shorter**, preserving meaning + the casual spoken style.
 
 Prefer split when it's two real clauses/sentences or has a natural pause (`...`); reword when
