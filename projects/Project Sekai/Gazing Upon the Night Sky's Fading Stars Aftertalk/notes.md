@@ -46,21 +46,20 @@ scoping the video / reading the event story.)
 > watchalong(s), and the MV viewing(s); keep the host's talking segments.
 > Fill in the kept ranges below, then mirror them into the autosub command.
 
-Determined from gaps in the rendered subtitle timeline (verified against the raw
-transcript on 2026-07-01):
+Determined from gaps in the rendered subtitle timeline (re-derived after human QC,
+2026-07-01). Human QC added a corrected opening at 9:43 (after the OP), so the earlier
+opening block at 2:45–5:26 (Block A) is a duplicate and is CUT.
 
 Cuts to remove (everything else is kept):
-- 0:00:00 → 0:01:37 — intro delay (no host talk)
-- 0:05:27 → 0:10:54 — opening PV / digest (0 words in transcript — silent)
-- 0:27:40 → 0:36:06 — Episode 4 story watchalong (949 words = in-game story audio)
-- 0:51:00 → 0:52:26 — "Hanamusubi" 2DMV viewing (127 words = song lyrics)
-- 1:00:11 → end — outro
+- 0:00:00 → 0:09:42 — intro delay + duplicate opening (Block A) + OP/PV (silent)
+- 0:27:40 → 0:36:05 — Episode 4 story watchalong (in-game story audio)
+- 0:51:00 → 0:52:25 — "Hanamusubi" 2DMV viewing (song lyrics)
+- 1:00:09 → end — outro
 
-Kept segments (host's talk — hardsub these, ~43 min total):
-- 0:01:37 → 0:05:27
-- 0:10:54 → 0:27:40
-- 0:36:06 → 0:51:00
-- 0:52:26 → 1:00:11
+Kept segments (host's talk — hardsub these):
+- 0:09:42 → 0:27:40
+- 0:36:05 → 0:51:00
+- 0:52:25 → 1:00:09
 
 ## Command (full pipeline — review/adjust segments before running)
 
