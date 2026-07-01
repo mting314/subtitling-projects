@@ -3,24 +3,27 @@ name: aftertalk-launch
 description: >-
   Use when finishing a ProSeka AfterTalk (or similar) `_translated.ass` for
   release, after the QC text pass — the layout + publish steps in one place:
-  (1) applying PiP / song-shift positional styles, (2) finding hardsub
-  keep-segments (cutting the intro delay, PV, story watchalong, and song/2DMV),
-  and (3) writing the YouTube title + description. Self-contained: drives
-  `apply_positional_styles.py`, `find_segments.py`, and `hardsub_trim.sh`, and
-  inlines the YouTube blurb style rules. Composes with the `aegisub-ass` skill
-  for render verification.
+  (1) applying PiP / song-shift positional styles, (2) detecting + fixing lines
+  that render to 3+ rows, (3) finding hardsub keep-segments (cutting the intro
+  delay, PV, story watchalong, and song/2DMV), and (4) writing the YouTube title
+  + description. Self-contained: drives `apply_positional_styles.py`,
+  `detect_long_lines.py`, `find_segments.py`, and `hardsub_trim.sh`, and inlines
+  the YouTube blurb style rules. Composes with the `aegisub-ass` skill for render
+  verification.
 ---
 
 # AfterTalk launch (positioning → hardsub → publish)
 
 The finishing pass on a `_translated.ass`, after the four-dimension QC text review
-(that's in `subtitle_review_guide.md`). Three steps, each backed by a deterministic
+(that's in `subtitle_review_guide.md`). Four steps, each backed by a deterministic
 script at the **projects repo root** so this skill only supplies judgment. Run
 everything from the projects repo root.
 
 1. **Positional styles** — reposition subs so they clear on-screen content.
-2. **Hardsub segments** — find the host-talk ranges to keep and burn them in.
-3. **YouTube title + description** — write the release copy.
+2. **Line length** — flag + fix any line rendering to 3+ rows (do after positional,
+   since PiP/Side-Song lines wrap narrower and are the main offenders).
+3. **Hardsub segments** — find the host-talk ranges to keep and burn them in.
+4. **YouTube title + description** — write the release copy.
 
 ---
 
@@ -62,7 +65,30 @@ the pip text sits mid-frame and the shift text clears the lower-right.
 
 ---
 
-## 2. Hardsub segments (find keep-ranges → burn)
+## 2. Line length (max 2 rows on screen)
+
+3+ rows is bad practice (eye-sweep, screen real estate). Row count depends on libass's
+actual wrapping under each line's *style*, so measure by rendering. Run after positional
+(PiP wraps ~1020px, Side-Song ~1090px vs main ~1320px — the narrow ones are the offenders)
+and after any text edits (a reword changes wrapping).
+
+Detect (renders each line under its style over black, counts rows by projection):
+```bash
+uv run --with pillow --with numpy python3 detect_long_lines.py \
+  "projects/Project Sekai/<event>/<name>_translated.ass"
+```
+For each flagged line, offer the user **both** fixes and apply their choice:
+- **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, sentence
+  end); split the time proportionally to each half's length. Preserves exact wording.
+- **Reword shorter**, preserving meaning + casual style.
+
+Prefer split for two real clauses/sentences or a natural `...` pause; reword for a single
+breath. **Re-render every candidate fix and confirm ≤2 rows before presenting/applying**,
+then re-run the detector — target is 0 flagged. (Requires pillow + numpy via `uv run --with`.)
+
+---
+
+## 3. Hardsub segments (find keep-ranges → burn)
 
 An AfterTalk interleaves host talk (keep) with watchalongs (cut): intro delay, an
 opening PV/digest, the in-game story watchalong, and the song/2DMV. Cut regions are
@@ -92,7 +118,7 @@ can't handle spaces).
 
 ---
 
-## 3. YouTube title + description
+## 4. YouTube title + description
 
 Write these into the project's `notes.md` (`## YouTube Title`, `## YouTube Blurb`).
 
