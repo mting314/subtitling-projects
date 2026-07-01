@@ -162,6 +162,60 @@ academic essay. The pipeline output is usually close; tighten the literal/stiff 
 
 ---
 
+## Positional styles — PiP + song-shift (do before hardsub)
+
+Separate from the four text dimensions: a **layout pass** so subtitles never sit on top of
+on-screen content. Two recurring situations, each with a dedicated style. **Use
+`Colors of Pure Sense_translated.ass` as the reference** — its style values are known-good
+at PlayRes 1920×1080; copy the *position (Alignment) and margins* verbatim, keeping the
+episode's own character color/font.
+
+The pipeline pre-assigns the style *names* to the right lines (e.g. `<Char> - PiP`,
+`<Char> - Side Song`) but often ships them as **plain copies of the main style** with the
+wrong margins, and PiP lines with **no `\pos` tag**. This pass fixes both.
+
+### The two styles
+
+| Situation | Reference style (Colors) | Alignment | MarginL | MarginR | MarginV | Position tag on lines |
+|---|---|---|---|---|---|---|
+| **PiP** — host cam / card art fills most of the frame, subs sit in a fixed spot | `PiP` | `8` (top-center anchor) | `100` | `800` | `50` | **`{\pos(650,750)}` on every line** |
+| **Song-shift** — a 2D/3D MV plays in the **lower-right**; shift subs left to clear it | `DefaultOnibe - Shifted` (a.k.a. "Side Song") | `2` (bottom-center) | `100` | `730` | `60` | none — style margins do it |
+
+> Only Alignment + the three margins change between these and the main style. Keep the
+> character's `OutlineColour`, font, `Bold`, `Outline`, `Shadow` identical to the main
+> style so the look is consistent.
+
+The **PiP** case relies on `\pos`, not margins (the `\pos` overrides them; Alignment `8`
+just sets the anchor point). The **song-shift** case relies purely on the asymmetric
+margins (bigger `MarginR` pushes the centered box left).
+
+### Apply
+
+Use the script — it does both fixes deterministically (idempotent, `--dry-run`, prints a
+summary), reading the canonical layout values live from the reference file. It lives at the
+projects repo root (next to `hardsub_trim.sh`); run it from there:
+
+```bash
+python3 apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+  --reference "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
+  --pip   "<Char> - PiP:PiP:650,750" \
+  --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
+  --dry-run          # inspect first, then drop --dry-run
+```
+
+Mapping: `TARGET_STYLE:REF_STYLE[:X,Y]`. It copies only Alignment + MarginL/R/V (color/font
+preserved), prepends `{\pos(650,750)}` to PiP *Dialogue* lines, and skips `Comment:` lines
+and any line already carrying a `\pos`. The **`aftertalk-launch` skill** wraps this
+(along with hardsub segment-finding and the YouTube title/description) — it resolves
+the differing style names to roles and render-verifies for you.
+
+Then **verify by rendering** (per the `aegisub-ass` skill): retime one PiP and one
+song-shift line to `0:00:00.00–0:00:05.00`, render a frame over flat gray, and confirm the
+PiP text sits mid-frame and the song-shift text clears the lower-right. Don't trust the
+tags; trust the render.
+
+---
+
 ## Per-show glossary (extend over time)
 
 Canonical forms to enforce across all episodes of a show.
