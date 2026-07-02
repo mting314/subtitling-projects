@@ -1,0 +1,3 @@
+line_id	source_text	replacement_text	start_char	end_char	status
+1	こんに	コンニーゴ	3	8	rejected
+1	こんに	コンニーゴ	5	8	repaired
