@@ -8,16 +8,16 @@ description: >-
   delay, PV, story watchalong, and song/2DMV), and (4) writing the YouTube title
   + description. Self-contained: drives `apply_positional_styles.py`,
   `detect_long_lines.py`, `find_segments.py`, and `hardsub_trim.sh`, and inlines
-  the YouTube blurb style rules. Composes with the `aegisub-ass` skill for render
-  verification.
+  the YouTube blurb style rules. The scripts live in `scripts/` under the projects
+  repo root. Composes with the `aegisub-ass` skill for render verification.
 ---
 
 # AfterTalk launch (positioning → hardsub → publish)
 
 The finishing pass on a `_translated.ass`, after the four-dimension QC text review
 (that's in `subtitle_review_guide.md`). Four steps, each backed by a deterministic
-script at the **projects repo root** so this skill only supplies judgment. Run
-everything from the projects repo root.
+script in **`scripts/`** under the projects repo root so this skill only supplies
+judgment. Run everything from the projects repo root (paths below are `scripts/…`).
 
 1. **Positional styles** — reposition subs so they clear on-screen content.
 2. **Line length** — flag + fix any line rendering to 3+ rows (do after positional,
@@ -50,7 +50,7 @@ grep "^Style:" "$f"
 **Apply** (copies only Alignment + MarginL/R/V — color/font preserved; skips
 `Comment:` and already-positioned lines; idempotent, `--dry-run`):
 ```bash
-python3 apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+python3 scripts/apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
   --reference "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
   --pip   "<Char> - PiP:PiP:650,750" \
   --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
@@ -74,12 +74,12 @@ and after any text edits (a reword changes wrapping).
 
 Detect (renders each line under its style over black, counts rows by projection):
 ```bash
-uv run --with pillow --with numpy python3 detect_long_lines.py \
+uv run --with pillow --with numpy python3 scripts/detect_long_lines.py \
   "projects/Project Sekai/<event>/<name>_translated.ass"
 ```
 For each flagged line, offer the user **both** fixes and apply their choice:
 - **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, sentence
-  end) with `split_subtitle_line.py --line N --before "<clause>" --transcript <t.json>`.
+  end) with `scripts/split_subtitle_line.py --line N --before "<clause>" --transcript <t.json>`.
   It sets the *time* split on a real breath: proportional-by-length estimate, then snaps
   to the largest word-gap within ±1s of it (rejecting distant mid-sentence pauses and any
   snap that leaves a half too short to read). Preserves exact wording + `\pos`.
@@ -100,7 +100,7 @@ rendered `Dialogue` timeline. `find_segments.py` finds them and, with
 `--transcript`, reports whether each gap is silent (safe) or watchalong audio.
 
 ```bash
-python3 find_segments.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+python3 scripts/find_segments.py "projects/Project Sekai/<event>/<name>_translated.ass" \
   --transcript "projects/Project Sekai/<event>/<name>_transcript.json" \
   --hardsub "projects/Project Sekai/<event>/<name>.mkv:projects/Project Sekai/<event>/<name>_final.mp4"
 ```
@@ -119,14 +119,14 @@ sub-free). The script reports e.g. `end 0:51:00->0:50:59.69 (source fade)`.
 Then **hardsub** (the `--hardsub` flag prints this command; must hardsub before
 trimming — trimming invalidates .ass timestamps):
 ```bash
-./hardsub_trim.sh "<name>.mkv" "<name>_translated.ass" "<name>_final.mp4" \
+./scripts/hardsub_trim.sh "<name>.mkv" "<name>_translated.ass" "<name>_final.mp4" \
   0:01:37 0:05:27  0:10:53 0:27:40  0:36:05 0:51:00  0:52:25 1:00:09
 ```
 Requires ffmpeg built with libass. Segments encode in parallel, then concat with
 `-c copy`. The script symlinks the subs to a spaceless name (the `ass=` filter
 can't handle spaces). It also runs a **post-render `blackdetect`** and warns about
 any black intervals — a black flash at a join usually means a source fade got
-caught at a cut boundary (re-run `find_segments.py --mkv` and re-render if so).
+caught at a cut boundary (re-run `scripts/find_segments.py --mkv` and re-render if so).
 
 ---
 
