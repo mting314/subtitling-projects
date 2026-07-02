@@ -1,0 +1,358 @@
+2026-07-02 04:37:46,379:INFO:autosub.cli: Saving log to /projects/We_Escape_to_Survive_Aftertalk_logs_20260702_043746/run.log
+2026-07-02 04:37:46,383:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-07-02 04:37:46,383:INFO:autosub.pipeline.transcribe.main: Starting chirp_3 transcription for 5 segment(s) from /projects/We_Escape_to_Survive_Aftertalk.mkv
+2026-07-02 04:37:46,383:INFO:autosub.pipeline.transcribe.main: Submitting 5 transcription segment(s) with up to 4 concurrent worker(s)...
+2026-07-02 04:37:46,384:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 1 (start=10:00, end=15:00)...
+2026-07-02 04:37:46,385:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 2 (start=30:04, end=35:26)...
+2026-07-02 04:37:46,386:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 3 (start=47:42, end=48:55)...
+2026-07-02 04:37:46,387:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 4 (start=50:31, end=54:46)...
+2026-07-02 04:37:50,307:INFO:autosub.pipeline.transcribe.main: Segment 3 audio duration: 73.01 seconds
+2026-07-02 04:37:50,308:INFO:autosub.pipeline.transcribe.main: Uploading segment 3 audio to autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus...
+2026-07-02 04:37:50,320:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-07-02 04:37:50,320:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-07-02 04:37:50,321:DEBUG:google.auth._default: Cloud SDK credentials not found on disk; not using them
+2026-07-02 04:37:50,535:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:50,543:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:50,552:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:37:50,597:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:50,603:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:50,617:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:37:50,626:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:37:50,823:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1280
+2026-07-02 04:37:50,898:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:50,901:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:50,904:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-07-02 04:37:50,905:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus...
+2026-07-02 04:37:50,948:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:50,957:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:50,973:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:37:51,362:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-786c5e2f-0000-24fd-82ac-14c14ef8b708 for gs://subtitling-projects/autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus. Polling every 15 seconds.
+2026-07-02 04:37:55,637:INFO:autosub.pipeline.transcribe.main: Segment 4 audio duration: 255.01 seconds
+2026-07-02 04:37:55,637:INFO:autosub.pipeline.transcribe.main: Uploading segment 4 audio to autosub_staging/a86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus...
+2026-07-02 04:37:55,648:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:55,654:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:55,663:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:37:55,694:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:55,700:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:55,712:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:37:55,723:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:37:55,925:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1281
+2026-07-02 04:37:55,953:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:55,957:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:55,958:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-07-02 04:37:55,963:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/a86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus...
+2026-07-02 04:37:55,981:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:55,987:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:55,994:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:37:56,341:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6cfa0332-0000-2cf7-ad72-7474463f929d for gs://subtitling-projects/autosub_staging/a86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus. Polling every 15 seconds.
+2026-07-02 04:37:56,546:INFO:autosub.pipeline.transcribe.main: Segment 1 audio duration: 300.01 seconds
+2026-07-02 04:37:56,546:INFO:autosub.pipeline.transcribe.main: Uploading segment 1 audio to autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus...
+2026-07-02 04:37:56,554:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,557:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:56,562:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:37:56,581:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,584:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:56,588:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:37:56,595:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:37:56,741:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1281
+2026-07-02 04:37:56,773:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,776:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:56,777:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-07-02 04:37:56,778:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus...
+2026-07-02 04:37:56,787:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,790:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:56,793:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:37:56,890:INFO:autosub.pipeline.transcribe.main: Segment 2 audio duration: 322.01 seconds
+2026-07-02 04:37:56,891:INFO:autosub.pipeline.transcribe.main: Uploading segment 2 audio to autosub_staging/7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus...
+2026-07-02 04:37:56,896:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,898:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:56,901:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:37:56,912:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:56,914:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:56,917:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:37:56,920:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:37:57,046:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1281
+2026-07-02 04:37:57,057:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:57,059:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:37:57,060:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-07-02 04:37:57,061:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus...
+2026-07-02 04:37:57,069:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:37:57,071:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:37:57,074:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:37:57,120:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6e91e23c-0000-256b-9ebf-34391606f34b for gs://subtitling-projects/autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus. Polling every 15 seconds.
+2026-07-02 04:37:57,410:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-79402b27-0000-20f9-97fe-582429cfae60 for gs://subtitling-projects/autosub_staging/7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus. Polling every 15 seconds.
+2026-07-02 04:38:42,323:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6cfa0332-0000-2cf7-ad72-7474463f929d for gs://subtitling-projects/autosub_staging/a86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus completed in 0m 45s.
+2026-07-02 04:38:42,323:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-07-02 04:38:42,356:WARNING:autosub.pipeline.transcribe.main: Clamped 150 bogus word timestamp(s) from Chirp API response.
+2026-07-02 04:38:42,387:WARNING:autosub.pipeline.transcribe.main: Clamped 150 bogus segment word timestamp(s) from Chirp API response.
+2026-07-02 04:38:42,388:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/a86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus...
+2026-07-02 04:38:42,393:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:42,396:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:38:42,397:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:38:42,398:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:42,400:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:38:42,402:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:38:42,404:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:38:42,449:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2Fa86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus?fields=name&prettyPrint=false HTTP/1.1" 200 138
+2026-07-02 04:38:42,499:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2Fa86b4d55-e042-402b-9040-56b16bf49a52_We_Escape_to_Survive_Aftertalk_audio_be97c2f03a1448a2a885121c60e1093b.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-07-02 04:38:42,500:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 5 (start=1:00:11, end=1:03:03)...
+2026-07-02 04:38:43,338:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-79402b27-0000-20f9-97fe-582429cfae60 for gs://subtitling-projects/autosub_staging/7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus completed in 0m 45s.
+2026-07-02 04:38:43,339:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-07-02 04:38:43,398:WARNING:autosub.pipeline.transcribe.main: Clamped 127 bogus word timestamp(s) from Chirp API response.
+2026-07-02 04:38:43,462:WARNING:autosub.pipeline.transcribe.main: Clamped 127 bogus segment word timestamp(s) from Chirp API response.
+2026-07-02 04:38:43,462:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus...
+2026-07-02 04:38:43,469:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:43,472:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:38:43,473:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:38:43,475:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:43,478:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:38:43,482:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:38:43,483:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:38:43,552:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus?fields=name&prettyPrint=false HTTP/1.1" 200 138
+2026-07-02 04:38:43,614:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F7f6182ea-5713-4814-929b-439ace31649b_We_Escape_to_Survive_Aftertalk_audio_a7fa2e4973d24a67bca96f7c2b757f6d.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-07-02 04:38:44,596:INFO:autosub.pipeline.transcribe.main: Segment 5 audio duration: 172.01 seconds
+2026-07-02 04:38:44,597:INFO:autosub.pipeline.transcribe.main: Uploading segment 5 audio to autosub_staging/ecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus...
+2026-07-02 04:38:44,602:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:44,604:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:38:44,605:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:38:44,609:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:44,611:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:38:44,613:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:38:44,615:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:38:44,716:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1281
+2026-07-02 04:38:44,728:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:44,731:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:38:44,731:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-07-02 04:38:44,732:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/ecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus...
+2026-07-02 04:38:44,760:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:44,762:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:38:44,771:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:38:45,105:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-75d5a821-0000-2f31-a50b-f40304373cc8 for gs://subtitling-projects/autosub_staging/ecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus. Polling every 15 seconds.
+2026-07-02 04:38:52,262:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-786c5e2f-0000-24fd-82ac-14c14ef8b708 for gs://subtitling-projects/autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus after 1m 00s.
+2026-07-02 04:38:58,019:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6e91e23c-0000-256b-9ebf-34391606f34b for gs://subtitling-projects/autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus after 1m 00s.
+2026-07-02 04:38:58,396:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6e91e23c-0000-256b-9ebf-34391606f34b for gs://subtitling-projects/autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus completed in 1m 01s.
+2026-07-02 04:38:58,396:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-07-02 04:38:58,578:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus...
+2026-07-02 04:38:58,585:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:58,587:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:38:58,588:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:38:58,589:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:38:58,591:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:38:58,594:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:38:58,595:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:38:58,636:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus?fields=name&prettyPrint=false HTTP/1.1" 200 138
+2026-07-02 04:38:58,694:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F3f02fffb-18a3-441f-9160-bb3f4972b360_We_Escape_to_Survive_Aftertalk_audio_abaa993c8b1c45b28b4305f650d504e3.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-07-02 04:39:07,817:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-786c5e2f-0000-24fd-82ac-14c14ef8b708 for gs://subtitling-projects/autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus completed in 1m 16s.
+2026-07-02 04:39:07,817:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-07-02 04:39:07,834:WARNING:autosub.pipeline.transcribe.main: Clamped 39 bogus word timestamp(s) from Chirp API response.
+2026-07-02 04:39:07,846:WARNING:autosub.pipeline.transcribe.main: Clamped 39 bogus segment word timestamp(s) from Chirp API response.
+2026-07-02 04:39:07,847:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus...
+2026-07-02 04:39:07,853:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:07,856:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:39:07,857:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:39:07,858:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:07,860:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:39:07,863:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:39:07,864:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:39:07,900:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus?fields=name&prettyPrint=false HTTP/1.1" 200 138
+2026-07-02 04:39:07,938:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F7886227b-4e2d-4d6c-8967-7be8d9a33d96_We_Escape_to_Survive_Aftertalk_audio_b4b6b5d2f4d64896ad7c3c68c48e35ee.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-07-02 04:39:31,170:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-75d5a821-0000-2f31-a50b-f40304373cc8 for gs://subtitling-projects/autosub_staging/ecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus completed in 0m 46s.
+2026-07-02 04:39:31,170:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-07-02 04:39:31,193:WARNING:autosub.pipeline.transcribe.main: Clamped 110 bogus word timestamp(s) from Chirp API response.
+2026-07-02 04:39:31,215:WARNING:autosub.pipeline.transcribe.main: Clamped 110 bogus segment word timestamp(s) from Chirp API response.
+2026-07-02 04:39:31,216:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/ecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus...
+2026-07-02 04:39:31,223:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:31,225:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/universe/universe-domain HTTP/1.1" 404 1604
+2026-07-02 04:39:31,226:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-07-02 04:39:31,228:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:31,230:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:39:31,233:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_only%2Chttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.read_write HTTP/1.1" 200 1083
+2026-07-02 04:39:31,235:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-07-02 04:39:31,279:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2Fecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus?fields=name&prettyPrint=false HTTP/1.1" 200 138
+2026-07-02 04:39:31,318:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2Fecbebdaa-fb9d-4feb-b414-c0e57897d641_We_Escape_to_Survive_Aftertalk_audio_68dc836353c34c0dbf5307d79cadb0da.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-07-02 04:39:31,322:INFO:autosub.pipeline.transcribe.main: Found 4107 transcribed words across 5 segment(s). Saving to /projects/We_Escape_to_Survive_Aftertalk_transcript.json...
+2026-07-02 04:39:31,348:INFO:autosub.cli: [Step 1.5/4] Processing Video Keyframes & Metadata...
+2026-07-02 04:39:31,687:INFO:autosub.cli: Extracting keyframes to /projects/We_Escape_to_Survive_Aftertalk_keyframes.log...
+2026-07-02 04:39:31,687:WARNING:autosub.cli: Failed to process keyframes: SCXvid not found in system PATH. Please install SCXvid.exe
+2026-07-02 04:39:31,688:INFO:autosub.cli: [Step 2/4] Formatting...
+2026-07-02 04:39:31,688:INFO:autosub.pipeline.format.main: Chunking transcript into semantic subtitle lines...
+2026-07-02 04:39:31,688:INFO:autosub.pipeline.format.main: Loading transcript from /projects/We_Escape_to_Survive_Aftertalk_transcript.json...
+2026-07-02 04:39:31,752:INFO:autosub.pipeline.format.main: Generated 247 initial subtitle lines from /projects/We_Escape_to_Survive_Aftertalk_transcript.json.
+2026-07-02 04:39:31,755:INFO:autosub.pipeline.format.main: Generated 247 subtitle lines.
+2026-07-02 04:39:31,943:DEBUG:asyncio: Using selector: EpollSelector
+2026-07-02 04:39:31,993:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:39:32,002:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:32,005:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:39:32,007:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:39:32,009:DEBUG:httpcore.connection: connect_tcp.started host='aiplatform.googleapis.com' port=443 local_address=None timeout=600.0 socket_options=None
+2026-07-02 04:39:32,017:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7ee1c86b9790>
+2026-07-02 04:39:32,017:DEBUG:httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x7ee1cafc8450> server_hostname='aiplatform.googleapis.com' timeout=600.0
+2026-07-02 04:39:32,021:DEBUG:httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7ee1d117a000>
+2026-07-02 04:39:32,021:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:39:32,022:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:39:32,022:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:39:32,022:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:39:32,022:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:39:33,252:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:39:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:39:33,253:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:39:33,254:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:39:33,255:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:39:33,255:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:39:33,255:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:39:33,355:DEBUG:autosub.core.llm.pydantic_ai: LLM keyword normalizer response diagnostics: VertexResponseDiagnostics(response_id='hOtFav7nBouModAPrezYoQk', model_version='gemini-3.1-flash-lite-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=9411, candidates_token_count=70, total_token_count=9481, thoughts_token_count=None, thinking_text=None, text_preview='[{"line_id": 1, "source_text": "こんに", "replacement_text": "コンニーゴ", "start_char": 3, "end_char": 8}]', http_body_preview=None)
+2026-07-02 04:39:33,355:WARNING:autosub.pipeline.format.normalizer: Overriding edit range for line 1 source='こんに' replacement='コンニーゴ' from [3, 8) to [5, 8).
+2026-07-02 04:39:33,356:INFO:autosub.pipeline.format.normalizer: Locally repaired 1 rejected first-pass edits before retrying the normalizer.
+2026-07-02 04:39:33,356:INFO:autosub.pipeline.format.normalizer: Applying 1 LLM-proposed normalization edits across 1 lines...
+2026-07-02 04:39:33,357:INFO:autosub.pipeline.format.main: Running combined radio discourse + corners classification...
+2026-07-02 04:39:33,381:INFO:autosub.extensions.corners.main:   No cue matches for: Card Illustrations, Fan Letter Corner, Song Watchalong, Story Watchalong
+2026-07-02 04:39:33,411:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:39:33,418:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:33,420:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:39:33,422:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:39:33,424:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:39:33,424:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:39:33,424:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:39:33,425:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:39:33,425:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:39:55,113:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:39:55 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:39:55,114:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:39:55,114:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:39:55,117:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:39:55,117:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:39:55,117:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:39:55,124:DEBUG:autosub.core.llm.pydantic_ai: LLM combined classifier response diagnostics: VertexResponseDiagnostics(response_id='hetFau_sHoWFzLEPmtPd6A8', model_version='gemini-3.1-flash-lite-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=9983, candidates_token_count=6314, total_token_count=16297, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "role": "host", "corner": null}, {"id": 1, "role": "host", "corner": null}, {"id": 2, "role": "host", "corner": null}, {"id": 3, "role": "host", "corner": null}, {"id": 4, "role": "host", "corner": null}, {"id": 5, "role": "ho...', http_body_preview=None)
+2026-07-02 04:39:55,130:INFO:autosub.pipeline.format.main: Applying timing rules (snapping, keyframes, min duration)...
+2026-07-02 04:39:55,133:INFO:autosub.pipeline.format.main: Writing .ass file to /projects/We_Escape_to_Survive_Aftertalk_original.ass...
+2026-07-02 04:39:55,139:INFO:autosub.pipeline.format.main: Wrote LLM trace to /projects/We_Escape_to_Survive_Aftertalk_original.normalizer.llm_trace.jsonl.
+2026-07-02 04:39:55,140:INFO:autosub.pipeline.format.main: Wrote LLM trace to /projects/We_Escape_to_Survive_Aftertalk_original.combined.llm_trace.jsonl.
+2026-07-02 04:39:55,140:INFO:autosub.pipeline.format.main: Subtitle formatting complete!
+2026-07-02 04:39:55,140:INFO:autosub.cli: [Step 3/4] Translating...
+2026-07-02 04:39:55,140:INFO:autosub.pipeline.translate.main: Loading '/projects/We_Escape_to_Survive_Aftertalk_original.ass' for translation...
+2026-07-02 04:39:55,150:INFO:autosub.pipeline.translate.main: Found 4 corner boundaries at dialogue indices [26, 56, 127, 199]
+2026-07-02 04:39:55,150:INFO:autosub.pipeline.translate.chunker: Corner-aware chunking: 4 boundaries found at lines [26, 56, 127, 199], producing 5 chunks of sizes [26, 30, 71, 72, 48]
+2026-07-02 04:39:55,151:INFO:autosub.pipeline.translate.main: Translating 247 subtitle lines in 5 chunks of up to 80...
+2026-07-02 04:39:55,151:INFO:autosub.pipeline.translate.main:   Chunk 1/5 (lines 1-26, 26 lines)
+2026-07-02 04:39:55,151:INFO:autosub.pipeline.translate.main:     first: プロセカアフタートーク僕たちの生存闘争編イエエエエエエエエエエエエエエエエエエエ...
+2026-07-02 04:39:55,151:INFO:autosub.pipeline.translate.main:     last:  そしてね、今回も運営さんに、え、端末を用意していただいていますので、
+2026-07-02 04:39:55,151:INFO:autosub.pipeline.translate.translator: Translating 26 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:39:55,185:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:39:55,194:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:39:55,196:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:39:55,199:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:39:55,201:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:39:55,202:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:39:55,202:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:39:55,202:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:39:55,202:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:01,601:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:45:01 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:45:01,627:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:45:01,628:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:45:01,630:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:45:01,630:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:45:01,631:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:45:01,645:WARNING:autosub.pipeline.translate.main:   Chunk 1/5 failed at reasoning_effort=medium (VertexResponseParseError: LLM translator returned invalid structured output: Model token limit (65536) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit. (project_id=future-name-201021; model=gemini-3-flash-preview; location=global; model_version=gemini-3-flash-preview; text_preview=Model token limit (65536) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit.)); retrying this chunk at reasoning_effort=low.
+2026-07-02 04:45:01,645:INFO:autosub.pipeline.translate.translator: Translating 26 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:45:01,690:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:45:01,703:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:45:01,711:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:45:01,715:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:45:01,718:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:01,718:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:45:01,719:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:45:01,719:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:45:01,719:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:09,324:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:45:09 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:45:09,324:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:45:09,324:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:45:09,325:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:45:09,326:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:45:09,326:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:45:09,329:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='zexFao6FMKO_odAP5JmayQY', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=4121, candidates_token_count=940, total_token_count=5061, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Welcome to ProSeka AfterTalk: \\"Our Survival Struggle\\" edition! Yeah! And we\'re live!"}, {"id": 1, "translated": "Um, kon-niigo, everyone! I\'m Hinata Sato, the voice of Mizuki Akiyama from N25."}, {"id": 2, "tr...', http_body_preview=None)
+2026-07-02 04:45:09,331:INFO:autosub.pipeline.translate.main:   Chunk 1/5 recovered at reasoning_effort=low.
+2026-07-02 04:45:09,372:INFO:autosub.pipeline.translate.main:   Chunk 2/5 (lines 27-56, 30 lines)
+2026-07-02 04:45:09,372:INFO:autosub.pipeline.translate.main:     first: え、今回登場しているメンバーのイラストを見ていきたいと思います。
+2026-07-02 04:45:09,372:INFO:autosub.pipeline.translate.main:     last:  分かりました。
+2026-07-02 04:45:09,372:INFO:autosub.pipeline.translate.translator: Translating 30 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:45:09,407:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:45:09,415:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:45:09,418:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:45:09,421:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:45:09,422:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:09,423:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:45:09,423:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:45:09,423:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:45:09,423:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:27,131:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:45:27 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:45:27,131:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:45:27,132:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:45:27,133:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:45:27,133:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:45:27,133:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:45:27,136:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='1exFapKcHdiFzLEPyO2q-AY', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=4234, candidates_token_count=748, total_token_count=4982, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Alright, let\'s take a look at the illustrations for the members appearing this time."}, {"id": 1, "translated": "Also, for the AfterLive, I\'m planning to create a private room so I can enjoy it together with all...', http_body_preview=None)
+2026-07-02 04:45:27,138:INFO:autosub.pipeline.translate.main:   Chunk 3/5 (lines 57-127, 71 lines)
+2026-07-02 04:45:27,138:INFO:autosub.pipeline.translate.main:     first: ということでじゃあ7が多いということで、え、みんなと一緒に7話を見ていきたいと思...
+2026-07-02 04:45:27,138:INFO:autosub.pipeline.translate.main:     last:  続いて参ります?
+2026-07-02 04:45:27,138:INFO:autosub.pipeline.translate.translator: Translating 71 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:45:27,170:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:45:27,179:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:45:27,181:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:45:27,183:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:45:27,185:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:45:27,185:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:45:27,185:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:45:27,185:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:45:27,186:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:50:35,406:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:50:35 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:50:35,407:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:50:35,407:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:50:35,637:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:50:35,638:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:50:35,638:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:50:35,645:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='5-xFasLTDvL0odAPmKCgiA8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5514, candidates_token_count=64362, total_token_count=69876, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Since there are a lot of requests for Episode 7, let\'s watch it together with everyone."}, {"id": 1, "translated": "Here we go."}, {"id": 2, "translated": "Thank you very much."}, {"id": 3, "translated": "That w...', http_body_preview=None)
+2026-07-02 04:50:35,651:INFO:autosub.pipeline.translate.main:   Chunk 4/5 (lines 128-199, 72 lines)
+2026-07-02 04:50:35,652:INFO:autosub.pipeline.translate.main:     first: それで、ここからは昨日公開されましたキティの2DMV、
+2026-07-02 04:50:35,652:INFO:autosub.pipeline.translate.main:     last:  ぜひぜひチェックしていただけたらと思い。
+2026-07-02 04:50:35,652:INFO:autosub.pipeline.translate.translator: Translating 72 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:50:35,682:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:50:35,690:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:50:35,692:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:50:35,694:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:50:35,695:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:50:35,696:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:50:35,696:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:50:35,696:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:50:35,696:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:50:57,919:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:50:57 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:50:57,920:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:50:57,920:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:50:57,922:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:50:57,922:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:50:57,922:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:50:57,927:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='G-5Fav-ML7KE6tkPstmdqQM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5530, candidates_token_count=3290, total_token_count=8820, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "And now, I\'d like to watch the 2DMV for \\"Kitty\\" that was released yesterday"}, {"id": 1, "translated": "together with all of you."}, {"id": 2, "translated": "This song was written for us by Tsumiki-san, and wa...', http_body_preview=None)
+2026-07-02 04:50:57,930:INFO:autosub.pipeline.translate.main:   Chunk 5/5 (lines 200-247, 48 lines)
+2026-07-02 04:50:57,930:INFO:autosub.pipeline.translate.main:     first: そして、今回新しく追加されたメンバーは全部、、5名いるんです、
+2026-07-02 04:50:57,930:INFO:autosub.pipeline.translate.main:     last:  バイ。
+2026-07-02 04:50:57,930:INFO:autosub.pipeline.translate.translator: Translating 48 subtitle shards using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-07-02 04:50:57,962:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-07-02 04:50:57,970:DEBUG:urllib3.connectionpool: Starting new HTTP connection (1): metadata.google.internal:80
+2026-07-02 04:50:57,973:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/?recursive=true HTTP/1.1" 200 144
+2026-07-02 04:50:57,976:DEBUG:urllib3.connectionpool: http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/default/token?scopes=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform HTTP/1.1" 200 1083
+2026-07-02 04:50:57,978:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-07-02 04:50:57,978:DEBUG:httpcore.http11: send_request_headers.complete
+2026-07-02 04:50:57,978:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-07-02 04:50:57,979:DEBUG:httpcore.http11: send_request_body.complete
+2026-07-02 04:50:57,979:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-07-02 04:55:37,771:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Thu, 02 Jul 2026 04:55:37 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Transfer-Encoding', b'chunked')])
+2026-07-02 04:55:37,816:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-07-02 04:55:37,817:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-07-02 04:55:38,000:DEBUG:httpcore.http11: receive_response_body.complete
+2026-07-02 04:55:38,001:DEBUG:httpcore.http11: response_closed.started
+2026-07-02 04:55:38,001:DEBUG:httpcore.http11: response_closed.complete
+2026-07-02 04:55:38,014:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='Mu5FauviAoDx6tkPm8-VgAQ', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=4677, candidates_token_count=63881, total_token_count=68558, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "And there are five new members added this time."}, {"id": 1, "translated": "I\'d love to look at the illustrations and side stories with everyone."}, {"id": 2, "translated": "I really want to see the art. Did you...', http_body_preview=None)
+2026-07-02 04:55:38,046:INFO:autosub.pipeline.translate.main: Removed checkpoint file.
+2026-07-02 04:55:38,046:INFO:autosub.pipeline.translate.main: Applying translations to subtitle events...
+2026-07-02 04:55:38,047:INFO:autosub.pipeline.translate.main: Writing translated .ass file to /projects/We_Escape_to_Survive_Aftertalk_translated.ass...
+2026-07-02 04:55:38,052:INFO:autosub.pipeline.translate.main: Wrote LLM trace to /projects/We_Escape_to_Survive_Aftertalk_translated.llm_trace.jsonl.
+2026-07-02 04:55:38,052:INFO:autosub.pipeline.translate.main: Translation complete!
+2026-07-02 04:55:38,052:INFO:autosub.cli: [Step 4/4] Postprocessing...
+2026-07-02 04:55:38,057:INFO:autosub.cli: Pipeline completed successfully! Final output saved to /projects/We_Escape_to_Survive_Aftertalk_translated.ass

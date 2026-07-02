@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Fetch Project Sekai event story data from sekai-world master DB and asset CDN.
 
-Usage:
-    python3 fetch_event.py "grow glorious"
-    python3 fetch_event.py "unraveled thread"
-    python3 fetch_event.py 151
-    python3 fetch_event.py "grow" --transcript --episodes 7 8
-    python3 fetch_event.py --list
+Usage (run from the projects repo root):
+    python3 scripts/fetch_event.py "grow glorious"
+    python3 scripts/fetch_event.py "unraveled thread"
+    python3 scripts/fetch_event.py 151
+    python3 scripts/fetch_event.py "grow" --transcript --episodes 7 8
+    python3 scripts/fetch_event.py --list
 """
 
 import argparse
