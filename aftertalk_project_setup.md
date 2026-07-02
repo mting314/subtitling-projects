@@ -140,9 +140,19 @@ the only committed record of how to re-fetch it — keep it reproducible.
 
 ## 6. Scope segments + build the autosub command
 
-Skim the video and decide which ranges to keep (cut the intro delay, in-stream story
-watchalongs, and MV viewings; keep the host's talking segments). Record them in the
-`notes.md` "Segments" section, then mirror them as repeatable `--start/--end` pairs:
+Decide which ranges to keep (cut the intro delay, in-stream story watchalongs, and MV
+viewings; keep the host's talking segments). Two ways:
+
+- **Auto-scope (preferred for the classic layout):** `scripts/scope_segments.py <mkv>
+  --profile proseka/<unit>` classifies each second (standby / watchalong / talk) from the
+  on-screen layout — no STT — and prints `--start/--end` pairs plus a boundary
+  contact-sheet PNG. **Confirm the boundaries against the contact sheet**, then paste the
+  command. The video signal is format-specific (tuned for full-frame-talk vs the right-side
+  "Talk about" panel of watchalongs); if a stream uses a different layout, fall back to a skim.
+- **Manual skim:** scrub the video and note the host-talk ranges by hand.
+
+Record the ranges in the `notes.md` "Segments" section, then mirror them as repeatable
+`--start/--end` pairs:
 
 ```bash
 uv run autosub run \
