@@ -64,3 +64,16 @@ else
 
   echo "Done: $OUTPUT"
 fi
+
+# Post-render sanity check: black frames often mean a source fade got caught at a
+# cut boundary (a black flash at a concat join). If find_segments.py --mkv was used
+# the boundaries are already fade-clear; this catches anything that slipped through.
+echo "Checking for black frames..."
+BLACK=$(ffmpeg -hide_banner -i "$OUTPUT" -vf "blackdetect=d=0.05:pix_th=0.10" -an -f null - 2>&1 \
+  | grep -oE "black_start:[0-9.]+ black_end:[0-9.]+" || true)
+if [ -n "$BLACK" ]; then
+  echo "⚠️  Black intervals detected — check these (often a source fade at a cut boundary):"
+  echo "$BLACK" | sed 's/^/    /'
+else
+  echo "✓ No black intervals >=0.05s."
+fi

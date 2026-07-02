@@ -16,12 +16,14 @@ Each subtitled video moves through these stages:
 
 1. **Generate** — set up the project (folder, `notes.md`, video download) and run the autosub pipeline (transcribe → format → translate → postprocess) to produce `<name>_translated.ass`. New-project setup steps are in [`aftertalk_project_setup.md`](aftertalk_project_setup.md); tooling lives in the [autosub](https://github.com/mting314/autosub) repo.
 2. **QC review** — human pass over `<name>_translated.ass` for consistency, grammar, spelling, and style. Follow [`subtitle_review_guide.md`](subtitle_review_guide.md).
-3. **Hardsub + trim** — burn the reviewed subs into the video and trim to the subbed portion with `hardsub_trim.sh` (see [Post-Pipeline: Hardsub + Trim](#post-pipeline-hardsub--trim)).
+3. **Hardsub + trim** — burn the reviewed subs into the video and trim to the subbed portion with `scripts/hardsub_trim.sh` (see [Post-Pipeline: Hardsub + Trim](#post-pipeline-hardsub--trim)).
 4. **Publish** — write the YouTube description ([YouTube Video Blurbs](#youtube-video-blurbs)).
 
 ## Tooling
 
 The transcription and translation pipeline is in a separate repo: [mting314/autosub](https://github.com/mting314/autosub). The legacy pipeline scripts are preserved on the `ai-sub` branch of this repo.
+
+Local finishing/utility scripts live in [`scripts/`](scripts/) (run from the repo root) — see [`scripts/README.md`](scripts/README.md) for the index. Reference guides (`subtitle_review_guide.md`, `aftertalk_project_setup.md`, `snippets.md`) stay at the repo root.
 
 ## File Types
 
@@ -57,31 +59,31 @@ In short, review across four dimensions:
 
 Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img2ass` lines), suggest edits as a table and confirm before applying, apply with a line-targeted script that dry-runs each replacement, then re-grep to verify the consistency counts.
 
-**Positional styles (PiP / song-shift):** a layout pass, also before hardsub, so subs clear on-screen content. Run `apply_positional_styles.py` (repo root). See the "Positional styles" section of [`subtitle_review_guide.md`](subtitle_review_guide.md).
+**Positional styles (PiP / song-shift):** a layout pass, also before hardsub, so subs clear on-screen content. Run `scripts/apply_positional_styles.py` (from repo root). See the "Positional styles" section of [`subtitle_review_guide.md`](subtitle_review_guide.md).
 
-**Line length (max 2 rows):** 3+ rows is bad practice. Detect by rendering with `detect_long_lines.py` (via `uv run --with pillow --with numpy`); fix each flagged line by splitting into two events or rewording, then re-run to confirm 0 flagged. See "Dimension 5" in [`subtitle_review_guide.md`](subtitle_review_guide.md).
+**Line length (max 2 rows):** 3+ rows is bad practice. Detect by rendering with `scripts/detect_long_lines.py` (via `uv run --with pillow --with numpy`); fix each flagged line by splitting into two events or rewording, then re-run to confirm 0 flagged. See "Dimension 5" in [`subtitle_review_guide.md`](subtitle_review_guide.md).
 
-**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, line-length QC (`detect_long_lines.py`), hardsub segment-finding (`find_segments.py`), and the YouTube title + description in one place.
+**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, line-length QC (`scripts/detect_long_lines.py`), hardsub segment-finding (`scripts/find_segments.py`), and the YouTube title + description in one place.
 
 ## Post-Pipeline: Hardsub + Trim
 
 After QC, burn subtitles into video and trim to the subbed portion. **Must hardsub before trimming** — trimming invalidates .ass timestamps.
 
-### `hardsub_trim.sh`
+### `scripts/hardsub_trim.sh`
 
-Script at repo root. Handles single or multiple segments with automatic concatenation.
+Script in `scripts/` (run from repo root). Handles single or multiple segments with automatic concatenation.
 
 ```bash
 # Single segment
-./hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start> <end>
+./scripts/hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start> <end>
 
 # Multiple segments (gaps like story recaps/songs are skipped)
-./hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> <start2> <end2> ...
+./scripts/hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> <start2> <end2> ...
 ```
 
 Example (Colors of Pure Sense — 2 segments, skipping story recap):
 ```bash
-./hardsub_trim.sh \
+./scripts/hardsub_trim.sh \
   "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense.mkv" \
   "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
   "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_final.mp4" \
@@ -94,7 +96,7 @@ Example (Colors of Pure Sense — 2 segments, skipping story recap):
 - The `ass=` filter doesn't handle spaces in filenames — the script creates a symlink to work around this
 - Multiple segments are encoded in parallel, then concatenated with `-c copy` (no re-encode)
 - Timestamps for each project are saved in `notes.md` within each project folder
-- To auto-detect keep-segments, run `find_segments.py <translated.ass> --transcript <transcript.json> --hardsub <mkv>:<out.mp4>` — it finds gaps in the rendered timeline, classifies each (silent vs watchalong audio) against the transcript, and prints a ready-to-run `hardsub_trim.sh` command
+- To auto-detect keep-segments, run `scripts/find_segments.py <translated.ass> --transcript <transcript.json> --hardsub <mkv>:<out.mp4>` — it finds gaps in the rendered timeline, classifies each (silent vs watchalong audio) against the transcript, and prints a ready-to-run `scripts/hardsub_trim.sh` command. With `--mkv`/`--hardsub` it's **fade-aware**: runs `blackdetect` near each boundary and pulls cuts clear of source fades (avoids black flashes at joins). `hardsub_trim.sh` also runs a post-render `blackdetect` and warns if any black remains.
 
 See `snippets.md` for standalone ffmpeg commands.
 
