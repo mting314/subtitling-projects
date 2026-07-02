@@ -4,6 +4,9 @@
 *.webm
 *.opus
 
+# derived QC artifacts (regenerable)
+*_segments.png
+
 .DS_Store
 .vscode/settings.json
 .env
