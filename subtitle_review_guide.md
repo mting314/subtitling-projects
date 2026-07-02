@@ -172,13 +172,13 @@ and 3 in another. **Measure by rendering, don't guess.**
 
 Detect (renders each line under its real style over black, counts rows by projection):
 ```bash
-uv run --with pillow --with numpy python3 detect_long_lines.py "<name>_translated.ass"
+uv run --with pillow --with numpy python3 scripts/detect_long_lines.py "<name>_translated.ass"
 ```
 It flags every line rendering to >2 rows. Fix each one of two ways, and **re-render to
 confirm the fix is ≤2 rows before applying**:
 
 - **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, or a
-  sentence end) using `split_subtitle_line.py --line N --before "<clause>" --transcript
+  sentence end) using `scripts/split_subtitle_line.py --line N --before "<clause>" --transcript
   <t.json>`. The *time* split lands on a real breath: it estimates proportionally by each
   half's length, then snaps to the largest word-gap within ±1s (rejecting a distant
   mid-sentence pause, or any snap that leaves a half under ~1s to read). Preserves exact
@@ -224,11 +224,11 @@ margins (bigger `MarginR` pushes the centered box left).
 ### Apply
 
 Use the script — it does both fixes deterministically (idempotent, `--dry-run`, prints a
-summary), reading the canonical layout values live from the reference file. It lives at the
-projects repo root (next to `hardsub_trim.sh`); run it from there:
+summary), reading the canonical layout values live from the reference file. It lives in
+`scripts/` (next to `hardsub_trim.sh`); run it from the projects repo root:
 
 ```bash
-python3 apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+python3 scripts/apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
   --reference "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
   --pip   "<Char> - PiP:PiP:650,750" \
   --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
