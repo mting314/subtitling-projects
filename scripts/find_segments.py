@@ -167,7 +167,7 @@ def main(argv=None):
         mkv_path, _, out = args.hardsub.partition(":")
         seg_args = " \\\n  ".join(f"{s} {e}" for s, e in pairs)
         print("\n=== hardsub command (run from projects repo root) ===")
-        print(f'./hardsub_trim.sh \\\n  "{mkv_path}" \\\n  "{args.ass}" \\\n  "{out}" \\\n  {seg_args}')
+        print(f'./scripts/hardsub_trim.sh \\\n  "{mkv_path}" \\\n  "{args.ass}" \\\n  "{out}" \\\n  {seg_args}')
 
 
 if __name__ == "__main__":
