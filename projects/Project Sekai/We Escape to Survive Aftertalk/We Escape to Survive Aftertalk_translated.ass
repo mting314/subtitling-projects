@@ -15,9 +15,10 @@ Audio File: We Escape to Survive Aftertalk.mkv
 Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Scroll Position: 45
-Active Line: 54
-Video Position: 25266
+Video Zoom Percent: 0.625000
+Scroll Position: 239
+Active Line: 261
+Video Position: 101656
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -82,52 +83,60 @@ Dialogue: 0,0:13:50.72,0:13:54.92,Default,host,0,0,0,,Like, I didn't know how Ru
 Dialogue: 0,0:13:54.92,0:14:02.18,Default,host,0,0,0,,I had to use my imagination, so when I actually saw the event, I was like, "Wow, everyone acting is so good!"
 Dialogue: 0,0:14:02.18,0:14:07.48,Default,host,0,0,0,,Like Ena, for example.
 Dialogue: 0,0:14:07.48,0:14:12.68,Default,host,0,0,0,,If it were me, I'd probably just blurt things out, but Ena has this way of being persuasive yet firm.
+Comment: 0,0:14:12.68,0:14:12.68,Default,,0,0,0,,Insert image of Tanabe Rui and add TL note that it's her and not the character Rui
 Dialogue: 0,0:14:12.68,0:14:14.32,Default,host,0,0,0,,Minori-chan is just amazing.
-Dialogue: 0,0:14:14.32,0:14:15.56,Default,host,0,0,0,,She was seriously incredible.
-Dialogue: 0,0:14:16.28,0:14:18.68,Default,host,0,0,0,,This event really made me realize how much I love N25.
+Dialogue: 0,0:14:14.32,0:14:16.28,Default,host,0,0,0,,She was awesome.
+Dialogue: 0,0:14:16.28,0:14:19.64,Default,host,0,0,0,,This event really made me realize how much I love N25.
 Dialogue: 0,0:14:19.64,0:14:25.28,Default,host,0,0,0,,If there are any scenes that left an impression on you, please let me know.
 Dialogue: 0,0:14:25.28,0:14:27.36,Default,host,0,0,0,,Which episode stood out to you all?
 Dialogue: 0,0:14:27.36,0:14:38.52,Default,host,0,0,0,,Actually, we can watch one episode together right here, so please spam the chat with which one you want to see. I see people saying Episode 8 was good, but...
 Dialogue: 0,0:14:38.52,0:14:39.28,Default,host,0,0,0,,4, 7...
 Dialogue: 0,0:14:41.28,0:14:45.40,Default,host,0,0,0,,3, 7... Ah, it looks like 7 is the popular choice.
 Dialogue: 0,0:14:45.96,0:14:49.88,Default,host,0,0,0,,The 7s are just flooding in now. 7, 7, 7... Okay, Episode 7 it is.
-Dialogue: 0,0:14:50.48,0:14:51.12,Default,host,0,0,0,,Understood.
+Dialogue: 0,0:14:50.48,0:14:51.76,Default,host,0,0,0,,Sounds good.
 Comment: 0,0:14:51.76,0:14:58.52,Default,,0,0,0,corner,=== Corner: Story Watchalong ===
 Dialogue: 0,0:14:51.76,0:14:58.52,Default,host_meta,0,0,0,,Since there are a lot of requests for Episode 7, let's watch it together with everyone.
 Dialogue: 0,0:14:58.52,0:14:59.02,Default,host,0,0,0,,Here we go.
-Dialogue: 0,0:30:04.00,0:30:07.64,Default,host,0,0,0,,Thank you very much.
+Comment: 0,0:30:01.87,0:30:04.87,Default,,0,0,0,,~~~END STORY TALK~~~
+Dialogue: 0,0:30:04.87,0:30:08.48,Default,host,0,0,0,,Thank you very much.
 Dialogue: 0,0:30:08.48,0:30:09.54,Default,host,0,0,0,,That was nice.
 Dialogue: 0,0:30:09.54,0:30:11.72,Default,host,0,0,0,,It was really good.
-Dialogue: 0,0:30:12.48,0:30:21.04,Default,host,0,0,0,,Looking at it again, in past events, Mizuki has run away before,
-Dialogue: 0,0:30:21.04,0:30:28.40,Default,host,0,0,0,,and we tend to think of running away as a bad thing, but while talking to Luka-san
-Dialogue: 0,0:30:28.40,0:30:34.66,Default,host,0,0,0,,and Len-kun, they realize that running away isn't necessarily bad.
+Dialogue: 0,0:30:12.48,0:30:21.04,Default,host,0,0,0,,I was thinking about this after watching the story again, but in past events, Mizuki has run away before,
+Dialogue: 0,0:30:21.04,0:30:27.62,Default,host,0,0,0,,and while I feel like maybe some tend to think of running away as a bad thing,
+Dialogue: 0,0:30:27.62,0:30:34.66,Default,host,0,0,0,,after talking to Luka-san and Len-kun, she realizes that running away isn't necessarily bad.
 Dialogue: 0,0:30:34.66,0:30:43.38,Default,host,0,0,0,,Instead of seeing it as running away, it's more like taking a break or a moment to catch your breath.
 Dialogue: 0,0:30:43.38,0:30:49.94,Default,host,0,0,0,,I think that was really the core of "We Escape to Survive."
-Dialogue: 0,0:30:49.94,0:30:55.74,Default,host,0,0,0,,Personally, if you asked me if I liked school,
-Dialogue: 0,0:30:55.74,0:31:01.08,Default,host,0,0,0,,since I do this job, I get asked a lot about what I was like as a student.
+Dialogue: 0,0:30:49.94,0:30:55.74,Default,host,0,0,0,,Personally, if you asked me if I liked school—
+Dialogue: 0,0:30:55.74,0:31:01.08,Default,host,0,0,0,,in this line if work, I get asked a lot about what I was like as a student.
 Dialogue: 0,0:31:01.08,0:31:05.88,Default,host,0,0,0,,To be honest, I don't have many good memories of my student days.
 Dialogue: 0,0:31:05.88,0:31:10.26,Default,host,0,0,0,,Especially in middle school, I was already working in the entertainment industry,
 Dialogue: 0,0:31:10.26,0:31:15.60,Default,host,0,0,0,,so I often had to leave school early, even though it was during compulsory education.
-Dialogue: 0,0:31:15.60,0:31:19.56,Default,host,0,0,0,,The teachers didn't look too kindly on it, and the kids around me
-Dialogue: 0,0:31:21.16,0:31:30.16,Default,host,0,0,0,,could be quite cold. I felt like I didn't have a place in middle school, and I viewed it all quite objectively.
-Dialogue: 0,0:31:30.16,0:31:43.46,Default,host,0,0,0,,But when I went to work, I felt like I truly loved what I did. I went to school and studied hard because I wanted to be there.
+Dialogue: 0,0:31:15.60,0:31:23.92,Default,host,0,0,0,,So the teachers didn't look too kindly on it, and the kids around me could be quite cold.
+Dialogue: 0,0:31:23.92,0:31:30.31,Default,host,0,0,0,,wI started to feel more detached and started thinking that maybe I didn't really have a place in middle school,
+Dialogue: 0,0:31:30.31,0:31:38.02,Default,host,0,0,0,,But when I went to work, I felt like I truly loved what I did. I went to school and studied hard because I wanted to be there.
+Dialogue: 0,0:31:38.02,0:31:43.46,Default,host,0,0,0,,Enjoying my time there got me motivated me to keep persevering at school.
 Dialogue: 0,0:31:43.46,0:31:47.34,Default,host,0,0,0,,My workplace was the place where I belonged.
-Dialogue: 0,0:31:47.34,0:31:58.00,Default,host,0,0,0,,That overlaps a bit with Mizuki. I felt like even if things were tough, I'd be okay as long as I had my job.
-Dialogue: 0,0:31:58.00,0:32:17.80,Default,host,0,0,0,,When I went to high school, it was a performing arts school, so everyone was doing the same kind of work. We thought alike, and that filter was gone, so it was much easier to breathe.
-Dialogue: 0,0:32:17.80,0:32:25.44,Default,host,0,0,0,,Some people might see "running away" literally as just running away.
-Dialogue: 0,0:32:25.44,0:32:29.94,Default,host,0,0,0,,But you don't need to listen to those hecklers. You don't have to care
-Dialogue: 0,0:32:29.94,0:32:38.28,Default,host,0,0,0,,too much about other people's opinions. Including all of that,
-Dialogue: 0,0:32:38.28,0:32:45.44,Default,host,0,0,0,,I felt like this story really resonated with me and the way Mizuki lives.
-Dialogue: 0,0:32:45.44,0:32:48.00,Default,host,0,0,0,,Someone wrote that I'm very decisive. That's true.
-Dialogue: 0,0:32:48.92,0:32:51.52,Default,host,0,0,0,,I figure once I graduate, I'll never see them again anyway.
+Dialogue: 0,0:31:47.34,0:31:58.00,Default,host,0,0,0,,That overlaps a bit with Mizuki. I felt like even if things were tough, I'd be okay as long as I could keep doing my acting work.
+Dialogue: 0,0:31:58.00,0:32:05.68,Default,host,0,0,0,,When I moved on to high school, it was a performing arts school, so everyone was doing the same kind of work.
+Dialogue: 0,0:32:05.68,0:32:17.80,Default,host,0,0,0,,We thought alike, and that filter was gone, so it was much easier to breathe.
+Dialogue: 0,0:32:17.80,0:32:22.12,Default,host,0,0,0,,And so... you don't have to think of running away as...
+Dialogue: 0,0:32:22.12,0:32:25.44,Default,host,0,0,0,,Some people might see "running away" literally as just running away.
+Dialogue: 0,0:32:25.44,0:32:28.88,Default,host,0,0,0,,But you don't need to listen to those kinds of people.
+Dialogue: 0,0:32:28.88,0:32:31.68,Default,host,0,0,0,,You don't have to care too much about other people's opinions.
+Dialogue: 0,0:32:31.68,0:32:45.44,Default,host,0,0,0,,Including all of that, I felt like this story really resonated with me and the way Mizuki lives.
+Dialogue: 0,0:32:45.44,0:32:48.00,Default,host,0,0,0,,Someone wrote that I'm very blunt. That's true.
+Dialogue: 0,0:32:48.92,0:32:52.12,Default,host,0,0,0,,I figured once I graduate middle school, I'll never see them again anyway.
 Dialogue: 0,0:32:52.12,0:32:56.84,Default,host,0,0,0,,We have things like LINE and Twitter these days,
 Dialogue: 0,0:32:56.84,0:33:00.92,Default,host,0,0,0,,but if you just delete them, it's like they never existed. You can just start over.
-Dialogue: 0,0:33:00.92,0:33:07.30,Default,host,0,0,0,,You can rebuild your relationships from scratch. In my opinion, if it's too painful,
-Dialogue: 0,0:33:07.30,0:33:19.30,Default,host,0,0,0,,there are options like transferring schools. It's not impossible to reset everything to zero. If you don't stay in touch, the connection just fades.
+Dialogue: 0,0:33:00.92,0:33:03.62,Default,host,0,0,0,,You can rebuild your relationships from scratch.
+Dialogue: 0,0:33:03.62,0:33:10.65,Default,host,0,0,0,,This is just my opinion, if it's really that painful, there are options like transferring schools.
+Dialogue: 0,0:33:10.65,0:33:15.48,Default,host_meta,0,0,0,,So it's not impossible to reset everything to zero.
+Dialogue: 0,0:33:15.48,0:33:19.30,Default,host_meta,0,0,0,,Once you graduate, if you don't stay in touch, the connection just fades.
 Dialogue: 0,0:33:19.30,0:33:24.86,Default,host,0,0,0,,There are even shrines for cutting ties in Kyoto and places like that.
-Dialogue: 0,0:33:24.86,0:33:32.31,Default,host,0,0,0,,Before things get too bad, I think it's a good idea to broaden your horizons and look for a place to escape to.
+Dialogue: 0,0:33:24.86,0:33:32.31,Default,host,0,0,0,,So before things get really bad for you, I think it's a good idea to broaden your horizons and look for a place to escape to.
+Dialogue: 0,0:33:32.31,0:33:33.04,Default,,0,0,0,,~~~Start Afterlive Watchalong~~~
 Dialogue: 0,0:33:33.04,0:33:39.80,Default,host,0,0,0,,Anyway, from here, I'd like to watch the AfterLive together with everyone.
-Dialogue: 0,0:33:41.48,0:33:49.24,Default,host,0,0,0,,First, let me click this, and this, and this.
+Dialogue: 0,0:33:41.48,0:33:49.24,Default,host,0,0,0,,First, let me click this, and this, and this. Alright.
 Dialogue: 0,0:33:53.44,0:33:57.92,Default,host,0,0,0,,I'll create a private room so we can all watch together.
 Dialogue: 0,0:33:57.92,0:34:03.76,Default,host,0,0,0,,I've created the private room, so now I have to write down the code.
 Dialogue: 0,0:34:04.68,0:34:05.52,Default,host,0,0,0,,Here I go.
@@ -140,7 +149,7 @@ Dialogue: 0,0:34:47.18,0:34:50.76,Default,host,0,0,0,,Is everyone ready to type 
 Dialogue: 0,0:34:51.36,0:34:52.56,Default,host,0,0,0,,Someone wrote "I hope I can get in."
 Dialogue: 0,0:34:53.84,0:34:58.16,Default,host,0,0,0,,There's someone guessing the numbers based on how I'm writing them!
 Dialogue: 0,0:34:58.76,0:35:01.96,Default,host,0,0,0,,Zundamochi, that's not cool.
-Dialogue: 0,0:35:01.96,0:35:03.98,Default,host,0,0,0,,I should have written it in a more confusing way.
+Dialogue: 0,0:35:01.96,0:35:03.98,Default,host,0,0,0,,I should have tried to hide it more.
 Dialogue: 0,0:35:03.98,0:35:04.64,Default,host,0,0,0,,Here we go.
 Dialogue: 0,0:35:05.32,0:35:07.08,Default,host,0,0,0,,Ten...
 Dialogue: 0,0:35:08.40,0:35:13.40,Default,host,0,0,0,,...four.
@@ -163,81 +172,125 @@ Dialogue: 0,0:48:15.68,0:48:16.80,Default,host,0,0,0,,shall we move on?
 Comment: 0,0:48:18.04,0:48:22.56,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
 Dialogue: 0,0:48:18.04,0:48:22.56,Default,host_meta,0,0,0,,And now, I'd like to watch the 2DMV for "Kitty" that was released yesterday
 Dialogue: 0,0:48:22.56,0:48:26.40,Default,host,0,0,0,,together with all of you.
-Dialogue: 0,0:48:26.40,0:48:34.44,Default,host,0,0,0,,This song was written for us by Tsumiki-san, and wasn't it just incredible?
-Dialogue: 0,0:48:34.44,0:48:35.16,Default,host,0,0,0,,The full version, I mean.
-Dialogue: 0,0:48:35.16,0:48:41.64,Default,host,0,0,0,,The tempo from the second verse onward is a classic Tsumiki-san move.
+Dialogue: 0,0:48:26.40,0:48:33.22,Default,host,0,0,0,,This song was written for us by Tsumiki-san, and wasn't it just incredible?
+Dialogue: 0,0:48:33.22,0:48:35.16,Default,host,0,0,0,,but wasn't the full version just incredible?
+Dialogue: 0,0:48:36.13,0:48:41.64,Default,host,0,0,0,,The tempo from the second verse onward is a classic Tsumiki-san move.
 Dialogue: 0,0:48:41.64,0:48:47.28,Default,host,0,0,0,,It's slightly different from the first verse, and that's what makes it so great.
 Dialogue: 0,0:48:47.28,0:48:50.28,Default,host,0,0,0,,I want to talk more about the music, but first,
 Dialogue: 0,0:48:50.28,0:48:52.88,Default,host,0,0,0,,I'd like for us to watch the MV together.
 Dialogue: 0,0:48:52.88,0:48:53.72,Default,host,0,0,0,,Please take a look.
-Dialogue: 0,0:50:31.00,0:50:32.48,Default,host,0,0,0,,This part is so good.
+Dialogue: 0,0:50:31.00,0:50:32.48,Default,host,0,0,0,,WAIT but the next part is so good.
 Dialogue: 0,0:50:32.48,0:50:34.28,Default,host,0,0,0,,Show us what comes next!
 Dialogue: 0,0:50:34.28,0:50:35.44,Default,host,0,0,0,,The second verse is the best.
 Dialogue: 0,0:50:35.44,0:50:38.70,Default,host,0,0,0,,Kanade singing "AM 1 o'clock" is just wonderful.
 Dialogue: 0,0:50:38.70,0:50:41.40,Default,host,0,0,0,,How did Tomori-chan sing it like that this time?
 Dialogue: 0,0:50:41.40,0:50:43.68,Default,host,0,0,0,,I absolutely need them to release an Another Vocal version.
 Dialogue: 0,0:50:43.68,0:50:45.20,Default,host,0,0,0,,I really want to hear it.
-Dialogue: 0,0:50:45.20,0:50:49.68,Default,host,0,0,0,,How many different voices does Tomori-chan have in her throat?
+Dialogue: 0,0:50:45.20,0:50:49.82,Default,host,0,0,0,,How many different voices does Tomori-chan have in her throat?
 Dialogue: 0,0:50:50.56,0:50:51.84,Default,host,0,0,0,,She's truly amazing.
 Dialogue: 0,0:50:51.84,0:50:53.10,Default,host,0,0,0,,I'll have to ask Tomori-chan.
-Dialogue: 0,0:50:53.10,0:50:55.00,Default,host,0,0,0,,Maybe I'll go to Tomori-chan's house.
+Dialogue: 0,0:50:53.10,0:50:55.35,Default,host,0,0,0,,Maybe I'll go to Tomori-chan's house.
 Dialogue: 0,0:50:56.48,0:50:58.44,Default,host,0,0,0,,Yeah, I'll ask Tomori-chan about it.
 Dialogue: 0,0:50:58.44,0:50:59.80,Default,host,0,0,0,,It was really great.
-Dialogue: 0,0:50:59.80,0:51:04.78,Default,host,0,0,0,,It's written as "1 AM" but sung as "AM 1 o'clock."
+Dialogue: 0,0:50:59.80,0:51:04.78,Default,host,0,0,0,,It's written as "gozen ichiji" but sung as "AM 1 o'clock."
 Dialogue: 0,0:51:04.78,0:51:06.24,Default,host,0,0,0,,It's so cool.
-Dialogue: 0,0:51:06.92,0:51:10.92,Default,host,0,0,0,,Some people were trying their best to read it as "25 o'clock"
-Dialogue: 0,0:51:10.92,0:51:17.46,Default,host,0,0,0,,and saying how cool it was, but I was watching the comments thinking, "Actually, it's AM..."
-Dialogue: 0,0:51:17.46,0:51:22.56,Default,host,0,0,0,,I'd love for you to watch the full version on the official channel,
-Dialogue: 0,0:51:22.56,0:51:27.00,Default,host,0,0,0,,but I wonder if I was the only one Tsumiki-san recorded personally?
+Dialogue: 0,0:51:06.92,0:51:13.32,Default,host,0,0,0,,I saw some people in the comments trying to read it as "25 o'clock" and saying how cool it was, but I was like,
+Dialogue: 0,0:51:13.32,0:51:17.46,Default,host,0,0,0,,"Actually, it's AM..."
+Dialogue: 0,0:51:17.46,0:51:22.56,Default,host,0,0,0,,I'd love for you to watch the full version on the official channel.
+Dialogue: 0,0:51:22.56,0:51:27.00,Default,host,0,0,0,,Actually, I wonder if I was the only one who got to record with Tsumiki-san in person?
 Dialogue: 0,0:51:27.00,0:51:29.58,Default,host,0,0,0,,I'm not sure if he recorded the other girls too.
 Dialogue: 0,0:51:29.58,0:51:36.08,Default,host,0,0,0,,Tsumiki-san directed me and gave me very specific nuances.
 Dialogue: 0,0:51:36.08,0:51:41.52,Default,host,0,0,0,,For example, for the line "ajike no nai," I had my own way of saying it,
-Dialogue: 0,0:51:41.52,0:51:46.60,Default,host,0,0,0,,but the sound Tsumiki-san had in his head was different
-Dialogue: 0,0:51:46.60,0:51:52.28,Default,host,0,0,0,,from the sound I was hearing. For "ajike no nai yoru ni toketa,"
-Dialogue: 0,0:51:52.28,0:51:57.32,Default,host,0,0,0,,he wanted me to sing the "ta" part with a descending feel, so I really struggled
-Dialogue: 0,0:51:57.32,0:51:57.85,Default,host,0,0,0,,with that specific spot.
+Dialogue: 0,0:51:41.52,0:51:48.18,Default,host,0,0,0,,but the sound Tsumiki-san had in their head was different from what I had in mind.
+Dialogue: 0,0:51:48.18,0:51:52.28,Default,host,0,0,0,,So for the "ajike no nai yoru ni toketa" line,
+Dialogue: 0,0:51:52.28,0:51:56.48,Default,host,0,0,0,,he wanted me to sing the "ta" part with a descending feel.
+Dialogue: 0,0:51:56.48,0:51:57.85,Default,host,0,0,0,,I really struggled with that specific spot.
 Dialogue: 0,0:51:57.85,0:52:01.28,Default,host,0,0,0,,I kept wanting to drop the pitch on "ajike no nai."
 Dialogue: 0,0:52:01.28,0:52:03.30,Default,host,0,0,0,,It was surprisingly difficult.
 Dialogue: 0,0:52:03.30,0:52:14.40,Default,host,0,0,0,,And for the "ha-ah-ah" part, I wanted to do it normally,
 Dialogue: 0,0:52:14.40,0:52:21.38,Default,host,0,0,0,,but the direction was to make it really strong.
 Dialogue: 0,0:52:21.38,0:52:27.48,Default,host,0,0,0,,I wasn't even trying to growl, but after doing take after take,
 Dialogue: 0,0:52:27.48,0:52:32.54,Default,host,0,0,0,,I lost track of what I was doing, and one just happened to come out all raspy.
-Dialogue: 0,0:52:32.54,0:52:38.12,Default,host,0,0,0,,He said, "That's great!" and that's the one they used. I was surprised when I saw the MV
-Dialogue: 0,0:52:38.12,0:52:40.08,Default,host,0,0,0,,and realized they picked that one.
+Dialogue: 0,0:52:32.54,0:52:36.88,Default,host,0,0,0,,They said, "That's great!" and that's the one they used.
+Dialogue: 0,0:52:36.88,0:52:40.92,Default,host,0,0,0,,I remember watching the MV and was like "oh wow, they went with that take".
 Dialogue: 0,0:52:40.92,0:52:41.94,Default,host,0,0,0,,It was tough.
-Dialogue: 0,0:52:41.94,0:52:46.24,Default,host,0,0,0,,Just catching the notes for "Kitty" was incredibly hard,
-Dialogue: 0,0:52:48.16,0:52:48.84,Default,host,0,0,0,,so I had to slow it down... by how much?
+Dialogue: 0,0:52:41.94,0:52:46.24,Default,host,0,0,0,,And for "Kitty" especially, just catching the notes for was incredibly hard,
+Dialogue: 0,0:52:48.16,0:52:49.68,Default,host,0,0,0,,so I had to slow it down... by how much?
 Dialogue: 0,0:52:49.68,0:52:56.98,Default,host,0,0,0,,Like 4 times slower to catch the melody for "jigetsu sae mo kodoku na tenge de."
 Dialogue: 0,0:52:56.98,0:52:59.42,Default,host,0,0,0,,Since I can't read sheet music, that's how I had to do it.
-Dialogue: 0,0:52:59.42,0:53:03.40,Default,host,0,0,0,,Also, for the "one, two, three, four" part,
-Dialogue: 0,0:53:03.40,0:53:07.98,Default,host,0,0,0,,there's a score for it, but the direction was to not sing it on pitch.
+Dialogue: 0,0:52:59.42,0:53:03.64,Default,host,0,0,0,,Also, for the "meimei ni odore ya, one, two, three, four" part,
+Dialogue: 0,0:53:03.64,0:53:07.98,Default,host,0,0,0,,there's a score for it, but the direction was to not sing it on pitch.
 Dialogue: 0,0:53:07.98,0:53:11.80,Default,host,0,0,0,,If everyone gets an Another Vocal version,
-Dialogue: 0,0:53:11.80,0:53:16.56,Default,host,0,0,0,,I won't be able to hear the second verse unless I specifically ask to.
-Dialogue: 0,0:53:16.56,0:53:20.48,Default,host,0,0,0,,I'm really curious how everyone else said "one, two, three, four."
+Dialogue: 0,0:53:11.80,0:53:16.56,Default,host,0,0,0,,I guess the second verse won't be in it, so I could specifically ask about it,
+Dialogue: 0,0:53:16.56,0:53:20.48,Default,host,0,0,0,,but I'm really curious how everyone else said "one, two, three, four."
 Dialogue: 0,0:53:20.48,0:53:25.78,Default,host,0,0,0,,It was more like a spoken line, and I was told not to worry about the notes at all.
-Dialogue: 0,0:53:25.78,0:53:31.68,Default,host,0,0,0,,I'm so curious how the others did it that I want to hear all four versions.
-Dialogue: 0,0:53:31.68,0:53:35.48,Default,host,0,0,0,,So that was "Kitty," and it really was the best.
-Dialogue: 0,0:53:35.48,0:53:37.20,Default,host,0,0,0,,It's so cool that I seriously want to sing it at karaoke.
+Dialogue: 0,0:53:25.78,0:53:31.68,Default,host,0,0,0,,I'm so curious how the others did it. I want to hear all four versions of that part.
+Dialogue: 0,0:53:31.68,0:53:35.48,Default,host,0,0,0,,So that was "Kitty." It really was the best.
+Dialogue: 0,0:53:35.48,0:53:37.20,Default,host,0,0,0,,I really want to sing it at karaoke.
 Dialogue: 0,0:53:38.88,0:53:40.78,Default,host,0,0,0,,I really want to sing it at karaoke.
-Dialogue: 0,0:53:41.54,0:53:44.72,Default,host,0,0,0,,People are asking if everyone gets an Another Vocal, but I just said "if" they do.
+Dialogue: 0,0:53:41.54,0:53:44.72,Default,host,0,0,0,,People are asking if everyone'll get an Another Vocal, but I just said "if" they do.
 Dialogue: 0,0:53:44.72,0:53:46.82,Default,host,0,0,0,,Please don't misunderstand.
 Dialogue: 0,0:53:46.82,0:53:48.84,Default,host,0,0,0,,I don't know whose Another Vocal will be released.
-Dialogue: 0,0:53:49.76,0:53:52.84,Default,host,0,0,0,,There's no one here for me to confirm with, so I really don't know.
-Dialogue: 0,0:53:53.80,0:53:57.48,Default,host,0,0,0,,I hope you'll look forward to them being added later.
+Dialogue: 0,0:53:49.76,0:53:53.14,Default,host,0,0,0,,There's no one here for me to confirm with, so I really don't know.
+Dialogue: 0,0:53:53.80,0:53:57.83,Default,host,0,0,0,,I hope you'll look forward to them being added later.
 Dialogue: 0,0:53:58.80,0:54:02.64,Default,host,0,0,0,,I want to hear Kanade's version, but I also really want to hear a Tomori Kusunoki version.
-Dialogue: 0,0:54:03.20,0:54:06.20,Default,host,0,0,0,,I seriously want to hear a "Tomori-chan Sings" version of this.
-Dialogue: 0,0:54:06.20,0:54:07.88,Default,host,0,0,0,,It would suit Tomori-chan so well.
-Dialogue: 0,0:54:08.92,0:54:09.92,Default,host,0,0,0,,I'm certain of it.
+Dialogue: 0,0:54:03.20,0:54:06.20,Default,host,0,0,0,,I seriously want to hear a Tomori-chan cover.
+Dialogue: 0,0:54:06.20,0:54:08.10,Default,host,0,0,0,,It would suit Tomori-chan so well.
+Dialogue: 0,0:54:08.92,0:54:10.38,Default,host,0,0,0,,I'm certain of it.
 Dialogue: 0,0:54:12.00,0:54:15.42,Default,host,0,0,0,,I hope everyone enjoys listening to it.
 Dialogue: 0,0:54:15.42,0:54:20.76,Default,host,0,0,0,,We only showed a portion today, but the full version is up on the official ProSeka YouTube channel,
 Dialogue: 0,0:54:20.76,0:54:23.96,Default,host,0,0,0,,so please be sure to check it out.
 Comment: 0,0:54:23.96,0:54:28.68,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
 Dialogue: 0,0:54:23.96,0:54:28.68,Default,host_meta,0,0,0,,And there are five new members added this time.
-Dialogue: 0,0:54:28.68,0:54:32.88,Default,host,0,0,0,,I'd love to look at the illustrations and side stories with everyone.
-Dialogue: 0,0:54:32.88,0:54:36.12,Default,host,0,0,0,,I really want to see the art. Did you all check out the side stories?
-Dialogue: 0,0:54:36.12,0:54:41.80,Default,host,0,0,0,,They feel like a continuation of the event, showing what was happening behind the scenes.
-Dialogue: 0,0:54:41.80,0:54:45.92,Default,host,0,0,0,,A lot of that is packed into the side stories,
-Dialogue: 0,1:00:11.00,1:00:16.48,Default,host,0,0,0,,so I was able to touch on many different aspects of the event.
+Dialogue: 0,0:54:28.68,0:54:31.88,Default,host,0,0,0,,I'd love to look at the illustrations and side stories—
+Dialogue: 0,0:54:31.88,0:54:32.88,Default,host,0,0,0,,oh sorry, not the side stories—
+Dialogue: 0,0:54:32.88,0:54:36.12,Default,host,0,0,0,,I'd like to cover the art. But did you all check out the side stories?
+Dialogue: 0,0:54:36.40,0:54:39.28,Default,host,0,0,0,,They feel like a continuation of the event.
+Dialogue: 0,0:54:39.28,0:54:45.92,Default,host,0,0,0,,This time especially, they show a bit of what was happening behind the scenes.
+Dialogue: 0,0:54:48.11,0:54:49.88,Default,,0,0,0,,So please do check them out if you can.
+Dialogue: 0,0:54:49.88,0:54:52.26,Default,,0,0,0,,
+Comment: 0,0:54:52.26,0:54:52.88,Default,,0,0,0,,Add some translation note that's shes talking about the team name
+Dialogue: 0,0:54:52.88,0:54:55.09,Default,,0,0,0,,But really, where is my Kitty?
+Dialogue: 0,0:54:55.09,0:54:55.90,Default,,0,0,0,,She didn't wanna come.
+Dialogue: 0,0:54:57.10,0:54:58.48,Default,,0,0,0,,If she came with...
+Dialogue: 0,0:54:59.29,0:55:02.98,Default,,0,0,0,,r
+Dialogue: 0,0:55:03.84,0:55:04.57,Default,,0,0,0,,THE END.
+Dialogue: 0,0:55:04.57,0:55:07.17,Default,,0,0,0,,Ok, so let's start with Ena then.
+Dialogue: 0,0:55:07.17,0:55:10.65,Default,,0,0,0,,Ena's our 2-star this time. This is what she looks like.
+Dialogue: 0,0:55:10.65,0:55:13.12,Default,,0,0,0,,Actually, doesn't this kind of look like what Akito would wear?
+Dialogue: 0,0:55:13.12,0:55:18.26,Default,,0,0,0,,I almost feel like... did she maybe borrow his clothes?
+Dialogue: 0,0:55:18.26,0:55:20.00,Default,,0,0,0,,I really do like this style though.
+Dialogue: 0,0:55:20.00,0:55:24.55,Default,,0,0,0,,
+Dialogue: 0,0:55:25.74,0:55:27.18,Default,,0,0,0,,So that's Ena.
+Dialogue: 0,0:55:27.18,0:55:28.17,Default,,0,0,0,,Moving on...
+Dialogue: 0,0:55:28.17,0:55:29.88,Default,,0,0,0,,Len-kun.
+Dialogue: 0,0:55:29.88,0:55:32.52,Default,,0,0,0,,Starting with his untrained,
+Dialogue: 0,0:55:32.52,0:55:33.65,Default,,0,0,0,,Is this so good!?
+Dialogue: 0,0:55:33.65,0:55:36.94,Default,,0,0,0,,You all should really go watch the side story for this one.
+Dialogue: 0,0:55:36.94,0:55:38.84,Default,,0,0,0,,But this is so good,
+Dialogue: 0,0:55:38.84,0:55:41.86,Default,,0,0,0,,I love how you can tell Mizuki's kind of laughing like "hahaha..."
+Dialogue: 0,0:55:43.23,0:55:46.18,Default,,0,0,0,,he's not fully out of his shell,
+Dialogue: 0,0:55:46.18,0:55:49.33,Default,,0,0,0,,but seeing Len-kun open up just a little like this is suuuuuper cute.
+Dialogue: 0,0:55:49.33,0:55:50.18,Default,,0,0,0,,Love it.
+Dialogue: 0,0:55:50.99,0:55:53.11,Default,,0,0,0,,And next up...
+Dialogue: 0,0:55:53.11,0:55:56.11,Default,,0,0,0,,Are there even any working phone booths out there anymore?
+Dialogue: 0,0:55:56.91,0:55:59.74,Default,,0,0,0,,The boxes themselves are mostly gone too, so where the heck is he?
+Dialogue: 0,0:55:59.74,0:56:01.42,Default,,0,0,0,,He's not in the city anymore, is he?
+Dialogue: 0,0:56:01.42,0:56:03.90,Default,,0,0,0,,Where—seriously, where are you taking this call from?
+Dialogue: 0,0:56:03.90,0:56:06.68,Default,,0,0,0,,Be careful with calls that late at night!
+Dialogue: 0,0:56:06.68,0:56:07.75,Default,,0,0,0,,They can't be up to any good!
+Dialogue: 0,0:56:07.75,0:56:10.38,Default,,0,0,0,,I wanna go and make sure he's safe.
+Dialogue: 0,0:56:10.38,0:56:11.47,Default,,0,0,0,,So cute~
+Dialogue: 0,0:56:11.47,0:56:12.20,Default,,0,0,0,,I guess he's hiding from the rain in there.
+Dialogue: 0,0:56:12.20,0:56:15.20,Default,,0,0,0,,I see he's holding the phone, I wanna try calling him.
+Dialogue: 0,0:56:16.60,0:56:19.82,Default,,0,0,0,,I bet he hasn't used a telephone card, has he?
+Dialogue: 0,0:56:19.82,0:56:21.86,Default,,0,0,0,,I used to have a telephone card.
+Dialogue: 0,0:56:21.86,0:56:24.13,Default,,0,0,0,,I'm becoming an old Heisei lady.
+Dialogue: 0,0:56:24.73,0:56:25.61,Default,,0,0,0,,Moving on...
+Dialogue: 0,0:56:27.00,0:56:28.53,Default,,0,0,0,,
+Dialogue: 0,0:56:28.53,0:56:31.53,Default,,0,0,0,,
+Dialogue: 0,1:00:11.00,1:00:16.48,Default,host,0,0,0,,so we got to see many different aspects of the event story.
+Comment: 0,1:00:16.48,1:00:16.48,Default,,0,0,0,,~~CLOSEOUT~~
 Dialogue: 0,1:00:16.48,1:00:23.86,Default,host,0,0,0,,It was a short time, but that's all for ProSeka AfterTalk: We Escape to Survive edition!
 Dialogue: 0,1:00:23.86,1:00:26.78,Default,host,0,0,0,,How did everyone watching the stream enjoy it?
 Dialogue: 0,1:00:26.78,1:00:29.76,Default,host,0,0,0,,Someone wrote, "See you again in a year!"
