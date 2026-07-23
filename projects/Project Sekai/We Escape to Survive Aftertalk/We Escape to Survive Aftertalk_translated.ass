@@ -16,9 +16,9 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
-Scroll Position: 306
-Active Line: 314
-Video Position: 106179
+Scroll Position: 339
+Active Line: 353
+Video Position: 113039
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -349,40 +349,38 @@ Dialogue: 0,1:00:23.86,1:00:26.78,Default,host,0,0,0,,How did everyone watching 
 Dialogue: 0,1:00:26.78,1:00:29.76,Default,host,0,0,0,,Someone wrote, "See you again in a year!"
 Dialogue: 0,1:00:29.76,1:00:31.24,Default,host,0,0,0,,The gacha is still running right now.
 Dialogue: 0,1:00:31.24,1:00:32.16,Default,host,0,0,0,,...
-Dialogue: 0,1:00:33.12,1:00:34.68,Default,host,0,0,0,,I've pulled halfway to the spark.
+Dialogue: 0,1:00:33.12,1:00:34.68,Default,host,0,0,0,,I've pulled halfway to sparking.
 Dialogue: 0,1:00:34.68,1:00:36.40,Default,host,0,0,0,,I'm at 150 pulls, but...
-Dialogue: 0,1:00:37.04,1:00:39.24,Default,host,0,0,0,,You're blowing another 150?
-Dialogue: 0,1:00:39.24,1:00:42.88,Default,host,0,0,0,,At that point, it's like you're going all in.
-Dialogue: 0,1:00:42.88,1:00:43.84,Default,host,0,0,0,,Are you going to be okay?
-Dialogue: 0,1:00:44.76,1:00:45.78,Default,host,0,0,0,,...
-Dialogue: 0,1:00:45.78,1:00:47.08,Default,host,0,0,0,,I'm glad you said you had fun!
-Dialogue: 0,1:00:47.08,1:00:48.30,Default,host,0,0,0,,...
+Dialogue: 0,1:00:37.04,1:00:39.24,Default,host,0,0,0,,Should I do another 150?
+Dialogue: 0,1:00:40.55,1:00:42.88,Default,host,0,0,0,,At that point, I'm kind of going all in.
+Dialogue: 0,1:00:42.88,1:00:44.19,Default,host,0,0,0,,Am I really going to be okay?
+Dialogue: 0,1:00:45.78,1:00:47.08,Default,host,0,0,0,,"I had a lot of fun!"
+Dialogue: 0,1:00:47.08,1:00:48.30,Default,host,0,0,0,,Thank you.
 Dialogue: 0,1:00:48.30,1:00:49.42,Default,host,0,0,0,,There are still 15 hours left.
 Dialogue: 0,1:00:49.42,1:00:51.32,Default,host,0,0,0,,If you haven't pulled them yet, you still have 15 hours.
 Dialogue: 0,1:00:51.32,1:00:52.17,Default,host,0,0,0,,Go for it!
-Dialogue: 0,1:00:52.17,1:00:52.69,Default,host,0,0,0,,...
 Dialogue: 0,1:00:53.36,1:00:55.20,Default,host,0,0,0,,The event was great, of course,
-Dialogue: 0,1:00:56.00,1:01:01.76,Default,host,0,0,0,,but "Kitty" playing right now is one of my absolute favorites from N25.
+Dialogue: 0,1:00:56.00,1:01:01.76,Default,host,0,0,0,,but "kitty" playing right now is one of my absolute favorites from N25.
 Dialogue: 0,1:01:01.76,1:01:08.42,Default,host,0,0,0,,It's the same for every unit, but I can immediately tell who is singing which part.
-Dialogue: 0,1:01:08.42,1:01:14.98,Default,host,0,0,0,,Everyone has their own quirks and different approaches to the songs.
-Dialogue: 0,1:01:14.98,1:01:18.94,Default,host,0,0,0,,When I hear the four of them together, I hear approaches I never would've thought of.
-Dialogue: 0,1:01:18.94,1:01:27.88,Default,host,0,0,0,,And with the Virtual Singers there too, I'm always moved by how amazing everyone is.
+Dialogue: 0,1:01:08.42,1:01:13.45,Default,host,0,0,0,,Everyone has their own quirks and different approaches to the songs.
+Dialogue: 0,1:01:13.45,1:01:18.94,Default,host,0,0,0,,So when I hear the complete version with everyone, I hear approaches I never would've thought of.
+Dialogue: 0,1:01:18.94,1:01:27.88,Default,host,0,0,0,,And of course the Virtual Singers are there too, I'm always amazed by how good everyone's singing is.
 Dialogue: 0,1:01:28.48,1:01:29.72,Default,host,0,0,0,,Truly.
-Dialogue: 0,1:01:29.72,1:01:32.80,Default,host,0,0,0,,I feel so grateful to everyone in N25 every day.
-Dialogue: 0,1:01:33.40,1:01:36.84,Default,host,0,0,0,,Being able to talk with you all and look back on the event like this
-Dialogue: 0,1:01:36.84,1:01:45.52,Default,host,0,0,0,,was so much fun for me. For those who once wanted to run away but couldn't,
-Dialogue: 0,1:01:45.52,1:01:49.92,Default,host,0,0,0,,watching this AfterTalk or the event might make you want to reach out to your past self.
+Dialogue: 0,1:01:29.72,1:01:33.40,Default,host,0,0,0,,I feel so grateful to everyone in N25 every day.
+Dialogue: 0,1:01:33.40,1:01:38.48,Default,host,0,0,0,,Talking with all of you and looking back on this event together has been so much fun for me.
+Dialogue: 0,1:01:39.66,1:01:43.02,Default,host,0,0,0,,And if any of you listening felt like at some point you wanted to run away but couldn't,
+Dialogue: 0,1:01:43.02,1:01:49.92,Default,host,0,0,0,,I hope watching this AfterTalk and event story helps you say something kind to the person you were back then.
 Dialogue: 0,1:01:49.92,1:01:54.76,Default,host,0,0,0,,Whether you're a student or anyone who feels like they have no place to escape to right now,
-Dialogue: 0,1:01:54.76,1:02:00.04,Default,host,0,0,0,,reaching out and asking someone for help
-Dialogue: 0,1:02:00.56,1:02:07.56,Default,host,0,0,0,,is a big first step. I'd be happy if this event saved someone's heart.
+Dialogue: 0,1:01:54.76,1:02:03.22,Default,host,0,0,0,,reaching out and asking someone for help is a big first step.
+Dialogue: 0,1:02:03.22,1:02:07.56,Default,host,0,0,0,,I'd be happy if this event could help you.
 Dialogue: 0,1:02:07.56,1:02:13.76,Default,host,0,0,0,,So, if you haven't finished the story for "We Escape to Survive" yet,
 Dialogue: 0,1:02:13.76,1:02:19.60,Default,host,0,0,0,,you can read it all in the Event Stories menu once the next event starts.
 Dialogue: 0,1:02:19.60,1:02:26.24,Default,host,0,0,0,,And if you've already read it, I hope you'll enjoy it again and again!
-Dialogue: 0,1:02:27.08,1:02:33.78,Default,host,0,0,0,,Also, in just three months, after a few more sleeps, it'll be Mizuki's birthday!
+Dialogue: 0,1:02:27.08,1:02:33.78,Default,host,0,0,0,,Also, in just three months, before you know it, it'll be Mizuki's birthday!
 Dialogue: 0,1:02:33.78,1:02:39.42,Default,host,0,0,0,,The change in seasons means the temperature is fluctuating like crazy.
-Dialogue: 0,1:02:39.42,1:02:47.84,Default,host,0,0,0,,Keep yourself warm or cool, and just follow your heart.
-Dialogue: 0,1:02:45.12,1:02:50.08,Default,host,0,0,0,,I hope you all stay healthy. It was a short time,
-Dialogue: 0,1:02:50.08,1:02:51.96,Default,host,0,0,0,,but thank you so much for joining me!
+Dialogue: 0,1:02:39.42,1:02:45.22,Default,host,0,0,0,,so stay warm or cool as needed, listen to your body,
+Dialogue: 0,1:02:45.22,1:02:47.84,Default,host,0,0,0,,I hope you all stay healthy.
+Dialogue: 0,1:02:47.84,1:02:51.96,Default,host,0,0,0,,It was a short time, but thank you so much for joining me!
 Dialogue: 0,1:02:51.96,1:02:54.10,Default,host,0,0,0,,Well then, I'll see you all again!
 Dialogue: 0,1:02:54.10,1:02:55.90,Default,host,0,0,0,,Otsu-niigo!
 Dialogue: 0,1:02:55.90,1:02:57.16,Default,host,0,0,0,,Bye bye!
