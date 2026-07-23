@@ -15,10 +15,10 @@ Audio File: We Escape to Survive Aftertalk.mkv
 Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 239
-Active Line: 261
-Video Position: 101656
+Video Zoom Percent: 1.250000
+Scroll Position: 306
+Active Line: 314
+Video Position: 106179
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -287,8 +287,61 @@ Dialogue: 0,0:56:16.60,0:56:19.82,Default,,0,0,0,,I bet he hasn't used a telepho
 Dialogue: 0,0:56:19.82,0:56:21.86,Default,,0,0,0,,I used to have a telephone card.
 Dialogue: 0,0:56:21.86,0:56:24.13,Default,,0,0,0,,I'm becoming an old Heisei lady.
 Dialogue: 0,0:56:24.73,0:56:25.61,Default,,0,0,0,,Moving on...
-Dialogue: 0,0:56:27.00,0:56:28.53,Default,,0,0,0,,
-Dialogue: 0,0:56:28.53,0:56:31.53,Default,,0,0,0,,
+Dialogue: 0,0:56:27.00,0:56:28.80,Default,,0,0,0,,let's start with the untrained.
+Dialogue: 0,0:56:28.80,0:56:33.22,Default,,0,0,0,,Very very nice if I do say so myself.
+Dialogue: 0,0:56:34.77,0:56:37.53,Default,,0,0,0,,Was it three? Three 4-stars this time.
+Dialogue: 0,0:56:37.53,0:56:39.25,Default,,0,0,0,,But Mizuki still didn't come home—
+Dialogue: 0,0:56:39.25,0:56:40.60,Default,,0,0,0,,This is super good though.
+Dialogue: 0,0:56:40.60,0:56:42.09,Default,,0,0,0,,Luka's nails are really pretty.
+Dialogue: 0,0:56:44.05,0:56:45.76,Default,,0,0,0,,And this is the trained.
+Dialogue: 0,0:56:45.76,0:56:49.67,Default,,0,0,0,,She reminds me a bit of Mizuki herself here.
+Dialogue: 0,0:56:49.67,0:56:51.21,Default,,0,0,0,,I really like it.
+Dialogue: 0,0:56:52.44,0:56:53.59,Default,,0,0,0,,But, uh, where is this?
+Dialogue: 0,0:56:54.96,0:56:57.69,Default,,0,0,0,,It's raining pretty hard. Careful not to catch a cold!
+Dialogue: 0,0:56:58.24,0:57:00.96,Default,,0,0,0,,These are all so good. 
+Dialogue: 0,0:57:00.96,0:57:02.98,Default,,0,0,0,,"Luka-san trained art is so cute."
+Dialogue: 0,0:57:02.98,0:57:04.92,Default,,0,0,0,,100%.
+Dialogue: 0,0:57:04.92,0:57:06.98,Default,,0,0,0,,So cyute 🤌
+Dialogue: 0,0:57:06.98,0:57:08.81,Default,,0,0,0,,What can I say but "thank you."
+Dialogue: 0,0:57:08.81,0:57:09.73,Default,,0,0,0,,You're up next.
+Dialogue: 0,0:57:09.73,0:57:10.63,Default,,0,0,0,,Look at it!
+Dialogue: 0,0:57:11.62,0:57:13.80,Default,,0,0,0,,This is the untrained.
+Dialogue: 0,0:57:13.80,0:57:15.97,Default,,0,0,0,,This art though...
+Dialogue: 0,0:57:15.97,0:57:19.11,Default,,0,0,0,,When Mafumom went "I just threw out your synthesizer. ¯\_(ツ)_/¯"
+Dialogue: 0,0:57:20.19,0:57:22.14,Default,,0,0,0,,"Whoops, I broke your laptop¯\_(ツ)_/¯"
+Dialogue: 0,0:57:22.14,0:57:23.57,Default,,0,0,0,,This looks like it's from that moment.
+Dialogue: 0,0:57:24.03,0:57:26.27,Default,,0,0,0,,
+Dialogue: 0,0:57:26.27,0:57:30.76,Default,,0,0,0,,Like, you can see the light coming from behind the door
+Dialogue: 0,0:57:30.76,0:57:34.01,Default,,0,0,0,,
+Dialogue: 0,0:57:34.01,0:57:37.55,Default,,0,0,0,,I feel like I've only seen this kind of lighting in horror games.
+Dialogue: 0,0:57:39.16,0:57:44.13,Default,,0,0,0,,And they even have the flowers in the front...
+Dialogue: 0,0:57:44.13,0:57:46.09,Default,,0,0,0,,It really does give kind of a horror vibe.
+Dialogue: 0,0:57:46.94,0:57:48.84,Default,,0,0,0,,And the trained—
+Dialogue: 0,0:57:48.84,0:57:51.15,Default,,0,0,0,,She's holding an umbrella, everyone. An umbrella!
+Dialogue: 0,0:57:52.06,0:57:52.65,Default,,0,0,0,,
+Dialogue: 0,0:57:53.29,0:57:54.93,Default,,0,0,0,,
+Dialogue: 0,0:57:54.93,0:57:57.25,Default,,0,0,0,,And look, the background is a bit different from Luka's.
+Dialogue: 0,0:57:57.25,0:58:00.15,Default,,0,0,0,,Kind of looks like maybe this is from somewhere close to Luka's spot.
+Dialogue: 0,0:58:00.15,0:58:02.25,Default,,0,0,0,,I really like this one.
+Dialogue: 0,0:58:04.00,0:58:06.14,Default,,0,0,0,,I also really like seeing the alternate hairstyles.
+Dialogue: 0,0:58:06.14,0:58:10.50,Default,,0,0,0,,I think, was it in the second verse of "kitty",
+Dialogue: 0,0:58:10.50,0:58:13.28,Default,,0,0,0,,the MV changes between Mizuki and her middle school self.
+Dialogue: 0,0:58:13.28,0:58:14.36,Default,,0,0,0,,That was super cool.
+Dialogue: 0,0:58:14.36,0:58:18.48,Default,,0,0,0,,Ah, seeing the alternate hairstyles here is awesome. Thank you staff.
+Dialogue: 0,0:58:20.68,0:58:21.77,Default,,0,0,0,,And last up.
+Dialogue: 0,0:58:21.77,0:58:26.18,Default,,0,0,0,,Starting with the untrained, we just saw this in Episode 7 of the story.
+Dialogue: 0,0:58:26.18,0:58:33.10,Default,,0,0,0,,This is the scene when Mizuki tells Mafuyu that it's okay to run away.
+Dialogue: 0,0:58:33.97,0:58:36.39,Default,,0,0,0,,I've only seen this kind of shot in dramas,
+Dialogue: 0,0:58:36.39,0:58:37.82,Default,,0,0,0,,kind of like it's in slow motion,
+Dialogue: 0,0:58:37.82,0:58:39.39,Default,,0,0,0,,where the background is in slow motion,
+Dialogue: 0,0:58:39.39,0:58:43.08,Default,,0,0,0,,
+Dialogue: 0,0:58:43.08,0:58:44.77,Default,,0,0,0,,Thank you so much.
+Dialogue: 0,0:58:45.84,0:58:48.21,Default,,0,0,0,,If I keep looking at this, I'm gonna fall in love.
+Dialogue: 0,0:58:48.21,0:58:49.06,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:58:49.46,0:58:52.72,Default,,0,0,0,,And the is also amazing.
+Dialogue: 0,0:58:52.72,0:58:55.88,Default,,0,0,0,,
+Dialogue: 0,0:58:55.88,0:58:59.29,Default,,0,0,0,,
+Dialogue: 0,0:58:59.29,0:59:02.29,Default,,0,0,0,,
 Dialogue: 0,1:00:11.00,1:00:16.48,Default,host,0,0,0,,so we got to see many different aspects of the event story.
 Comment: 0,1:00:16.48,1:00:16.48,Default,,0,0,0,,~~CLOSEOUT~~
 Dialogue: 0,1:00:16.48,1:00:23.86,Default,host,0,0,0,,It was a short time, but that's all for ProSeka AfterTalk: We Escape to Survive edition!
