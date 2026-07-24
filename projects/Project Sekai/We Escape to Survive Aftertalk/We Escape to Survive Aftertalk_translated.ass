@@ -15,10 +15,10 @@ Audio File: We Escape to Survive Aftertalk.mkv
 Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.250000
-Scroll Position: 339
-Active Line: 353
-Video Position: 113039
+Video Zoom Percent: 1.125000
+Scroll Position: 42
+Active Line: 50
+Video Position: 24659
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -49,10 +49,11 @@ Dialogue: 0,0:11:30.60,0:11:31.28,Default,host,0,0,0,,"I love your bangs."
 Dialogue: 0,0:11:31.28,0:11:31.96,Default,host,0,0,0,,Thank you!
 Dialogue: 0,0:11:33.07,0:11:33.57,Default,host,0,0,0,,There it is.
 Dialogue: 0,0:11:34.64,0:11:35.64,Default,host,0,0,0,,"Surprisingly white."
-Dialogue: 0,0:11:35.64,0:11:37.64,Default,host,0,0,0,,Yeah, it's like a laundry detergent commercial.
-Dialogue: 0,0:11:39.28,0:11:40.02,Default,host,0,0,0,,Thanks for the comments.
-Dialogue: 0,0:11:40.02,0:11:50.98,Default,host,0,0,0,,Since Mizuki had straight hair this time, I decided to go with a sleek, straight look too. You can really see my mic now.
-Dialogue: 0,0:11:50.98,0:11:52.92,Default,host,0,0,0,,You get a great view of the lapel mic and my face.
+Dialogue: 0,0:11:35.64,0:11:37.99,Default,host,0,0,0,,Yeah, it's like a laundry detergent commercial.
+Dialogue: 0,0:11:39.28,0:11:40.02,Default,host,0,0,0,,Thank you.
+Dialogue: 0,0:11:40.02,0:11:50.02,Default,host,0,0,0,,Since Mizuki had straight hair this time, I decided to go with a sleek, straight look too.
+Dialogue: 0,0:11:50.02,0:11:50.98,Default,host,0,0,0,,"We get a great view of your mic."
+Dialogue: 0,0:11:50.98,0:11:52.92,Default,host,0,0,0,,You get a great view of the mic and my face.
 Dialogue: 0,0:11:52.92,0:11:55.02,Default,host,0,0,0,,I'd say it's a perfect composition.
 Dialogue: 0,0:11:55.02,0:11:58.56,Default,host,0,0,0,,I'll keep picking up comments like this as we go.
 Dialogue: 0,0:11:58.56,0:12:03.82,Default,host,0,0,0,,Also, the staff have provided me with a device to use today.
@@ -63,7 +64,7 @@ Dialogue: 0,0:12:13.62,0:12:18.62,Default,host,0,0,0,,I'll be sharing the Room I
 Dialogue: 0,0:12:18.62,0:12:23.28,Default,host,0,0,0,,so start warming up your fingers now so you can—
 Dialogue: 0,0:12:23.28,0:12:27.20,Default,host,0,0,0,,You'll want to enter the code as fast as you can so we can all watch the live together.
 Dialogue: 0,0:12:27.20,0:12:29.00,Default,host,0,0,0,,Please come and join me!
-Dialogue: 0,0:12:29.56,0:12:31.20,Default,host,0,0,0,,Someone wrote, "There are 200 shades of white."
+Dialogue: 0,0:12:29.56,0:12:31.55,Default,host,0,0,0,,Someone wrote, "There are 200 shades of white."
 Dialogue: 0,0:12:33.52,0:12:35.34,Default,host,0,0,0,,That's right, there are 200 shades of white.
 Dialogue: 0,0:12:35.34,0:12:36.24,Default,host,0,0,0,,Indeed.
 Dialogue: 0,0:12:36.76,0:12:45.78,Default,host,0,0,0,,Anyway, I'd like to start looking back on the story of our event, "We Escape to Survive."
@@ -83,7 +84,7 @@ Dialogue: 0,0:13:50.72,0:13:54.92,Default,host,0,0,0,,Like, I didn't know how Ru
 Dialogue: 0,0:13:54.92,0:14:02.18,Default,host,0,0,0,,I had to use my imagination, so when I actually saw the event, I was like, "Wow, everyone acting is so good!"
 Dialogue: 0,0:14:02.18,0:14:07.48,Default,host,0,0,0,,Like Ena, for example.
 Dialogue: 0,0:14:07.48,0:14:12.68,Default,host,0,0,0,,If it were me, I'd probably just blurt things out, but Ena has this way of being persuasive yet firm.
-Comment: 0,0:14:12.68,0:14:12.68,Default,,0,0,0,,Insert image of Tanabe Rui and add TL note that it's her and not the character Rui
+Comment: 0,0:14:12.68,0:14:12.68,Default,,0,0,0,,Insert image of Minori Suzuki and add TL note that it's Ena's VA
 Dialogue: 0,0:14:12.68,0:14:14.32,Default,host,0,0,0,,Minori-chan is just amazing.
 Dialogue: 0,0:14:14.32,0:14:16.28,Default,host,0,0,0,,She was awesome.
 Dialogue: 0,0:14:16.28,0:14:19.64,Default,host,0,0,0,,This event really made me realize how much I love N25.
@@ -221,7 +222,7 @@ Dialogue: 0,0:52:56.98,0:52:59.42,Default,host,0,0,0,,Since I can't read sheet m
 Dialogue: 0,0:52:59.42,0:53:03.64,Default,host,0,0,0,,Also, for the "meimei ni odore ya, one, two, three, four" part,
 Dialogue: 0,0:53:03.64,0:53:07.98,Default,host,0,0,0,,there's a score for it, but the direction was to not sing it on pitch.
 Dialogue: 0,0:53:07.98,0:53:11.80,Default,host,0,0,0,,If everyone gets an Another Vocal version,
-Dialogue: 0,0:53:11.80,0:53:16.56,Default,host,0,0,0,,I guess the second verse won't be in it, so I could specifically ask about it,
+Dialogue: 0,0:53:11.80,0:53:16.56,Default,host,0,0,0,,I guess the second verse won't be in it. Maybe I could specifically ask about it,
 Dialogue: 0,0:53:16.56,0:53:20.48,Default,host,0,0,0,,but I'm really curious how everyone else said "one, two, three, four."
 Dialogue: 0,0:53:20.48,0:53:25.78,Default,host,0,0,0,,It was more like a spoken line, and I was told not to worry about the notes at all.
 Dialogue: 0,0:53:25.78,0:53:31.68,Default,host,0,0,0,,I'm so curious how the others did it. I want to hear all four versions of that part.
@@ -244,7 +245,7 @@ Comment: 0,0:54:23.96,0:54:28.68,Default,,0,0,0,corner,=== Corner: Card Illustra
 Dialogue: 0,0:54:23.96,0:54:28.68,Default,host_meta,0,0,0,,And there are five new members added this time.
 Dialogue: 0,0:54:28.68,0:54:31.88,Default,host,0,0,0,,I'd love to look at the illustrations and side stories—
 Dialogue: 0,0:54:31.88,0:54:32.88,Default,host,0,0,0,,oh sorry, not the side stories—
-Dialogue: 0,0:54:32.88,0:54:36.12,Default,host,0,0,0,,I'd like to cover the art. But did you all check out the side stories?
+Dialogue: 0,0:54:32.88,0:54:36.40,Default,host,0,0,0,,I'd like to cover the art. But did you all check out the side stories?
 Dialogue: 0,0:54:36.40,0:54:39.28,Default,host,0,0,0,,They feel like a continuation of the event.
 Dialogue: 0,0:54:39.28,0:54:45.92,Default,host,0,0,0,,This time especially, they show a bit of what was happening behind the scenes.
 Dialogue: 0,0:54:48.11,0:54:49.88,Default,,0,0,0,,So please do check them out if you can.
@@ -252,8 +253,8 @@ Dialogue: 0,0:54:49.88,0:54:52.26,Default,,0,0,0,,but that depends on my gacha l
 Comment: 0,0:54:52.26,0:54:52.88,Default,,0,0,0,,Add some translation note that's shes talking about the team name
 Dialogue: 0,0:54:52.88,0:54:55.09,Default,,0,0,0,,But really, where is my Kitty?
 Dialogue: 0,0:54:55.09,0:54:55.90,Default,,0,0,0,,She didn't wanna come.
-Dialogue: 0,0:54:57.10,0:54:58.48,Default,,0,0,0,,If I'd sparked for her...
-Dialogue: 0,0:54:59.29,0:55:02.98,Default,,0,0,0,,but I decided not to spark, so she never came.
+Dialogue: 0,0:54:57.10,0:54:58.48,Default,,0,0,0,,If wanted to spark for her...
+Dialogue: 0,0:54:59.29,0:55:02.98,Default,,0,0,0,,but I decided not to, so she never came.
 Dialogue: 0,0:55:03.84,0:55:04.57,Default,,0,0,0,,THE END.
 Dialogue: 0,0:55:04.57,0:55:07.17,Default,,0,0,0,,Ok, so let's start with Ena then.
 Dialogue: 0,0:55:07.17,0:55:10.65,Default,,0,0,0,,Ena's our 2-star this time. This is what she looks like.
@@ -298,7 +299,7 @@ Dialogue: 0,0:56:45.76,0:56:49.67,Default,,0,0,0,,She reminds me a bit of Mizuki
 Dialogue: 0,0:56:49.67,0:56:51.21,Default,,0,0,0,,I really like it.
 Dialogue: 0,0:56:52.44,0:56:53.59,Default,,0,0,0,,But, uh, where is this?
 Dialogue: 0,0:56:54.96,0:56:57.69,Default,,0,0,0,,It's raining pretty hard. Careful not to catch a cold!
-Dialogue: 0,0:56:58.24,0:57:00.96,Default,,0,0,0,,These are all so good. 
+Dialogue: 0,0:56:58.24,0:57:00.96,Default,,0,0,0,,These are all so good.
 Dialogue: 0,0:57:00.96,0:57:02.98,Default,,0,0,0,,"Luka-san trained art is so cute."
 Dialogue: 0,0:57:02.98,0:57:04.92,Default,,0,0,0,,100%.
 Dialogue: 0,0:57:04.92,0:57:06.98,Default,,0,0,0,,So cyute 🤌
@@ -311,14 +312,14 @@ Dialogue: 0,0:57:15.97,0:57:19.11,Default,,0,0,0,,When Mafumom went "I just thre
 Dialogue: 0,0:57:20.19,0:57:22.14,Default,,0,0,0,,"Whoops, I broke your laptop¯\_(ツ)_/¯"
 Dialogue: 0,0:57:22.14,0:57:23.57,Default,,0,0,0,,This looks like it's from that moment.
 Dialogue: 0,0:57:24.03,0:57:26.27,Default,,0,0,0,,Seriously.
-Dialogue: 0,0:57:26.27,0:57:30.76,Default,,0,0,0,,Like, you can see the light coming from behind the door
+Dialogue: 0,0:57:26.27,0:57:30.76,Default,,0,0,0,,Like, you can see the light coming from behind the door.
 Dialogue: 0,0:57:30.76,0:57:34.01,Default,,0,0,0,,It's such an eerie glow,
 Dialogue: 0,0:57:34.01,0:57:37.55,Default,,0,0,0,,I feel like I've only seen this kind of lighting in horror games.
 Dialogue: 0,0:57:39.16,0:57:44.13,Default,,0,0,0,,And they even have the flowers in the front...
 Dialogue: 0,0:57:44.13,0:57:46.09,Default,,0,0,0,,It really does give kind of a horror vibe.
 Dialogue: 0,0:57:46.94,0:57:48.84,Default,,0,0,0,,And the trained—
-Dialogue: 0,0:57:48.84,0:57:51.15,Default,,0,0,0,,She's holding an umbrella, everyone. An umbrella!
-Dialogue: 0,0:57:52.06,0:57:52.65,Default,,0,0,0,,...
+Dialogue: 0,0:57:48.84,0:57:51.15,Default,,0,0,0,,Look, everyone, she's holding the umbrella! The umbrella!
+Dialogue: 0,0:57:52.06,0:57:53.29,Default,,0,0,0,,The umbrella!
 Dialogue: 0,0:57:53.29,0:57:54.93,Default,,0,0,0,,It's great.
 Dialogue: 0,0:57:54.93,0:57:57.25,Default,,0,0,0,,And look, the background is a bit different from Luka's.
 Dialogue: 0,0:57:57.25,0:58:00.15,Default,,0,0,0,,Kind of looks like maybe this is from somewhere close to Luka's spot.
@@ -333,23 +334,23 @@ Dialogue: 0,0:58:21.77,0:58:26.18,Default,,0,0,0,,Starting with the untrained, w
 Dialogue: 0,0:58:26.18,0:58:33.10,Default,,0,0,0,,This is the scene when Mizuki tells Mafuyu that it's okay to run away.
 Dialogue: 0,0:58:33.97,0:58:36.39,Default,,0,0,0,,I've only seen this kind of shot in dramas,
 Dialogue: 0,0:58:36.39,0:58:37.82,Default,,0,0,0,,kind of like it's in slow motion,
-Dialogue: 0,0:58:37.82,0:58:39.39,Default,,0,0,0,,where the background is in slow motion,
-Dialogue: 0,0:58:39.39,0:58:43.08,Default,,0,0,0,,and when the focus lands on Mizuki like this, you just know they're about to say something big.
+Dialogue: 0,0:58:37.82,0:58:39.39,Default,,0,0,0,,when the background blends together,
+Dialogue: 0,0:58:39.39,0:58:43.08,Default,,0,0,0,,and when the focus lands on Mizuki like this, you just know she's gonna drop some wisdom.
 Dialogue: 0,0:58:43.08,0:58:44.77,Default,,0,0,0,,Thank you so much.
 Dialogue: 0,0:58:45.84,0:58:48.21,Default,,0,0,0,,If I keep looking at this, I'm gonna fall in love.
 Dialogue: 0,0:58:48.21,0:58:49.06,Default,,0,0,0,,Thank you.
 Dialogue: 0,0:58:49.46,0:58:52.72,Default,,0,0,0,,And the trained version is also amazing.
-Dialogue: 0,0:58:52.72,0:58:55.88,Default,,0,0,0,,I don't know if it's because they're wearing a cap,
-Dialogue: 0,0:58:55.88,0:58:59.29,Default,,0,0,0,,but they're like, "Here, take the umbrella."
+Dialogue: 0,0:58:52.72,0:58:55.88,Default,,0,0,0,,I don't know if it's because she's wearing a cap,
+Dialogue: 0,0:58:55.88,0:58:59.29,Default,,0,0,0,,but she's like, "Here, take the umbrella."
 Dialogue: 0,0:58:59.29,0:59:02.29,Default,,0,0,0,,But showing that much collarbone must be freezing!
-Dialogue: 0,0:59:02.36,0:59:06.48,Default,,0,0,0,,As a bystander, I definitely think it's better that Mizuki is the one holding it.
-Dialogue: 0,0:59:07.44,0:59:10.87,Default,,0,0,0,,If I were Mafuyu, I'd probably just accept it.
-Dialogue: 0,0:59:10.87,0:59:11.67,Default,,0,0,0,,Honestly.
-Dialogue: 0,0:59:11.67,0:59:12.53,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:59:02.36,0:59:07.44,Default,,0,0,0,,If I didn't know any better, I definitely Mizuki should be holding it for herself.
+Dialogue: 0,0:59:07.44,0:59:10.87,Default,,0,0,0,,But if I were Mafuyu, I'd probably just accept it.
+Dialogue: 0,0:59:10.87,0:59:11.67,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:59:11.67,0:59:12.53,Default,,0,0,0,,So cute.
 Dialogue: 0,0:59:12.53,0:59:14.06,Default,,0,0,0,,Truly.
-Dialogue: 0,0:59:14.06,0:59:17.64,Default,,0,0,0,,But where are they holding this umbrella? Near some trees?
-Dialogue: 0,0:59:18.20,0:59:18.76,Default,,0,0,0,,Maybe.
-Dialogue: 0,0:59:20.52,0:59:24.34,Default,,0,0,0,,The atmosphere is so intense, it feels like they're holding an umbrella after the world has ended.
+Dialogue: 0,0:59:14.06,0:59:17.64,Default,,0,0,0,,But where are they anyway? Look at the background...
+Dialogue: 0,0:59:18.20,0:59:19.11,Default,,0,0,0,,Everything's destroyed.
+Dialogue: 0,0:59:20.52,0:59:24.34,Default,,0,0,0,,It feels like they're in a post-apocalyptic world sharing that umbrella together.
 Dialogue: 0,0:59:24.34,0:59:25.58,Default,,0,0,0,,It's so good.
 Dialogue: 0,0:59:25.58,0:59:26.72,Default,,0,0,0,,Truly.
 Dialogue: 0,0:59:26.72,0:59:27.80,Default,,0,0,0,,Thank you for the feast.
@@ -358,27 +359,27 @@ Dialogue: 0,0:59:29.92,0:59:32.16,Default,,0,0,0,,They didn't come home to my ac
 Dialogue: 0,0:59:32.16,0:59:35.70,Default,,0,0,0,,But maybe if I give it time, they'll show up eventually.
 Dialogue: 0,0:59:35.70,0:59:37.32,Default,,0,0,0,,I'll keep waiting and believing that.
 Dialogue: 0,0:59:37.32,0:59:38.78,Default,,0,0,0,,That's what I'm thinking.
-Dialogue: 0,0:59:38.78,0:59:47.88,Default,,0,0,0,,Seriously, the ProSeka team goes full throttle with every single illustration. I honestly wonder if they even sleep!
-Dialogue: 0,0:59:47.88,0:59:49.38,Default,,0,0,0,,Everything is just so wonderful.
+Dialogue: 0,0:59:38.78,0:59:45.78,Default,,0,0,0,,Seriously, the ProSeka team goes full throttle with every single illustration.
+Dialogue: 0,0:59:45.78,0:59:47.88,Default,,0,0,0,,Do they even get any sleep?
+Dialogue: 0,0:59:47.88,0:59:49.38,Default,,0,0,0,,All their art is just that good.
 Dialogue: 0,0:59:49.38,0:59:52.44,Default,,0,0,0,,I'm always so grateful whenever I pull on the gacha.
 Dialogue: 0,0:59:52.44,0:59:53.86,Default,,0,0,0,,Thank you so much.
 Dialogue: 0,0:59:53.86,0:59:57.96,Default,,0,0,0,,I hope you all manage to get it too! Oh, wait, was this a limited card?
 Dialogue: 0,0:59:57.96,0:59:58.60,Default,,0,0,0,,Right...
-Dialogue: 0,0:59:59.60,1:00:00.68,Default,,0,0,0,,Yeah.
-Dialogue: 0,1:00:01.32,1:00:02.60,Default,,0,0,0,,Thank you very much.
+Dialogue: 0,0:59:59.60,1:00:01.32,Default,,0,0,0,,Goodbye, kitty...
+Dialogue: 0,1:00:01.32,1:00:02.95,Default,,0,0,0,,Thank you very much.
 Dialogue: 0,1:00:03.80,1:00:06.40,Default,,0,0,0,,I'll look forward to when the limited cards come back around again.
-Dialogue: 0,1:00:07.35,1:00:07.85,Default,,0,0,0,,I really will.
-Dialogue: 0,1:00:08.72,1:00:10.96,Default,,0,0,0,,Anyway, that's it for that part.
-Dialogue: 0,1:00:11.00,1:00:16.48,Default,host,0,0,0,,so we got to see many different aspects of the event story.
+Dialogue: 0,1:00:07.35,1:00:08.20,Default,,0,0,0,,Bye bye...
+Dialogue: 0,1:00:08.72,1:00:11.25,Default,,0,0,0,,Anyway, that's it for that part.
+Dialogue: 0,1:00:11.25,1:00:16.48,Default,host,0,0,0,,We got to see many different aspects of this event today.
 Comment: 0,1:00:16.48,1:00:16.48,Default,,0,0,0,,~~CLOSEOUT~~
 Dialogue: 0,1:00:16.48,1:00:23.86,Default,host,0,0,0,,It was a short time, but that's all for ProSeka AfterTalk: We Escape to Survive edition!
 Dialogue: 0,1:00:23.86,1:00:26.78,Default,host,0,0,0,,How did everyone watching the stream enjoy it?
 Dialogue: 0,1:00:26.78,1:00:29.76,Default,host,0,0,0,,Someone wrote, "See you again in a year!"
 Dialogue: 0,1:00:29.76,1:00:31.24,Default,host,0,0,0,,The gacha is still running right now.
-Dialogue: 0,1:00:31.24,1:00:32.16,Default,host,0,0,0,,...
 Dialogue: 0,1:00:33.12,1:00:34.68,Default,host,0,0,0,,I've pulled halfway to sparking.
 Dialogue: 0,1:00:34.68,1:00:36.40,Default,host,0,0,0,,I'm at 150 pulls, but...
-Dialogue: 0,1:00:37.04,1:00:39.24,Default,host,0,0,0,,Should I do another 150?
+Dialogue: 0,1:00:37.04,1:00:39.59,Default,host,0,0,0,,Should I do another 150?
 Dialogue: 0,1:00:40.55,1:00:42.88,Default,host,0,0,0,,At that point, I'm kind of going all in.
 Dialogue: 0,1:00:42.88,1:00:44.19,Default,host,0,0,0,,Am I really going to be okay?
 Dialogue: 0,1:00:45.78,1:00:47.08,Default,host,0,0,0,,"I had a lot of fun!"
@@ -387,15 +388,14 @@ Dialogue: 0,1:00:48.30,1:00:49.42,Default,host,0,0,0,,There are still 15 hours l
 Dialogue: 0,1:00:49.42,1:00:51.32,Default,host,0,0,0,,If you haven't pulled them yet, you still have 15 hours.
 Dialogue: 0,1:00:51.32,1:00:52.17,Default,host,0,0,0,,Go for it!
 Dialogue: 0,1:00:53.36,1:00:55.20,Default,host,0,0,0,,The event was great, of course,
-Dialogue: 0,1:00:56.00,1:01:01.76,Default,host,0,0,0,,but "kitty" playing right now is one of my absolute favorites from N25.
+Dialogue: 0,1:00:56.00,1:01:01.76,Default,host,0,0,0,,but "kitty", which you're hearing now, is one of my absolute favorites from N25.
 Dialogue: 0,1:01:01.76,1:01:08.42,Default,host,0,0,0,,It's the same for every unit, but I can immediately tell who is singing which part.
 Dialogue: 0,1:01:08.42,1:01:13.45,Default,host,0,0,0,,Everyone has their own quirks and different approaches to the songs.
 Dialogue: 0,1:01:13.45,1:01:18.94,Default,host,0,0,0,,So when I hear the complete version with everyone, I hear approaches I never would've thought of.
 Dialogue: 0,1:01:18.94,1:01:27.88,Default,host,0,0,0,,And of course the Virtual Singers are there too, I'm always amazed by how good everyone's singing is.
-Dialogue: 0,1:01:28.48,1:01:29.72,Default,host,0,0,0,,Truly.
-Dialogue: 0,1:01:29.72,1:01:33.40,Default,host,0,0,0,,I feel so grateful to everyone in N25 every day.
+Dialogue: 0,1:01:28.48,1:01:33.40,Default,host,0,0,0,,I feel so grateful to everyone in N25 every day.
 Dialogue: 0,1:01:33.40,1:01:38.48,Default,host,0,0,0,,Talking with all of you and looking back on this event together has been so much fun for me.
-Dialogue: 0,1:01:39.66,1:01:43.02,Default,host,0,0,0,,And if any of you listening felt like at some point you wanted to run away but couldn't,
+Dialogue: 0,1:01:39.66,1:01:43.02,Default,host,0,0,0,,And if any of you listening felt like at some point you couldn't run away,
 Dialogue: 0,1:01:43.02,1:01:49.92,Default,host,0,0,0,,I hope watching this AfterTalk and event story helps you say something kind to the person you were back then.
 Dialogue: 0,1:01:49.92,1:01:54.76,Default,host,0,0,0,,Whether you're a student or anyone who feels like they have no place to escape to right now,
 Dialogue: 0,1:01:54.76,1:02:03.22,Default,host,0,0,0,,reaching out and asking someone for help is a big first step.
