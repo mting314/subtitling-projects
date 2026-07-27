@@ -5,6 +5,7 @@
 #   "google-api-python-client>=2.0",
 #   "google-auth-oauthlib>=1.0",
 #   "google-auth-httplib2>=0.2",
+#   "httplib2>=0.22",
 # ]
 # ///
 """
@@ -43,12 +44,16 @@ Notes:
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
+import httplib2
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
+from google_auth_httplib2 import AuthorizedHttp
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -105,7 +110,27 @@ def parse_notes(notes_path: Path) -> tuple[str, str]:
     return title, description
 
 
-def get_credentials(client_secrets: Path, token: Path) -> Credentials:
+def build_http() -> httplib2.Http:
+    """httplib2 transport that routes through an env HTTP proxy if one is set.
+
+    google-api-python-client uploads over httplib2, which (unlike ``requests``)
+    ignores HTTPS_PROXY. On networks that force egress through a proxy (e.g. the
+    Meta OD env's localhost:10054), a direct socket is blocked, so we wire the
+    proxy in explicitly. No proxy env -> plain direct Http (normal networks / VMs).
+    """
+    proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    proxy_info = None
+    if proxy_url:
+        parsed = urlparse(proxy_url)
+        proxy_info = httplib2.ProxyInfo(
+            proxy_type=httplib2.socks.PROXY_TYPE_HTTP,
+            proxy_host=parsed.hostname,
+            proxy_port=parsed.port or 80,
+        )
+    return httplib2.Http(proxy_info=proxy_info)
+
+
+def get_credentials(client_secrets: Path, token: Path, open_browser: bool = True) -> Credentials:
     creds: Credentials | None = None
     if token.exists():
         creds = Credentials.from_authorized_user_file(str(token), SCOPES)
@@ -120,7 +145,10 @@ def get_credentials(client_secrets: Path, token: Path) -> Credentials:
                 "Create a Desktop OAuth client (see this script's docstring) and save it there."
             )
         flow = InstalledAppFlow.from_client_secrets_file(str(client_secrets), SCOPES)
-        creds = flow.run_local_server(port=0)
+        # open_browser=False prints the auth URL instead of launching a browser —
+        # needed for headless/sandboxed/remote runs. The loopback redirect still
+        # comes back to this local server once you approve in any browser on this host.
+        creds = flow.run_local_server(port=0, open_browser=open_browser)
     token.write_text(creds.to_json(), encoding="utf-8")
     token.chmod(0o600)
     return creds
@@ -138,6 +166,8 @@ def main() -> None:
     ap.add_argument("--client-secrets", type=Path, default=DEFAULT_CLIENT_SECRETS)
     ap.add_argument("--token", type=Path, default=DEFAULT_TOKEN)
     ap.add_argument("--yes", action="store_true", help="Skip the confirmation prompt.")
+    ap.add_argument("--no-browser", action="store_true",
+                    help="Print the auth URL instead of opening a browser (headless/remote consent).")
     args = ap.parse_args()
 
     if not args.video.is_file():
@@ -169,8 +199,8 @@ def main() -> None:
         if input("\nProceed with upload? [y/N] ").strip().lower() not in ("y", "yes"):
             sys.exit("Aborted.")
 
-    creds = get_credentials(args.client_secrets, args.token)
-    youtube = build("youtube", "v3", credentials=creds)
+    creds = get_credentials(args.client_secrets, args.token, open_browser=not args.no_browser)
+    youtube = build("youtube", "v3", http=AuthorizedHttp(creds, http=build_http()))
 
     body = {
         "snippet": {
