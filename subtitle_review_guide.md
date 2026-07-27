@@ -13,9 +13,7 @@ process* and the *recurring error patterns* to hunt for.
 ## Process
 
 ### 1. Extract the dialogue (files can be huge)
-`.ass` files with embedded `img2ass` memes are 1+ MB because a few lines hold vector
-drawing data (hundreds of KB each). Don't read the raw file top to bottom. Extract just
-the readable dialogue, truncating the giant lines:
+If an `.ass` file contains legacy embedded `img2ass` lines, extract just the readable dialogue. Note: For new projects, use **`popups.json`** and **`scripts/generate_overlays.py`** for image overlays rather than `img2ass` vector drawing lines.
 
 ```bash
 f="<name>_translated.ass"
@@ -196,22 +194,25 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
 
 ## Positional styles — PiP + song-shift (do before hardsub)
 
-Separate from the four text dimensions: a **layout pass** so subtitles never sit on top of
-on-screen content. Two recurring situations, each with a dedicated style. **Use
-`Colors of Pure Sense_translated.ass` as the reference** — its style values are known-good
-at PlayRes 1920×1080; copy the *position (Alignment) and margins* verbatim, keeping the
-episode's own character color/font.
+### Standardized `DefaultOnibe` Base Architecture
 
-The pipeline pre-assigns the style *names* to the right lines (e.g. `<Char> - PiP`,
-`<Char> - Side Song`) but often ships them as **plain copies of the main style** with the
-wrong margins, and PiP lines with **no `\pos` tag**. This pass fixes both.
+1. **Master Base Style (`DefaultOnibe`):**
+   `Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,180,180,60,1`
+   - Serves as the canonical default for all subtitle events.
+2. **Master TL Note Style (`DefaultOnibe - TL Note`):**
+   `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
+   - Use for all Translator Note text across all projects.
+3. **Character Styles (`<Character>`):**
+   - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour` (e.g. Mizuki `&H00DDAEDE`, Ena `&H006C89AA`, Shiho `&H0022DDBB`, Haruka `&H00D19E5F`).
+4. **Shifted Character Styles (`<Character> - Shifted`):**
+   - Inherit character colors exactly, with shifted layout margins (`MarginL = 100, MarginR = 730, MarginV = 60`) and `{\pos(650,750)}` for subscreen/MV watchalongs.
 
-### The two styles
+### The positional styles table
 
 | Situation | Reference style (Colors) | Alignment | MarginL | MarginR | MarginV | Position tag on lines |
 |---|---|---|---|---|---|---|
-| **PiP** — host cam / card art fills most of the frame, subs sit in a fixed spot | `PiP` | `8` (top-center anchor) | `100` | `800` | `50` | **`{\pos(650,750)}` on every line** |
-| **Song-shift** — a 2D/3D MV plays in the **lower-right**; shift subs left to clear it | `DefaultOnibe - Shifted` (a.k.a. "Side Song") | `2` (bottom-center) | `100` | `730` | `60` | none — style margins do it |
+| **PiP** — host cam / card art fills most of the frame, subs sit in a fixed spot | `PiP` / `<Char> - PiP` | `8` (top-center anchor) | `100` | `800` | `50` | **`{\pos(650,750)}` on every line** |
+| **Song-shift** — a 2D/3D MV plays in the **lower-right**; shift subs left to clear it | `<Char> - Shifted` (a.k.a. "Side Song") | `2` (bottom-center) | `100` | `730` | `60` | none — style margins do it |
 
 > Only Alignment + the three margins change between these and the main style. Keep the
 > character's `OutlineColour`, font, `Bold`, `Outline`, `Shadow` identical to the main

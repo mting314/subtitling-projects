@@ -69,6 +69,27 @@ Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img
 
 After QC, burn subtitles into video and trim to the subbed portion. **Must hardsub before trimming** — trimming invalidates .ass timestamps.
 
+### Image Popups & Overlays (FFmpeg Overlay Protocol)
+
+For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
+1. **Never use `img2ass` bitmap drawings** (causes 1000s of lines, file bloat, and subpixel rendering lag).
+2. **Define popups in `popups.json`** inside the project folder:
+   ```json
+   [
+     {
+       "id": "rui",
+       "image": "Rui.webp",
+       "title": "Tanabe Rui",
+       "subtitle": "Voice of Mafuyu Yoisaki",
+       "character": "Mafuyu Asahina",
+       "start": "00:13:50.72",
+       "end": "00:13:54.92"
+     }
+   ]
+   ```
+3. **Generate PNG Popup Cards:** Run `uv run --with pillow python scripts/generate_overlays.py <project_folder>`. This reads character image colors from `sekai-story-indexer` (`meta.json`) and generates styled card PNGs (`Rui_card.png`).
+4. **Hardsub Overlay:** Apply overlays via FFmpeg `overlay=x=main_w-overlay_w-15:y=70:enable='between(t,START,END)'` synchronized directly to the dialogue line start/end timestamps.
+
 ### `scripts/hardsub_trim.sh`
 
 Script in `scripts/` (run from repo root). Handles single or multiple segments with automatic concatenation.

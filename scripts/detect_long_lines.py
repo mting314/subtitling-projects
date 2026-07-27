@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import os
+from pathlib import Path
 import re
 import subprocess
 import sys
@@ -121,11 +122,12 @@ def main(argv=None):
             q[2] = _fmt_time(idx + 1)
             f.write(",".join(q) + "\n")
 
+    synth_posix = Path(synth).as_posix().replace(":", r"\:")
     n = len(dialogues)
     # one render pass: black bg at PlayRes, 1 fps, N frames -> N PNGs
     cmd = ["ffmpeg", "-v", "error", "-f", "lavfi",
            "-i", f"color=c=black:s={W}x{H}:r=1:d={n}",
-           "-vf", f"ass={synth}", "-frames:v", str(n),
+           "-vf", f"ass='{synth_posix}'", "-frames:v", str(n),
            "-y", os.path.join(tmp, "f%05d.png")]
     subprocess.run(cmd, check=True)
 
