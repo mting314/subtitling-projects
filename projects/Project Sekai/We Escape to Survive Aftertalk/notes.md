@@ -44,15 +44,18 @@ Cuts to remove:
 - 15:00 → 30:04 — story recap watchalong
 - 35:26 → 47:42 — song/MV watchalong
 - 48:55 → 50:31 — song/MV watchalong
-- 54:46 → 1:00:11 — card gallery / MV watchalong
 - 1:03:03 → end — outro card
 
-Kept segments (transcribed + translated) — 18:42 total, ~28%:
+Kept segments (transcribed + translated) — 24:07 total, ~37%:
 - 10:00 → 15:00
 - 30:04 → 35:26
 - 47:42 → 48:55
-- 50:31 → 54:46
-- 1:00:11 → 1:03:03
+- 50:31 → 1:03:03
+
+> QC update: the auto-scoped pass flagged 54:46 → 1:00:11 as a "card gallery / MV
+> watchalong" cut, but the human pass found it was actual discussion and kept it —
+> so 50:31 → 54:46, 54:46 → 1:00:11, and 1:00:11 → 1:03:03 merged into one
+> contiguous 50:31 → 1:03:03 segment. Hardsub was run against these 4 segments.
 
 ## Command (full pipeline)
 
