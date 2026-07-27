@@ -96,10 +96,14 @@ Docker remote (unreliable local network — run from the autosub repo root, note
 - Cheerful Carnival event (event_runaway_2023)
 
 ## YouTube Title
-TBD
+[ENG SUB] We Escape to Survive feat. Hinata Sato (Mizuki's VA)
 
 ## YouTube Blurb (draft)
-TBD
+This episode of ProSeka AfterTalk has Hinata Sato (voice of Mizuki Akiyama) recapping the story, song, and new card art for Mizuki's focus event, "We Escape to Survive."
+
+She digs into the event's idea that running away isn't giving up so much as catching your breath, tying it to her own middle school years, when she felt out of place at school but found where she belonged through her work. She also breaks down recording "Kitty" with Tsumiki in person (the raspy take that made the final cut, the deliberately off-pitch "one, two, three, four") and goes through the new card illustrations one by one, lamenting the gacha luck that still hasn't handed her a Kitty card.
+
+Original video: https://www.youtube.com/watch?v=V5Gs4JghH84
 
 ## Source
 - **URL**: https://www.youtube.com/watch?v=V5Gs4JghH84
