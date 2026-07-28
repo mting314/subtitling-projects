@@ -2,7 +2,7 @@
 """Hardsub + trim + concatenate multiple segments from a video with smooth fade transitions.
 
 Applies:
-- Subtitle burn-in via `subtitles=` filter (with Windows spaceless temp copy handling).
+- Subtitle burn-in via `subtitles=` filter with automatic segment time-shifting so subtitles render on trimmed clips.
 - Popup image / VA card overlays from `popups.json` if present.
 - 0.4s Video & Audio fade-in / fade-out transitions at segment boundaries for smooth cuts.
 - GPU hardware acceleration (`h264_nvenc` with CPU fallback).
@@ -11,7 +11,7 @@ Usage:
     uv run python scripts/hardsub_trim.py <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> [<start2> <end2> ...]
 
 Examples:
-    uv run python scripts/hardsub_trim.py video.mkv subs.ass final.mp4 10:00 15:00 30:04 35:26 47:35 48:55 50:29 1:03:03
+    uv run python scripts/hardsub_trim.py video.mkv subs.ass final.mp4 10:00 15:00 30:04 33:40 47:39 48:55 50:29 1:03:03
 """
 
 from __future__ import annotations
@@ -33,6 +33,35 @@ def parse_time(t_str: str) -> float:
     elif len(parts) == 2:
         return float(parts[0]) * 60 + float(parts[1])
     return float(t_str)
+
+
+def format_time(seconds: float) -> str:
+    h = int(seconds // 3600)
+    m = int((seconds % 3600) // 60)
+    s = seconds % 60
+    return f"{h}:{m:02d}:{s:05.2f}"
+
+
+def create_shifted_ass(
+    subs_file: Path, seg_start: float, output_ass: Path
+) -> None:
+    """Create a temporary ASS file with dialogue line timestamps shifted by -seg_start."""
+    lines = subs_file.read_text(encoding="utf-8").splitlines()
+    shifted_lines = []
+
+    for line in lines:
+        if line.startswith("Dialogue:"):
+            parts = line.split(",", 9)
+            t_start = parse_time(parts[1]) - seg_start
+            t_end = parse_time(parts[2]) - seg_start
+            if t_end > 0:
+                parts[1] = format_time(max(0.0, t_start))
+                parts[2] = format_time(max(0.0, t_end))
+                shifted_lines.append(",".join(parts))
+        else:
+            shifted_lines.append(line)
+
+    output_ass.write_text("\n".join(shifted_lines), encoding="utf-8")
 
 
 def build_hardsub_command(
@@ -137,7 +166,7 @@ def main() -> int:
     ap.add_argument(
         "timestamps",
         nargs="+",
-        help="Pairs of start end timestamps (e.g. 10:00 15:00 30:04 35:26)",
+        help="Pairs of start end timestamps (e.g. 10:00 15:00 30:04 33:40)",
     )
     ap.add_argument(
         "--fade",
@@ -169,12 +198,8 @@ def main() -> int:
     tmpdir = Path(tempfile.mkdtemp())
     print(f"Temp working dir: {tmpdir}")
 
-    # Copy subtitle file into temp dir so subtitles= filter parses spaceless relative path cleanly
-    subs_tmp = tmpdir / "subs.ass"
-    shutil.copy2(subs_file_abs, subs_tmp)
-
     print(
-        f"Encoding {len(segments)} segments in parallel with 0.4s fade-in/out transitions..."
+        f"Encoding {len(segments)} segments in parallel with time-shifted subtitles & 0.4s fade transitions..."
     )
     parts = []
     procs = []
@@ -187,9 +212,13 @@ def main() -> int:
             part = tmpdir / f"part{i+1}.mp4"
             parts.append(part)
 
+            seg_start = parse_time(start_str)
+            seg_subs = tmpdir / f"subs_seg{i+1}.ass"
+            create_shifted_ass(subs_file_abs, seg_start, seg_subs)
+
             cmd = build_hardsub_command(
                 input_video_abs,
-                subs_tmp,
+                seg_subs,
                 start_str,
                 end_str,
                 part,
