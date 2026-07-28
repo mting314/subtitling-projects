@@ -119,14 +119,10 @@ sub-free). The script reports e.g. `end 0:51:00->0:50:59.69 (source fade)`.
 Then **hardsub** (the `--hardsub` flag prints this command; must hardsub before
 trimming — trimming invalidates .ass timestamps):
 ```bash
-./scripts/hardsub_trim.sh "<name>.mkv" "<name>_translated.ass" "<name>_final.mp4" \
+uv run python scripts/hardsub_trim.py "<name>.mkv" "<name>_translated.ass" "<name>_hardsubbed.mp4" \
   0:01:37 0:05:27  0:10:53 0:27:40  0:36:05 0:51:00  0:52:25 1:00:09
 ```
-Requires ffmpeg built with libass. Segments encode in parallel, then concat with
-`-c copy`. The script symlinks the subs to a spaceless name (the `ass=` filter
-can't handle spaces). It also runs a **post-render `blackdetect`** and warns about
-any black intervals — a black flash at a join usually means a source fade got
-caught at a cut boundary (re-run `scripts/find_segments.py --mkv` and re-render if so).
+Handles parallel GPU encoding (`h264_nvenc`), automatic `popups.json` VA/gachapin overlay card compositing, smooth 0.4s video + audio fade-in/fade-out transitions at segment boundaries, and concatenation into the final video.
 
 ---
 

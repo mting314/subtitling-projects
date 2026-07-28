@@ -46,16 +46,13 @@ Cuts to remove:
 - 48:55 → 50:31 — song/MV watchalong
 - 1:03:03 → end — outro card
 
-Kept segments (transcribed + translated) — 24:07 total, ~37%:
+Kept segments (transcribed + translated) — 22:34 total, ~34%:
 - 10:00 → 15:00
-- 30:04 → 35:26
-- 47:42 → 48:55
-- 50:31 → 1:03:03
+- 30:04 → 33:40 (trimmed room-code setup delay)
+- 47:39 → 48:55 (adjusted AfterLive transition start)
+- 50:29 → 1:03:03 (adjusted start for line 206)
 
-> QC update: the auto-scoped pass flagged 54:46 → 1:00:11 as a "card gallery / MV
-> watchalong" cut, but the human pass found it was actual discussion and kept it —
-> so 50:31 → 54:46, 54:46 → 1:00:11, and 1:00:11 → 1:03:03 merged into one
-> contiguous 50:31 → 1:03:03 segment. Hardsub was run against these 4 segments.
+> Hardsub pass with codifying 0.4s Video/Audio fade-in and fade-out transitions at segment boundaries and 3 VA/gachapin popup card overlays.
 
 ## Command (full pipeline)
 
