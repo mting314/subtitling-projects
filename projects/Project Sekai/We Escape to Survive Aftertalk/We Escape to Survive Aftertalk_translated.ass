@@ -71,7 +71,7 @@ Dialogue: 0,0:12:29.56,0:12:31.55,Mizuki,host,0,0,0,,Someone wrote, "There are 2
 Dialogue: 0,0:12:33.52,0:12:35.34,Mizuki,host,0,0,0,,That's right, there are 200 shades of white.
 Dialogue: 0,0:12:35.34,0:12:36.24,Mizuki,host,0,0,0,,Indeed.
 Dialogue: 0,0:12:36.76,0:12:45.78,Mizuki,host,0,0,0,,Anyway, I'd like to start looking back on the story of our event, "We Escape to Survive."
-Dialogue: 0,0:12:45.78,0:12:53.82,Mizuki,host,0,0,0,,This was sort of the Mizuki-perspective of previous Kanade event story.
+Dialogue: 0,0:12:45.78,0:12:53.82,Mizuki,host,0,0,0,,This was sort of the Mizuki-perspective of the previous Kanade event story.
 Dialogue: 0,0:12:53.82,0:12:57.78,Mizuki,host,0,0,0,,It wasn't so much about the plot moving forward,
 Dialogue: 0,0:12:57.78,0:13:07.72,Mizuki,host,0,0,0,,but more about showing Mizuki's perspective after seeing what was happening with Kanade and Mafuyu.
 Dialogue: 0,0:13:09.60,0:13:12.70,Mizuki,host,0,0,0,,But yeah, it's like...
@@ -83,10 +83,10 @@ Dialogue: 0,0:13:31.68,0:13:35.08,Mizuki,host,0,0,0,,I mean, when it comes to re
 Dialogue: 0,0:13:35.08,0:13:39.10,Mizuki,host,0,0,0,,unlike anime where you can record with others,
 Dialogue: 0,0:13:39.10,0:13:41.96,Mizuki,host,0,0,0,,for games like this, we usually record by ourselves.
 Dialogue: 0,0:13:41.96,0:13:46.68,Mizuki,host,0,0,0,,Since I rarely get to hear what the others have recorded,
-Dialogue: 0,0:13:46.68,0:13:50.72,Mizuki,host,0,0,0,,I didn't have a clear image of how the others' would say their lines.
+Dialogue: 0,0:13:46.68,0:13:50.72,Mizuki,host,0,0,0,,I didn't have a clear image of how the others would say their lines.
 Comment: 0,0:13:50.72,0:13:54.92,Default,,0,0,0,,TODO: Insert "Rui" image of Tanabe Rui
-Dialogue: 0,0:13:50.72,0:13:54.92,Mizuki,host,0,0,0,,Like, I didn't know how Rui-chan's ended up performing her lines.
-Dialogue: 0,0:13:54.92,0:14:02.18,Mizuki,host,0,0,0,,I had to use my imagination, so when I actually saw the event, I was like, "Wow, everyone acting is so good!"
+Dialogue: 0,0:13:50.72,0:13:54.92,Mizuki,host,0,0,0,,Like, I didn't know how Rui-chan ended up performing her lines.
+Dialogue: 0,0:13:54.92,0:14:02.18,Mizuki,host,0,0,0,,I had to use my imagination, so when I actually saw the event, I was like, "Wow, everyone's acting is so good!"
 Dialogue: 0,0:14:02.18,0:14:07.48,Mizuki,host,0,0,0,,Like Ena, for example.
 Dialogue: 0,0:14:07.48,0:14:12.68,Mizuki,host,0,0,0,,If it were me, I'd probably just blurt things out, but Ena has this way of being persuasive yet firm.
 Comment: 0,0:14:12.68,0:14:16.28,Default,,0,0,0,,TODO: Insert "Minori" image of Minori Suzuki
@@ -114,7 +114,7 @@ Dialogue: 0,0:30:27.62,0:30:34.66,Mizuki,host,0,0,0,,after talking to Luka-san a
 Dialogue: 0,0:30:34.66,0:30:43.38,Mizuki,host,0,0,0,,Instead of seeing it as running away, it's more like taking a break or a moment to catch your breath.
 Dialogue: 0,0:30:43.38,0:30:49.94,Mizuki,host,0,0,0,,I think that was really the core of "We Escape to Survive."
 Dialogue: 0,0:30:49.94,0:30:55.74,Mizuki,host,0,0,0,,Personally, if you asked me if I liked school—
-Dialogue: 0,0:30:55.74,0:31:01.08,Mizuki,host,0,0,0,,in this line if work, I get asked a lot about what I was like as a student.
+Dialogue: 0,0:30:55.74,0:31:01.08,Mizuki,host,0,0,0,,in this line of work, I get asked a lot about what I was like as a student.
 Dialogue: 0,0:31:01.08,0:31:05.88,Mizuki,host,0,0,0,,To be honest, I don't have many good memories of my student days.
 Dialogue: 0,0:31:05.88,0:31:10.26,Mizuki,host,0,0,0,,Especially in middle school, I was already working in the entertainment industry,
 Dialogue: 0,0:31:10.26,0:31:15.60,Mizuki,host,0,0,0,,so I often had to leave school early, even though it was during compulsory education.
@@ -179,8 +179,8 @@ Dialogue: 0,0:48:15.68,0:48:16.80,Mizuki,host,0,0,0,,shall we move on?
 Comment: 0,0:48:18.04,0:48:22.56,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
 Dialogue: 0,0:48:18.04,0:48:22.56,Mizuki,host_meta,0,0,0,,And now, I'd like to watch the 2DMV for "Kitty" that was released yesterday
 Dialogue: 0,0:48:22.56,0:48:26.40,Mizuki,host,0,0,0,,together with all of you.
-Dialogue: 0,0:48:26.40,0:48:33.22,Mizuki,host,0,0,0,,This song was written for us by Tsumiki-san, and wasn't it just incredible?
-Dialogue: 0,0:48:33.22,0:48:35.16,Mizuki,host,0,0,0,,but wasn't the full version just incredible?
+Dialogue: 0,0:48:26.40,0:48:33.22,Mizuki,host,0,0,0,,This song was written for us by Tsumiki-san.
+Dialogue: 0,0:48:33.22,0:48:35.16,Mizuki,host,0,0,0,,But wasn't the full version just incredible?
 Dialogue: 0,0:48:36.13,0:48:41.64,Mizuki,host,0,0,0,,The tempo from the second verse onward is a classic Tsumiki-san move.
 Dialogue: 0,0:48:41.64,0:48:47.28,Mizuki,host,0,0,0,,It's slightly different from the first verse, and that's what makes it so great.
 Dialogue: 0,0:48:47.28,0:48:50.28,Mizuki,host,0,0,0,,I want to talk more about the music, but first,
@@ -234,7 +234,6 @@ Dialogue: 0,0:53:20.48,0:53:25.78,Mizuki,host,0,0,0,,It was more like a spoken l
 Dialogue: 0,0:53:25.78,0:53:31.68,Mizuki,host,0,0,0,,I'm so curious how the others did it. I want to hear all four versions of that part.
 Dialogue: 0,0:53:31.68,0:53:35.48,Mizuki,host,0,0,0,,So that was "Kitty." It really was the best.
 Dialogue: 0,0:53:35.48,0:53:37.20,Mizuki,host,0,0,0,,I really want to sing it at karaoke.
-Dialogue: 0,0:53:38.88,0:53:40.78,Mizuki,host,0,0,0,,I really want to sing it at karaoke.
 Dialogue: 0,0:53:41.54,0:53:44.72,Mizuki,host,0,0,0,,People are asking if everyone'll get an Another Vocal, but I just said "if" they do.
 Dialogue: 0,0:53:44.72,0:53:46.82,Mizuki,host,0,0,0,,Please don't misunderstand.
 Dialogue: 0,0:53:46.82,0:53:48.84,Mizuki,host,0,0,0,,I don't know whose Another Vocal will be released.
@@ -315,7 +314,7 @@ Dialogue: 0,0:57:09.73,0:57:10.63,PiP,,0,0,0,,{\pos(650,750)}Look at it!
 Dialogue: 0,0:57:11.62,0:57:13.80,PiP,,0,0,0,,{\pos(650,750)}This is the untrained.
 Dialogue: 0,0:57:13.80,0:57:15.97,PiP,,0,0,0,,{\pos(650,750)}This art though...
 Dialogue: 0,0:57:15.97,0:57:19.11,PiP,,0,0,0,,{\pos(650,750)}When Mafumom went "I just threw out your synthesizer. ¯\_(ツ)_/¯"
-Dialogue: 0,0:57:20.19,0:57:22.14,PiP,,0,0,0,,{\pos(650,750)}"Whoops, I broke your laptop¯\_(ツ)_/¯"
+Dialogue: 0,0:57:20.19,0:57:22.14,PiP,,0,0,0,,{\pos(650,750)}"Whoops, I broke your laptop. ¯\_(ツ)_/¯"
 Dialogue: 0,0:57:22.14,0:57:23.57,PiP,,0,0,0,,{\pos(650,750)}This looks like it's from that moment.
 Dialogue: 0,0:57:24.03,0:57:26.27,PiP,,0,0,0,,{\pos(650,750)}Seriously.
 Dialogue: 0,0:57:26.27,0:57:30.76,PiP,,0,0,0,,{\pos(650,750)}Like, you can see the light coming from behind the door.
@@ -411,7 +410,7 @@ Dialogue: 0,1:02:13.76,1:02:19.60,Mizuki,host,0,0,0,,you can read it all in the 
 Dialogue: 0,1:02:19.60,1:02:26.24,Mizuki,host,0,0,0,,And if you've already read it, I hope you'll enjoy it again and again!
 Dialogue: 0,1:02:27.08,1:02:33.78,Mizuki,host,0,0,0,,Also, in just three months, before you know it, it'll be Mizuki's birthday!
 Dialogue: 0,1:02:33.78,1:02:39.42,Mizuki,host,0,0,0,,The change in seasons means the temperature is fluctuating like crazy.
-Dialogue: 0,1:02:39.42,1:02:45.22,Mizuki,host,0,0,0,,so stay warm or cool as needed, listen to your body,
+Dialogue: 0,1:02:39.42,1:02:45.22,Mizuki,host,0,0,0,,So stay warm or cool as needed, listen to your body,
 Dialogue: 0,1:02:45.22,1:02:47.84,Mizuki,host,0,0,0,,I hope you all stay healthy.
 Dialogue: 0,1:02:47.84,1:02:51.96,Mizuki,host,0,0,0,,It was a short time, but thank you so much for joining me!
 Dialogue: 0,1:02:51.96,1:02:54.10,Mizuki,host,0,0,0,,Well then, I'll see you all again!

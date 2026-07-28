@@ -17,6 +17,7 @@ The `aftertalk-launch` skill (`.claude/skills/aftertalk-launch/`) drives most of
 | `find_segments.py` | **Post-pipeline** sibling of `scope_segments.py`: finds keep-segments between watchalong gaps in the *rendered* `.ass` timeline; `--transcript` classifies each gap silent vs audio, `--hardsub` emits a ready-to-run `hardsub_trim.sh` command. | Hardsub |
 | `hardsub_trim.sh` | Burn subs into video and trim/concat to the kept segments (parallel encode + `-c copy` concat; blackdetect warnings). Requires ffmpeg built with libass. | Hardsub |
 | `fetch_event.py` | Fetch Project Sekai event story data from the sekai-world master DB + asset CDN. | Setup / reference |
+| `youtube_upload.py` | Upload the hardsubbed mp4 to YouTube (PRIVATE by default), pulling title/description from `notes.md`. Self-contained: `uv run scripts/youtube_upload.py`. Needs a one-time Desktop OAuth client (`scripts/client_secret.json`, gitignored) — see the script docstring. | Publish |
 
 ## Typical order (per episode)
 
@@ -25,3 +26,4 @@ The `aftertalk-launch` skill (`.claude/skills/aftertalk-launch/`) drives most of
 2. `detect_long_lines.py` → `split_subtitle_line.py` — fix 3-row lines (loop until 0 flagged)
 3. `find_segments.py --transcript --hardsub …` — get the cut plan + hardsub command
 4. `./scripts/hardsub_trim.sh …` — render the final mp4
+5. `youtube_upload.py --video <mp4> --notes <notes.md>` — publish to YouTube (private by default)
