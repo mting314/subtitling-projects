@@ -90,16 +90,16 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 3. **Generate PNG Popup Cards:** Run `uv run --with pillow python scripts/generate_overlays.py <project_folder>`. This reads character image colors from `sekai-story-indexer` (`meta.json`) and generates styled card PNGs (`Rui_card.png`).
 4. **Hardsub Overlay:** Apply overlays via FFmpeg `overlay=x=main_w-overlay_w-15:y=70:enable='between(t,START,END)'` synchronized directly to the dialogue line start/end timestamps.
 
-### `scripts/hardsub_trim.sh`
+### `scripts/hardsub_trim.py`
 
-Script in `scripts/` (run from repo root). Handles single or multiple segments with automatic concatenation.
+Python tool in `scripts/` (run from repo root). Handles single or multiple segments with parallel GPU encoding, automatic `popups.json` card overlays, smooth 0.4s video/audio fade transitions at boundaries, and seamless concatenation.
 
 ```bash
-# Single segment
-./scripts/hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start> <end>
-
-# Multiple segments (gaps like story recaps/songs are skipped)
-./scripts/hardsub_trim.sh <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> <start2> <end2> ...
+uv run python scripts/hardsub_trim.py \
+  "projects/Project Sekai/<event>/<name>.mkv" \
+  "projects/Project Sekai/<event>/<name>_translated.ass" \
+  "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
+  10:00 15:00  30:04 35:26  47:35 48:55  50:29 1:03:03
 ```
 
 Example (Colors of Pure Sense — 2 segments, skipping story recap):
