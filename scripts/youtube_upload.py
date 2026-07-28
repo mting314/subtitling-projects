@@ -127,7 +127,9 @@ def build_http() -> httplib2.Http:
             proxy_host=parsed.hostname,
             proxy_port=parsed.port or 80,
         )
-    return httplib2.Http(proxy_info=proxy_info)
+    h = httplib2.Http(proxy_info=proxy_info)
+    h.follow_redirects = False
+    return h
 
 
 def get_credentials(client_secrets: Path, token: Path, open_browser: bool = True) -> Credentials:
@@ -200,7 +202,11 @@ def main() -> None:
             sys.exit("Aborted.")
 
     creds = get_credentials(args.client_secrets, args.token, open_browser=not args.no_browser)
-    youtube = build("youtube", "v3", http=AuthorizedHttp(creds, http=build_http()))
+    proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    if proxy_url:
+        youtube = build("youtube", "v3", http=AuthorizedHttp(creds, http=build_http()))
+    else:
+        youtube = build("youtube", "v3", credentials=creds)
 
     body = {
         "snippet": {
