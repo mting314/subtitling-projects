@@ -161,6 +161,20 @@ song/MV, with personality woven in. See `Grow Glorious Glow Aftertalk/notes.md` 
 
 ---
 
+## 5. YouTube upload
+
+After hardsubbing and writing `notes.md`, run `scripts/youtube_upload.py` to upload the finished video:
+
+```bash
+uv run --script scripts/youtube_upload.py \
+  --video "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/<event>/notes.md"
+```
+
+The script automatically extracts the title and description from `notes.md`, verifies lengths, requests confirmation, and uploads via the YouTube Data API v3 (resumable upload).
+
+---
+
 ## Guardrails
 - Positional: only Alignment + MarginL/R/V change; never recolor; never touch
   `Comment:` lines or overwrite an existing `\pos`.

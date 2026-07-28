@@ -17,7 +17,7 @@ Each subtitled video moves through these stages:
 1. **Generate** — set up the project (folder, `notes.md`, video download) and run the autosub pipeline (transcribe → format → translate → postprocess) to produce `<name>_translated.ass`. New-project setup steps are in [`aftertalk_project_setup.md`](aftertalk_project_setup.md); tooling lives in the [autosub](https://github.com/mting314/autosub) repo.
 2. **QC review** — human pass over `<name>_translated.ass` for consistency, grammar, spelling, and style. Follow [`subtitle_review_guide.md`](subtitle_review_guide.md).
 3. **Hardsub + trim** — burn the reviewed subs into the video and trim to the subbed portion with `scripts/hardsub_trim.sh` (see [Post-Pipeline: Hardsub + Trim](#post-pipeline-hardsub--trim)).
-4. **Publish** — write the YouTube description ([YouTube Video Blurbs](#youtube-video-blurbs)).
+4. **Publish** — write the YouTube title + description in `notes.md` and upload the hardsubbed video to YouTube with `scripts/youtube_upload.py` (see [YouTube Upload & Blurbs](#youtube-upload--blurbs)).
 
 ## Tooling
 
@@ -121,7 +121,7 @@ Example (Colors of Pure Sense — 2 segments, skipping story recap):
 
 See `snippets.md` for standalone ffmpeg commands.
 
-## YouTube Video Blurbs
+## YouTube Upload & Blurbs
 
 When writing YouTube descriptions for subtitled videos, follow this format:
 1. VA name + character they voice + what the content covers
@@ -130,6 +130,14 @@ When writing YouTube descriptions for subtitled videos, follow this format:
 4. Credits/references if applicable
 
 Example tone: casual, enthusiastic, highlights personality moments from the VAs.
+
+### Automated YouTube Upload (`scripts/youtube_upload.py`)
+After hardsubbing and writing the title/description in `notes.md`, run:
+```bash
+uv run --script scripts/youtube_upload.py \
+  --video "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/<event>/notes.md"
+```
 
 ## Git Conventions
 
