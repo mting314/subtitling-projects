@@ -93,7 +93,7 @@ Docker remote (unreliable local network — run from the autosub repo root, note
 - Cheerful Carnival event (event_runaway_2023)
 
 ## YouTube Title
-[ENG SUB] We Escape to Survive feat. Hinata Sato (Mizuki's VA)
+[ENG SUB] We Escape to Survive Aftertalk ft. Hinata Sato (Mizuki's VA)
 
 ## YouTube Blurb (draft)
 This episode of ProSeka AfterTalk has Hinata Sato (voice of Mizuki Akiyama) recapping the story, song, and new card art for Mizuki's focus event, "We Escape to Survive."
