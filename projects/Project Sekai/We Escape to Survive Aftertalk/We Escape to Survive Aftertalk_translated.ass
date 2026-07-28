@@ -16,9 +16,9 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 35
-Active Line: 41
-Video Position: 22706
+Scroll Position: 102
+Active Line: 112
+Video Position: 60370
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -142,7 +142,7 @@ Dialogue: 0,0:33:10.65,0:33:15.48,Mizuki,host_meta,0,0,0,,So it's not impossible
 Dialogue: 0,0:33:15.48,0:33:19.30,Mizuki,host_meta,0,0,0,,Once you graduate, if you don't stay in touch, the connection just fades.
 Dialogue: 0,0:33:19.30,0:33:24.86,Mizuki,host,0,0,0,,There are even shrines for cutting ties in Kyoto and places like that.
 Dialogue: 0,0:33:24.86,0:33:32.31,Mizuki,host,0,0,0,,So before things get really bad for you, I think it's a good idea to broaden your horizons and look for a place to escape to.
-Dialogue: 0,0:33:32.31,0:33:33.04,Mizuki,,0,0,0,,~~~Start AfterLive Watchalong~~~
+Comment: 0,0:33:32.31,0:33:33.04,Mizuki,,0,0,0,,~~~Start AfterLive Watchalong~~~
 Dialogue: 0,0:33:33.04,0:33:39.80,Mizuki,host,0,0,0,,Anyway, from here, I'd like to watch the AfterLive together with everyone.
 Dialogue: 0,0:33:41.48,0:33:49.24,Mizuki,host,0,0,0,,First, let me click this, and this, and this. Alright.
 Dialogue: 0,0:33:53.44,0:33:57.92,Mizuki,host,0,0,0,,I'll create a private room so we can all watch together.
