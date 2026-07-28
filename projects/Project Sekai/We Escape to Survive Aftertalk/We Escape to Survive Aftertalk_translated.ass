@@ -16,9 +16,9 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 102
-Active Line: 112
-Video Position: 60370
+Scroll Position: 153
+Active Line: 157
+Video Position: 86425
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,7 +30,7 @@ Style: PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,-1,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:10:00.71,0:10:11.94,Mizuki,host,0,0,0,,Welcome to ProSeka AfterTalk: "We Escape to Survive" edition! Yeah! And we're live!
+Dialogue: 0,0:10:00.71,0:10:06.70,Mizuki,host,0,0,0,,Welcome to ProSeka AfterTalk: "We Escape to Survive" edition!
 Dialogue: 0,0:10:11.94,0:10:17.54,Mizuki,host,0,0,0,,Um, kon-niigo, everyone! I'm Hinata Sato, the voice of Mizuki Akiyama from N25.
 Dialogue: 0,0:10:17.54,0:10:23.66,Mizuki,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event story
 Dialogue: 0,0:10:23.66,0:10:27.92,Mizuki,host,0,0,0,,and enjoy the AfterLive together with everyone watching.
@@ -180,13 +180,14 @@ Dialogue: 0,0:35:17.08,0:35:20.88,Mizuki,host,0,0,0,,Everyone, go ahead and join
 Dialogue: 0,0:35:22.44,0:35:23.22,Mizuki,host,0,0,0,,Is it about time?
 Dialogue: 0,0:35:23.22,0:35:23.96,Mizuki,host,0,0,0,,I'll show it for a little bit longer.
 Dialogue: 0,0:35:24.96,0:35:25.96,Mizuki,host,0,0,0,,And they're all rushing in!
-Dialogue: 0,0:47:42.00,0:47:43.32,Mizuki,host,0,0,0,,That was the AfterLive.
-Dialogue: 0,0:47:43.32,0:47:51.92,Mizuki,host,0,0,0,,Considering everyone's feelings after the event, I was so happy that Mafuyu showed up.
+Dialogue: 0,0:47:41.20,0:47:43.32,Mizuki,host,0,0,0,,That was a great AfterLive.
+Dialogue: 0,0:47:43.32,0:47:49.82,Mizuki,host,0,0,0,,Considering what Mizuki said to Mafuyu at the end of the event, 
+Dialogue: 0,0:47:50.36,0:47:51.92,Mizuki,,0,0,0,,I'm really glad she came for the live.
 Dialogue: 0,0:47:51.92,0:47:54.94,Mizuki,host,0,0,0,,Hearing them sing "Non-Breath Oblige" was so good.
 Dialogue: 0,0:47:54.94,0:47:56.38,Mizuki,host,0,0,0,,It was great.
-Dialogue: 0,0:47:56.38,0:47:57.32,Mizuki,host,0,0,0,,It was the best.
+Dialogue: 0,0:47:56.38,0:47:57.67,Mizuki,host,0,0,0,,It was the best.
 Dialogue: 0,0:47:59.64,0:48:00.82,Mizuki,host,0,0,0,,It was really wonderful.
-Dialogue: 0,0:48:00.82,0:48:03.00,Mizuki,host,0,0,0,,Once again, thank you to everyone who joined the room
+Dialogue: 0,0:48:00.82,0:48:03.00,Mizuki,host,0,0,0,,Once again, thank you to everyone who joined the room,
 Dialogue: 0,0:48:03.00,0:48:05.32,Mizuki,host,0,0,0,,and everyone who enjoyed the stream with me.
 Dialogue: 0,0:48:05.32,0:48:09.26,Mizuki,host,0,0,0,,I'm sorry if you got motion sickness from my weird camera angles.
 Dialogue: 0,0:48:09.26,0:48:11.96,Mizuki,host,0,0,0,,Thank you so much to everyone who watched.
