@@ -83,8 +83,8 @@ def create_split_card(
     subtitle_text: str,
     chara_color_hex: str,
     output_path: Path,
-    total_w: int = 340,
-    img_h: int = 240,
+    total_w: int = 480,
+    img_h: int = 340,
 ):
     """Generate a split-screen VA photo (left) + Character Illustration (right) card with centered English text."""
     half_w = total_w // 2
@@ -131,11 +131,11 @@ def create_split_card(
     lato_font_path = Path("C:/Users/Michael/AppData/Local/Microsoft/Windows/Fonts/LATO-EXTRABOLD.TTF")
     try:
         if lato_font_path.exists():
-            title_font = ImageFont.truetype(str(lato_font_path), 23)
-            sub_font = ImageFont.truetype(str(lato_font_path), 16)
+            title_font = ImageFont.truetype(str(lato_font_path), 32)
+            sub_font = ImageFont.truetype(str(lato_font_path), 22)
         else:
-            title_font = ImageFont.truetype("arialbd.ttf", 23)
-            sub_font = ImageFont.truetype("arial.ttf", 16)
+            title_font = ImageFont.truetype("arialbd.ttf", 32)
+            sub_font = ImageFont.truetype("arial.ttf", 22)
     except Exception:
         title_font = ImageFont.load_default()
         sub_font = ImageFont.load_default()
@@ -148,8 +148,8 @@ def create_split_card(
     s_w = s_bbox[2] - s_bbox[0]
     s_h = s_bbox[3] - s_bbox[1]
 
-    line_spacing = 10
-    padding_v = 14
+    line_spacing = 12
+    padding_v = 16
     text_block_h = t_h + line_spacing + s_h
     banner_h = text_block_h + padding_v * 2
 
@@ -181,7 +181,7 @@ def create_split_card(
     card_raw.paste(banner, (0, img_h))
 
     # Single outer rounded rectangle mask around the ENTIRE card
-    radius = 14
+    radius = 20
     mask = Image.new("L", (total_w, card_h), 0)
     draw_mask = ImageDraw.Draw(mask)
     draw_mask.rounded_rectangle([(0, 0), (total_w, card_h)], radius=radius, fill=255)

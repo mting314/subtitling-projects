@@ -5,11 +5,11 @@
     "type": "raw",
     "start": "00:10:51.95",
     "end": "00:10:55.52",
-    "pos": [1580, 60]
+    "pos": [1380, 160]
   },
   {
     "id": "rui",
-    "image": "Rui_card.png",
+    "image": "rui_card.png",
     "type": "raw",
     "title": "Tanabe Rui",
     "subtitle": "Voice of Mafuyu Yoisaki",
@@ -17,7 +17,7 @@
     "color": "#8888cc",
     "start": "00:13:50.72",
     "end": "00:13:54.92",
-    "pos": [1580, 60]
+    "pos": [1380, 160]
   },
   {
     "id": "minori",
@@ -29,6 +29,6 @@
     "color": "#ccaa88",
     "start": "00:14:12.68",
     "end": "00:14:16.28",
-    "pos": [1580, 60]
+    "pos": [1380, 160]
   }
 ]
