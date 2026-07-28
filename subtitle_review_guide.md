@@ -197,8 +197,12 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
 ### Standardized `DefaultOnibe` Base Architecture
 
 1. **Master Base Style (`DefaultOnibe`):**
-   `Style: DefaultOnibe,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,180,180,60,1`
+   `Style: DefaultOnibe,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1`
    - Serves as the canonical default for all subtitle events.
+   - **Standard values (1080p): Fontsize 100, MarginL/R 200, MarginV 100.** Per the
+     [idolactivities subtitling guide](https://idolactivities.github.io/vtuber-things/guides/subtitling.html):
+     font ≥100 for 1080p, vertical margin ≥ font size, horizontal margins ≈ 2× that.
+     (Was 72 / 180 / 60 before — bumped up 2026-07 for readability + margin balance.)
 2. **Master TL Note Style (`DefaultOnibe - TL Note`):**
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
