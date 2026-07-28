@@ -16,4 +16,9 @@
 .venv/
 subtitling-projects/
 
+# YouTube uploader OAuth credentials / tokens (NEVER commit)
+scripts/client_secret*.json
+scripts/*client_secret*.json
+scripts/.youtube_token*.json
+
 concat.txt
