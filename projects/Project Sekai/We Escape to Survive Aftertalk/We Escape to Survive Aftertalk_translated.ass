@@ -37,7 +37,8 @@ Dialogue: 0,0:10:23.66,0:10:27.92,Mizuki,host,0,0,0,,and enjoy the AfterLive tog
 Dialogue: 0,0:10:28.48,0:10:32.18,Mizuki,host,0,0,0,,This time, we're covering the "We Escape to Survive" event.
 Dialogue: 0,0:10:32.18,0:10:37.70,Mizuki,host,0,0,0,,It just ended yesterday, May 9th,
 Dialogue: 0,0:10:37.70,0:10:43.60,Mizuki,host,0,0,0,,so I hope you all enjoyed the story and the music!
-Dialogue: 0,0:10:44.24,0:10:51.95,Mizuki,host,0,0,0,,I didn't realize the background would be this white, so wearing white today makes me look like a floating head,
+Dialogue: 0,0:10:44.24,0:10:47.80,Mizuki,host,0,0,0,,I didn't realize the background would be this white,
+Dialogue: 0,0:10:47.80,0:10:51.95,Mizuki,host,0,0,0,,so wearing white today makes me look like a floating head,
 Comment: 0,0:10:51.95,0:10:55.52,Default,,0,0,0,,TODO: Insert "gachapin" reference photo
 Dialogue: 0,0:10:51.95,0:10:55.52,Mizuki,host,0,0,0,,like that Gachapin green screen fail.
 Dialogue: 0,0:10:51.95,0:10:55.52,DefaultOnibe - TL Note,,0,0,0,,{\\pos(1100,40)}TL Note: Viral 2016 Japanese weather blooper where \Nmascot Gachapin vanished on green screen.
@@ -45,8 +46,10 @@ Dialogue: 0,0:10:55.52,0:10:59.75,Mizuki,host,0,0,0,,It looks like I'm filming a
 Dialogue: 0,0:10:59.75,0:11:02.50,Mizuki,host,0,0,0,,which is kind of funny, but getting back on track,
 Dialogue: 0,0:11:02.50,0:11:08.40,Mizuki,host,0,0,0,,the N25 story is really getting into some deep territory now,
 Dialogue: 0,0:11:08.40,0:11:11.02,Mizuki,host,0,0,0,,so I hope you'll all look back on it with me.
-Dialogue: 0,0:11:11.02,0:11:21.68,Mizuki,host,0,0,0,,When you're posting your thoughts on the event or this stream, please use the hashtag #ProSekaAfterTalk.
-Dialogue: 0,0:11:21.68,0:11:26.36,Mizuki,host,0,0,0,,The staff have set up the YouTube chat so I can see it right here, and I want to pick out some of your comments.
+Dialogue: 0,0:11:11.02,0:11:16.00,Mizuki,host,0,0,0,,When you're posting your thoughts on the event or this stream,
+Dialogue: 0,0:11:16.00,0:11:21.68,Mizuki,host,0,0,0,,please use the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:11:21.68,0:11:24.00,Mizuki,host,0,0,0,,The staff have set up the YouTube chat so I can see it right here,
+Dialogue: 0,0:11:24.00,0:11:26.36,Mizuki,host,0,0,0,,and I want to pick out some of your comments.
 Dialogue: 0,0:11:26.36,0:11:27.96,Mizuki,host,0,0,0,,"You're merging with the white."
 Dialogue: 0,0:11:28.52,0:11:29.84,Mizuki,host,0,0,0,,I really am, aren't I?
 Dialogue: 0,0:11:30.60,0:11:31.28,Mizuki,host,0,0,0,,"I love your bangs."
@@ -63,7 +66,8 @@ Dialogue: 0,0:11:55.02,0:11:58.56,Mizuki,host,0,0,0,,I'll keep picking up commen
 Dialogue: 0,0:11:58.56,0:12:03.82,Mizuki,host,0,0,0,,Also, the staff have provided me with a device to use today.
 Comment: 0,0:12:03.82,0:12:07.38,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
 Dialogue: 0,0:12:03.82,0:12:07.38,Mizuki,host_meta,0,0,0,,I'll be using it to show the new card illustrations we have for this event.
-Dialogue: 0,0:12:07.38,0:12:13.62,Mizuki,host,0,0,0,,Also, for the AfterLive, I'm planning to create a private room so I can enjoy it together with all of you.
+Dialogue: 0,0:12:07.38,0:12:10.40,Mizuki,host,0,0,0,,Also, for the AfterLive, I'm planning to create a private room
+Dialogue: 0,0:12:10.40,0:12:13.62,Mizuki,host,0,0,0,,so I can enjoy it together with all of you.
 Dialogue: 0,0:12:13.62,0:12:18.62,Mizuki,host,0,0,0,,I'll be sharing the Room ID around 8:55 PM,
 Dialogue: 0,0:12:18.62,0:12:23.28,Mizuki,host,0,0,0,,so start warming up your fingers now so you can—
 Dialogue: 0,0:12:23.28,0:12:27.20,Mizuki,host,0,0,0,,You'll want to enter the code as fast as you can so we can all watch the live together.
@@ -74,7 +78,8 @@ Dialogue: 0,0:12:35.34,0:12:36.24,Mizuki,host,0,0,0,,Indeed.
 Dialogue: 0,0:12:36.76,0:12:44.12,Mizuki,host,0,0,0,,Anyway, I'd like to start looking back on the story of our event, "We Escape to Survive."
 Dialogue: 0,0:12:46.58,0:12:53.82,Mizuki,host,0,0,0,,This was sort of the Mizuki-perspective of the previous Kanade event story.
 Dialogue: 0,0:12:53.82,0:12:57.78,Mizuki,host,0,0,0,,It wasn't so much about the plot moving forward,
-Dialogue: 0,0:12:57.78,0:13:07.72,Mizuki,host,0,0,0,,but more about showing Mizuki's perspective after seeing what was happening with Kanade and Mafuyu.
+Dialogue: 0,0:12:57.78,0:13:02.50,Mizuki,host,0,0,0,,but more about showing Mizuki's perspective
+Dialogue: 0,0:13:02.50,0:13:07.72,Mizuki,host,0,0,0,,after seeing what was happening with Kanade and Mafuyu.
 Dialogue: 0,0:13:09.60,0:13:12.70,Mizuki,host,0,0,0,,But yeah, it's like...
 Dialogue: 0,0:13:13.72,0:13:16.86,Mizuki,host,0,0,0,,Just having someone nearby who tells you it's okay to run away,
 Dialogue: 0,0:13:16.86,0:13:19.12,Mizuki,host,0,0,0,,it really puts your mind at ease.
@@ -87,9 +92,11 @@ Dialogue: 0,0:13:41.96,0:13:46.68,Mizuki,host,0,0,0,,Since I rarely get to hear 
 Dialogue: 0,0:13:46.68,0:13:50.72,Mizuki,host,0,0,0,,I didn't have a clear image of how the others would say their lines.
 Comment: 0,0:13:50.72,0:13:54.92,Default,,0,0,0,,TODO: Insert "Rui" image of Tanabe Rui
 Dialogue: 0,0:13:50.72,0:13:54.92,Mizuki,host,0,0,0,,Like, I didn't know how Rui-chan ended up performing her lines.
-Dialogue: 0,0:13:54.92,0:14:02.18,Mizuki,host,0,0,0,,I had to use my imagination, so when I actually saw the event, I was like, "Wow, everyone's acting is so good!"
+Dialogue: 0,0:13:54.92,0:13:58.50,Mizuki,host,0,0,0,,I had to use my imagination, so when I actually saw the event,
+Dialogue: 0,0:13:58.50,0:14:02.18,Mizuki,host,0,0,0,,I was like, "Wow, everyone's acting is so good!"
 Dialogue: 0,0:14:02.18,0:14:07.48,Mizuki,host,0,0,0,,Like Ena, for example.
-Dialogue: 0,0:14:07.48,0:14:12.68,Mizuki,host,0,0,0,,If it were me, I'd probably just blurt things out, but Ena has this way of being persuasive yet firm.
+Dialogue: 0,0:14:07.48,0:14:10.00,Mizuki,host,0,0,0,,If it were me, I'd probably just blurt things out,
+Dialogue: 0,0:14:10.00,0:14:12.68,Mizuki,host,0,0,0,,but Ena has this way of being persuasive yet firm.
 Comment: 0,0:14:12.68,0:14:16.28,Default,,0,0,0,,TODO: Insert "Minori" image of Minori Suzuki
 Dialogue: 0,0:14:12.68,0:14:14.32,Mizuki,host,0,0,0,,Minori-chan is just amazing.
 Dialogue: 0,0:14:14.32,0:14:16.28,Mizuki,host,0,0,0,,She was awesome.
@@ -109,10 +116,12 @@ Comment: 0,0:30:01.87,0:30:04.87,Default,,0,0,0,,~~~END STORY TALK~~~
 Dialogue: 0,0:30:04.87,0:30:08.48,Mizuki,host,0,0,0,,Thank you very much.
 Dialogue: 0,0:30:08.48,0:30:09.54,Mizuki,host,0,0,0,,That was nice.
 Dialogue: 0,0:30:09.54,0:30:11.72,Mizuki,host,0,0,0,,It was really good.
-Dialogue: 0,0:30:12.48,0:30:21.04,Mizuki,host,0,0,0,,I was thinking about this after watching the story again, but in past events, Mizuki has run away before,
+Dialogue: 0,0:30:12.48,0:30:16.80,Mizuki,host,0,0,0,,I was thinking about this after watching the story again,
+Dialogue: 0,0:30:16.80,0:30:21.04,Mizuki,host,0,0,0,,but in past events, Mizuki has run away before,
 Dialogue: 0,0:30:21.04,0:30:27.62,Mizuki,host,0,0,0,,and while I feel like maybe some tend to think of running away as a bad thing,
 Dialogue: 0,0:30:27.62,0:30:34.66,Mizuki,host,0,0,0,,after talking to Luka-san and Len-kun, she realizes that running away isn't necessarily bad.
-Dialogue: 0,0:30:34.66,0:30:43.38,Mizuki,host,0,0,0,,Instead of seeing it as running away, it's more like taking a break or a moment to catch your breath.
+Dialogue: 0,0:30:34.66,0:30:39.00,Mizuki,host,0,0,0,,Instead of seeing it as running away,
+Dialogue: 0,0:30:39.00,0:30:43.38,Mizuki,host,0,0,0,,it's more like taking a break or a moment to catch your breath.
 Dialogue: 0,0:30:43.38,0:30:49.94,Mizuki,host,0,0,0,,I think that was really the core of "We Escape to Survive."
 Dialogue: 0,0:30:49.94,0:30:55.74,Mizuki,host,0,0,0,,Personally, if you asked me if I liked school—
 Dialogue: 0,0:30:55.74,0:31:01.08,Mizuki,host,0,0,0,,in this line of work, I get asked a lot about what I was like as a student.
@@ -120,12 +129,16 @@ Dialogue: 0,0:31:01.08,0:31:05.88,Mizuki,host,0,0,0,,To be honest, I don't have 
 Dialogue: 0,0:31:05.88,0:31:10.26,Mizuki,host,0,0,0,,Especially in middle school, I was already working in the entertainment industry,
 Dialogue: 0,0:31:10.26,0:31:15.60,Mizuki,host,0,0,0,,so I often had to leave school early, even though it was during compulsory education.
 Dialogue: 0,0:31:15.60,0:31:23.92,Mizuki,host,0,0,0,,So the teachers didn't look too kindly on it, and the kids around me could be quite cold.
-Dialogue: 0,0:31:23.92,0:31:30.31,Mizuki,host,0,0,0,,I started to feel more detached and started thinking that maybe I didn't really have a place in middle school.
-Dialogue: 0,0:31:30.31,0:31:38.02,Mizuki,host,0,0,0,,But when I went to work, I felt like I truly loved what I did. I went to school and studied hard because I wanted to be there.
+Dialogue: 0,0:31:23.92,0:31:27.10,Mizuki,host,0,0,0,,I started to feel more detached and thinking
+Dialogue: 0,0:31:27.10,0:31:30.31,Mizuki,host,0,0,0,,that maybe I didn't really have a place in middle school.
+Dialogue: 0,0:31:30.31,0:31:34.20,Mizuki,host,0,0,0,,But when I went to work, I felt like I truly loved what I did.
+Dialogue: 0,0:31:34.20,0:31:38.02,Mizuki,host,0,0,0,,I went to school and studied hard because I wanted to be there.
 Dialogue: 0,0:31:38.02,0:31:43.46,Mizuki,host,0,0,0,,Enjoying my time there motivated me to keep persevering at school.
 Dialogue: 0,0:31:43.46,0:31:47.34,Mizuki,host,0,0,0,,My workplace was the place where I belonged.
-Dialogue: 0,0:31:47.34,0:31:58.00,Mizuki,host,0,0,0,,That overlaps a bit with Mizuki. I felt like even if things were tough, I'd be okay as long as I could keep doing my acting work.
-Dialogue: 0,0:31:58.00,0:32:05.68,Mizuki,host,0,0,0,,When I moved on to high school, it was a performing arts school, so everyone was doing the same kind of work.
+Dialogue: 0,0:31:47.34,0:31:51.50,Mizuki,host,0,0,0,,That overlaps a bit with Mizuki.
+Dialogue: 0,0:31:51.50,0:31:58.00,Mizuki,host,0,0,0,,I felt like even if things were tough, I'd be okay as long as I could keep doing my acting work.
+Dialogue: 0,0:31:58.00,0:32:02.00,Mizuki,host,0,0,0,,When I moved on to high school, it was a performing arts school,
+Dialogue: 0,0:32:02.00,0:32:05.68,Mizuki,host,0,0,0,,so everyone was doing the same kind of work.
 Dialogue: 0,0:32:05.68,0:32:17.80,Mizuki,host,0,0,0,,We thought alike, and that filter was gone, so it was much easier to breathe.
 Dialogue: 0,0:32:17.80,0:32:22.12,Mizuki,host,0,0,0,,And so... you don't have to think of running away as...
 Dialogue: 0,0:32:22.12,0:32:25.44,Mizuki,host,0,0,0,,Some people might see "running away" literally as just running away.
@@ -141,7 +154,8 @@ Dialogue: 0,0:33:03.62,0:33:10.65,Mizuki,host,0,0,0,,This is just my opinion, if
 Dialogue: 0,0:33:10.65,0:33:15.48,Mizuki,host_meta,0,0,0,,So it's not impossible to reset everything to zero.
 Dialogue: 0,0:33:15.48,0:33:19.30,Mizuki,host_meta,0,0,0,,Once you graduate, if you don't stay in touch, the connection just fades.
 Dialogue: 0,0:33:19.30,0:33:24.86,Mizuki,host,0,0,0,,There are even shrines for cutting ties in Kyoto and places like that.
-Dialogue: 0,0:33:24.86,0:33:32.31,Mizuki,host,0,0,0,,So before things get really bad for you, I think it's a good idea to broaden your horizons and look for a place to escape to.
+Dialogue: 0,0:33:24.86,0:33:28.50,Mizuki,host,0,0,0,,So before things get really bad for you,
+Dialogue: 0,0:33:28.50,0:33:32.31,Mizuki,host,0,0,0,,I think it's a good idea to broaden your horizons and look for a place to escape to.
 Comment: 0,0:33:32.31,0:33:33.04,Mizuki,,0,0,0,,~~~Start AfterLive Watchalong~~~
 Dialogue: 0,0:33:33.04,0:33:39.80,Mizuki,host,0,0,0,,Anyway, from here, I'd like to watch the AfterLive together with everyone.
 Dialogue: 0,0:33:41.48,0:33:49.24,Mizuki,host,0,0,0,,First, let me click this, and this, and this. Alright.
@@ -172,13 +186,15 @@ Dialogue: 0,0:47:51.92,0:47:54.94,Mizuki,host,0,0,0,,Hearing them sing "Non-Brea
 Dialogue: 0,0:47:54.94,0:47:56.38,Mizuki,host,0,0,0,,It was great.
 Dialogue: 0,0:47:56.38,0:47:57.32,Mizuki,host,0,0,0,,It was the best.
 Dialogue: 0,0:47:59.64,0:48:00.82,Mizuki,host,0,0,0,,It was really wonderful.
-Dialogue: 0,0:48:00.82,0:48:05.32,Mizuki,host,0,0,0,,Once again, thank you to everyone who joined the room and everyone who enjoyed the stream with me.
+Dialogue: 0,0:48:00.82,0:48:03.00,Mizuki,host,0,0,0,,Once again, thank you to everyone who joined the room
+Dialogue: 0,0:48:03.00,0:48:05.32,Mizuki,host,0,0,0,,and everyone who enjoyed the stream with me.
 Dialogue: 0,0:48:05.32,0:48:09.26,Mizuki,host,0,0,0,,I'm sorry if you got motion sickness from my weird camera angles.
 Dialogue: 0,0:48:09.26,0:48:11.96,Mizuki,host,0,0,0,,Thank you so much to everyone who watched.
 Dialogue: 0,0:48:12.80,0:48:13.72,Mizuki,host,0,0,0,,And now,
 Dialogue: 0,0:48:15.68,0:48:16.80,Mizuki,host,0,0,0,,shall we move on?
 Comment: 0,0:48:18.04,0:48:22.56,Default,,0,0,0,corner,=== Corner: Song Watchalong ===
-Dialogue: 0,0:48:18.04,0:48:26.40,Mizuki,host_meta,0,0,0,,And now, I'd like to watch the 2DMV for "kitty" that was released yesterday together with all of you.
+Dialogue: 0,0:48:18.04,0:48:22.20,Mizuki,host_meta,0,0,0,,And now, I'd like to watch the 2DMV for "Kitty"
+Dialogue: 0,0:48:22.20,0:48:26.40,Mizuki,host_meta,0,0,0,,that was released yesterday together with all of you.
 Dialogue: 0,0:48:26.40,0:48:33.22,Mizuki,host,0,0,0,,This song was written for us by Tsumiki-san.
 Dialogue: 0,0:48:33.22,0:48:35.51,Mizuki,host,0,0,0,,But wasn't the full version just incredible?
 Dialogue: 0,0:48:36.13,0:48:42.36,Mizuki,host,0,0,0,,The slower tempo from the second verse onward is a classic Tsumiki-san move.
@@ -201,7 +217,8 @@ Dialogue: 0,0:50:56.48,0:50:58.44,Mizuki,host,0,0,0,,Yeah, I'll ask Tomori-chan 
 Dialogue: 0,0:50:58.44,0:50:59.80,Mizuki,host,0,0,0,,It was really great.
 Dialogue: 0,0:50:59.80,0:51:04.78,Mizuki,host,0,0,0,,It's written as "gozen ichiji" but sung as "AM 1 o'clock."
 Dialogue: 0,0:51:04.78,0:51:06.24,Mizuki,host,0,0,0,,It's so cool.
-Dialogue: 0,0:51:06.92,0:51:13.32,Mizuki,host,0,0,0,,I saw some people in the comments trying to read it as "25 o'clock" and saying how cool it was, but I was like,
+Dialogue: 0,0:51:06.92,0:51:10.20,Mizuki,host,0,0,0,,I saw some people in the comments trying to read it as "25 o'clock"
+Dialogue: 0,0:51:10.20,0:51:13.32,Mizuki,host,0,0,0,,and saying how cool it was, but I was like,
 Dialogue: 0,0:51:13.32,0:51:17.46,Mizuki,host,0,0,0,,"Actually, it's AM..."
 Dialogue: 0,0:51:17.46,0:51:22.56,Mizuki,host,0,0,0,,I'd love for you to watch the full version on the official channel.
 Dialogue: 0,0:51:22.56,0:51:27.00,Mizuki,host,0,0,0,,Actually, I wonder if I was the only one who got to record with Tsumiki-san in person?
@@ -244,7 +261,8 @@ Dialogue: 0,0:54:03.20,0:54:06.20,Mizuki,host,0,0,0,,I seriously want to hear a 
 Dialogue: 0,0:54:06.20,0:54:08.10,Mizuki,host,0,0,0,,It would suit Tomori-chan so well.
 Dialogue: 0,0:54:08.92,0:54:10.38,Mizuki,host,0,0,0,,I'm certain of it.
 Dialogue: 0,0:54:12.00,0:54:15.42,Mizuki,host,0,0,0,,I hope everyone enjoys listening to it.
-Dialogue: 0,0:54:15.42,0:54:20.76,Mizuki,host,0,0,0,,We only showed a portion today, but the full version is up on the official ProSeka YouTube channel,
+Dialogue: 0,0:54:15.42,0:54:18.00,Mizuki,host,0,0,0,,We only showed a portion today,
+Dialogue: 0,0:54:18.00,0:54:20.76,Mizuki,host,0,0,0,,but the full version is up on the official ProSeka YouTube channel,
 Dialogue: 0,0:54:20.76,0:54:23.96,Mizuki,host,0,0,0,,so please be sure to check it out.
 Comment: 0,0:54:23.96,0:54:28.68,Default,,0,0,0,corner,=== Corner: Card Illustrations ===
 Dialogue: 0,0:54:23.96,0:54:28.68,Mizuki,host_meta,0,0,0,,And we have five new cards added this time.
@@ -396,12 +414,15 @@ Dialogue: 0,1:00:53.36,1:00:55.20,Mizuki,host,0,0,0,,The event was great, of cou
 Dialogue: 0,1:00:56.00,1:01:01.76,Mizuki,host,0,0,0,,but "kitty", which you're hearing now, is one of my absolute favorites from N25.
 Dialogue: 0,1:01:01.76,1:01:08.42,Mizuki,host,0,0,0,,It's the same for every unit, but I can immediately tell who is singing which part.
 Dialogue: 0,1:01:08.42,1:01:13.45,Mizuki,host,0,0,0,,Everyone has their own quirks and different approaches to the songs.
-Dialogue: 0,1:01:13.45,1:01:18.94,Mizuki,host,0,0,0,,So when I hear the complete version with everyone, I hear approaches I never would've thought of.
-Dialogue: 0,1:01:18.94,1:01:27.88,Mizuki,host,0,0,0,,And of course the Virtual Singers are there too, I'm always amazed by how good everyone's singing is.
+Dialogue: 0,1:01:13.45,1:01:16.20,Mizuki,host,0,0,0,,So when I hear the complete version with everyone,
+Dialogue: 0,1:01:16.20,1:01:18.94,Mizuki,host,0,0,0,,I hear approaches I never would've thought of.
+Dialogue: 0,1:01:18.94,1:01:23.00,Mizuki,host,0,0,0,,And of course the Virtual Singers are there too,
+Dialogue: 0,1:01:23.00,1:01:27.88,Mizuki,host,0,0,0,,I'm always amazed by how good everyone's singing is.
 Dialogue: 0,1:01:28.48,1:01:33.40,Mizuki,host,0,0,0,,I feel so grateful to everyone in N25 every day.
 Dialogue: 0,1:01:33.40,1:01:38.48,Mizuki,host,0,0,0,,Talking with all of you and looking back on this event together has been so much fun for me.
 Dialogue: 0,1:01:39.66,1:01:43.02,Mizuki,host,0,0,0,,And if any of you listening felt like at some point you couldn't run away,
-Dialogue: 0,1:01:43.02,1:01:49.92,Mizuki,host,0,0,0,,I hope watching this AfterTalk and event story helps you say something kind to the person you were back then.
+Dialogue: 0,1:01:43.02,1:01:46.50,Mizuki,host,0,0,0,,I hope watching this AfterTalk and event story
+Dialogue: 0,1:01:46.50,1:01:49.92,Mizuki,host,0,0,0,,helps you say something kind to the person you were back then.
 Dialogue: 0,1:01:49.92,1:01:54.76,Mizuki,host,0,0,0,,Whether you're a student or anyone who feels like they have no place to escape to right now,
 Dialogue: 0,1:01:54.76,1:02:03.22,Mizuki,host,0,0,0,,reaching out and asking someone for help is a big first step.
 Dialogue: 0,1:02:03.22,1:02:07.56,Mizuki,host,0,0,0,,I'd be happy if this event could help you.
