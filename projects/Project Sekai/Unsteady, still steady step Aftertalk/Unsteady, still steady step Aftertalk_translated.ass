@@ -26,8 +26,8 @@ Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100
 Style: DefaultOnibe,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
 Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1
 Style: Shiho,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Shiho - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
-Style: Shiho - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Shiho - Shifted,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
+Style: Shiho - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H0022DDBB,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.33,8,100,800,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -36,7 +36,8 @@ Dialogue: 0,0:02:42.88,0:02:43.62,Shiho,,0,0,0,autosub,everyone.
 Dialogue: 0,0:02:43.62,0:08:10.52,Shiho,,0,0,0,autosub,I am Nakashima Yuki,
 Dialogue: 0,0:09:55.58,0:10:00.42,Shiho,,0,0,0,human,Welcome to ProSeka AfterTalk "Unsteady, still steady step" Edition!
 Dialogue: 0,0:10:02.47,0:10:06.91,Shiho,,0,0,0,human,This is Yuki Nakashima, voice of Shiho Hinomori from Leo/need!
-Dialogue: 0,0:10:06.91,0:10:12.67,Shiho,,0,0,0,human,In this edition of ProSeka AfterTalk, we'll look back at this event while covering messages you, the fans, have sent in.
+Dialogue: 0,0:10:06.91,0:10:08.70,Shiho,,0,0,0,human,In this edition of ProSeka AfterTalk,
+Dialogue: 0,0:10:08.70,0:10:12.67,Shiho,,0,0,0,human,we'll look back at this event while covering messages you, the fans, have sent in.
 Dialogue: 0,0:10:12.67,0:10:16.09,Shiho,,0,0,0,human,This time, we'll be covering the "Unsteady, still steady step" event.
 Dialogue: 0,0:10:16.09,0:10:19.42,Shiho,,0,0,0,human,Ah, thank God I said it right.
 Dialogue: 0,0:10:19.42,0:10:20.97,Shiho,,0,0,0,human,When I first saw the script, I was like,
@@ -54,13 +55,15 @@ Dialogue: 0,0:11:00.60,0:11:07.11,Shiho,,0,0,0,human,{\i1}But{\i0},
 Dialogue: 0,0:11:07.11,0:11:09.62,Shiho,,0,0,0,human,"I liked the story!" Thank you.
 Dialogue: 0,0:11:10.49,0:11:11.64,Shiho,,0,0,0,human,Glad to hear.
 Dialogue: 0,0:11:11.64,0:11:14.58,Shiho,,0,0,0,human,We've had a bit of a mini-renewal for AfterTalk since April
-Dialogue: 0,0:11:14.58,0:11:20.22,Shiho,,0,0,0,human,We've gathered the comments you sent in through email and the Discord submissions channel.
+Dialogue: 0,0:11:14.58,0:11:17.94,Shiho,,0,0,0,human,We've gathered the comments you sent in through email
+Dialogue: 0,0:11:17.94,0:11:20.22,Shiho,,0,0,0,human,and the Discord submissions channel.
 Dialogue: 0,0:11:20.22,0:11:22.16,Shiho,,0,0,0,human,Thanks for all the messages, everyone.
 Dialogue: 0,0:11:22.16,0:11:26.59,Shiho,,0,0,0,human,We'd like to go over some of them in our program today, so please look forward to that!
 Dialogue: 0,0:11:26.59,0:11:28.79,Shiho,,0,0,0,human,Also, if you have any thoughts on today's program,
 Dialogue: 0,0:11:28.79,0:11:31.85,Shiho,,0,0,0,human,please post them on X with #ProSekaAfterTalk.
 Dialogue: 0,0:11:31.85,0:11:36.42,Shiho,,0,0,0,human,We'll also be watching the YouTube chat, so please keep all the messages coming.
-Dialogue: 0,0:11:36.42,0:11:42.25,Shiho,,0,0,0,human,Also, note that since the mini-renewal, we won't be watching the AfterLives. Thanks for your understanding.
+Dialogue: 0,0:11:36.42,0:11:38.56,Shiho,,0,0,0,human,Also, note that since the mini-renewal,
+Dialogue: 0,0:11:38.56,0:11:42.25,Shiho,,0,0,0,human,we won't be watching the AfterLives. Thanks for your understanding.
 Dialogue: 0,0:11:43.50,0:11:47.49,Shiho,,0,0,0,human,Yeah, they're going to have to start choosing now that they're pros.
 Dialogue: 0,0:11:49.53,0:11:52.53,Shiho,,0,0,0,human,"Shindo-san helped out a ton." For sure.
 Dialogue: 0,0:11:52.53,0:11:56.77,Shiho,,0,0,0,human,I remember that part where he's on the phone with her — how to say —
@@ -83,7 +86,8 @@ Dialogue: 0,0:12:42.35,0:12:47.78,Shiho,,0,0,0,human,"Both the one-man live and 
 Dialogue: 0,0:12:47.78,0:12:51.82,Shiho,,0,0,0,human,"There wasn't a clear right option so it was tough deciding which to write a new song for."
 Dialogue: 0,0:12:51.82,0:12:56.74,Shiho,,0,0,0,human,"I'm pretty indecisive myself and tend to freeze from over-analysis,"
 Dialogue: 0,0:12:56.74,0:12:59.32,Shiho,,0,0,0,human,so I was really able to sympathize with Honami."
-Dialogue: 0,0:12:59.32,0:13:04.99,Shiho,,0,0,0,human,"By the way, Nakashima-san, when you're faced with important choices, how do you generally come to a decision?"
+Dialogue: 0,0:12:59.32,0:13:01.98,Shiho,,0,0,0,human,"By the way, Nakashima-san, when you're faced with important choices,
+Dialogue: 0,0:13:01.98,0:13:04.99,Shiho,,0,0,0,human,how do you generally come to a decision?"
 Dialogue: 0,0:13:04.99,0:13:06.24,Shiho,,0,0,0,human,Thank you for the message.
 Dialogue: 0,0:13:07.57,0:13:09.03,Shiho,,0,0,0,human,Ehhhhhh?
 Dialogue: 0,0:13:10.04,0:13:12.64,Shiho,,0,0,0,human,I think usually,
@@ -128,7 +132,8 @@ Dialogue: 0,0:15:22.81,0:15:25.81,Shiho,,0,0,0,human,Mmm. Something like that.
 Dialogue: 0,0:15:25.81,0:15:28.91,Shiho,,0,0,0,human,Okay. Let's move on to one more message.
 Dialogue: 0,0:15:28.91,0:15:31.68,Shiho,,0,0,0,human,Next up, from "Copy"-san. Thank you for the message.
 Dialogue: 0,0:15:31.68,0:15:33.74,Shiho,,0,0,0,human,"Yukki, {\i1}kon-needo{\i0}." {\i1}Kon-needo{\i0}.
-Dialogue: 0,0:15:33.74,0:15:39.02,Shiho,,0,0,0,human,"I was really excited to see Leo/need finally getting an opportunity to do their much-awaited one-man live."
+Dialogue: 0,0:15:33.74,0:15:35.96,Shiho,,0,0,0,human,"I was really excited to see Leo/need finally
+Dialogue: 0,0:15:35.96,0:15:39.02,Shiho,,0,0,0,human,getting an opportunity to do their much-awaited one-man live."
 Dialogue: 0,0:15:39.02,0:15:44.05,Shiho,,0,0,0,human,"I was secretly hoping that they would do that instrument shuffle for the real thing."
 Dialogue: 0,0:15:44.05,0:15:46.05,Shiho,,0,0,0,human,Thank you for the message.
 Dialogue: 0,0:15:46.05,0:15:47.96,Shiho,,0,0,0,human,Oh yeah. Would definitely want to see that.
@@ -140,7 +145,8 @@ Dialogue: 0,0:16:05.06,0:16:09.84,Shiho,,0,0,0,human,and had to play drums... or
 Dialogue: 0,0:16:09.84,0:16:13.68,Shiho,,0,0,0,human,Would you even be able to get her to do it? That's what I'd be wondering.
 Dialogue: 0,0:16:13.68,0:16:16.73,Shiho,,0,0,0,human,I mean, if it were for rehearsal, I think she would be okay with it.
 Dialogue: 0,0:16:16.73,0:16:23.02,Shiho,,0,0,0,human,As someone so talented and self-confident in her music,
-Dialogue: 0,0:16:23.02,0:16:27.58,Shiho,,0,0,0,human,I think she'd have some pride on the line! Even if it were just for an MC, she'd be like "I'm not giving you my bass."
+Dialogue: 0,0:16:23.02,0:16:24.94,Shiho,,0,0,0,human,I think she'd have some pride on the line!
+Dialogue: 0,0:16:24.94,0:16:27.58,Shiho,,0,0,0,human,Even if it were just for an MC, she'd be like "I'm not giving you my bass."
 Dialogue: 0,0:16:27.58,0:16:30.65,Shiho,,0,0,0,human,That being said...
 Dialogue: 0,0:16:30.65,0:16:33.54,Shiho,,0,0,0,human,{\i1}I{\i0} definitely would want to see that happen.
 Dialogue: 0,0:16:33.54,0:16:37.20,Shiho,,0,0,0,human,Seeing her get flustered like that... that'd be really fun to see.
@@ -205,7 +211,8 @@ Dialogue: 0,0:25:44.31,0:25:49.12,Shiho,,0,0,0,human,but at the same time, I kep
 Dialogue: 0,0:25:49.12,0:25:55.73,Shiho,,0,0,0,human,I was worried that Honami-chan might panic if she really did have to make that tough decision.
 Dialogue: 0,0:25:55.73,0:25:58.65,Shiho,,0,0,0,human,So that was our scene for today.
 Dialogue: 0,0:25:59.04,0:26:07.02,Shiho,,0,0,0,autosub,This time, the offer was almost withdrawn, but then they were told they could have a slot...
-Dialogue: 0,0:26:07.02,0:26:17.84,Shiho,,0,0,0,autosub,You might feel lucky, but if it was withdrawn without a second chance, you'd definitely regret not speaking up sooner.
+Dialogue: 0,0:26:07.02,0:26:13.58,Shiho,,0,0,0,autosub,You might feel lucky, but if it was withdrawn without a second chance,
+Dialogue: 0,0:26:13.58,0:26:17.84,Shiho,,0,0,0,autosub,you'd definitely regret not speaking up sooner.
 Dialogue: 0,0:26:18.48,0:26:21.34,Shiho,,0,0,0,autosub,Decisions like that are really difficult.
 Dialogue: 0,0:26:21.34,0:26:28.16,Shiho,,0,0,0,autosub,But there are many times in life when you have to make those kinds of choices.
 Dialogue: 0,0:26:28.16,0:26:33.44,Shiho,,0,0,0,autosub,I'm not sure how Honami will make her choices from now on,
@@ -250,14 +257,18 @@ Dialogue: 0,0:28:45.55,0:28:49.30,Shiho,,0,0,0,autosub,I hope everyone gets a ch
 Dialogue: 0,0:28:49.30,0:28:51.52,Shiho,,0,0,0,autosub,Anyway, I got a bit sidetracked again.
 Dialogue: 0,0:28:51.52,0:28:55.80,Shiho,,0,0,0,,Alright, let's take a look at the card illustrations.
 Dialogue: 0,0:28:55.80,0:29:01.86,Shiho,,0,0,0,autosub,First, I'll share some comments from the illustration team about the outfits.
-Dialogue: 0,0:29:02.06,0:29:09.20,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance and weight of making decisions as a leader.
+Dialogue: 0,0:29:02.06,0:29:05.97,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance
+Dialogue: 0,0:29:05.97,0:29:09.20,Shiho,,0,0,0,autosub,and weight of making decisions as a leader.
 Dialogue: 0,0:29:09.20,0:29:12.02,Shiho,,0,0,0,autosub,While the story showed her struggling with the weight of her decision,
-Dialogue: 0,0:29:12.02,0:29:16.95,Shiho,,0,0,0,autosub,the illustrations reflect a positive determination to find the best path forward for Leo/need.
+Dialogue: 0,0:29:12.02,0:29:14.83,Shiho,,0,0,0,autosub,the illustrations reflect a positive determination to
+Dialogue: 0,0:29:14.83,0:29:16.95,Shiho,,0,0,0,autosub,find the best path forward for Leo/need.
 Dialogue: 0,0:29:16.95,0:29:19.02,Shiho,,0,0,0,autosub,Combining that with the event song's rhythmic energy,
 Dialogue: 0,0:29:19.02,0:29:22.24,Shiho,,0,0,0,autosub,the outfit design conveys a lighthearted "keep moving forward" attitude.
 Comment: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,[WIP] check these translation
 Dialogue: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,And since this song features a sweet cuteness we don't always see from Leo/need,
-Dialogue: 0,0:29:27.00,0:29:32.72,Shiho,,0,0,0,autosub,we used pop and cute design elements like colorful star patterns and sneakers as the motif for our design.
+Dialogue: 0,0:29:27.00,0:29:27.60,Shiho,,0,0,0,autosub,we used pop
+Dialogue: 0,0:29:27.60,0:29:30.46,Shiho,,0,0,0,autosub,and cute design elements like colorful star patterns
+Dialogue: 0,0:29:30.46,0:29:32.72,Shiho,,0,0,0,autosub,and sneakers as the motif for our design.
 Dialogue: 0,0:29:32.72,0:29:36.78,Shiho,,0,0,0,autosub,Also, to symbolize Leo/need choosing their path as a band,
 Dialogue: 0,0:29:36.78,0:29:41.06,Shiho,,0,0,0,autosub,each of the three has a star chart-like element in their outfit.
 Dialogue: 0,0:29:41.06,0:29:45.72,Shiho,,0,0,0,autosub,We also incorporated items where the color palette is meant to resemble a compass.
@@ -438,7 +449,9 @@ Dialogue: 0,0:38:45.52,0:38:47.76,Shiho - Card,,0,0,0,card,{\pos(650,750)}Please
 Comment: 0,0:38:47.76,0:38:48.98,Shiho,,0,0,0,card,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:38:47.76,0:38:48.98,Shiho - Card,,0,0,0,card,{\pos(650,750)}Please and thank you.
 Dialogue: 0,0:38:48.98,0:38:52.23,Shiho - Card,,0,0,0,card,{\pos(650,750)}Anyway, that's all for the card illustrations.
-Dialogue: 0,0:38:53.92,0:39:01.95,Shiho,,0,0,0,autosub,Next, let's watch the 2DMV for 'Transparent Palette,' the song for this event commissioned from aqu3ra.
+Dialogue: 0,0:38:53.92,0:38:54.31,Shiho,,0,0,0,autosub,Next,
+Dialogue: 0,0:38:54.31,0:38:58.05,Shiho,,0,0,0,autosub,let's watch the 2DMV for 'Transparent Palette,'
+Dialogue: 0,0:38:58.05,0:39:01.95,Shiho,,0,0,0,autosub,the song for this event commissioned from aqu3ra.
 Dialogue: 0,0:39:01.95,0:39:05.44,Shiho,,0,0,0,autosub,Then, we'll talk a bit about the song itself and the MV.
 Dialogue: 0,0:39:05.44,0:39:09.90,Shiho,,0,0,0,autosub,So without further ado, released just yesterday, here's the 2DMV!
 Dialogue: 0,0:39:09.90,0:39:10.71,Shiho,,0,0,0,,Let's go!
@@ -509,9 +522,13 @@ Dialogue: 0,0:45:53.90,0:45:56.09,Shiho,,0,0,0,human,"Let's do this again!" Defi
 Dialogue: 0,0:45:56.87,0:45:59.65,Shiho,,0,0,0,human,"But I just got here!" Yeah!
 Dialogue: 0,0:45:59.65,0:46:02.80,Shiho,,0,0,0,human,"Don't go, keep chatting." Thank you.
 Dialogue: 0,0:46:02.80,0:46:09.40,Shiho,,0,0,0,human,So with that, if you haven't watched the "Unsteady, still steady step" event story yet,
-Dialogue: 0,0:46:09.40,0:46:15.46,Shiho,,0,0,0,human,after the next event starts, you can read it in-game in the "Event Story" section under the "Story" button, so please do so.
+Dialogue: 0,0:46:09.40,0:46:10.78,Shiho,,0,0,0,human,after the next event starts,
+Dialogue: 0,0:46:10.78,0:46:14.66,Shiho,,0,0,0,human,you can read it in-game in the "Event Story" section under the "Story" button,
+Dialogue: 0,0:46:14.66,0:46:15.46,Shiho,,0,0,0,human,so please do so.
 Dialogue: 0,0:46:15.46,0:46:18.19,Shiho,,0,0,0,human,We'll be accepting submissions for future AfterTalks as usual.
-Dialogue: 0,0:46:18.19,0:46:25.06,Shiho,,0,0,0,human,You can submit your messages in the submissions channel on the official Project Sekai Discord, or through email.
+Dialogue: 0,0:46:18.19,0:46:20.11,Shiho,,0,0,0,human,You can submit your messages in
+Dialogue: 0,0:46:20.11,0:46:23.71,Shiho,,0,0,0,human,the submissions channel on the official Project Sekai Disc
+Dialogue: 0,0:46:23.71,0:46:25.06,Shiho,,0,0,0,human,ord, or through email.
 Dialogue: 0,0:46:25.06,0:46:28.89,Shiho,,0,0,0,human,Feel free to send them in after the next AfterTalk event starts.
 Dialogue: 0,0:46:28.89,0:46:32.54,Shiho,,0,0,0,human,Please keep your messages related to the events.
 Dialogue: 0,0:46:32.54,0:46:35.02,Shiho,,0,0,0,human,With that, thanks so much for a fun AfterTalk today!
