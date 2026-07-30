@@ -16,9 +16,8 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 361
-Active Line: 372
-Video Position: 108163
+Active Line: 1
+Video Position: 18288
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -31,6 +30,7 @@ Style: Mizuki - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H000000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:10:00.71,0:10:06.70,Mizuki,host,0,0,0,,Welcome to ProSeka AfterTalk: "We Escape to Survive" edition!
+Dialogue: 0,0:10:09.39,0:10:11.94,Mizuki,,0,0,0,,And with that, we are live.
 Dialogue: 0,0:10:11.94,0:10:17.54,Mizuki,host,0,0,0,,Um, kon-niigo, everyone! I'm Hinata Sato, the voice of Mizuki Akiyama from N25.
 Dialogue: 0,0:10:17.54,0:10:23.66,Mizuki,host,0,0,0,,This ProSeka AfterTalk is a program where we look back on the event story
 Dialogue: 0,0:10:23.66,0:10:27.92,Mizuki,host,0,0,0,,and enjoy the AfterLive together with everyone watching.
