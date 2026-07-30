@@ -2,6 +2,7 @@
   {
     "id": "gachapin",
     "image": "gachapin_card.png",
+    "source": "gachapin.png",
     "type": "raw",
     "start": "00:10:51.95",
     "end": "00:10:55.52",
@@ -10,7 +11,7 @@
   {
     "id": "rui",
     "image": "rui_card.png",
-    "type": "raw",
+    "source": "Rui.webp",
     "title": "Tanabe Rui",
     "subtitle": "Voice of Mafuyu Yoisaki",
     "character": "Mafuyu Asahina",
@@ -23,7 +24,6 @@
     "id": "minori",
     "image": "Minori_card.png",
     "source": "Minori.webp",
-    "type": "raw",
     "title": "Minori Suzuki",
     "subtitle": "Voice of Ena Shinonome",
     "character": "Ena Shinonome",
