@@ -16,9 +16,9 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 153
-Active Line: 157
-Video Position: 86425
+Scroll Position: 60
+Active Line: 66
+Video Position: 25425
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -86,7 +86,7 @@ Dialogue: 0,0:13:16.86,0:13:19.12,Mizuki,host,0,0,0,,it really puts your mind at
 Dialogue: 0,0:13:19.12,0:13:27.45,Mizuki,host,0,0,0,,It made me realize how important it is to put those feelings into words.
 Dialogue: 0,0:13:28.44,0:13:30.96,Mizuki,host,0,0,0,,The recording was really pretty heavy, too.
 Dialogue: 0,0:13:31.68,0:13:35.08,Mizuki,host,0,0,0,,I mean, when it comes to recording actually,
-Dialogue: 0,0:13:35.08,0:13:39.10,Mizuki,host,0,0,0,,unlike anime where you can record with others,
+Dialogue: 0,0:13:35.08,0:13:39.10,Mizuki,host,0,0,0,,unlike anime where you usually record with others,
 Dialogue: 0,0:13:39.10,0:13:41.96,Mizuki,host,0,0,0,,for games like this, we usually record by ourselves.
 Dialogue: 0,0:13:41.96,0:13:46.68,Mizuki,host,0,0,0,,Since I rarely get to hear what the others have recorded,
 Dialogue: 0,0:13:46.68,0:13:50.72,Mizuki,host,0,0,0,,I didn't have a clear image of how the others would say their lines.
@@ -94,11 +94,12 @@ Comment: 0,0:13:50.72,0:13:54.92,Default,,0,0,0,,TODO: Insert "Rui" image of Tan
 Dialogue: 0,0:13:50.72,0:13:54.92,Mizuki,host,0,0,0,,Like, I didn't know how Rui-chan ended up performing her lines.
 Dialogue: 0,0:13:54.92,0:13:58.50,Mizuki,host,0,0,0,,I had to use my imagination, so when I actually saw the event,
 Dialogue: 0,0:13:58.50,0:14:02.18,Mizuki,host,0,0,0,,I was like, "Wow, everyone's acting is so good!"
-Dialogue: 0,0:14:02.18,0:14:07.48,Mizuki,host,0,0,0,,Like Ena, for example.
-Dialogue: 0,0:14:07.48,0:14:10.00,Mizuki,host,0,0,0,,If it were me, I'd probably just blurt things out,
-Dialogue: 0,0:14:10.00,0:14:12.68,Mizuki,host,0,0,0,,but Ena has this way of being persuasive yet firm.
+Dialogue: 0,0:14:02.18,0:14:04.12,Mizuki,host,0,0,0,,Like with Ena, for example.
+Dialogue: 0,0:14:04.12,0:14:07.48,Mizuki,host,0,0,0,,You'd think she might go like "wah!" and burst out at people,
+Dialogue: 0,0:14:07.48,0:14:10.32,Mizuki,host,0,0,0,,but sometimes she's can be more cool-headed.
+Dialogue: 0,0:14:10.32,0:14:12.68,Mizuki,host,0,0,0,,She has this way of being persuasive yet firm.
 Comment: 0,0:14:12.68,0:14:16.28,Default,,0,0,0,,TODO: Insert "Minori" image of Minori Suzuki
-Dialogue: 0,0:14:12.68,0:14:14.32,Mizuki,host,0,0,0,,Minori-chan is just amazing.
+Dialogue: 0,0:14:12.68,0:14:14.32,Mizuki,host,0,0,0,,Minori-chan is just amazing though.
 Dialogue: 0,0:14:14.32,0:14:16.28,Mizuki,host,0,0,0,,She was awesome.
 Dialogue: 0,0:14:16.28,0:14:19.64,Mizuki,host,0,0,0,,This event really made me realize how much I love N25.
 Dialogue: 0,0:14:19.64,0:14:25.28,Mizuki,host,0,0,0,,If there are any scenes that left an impression on you, please let me know.
@@ -181,7 +182,7 @@ Dialogue: 0,0:35:22.44,0:35:23.22,Mizuki,host,0,0,0,,Is it about time?
 Dialogue: 0,0:35:23.22,0:35:23.96,Mizuki,host,0,0,0,,I'll show it for a little bit longer.
 Dialogue: 0,0:35:24.96,0:35:25.96,Mizuki,host,0,0,0,,And they're all rushing in!
 Dialogue: 0,0:47:41.20,0:47:43.32,Mizuki,host,0,0,0,,That was a great AfterLive.
-Dialogue: 0,0:47:43.32,0:47:49.82,Mizuki,host,0,0,0,,Considering what Mizuki said to Mafuyu at the end of the event, 
+Dialogue: 0,0:47:43.32,0:47:49.82,Mizuki,host,0,0,0,,Considering what Mizuki said to Mafuyu at the end of the event,
 Dialogue: 0,0:47:50.36,0:47:51.92,Mizuki,,0,0,0,,I'm really glad she came for the live.
 Dialogue: 0,0:47:51.92,0:47:54.94,Mizuki,host,0,0,0,,Hearing them sing "Non-Breath Oblige" was so good.
 Dialogue: 0,0:47:54.94,0:47:56.38,Mizuki,host,0,0,0,,It was great.
