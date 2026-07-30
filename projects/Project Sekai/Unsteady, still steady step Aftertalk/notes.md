@@ -1,12 +1,44 @@
 # Unsteady, still steady step Aftertalk
 
+> Official Colorful Stage EN title: **"Unsteady, still steady step"**. JP: Unsteady, still steady step (Marathon, asset bundle `event_unsteady_2025`).
+
 **Commit prefix**: `hona5`
 
-## Segments
-- Song watchalong at 39:10 - 42:15 — cut this segment (no dialogue)
-- Total duration: ~49:14
+## Event Details
 
-## Command
+- **Event name (JP)**: Unsteady, still steady step
+- **Event id**: 173  |  **Type**: Marathon  |  **Unit**: Leo/need (light_sound)
+- **Event dates**: 2025-07-15 → 2025-07-21
+- **Stream date**: 2025-07-22 JST
+- **Focus character**: Honami Mochizuki (Leo/need)
+- **Host VA**: 中島由貴 (Yuki Nakashima), solo host
+- **Commissioned song**: 透明なパレット (Transparent Palette)
+- **Composer / Lyricist / Arranger**: Aqu3ra
+
+### Episode Titles
+1. 嬉しい知らせ (Happy news)
+2. おめでとうパーティー (Congratulations party)
+3. 新たな知らせ (New news)
+4. 天秤 (Balance scale)
+5. 後悔しないように (So as not to regret)
+6. 動いて、知って (Act and learn)
+7. 熱気と迷い (Heat and hesitation)
+8. 決意 (Determination)
+
+### Story Premise
+Leo/need's professional career is building momentum with media interviews and their long-awaited first one-man live confirmed. However, just as preparation gets underway, an unexpected invitation to participate in a large-scale fan festival presents a dilemma. Honami and the band must carefully weigh their choices to find the path forward without regrets.
+
+## Segments
+
+Cuts to remove (everything else is kept):
+- 00:39:10 → 00:42:15 — song watchalong (no dialogue)
+- 00:49:14 → end — outro
+
+Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/video fade transitions):
+- 00:00:00.00 → 00:39:10.00 (main episode talk & story breakdown)
+- 00:42:15.00 → 00:49:14.00 (card artwork discussion & closing)
+
+## Command (full pipeline)
 
 ```bash
 uv run autosub run \
@@ -16,8 +48,8 @@ uv run autosub run \
   --start 00:00:00 --end 00:39:10 \
   --start 00:42:15 --end 00:49:14 \
   --chunk-size 80 \
-  --save-log \
-  --mark-chunks
+  --mark-chunks \
+  --save-log
 ```
 
 ## Profile
@@ -30,16 +62,15 @@ uv run autosub run \
 - 中島由貴 (Nakashima Yuki) — 日野森志歩 (Shiho Hinomori)
 
 ## VA
-Yuki Nakashima (voice of Shiho Hinomori, Leo/need)
+- 中島由貴 (Yuki Nakashima) — Voice of Shiho Hinomori (Leo/need)
 
 ## Notes
-- Honami's focus event
-- Solo host (Yuki Nakashima)
-- Covers story (Chapter 8 watchalong), card illustrations, and the 2DMV for "Transparent Palette" (released the day before)
-- "Mini-renewal" format — no AfterLive watchalong this time
+- Honami's focus event, solo host (Yuki Nakashima)
+- Covers story (Chapter 8 watchalong), card illustrations, and the 2DMV for "Transparent Palette"
+- Hardsub pipeline configured with Fontsize 100 / Margins 200/200/100, 3-row long line detection fix pass, and 0.4s fade-in/fade-out segment transitions.
 
 ## YouTube Title
-[ENG SUB] Unsteady, still steady step feat. Yuki Nakashima (Shiho's VA)
+[ENG SUB] Unsteady, still steady step Aftertalk feat. Yuki Nakashima (Shiho's VA)
 
 ## YouTube Blurb (draft)
 
@@ -47,4 +78,17 @@ This episode of ProSeka AfterTalk has Yuki Nakashima (voice of Shiho Hinomori) c
 
 She walks through how she'd approach a decision like Honami's ("I just go by vibes"), shares her thoughts on the new card illustrations along with a wish for an LN logo merch patch, and breaks down "Transparent Palette" including the hidden apple pie note someone snuck into the Master chart.
 
-Original video: TODO
+Original video: https://www.youtube.com/watch?v=cbvTtSsc4e4
+
+## Source
+- **URL**: https://www.youtube.com/watch?v=cbvTtSsc4e4
+- **Video**: プロセカアフタートーク Unsteady, still steady step編
+
+### Download command (yt-dlp)
+```bash
+yt-dlp --no-update --no-playlist \
+  -f "137+251/bv*[height<=1080]+ba/b" \
+  --merge-output-format mkv \
+  -o "projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
+  "https://www.youtube.com/watch?v=cbvTtSsc4e4"
+```
