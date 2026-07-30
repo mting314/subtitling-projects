@@ -5,8 +5,12 @@ A repeatable checklist for the **human-pass QC review** of a `*_translated.ass` 
 the four review dimensions: **Consistency, Grammar, Spelling, Style**.
 
 This complements the style rules in [`CLAUDE.md`](CLAUDE.md) (names, pauses, ProSeka
-term casing, song/title quoting). Don't duplicate those — this file is about the *review
-process* and the *recurring error patterns* to hunt for.
+term casing, song/title quoting) and the full ruleset in
+[`subtitle_style_rules.md`](subtitle_style_rules.md) (grammar/punctuation/number/capitalization
+rules distilled from the Wikipedia Manual of Style, with our deliberate overrides for spoken
+register). Don't duplicate those — this file is about the *review process* and the *recurring
+error patterns* to hunt for; consult `subtitle_style_rules.md` for the authoritative rule on any
+punctuation/number/capitalization question.
 
 ---
 
