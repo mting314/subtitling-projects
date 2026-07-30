@@ -16,9 +16,9 @@ Video File: We Escape to Survive Aftertalk.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 60
-Active Line: 66
-Video Position: 25425
+Scroll Position: 361
+Active Line: 372
+Video Position: 108163
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,7 +26,7 @@ Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100
 Style: DefaultOnibe,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
 Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1
 Style: Mizuki,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Mizuki - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -219,13 +219,14 @@ Dialogue: 0,0:50:56.48,0:50:58.44,Mizuki,host,0,0,0,,Yeah, I'll ask Tomori-chan 
 Dialogue: 0,0:50:58.44,0:50:59.80,Mizuki,host,0,0,0,,It was really great.
 Dialogue: 0,0:50:59.80,0:51:04.78,Mizuki,host,0,0,0,,It's written as "gozen ichiji" but sung as "AM 1 o'clock."
 Dialogue: 0,0:51:04.78,0:51:06.24,Mizuki,host,0,0,0,,It's so cool.
-Dialogue: 0,0:51:06.92,0:51:10.20,Mizuki,host,0,0,0,,I saw some people in the comments trying to read it as "25 o'clock"
-Dialogue: 0,0:51:10.20,0:51:13.32,Mizuki,host,0,0,0,,and saying how cool it was, but I was like,
-Dialogue: 0,0:51:13.32,0:51:17.46,Mizuki,host,0,0,0,,"Actually, it's AM..."
+Dialogue: 0,0:51:06.92,0:51:10.94,Mizuki,host,0,0,0,,I saw some commenters thinking it was read as "25 o'clock,"
+Dialogue: 0,0:51:10.94,0:51:13.32,Mizuki,host,0,0,0,,and saying how cool it was,
+Dialogue: 0,0:51:13.32,0:51:17.46,Mizuki,host,0,0,0,,but I was like "actually, it's 'AM...'"
 Dialogue: 0,0:51:17.46,0:51:22.56,Mizuki,host,0,0,0,,I'd love for you to watch the full version on the official channel.
 Dialogue: 0,0:51:22.56,0:51:27.00,Mizuki,host,0,0,0,,Actually, I wonder if I was the only one who got to record with Tsumiki-san in person?
-Dialogue: 0,0:51:27.00,0:51:29.58,Mizuki,host,0,0,0,,I'm not sure if he recorded the other girls too.
-Dialogue: 0,0:51:29.58,0:51:36.08,Mizuki,host,0,0,0,,But he helped out with the direction. I remember him giving very specific nuances.
+Dialogue: 0,0:51:27.00,0:51:29.58,Mizuki,host,0,0,0,,I'm not sure if he worked with the other girls too.
+Dialogue: 0,0:51:29.58,0:51:33.42,Mizuki,host,0,0,0,,But he helped out with the direction for my session.
+Dialogue: 0,0:51:33.42,0:51:36.08,Mizuki,host,0,0,0,,I remember him giving very specific nuances.
 Dialogue: 0,0:51:36.08,0:51:41.52,Mizuki,host,0,0,0,,For example, for the line "ajike no nai," I had my own way of saying it,
 Dialogue: 0,0:51:41.52,0:51:48.18,Mizuki,host,0,0,0,,but the sound Tsumiki-san had in his head was different from what I had in mind.
 Dialogue: 0,0:51:48.18,0:51:52.28,Mizuki,host,0,0,0,,So for the "ajike no nai yoru ni toketa" line,
@@ -240,8 +241,8 @@ Dialogue: 0,0:52:27.48,0:52:32.54,Mizuki,host,0,0,0,,I lost track of what I was 
 Dialogue: 0,0:52:32.54,0:52:36.88,Mizuki,host,0,0,0,,They said, "That's great!" and that's the one they used.
 Dialogue: 0,0:52:36.88,0:52:40.92,Mizuki,host,0,0,0,,I remember watching the MV and was like "oh wow, they went with that take".
 Dialogue: 0,0:52:40.92,0:52:41.94,Mizuki,host,0,0,0,,It was tough.
-Dialogue: 0,0:52:41.94,0:52:46.24,Mizuki,host,0,0,0,,And for "kitty" especially, just catching the notes for was incredibly hard,
-Dialogue: 0,0:52:48.16,0:52:49.68,Mizuki,host,0,0,0,,so I had to slow it down... by how much?
+Dialogue: 0,0:52:41.94,0:52:46.59,Mizuki,host,0,0,0,,And for "kitty" especially, just following the melody was pretty tough...
+Dialogue: 0,0:52:48.16,0:52:49.68,Mizuki,host,0,0,0,,so I had to slow it down by... by how much?
 Dialogue: 0,0:52:49.68,0:52:56.98,Mizuki,host,0,0,0,,Like 4 times slower to catch the melody for "jigetsu sae mo kodoku na tenge de."
 Dialogue: 0,0:52:56.98,0:52:59.42,Mizuki,host,0,0,0,,Since I can't read sheet music, that's how I had to do it.
 Dialogue: 0,0:52:59.42,0:53:03.64,Mizuki,host,0,0,0,,Also, for the "meimei ni odore ya, one, two, three, four" part,
@@ -273,129 +274,137 @@ Dialogue: 0,0:54:31.88,0:54:32.88,Mizuki,host,0,0,0,,Oh sorry, not the side stor
 Dialogue: 0,0:54:32.88,0:54:36.40,Mizuki,host,0,0,0,,I'd like to cover the art. But did you all check out the side stories?
 Dialogue: 0,0:54:36.40,0:54:39.28,Mizuki,host,0,0,0,,They feel like a continuation of the event.
 Dialogue: 0,0:54:39.28,0:54:45.92,Mizuki,host,0,0,0,,This time especially, they show a bit of what was happening behind the scenes.
-Dialogue: 0,0:54:48.11,0:54:49.88,PiP,,0,0,0,,{\pos(650,750)}So please do check them out if you can.
-Dialogue: 0,0:54:49.88,0:54:52.26,PiP,,0,0,0,,{\pos(650,750)}but that depends on your gacha luck.
+Dialogue: 0,0:54:48.11,0:54:49.88,Mizuki - PiP,,0,0,0,,{\pos(650,750)}So please do check them out if you can.
+Dialogue: 0,0:54:49.88,0:54:52.26,Mizuki - PiP,,0,0,0,,{\pos(650,750)}but that depends on your gacha luck.
 Comment: 0,0:54:52.26,0:54:52.88,DefaultOnibe - Shifted,,0,0,0,,Add some translation note that's shes talking about the team name
-Dialogue: 0,0:54:52.88,0:54:55.09,PiP,,0,0,0,,{\pos(650,750)}Speaking of which, where {\i1}is{\i0} my kitty?
-Dialogue: 0,0:54:55.09,0:54:55.90,PiP,,0,0,0,,{\pos(650,750)}She didn't wanna come.
-Dialogue: 0,0:54:57.10,0:54:58.48,PiP,,0,0,0,,{\pos(650,750)}If wanted to spark for her...
-Dialogue: 0,0:54:59.29,0:55:02.98,PiP,,0,0,0,,{\pos(650,750)}but I decided not to, so she never came.
-Dialogue: 0,0:55:03.84,0:55:04.57,PiP,,0,0,0,,{\pos(650,750)}THE END.
-Dialogue: 0,0:55:04.57,0:55:07.17,PiP,,0,0,0,,{\pos(650,750)}Ok, so let's start with Ena then.
-Dialogue: 0,0:55:07.17,0:55:10.65,PiP,,0,0,0,,{\pos(650,750)}Ena's our 2-star this time. This is what she looks like.
-Dialogue: 0,0:55:10.65,0:55:13.12,PiP,,0,0,0,,{\pos(650,750)}Actually, doesn't this kind of look like what Akito would wear?
-Dialogue: 0,0:55:13.12,0:55:18.26,PiP,,0,0,0,,{\pos(650,750)}I almost feel like... did she maybe borrow his clothes?
-Dialogue: 0,0:55:18.26,0:55:20.00,PiP,,0,0,0,,{\pos(650,750)}I really do like this style though.
-Dialogue: 0,0:55:20.00,0:55:24.55,PiP,,0,0,0,,{\pos(650,750)}This might be the closest to what I actually wear.
-Dialogue: 0,0:55:25.74,0:55:27.18,PiP,,0,0,0,,{\pos(650,750)}So that's Ena.
-Dialogue: 0,0:55:27.18,0:55:28.17,PiP,,0,0,0,,{\pos(650,750)}Moving on...
-Dialogue: 0,0:55:28.17,0:55:29.88,PiP,,0,0,0,,{\pos(650,750)}Len-kun.
-Dialogue: 0,0:55:29.88,0:55:32.52,PiP,,0,0,0,,{\pos(650,750)}Starting with his untrained...
-Dialogue: 0,0:55:32.52,0:55:33.65,PiP,,0,0,0,,{\pos(650,750)}Is this so good!?
-Dialogue: 0,0:55:33.65,0:55:36.94,PiP,,0,0,0,,{\pos(650,750)}You all should really go watch the side story for this one.
-Dialogue: 0,0:55:36.94,0:55:38.84,PiP,,0,0,0,,{\pos(650,750)}But this is so good,
-Dialogue: 0,0:55:38.84,0:55:41.86,PiP,,0,0,0,,{\pos(650,750)}I love how you can tell Mizuki's kind of laughing like "hahaha..."
-Dialogue: 0,0:55:43.23,0:55:46.18,PiP,,0,0,0,,{\pos(650,750)}he's not fully out of his shell,
-Dialogue: 0,0:55:46.18,0:55:49.33,PiP,,0,0,0,,{\pos(650,750)}but seeing Len-kun open up just a little like this is suuuuuper cute.
-Dialogue: 0,0:55:49.33,0:55:50.18,PiP,,0,0,0,,{\pos(650,750)}Love it.
-Dialogue: 0,0:55:50.99,0:55:53.11,PiP,,0,0,0,,{\pos(650,750)}And next up...
-Dialogue: 0,0:55:53.11,0:55:56.11,PiP,,0,0,0,,{\pos(650,750)}Are there even any working phone booths out there anymore?
-Dialogue: 0,0:55:56.91,0:55:59.74,PiP,,0,0,0,,{\pos(650,750)}The boxes themselves are mostly gone too, so where the heck is he?
-Dialogue: 0,0:55:59.74,0:56:01.42,PiP,,0,0,0,,{\pos(650,750)}He's not in the city anymore, is he?
-Dialogue: 0,0:56:01.42,0:56:03.90,PiP,,0,0,0,,{\pos(650,750)}Where—seriously, where are you taking this call from?
-Dialogue: 0,0:56:03.90,0:56:06.68,PiP,,0,0,0,,{\pos(650,750)}Be careful with calls that late at night!
-Dialogue: 0,0:56:06.68,0:56:07.75,PiP,,0,0,0,,{\pos(650,750)}They can't be up to any good!
-Dialogue: 0,0:56:07.75,0:56:10.38,PiP,,0,0,0,,{\pos(650,750)}I wanna go and make sure he's safe.
-Dialogue: 0,0:56:10.38,0:56:11.47,PiP,,0,0,0,,{\pos(650,750)}So cute~
-Dialogue: 0,0:56:11.47,0:56:12.20,PiP,,0,0,0,,{\pos(650,750)}I guess he's hiding from the rain in there.
-Dialogue: 0,0:56:12.20,0:56:15.20,PiP,,0,0,0,,{\pos(650,750)}He's holding the receiver, so I really want him to call me.
-Dialogue: 0,0:56:16.60,0:56:19.82,PiP,,0,0,0,,{\pos(650,750)}I bet he hasn't used a telephone card, has he?
-Dialogue: 0,0:56:19.82,0:56:21.86,PiP,,0,0,0,,{\pos(650,750)}I used to have a telephone card.
-Dialogue: 0,0:56:21.86,0:56:24.13,PiP,,0,0,0,,{\pos(650,750)}I'm becoming an old Heisei lady.
-Dialogue: 0,0:56:24.73,0:56:25.61,PiP,,0,0,0,,{\pos(650,750)}Moving on...
-Dialogue: 0,0:56:27.00,0:56:28.80,PiP,,0,0,0,,{\pos(650,750)}let's start with the untrained.
-Dialogue: 0,0:56:28.80,0:56:33.22,PiP,,0,0,0,,{\pos(650,750)}Very very nice if I do say so myself.
-Dialogue: 0,0:56:34.77,0:56:37.53,PiP,,0,0,0,,{\pos(650,750)}Was it three? Three 4-stars this time.
-Dialogue: 0,0:56:37.53,0:56:39.25,PiP,,0,0,0,,{\pos(650,750)}But Mizuki still didn't come home—
-Dialogue: 0,0:56:39.25,0:56:40.60,PiP,,0,0,0,,{\pos(650,750)}This is super good though.
-Dialogue: 0,0:56:40.60,0:56:42.09,PiP,,0,0,0,,{\pos(650,750)}Luka's nails are really pretty.
-Dialogue: 0,0:56:44.05,0:56:45.76,PiP,,0,0,0,,{\pos(650,750)}And this is the trained.
-Dialogue: 0,0:56:45.76,0:56:49.67,PiP,,0,0,0,,{\pos(650,750)}She reminds me a bit of Mizuki herself here.
-Dialogue: 0,0:56:49.67,0:56:51.21,PiP,,0,0,0,,{\pos(650,750)}I really like it.
-Dialogue: 0,0:56:52.44,0:56:53.59,PiP,,0,0,0,,{\pos(650,750)}But, uh, where is this?
-Dialogue: 0,0:56:54.96,0:56:57.69,PiP,,0,0,0,,{\pos(650,750)}It's raining pretty hard. Careful not to catch a cold!
-Dialogue: 0,0:56:58.24,0:57:00.96,PiP,,0,0,0,,{\pos(650,750)}These are all so good.
-Dialogue: 0,0:57:00.96,0:57:02.98,PiP,,0,0,0,,{\pos(650,750)}"Luka-san trained art is so cute."
-Dialogue: 0,0:57:02.98,0:57:04.92,PiP,,0,0,0,,{\pos(650,750)}100%.
-Dialogue: 0,0:57:04.92,0:57:06.98,PiP,,0,0,0,,{\pos(650,750)}So cyute 🤌
-Dialogue: 0,0:57:06.98,0:57:08.81,PiP,,0,0,0,,{\pos(650,750)}What can I say but "thank you."
-Dialogue: 0,0:57:08.81,0:57:09.73,PiP,,0,0,0,,{\pos(650,750)}You're up next.
-Dialogue: 0,0:57:09.73,0:57:10.63,PiP,,0,0,0,,{\pos(650,750)}Look at it!
-Dialogue: 0,0:57:11.62,0:57:13.80,PiP,,0,0,0,,{\pos(650,750)}This is the untrained.
-Dialogue: 0,0:57:13.80,0:57:15.97,PiP,,0,0,0,,{\pos(650,750)}This art though...
-Dialogue: 0,0:57:15.97,0:57:19.11,PiP,,0,0,0,,{\pos(650,750)}When Mafumom went "I just threw out your synthesizer. ¯\_(ツ)_/¯"
-Dialogue: 0,0:57:20.19,0:57:22.14,PiP,,0,0,0,,{\pos(650,750)}"Whoops, I broke your laptop. ¯\_(ツ)_/¯"
-Dialogue: 0,0:57:22.14,0:57:23.57,PiP,,0,0,0,,{\pos(650,750)}This looks like it's from that moment.
-Dialogue: 0,0:57:24.03,0:57:26.27,PiP,,0,0,0,,{\pos(650,750)}Seriously.
-Dialogue: 0,0:57:26.27,0:57:30.76,PiP,,0,0,0,,{\pos(650,750)}Like, you can see the light coming from behind the door.
-Dialogue: 0,0:57:30.76,0:57:34.01,PiP,,0,0,0,,{\pos(650,750)}It's such an eerie glow,
-Dialogue: 0,0:57:34.01,0:57:37.55,PiP,,0,0,0,,{\pos(650,750)}I feel like I've only seen this kind of lighting in horror games.
-Dialogue: 0,0:57:39.16,0:57:44.13,PiP,,0,0,0,,{\pos(650,750)}And they even have the flowers in the front...
-Dialogue: 0,0:57:44.13,0:57:46.09,PiP,,0,0,0,,{\pos(650,750)}It really does give kind of a horror vibe.
-Dialogue: 0,0:57:46.94,0:57:48.84,PiP,,0,0,0,,{\pos(650,750)}And the trained—
-Dialogue: 0,0:57:48.84,0:57:51.15,PiP,,0,0,0,,{\pos(650,750)}Look, everyone, she's holding the umbrella! The umbrella!
-Dialogue: 0,0:57:52.06,0:57:53.29,PiP,,0,0,0,,{\pos(650,750)}The umbrella!
-Dialogue: 0,0:57:53.29,0:57:54.93,PiP,,0,0,0,,{\pos(650,750)}It's great.
-Dialogue: 0,0:57:54.93,0:57:57.25,PiP,,0,0,0,,{\pos(650,750)}And look, the background is a bit different from Luka's.
-Dialogue: 0,0:57:57.25,0:58:00.15,PiP,,0,0,0,,{\pos(650,750)}Kind of looks like maybe this is from somewhere close to Luka's spot.
-Dialogue: 0,0:58:00.15,0:58:02.25,PiP,,0,0,0,,{\pos(650,750)}I really like this one.
-Dialogue: 0,0:58:04.00,0:58:06.14,PiP,,0,0,0,,{\pos(650,750)}I also really like seeing the alternate hairstyles.
-Dialogue: 0,0:58:06.14,0:58:10.50,PiP,,0,0,0,,{\pos(650,750)}I think, was it in the second verse of "kitty",
-Dialogue: 0,0:58:10.50,0:58:13.28,PiP,,0,0,0,,{\pos(650,750)}the MV changes between Mizuki and her middle school self.
-Dialogue: 0,0:58:13.28,0:58:14.36,PiP,,0,0,0,,{\pos(650,750)}That was super cool.
-Dialogue: 0,0:58:14.36,0:58:18.48,PiP,,0,0,0,,{\pos(650,750)}Ah, seeing the alternate hairstyles here is awesome. Thank you staff.
-Dialogue: 0,0:58:20.68,0:58:21.77,PiP,,0,0,0,,{\pos(650,750)}And last up.
-Dialogue: 0,0:58:21.77,0:58:26.18,PiP,,0,0,0,,{\pos(650,750)}Starting with the untrained, we just saw this in Episode 7 of the story.
-Dialogue: 0,0:58:26.18,0:58:33.10,PiP,,0,0,0,,{\pos(650,750)}This is the scene when Mizuki tells Mafuyu that it's okay to run away.
-Dialogue: 0,0:58:33.97,0:58:36.39,PiP,,0,0,0,,{\pos(650,750)}I've only seen this kind of shot in dramas,
-Dialogue: 0,0:58:36.39,0:58:37.82,PiP,,0,0,0,,{\pos(650,750)}kind of like it's in slow motion,
-Dialogue: 0,0:58:37.82,0:58:39.39,PiP,,0,0,0,,{\pos(650,750)}when the background blends together,
-Dialogue: 0,0:58:39.39,0:58:43.08,PiP,,0,0,0,,{\pos(650,750)}and when it focuses on Mizuki like this,\Nyou know she's gonna drop some wisdom.
-Dialogue: 0,0:58:43.08,0:58:44.77,PiP,,0,0,0,,{\pos(650,750)}Thank you so much.
-Dialogue: 0,0:58:45.84,0:58:48.21,PiP,,0,0,0,,{\pos(650,750)}If I keep looking at this, I'm gonna fall in love.
-Dialogue: 0,0:58:48.21,0:58:49.06,PiP,,0,0,0,,{\pos(650,750)}Thank you.
-Dialogue: 0,0:58:49.46,0:58:52.72,PiP,,0,0,0,,{\pos(650,750)}And the trained version is also amazing.
-Dialogue: 0,0:58:52.72,0:58:55.88,PiP,,0,0,0,,{\pos(650,750)}I don't know if it's because she's wearing a cap,
-Dialogue: 0,0:58:55.88,0:58:59.29,PiP,,0,0,0,,{\pos(650,750)}but she's like, "Here, take the umbrella."
-Dialogue: 0,0:58:59.29,0:59:02.29,PiP,,0,0,0,,{\pos(650,750)}But showing that much collarbone must be freezing!
-Dialogue: 0,0:59:02.36,0:59:07.44,PiP,,0,0,0,,{\pos(650,750)}If I didn't know any better, I definitely Mizuki should be holding it for herself.
-Dialogue: 0,0:59:07.44,0:59:10.87,PiP,,0,0,0,,{\pos(650,750)}But if I were Mafuyu, I'd probably just accept it.
-Dialogue: 0,0:59:10.87,0:59:11.67,PiP,,0,0,0,,{\pos(650,750)}Thank you.
-Dialogue: 0,0:59:11.67,0:59:12.53,PiP,,0,0,0,,{\pos(650,750)}So cute.
-Dialogue: 0,0:59:12.53,0:59:14.06,PiP,,0,0,0,,{\pos(650,750)}Truly.
-Dialogue: 0,0:59:14.06,0:59:17.64,PiP,,0,0,0,,{\pos(650,750)}But where are they anyway? Look at the background...
-Dialogue: 0,0:59:18.20,0:59:19.11,PiP,,0,0,0,,{\pos(650,750)}Everything's destroyed.
-Dialogue: 0,0:59:20.52,0:59:24.34,PiP,,0,0,0,,{\pos(650,750)}It feels like they're in a post-apocalyptic world sharing that umbrella together.
-Dialogue: 0,0:59:24.34,0:59:25.58,PiP,,0,0,0,,{\pos(650,750)}It's so good.
-Dialogue: 0,0:59:25.58,0:59:26.72,PiP,,0,0,0,,{\pos(650,750)}Truly.
-Dialogue: 0,0:59:26.72,0:59:27.80,PiP,,0,0,0,,{\pos(650,750)}Thank you for the feast.
-Dialogue: 0,0:59:28.44,0:59:29.92,PiP,,0,0,0,,{\pos(650,750)}A huge thank you for this.
-Dialogue: 0,0:59:29.92,0:59:32.16,PiP,,0,0,0,,{\pos(650,750)}They didn't come home to my account, though.
-Dialogue: 0,0:59:32.16,0:59:35.70,PiP,,0,0,0,,{\pos(650,750)}But maybe if I give it time, they'll show up eventually.
-Dialogue: 0,0:59:35.70,0:59:37.32,PiP,,0,0,0,,{\pos(650,750)}I'll keep waiting and believing that.
-Dialogue: 0,0:59:37.32,0:59:38.78,PiP,,0,0,0,,{\pos(650,750)}That's what I'm thinking.
-Dialogue: 0,0:59:38.78,0:59:45.78,PiP,,0,0,0,,{\pos(650,750)}Seriously, the ProSeka team goes full throttle with every single illustration.
-Dialogue: 0,0:59:45.78,0:59:47.88,PiP,,0,0,0,,{\pos(650,750)}Do they even get any sleep?
-Dialogue: 0,0:59:47.88,0:59:49.38,PiP,,0,0,0,,{\pos(650,750)}All their art is just that good.
-Dialogue: 0,0:59:49.38,0:59:52.44,PiP,,0,0,0,,{\pos(650,750)}I'm always so grateful whenever I pull on the gacha.
-Dialogue: 0,0:59:52.44,0:59:53.86,PiP,,0,0,0,,{\pos(650,750)}Thank you so much.
-Dialogue: 0,0:59:53.86,0:59:57.96,PiP,,0,0,0,,{\pos(650,750)}I hope you all manage to get it too! Oh, wait, was this a limited card?
-Dialogue: 0,0:59:57.96,0:59:58.60,PiP,,0,0,0,,{\pos(650,750)}Right...
-Dialogue: 0,0:59:59.60,1:00:01.32,PiP,,0,0,0,,{\pos(650,750)}Goodbye, "kitty"...
-Dialogue: 0,1:00:01.32,1:00:02.95,PiP,,0,0,0,,{\pos(650,750)}Thank you very much.
-Dialogue: 0,1:00:03.80,1:00:06.40,PiP,,0,0,0,,{\pos(650,750)}I'll look forward to when the limited cards come back around again.
-Dialogue: 0,1:00:07.35,1:00:08.20,PiP,,0,0,0,,{\pos(650,750)}Bye bye...
-Dialogue: 0,1:00:08.72,1:00:11.25,PiP,,0,0,0,,{\pos(650,750)}Anyway, that's it for that part.
+Dialogue: 0,0:54:52.88,0:54:55.09,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Speaking of which, where {\i1}is{\i0} my kitty?
+Dialogue: 0,0:54:55.09,0:54:55.90,Mizuki - PiP,,0,0,0,,{\pos(650,750)}She didn't wanna come.
+Dialogue: 0,0:54:57.10,0:54:58.48,Mizuki - PiP,,0,0,0,,{\pos(650,750)}If wanted to spark for her...
+Dialogue: 0,0:54:59.29,0:55:02.98,Mizuki - PiP,,0,0,0,,{\pos(650,750)}but I decided not to, so she never came.
+Dialogue: 0,0:55:03.84,0:55:04.57,Mizuki - PiP,,0,0,0,,{\pos(650,750)}THE END.
+Dialogue: 0,0:55:04.57,0:55:07.17,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Ok, so let's start with Ena then.
+Dialogue: 0,0:55:07.17,0:55:10.65,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Ena's our 2-star this time. This is what she looks like.
+Dialogue: 0,0:55:10.65,0:55:13.12,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Actually, doesn't this look like what Akito would wear?
+Dialogue: 0,0:55:13.12,0:55:18.26,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I almost feel like... did she maybe borrow his clothes?
+Dialogue: 0,0:55:18.26,0:55:20.00,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I really do like this style though.
+Dialogue: 0,0:55:20.00,0:55:24.55,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This might be the closest to what I actually wear.
+Dialogue: 0,0:55:25.74,0:55:27.18,Mizuki - PiP,,0,0,0,,{\pos(650,750)}So that's Ena.
+Dialogue: 0,0:55:27.18,0:55:28.17,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Moving on...
+Dialogue: 0,0:55:28.17,0:55:29.88,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Len-kun.
+Dialogue: 0,0:55:29.88,0:55:32.52,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Starting with his untrained...
+Dialogue: 0,0:55:32.52,0:55:33.65,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Is this so good!?
+Dialogue: 0,0:55:33.65,0:55:36.94,Mizuki - PiP,,0,0,0,,{\pos(650,750)}You all should really go watch the side story for this one.
+Dialogue: 0,0:55:36.94,0:55:38.84,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But this is so good,
+Dialogue: 0,0:55:38.84,0:55:41.86,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I love how you can tell Mizuki's kind of laughing like "hahaha..."
+Dialogue: 0,0:55:43.23,0:55:46.18,Mizuki - PiP,,0,0,0,,{\pos(650,750)}he's not fully out of his shell,
+Dialogue: 0,0:55:46.18,0:55:49.33,Mizuki - PiP,,0,0,0,,{\pos(650,750)}but seeing Len-kun open like this is suuuuuper cute.
+Dialogue: 0,0:55:49.33,0:55:50.18,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Love it.
+Dialogue: 0,0:55:50.99,0:55:53.11,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And next up...
+Dialogue: 0,0:55:53.11,0:55:56.11,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Are there even any working phone booths left?
+Dialogue: 0,0:55:56.91,0:55:59.05,Mizuki - PiP,,0,0,0,,{\pos(650,750)}The boxes themselves are mostly gone too.
+Dialogue: 0,0:55:59.05,0:55:59.74,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Where the heck is he?
+Dialogue: 0,0:55:59.74,0:56:01.42,Mizuki - PiP,,0,0,0,,{\pos(650,750)}He's not in the city anymore, is he?
+Dialogue: 0,0:56:01.42,0:56:03.90,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Where—seriously, where are you taking this call from?
+Dialogue: 0,0:56:03.90,0:56:06.68,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Be careful with calls that late at night!
+Dialogue: 0,0:56:06.68,0:56:07.75,Mizuki - PiP,,0,0,0,,{\pos(650,750)}They can't be up to any good!
+Dialogue: 0,0:56:07.75,0:56:10.38,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I wanna go and make sure he's safe.
+Dialogue: 0,0:56:10.38,0:56:11.47,Mizuki - PiP,,0,0,0,,{\pos(650,750)}So cute~
+Dialogue: 0,0:56:11.47,0:56:12.20,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I guess he's hiding from the rain in there.
+Dialogue: 0,0:56:12.20,0:56:15.20,Mizuki - PiP,,0,0,0,,{\pos(650,750)}He's holding the receiver, so I really want him to call me.
+Dialogue: 0,0:56:16.60,0:56:19.82,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I bet he hasn't used a telephone card, has he?
+Dialogue: 0,0:56:19.82,0:56:21.86,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I used to have a telephone card.
+Dialogue: 0,0:56:21.86,0:56:24.13,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I'm becoming an old Heisei lady.
+Dialogue: 0,0:56:24.73,0:56:25.61,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Moving on...
+Dialogue: 0,0:56:27.00,0:56:28.80,Mizuki - PiP,,0,0,0,,{\pos(650,750)}let's start with the untrained.
+Dialogue: 0,0:56:28.80,0:56:33.22,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Very very nice if I do say so myself.
+Dialogue: 0,0:56:34.77,0:56:37.53,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Was it three? Three 4-stars this time.
+Dialogue: 0,0:56:37.53,0:56:39.25,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But Mizuki still didn't come home—
+Dialogue: 0,0:56:39.25,0:56:40.60,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This is super good though.
+Dialogue: 0,0:56:40.60,0:56:42.09,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Luka's nails are really pretty.
+Dialogue: 0,0:56:44.05,0:56:45.76,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And this is the trained.
+Dialogue: 0,0:56:45.76,0:56:49.67,Mizuki - PiP,,0,0,0,,{\pos(650,750)}She reminds me a bit of Mizuki herself here.
+Dialogue: 0,0:56:49.67,0:56:51.21,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I really like it.
+Dialogue: 0,0:56:52.44,0:56:53.59,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But, uh, where is this?
+Dialogue: 0,0:56:54.96,0:56:57.69,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It's raining pretty hard. Careful not to catch a cold!
+Dialogue: 0,0:56:58.24,0:57:00.96,Mizuki - PiP,,0,0,0,,{\pos(650,750)}These are all so good.
+Dialogue: 0,0:57:00.96,0:57:02.98,Mizuki - PiP,,0,0,0,,{\pos(650,750)}"Luka-san trained art is so cute."
+Dialogue: 0,0:57:02.98,0:57:04.92,Mizuki - PiP,,0,0,0,,{\pos(650,750)}100%.
+Dialogue: 0,0:57:04.92,0:57:06.98,Mizuki - PiP,,0,0,0,,{\pos(650,750)}So cyute 🤌
+Dialogue: 0,0:57:06.98,0:57:08.81,Mizuki - PiP,,0,0,0,,{\pos(650,750)}What can I say but "thank you."
+Dialogue: 0,0:57:08.81,0:57:09.73,Mizuki - PiP,,0,0,0,,{\pos(650,750)}You're up next.
+Dialogue: 0,0:57:09.73,0:57:10.63,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Look at it!
+Dialogue: 0,0:57:11.62,0:57:13.80,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This is the untrained.
+Dialogue: 0,0:57:13.80,0:57:15.97,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This art though...
+Dialogue: 0,0:57:15.97,0:57:19.11,Mizuki - PiP,,0,0,0,,{\pos(650,750)}"I just threw out your synthesizer. ¯\_(ツ)_/¯"
+Dialogue: 0,0:57:20.19,0:57:22.14,Mizuki - PiP,,0,0,0,,{\pos(650,750)}"Whoops, I broke your laptop. ¯\_(ツ)_/¯"
+Dialogue: 0,0:57:22.14,0:57:23.57,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This looks like it's from that moment.
+Dialogue: 0,0:57:24.03,0:57:26.27,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Wow.
+Dialogue: 0,0:57:26.27,0:57:30.76,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Like, you can see the light coming from behind the door.
+Dialogue: 0,0:57:30.76,0:57:34.01,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It's such an eerie glow,
+Dialogue: 0,0:57:34.01,0:57:37.55,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I feel like I've only seen this kind of lighting in horror games.
+Dialogue: 0,0:57:39.16,0:57:44.13,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And they even have the flowers in the front...
+Dialogue: 0,0:57:44.13,0:57:46.09,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It really does give kind of a horror vibe.
+Dialogue: 0,0:57:46.94,0:57:48.84,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And the trained—
+Dialogue: 0,0:57:48.84,0:57:51.15,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Look, everyone, she's holding the umbrella! The umbrella!
+Dialogue: 0,0:57:52.06,0:57:53.29,Mizuki - PiP,,0,0,0,,{\pos(650,750)}The umbrella!
+Dialogue: 0,0:57:53.29,0:57:54.93,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It's great.
+Dialogue: 0,0:57:54.93,0:57:57.25,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And look, the background is a bit different from Luka's.
+Dialogue: 0,0:57:57.25,0:58:00.15,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Kind of looks like this is near where Luka's was.
+Dialogue: 0,0:58:00.15,0:58:02.25,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I really like this one.
+Dialogue: 0,0:58:04.00,0:58:06.14,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I also really like seeing the alternate hairstyles.
+Dialogue: 0,0:58:06.14,0:58:10.50,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I think it was in the second verse of "kitty", in the MV,
+Dialogue: 0,0:58:10.50,0:58:13.28,Mizuki - PiP,,0,0,0,,{\pos(650,750)}it switches between current and middle school Mizuki.
+Dialogue: 0,0:58:13.28,0:58:14.36,Mizuki - PiP,,0,0,0,,{\pos(650,750)}That was super cool.
+Dialogue: 0,0:58:14.36,0:58:18.48,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Ah, seeing the alternate hairstyles here is awesome. Thank you staff.
+Dialogue: 0,0:58:20.68,0:58:21.77,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And last up.
+Dialogue: 0,0:58:21.77,0:58:23.32,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Starting with the untrained,
+Dialogue: 0,0:58:23.32,0:58:26.18,Mizuki - PiP,,0,0,0,,{\pos(650,750)}we just saw this in Episode 7 of the story.
+Dialogue: 0,0:58:26.18,0:58:29.08,Mizuki - PiP,,0,0,0,,{\pos(650,750)}This is the scene when Mizuki tells Mafuyu,
+Dialogue: 0,0:58:29.08,0:58:33.10,Mizuki - PiP,,0,0,0,,{\pos(650,750)}that it's okay to run away.
+Dialogue: 0,0:58:33.97,0:58:36.39,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I've only seen this kind of shot in dramas,
+Dialogue: 0,0:58:36.39,0:58:37.82,Mizuki - PiP,,0,0,0,,{\pos(650,750)}kind of like it's in slow motion,
+Dialogue: 0,0:58:37.82,0:58:39.39,Mizuki - PiP,,0,0,0,,{\pos(650,750)}when the background blends together,
+Dialogue: 0,0:58:39.39,0:58:41.55,Mizuki - PiP,,0,0,0,,{\pos(650,750)}and when it focuses on Mizuki like this,
+Dialogue: 0,0:58:41.55,0:58:43.08,Mizuki - PiP,,0,0,0,,{\pos(650,750)}you know she's gonna drop some wisdom.
+Dialogue: 0,0:58:43.08,0:58:44.77,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you so much.
+Dialogue: 0,0:58:45.84,0:58:48.21,Mizuki - PiP,,0,0,0,,{\pos(650,750)}If I keep looking at this, I'm gonna fall in love.
+Dialogue: 0,0:58:48.21,0:58:49.06,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you.
+Dialogue: 0,0:58:49.46,0:58:52.72,Mizuki - PiP,,0,0,0,,{\pos(650,750)}And the trained version is also amazing.
+Dialogue: 0,0:58:52.72,0:58:55.88,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I don't know if it's because she's wearing a cap,
+Dialogue: 0,0:58:55.88,0:58:59.29,Mizuki - PiP,,0,0,0,,{\pos(650,750)}but she's like, "Here, take the umbrella."
+Dialogue: 0,0:58:59.29,0:59:02.29,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But showing that much collarbone must be freezing!
+Dialogue: 0,0:59:02.36,0:59:05.15,Mizuki - PiP,,0,0,0,,{\pos(650,750)}If I didn't know any better,
+Dialogue: 0,0:59:05.15,0:59:07.44,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I definitely Mizuki should be holding it for herself.
+Dialogue: 0,0:59:07.44,0:59:10.87,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But if I were Mafuyu, I'd probably just accept it.
+Dialogue: 0,0:59:10.87,0:59:11.67,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you.
+Dialogue: 0,0:59:11.67,0:59:12.53,Mizuki - PiP,,0,0,0,,{\pos(650,750)}So cute.
+Dialogue: 0,0:59:12.53,0:59:14.06,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Truly.
+Dialogue: 0,0:59:14.06,0:59:17.64,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But where are they anyway? Look at the background...
+Dialogue: 0,0:59:18.20,0:59:19.11,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Everything's destroyed.
+Dialogue: 0,0:59:20.52,0:59:22.68,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It feels like they're in a post-apocalyptic world,
+Dialogue: 0,0:59:22.68,0:59:24.34,Mizuki - PiP,,0,0,0,,{\pos(650,750)}sharing that umbrella together.
+Dialogue: 0,0:59:24.34,0:59:25.58,Mizuki - PiP,,0,0,0,,{\pos(650,750)}It's so good.
+Dialogue: 0,0:59:25.58,0:59:26.72,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Truly.
+Dialogue: 0,0:59:26.72,0:59:27.80,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you for the feast.
+Dialogue: 0,0:59:28.44,0:59:29.92,Mizuki - PiP,,0,0,0,,{\pos(650,750)}A huge thank you for this.
+Dialogue: 0,0:59:29.92,0:59:32.16,Mizuki - PiP,,0,0,0,,{\pos(650,750)}They didn't come home to my account, though.
+Dialogue: 0,0:59:32.16,0:59:35.70,Mizuki - PiP,,0,0,0,,{\pos(650,750)}But maybe if I give it time, they'll show up eventually.
+Dialogue: 0,0:59:35.70,0:59:37.32,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I'll keep waiting and believing that.
+Dialogue: 0,0:59:37.32,0:59:38.78,Mizuki - PiP,,0,0,0,,{\pos(650,750)}That's what I'm thinking.
+Dialogue: 0,0:59:38.78,0:59:43.68,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Seriously, the ProSeka team always full throttle,
+Dialogue: 0,0:59:43.68,0:59:45.78,Mizuki - PiP,,0,0,0,,{\pos(650,750)}for each every single illustration.
+Dialogue: 0,0:59:45.78,0:59:47.88,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Do they even get any sleep?
+Dialogue: 0,0:59:47.88,0:59:49.38,Mizuki - PiP,,0,0,0,,{\pos(650,750)}All their art is just that good.
+Dialogue: 0,0:59:49.38,0:59:52.44,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I'm always so grateful whenever I pull on the gacha.
+Dialogue: 0,0:59:52.44,0:59:53.86,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you so much.
+Dialogue: 0,0:59:53.86,0:59:56.62,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I hope you all manage to get it too!
+Dialogue: 0,0:59:56.62,0:59:57.96,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Oh, wait, was this a limited card?
+Dialogue: 0,0:59:57.96,0:59:58.60,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Right...
+Dialogue: 0,0:59:59.60,1:00:01.32,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Goodbye, "kitty"...
+Dialogue: 0,1:00:01.32,1:00:02.95,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Thank you very much.
+Dialogue: 0,1:00:03.80,1:00:06.40,Mizuki - PiP,,0,0,0,,{\pos(650,750)}I'll look forward to when they rerun.
+Dialogue: 0,1:00:07.35,1:00:08.20,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Bye bye...
+Dialogue: 0,1:00:08.72,1:00:11.25,Mizuki - PiP,,0,0,0,,{\pos(650,750)}Anyway, that's it for that part.
 Dialogue: 0,1:00:11.25,1:00:16.48,Mizuki,host,0,0,0,,We got to see many different aspects of this event today.
 Comment: 0,1:00:16.48,1:00:16.48,Default,,0,0,0,,~~CLOSEOUT~~
 Dialogue: 0,1:00:16.48,1:00:23.86,Mizuki,host,0,0,0,,It was a short time, but that's all for ProSeka AfterTalk: We Escape to Survive edition!
