@@ -15,7 +15,8 @@ The `aftertalk-launch` skill (`.claude/skills/aftertalk-launch/`) drives most of
 | `split_subtitle_line.py` | Split a flagged line into two events at a clause boundary, snapping the time split to a real breath (`--before`, `--transcript`). Fixes 3-row lines from `detect_long_lines.py`. | QC / layout |
 | `scope_segments.py` | **Pre-pipeline** keep-segment scoping from the *raw* mkv (no STT): classifies each second as standby/watchalong/talk by video layout (right-panel template + stillness), plus an audio pass that catches full-screen songs (continuous-music low-energy-rate) the panel misses on newer layouts. Emits `--start/--end` for `autosub run` + a boundary contact-sheet PNG. Needs `uv run --with opencv-python-headless --with numpy --with librosa` (librosa optional — audio pass skipped without it). Always confirm via the contact sheet. | Setup / scoping |
 | `find_segments.py` | **Post-pipeline** sibling of `scope_segments.py`: finds keep-segments between watchalong gaps in the *rendered* `.ass` timeline; `--transcript` classifies each gap silent vs audio, `--hardsub` emits a ready-to-run `hardsub_trim.sh` command. | Hardsub |
-| `hardsub_trim.sh` | Burn subs into video and trim/concat to the kept segments (parallel encode + `-c copy` concat; blackdetect warnings). Requires ffmpeg built with libass. | Hardsub |
+| `generate_overlays.py` | Build popup cards from `popups.json`: split VA-photo + character-art card (with Lato banner), or a `type: raw` meme resized to 480px. Reads each entry's `source` (raw input), writes `image` (the card hardsub overlays). See the `source` vs `image` contract in the root [`CLAUDE.md`](../CLAUDE.md) "Image Popups & Overlays". Needs `uv run --with pillow`. | Hardsub |
+| `hardsub_trim.py` / `hardsub_trim.sh` | Burn subs into video and trim/concat to the kept segments (parallel encode + `-c copy` concat; blackdetect warnings). Auto-overlays `popups.json` cards (the `image` field) at each `pos`/time. Requires ffmpeg built with libass. | Hardsub |
 | `fetch_event.py` | Fetch Project Sekai event story data from the sekai-world master DB + asset CDN. | Setup / reference |
 | `youtube_upload.py` | Upload the hardsubbed mp4 to YouTube (PRIVATE by default), pulling title/description from `notes.md`. Self-contained: `uv run scripts/youtube_upload.py`. Needs a one-time Desktop OAuth client (`scripts/client_secret.json`, gitignored) — see the script docstring. | Publish |
 
@@ -25,5 +26,6 @@ The `aftertalk-launch` skill (`.claude/skills/aftertalk-launch/`) drives most of
 1. `apply_positional_styles.py` — reposition PiP / song-shift subs
 2. `detect_long_lines.py` → `split_subtitle_line.py` — fix 3-row lines (loop until 0 flagged)
 3. `find_segments.py --transcript --hardsub …` — get the cut plan + hardsub command
+3b. `generate_overlays.py "<project_folder>"` — (re)build any `popups.json` cards before hardsub
 4. `./scripts/hardsub_trim.sh …` — render the final mp4
 5. `youtube_upload.py --video <mp4> --notes <notes.md>` — publish to YouTube (private by default)
