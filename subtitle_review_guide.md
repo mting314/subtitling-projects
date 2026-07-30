@@ -207,9 +207,12 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
 3. **Character Styles (`<Character>`):**
-   - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour` (e.g. Mizuki `&H00DDAEDE`, Ena `&H006C89AA`, Shiho `&H0022DDBB`, Haruka `&H00D19E5F`).
+   - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour` (e.g. Mizuki `&H00DDAEDE`, Ena `&H006C89AA`, Shiho `&H0022DDBB`, Haruka `&H00D19E5F`, Shizuku `&H006381A1`).
 4. **Shifted Character Styles (`<Character> - Shifted`):**
-   - Inherit character colors exactly, with shifted layout margins (`MarginL = 100, MarginR = 730, MarginV = 60`) and `{\pos(650,750)}` for subscreen/MV watchalongs.
+   - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
+5. **PiP Character Styles (`<Character> - PiP`):**
+   - Inherit character colors and **Fontsize 100** exactly. Margins: `MarginL = 100, MarginR = 800, MarginV = 50`, Alignment `8`. **Every line must have `{\pos(650,750)}`.**
+   - (Was Fontsize 72 before — bumped to 100 in 2026-07 to match main style size.)
 
 ### The positional styles table
 
@@ -219,7 +222,7 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
 | **Song-shift** — a 2D/3D MV plays in the **lower-right**; shift subs left to clear it | `<Char> - Shifted` (a.k.a. "Side Song") | `2` (bottom-center) | `100` | `730` | `60` | none — style margins do it |
 
 > Only Alignment + the three margins change between these and the main style. Keep the
-> character's `OutlineColour`, font, `Bold`, `Outline`, `Shadow` identical to the main
+> character's `OutlineColour`, font (`Fontsize 100`), `Bold`, `Outline`, `Shadow` identical to the main
 > style so the look is consistent.
 
 The **PiP** case relies on `\pos`, not margins (the `\pos` overrides them; Alignment `8`
