@@ -73,6 +73,10 @@ uv run autosub run \
 - Shizuku's focus event, solo host
 - Hardsub pipeline configured with Fontsize 100 / Margins 200/200/100, 3-row long line detection fix pass, and 0.4s fade-in/fade-out segment transitions.
 
+## QC follow-ups (open — verify before final hardsub)
+- **L392 `Hina-dan` → `Hina-chan`**: applied during the MoS style pass (`-dan` isn't a valid honorific; parallels `Marina-chan`), but confirm manually against audio — lower-confidence call.
+- **L416 `"Metamolibbon"`**: single-occurrence song/term title, spelling unverified. Cross-check against source/audio and correct if wrong.
+
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
 
