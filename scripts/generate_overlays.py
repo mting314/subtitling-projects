@@ -4,8 +4,28 @@
 Reads character image colors from sekai-story-indexer (`meta.json`) and downloads official
 character card artwork from sekai.best CDN.
 
+Popup manifest (`popups.json`) field contract
+---------------------------------------------
+Each entry describes one on-screen popup. Two fields drive the image, and they are
+DELIBERATELY SEPARATE because two different tools read them:
+
+  - `source`  — the RAW build input this script reads (a VA photo `.webp`/`.png`, or a meme
+                image). Optional; if omitted, falls back to `image`, then `<id>.webp`.
+  - `image`   — the FINISHED card this script WRITES and that `hardsub_trim.py` overlays into
+                the video at burn time. This must always point at the generated card
+                (`<Id>_card.png`), never at the raw — otherwise hardsub burns the full-res raw.
+
+  - `type`    — `"raw"` copies `source` straight to `image` (resized to card width), no banner.
+                Omit it for the default split card (VA photo left + character art right + banner).
+  - `id`      — used to name the downloaded character art (`<id>_art.png`).
+  - `character`/`title`/`subtitle`/`color` — split-card banner text + right-half tint.
+  - `start`/`end`/`pos` — consumed by hardsub_trim.py, ignored here.
+
+Re-running is safe: an entry with no `source` reads its own `image` (the card) and rewrites it
+unchanged. Add a `source` to (re)build a card from its raw.
+
 Usage:
-    uv run --with pillow python scripts/generate_overlays.py "projects/projects/Project Sekai/We Escape to Survive Aftertalk"
+    uv run --with pillow python scripts/generate_overlays.py "projects/projects/Project Sekai/<event>"
 """
 
 from __future__ import annotations
@@ -18,7 +38,21 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-DEFAULT_INDEXER_META = Path("C:/Users/Michael/Documents/GitHub/sekai-story-indexer/webapp/static/meta.json")
+# Card width in px. Split cards are this wide; raw popups are resized to it so every
+# overlay reads at a consistent on-screen size.
+CARD_W = 480
+
+# meta.json (character colors) — first existing path wins; override with --meta.
+INDEXER_META_CANDIDATES = [
+    Path.home() / "github" / "sekai-story-indexer" / "webapp" / "static" / "meta.json",
+    Path("C:/Users/Michael/Documents/GitHub/sekai-story-indexer/webapp/static/meta.json"),
+]
+
+# Lato ExtraBold (subtitle font) — first existing path wins. The project dir is checked
+# first (each event folder ships its own LATO-EXTRABOLD.TTF), so this runs cross-platform.
+FONT_CANDIDATES = [
+    Path("C:/Users/Michael/AppData/Local/Microsoft/Windows/Fonts/LATO-EXTRABOLD.TTF"),
+]
 
 # Character ID mapping for Project Sekai
 CHARA_ID_MAP = {
@@ -32,9 +66,27 @@ CHARA_ID_MAP = {
 }
 
 
-def load_character_colors(meta_path: Path = DEFAULT_INDEXER_META) -> dict[str, str]:
+def resolve_meta_path(override: Path | None) -> Path | None:
+    """Pick the meta.json path: explicit override, else first existing candidate."""
+    if override and override.exists():
+        return override
+    for cand in INDEXER_META_CANDIDATES:
+        if cand.exists():
+            return cand
+    return override  # may be None / non-existent; load_character_colors handles that
+
+
+def resolve_font_path(project_dir: Path) -> Path | None:
+    """Find LATO-EXTRABOLD.TTF: project dir first (shipped per event), then known installs."""
+    for cand in [project_dir / "LATO-EXTRABOLD.TTF", *FONT_CANDIDATES]:
+        if cand.exists():
+            return cand
+    return None
+
+
+def load_character_colors(meta_path: Path | None) -> dict[str, str]:
     """Load character hex colors from sekai-story-indexer meta.json."""
-    if not meta_path.exists():
+    if not meta_path or not meta_path.exists():
         return {}
     with open(meta_path, encoding="utf-8") as f:
         data = json.load(f)
@@ -50,8 +102,19 @@ def hex_to_rgb(hex_str: str) -> tuple[int, int, int]:
     return tuple(int(hex_str[i : i + 2], 16) for i in (0, 2, 4))
 
 
+def load_fonts(font_path: Path | None) -> tuple[ImageFont.FreeTypeFont, ImageFont.FreeTypeFont]:
+    """Load (title, subtitle) fonts, falling back gracefully when Lato is unavailable."""
+    try:
+        if font_path and font_path.exists():
+            return (ImageFont.truetype(str(font_path), 32), ImageFont.truetype(str(font_path), 22))
+        return (ImageFont.truetype("arialbd.ttf", 32), ImageFont.truetype("arial.ttf", 22))
+    except Exception:
+        default = ImageFont.load_default()
+        return (default, default)
+
+
 def fetch_character_artwork(chara_name_en: str, dst_path: Path) -> bool:
-    """Download character card illustration from sekai.best CDN."""
+    """Download character card illustration from sekai.best CDN (skips if already present)."""
     if dst_path.exists() and dst_path.stat().st_size > 1000:
         return True
     cid = CHARA_ID_MAP.get(chara_name_en.lower())
@@ -76,6 +139,16 @@ def fetch_character_artwork(chara_name_en: str, dst_path: Path) -> bool:
         return False
 
 
+def save_raw_overlay(source_path: Path, output_path: Path, width: int = CARD_W) -> None:
+    """Prepare a raw (no-banner) overlay: convert to RGBA and resize to card width."""
+    img = Image.open(source_path).convert("RGBA")
+    if img.width != width:
+        h = round(img.height * width / img.width)
+        img = img.resize((width, h), Image.LANCZOS)
+    img.save(output_path, "PNG")
+    print(f"Prepared raw image overlay: {output_path.name} ({img.width}x{img.height})")
+
+
 def create_split_card(
     va_img_path: Path,
     chara_img_path: Path,
@@ -83,7 +156,8 @@ def create_split_card(
     subtitle_text: str,
     chara_color_hex: str,
     output_path: Path,
-    total_w: int = 480,
+    font_path: Path | None = None,
+    total_w: int = CARD_W,
     img_h: int = 340,
 ):
     """Generate a split-screen VA photo (left) + Character Illustration (right) card with centered English text."""
@@ -127,18 +201,8 @@ def create_split_card(
     img_container.paste(left_half, (0, 0))
     img_container.paste(right_bg, (half_w, 0))
 
-    # Fonts (Using subtitle font: Lato ExtraBold)
-    lato_font_path = Path("C:/Users/Michael/AppData/Local/Microsoft/Windows/Fonts/LATO-EXTRABOLD.TTF")
-    try:
-        if lato_font_path.exists():
-            title_font = ImageFont.truetype(str(lato_font_path), 32)
-            sub_font = ImageFont.truetype(str(lato_font_path), 22)
-        else:
-            title_font = ImageFont.truetype("arialbd.ttf", 32)
-            sub_font = ImageFont.truetype("arial.ttf", 22)
-    except Exception:
-        title_font = ImageFont.load_default()
-        sub_font = ImageFont.load_default()
+    # Fonts (Lato ExtraBold, resolved cross-platform)
+    title_font, sub_font = load_fonts(font_path)
 
     t_bbox = title_font.getbbox(title_text)
     s_bbox = sub_font.getbbox(subtitle_text)
@@ -195,7 +259,7 @@ def create_split_card(
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate split-screen popup cards with English text.")
     ap.add_argument("project_dir", type=Path, help="path to project directory")
-    ap.add_argument("--meta", type=Path, default=DEFAULT_INDEXER_META, help="path to sekai-story-indexer meta.json")
+    ap.add_argument("--meta", type=Path, default=None, help="path to sekai-story-indexer meta.json")
     args = ap.parse_args()
 
     proj_dir = args.project_dir
@@ -204,23 +268,31 @@ def main() -> int:
         print(f"Error: manifest {manifest_path} not found", file=sys.stderr)
         return 1
 
-    char_colors = load_character_colors(args.meta)
+    font_path = resolve_font_path(proj_dir)
+    if font_path:
+        print(f"Using font: {font_path}")
+    else:
+        print("Lato font not found; falling back to Arial/default", file=sys.stderr)
+
+    char_colors = load_character_colors(resolve_meta_path(args.meta))
 
     with open(manifest_path, encoding="utf-8") as f:
         popups = json.load(f)
 
     for item in popups:
-        img_name = item.get("image") or f"{item.get('name')}.webp"
+        # `source` is the raw build input; fall back to `image` (frozen re-run), then <id>.webp.
+        img_name = item.get("source") or item.get("image") or f"{item.get('id')}.webp"
         va_img_path = proj_dir / img_name
-        card_out = proj_dir / f"{item.get('id', 'card')}_card.png"
+        # `image` is the finished card that hardsub overlays — write exactly there.
+        card_out = proj_dir / item.get("image", f"{item.get('id', 'card')}_card.png")
 
-        # If raw image popup (no card banner)
+        if not va_img_path.exists():
+            print(f"Skip {item.get('id')}: source image {va_img_path.name} not found", file=sys.stderr)
+            continue
+
+        # Raw popup: no banner, just the source resized to card width.
         if item.get("type") == "raw":
-            if va_img_path.exists():
-                # Save as clean PNG for overlay
-                img = Image.open(va_img_path).convert("RGBA")
-                img.save(card_out, "PNG")
-                print(f"Prepared raw image overlay: {card_out.name}")
+            save_raw_overlay(va_img_path, card_out)
             continue
 
         chara_en = item.get("character", "")
@@ -238,7 +310,8 @@ def main() -> int:
             title_str,
             subtitle_str,
             color,
-            card_out
+            card_out,
+            font_path=font_path,
         )
 
     return 0

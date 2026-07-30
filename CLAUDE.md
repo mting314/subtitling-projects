@@ -72,23 +72,54 @@ After QC, burn subtitles into video and trim to the subbed portion. **Must hards
 ### Image Popups & Overlays (FFmpeg Overlay Protocol)
 
 For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
+
 1. **Never use `img2ass` bitmap drawings** (causes 1000s of lines, file bloat, and subpixel rendering lag).
-2. **Define popups in `popups.json`** inside the project folder:
+
+2. **Add the raw source image** to the project folder (VA photo `.webp`/`.png`, or a meme image).
+   Commit it — it's the archival source a card is (re)built from.
+
+3. **Define popups in `popups.json`** inside the project folder. **Two image fields, kept
+   separate on purpose** (see the `source` vs `image` contract below):
    ```json
    [
      {
-       "id": "rui",
-       "image": "Rui.webp",
-       "title": "Tanabe Rui",
-       "subtitle": "Voice of Mafuyu Yoisaki",
-       "character": "Mafuyu Asahina",
-       "start": "00:13:50.72",
-       "end": "00:13:54.92"
+       "id": "minori",
+       "source": "Minori.webp",      // RAW build input — generate_overlays.py READS this
+       "image": "Minori_card.png",    // FINISHED card — generate_overlays WRITES it; hardsub OVERLAYS it
+       "title": "Minori Suzuki",
+       "subtitle": "Voice of Ena Shinonome",
+       "character": "Ena Shinonome",
+       "color": "#ccaa88",
+       "start": "00:14:12.68",
+       "end": "00:14:16.28",
+       "pos": [1380, 160]             // overlay x,y consumed by hardsub_trim.py
+     },
+     {
+       "id": "gachapin",
+       "source": "gachapin.png",
+       "image": "gachapin_card.png",
+       "type": "raw",                 // no banner: source is just resized to card width (480px)
+       "start": "00:10:51.95", "end": "00:10:55.52", "pos": [1380, 160]
      }
    ]
    ```
-3. **Generate PNG Popup Cards:** Run `uv run --with pillow python scripts/generate_overlays.py <project_folder>`. This reads character image colors from `sekai-story-indexer` (`meta.json`) and generates styled card PNGs (`Rui_card.png`).
-4. **Hardsub Overlay:** Apply overlays via FFmpeg `overlay=x=main_w-overlay_w-15:y=70:enable='between(t,START,END)'` synchronized directly to the dialogue line start/end timestamps.
+
+4. **Generate PNG Popup Cards:** `uv run --with pillow python scripts/generate_overlays.py "<project_folder>"`.
+   - Split card (default): VA photo (`source`, left) + character art (right, fetched to `<id>_art.png`
+     from sekai.best, cached) + Lato banner → writes `image`.
+   - `type: "raw"`: copies `source` → `image`, resized to 480px width, no banner.
+   - Cross-platform: finds `LATO-EXTRABOLD.TTF` in the project folder first (each event ships one),
+     and `meta.json` under `~/github/sekai-story-indexer/`. No network needed if `<id>_art.png` exists.
+   - Idempotent: an entry with no `source` reads its own `image` and rewrites it unchanged.
+
+5. **Hardsub Overlay:** `hardsub_trim.py` overlays the `image` file at `pos` for `start`–`end`
+   (`overlay=x:y:enable='between(t,START,END)'`), auto-loaded from `popups.json`.
+
+> **`source` vs `image` — the key gotcha.** `image` is what hardsub burns into the video, so it
+> **must** point at the generated card (`<Id>_card.png`), never at the raw — otherwise the full-res
+> raw gets burned in. `source` is the raw the card is built from. To rebuild a card from a new raw:
+> set/point `source`, run `generate_overlays.py`, render-verify the PNG, commit. (Raw sources like
+> `Minori.webp` are archived in the project folder even though hardsub never reads them directly.)
 
 ### `scripts/hardsub_trim.py`
 
