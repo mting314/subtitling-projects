@@ -78,36 +78,43 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 2. **Add the raw source image** to the project folder (VA photo `.webp`/`.png`, or a meme image).
    Commit it — it's the archival source a card is (re)built from.
 
-3. **Define popups in `popups.json`** inside the project folder. **Two image fields, kept
-   separate on purpose** (see the `source` vs `image` contract below):
+3. **Define popups in `popups.json`** inside the project folder. **Raw burn-in is the
+   default** — most popups are just "put this image on screen". The VA split card is the
+   special case and must be asked for with `"type": "card"`.
+
+   **Raw (default, most common)** — a meme, screenshot, or reference shot:
    ```json
-   [
-     {
-       "id": "minori",
-       "source": "Minori.webp",      // RAW build input — generate_overlays.py READS this
-       "image": "Minori_card.png",    // FINISHED card — generate_overlays WRITES it; hardsub OVERLAYS it
-       "title": "Minori Suzuki",
-       "subtitle": "Voice of Ena Shinonome",
-       "character": "Ena Shinonome",
-       "color": "#ccaa88",
-       "start": "00:14:12.68",
-       "end": "00:14:16.28",
-       "pos": [1380, 160]             // overlay x,y consumed by hardsub_trim.py
-     },
-     {
-       "id": "gachapin",
-       "source": "gachapin.png",
-       "image": "gachapin_card.png",
-       "type": "raw",                 // no banner: source is just resized to card width (480px)
-       "start": "00:10:51.95", "end": "00:10:55.52", "pos": [1380, 160]
-     }
-   ]
+   {
+     "id": "that-damn-smile",
+     "source": "that_damn_smile.jpeg",   // optional raw input; generate_overlays READS it
+     "image": "that-damn-smile.png",     // what generate_overlays WRITES and hardsub BURNS
+     "width": 720,                       // optional; omit to keep native size
+     "start": "0:54:15.78", "end": "0:54:20.56",
+     "pos": [1159, 130]                  // overlay TOP-LEFT x,y — used by hardsub_trim.py
+   }
    ```
 
-4. **Generate PNG Popup Cards:** `uv run --with pillow python scripts/generate_overlays.py "<project_folder>"`.
-   - Split card (default): VA photo (`source`, left) + character art (right, fetched to `<id>_art.png`
-     from sekai.best, cached) + Lato banner → writes `image`.
-   - `type: "raw"`: copies `source` → `image`, resized to 480px width, no banner.
+   **Card (opt-in)** — the VA photo + character art + name banner:
+   ```json
+   {
+     "id": "minori",
+     "type": "card",                     // REQUIRED for a card; without it you get a raw burn
+     "source": "Minori.webp",
+     "image": "Minori_card.png",
+     "title": "Minori Suzuki",
+     "subtitle": "Voice of Ena Shinonome",
+     "character": "Ena Shinonome",       // drives the fetched art + banner tint
+     "color": "#ccaa88",
+     "start": "00:14:12.68", "end": "00:14:16.28",
+     "pos": [1380, 160]
+   }
+   ```
+
+4. **Generate the overlay PNGs:** `uv run --with pillow python scripts/generate_overlays.py "<project_folder>"`.
+   - **raw** (no `type`, or `"type": "raw"`): copies `source` → `image`, resized only if
+     `width` is given. No banner, no network, no character metadata needed.
+   - **`"type": "card"`**: VA photo (`source`, left) + character art (right, fetched to
+     `<id>_art.png` from sekai.best and cached) + Lato banner → writes `image`.
    - Cross-platform: finds `LATO-EXTRABOLD.TTF` in the project folder first (each event ships one),
      and `meta.json` under `~/github/sekai-story-indexer/`. No network needed if `<id>_art.png` exists.
    - Idempotent: an entry with no `source` reads its own `image` and rewrites it unchanged.
@@ -116,10 +123,36 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
    (`overlay=x:y:enable='between(t,START,END)'`), auto-loaded from `popups.json`.
 
 > **`source` vs `image` — the key gotcha.** `image` is what hardsub burns into the video, so it
-> **must** point at the generated card (`<Id>_card.png`), never at the raw — otherwise the full-res
-> raw gets burned in. `source` is the raw the card is built from. To rebuild a card from a new raw:
+> **must** point at the generated overlay PNG, never at an unsized raw — otherwise the full-res
+> raw gets burned in. `source` is the input the overlay is built from. To rebuild from a new raw:
 > set/point `source`, run `generate_overlays.py`, render-verify the PNG, commit. (Raw sources like
 > `Minori.webp` are archived in the project folder even though hardsub never reads them directly.)
+
+### Migrating legacy `img2ass` projects
+
+Older projects embedded the image **into the `.ass`** as a `\p` vector drawing (one 1px-tall
+rectangle per pixel run). It renders, but a single small image balloons the file to 1MB+ and
+libass re-rasterizes thousands of shapes every frame. Convert with:
+
+```bash
+# inspect first — prints id, decoded size, scale, anchor, resulting overlay pos
+uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/<event>/<name>_translated.ass" --dry-run
+
+# decode to PNGs, write popups.json entries, remove the drawing lines
+uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+  --write-popups --strip
+```
+
+It decodes the RLE pixel runs back to a PNG and converts the ASS anchor (`\pos` + `\an`/style
+Alignment) and `\fscx/\fscy` scaling into the ffmpeg overlay's **top-left** `pos`. Then:
+
+1. If the **original source image** is still in the project folder, prefer it — point `source`
+   at it and set `width` to the size the drawing rendered at (the embedded copy was usually
+   downscaled, so the original is sharper). Re-run `generate_overlays.py`.
+2. **Render-verify**: burn one frame with the old `.ass` and one with the new overlay and diff
+   them — the changed region should match the overlay's `pos`/size.
+
+Measured on the two migrated events: `1.3M → 72K` and `760K → 56K`.
 
 ### `scripts/hardsub_trim.py`
 
