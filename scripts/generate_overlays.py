@@ -15,10 +15,14 @@ DELIBERATELY SEPARATE because two different tools read them:
                 the video at burn time. This must always point at the generated card
                 (`<Id>_card.png`), never at the raw — otherwise hardsub burns the full-res raw.
 
-  - `type`    — `"raw"` copies `source` straight to `image` (resized to card width), no banner.
-                Omit it for the default split card (VA photo left + character art right + banner).
+  - `type`    — OMIT for a plain raw burn-in (the default and the common case: memes,
+                reference shots, screenshots). Set `"type": "card"` to build the VA split
+                card (VA photo left + character art right + name banner). `"type": "raw"`
+                is still accepted and means the same as omitting it.
+  - `width`   — raw only, optional. Resize the overlay to this width; omit to keep the
+                source's native size.
   - `id`      — used to name the downloaded character art (`<id>_art.png`).
-  - `character`/`title`/`subtitle`/`color` — split-card banner text + right-half tint.
+  - `character`/`title`/`subtitle`/`color` — card only: banner text + right-half tint.
   - `start`/`end`/`pos` — consumed by hardsub_trim.py, ignored here.
 
 Re-running is safe: an entry with no `source` reads its own `image` (the card) and rewrites it
@@ -139,10 +143,14 @@ def fetch_character_artwork(chara_name_en: str, dst_path: Path) -> bool:
         return False
 
 
-def save_raw_overlay(source_path: Path, output_path: Path, width: int = CARD_W) -> None:
-    """Prepare a raw (no-banner) overlay: convert to RGBA and resize to card width."""
+def save_raw_overlay(source_path: Path, output_path: Path, width: int | None = None) -> None:
+    """Prepare a raw (no-banner) overlay: convert to RGBA, optionally resize to `width`.
+
+    With no `width` the source is kept at its native size — a raw burn-in is usually just
+    "put this image on screen", so we don't impose the card geometry on it.
+    """
     img = Image.open(source_path).convert("RGBA")
-    if img.width != width:
+    if width and img.width != width:
         h = round(img.height * width / img.width)
         img = img.resize((width, h), Image.LANCZOS)
     img.save(output_path, "PNG")
@@ -283,16 +291,18 @@ def main() -> int:
         # `source` is the raw build input; fall back to `image` (frozen re-run), then <id>.webp.
         img_name = item.get("source") or item.get("image") or f"{item.get('id')}.webp"
         va_img_path = proj_dir / img_name
-        # `image` is the finished card that hardsub overlays — write exactly there.
+        # `image` is the finished overlay that hardsub burns — write exactly there.
         card_out = proj_dir / item.get("image", f"{item.get('id', 'card')}_card.png")
 
         if not va_img_path.exists():
             print(f"Skip {item.get('id')}: source image {va_img_path.name} not found", file=sys.stderr)
             continue
 
-        # Raw popup: no banner, just the source resized to card width.
-        if item.get("type") == "raw":
-            save_raw_overlay(va_img_path, card_out)
+        # RAW IS THE DEFAULT. Most popups are just "burn this image on screen" (memes,
+        # reference shots, screenshots). The VA split card is the special case and must be
+        # requested with "type": "card". Legacy "type": "raw" still works (it's the default).
+        if item.get("type") != "card":
+            save_raw_overlay(va_img_path, card_out, width=item.get("width"))
             continue
 
         chara_en = item.get("character", "")
