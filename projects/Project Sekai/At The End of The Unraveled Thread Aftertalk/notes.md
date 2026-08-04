@@ -36,10 +36,13 @@ Cuts to remove (everything else is kept):
 - 00:29:33 → 00:48:30 — 3DMV viewing
 - 01:11:23 → end — outro
 
-Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/video fade transitions):
-- 00:09:53.00 → 00:14:21.31 (post-intro host segment)
-- 00:27:44.75 → 00:29:33.86 (transition between story review and 3DMV)
-- 00:48:30.13 → 01:11:23.04 (post-MV: card discussion + song talk)
+Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/video fade transitions).
+Regenerated 2026-07-31 by `scripts/find_segments.py` against the current 443-event `.ass`:
+- 0:09:53.00 → 0:14:20.96 (266s, post-intro host segment)
+- 0:27:41.00 → 0:29:22.96 (100s, transition between story review and 3DMV)
+- 0:48:30.13 → 1:11:23.04 (1371s, post-MV: card discussion + song talk)
+
+Both CUT gaps verified silent by the transcript (0 and 2 words), so nothing is lost.
 
 ## Command (full pipeline)
 
@@ -56,6 +59,50 @@ uv run autosub run \
   --mark-chunks \
   --save-log
 ```
+
+## Hardsub + Publish
+
+Run both from the **projects repo root**. Regenerate the segment list first if the `.ass`
+timings change:
+
+```bash
+python3 scripts/find_segments.py \
+  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
+  --transcript "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_transcript.json" \
+  --hardsub "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv:projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4"
+```
+
+### 1. Hardsub + trim
+
+```bash
+uv run python scripts/hardsub_trim.py \
+  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
+  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
+  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
+  0:09:53.00 0:14:20.96 \
+  0:27:41.00 0:29:22.96 \
+  0:48:30.13 1:11:23.04
+```
+
+Requires ffmpeg built with **libass** (`ffmpeg -filters | grep -w ass`). On macOS the
+plain `brew install ffmpeg` bottle does **not** include libass — use the
+`homebrew-ffmpeg/ffmpeg` tap build (`brew tap homebrew-ffmpeg/ffmpeg && brew trust
+homebrew-ffmpeg/ffmpeg && brew install homebrew-ffmpeg/ffmpeg/ffmpeg`).
+
+### 2. YouTube upload
+
+Reads the title/description from the `## YouTube Title` and `## YouTube Blurb` sections
+below; uploads **private** by default.
+
+```bash
+uv run --script scripts/youtube_upload.py \
+  --video "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/notes.md"
+```
+
+> **Stale render:** `..._final.mp4` (2026-05-29) was burned **before** the style fixes, so its
+> subs are unstyled black Arial. Re-render with the command above and publish
+> `..._hardsubbed.mp4`; delete `_final.mp4` once the new render is verified.
 
 ## Profile
 - `proseka/mmj`
