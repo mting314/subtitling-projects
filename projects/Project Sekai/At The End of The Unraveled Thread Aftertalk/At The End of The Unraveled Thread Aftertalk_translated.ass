@@ -15,9 +15,9 @@ Video File: ../../../../../../Library/Application Support/Aegisub/recovered/../.
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 363
-Active Line: 376
-Video Position: 122671
+Scroll Position: 101
+Active Line: 108
+Video Position: 90556
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -135,11 +135,11 @@ Dialogue: 0,0:49:48.40,0:49:51.00,Shizuku,,0,0,0,,So speaking of recording for t
 Comment: 0,0:49:53.84,0:49:55.28,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:49:53.84,0:49:57.00,Shizuku,,0,0,0,,It's not just the theme, but I think...
 Dialogue: 0,0:49:57.84,0:50:04.56,Shizuku,,0,0,0,,In this story, Shizuku took that first step and went even deeper.
-Dialogue: 0,0:50:05.24,0:50:06.36,Shizuku,,0,0,0,,For me,
+Dialogue: 0,0:50:05.24,0:50:06.71,Shizuku,,0,0,0,,For me,
 Dialogue: 0,0:50:07.60,0:50:15.40,Shizuku,,0,0,0,,seeing Shizuku get her wings and awaken... I felt this song has that kind of power.
-Dialogue: 0,0:50:15.40,0:50:17.04,Shizuku,,0,0,0,,That's what I thought when I first read the lyrics.
-Dialogue: 0,0:50:18.52,0:50:22.92,Shizuku,,0,0,0,,the lyrics were filled with so many emotions, so
-Dialogue: 0,0:50:24.60,0:50:27.04,Shizuku,,0,0,0,,I really wanted to express them with everything I had.
+Dialogue: 0,0:50:15.40,0:50:17.39,Shizuku,,0,0,0,,That's what I thought when I first read the lyrics.
+Dialogue: 0,0:50:18.52,0:50:22.92,Shizuku,,0,0,0,,The lyrics were filled with so many emotions,
+Dialogue: 0,0:50:24.60,0:50:27.15,Shizuku,,0,0,0,,so I really wanted to express them with everything I had.
 Dialogue: 0,0:50:27.88,0:50:33.88,Shizuku,,0,0,0,,What we just showed you was the game-size version.
 Dialogue: 0,0:50:34.96,0:50:41.56,Shizuku,,0,0,0,,I hope we'll have the chance to share the full version with you, someday.
 Dialogue: 0,0:50:41.56,0:50:43.52,Shizuku,,0,0,0,,When you do listen to it,
@@ -163,7 +163,8 @@ Dialogue: 0,0:51:48.84,0:51:51.76,Shizuku,,0,0,0,,Thank you so much.
 Dialogue: 0,0:51:53.64,0:51:54.40,Shizuku,,0,0,0,,And now,
 Dialogue: 0,0:51:55.60,0:52:04.04,Shizuku,,0,0,0,,let's take a look at the newly added card illustrations.
 Dialogue: 0,0:52:04.04,0:52:06.04,Shizuku,,0,0,0,,There are five cards for us to look at,
-Dialogue: 0,0:52:07.60,0:52:11.44,Shizuku,,0,0,0,,and they're all so cute!
+Dialogue: 0,0:52:07.60,0:52:10.85,Shizuku,,0,0,0,,and they're all so cute!
+Dialogue: 0,0:52:10.85,0:52:11.79,Shizuku - PiP,,0,0,0,,{\pos(650,750)}and they're all so cute!
 Dialogue: 0,0:52:13.70,0:52:15.72,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Let's start by looking at Shizuku's.
 Dialogue: 0,0:52:20.80,0:52:22.48,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Isn't this amazing?
 Dialogue: 0,0:52:23.44,0:52:24.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This is the trained art.
@@ -174,12 +175,11 @@ Dialogue: 0,0:52:40.48,0:52:46.07,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I think t
 Dialogue: 0,0:52:47.04,0:52:53.68,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It has a certain fleeting, almost fragile beauty to it.
 Dialogue: 0,0:52:55.04,0:52:56.98,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Love it.
 Dialogue: 0,0:52:56.98,0:52:59.28,Shizuku - PiP,,0,0,0,,{\pos(650,750)}And this is the untrained.
-Dialogue: 0,0:52:59.84,0:53:01.66,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I think this was the art that was previewed a bit
-Dialogue: 0,0:53:01.66,0:53:03.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}(in the event Twitter announcement).
-Dialogue: 0,0:53:04.92,0:53:08.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}A bit of Arisa was visible in the corner
-Dialogue: 0,0:53:10.64,0:53:13.36,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I saw people posting about that a lot on Twitter.
-Dialogue: 0,0:53:14.15,0:53:14.83,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Like—
-Dialogue: 0,0:53:15.68,0:53:18.34,Shizuku - PiP,,0,0,0,,{\pos(650,750)}doesn't it make you go "Just who does she think she is?"
+Dialogue: 0,0:53:00.76,0:53:03.99,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I think this was the art that was previewed before the event.
+Dialogue: 0,0:53:06.35,0:53:08.92,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Only a bit of Arisa was visible in the corner.
+Dialogue: 0,0:53:10.64,0:53:13.63,Shizuku - PiP,,0,0,0,,{\pos(650,750)}I saw people posting about that a lot on Twitter.
+Dialogue: 0,0:53:14.15,0:53:14.64,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Like—
+Dialogue: 0,0:53:15.68,0:53:18.34,Shizuku - PiP,,0,0,0,,{\pos(650,750)}Doesn't it make you go "Just who does she think she is?"
 Dialogue: 0,0:53:19.04,0:53:20.12,Shizuku - PiP,,0,0,0,,{\pos(650,750)}It does, doesn't it?
 Comment: 0,0:53:20.56,0:53:22.32,Default,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:53:20.56,0:53:22.32,Shizuku - PiP,,0,0,0,,{\pos(650,750)}This art is just...
@@ -407,11 +407,11 @@ Dialogue: 0,1:06:19.98,1:06:22.12,Shizuku,,0,0,0,,Her actions might have been wr
 Dialogue: 0,1:06:22.12,1:06:24.55,Shizuku,,0,0,0,,but her words weren't wrong at all.
 Dialogue: 0,1:06:24.55,1:06:28.24,Shizuku,,0,0,0,,Even during the iHaz recording scene we just watched,
 Dialogue: 0,1:06:28.76,1:06:36.75,Shizuku,,0,0,0,,you might wonder why she'd press Shizuku so hard on a TV show,
-Dialogue: 0,1:06:36.75,1:06:41.78,Shizuku,,0,0,0,,but she pressed so hard knowing full well
-Dialogue: 0,1:06:41.78,1:06:49.28,Shizuku,,0,0,0,,that the viewers wanted to see those deep conversations from idols.
+Dialogue: 0,1:06:36.75,1:06:41.78,Shizuku,,0,0,0,,but she kept pressing Shizuku,
+Dialogue: 0,1:06:41.78,1:06:49.28,Shizuku,,0,0,0,,knowing full well that the viewers wanted to see those deep conversations.
 Dialogue: 0,1:06:49.28,1:06:52.52,Shizuku,,0,0,0,,All of that was to liven up the program.
-Dialogue: 0,1:06:53.52,1:06:56.18,Shizuku,,0,0,0,,She worked with the other Cheerful＊Days members
-Dialogue: 0,1:06:56.18,1:07:00.02,Shizuku,,0,0,0,,like Marina-chan and Hina-chan to make it exciting.
+Dialogue: 0,1:06:53.52,1:06:56.18,Shizuku,,0,0,0,,She worked with the other Cheerful＊Days members,
+Dialogue: 0,1:06:56.18,1:07:00.02,Shizuku,,0,0,0,,like Marina-chan and Hina-chan, to make it more exciting.
 Dialogue: 0,1:07:00.02,1:07:04.38,Shizuku,,0,0,0,,You can really feel her dedication through that.
 Dialogue: 0,1:07:04.38,1:07:06.79,Shizuku,,0,0,0,,She's a true professional.
 Dialogue: 0,1:07:08.40,1:07:09.96,Shizuku,,0,0,0,,That was really tense, though.
