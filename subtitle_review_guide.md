@@ -211,7 +211,19 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
 3. **Character Styles (`<Character>`):**
-   - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour` (e.g. Mizuki `&H00DDAEDE`, Ena `&H006C89AA`, Shiho `&H0022DDBB`, Haruka `&H00D19E5F`, Shizuku `&H006381A1`).
+   - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour`.
+   - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the canonical hex in
+     `sekai-story-indexer/webapp/static/meta.json` by swapping the outer bytes:
+     `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` → `&H00DDEE99`). Getting this backwards
+     silently yields a plausible-looking but wrong color — always **render-verify** (see below).
+
+     | Character | Canonical hex | `OutlineColour` |
+     |---|---|---|
+     | Mizuki Akiyama | `#ddaacc` | `&H00CCAADD` |
+     | Ena Shinonome | `#ccaa88` | `&H0088AACC` |
+     | Shiho Hinomori | `#bbdd22` | `&H0022DDBB` |
+     | Haruka Kiritani | `#99ccff` | `&H00FFCC99` |
+     | Shizuku Hinomori | `#99eedd` | `&H00DDEE99` |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
