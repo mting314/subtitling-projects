@@ -218,18 +218,31 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
    - Use for all Translator Note text across all projects.
 3. **Character Styles (`<Character>`):**
    - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour`.
-   - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the canonical hex in
-     `sekai-story-indexer/webapp/static/meta.json` by swapping the outer bytes:
-     `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` → `&H00DDEE99`). Getting this backwards
-     silently yields a plausible-looking but wrong color — always **render-verify** (see below).
+   - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the character's official
+     hex by swapping the outer bytes: `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` →
+     `&H00DDEE99`). Getting this backwards silently yields a plausible-looking but wrong
+     color — always **render-verify**.
 
-     | Character | Canonical hex | `OutlineColour` |
-     |---|---|---|
-     | Mizuki Akiyama | `#ddaacc` | `&H00CCAADD` |
-     | Ena Shinonome | `#ccaa88` | `&H0088AACC` |
-     | Shiho Hinomori | `#bbdd22` | `&H0022DDBB` |
-     | Haruka Kiritani | `#99ccff` | `&H00FFCC99` |
-     | Shizuku Hinomori | `#99eedd` | `&H00DDEE99` |
+     Source of truth: the `|color=` field on each character's
+     [Project Sekai Fandom](https://projectsekai.fandom.com/) page, which was cross-checked
+     against `sekai-story-indexer/webapp/static/meta.json` — **all 26 agree**. Full table
+     (audited corpus-wide 2026-08-04; all 65 style rows match):
+
+     | Character | Hex | `OutlineColour` | | Character | Hex | `OutlineColour` |
+     |---|---|---|---|---|---|---|
+     | Ichika Hoshino | `#33aaee` | `&H00EEAA33` | | Kanade Yoisaki | `#bb6688` | `&H008866BB` |
+     | Saki Tenma | `#ffdd44` | `&H0044DDFF` | | Mafuyu Asahina | `#8888cc` | `&H00CC8888` |
+     | Honami Mochizuki | `#ee6666` | `&H006666EE` | | Ena Shinonome | `#ccaa88` | `&H0088AACC` |
+     | Shiho Hinomori | `#bbdd22` | `&H0022DDBB` | | Mizuki Akiyama | `#ddaacc` | `&H00CCAADD` |
+     | Minori Hanasato | `#ffccaa` | `&H00AACCFF` | | Hatsune Miku | `#33ccbb` | `&H00BBCC33` |
+     | Haruka Kiritani | `#99ccff` | `&H00FFCC99` | | Rin Kagamine | `#ffcc11` | `&H0011CCFF` |
+     | Airi Momoi | `#ffaacc` | `&H00CCAAFF` | | Len Kagamine | `#ffee11` | `&H0011EEFF` |
+     | Shizuku Hinomori | `#99eedd` | `&H00DDEE99` | | Luka Megurine | `#ffbbcc` | `&H00CCBBFF` |
+     | Kohane Azusawa | `#ff6699` | `&H009966FF` | | MEIKO | `#dd4444` | `&H004444DD` |
+     | An Shiraishi | `#00bbdd` | `&H00DDBB00` | | KAITO | `#3366cc` | `&H00CC6633` |
+     | Akito Shinonome | `#ff7722` | `&H002277FF` | | Tsukasa Tenma | `#ffbb00` | `&H0000BBFF` |
+     | Toya Aoyagi | `#0077dd` | `&H00DD7700` | | Emu Otori | `#ff66bb` | `&H00BB66FF` |
+     | Rui Kamishiro | `#bb88ee` | `&H00EE88BB` | | Nene Kusanagi | `#33dd99` | `&H0099DD33` |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
