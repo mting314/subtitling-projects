@@ -207,6 +207,12 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
      [idolactivities subtitling guide](https://idolactivities.github.io/vtuber-things/guides/subtitling.html):
      font ≥100 for 1080p, vertical margin ≥ font size, horizontal margins ≈ 2× that.
      (Was 72 / 180 / 60 before — bumped up 2026-07 for readability + margin balance.)
+   - **`PlayResX: 1920` / `PlayResY: 1080` must be in `[Script Info]`.** If they're absent,
+     libass assumes a **384x288** script canvas and scales it to the video frame — a ~5x
+     blowup that makes almost every line wrap to 3+ rows. `pyass` (autosub's ASS writer)
+     omitted these until `format/generator.py` was fixed, so older files need a backfill.
+     `detect_long_lines.py` now warns when they're missing; check the header first if a
+     file shows an implausible number of long lines.
 2. **Master TL Note Style (`DefaultOnibe - TL Note`):**
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
