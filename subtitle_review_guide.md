@@ -265,6 +265,7 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
      | Episode | Character | Official | Override | Why |
      |---|---|---|---|---|
      | At The End of The Unraveled Thread (shizu3) | Shizuku | `#99eedd` (`&H00DDEE99`) | `#22ceac` (`&H00ACCE22`) | studio wall L≈0.80; official outline only 1.09× vs bg |
+     | Gazing Upon the Night Sky's Fading Stars (saki7) | Saki | `#ffdd44` (`&H0044DDFF`) | `#dbb300` (`&H0000B3DB`) | near-white wall + pale-yellow-sweater host; yellow washed out (1.34× vs bg) |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
