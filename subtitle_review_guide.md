@@ -207,23 +207,65 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
      [idolactivities subtitling guide](https://idolactivities.github.io/vtuber-things/guides/subtitling.html):
      font ≥100 for 1080p, vertical margin ≥ font size, horizontal margins ≈ 2× that.
      (Was 72 / 180 / 60 before — bumped up 2026-07 for readability + margin balance.)
+   - **`PlayResX: 1920` / `PlayResY: 1080` must be in `[Script Info]`.** If they're absent,
+     libass assumes a **384x288** script canvas and scales it to the video frame — a ~5x
+     blowup that makes almost every line wrap to 3+ rows. `pyass` (autosub's ASS writer)
+     omitted these until `format/generator.py` was fixed, so older files need a backfill.
+     `detect_long_lines.py` now warns when they're missing; check the header first if a
+     file shows an implausible number of long lines.
 2. **Master TL Note Style (`DefaultOnibe - TL Note`):**
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
 3. **Character Styles (`<Character>`):**
    - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour`.
-   - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the canonical hex in
-     `sekai-story-indexer/webapp/static/meta.json` by swapping the outer bytes:
-     `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` → `&H00DDEE99`). Getting this backwards
-     silently yields a plausible-looking but wrong color — always **render-verify** (see below).
+   - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the character's official
+     hex by swapping the outer bytes: `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` →
+     `&H00DDEE99`). Getting this backwards silently yields a plausible-looking but wrong
+     color — always **render-verify**.
 
-     | Character | Canonical hex | `OutlineColour` |
-     |---|---|---|
-     | Mizuki Akiyama | `#ddaacc` | `&H00CCAADD` |
-     | Ena Shinonome | `#ccaa88` | `&H0088AACC` |
-     | Shiho Hinomori | `#bbdd22` | `&H0022DDBB` |
-     | Haruka Kiritani | `#99ccff` | `&H00FFCC99` |
-     | Shizuku Hinomori | `#99eedd` | `&H00DDEE99` |
+     Source of truth: the `|color=` field on each character's
+     [Project Sekai Fandom](https://projectsekai.fandom.com/) page, which was cross-checked
+     against `sekai-story-indexer/webapp/static/meta.json` — **all 26 agree**. Full table
+     (audited corpus-wide 2026-08-04; all 65 style rows match):
+
+     | Character | Hex | `OutlineColour` | | Character | Hex | `OutlineColour` |
+     |---|---|---|---|---|---|---|
+     | Ichika Hoshino | `#33aaee` | `&H00EEAA33` | | Kanade Yoisaki | `#bb6688` | `&H008866BB` |
+     | Saki Tenma | `#ffdd44` | `&H0044DDFF` | | Mafuyu Asahina | `#8888cc` | `&H00CC8888` |
+     | Honami Mochizuki | `#ee6666` | `&H006666EE` | | Ena Shinonome | `#ccaa88` | `&H0088AACC` |
+     | Shiho Hinomori | `#bbdd22` | `&H0022DDBB` | | Mizuki Akiyama | `#ddaacc` | `&H00CCAADD` |
+     | Minori Hanasato | `#ffccaa` | `&H00AACCFF` | | Hatsune Miku | `#33ccbb` | `&H00BBCC33` |
+     | Haruka Kiritani | `#99ccff` | `&H00FFCC99` | | Rin Kagamine | `#ffcc11` | `&H0011CCFF` |
+     | Airi Momoi | `#ffaacc` | `&H00CCAAFF` | | Len Kagamine | `#ffee11` | `&H0011EEFF` |
+     | Shizuku Hinomori | `#99eedd` | `&H00DDEE99` | | Luka Megurine | `#ffbbcc` | `&H00CCBBFF` |
+     | Kohane Azusawa | `#ff6699` | `&H009966FF` | | MEIKO | `#dd4444` | `&H004444DD` |
+     | An Shiraishi | `#00bbdd` | `&H00DDBB00` | | KAITO | `#3366cc` | `&H00CC6633` |
+     | Akito Shinonome | `#ff7722` | `&H002277FF` | | Tsukasa Tenma | `#ffbb00` | `&H0000BBFF` |
+     | Toya Aoyagi | `#0077dd` | `&H00DD7700` | | Emu Otori | `#ff66bb` | `&H00BB66FF` |
+     | Rui Kamishiro | `#bb88ee` | `&H00EE88BB` | | Nene Kusanagi | `#33dd99` | `&H0099DD33` |
+
+   - **Readability override for bright backgrounds.** The official colors are the default,
+     but several are very light (Shizuku, Saki, Len, Minori, Shiho, Luka, Haruka…) and the
+     outline is what separates white fill from the video. On a bright background the light
+     outline vanishes and the text washes out. **What matters is outline-vs-background
+     contrast where the subs actually sit — not outline-vs-white-fill.** So don't blanket-
+     darken; measure the episode and deviate only when it's actually needed:
+       1. Sample the real luminance of the subtitle region across representative frames
+          (bottom-center band for the main style, around `\pos(650,750)` for PiP).
+       2. Compute WCAG contrast of the official outline against the **brightest** background
+          it sits over (the 90th-percentile luminance).
+       3. If that's low (roughly < ~1.5×), darken the outline — keeping the character's hue
+          — until it reads, then **render-verify on a real bright frame** (burn the actual
+          subs, don't trust the number). Darker backgrounds need no change.
+     A drop shadow does **not** fix this (it's offset, so it can't frame the glyph), and a
+     black outer halo was rejected as too heavy. Keep the fix to a hue-preserving darken.
+
+     Per-episode overrides applied so far:
+
+     | Episode | Character | Official | Override | Why |
+     |---|---|---|---|---|
+     | At The End of The Unraveled Thread (shizu3) | Shizuku | `#99eedd` (`&H00DDEE99`) | `#22ceac` (`&H00ACCE22`) | studio wall L≈0.80; official outline only 1.09× vs bg |
+     | Gazing Upon the Night Sky's Fading Stars (saki7) | Saki | `#ffdd44` (`&H0044DDFF`) | `#dbb300` (`&H0000B3DB`) | near-white wall + pale-yellow-sweater host; yellow washed out (1.34× vs bg) |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
