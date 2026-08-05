@@ -217,6 +217,14 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
    `Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1`
    - Use for all Translator Note text across all projects.
 3. **Character Styles (`<Character>`):**
+   - **The style/color follows the HOST VA's character — NOT the event's focus character.**
+     A solo AfterTalk is subtitled in the color of whoever is *hosting* (the VA on camera),
+     because those are their lines. That's usually the focus character's own VA, but not
+     always: e.g. **hona5** ("Unsteady, still steady step") is a *Honami* focus event, but
+     it's hosted by **Yuki Nakashima (Shiho's VA)**, so it uses the **Shiho** style/color.
+     The **commit prefix / event nickname** (from `sekai-story-indexer` `events_index.json`,
+     e.g. `hona5`, `ena6`) tracks the *event*; the subtitle style tracks the *host*. Check
+     `notes.md` "Host VA" to pick the style — don't infer it from the event name.
    - Characters change **nothing** about `DefaultOnibe` other than their signature character color in `OutlineColour`.
    - **ASS colors are BGR, not RGB** — `&H00BBGGRR`. Derive from the character's official
      hex by swapping the outer bytes: `#RRGGBB` → `&H00BBGGRR` (e.g. Shizuku `#99eedd` →
