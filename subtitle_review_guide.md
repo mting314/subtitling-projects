@@ -243,6 +243,28 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
      | Akito Shinonome | `#ff7722` | `&H002277FF` | | Tsukasa Tenma | `#ffbb00` | `&H0000BBFF` |
      | Toya Aoyagi | `#0077dd` | `&H00DD7700` | | Emu Otori | `#ff66bb` | `&H00BB66FF` |
      | Rui Kamishiro | `#bb88ee` | `&H00EE88BB` | | Nene Kusanagi | `#33dd99` | `&H0099DD33` |
+
+   - **Readability override for bright backgrounds.** The official colors are the default,
+     but several are very light (Shizuku, Saki, Len, Minori, Shiho, Luka, Haruka…) and the
+     outline is what separates white fill from the video. On a bright background the light
+     outline vanishes and the text washes out. **What matters is outline-vs-background
+     contrast where the subs actually sit — not outline-vs-white-fill.** So don't blanket-
+     darken; measure the episode and deviate only when it's actually needed:
+       1. Sample the real luminance of the subtitle region across representative frames
+          (bottom-center band for the main style, around `\pos(650,750)` for PiP).
+       2. Compute WCAG contrast of the official outline against the **brightest** background
+          it sits over (the 90th-percentile luminance).
+       3. If that's low (roughly < ~1.5×), darken the outline — keeping the character's hue
+          — until it reads, then **render-verify on a real bright frame** (burn the actual
+          subs, don't trust the number). Darker backgrounds need no change.
+     A drop shadow does **not** fix this (it's offset, so it can't frame the glyph), and a
+     black outer halo was rejected as too heavy. Keep the fix to a hue-preserving darken.
+
+     Per-episode overrides applied so far:
+
+     | Episode | Character | Official | Override | Why |
+     |---|---|---|---|---|
+     | At The End of The Unraveled Thread (shizu3) | Shizuku | `#99eedd` (`&H00DDEE99`) | `#22ceac` (`&H00ACCE22`) | studio wall L≈0.80; official outline only 1.09× vs bg |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
