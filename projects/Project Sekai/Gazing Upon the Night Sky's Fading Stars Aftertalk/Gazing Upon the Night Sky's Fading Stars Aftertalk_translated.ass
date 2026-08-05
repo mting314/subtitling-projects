@@ -61,8 +61,8 @@ Dialogue: 0,0:11:01.23,0:11:03.28,Saki,host_meta,0,0,0,,through the official Pro
 Dialogue: 0,0:11:03.28,0:11:06.08,Saki,host_meta,0,0,0,,Thank you so much to everyone for all the messages.
 Dialogue: 0,0:11:07.68,0:11:11.50,Saki,host_meta,0,0,0,,I'll be introducing some of the messages we received during the program,
 Dialogue: 0,0:11:11.50,0:11:12.83,Saki,host_meta,0,0,0,,so please look forward to it.
-Dialogue: 0,0:11:13.28,0:11:16.00,Saki,host,0,0,0,,Also, please post your thoughts on the event
-Dialogue: 0,0:11:16.00,0:11:21.20,Saki,host,0,0,0,,and this broadcast using the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:11:13.28,0:11:16.00,Saki,host,0,0,0,,Also, please post your thoughts
+Dialogue: 0,0:11:16.00,0:11:21.20,Saki,host,0,0,0,,on the event and this broadcast using the hashtag #ProSekaAfterTalk.
 Dialogue: 0,0:11:21.20,0:11:23.70,Saki,host,0,0,0,,I'm also keeping an eye on the YouTube chat.
 Dialogue: 0,0:11:23.70,0:11:26.64,Saki,host,0,0,0,,Everyone's saying "kon-needo."
 Dialogue: 0,0:11:26.64,0:11:27.60,Saki,host,0,0,0,,Kon-needo!
@@ -87,8 +87,8 @@ Dialogue: 0,0:12:33.36,0:12:35.68,Saki,host,0,0,0,,but what did you think of the
 Dialogue: 0,0:12:36.48,0:12:39.64,Saki,host,0,0,0,,It really tugged at my heartstrings.
 Dialogue: 0,0:12:41.68,0:12:45.72,Saki,host,0,0,0,,For Leo/need... and for the group as a whole,
 Dialogue: 0,0:12:45.72,0:12:53.12,Saki,host,0,0,0,,it felt like that ending makes you wonder what might happen with Saki-chan next.
-Dialogue: 0,0:12:53.12,0:12:57.38,Saki,host,0,0,0,,First, I'd like to read some of the messages we received about the story
-Dialogue: 0,0:12:57.38,0:13:00.28,Saki,host,0,0,0,,and look back on it together.
+Dialogue: 0,0:12:53.12,0:12:57.38,Saki,host,0,0,0,,First, I'd like to read some of the messages we received
+Dialogue: 0,0:12:57.38,0:13:00.28,Saki,host,0,0,0,,about the story and look back on it together.
 Dialogue: 0,0:13:02.32,0:13:04.60,Saki,listener_mail,0,0,0,,This message is from Mirin-san.
 Dialogue: 0,0:13:04.60,0:13:06.32,Saki,listener_mail,0,0,0,,Thank you so much.
 Dialogue: 0,0:13:06.32,0:13:07.88,Saki,listener_mail,0,0,0,,Are you watching right now?
@@ -164,8 +164,8 @@ Dialogue: 0,0:17:43.67,0:17:45.78,Saki,host,0,0,0,,I suppose that's just part of
 Dialogue: 0,0:17:46.52,0:17:49.36,Saki,host_meta,0,0,0,,Now, let me read the message from Sakaguchi-san.
 Dialogue: 0,0:17:49.36,0:17:50.64,Saki,listener_mail,0,0,0,,"Isobe-san, kon-needo!"
 Dialogue: 0,0:17:50.64,0:17:51.92,Saki,listener_mail,0,0,0,,Kon-needo!
-Dialogue: 0,0:17:52.76,0:17:57.78,Saki,listener_mail,0,0,0,,"This event story had many scenes of Saki-chan's time in the hospital
-Dialogue: 0,0:17:57.78,0:17:59.70,Saki,listener_mail,0,0,0,,and her inner conflicts,
+Dialogue: 0,0:17:52.76,0:17:55.22,Saki,listener_mail,0,0,0,,"This event story had many scenes
+Dialogue: 0,0:17:55.22,0:17:59.70,Saki,listener_mail,0,0,0,,of Saki-chan's time in the hospital and her inner conflicts,
 Dialogue: 0,0:17:59.70,0:18:02.96,Saki,listener_mail,0,0,0,,and watching it really made my heart ache.
 Dialogue: 0,0:18:03.92,0:18:06.54,Saki,listener_mail,0,0,0,,Especially at the end of Episode 8,
 Dialogue: 0,0:18:06.54,0:18:13.35,Saki,listener_mail,0,0,0,,when Saki-chan resolved never to reveal her feelings just so she could stay with everyone,"
@@ -188,8 +188,8 @@ Dialogue: 0,0:18:50.86,0:18:53.76,Saki,host,0,0,0,,Thank you so much for your th
 Dialogue: 0,0:18:54.44,0:18:58.88,Saki,host,0,0,0,,First of all, hearing you say that makes me so incredibly happy.
 Dialogue: 0,0:18:58.88,0:19:00.12,Saki,host,0,0,0,,Thank you so much.
 Dialogue: 0,0:19:02.60,0:19:03.57,Saki,host,0,0,0,,Yeah...
-Dialogue: 0,0:19:04.66,0:19:09.30,Saki,host,0,0,0,,Like I mentioned a bit earlier, this time I felt close
-Dialogue: 0,0:19:09.30,0:19:13.68,Saki,host,0,0,0,,to Saki-chan's feelings from many different angles.
+Dialogue: 0,0:19:04.66,0:19:07.72,Saki,host,0,0,0,,Like I mentioned a bit earlier,
+Dialogue: 0,0:19:07.72,0:19:13.68,Saki,host,0,0,0,,this time I felt close to Saki-chan's feelings from many different angles.
 Dialogue: 0,0:19:13.68,0:19:18.72,Saki,host,0,0,0,,There was Saki's own perspective, and then there were the feelings I had
 Dialogue: 0,0:19:18.72,0:19:23.44,Saki,host,0,0,0,,when I first read the script myself.
 Dialogue: 0,0:19:23.96,0:19:30.88,Saki,host,0,0,0,,My own perspective as a professional actress also played a part.
@@ -236,8 +236,8 @@ Dialogue: 0,0:23:00.64,0:23:02.36,Saki,host,0,0,0,,I feel like...
 Dialogue: 0,0:23:02.36,0:23:04.64,Saki,host,0,0,0,,I feel like I've just been talking non-stop.
 Dialogue: 0,0:23:05.28,0:23:06.31,Saki,host,0,0,0,,Are we doing okay?
 Dialogue: 0,0:23:12.32,0:23:16.88,Saki,host,0,0,0,,"It's because of Saki's usual energy that the negative emotions stand out so much."
-Dialogue: 0,0:23:17.80,0:23:19.67,Saki,host,0,0,0,,That's why I tried to be very deliberate in my tone
-Dialogue: 0,0:23:19.67,0:23:21.46,Saki,host,0,0,0,,to not let all my personal emotions come through.
+Dialogue: 0,0:23:17.80,0:23:19.26,Saki,host,0,0,0,,That's why I tried to be very deliberate
+Dialogue: 0,0:23:19.26,0:23:21.46,Saki,host,0,0,0,,in my tone to not let all my personal emotions come through.
 Comment: 0,0:23:21.46,0:23:23.24,Saki,,0,0,0,,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:23:21.46,0:23:23.59,Saki,host,0,0,0,,We're talking about Saki's recording session.
 Dialogue: 0,0:23:25.84,0:23:32.44,Saki,host,0,0,0,,The pain kept her from getting as fired up as the others for the one-man live.
@@ -502,8 +502,8 @@ Dialogue: 0,0:43:14.11,0:43:14.82,Saki - PiP,host,0,0,0,,{\pos(650,750)}Wow.
 Dialogue: 0,0:43:15.32,0:43:16.59,Saki - PiP,host,0,0,0,,{\pos(650,750)}You're beautiful.
 Dialogue: 0,0:43:18.60,0:43:24.68,Saki - PiP,host,0,0,0,,{\pos(650,750)}Not just the outfit, but also the background
 Dialogue: 0,0:43:24.68,0:43:29.38,Saki - PiP,host,0,0,0,,{\pos(650,750)}has this watercolor-like touch to it.
-Dialogue: 0,0:43:29.38,0:43:31.17,Saki - PiP,host,0,0,0,,{\pos(650,750)}She looks like an adventurer who's traveled
-Dialogue: 0,0:43:31.17,0:43:32.04,Saki - PiP,host,0,0,0,,{\pos(650,750)}to observe the stars.
+Dialogue: 0,0:43:29.38,0:43:30.54,Saki - PiP,host,0,0,0,,{\pos(650,750)}She looks like an adventurer
+Dialogue: 0,0:43:30.54,0:43:32.04,Saki - PiP,host,0,0,0,,{\pos(650,750)}who's traveled to observe the stars.
 Dialogue: 0,0:43:32.04,0:43:36.07,Saki - PiP,host,0,0,0,,{\pos(650,750)}The outfit definitely gives off a traveler vibe.
 Dialogue: 0,0:43:37.28,0:43:38.24,Saki - PiP,host,0,0,0,,{\pos(650,750)}So pretty.
 Dialogue: 0,0:43:39.32,0:43:41.51,Saki - PiP,host,0,0,0,,{\pos(650,750)}But she has such a sorrowful expression,
@@ -670,16 +670,14 @@ Dialogue: 0,0:52:36.00,0:52:41.22,Saki - Side Song,host,0,0,0,,Since Kuriyama-sa
 Dialogue: 0,0:52:41.22,0:52:47.06,Saki - Side Song,host,0,0,0,,I'd like to talk a bit about the recording session.
 Dialogue: 0,0:52:47.06,0:52:53.82,Saki - Side Song,host,0,0,0,,During recording, we usually get a story explanation beforehand,
 Dialogue: 0,0:52:53.82,0:52:59.78,Saki - Side Song,host,0,0,0,,along with how the song fits into it.
-Dialogue: 0,0:52:59.78,0:53:03.39,Saki - Side Song,host,0,0,0,,And so when I heard the explanation
-Dialogue: 0,0:53:03.39,0:53:05.96,Saki - Side Song,host,0,0,0,,and before the recording,
+Dialogue: 0,0:52:59.78,0:53:05.96,Saki - Side Song,host,0,0,0,,And so, from the explanation I got before recording,
 Dialogue: 0,0:53:05.96,0:53:13.88,Saki - Side Song,host,0,0,0,,I could really tell how much thought went into
 Dialogue: 0,0:53:13.88,0:53:20.76,Saki - Side Song,host,0,0,0,,capturing this story and Saki's feelings.
-Dialogue: 0,0:53:20.76,0:53:27.84,Saki - Side Song,host,0,0,0,,You can really feel Kuriyama-san's unique style
-Dialogue: 0,0:53:27.84,0:53:30.24,Saki - Side Song,host,0,0,0,,and touch in it too.
+Dialogue: 0,0:53:20.76,0:53:30.24,Saki - Side Song,host,0,0,0,,Kuriyama-san's signature touch really shines here too.
 Dialogue: 0,0:53:30.24,0:53:35.42,Saki - Side Song,host,0,0,0,,Kuriyama-san also shared some comments on the radio program,
 Comment: 0,0:53:35.42,0:53:44.54,Saki - Side Song,,0,0,0,,[autosub] Chunk boundary — review translation around this line
-Dialogue: 0,0:53:35.42,0:53:38.68,Saki - Side Song,host,0,0,0,,and from what they said, I really felt
-Dialogue: 0,0:53:38.68,0:53:44.54,Saki - Side Song,host,0,0,0,,they wrote this song with Leo/need's future in mind too.
+Dialogue: 0,0:53:35.42,0:53:38.68,Saki - Side Song,host,0,0,0,,and from what they said, I really felt they wrote this song
+Dialogue: 0,0:53:38.68,0:53:44.54,Saki - Side Song,host,0,0,0,,with Leo/need's future in mind too.
 Dialogue: 0,0:53:44.54,0:53:45.71,Saki - Side Song,host,0,0,0,,Hearing that made me feel like
 Dialogue: 0,0:53:45.71,0:53:48.18,Saki - Side Song,host,0,0,0,,the impression I'd gotten from the song wasn't wrong after all.
 Dialogue: 0,0:53:48.18,0:53:52.72,Saki - Side Song,host,0,0,0,,While recording, I found myself really savoring every single lyric.
@@ -732,14 +730,14 @@ Dialogue: 0,0:57:03.08,0:57:11.28,Saki,host,0,0,0,,I think that's how it usually
 Dialogue: 0,0:57:11.28,0:57:13.84,Saki,host,0,0,0,,more than anything, I really focused
 Dialogue: 0,0:57:13.84,0:57:17.72,Saki,host,0,0,0,,on conveying Saki-chan's emotions through my performance.
 Dialogue: 0,0:57:18.24,0:57:23.36,Saki,host,0,0,0,,So hearing people say they could really feel that sense of heartache makes me so happy.
-Dialogue: 0,0:57:25.88,0:57:28.50,Saki,host,0,0,0,,Someone said, "I'm glad you talked so much about the story"
-Dialogue: 0,0:57:28.50,0:57:30.32,Saki,host,0,0,0,,and "It was great to hear your thoughts."
+Dialogue: 0,0:57:25.88,0:57:28.74,Saki,host,0,0,0,,Someone said, "I'm glad you talked so much about the story" and "
+Dialogue: 0,0:57:28.74,0:57:30.32,Saki,host,0,0,0,,It was great to hear your thoughts."
 Dialogue: 0,0:57:30.32,0:57:31.58,Saki,host,0,0,0,,Thank you everyone.
 Dialogue: 0,0:57:31.58,0:57:33.31,Saki,host,0,0,0,,Such nice comments.
 Dialogue: 0,0:57:35.02,0:57:40.28,Saki,host,0,0,0,,I always say this, but I really love these AfterTalks.
 Dialogue: 0,0:57:41.56,0:57:51.46,Saki,host,0,0,0,,Recording is usually a solo process, even though I know you're all supporting me,
-Dialogue: 0,0:57:51.46,0:57:54.32,Saki,host,0,0,0,,but during these AfterTalks, I get
-Dialogue: 0,0:57:54.32,0:58:00.02,Saki,host,0,0,0,,to share those feelings with everyone, just as another Leo/need fan.
+Dialogue: 0,0:57:51.46,0:57:56.90,Saki,host,0,0,0,,but during these AfterTalks, I get to share those feelings
+Dialogue: 0,0:57:56.90,0:58:00.02,Saki,host,0,0,0,,with everyone, just as another Leo/need fan.
 Dialogue: 0,0:58:00.02,0:58:10.20,Saki,host,0,0,0,,Not just as a performer, but as a viewer myself, I can cheer on Saki-chan,
 Dialogue: 0,0:58:10.20,0:58:15.39,Saki,host,0,0,0,,and cheer on Leo/need... talking about how painful this was, or how much they've grown.
 Dialogue: 0,0:58:15.39,0:58:19.25,Saki,host,0,0,0,,I love having this time to talk about all this.
