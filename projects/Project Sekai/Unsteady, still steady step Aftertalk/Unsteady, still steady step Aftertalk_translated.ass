@@ -55,8 +55,8 @@ Dialogue: 0,0:11:00.60,0:11:07.11,Shiho,,0,0,0,human,{\i1}But{\i0},
 Dialogue: 0,0:11:07.11,0:11:09.62,Shiho,,0,0,0,human,"I liked the story!" Thank you.
 Dialogue: 0,0:11:10.49,0:11:11.64,Shiho,,0,0,0,human,Glad to hear.
 Dialogue: 0,0:11:11.64,0:11:14.58,Shiho,,0,0,0,human,We've had a bit of a mini-renewal for AfterTalk since April
-Dialogue: 0,0:11:14.58,0:11:17.94,Shiho,,0,0,0,human,We've gathered the comments you sent in through email
-Dialogue: 0,0:11:17.94,0:11:20.22,Shiho,,0,0,0,human,and the Discord submissions channel.
+Dialogue: 0,0:11:14.58,0:11:17.05,Shiho,,0,0,0,human,We've gathered the comments you sent in
+Dialogue: 0,0:11:17.05,0:11:20.22,Shiho,,0,0,0,human,through email and the Discord submissions channel.
 Dialogue: 0,0:11:20.22,0:11:22.16,Shiho,,0,0,0,human,Thanks for all the messages, everyone.
 Dialogue: 0,0:11:22.16,0:11:26.59,Shiho,,0,0,0,human,We'd like to go over some of them in our program today, so please look forward to that!
 Dialogue: 0,0:11:26.59,0:11:28.79,Shiho,,0,0,0,human,Also, if you have any thoughts on today's program,
@@ -126,7 +126,7 @@ Dialogue: 0,0:15:01.90,0:15:02.66,Shiho,,0,0,0,human,Right?
 Dialogue: 0,0:15:02.66,0:15:06.48,Shiho,,0,0,0,human,If I were in Leo/need's specific situation in the story,
 Dialogue: 0,0:15:06.48,0:15:12.56,Shiho,,0,0,0,human,and the request for the fan fes got withdrawn,
 Dialogue: 0,0:15:12.56,0:15:14.86,Shiho,,0,0,0,human,I'd actually be relieved.
-Dialogue: 0,0:15:14.86,0:15:18.39,Shiho,,0,0,0,human,I'd be like "Oh! We get to do both!"
+Dialogue: 0,0:15:14.86,0:15:18.39,Shiho,,0,0,0,human,I'd be like, "Oh! We get to do both!"
 Dialogue: 0,0:15:18.39,0:15:22.81,Shiho,,0,0,0,human,Probably not good to think this way but I'd be like "we got lucky!"
 Dialogue: 0,0:15:22.81,0:15:25.81,Shiho,,0,0,0,human,Mmm. Something like that.
 Dialogue: 0,0:15:25.81,0:15:28.91,Shiho,,0,0,0,human,Okay. Let's move on to one more message.
@@ -146,7 +146,7 @@ Dialogue: 0,0:16:09.84,0:16:13.68,Shiho,,0,0,0,human,Would you even be able to g
 Dialogue: 0,0:16:13.68,0:16:16.73,Shiho,,0,0,0,human,I mean, if it were for rehearsal, I think she would be okay with it.
 Dialogue: 0,0:16:16.73,0:16:23.02,Shiho,,0,0,0,human,As someone so talented and self-confident in her music,
 Dialogue: 0,0:16:23.02,0:16:24.94,Shiho,,0,0,0,human,I think she'd have some pride on the line!
-Dialogue: 0,0:16:24.94,0:16:27.58,Shiho,,0,0,0,human,Even if it were just for an MC, she'd be like "I'm not giving you my bass."
+Dialogue: 0,0:16:24.94,0:16:27.58,Shiho,,0,0,0,human,Even if it were just for an MC, she'd be like, "I'm not giving you my bass."
 Dialogue: 0,0:16:27.58,0:16:30.65,Shiho,,0,0,0,human,That being said...
 Dialogue: 0,0:16:30.65,0:16:33.54,Shiho,,0,0,0,human,{\i1}I{\i0} definitely would want to see that happen.
 Dialogue: 0,0:16:33.54,0:16:37.20,Shiho,,0,0,0,human,Seeing her get flustered like that... that'd be really fun to see.
@@ -170,15 +170,19 @@ Dialogue: 0,0:17:35.02,0:17:43.61,Shiho,,0,0,0,human,Alright, I've picked a scen
 Dialogue: 0,0:17:43.61,0:17:45.98,Shiho,,0,0,0,human,This time, I chose Chapter 8.
 Dialogue: 0,0:17:45.98,0:17:47.28,Shiho,,0,0,0,human,Here we go!
 Comment: 0,0:17:47.28,0:17:50.28,Shiho,,0,0,0,human,~~~START STORY WATCHALONG~~~
-Dialogue: 0,0:17:52.54,0:17:55.10,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Nakashima-san, could you play guitar when you started learning bass?
+Dialogue: 0,0:17:52.54,0:17:53.92,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Nakashima-san, could you play guitar
+Dialogue: 0,0:17:53.92,0:17:55.10,Shiho - PiP,,0,0,0,card,{\pos(650,750)}when you started learning bass?
 Dialogue: 0,0:17:55.10,0:17:55.63,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Nope.
 Dialogue: 0,0:17:57.26,0:17:59.24,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I gave up on guitar pretty quick.
 Dialogue: 0,0:18:04.72,0:18:08.40,Shiho - PiP,,0,0,0,card,{\pos(650,750)}She understands how both sides of the audience feel now.
 Dialogue: 0,0:18:10.62,0:18:14.05,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Speaking of Hona-chan as a leader,
-Dialogue: 0,0:18:14.05,0:18:20.75,Shiho - PiP,,0,0,0,card,{\pos(650,750)}asking from the perspective of, "which one will make our fans the happiest?"
-Dialogue: 0,0:18:20.75,0:18:24.64,Shiho - PiP,,0,0,0,card,{\pos(650,750)}and actually going out of her way to understand everyone's perspective,
+Dialogue: 0,0:18:14.05,0:18:16.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}asking from the perspective
+Dialogue: 0,0:18:16.80,0:18:20.75,Shiho - PiP,,0,0,0,card,{\pos(650,750)}of, "which one will make our fans the happiest?"
+Dialogue: 0,0:18:20.75,0:18:22.86,Shiho - PiP,,0,0,0,card,{\pos(650,750)}and actually going out
+Dialogue: 0,0:18:22.86,0:18:24.64,Shiho - PiP,,0,0,0,card,{\pos(650,750)}of her way to understand everyone's perspective,
 Dialogue: 0,0:18:24.64,0:18:31.34,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I think that's incredible. Shows her determination as a leader.
-Dialogue: 0,0:18:52.05,0:18:58.45,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's impressive that she realizes she needs to decide this based on her own feelings,
+Dialogue: 0,0:18:52.05,0:18:56.12,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's impressive that she realizes she needs to decide this
+Dialogue: 0,0:18:56.12,0:18:58.45,Shiho - PiP,,0,0,0,card,{\pos(650,750)}based on her own feelings,
 Dialogue: 0,0:18:58.45,0:19:01.85,Shiho - PiP,,0,0,0,card,{\pos(650,750)}but also realizing she can't keep everyone waiting forever.
 Dialogue: 0,0:19:23.29,0:19:26.05,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Chapter 7 was also really good.
 Dialogue: 0,0:19:41.80,0:19:44.92,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Overthinking makes it tougher to choose.
@@ -236,7 +240,7 @@ Dialogue: 0,0:27:35.29,0:27:39.64,Shiho,,0,0,0,autosub,That said, there was one 
 Dialogue: 0,0:27:39.64,0:27:44.82,Shiho,,0,0,0,autosub,It was in Episode 7, and we also saw it a bit in Episode 8,
 Dialogue: 0,0:27:44.82,0:27:51.42,Shiho,,0,0,0,autosub,but I really liked the part in Episode 7 where Honami and Ichika go to see the Miku concert.
 Dialogue: 0,0:27:51.42,0:27:53.88,Shiho,,0,0,0,autosub,Ichika was more excited than usual.
-Dialogue: 0,0:27:53.88,0:27:56.80,Shiho,,0,0,0,autosub,She was all like "Yay! It's Miku!"
+Dialogue: 0,0:27:53.88,0:27:56.80,Shiho,,0,0,0,autosub,She was all like, "Yay! It's Miku!"
 Dialogue: 0,0:27:56.80,0:27:58.15,Shiho,,0,0,0,autosub,I thought it was so cute.
 Dialogue: 0,0:27:59.08,0:28:01.44,Shiho,,0,0,0,autosub,I thought about featuring that part too,
 Dialogue: 0,0:28:03.40,0:28:09.40,Shiho,,0,0,0,autosub,but if I did, I'd just be like "wow, Ichi cute. Hona cute. Crowd members cute."
@@ -257,8 +261,8 @@ Dialogue: 0,0:28:45.55,0:28:49.30,Shiho,,0,0,0,autosub,I hope everyone gets a ch
 Dialogue: 0,0:28:49.30,0:28:51.52,Shiho,,0,0,0,autosub,Anyway, I got a bit sidetracked again.
 Dialogue: 0,0:28:51.52,0:28:55.80,Shiho,,0,0,0,,Alright, let's take a look at the card illustrations.
 Dialogue: 0,0:28:55.80,0:29:01.86,Shiho,,0,0,0,autosub,First, I'll share some comments from the illustration team about the outfits.
-Dialogue: 0,0:29:02.06,0:29:05.97,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance
-Dialogue: 0,0:29:05.97,0:29:09.20,Shiho,,0,0,0,autosub,and weight of making decisions as a leader.
+Dialogue: 0,0:29:02.06,0:29:06.79,Shiho,,0,0,0,autosub,This story was about Honami realizing the importance and weight
+Dialogue: 0,0:29:06.79,0:29:09.20,Shiho,,0,0,0,autosub,of making decisions as a leader.
 Dialogue: 0,0:29:09.20,0:29:12.02,Shiho,,0,0,0,autosub,While the story showed her struggling with the weight of her decision,
 Dialogue: 0,0:29:12.02,0:29:14.83,Shiho,,0,0,0,autosub,the illustrations reflect a positive determination to
 Dialogue: 0,0:29:14.83,0:29:16.95,Shiho,,0,0,0,autosub,find the best path forward for Leo/need.
@@ -266,9 +270,8 @@ Dialogue: 0,0:29:16.95,0:29:19.02,Shiho,,0,0,0,autosub,Combining that with the e
 Dialogue: 0,0:29:19.02,0:29:22.24,Shiho,,0,0,0,autosub,the outfit design conveys a lighthearted "keep moving forward" attitude.
 Comment: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,[WIP] check these translation
 Dialogue: 0,0:29:22.24,0:29:27.00,Shiho,,0,0,0,autosub,And since this song features a sweet cuteness we don't always see from Leo/need,
-Dialogue: 0,0:29:27.00,0:29:27.60,Shiho,,0,0,0,autosub,we used pop
-Dialogue: 0,0:29:27.60,0:29:30.46,Shiho,,0,0,0,autosub,and cute design elements like colorful star patterns
-Dialogue: 0,0:29:30.46,0:29:32.72,Shiho,,0,0,0,autosub,and sneakers as the motif for our design.
+Dialogue: 0,0:29:27.00,0:29:31.19,Shiho,,0,0,0,autosub,we used pop and cute design elements like colorful star patterns and sneakers
+Dialogue: 0,0:29:31.19,0:29:32.72,Shiho,,0,0,0,autosub,as the motif for our design.
 Dialogue: 0,0:29:32.72,0:29:36.78,Shiho,,0,0,0,autosub,Also, to symbolize Leo/need choosing their path as a band,
 Dialogue: 0,0:29:36.78,0:29:41.06,Shiho,,0,0,0,autosub,each of the three has a star chart-like element in their outfit.
 Dialogue: 0,0:29:41.06,0:29:45.72,Shiho,,0,0,0,autosub,We also incorporated items where the color palette is meant to resemble a compass.
@@ -291,10 +294,12 @@ Dialogue: 0,0:30:38.00,0:30:39.44,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And her
 Dialogue: 0,0:30:39.44,0:30:40.91,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Very nice.
 Dialogue: 0,0:30:42.12,0:30:44.62,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's kind of a portrait shot, isn't it?
 Dialogue: 0,0:30:44.62,0:30:49.03,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It looks really good if you turn it that way.
-Dialogue: 0,0:30:50.36,0:30:55.54,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Now that I think about it, Leo/need hasn't really had anything this pop and cute yet.
+Dialogue: 0,0:30:50.36,0:30:51.50,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Now that I think about it,
+Dialogue: 0,0:30:51.50,0:30:55.54,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Leo/need hasn't really had anything this pop and cute yet.
 Dialogue: 0,0:30:57.80,0:30:59.00,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Oh yeah, and the stars.
 Dialogue: 0,0:30:59.00,0:31:01.20,Shiho - PiP,,0,0,0,card,{\pos(650,750)}So many stars all over the art.
-Dialogue: 0,0:31:01.84,0:31:05.27,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And look, there's a dog on that building signboard in the background.
+Dialogue: 0,0:31:01.84,0:31:04.36,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And look, there's a dog on that building signboard
+Dialogue: 0,0:31:04.36,0:31:05.27,Shiho - PiP,,0,0,0,card,{\pos(650,750)}in the background.
 Dialogue: 0,0:31:07.24,0:31:09.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Oh yeah, and she has a compass on the bag too.
 Comment: 0,0:31:09.80,0:31:10.96,Shiho,,0,0,0,card,[autosub] Chunk boundary — review translation around this line
 Dialogue: 0,0:31:09.80,0:31:10.96,Shiho - PiP,,0,0,0,card,{\pos(650,750)}So stylish!
@@ -310,10 +315,12 @@ Dialogue: 0,0:31:41.41,0:31:44.46,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And her
 Dialogue: 0,0:31:44.46,0:31:45.86,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Wow~
 Dialogue: 0,0:31:48.00,0:31:52.27,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm losing my vocabulary here. All I've been saying is "so good."
 Comment: 0,0:31:54.20,0:31:58.52,Shiho,,0,0,0,card,[WIP] Check translation
-Dialogue: 0,0:31:54.20,0:31:58.52,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I love how you kind of get a full view of the scenery for Ichika's card here.
-Dialogue: 0,0:32:00.16,0:32:04.38,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And the way she's sitting with her knees up and her guitar on her back looks nice.
+Dialogue: 0,0:31:54.20,0:31:56.36,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I love how you kind of get a full view
+Dialogue: 0,0:31:56.36,0:31:58.52,Shiho - PiP,,0,0,0,card,{\pos(650,750)}of the scenery for Ichika's card here.
+Dialogue: 0,0:32:00.16,0:32:04.38,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And her pose—knees up, guitar on her back—looks really nice.
 Dialogue: 0,0:32:04.88,0:32:09.22,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I call it '{\i1}sankaku-zuwari{\i0}' (triangle sitting).
-Dialogue: 0,0:32:09.22,0:32:11.09,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's called '{\i1}taiiku-zuwari{\i0} (gym sitting)?' Ah.
+Dialogue: 0,0:32:09.22,0:32:10.15,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm being told '{\i1}taiiku-zuwari{\i0}' is standard,
+Dialogue: 0,0:32:10.15,0:32:11.09,Shiho - PiP,,0,0,0,card,{\pos(650,750)}but '{\i1}sankaku-zuwari{\i0}' is Kansai-only.
 Dialogue: 0,0:32:11.68,0:32:13.47,Shiho - PiP,,0,0,0,card,{\pos(650,750)}My regional dialect is showing.
 Dialogue: 0,0:32:15.16,0:32:17.61,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Is '{\i1}sankaku-zuwari{\i0}' just a Kansai thing?
 Dialogue: 0,0:32:18.20,0:32:19.44,Shiho - PiP,,0,0,0,card,{\pos(650,750)}You've never heard it?
@@ -327,8 +334,10 @@ Dialogue: 0,0:32:31.15,0:32:32.47,Shiho - PiP,,0,0,0,card,{\pos(650,750)}My apol
 Dialogue: 0,0:32:32.92,0:32:35.84,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Doesn't sitting like that feel a bit 'student-like'?
 Dialogue: 0,0:32:36.44,0:32:39.36,Shiho - PiP,,0,0,0,card,{\pos(650,750)}You don't really sit like that once you're an adult.
 Dialogue: 0,0:32:39.36,0:32:41.32,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Maybe only during photoshoots.
-Dialogue: 0,0:32:42.08,0:32:47.28,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Like, if they tell you to sit there like a student, you might do it like this.
-Dialogue: 0,0:32:48.48,0:32:53.42,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm being told '{\i1}taiiku-zuwari{\i0}' is standard, but '{\i1}sankaku-zuwari{\i0}' is Kansai-only.
+Dialogue: 0,0:32:42.08,0:32:44.68,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Like, if they tell you to sit there like a student,
+Dialogue: 0,0:32:44.68,0:32:47.28,Shiho - PiP,,0,0,0,card,{\pos(650,750)}you might do it like this.
+Dialogue: 0,0:32:48.48,0:32:51.05,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm being told '{\i1}taiiku-zuwari{\i0}' is standard,
+Dialogue: 0,0:32:51.05,0:32:53.42,Shiho - PiP,,0,0,0,card,{\pos(650,750)}but '{\i1}sankaku-zuwari{\i0}' is Kansai-only.
 Dialogue: 0,0:32:53.42,0:32:54.32,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Apologies.
 Dialogue: 0,0:32:54.32,0:32:55.00,Shiho - PiP,,0,0,0,card,{\pos(650,750)}My mistake.
 Dialogue: 0,0:32:56.72,0:32:59.88,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Anyway, I personally really like that student vibe here.
@@ -344,10 +353,12 @@ Dialogue: 0,0:33:23.28,0:33:25.72,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Untrain
 Dialogue: 0,0:33:27.36,0:33:29.36,Shiho - PiP,,0,0,0,card,{\pos(650,750)}She's all excited for the party.
 Dialogue: 0,0:33:30.60,0:33:31.42,Shiho - PiP,,0,0,0,card,{\pos(650,750)}That's our Rin.
 Dialogue: 0,0:33:31.42,0:33:34.26,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Leo/need Rin is so good.
-Dialogue: 0,0:33:34.26,0:33:37.16,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I really love how she's overflowing with that 'gyaru' vibe.
+Dialogue: 0,0:33:34.26,0:33:36.01,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I really love how she's overflowing
+Dialogue: 0,0:33:36.01,0:33:37.16,Shiho - PiP,,0,0,0,card,{\pos(650,750)}with that 'gyaru' vibe.
 Dialogue: 0,0:33:38.72,0:33:39.98,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Wow~
 Dialogue: 0,0:33:39.98,0:33:44.60,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And that paper necklace... she definitely made that herself.
-Dialogue: 0,0:33:44.60,0:33:49.32,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's like in class, remember? You'd always put those up on the walls.
+Dialogue: 0,0:33:44.60,0:33:47.22,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's like in class, remember?
+Dialogue: 0,0:33:47.22,0:33:49.32,Shiho - PiP,,0,0,0,card,{\pos(650,750)}You'd always put those up on the walls.
 Dialogue: 0,0:33:50.44,0:33:51.76,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Good times.
 Dialogue: 0,0:33:52.84,0:33:55.26,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And are those loose socks?
 Dialogue: 0,0:33:55.26,0:33:57.96,Shiho - PiP,,0,0,0,card,{\pos(650,750)}That's another great touch. It really adds to the gyaru feel.
@@ -388,11 +399,13 @@ Dialogue: 0,0:35:27.02,0:35:28.84,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Maybe s
 Dialogue: 0,0:35:28.84,0:35:30.88,Shiho - PiP,,0,0,0,card,{\pos(650,750)}She looks so sleepy.
 Dialogue: 0,0:35:30.88,0:35:31.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}{\i1}Ahh{\i0}, so cute.
 Dialogue: 0,0:35:34.00,0:35:34.64,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Super duper cute.
-Dialogue: 0,0:35:34.64,0:35:41.20,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Plus, on the wall in the back, is that a photo from the autumn shuffle event?
+Dialogue: 0,0:35:34.64,0:35:37.52,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Plus, on the wall in the back,
+Dialogue: 0,0:35:37.52,0:35:41.20,Shiho - PiP,,0,0,0,card,{\pos(650,750)}is that a photo from the autumn shuffle event?
 Dialogue: 0,0:35:41.20,0:35:42.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}That's a nice touch.
 Dialogue: 0,0:35:42.80,0:35:44.65,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Ah, I should be looking here.
 Dialogue: 0,0:35:46.80,0:35:48.04,Shiho - PiP,,0,0,0,card,{\pos(650,750)}This is really great.
-Dialogue: 0,0:35:48.04,0:35:54.58,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm happy I can see so many little details of Shiho's room like this,
+Dialogue: 0,0:35:48.04,0:35:52.26,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm happy I can see so many little details
+Dialogue: 0,0:35:52.26,0:35:54.58,Shiho - PiP,,0,0,0,card,{\pos(650,750)}of Shiho's room like this,
 Dialogue: 0,0:35:54.58,0:35:56.81,Shiho - PiP,,0,0,0,card,{\pos(650,750)}and even the soles of her feet.
 Dialogue: 0,0:35:59.04,0:36:01.48,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Usually, they're wearing shoes,
 Dialogue: 0,0:36:02.04,0:36:04.32,Shiho - PiP,,0,0,0,card,{\pos(650,750)}so you don't get a chance to look at their feet.
@@ -412,7 +425,8 @@ Dialogue: 0,0:36:38.28,0:36:39.20,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Oh, it 
 Dialogue: 0,0:36:41.12,0:36:43.35,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Here's the trained. Very nice~
 Dialogue: 0,0:36:44.20,0:36:45.76,Shiho - PiP,,0,0,0,card,{\pos(650,750)}So cute.
 Dialogue: 0,0:36:46.24,0:36:49.04,Shiho - PiP,,0,0,0,card,{\pos(650,750)}That varsity jacket looks so good on her.
-Dialogue: 0,0:36:52.40,0:36:55.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Also, I feel like you don't see her with an iced tea drink like that too much.
+Dialogue: 0,0:36:52.40,0:36:54.62,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Also, I feel like you don't see her
+Dialogue: 0,0:36:54.62,0:36:55.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}with an iced tea drink like that too much.
 Dialogue: 0,0:36:56.44,0:36:58.54,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Wait, maybe it's apple tea?
 Dialogue: 0,0:36:58.54,0:36:59.52,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I have a feeling it is.
 Dialogue: 0,0:36:59.52,0:37:03.47,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Wow... I didn't know Shiho drank stuff like apple tea.
@@ -428,7 +442,8 @@ Dialogue: 0,0:37:35.60,0:37:36.92,Shiho - PiP,,0,0,0,card,{\pos(650,750)}My apol
 Dialogue: 0,0:37:38.16,0:37:40.38,Shiho - PiP,,0,0,0,card,{\pos(650,750)}And finally... MEIKO.
 Dialogue: 0,0:37:40.38,0:37:43.82,Shiho - PiP,,0,0,0,card,{\pos(650,750)}This is MEIKO's 2-star card.
 Dialogue: 0,0:37:43.82,0:37:45.02,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Wow~
-Dialogue: 0,0:37:45.02,0:37:49.66,Shiho - PiP,,0,0,0,card,{\pos(650,750)}When MEIKO wears the varsity jacket, it's a completely different vibe,
+Dialogue: 0,0:37:45.02,0:37:47.76,Shiho - PiP,,0,0,0,card,{\pos(650,750)}When MEIKO wears the varsity jacket,
+Dialogue: 0,0:37:47.76,0:37:49.66,Shiho - PiP,,0,0,0,card,{\pos(650,750)}it's a completely different vibe,
 Dialogue: 0,0:37:49.66,0:37:52.84,Shiho - PiP,,0,0,0,card,{\pos(650,750)}She looks so much more mature. It's amazing.
 Dialogue: 0,0:37:53.56,0:37:54.50,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Really amazing.
 Dialogue: 0,0:38:00.82,0:38:01.76,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Leo/need.
@@ -439,8 +454,10 @@ Dialogue: 0,0:38:03.86,0:38:06.40,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It'd be
 Dialogue: 0,0:38:07.84,0:38:09.80,Shiho - PiP,,0,0,0,card,{\pos(650,750)}"Spin as many times as you like."
 Dialogue: 0,0:38:09.80,0:38:11.07,Shiho - PiP,,0,0,0,card,{\pos(650,750)}It's too embarrassing!
 Dialogue: 0,0:38:13.08,0:38:17.60,Shiho - PiP,,0,0,0,card,{\pos(650,750)}You usually do these AfterTalks alone, at your own pace,
-Dialogue: 0,0:38:17.60,0:38:23.48,Shiho - PiP,,0,0,0,card,{\pos(650,750)}so I end up acting like my usual self, which is embarrassing to watch later.
-Dialogue: 0,0:38:24.88,0:38:31.34,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Even though this is an official PJSK stream, I just go at my own pace,
+Dialogue: 0,0:38:17.60,0:38:20.76,Shiho - PiP,,0,0,0,card,{\pos(650,750)}so I end up acting like my usual self,
+Dialogue: 0,0:38:20.76,0:38:23.48,Shiho - PiP,,0,0,0,card,{\pos(650,750)}which is embarrassing to watch later.
+Dialogue: 0,0:38:24.88,0:38:29.00,Shiho - PiP,,0,0,0,card,{\pos(650,750)}Even though this is an official PJSK stream,
+Dialogue: 0,0:38:29.00,0:38:31.34,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I just go at my own pace,
 Dialogue: 0,0:38:31.34,0:38:36.87,Shiho - PiP,,0,0,0,card,{\pos(650,750)}so sometimes I'm like "is this really okay?"
 Dialogue: 0,0:38:37.88,0:38:39.24,Shiho - PiP,,0,0,0,card,{\pos(650,750)}I'm so sorry, really.
 Dialogue: 0,0:38:40.20,0:38:42.24,Shiho - PiP,,0,0,0,card,{\pos(650,750)}But I really want that Leo/need logo though.
@@ -463,15 +480,20 @@ Dialogue: 0,0:42:24.92,0:42:26.82,Shiho - Shifted,,0,0,0,song,while also keeping
 Dialogue: 0,0:42:26.82,0:42:28.75,Shiho - Shifted,,0,0,0,song,Really nice.
 Dialogue: 0,0:42:28.75,0:42:34.66,Shiho - Shifted,,0,0,0,song,I remember when I recorded for this song,
 Dialogue: 0,0:42:34.66,0:42:36.38,Shiho - Shifted,,0,0,0,song,Even though it's pretty upbeat,
-Dialogue: 0,0:42:36.38,0:42:43.64,Shiho - Shifted,,0,0,0,song,I remember being asked to sing with a bit of hesitation in the verse and prechorus.
+Dialogue: 0,0:42:36.38,0:42:39.68,Shiho - Shifted,,0,0,0,song,I remember being asked to sing
+Dialogue: 0,0:42:39.68,0:42:43.64,Shiho - Shifted,,0,0,0,song,with a bit of hesitation in the verse and prechorus.
 Dialogue: 0,0:42:43.64,0:42:46.94,Shiho - Shifted,,0,0,0,song,Almost like I was a bit worn out.
 Dialogue: 0,0:42:46.94,0:42:49.74,Shiho - Shifted,,0,0,0,song,And then in the chorus, how to say...
-Dialogue: 0,0:42:49.74,0:42:54.37,Shiho - Shifted,,0,0,0,song,we were asked to sing with a much brighter and transparent feeling,
+Dialogue: 0,0:42:49.74,0:42:51.21,Shiho - Shifted,,0,0,0,song,we were asked to sing
+Dialogue: 0,0:42:51.21,0:42:54.37,Shiho - Shifted,,0,0,0,song,with a much brighter and transparent feeling,
 Dialogue: 0,0:42:54.37,0:42:57.06,Shiho - Shifted,,0,0,0,song,so that's how the song turned out.
-Dialogue: 0,0:42:57.06,0:43:02.90,Shiho - Shifted,,0,0,0,song,Also, I love the part of the lyrics that says "and on days of celebration, we'll have apple pies" so much.
+Dialogue: 0,0:42:57.06,0:42:58.74,Shiho - Shifted,,0,0,0,song,Also, I love the part
+Dialogue: 0,0:42:58.74,0:43:01.18,Shiho - Shifted,,0,0,0,song,of the lyrics that says "and on days of celebration,
+Dialogue: 0,0:43:01.18,0:43:02.90,Shiho - Shifted,,0,0,0,song,we'll have apple pies" so much.
 Dialogue: 0,0:43:02.90,0:43:08.34,Shiho - Shifted,,0,0,0,song,Actually, as far as commissioned song lyrics go,
 Dialogue: 0,0:43:08.34,0:43:11.78,Shiho - Shifted,,0,0,0,song,And seeing a character's favorite food directly mentioned like that,
-Dialogue: 0,0:43:11.78,0:43:15.14,Shiho - Shifted,,0,0,0,song,I don't remember if that's happened yet. Is this the first time?
+Dialogue: 0,0:43:11.78,0:43:13.64,Shiho - Shifted,,0,0,0,song,I don't remember if that's happened yet.
+Dialogue: 0,0:43:13.64,0:43:15.14,Shiho - Shifted,,0,0,0,song,Is this the first time?
 Dialogue: 0,0:43:15.14,0:43:17.44,Shiho - Shifted,,0,0,0,song,That's what immediately stood out to me.
 Dialogue: 0,0:43:17.44,0:43:21.76,Shiho - Shifted,,0,0,0,song,Yeah. It's a pretty new feeling. And makes it easy to remember.
 Dialogue: 0,0:43:21.76,0:43:25.64,Shiho - Shifted,,0,0,0,song,I remember that part being stuck in my head forever.
@@ -488,7 +510,7 @@ Dialogue: 0,0:43:53.36,0:43:55.74,Shiho - Shifted,,0,0,0,song,Would Shiho get...
 Dialogue: 0,0:43:55.74,0:43:57.85,Shiho - Shifted,,0,0,0,song,Would she get a pop song like this though?
 Dialogue: 0,0:43:59.00,0:44:02.60,Shiho - Shifted,,0,0,0,song,I mean, {\i1}I'd{\i0} definitely be interested in seeing that.
 Dialogue: 0,0:44:03.64,0:44:07.56,Shiho - Shifted,,0,0,0,song,Yeah, try the Master chart. It's uh...
-Dialogue: 0,0:44:07.56,0:44:12.13,Shiho - Shifted,,0,0,0,song,You can, uh... they made it so you can play Master mode immediately now.
+Dialogue: 0,0:44:07.56,0:44:12.13,Shiho - Shifted,,0,0,0,song,You can, uh... now they let you play Master mode right away.
 Dialogue: 0,0:44:12.13,0:44:14.26,Shiho - Shifted,,0,0,0,song,So do try it.
 Dialogue: 0,0:44:14.26,0:44:17.29,Shiho - Shifted,,0,0,0,song,I can't imagine Shiho and ramen in a song like this.
 Dialogue: 0,0:44:18.86,0:44:23.07,Shiho - Shifted,,0,0,0,song,I think they should have a little fun with the idea.
@@ -501,12 +523,15 @@ Dialogue: 0,0:44:36.22,0:44:39.57,Shiho - Shifted,,0,0,0,song,just make it an Ap
 Dialogue: 0,0:44:44.26,0:44:46.75,Shiho - Shifted,,0,0,0,song,"Would have lots of slap bass." Yeah, I suppose it would.
 Dialogue: 0,0:44:47.93,0:44:50.27,Shiho - Shifted,,0,0,0,song,"The steam from the ramen would zig zag everywhere."
 Dialogue: 0,0:44:50.27,0:44:54.86,Shiho - Shifted,,0,0,0,song,Wow, everyone's already got so many creative ideas for this.
-Dialogue: 0,0:44:57.12,0:45:03.85,Shiho - Shifted,,0,0,0,song,Really though, I'm excited for any potential favorite food inclusions in upcoming songs like this.
-Dialogue: 0,0:45:03.85,0:45:08.11,Shiho - Shifted,,0,0,0,song,And getting to see Saki's outfit here in the MV was also really nice.
+Dialogue: 0,0:44:57.12,0:45:01.91,Shiho - Shifted,,0,0,0,song,Really though, I'm excited for any potential favorite food inclusions
+Dialogue: 0,0:45:01.91,0:45:03.85,Shiho - Shifted,,0,0,0,song,in upcoming songs like this.
+Dialogue: 0,0:45:03.85,0:45:08.11,Shiho - Shifted,,0,0,0,song,Getting to see Saki's outfit in the MV was also really nice.
 Dialogue: 0,0:45:08.11,0:45:14.41,Shiho - Shifted,,0,0,0,song,That heart mark here is actually different for everyone.
 Dialogue: 0,0:45:14.41,0:45:16.84,Shiho - Shifted,,0,0,0,song,It's a super duper cute 2DMV.
 Dialogue: 0,0:45:16.84,0:45:18.67,Shiho - Shifted,,0,0,0,song,Please check it out, everyone.
-Dialogue: 0,0:45:18.67,0:45:23.90,Shiho - Shifted,,0,0,0,song,The 2DMV is already uploaded to the official ProSeka YouTube channel, so be sure to watch it there.
+Dialogue: 0,0:45:18.67,0:45:20.19,Shiho - Shifted,,0,0,0,song,The 2DMV is already uploaded
+Dialogue: 0,0:45:20.19,0:45:22.35,Shiho - Shifted,,0,0,0,song,to the official ProSeka YouTube channel,
+Dialogue: 0,0:45:22.35,0:45:23.90,Shiho - Shifted,,0,0,0,song,so be sure to watch it there.
 Comment: 0,0:45:18.67,0:45:23.90,Shiho,,0,0,0,song,~~~END STORY TALK~~~
 Dialogue: 0,0:45:23.90,0:45:27.42,Shiho - Shifted,,0,0,0,song,Well then, it was just a short episode this time,
 Dialogue: 0,0:45:27.42,0:45:33.20,Shiho,,0,0,0,human,but that's all we have for the "Unsteady, still steady step" AfterTalk.
@@ -514,7 +539,7 @@ Dialogue: 0,0:45:33.20,0:45:34.53,Shiho,,0,0,0,human,So quick!
 Dialogue: 0,0:45:35.73,0:45:38.16,Shiho,,0,0,0,human,That just flew by so quick.
 Dialogue: 0,0:45:38.16,0:45:40.00,Shiho,,0,0,0,human,It's already 9 p.m.
 Dialogue: 0,0:45:40.00,0:45:45.21,Shiho,,0,0,0,human,I saw the clock when I spun around, I was like "crap, it's already 9?"
-Dialogue: 0,0:45:45.21,0:45:49.39,Shiho,,0,0,0,human,I was like "I can't just be spinning here, we need to move on to watch the MV!"
+Dialogue: 0,0:45:45.21,0:45:49.39,Shiho,,0,0,0,human,I was like, "I can't just be spinning here, we need to move on to watch the MV!"
 Dialogue: 0,0:45:52.48,0:45:53.90,Shiho,,0,0,0,human,That really did fly by.
 Dialogue: 0,0:45:53.90,0:45:56.09,Shiho,,0,0,0,human,"Let's do this again!" Definitely.
 Dialogue: 0,0:45:56.87,0:45:59.65,Shiho,,0,0,0,human,"But I just got here!" Yeah!

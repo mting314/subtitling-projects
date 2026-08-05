@@ -24,8 +24,8 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
 Style: DefaultOnibe,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
 Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1
-Style: Mizuki,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Mizuki - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Mizuki,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CCAADD,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
+Style: Mizuki - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CCAADD,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -169,7 +169,7 @@ Dialogue: 0,0:34:24.17,0:34:24.67,Mizuki,host,0,0,0,,and this,
 Dialogue: 0,0:34:26.28,0:34:27.52,Mizuki,host,0,0,0,,and this.
 Dialogue: 0,0:34:45.84,0:34:47.18,Mizuki,host,0,0,0,,I wrote it.
 Dialogue: 0,0:34:47.18,0:34:50.76,Mizuki,host,0,0,0,,Is everyone ready to type in the code?
-Dialogue: 0,0:34:51.36,0:34:52.56,Mizuki,host,0,0,0,,Someone wrote "I hope I can get in."
+Dialogue: 0,0:34:51.36,0:34:52.56,Mizuki,host,0,0,0,,Someone wrote, "I hope I can get in."
 Dialogue: 0,0:34:53.84,0:34:58.16,Mizuki,host,0,0,0,,There's someone guessing the numbers based on how I'm writing them!
 Dialogue: 0,0:34:58.76,0:35:01.96,Mizuki,host,0,0,0,,Zundamochi, that's not cool.
 Dialogue: 0,0:35:01.96,0:35:03.98,Mizuki,host,0,0,0,,I should have tried to hide it more.

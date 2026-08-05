@@ -5,344 +5,409 @@ Script Type: v4.00+
 Wrap Style: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: None
+PlayResX: 1920
+PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
 Style: DefaultOnibe,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
 Style: DefaultOnibe - TL Note,Lato ExtraBold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,8,100,100,50,1
-Style: Mizuki,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Mizuki - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
-Style: Mizuki - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00DDAEDE,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
-Style: Ena,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H006C89AA,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Ena - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006C89AA,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
-Style: Ena - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H006C89AA,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
-Style: Kanade,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00FF7F9C,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Kanade - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00FF7F9C,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
-Style: Kanade - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00FF7F9C,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
-Style: Mafuyu,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00FFD77B,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
-Style: Mafuyu - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00FFD77B,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
-Style: Mafuyu - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00FFD77B,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Mizuki,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CCAADD,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
+Style: Mizuki - Shifted,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CCAADD,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
+Style: Mizuki - PiP,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CCAADD,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Ena,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H0088AACC,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
+Style: Ena - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0088AACC,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
+Style: Ena - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H0088AACC,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Kanade,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H008866BB,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
+Style: Kanade - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H008866BB,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
+Style: Kanade - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H008866BB,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
+Style: Mafuyu,Lato ExtraBold,100,&H00FFFFFF,&H000000FF,&H00CC8888,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,200,200,100,1
+Style: Mafuyu - Shifted,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00CC8888,&H00000000,0,0,0,0,100,100,0,0,1,4,1.33,2,100,730,60,1
+Style: Mafuyu - PiP,Lato ExtraBold,72,&H00FFFFFF,&H000000FF,&H00CC8888,&H00000000,-1,0,0,0,100,100,0,0,1,4,1.3,8,100,800,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:09:30.00,0:09:44.48,Default,,0,0,0,,Welcome to ProSeka AfterTalk: 
-Dialogue: 0,0:09:44.48,0:09:48.46,Default,,0,0,0,,"Reaching for the Unraveling Future" edition! Yessss! Good evening, everyone.
-Dialogue: 0,0:09:48.46,0:09:55.44,Default,,0,0,0,,I'm Hinata Sato, the voice of Mizuki Akiyama from N25.
-Dialogue: 0,0:09:55.44,0:09:59.80,Default,,0,0,0,,This ProSeka AfterTalk is a program where I'll be introducing messages from all of you while we look back on the event.
-Dialogue: 0,0:09:59.80,0:10:03.22,Default,,0,0,0,,And this time, it's the "Reaching for the Unraveling Future" edition.
-Dialogue: 0,0:10:03.22,0:10:07.64,Default,,0,0,0,,Everyone, did you enjoy the story?
-Dialogue: 0,0:10:07.64,0:10:08.14,Default,,0,0,0,,It was the event that ran until yesterday, so how was it?
-Dialogue: 0,0:10:08.76,0:10:10.80,Default,,0,0,0,,Everyone? I hope you all enjoyed it.
-Dialogue: 0,0:10:10.80,0:10:18.28,Default,,0,0,0,,You know, it was quite a story where Mizuki herself confronted her future,
-Dialogue: 0,0:10:18.28,0:10:21.06,Default,,0,0,0,,thinking about what they want to do, I think that's what the story was about,
-Dialogue: 0,0:10:21.06,0:10:32.96,Default,,0,0,0,,so maybe for those who are at a time when they have to decide on their education or career path, it might have been a story that really resonated with them.
-Dialogue: 0,0:10:32.96,0:10:42.60,Default,,0,0,0,,Yes, the AfterTalk had a small renewal starting in April, and we've been collecting messages for the AfterTalk in advance via the official ProSeka Discord channel and email.
-Dialogue: 0,0:10:42.60,0:10:45.00,Default,,0,0,0,,Thank you everyone for sending in your messages.
-Dialogue: 0,0:10:45.00,0:10:50.58,Default,,0,0,0,,I'll be introducing the messages you sent in during the program, so please look forward to it.
-Dialogue: 0,0:10:50.58,0:10:59.62,Default,,0,0,0,,Also, if you're tweeting your thoughts about the event or this broadcast, please post them with the hashtag #ProSekaAfterTalk.
-Dialogue: 0,0:10:59.62,0:11:04.50,Default,,0,0,0,,I'm also looking at the YouTube chat, and I'll be checking the hashtag later,
-Dialogue: 0,0:11:04.50,0:11:07.88,Default,,0,0,0,,so I'll try to pick up any interesting comments.
-Dialogue: 0,0:11:08.56,0:11:19.08,Default,,0,0,0,,As expected, it's mostly comments from overseas, and I can't find any Japanese comments at all, but things like 
-Dialogue: 0,0:11:19.08,0:11:24.42,Default,,0,0,0,,'The ribbon is cute' or 'Your hairstyle matches Mizuki's, so cute!' Oh, the stream is probably a bit delayed right now, so they're commenting on my hair and outfit.
-Dialogue: 0,0:11:24.42,0:11:32.46,Default,,0,0,0,,Today, or rather, this time, I made sure to dress like the illustration. Well, I always do, but I really kept the illustration in mind this time.
-Dialogue: 0,0:11:32.46,0:11:34.64,Default,,0,0,0,,Good evening, good evening, thank you everyone.
-Dialogue: 0,0:11:34.64,0:11:37.72,Default,,0,0,0,,Oh, the story and the new song were so good, I cried my eyes out.
-Dialogue: 0,0:11:38.28,0:11:39.68,Default,,0,0,0,,I'll talk about the song later.
-Dialogue: 0,0:11:39.68,0:11:43.78,Default,,0,0,0,,I also said at home, 'What was that?'
-Dialogue: 0,0:11:43.78,0:11:45.04,Default,,0,0,0,,'What is this?'
-Dialogue: 0,0:11:45.60,0:11:48.68,Default,,0,0,0,,I really felt the company's effort.
-Dialogue: 0,0:11:50.28,0:11:50.80,Default,,0,0,0,,Right, right, right.
-Dialogue: 0,0:11:50.80,0:11:53.70,Default,,0,0,0,,I'll talk more about that later.
-Dialogue: 0,0:11:53.70,0:12:00.58,Default,,0,0,0,,Alright then, let's immediately start talking about the story of "Reaching for the Unraveling Future".
-Dialogue: 0,0:12:00.58,0:12:04.32,Default,,0,0,0,,Everyone, we've received messages about this story as well,
-Dialogue: 0,0:12:04.32,0:12:07.72,Default,,0,0,0,,so I'd like to introduce them and look back on the story together.
-Dialogue: 0,0:12:07.72,0:12:11.32,Default,,0,0,0,,First up, a message from Kotori no Mama-san.
-Dialogue: 0,0:12:11.32,0:12:12.60,Default,,0,0,0,,Hinatsu-san, kon-niigo!
-Dialogue: 0,0:12:12.60,0:12:13.34,Default,,0,0,0,,Kon-niigo!
-Dialogue: 0,0:12:13.34,0:12:16.14,Default,,0,0,0,,My child and I are enjoying ProSeka together.
-Dialogue: 0,0:12:16.14,0:12:19.96,Default,,0,0,0,,The Mizuki-chan banner was super cute, interesting, and moving.
-Dialogue: 0,0:12:19.96,0:12:28.08,Default,,0,0,0,,I'm glad I got to experience Mizuki-chan's various feelings through their past experiences and interactions with those around them.
-Dialogue: 0,0:12:29.52,0:12:36.54,Default,,0,0,0,,Continuing to be yourself and not giving up on what you love, even when you're lost or hit a wall, must be incredibly difficult.
-Dialogue: 0,0:12:36.54,0:12:41.72,Default,,0,0,0,,But I believe that if you keep those feelings, there will come a time when you're rewarded.
-Dialogue: 0,0:12:42.48,0:12:46.48,Default,,0,0,0,,Just like everyone in N25, there are people who see you for who you truly are,
-Dialogue: 0,0:12:46.48,0:12:49.72,Default,,0,0,0,,and people who accept you. I truly believe that.
-Dialogue: 0,0:12:50.24,0:12:52.54,Default,,0,0,0,,I really love ProSeka's stories.
-Dialogue: 0,0:12:52.54,0:12:55.82,Default,,0,0,0,,Hinatsu-san, thank you so much for always voicing the characters.
-Dialogue: 0,0:12:55.82,0:12:59.28,Default,,0,0,0,,I'll continue to fully support Mizuki-chan and Hinatsu-san!
-Dialogue: 0,0:12:59.28,0:13:02.12,Default,,0,0,0,,Thank you, Kotori no Mama-san.
-Dialogue: 0,0:13:02.12,0:13:07.80,Default,,0,0,0,,Well, this time, first of all, Mizuki's older sister came back home from overseas,
-Dialogue: 0,0:13:07.80,0:13:19.72,Default,,0,0,0,,and it started with her opening a pop-up shop. Mizuki wanting her sister to meet everyone from N25 was a huge step forward for Mizuki, I thought.
-Dialogue: 0,0:13:19.72,0:13:25.10,Default,,0,0,0,,You know, Kanade and Mafuyu had met Yuuki-san before,
-Dialogue: 0,0:13:25.10,0:13:31.70,Default,,0,0,0,,but Ena got to meet her for the first time this time, and the story progressed in various ways,
-Dialogue: 0,0:13:31.70,0:13:38.84,Default,,0,0,0,,but even among all that, what Mizuki loves doing now isn't just making videos,
-Dialogue: 0,0:13:38.84,0:13:46.98,Default,,0,0,0,,it's also remaking clothes, visiting clothing stores, looking at cosmetics, and so on. Because they're a person with so many things they love,
-Dialogue: 0,0:13:46.98,0:13:57.04,Default,,0,0,0,,for them to be confronting what they want to aim for when they think about doing something in the future, at this stage, is amazing, I think.
-Dialogue: 0,0:13:57.04,0:14:08.78,Default,,0,0,0,,When I was going to university, I thought it was meaningless to pay money unless I studied something that would give me a tangible skill, so I just went around to open campuses endlessly.
-Dialogue: 0,0:14:08.78,0:14:14.14,Default,,0,0,0,,So I felt that Mizuki's approach to finding what they love was quite different from mine.
-Dialogue: 0,0:14:14.14,0:14:23.40,Default,,0,0,0,,I thought that, but amidst all that, it was a time for Mizuki to slowly, at their own pace, re-examine what they love,
-Dialogue: 0,0:14:23.40,0:14:33.58,Default,,0,0,0,,and I thought that was a very important thing. So, for Mizuki, it wasn't just about the pop-up shop her sister opened,
-Dialogue: 0,0:14:33.58,0:14:49.24,Default,,0,0,0,,but the fact that interacting with clothes made them think, 'This isn't just a hobby, I might want to make a career out of this,' is a pretty big deal. So I was glad they were able to smile.
-Dialogue: 0,0:14:50.04,0:14:57.48,Default,,0,0,0,,Alright, so this time too, I've picked out some scenes I personally want to talk about, so I hope we can watch them together.
-Dialogue: 0,0:14:57.48,0:14:58.16,Default,,0,0,0,,Here it is.
-Dialogue: 0,0:24:44.97,0:24:45.47,Default,,0,0,0,,
-Dialogue: 0,0:24:50.80,0:24:51.40,Default,,0,0,0,,
-Dialogue: 0,0:24:52.80,0:24:53.58,Default,,0,0,0,,It's good.
-Dialogue: 0,0:24:53.58,0:24:55.00,Default,,0,0,0,,It's really good.
-Dialogue: 0,0:24:56.04,0:24:56.92,Default,,0,0,0,,That's what I think.
-Dialogue: 0,0:24:57.48,0:25:04.28,Default,,0,0,0,,Since I've already chosen my own path, when I see someone else making a choice,
-Dialogue: 0,0:25:04.28,0:25:09.12,Default,,0,0,0,,or rather, when I witness it in the form of an event story, there are definitely moments when you wonder if you're making the right choice.
-Dialogue: 0,0:25:09.12,0:25:18.64,Default,,0,0,0,,But if, 10 years from now,
-Dialogue: 0,0:25:18.64,0:25:24.10,Default,,0,0,0,,or 20 years from now, you can look back and think, 'I'm glad I made that choice then,' that's a good thing.
-Dialogue: 0,0:25:24.10,0:25:28.98,Default,,0,0,0,,And what comes with that is effort, I believe.
-Dialogue: 0,0:25:28.98,0:25:35.78,Default,,0,0,0,,When it comes to something that requires effort, I don't think there's a right or wrong choice.
-Dialogue: 0,0:25:35.78,0:25:41.28,Default,,0,0,0,,A choice accompanied by effort might, after a year or two,
-Dialogue: 0,0:25:41.28,0:25:44.72,Default,,0,0,0,,make you think, 'I shouldn't have done this.'
-Dialogue: 0,0:25:44.72,0:25:50.48,Default,,0,0,0,,But when you look at it 10 or 20 years later, there are definitely times when it ultimately connects.
-Dialogue: 0,0:25:50.48,0:25:53.28,Default,,0,0,0,,You'll think, 'If I hadn't done this back then, I wouldn't be able to do this now.'
-Dialogue: 0,0:25:53.28,0:25:58.00,Default,,0,0,0,,Even if it's not the same profession, I'm sure you'll feel that way.
-Dialogue: 0,0:25:58.00,0:26:11.68,Default,,0,0,0,,For those who are putting in effort now, I hope this event story becomes an opportunity for them to continue what they're working hard on, or to make the decision to do it. That's the kind of event story I think it was.
-Dialogue: 0,0:26:12.52,0:26:16.74,Default,,0,0,0,,Alright, from here on, I'd like to talk about the illustrations.
-Dialogue: 0,0:26:16.74,0:26:18.72,Default,,0,0,0,,Now, let me introduce a message.
-Dialogue: 0,0:26:18.72,0:26:21.44,Default,,0,0,0,,A message we received from Meshi-Meshi-san.
-Dialogue: 0,0:26:21.44,0:26:23.42,Default,,0,0,0,,Thank you.
-Dialogue: 0,0:26:23.42,0:26:25.54,Default,,0,0,0,,Hello, Sato. I always enjoy playing ProSeka.
-Dialogue: 0,0:26:25.54,0:26:28.96,Default,,0,0,0,,This time's 4-star, especially Mizuki's illustration, was so good
-Dialogue: 0,0:26:28.96,0:26:33.88,Default,,0,0,0,,that I desperately pulled the gacha
-Dialogue: 0,0:26:33.88,0:26:34.88,Default,,0,0,0,,and got it.
-Dialogue: 0,0:26:34.88,0:26:39.44,Default,,0,0,0,,This illustration, like "Secret Distance" and "Where the Winding Road Leads,"
-Dialogue: 0,0:26:39.44,0:26:44.30,Default,,0,0,0,,features Mizuki in a torso space, similar to their trained illustration.
-Dialogue: 0,0:26:44.30,0:26:48.28,Default,,0,0,0,,A torso is something that often appears in Mizuki's illustrations.
-Dialogue: 0,0:26:48.28,0:26:52.04,Default,,0,0,0,,It's not a mannequin, but for clothes, like this.
-Dialogue: 0,0:26:52.04,0:26:54.70,Default,,0,0,0,,You know, here, here.
-Dialogue: 0,0:26:54.70,0:26:56.36,Default,,0,0,0,,Here.
-Dialogue: 0,0:26:56.36,0:26:57.08,Default,,0,0,0,,That's what a torso is called.
-Dialogue: 0,0:26:57.08,0:26:58.20,Default,,0,0,0,,And this one, "Reaching for an Unraveling Tomorrow," also has Mizuki
-Dialogue: 0,0:26:58.20,0:27:01.24,Default,,0,0,0,,in a torso space.
-Dialogue: 0,0:27:01.84,0:27:04.68,Default,,0,0,0,,Usually, the torso space represented Mizuki's darker feelings.
-Dialogue: 0,0:27:04.68,0:27:08.78,Default,,0,0,0,,But this time, touched by the warmth of family and friends,
-Dialogue: 0,0:27:08.78,0:27:13.06,Default,,0,0,0,,they're looking forward, and the space represents Mizuki's bright and cheerful feelings.
-Dialogue: 0,0:27:13.06,0:27:18.88,Default,,0,0,0,,I'm so happy to see this change in Mizuki's emotional state.
-Dialogue: 0,0:27:18.88,0:27:20.42,Default,,0,0,0,,The staff who create such wonderful scenarios,
-Dialogue: 0,0:27:20.42,0:27:25.20,Default,,0,0,0,,and the voice actors who give such amazing performances,
-Dialogue: 0,0:27:25.20,0:27:29.26,Default,,0,0,0,,bringing depth to these characters, I can't praise them enough.
-Dialogue: 0,0:27:29.26,0:27:32.46,Default,,0,0,0,,Thank you for always creating such wonderful events.
-Dialogue: 0,0:27:32.46,0:27:35.12,Default,,0,0,0,,Please take care of yourselves and keep up the great work.
-Dialogue: 0,0:27:35.12,0:27:37.78,Default,,0,0,0,,We'll continue to support you as N25 fans.
-Dialogue: 0,0:27:37.78,0:27:39.96,Default,,0,0,0,,Thanks for writing in!
-Dialogue: 0,0:27:39.96,0:27:47.68,Default,,0,0,0,,The illustration's colors are quite rare for N25, or rather,
-Dialogue: 0,0:27:47.68,0:27:51.84,Default,,0,0,0,,the soft colors we've seen before... It's nice to see N25 bathed in sunlight,
-Dialogue: 0,0:27:51.84,0:27:54.02,Default,,0,0,0,,especially since they're not usually outside much.
-Dialogue: 0,0:27:54.02,0:28:01.32,Default,,0,0,0,,I thought it was rare to see N25 during the day. This kind of touch isn't very common.
-Dialogue: 0,0:28:01.32,0:28:10.34,Default,,0,0,0,,Not just Mizuki, but everyone's illustrations were great.
-Dialogue: 0,0:28:10.34,0:28:18.46,Default,,0,0,0,,I realized there are amazing artists for both the untrained and trained versions.
-Dialogue: 0,0:28:18.46,0:28:21.28,Default,,0,0,0,,I really felt grateful for that.
-Dialogue: 0,0:28:21.28,0:28:24.96,Default,,0,0,0,,This time, we also received comments from the illustration production team about this outfit,
-Dialogue: 0,0:28:24.96,0:28:29.08,Default,,0,0,0,,so I'd like to share those with you.
-Dialogue: 0,0:28:29.08,0:28:32.88,Default,,0,0,0,,There's also a comment saying, "Pure brightness is rare, isn't it?"
-Dialogue: 0,0:28:32.88,0:28:38.30,Default,,0,0,0,,Mizuki, having been accepted by N25, wants to create clothes
-Dialogue: 0,0:28:38.30,0:28:44.50,Default,,0,0,0,,that can help others who struggle like them, who can't love themselves.
-Dialogue: 0,0:28:44.50,0:28:48.88,Default,,0,0,0,,Inspired by the story where they consider their future, wanting to pursue a career in fashion,
-Dialogue: 0,0:28:49.48,0:28:53.70,Default,,0,0,0,,we intentionally went with a simple and elegant one-piece design with minimal elements,
-Dialogue: 0,0:28:53.70,0:29:00.02,Default,,0,0,0,,expressing the image of their future that they're now gradually envisioning.
-Dialogue: 0,0:29:00.02,0:29:03.56,Default,,0,0,0,,As a focal point, we added yellow daisy embroidery, which is used in Mizuki's unit outfit after their promotion,
-Dialogue: 0,0:29:03.56,0:29:08.40,Default,,0,0,0,,conveying the message of 'being true to oneself,' making this Mizuki's unique simple costume design.
-Dialogue: 0,0:29:08.40,0:29:14.08,Default,,0,0,0,,To express Mizuki's feelings, which have begun to embrace the song's relaxed, calm, and warm impression,
-Dialogue: 0,0:29:14.08,0:29:15.48,Default,,0,0,0,,and a faint hope for the future, we used soft and gentle colors. That's what they sent in.
-Dialogue: 0,0:29:16.28,0:29:21.28,Default,,0,0,0,,Indeed, I think the overall color palette for everyone is soft.
-Dialogue: 0,0:29:21.28,0:29:25.00,Default,,0,0,0,,Oh, and the daisies are in there too! Did everyone notice?
-Dialogue: 0,0:29:25.00,0:29:26.42,Default,,0,0,0,,There's a comment about the daisies.
-Dialogue: 0,0:29:26.42,0:29:28.44,Default,,0,0,0,,
-Dialogue: 0,0:29:28.95,0:29:29.45,Default,,0,0,0,,
-Dialogue: 0,0:29:30.07,0:29:30.66,Default,,0,0,0,,The blue traffic light was impressive.
-Dialogue: 0,0:29:30.66,0:29:32.12,Default,,0,0,0,,Indeed.
-Dialogue: 0,0:29:32.12,0:29:32.92,Default,,0,0,0,,Mizuki was born in summer, August... Happy birthday!
-Dialogue: 0,0:29:32.92,0:29:37.58,Default,,0,0,0,,I didn't mean to say it so casually, but happy birthday!
-Dialogue: 0,0:29:37.58,0:29:40.20,Default,,0,0,0,,It's summer. I thought Mizuki wasn't a character who had many summer-like illustrations until now.
-Dialogue: 0,0:29:40.20,0:29:48.64,Default,,0,0,0,,I thought they often wore long sleeves or clothes that covered their skin.
-Dialogue: 0,0:29:48.64,0:29:54.64,Default,,0,0,0,,There were T-shirts and such.
-Dialogue: 0,0:29:54.64,0:29:56.64,Default,,0,0,0,,So, I'm happy to see such a refreshing illustration that instantly feels like summer.
-Dialogue: 0,0:29:56.64,0:30:06.74,Default,,0,0,0,,Alright then, I'd like to talk while actually looking at the card illustrations.
-Dialogue: 0,0:30:06.74,0:30:13.20,Default,,0,0,0,,I'm on your monitors right now, everyone.
-Dialogue: 0,0:30:13.20,0:30:16.48,Default,,0,0,0,,I believe so.
-Dialogue: 0,0:30:18.64,0:30:19.40,Default,,0,0,0,,Alright, Mizuki's untrained card.
-Dialogue: 0,0:30:20.08,0:30:24.40,Default,,0,0,0,,This illustration...
-Dialogue: 0,0:30:25.24,0:30:28.64,Default,,0,0,0,,The older sister is looking at Mizuki with such a happy smile,
-Dialogue: 0,0:30:29.92,0:30:36.28,Default,,0,0,0,,which reminds me of the New Year's event, and how Yuuki-san gave a ribbon to young Mizuki.
-Dialogue: 0,0:30:36.28,0:30:43.44,Default,,0,0,0,,It really overlaps. And Mizuki's expression, showing it off like, 'How is it?' is just amazing.
-Dialogue: 0,0:30:43.44,0:30:48.48,Default,,0,0,0,,It doesn't feel like an untrained card. Really.
-Dialogue: 0,0:30:49.56,0:30:51.24,Default,,0,0,0,,I love this space.
-Dialogue: 0,0:30:51.24,0:30:52.44,Default,,0,0,0,,This, what's reflected, what's in the background, is the torso.
-Dialogue: 0,0:30:53.44,0:30:54.84,Default,,0,0,0,,Alright, let's look at the trained card too.
-Dialogue: 0,0:30:54.84,0:30:57.92,Default,,0,0,0,,
-Dialogue: 0,0:30:57.92,0:30:59.88,Default,,0,0,0,,!
-Dialogue: 0,0:31:00.79,0:31:01.48,Default,,0,0,0,,I always thought butterflies and ribbons were very symbolic for Mizuki.
-Dialogue: 0,0:31:01.48,0:31:02.17,Default,,0,0,0,,And usually, in my mind, Mizuki's illustrations often showed them holding scissors.
-Dialogue: 0,0:31:03.12,0:31:12.24,Default,,0,0,0,,But this time, they're not holding scissors, and it's a very bright space.
-Dialogue: 0,0:31:12.24,0:31:15.84,Default,,0,0,0,,Even though their mouth is covered, that expression clearly shows they're smiling,
-Dialogue: 0,0:31:15.84,0:31:21.30,Default,,0,0,0,,and it's just so endearing.
-Dialogue: 0,0:31:21.30,0:31:29.84,Default,,0,0,0,,My child is such a good child.
-Dialogue: 0,0:31:29.84,0:31:30.34,Default,,0,0,0,,Next up, Ena.
-Dialogue: 0,0:31:31.44,0:31:33.24,Default,,0,0,0,,And Yuuki-san is there again.
-Dialogue: 0,0:31:34.48,0:31:35.72,Default,,0,0,0,,
-Dialogue: 0,0:31:37.64,0:31:39.52,Default,,0,0,0,,
-Dialogue: 0,0:31:39.52,0:31:43.58,Default,,0,0,0,,I love how Ena reacts to this older sister's pushiness
-Dialogue: 0,0:31:43.58,0:31:46.40,Default,,0,0,0,,when they first meet, getting all flustered.
-Dialogue: 0,0:31:47.76,0:31:49.00,Default,,0,0,0,,It's great.
-Dialogue: 0,0:31:49.00,0:31:54.20,Default,,0,0,0,,For those who haven't read the event story yet,
-Dialogue: 0,0:31:54.20,0:31:59.16,Default,,0,0,0,,I really want you to check it out there too, because this older sister talks with all of N25, and it's a must-see.
-Dialogue: 0,0:31:59.96,0:32:03.44,Default,,0,0,0,,Next up, this Ena... isn't she amazing?
-Dialogue: 0,0:32:04.48,0:32:08.68,Default,,0,0,0,,I really think girls with their hair tucked behind their ears are great,
-Dialogue: 0,0:32:08.68,0:32:10.20,Default,,0,0,0,,and this illustration is just incredibly good.
-Dialogue: 0,0:32:10.20,0:32:12.04,Default,,0,0,0,,I thought she was a florist,
-Dialogue: 0,0:32:12.72,0:32:14.04,Default,,0,0,0,,Ena.
-Dialogue: 0,0:32:14.04,0:32:15.08,Default,,0,0,0,,
-Dialogue: 0,0:32:16.48,0:32:19.22,Default,,0,0,0,,I also love how her eyes are a little downcast here.
-Dialogue: 0,0:32:19.22,0:32:20.56,Default,,0,0,0,,Ena is so cute.
-Dialogue: 0,0:32:21.40,0:32:24.26,Default,,0,0,0,,Next up, LEN.
-Dialogue: 0,0:32:24.26,0:32:29.82,Default,,0,0,0,,It's so cute how he's eating the souvenir from this older sister.
-Dialogue: 0,0:32:29.82,0:32:31.32,Default,,0,0,0,,Really.
-Dialogue: 0,0:32:31.88,0:32:33.00,Default,,0,0,0,,What is this cuteness?
-Dialogue: 0,0:32:34.32,0:32:36.32,Default,,0,0,0,,Even if it's a protein bar, it's still cute.
-Dialogue: 0,0:32:36.96,0:32:38.29,Default,,0,0,0,,He's always eating something.
-Dialogue: 0,0:32:38.29,0:32:38.81,Default,,0,0,0,,
-Dialogue: 0,0:32:39.80,0:32:41.12,Default,,0,0,0,,Next, the trained version.
-Dialogue: 0,0:32:42.08,0:32:43.36,Default,,0,0,0,,Isn't this amazing?
-Dialogue: 0,0:32:43.36,0:32:44.80,Default,,0,0,0,,I thought it was amazing.
-Dialogue: 0,0:32:45.76,0:32:48.88,Default,,0,0,0,,I thought, 'Only you can pull off these shorts!'
-Dialogue: 0,0:32:48.88,0:32:50.48,Default,,0,0,0,,Seriously.
-Dialogue: 0,0:32:51.19,0:32:51.69,Default,,0,0,0,,
-Dialogue: 0,0:32:52.20,0:32:53.16,Default,,0,0,0,,I thought, 'Thank you!'
-Dialogue: 0,0:32:54.60,0:32:57.72,Default,,0,0,0,,Overall, it's a rare N25 style, and it's really good.
-Dialogue: 0,0:32:58.56,0:33:01.76,Default,,0,0,0,,Is this also a book about daisies?
-Dialogue: 0,0:33:02.60,0:33:09.04,Default,,0,0,0,,My knowledge of daisies is a bit shallow, so I'm not sure, but I'm sure it is.
-Dialogue: 0,0:33:09.84,0:33:10.72,Default,,0,0,0,,It's good.
-Dialogue: 0,0:33:10.72,0:33:13.48,Default,,0,0,0,,It's great that they're sharing something delicious.
-Dialogue: 0,0:33:13.48,0:33:14.80,Default,,0,0,0,,Because everything tastes better when you share it.
-Dialogue: 0,0:33:16.36,0:33:16.96,Default,,0,0,0,,This one.
-Dialogue: 0,0:33:18.28,0:33:18.96,Default,,0,0,0,,Kanade.
-Dialogue: 0,0:33:20.60,0:33:21.68,Default,,0,0,0,,Cute.
-Dialogue: 0,0:33:21.68,0:33:26.96,Default,,0,0,0,,And this outfit, it really looks like Mizuki picked it out.
-Dialogue: 0,0:33:26.96,0:33:27.56,Default,,0,0,0,,This part here.
-Dialogue: 0,0:33:28.32,0:33:29.12,Default,,0,0,0,,She looks a little troubled.
-Dialogue: 0,0:33:29.72,0:33:31.10,Default,,0,0,0,,Of course it suits her.
-Dialogue: 0,0:33:31.10,0:33:37.76,Default,,0,0,0,,Setting aside where she'd wear it, I'm not sure if Kanade would actually wear this head accessory
-Dialogue: 0,0:33:37.76,0:33:39.40,Default,,0,0,0,,when she occasionally goes out.
-Dialogue: 0,0:33:39.40,0:33:40.16,Default,,0,0,0,,But,
-Dialogue: 0,0:33:40.72,0:33:43.08,Default,,0,0,0,,I think if it suits her, she should wear it.
-Dialogue: 0,0:33:43.68,0:33:45.36,Default,,0,0,0,,She's really cute.
-Dialogue: 0,0:33:45.96,0:33:47.32,Default,,0,0,0,,Everyone is always cute.
-Dialogue: 0,0:33:48.72,0:33:49.44,Default,,0,0,0,,The trained version.
-Dialogue: 0,0:33:50.96,0:33:54.16,Default,,0,0,0,,She's a young lady from a good family, this one.
-Dialogue: 0,0:33:54.16,0:33:56.88,Default,,0,0,0,,Are these also daisy flowers?
-Dialogue: 0,0:33:56.88,0:33:59.32,Default,,0,0,0,,The ones on her chest and head.
-Dialogue: 0,0:34:00.24,0:34:00.88,Default,,0,0,0,,Probably.
-Dialogue: 0,0:34:02.32,0:34:09.64,Default,,0,0,0,,Kanade-chan, who's made to try on all sorts of outfits in the side story, is also super cute,
-Dialogue: 0,0:34:09.64,0:34:12.96,Default,,0,0,0,,so I hope you'll check out the side story too.
-Dialogue: 0,0:34:13.92,0:34:14.96,Default,,0,0,0,,Everyone says she's cute.
-Dialogue: 0,0:34:15.72,0:34:16.48,Default,,0,0,0,,Seriously.
-Dialogue: 0,0:34:17.28,0:34:18.20,Default,,0,0,0,,It's great.
-Dialogue: 0,0:34:19.48,0:34:22.68,Default,,0,0,0,,I think it's really rare for N25 to wear white,
-Dialogue: 0,0:34:22.68,0:34:24.88,Default,,0,0,0,,having done so many AfterTalks up to now.
-Dialogue: 0,0:34:25.72,0:34:26.32,Default,,0,0,0,,Mafuyu.
-Dialogue: 0,0:34:26.88,0:34:27.76,Default,,0,0,0,,
-Dialogue: 0,0:34:28.64,0:34:29.40,Default,,0,0,0,,You know,
-Dialogue: 0,0:34:30.96,0:34:44.04,Default,,0,0,0,,maybe she's not quite smiling, but a Mafuyu with more smiling elements makes me so happy and brightens my heart, especially because this event story was like that.
-Dialogue: 0,0:34:44.04,0:34:51.88,Default,,0,0,0,,I think it's wonderful that we're seeing illustrations with warmth for everyone.
-Dialogue: 0,0:34:51.88,0:34:52.76,Default,,0,0,0,,
-Dialogue: 0,0:34:52.76,0:34:54.16,Default,,0,0,0,,Thank you very much.
-Dialogue: 0,0:34:54.80,0:34:57.68,Default,,0,0,0,,And so, that was the illustration corner. Next,
-Dialogue: 0,0:34:57.68,0:35:02.12,Default,,0,0,0,,for this event, Oonuma Parsley wrote the song "KAZATTE" for us,
-Dialogue: 0,0:35:02.12,0:35:07.44,Default,,0,0,0,,and I'd like to talk about the song while watching its 3DMV.
-Dialogue: 0,0:35:07.44,0:35:14.08,Default,,0,0,0,,Before we watch the 3DMV, we received a comment from the SEGA 3DMV production team, so please allow me to introduce it.
-Dialogue: 0,0:35:14.08,0:35:25.02,Default,,0,0,0,,In the 3DMV for "KAZATTE", Mizuki's wavering feelings, emotions they can't honestly express to the other members, are depicted through a 'falling into water' effect.
-Dialogue: 0,0:35:25.02,0:35:30.12,Default,,0,0,0,,This time, we used an insert function, and spent a lot of time
-Dialogue: 0,0:35:30.12,0:35:32.52,Default,,0,0,0,,and trial and error to express the underwater falling effect.
-Dialogue: 0,0:35:32.52,0:35:36.22,Default,,0,0,0,,There are still challenges in making these expressions convey emotions fully,
-Dialogue: 0,0:35:36.22,0:35:39.68,Default,,0,0,0,,but we hope you'll enjoy seeing these new expressions through Mizuki.
-Dialogue: 0,0:35:39.68,0:35:40.70,Default,,0,0,0,,That's what they sent in.
-Dialogue: 0,0:35:40.70,0:35:43.62,Default,,0,0,0,,Well then, let's watch the 3DMV right away.
-Dialogue: 0,0:35:43.62,0:35:44.23,Default,,0,0,0,,
-Dialogue: 0,0:37:55.00,0:37:56.00,Default,,0,0,0,,Did you see my face just now?
-Dialogue: 0,0:37:59.92,0:38:00.64,Default,,0,0,0,,I was smiling.
-Dialogue: 0,0:38:01.80,0:38:02.68,Default,,0,0,0,,Very good.
-Dialogue: 0,0:38:03.24,0:38:04.00,Default,,0,0,0,,
-Dialogue: 0,0:38:04.00,0:38:08.40,Default,,0,0,0,,I was truly surprised when I saw this 3DMV.
-Dialogue: 0,0:38:09.24,0:38:13.20,Default,,0,0,0,,Like, "Wow, the setting can change like this?"
-Dialogue: 0,0:38:13.20,0:38:25.44,Default,,0,0,0,,It goes from a school-like place to an after-school scene, with Ena by a window reflecting leaves, or when walking down a hallway, you see glimpses of light, things like that.
-Dialogue: 0,0:38:25.44,0:38:26.08,Default,,0,0,0,,Not Wi-Fi.
-Dialogue: 0,0:38:26.08,0:38:27.40,Default,,0,0,0,,Like, what do you call it?
-Dialogue: 0,0:38:27.40,0:38:31.24,Default,,0,0,0,,Not exactly dust, but tiny particles floating around. The direction was so detailed.
-Dialogue: 0,0:38:31.92,0:38:35.92,Default,,0,0,0,,I wondered how they did that. It was amazing.
-Dialogue: 0,0:38:36.48,0:38:45.56,Default,,0,0,0,,The way everyone rotated and characters changed in the staging was so incredible, I was really surprised.
-Dialogue: 0,0:38:46.20,0:38:47.20,Default,,0,0,0,,It was really good.
-Dialogue: 0,0:38:47.84,0:38:49.16,Default,,0,0,0,,It really helped us look back.
-Dialogue: 0,0:38:50.44,0:38:54.72,Default,,0,0,0,,It's so good... And the 2DMV is also amazing, please watch it.
-Dialogue: 0,0:38:54.72,0:38:59.08,Default,,0,0,0,,The 2DMV, well, that's just what I thought,
-Dialogue: 0,0:38:59.08,0:39:02.32,Default,,0,0,0,,but they haven't explicitly said it, so I don't know about Mizuki's perspective. I haven't even asked, so I still don't know.
-Dialogue: 0,0:39:02.08,0:39:06.24,Default,,0,0,0,,The whole 2DMV felt a bit like a birthday setting, like a birthday seat.
-Dialogue: 0,0:39:06.24,0:39:12.08,Default,,0,0,0,,Mizuki was there, like at a cake, and it symbolically panned over things Mizuki had decorated.
-Dialogue: 0,0:39:12.08,0:39:16.90,Default,,0,0,0,,Things like a letter from their older sister, or...
-Dialogue: 0,0:39:16.90,0:39:21.76,Default,,0,0,0,,ribbons, appeared, and it was really good, the 2D.
-Dialogue: 0,0:39:22.96,0:39:24.00,Default,,0,0,0,,Both were amazing.
-Dialogue: 0,0:39:24.00,0:39:25.84,Default,,0,0,0,,There was so much information, I was surprised.
-Dialogue: 0,0:39:26.96,0:39:35.60,Default,,0,0,0,,And the song... I had the impression that Mizuki's song lyrics often contained sad words until now.
-Dialogue: 0,0:39:35.60,0:39:46.40,Default,,0,0,0,,So, I'm not comparing it to past songs, but I really felt that this song has a lot of positive lyrics.
-Dialogue: 0,0:39:46.40,0:39:51.40,Default,,0,0,0,,But even within that, there are emotions that Mizuki is grappling with,
-Dialogue: 0,0:39:54.92,0:40:02.52,Default,,0,0,0,,and I don't think they're someone who can fully express them. So, I consulted with the director about how much nuance to add,
-Dialogue: 0,0:40:02.52,0:40:09.54,Default,,0,0,0,,like, how much 'strength' to add or subtract, and we discussed various things to create this song.
-Dialogue: 0,0:40:09.54,0:40:15.20,Default,,0,0,0,,Even the parts where it sounds like a radio, I was like,
-Dialogue: 0,0:40:17.00,0:40:26.32,Default,,0,0,0,,'Can I really put my emotions into it, maybe make my voice a little hoarse?' We discussed those kinds of nuances a lot for this song.
-Dialogue: 0,0:40:26.32,0:40:35.12,Default,,0,0,0,,So please, enjoy both the full version 2DMV and the 3DMV where Mizuki smiles at you.
-Dialogue: 0,0:40:35.12,0:40:38.88,Default,,0,0,0,,Both have already been uploaded to the official ProSeka YouTube channel,
-Dialogue: 0,0:40:38.88,0:40:41.88,Default,,0,0,0,,so I hope you'll check them out.
-Dialogue: 0,0:40:42.56,0:40:51.58,Default,,0,0,0,,And with that, though it was a short time, this edition of ProSeka AfterTalk, "Reaching for an Unraveling Tomorrow," has come to an end.
-Dialogue: 0,0:40:51.58,0:40:54.20,Default,,0,0,0,,To everyone who watched the stream, how was it?
-Dialogue: 0,0:40:54.20,0:40:55.48,Default,,0,0,0,,Let's take a look at the comments.
-Dialogue: 0,0:40:56.75,0:40:57.34,Default,,0,0,0,,
-Dialogue: 0,0:40:57.34,0:41:01.38,Default,,0,0,0,,Oonuma Paseri's MV and N25's 2D have different vibes, but both are good.
-Dialogue: 0,0:41:01.38,0:41:02.24,Default,,0,0,0,,That's right.
-Dialogue: 0,0:41:02.24,0:41:05.24,Default,,0,0,0,,Mizuki, well, how should I put it?
-Dialogue: 0,0:41:06.08,0:41:12.00,Default,,0,0,0,,Like students deciding their future paths... ProSeka will soon celebrate its 5th anniversary.
-Dialogue: 0,0:41:12.00,0:41:17.24,Default,,0,0,0,,Mizuki has been through a lot leading up to the 5th anniversary, and in that, they face forward.
-Dialogue: 0,0:41:17.24,0:41:21.36,Default,,0,0,0,,To face forward, these things happened, but it's like, 'I'll do my best,' or...
-Dialogue: 0,0:41:21.36,0:41:24.36,Default,,0,0,0,,the feeling of 'I'll do my best' is expressed in that way.
-Dialogue: 0,0:41:24.36,0:41:28.80,Default,,0,0,0,,I think it's decorated with N25's feelings, but Oonuma-san's version...
-Dialogue: 0,0:41:28.80,0:41:29.58,Default,,0,0,0,,How should I put it?
-Dialogue: 0,0:41:29.58,0:41:36.94,Default,,0,0,0,,is an MV where a tired working adult encourages themselves to keep trying and face forward.
-Dialogue: 0,0:41:36.94,0:41:49.16,Default,,0,0,0,,I think that even with the same lyrics, depending on the singer, the performer, or the way it's expressed, the song itself has a really wide range.
-Dialogue: 0,0:41:49.16,0:41:54.68,Default,,0,0,0,,That's what I thought. So please, Oonuma-san's version...
-Dialogue: 0,0:41:54.68,0:41:55.92,Default,,0,0,0,,Is it called 2D, that one?
-Dialogue: 0,0:41:55.92,0:41:56.50,Default,,0,0,0,,What do you call it?
-Dialogue: 0,0:41:56.50,0:41:57.90,Default,,0,0,0,,Is it an MV?
-Dialogue: 0,0:41:57.90,0:42:02.16,Default,,0,0,0,,I hope you'll enjoy that MV as well.
-Dialogue: 0,0:42:02.68,0:42:14.54,Default,,0,0,0,,Again, to put it simply, up until now, N25's stories have often revealed heavy or suffocating aspects.
-Dialogue: 0,0:42:14.54,0:42:23.68,Default,,0,0,0,,I think there were many stories that came to light, but this one, especially for high school second-years,
-Dialogue: 0,0:42:23.68,0:42:35.72,Default,,0,0,0,,and even third-years, I think it's an event story where high school students can truly empathize with the characters.
-Dialogue: 0,0:42:35.72,0:42:39.32,Default,,0,0,0,,Things like how to decide your future path,
-Dialogue: 0,0:42:40.36,0:42:47.40,Default,,0,0,0,,or lacking confidence in accepting what you like, or not being able to love what you like,
-Dialogue: 0,0:42:47.40,0:42:52.72,Default,,0,0,0,,if there are people who feel that way right now—and that's not just students, but working adults too, of course—
-Dialogue: 0,0:42:52.72,0:42:57.32,Default,,0,0,0,,if you haven't seen the event story yet, or haven't experienced the song,
-Dialogue: 0,0:42:57.32,0:43:05.12,Default,,0,0,0,,I think this story and song might contain words that resonate with you precisely because of where you are right now.
-Dialogue: 0,0:43:05.12,0:43:12.56,Default,,0,0,0,,So, I hope all you adults and students will enjoy it to the very end.
-Dialogue: 0,0:43:13.48,0:43:24.82,Default,,0,0,0,,And so, for those who haven't finished the story for the event "Reaching for an Unraveling Tomorrow," you can read the entire event story from the Event Stories menu once the next event starts.
-Dialogue: 0,0:43:24.82,0:43:25.86,Default,,0,0,0,,Please read it.
-Dialogue: 0,0:43:25.86,0:43:30.14,Default,,0,0,0,,It will probably be uploaded to YouTube later,
-Dialogue: 0,0:43:30.14,0:43:31.96,Default,,0,0,0,,so it's perfectly fine to wait for that.
-Dialogue: 0,0:43:32.56,0:43:35.62,Default,,0,0,0,,We're always looking for messages for our AfterTalks.
-Dialogue: 0,0:43:35.62,0:43:43.72,Default,,0,0,0,,We're accepting submissions for AfterTalk messages via the official ProSeka Discord channel's submission channel, or via email.
-Dialogue: 0,0:43:43.72,0:43:47.86,Default,,0,0,0,,Please send one in when the next AfterTalk event starts.
-Dialogue: 0,0:43:47.86,0:43:51.70,Default,,0,0,0,,Just make sure your messages are related to the event.
-Dialogue: 0,0:43:51.70,0:43:55.80,Default,,0,0,0,,August is almost over, and then it'll be September.
-Dialogue: 0,0:43:55.80,0:43:59.00,Default,,0,0,0,,After September, the fan festa awaits.
-Dialogue: 0,0:43:59.00,0:44:04.64,Default,,0,0,0,,We're actually making preparations little by little, so please look forward to that too.
-Dialogue: 0,0:44:04.64,0:44:10.88,Default,,0,0,0,,I'd be happy if you did. August is ending, but the heat isn't, so...
-Dialogue: 0,0:44:10.88,0:44:15.00,Default,,0,0,0,,everyone, please really be careful about heatstroke. If you think it's too much,
-Dialogue: 0,0:44:15.00,0:44:18.56,Default,,0,0,0,,I think it's perfectly fine to escape. Escape the heat.
-Dialogue: 0,0:44:18.56,0:44:20.48,Default,,0,0,0,,Cooling down is the most important thing.
-Dialogue: 0,0:44:20.48,0:44:23.76,Default,,0,0,0,,Everyone, let's somehow meet at the fan festa.
-Dialogue: 0,0:44:23.76,0:44:25.96,Default,,0,0,0,,We'll be waiting for you at the venue too.
-Dialogue: 0,0:44:25.96,0:44:28.50,Default,,0,0,0,,Thank you everyone for watching until the end.
-Dialogue: 0,0:44:28.50,0:44:32.44,Default,,0,0,0,,Let's all survive the summer! And with that, I'll see you all again.
-Dialogue: 0,0:44:32.44,0:44:34.52,Default,,0,0,0,,
-Dialogue: 0,0:44:34.52,0:44:35.36,Default,,0,0,0,,Bye!
+Dialogue: 0,0:09:30.00,0:09:44.48,Mizuki,,0,0,0,,Welcome to ProSeka AfterTalk: 
+Dialogue: 0,0:09:44.48,0:09:48.46,Mizuki,,0,0,0,,"Reaching for the Unraveling Future" edition! Yessss! Good evening, everyone.
+Dialogue: 0,0:09:48.46,0:09:55.44,Mizuki,,0,0,0,,I'm Hinata Sato, the voice of Mizuki Akiyama from N25.
+Dialogue: 0,0:09:55.44,0:09:56.73,Mizuki,,0,0,0,,This ProSeka AfterTalk is a program
+Dialogue: 0,0:09:56.73,0:09:59.80,Mizuki,,0,0,0,,where I'll be introducing messages from all of you while we look back on the event.
+Dialogue: 0,0:09:59.80,0:10:03.22,Mizuki,,0,0,0,,And this time, it's the "Reaching for the Unraveling Future" edition.
+Dialogue: 0,0:10:03.22,0:10:07.64,Mizuki,,0,0,0,,Everyone, did you enjoy the story?
+Dialogue: 0,0:10:07.64,0:10:08.14,Mizuki,,0,0,0,,It was the event that ran until yesterday, so how was it?
+Dialogue: 0,0:10:08.76,0:10:10.80,Mizuki,,0,0,0,,Everyone? I hope you all enjoyed it.
+Dialogue: 0,0:10:10.80,0:10:18.28,Mizuki,,0,0,0,,You know, it was quite a story where Mizuki herself confronted her future,
+Dialogue: 0,0:10:18.28,0:10:21.06,Mizuki,,0,0,0,,thinking about what they want to do, I think that's what the story was about,
+Dialogue: 0,0:10:21.06,0:10:23.42,Mizuki,,0,0,0,,so maybe for those who are at a time
+Dialogue: 0,0:10:23.42,0:10:28.43,Mizuki,,0,0,0,,when they have to decide on their education or career path,
+Dialogue: 0,0:10:28.43,0:10:32.96,Mizuki,,0,0,0,,it might have been a story that really resonated with them.
+Dialogue: 0,0:10:32.96,0:10:36.15,Mizuki,,0,0,0,,Yes, the AfterTalk had a small renewal starting in April,
+Dialogue: 0,0:10:36.15,0:10:39.71,Mizuki,,0,0,0,,and we've been collecting messages for the AfterTalk in advance
+Dialogue: 0,0:10:39.71,0:10:42.60,Mizuki,,0,0,0,,via the official ProSeka Discord channel and email.
+Dialogue: 0,0:10:42.60,0:10:45.00,Mizuki,,0,0,0,,Thank you everyone for sending in your messages.
+Dialogue: 0,0:10:45.00,0:10:48.84,Mizuki,,0,0,0,,I'll be introducing the messages you sent in during the program,
+Dialogue: 0,0:10:48.84,0:10:50.58,Mizuki,,0,0,0,,so please look forward to it.
+Dialogue: 0,0:10:50.58,0:10:56.46,Mizuki,,0,0,0,,Also, if you're tweeting your thoughts about the event or this broadcast,
+Dialogue: 0,0:10:56.46,0:10:59.62,Mizuki,,0,0,0,,please post them with the hashtag #ProSekaAfterTalk.
+Dialogue: 0,0:10:59.62,0:11:04.50,Mizuki,,0,0,0,,I'm also looking at the YouTube chat, and I'll be checking the hashtag later,
+Dialogue: 0,0:11:04.50,0:11:07.88,Mizuki,,0,0,0,,so I'll try to pick up any interesting comments.
+Dialogue: 0,0:11:08.56,0:11:13.64,Mizuki,,0,0,0,,As expected, it's mostly comments from overseas,
+Dialogue: 0,0:11:13.64,0:11:19.08,Mizuki,,0,0,0,,and I can't find any Japanese comments at all, but things like
+Dialogue: 0,0:11:19.08,0:11:21.27,Mizuki,,0,0,0,,'The ribbon is cute' or 'Your hairstyle matches Mizuki's, so cute!'
+Dialogue: 0,0:11:21.27,0:11:22.96,Mizuki,,0,0,0,,Oh, the stream is probably a bit delayed right now,
+Dialogue: 0,0:11:22.96,0:11:24.42,Mizuki,,0,0,0,,so they're commenting on my hair and outfit.
+Dialogue: 0,0:11:24.42,0:11:30.34,Mizuki,,0,0,0,,Today, or rather, this time, I made sure to dress like the illustration. Well, I always do,
+Dialogue: 0,0:11:30.34,0:11:32.46,Mizuki,,0,0,0,,but I really kept the illustration in mind this time.
+Dialogue: 0,0:11:32.46,0:11:34.64,Mizuki,,0,0,0,,Good evening, good evening, thank you everyone.
+Dialogue: 0,0:11:34.64,0:11:37.72,Mizuki,,0,0,0,,Oh, the story and the new song were so good, I cried my eyes out.
+Dialogue: 0,0:11:38.28,0:11:39.68,Mizuki,,0,0,0,,I'll talk about the song later.
+Dialogue: 0,0:11:39.68,0:11:43.78,Mizuki,,0,0,0,,I also said at home, 'What was that?'
+Dialogue: 0,0:11:43.78,0:11:45.04,Mizuki,,0,0,0,,'What is this?'
+Dialogue: 0,0:11:45.60,0:11:48.68,Mizuki,,0,0,0,,I really felt the company's effort.
+Dialogue: 0,0:11:50.28,0:11:50.80,Mizuki,,0,0,0,,Right, right, right.
+Dialogue: 0,0:11:50.80,0:11:53.70,Mizuki,,0,0,0,,I'll talk more about that later.
+Dialogue: 0,0:11:53.70,0:11:56.77,Mizuki,,0,0,0,,Alright then, let's immediately start talking
+Dialogue: 0,0:11:56.77,0:12:00.58,Mizuki,,0,0,0,,about the story of "Reaching for the Unraveling Future."
+Dialogue: 0,0:12:00.58,0:12:04.32,Mizuki,,0,0,0,,Everyone, we've received messages about this story as well,
+Dialogue: 0,0:12:04.32,0:12:07.72,Mizuki,,0,0,0,,so I'd like to introduce them and look back on the story together.
+Dialogue: 0,0:12:07.72,0:12:11.32,Mizuki,,0,0,0,,First up, a message from Kotori no Mama-san.
+Dialogue: 0,0:12:11.32,0:12:12.60,Mizuki,,0,0,0,,Hinatsu-san, kon-niigo!
+Dialogue: 0,0:12:12.60,0:12:13.34,Mizuki,,0,0,0,,Kon-niigo!
+Dialogue: 0,0:12:13.34,0:12:16.14,Mizuki,,0,0,0,,My child and I are enjoying ProSeka together.
+Dialogue: 0,0:12:16.14,0:12:19.96,Mizuki,,0,0,0,,The Mizuki-chan banner was super cute, interesting, and moving.
+Dialogue: 0,0:12:19.96,0:12:23.65,Mizuki,,0,0,0,,I'm glad I got to experience Mizuki-chan's various feelings
+Dialogue: 0,0:12:23.65,0:12:28.08,Mizuki,,0,0,0,,through their past experiences and interactions with those around them.
+Dialogue: 0,0:12:29.52,0:12:32.89,Mizuki,,0,0,0,,Continuing to be yourself and not giving up on what you love,
+Dialogue: 0,0:12:32.89,0:12:36.54,Mizuki,,0,0,0,,even when you're lost or hit a wall, must be incredibly difficult.
+Dialogue: 0,0:12:36.54,0:12:41.72,Mizuki,,0,0,0,,But I believe that if you keep those feelings, there will come a time when you're rewarded.
+Dialogue: 0,0:12:42.48,0:12:46.48,Mizuki,,0,0,0,,Just like everyone in N25, there are people who see you for who you truly are,
+Dialogue: 0,0:12:46.48,0:12:49.72,Mizuki,,0,0,0,,and people who accept you. I truly believe that.
+Dialogue: 0,0:12:50.24,0:12:52.54,Mizuki,,0,0,0,,I really love ProSeka's stories.
+Dialogue: 0,0:12:52.54,0:12:55.82,Mizuki,,0,0,0,,Hinatsu-san, thank you so much for always voicing the characters.
+Dialogue: 0,0:12:55.82,0:12:59.28,Mizuki,,0,0,0,,I'll continue to fully support Mizuki-chan and Hinatsu-san!
+Dialogue: 0,0:12:59.28,0:13:02.12,Mizuki,,0,0,0,,Thank you, Kotori no Mama-san.
+Dialogue: 0,0:13:02.12,0:13:07.80,Mizuki,,0,0,0,,Well, this time, first of all, Mizuki's older sister came back home from overseas,
+Dialogue: 0,0:13:07.80,0:13:10.84,Mizuki,,0,0,0,,and it started with her opening a pop-up shop.
+Dialogue: 0,0:13:10.84,0:13:16.06,Mizuki,,0,0,0,,Mizuki wanting her sister to meet everyone from N25 was a huge step
+Dialogue: 0,0:13:16.06,0:13:19.72,Mizuki,,0,0,0,,forward for Mizuki, I thought.
+Dialogue: 0,0:13:19.72,0:13:25.10,Mizuki,,0,0,0,,You know, Kanade and Mafuyu had met Yuuki-san before,
+Dialogue: 0,0:13:25.10,0:13:31.70,Mizuki,,0,0,0,,but Ena got to meet her for the first time this time, and the story progressed in various ways,
+Dialogue: 0,0:13:31.70,0:13:38.84,Mizuki,,0,0,0,,but even among all that, what Mizuki loves doing now isn't just making videos,
+Dialogue: 0,0:13:38.84,0:13:44.38,Mizuki,,0,0,0,,it's also remaking clothes, visiting clothing stores, looking at cosmetics, and so on.
+Dialogue: 0,0:13:44.38,0:13:46.98,Mizuki,,0,0,0,,Because they're a person with so many things they love,
+Dialogue: 0,0:13:46.98,0:13:50.75,Mizuki,,0,0,0,,for them to be confronting what they want to aim for
+Dialogue: 0,0:13:50.75,0:13:54.52,Mizuki,,0,0,0,,when they think about doing something in the future,
+Dialogue: 0,0:13:54.52,0:13:57.04,Mizuki,,0,0,0,,at this stage, is amazing, I think.
+Dialogue: 0,0:13:57.04,0:14:01.65,Mizuki,,0,0,0,,When I was going to university, I thought it was meaningless to pay money
+Dialogue: 0,0:14:01.65,0:14:05.36,Mizuki,,0,0,0,,unless I studied something that would give me a tangible skill,
+Dialogue: 0,0:14:05.36,0:14:08.78,Mizuki,,0,0,0,,so I just went around to open campuses endlessly.
+Dialogue: 0,0:14:08.78,0:14:14.14,Mizuki,,0,0,0,,So I felt that Mizuki's approach to finding what they love was quite different from mine.
+Dialogue: 0,0:14:14.14,0:14:16.74,Mizuki,,0,0,0,,I thought that, but amidst all that,
+Dialogue: 0,0:14:16.74,0:14:23.40,Mizuki,,0,0,0,,it was a time for Mizuki to slowly, at their own pace, re-examine what they love,
+Dialogue: 0,0:14:23.40,0:14:28.22,Mizuki,,0,0,0,,and I thought that was a very important thing. So,
+Dialogue: 0,0:14:28.22,0:14:33.58,Mizuki,,0,0,0,,for Mizuki, it wasn't just about the pop-up shop her sister opened,
+Dialogue: 0,0:14:33.58,0:14:38.49,Mizuki,,0,0,0,,but the fact that interacting with clothes made them think,
+Dialogue: 0,0:14:38.49,0:14:44.24,Mizuki,,0,0,0,,'This isn't just a hobby, I might want to make a career out of this,'
+Dialogue: 0,0:14:44.24,0:14:49.24,Mizuki,,0,0,0,,is a pretty big deal. So I was glad they were able to smile.
+Dialogue: 0,0:14:50.04,0:14:54.84,Mizuki,,0,0,0,,Alright, so this time too, I've picked out some scenes I personally want to talk
+Dialogue: 0,0:14:54.84,0:14:57.48,Mizuki,,0,0,0,,about, so I hope we can watch them together.
+Dialogue: 0,0:14:57.48,0:14:58.16,Mizuki,,0,0,0,,Here it is.
+Dialogue: 0,0:24:44.97,0:24:45.47,Mizuki,,0,0,0,,
+Dialogue: 0,0:24:50.80,0:24:51.40,Mizuki,,0,0,0,,
+Dialogue: 0,0:24:52.80,0:24:53.58,Mizuki,,0,0,0,,It's good.
+Dialogue: 0,0:24:53.58,0:24:55.00,Mizuki,,0,0,0,,It's really good.
+Dialogue: 0,0:24:56.04,0:24:56.92,Mizuki,,0,0,0,,That's what I think.
+Dialogue: 0,0:24:57.48,0:25:04.28,Mizuki,,0,0,0,,Since I've already chosen my own path, when I see someone else making a choice,
+Dialogue: 0,0:25:04.28,0:25:06.35,Mizuki,,0,0,0,,or rather, when I witness it in the form of an event story,
+Dialogue: 0,0:25:06.35,0:25:09.12,Mizuki,,0,0,0,,there are definitely moments when you wonder if you're making the right choice.
+Dialogue: 0,0:25:09.12,0:25:18.64,Mizuki,,0,0,0,,But if, 10 years from now,
+Dialogue: 0,0:25:18.64,0:25:21.22,Mizuki,,0,0,0,,or 20 years from now, you can look back and think,
+Dialogue: 0,0:25:21.22,0:25:24.10,Mizuki,,0,0,0,,'I'm glad I made that choice then,' that's a good thing.
+Dialogue: 0,0:25:24.10,0:25:28.98,Mizuki,,0,0,0,,And what comes with that is effort, I believe.
+Dialogue: 0,0:25:28.98,0:25:31.90,Mizuki,,0,0,0,,When it comes to something that requires effort,
+Dialogue: 0,0:25:31.90,0:25:35.78,Mizuki,,0,0,0,,I don't think there's a right or wrong choice.
+Dialogue: 0,0:25:35.78,0:25:41.28,Mizuki,,0,0,0,,A choice accompanied by effort might, after a year or two,
+Dialogue: 0,0:25:41.28,0:25:44.72,Mizuki,,0,0,0,,make you think, 'I shouldn't have done this.'
+Dialogue: 0,0:25:44.72,0:25:46.68,Mizuki,,0,0,0,,But when you look at it 10 or 20 years later,
+Dialogue: 0,0:25:46.68,0:25:50.48,Mizuki,,0,0,0,,there are definitely times when it ultimately connects.
+Dialogue: 0,0:25:50.48,0:25:53.28,Mizuki,,0,0,0,,You'll think, 'If I hadn't done this back then, I wouldn't be able to do this now.'
+Dialogue: 0,0:25:53.28,0:25:58.00,Mizuki,,0,0,0,,Even if it's not the same profession, I'm sure you'll feel that way.
+Dialogue: 0,0:25:58.00,0:26:03.65,Mizuki,,0,0,0,,For those who are putting in effort now, I hope this event story becomes an opportunity
+Dialogue: 0,0:26:03.65,0:26:06.90,Mizuki,,0,0,0,,for them to continue what they're working hard on,
+Dialogue: 0,0:26:06.90,0:26:11.68,Mizuki,,0,0,0,,or to make the decision to do it. That's the kind of event story I think it was.
+Dialogue: 0,0:26:12.52,0:26:16.74,Mizuki,,0,0,0,,Alright, from here on, I'd like to talk about the illustrations.
+Dialogue: 0,0:26:16.74,0:26:18.72,Mizuki,,0,0,0,,Now, let me introduce a message.
+Dialogue: 0,0:26:18.72,0:26:21.44,Mizuki,,0,0,0,,A message we received from Meshi-Meshi-san.
+Dialogue: 0,0:26:21.44,0:26:23.42,Mizuki,,0,0,0,,Thank you.
+Dialogue: 0,0:26:23.42,0:26:25.54,Mizuki,,0,0,0,,Hello, Sato. I always enjoy playing ProSeka.
+Dialogue: 0,0:26:25.54,0:26:28.96,Mizuki,,0,0,0,,This time's 4-star, especially Mizuki's illustration, was so good
+Dialogue: 0,0:26:28.96,0:26:34.88,Mizuki,,0,0,0,,that I desperately pulled the gacha and got it.
+Dialogue: 0,0:26:34.88,0:26:39.44,Mizuki,,0,0,0,,This illustration, like "Secret Distance" and "Where the Winding Road Leads,"
+Dialogue: 0,0:26:39.44,0:26:44.30,Mizuki,,0,0,0,,features Mizuki in a torso space, similar to their trained illustration.
+Dialogue: 0,0:26:44.30,0:26:48.28,Mizuki,,0,0,0,,A torso is something that often appears in Mizuki's illustrations.
+Dialogue: 0,0:26:48.28,0:26:52.04,Mizuki,,0,0,0,,It's not a mannequin, but for clothes, like this.
+Dialogue: 0,0:26:52.04,0:26:54.70,Mizuki,,0,0,0,,You know, here, here.
+Dialogue: 0,0:26:54.70,0:26:56.36,Mizuki,,0,0,0,,Here.
+Dialogue: 0,0:26:56.36,0:26:57.08,Mizuki,,0,0,0,,That's what a torso is called.
+Dialogue: 0,0:26:57.08,0:26:58.20,Mizuki,,0,0,0,,And this one, "Reaching for an Unraveling Tomorrow," also has Mizuki
+Dialogue: 0,0:26:58.20,0:27:01.24,Mizuki,,0,0,0,,in a torso space.
+Dialogue: 0,0:27:01.84,0:27:04.68,Mizuki,,0,0,0,,Usually, the torso space represented Mizuki's darker feelings.
+Dialogue: 0,0:27:04.68,0:27:08.78,Mizuki,,0,0,0,,But this time, touched by the warmth of family and friends,
+Dialogue: 0,0:27:08.78,0:27:13.06,Mizuki,,0,0,0,,they're looking forward, and the space represents Mizuki's bright and cheerful feelings.
+Dialogue: 0,0:27:13.06,0:27:18.88,Mizuki,,0,0,0,,I'm so happy to see this change in Mizuki's emotional state.
+Dialogue: 0,0:27:18.88,0:27:20.42,Mizuki,,0,0,0,,The staff who create such wonderful scenarios,
+Dialogue: 0,0:27:20.42,0:27:25.20,Mizuki,,0,0,0,,and the voice actors who give such amazing performances,
+Dialogue: 0,0:27:25.20,0:27:29.26,Mizuki,,0,0,0,,bringing depth to these characters, I can't praise them enough.
+Dialogue: 0,0:27:29.26,0:27:32.46,Mizuki,,0,0,0,,Thank you for always creating such wonderful events.
+Dialogue: 0,0:27:32.46,0:27:35.12,Mizuki,,0,0,0,,Please take care of yourselves and keep up the great work.
+Dialogue: 0,0:27:35.12,0:27:37.78,Mizuki,,0,0,0,,We'll continue to support you as N25 fans.
+Dialogue: 0,0:27:37.78,0:27:39.96,Mizuki,,0,0,0,,Thanks for writing in!
+Dialogue: 0,0:27:39.96,0:27:47.68,Mizuki,,0,0,0,,The illustration's colors are quite rare for N25, or rather,
+Dialogue: 0,0:27:47.68,0:27:51.84,Mizuki,,0,0,0,,the soft colors we've seen before... It's nice to see N25 bathed in sunlight,
+Dialogue: 0,0:27:51.84,0:27:54.02,Mizuki,,0,0,0,,especially since they're not usually outside much.
+Dialogue: 0,0:27:54.02,0:28:01.32,Mizuki,,0,0,0,,I thought it was rare to see N25 during the day. This kind of touch isn't very common.
+Dialogue: 0,0:28:01.32,0:28:10.34,Mizuki,,0,0,0,,Not just Mizuki, but everyone's illustrations were great.
+Dialogue: 0,0:28:10.34,0:28:18.46,Mizuki,,0,0,0,,I realized there are amazing artists for both the untrained and trained versions.
+Dialogue: 0,0:28:18.46,0:28:21.28,Mizuki,,0,0,0,,I really felt grateful for that.
+Dialogue: 0,0:28:21.28,0:28:24.96,Mizuki,,0,0,0,,This time, we also received comments from the illustration production team about this outfit,
+Dialogue: 0,0:28:24.96,0:28:29.08,Mizuki,,0,0,0,,so I'd like to share those with you.
+Dialogue: 0,0:28:29.08,0:28:32.88,Mizuki,,0,0,0,,There's also a comment saying, "Pure brightness is rare, isn't it?"
+Dialogue: 0,0:28:32.88,0:28:38.30,Mizuki,,0,0,0,,Mizuki, having been accepted by N25, wants to create clothes
+Dialogue: 0,0:28:38.30,0:28:44.50,Mizuki,,0,0,0,,that can help others who struggle like them, who can't love themselves.
+Dialogue: 0,0:28:44.50,0:28:48.88,Mizuki,,0,0,0,,Inspired by the story where they consider their future, wanting to pursue a career in fashion,
+Dialogue: 0,0:28:49.48,0:28:50.51,Mizuki,,0,0,0,,we intentionally went
+Dialogue: 0,0:28:50.51,0:28:53.70,Mizuki,,0,0,0,,with a simple and elegant one-piece design with minimal elements,
+Dialogue: 0,0:28:53.70,0:29:00.02,Mizuki,,0,0,0,,expressing the image of their future that they're now gradually envisioning.
+Dialogue: 0,0:29:00.02,0:29:01.65,Mizuki,,0,0,0,,As a focal point, we added yellow daisy embroidery,
+Dialogue: 0,0:29:01.65,0:29:03.56,Mizuki,,0,0,0,,which is used in Mizuki's unit outfit after their promotion,
+Dialogue: 0,0:29:03.56,0:29:05.96,Mizuki,,0,0,0,,conveying the message of 'being true to oneself,'
+Dialogue: 0,0:29:05.96,0:29:08.40,Mizuki,,0,0,0,,making this Mizuki's unique simple costume design.
+Dialogue: 0,0:29:08.40,0:29:10.00,Mizuki,,0,0,0,,To express Mizuki's feelings,
+Dialogue: 0,0:29:10.00,0:29:14.08,Mizuki,,0,0,0,,which have begun to embrace the song's relaxed, calm, and warm impression,
+Dialogue: 0,0:29:14.08,0:29:15.48,Mizuki,,0,0,0,,and a faint hope for the future, we used soft and gentle colors. That's what they sent in.
+Dialogue: 0,0:29:16.28,0:29:21.28,Mizuki,,0,0,0,,Indeed, I think the overall color palette for everyone is soft.
+Dialogue: 0,0:29:21.28,0:29:25.00,Mizuki,,0,0,0,,Oh, and the daisies are in there too! Did everyone notice?
+Dialogue: 0,0:29:25.00,0:29:26.42,Mizuki,,0,0,0,,There's a comment about the daisies.
+Dialogue: 0,0:29:26.42,0:29:28.44,Mizuki,,0,0,0,,
+Dialogue: 0,0:29:28.95,0:29:29.45,Mizuki,,0,0,0,,
+Dialogue: 0,0:29:30.07,0:29:30.66,Mizuki,,0,0,0,,The blue traffic light was impressive.
+Dialogue: 0,0:29:30.66,0:29:32.12,Mizuki,,0,0,0,,Indeed.
+Dialogue: 0,0:29:32.12,0:29:32.92,Mizuki,,0,0,0,,Mizuki was born in summer, August... Happy birthday!
+Dialogue: 0,0:29:32.92,0:29:37.58,Mizuki,,0,0,0,,I didn't mean to say it so casually, but happy birthday!
+Dialogue: 0,0:29:37.58,0:29:38.88,Mizuki,,0,0,0,,It's summer. I thought Mizuki wasn't a character
+Dialogue: 0,0:29:38.88,0:29:40.20,Mizuki,,0,0,0,,who had many summer-like illustrations until now.
+Dialogue: 0,0:29:40.20,0:29:48.64,Mizuki,,0,0,0,,I thought they often wore long sleeves or clothes that covered their skin.
+Dialogue: 0,0:29:48.64,0:29:54.64,Mizuki,,0,0,0,,There were T-shirts and such.
+Dialogue: 0,0:29:54.64,0:29:56.64,Mizuki,,0,0,0,,So, I'm happy to see such a refreshing illustration that instantly feels like summer.
+Dialogue: 0,0:29:56.64,0:30:06.74,Mizuki,,0,0,0,,Alright then, I'd like to talk while actually looking at the card illustrations.
+Dialogue: 0,0:30:06.74,0:30:13.20,Mizuki,,0,0,0,,I'm on your monitors right now, everyone.
+Dialogue: 0,0:30:13.20,0:30:16.48,Mizuki,,0,0,0,,I believe so.
+Dialogue: 0,0:30:18.64,0:30:19.40,Mizuki,,0,0,0,,Alright, Mizuki's untrained card.
+Dialogue: 0,0:30:20.08,0:30:24.40,Mizuki,,0,0,0,,This illustration...
+Dialogue: 0,0:30:25.24,0:30:28.64,Mizuki,,0,0,0,,The older sister is looking at Mizuki with such a happy smile,
+Dialogue: 0,0:30:29.92,0:30:36.28,Mizuki,,0,0,0,,which reminds me of the New Year's event, and how Yuuki-san gave a ribbon to young Mizuki.
+Dialogue: 0,0:30:36.28,0:30:43.44,Mizuki,,0,0,0,,It really overlaps. And Mizuki's expression, showing it off like, 'How is it?' is just amazing.
+Dialogue: 0,0:30:43.44,0:30:48.48,Mizuki,,0,0,0,,It doesn't feel like an untrained card. Really.
+Dialogue: 0,0:30:49.56,0:30:51.24,Mizuki,,0,0,0,,I love this space.
+Dialogue: 0,0:30:51.24,0:30:52.44,Mizuki,,0,0,0,,This, what's reflected, what's in the background, is the torso.
+Dialogue: 0,0:30:53.44,0:30:54.84,Mizuki,,0,0,0,,Alright, let's look at the trained card too.
+Dialogue: 0,0:30:54.84,0:30:57.92,Mizuki,,0,0,0,,
+Dialogue: 0,0:30:57.92,0:30:59.88,Mizuki,,0,0,0,,!
+Dialogue: 0,0:31:00.79,0:31:01.48,Mizuki,,0,0,0,,I always thought butterflies and ribbons were very symbolic for Mizuki.
+Dialogue: 0,0:31:01.48,0:31:02.17,Mizuki,,0,0,0,,And usually, in my mind, Mizuki's illustrations often showed them holding scissors.
+Dialogue: 0,0:31:03.12,0:31:12.24,Mizuki,,0,0,0,,But this time, they're not holding scissors, and it's a very bright space.
+Dialogue: 0,0:31:12.24,0:31:15.84,Mizuki,,0,0,0,,Even though their mouth is covered, that expression clearly shows they're smiling,
+Dialogue: 0,0:31:15.84,0:31:21.30,Mizuki,,0,0,0,,and it's just so endearing.
+Dialogue: 0,0:31:21.30,0:31:29.84,Mizuki,,0,0,0,,My child is such a good child.
+Dialogue: 0,0:31:29.84,0:31:30.34,Mizuki,,0,0,0,,Next up, Ena.
+Dialogue: 0,0:31:31.44,0:31:33.24,Mizuki,,0,0,0,,And Yuuki-san is there again.
+Dialogue: 0,0:31:34.48,0:31:35.72,Mizuki,,0,0,0,,
+Dialogue: 0,0:31:37.64,0:31:39.52,Mizuki,,0,0,0,,
+Dialogue: 0,0:31:39.52,0:31:43.58,Mizuki,,0,0,0,,I love how Ena reacts to this older sister's pushiness
+Dialogue: 0,0:31:43.58,0:31:46.40,Mizuki,,0,0,0,,when they first meet, getting all flustered.
+Dialogue: 0,0:31:47.76,0:31:49.00,Mizuki,,0,0,0,,It's great.
+Dialogue: 0,0:31:49.00,0:31:54.20,Mizuki,,0,0,0,,For those who haven't read the event story yet,
+Dialogue: 0,0:31:54.20,0:31:56.94,Mizuki,,0,0,0,,I really want you to check it out there too,
+Dialogue: 0,0:31:56.94,0:31:59.16,Mizuki,,0,0,0,,because this older sister talks with all of N25, and it's a must-see.
+Dialogue: 0,0:31:59.96,0:32:03.44,Mizuki,,0,0,0,,Next up, this Ena... isn't she amazing?
+Dialogue: 0,0:32:04.48,0:32:08.68,Mizuki,,0,0,0,,I really think girls with their hair tucked behind their ears are great,
+Dialogue: 0,0:32:08.68,0:32:10.20,Mizuki,,0,0,0,,and this illustration is just incredibly good.
+Dialogue: 0,0:32:10.20,0:32:12.04,Mizuki,,0,0,0,,I thought she was a florist,
+Dialogue: 0,0:32:12.72,0:32:14.04,Mizuki,,0,0,0,,Ena.
+Dialogue: 0,0:32:14.04,0:32:15.08,Mizuki,,0,0,0,,
+Dialogue: 0,0:32:16.48,0:32:19.22,Mizuki,,0,0,0,,I also love how her eyes are a little downcast here.
+Dialogue: 0,0:32:19.22,0:32:20.56,Mizuki,,0,0,0,,Ena is so cute.
+Dialogue: 0,0:32:21.40,0:32:24.26,Mizuki,,0,0,0,,Next up, LEN.
+Dialogue: 0,0:32:24.26,0:32:29.82,Mizuki,,0,0,0,,It's so cute how he's eating the souvenir from this older sister.
+Dialogue: 0,0:32:29.82,0:32:31.32,Mizuki,,0,0,0,,Really.
+Dialogue: 0,0:32:31.88,0:32:33.00,Mizuki,,0,0,0,,What is this cuteness?
+Dialogue: 0,0:32:34.32,0:32:36.32,Mizuki,,0,0,0,,Even if it's a protein bar, it's still cute.
+Dialogue: 0,0:32:36.96,0:32:38.29,Mizuki,,0,0,0,,He's always eating something.
+Dialogue: 0,0:32:38.29,0:32:38.81,Mizuki,,0,0,0,,
+Dialogue: 0,0:32:39.80,0:32:41.12,Mizuki,,0,0,0,,Next, the trained version.
+Dialogue: 0,0:32:42.08,0:32:43.36,Mizuki,,0,0,0,,Isn't this amazing?
+Dialogue: 0,0:32:43.36,0:32:44.80,Mizuki,,0,0,0,,I thought it was amazing.
+Dialogue: 0,0:32:45.76,0:32:48.88,Mizuki,,0,0,0,,I thought, 'Only you can pull off these shorts!'
+Dialogue: 0,0:32:48.88,0:32:50.48,Mizuki,,0,0,0,,Seriously.
+Dialogue: 0,0:32:51.19,0:32:51.69,Mizuki,,0,0,0,,
+Dialogue: 0,0:32:52.20,0:32:53.16,Mizuki,,0,0,0,,I thought, 'Thank you!'
+Dialogue: 0,0:32:54.60,0:32:57.72,Mizuki,,0,0,0,,Overall, it's a rare N25 style, and it's really good.
+Dialogue: 0,0:32:58.56,0:33:01.76,Mizuki,,0,0,0,,Is this also a book about daisies?
+Dialogue: 0,0:33:02.60,0:33:09.04,Mizuki,,0,0,0,,My knowledge of daisies is a bit shallow, so I'm not sure, but I'm sure it is.
+Dialogue: 0,0:33:09.84,0:33:10.72,Mizuki,,0,0,0,,It's good.
+Dialogue: 0,0:33:10.72,0:33:13.48,Mizuki,,0,0,0,,It's great that they're sharing something delicious.
+Dialogue: 0,0:33:13.48,0:33:14.80,Mizuki,,0,0,0,,Because everything tastes better when you share it.
+Dialogue: 0,0:33:16.36,0:33:16.96,Mizuki,,0,0,0,,This one.
+Dialogue: 0,0:33:18.28,0:33:18.96,Mizuki,,0,0,0,,Kanade.
+Dialogue: 0,0:33:20.60,0:33:21.68,Mizuki,,0,0,0,,Cute.
+Dialogue: 0,0:33:21.68,0:33:26.96,Mizuki,,0,0,0,,And this outfit, it really looks like Mizuki picked it out.
+Dialogue: 0,0:33:26.96,0:33:27.56,Mizuki,,0,0,0,,This part here.
+Dialogue: 0,0:33:28.32,0:33:29.12,Mizuki,,0,0,0,,She looks a little troubled.
+Dialogue: 0,0:33:29.72,0:33:31.10,Mizuki,,0,0,0,,Of course it suits her.
+Dialogue: 0,0:33:31.10,0:33:33.08,Mizuki,,0,0,0,,Setting aside where she'd wear it,
+Dialogue: 0,0:33:33.08,0:33:37.76,Mizuki,,0,0,0,,I'm not sure if Kanade would actually wear this head accessory
+Dialogue: 0,0:33:37.76,0:33:39.40,Mizuki,,0,0,0,,when she occasionally goes out.
+Dialogue: 0,0:33:39.40,0:33:40.16,Mizuki,,0,0,0,,But,
+Dialogue: 0,0:33:40.72,0:33:43.08,Mizuki,,0,0,0,,I think if it suits her, she should wear it.
+Dialogue: 0,0:33:43.68,0:33:45.36,Mizuki,,0,0,0,,She's really cute.
+Dialogue: 0,0:33:45.96,0:33:47.32,Mizuki,,0,0,0,,Everyone is always cute.
+Dialogue: 0,0:33:48.72,0:33:49.44,Mizuki,,0,0,0,,The trained version.
+Dialogue: 0,0:33:50.96,0:33:54.16,Mizuki,,0,0,0,,She's a young lady from a good family, this one.
+Dialogue: 0,0:33:54.16,0:33:56.88,Mizuki,,0,0,0,,Are these also daisy flowers?
+Dialogue: 0,0:33:56.88,0:33:59.32,Mizuki,,0,0,0,,The ones on her chest and head.
+Dialogue: 0,0:34:00.24,0:34:00.88,Mizuki,,0,0,0,,Probably.
+Dialogue: 0,0:34:02.32,0:34:09.64,Mizuki,,0,0,0,,Kanade-chan, who's made to try on all sorts of outfits in the side story, is also super cute,
+Dialogue: 0,0:34:09.64,0:34:12.96,Mizuki,,0,0,0,,so I hope you'll check out the side story too.
+Dialogue: 0,0:34:13.92,0:34:14.96,Mizuki,,0,0,0,,Everyone says she's cute.
+Dialogue: 0,0:34:15.72,0:34:16.48,Mizuki,,0,0,0,,Seriously.
+Dialogue: 0,0:34:17.28,0:34:18.20,Mizuki,,0,0,0,,It's great.
+Dialogue: 0,0:34:19.48,0:34:22.68,Mizuki,,0,0,0,,I think it's really rare for N25 to wear white,
+Dialogue: 0,0:34:22.68,0:34:24.88,Mizuki,,0,0,0,,having done so many AfterTalks up to now.
+Dialogue: 0,0:34:25.72,0:34:26.32,Mizuki,,0,0,0,,Mafuyu.
+Dialogue: 0,0:34:26.88,0:34:27.76,Mizuki,,0,0,0,,
+Dialogue: 0,0:34:28.64,0:34:29.40,Mizuki,,0,0,0,,You know,
+Dialogue: 0,0:34:30.96,0:34:33.72,Mizuki,,0,0,0,,maybe she's not quite smiling,
+Dialogue: 0,0:34:33.72,0:34:40.00,Mizuki,,0,0,0,,but a Mafuyu with more smiling elements makes me so happy and brightens my heart,
+Dialogue: 0,0:34:40.00,0:34:44.04,Mizuki,,0,0,0,,especially because this event story was like that.
+Dialogue: 0,0:34:44.04,0:34:51.88,Mizuki,,0,0,0,,I think it's wonderful that we're seeing illustrations with warmth for everyone.
+Dialogue: 0,0:34:51.88,0:34:52.76,Mizuki,,0,0,0,,
+Dialogue: 0,0:34:52.76,0:34:54.16,Mizuki,,0,0,0,,Thank you very much.
+Dialogue: 0,0:34:54.80,0:34:57.68,Mizuki,,0,0,0,,And so, that was the illustration corner. Next,
+Dialogue: 0,0:34:57.68,0:35:02.12,Mizuki,,0,0,0,,for this event, Oonuma Parsley wrote the song "KAZATTE" for us,
+Dialogue: 0,0:35:02.12,0:35:07.44,Mizuki,,0,0,0,,and I'd like to talk about the song while watching its 3DMV.
+Dialogue: 0,0:35:07.44,0:35:10.08,Mizuki,,0,0,0,,Before we watch the 3DMV, we received a comment
+Dialogue: 0,0:35:10.08,0:35:14.08,Mizuki,,0,0,0,,from the SEGA 3DMV production team, so please allow me to introduce it.
+Dialogue: 0,0:35:14.08,0:35:17.68,Mizuki,,0,0,0,,In the 3DMV for "KAZATTE," Mizuki's wavering feelings,
+Dialogue: 0,0:35:17.68,0:35:21.59,Mizuki,,0,0,0,,emotions they can't honestly express to the other members,
+Dialogue: 0,0:35:21.59,0:35:25.02,Mizuki,,0,0,0,,are depicted through a 'falling into water' effect.
+Dialogue: 0,0:35:25.02,0:35:27.34,Mizuki,,0,0,0,,This time, we used an insert function,
+Dialogue: 0,0:35:27.34,0:35:32.52,Mizuki,,0,0,0,,and spent a lot of time and trial and error to express the underwater falling effect.
+Dialogue: 0,0:35:32.52,0:35:36.22,Mizuki,,0,0,0,,There are still challenges in making these expressions convey emotions fully,
+Dialogue: 0,0:35:36.22,0:35:39.68,Mizuki,,0,0,0,,but we hope you'll enjoy seeing these new expressions through Mizuki.
+Dialogue: 0,0:35:39.68,0:35:40.70,Mizuki,,0,0,0,,That's what they sent in.
+Dialogue: 0,0:35:40.70,0:35:43.62,Mizuki,,0,0,0,,Well then, let's watch the 3DMV right away.
+Dialogue: 0,0:35:43.62,0:35:44.23,Mizuki,,0,0,0,,
+Dialogue: 0,0:37:55.00,0:37:56.00,Mizuki,,0,0,0,,Did you see my face just now?
+Dialogue: 0,0:37:59.92,0:38:00.64,Mizuki,,0,0,0,,I was smiling.
+Dialogue: 0,0:38:01.80,0:38:02.68,Mizuki,,0,0,0,,Very good.
+Dialogue: 0,0:38:03.24,0:38:04.00,Mizuki,,0,0,0,,
+Dialogue: 0,0:38:04.00,0:38:08.40,Mizuki,,0,0,0,,I was truly surprised when I saw this 3DMV.
+Dialogue: 0,0:38:09.24,0:38:13.20,Mizuki,,0,0,0,,Like, "Wow, the setting can change like this?"
+Dialogue: 0,0:38:13.20,0:38:17.53,Mizuki,,0,0,0,,It goes from a school-like place to an after-school scene,
+Dialogue: 0,0:38:17.53,0:38:20.44,Mizuki,,0,0,0,,with Ena by a window reflecting leaves,
+Dialogue: 0,0:38:20.44,0:38:25.44,Mizuki,,0,0,0,,or when walking down a hallway, you see glimpses of light, things like that.
+Dialogue: 0,0:38:25.44,0:38:26.08,Mizuki,,0,0,0,,Not Wi-Fi.
+Dialogue: 0,0:38:26.08,0:38:27.40,Mizuki,,0,0,0,,Like, what do you call it?
+Dialogue: 0,0:38:27.40,0:38:31.24,Mizuki,,0,0,0,,Not exactly dust, but tiny particles floating around. The direction was so detailed.
+Dialogue: 0,0:38:31.92,0:38:35.92,Mizuki,,0,0,0,,I wondered how they did that. It was amazing.
+Dialogue: 0,0:38:36.48,0:38:43.34,Mizuki,,0,0,0,,The way everyone rotated and characters changed in the staging was so incredible,
+Dialogue: 0,0:38:43.34,0:38:45.56,Mizuki,,0,0,0,,I was really surprised.
+Dialogue: 0,0:38:46.20,0:38:47.20,Mizuki,,0,0,0,,It was really good.
+Dialogue: 0,0:38:47.84,0:38:49.16,Mizuki,,0,0,0,,It really helped us look back.
+Dialogue: 0,0:38:50.44,0:38:54.72,Mizuki,,0,0,0,,It's so good... And the 2DMV is also amazing, please watch it.
+Dialogue: 0,0:38:54.72,0:38:59.08,Mizuki,,0,0,0,,The 2DMV, well, that's just what I thought,
+Dialogue: 0,0:38:59.08,0:39:01.17,Mizuki,,0,0,0,,but they haven't explicitly said it, so I don't know about Mizuki's perspective.
+Dialogue: 0,0:39:01.17,0:39:02.32,Mizuki,,0,0,0,,I haven't even asked, so I still don't know.
+Dialogue: 0,0:39:02.08,0:39:06.24,Mizuki,,0,0,0,,The whole 2DMV felt a bit like a birthday setting, like a birthday seat.
+Dialogue: 0,0:39:06.24,0:39:09.16,Mizuki,,0,0,0,,Mizuki was there, like at a cake,
+Dialogue: 0,0:39:09.16,0:39:12.08,Mizuki,,0,0,0,,and it symbolically panned over things Mizuki had decorated.
+Dialogue: 0,0:39:12.08,0:39:16.90,Mizuki,,0,0,0,,Things like a letter from their older sister, or...
+Dialogue: 0,0:39:16.90,0:39:21.76,Mizuki,,0,0,0,,ribbons, appeared, and it was really good, the 2D.
+Dialogue: 0,0:39:22.96,0:39:24.00,Mizuki,,0,0,0,,Both were amazing.
+Dialogue: 0,0:39:24.00,0:39:25.84,Mizuki,,0,0,0,,There was so much information, I was surprised.
+Dialogue: 0,0:39:26.96,0:39:30.08,Mizuki,,0,0,0,,And the song... I had the impression
+Dialogue: 0,0:39:30.08,0:39:35.60,Mizuki,,0,0,0,,that Mizuki's song lyrics often contained sad words until now.
+Dialogue: 0,0:39:35.60,0:39:39.98,Mizuki,,0,0,0,,So, I'm not comparing it to past songs,
+Dialogue: 0,0:39:39.98,0:39:46.40,Mizuki,,0,0,0,,but I really felt that this song has a lot of positive lyrics.
+Dialogue: 0,0:39:46.40,0:39:51.40,Mizuki,,0,0,0,,But even within that, there are emotions that Mizuki is grappling with,
+Dialogue: 0,0:39:54.92,0:39:59.84,Mizuki,,0,0,0,,and I don't think they're someone who can fully express them. So,
+Dialogue: 0,0:39:59.84,0:40:02.52,Mizuki,,0,0,0,,I consulted with the director about how much nuance to add,
+Dialogue: 0,0:40:02.52,0:40:05.78,Mizuki,,0,0,0,,like, how much 'strength' to add or subtract,
+Dialogue: 0,0:40:05.78,0:40:09.54,Mizuki,,0,0,0,,and we discussed various things to create this song.
+Dialogue: 0,0:40:09.54,0:40:15.20,Mizuki,,0,0,0,,Even the parts where it sounds like a radio, I was like,
+Dialogue: 0,0:40:17.00,0:40:22.37,Mizuki,,0,0,0,,'Can I really put my emotions into it, maybe make my voice a little hoarse?'
+Dialogue: 0,0:40:22.37,0:40:26.32,Mizuki,,0,0,0,,We discussed those kinds of nuances a lot for this song.
+Dialogue: 0,0:40:26.32,0:40:35.12,Mizuki,,0,0,0,,So please, enjoy both the full version 2DMV and the 3DMV where Mizuki smiles at you.
+Dialogue: 0,0:40:35.12,0:40:38.88,Mizuki,,0,0,0,,Both have already been uploaded to the official ProSeka YouTube channel,
+Dialogue: 0,0:40:38.88,0:40:41.88,Mizuki,,0,0,0,,so I hope you'll check them out.
+Dialogue: 0,0:40:42.56,0:40:47.70,Mizuki,,0,0,0,,And with that, though it was a short time, this edition of ProSeka AfterTalk,
+Dialogue: 0,0:40:47.70,0:40:51.58,Mizuki,,0,0,0,,"Reaching for an Unraveling Tomorrow," has come to an end.
+Dialogue: 0,0:40:51.58,0:40:54.20,Mizuki,,0,0,0,,To everyone who watched the stream, how was it?
+Dialogue: 0,0:40:54.20,0:40:55.48,Mizuki,,0,0,0,,Let's take a look at the comments.
+Dialogue: 0,0:40:56.75,0:40:57.34,Mizuki,,0,0,0,,
+Dialogue: 0,0:40:57.34,0:41:01.38,Mizuki,,0,0,0,,Oonuma Paseri's MV and N25's 2D have different vibes, but both are good.
+Dialogue: 0,0:41:01.38,0:41:02.24,Mizuki,,0,0,0,,That's right.
+Dialogue: 0,0:41:02.24,0:41:05.24,Mizuki,,0,0,0,,Mizuki, well, how should I put it?
+Dialogue: 0,0:41:06.08,0:41:12.00,Mizuki,,0,0,0,,Like students deciding their future paths... ProSeka will soon celebrate its 5th anniversary.
+Dialogue: 0,0:41:12.00,0:41:17.24,Mizuki,,0,0,0,,Mizuki has been through a lot leading up to the 5th anniversary, and in that, they face forward.
+Dialogue: 0,0:41:17.24,0:41:21.36,Mizuki,,0,0,0,,To face forward, these things happened, but it's like, 'I'll do my best,' or...
+Dialogue: 0,0:41:21.36,0:41:24.36,Mizuki,,0,0,0,,the feeling of 'I'll do my best' is expressed in that way.
+Dialogue: 0,0:41:24.36,0:41:28.80,Mizuki,,0,0,0,,I think it's decorated with N25's feelings, but Oonuma-san's version...
+Dialogue: 0,0:41:28.80,0:41:29.58,Mizuki,,0,0,0,,How should I put it?
+Dialogue: 0,0:41:29.58,0:41:36.94,Mizuki,,0,0,0,,It's an MV of a tired working adult cheering themselves on to face forward.
+Dialogue: 0,0:41:36.94,0:41:43.55,Mizuki,,0,0,0,,I think that even with the same lyrics, depending on the singer, the performer,
+Dialogue: 0,0:41:43.55,0:41:49.16,Mizuki,,0,0,0,,or the way it's expressed, the song itself has a really wide range.
+Dialogue: 0,0:41:49.16,0:41:54.68,Mizuki,,0,0,0,,That's what I thought. So please, Oonuma-san's version...
+Dialogue: 0,0:41:54.68,0:41:55.92,Mizuki,,0,0,0,,Is it called 2D, that one?
+Dialogue: 0,0:41:55.92,0:41:56.50,Mizuki,,0,0,0,,What do you call it?
+Dialogue: 0,0:41:56.50,0:41:57.90,Mizuki,,0,0,0,,Is it an MV?
+Dialogue: 0,0:41:57.90,0:42:02.16,Mizuki,,0,0,0,,I hope you'll enjoy that MV as well.
+Dialogue: 0,0:42:02.68,0:42:07.66,Mizuki,,0,0,0,,Again, to put it simply, up until now,
+Dialogue: 0,0:42:07.66,0:42:14.54,Mizuki,,0,0,0,,N25's stories have often revealed heavy or suffocating aspects.
+Dialogue: 0,0:42:14.54,0:42:18.60,Mizuki,,0,0,0,,I think there were many stories that came to light,
+Dialogue: 0,0:42:18.60,0:42:23.68,Mizuki,,0,0,0,,but this one, especially for high school second-years,
+Dialogue: 0,0:42:23.68,0:42:29.70,Mizuki,,0,0,0,,and even third-years, I think it's an event story
+Dialogue: 0,0:42:29.70,0:42:35.72,Mizuki,,0,0,0,,where high school students can truly empathize with the characters.
+Dialogue: 0,0:42:35.72,0:42:39.32,Mizuki,,0,0,0,,Things like how to decide your future path,
+Dialogue: 0,0:42:40.36,0:42:47.40,Mizuki,,0,0,0,,or lacking confidence in accepting what you like, or not being able to love what you like,
+Dialogue: 0,0:42:47.40,0:42:51.09,Mizuki,,0,0,0,,if there are people who feel that way right now—and that's not just students,
+Dialogue: 0,0:42:51.09,0:42:52.72,Mizuki,,0,0,0,,but working adults too, of course—
+Dialogue: 0,0:42:52.72,0:42:57.32,Mizuki,,0,0,0,,if you haven't seen the event story yet, or haven't experienced the song,
+Dialogue: 0,0:42:57.32,0:43:02.74,Mizuki,,0,0,0,,I think this story and song might contain words that resonate with you
+Dialogue: 0,0:43:02.74,0:43:05.12,Mizuki,,0,0,0,,precisely because of where you are right now.
+Dialogue: 0,0:43:05.12,0:43:12.56,Mizuki,,0,0,0,,So, I hope all you adults and students will enjoy it to the very end.
+Dialogue: 0,0:43:13.48,0:43:17.24,Mizuki,,0,0,0,,And so, for those who haven't finished the story for the event "
+Dialogue: 0,0:43:17.24,0:43:19.36,Mizuki,,0,0,0,,Reaching for an Unraveling Tomorrow,
+Dialogue: 0,0:43:19.36,0:43:24.82,Mizuki,,0,0,0,," you can read the entire event story from the Event Stories menu once the next event starts.
+Dialogue: 0,0:43:24.82,0:43:25.86,Mizuki,,0,0,0,,Please read it.
+Dialogue: 0,0:43:25.86,0:43:30.14,Mizuki,,0,0,0,,It will probably be uploaded to YouTube later,
+Dialogue: 0,0:43:30.14,0:43:31.96,Mizuki,,0,0,0,,so it's perfectly fine to wait for that.
+Dialogue: 0,0:43:32.56,0:43:35.62,Mizuki,,0,0,0,,We're always looking for messages for our AfterTalks.
+Dialogue: 0,0:43:35.62,0:43:38.83,Mizuki,,0,0,0,,We're accepting submissions for AfterTalk messages
+Dialogue: 0,0:43:38.83,0:43:43.72,Mizuki,,0,0,0,,via the official ProSeka Discord channel's submission channel, or via email.
+Dialogue: 0,0:43:43.72,0:43:47.86,Mizuki,,0,0,0,,Please send one in when the next AfterTalk event starts.
+Dialogue: 0,0:43:47.86,0:43:51.70,Mizuki,,0,0,0,,Just make sure your messages are related to the event.
+Dialogue: 0,0:43:51.70,0:43:55.80,Mizuki,,0,0,0,,August is almost over, and then it'll be September.
+Dialogue: 0,0:43:55.80,0:43:59.00,Mizuki,,0,0,0,,After September, the fan festa awaits.
+Dialogue: 0,0:43:59.00,0:44:04.64,Mizuki,,0,0,0,,We're actually making preparations little by little, so please look forward to that too.
+Dialogue: 0,0:44:04.64,0:44:10.88,Mizuki,,0,0,0,,I'd be happy if you did. August is ending, but the heat isn't, so...
+Dialogue: 0,0:44:10.88,0:44:15.00,Mizuki,,0,0,0,,everyone, please really be careful about heatstroke. If you think it's too much,
+Dialogue: 0,0:44:15.00,0:44:18.56,Mizuki,,0,0,0,,I think it's perfectly fine to escape. Escape the heat.
+Dialogue: 0,0:44:18.56,0:44:20.48,Mizuki,,0,0,0,,Cooling down is the most important thing.
+Dialogue: 0,0:44:20.48,0:44:23.76,Mizuki,,0,0,0,,Everyone, let's somehow meet at the fan festa.
+Dialogue: 0,0:44:23.76,0:44:25.96,Mizuki,,0,0,0,,We'll be waiting for you at the venue too.
+Dialogue: 0,0:44:25.96,0:44:28.50,Mizuki,,0,0,0,,Thank you everyone for watching until the end.
+Dialogue: 0,0:44:28.50,0:44:32.44,Mizuki,,0,0,0,,Let's all survive the summer! And with that, I'll see you all again.
+Dialogue: 0,0:44:32.44,0:44:34.52,Mizuki,,0,0,0,,
+Dialogue: 0,0:44:34.52,0:44:35.36,Mizuki,,0,0,0,,Bye!

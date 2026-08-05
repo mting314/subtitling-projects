@@ -66,13 +66,32 @@ def _parse(path):
 
 
 def _playres(header):
-    x, y = 1920, 1080
+    """Read PlayResX/Y, warning loudly if they're missing.
+
+    An .ass with no PlayRes is a real bug, not a cosmetic one: libass falls back to a
+    384x288 script canvas and scales it up to the video frame, so a Fontsize-100 style
+    renders ~5x too large and nearly every line wraps to 3+ rows. `pyass` (autosub's ASS
+    writer) omitted these until the generator was fixed, so older files need a backfill.
+    We render at 1920x1080 here, which does NOT reproduce that blowup — so without the
+    warning the counts below would look fine while the real hardsub is broken.
+    """
+    x = y = None
     for ln in header.split("\n"):
         if ln.startswith("PlayResX:"):
             x = int(ln.split(":", 1)[1].strip())
         elif ln.startswith("PlayResY:"):
             y = int(ln.split(":", 1)[1].strip())
-    return x, y
+    if x is None or y is None:
+        print(
+            "WARNING: no PlayResX/PlayResY in [Script Info].\n"
+            "         libass will assume 384x288 and scale up (~5x), so the real render\n"
+            "         wraps far more than measured here. Add these to the header:\n"
+            "             PlayResX: 1920\n"
+            "             PlayResY: 1080\n"
+            "         then re-run. (Measuring at 1920x1080 for now.)",
+            file=sys.stderr,
+        )
+    return x or 1920, y or 1080
 
 
 def _count_rows(png, rel=0.10, min_band=15):
