@@ -5,7 +5,7 @@ Applies:
 - Subtitle burn-in via `subtitles=` filter with automatic segment time-shifting so subtitles render on trimmed clips.
 - Popup image / VA card overlays from `popups.json` if present.
 - 0.4s Video & Audio fade-in / fade-out transitions at segment boundaries for smooth cuts.
-- GPU hardware acceleration (`h264_nvenc` with CPU fallback).
+- Hardware-accelerated encode, auto-detected: NVIDIA `h264_nvenc` → Apple `h264_videotoolbox` → `libx264` (CPU).
 
 Usage:
     uv run python scripts/hardsub_trim.py <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> [<start2> <end2> ...]
@@ -24,6 +24,28 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+
+
+_ENCODER_CACHE = None
+
+
+def video_encoder_args() -> list[str]:
+    """Pick the best available H.264 encoder: NVIDIA GPU → Apple VideoToolbox → libx264."""
+    global _ENCODER_CACHE
+    if _ENCODER_CACHE is None:
+        try:
+            avail = subprocess.run(["ffmpeg", "-hide_banner", "-encoders"],
+                                   capture_output=True, text=True).stdout
+        except Exception:
+            avail = ""
+        if "h264_nvenc" in avail:
+            _ENCODER_CACHE = ["-c:v", "h264_nvenc", "-preset", "p4", "-cq", "23"]
+        elif "h264_videotoolbox" in avail:  # Mac hardware encoder
+            _ENCODER_CACHE = ["-c:v", "h264_videotoolbox", "-b:v", "12M"]
+        else:
+            _ENCODER_CACHE = ["-c:v", "libx264", "-preset", "medium", "-crf", "20"]
+        print(f"video encoder: {_ENCODER_CACHE[1]}")
+    return _ENCODER_CACHE
 
 
 def parse_time(t_str: str) -> float:
@@ -139,19 +161,8 @@ def build_hardsub_command(
             ]
         )
 
-    cmd.extend(
-        [
-            "-c:v",
-            "h264_nvenc",
-            "-preset",
-            "p4",
-            "-c:a",
-            "aac",
-            "-b:a",
-            "192k",
-            str(output_part),
-        ]
-    )
+    cmd.extend(video_encoder_args())
+    cmd.extend(["-c:a", "aac", "-b:a", "192k", str(output_part)])
 
     return cmd
 
