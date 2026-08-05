@@ -266,6 +266,8 @@ since PiP/Side-Song lines are the most frequent 3-row offenders.
      |---|---|---|---|---|
      | At The End of The Unraveled Thread (shizu3) | Shizuku | `#99eedd` (`&H00DDEE99`) | `#22ceac` (`&H00ACCE22`) | studio wall L≈0.80; official outline only 1.09× vs bg |
      | Gazing Upon the Night Sky's Fading Stars (saki7) | Saki | `#ffdd44` (`&H0044DDFF`) | `#dbb300` (`&H0000B3DB`) | near-white wall + pale-yellow-sweater host; yellow washed out (1.34× vs bg) |
+     | Colors of Pure Sense (ena6) | Ena | `#ccaa88` (`&H0088AACC`) | `#ba8c5d` (`&H005D8CBA`) | pastel striped wall (L≈0.66); caramel washed out (1.47× vs bg) |
+     | Unsteady, still steady step (hona5) | Shiho | `#bbdd22` (`&H0022DDBB`) | `#a5c31e` (`&H001EC3A5`) | bright song-segment + near-white backgrounds (Shifted 1.26× vs bg) |
 4. **Shifted Character Styles (`<Character> - Shifted`):**
    - Inherit character colors and **Fontsize 100** exactly. Only margins change: `MarginL = 100, MarginR = 730, MarginV = 60`.
 5. **PiP Character Styles (`<Character> - PiP`):**
