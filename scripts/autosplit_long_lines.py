@@ -2,28 +2,33 @@
 """Auto-fix 3+ row subtitle lines by splitting them at real clause boundaries.
 
 Drives `detect_long_lines.py` (to find offenders) and `split_subtitle_line.py` (to split
-each at a boundary near its midpoint), looping until nothing improves. Lines with no safe
-boundary are left for you to reword by hand. Finally it audits every split pair for a
-stranded conjunction / broken phrase.
+each near its midpoint), looping until nothing improves. Lines with no safe boundary are
+left for you to reword by hand, and the result is audited for stranded conjunctions.
 
-Boundary rules (learned the hard way — see the Gazing pass):
-  - PREFER a sentence end (`. ! ? …`) inside the line, then a comma, then a subordinator.
-  - Coordinating conjunctions (and/but/so/or/yet) are only used **with a preceding comma**
-    (`, and`). Without the comma, "and" usually joins a phrase, not a clause
-    ("both Saki-chan and I", "between X and Y") — splitting there reads wrong.
-  - NEVER split before "to": it's almost always an infinitive marker or preposition
-    ("able to reach", "going to happen", "the way to do it").
-  - Only accept a boundary that leaves both halves within [--min-share, 1-min-share] of
-    the line, so neither half is a stranded fragment.
+WHERE TO BREAK — this encodes the Netflix Timed Text Style Guide line-break rules
+(the de-facto industry standard; BBC's guidelines and the academic subtitle-segmentation
+literature — Karakanta et al., MuST-Cinema — say the same):
+    Break: after punctuation · before conjunctions · before prepositions.
+    NEVER separate: article/adjective from noun · first from last name · verb from its
+    subject pronoun · a prepositional verb from its preposition · a verb from an auxiliary,
+    reflexive pronoun, or negation.
 
-Usage:
-    # dry-run: show the plan, change nothing
+Two engines pick the boundary:
+  - **dep** (default, preferred): a spaCy dependency parse. Only breaks where the two sides
+    are separate subtrees — structurally guaranteeing none of the "never separate" pairs are
+    split (this is the "syntactically aware segmentation" the literature recommends).
+  - **regex**: a dependency-free approximation (sentence ends, commas, comma-gated
+    coordinators, no infinitive "to"). Used automatically if spaCy/model aren't installed.
+
+Usage (dep engine needs spaCy + the small English model):
+    uv run --with pillow --with numpy --with spacy --with click \
+        --with "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" \
+        python3 scripts/autosplit_long_lines.py "<name>_translated.ass" \
+        --transcript "<name>_transcript.json" [--apply]
+
+    # regex engine only (no spaCy):
     uv run --with pillow --with numpy python3 scripts/autosplit_long_lines.py \
-        "<name>_translated.ass" --transcript "<name>_transcript.json"
-
-    # apply
-    uv run --with pillow --with numpy python3 scripts/autosplit_long_lines.py \
-        "<name>_translated.ass" --transcript "<name>_transcript.json" --apply
+        "<name>_translated.ass" --transcript "<name>_transcript.json" --engine regex [--apply]
 """
 
 from __future__ import annotations
@@ -38,71 +43,132 @@ SCRIPTS = Path(__file__).resolve().parent
 DETECT = SCRIPTS / "detect_long_lines.py"
 SPLIT = SCRIPTS / "split_subtitle_line.py"
 
-COORD = ("and", "but", "so", "or", "yet")
+COORD = ("and", "but", "so", "or", "yet", "nor")
 SUBORD = ("because", "when", "while", "since", "although", "though",
           "which", "where", "who", "that", "if")
+COMPLEMENTIZERS = {"that", "how", "why", "what", "whether", "if", "when", "where", "who"}
 SENT_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'])|(?<=\.\.\.)\s+")
+
+# Dependency labels that bind two tokens into one tight unit — a subtitle break must never
+# fall between them (encodes the Netflix "never separate" list structurally).
+HARD_TIGHT = {
+    "det", "poss", "predet", "amod", "compound", "nummod", "flat", "fixed", "aux", "auxpass",
+    "cop", "neg", "prt", "case", "nsubj", "nsubjpass", "csubj", "csubjpass", "expl", "dobj",
+    "dative", "attr", "acomp", "oprd", "agent", "nmod", "appos", "pcomp", "pobj", "quantmod",
+}
+
+# cognition/speech verbs that take a (often that-less) complement; ending a line on one
+# strands the complement ("I really felt | they wrote…").
+COMPLEMENT_VERBS = {
+    "felt", "feel", "feels", "think", "thinks", "thought", "know", "knows", "knew",
+    "believe", "believed", "realize", "realized", "said", "say", "says", "hope", "hoped",
+    "wish", "wished", "guess", "suppose", "mean", "meant", "see", "saw", "notice", "noticed",
+    "find", "found", "heard", "hear", "wonder", "wondered", "assume", "assumed", "decided",
+    "remember", "remembered", "imagine", "imagined", "figured", "worried",
+}
 
 
 def _strip_tags(text):
     return re.sub(r"\{[^}]*\}", "", text)
 
 
-def _flagged(ass, flag_over):
-    """Return line numbers detect_long_lines.py flags (>flag_over rows)."""
-    r = subprocess.run(
-        ["uv", "run", "--with", "pillow", "--with", "numpy", "python3", str(DETECT),
-         str(ass), "--flag-over", str(flag_over)],
-        capture_output=True, text=True)
-    nums = []
-    for ln in r.stdout.splitlines():
-        m = re.match(r"\s*(\d+)\s+\d+:\d+:", ln)
-        if m and "FLAG" in ln:
-            nums.append(int(m.group(1)))
-    return nums
+def _load_nlp():
+    try:
+        import spacy
+        return spacy.load("en_core_web_sm")
+    except Exception:
+        return None
 
 
-def pick_boundary(text, min_share):
-    """Choose the substring that should begin line B, or None if no safe boundary."""
+def pick_boundary_dep(nlp, text, min_share):
+    """spaCy dependency-parse boundary picker. Returns the substring that begins line B."""
+    prose = _strip_tags(text)
+    doc = nlp(prose)
+    toks = list(doc)
+    n = len(prose)
+    if n < 20 or len(toks) < 4:
+        return None
+    best = None
+    for k in range(1, len(toks)):
+        tk = toks[k]
+        idx = tk.idx
+        if not (min_share * n <= idx <= (1 - min_share) * n):
+            continue
+        if tk.tag_ == "TO":                                   # infinitive marker
+            continue
+        if (tk.dep_ == "cc" or tk.pos_ == "CCONJ" or tk.text.lower() in COORD) \
+                and toks[k - 1].text != ",":                  # coordinator needs a comma
+            continue
+        if toks[k - 1].text.lower() in COORD:                 # no dangling 'and'/'but' at line end
+            continue
+        crossing = [t for t in doc if min(t.head.i, t.i) < k <= max(t.head.i, t.i)]
+        forbid = False
+        for t in crossing:
+            if t.dep_ in HARD_TIGHT:
+                forbid = True
+                break
+            if t.dep_ in ("ccomp", "xcomp"):                  # verb | bare complement
+                first = min(t.subtree, key=lambda x: x.i)
+                if first.i == k and tk.dep_ != "mark" and tk.tag_ != "WDT" \
+                        and tk.text.lower() not in COMPLEMENTIZERS:
+                    forbid = True
+                    break
+        if forbid:
+            continue
+        prev = toks[k - 1]
+        score = 0.0
+        if prev.is_punct or prev.text in ".!?":
+            score -= 100
+        if tk.dep_ in ("mark", "advcl", "cc", "conj", "relcl", "parataxis", "prep", "advmod"):
+            score -= 30
+        score += len(crossing) * 5
+        score += abs(idx - n / 2) * 0.1
+        b = prose[idx:].strip()
+        if len(b) > 3 and (best is None or score < best[0]):
+            best = (score, b)
+    return best[1] if best else None
+
+
+def pick_boundary_regex(text, min_share):
+    """Dependency-free fallback: sentence ends > commas > comma-gated coordinators > subordinators."""
     prose = _strip_tags(text)
     n = len(prose)
     if n < 20:
         return None
     mid = n / 2
     lo, hi = min_share * n, (1 - min_share) * n
-    cands = []  # (index_in_prose, B_substring)
-
-    # 1) sentence ends (highest priority)
+    cands = []
     for m in SENT_END.finditer(prose):
         cands.append((m.end(), prose[m.end():], 0))
-    # 2) comma boundaries
     for m in re.finditer(r", ", prose):
         cands.append((m.end(), prose[m.end():], 1))
-    # 3) coordinating conjunctions — ONLY with a preceding comma (", and")
     for c in COORD:
         for m in re.finditer(rf", {c} ", prose):
-            i = m.start() + 2  # B starts at the conjunction word
+            i = m.start() + 2
             cands.append((i, prose[i:], 2))
-    # 4) subordinators / relatives (no comma required)
     for c in SUBORD:
         for m in re.finditer(rf"\b{c} ", prose):
             i = m.start()
-            if i == 0:
-                continue
-            cands.append((i, prose[i:], 3))
-    # NOTE: never split before "to" (infinitive/preposition) — intentionally absent.
-
-    cands = [(i, b, pr) for (i, b, pr) in cands
-             if lo <= i <= hi and len(b.strip()) > 3]
+            if i:
+                cands.append((i, prose[i:], 3))
+    cands = [(i, b, pr) for (i, b, pr) in cands if lo <= i <= hi and len(b.strip()) > 3]
     if not cands:
         return None
-    # closest to midpoint, tie-broken by priority
     i, b, pr = min(cands, key=lambda t: (abs(t[0] - mid), t[2]))
     return b.strip()
 
 
+def _flagged(ass, flag_over):
+    r = subprocess.run(
+        ["uv", "run", "--with", "pillow", "--with", "numpy", "python3", str(DETECT),
+         str(ass), "--flag-over", str(flag_over)],
+        capture_output=True, text=True)
+    return [int(m.group(1)) for ln in r.stdout.splitlines()
+            if "FLAG" in ln and (m := re.match(r"\s*(\d+)\s+\d+:\d+:", ln))]
+
+
 def audit_pairs(ass):
-    """Flag split pairs where line B strands a conjunction / breaks a fixed phrase."""
+    """Flag split pairs that strand a conjunction / break a phrase (safety net)."""
     lines = Path(ass).read_text(encoding="utf-8").split("\n")
     dl = []
     for i, ln in enumerate(lines):
@@ -113,19 +179,21 @@ def audit_pairs(ass):
     for a, b in zip(dl, dl[1:]):
         _, s1, e1, st1, t1 = a
         n2, s2, e2, st2, t2 = b
-        if st1 != st2 or e1 != s2:
+        if st1 != st2 or e1 != s2 or not t1 or not t2:
             continue
-        # Only a MID-SENTENCE continuation can strand a conjunction. If line 1 ends a
-        # sentence (. ! ? possibly + closing quote), line 2's "And"/"To" starts a new
-        # sentence — that's fine, not a broken phrase.
-        if t1.rstrip().rstrip('"\'').endswith((".", "!", "?")):
+        t1r = t1.rstrip()
+        if t1r.rstrip('"\'').endswith((".", "!", "?")):     # sentence boundary — fine
             continue
-        first = t2.split()[:1]
-        first = first[0].lower().strip('.,!?"\'') if first else ""
-        if first == "to":
-            bad.append((n2, "mid-sentence 'to' (infinitive/prep split)", t1, t2))
-        elif first in ("and", "or") and not t1.rstrip().endswith(","):
-            bad.append((n2, f"mid-sentence '{first}' with no preceding comma (likely phrase, not clause)", t1, t2))
+        first_raw = t2.split()[0]
+        first = first_raw.lower().strip('.,!?"\'')
+        cont = first_raw[:1].islower()
+        lastword = re.sub(r"[^a-zA-Z']", "", t1.split()[-1]).lower()
+        if lastword in COMPLEMENT_VERBS and cont and not t1r.endswith((",", "-", "—")):
+            bad.append((n2, f"verb '{lastword}' split from its complement"))
+        elif first == "to":
+            bad.append((n2, "mid-sentence 'to' (infinitive/prep split)"))
+        elif first in ("and", "or") and not t1r.endswith(","):
+            bad.append((n2, f"mid-sentence '{first}' with no preceding comma"))
     return bad
 
 
@@ -134,58 +202,57 @@ def main() -> int:
     ap.add_argument("ass", type=Path)
     ap.add_argument("--transcript", type=Path, help="transcript.json for pause-snapped timing")
     ap.add_argument("--flag-over", type=int, default=2)
-    ap.add_argument("--min-share", type=float, default=0.3, help="min fraction each half must keep")
+    ap.add_argument("--min-share", type=float, default=0.3)
+    ap.add_argument("--engine", choices=("dep", "regex"), default="dep")
     ap.add_argument("--apply", action="store_true", help="write splits (default: dry-run)")
     args = ap.parse_args()
-
     if not args.ass.exists():
         print(f"Error: {args.ass} not found", file=sys.stderr)
         return 1
+
+    nlp = _load_nlp() if args.engine == "dep" else None
+    if args.engine == "dep" and nlp is None:
+        print("spaCy/en_core_web_sm not available — falling back to regex engine.", file=sys.stderr)
+    engine = "dep" if nlp else "regex"
+    pick = (lambda t: pick_boundary_dep(nlp, t, args.min_share)) if nlp \
+        else (lambda t: pick_boundary_regex(t, args.min_share))
+    print(f"engine: {engine}")
 
     flagged = _flagged(args.ass, args.flag_over)
     print(f"{len(flagged)} line(s) over {args.flag_over} rows")
     if not flagged:
         return 0
-
     lines = args.ass.read_text(encoding="utf-8").split("\n")
     plan, reword = [], []
-    for n in flagged:
-        b = pick_boundary(lines[n - 1].split(",", 9)[9], args.min_share)
-        (plan if b else reword).append((n, b))
-
-    for n, b in plan:
-        print(f"  split L{n} @ {b[:44]!r}")
-    for n, _ in reword:
-        txt = _strip_tags(lines[n - 1].split(",", 9)[9]).strip()
-        print(f"  REWORD L{n} (no safe boundary): {txt[:60]!r}")
+    for nline in flagged:
+        b = pick(lines[nline - 1].split(",", 9)[9])
+        (plan if b else reword).append((nline, b))
+    for nline, b in plan:
+        print(f"  split L{nline} @ {b[:46]!r}")
+    for nline, _ in reword:
+        print(f"  REWORD L{nline}: {_strip_tags(lines[nline-1].split(',',9)[9]).strip()[:58]!r}")
 
     if not args.apply:
-        print("\n[dry-run] pass --apply to write. Reword the REWORD lines by hand afterward.")
+        print("\n[dry-run] pass --apply to write; reword the REWORD lines by hand after.")
         return 0
 
-    # apply splits descending so earlier line numbers stay valid
     tcmd = ["--transcript", str(args.transcript)] if args.transcript else []
     done = 0
-    for n, b in sorted(plan, reverse=True):
-        r = subprocess.run(["python3", str(SPLIT), str(args.ass), "--line", str(n),
+    for nline, b in sorted(plan, reverse=True):
+        r = subprocess.run(["python3", str(SPLIT), str(args.ass), "--line", str(nline),
                             "--before", b, *tcmd], capture_output=True, text=True)
         if r.returncode == 0:
             done += 1
         else:
-            reword.append((n, None))
-            print(f"  L{n} split failed: {r.stderr.strip()[-70:]}")
+            print(f"  L{nline} split failed: {r.stderr.strip()[-70:]}")
     print(f"\napplied {done} split(s)")
-
     remaining = _flagged(args.ass, args.flag_over)
     if remaining:
-        print(f"still {len(remaining)} over-length (reword these): {remaining}")
+        print(f"still {len(remaining)} over-length (reword): {remaining}")
     bad = audit_pairs(args.ass)
-    if bad:
-        print("\nAUDIT — split pairs to review (stranded conjunction / broken phrase):")
-        for n2, why, t1, t2 in bad:
-            print(f"  L{n2}: …{t1.strip()[-34:]!r} | {t2.strip()[:34]!r}  <-- {why}")
-    else:
-        print("audit: no stranded-conjunction split pairs")
+    print("audit: clean" if not bad else "AUDIT — review these pairs:")
+    for n2, why in bad:
+        print(f"  L{n2}: {why}")
     return 0
 
 
