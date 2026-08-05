@@ -3,6 +3,11 @@
 *.mp4
 *.webm
 *.opus
+*.mp3
+*.m4a
+*.wav
+audio.*
+transcript.txt
 
 # derived QC artifacts (regenerable)
 *_segments.png
