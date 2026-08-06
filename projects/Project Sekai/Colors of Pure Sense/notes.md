@@ -1,5 +1,6 @@
 # Colors of Pure Sense - Scratch Notes
 
+**Commit prefix**: `ena6` (canonical event nickname per sekai-story-indexer)
 ## Transcription segments (from autosub run 2026-04-08)
 Segment 1: start=9:45, end=18:19 (514s)
 Segment 2: start=33:35, end=55:30 (1303s)
