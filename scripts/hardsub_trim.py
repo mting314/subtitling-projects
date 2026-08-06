@@ -48,7 +48,6 @@ def video_encoder_args() -> list[str]:
     return _ENCODER_CACHE
 
 
->>>>>>> b5f9e1039f8f1b15367cd1d9e0a747c9e6acf557
 def parse_time(t_str: str) -> float:
     parts = t_str.split(":")
     if len(parts) == 3:
