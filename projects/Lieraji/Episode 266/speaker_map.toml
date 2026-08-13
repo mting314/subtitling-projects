@@ -1,19 +1,59 @@
 # Speaker map for Lieraji Episode 266
 # Main MC: Date Sayuri (Kanon), Sakakura Sakura (Tomari)
 # Guest: Yabushima Akane (Mei)
-# Chirp 3 uses 0-based labels. Verify and swap after first transcription.
 
 [speakers."0"]
 name = "Date Sayuri"
-character = "Kanon Shibuya"
+character = "Tomari Onitsuka"
 color = "#FF7F27"
+slot = 1
+avatar = "assets/avatars/date_sayuri.jpg"
 
 [speakers."1"]
 name = "Sakakura Sakura"
-character = "Tomari Onitsuka"
+character = "Mei Yoneme"
 color = "#4CD2E2"
+slot = 2
+avatar = "assets/avatars/sakakura_sakura.jpg"
 
 [speakers."2"]
 name = "Yabushima Akane"
-character = "Mei Yoneme"
+character = "Kanon Shibuya"
 color = "#FF3535"
+slot = 3
+avatar = "assets/avatars/yabushima_akane.jpg"
+
+[speakers."3"]
+name = "Sakakura Sakura"
+character = "Mei Yoneme"
+color = "#4CD2E2"
+slot = 2
+avatar = "assets/avatars/sakakura_sakura.jpg"
+
+[speakers."4"]
+name = "Sakakura Sakura"
+character = "Mei Yoneme"
+color = "#4CD2E2"
+slot = 2
+avatar = "assets/avatars/sakakura_sakura.jpg"
+
+[speakers."5"]
+name = "Date Sayuri"
+character = "Tomari Onitsuka"
+color = "#FF7F27"
+slot = 1
+avatar = "assets/avatars/date_sayuri.jpg"
+
+[speakers."6"]
+name = "Yabushima Akane"
+character = "Kanon Shibuya"
+color = "#FF3535"
+slot = 3
+avatar = "assets/avatars/yabushima_akane.jpg"
+
+[speakers."7"]
+name = "Date Sayuri"
+character = "Tomari Onitsuka"
+color = "#FF7F27"
+slot = 1
+avatar = "assets/avatars/date_sayuri.jpg"
