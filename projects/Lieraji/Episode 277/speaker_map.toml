@@ -1,4 +1,4 @@
-﻿# Speaker map for Lieraji Episode 277 (Team Midori)
+# Speaker map for Lieraji Episode 277 (Team Midori)
 # Selection 5 official character colors from https://ratius.github.io/LLS/color.html
 
 [speakers."0"]
@@ -6,39 +6,39 @@ name = "Sakakura Sakura"
 character = "Tomari Onitsuka"
 color = "#5DD1CA"
 slot = 1
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/sakakura_sakura.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/sakakura_sakura.png"
 
 [speakers."1"]
 name = "Sakakura Sakura"
 character = "Tomari Onitsuka"
 color = "#5DD1CA"
 slot = 1
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/sakakura_sakura.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/sakakura_sakura.png"
 
 [speakers."2"]
-name = "Ookuma Wakana"
+name = "Okuma Wakana"
 character = "Shiki Wakana"
 color = "#ABDFD0"
 slot = 2
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/ookuma_wakana.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/okuma_wakana.png"
 
 [speakers."3"]
 name = "Aoyama Nagisa"
 character = "Ren Hazuki"
 color = "#172B80"
 slot = 3
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/aoyama_nagisa.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/aoyama_nagisa.png"
 
 [speakers."4"]
 name = "Sakakura Sakura"
 character = "Tomari Onitsuka"
 color = "#5DD1CA"
 slot = 1
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/sakakura_sakura.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/sakakura_sakura.png"
 
 [speakers."5"]
-name = "Ookuma Wakana"
+name = "Okuma Wakana"
 character = "Shiki Wakana"
 color = "#ABDFD0"
 slot = 2
-avatar = "projects/projects/Lieraji/Episode 277/assets/avatars/ookuma_wakana.jpg"
+avatar = "projects/projects/Lieraji/assets/avatars/okuma_wakana.png"
