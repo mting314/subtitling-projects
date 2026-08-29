@@ -6,7 +6,6 @@ Project files for Japanese-to-English fan subtitle translations. This repo track
 
 - **Project Sekai** — AfterTalk streams, anniversary videos, event content from the rhythm game
 - **Lieraji** — Episodic radio show (Liella no Radio Japan), Love Live! Superstar!! cast
-- **Liella 6th to 7th** — Love Live! Superstar!! Liella! live concert content
 
 All projects live under `projects/`, each in a subdirectory named after the content.
 

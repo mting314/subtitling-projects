@@ -35,7 +35,3 @@ Weekly radio show for Love Live! Superstar!! featuring Liella! cast members.
 | 249 | Sakakura, Date, Aoyama | Complete |
 | 264 | Date, Sakakura | Translated |
 | 265 | Date, Sakakura, Yabushima | Transcribed |
-
-### Liella 6th to 7th
-
-Love Live! Superstar!! Liella! live concert content.
