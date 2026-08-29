@@ -47,6 +47,40 @@ COORD = ("and", "but", "so", "or", "yet", "nor")
 SUBORD = ("because", "when", "while", "since", "although", "though",
           "which", "where", "who", "that", "if")
 COMPLEMENTIZERS = {"that", "how", "why", "what", "whether", "if", "when", "where", "who"}
+
+# Proper nouns a break must never fall inside. spaCy tokenises on the internal
+# punctuation, so "Leo/need" looks like two words and a boundary can land between
+# them, leaving a line ending in "Leo/". Matched case-insensitively.
+ATOMIC_TERMS = (
+    "Leo/need",
+    "Wonderlands\u00d7Showtime", "Wonderlands x Showtime",
+    "MORE MORE JUMP!", "MORE MORE JUMP",
+    "Vivid BAD SQUAD",
+    "25-ji, Nightcord de.", "Nightcord at 25:00",
+    "Virtual Singer",
+    "Hatsune Miku", "Kagamine Rin", "Kagamine Len", "Megurine Luka",
+)
+
+
+def _atomic_spans(prose):
+    """Character ranges of any atomic term occurring in prose."""
+    low = prose.lower()
+    spans = []
+    for term in ATOMIC_TERMS:
+        t = term.lower()
+        start = low.find(t)
+        while start != -1:
+            spans.append((start, start + len(t)))
+            start = low.find(t, start + 1)
+    return spans
+
+
+def _splits_atomic(prose, idx, spans=None):
+    """True when breaking at idx would cut through one of those names."""
+    for a, b in (_atomic_spans(prose) if spans is None else spans):
+        if a < idx < b:
+            return True
+    return False
 SENT_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'])|(?<=\.\.\.)\s+")
 
 # Dependency labels that bind two tokens into one tight unit — a subtitle break must never
@@ -88,11 +122,14 @@ def pick_boundary_dep(nlp, text, min_share):
     n = len(prose)
     if n < 20 or len(toks) < 4:
         return None
+    atomic = _atomic_spans(prose)
     best = None
     for k in range(1, len(toks)):
         tk = toks[k]
         idx = tk.idx
         if not (min_share * n <= idx <= (1 - min_share) * n):
+            continue
+        if _splits_atomic(prose, idx, atomic):
             continue
         if tk.tag_ == "TO":                                   # infinitive marker
             continue
@@ -151,7 +188,9 @@ def pick_boundary_regex(text, min_share):
             i = m.start()
             if i:
                 cands.append((i, prose[i:], 3))
-    cands = [(i, b, pr) for (i, b, pr) in cands if lo <= i <= hi and len(b.strip()) > 3]
+    atomic = _atomic_spans(prose)
+    cands = [(i, b, pr) for (i, b, pr) in cands
+             if lo <= i <= hi and len(b.strip()) > 3 and not _splits_atomic(prose, i, atomic)]
     if not cands:
         return None
     i, b, pr = min(cands, key=lambda t: (abs(t[0] - mid), t[2]))
