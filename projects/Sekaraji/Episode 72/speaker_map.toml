@@ -1,0 +1,26 @@
+# Speaker map for Sekaraji Episode 72 (Shizuku / Ena)
+# Character colours from sekai-story-indexer meta.json (webapp/static/meta.json),
+# which is the documented ProSeka source in autosub's docs/speaker_colors.md.
+# They also match the name-banner tints on the show card itself.
+#
+# Only labels 0 and 1 are mapped so far. Chirp 3 diarizes each 18-minute chunk
+# independently and over-segments, so this episode will surface more raw labels
+# than there are hosts. Run `autosub assign-speakers` after the first pass and add
+# the extra labels here, all pointing at slot 1 or slot 2.
+#
+# Avatar paths are relative to THIS FILE, so the map works whatever directory the
+# pipeline runs from.
+
+[speakers."0"]
+name = "Rina Honnizumi"
+character = "Shizuku Hinomori"
+color = "#99EEDD"
+slot = 1
+avatar = "../official_cast_photos/rina_honnizumi.webp"
+
+[speakers."1"]
+name = "Minori Suzuki"
+character = "Ena Shinonome"
+color = "#CCAA88"
+slot = 2
+avatar = "../official_cast_photos/minori_suzuki.webp"
