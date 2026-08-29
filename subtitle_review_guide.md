@@ -333,6 +333,12 @@ Canonical forms to enforce across all episodes of a show.
 |---|---|---|
 | Program name | `ProSeka AfterTalk` | capital T (also `AfterLive`, capital L) |
 | Unit (MMJ) | `MORE MORE JUMP!` / `MMJ` | full name first use, then abbreviate |
+| Unit (Leo/need) | `Leo/need` | `レオニ` also renders `Leo/need` |
+| Unit (VBS) | `Vivid BAD SQUAD` / `VBS` | `ビビバス` → `VBS`, never "Vivibasu" |
+| Unit (WxS) | `Wonderlands x Showtime` / `WxS` | `ワンダショ` → `WxS`, never "Wandasho" |
+| Unit (N25) | `Nightcord at 25:00` / `N25` | `ニーゴ` → `N25`, never "Niigo" |
+| Unit (VS) | `Virtual Singer` | |
+| Fan greetings | `kon-needo`, `kon-more`, `kon-niigo`, `Wonderhoi!` | lowercase, hyphenated — coined catchphrases, NOT the unit abbreviations |
 | Shizuku's debut unit | `Cheerful＊Days` | fullwidth ＊ (U+FF0A) — official stylization |
 | Rival character | `Hagiyama-chan` | unify honorific unless a -san/-chan split is intentional |
 | Vocaloid | `Miku` / `Miku-chan` | never `MIKU` |
@@ -344,3 +350,12 @@ Canonical forms to enforce across all episodes of a show.
 
 > When standardizing a stylized name, the fullwidth ＊ is U+FF0A (not the ASCII `*`).
 > Copy it from an existing correct instance to avoid typing the wrong glyph.
+
+> **Unit abbreviations vs fan greetings.** The Japanese colloquial short form maps to the
+> English community short form (`モモジャン` → `MMJ`), *not* to a transliteration of the
+> Japanese (`Momojan`). The greetings are the exception — `コンモア` stays `kon-more`,
+> because those are coined catchphrases (see `subtitle_style_rules.md`). The same table is
+> codified in `profiles/proseka/base.toml` in the autosub repo, so translation and this QC
+> pass enforce the same forms; change both together.
+>
+> Episodes published before 2026-08-29 predate this and use `Momojan` / `Niigo`.
