@@ -12,9 +12,8 @@ Projects are grouped by **franchise**, then by show type:
 ```
 projects/
   Project Sekai/
-    official_cast_photos/   shared VA press photos      \
-    character_art/          shared sekai.best art        > see CAST.md
-    CAST.md                 VA registry + conventions   /
+    official_cast_photos/   shared VA press photos, given_family.webp
+    character_art/          shared sekai.best art, named by character
     profiles/
     Aftertalk/     11 AfterTalk streams
     Events/        fan meetings, anniversary videos, one-offs
@@ -30,7 +29,20 @@ projects/
 character art, the Lato font — lives once at the franchise level, not copied into each
 event folder. `scripts/generate_overlays.py` searches from the event folder up to the repo
 root, so a popup's `source` can be a bare filename like `minori_suzuki.webp`. A local file
-always shadows the shared one. See [`projects/Project Sekai/CAST.md`](projects/Project%20Sekai/CAST.md).
+always shadows the shared one.
+
+**Asset filenames follow each franchise's own name order.** ProSeka uses **given_family**
+(`minori_suzuki.webp`), matching the Western order this repo uses in subtitles. Lieraji uses
+**family_given** (`date_sayuri.png`) because it follows the romanization printed on the
+official Liella! cast page. Both are correct for their show — don't "fix" one to match the
+other.
+
+**Cast data itself is not stored here.** VA names, kanji, and character assignments live in
+the autosub repo's `profiles/proseka/*.toml`, which is the only copy that reaches the
+transcriber and translator; `Project Sekai/profiles/*.md` are derived reference tables. When
+a VA's kanji is wrong, correct the `.toml` first — see `profiles/proseka/README.md` in
+autosub. A fix applied only to the `.md` changes nothing about the output, which has already
+happened once.
 
 ## Workflow
 
@@ -100,7 +112,7 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 2. **Add the raw source image.** Memes and one-off reference shots go in the project folder —
    commit them, they're the archival source a card is (re)built from. **VA photos instead go
    in the franchise `official_cast_photos/`** (`given_family.webp`), because the same VA
-   recurs across events; reference them by bare filename and add a row to `CAST.md`.
+   recurs across events; reference them by bare filename.
 
 3. **Define popups in `popups.json`** inside the project folder. **Raw burn-in is the
    default** — most popups are just "put this image on screen". The VA split card is the

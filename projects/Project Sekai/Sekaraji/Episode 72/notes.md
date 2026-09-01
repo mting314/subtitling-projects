@@ -132,7 +132,10 @@ these are referenced directly — no pre-cropped `avatars/` needed yet.
 > `Project Sekai/official_cast_photos/`, since Sekaraji and the AfterTalks share one VA pool.
 > `minori_suzuki.webp` was previously duplicated in We Escape to Survive Aftertalk as
 > `Minori.webp`; that byte-identical copy is gone and the event now resolves the shared one.
-> The `CAST.md` suggested below now exists at `Project Sekai/CAST.md`.
+> The `CAST.md` suggested below was tried and then dropped: its VA-to-filename index was
+> derivable from `ls`, and its one real rule (correct VA kanji in the profile `.toml`
+> first) now lives beside the profiles it governs, in autosub's
+> `profiles/proseka/README.md`.
 > `LATO-EXTRABOLD.TTF` no longer ships per-folder either — one copy lives at
 > `assets/fonts/`, found by walking up from the project dir.
 
@@ -529,9 +532,8 @@ yt-dlp --no-update --no-playlist --js-runtimes node \
    **Superseded:** now `projects/Project Sekai/Sekaraji/Episode 72/`. Sekaraji is a ProSeka
    show sharing the AfterTalks' VA pool, and keeping it top-level stranded the shared cast
    photos inside a sibling folder. The franchise dir (`Project Sekai/`) is now the level
-   that owns `official_cast_photos/`, `character_art/`, and `CAST.md`; `Aftertalk/`,
-   `Events/`, and `Sekaraji/` sit under it. Lieraji is a different franchise and is
-   unchanged.
+   that owns `official_cast_photos/` and `character_art/`; `Aftertalk/`, `Events/`, and
+   `Sekaraji/` sit under it. Lieraji is a different franchise and is unchanged.
 
 ## Open questions
 
