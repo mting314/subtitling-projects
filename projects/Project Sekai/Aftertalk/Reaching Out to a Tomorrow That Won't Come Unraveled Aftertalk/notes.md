@@ -39,7 +39,7 @@ Kept segments (transcribed + translated):
 
 ```bash
 ./scripts/remote.sh \
-  "projects/projects/Project Sekai/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled Aftertalk/Reaching Out to a Tomorrow That Won't Come Unraveled.mkv" \
   run --profile proseka/n25 --backend chirp_3 \
   --start 9:30 --end 15:00 \
   --start 24:45 --end 35:45 \

@@ -304,8 +304,8 @@ summary), reading the canonical layout values live from the reference file. It l
 `scripts/` (next to `hardsub_trim.sh`); run it from the projects repo root:
 
 ```bash
-python3 scripts/apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
-  --reference "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
+python3 scripts/apply_positional_styles.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
+  --reference "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
   --pip   "<Char> - PiP:PiP:650,750" \
   --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
   --dry-run          # inspect first, then drop --dry-run

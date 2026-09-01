@@ -96,12 +96,12 @@ grep -A2 "speakers.cast" profiles/local/proseka/<unit>.toml
 
 ## 4. Create the project folder + notes.md
 
-Folder: `projects/Project Sekai/<English event name> Aftertalk/`. Translate the JP event
+Folder: `projects/Project Sekai/Aftertalk/<English event name> Aftertalk/`. Translate the JP event
 name to a working English title (Colorful Stage EN runs ~1.5 yr behind, so recent events
 have no official EN name — flag the translation for confirmation). Commas/spaces are fine.
 
 ```bash
-mkdir -p "projects/Project Sekai/<English event name> Aftertalk"
+mkdir -p "projects/Project Sekai/Aftertalk/<English event name> Aftertalk"
 ```
 
 Create `notes.md` from the template (copy an existing one, e.g.
@@ -125,7 +125,7 @@ Name the mkv after the folder. This is large (~0.5–1 GB) and slow — run in t
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/Project Sekai/<English event name> Aftertalk/<English event name> Aftertalk.mkv" \
+  -o "projects/Project Sekai/Aftertalk/<English event name> Aftertalk/<English event name> Aftertalk.mkv" \
   "$URL"
 ```
 
@@ -156,7 +156,7 @@ Record the ranges in the `notes.md` "Segments" section, then mirror them as repe
 
 ```bash
 uv run autosub run \
-  "projects/Project Sekai/<English event name> Aftertalk/<English event name> Aftertalk.mkv" \
+  "projects/Project Sekai/Aftertalk/<English event name> Aftertalk/<English event name> Aftertalk.mkv" \
   --profile proseka/<unit> \
   --backend chirp_3 \
   --start HH:MM:SS --end HH:MM:SS \

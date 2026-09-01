@@ -29,7 +29,7 @@ runs the (expensive) pipeline itself.
 
 Usage (run from the projects repo root):
     uv run --with opencv-python-headless --with numpy --with librosa \
-      python3 scripts/scope_segments.py "projects/Project Sekai/<event>/<name>.mkv"
+      python3 scripts/scope_segments.py "projects/Project Sekai/Aftertalk/<event>/<name>.mkv"
 
     # validate against a past episode whose ranges you already know:
     ... scripts/scope_segments.py "<past>.mkv" --truth 9:30-15:00,24:45-35:45,37:55-55:00

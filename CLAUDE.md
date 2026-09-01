@@ -4,10 +4,33 @@ Project files for Japanese-to-English fan subtitle translations. This repo track
 
 ## Projects
 
-- **Project Sekai** — AfterTalk streams, anniversary videos, event content from the rhythm game
+- **Project Sekai** — AfterTalk streams, anniversary videos, event content, and the Sekaraji radio show
 - **Lieraji** — Episodic radio show (Liella no Radio Japan), Love Live! Superstar!! cast
 
-All projects live under `projects/`, each in a subdirectory named after the content.
+Projects are grouped by **franchise**, then by show type:
+
+```
+projects/
+  Project Sekai/
+    official_cast_photos/   shared VA press photos      \
+    character_art/          shared sekai.best art        > see CAST.md
+    CAST.md                 VA registry + conventions   /
+    profiles/
+    Aftertalk/     11 AfterTalk streams
+    Events/        fan meetings, anniversary videos, one-offs
+    Sekaraji/      Sekaraji radio show, by episode
+  Lieraji/
+    official_cast_photos/   Liella! press photos
+    assets/                 cropped avatars + CAST.md
+    Episode NNN/
+  assets/fonts/    LATO-EXTRABOLD.TTF (one copy, shared by all shows)
+```
+
+**Shared assets resolve by walking up.** Anything reused across events — VA photos,
+character art, the Lato font — lives once at the franchise level, not copied into each
+event folder. `scripts/generate_overlays.py` searches from the event folder up to the repo
+root, so a popup's `source` can be a bare filename like `minori_suzuki.webp`. A local file
+always shadows the shared one. See [`projects/Project Sekai/CAST.md`](projects/Project%20Sekai/CAST.md).
 
 ## Workflow
 
@@ -74,8 +97,10 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 
 1. **Never use `img2ass` bitmap drawings** (causes 1000s of lines, file bloat, and subpixel rendering lag).
 
-2. **Add the raw source image** to the project folder (VA photo `.webp`/`.png`, or a meme image).
-   Commit it — it's the archival source a card is (re)built from.
+2. **Add the raw source image.** Memes and one-off reference shots go in the project folder —
+   commit them, they're the archival source a card is (re)built from. **VA photos instead go
+   in the franchise `official_cast_photos/`** (`given_family.webp`), because the same VA
+   recurs across events; reference them by bare filename and add a row to `CAST.md`.
 
 3. **Define popups in `popups.json`** inside the project folder. **Raw burn-in is the
    default** — most popups are just "put this image on screen". The VA split card is the
@@ -98,8 +123,8 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
    {
      "id": "minori",
      "type": "card",                     // REQUIRED for a card; without it you get a raw burn
-     "source": "Minori.webp",
-     "image": "Minori_card.png",
+     "source": "minori_suzuki.webp",     // bare filename; found in official_cast_photos/
+     "image": "minori_card.png",         // written next to popups.json, in the event folder
      "title": "Minori Suzuki",
      "subtitle": "Voice of Ena Shinonome",
      "character": "Ena Shinonome",       // drives the fetched art + banner tint
@@ -112,10 +137,12 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 4. **Generate the overlay PNGs:** `uv run --with pillow python scripts/generate_overlays.py "<project_folder>"`.
    - **raw** (no `type`, or `"type": "raw"`): copies `source` → `image`, resized only if
      `width` is given. No banner, no network, no character metadata needed.
-   - **`"type": "card"`**: VA photo (`source`, left) + character art (right, fetched to
-     `<id>_art.png` from sekai.best and cached) + Lato banner → writes `image`.
-   - Cross-platform: finds `LATO-EXTRABOLD.TTF` in the project folder first (each event ships one),
-     and `meta.json` under `~/github/sekai-story-indexer/`. No network needed if `<id>_art.png` exists.
+   - **`"type": "card"`**: VA photo (`source`, left) + character art (right, fetched from
+     sekai.best into the shared `character_art/<character>.png` and cached) + Lato banner
+     → writes `image`.
+   - Cross-platform: finds `LATO-EXTRABOLD.TTF` in the project folder, then the shared
+     `assets/fonts/`, and `meta.json` under `~/github/sekai-story-indexer/`. No network
+     needed once the character art is cached.
    - Idempotent: an entry with no `source` reads its own `image` and rewrites it unchanged.
 
 5. **Hardsub Overlay:** `hardsub_trim.py` overlays the `image` file at `pos` for `start`–`end`
@@ -124,8 +151,12 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 > **`source` vs `image` — the key gotcha.** `image` is what hardsub burns into the video, so it
 > **must** point at the generated overlay PNG, never at an unsized raw — otherwise the full-res
 > raw gets burned in. `source` is the input the overlay is built from. To rebuild from a new raw:
-> set/point `source`, run `generate_overlays.py`, render-verify the PNG, commit. (Raw sources like
-> `Minori.webp` are archived in the project folder even though hardsub never reads them directly.)
+> set/point `source`, run `generate_overlays.py`, render-verify the PNG, commit. (Raw sources are
+> archived — memes in the event folder, VA photos in the franchise `official_cast_photos/` — even
+> though hardsub never reads them directly.)
+>
+> **Case matters.** Keep `image` byte-identical to the filename on disk. macOS is
+> case-insensitive so a mismatch works locally and then fails in the Linux Docker remote.
 
 ### Migrating legacy `img2ass` projects
 
@@ -135,10 +166,10 @@ libass re-rasterizes thousands of shapes every frame. Convert with:
 
 ```bash
 # inspect first — prints id, decoded size, scale, anchor, resulting overlay pos
-uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/<event>/<name>_translated.ass" --dry-run
+uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" --dry-run
 
 # decode to PNGs, write popups.json entries, remove the drawing lines
-uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/<event>/<name>_translated.ass" \
+uv run --with pillow python3 scripts/img2ass_extract.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
   --write-popups --strip
 ```
 
@@ -159,18 +190,18 @@ Python tool in `scripts/` (run from repo root). Handles single or multiple segme
 
 ```bash
 uv run python scripts/hardsub_trim.py \
-  "projects/Project Sekai/<event>/<name>.mkv" \
-  "projects/Project Sekai/<event>/<name>_translated.ass" \
-  "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
+  "projects/Project Sekai/Aftertalk/<event>/<name>.mkv" \
+  "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
+  "projects/Project Sekai/Aftertalk/<event>/<name>_hardsubbed.mp4" \
   10:00 15:00  30:04 35:26  47:35 48:55  50:29 1:03:03
 ```
 
 Example (Colors of Pure Sense — 2 segments, skipping story recap):
 ```bash
 ./scripts/hardsub_trim.sh \
-  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense.mkv" \
-  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
-  "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_final.mp4" \
+  "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense.mkv" \
+  "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
+  "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense_final.mp4" \
   00:09:45 00:18:19 \
   00:33:35 00:55:30
 ```
@@ -198,8 +229,8 @@ Example tone: casual, enthusiastic, highlights personality moments from the VAs.
 After hardsubbing and writing the title/description in `notes.md`, run:
 ```bash
 uv run --script scripts/youtube_upload.py \
-  --video "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
-  --notes "projects/Project Sekai/<event>/notes.md"
+  --video "projects/Project Sekai/Aftertalk/<event>/<name>_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/Aftertalk/<event>/notes.md"
 ```
 
 ## Git Conventions
