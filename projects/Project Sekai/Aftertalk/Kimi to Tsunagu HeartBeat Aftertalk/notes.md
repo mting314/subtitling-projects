@@ -72,12 +72,16 @@ the other events use:
 | File | What it is |
 | --- | --- |
 | `Kimi to Tsunagu Heart Beat Aftertalk.ass` | **The finished product.** 396 lines, styled, layout pass done |
-| `... - Transcript.ass` | JA transcript (legacy) |
-| `... - Transcript_en.ass` | EN translation before editing (legacy) |
+| `... - Transcript.ass` | JA transcript (legacy). The Japanese of record for this event |
 | `... - Transcript_en_comparison.html` | AI-vs-edited comparison report |
-| `... HeartBeat Aftertalk.ass` | **Dead stub — 0 dialogue lines.** Its `.log` says "No dialogue lines generated!" |
 | `.srt` / `.vtt` / `.tsv` / `.txt` / `.json` | Legacy transcript exports |
 | `raw_transcripts/` | Chirp 3 per-chunk JSON + merged |
+
+> Two `.ass` files were removed in the trial-file sweep: the pre-edit
+> `... - Transcript_en.ass`, superseded by the finished file, and
+> `Kimi to Tsunagu HeartBeat Aftertalk.ass`, a 927-byte stub with zero dialogue lines whose
+> own log read "No dialogue lines generated!". Both recoverable from git history. Watch the
+> spacing when referring to what's left: the survivor is "Heart Beat", two words.
 
 Done so far: transcript, translation, grammar/spelling pass, story cuts removed, undefined
 styles fixed, positional layout pass (`31b175b`), editing in progress (`7e5e1b6`).
