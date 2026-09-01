@@ -17,8 +17,8 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
 Scroll Position: 283
-Active Line: 293
-Video Position: 61004
+Active Line: 289
+Video Position: 60486
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -79,7 +79,7 @@ Dialogue: 0,0:12:30.62,0:12:35.64,Ichika,,0,0,0,,Then it got so many views and j
 Dialogue: 0,0:12:35.64,0:12:38.20,Ichika,,0,0,0,,I mentioned this at the beginning, but I just kept thinking,
 Dialogue: 0,0:12:38.20,0:12:42.65,Ichika,,0,0,0,,"wow, is it really okay for everything to work out this well?"
 Dialogue: 0,0:12:42.65,0:12:46.49,Ichika,,0,0,0,,So many good things happening for Ichika in this story.
-Dialogue: 0,0:12:46.49,0:12:51.30,Ichika,,0,0,0,,I'm really glad that Ichika was able to accomplish one of her goals 
+Dialogue: 0,0:12:46.49,0:12:51.30,Ichika,,0,0,0,,I'm really glad that Ichika was able to accomplish one of her goals
 Dialogue: 0,0:12:51.30,0:12:55.58,Ichika,,0,0,0,,of connecting people through music.
 Dialogue: 0,0:12:55.58,0:12:57.77,Ichika,,0,0,0,,It may be just a small first step for now,
 Dialogue: 0,0:12:57.77,0:13:01.57,Ichika,,0,0,0,,but I really think it is a story where one of her wishes came true,
@@ -95,7 +95,7 @@ Dialogue: 0,0:13:29.70,0:13:33.67,Ichika,,0,0,0,,You know, we haven't really see
 Dialogue: 0,0:13:33.67,0:13:37.82,Ichika,,0,0,0,,I can't help wondering what's making her feel that way.
 Dialogue: 0,0:13:37.82,0:13:40.06,Ichika,,0,0,0,,But yeah, Shiho-chan...
 Dialogue: 0,0:13:40.06,0:13:44.75,Ichika,,0,0,0,,her being so serious about this band... everyone else too, of course.
-Dialogue: 0,0:13:44.75,0:13:47.18,Ichika,,0,0,0,,But with everything going on with the band, 
+Dialogue: 0,0:13:44.75,0:13:47.18,Ichika,,0,0,0,,But with everything going on with the band,
 Dialogue: 0,0:13:47.18,0:13:50.13,Ichika,,0,0,0,,seeing Ichika going off and making Miku songs on her own,
 Dialogue: 0,0:13:50.13,0:13:53.81,Ichika,,0,0,0,,I wonder if Shiho has any feelings about that.
 Dialogue: 0,0:13:53.81,0:13:56.73,Ichika,,0,0,0,,And I wonder what kind of story that will lead to?
@@ -320,8 +320,8 @@ Dialogue: 0,0:33:23.56,0:33:28.16,Ichika,,0,0,0,,"while also showing Leo/need th
 Dialogue: 0,0:33:28.16,0:33:31.68,Ichika,,0,0,0,,"Some of our favorite scenes were Leo/need having fun together
 Dialogue: 0,0:33:31.68,0:33:33.49,Ichika,,0,0,0,,during down time at the studio,"
 Dialogue: 0,0:33:33.49,0:33:36.17,Ichika,,0,0,0,,"and the scene where they walk out on stage together."
-Dialogue: 0,0:33:36.17,0:33:38.34,Ichika,,0,0,0,,"We put lots of attention to detail
-Dialogue: 0,0:33:38.34,0:33:43.31,Ichika,,0,0,0,,into everyone's expressions to show how much fun Leo/need have in their daily lives."
+Dialogue: 0,0:33:36.17,0:33:39.28,Ichika,,0,0,0,,"We put lots of attention to detail into everyone's expressions,"
+Dialogue: 0,0:33:39.28,0:33:43.31,Ichika,,0,0,0,,"being sure to show how much fun Leo/need have in their daily lives."
 Dialogue: 0,0:33:43.31,0:33:48.88,Ichika,,0,0,0,,"We hope you enjoy seeing a side of Leo/need's lives not yet seen in past MVs."
 Dialogue: 0,0:33:48.88,0:33:53.45,Ichika,,0,0,0,,"Furthermore, Leo/need already has many MVs where they perform under a blue sky, "
 Dialogue: 0,0:33:53.45,0:33:58.66,Ichika,,0,0,0,,"but this time, we showed the gradation in a sky transitioning from night to day."
@@ -432,4 +432,3 @@ Dialogue: 0,0:40:57.98,0:41:02.06,Ichika,,0,0,0,,Please keep your messages relat
 Dialogue: 0,0:41:02.06,0:41:05.76,Ichika,,0,0,0,,Well, that's all for our short time today! Thank you everyone!
 Dialogue: 0,0:41:05.76,0:41:08.56,Ichika,,0,0,0,,See you again next time!
 Dialogue: 0,0:41:08.56,0:41:13.98,Ichika,,0,0,0,,Bye bye! Thank you! Good night~
-
