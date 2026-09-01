@@ -130,26 +130,18 @@ the official spelling.
 - Marathon event, not Cheerful Carnival, so the team-name segment is her marathon team.
 
 ## YouTube Title
-[ENG SUB] Kimi to Tsunagu Heart Beat Aftertalk ft. Ruriko Noguchi (Ichika's VA)
+[ENG SUB] Kimi to Tsunagu Heart Beat AfterTalk ft. Ruriko Noguchi (Ichika's VA)
 
-## YouTube Blurb (draft)
-This episode of ProSeka AfterTalk has Ruriko Noguchi (voice of Ichika Hoshino) going through
-the story, card art, and new song for Leo/need's event, "Kimi to Tsunagu Heart Beat."
+## YouTube Blurb
+This episode of ProSeka AfterTalk has Ruriko Noguchi (voice of Ichika Hoshino) going through the story, card art, and new song for Leo/need's event, "Kimi to Tsunagu Heart Beat."
 
-She follows Ichika's growing wish to write a song for Miku and wonders aloud where it leads,
-reads listener messages about the things that feel satisfying purely for their own sake, and
-answers one with a long detour about cooking far too many portions for herself, discovering
-her apartment no longer contains a knife, and cutting carrots with scissors instead. She
-loses her place entirely by the end of it. Then it's the card art one by one, starting with
-her marathon team named "Ichi", plus the 3DMV team's own notes before the "Star" MV. She
-signs off on a busy stretch of ProSeka, with the Thanks Festival two days behind her and a
-movie stage greeting that weekend.
+She follows Ichika's growing wish to write a song for Miku and wonders aloud where it leads, reads listener messages about the things that feel satisfying purely for their own sake, and answers one with a long detour about cooking far too many portions for herself, discovering her apartment no longer contains a knife, and cutting carrots with scissors instead. She loses her place entirely by the end of it. Then it's the card art one by one, starting with her marathon team named "Ichi", plus the 3DMV team's own notes before the "star" MV. She signs off on a busy stretch of ProSeka, with the Thanks Festival two days behind her and a movie stage greeting that weekend.
 
-Original video: TBD
+Original video: https://www.youtube.com/watch?v=UjWYMT969nE
 
 ## Source
-- **URL**: **TBD** — no source URL was recorded for this project. Recover it before
-  publishing; the blurb and this section both need it.
+- **URL**: https://www.youtube.com/watch?v=UjWYMT969nE
+- **Video ID**: UjWYMT969nE
 - **Video**: `Kimi to Tsunagu HeartBeat Aftertalk.mkv`, 43:28
 
 ### Download command (yt-dlp)
@@ -158,5 +150,5 @@ yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
   -o "projects/Project Sekai/Aftertalk/Kimi to Tsunagu HeartBeat Aftertalk/Kimi to Tsunagu HeartBeat Aftertalk.mkv" \
-  "<source URL>"
+  "https://www.youtube.com/watch?v=UjWYMT969nE"
 ```
