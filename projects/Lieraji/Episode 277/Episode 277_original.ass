@@ -11,738 +11,376 @@ Video File: radio_background_with_overlay.png
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Aoyama Nagisa,Arial,44,&H00984000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,4,330,10,0,1
-Style: Ookuma Wakana,Arial,44,&H0089A300,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,4,330,10,0,1
-Style: Sakakura Sakura,Arial,44,&H00E2D24C,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,4,330,10,0,1
+Style: Default,Arial,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:07.32,Sakakura Sakura,,0,0,0,corner,=== Corner: Opening Skit ===
-Dialogue: 0,0:00:00.00,0:00:07.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}明日は四季さんのお誕生日ですね。
-Dialogue: 0,0:00:07.84,0:00:11.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}1日早いですが、お誕生日おめでとうございます。
-Dialogue: 0,0:00:11.88,0:00:12.44,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}ありがとう。
-Dialogue: 0,0:00:13.24,0:00:17.96,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}誕生日前は年齢という数値が1つ増えるだけだと思っていた。
-Dialogue: 0,0:00:18.64,0:00:22.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それは式先輩らしい合理的な捉え方ですね。
-Dialogue: 0,0:00:22.84,0:00:25.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でも今はそれだけではないのですね。
-Dialogue: 0,0:00:26.29,0:00:26.79,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}うん。
-Dialogue: 0,0:00:27.52,0:00:34.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}その1にはみんなと一緒に歌ってステージで大勢の人に応援してもらった月日の積み重ねがある。
-Dialogue: 0,0:00:35.60,0:00:38.60,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}そんな1を祝う大切な誕生日。
-Dialogue: 0,0:00:40.44,0:00:46.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}式さんがスクールアイドル活動を通してそんな風に考えるようになったなんて嬉しいですね。
-Dialogue: 0,0:00:47.80,0:00:51.52,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}では蓮先輩そろそろあれを式先輩に。
-Dialogue: 0,0:00:52.31,0:00:53.02,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あれ?
-Dialogue: 0,0:00:53.02,0:00:54.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうでした。
-Dialogue: 0,0:00:55.12,0:01:00.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こちらは私と友利さん、チーム緑から式さんへプレゼントです。
-Dialogue: 0,0:01:00.88,0:01:03.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}改めてお誕生日おめでとうございます。
-Dialogue: 0,0:01:04.20,0:01:05.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}1日早いですけどね。
-Dialogue: 0,0:01:07.76,0:01:08.48,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}そうですね。
-Dialogue: 0,0:01:09.08,0:01:15.24,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}では明日Liellaみんなでお祝いする前に今日はこのチームでお祝いということで。
-Dialogue: 0,0:01:18.48,0:01:21.32,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}これ栗の形のブローチ。
-Dialogue: 0,0:01:20.92,0:03:38.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}73企画企画、52早いね。
-Dialogue: 0,0:01:22.76,0:01:23.88,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}とても可愛い。
-Dialogue: 0,0:01:24.92,0:01:32.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}チーム緑らしく花や野菜にちなんだものをと2人で考えていたところ友利さんにこちらを提案してもらいました。
-Dialogue: 0,0:01:33.68,0:01:38.24,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}式先輩の好物ですので喜ばれるかなと考えまして。
-Dialogue: 0,0:01:38.95,0:01:39.45,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}うん。
-Dialogue: 0,0:01:40.24,0:01:40.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}嬉しい。
-Dialogue: 0,0:01:41.72,0:01:42.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}ありがとう。
-Dialogue: 0,0:01:42.80,0:01:44.52,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}蓮先輩友利ちゃん。
-Dialogue: 0,0:01:45.64,0:01:48.32,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}このブローチ小さくて可愛い。
-Dialogue: 0,0:01:48.81,0:01:49.51,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ええ。
-Dialogue: 0,0:01:49.51,0:01:51.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}シンプルで良いデザインです。
-Dialogue: 0,0:01:51.96,0:02:00.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}実はそのブローチを取り扱っていたショップで他にも色々と見ていたら気に入ってしまって私もこれを。
-Dialogue: 0,0:02:01.68,0:02:04.20,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}さつまいもの形をしたブローチ?
-Dialogue: 0,0:02:05.08,0:02:07.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}友利ちゃん自分用にも買ったんだ。
-Dialogue: 0,0:02:08.40,0:02:11.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}考えることは同じですね。
-Dialogue: 0,0:02:12.84,0:02:16.32,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}蓮先輩それはイチゴのブローチ?
-Dialogue: 0,0:02:17.36,0:02:20.56,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}形はバラバラだけどこういうのもお揃い?
-Dialogue: 0,0:02:21.48,0:02:29.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}栗、さつまいも、イチゴ確かにバラバラですがチーム緑らしいお揃いのアイテムと言って良いと思います。
-Dialogue: 0,0:02:30.64,0:02:34.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}では今日はお揃いのブローチをつけてラジオを始めましょうか。
-Dialogue: 0,0:02:35.72,0:02:36.48,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}アグリーです。
-Dialogue: 0,0:02:50.00,0:02:53.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Love Live! Superstar!!結ヶ丘ランチタイム放送局Liella!
-Dialogue: 0,0:02:53.84,0:02:54.34,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラジオ。
-Comment: 0,0:03:00.88,0:03:03.28,Ookuma Wakana,,0,0,0,corner,=== Corner: Self-Introductions ===
-Dialogue: 0,0:03:00.88,0:03:03.28,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}皆さんこんにちは。
-Dialogue: 0,0:03:03.76,0:03:06.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}鬼塚友利役くまちゃんこと櫻すみれです。
-Dialogue: 0,0:03:06.44,0:03:08.68,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}わかな式役くまちゃんこと大熊わかなです。
-Dialogue: 0,0:03:08.68,0:03:11.46,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}葉月蓮役なぎちゃんこと青山なぎさです。
-Dialogue: 0,0:03:11.46,0:03:12.44,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}私たち
-Dialogue: 0,0:03:13.02,0:03:13.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Liella!
-Dialogue: 0,0:03:13.52,0:03:14.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}です。
-Dialogue: 0,0:03:14.24,0:03:16.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よろしくお願いします。
-Dialogue: 0,0:03:16.56,0:03:22.10,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わーいということで今回から2週にわたってまたまたチーム緑でLiella!
-Dialogue: 0,0:03:22.10,0:03:24.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラジオパーソナリティを担当していきます。
-Dialogue: 0,0:03:24.44,0:03:25.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よろしくお願いします。
-Dialogue: 0,0:03:25.87,0:03:26.37,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}お願いします。
-Dialogue: 0,0:03:27.24,0:03:30.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}早速ですが明日6月17日にはLiella!
-Dialogue: 0,0:03:30.92,0:03:36.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}のチュ12期のテーマソングCD恋のチュ123456をリリースさせていただきます。
-Dialogue: 0,0:03:36.96,0:03:37.80,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}わー早い。
-Dialogue: 0,0:03:38.59,0:03:39.22,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:03:39.22,0:03:44.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}チュ1234567891011第5回でのキュンゼリフが歌詞に入ってる曲ですね。
-Dialogue: 0,0:03:45.24,0:03:46.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ぜひチェックしてください。
-Dialogue: 0,0:03:46.52,0:03:47.40,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}お願いします。
-Dialogue: 0,0:03:47.43,0:03:47.93,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}お願いします。
-Dialogue: 0,0:03:48.56,0:03:53.35,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そして同じく6月17日はわかな式ちゃんのお誕生日です。
-Dialogue: 0,0:03:53.35,0:03:54.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:03:54.12,0:03:55.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}式ちゃんお誕生日おめでとう。
-Dialogue: 0,0:03:55.75,0:03:56.25,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}おめでとう。
-Dialogue: 0,0:03:56.60,0:04:00.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}明日はみんなもSNSとかでお祝いしてください。
-Dialogue: 0,0:04:00.24,0:04:01.28,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}お願いします。
-Dialogue: 0,0:04:01.28,0:04:01.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}おめでとう。
-Dialogue: 0,0:04:02.64,0:04:11.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そしてそして前回のリエラジオ担当したチーム子供のみんなからチーム緑にメッセージが届いていましたのことです。
-Dialogue: 0,0:04:11.60,0:04:15.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}えっと好きな緑色のものを教えて欲しい。
-Dialogue: 0,0:04:15.60,0:04:16.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}とのことです。
-Dialogue: 0,0:04:16.72,0:04:17.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}緑色。
-Dialogue: 0,0:04:17.72,0:04:18.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか何でもいいんだって。
-Dialogue: 0,0:04:18.64,0:04:26.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}食べ物、服えっとアイテム、アイコンのアプリ手洗い石鹸などなど。
-Dialogue: 0,0:04:27.40,0:04:28.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そういうことで何でもいいのね。
-Dialogue: 0,0:04:28.53,0:04:29.03,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:04:28.72,0:04:30.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何でもいいそういうことね。
-Dialogue: 0,0:04:29.97,0:04:30.47,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:04:31.28,0:04:32.54,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}好きな緑色。
-Dialogue: 0,0:04:32.54,0:04:33.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私抹茶。
-Dialogue: 0,0:04:33.76,0:04:34.75,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ、そうじゃん。
-Dialogue: 0,0:04:34.75,0:04:35.33,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:04:35.76,0:04:36.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}チュ1234567891011でもね。
-Dialogue: 0,0:04:38.00,0:04:39.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ばらされてたね。
-Dialogue: 0,0:04:38.87,0:04:39.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:04:39.40,0:04:40.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}抹茶好きですね。
-Dialogue: 0,0:04:41.04,0:04:44.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私はあのイヤモニが緑なのよ。
-Dialogue: 0,0:04:44.64,0:04:45.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:04:45.27,0:04:45.77,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:04:46.04,0:04:47.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}結構気に入ってますね。
-Dialogue: 0,0:04:47.44,0:04:50.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すみれちゃんと一緒でそういう同じなんだね。
-Dialogue: 0,0:04:50.23,0:04:50.73,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうなの。
-Dialogue: 0,0:04:51.12,0:04:52.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}気に入ってますね。
-Dialogue: 0,0:04:52.29,0:04:52.79,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そっか。
-Dialogue: 0,0:04:52.93,0:04:53.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どう?
-Dialogue: 0,0:04:53.48,0:04:59.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私はでも緑がテーマカラーて私の式ちゃんのカラーが
-Dialogue: 0,0:04:59.00,0:05:00.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だからうん。
-Dialogue: 0,0:04:59.51,0:05:00.01,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}確かに。
-Dialogue: 0,0:05:00.68,0:05:02.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかわかな式ちゃん。
-Dialogue: 0,0:05:02.49,0:05:02.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:05:04.24,0:05:07.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}式ちゃんはもう名前からして緑感じるよね。
-Dialogue: 0,0:05:08.28,0:05:10.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わかなちゃんもだってねわかなね。
-Dialogue: 0,0:05:10.27,0:05:10.77,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:05:10.88,0:05:12.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でも漢字はまあちょっと違うけどね。
-Dialogue: 0,0:05:12.85,0:05:13.35,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:05:13.44,0:05:14.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まあでも緑は好き。
-Dialogue: 0,0:05:15.08,0:05:15.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}緑いいよ。
-Dialogue: 0,0:05:15.72,0:05:16.27,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}可愛いよね。
-Dialogue: 0,0:05:16.39,0:05:16.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いいですね。
-Dialogue: 0,0:05:17.87,0:05:18.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:05:18.40,0:05:19.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こんな感じでいいのかな?
-Dialogue: 0,0:05:21.08,0:05:23.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}じゃあ早速おたよりとかいきますか?
-Dialogue: 0,0:05:23.16,0:05:24.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}じゃあいきますね。
-Dialogue: 0,0:05:24.28,0:05:27.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、皆さん最後までお付き合いよろしくお願いします。
-Dialogue: 0,0:05:27.18,0:05:30.10,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Love Live! Superstar!!結ヶ丘ランチタイム放送局Liella!
-Dialogue: 0,0:05:30.10,0:05:33.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラジオレッツスーパースタート。
-Dialogue: 0,0:05:36.76,0:05:40.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Love Live! Superstar!!結ヶ丘ランチタイム放送局Liella!
-Dialogue: 0,0:05:40.72,0:05:41.22,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラジオ。
-Comment: 0,0:05:44.80,0:05:50.00,Sakakura Sakura,,0,0,0,corner,=== Corner: Suggestion Box ===
-Dialogue: 0,0:05:44.80,0:05:50.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}皆さんからのおたよりを紹介する結ヶ丘女子高等学校投稿箱のコーナー。
-Dialogue: 0,0:05:50.00,0:05:55.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それでは皆さんご一緒にせーの投稿箱。
-Dialogue: 0,0:05:55.04,0:05:57.04,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}ではメールをご紹介しましょう。
-Dialogue: 0,0:05:57.10,0:05:57.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:05:57.60,0:05:59.96,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}リエラジオネームちーぱんさんからいただきました。
-Dialogue: 0,0:05:59.96,0:06:01.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:01.20,0:06:02.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:02.34,0:06:02.84,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}Liella!
-Dialogue: 0,0:06:02.84,0:06:08.22,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}クラブCDセット2026、え、視聴動画にてスキップカプセルを聞きました。
-Dialogue: 0,0:06:08.22,0:06:13.36,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}まずタイトルの通り思わずスキップしたくなるような軽やかなメロディがとても最高でした。
-Dialogue: 0,0:06:13.36,0:06:18.34,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}そしてこの曲を聞いていて印象的だったのは放課後の帰り道の空気感です。
-Dialogue: 0,0:06:18.34,0:06:25.54,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}鼻歌を歌ったり車の色当てをしたり友達と寄り道しながら帰る何気ない時間の楽しさが伝わってきました。
-Dialogue: 0,0:06:25.54,0:06:30.24,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}明るくて楽しい曲なのに少しだけ胸が暖かくなるような素敵な楽曲でした。
-Dialogue: 0,0:06:30.24,0:06:32.40,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}CDが届くのが楽しみです。
-Dialogue: 0,0:06:32.40,0:06:33.04,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}とのことです。
-Dialogue: 0,0:06:33.04,0:06:34.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:34.24,0:06:35.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:35.88,0:06:38.60,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}続いてリエラジオネーム器さんからです。
-Dialogue: 0,0:06:38.60,0:06:39.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:39.68,0:06:40.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:06:40.96,0:06:44.20,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}新曲スキップカプセルの情報が公開されましたね。
-Dialogue: 0,0:06:44.15,0:06:44.65,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:06:44.72,0:06:50.14,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}これから11人で仲良くどこかに行くのかなと思わせるジャケットに癒されています。
-Dialogue: 0,0:06:50.14,0:06:57.74,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}自分はなつみちゃんがかのんちゃんの手を引いて先導しているのを見てテレビアニメ2期の北海道でのシーンを思い出し、
-Dialogue: 0,0:06:57.74,0:07:02.90,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}ああ、なつみちゃんがかのんちゃんの手を引いていけるようになったんだなと感動してしまいました。
-Dialogue: 0,0:07:02.90,0:07:03.88,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}といただきました。
-Dialogue: 0,0:07:03.88,0:07:04.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:07:05.00,0:07:05.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:07:07.68,0:07:11.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}スキップカプセルワンコーラス公開されましたね。
-Dialogue: 0,0:07:11.08,0:07:11.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:07:11.88,0:07:14.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ジャケットイラストも可愛い。
-Dialogue: 0,0:07:12.87,0:07:13.37,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}はい。
-Dialogue: 0,0:07:13.29,0:07:13.79,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}可愛い。
-Dialogue: 0,0:07:14.64,0:07:15.60,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}可愛いね。
-Dialogue: 0,0:07:15.55,0:07:16.05,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}素敵。
-Dialogue: 0,0:07:16.68,0:07:19.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごい日常感のあるイラストで。
-Dialogue: 0,0:07:20.20,0:07:21.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わーいいねいいね。
-Dialogue: 0,0:07:21.88,0:07:27.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか考察によると、あのチームごとにちょっと分かれてるみたいな。
-Dialogue: 0,0:07:27.36,0:07:28.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに寄ってるよね。
-Dialogue: 0,0:07:28.64,0:07:29.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそう確かに確かに。
-Dialogue: 0,0:07:29.91,0:07:30.41,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうなのよ。
-Dialogue: 0,0:07:30.42,0:07:30.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当だ。
-Dialogue: 0,0:07:30.92,0:07:31.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当だ。
-Dialogue: 0,0:07:31.80,0:07:32.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}可愛い。
-Dialogue: 0,0:07:32.68,0:07:34.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}えーいいねわいわいわいわい。
-Dialogue: 0,0:07:35.00,0:07:39.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか蓮ちゃんがこんなににっこりをさ笑ってんの嬉しいんだよな。
-Dialogue: 0,0:07:37.35,0:07:37.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:07:40.28,0:07:41.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにね。
-Dialogue: 0,0:07:41.72,0:07:42.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うれしい。
-Dialogue: 0,0:07:42.72,0:07:44.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めいちゃんにつんてしてる。
-Dialogue: 0,0:07:44.39,0:07:44.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}つんてしてる。
-Dialogue: 0,0:07:45.93,0:07:46.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}するんだ。
-Dialogue: 0,0:07:46.48,0:07:48.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それを式ちゃんが見てる。
-Dialogue: 0,0:07:47.64,0:07:48.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ねほらほら。
-Dialogue: 0,0:07:49.88,0:07:50.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こり見てますね。
-Dialogue: 0,0:07:50.92,0:07:52.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ガン見してますね。
-Dialogue: 0,0:07:52.20,0:07:53.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんな階段は気をつけてね。
-Dialogue: 0,0:07:54.28,0:07:54.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにね。
-Dialogue: 0,0:07:55.00,0:07:55.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}全然見てない。
-Dialogue: 0,0:07:55.84,0:07:56.62,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}見てない。
-Dialogue: 0,0:07:56.62,0:07:57.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいよ本当に。
-Dialogue: 0,0:07:57.77,0:07:58.27,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいじゃん。
-Dialogue: 0,0:07:58.32,0:08:01.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すみれちゃんがちょっとこの後この後どっちに進むだろうね。
-Dialogue: 0,0:08:02.60,0:08:03.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}降りるのか下がるのか。
-Dialogue: 0,0:08:03.88,0:08:05.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもなんか降りてそうじゃないこの感じ。
-Dialogue: 0,0:08:05.51,0:08:06.01,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:08:06.20,0:08:07.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}帰るだって帰るからさ。
-Dialogue: 0,0:08:07.63,0:08:08.13,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:08:09.28,0:08:10.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}階段すごいね。
-Dialogue: 0,0:08:12.72,0:08:14.34,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}スキップカプセルね。
-Dialogue: 0,0:08:14.34,0:08:15.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかLiella!
-Dialogue: 0,0:08:15.16,0:08:18.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}にありそうでなかった感じの楽曲というか。
-Dialogue: 0,0:08:18.33,0:08:18.83,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:08:19.48,0:08:20.71,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}楽しい楽曲。
-Dialogue: 0,0:08:20.51,0:08:21.01,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん楽しい。
-Dialogue: 0,0:08:20.71,0:08:21.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだね。
-Dialogue: 0,0:08:21.44,0:08:22.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当にスキップって感じ。
-Dialogue: 0,0:08:22.93,0:08:23.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:08:23.64,0:08:25.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これ早くフル聞いて欲しいな。
-Dialogue: 0,0:08:25.28,0:08:25.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、そうなの。
-Dialogue: 0,0:08:25.92,0:08:33.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちょっとね2番以降の歌詞と歌は注目して聞いてもらいたいっなって思ったりしてますね。
-Dialogue: 0,0:08:29.17,0:08:29.67,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:08:33.76,0:08:35.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ぜひともお願いいたします。
-Dialogue: 0,0:08:35.18,0:08:35.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:08:35.68,0:08:37.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}お願いします。
-Dialogue: 0,0:08:37.76,0:08:42.28,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}ではでは続いてリエラジオネームりりかるとりがーさんからです。
-Dialogue: 0,0:08:42.28,0:08:43.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:08:43.44,0:08:44.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:08:44.80,0:08:46.40,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}Love Live! Superstar!!Liella!
-Dialogue: 0,0:08:46.40,0:08:50.64,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}クラブCDセット2026の視聴動画が公開されましたね。
-Dialogue: 0,0:08:50.51,0:08:51.01,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:08:51.16,0:08:58.96,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}今回も特典動画が盛りだくさんですが中でも突撃ロケ東京観光バスツアーが気になります。
-Dialogue: 0,0:08:58.96,0:09:01.40,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}フルバージョンが待ちきれないほど楽しみです。
-Dialogue: 0,0:09:01.40,0:09:02.04,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}とのことです。
-Dialogue: 0,0:09:02.04,0:09:03.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:09:03.08,0:09:04.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:09:04.56,0:09:07.60,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}続きましてリエラジオネームポラリスさんからいただきました。
-Dialogue: 0,0:09:07.60,0:09:08.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:09:08.80,0:09:09.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:09:09.74,0:09:10.24,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}Liella!
-Dialogue: 0,0:09:10.24,0:09:12.98,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}クラブ2026の視聴動画を見ました。
-Dialogue: 0,0:09:12.98,0:09:16.74,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}やっぱり安定の雨模様でなんだか安心してしまいました。
-Dialogue: 0,0:09:16.74,0:09:22.74,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}メンバー柄のてるてる坊主を出して次のロケの前に飾っておけばもしかしたら晴れるかもしれませんね。
-Dialogue: 0,0:09:22.74,0:09:25.00,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}とのことでありがとうございます。
-Dialogue: 0,0:09:25.48,0:09:26.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:09:26.80,0:09:29.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これ視聴動画と言いつつ結構盛りおだったと思う。
-Dialogue: 0,0:09:30.44,0:09:30.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そんなに。
-Dialogue: 0,0:09:31.23,0:09:31.73,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:09:32.28,0:09:34.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こんなに見せちゃっていいのって。
-Dialogue: 0,0:09:33.95,0:09:34.45,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:09:34.28,0:09:36.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ぐらいねありましたけど。
-Dialogue: 0,0:09:36.05,0:09:36.55,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:09:36.36,0:09:37.11,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそう。
-Dialogue: 0,0:09:37.28,0:09:42.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもあれ以外にもねいっぱい撮りましたからぜひ見て欲しいんだけど。
-Dialogue: 0,0:09:41.99,0:09:42.49,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:09:42.36,0:09:43.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}天気ね。
-Dialogue: 0,0:09:44.17,0:09:44.67,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}天気ね。
-Dialogue: 0,0:09:44.96,0:09:48.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもなんかあの視聴動画の中ではさ雨とは言っ3て45なかっ67た8よ。
-Dialogue: 0,0:09:48.36,0:09:50.50,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}9101112131415161718192021うん。
-Dialogue: 0,0:09:48.88,0:09:49.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}言ってなかったっけ?
-Dialogue: 0,0:09:50.50,0:09:52.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2223242625272628272928303129323033雨。
-Dialogue: 0,0:09:50.64,0:09:51.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でも見るからね。
-Dialogue: 0,0:09:52.24,0:09:58.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}31343532363337343538じゃあ3639あの4037さ4138423943404441あの454246434744わか4845な49ちゃん49回ぺいのとちゃんなっなんたのか今回考え傘の企画たのは8シーンクイズ月に控えたこのチュ1時何あれやばいよね。
-Dialogue: 0,0:09:56.56,0:09:57.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あれやばかった。
-Dialogue: 0,0:09:58.08,0:09:58.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}船のやつ。
-Dialogue: 0,0:09:59.56,0:10:05.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか行け行けって上に行け行けって言われて結局私だけ1人取り残されちゃった。
-Dialogue: 0,0:10:05.12,0:10:06.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わかなちゃんそうなの?
-Dialogue: 0,0:10:06.44,0:10:07.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんな来てくれなくて。
-Dialogue: 0,0:10:08.92,0:10:15.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか様子見でじゃあもう行きまして上で撮る約束をしたのにみんなが全然来なかったんだ。
-Dialogue: 0,0:10:15.80,0:10:19.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}多分私が傘吹き飛ばされてあ、もう無理だと言ってみんなが退散しちゃったんだとか。
-Dialogue: 0,0:10:19.72,0:10:21.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}実験台になったんだね。
-Dialogue: 0,0:10:21.16,0:10:22.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でも来るの待ってたのよずっと。
-Dialogue: 0,0:10:22.96,0:10:24.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}1人で叫んでたもんね。
-Dialogue: 0,0:10:24.17,0:10:24.67,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:10:25.04,0:10:28.63,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}全然どんなシーンなんて思いながら見てた。
-Dialogue: 0,0:10:25.60,0:10:26.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごかったよ。
-Dialogue: 0,0:10:28.55,0:10:29.05,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:10:28.63,0:10:29.33,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当にね。
-Dialogue: 0,0:10:30.45,0:10:31.11,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだね。
-Dialogue: 0,0:10:30.75,0:10:31.25,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだね。
-Dialogue: 0,0:10:31.11,0:10:35.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私たちはあれだよね人力車にね乗ったんだよね。
-Dialogue: 0,0:10:33.60,0:10:34.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}乗ってたね。
-Dialogue: 0,0:10:35.36,0:10:39.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}人力車は意外とこの雨よけみたいなのが前にあったから
-Dialogue: 0,0:10:39.79,0:10:40.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそう。
-Dialogue: 0,0:10:40.32,0:10:43.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あったけどまあびしょびしょだよね。
-Dialogue: 0,0:10:44.08,0:10:44.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まあね。
-Dialogue: 0,0:10:44.68,0:10:45.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これ入ってくるからね。
-Dialogue: 0,0:10:45.57,0:10:46.07,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそう。
-Dialogue: 0,0:10:46.44,0:10:54.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あのあったかいその日すごい寒くてなんかブランケットみたいな結構あったかめのものをかけてもらったんだけどあれがびっしょりになるっていうね。
-Dialogue: 0,0:10:48.49,0:10:48.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:10:54.60,0:10:55.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なってたね。
-Dialogue: 0,0:10:55.44,0:10:56.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そのぐらい雨だったね。
-Dialogue: 0,0:10:56.92,0:11:02.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}引いてくれてるお姉さんがねすごい申し訳ないお姉さんが頑張ってくれてね。
-Dialogue: 0,0:10:59.16,0:10:59.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだったけど
-Dialogue: 0,0:11:01.60,0:11:02.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}大変だ。
-Dialogue: 0,0:11:02.76,0:11:06.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんでこんないつもね雨降るんでしょうか本当に。
-Dialogue: 0,0:11:06.72,0:11:07.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どうしてでしょうね。
-Dialogue: 0,0:11:07.80,0:11:08.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どうしてでしょうかね。
-Dialogue: 0,0:11:08.76,0:11:14.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかさ、あのメンバー柄のてるてる坊主作ったらどうっていうのあったじゃん。
-Dialogue: 0,0:11:11.63,0:11:12.13,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:11:14.67,0:11:15.17,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:11:15.32,0:11:18.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかもうそれ作ってさ雨なったらもう終わりじゃん。
-Dialogue: 0,0:11:18.91,0:11:19.41,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:11:19.59,0:11:20.09,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もう
-Dialogue: 0,0:11:20.32,0:11:23.14,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにもう希望なくなっちゃうからできない。
-Dialogue: 0,0:11:23.14,0:11:23.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}怖くてできない。
-Dialogue: 0,0:11:24.36,0:11:26.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当に大事な時にとっとくかそれは。
-Dialogue: 0,0:11:26.99,0:11:27.57,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もう
-Dialogue: 0,0:11:27.56,0:11:28.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それで雨降ったらどうする?
-Dialogue: 0,0:11:29.16,0:11:30.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}救いようがないよ私たち。
-Dialogue: 0,0:11:31.20,0:11:32.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}量を増やしてくれたらうん。
-Dialogue: 0,0:11:33.44,0:11:35.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんなにもね、あの作ってもらう。
-Dialogue: 0,0:11:35.31,0:11:35.81,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:11:35.92,0:11:36.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、そうだね。
-Dialogue: 0,0:11:36.88,0:11:38.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}願ってもらうしかないね。
-Dialogue: 0,0:11:38.39,0:11:38.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:11:39.04,0:11:40.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}次は晴れるといいな。
-Dialogue: 0,0:11:40.23,0:11:40.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:11:40.84,0:11:42.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}次はちょっと晴らしたいね。
-Dialogue: 0,0:11:42.30,0:11:43.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}晴れるかな。
-Dialogue: 0,0:11:45.08,0:11:45.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:11:46.00,0:11:46.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:11:46.84,0:11:50.26,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}では続いてリエラジオネームおになちゃんさんからです。
-Dialogue: 0,0:11:50.26,0:11:51.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:11:51.24,0:11:52.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:11:52.72,0:11:55.81,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}チュ12345678911121314101516話172視聴期しました。
-Dialogue: 0,0:11:55.81,0:11:56.41,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとう。
-Dialogue: 0,0:11:56.41,0:11:56.91,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとう。
-Dialogue: 0,0:11:57.12,0:12:00.68,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}ついに番組テーマソングの全貌が解禁されましたね。
-Dialogue: 0,0:12:00.35,0:12:00.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:12:00.68,0:12:27.56,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}第67568話69の70みんな7172の即興ゼリフがたくさんあって可愛らしさもありながら面白さもありチュ1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465746675677668776978707971807281738274837584768577867887798880898190829183928493859486958796889789989099911001019210293103941049510596106971079810899109100101110102111103104112105113106107114108115109116110117111118112113119114119115回放送116117見118まし119た。
-Dialogue: 0,0:12:27.20,0:12:41.88,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}120121122123124ついに125126最終127回128と回となっなったた今回今回のの企画企画はは88月月にに控え控え4567たた89チュチュ10111112223313445566147781589910101611111712121313181414191515162016211720221823192120242221232224232524262527262827292830293130323133323433353436353736383739384039414042414342444345464748ぺい4949ちゃん回のとなっ考えた今回たの企画クイズは8月に控えこのた時チュ12何言っ言った?
-Dialogue: 0,0:12:27.43,0:12:27.93,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:12:41.56,0:12:42.19,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}た?
-Dialogue: 0,0:12:42.19,0:12:48.72,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}ややぶぶちゃんちゃんのの考え考えたた足つぼ足つぼ手押し手押し相撲相撲ととのの企画企画もも面白く面白くててすごくすごく盛り上がり盛り上がりそうそうですですね。
-Dialogue: 0,0:12:48.48,0:12:49.03,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:12:49.03,0:12:53.60,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}タイムタイムマシンマシン33号号ののおお2人2人もも出演出演がが決まり決まり当日当日がが今今からから待ち遠しい待ち遠しいです。
-Dialogue: 0,0:12:53.40,0:12:53.60,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}です。
-Dialogue: 0,0:12:53.60,0:12:54.24,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}ととののことことです。
-Dialogue: 0,0:12:54.00,0:12:55.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}です。 ありがとうありがとうございございます。
-Dialogue: 0,0:12:54.88,0:12:55.38,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ます。
-Dialogue: 0,0:12:55.44,0:12:56.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうありがとうございございます。
-Dialogue: 0,0:12:55.96,0:12:56.46,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ます。
-Dialogue: 0,0:12:56.62,0:12:57.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:12:56.80,0:12:57.37,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:12:57.37,0:13:23.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}第第1010話話でで番組番組テーマテーマソングソング恋恋ののチュチュ112233454566778981091110111212131314151416151716181719183520192136202237212338222439232526402441282742292843302944313045323146333247343350375138523953405441555642574358445945604661476248634964505152535455させていただきました。
-Dialogue: 0,0:13:24.95,0:13:25.45,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごい。
-Dialogue: 0,0:13:25.35,0:13:25.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}独壇場。
-Dialogue: 0,0:13:25.96,0:13:26.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそう。
-Dialogue: 0,0:13:26.59,0:13:27.09,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:13:27.28,0:13:28.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいさ。
-Dialogue: 0,0:13:28.12,0:13:28.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかLiella!
-Comment: 0,0:13:28.72,0:13:32.92,Sakakura Sakura,,0,0,0,corner,=== Corner: Closing ===
-Dialogue: 0,0:13:28.72,0:13:32.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}のさ曲でさここまでセンターの子がずっと歌い続けるってあんまなかったじゃない。
-Dialogue: 0,0:13:33.03,0:13:33.53,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ないない。
-Dialogue: 0,0:13:33.64,0:13:34.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だから新鮮で
-Dialogue: 0,0:13:34.64,0:13:35.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めっちゃいい感じ。
-Dialogue: 0,0:13:35.88,0:13:36.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}楽しみだな。
-Dialogue: 0,0:13:36.68,0:13:42.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもあやちゃんとしてもそうだけどこうなつみちゃんとしてもすごいこの楽曲似合いそうって思ったから。
-Dialogue: 0,0:13:42.25,0:13:42.75,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:13:43.43,0:13:44.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:13:44.04,0:13:46.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だからすごいぴったりだなって思う。
-Dialogue: 0,0:13:46.89,0:13:47.39,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}楽しい。
-Dialogue: 0,0:13:47.36,0:13:53.54,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}レコーディングの時にさその自分が言った言葉だけどそのメンバーとして歌うじゃない。
-Dialogue: 0,0:13:50.39,0:13:50.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:13:53.54,0:13:55.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それが結構難しかった。
-Dialogue: 0,0:13:55.45,0:13:55.95,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あー。
-Dialogue: 0,0:13:56.04,0:14:10.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それこそさ自信100倍返しとかもさんとまちゃんだったらどの程度までやっていいのかなみたいなのがあったから結構難しかったけどねライブだとどうなるのかなってドキドキしてますけれども。
-Dialogue: 0,0:13:58.25,0:13:58.75,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:14:10.24,0:14:21.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あとさこれあの第5話の放送の時にさもしかしたらキャストがやってるふりとかがダンスの一部になるかもっていうお話があったじゃない。
-Dialogue: 0,0:14:17.63,0:14:18.13,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:14:21.07,0:14:21.57,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:14:21.80,0:14:22.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これどうなるのかね。
-Dialogue: 0,0:14:23.28,0:14:24.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:14:25.60,0:14:26.42,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごそう。
-Dialogue: 0,0:14:26.42,0:14:29.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}今までしてこなかった動きがありそうじゃない。
-Dialogue: 0,0:14:29.15,0:14:29.65,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:14:29.67,0:14:30.17,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:14:30.44,0:14:31.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これ怖いな。
-Dialogue: 0,0:14:34.16,0:14:35.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何使われるかわかんないもんね。
-Dialogue: 0,0:14:36.13,0:14:36.63,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:14:37.00,0:14:37.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうなんですよ。
-Dialogue: 0,0:14:38.12,0:14:38.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本当に。
-Dialogue: 0,0:14:38.88,0:14:45.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これはチュ123456789101112131415161718192021222324353637383940414243444546474849ガス5051企画チュと1か23ね。
-Dialogue: 0,0:14:45.60,0:14:47.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}45678910111213できる1415のか16な?
-Dialogue: 0,0:14:46.01,0:14:46.51,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:14:47.20,0:14:50.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}17181920212223282930313233343536どうな37んだろう?
-Dialogue: 0,0:14:47.68,0:14:48.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どうなんだろう?
-Dialogue: 0,0:14:48.56,0:14:49.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どうなんだろう?
-Dialogue: 0,0:14:50.16,0:14:52.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}383940やっ41てみ42たかっ43た44でも45あの46ヘリウム474849ガス。
-Dialogue: 0,0:14:52.64,0:14:55.66,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}50515251くまが考えたね。
-Dialogue: 0,0:14:52.98,0:14:53.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ、ね。
-Dialogue: 0,0:14:53.48,0:14:55.27,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもなんかりゆうが試してたよね。
-Dialogue: 0,0:14:55.27,0:14:55.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:14:55.66,0:14:57.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ほとんど変わってなかったね。
-Dialogue: 0,0:14:57.24,0:14:58.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}りゆうは変わらない。
-Dialogue: 0,0:14:58.48,0:14:58.98,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あんまり。
-Dialogue: 0,0:14:58.68,0:15:00.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}さんめっちゃ変わってた。
-Dialogue: 0,0:15:00.40,0:15:01.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私は変わってたけど。
-Dialogue: 0,0:15:01.68,0:15:02.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、楽しいよね。
-Dialogue: 0,0:15:02.55,0:15:03.05,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:15:03.27,0:15:03.77,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何が?
-Dialogue: 0,0:15:03.84,0:15:04.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何やるのか。
-Dialogue: 0,0:15:04.53,0:15:05.03,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やるのか。
-Dialogue: 0,0:15:05.08,0:15:08.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、嫌なだけど足つぼ手押し相撲絶対やりたくないんだけど私これ。
-Dialogue: 0,0:15:08.68,0:15:12.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}足つぼはさえ、その後ライブパートあるんでしょ?
-Dialogue: 0,0:15:12.92,0:15:17.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それで足つぼで激痛になって動きませんってなるかもしれないからやめとこ。
-Dialogue: 0,0:15:17.40,0:15:18.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やめとこわかなちゃん。
-Dialogue: 0,0:15:20.87,0:15:21.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:15:21.52,0:15:23.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}自らを犠牲にしに行ったよ。
-Dialogue: 0,0:15:23.60,0:15:25.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ぺいちゃんのやつが一番安全そうよ。
-Dialogue: 0,0:15:25.49,0:15:25.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:15:26.04,0:15:26.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにね。
-Dialogue: 0,0:15:26.54,0:15:27.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:15:27.04,0:15:28.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}平和にできそうな感じ。
-Dialogue: 0,0:15:28.35,0:15:28.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:15:29.04,0:15:30.02,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これやりたいね。
-Dialogue: 0,0:15:29.75,0:15:30.25,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:15:30.02,0:15:31.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}皆さんもできるしね一緒に。
-Dialogue: 0,0:15:31.72,0:15:32.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:15:32.56,0:15:36.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2人とも企画出した私となぎちゃん何出したか覚えてる?
-Dialogue: 0,0:15:37.24,0:15:37.90,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}企画。
-Dialogue: 0,0:15:37.90,0:15:38.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、出した出した。
-Dialogue: 0,0:15:39.28,0:15:40.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんな出したよね。
-Dialogue: 0,0:15:40.06,0:15:40.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんな出した。
-Dialogue: 0,0:15:40.56,0:15:42.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう11人全員出したんだけど
-Dialogue: 0,0:15:43.52,0:15:51.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私ねなんかキャストがスタッフさんのふりをしてあー。
-Dialogue: 0,0:15:47.39,0:15:47.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:15:50.17,0:15:50.91,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:15:50.91,0:15:56.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}客席に潜り込むっていうモニタリング的なそうそうそう。
-Dialogue: 0,0:15:53.08,0:15:54.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}おー面白い。
-Dialogue: 0,0:15:55.33,0:15:55.83,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あー。
-Dialogue: 0,0:15:56.56,0:16:00.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}53バレ5455ない56よう57に58みたい59な60カメラマン616263さん64とか65に66うん。
-Dialogue: 0,0:15:59.40,0:16:03.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なりきってみんなのとこに行くみたいなの出したね。
-Dialogue: 0,0:16:04.27,0:16:04.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:16:04.80,0:16:07.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私はねあのジャンプ台。
-Dialogue: 0,0:16:07.30,0:18:00.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あの一番最初にさステージ来る来る時にさジャンプインしチュ1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859516768697071727374757677787980うん。
-Dialogue: 0,0:18:00.17,0:18:00.67,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}日記とかね。
-Dialogue: 0,0:18:00.66,0:18:01.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やってた。
-Dialogue: 0,0:18:01.16,0:18:01.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めっちゃ懐かしい。
-Dialogue: 0,0:18:02.56,0:18:04.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}夏休みとかやってためっちゃ。
-Dialogue: 0,0:18:04.27,0:18:04.77,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:18:04.92,0:18:06.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}適当にな日記書いてたな。
-Dialogue: 0,0:18:06.53,0:18:07.03,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ええ。
-Dialogue: 0,0:18:07.48,0:18:12.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかさ、最初育てるところから始めてさ、観察日記書かなきゃいけないで絵描くじゃん。
-Dialogue: 0,0:18:12.61,0:18:13.11,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:18:13.16,0:18:16.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だけど何日かさ、やんなくて、もう花咲いてますみたいな。
-Dialogue: 0,0:18:16.69,0:18:17.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:18:17.48,0:18:18.64,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}適当にまとめてね。
-Dialogue: 0,0:18:19.72,0:18:20.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}図鑑とか見て描いてた。
-Dialogue: 0,0:18:20.85,0:18:21.35,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:18:21.92,0:18:25.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なぎちゃんの絵は小学生の時からあの感じ。
-Dialogue: 0,0:18:26.04,0:18:26.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんですか?
-Dialogue: 0,0:18:27.06,0:18:27.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんですか?
-Dialogue: 0,0:18:27.56,0:18:28.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それはどういう意味ですか?
-Dialogue: 0,0:18:28.68,0:18:30.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、成長した?
-Dialogue: 0,0:18:30.04,0:18:31.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}小学生の時から。
-Dialogue: 0,0:18:31.52,0:18:33.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん、でも朝顔とかそういうのは描けるよ。
-Dialogue: 0,0:18:34.20,0:18:34.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ、そうなの?
-Dialogue: 0,0:18:34.96,0:18:35.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}人物じゃなければ。
-Dialogue: 0,0:18:36.60,0:18:37.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそうそうそう。
-Dialogue: 0,0:18:37.40,0:18:38.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}今度描いてもらう。
-Dialogue: 0,0:18:38.48,0:18:39.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね、描いてもらう。
-Dialogue: 0,0:18:39.24,0:18:42.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもなんかめっちゃうまくなってるよね、あの人の絵も。
-Dialogue: 0,0:18:39.99,0:18:40.49,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}大丈夫だよ。
-Dialogue: 0,0:18:42.63,0:18:43.13,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うまくなったと思う。
-Dialogue: 0,0:18:43.44,0:18:44.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めっちゃ思うの。
-Dialogue: 0,0:18:44.44,0:18:45.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかえ、うまと思って。
-Dialogue: 0,0:18:45.64,0:18:47.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}この5年間ぐらいでめちゃめちゃ描かされてるからね。
-Dialogue: 0,0:18:47.93,0:18:48.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ。
-Dialogue: 0,0:18:48.75,0:18:49.26,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:18:49.26,0:18:50.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちゃんと人間成長するんですよ。
-Dialogue: 0,0:18:51.36,0:18:52.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}好きなんだよな。
-Dialogue: 0,0:18:52.14,0:18:52.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Liella!
-Dialogue: 0,0:18:52.64,0:18:54.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}クラブでもね、いっぱい描いてるから。
-Dialogue: 0,0:18:54.05,0:18:54.55,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうね。
-Dialogue: 0,0:18:54.36,0:18:55.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちょっとLiella!
-Dialogue: 0,0:18:55.20,0:18:56.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}クラブ絵描く機会多くない?
-Dialogue: 0,0:18:56.81,0:18:57.31,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}多い。
-Dialogue: 0,0:18:57.31,0:18:57.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めっちゃ多いよね。
-Dialogue: 0,0:18:58.22,0:18:58.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わざとよ。
-Dialogue: 0,0:18:58.72,0:18:59.22,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わざと。
-Dialogue: 0,0:18:58.81,0:18:59.31,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:18:59.79,0:19:00.29,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:19:00.76,0:19:02.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まあ、そういうあなたも大概だけどね。
-Dialogue: 0,0:19:02.89,0:19:03.39,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:19:03.44,0:19:06.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いや、でも私は私はうまいと思ってないから自分。
-Dialogue: 0,0:19:06.32,0:19:07.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いや、私も思ってない。
-Dialogue: 0,0:19:09.08,0:19:10.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いつ私うまいってなった?
-Dialogue: 0,0:19:10.84,0:19:15.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかこの前メンバーのイラストを描く、あの、何?
-Dialogue: 0,0:19:15.60,0:19:18.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}絵描、似顔絵描くみたいなのあったじゃん。
-Dialogue: 0,0:19:18.20,0:19:20.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}私だけ初めて描き直しがあって。
-Dialogue: 0,0:19:20.93,0:19:21.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え?
-Dialogue: 0,0:19:22.03,0:19:22.53,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}マジで?
-Dialogue: 0,0:19:22.72,0:19:25.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あまりにひどくて描き直しって言われちゃって。
-Dialogue: 0,0:19:25.32,0:19:26.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何どういう絵描いた?
-Dialogue: 0,0:19:27.17,0:19:27.73,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え?
-Dialogue: 0,0:19:27.73,0:19:29.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いや、普通にしきちゃんを描いたんだよね。
-Dialogue: 0,0:19:56.92,0:20:04.10,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まあ、なんかなぎちゃんのれんちゃんは、まあ、うまいかって言われたらちょっとあれだけど、
-Dialogue: 0,0:20:04.10,0:20:06.59,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でも、あの、れんちゃんに見えるのよ。
-Dialogue: 0,0:20:06.59,0:20:07.22,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちゃんと。
-Dialogue: 0,0:20:07.22,0:20:11.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}れんちゃん描いてるんだなっていうのが伝わるから、それが伝わんなかったんじゃない?
-Dialogue: 0,0:20:12.00,0:20:14.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もう愛がないと思われちゃったのかな。
-Dialogue: 0,0:20:15.12,0:20:17.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}逆に何描いたのか知りたいわ。
-Dialogue: 0,0:20:17.36,0:20:20.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まあ、しきちゃんね、結構あの、シンプルな髪型してるしね。
-Dialogue: 0,0:20:20.68,0:20:21.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}難しいよね。
-Dialogue: 0,0:20:21.52,0:20:22.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}難しい。
-Dialogue: 0,0:20:22.60,0:20:24.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}前髪とかがね、やっぱり。
-Dialogue: 0,0:20:24.12,0:20:24.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに確かに。
-Dialogue: 0,0:20:24.92,0:20:26.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}バランスが難しかった。
-Dialogue: 0,0:20:26.11,0:20:26.61,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:20:28.33,0:20:28.83,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:20:28.50,0:20:29.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}大変。
-Dialogue: 0,0:20:29.00,0:20:29.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だったんだね。
-Dialogue: 0,0:20:29.50,0:20:30.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:20:30.00,0:20:30.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}大変だった。
-Dialogue: 0,0:20:31.24,0:20:31.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}気になる。
-Dialogue: 0,0:20:32.00,0:20:33.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もう1回描いてって言われて。
-Dialogue: 0,0:20:34.04,0:20:35.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2回目は大丈夫だったの?
-Dialogue: 0,0:20:35.12,0:20:36.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2回目は大丈夫だった。
-Dialogue: 0,0:20:36.36,0:20:36.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、よかった。
-Dialogue: 0,0:20:37.16,0:20:45.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2回目もそのパッてこう紙をこう置いといてそのまま帰ろうかと思ったんだけどちょっと待って一旦確認してから帰らせないっていう。
-Dialogue: 0,0:20:47.37,0:20:47.87,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え?
-Dialogue: 0,0:20:48.12,0:20:49.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めちゃめちゃおもろい。
-Dialogue: 0,0:20:49.12,0:20:57.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}今回は大丈夫ですよって言われたんだけど一旦みんなで確認しようって入ってからOKが出ました。
-Dialogue: 0,0:20:54.04,0:20:54.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}みんなで。
-Dialogue: 0,0:20:57.60,0:20:58.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、よかった。
-Dialogue: 0,0:20:58.44,0:20:59.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}でもしき入れてはい。
-Dialogue: 0,0:21:00.04,0:21:00.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よかったね。
-Dialogue: 0,0:21:00.56,0:21:01.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}おめでとう。
-Dialogue: 0,0:21:01.64,0:21:02.50,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}テイスト変えたの?
-Dialogue: 0,0:21:02.50,0:21:04.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、多分テイスト変えました。
-Dialogue: 0,0:21:04.18,0:21:05.95,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あの作風変えたってこと?
-Dialogue: 0,0:21:04.59,0:21:05.09,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}変えられるの?
-Dialogue: 0,0:21:05.95,0:21:06.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちょ、そう。
-Dialogue: 0,0:21:06.48,0:21:12.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}リアルに描きすぎたらあんまり良くないんだなと思ってこのもっとこうポップなうんうんうん。
-Dialogue: 0,0:21:11.69,0:21:12.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:21:13.16,0:21:14.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ミニキャラみたいな感じね。
-Dialogue: 0,0:21:14.80,0:21:16.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なことかが描くようなああいう感じ。
-Dialogue: 0,0:21:17.08,0:21:20.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああいう柔らかい感じで描いたら大丈夫だった。
-Dialogue: 0,0:21:20.35,0:21:20.85,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうなんだ。
-Dialogue: 0,0:21:20.96,0:21:21.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}できるんだ、それ。
-Dialogue: 0,0:21:22.28,0:21:22.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ、確かに。
-Dialogue: 0,0:21:23.08,0:21:24.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにどっちもできるんだね。
-Dialogue: 0,0:21:24.31,0:21:24.81,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいじゃん。
-Dialogue: 0,0:21:25.31,0:21:25.81,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:21:25.72,0:21:35.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あまりにこうしきちゃんのこの顔とこうにらめっこしながらこう描いてこう模写をしようとしちゃったみたいな。
-Dialogue: 0,0:21:35.28,0:21:35.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:21:35.96,0:21:36.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそう。
-Dialogue: 0,0:21:36.48,0:21:36.98,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だから
-Dialogue: 0,0:21:37.08,0:21:38.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}と思ったらやりすぎちゃったと。
-Dialogue: 0,0:21:38.30,0:21:38.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうそうそう。
-Dialogue: 0,0:21:38.80,0:21:40.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}自分らしいかわいい姿をこう
-Dialogue: 0,0:21:41.21,0:21:41.73,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:21:41.73,0:21:42.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}描いたらOKだった。
-Dialogue: 0,0:21:42.97,0:21:43.47,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}OKでした。
-Dialogue: 0,0:21:43.67,0:21:44.17,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、よかった。
-Dialogue: 0,0:21:44.64,0:21:49.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そういう時ねあの、私いつも1個じゃなくて何個かれんちゃん描いとくの。
-Dialogue: 0,0:21:49.89,0:21:50.39,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ああ。
-Dialogue: 0,0:21:50.76,0:21:52.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そんでこの中から選んでくださいっていう。
-Dialogue: 0,0:21:53.68,0:21:55.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかゆいなも6個ぐらい描いてた。
-Dialogue: 0,0:21:56.31,0:21:56.81,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいね。
-Dialogue: 0,0:21:56.87,0:21:57.37,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:21:58.00,0:22:06.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やっぱねでないという自覚があるから自分がかわいいと思っててもこれどうですかって言ったらちょっとねっていうねことになるからさ。
-Dialogue: 0,0:21:58.33,0:21:58.83,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだよね。
-Dialogue: 0,0:22:03.49,0:22:03.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}違うかな
-Dialogue: 0,0:22:06.64,0:22:08.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やっぱね、価値観みんな違いますからね。
-Dialogue: 0,0:22:08.80,0:22:09.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ちょっとね。
-Dialogue: 0,0:22:09.39,0:22:09.89,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かに。
-Dialogue: 0,0:22:10.02,0:22:10.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そう。
-Dialogue: 0,0:22:10.52,0:22:12.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}たくさん描いとくっていうのはお勧めですよ。
-Dialogue: 0,0:22:12.69,0:22:13.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうですね。
-Dialogue: 0,0:22:13.20,0:22:13.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうね。
-Dialogue: 0,0:22:13.84,0:22:15.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何個か候補をね
-Dialogue: 0,0:22:15.01,0:22:15.51,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}出しておく。
-Dialogue: 0,0:22:17.08,0:22:17.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何の話?
-Dialogue: 0,0:22:17.68,0:22:18.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これさ。
-Dialogue: 0,0:22:18.12,0:22:18.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}絵の話になっちゃった。
-Dialogue: 0,0:22:19.36,0:22:20.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}緑の話。
-Dialogue: 0,0:22:20.40,0:22:21.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}緑の話。
-Dialogue: 0,0:22:21.44,0:22:22.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ヘチマの話。
-Dialogue: 0,0:22:23.60,0:22:24.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございました。
-Dialogue: 0,0:22:24.48,0:22:25.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございました。
-Comment: 0,0:22:27.04,0:22:29.16,Sakakura Sakura,,0,0,0,corner,=== Corner: Closing ===
-Dialogue: 0,0:22:27.04,0:22:29.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ということでメールここまででございます。
-Dialogue: 0,0:22:28.85,0:22:29.35,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:22:29.16,0:22:31.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}皆さんたくさんのメールありがとうございました。
-Dialogue: 0,0:22:31.52,0:22:32.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Comment: 0,0:22:32.96,0:22:36.10,Sakakura Sakura,,0,0,0,corner,=== Corner: Lunchtime Request ===
-Dialogue: 0,0:22:32.96,0:22:36.10,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}え、それではランチタイムリクエストのメールをご紹介しましょう。
-Dialogue: 0,0:22:36.10,0:22:38.74,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}リエラジネームしまちゃんさんからいただきました。
-Dialogue: 0,0:22:38.74,0:22:39.66,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:22:39.66,0:22:40.72,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}え、こんにちは。
-Dialogue: 0,0:22:40.72,0:22:41.60,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}お疲れ様です。
-Dialogue: 0,0:22:41.60,0:22:42.64,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}初メールです。
-Dialogue: 0,0:22:42.64,0:22:45.24,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}僕がリクエストするのはキラーキュンです。
-Dialogue: 0,0:22:45.24,0:22:47.50,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}この曲を初めて聞いた時になんやこれ?
-Dialogue: 0,0:22:47.50,0:22:52.08,Sakakura Sakura,listener_mail,0,0,0,,{\pos(330,180)}すげえ楽しいってなったので午後からの仕事も頑張れるかなと思いリクエストします。
-Dialogue: 0,0:22:52.08,0:22:53.56,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}といただきました。
-Dialogue: 0,0:22:53.21,0:22:53.71,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いいね。
-Dialogue: 0,0:22:53.56,0:22:54.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いいね。
-Dialogue: 0,0:22:54.84,0:22:57.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}キラーキュンは盛り上がりますから。
-Dialogue: 0,0:22:57.77,0:22:58.27,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うんうんうん。
-Dialogue: 0,0:22:58.47,0:22:58.97,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}盛り上がる。
-Dialogue: 0,0:22:59.56,0:23:00.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}行きましょう。
-Dialogue: 0,0:23:00.06,0:23:00.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Comment: 0,0:23:00.56,0:23:02.08,Sakakura Sakura,,0,0,0,corner,=== Corner: Lunchtime Request ===
-Dialogue: 0,0:23:00.56,0:23:02.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それではお聞きください。
-Dialogue: 0,0:23:02.08,0:23:04.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Liella! でキラーキュン。
-Dialogue: 0,0:23:08.03,0:23:08.53,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:23:09.04,0:23:09.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もう終業読みですか?
-Dialogue: 0,0:23:09.82,0:23:11.62,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}明日の準備はばっちりですか?
-Dialogue: 0,0:23:11.62,0:23:15.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}絶対ディープはケアしておらい。
-Dialogue: 0,0:23:15.24,0:23:16.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。 よばせんな。
-Dialogue: 0,0:23:16.76,0:23:18.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}必死だってかとられんな。
-Dialogue: 0,0:23:18.48,0:23:22.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}涼しい顔でかわいくいたいとか言っちゃうメンタルやまやまかわいくない。
-Dialogue: 0,0:23:23.16,0:23:25.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そろそろ寝なかもぐもで。
-Dialogue: 0,0:23:26.72,0:23:34.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}発言は挙手制だってまだ9あえ終わんないし、あと20分だけ話そう。
-Dialogue: 0,0:23:36.92,0:23:38.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かなりキュンとしちゃてるじゃない。
-Dialogue: 0,0:23:39.88,0:23:40.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}もうすぐ会える。
-Dialogue: 0,0:23:41.23,0:23:41.73,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}震える
-Dialogue: 0,0:23:43.84,0:23:46.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ときめきフライングバリナイス。
-Dialogue: 0,0:23:46.24,0:23:48.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}深呼吸してスーハー。
-Dialogue: 0,0:23:50.84,0:23:52.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いつもおなじみでいましょう。
-Dialogue: 0,0:23:53.80,0:23:55.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あと必ず言わせるね。
-Dialogue: 0,0:23:57.72,0:23:59.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}胸にキュンとしとっちゃうよ。
-Dialogue: 0,0:24:00.52,0:24:03.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}どうかなっちゃいそうなキラーキュン。
-Dialogue: 0,0:24:07.40,0:24:09.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}おのこごえのぷつ何話すの?
-Dialogue: 0,0:24:09.92,0:24:10.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}お願いできちゃう。
-Dialogue: 0,0:24:10.76,0:24:13.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}にっこりキープは基本ねよそう。
-Dialogue: 0,0:24:14.48,0:24:15.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}おいおい待たないで。
-Dialogue: 0,0:24:15.84,0:24:17.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}にくにくしたいお待ちないで。
-Dialogue: 0,0:24:17.58,0:24:21.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}盛り上がりせいぷしょへんかとかやってるような私たちはへんか。
-Dialogue: 0,0:24:22.28,0:24:24.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}まんぜに深夜のハイテンションだし。
-Dialogue: 0,0:24:25.80,0:24:26.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}何それ?
-Dialogue: 0,0:24:26.64,0:24:28.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}意味わかんないし。
-Dialogue: 0,0:24:28.00,0:24:28.55,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}意味
-Dialogue: 0,0:24:30.00,0:24:33.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんて後からわかるもんだぜ。
-Dialogue: 0,0:24:36.08,0:24:41.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あのかこんきょもないおもいけどもっとあしなわ好きになる。
-Dialogue: 0,0:24:43.00,0:24:47.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}92クールもくるるだし何回よかう。
-Dialogue: 0,0:24:56.20,0:25:00.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラブライブスーパースター友情ランチタイム放送の曲リエラジ。
-Comment: 0,0:25:06.52,0:25:09.40,Sakakura Sakura,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
-Dialogue: 0,0:25:06.52,0:25:09.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラブライブスーパースターからのお知らせー。
-Dialogue: 0,0:25:11.28,0:25:12.46,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}イベント情報です。
-Dialogue: 0,0:25:12.46,0:25:16.78,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}9月5日土曜日、6日日曜日にラブライブスーパースターLiella!
-Dialogue: 0,0:25:16.78,0:25:19.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}友情体育祭を開催させていただきます。
-Dialogue: 0,0:25:19.72,0:25:23.06,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}現在イベントグッズ事前通販が受付中です。
-Dialogue: 0,0:25:23.06,0:25:28.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こちらの受付期間は6月21日日曜日23時59分まで。
-Dialogue: 0,0:25:28.20,0:25:32.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}体育祭がではの応援グッズが盛りだくさんなのでこの機会をお見逃しなく。
-Dialogue: 0,0:25:33.28,0:25:35.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そして友情体育祭では私たちLiella!
-Dialogue: 0,0:25:35.52,0:25:43.06,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}が3チームに分かれ競技で対決するのですがそのチーム分けのくじ引きの様子が公式YouTubeで公開中です。
-Dialogue: 0,0:25:43.06,0:25:44.78,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こちらもぜひチェックしてください。
-Dialogue: 0,0:25:44.78,0:25:47.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}続いて生放送情報です。
-Dialogue: 0,0:25:47.30,0:25:50.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}6月19日金曜日20時からLiella!
-Dialogue: 0,0:25:50.44,0:25:52.98,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}生放送の配信が決定しました。
-Comment: 0,0:25:52.98,0:26:00.64,Sakakura Sakura,,0,0,0,corner,=== Corner: Self-Introductions ===
-Dialogue: 0,0:25:52.98,0:26:00.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}米女役やぶしまあかね、鬼塚なつめ役えもりあや、鬼塚ともり役さかくらさくらの3人でお届けします。
-Dialogue: 0,0:26:00.64,0:26:09.38,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}さらに友情体育祭に向けた決起集会も兼ねて生放送ゲストとして応援代表の津島善子役小林愛香さん、
-Dialogue: 0,0:26:09.38,0:26:13.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}永奈すみ役相良まゆさんが来てくださることになりました。
-Dialogue: 0,0:26:13.56,0:26:14.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごい。
-Dialogue: 0,0:26:14.84,0:26:17.88,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}お、生放送でゲストって初めて。
-Dialogue: 0,0:26:17.89,0:26:18.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:26:18.43,0:26:19.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}初めて。
-Dialogue: 0,0:26:19.32,0:26:22.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}しかも先輩達がね来てくれるということでうれしい。
-Dialogue: 0,0:26:22.68,0:26:23.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ありがとうございます。
-Dialogue: 0,0:26:23.82,0:26:26.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、さらに今回の生放送ではLiella!
-Dialogue: 0,0:26:26.28,0:26:31.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}と結ぶプロジェクトミニアルバムに関する新情報もお届けしますのでお見逃しなく。
-Comment: 0,0:26:32.04,0:26:33.82,Sakakura Sakura,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
-Dialogue: 0,0:26:32.04,0:26:33.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}続いて音楽情報です。
-Dialogue: 0,0:26:33.82,0:26:35.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}本日Liella!
-Dialogue: 0,0:26:35.08,0:26:41.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}と結ぶプロジェクトミニアルバムチーム緑版のジャケットを初公開させていただきます。
-Dialogue: 0,0:26:42.76,0:26:44.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}それではどうぞ。
-Dialogue: 0,0:26:46.11,0:26:46.61,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}わあ。
-Dialogue: 0,0:26:46.87,0:26:47.37,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これです。
-Dialogue: 0,0:26:48.04,0:26:50.02,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいい。
-Dialogue: 0,0:26:50.02,0:26:51.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}めちゃめちゃいいね。
-Dialogue: 0,0:26:51.92,0:26:53.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわちい。
-Dialogue: 0,0:26:53.16,0:26:54.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごいおしゃれじゃない?
-Dialogue: 0,0:26:54.08,0:26:54.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんか。
-Dialogue: 0,0:26:54.99,0:26:55.49,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:26:55.72,0:26:56.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}目映え。
-Dialogue: 0,0:26:56.95,0:26:57.45,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いいね。
-Dialogue: 0,0:26:57.40,0:27:01.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}人参とかトマト
-Dialogue: 0,0:27:01.24,0:27:02.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}トマト。
-Dialogue: 0,0:27:02.76,0:27:04.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラベンダーとか色々入ってるんだね。
-Dialogue: 0,0:27:05.48,0:27:06.54,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ほえー。
-Dialogue: 0,0:27:06.54,0:27:07.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}すごい。
-Dialogue: 0,0:27:07.81,0:27:08.31,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいい。
-Dialogue: 0,0:27:08.60,0:27:11.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}全然さ、他のチームと色が違うね。
-Dialogue: 0,0:27:12.00,0:27:12.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そうだね。
-Dialogue: 0,0:27:12.53,0:27:13.03,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}うん。
-Dialogue: 0,0:27:13.04,0:27:14.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}今回3チームとも違うもんね。
-Dialogue: 0,0:27:15.04,0:27:16.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}全然違うよね。
-Dialogue: 0,0:27:16.44,0:27:17.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいい。
-Dialogue: 0,0:27:18.00,0:27:22.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}服もね、みんなちょっとなんかシミラルックみたいな感じで。
-Dialogue: 0,0:27:22.72,0:27:23.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいいですね。
-Dialogue: 0,0:27:23.68,0:27:24.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いいですね。
-Dialogue: 0,0:27:25.40,0:27:26.52,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}虫はいないですね。
-Dialogue: 0,0:27:26.61,0:27:27.11,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}虫はいない。
-Dialogue: 0,0:27:27.49,0:27:27.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よかった。
-Dialogue: 0,0:27:28.76,0:27:31.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}なんかあの、今までのさ、リエラジでさ
-Dialogue: 0,0:27:32.52,0:27:36.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}チーム緑でやったなんかたいてい虫の話入ってたじゃん。
-Dialogue: 0,0:27:36.12,0:27:36.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だいたいね。
-Dialogue: 0,0:27:37.08,0:27:41.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}だからジャケットどうなるのかなと思ったら、え、今のところ虫見当たりません。
-Dialogue: 0,0:27:41.24,0:27:42.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よかった。
-Dialogue: 0,0:27:42.18,0:27:44.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}しきちゃん虫いなくてもうれしそうだ。
-Dialogue: 0,0:27:44.25,0:27:44.75,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}よかった。
-Dialogue: 0,0:27:45.13,0:27:45.63,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}あ、よかった。
-Dialogue: 0,0:27:45.67,0:27:46.17,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ね。
-Dialogue: 0,0:27:46.84,0:27:48.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}確かにこの葉っぱの裏にはたくさんいるかもしれない。
-Dialogue: 0,0:27:48.87,0:27:49.37,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}やめて。
-Dialogue: 0,0:27:52.16,0:27:53.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}これかわいいですね。
-Dialogue: 0,0:27:52.99,0:27:53.49,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいい。
-Dialogue: 0,0:27:53.72,0:27:54.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いい感じです。
-Dialogue: 0,0:27:54.69,0:27:55.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}いい感じです。
-Dialogue: 0,0:27:55.67,0:27:56.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}はい。
-Dialogue: 0,0:27:56.18,0:28:03.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、本日はチーム緑版のジャケットを公開させていただきましたがミニアルバムは全5形態にて展開です。
-Dialogue: 0,0:28:03.58,0:28:12.86,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、また全形態共通でラブライブシリーズ15thアニバーサリーLoveLiveスーパースター先行抽選申込券を封入しております。
-Dialogue: 0,0:28:12.86,0:28:15.44,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}さらに連動購入特典としてLiella!
-Dialogue: 0,0:28:15.44,0:28:17.54,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}のシール帳をプレゼントいたします。
-Dialogue: 0,0:28:17.54,0:28:21.98,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}7月8日水曜日リリースとなりますのでお早めにご予約ください。
-Dialogue: 0,0:28:21.98,0:28:22.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}そしてLiella!
-Dialogue: 0,0:28:22.96,0:28:28.38,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}と結ぶプロジェクトミニアルバムの発売を記念してお渡し会の実施が決定しております。
-Dialogue: 0,0:28:28.38,0:28:32.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}日程は10月2日金曜日、9日金曜日の2日間。
-Dialogue: 0,0:28:32.68,0:28:39.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}対象店舗にてミニアルバムをご予約ご購入いただいた方から抽選でお渡し会にご参加いただきます。
-Dialogue: 0,0:28:39.12,0:28:45.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}各日程で出演者が異なりますのでご応募の際は応募要項をご確認の上ご応募ください。
-Dialogue: 0,0:28:45.84,0:28:49.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}詳細はラブライブスーパースター公式ホームページをチェックしてください。
-Dialogue: 0,0:28:50.48,0:28:54.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}続いて明日6月17日水曜日にLiella!
-Dialogue: 0,0:28:54.20,0:28:59.54,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}のチュウリエラ2期テーマソングCD恋のチュートリアルをリリースさせていただきます。
-Dialogue: 0,0:28:59.54,0:29:05.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}さらに明日放送のデイ2に生出演させていただきますのでこちらもぜひチェックしてください。
-Dialogue: 0,0:29:06.36,0:29:10.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}続いて6月24日水曜日にラブライブスーパースターLiella!
-Dialogue: 0,0:29:10.76,0:29:13.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}1stGenerationLive2021&2022
-Dialogue: 0,0:29:25.12,0:29:29.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}リバイバル公演とスペシャルライブの舞台裏メイキングを収録しております。
-Dialogue: 0,0:29:29.60,0:29:36.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}さらにシューティングボイスライブバージョンを収録したカセットテープとキャストブックレットを封入。
-Dialogue: 0,0:29:36.18,0:29:45.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}え、1期生の軌跡をたどったリバイバルライブと一夜限りの特別ライブを1度に楽しめるメモリアルパッケージとなりますのでご予約をお忘れなく。
-Dialogue: 0,0:29:45.80,0:29:51.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}またラブライブ公式YouTubeにて試聴動画も公開中ですのでこちらもぜひチェックしてみてください。
-Dialogue: 0,0:29:52.36,0:29:54.06,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}続いてグッズ情報です。
-Dialogue: 0,0:29:54.06,0:30:03.42,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}公式通販サイト結ヶ丘女子購買部にてバースデープレゼント第5シーズン兵闇すみれセットの予約受付が本日よりスタートしました。
-Dialogue: 0,0:30:03.42,0:30:06.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}2ndライブで初披露されたLiella!
-Dialogue: 0,0:30:06.00,0:30:14.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}3rdアルバムアスパイヤに収録されているすみれちゃんのソロ楽曲JustU衣装の新規描き下ろしイラストがデザインされています。
-Dialogue: 0,0:30:15.40,0:30:16.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}かわいい。
-Dialogue: 0,0:30:16.00,0:30:22.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こちら今ね、手元にあるんですけれどもとってもキラキラでね、めちゃめちゃかわいいです。
-Dialogue: 0,0:30:23.56,0:30:27.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}こちらの予約受付は7月6日月曜日まで。
-Dialogue: 0,0:30:27.12,0:30:32.74,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}予約数のみを製造する受注限定生産なのでゲットできるのは予約した方のみ。
-Dialogue: 0,0:30:32.74,0:30:34.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}情報の詳細はLiella!
-Dialogue: 0,0:30:34.36,0:30:37.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}公式Xと結ヶ丘女子購買部をチェックしてください。
-Dialogue: 0,0:30:38.72,0:30:41.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}ラブライブシリーズオフィシャルカードゲームからのお知らせです。
-Dialogue: 0,0:30:42.32,0:30:44.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}スタートデッキラブライブスーパースターチュ(
+Comment: 0,0:00:00.00,0:00:02.20,Default,,0,0,0,corner,=== Corner: Opening Skit ===
+Dialogue: 0,0:00:00.00,0:00:02.20,Default,host,0,0,0,,明日は識さんのお誕生日
+Dialogue: 0,0:00:06.80,0:00:07.32,Default,host,0,0,0,,ですね。
+Dialogue: 0,0:00:07.84,0:00:11.08,Default,host,0,0,0,,1日早いですが、お誕生日おめでとうございます。
+Dialogue: 0,0:00:11.88,0:00:12.44,Default,host,0,0,0,,ありがとう。
+Dialogue: 0,0:00:13.24,0:00:17.96,Default,host,0,0,0,,誕生日前は年齢という数値が1つ増えるだけだと思っていた。
+Dialogue: 0,0:00:18.64,0:00:22.32,Default,host,0,0,0,,それは識先輩らしい合理的な捉え方ですね。
+Dialogue: 0,0:00:22.84,0:00:25.76,Default,host,0,0,0,,でも今はそれだけではないのですね。
+Dialogue: 0,0:00:26.29,0:00:26.79,Default,host,0,0,0,,うん。
+Dialogue: 0,0:00:27.52,0:00:34.76,Default,host,0,0,0,,その1にはみんなと一緒に歌ってステージで大勢の人に応援してもらった月日の積み重ねがある。
+Dialogue: 0,0:00:35.60,0:00:38.60,Default,host,0,0,0,,そんな1を祝う大切な誕生日。
+Dialogue: 0,0:00:40.44,0:00:46.96,Default,host,0,0,0,,識さんがスクールアイドル活動を通してそんな風に考えるようになったなんて嬉しいですね。
+Dialogue: 0,0:00:47.80,0:00:51.48,Default,host,0,0,0,,では蓮先輩そろそろあれを識先輩に。
+Dialogue: 0,0:00:52.31,0:00:53.02,Default,host,0,0,0,,あれ?
+Dialogue: 0,0:00:53.02,0:00:54.12,Default,host,0,0,0,,そうでした。
+Dialogue: 0,0:00:55.12,0:01:00.08,Default,host,0,0,0,,こちらは私とさんチーム緑から識さんへプレゼントです。
+Dialogue: 0,0:01:00.88,0:01:03.64,Default,host,0,0,0,,改めてお誕生日おめでとうございます。
+Dialogue: 0,0:01:04.20,0:01:05.76,Default,host,0,0,0,,1日早いですけどね。
+Dialogue: 0,0:01:07.76,0:01:08.48,Default,host,0,0,0,,そうですね。
+Dialogue: 0,0:01:09.08,0:01:15.24,Default,host,0,0,0,,では明日Liellaみんなでお祝いする前に今日はこのチームでお祝いということで。
+Dialogue: 0,0:01:18.48,0:01:21.32,Default,host,0,0,0,,これ栗の形のブローチ。
+Dialogue: 0,0:01:22.76,0:01:23.88,Default,host,0,0,0,,とても可愛い。
+Dialogue: 0,0:01:24.92,0:01:32.88,Default,host,0,0,0,,チーム緑らしく花や野菜にちなんだものをと2人で考えていたところ泊さんにこちらを提案してもらいました。
+Dialogue: 0,0:01:33.68,0:01:38.24,Default,host,0,0,0,,識先輩の好物ですので喜ばれるかなと考えまして。
+Dialogue: 0,0:01:38.95,0:01:39.45,Default,host,0,0,0,,うん。
+Dialogue: 0,0:01:40.24,0:01:40.76,Default,host,0,0,0,,嬉しい。
+Dialogue: 0,0:01:41.72,0:01:42.24,Default,host,0,0,0,,ありがとう。
+Dialogue: 0,0:01:42.80,0:01:43.76,Default,host,0,0,0,,蓮先輩。
+Dialogue: 0,0:01:43.76,0:01:44.52,Default,host,0,0,0,,ちゃん。
+Dialogue: 0,0:01:45.64,0:01:48.56,Default,host,0,0,0,,このブローチ小さくて可愛い。
+Dialogue: 0,0:01:48.56,0:01:49.51,Default,host,0,0,0,,ええ。
+Dialogue: 0,0:01:49.51,0:01:51.28,Default,host,0,0,0,,シンプルで良いデザインです。
+Dialogue: 0,0:01:51.96,0:02:00.64,Default,host,0,0,0,,実はそのブローチを取り扱っていたショップで他にも色々と見ていたら気に入ってしまって私もこれを。
+Dialogue: 0,0:02:01.64,0:02:04.20,Default,host,0,0,0,,さつまいもの形をしたブローチ?
+Dialogue: 0,0:02:05.08,0:02:07.24,Default,host,0,0,0,,泊ちゃん自分用にも買ったんだ。
+Dialogue: 0,0:02:08.40,0:02:11.92,Default,host,0,0,0,,考えることは同じですね。
+Dialogue: 0,0:02:12.84,0:02:13.80,Default,host,0,0,0,,蓮先輩。
+Dialogue: 0,0:02:14.56,0:02:16.32,Default,host,0,0,0,,それはイチゴのブローチ?
+Dialogue: 0,0:02:17.36,0:02:20.60,Default,host,0,0,0,,形はバラバラだけどこういうのもお揃い?
+Dialogue: 0,0:02:21.48,0:02:23.68,Default,host,0,0,0,,栗、さつまいも、イチゴ。
+Dialogue: 0,0:02:24.36,0:02:29.96,Default,host,0,0,0,,確かにバラバラですがチーム緑らしいお揃いのアイテムと言って良いと思います。
+Dialogue: 0,0:02:30.60,0:02:34.84,Default,host,0,0,0,,では今日はお揃いのブローチをつけてラジオを始めましょうか。
+Dialogue: 0,0:02:35.68,0:02:36.48,Default,host,0,0,0,,アグリーです。
+Comment: 0,0:02:49.96,0:02:51.88,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
+Dialogue: 0,0:02:49.96,0:02:51.88,Default,host,0,0,0,,Liella結ヶ丘
+Dialogue: 0,0:03:00.88,0:03:03.28,Default,host,0,0,0,,皆皆さんさんこんにちは。
+Dialogue: 0,0:03:02.20,0:03:03.48,Default,host,0,0,0,,こんにちは。
+Dialogue: 0,0:03:03.48,0:03:04.19,Default,host,0,0,0,,鬼塚鬼塚
+Comment: 0,0:17:59.81,0:18:00.31,Default,,0,0,0,corner,=== Corner: Suggestion Box ===
+Dialogue: 0,0:17:59.81,0:18:00.31,Default,host,0,0,0,,うん。
+Dialogue: 0,0:18:01.45,0:18:01.95,Default,host,0,0,0,,え、懐かしい。
+Dialogue: 0,0:18:02.56,0:18:04.36,Default,host,0,0,0,,夏休みとかやってた、めっちゃ。
+Dialogue: 0,0:18:04.36,0:18:04.89,Default,host,0,0,0,,ね。
+Dialogue: 0,0:18:04.89,0:18:05.99,Default,host,0,0,0,,適当になあ。
+Dialogue: 0,0:18:05.99,0:18:06.54,Default,host,0,0,0,,書いてたなあ。
+Dialogue: 0,0:18:06.54,0:18:07.26,Default,host,0,0,0,,ええ。
+Dialogue: 0,0:18:07.26,0:18:11.86,Default,host,0,0,0,,なんかさ、最初育てるところから始めてさ、観察日記書かなきゃいけないで。
+Dialogue: 0,0:18:11.86,0:18:12.64,Default,host,0,0,0,,絵描くじゃん。
+Dialogue: 0,0:18:13.16,0:18:15.06,Default,host,0,0,0,,だけど何日かさ、やんなくて。
+Dialogue: 0,0:18:15.06,0:18:16.72,Default,host,0,0,0,,もう花咲いてますみたいな。
+Dialogue: 0,0:18:17.48,0:18:18.64,Default,host,0,0,0,,適当にまとめてね。
+Dialogue: 0,0:18:19.72,0:18:20.88,Default,host,0,0,0,,図鑑とか見て描いてた。
+Dialogue: 0,0:18:21.96,0:18:25.00,Default,host,0,0,0,,なぎちゃんの絵は小学生の時からあの感じ。
+Dialogue: 0,0:18:26.00,0:18:26.83,Default,host,0,0,0,,何ですか?
+Dialogue: 0,0:18:26.83,0:18:27.56,Default,host,0,0,0,,何ですか?
+Dialogue: 0,0:18:27.56,0:18:28.72,Default,host,0,0,0,,それはどういう意味ですか?
+Dialogue: 0,0:18:28.72,0:18:30.04,Default,host,0,0,0,,あ、成長した?
+Dialogue: 0,0:18:30.04,0:18:31.30,Default,host,0,0,0,,小学生の時から。
+Dialogue: 0,0:18:31.30,0:18:34.08,Default,host,0,0,0,,うん、でも朝顔とかそういうのは描けるよ。
+Dialogue: 0,0:18:34.08,0:18:34.90,Default,host,0,0,0,,ああ、そうなの?
+Dialogue: 0,0:18:34.90,0:18:35.88,Default,host,0,0,0,,人物じゃなければ。
+Dialogue: 0,0:18:36.60,0:18:37.28,Default,host,0,0,0,,そうそうそうそうそう。
+Dialogue: 0,0:18:37.28,0:18:38.42,Default,host,0,0,0,,今度描いてもらう。
+Dialogue: 0,0:18:38.42,0:18:39.24,Default,host,0,0,0,,ね、描いてもらう。
+Dialogue: 0,0:18:39.24,0:18:42.55,Default,host,0,0,0,,でもなんかめっちゃ上手くなってるよね、あの人の絵も。
+Dialogue: 0,0:18:42.55,0:18:43.26,Default,host,0,0,0,,上手くなったと思う。
+Dialogue: 0,0:18:43.26,0:18:44.32,Default,host,0,0,0,,めっちゃ思うの。
+Dialogue: 0,0:18:44.32,0:18:45.60,Default,host,0,0,0,,なんかえ、上手いと思って。
+Dialogue: 0,0:18:45.60,0:18:47.88,Default,host,0,0,0,,この5年間ぐらいでめちゃめちゃ描かされてるからね。
+Dialogue: 0,0:18:48.73,0:18:49.27,Default,host,0,0,0,,そう。
+Dialogue: 0,0:18:49.27,0:18:51.12,Default,host,0,0,0,,ちゃんと人間成長するんですよ。
+Dialogue: 0,0:18:51.12,0:18:52.32,Default,host,0,0,0,,好きなんだよなあ。
+Dialogue: 0,0:18:52.32,0:18:54.12,Default,host,0,0,0,,Liellaクラブでもね、いっぱい描いてるから。
+Dialogue: 0,0:18:54.12,0:18:56.75,Default,host,0,0,0,,そうね。 ちょっとLiellaクラブ絵描く機会多くない?
+Dialogue: 0,0:18:56.75,0:18:57.30,Default,host,0,0,0,,多い。
+Dialogue: 0,0:18:57.30,0:18:57.96,Default,host,0,0,0,,めっちゃ多いよね。
+Dialogue: 0,0:18:58.48,0:18:59.20,Default,host,0,0,0,,わざとわざとうん。
+Dialogue: 0,0:18:59.83,0:19:00.54,Default,host,0,0,0,,ね。
+Dialogue: 0,0:19:00.54,0:19:02.84,Default,host,0,0,0,,まあ、そういうあなたもたいがいだけどね。
+Dialogue: 0,0:19:02.84,0:19:03.39,Default,host,0,0,0,,確かに。
+Dialogue: 0,0:19:03.39,0:19:06.24,Default,host,0,0,0,,いや、でも私は私は上手いと思ってないから自分。
+Dialogue: 0,0:19:06.24,0:19:07.24,Default,host,0,0,0,,いや、私も思ってない。
+Dialogue: 0,0:19:09.08,0:19:10.76,Default,host,0,0,0,,いつ私上手いってなった?
+Dialogue: 0,0:19:10.76,0:19:15.60,Default,host,0,0,0,,なんかこの前メンバーのイラストを描く、あの、何?
+Dialogue: 0,0:19:15.60,0:19:16.68,Default,host,0,0,0,,絵描、似顔絵?
+Dialogue: 0,0:19:16.68,0:19:17.92,Default,host,0,0,0,,描くみたいなのあったじゃん。
+Dialogue: 0,0:19:18.48,0:19:20.80,Default,host,0,0,0,,私だけ初めて描き直しがあって。
+Dialogue: 0,0:19:20.80,0:19:21.43,Default,host,0,0,0,,え?
+Dialogue: 0,0:19:22.03,0:19:22.62,Default,host,0,0,0,,マジで?
+Dialogue: 0,0:19:22.62,0:19:25.22,Default,host,0,0,0,,あまりにひどくて描き直しって言われちゃって。
+Dialogue: 0,0:19:25.22,0:19:26.64,Default,host,0,0,0,,後日後日描いた?
+Dialogue: 0,0:19:27.19,0:19:27.76,Default,host,0,0,0,,え?
+Dialogue: 0,0:19:27.76,0:19:30.08,Default,host,0,0,0,,いや、普通にしきちゃんを描いてあるですよ。
+Dialogue: 0,0:19:30.08,0:19:31.40,Default,host,0,0,0,,思い、思いのまま?
+Dialogue: 0,0:19:31.40,0:19:32.02,Default,host,0,0,0,,うん。
+Dialogue: 0,0:19:32.02,0:19:32.88,Default,host,0,0,0,,ダメだったの?
+Dialogue: 0,0:19:32.88,0:19:33.84,Default,host,0,0,0,,ダメだったらしい。
+Dialogue: 0,0:19:33.84,0:19:34.34,Default,host,0,0,0,,ええ。
+Dialogue: 0,0:19:35.40,0:19:36.46,Default,host,0,0,0,,そんなことあるの?
+Dialogue: 0,0:19:36.46,0:19:39.56,Default,host,0,0,0,,あまりにひどかったらNGになることもある。
+Dialogue: 0,0:19:39.56,0:19:44.16,Default,host,0,0,0,,ってことはでもさ、やっぱあの応援してくださってる皆さんは私のれんちゃんを皆知ってるわけじゃん。
+Dialogue: 0,0:19:44.16,0:19:47.14,Default,host,0,0,0,,あれでひどいひどい言われてるけど私NGくらったことないからね。
+Dialogue: 0,0:19:47.14,0:19:47.90,Default,host,0,0,0,,ああ。
+Dialogue: 0,0:19:47.90,0:19:49.02,Default,host,0,0,0,,ってことは相当だよ。
+Dialogue: 0,0:19:49.02,0:19:50.44,Default,host,0,0,0,,もっとやばいんだ、じゃあ。
+Dialogue: 0,0:19:51.88,0:19:52.84,Default,host,0,0,0,,何を描いたの?
+Dialogue: 0,0:19:52.84,0:19:55.56,Default,host,0,0,0,,いやいや、しきちゃんを描いたんだよね。
+Dialogue: 0,0:19:56.92,0:20:04.10,Default,host,0,0,0,,まあ、なんかなぎちゃんのれんちゃんは、まあ、上手いかって言われたらちょっとあれだけど、
+Dialogue: 0,0:20:04.10,0:20:06.60,Default,host,0,0,0,,でもあのれんちゃんに見えるのよ。
+Dialogue: 0,0:20:06.60,0:20:07.23,Default,host,0,0,0,,ちゃんと。
+Dialogue: 0,0:20:07.23,0:20:11.40,Default,host,0,0,0,,れんちゃんを描いてるんだなっていうのが伝わるからそれが伝わんなかったんじゃない?
+Dialogue: 0,0:20:12.00,0:20:14.04,Default,host,0,0,0,,もう愛がないと思われちゃったのかな。
+Dialogue: 0,0:20:15.12,0:20:17.22,Default,host,0,0,0,,逆に何描いたのか知りたいわ。
+Dialogue: 0,0:20:17.22,0:20:20.66,Default,host,0,0,0,,まあ、しきちゃんね、結構あのシンプルな髪型してるしね。
+Dialogue: 0,0:20:20.66,0:20:21.44,Default,host,0,0,0,,難しいよね。
+Dialogue: 0,0:20:21.44,0:20:22.04,Default,host,0,0,0,,難しい。
+Dialogue: 0,0:20:22.60,0:20:24.04,Default,host,0,0,0,,前髪とかがね、やっぱり。
+Dialogue: 0,0:20:24.04,0:20:24.86,Default,host,0,0,0,,確かに確かに。
+Dialogue: 0,0:20:24.86,0:20:26.24,Default,host,0,0,0,,バランスが難しかった。
+Dialogue: 0,0:20:26.24,0:20:26.74,Default,host,0,0,0,,うん。
+Dialogue: 0,0:20:28.24,0:20:28.74,Default,host,0,0,0,,そう。
+Dialogue: 0,0:20:28.74,0:20:29.72,Default,host,0,0,0,,大変。 だったんだね。
+Dialogue: 0,0:20:29.72,0:20:30.76,Default,host,0,0,0,,うん、大変だった。
+Dialogue: 0,0:20:31.32,0:20:31.92,Default,host,0,0,0,,気になる。
+Dialogue: 0,0:20:31.92,0:20:33.94,Default,host,0,0,0,,もう1回描いてって言われて。
+Dialogue: 0,0:20:33.94,0:20:35.06,Default,host,0,0,0,,2回目は大丈夫だったの?
+Dialogue: 0,0:20:35.06,0:20:36.48,Default,host,0,0,0,,2回目は大丈夫だった。
+Dialogue: 0,0:20:36.48,0:20:45.84,Default,host,0,0,0,,でも2回目もそのパッてこう紙をこう置いといてそのまま帰ろうかと思ったんだけどちょっと待って一旦確認してから帰らせないっていう。
+Dialogue: 0,0:20:47.51,0:20:48.06,Default,host,0,0,0,,ええ。
+Dialogue: 0,0:20:48.06,0:20:49.10,Default,host,0,0,0,,めちゃめちゃおもろい。
+Dialogue: 0,0:20:49.10,0:20:54.82,Default,host,0,0,0,,今回は大丈夫ですよって言われたんだけど一旦みんなで確認しようってみんなで。
+Dialogue: 0,0:20:54.82,0:20:57.56,Default,host,0,0,0,,入ってからあのOKが出ました。
+Dialogue: 0,0:20:57.56,0:20:58.44,Default,host,0,0,0,,ああ、良かった。
+Dialogue: 0,0:20:58.44,0:21:00.56,Default,host,0,0,0,,でもしき入れてはい、良かったね。
+Dialogue: 0,0:21:00.56,0:21:01.12,Default,host,0,0,0,,おめでとう。
+Dialogue: 0,0:21:01.64,0:21:02.50,Default,host,0,0,0,,テイスト変えたの?
+Dialogue: 0,0:21:02.50,0:21:04.18,Default,host,0,0,0,,あ、多分テイスト変えました。
+Dialogue: 0,0:21:04.18,0:21:05.95,Default,host,0,0,0,,あのフォルムを変えたってこと?
+Dialogue: 0,0:21:05.95,0:21:06.48,Default,host,0,0,0,,ちょ、そう。
+Dialogue: 0,0:21:06.48,0:21:14.60,Default,host,0,0,0,,リアルに描きすぎたらあんまり良くないんだなと思ってこのもっとこうポップなミニキャラみたいな感じで。
+Dialogue: 0,0:21:14.60,0:21:16.82,Default,host,0,0,0,,なことかが描くようなああいう感じ。
+Dialogue: 0,0:21:16.82,0:21:20.16,Default,host,0,0,0,,ああいう柔らかい感じで描いたら大丈夫だった。
+Dialogue: 0,0:21:20.96,0:21:21.76,Default,host,0,0,0,,できるんだ、それ。
+Dialogue: 0,0:21:22.28,0:21:23.00,Default,host,0,0,0,,ああ、確かに。
+Dialogue: 0,0:21:23.00,0:21:24.22,Default,host,0,0,0,,確かにどっちもできるんだね。
+Dialogue: 0,0:21:24.22,0:21:24.83,Default,host,0,0,0,,すごいじゃん。
+Dialogue: 0,0:21:25.56,0:21:35.16,Default,host,0,0,0,,こうあまりにこうしきちゃんのこの顔とこうにらめっこしながらこう描いてこう模写をしようとしちゃったみたいな。
+Dialogue: 0,0:21:35.92,0:21:36.48,Default,host,0,0,0,,そうそうそう。
+Dialogue: 0,0:21:36.48,0:21:36.98,Default,host,0,0,0,,だから
+Dialogue: 0,0:21:38.26,0:21:38.76,Default,host,0,0,0,,そうそうそう。
+Dialogue: 0,0:21:38.76,0:21:42.93,Default,host,0,0,0,,自分らしい可愛い姿をこうああ、描いたらOKだった。
+Dialogue: 0,0:21:42.93,0:21:43.58,Default,host,0,0,0,,OKでした。
+Dialogue: 0,0:21:43.58,0:21:44.40,Default,host,0,0,0,,ああ、良かった。
+Dialogue: 0,0:21:44.40,0:21:49.92,Default,host,0,0,0,,そういう時にねあの私いつも1個じゃなくて何個かれんちゃん描いとくの。
+Dialogue: 0,0:21:49.92,0:21:50.42,Default,host,0,0,0,,ああ。
+Dialogue: 0,0:21:51.00,0:21:52.52,Default,host,0,0,0,,そんでこの中から選んでくださいっていう。
+Dialogue: 0,0:21:53.72,0:21:55.28,Default,host,0,0,0,,なんかゆいなも6個ぐらい描いてた。
+Dialogue: 0,0:21:56.31,0:21:56.84,Default,host,0,0,0,,すごいね。
+Dialogue: 0,0:21:56.84,0:21:57.37,Default,host,0,0,0,,うん。
+Dialogue: 0,0:21:58.00,0:22:06.52,Default,host,0,0,0,,やっぱねねないという自覚があるから自分が可愛いと思っててもこれどうですかって言ったら違うかなちょっとねっていうねことになるからさ。
+Dialogue: 0,0:22:06.52,0:22:08.74,Default,host,0,0,0,,やっぱね、価値観みんな違いますからね。
+Dialogue: 0,0:22:08.74,0:22:09.35,Default,host,0,0,0,,ちょっとね。
+Dialogue: 0,0:22:09.35,0:22:09.95,Default,host,0,0,0,,確かに。
+Dialogue: 0,0:22:09.95,0:22:10.52,Default,host,0,0,0,,そう。
+Dialogue: 0,0:22:10.52,0:22:12.68,Default,host,0,0,0,,たくさん描いとくっていうのはお勧めですよ。
+Dialogue: 0,0:22:12.68,0:22:13.19,Default,host,0,0,0,,そうですね。
+Dialogue: 0,0:22:13.19,0:22:13.82,Default,host,0,0,0,,そうね。
+Dialogue: 0,0:22:13.82,0:22:15.56,Default,host,0,0,0,,何個か候補をね出しておくと。
+Dialogue: 0,0:22:17.08,0:22:17.68,Default,host,0,0,0,,何の話?
+Dialogue: 0,0:22:17.68,0:22:19.12,Default,host,0,0,0,,これさ。 絵の話になっちゃった。
+Dialogue: 0,0:22:19.12,0:22:20.26,Default,host,0,0,0,,緑の話。
+Dialogue: 0,0:22:20.26,0:22:21.36,Default,host,0,0,0,,緑の話。
+Dialogue: 0,0:22:21.36,0:22:22.40,Default,host,0,0,0,,ヘチマの話。
+Dialogue: 0,0:22:23.60,0:22:24.36,Default,host,0,0,0,,ありがとうございました。
+Dialogue: 0,0:22:24.96,0:22:25.72,Default,host,0,0,0,,ありがとうございました。
+Comment: 0,0:22:27.00,0:22:28.96,Default,,0,0,0,corner,=== Corner: Closing ===
+Dialogue: 0,0:22:27.00,0:22:28.96,Default,host,0,0,0,,ということでメールここまででございます。
+Dialogue: 0,0:22:28.96,0:22:31.48,Default,host,0,0,0,,はい。 皆さんたくさんのメールありがとうございました。
+Dialogue: 0,0:22:31.48,0:22:32.24,Default,host,0,0,0,,ありがとうございます。
+Comment: 0,0:22:32.96,0:22:36.10,Default,,0,0,0,corner,=== Corner: Lunchtime Request ===
+Dialogue: 0,0:22:32.96,0:22:36.10,Default,host_meta,0,0,0,,え、それではランチタイムリクエストのメールをご紹介しましょう。
+Dialogue: 0,0:22:36.10,0:22:38.70,Default,host_meta,0,0,0,,リエラジネームしまちゃんさんからいただきました。
+Dialogue: 0,0:22:38.70,0:22:39.64,Default,host,0,0,0,,ありがとうございます。
+Dialogue: 0,0:22:39.64,0:22:40.72,Default,listener_mail,0,0,0,,え、こんにちは。
+Dialogue: 0,0:22:40.72,0:22:41.60,Default,listener_mail,0,0,0,,お疲れ様です。
+Dialogue: 0,0:22:41.60,0:22:42.62,Default,listener_mail,0,0,0,,初メールです。
+Dialogue: 0,0:22:42.62,0:22:45.24,Default,listener_mail,0,0,0,,僕がリクエストするのはキラーキュンです。
+Dialogue: 0,0:22:45.24,0:22:52.08,Default,listener_mail,0,0,0,,この曲を初めて聴いた時になんやこれ、すげえ楽しいってなったので午後からの仕事も頑張れるかなと思いリクエストします。
+Dialogue: 0,0:22:52.60,0:22:53.32,Default,host_meta,0,0,0,,といただきました。
+Dialogue: 0,0:22:53.88,0:22:54.84,Default,host,0,0,0,,いいね。
+Dialogue: 0,0:22:54.84,0:22:57.24,Default,host,0,0,0,,キラーキュンは盛り上がりますから。
+Dialogue: 0,0:22:58.45,0:22:58.95,Default,host,0,0,0,,盛り上がる。
+Dialogue: 0,0:22:59.59,0:23:00.09,Default,host,0,0,0,,いきましょう。
+Dialogue: 0,0:23:00.09,0:23:00.60,Default,host,0,0,0,,はい。
+Dialogue: 0,0:23:00.60,0:23:02.18,Default,host,0,0,0,,それではお聴きください。
+Dialogue: 0,0:23:02.18,0:23:04.04,Default,host,0,0,0,,Liellaでキラーキュン。
+Dialogue: 0,0:23:07.99,0:23:08.49,Default,host,0,0,0,,はい、
+Dialogue: 0,0:23:09.00,0:23:09.82,Default,host,0,0,0,,もう猶予みですか?
+Dialogue: 0,0:23:09.82,0:23:11.58,Default,host,0,0,0,,明日の準備は万端ですか?
+Dialogue: 0,0:23:11.58,0:23:15.38,Default,host,0,0,0,,絶対ディープはケアしておらい。
+Dialogue: 0,0:23:15.38,0:23:16.74,Default,host,0,0,0,,はい、よばせな。
+Dialogue: 0,0:23:16.74,0:23:18.48,Default,host,0,0,0,,必死だってかとられんな。
+Dialogue: 0,0:23:18.48,0:23:22.12,Default,host,0,0,0,,涼しい顔で可愛くいたいとか言っちゃうメンタルやまやま可愛くない?
+Dialogue: 0,0:23:23.20,0:23:25.45,Default,host,0,0,0,,そろそろ寝なかもまで。
+Dialogue: 0,0:23:25.45,0:23:25.97,Default,host,0,0,0,,はいはいはい。
+Dialogue: 0,0:23:26.72,0:23:34.08,Default,host,0,0,0,,発言は挙手制だってまだ9A終わんないし、あと20分だけ話そう。
+Dialogue: 0,0:23:36.92,0:23:37.70,Default,host,0,0,0,,キュンキュン。
+Dialogue: 0,0:23:37.70,0:23:39.00,Default,host,0,0,0,,かなりキュンとしてるじゃない。
+Dialogue: 0,0:23:39.88,0:23:42.16,Default,host,0,0,0,,もうすぐ会える震える手。
+Dialogue: 0,0:23:43.62,0:23:44.12,Default,host,0,0,0,,キュンキュン。
+Dialogue: 0,0:23:44.12,0:23:46.24,Default,host,0,0,0,,ときめきフライングバリナイス。
+Dialogue: 0,0:23:46.24,0:23:48.16,Default,host,0,0,0,,深呼吸してスーハー。
+Dialogue: 0,0:23:50.80,0:23:51.46,Default,host,0,0,0,,キュンキュン。
+Dialogue: 0,0:23:51.46,0:23:52.92,Default,host,0,0,0,,いつもおなじみでいましょうね。
+Dialogue: 0,0:23:53.80,0:23:55.80,Default,host,0,0,0,,あと必ず言わせるね。
+Dialogue: 0,0:23:57.67,0:23:58.28,Default,host,0,0,0,,胸キュンにキュン。
+Dialogue: 0,0:23:58.28,0:23:59.84,Default,host,0,0,0,,キュンとしとっちゃうよ。
+Dialogue: 0,0:24:00.52,0:24:03.72,Default,host,0,0,0,,どうかなっちゃいそうなキラーキュン。
+Dialogue: 0,0:24:07.32,0:24:09.92,Default,host,0,0,0,,おのこごえのぷつん何話すの?
+Dialogue: 0,0:24:09.92,0:24:10.76,Default,host,0,0,0,,お願いできちゃう。
+Dialogue: 0,0:24:10.76,0:24:13.92,Default,host,0,0,0,,ニッコリキープは基本ねよそ。
+Dialogue: 0,0:24:14.48,0:24:15.84,Default,host,0,0,0,,おいおい、待ちないって。
+Dialogue: 0,0:24:15.84,0:24:17.58,Default,host,0,0,0,,にくにくしたいお待ちないって。
+Dialogue: 0,0:24:17.58,0:24:21.24,Default,host,0,0,0,,盛り上がりけいぽ変化とかやってるような私たち変だ。
+Dialogue: 0,0:24:22.14,0:24:22.64,Default,host,0,0,0,,ぜいまんぜぜいぜい。
+Dialogue: 0,0:24:22.64,0:24:24.59,Default,host,0,0,0,,に深夜のハイテンションだし。
+Dialogue: 0,0:24:24.59,0:24:25.25,Default,host,0,0,0,,ぜいぜいぜい。
+Dialogue: 0,0:24:25.80,0:24:26.64,Default,host,0,0,0,,なにそれ?
+Dialogue: 0,0:24:26.64,0:24:28.10,Default,host,0,0,0,,意味わかんないし。
+Dialogue: 0,0:24:28.10,0:24:28.88,Default,host,0,0,0,,ぎゅんぎゅん。
+Dialogue: 0,0:24:29.88,0:24:33.36,Default,host,0,0,0,,意味なんて後から分かるもんだぜ。
+Dialogue: 0,0:24:36.01,0:24:36.55,Default,host,0,0,0,,キュンあのキュン。
+Dialogue: 0,0:24:36.55,0:24:41.08,Default,host,0,0,0,,過去興味ないお前けどもっと私は好きになる。
+Dialogue: 0,0:24:42.91,0:24:43.41,Default,host,0,0,0,,キュン融通キュン。
+Dialogue: 0,0:24:44.04,0:24:47.00,Default,host,0,0,0,,効くも蹴るんだし何回よかう。
+Dialogue: 0,0:24:56.20,0:25:00.32,Default,host,0,0,0,,ラブライブスーパースター友情ランチタイム放送局リエラジ。
+Comment: 0,0:25:06.56,0:25:09.40,Default,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
+Dialogue: 0,0:25:06.56,0:25:09.40,Default,host,0,0,0,,ラブライブスーパースターからのお知らせ。
+Dialogue: 0,0:25:11.28,0:25:12.46,Default,host,0,0,0,,イベント情報です。
+Dialogue: 0,0:25:12.46,0:25:19.12,Default,host,0,0,0,,9月5日土曜日、6日日曜日にラブライブスーパースターLiella友情体育祭を開催させていただきます。
+Dialogue: 0,0:25:19.72,0:25:23.06,Default,host,0,0,0,,現在イベントグッズ事前通販が受付中です。
+Dialogue: 0,0:25:23.06,0:25:28.18,Default,host,0,0,0,,こちらの受付期間は6月21日日曜日23時59分まで。
+Dialogue: 0,0:25:28.18,0:25:32.76,Default,host,0,0,0,,体育祭がではの応援グッズが盛りだくさんなのでこの機会をお見逃しなく。
+Dialogue: 0,0:25:33.28,0:25:43.04,Default,host,0,0,0,,そして友情体育祭では私たちLiellaが3チームに分かれ競技で対決するのですがそのチーム分けのくじ引きの様子が公式YouTubeで公開中です。
+Dialogue: 0,0:25:43.04,0:25:44.78,Default,host,0,0,0,,こちらも是非チェックしてください。
+Dialogue: 0,0:25:44.78,0:25:47.28,Default,host,0,0,0,,続いて生放送情報です。
+Dialogue: 0,0:25:47.28,0:25:52.98,Default,host,0,0,0,,6月19日金曜日20時からLiella生放送の配信が決定しました。
+Comment: 0,0:25:52.98,0:26:00.64,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
+Dialogue: 0,0:25:52.98,0:26:00.64,Default,host,0,0,0,,米田みい役やぶしまあかね、鬼塚なつみ役えもりあや、鬼塚ともり役さかくらさくらの3人でお届けします。
+Dialogue: 0,0:26:00.64,0:26:09.38,Default,host,0,0,0,,さらに友情体育祭に向けた決起集会も兼ねて生放送ゲストとして応援代表の津島善子役小林愛香さん、
+Dialogue: 0,0:26:09.38,0:26:13.56,Default,host,0,0,0,,仲祐奈すみ役さがらまゆさんが来てくださることになりました。
+Dialogue: 0,0:26:13.56,0:26:14.32,Default,host,0,0,0,,すごい。
+Dialogue: 0,0:26:14.84,0:26:17.88,Default,host,0,0,0,,お、生放送でゲストって初めて。
+Dialogue: 0,0:26:17.88,0:26:18.43,Default,host,0,0,0,,ね。
+Dialogue: 0,0:26:18.43,0:26:19.32,Default,host,0,0,0,,初めて。
+Dialogue: 0,0:26:19.32,0:26:22.06,Default,host,0,0,0,,しかも先輩達がね来てくれるということで。
+Dialogue: 0,0:26:22.06,0:26:22.68,Default,host,0,0,0,,嬉しい。
+Dialogue: 0,0:26:22.68,0:26:23.82,Default,host,0,0,0,,ありがとうございます。
+Dialogue: 0,0:26:23.82,0:26:31.40,Default,host,0,0,0,,え、さらに今回の生放送ではLiellaと結ぶプロジェクトミニアルバムに関する新情報もお届けしますのでお見逃しなく。
+Comment: 0,0:26:32.04,0:26:33.82,Default,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
+Dialogue: 0,0:26:32.04,0:26:33.82,Default,host,0,0,0,,続いて音楽情報です。
+Dialogue: 0,0:26:33.82,0:26:41.32,Default,host,0,0,0,,本日Liellaと結ぶプロジェクトミニアルバムチーム緑版のジャケットを初公開させていただきます。
+Dialogue: 0,0:26:42.76,0:26:44.24,Default,host,0,0,0,,それではどうぞ。
+Dialogue: 0,0:26:46.11,0:26:46.74,Default,host,0,0,0,,わあ。
+Dialogue: 0,0:26:46.74,0:26:47.37,Default,host,0,0,0,,これです。
+Dialogue: 0,0:26:48.04,0:26:50.02,Default,host,0,0,0,,可愛い。
+Dialogue: 0,0:26:50.02,0:26:51.82,Default,host,0,0,0,,めちゃめちゃいいね。
+Dialogue: 0,0:26:51.82,0:26:53.10,Default,host,0,0,0,,かわちい。
+Dialogue: 0,0:26:53.10,0:26:54.08,Default,host,0,0,0,,すごいおしゃれじゃない?
+Dialogue: 0,0:26:54.08,0:26:54.82,Default,host,0,0,0,,なんか。
+Dialogue: 0,0:26:54.82,0:26:55.64,Default,host,0,0,0,,ね。
+Dialogue: 0,0:26:55.64,0:26:56.36,Default,host,0,0,0,,映え。
+Dialogue: 0,0:26:56.90,0:26:57.40,Default,host,0,0,0,,いいね。
+Dialogue: 0,0:26:57.40,0:27:02.68,Default,host,0,0,0,,人参とかトマトトマト。
+Dialogue: 0,0:27:02.68,0:27:04.68,Default,host,0,0,0,,ラベンダーとか色々入ってるんだね。
+Dialogue: 0,0:27:05.44,0:27:06.56,Default,host,0,0,0,,ほえー。
+Dialogue: 0,0:27:06.56,0:27:07.64,Default,host,0,0,0,,すごい。
+Dialogue: 0,0:27:08.60,0:27:11.78,Default,host,0,0,0,,全然さ、他のチームと違ったね。
+Dialogue: 0,0:27:11.78,0:27:12.76,Default,host,0,0,0,,そうだね。
+Dialogue: 0,0:27:12.76,0:27:14.92,Default,host,0,0,0,,今回3チームとも違うもんね。
+Dialogue: 0,0:27:16.48,0:27:17.82,Default,host,0,0,0,,可愛い。
+Dialogue: 0,0:27:17.82,0:27:22.04,Default,host,0,0,0,,服もね、みんなちょっとなんかシミラールックみたいな感じで。
+Dialogue: 0,0:27:22.72,0:27:23.60,Default,host,0,0,0,,可愛いですね。
+Dialogue: 0,0:27:23.60,0:27:24.60,Default,host,0,0,0,,ですね。
+Dialogue: 0,0:27:25.40,0:27:26.56,Default,host,0,0,0,,虫はいないですね。
+Dialogue: 0,0:27:26.56,0:27:27.30,Default,host,0,0,0,,虫はいない。
+Dialogue: 0,0:27:27.30,0:27:27.99,Default,host,0,0,0,,良かった。
+Dialogue: 0,0:27:28.76,0:27:36.06,Default,host,0,0,0,,なんかあの、今までのさ、リエラジでさチーム緑でやったなんかたいてい虫の話入ってたじゃん。
+Dialogue: 0,0:27:36.06,0:27:36.90,Default,host,0,0,0,,たいていね。
+Dialogue: 0,0:27:36.90,0:27:41.10,Default,host,0,0,0,,だからジャケットどうなるのかなと思ったら、え、今のところ虫見当たりません。
+Dialogue: 0,0:27:41.10,0:27:42.18,Default,host,0,0,0,,良かった。
+Dialogue: 0,0:27:42.18,0:27:44.24,Default,host,0,0,0,,しきちゃん虫いなくても嬉しそうだ。
+Dialogue: 0,0:27:44.24,0:27:44.93,Default,host,0,0,0,,良かった。
+Dialogue: 0,0:27:44.93,0:27:45.61,Default,host,0,0,0,,あ、良かった。
+Dialogue: 0,0:27:46.84,0:27:48.72,Default,host,0,0,0,,確かにこの葉っぱの裏にはたくさんいるかもしれない。
+Dialogue: 0,0:27:52.16,0:27:53.04,Default,host,0,0,0,,これ可愛いですね。
+Dialogue: 0,0:27:53.72,0:27:54.79,Default,host,0,0,0,,いい感じです。
+Dialogue: 0,0:27:54.79,0:27:55.54,Default,host,0,0,0,,です。
+Dialogue: 0,0:27:55.54,0:27:56.18,Default,host,0,0,0,,はい。
+Dialogue: 0,0:27:56.18,0:28:03.60,Default,host,0,0,0,,え、本日はチーム緑版のジャケットを公開させていただきましたがミニアルバムは全5形態にて展開です。
+Dialogue: 0,0:28:03.60,0:28:12.84,Default,host,0,0,0,,え、また全形態共通でラブライブシリーズ15thアニヴァーサリーLoveLiveスーパースター先行抽選申込券を封入しております。
+Dialogue: 0,0:28:12.84,0:28:17.54,Default,host,0,0,0,,さらに連動購入特典としてLiellaのシール帳をプレゼントいたします。
+Dialogue: 0,0:28:17.54,0:28:21.98,Default,host,0,0,0,,7月8日水曜日リリースとなりますのでお早めにご予約ください。
+Dialogue: 0,0:28:21.98,0:28:28.38,Default,host,0,0,0,,そしてLiellaと結ぶプロジェクトミニアルバムの発売を記念してお渡し会の実施が決定しております。
+Dialogue: 0,0:28:28.38,0:28:32.68,Default,host,0,0,0,,日程はは10月2日金曜日、9日金曜日の2日間。
+Dialogue: 0,0:28:32.68,0:28:39.12,Default,host,0,0,0,,対象店舗にてミニアルバムをご予約ご購入いただいた方から抽選でお渡し会にご参加いただきます。
+Dialogue: 0,0:28:39.12,0:28:45.84,Default,host,0,0,0,,各日程で出演者が異なりますのでご応募の際は応募要項をご確認の上ご応募ください。
+Dialogue: 0,0:28:45.84,0:28:49.76,Default,host,0,0,0,,詳細はLoveLiveスーパースター公式ホームページをチェックしてください。
+Dialogue: 0,0:28:50.48,0:28:59.52,Default,host,0,0,0,,続いて明日6月17日水曜日にLiellaのチュチュリエラ2期テーマソングCD恋のチュートリアルをリリースさせていただきます。
+Dialogue: 0,0:28:59.52,0:29:05.56,Default,host,0,0,0,,さらに明日放送のデイ3デイ3に生出演させていただきますのでこちらも是非チェックしてください。
+Dialogue: 0,0:29:06.36,0:29:16.92,Default,host,0,0,0,,続いて6月24日水曜日にLoveLiveスーパースターLiella1stGenerationLiveLiveアンドスペシャルLiveLiveBlu-rayBoxをリリースさせていただきます。
+Dialogue: 0,0:29:16.92,0:29:22.96,Default,host,0,0,0,,え、Blu-rayにはリバイバル東京公演Day2とスペシャルライブの2公演を収録。
+Dialogue: 0,0:29:22.96,0:29:29.60,Default,host,0,0,0,,そして、え、特典映像にはリバイバル公演とスペシャルライブの舞台裏メイキングを収録しております。
+Dialogue: 0,0:29:29.60,0:29:36.18,Default,host,0,0,0,,さらにシューティングボイスライブバージョンを収録したカセットテープとキャストブックレットを封入。
+Dialogue: 0,0:29:36.18,0:29:45.24,Default,host,0,0,0,,え、1期生の軌跡をたどったリバイバルライブと一夜限りの特別ライブを1度に楽しめるメモリアルパッケージとなりますのでご予約をお忘れなく。
+Dialogue: 0,0:29:45.80,0:29:51.80,Default,host,0,0,0,,またLoveLive公式YouTubeにて視聴動画も公開中ですのでこちらも是非チェックしてみてください。
+Dialogue: 0,0:29:52.36,0:29:54.06,Default,host,0,0,0,,続いてグッズ情報です。
+Dialogue: 0,0:29:54.06,0:30:03.42,Default,host,0,0,0,,公式通販サイト結ヶ丘女子部にてバースデープレゼント第5シーズン葉月すみれセットの予約受付が本日よりスタートしました。
+Dialogue: 0,0:30:03.42,0:30:14.72,Default,host,0,0,0,,7thライブで初披露されたLiella3rdアルバムアスパイヤに収録されているすみれちゃんのソロ楽曲ジャストユー衣装の新規描き下ろしイラストがデザインされています。
+Dialogue: 0,0:30:15.40,0:30:16.00,Default,host,0,0,0,,可愛い。
+Dialogue: 0,0:30:16.00,0:30:22.96,Default,host,0,0,0,,こちら今ね、手元にあるんですけれどもとってもキラキラでね、めちゃめちゃ可愛いです。
+Dialogue: 0,0:30:23.56,0:30:27.12,Default,host,0,0,0,,こちらの予約受付は7月6日月曜日まで。
+Dialogue: 0,0:30:27.12,0:30:32.74,Default,host,0,0,0,,予約数のみを製造する受注限定生産なのでゲットできるのは予約した方のみ。
+Dialogue: 0,0:30:32.74,0:30:37.60,Default,host,0,0,0,,情報の詳細はLiella公式Xと結ヶ丘女子部をチェックしてください。
+Dialogue: 0,0:30:38.72,0:30:41.80,Default,host,0,0,0,,LoveLiveシリーズオフィシャルカードゲームからのお知らせです。
+Dialogue: 0,0:30:42.32,0:30:46.16,Default,host,0,0,0,,スタートデッキLoveLiveスーパースターチアが好評発売中です。
+Dialogue: 0,0:30:46.72,0:30:51.14,Default,host,0,0,0,,パッケージイラストは投票で選ばれたクゥクゥちゃんの描き下ろしイラストです。
+Dialogue: 0,0:30:51.14,0:30:53.48,Default,host,0,0,0,,是非カードショップなどでゲットしてください。
+Dialogue: 0,0:30:54.12,0:31:00.78,Default,host,0,0,0,,さらに6月27日土曜日にプレミアムブースターLoveLiveスーパースターを発売いたします。
+Dialogue: 0,0:31:00.78,0:31:13.44,Default,host,0,0,0,,そしてこちらの商品は6月21日日曜日に大阪OMM展示ホールBで開催するカードラボプレゼンツラブカファンミーティングにて先行販売を実施いたします。
+Dialogue: 0,0:31:13.44,0:31:17.88,Default,host,0,0,0,,こちらのイベントでは過去のラブカ商品に収録されていたかのんちゃん、
+Dialogue: 0,0:31:17.88,0:31:22.84,Default,host,0,0,0,,きなこちゃん、なつみちゃん、まるかれいてちゃんの描き下ろしイラストを使用したスリーブ、
+Dialogue: 0,0:31:22.84,0:31:25.20,Default,host,0,0,0,,ラバーマットも発売するそうですよ。
+Dialogue: 0,0:31:25.76,0:31:29.00,Default,host,0,0,0,,物販コーナーは14時頃より一般入場も可能です。
+Dialogue: 0,0:31:29.00,0:31:31.28,Default,host,0,0,0,,なので是非会場でゲットしてください。
+Dialogue: 0,0:31:31.28,0:31:41.76,Default,host,0,0,0,,そして本商品の収録内容やその他最新情報はラブカ公式サイト及びラブカ公式Xにて順次お届けしていきますので是非ご注目ください。
+Dialogue: 0,0:31:42.60,0:31:47.78,Default,host,0,0,0,,今回お知らせした全ての情報の詳細はLoveLiveスーパースターLiella公式X、
+Dialogue: 0,0:31:47.78,0:31:51.54,Default,host,0,0,0,,LoveLiveスーパースター公式ホームページよりご確認ください。
+Dialogue: 0,0:31:51.54,0:31:53.12,Default,host,0,0,0,,以上お知らせでした。
+Comment: 0,0:32:02.84,0:32:08.44,Default,,0,0,0,corner,=== Corner: Closing ===
+Dialogue: 0,0:32:02.84,0:32:08.44,Default,host,0,0,0,,LoveLiveスーパースター友情ランチタイム放送局リエラジそろそろお別れのお時間が近づいてきました。
+Dialogue: 0,0:32:09.00,0:32:11.52,Default,host,0,0,0,,ここで次回以降の放送情報です。
+Dialogue: 0,0:32:11.52,0:32:19.70,Default,host,0,0,0,,次回6月23日火曜日更新予定の第278回放送も引き続きチーム緑でお届けします。
+Dialogue: 0,0:32:19.70,0:32:31.18,Default,host,0,0,0,,そしてさらにその次の6月30日火曜日更新予定の第279回放送はチームスポーツの嵐千砂都みさきなこ葉月すみれ役ペイトンなオミ、
+Dialogue: 0,0:32:31.18,0:32:36.36,Default,host,0,0,0,,米田みい役やぶしまあかね、ウィーンマルガレーテ役ゆいなの4人でお届けします。
+Dialogue: 0,0:32:37.12,0:32:44.76,Default,host,0,0,0,,チームスポーツ担当会に向けてテーマメールスポーツメールと各チームに期待することやってほしいことを募集中です。
+Dialogue: 0,0:32:44.76,0:32:50.74,Default,host,0,0,0,,スポーツメールはスポーツ、運動にまつわる思い出などをスポーツに関することなら何でもOKです。
+Dialogue: 0,0:32:50.74,0:32:52.84,Default,host,0,0,0,,たくさんのメールをお待ちしています。
+Dialogue: 0,0:32:53.80,0:32:57.04,Default,host,0,0,0,,ということで本日の放送はいかがだったでしょうか?
+Dialogue: 0,0:32:57.76,0:33:05.96,Default,host,0,0,0,,あの緑に関するメールさ、今回1つしか読めてないからさ次回もうちょっと読めるように頑張ろう。
+Dialogue: 0,0:33:06.76,0:33:08.12,Default,host,0,0,0,,いっぱい送ってくれてるからね。
+Dialogue: 0,0:33:09.48,0:33:10.12,Default,host,0,0,0,,頑張ります。
+Dialogue: 0,0:33:11.80,0:33:13.04,Default,host,0,0,0,,イラストの話になっちゃったかね。
+Dialogue: 0,0:33:14.24,0:33:14.92,Default,host,0,0,0,,頑張ります。
+Dialogue: 0,0:33:16.00,0:33:21.32,Default,host,0,0,0,,それでは今回のLoveLiveスーパースター友情ランチタイム放送局リエラジはここまで。
+Comment: 0,0:33:21.32,0:33:28.52,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
+Dialogue: 0,0:33:21.32,0:33:28.52,Default,host,0,0,0,,お相手は鬼塚ともり役さかくらさくらと葉月れん役あおやまなぎさとわかなしき役おおくまわかなでした。
+Dialogue: 0,0:33:28.52,0:33:29.52,Default,host,0,0,0,,またね。
+Dialogue: 0,0:33:33.32,0:33:41.76,Default,host,0,0,0,,たとえ涙悔しさ分け合っても痛みはずっと君1人のものだね。
