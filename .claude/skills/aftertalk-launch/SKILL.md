@@ -43,15 +43,15 @@ the per-episode style names to roles (they differ per character).
 **Discover** the target's positional styles, then infer role from name tokens
 (`PiP`→pip; `Shifted`/`Side Song`/`Shift`→shift) and **confirm with the user**:
 ```bash
-f="projects/Project Sekai/<event>/<name>_translated.ass"
+f="projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass"
 grep -oE "^Dialogue: [0-9]+,[^,]+,[^,]+,[^,]+" "$f" | awk -F, '{print $4}' | sort | uniq -c
 grep "^Style:" "$f"
 ```
 **Apply** (copies only Alignment + MarginL/R/V — color/font preserved; skips
 `Comment:` and already-positioned lines; idempotent, `--dry-run`):
 ```bash
-python3 scripts/apply_positional_styles.py "projects/Project Sekai/<event>/<name>_translated.ass" \
-  --reference "projects/Project Sekai/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
+python3 scripts/apply_positional_styles.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
+  --reference "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
   --pip   "<Char> - PiP:PiP:650,750" \
   --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
   --dry-run
@@ -75,7 +75,7 @@ and after any text edits (a reword changes wrapping).
 Detect (renders each line under its style over black, counts rows by projection):
 ```bash
 uv run --with pillow --with numpy python3 scripts/detect_long_lines.py \
-  "projects/Project Sekai/<event>/<name>_translated.ass"
+  "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass"
 ```
 For each flagged line, offer the user **both** fixes and apply their choice:
 - **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, sentence
@@ -100,9 +100,9 @@ rendered `Dialogue` timeline. `find_segments.py` finds them and, with
 `--transcript`, reports whether each gap is silent (safe) or watchalong audio.
 
 ```bash
-python3 scripts/find_segments.py "projects/Project Sekai/<event>/<name>_translated.ass" \
-  --transcript "projects/Project Sekai/<event>/<name>_transcript.json" \
-  --hardsub "projects/Project Sekai/<event>/<name>.mkv:projects/Project Sekai/<event>/<name>_final.mp4"
+python3 scripts/find_segments.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
+  --transcript "projects/Project Sekai/Aftertalk/<event>/<name>_transcript.json" \
+  --hardsub "projects/Project Sekai/Aftertalk/<event>/<name>.mkv:projects/Project Sekai/Aftertalk/<event>/<name>_final.mp4"
 ```
 Read the CUT regions: `~0 words` = silent (safe to drop); many words = a story/song
 watchalong you're intentionally cutting (its own audio, not host talk). **Confirm
@@ -163,8 +163,8 @@ After hardsubbing and writing `notes.md`, run `scripts/youtube_upload.py` to upl
 
 ```bash
 uv run --script scripts/youtube_upload.py \
-  --video "projects/Project Sekai/<event>/<name>_hardsubbed.mp4" \
-  --notes "projects/Project Sekai/<event>/notes.md"
+  --video "projects/Project Sekai/Aftertalk/<event>/<name>_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/Aftertalk/<event>/notes.md"
 ```
 
 The script automatically extracts the title and description from `notes.md`, verifies lengths, requests confirmation, and uploads via the YouTube Data API v3 (resumable upload).

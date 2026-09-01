@@ -13,8 +13,8 @@ override for bright backgrounds" note in subtitle_review_guide.md).
 
 Usage:
     uv run --with pillow --with numpy python3 scripts/check_outline_contrast.py \
-        "projects/Project Sekai/<event>/<name>_translated.ass" \
-        "projects/Project Sekai/<event>/<name>.mkv" [--frames 10] [--flag 1.5]
+        "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
+        "projects/Project Sekai/Aftertalk/<event>/<name>.mkv" [--frames 10] [--flag 1.5]
 """
 
 from __future__ import annotations

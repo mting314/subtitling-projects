@@ -16,11 +16,11 @@ name = "Rina Honnizumi"
 character = "Shizuku Hinomori"
 color = "#99EEDD"
 slot = 1
-avatar = "../official_cast_photos/rina_honnizumi.webp"
+avatar = "../../official_cast_photos/rina_honnizumi.webp"
 
 [speakers."1"]
 name = "Minori Suzuki"
 character = "Ena Shinonome"
 color = "#CCAA88"
 slot = 2
-avatar = "../official_cast_photos/minori_suzuki.webp"
+avatar = "../../official_cast_photos/minori_suzuki.webp"

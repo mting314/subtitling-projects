@@ -42,7 +42,7 @@ Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/vid
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
   --profile proseka/leoneed \
   --backend chirp_3 \
   --start 00:00:00 --end 00:39:10 \
@@ -89,6 +89,6 @@ Original video: https://www.youtube.com/watch?v=cbvTtSsc4e4
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Project Sekai/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
+  -o "projects/projects/Project Sekai/Aftertalk/Unsteady, still steady step Aftertalk/Unsteady, still steady step Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=cbvTtSsc4e4"
 ```

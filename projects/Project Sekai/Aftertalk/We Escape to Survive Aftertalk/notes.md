@@ -59,7 +59,7 @@ Kept segments (transcribed + translated) — 22:34 total, ~34%:
 Local (from the projects repo root):
 ```bash
 uv run autosub run \
-  "projects/Project Sekai/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
+  "projects/Project Sekai/Aftertalk/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
   --profile proseka/n25 --backend chirp_3 \
   --start 10:00 --end 15:00 \
   --start 30:04 --end 35:26 \
@@ -72,7 +72,7 @@ uv run autosub run \
 Docker remote (unreliable local network — run from the autosub repo root, note the extra `projects/`):
 ```bash
 ./scripts/remote.sh \
-  "projects/projects/Project Sekai/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
   run --profile proseka/n25 --backend chirp_3 \
   --start 10:00 --end 15:00 \
   --start 30:04 --end 35:26 \
@@ -111,6 +111,6 @@ Original video: https://www.youtube.com/watch?v=V5Gs4JghH84
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/Project Sekai/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
+  -o "projects/Project Sekai/Aftertalk/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=V5Gs4JghH84"
 ```

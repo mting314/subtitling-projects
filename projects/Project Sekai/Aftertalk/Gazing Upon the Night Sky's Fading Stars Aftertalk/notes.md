@@ -65,7 +65,7 @@ Kept segments (host's talk — hardsub these):
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
   --profile proseka/leoneed \
   --backend chirp_3 \
   --start 00:00:00 --end 00:00:00 \
@@ -114,6 +114,6 @@ Original video: https://www.youtube.com/watch?v=kK3aZTzvyGs
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Project Sekai/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
+  -o "projects/projects/Project Sekai/Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk/Gazing Upon the Night Sky's Fading Stars Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=kK3aZTzvyGs"
 ```

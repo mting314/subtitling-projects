@@ -18,8 +18,8 @@ gets published. Override with ``--title`` / ``--description`` if needed.
 Run it with uv (auto-installs deps from the inline metadata above):
 
     uv run scripts/youtube_upload.py \\
-      --video "projects/Project Sekai/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk_hardsubbed.mp4" \\
-      --notes "projects/Project Sekai/We Escape to Survive Aftertalk/notes.md"
+      --video "projects/Project Sekai/Aftertalk/We Escape to Survive Aftertalk/We Escape to Survive Aftertalk_hardsubbed.mp4" \\
+      --notes "projects/Project Sekai/Aftertalk/We Escape to Survive Aftertalk/notes.md"
 
 Privacy defaults to ``private``. Pass ``--privacy unlisted`` or ``--privacy public``
 to change it (it prints the chosen privacy and asks for confirmation before uploading).

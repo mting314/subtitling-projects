@@ -15,9 +15,9 @@
   {
     "id": "rui",
     "image": "rui_card.png",
-    "source": "Rui.webp",
+    "source": "rui_tanabe.webp",
     "title": "Tanabe Rui",
-    "subtitle": "Voice of Mafuyu Yoisaki",
+    "subtitle": "Voice of Mafuyu Asahina",
     "character": "Mafuyu Asahina",
     "color": "#8888cc",
     "start": "00:13:50.72",
@@ -30,8 +30,8 @@
   },
   {
     "id": "minori",
-    "image": "Minori_card.png",
-    "source": "Minori.webp",
+    "image": "minori_card.png",
+    "source": "minori_suzuki.webp",
     "title": "Minori Suzuki",
     "subtitle": "Voice of Ena Shinonome",
     "character": "Ena Shinonome",

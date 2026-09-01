@@ -48,7 +48,7 @@ Both CUT gaps verified silent by the transcript (0 and 2 words), so nothing is l
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
   --profile proseka/mmj \
   --backend chirp_3 \
   --start 00:09:54 --end 00:14:21 \
@@ -67,18 +67,18 @@ timings change:
 
 ```bash
 python3 scripts/find_segments.py \
-  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
-  --transcript "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_transcript.json" \
-  --hardsub "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv:projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4"
+  "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
+  --transcript "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_transcript.json" \
+  --hardsub "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv:projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4"
 ```
 
 ### 1. Hardsub + trim
 
 ```bash
 uv run python scripts/hardsub_trim.py \
-  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
-  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
-  "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
+  "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
+  "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
+  "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
   0:09:53.00 0:14:20.96 \
   0:27:41.00 0:29:22.96 \
   0:48:30.13 1:11:23.04
@@ -96,8 +96,8 @@ below; uploads **private** by default.
 
 ```bash
 uv run --script scripts/youtube_upload.py \
-  --video "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
-  --notes "projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/notes.md"
+  --video "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/notes.md"
 ```
 
 > **Stale render:** `..._final.mp4` (2026-05-29) was burned **before** the style fixes, so its
@@ -144,6 +144,6 @@ Original video: https://www.youtube.com/watch?v=fHymS-ZEr9w
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Project Sekai/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
+  -o "projects/projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=fHymS-ZEr9w"
 ```

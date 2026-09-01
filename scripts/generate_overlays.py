@@ -21,15 +21,28 @@ DELIBERATELY SEPARATE because two different tools read them:
                 is still accepted and means the same as omitting it.
   - `width`   — raw only, optional. Resize the overlay to this width; omit to keep the
                 source's native size.
-  - `id`      — used to name the downloaded character art (`<id>_art.png`).
+  - `id`      — names a legacy per-event character art file (`<id>_art.png`); see below.
   - `character`/`title`/`subtitle`/`color` — card only: banner text + right-half tint.
   - `start`/`end`/`pos` — consumed by hardsub_trim.py, ignored here.
 
 Re-running is safe: an entry with no `source` reads its own `image` (the card) and rewrites it
 unchanged. Add a `source` to (re)build a card from its raw.
 
+Shared franchise assets
+-----------------------
+Assets that recur across events are stored once at the franchise level and found by walking
+up from the event folder to the repo root. A local file always shadows the shared one.
+
+  - `official_cast_photos/` — VA photos. A card's `source` may be a bare filename here
+    (e.g. `minori_suzuki.webp`) with no copy in the event folder.
+  - `character_art/`        — sekai.best illustrations, named by character
+    (`ena_shinonome.png`), so every event reuses one fetch. Legacy `<id>_art.png` in the
+    event folder still wins when it is the only copy present.
+  - `assets/fonts/`         — LATO-EXTRABOLD.TTF, instead of one copy per event.
+
 Usage:
-    uv run --with pillow python scripts/generate_overlays.py "projects/projects/Project Sekai/<event>"
+    uv run --with pillow python scripts/generate_overlays.py \
+        "projects/projects/Project Sekai/Aftertalk/<event>"
 """
 
 from __future__ import annotations
@@ -80,12 +93,50 @@ def resolve_meta_path(override: Path | None) -> Path | None:
     return override  # may be None / non-existent; load_character_colors handles that
 
 
+def ancestors(project_dir: Path) -> list[Path]:
+    """The project dir and its parents, stopping at the repo root (the dir holding .git)."""
+    chain = []
+    resolved = project_dir.resolve()
+    for d in [resolved, *resolved.parents]:
+        chain.append(d)
+        if (d / ".git").exists():
+            break
+    return chain
+
+
+def find_shared_dir(project_dir: Path, name: str) -> Path | None:
+    """Find a franchise-level shared asset dir above the event folder.
+
+    Assets that recur across events (VA photos, character art, the Lato font) live once at
+    the franchise level rather than being copied into every event folder. Nearest match
+    wins, so an event can still shadow a shared asset with a local one.
+    """
+    for d in ancestors(project_dir):
+        cand = d / name
+        if cand.is_dir():
+            return cand
+    return None
+
+
 def resolve_font_path(project_dir: Path) -> Path | None:
-    """Find LATO-EXTRABOLD.TTF: project dir first (shipped per event), then known installs."""
-    for cand in [project_dir / "LATO-EXTRABOLD.TTF", *FONT_CANDIDATES]:
+    """Find LATO-EXTRABOLD.TTF: project dir, then the shared font dir, then known installs."""
+    shared = [d / "assets" / "fonts" / "LATO-EXTRABOLD.TTF" for d in ancestors(project_dir)]
+    for cand in [project_dir / "LATO-EXTRABOLD.TTF", *shared, *FONT_CANDIDATES]:
         if cand.exists():
             return cand
     return None
+
+
+def resolve_source_path(project_dir: Path, cast_dir: Path | None, img_name: str) -> Path:
+    """Resolve a popup `source`: event folder first, then the shared cast-photo dir.
+
+    Returns the local path even when nothing exists, so the caller reports one clear skip.
+    """
+    local = project_dir / img_name
+    if local.exists() or not cast_dir:
+        return local
+    shared = cast_dir / img_name
+    return shared if shared.exists() else local
 
 
 def load_character_colors(meta_path: Path | None) -> dict[str, str]:
@@ -282,6 +333,10 @@ def main() -> int:
     else:
         print("Lato font not found; falling back to Arial/default", file=sys.stderr)
 
+    # Franchise-level asset dirs, shared by every event under them (may be None).
+    cast_dir = find_shared_dir(proj_dir, "official_cast_photos")
+    art_dir = find_shared_dir(proj_dir, "character_art")
+
     char_colors = load_character_colors(resolve_meta_path(args.meta))
 
     with open(manifest_path, encoding="utf-8") as f:
@@ -290,7 +345,7 @@ def main() -> int:
     for item in popups:
         # `source` is the raw build input; fall back to `image` (frozen re-run), then <id>.webp.
         img_name = item.get("source") or item.get("image") or f"{item.get('id')}.webp"
-        va_img_path = proj_dir / img_name
+        va_img_path = resolve_source_path(proj_dir, cast_dir, img_name)
         # `image` is the finished overlay that hardsub burns — write exactly there.
         card_out = proj_dir / item.get("image", f"{item.get('id', 'card')}_card.png")
 
@@ -306,7 +361,16 @@ def main() -> int:
             continue
 
         chara_en = item.get("character", "")
-        chara_art_path = proj_dir / f"{item.get('id', 'chara')}_art.png"
+        # Character art is keyed by character, not by popup id, so events reuse one fetch
+        # instead of each pulling its own copy. Legacy per-event `<id>_art.png` still wins
+        # if it's the only one present.
+        legacy_art_path = proj_dir / f"{item.get('id', 'chara')}_art.png"
+        if art_dir and chara_en:
+            chara_art_path = art_dir / f"{chara_en.lower().replace(' ', '_')}.png"
+        else:
+            chara_art_path = legacy_art_path
+        if not chara_art_path.exists() and legacy_art_path.exists():
+            chara_art_path = legacy_art_path
 
         fetch_character_artwork(chara_en, chara_art_path)
 

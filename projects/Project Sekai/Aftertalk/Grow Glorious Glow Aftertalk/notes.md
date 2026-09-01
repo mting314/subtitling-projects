@@ -47,7 +47,7 @@ Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/vid
 
 ```bash
 uv run autosub run \
-  "projects/projects/Project Sekai/Grow Glorious Glow Aftertalk/Grow glorious glow Aftertalk.mkv" \
+  "projects/projects/Project Sekai/Aftertalk/Grow Glorious Glow Aftertalk/Grow glorious glow Aftertalk.mkv" \
   --profile proseka/mmj \
   --backend chirp_3 \
   --start 00:09:54 --end 00:13:10 \
@@ -90,6 +90,6 @@ Original video: https://www.youtube.com/watch?v=XqkMAWc8y5w
 yt-dlp --no-update --no-playlist \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Project Sekai/Grow Glorious Glow Aftertalk/Grow glorious glow Aftertalk.mkv" \
+  -o "projects/projects/Project Sekai/Aftertalk/Grow Glorious Glow Aftertalk/Grow glorious glow Aftertalk.mkv" \
   "https://www.youtube.com/watch?v=XqkMAWc8y5w"
 ```

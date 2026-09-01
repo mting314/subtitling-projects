@@ -119,19 +119,22 @@ Two things to decide:
 
 ### Avatars
 
-Both sourced, in `projects/Sekaraji/official_cast_photos/`. The generator face-crops raw
+Both sourced, in `projects/Project Sekai/official_cast_photos/`. The generator face-crops raw
 portraits automatically (anything narrower than the card's aspect ratio gets reframed), so
 these are referenced directly — no pre-cropped `avatars/` needed yet.
 
 | VA | Source | Size |
 | --- | --- | --- |
 | Rina Honnizumi | `rina_honnizumi.webp` — Project Sekai wiki press photo | 850x1142 |
-| Minori Suzuki | `minori_suzuki.webp` — copied from We Escape to Survive Aftertalk | 1000x1500 |
+| Minori Suzuki | `minori_suzuki.webp` — Project Sekai wiki press photo | 1000x1500 |
 
-`LATO-EXTRABOLD.TTF` sits in this episode folder, next to `speaker_map.toml` — the
-overlay generator looks for it beside the map, and every other project in this repo ships
-its own copy the same way. Copy it forward into each new episode folder. Worth adding a
-`CAST.md` alongside `official_cast_photos/` like Lieraji's as more hosts cycle through.
+> **Updated.** These photos were promoted out of this episode folder to the franchise-level
+> `Project Sekai/official_cast_photos/`, since Sekaraji and the AfterTalks share one VA pool.
+> `minori_suzuki.webp` was previously duplicated in We Escape to Survive Aftertalk as
+> `Minori.webp`; that byte-identical copy is gone and the event now resolves the shared one.
+> The `CAST.md` suggested below now exists at `Project Sekai/CAST.md`.
+> `LATO-EXTRABOLD.TTF` no longer ships per-folder either — one copy lives at
+> `assets/fonts/`, found by walking up from the project dir.
 
 ## Profile — done
 
@@ -247,7 +250,7 @@ makes this tractable. Spot-check around the chunk boundary (~18:00).
 Run from `/private/tmp/asub-sekaraji`:
 
 ```bash
-EP="/Users/michaelting/github/autosub/projects/projects/Sekaraji/Episode 72"
+EP="/Users/michaelting/github/autosub/projects/projects/Project Sekai/Sekaraji/Episode 72"
 uv run autosub run "$EP/Sekaraji Ep 72.mkv" \
   --profile proseka/sekaraji \
   --backend chirp_3 \
@@ -505,7 +508,7 @@ is "what's the biggest thing you've ever forgotten?"
 yt-dlp --no-update --no-playlist --js-runtimes node \
   -f "137+251/bv*[height<=1080]+ba/b" \
   --merge-output-format mkv \
-  -o "projects/projects/Sekaraji/Episode 72/Sekaraji Ep 72.mkv" \
+  -o "projects/projects/Project Sekai/Sekaraji/Episode 72/Sekaraji Ep 72.mkv" \
   "https://www.youtube.com/watch?v=gm8pmYsG2uU"
 ```
 
@@ -521,8 +524,14 @@ yt-dlp --no-update --no-playlist --js-runtimes node \
    extend it. Verified behaviour-neutral apart from the normalizer model fix.
 3. **Rina Honnizumi headshot** → supplied from the Project Sekai wiki, in
    `official_cast_photos/`.
-4. **Project location** → `projects/Sekaraji/Episode 72/`, top-level, mirroring Lieraji,
-   since it's a recurring show rather than a one-off event.
+4. **Project location** → originally `projects/Sekaraji/Episode 72/`, top-level, mirroring
+   Lieraji, since it's a recurring show rather than a one-off event.
+   **Superseded:** now `projects/Project Sekai/Sekaraji/Episode 72/`. Sekaraji is a ProSeka
+   show sharing the AfterTalks' VA pool, and keeping it top-level stranded the shared cast
+   photos inside a sibling folder. The franchise dir (`Project Sekai/`) is now the level
+   that owns `official_cast_photos/`, `character_art/`, and `CAST.md`; `Aftertalk/`,
+   `Events/`, and `Sekaraji/` sit under it. Lieraji is a different franchise and is
+   unchanged.
 
 ## Open questions
 
