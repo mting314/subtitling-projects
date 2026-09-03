@@ -119,6 +119,7 @@ uv run --script scripts/youtube_upload.py \
 ## Notes
 - Shizuku's focus event, solo host
 - Hardsub pipeline configured with Fontsize 100 / Margins 200/200/100, 3-row long line detection fix pass, and 0.4s fade-in/fade-out segment transitions.
+- **Popups (`popups.json`)**: Korpokkur reference card overlay at `0:54:16.16` – `0:54:21.87` (`pos: [1440, 110]`), sourced from Megaten Wiki (`DCW_Koropokkur_Artwork.png`).
 
 ## QC follow-ups (resolved)
 - **`Hina-dan`**: Verified against Japanese transcript (`ひなだん` / 雛壇) — refers to studio panel/gallery seats, corrected to "studio panel".
