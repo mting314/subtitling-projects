@@ -11,324 +11,324 @@ Video File: radio_background_with_overlay.png
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sakakura Sakura,Arial,54,&H00CAD15D,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,4,330,80,0,1
-Style: Ookuma Wakana,Arial,54,&H00D0DFAB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,4,330,80,0,1
-Style: Aoyama Nagisa,Arial,54,&H00802B17,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,4,330,80,0,1
+Style: Sakakura Sakura,Lato ExtraBold,70,&H00FFFFFF,&H000000FF,&H00CAD15D,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,7,330,50,96,1
+Style: Okuma Wakana,Lato ExtraBold,70,&H00FFFFFF,&H000000FF,&H00D0DFAB,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,7,330,50,456,1
+Style: Aoyama Nagisa,Lato ExtraBold,70,&H00FFFFFF,&H000000FF,&H00802B17,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,7,330,50,816,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:02.20,Default,,0,0,0,corner,=== Corner: Opening Skit ===
-Dialogue: 0,0:00:00.00,0:00:02.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}[CORNER: Opening Skit] Tomorrow\Nis Shiki-san's birthday,
-Dialogue: 0,0:00:06.80,0:00:07.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}isn't it?
-Dialogue: 0,0:00:07.84,0:00:11.08,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It's a day early, but happy birthday.
-Dialogue: 0,0:00:11.88,0:00:12.44,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Thank you.
-Dialogue: 0,0:00:13.24,0:00:17.96,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Before my birthday, I used to think it\Nwas just a numerical increase in age.
-Dialogue: 0,0:00:18.64,0:00:22.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}That's a very rational way of looking\Nat it, just like you, Shiki-senpai.
-Dialogue: 0,0:00:22.84,0:00:25.76,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}But it's not just that anymore, is it?
-Dialogue: 0,0:00:26.29,0:00:26.79,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:00:35.60,0:00:38.60,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It's an important birthday\Nto celebrate that 'one.'
-Dialogue: 0,0:00:47.80,0:00:51.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Well then, Ren-senpai, it's time\Nto give Shiki-senpai 'that.'
-Dialogue: 0,0:00:52.31,0:00:53.02,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}'That'?
-Dialogue: 0,0:00:53.02,0:00:54.12,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Oh, that's right.
-Dialogue: 0,0:00:55.12,0:01:00.08,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}This is a present for Shiki-san\Nfrom me and Tomari-san, Team Green.
-Dialogue: 0,0:01:00.88,0:01:03.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Happy birthday once again.
-Dialogue: 0,0:01:04.20,0:01:05.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Even though it's a day early.
-Dialogue: 0,0:01:07.76,0:01:08.48,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}True.
-Dialogue: 0,0:01:18.48,0:01:21.32,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}This is a chestnut-shaped brooch.
-Dialogue: 0,0:01:22.76,0:01:23.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It's very cute.
-Dialogue: 0,0:01:33.68,0:01:38.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I thought you'd like it since it's\Nyour favorite food, Shiki-senpai.
-Dialogue: 0,0:01:38.95,0:01:39.45,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:01:40.24,0:01:40.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I'm happy.
-Dialogue: 0,0:01:41.72,0:01:42.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Thank you.
-Dialogue: 0,0:01:42.80,0:01:43.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Ren-senpai.
-Dialogue: 0,0:01:43.76,0:01:44.52,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Tomari-chan.
-Dialogue: 0,0:01:45.64,0:01:48.56,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}This brooch is small and cute.
-Dialogue: 0,0:01:48.56,0:01:49.51,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yes.
-Dialogue: 0,0:01:49.51,0:01:51.28,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It's a simple and nice design.
-Dialogue: 0,0:02:01.64,0:02:04.20,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}A sweet potato-shaped brooch?
-Dialogue: 0,0:02:05.08,0:02:07.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Tomari-chan, you bought\None for yourself too.
-Dialogue: 0,0:02:08.40,0:02:11.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}We were thinking the same thing.
-Dialogue: 0,0:02:12.84,0:02:13.80,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Ren-senpai.
-Dialogue: 0,0:02:14.56,0:02:16.32,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Is that a strawberry brooch?
-Dialogue: 0,0:02:17.36,0:02:20.60,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}The shapes are all different,\Nbut are these matching items?
-Dialogue: 0,0:02:21.48,0:02:23.68,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}A chestnut, a sweet\Npotato, and a strawberry.
-Dialogue: 0,0:02:30.60,0:02:34.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Well then, shall we start the radio\Nshow wearing our matching brooches?
-Dialogue: 0,0:02:35.68,0:02:36.48,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Agreed.
+Dialogue: 0,0:00:00.00,0:00:02.20,Sakakura Sakura,host,0,0,0,,[CORNER: Opening Skit] Tomorrow\Nis Shiki-san's birthday,
+Dialogue: 0,0:00:06.80,0:00:07.32,Sakakura Sakura,host,0,0,0,,isn't it?
+Dialogue: 0,0:00:07.84,0:00:11.08,Aoyama Nagisa,host,0,0,0,,It's a day early, but happy birthday.
+Dialogue: 0,0:00:11.88,0:00:12.44,Okuma Wakana,host,0,0,0,,Thank you.
+Dialogue: 0,0:00:13.24,0:00:17.96,Okuma Wakana,host,0,0,0,,Before my birthday, I used to think it\Nwas just a numerical increase in age.
+Dialogue: 0,0:00:18.64,0:00:22.32,Sakakura Sakura,host,0,0,0,,That's a very rational way of looking\Nat it, just like you, Shiki-senpai.
+Dialogue: 0,0:00:22.84,0:00:25.76,Aoyama Nagisa,host,0,0,0,,But it's not just that anymore, is it?
+Dialogue: 0,0:00:26.29,0:00:26.79,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:00:35.60,0:00:38.60,Okuma Wakana,host,0,0,0,,It's an important birthday\Nto celebrate that 'one.'
+Dialogue: 0,0:00:47.80,0:00:51.48,Sakakura Sakura,host,0,0,0,,Well then, Ren-senpai, it's time\Nto give Shiki-senpai 'that.'
+Dialogue: 0,0:00:52.31,0:00:53.02,Okuma Wakana,host,0,0,0,,'That'?
+Dialogue: 0,0:00:53.02,0:00:54.12,Aoyama Nagisa,host,0,0,0,,Oh, that's right.
+Dialogue: 0,0:00:55.12,0:01:00.08,Aoyama Nagisa,host,0,0,0,,This is a present for Shiki-san\Nfrom me and Tomari-san, Team Green.
+Dialogue: 0,0:01:00.88,0:01:03.64,Sakakura Sakura,host,0,0,0,,Happy birthday once again.
+Dialogue: 0,0:01:04.20,0:01:05.76,Sakakura Sakura,host,0,0,0,,Even though it's a day early.
+Dialogue: 0,0:01:07.76,0:01:08.48,Okuma Wakana,host,0,0,0,,True.
+Dialogue: 0,0:01:18.48,0:01:21.32,Aoyama Nagisa,host,0,0,0,,This is a chestnut-shaped brooch.
+Dialogue: 0,0:01:22.76,0:01:23.88,Aoyama Nagisa,host,0,0,0,,It's very cute.
+Dialogue: 0,0:01:33.68,0:01:38.24,Sakakura Sakura,host,0,0,0,,I thought you'd like it since it's\Nyour favorite food, Shiki-senpai.
+Dialogue: 0,0:01:38.95,0:01:39.45,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:01:40.24,0:01:40.76,Okuma Wakana,host,0,0,0,,I'm happy.
+Dialogue: 0,0:01:41.72,0:01:42.24,Okuma Wakana,host,0,0,0,,Thank you.
+Dialogue: 0,0:01:42.80,0:01:43.76,Okuma Wakana,host,0,0,0,,Ren-senpai.
+Dialogue: 0,0:01:43.76,0:01:44.52,Okuma Wakana,host,0,0,0,,Tomari-chan.
+Dialogue: 0,0:01:45.64,0:01:48.56,Aoyama Nagisa,host,0,0,0,,This brooch is small and cute.
+Dialogue: 0,0:01:48.56,0:01:49.51,Aoyama Nagisa,host,0,0,0,,Yes.
+Dialogue: 0,0:01:49.51,0:01:51.28,Aoyama Nagisa,host,0,0,0,,It's a simple and nice design.
+Dialogue: 0,0:02:01.64,0:02:04.20,Okuma Wakana,host,0,0,0,,A sweet potato-shaped brooch?
+Dialogue: 0,0:02:05.08,0:02:07.24,Okuma Wakana,host,0,0,0,,Tomari-chan, you bought\None for yourself too.
+Dialogue: 0,0:02:08.40,0:02:11.92,Sakakura Sakura,host,0,0,0,,We were thinking the same thing.
+Dialogue: 0,0:02:12.84,0:02:13.80,Okuma Wakana,host,0,0,0,,Ren-senpai.
+Dialogue: 0,0:02:14.56,0:02:16.32,Okuma Wakana,host,0,0,0,,Is that a strawberry brooch?
+Dialogue: 0,0:02:17.36,0:02:20.60,Aoyama Nagisa,host,0,0,0,,The shapes are all different,\Nbut are these matching items?
+Dialogue: 0,0:02:21.48,0:02:23.68,Aoyama Nagisa,host,0,0,0,,A chestnut, a sweet\Npotato, and a strawberry.
+Dialogue: 0,0:02:30.60,0:02:34.84,Sakakura Sakura,host,0,0,0,,Well then, shall we start the radio\Nshow wearing our matching brooches?
+Dialogue: 0,0:02:35.68,0:02:36.48,Okuma Wakana,host,0,0,0,,Agreed.
 Comment: 0,0:02:49.96,0:02:51.88,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
-Dialogue: 0,0:02:49.96,0:02:51.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}[CORNER: Self-Introductions] Liella!\NYuigaoka Girls' High School...
-Dialogue: 0,0:03:00.88,0:03:03.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Hello, everyone!
-Dialogue: 0,0:03:02.20,0:03:03.48,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Hello!
-Dialogue: 0,0:03:03.48,0:03:04.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'm Sakakura Sakura, the\Nvoice of Onitsuka Tomari.
+Dialogue: 0,0:02:49.96,0:02:51.88,Aoyama Nagisa,host,0,0,0,,[CORNER: Self-Introductions] Liella!\NYuigaoka Girls' High School...
+Dialogue: 0,0:03:00.88,0:03:03.28,Sakakura Sakura,host,0,0,0,,Hello, everyone!
+Dialogue: 0,0:03:02.20,0:03:03.48,Okuma Wakana,host,0,0,0,,Hello!
+Dialogue: 0,0:03:03.48,0:03:04.19,Sakakura Sakura,host,0,0,0,,I'm Sakakura Sakura, the\Nvoice of Onitsuka Tomari.
 Comment: 0,0:17:59.81,0:18:00.31,Default,,0,0,0,corner,=== Corner: Suggestion Box ===
-Dialogue: 0,0:17:59.81,0:18:00.31,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:18:01.45,0:18:01.95,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Wow, that brings back memories.
-Dialogue: 0,0:18:02.56,0:18:04.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I used to do that all the\Ntime during summer vacation.
-Dialogue: 0,0:18:04.36,0:18:04.89,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Right?
-Dialogue: 0,0:18:04.89,0:18:05.99,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'd just write whatever.
-Dialogue: 0,0:18:05.99,0:18:06.54,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I remember writing those.
-Dialogue: 0,0:18:06.54,0:18:07.26,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yeah.
-Dialogue: 0,0:18:11.86,0:18:12.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}You draw pictures, right?
-Dialogue: 0,0:18:13.16,0:18:15.06,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}But then you skip a few days.
-Dialogue: 0,0:18:15.06,0:18:16.72,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}And suddenly, the flower\Nis already blooming.
-Dialogue: 0,0:18:17.48,0:18:18.64,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}You just summarize it all at once.
-Dialogue: 0,0:18:19.72,0:18:20.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}I used to look at reference\Nbooks to draw them.
-Dialogue: 0,0:18:21.96,0:18:25.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Nagi-chan, have your drawings been\Nlike that since elementary school?
-Dialogue: 0,0:18:26.00,0:18:26.83,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}What do you mean?
-Dialogue: 0,0:18:26.83,0:18:27.56,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}What's that supposed to mean?
-Dialogue: 0,0:18:27.56,0:18:28.72,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}What are you trying to say?
-Dialogue: 0,0:18:28.72,0:18:30.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Oh, did I improve?
-Dialogue: 0,0:18:30.04,0:18:31.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Since elementary school.
-Dialogue: 0,0:18:31.30,0:18:34.08,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yeah, but I can draw things\Nlike morning glories.
-Dialogue: 0,0:18:34.08,0:18:34.90,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh, really?
-Dialogue: 0,0:18:34.90,0:18:35.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}As long as it's not a person.
-Dialogue: 0,0:18:36.60,0:18:37.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Right, right, right.
-Dialogue: 0,0:18:37.28,0:18:38.42,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'll have you draw one next time.
-Dialogue: 0,0:18:38.42,0:18:39.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah, let's have her draw.
-Dialogue: 0,0:18:39.24,0:18:42.55,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}But honestly, that person's drawings\Nhave gotten way better too.
-Dialogue: 0,0:18:42.55,0:18:43.26,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I think they've improved.
-Dialogue: 0,0:18:43.26,0:18:44.32,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I really think so.
-Dialogue: 0,0:18:44.32,0:18:45.60,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I was like, "Wow, this is good!"
-Dialogue: 0,0:18:45.60,0:18:47.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Well, I've been forced to draw so\Nmuch over the last five years.
-Dialogue: 0,0:18:48.73,0:18:49.27,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}True.
-Dialogue: 0,0:18:49.27,0:18:51.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Humans really do grow.
-Dialogue: 0,0:18:51.12,0:18:52.32,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I really like them, though.
-Dialogue: 0,0:18:52.32,0:18:54.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}You draw a lot for the Liella! Club too.
-Dialogue: 0,0:18:54.12,0:18:56.75,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah. Don't we have a lot of opportunities\Nto draw for the Liella! Club?
-Dialogue: 0,0:18:56.75,0:18:57.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A lot.
-Dialogue: 0,0:18:57.30,0:18:57.96,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Way too many.
-Dialogue: 0,0:18:58.48,0:18:59.20,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}On purpose, on purpose, yeah.
-Dialogue: 0,0:18:59.83,0:19:00.54,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Right.
-Dialogue: 0,0:19:00.54,0:19:02.84,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Well, you're one to talk too.
-Dialogue: 0,0:19:02.84,0:19:03.39,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}True.
-Dialogue: 0,0:19:03.39,0:19:06.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}No, but I don't think\NI'm good at it myself.
-Dialogue: 0,0:19:06.24,0:19:07.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I don't think I am either.
-Dialogue: 0,0:19:09.08,0:19:10.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}When did I ever say I was good?
-Dialogue: 0,0:19:15.60,0:19:16.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A portrait?
-Dialogue: 0,0:19:16.68,0:19:17.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Yeah, like drawing a portrait.
-Dialogue: 0,0:19:18.48,0:19:20.80,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I was the only one who had to\Ndo a redraw for the first time.
-Dialogue: 0,0:19:20.80,0:19:21.43,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}What?
-Dialogue: 0,0:19:22.03,0:19:22.62,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Seriously?
-Dialogue: 0,0:19:22.62,0:19:25.22,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}They told me it was so\Nbad I had to redraw it.
-Dialogue: 0,0:19:25.22,0:19:26.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Did you draw it on a later day?
-Dialogue: 0,0:19:27.19,0:19:27.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Huh?
-Dialogue: 0,0:19:27.76,0:19:30.08,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}No, I just drew Shiki-chan normally.
-Dialogue: 0,0:19:30.08,0:19:31.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Just as you imagined her?
-Dialogue: 0,0:19:31.40,0:19:32.02,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:19:32.02,0:19:32.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Was it no good?
-Dialogue: 0,0:19:32.88,0:19:33.84,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Apparently not.
-Dialogue: 0,0:19:33.84,0:19:34.34,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Wow.
-Dialogue: 0,0:19:35.40,0:19:36.46,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Does that actually happen?
-Dialogue: 0,0:19:36.46,0:19:39.56,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}If it's too terrible,\Nit can get rejected.
-Dialogue: 0,0:19:39.56,0:19:44.16,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}But that means all the fans who\Nsupport us know my Ren-chan, right?
-Dialogue: 0,0:19:44.16,0:19:47.14,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}People say it's awful, but I've\Nnever had a drawing rejected.
-Dialogue: 0,0:19:47.14,0:19:47.90,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh.
-Dialogue: 0,0:19:47.90,0:19:49.02,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}So yours must have\Nbeen really something.
-Dialogue: 0,0:19:49.02,0:19:50.44,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It must have been even worse, then.
-Dialogue: 0,0:19:51.88,0:19:52.84,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}What did you draw?
-Dialogue: 0,0:19:52.84,0:19:55.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}No, no, I drew Shiki-chan.
-Dialogue: 0,0:19:56.92,0:20:04.10,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Well, Nagi-chan's Ren-chan... I mean,\Nif you ask if it's good, it's a bit...
-Dialogue: 0,0:20:04.10,0:20:06.60,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}But it actually looks like Ren-chan.
-Dialogue: 0,0:20:06.60,0:20:07.23,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Properly.
-Dialogue: 0,0:20:07.23,0:20:11.40,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}You can tell she's drawing Ren-chan.\NMaybe yours didn't get that across?
-Dialogue: 0,0:20:12.00,0:20:14.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Maybe they thought\Nthere was no love in it.
-Dialogue: 0,0:20:15.12,0:20:17.22,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Now I really want to know what you drew.
-Dialogue: 0,0:20:17.22,0:20:20.66,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Well, Shiki-chan has a\Npretty simple hairstyle.
-Dialogue: 0,0:20:20.66,0:20:21.44,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It's hard, isn't it?
-Dialogue: 0,0:20:21.44,0:20:22.04,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It's hard.
-Dialogue: 0,0:20:22.60,0:20:24.04,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}The bangs and all that, you know.
-Dialogue: 0,0:20:24.04,0:20:24.86,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}True, true.
-Dialogue: 0,0:20:24.86,0:20:26.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}The balance was difficult.
-Dialogue: 0,0:20:26.24,0:20:26.74,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:20:28.24,0:20:28.74,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Right.
-Dialogue: 0,0:20:28.74,0:20:29.72,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It must have been tough.
-Dialogue: 0,0:20:29.72,0:20:30.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Yeah, it was tough.
-Dialogue: 0,0:20:31.32,0:20:31.92,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I'm curious.
-Dialogue: 0,0:20:31.92,0:20:33.94,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}They told me to draw it one more time.
-Dialogue: 0,0:20:33.94,0:20:35.06,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Was the second time okay?
-Dialogue: 0,0:20:35.06,0:20:36.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}The second time was fine.
-Dialogue: 0,0:20:47.51,0:20:48.06,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Wow.
-Dialogue: 0,0:20:48.06,0:20:49.10,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}That's hilarious.
-Dialogue: 0,0:20:54.82,0:20:57.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I only got the OK after that.
-Dialogue: 0,0:20:57.56,0:20:58.44,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh, good.
-Dialogue: 0,0:20:58.44,0:21:00.56,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}But Shiki was included, so that's good.
-Dialogue: 0,0:21:00.56,0:21:01.12,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Congratulations.
-Dialogue: 0,0:21:01.64,0:21:02.50,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Did you change the style?
-Dialogue: 0,0:21:02.50,0:21:04.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Ah, I think I did change the style.
-Dialogue: 0,0:21:04.18,0:21:05.95,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}You mean you changed the form?
-Dialogue: 0,0:21:05.95,0:21:06.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A bit, yeah.
-Dialogue: 0,0:21:14.60,0:21:16.82,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Like the kind Nako-chan draws.
-Dialogue: 0,0:21:16.82,0:21:20.16,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It was fine once I drew it\Nwith that kind of soft feel.
-Dialogue: 0,0:21:20.96,0:21:21.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}You can actually do that?
-Dialogue: 0,0:21:22.28,0:21:23.00,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Oh, I see.
-Dialogue: 0,0:21:23.00,0:21:24.22,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}So you can do both styles.
-Dialogue: 0,0:21:24.22,0:21:24.83,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}That's impressive.
-Dialogue: 0,0:21:35.92,0:21:36.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Right, right.
-Dialogue: 0,0:21:36.48,0:21:36.98,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}So...
-Dialogue: 0,0:21:38.26,0:21:38.76,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Right, right.
-Dialogue: 0,0:21:38.76,0:21:42.93,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Once I drew her in my\Nown cute way, it was OK.
-Dialogue: 0,0:21:42.93,0:21:43.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It was OK.
-Dialogue: 0,0:21:43.58,0:21:44.40,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh, good.
-Dialogue: 0,0:21:44.40,0:21:49.92,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}In those situations, I always draw several\Nversions of Ren-chan, not just one.
-Dialogue: 0,0:21:49.92,0:21:50.42,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Oh.
-Dialogue: 0,0:21:51.00,0:21:52.52,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}And then I tell them to pick from those.
-Dialogue: 0,0:21:53.72,0:21:55.28,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}I think Yuina drew\Nabout six of them too.
-Dialogue: 0,0:21:56.31,0:21:56.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}That's amazing.
-Dialogue: 0,0:21:56.84,0:21:57.37,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yeah.
-Dialogue: 0,0:22:06.52,0:22:08.74,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Well, everyone has different values.
-Dialogue: 0,0:22:08.74,0:22:09.35,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}A little bit.
-Dialogue: 0,0:22:09.35,0:22:09.95,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}True.
-Dialogue: 0,0:22:09.95,0:22:10.52,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yeah.
-Dialogue: 0,0:22:10.52,0:22:12.68,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}I highly recommend\Ndrawing a lot of them.
-Dialogue: 0,0:22:12.68,0:22:13.19,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}That's true.
-Dialogue: 0,0:22:13.19,0:22:13.82,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:22:13.82,0:22:15.56,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Providing a few candidates.
-Dialogue: 0,0:22:17.08,0:22:17.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}What are we even talking about?
-Dialogue: 0,0:22:17.68,0:22:19.12,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}We ended up talking about drawing.
-Dialogue: 0,0:22:19.12,0:22:20.26,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It was supposed to be about green.
-Dialogue: 0,0:22:20.26,0:22:21.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}About green.
-Dialogue: 0,0:22:21.36,0:22:22.40,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}About loofahs.
-Dialogue: 0,0:22:23.60,0:22:24.36,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Thank you very much.
-Dialogue: 0,0:22:24.96,0:22:25.72,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Thank you very much.
+Dialogue: 0,0:17:59.81,0:18:00.31,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:18:01.45,0:18:01.95,Sakakura Sakura,host,0,0,0,,Wow, that brings back memories.
+Dialogue: 0,0:18:02.56,0:18:04.36,Sakakura Sakura,host,0,0,0,,I used to do that all the\Ntime during summer vacation.
+Dialogue: 0,0:18:04.36,0:18:04.89,Aoyama Nagisa,host,0,0,0,,Right?
+Dialogue: 0,0:18:04.89,0:18:05.99,Sakakura Sakura,host,0,0,0,,I'd just write whatever.
+Dialogue: 0,0:18:05.99,0:18:06.54,Okuma Wakana,host,0,0,0,,I remember writing those.
+Dialogue: 0,0:18:06.54,0:18:07.26,Aoyama Nagisa,host,0,0,0,,Yeah.
+Dialogue: 0,0:18:11.86,0:18:12.64,Sakakura Sakura,host,0,0,0,,You draw pictures, right?
+Dialogue: 0,0:18:13.16,0:18:15.06,Okuma Wakana,host,0,0,0,,But then you skip a few days.
+Dialogue: 0,0:18:15.06,0:18:16.72,Okuma Wakana,host,0,0,0,,And suddenly, the flower\Nis already blooming.
+Dialogue: 0,0:18:17.48,0:18:18.64,Okuma Wakana,host,0,0,0,,You just summarize it all at once.
+Dialogue: 0,0:18:19.72,0:18:20.88,Aoyama Nagisa,host,0,0,0,,I used to look at reference\Nbooks to draw them.
+Dialogue: 0,0:18:21.96,0:18:25.00,Sakakura Sakura,host,0,0,0,,Nagi-chan, have your drawings been\Nlike that since elementary school?
+Dialogue: 0,0:18:26.00,0:18:26.83,Aoyama Nagisa,host,0,0,0,,What do you mean?
+Dialogue: 0,0:18:26.83,0:18:27.56,Aoyama Nagisa,host,0,0,0,,What's that supposed to mean?
+Dialogue: 0,0:18:27.56,0:18:28.72,Okuma Wakana,host,0,0,0,,What are you trying to say?
+Dialogue: 0,0:18:28.72,0:18:30.04,Aoyama Nagisa,host,0,0,0,,Oh, did I improve?
+Dialogue: 0,0:18:30.04,0:18:31.30,Sakakura Sakura,host,0,0,0,,Since elementary school.
+Dialogue: 0,0:18:31.30,0:18:34.08,Aoyama Nagisa,host,0,0,0,,Yeah, but I can draw things\Nlike morning glories.
+Dialogue: 0,0:18:34.08,0:18:34.90,Okuma Wakana,host,0,0,0,,Oh, really?
+Dialogue: 0,0:18:34.90,0:18:35.88,Aoyama Nagisa,host,0,0,0,,As long as it's not a person.
+Dialogue: 0,0:18:36.60,0:18:37.28,Sakakura Sakura,host,0,0,0,,Right, right, right.
+Dialogue: 0,0:18:37.28,0:18:38.42,Sakakura Sakura,host,0,0,0,,I'll have you draw one next time.
+Dialogue: 0,0:18:38.42,0:18:39.24,Okuma Wakana,host,0,0,0,,Yeah, let's have her draw.
+Dialogue: 0,0:18:39.24,0:18:42.55,Sakakura Sakura,host,0,0,0,,But honestly, that person's drawings\Nhave gotten way better too.
+Dialogue: 0,0:18:42.55,0:18:43.26,Okuma Wakana,host,0,0,0,,I think they've improved.
+Dialogue: 0,0:18:43.26,0:18:44.32,Sakakura Sakura,host,0,0,0,,I really think so.
+Dialogue: 0,0:18:44.32,0:18:45.60,Okuma Wakana,host,0,0,0,,I was like, "Wow, this is good!"
+Dialogue: 0,0:18:45.60,0:18:47.88,Aoyama Nagisa,host,0,0,0,,Well, I've been forced to draw so\Nmuch over the last five years.
+Dialogue: 0,0:18:48.73,0:18:49.27,Sakakura Sakura,host,0,0,0,,True.
+Dialogue: 0,0:18:49.27,0:18:51.12,Sakakura Sakura,host,0,0,0,,Humans really do grow.
+Dialogue: 0,0:18:51.12,0:18:52.32,Okuma Wakana,host,0,0,0,,I really like them, though.
+Dialogue: 0,0:18:52.32,0:18:54.12,Sakakura Sakura,host,0,0,0,,You draw a lot for the Liella! Club too.
+Dialogue: 0,0:18:54.12,0:18:56.75,Okuma Wakana,host,0,0,0,,Yeah. Don't we have a lot of opportunities\Nto draw for the Liella! Club?
+Dialogue: 0,0:18:56.75,0:18:57.30,Sakakura Sakura,host,0,0,0,,A lot.
+Dialogue: 0,0:18:57.30,0:18:57.96,Aoyama Nagisa,host,0,0,0,,Way too many.
+Dialogue: 0,0:18:58.48,0:18:59.20,Sakakura Sakura,host,0,0,0,,On purpose, on purpose, yeah.
+Dialogue: 0,0:18:59.83,0:19:00.54,Aoyama Nagisa,host,0,0,0,,Right.
+Dialogue: 0,0:19:00.54,0:19:02.84,Aoyama Nagisa,host,0,0,0,,Well, you're one to talk too.
+Dialogue: 0,0:19:02.84,0:19:03.39,Sakakura Sakura,host,0,0,0,,True.
+Dialogue: 0,0:19:03.39,0:19:06.24,Sakakura Sakura,host,0,0,0,,No, but I don't think\NI'm good at it myself.
+Dialogue: 0,0:19:06.24,0:19:07.24,Okuma Wakana,host,0,0,0,,I don't think I am either.
+Dialogue: 0,0:19:09.08,0:19:10.76,Okuma Wakana,host,0,0,0,,When did I ever say I was good?
+Dialogue: 0,0:19:15.60,0:19:16.68,Sakakura Sakura,host,0,0,0,,A portrait?
+Dialogue: 0,0:19:16.68,0:19:17.92,Sakakura Sakura,host,0,0,0,,Yeah, like drawing a portrait.
+Dialogue: 0,0:19:18.48,0:19:20.80,Okuma Wakana,host,0,0,0,,I was the only one who had to\Ndo a redraw for the first time.
+Dialogue: 0,0:19:20.80,0:19:21.43,Aoyama Nagisa,host,0,0,0,,What?
+Dialogue: 0,0:19:22.03,0:19:22.62,Sakakura Sakura,host,0,0,0,,Seriously?
+Dialogue: 0,0:19:22.62,0:19:25.22,Okuma Wakana,host,0,0,0,,They told me it was so\Nbad I had to redraw it.
+Dialogue: 0,0:19:25.22,0:19:26.64,Sakakura Sakura,host,0,0,0,,Did you draw it on a later day?
+Dialogue: 0,0:19:27.19,0:19:27.76,Okuma Wakana,host,0,0,0,,Huh?
+Dialogue: 0,0:19:27.76,0:19:30.08,Okuma Wakana,host,0,0,0,,No, I just drew Shiki-chan normally.
+Dialogue: 0,0:19:30.08,0:19:31.40,Sakakura Sakura,host,0,0,0,,Just as you imagined her?
+Dialogue: 0,0:19:31.40,0:19:32.02,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:19:32.02,0:19:32.88,Aoyama Nagisa,host,0,0,0,,Was it no good?
+Dialogue: 0,0:19:32.88,0:19:33.84,Okuma Wakana,host,0,0,0,,Apparently not.
+Dialogue: 0,0:19:33.84,0:19:34.34,Sakakura Sakura,host,0,0,0,,Wow.
+Dialogue: 0,0:19:35.40,0:19:36.46,Aoyama Nagisa,host,0,0,0,,Does that actually happen?
+Dialogue: 0,0:19:36.46,0:19:39.56,Okuma Wakana,host,0,0,0,,If it's too terrible,\Nit can get rejected.
+Dialogue: 0,0:19:39.56,0:19:44.16,Aoyama Nagisa,host,0,0,0,,But that means all the fans who\Nsupport us know my Ren-chan, right?
+Dialogue: 0,0:19:44.16,0:19:47.14,Sakakura Sakura,host,0,0,0,,People say it's awful, but I've\Nnever had a drawing rejected.
+Dialogue: 0,0:19:47.14,0:19:47.90,Okuma Wakana,host,0,0,0,,Oh.
+Dialogue: 0,0:19:47.90,0:19:49.02,Aoyama Nagisa,host,0,0,0,,So yours must have\Nbeen really something.
+Dialogue: 0,0:19:49.02,0:19:50.44,Okuma Wakana,host,0,0,0,,It must have been even worse, then.
+Dialogue: 0,0:19:51.88,0:19:52.84,Aoyama Nagisa,host,0,0,0,,What did you draw?
+Dialogue: 0,0:19:52.84,0:19:55.56,Sakakura Sakura,host,0,0,0,,No, no, I drew Shiki-chan.
+Dialogue: 0,0:19:56.92,0:20:04.10,Okuma Wakana,host,0,0,0,,Well, Nagi-chan's Ren-chan... I mean,\Nif you ask if it's good, it's a bit...
+Dialogue: 0,0:20:04.10,0:20:06.60,Okuma Wakana,host,0,0,0,,But it actually looks like Ren-chan.
+Dialogue: 0,0:20:06.60,0:20:07.23,Aoyama Nagisa,host,0,0,0,,Properly.
+Dialogue: 0,0:20:07.23,0:20:11.40,Okuma Wakana,host,0,0,0,,You can tell she's drawing Ren-chan.\NMaybe yours didn't get that across?
+Dialogue: 0,0:20:12.00,0:20:14.04,Aoyama Nagisa,host,0,0,0,,Maybe they thought\Nthere was no love in it.
+Dialogue: 0,0:20:15.12,0:20:17.22,Okuma Wakana,host,0,0,0,,Now I really want to know what you drew.
+Dialogue: 0,0:20:17.22,0:20:20.66,Sakakura Sakura,host,0,0,0,,Well, Shiki-chan has a\Npretty simple hairstyle.
+Dialogue: 0,0:20:20.66,0:20:21.44,Aoyama Nagisa,host,0,0,0,,It's hard, isn't it?
+Dialogue: 0,0:20:21.44,0:20:22.04,Okuma Wakana,host,0,0,0,,It's hard.
+Dialogue: 0,0:20:22.60,0:20:24.04,Sakakura Sakura,host,0,0,0,,The bangs and all that, you know.
+Dialogue: 0,0:20:24.04,0:20:24.86,Aoyama Nagisa,host,0,0,0,,True, true.
+Dialogue: 0,0:20:24.86,0:20:26.24,Sakakura Sakura,host,0,0,0,,The balance was difficult.
+Dialogue: 0,0:20:26.24,0:20:26.74,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:20:28.24,0:20:28.74,Aoyama Nagisa,host,0,0,0,,Right.
+Dialogue: 0,0:20:28.74,0:20:29.72,Okuma Wakana,host,0,0,0,,It must have been tough.
+Dialogue: 0,0:20:29.72,0:20:30.76,Sakakura Sakura,host,0,0,0,,Yeah, it was tough.
+Dialogue: 0,0:20:31.32,0:20:31.92,Okuma Wakana,host,0,0,0,,I'm curious.
+Dialogue: 0,0:20:31.92,0:20:33.94,Sakakura Sakura,host,0,0,0,,They told me to draw it one more time.
+Dialogue: 0,0:20:33.94,0:20:35.06,Aoyama Nagisa,host,0,0,0,,Was the second time okay?
+Dialogue: 0,0:20:35.06,0:20:36.48,Sakakura Sakura,host,0,0,0,,The second time was fine.
+Dialogue: 0,0:20:47.51,0:20:48.06,Okuma Wakana,host,0,0,0,,Wow.
+Dialogue: 0,0:20:48.06,0:20:49.10,Aoyama Nagisa,host,0,0,0,,That's hilarious.
+Dialogue: 0,0:20:54.82,0:20:57.56,Sakakura Sakura,host,0,0,0,,I only got the OK after that.
+Dialogue: 0,0:20:57.56,0:20:58.44,Okuma Wakana,host,0,0,0,,Oh, good.
+Dialogue: 0,0:20:58.44,0:21:00.56,Okuma Wakana,host,0,0,0,,But Shiki was included, so that's good.
+Dialogue: 0,0:21:00.56,0:21:01.12,Aoyama Nagisa,host,0,0,0,,Congratulations.
+Dialogue: 0,0:21:01.64,0:21:02.50,Okuma Wakana,host,0,0,0,,Did you change the style?
+Dialogue: 0,0:21:02.50,0:21:04.18,Sakakura Sakura,host,0,0,0,,Ah, I think I did change the style.
+Dialogue: 0,0:21:04.18,0:21:05.95,Aoyama Nagisa,host,0,0,0,,You mean you changed the form?
+Dialogue: 0,0:21:05.95,0:21:06.48,Sakakura Sakura,host,0,0,0,,A bit, yeah.
+Dialogue: 0,0:21:14.60,0:21:16.82,Aoyama Nagisa,host,0,0,0,,Like the kind Nako-chan draws.
+Dialogue: 0,0:21:16.82,0:21:20.16,Sakakura Sakura,host,0,0,0,,It was fine once I drew it\Nwith that kind of soft feel.
+Dialogue: 0,0:21:20.96,0:21:21.76,Okuma Wakana,host,0,0,0,,You can actually do that?
+Dialogue: 0,0:21:22.28,0:21:23.00,Aoyama Nagisa,host,0,0,0,,Oh, I see.
+Dialogue: 0,0:21:23.00,0:21:24.22,Okuma Wakana,host,0,0,0,,So you can do both styles.
+Dialogue: 0,0:21:24.22,0:21:24.83,Aoyama Nagisa,host,0,0,0,,That's impressive.
+Dialogue: 0,0:21:35.92,0:21:36.48,Sakakura Sakura,host,0,0,0,,Right, right.
+Dialogue: 0,0:21:36.48,0:21:36.98,Okuma Wakana,host,0,0,0,,So...
+Dialogue: 0,0:21:38.26,0:21:38.76,Aoyama Nagisa,host,0,0,0,,Right, right.
+Dialogue: 0,0:21:38.76,0:21:42.93,Sakakura Sakura,host,0,0,0,,Once I drew her in my\Nown cute way, it was OK.
+Dialogue: 0,0:21:42.93,0:21:43.58,Sakakura Sakura,host,0,0,0,,It was OK.
+Dialogue: 0,0:21:43.58,0:21:44.40,Okuma Wakana,host,0,0,0,,Oh, good.
+Dialogue: 0,0:21:44.40,0:21:49.92,Aoyama Nagisa,host,0,0,0,,In those situations, I always draw several\Nversions of Ren-chan, not just one.
+Dialogue: 0,0:21:49.92,0:21:50.42,Sakakura Sakura,host,0,0,0,,Oh.
+Dialogue: 0,0:21:51.00,0:21:52.52,Aoyama Nagisa,host,0,0,0,,And then I tell them to pick from those.
+Dialogue: 0,0:21:53.72,0:21:55.28,Okuma Wakana,host,0,0,0,,I think Yuina drew\Nabout six of them too.
+Dialogue: 0,0:21:56.31,0:21:56.84,Sakakura Sakura,host,0,0,0,,That's amazing.
+Dialogue: 0,0:21:56.84,0:21:57.37,Aoyama Nagisa,host,0,0,0,,Yeah.
+Dialogue: 0,0:22:06.52,0:22:08.74,Sakakura Sakura,host,0,0,0,,Well, everyone has different values.
+Dialogue: 0,0:22:08.74,0:22:09.35,Okuma Wakana,host,0,0,0,,A little bit.
+Dialogue: 0,0:22:09.35,0:22:09.95,Sakakura Sakura,host,0,0,0,,True.
+Dialogue: 0,0:22:09.95,0:22:10.52,Aoyama Nagisa,host,0,0,0,,Yeah.
+Dialogue: 0,0:22:10.52,0:22:12.68,Aoyama Nagisa,host,0,0,0,,I highly recommend\Ndrawing a lot of them.
+Dialogue: 0,0:22:12.68,0:22:13.19,Sakakura Sakura,host,0,0,0,,That's true.
+Dialogue: 0,0:22:13.19,0:22:13.82,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:22:13.82,0:22:15.56,Aoyama Nagisa,host,0,0,0,,Providing a few candidates.
+Dialogue: 0,0:22:17.08,0:22:17.68,Sakakura Sakura,host,0,0,0,,What are we even talking about?
+Dialogue: 0,0:22:17.68,0:22:19.12,Okuma Wakana,host,0,0,0,,We ended up talking about drawing.
+Dialogue: 0,0:22:19.12,0:22:20.26,Aoyama Nagisa,host,0,0,0,,It was supposed to be about green.
+Dialogue: 0,0:22:20.26,0:22:21.36,Sakakura Sakura,host,0,0,0,,About green.
+Dialogue: 0,0:22:21.36,0:22:22.40,Okuma Wakana,host,0,0,0,,About loofahs.
+Dialogue: 0,0:22:23.60,0:22:24.36,Sakakura Sakura,host,0,0,0,,Thank you very much.
+Dialogue: 0,0:22:24.96,0:22:25.72,Okuma Wakana,host,0,0,0,,Thank you very much.
 Comment: 0,0:22:27.00,0:22:28.96,Default,,0,0,0,corner,=== Corner: Closing ===
-Dialogue: 0,0:22:27.00,0:22:28.96,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}And that's all for the mail.
-Dialogue: 0,0:22:28.96,0:22:31.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Yes. Thank you all for so many emails.
-Dialogue: 0,0:22:31.48,0:22:32.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Thank you.
+Dialogue: 0,0:22:27.00,0:22:28.96,Aoyama Nagisa,host,0,0,0,,And that's all for the mail.
+Dialogue: 0,0:22:28.96,0:22:31.48,Sakakura Sakura,host,0,0,0,,Yes. Thank you all for so many emails.
+Dialogue: 0,0:22:31.48,0:22:32.24,Okuma Wakana,host,0,0,0,,Thank you.
 Comment: 0,0:22:32.96,0:22:36.10,Default,,0,0,0,corner,=== Corner: Lunchtime Request ===
-Dialogue: 0,0:22:32.96,0:22:36.10,Aoyama Nagisa,host_meta,0,0,0,,{\pos(330,900)}[CORNER: Lunchtime Request] Now, let's\Nintroduce a Lunchtime Request email.
-Dialogue: 0,0:22:36.10,0:22:38.70,Aoyama Nagisa,host_meta,0,0,0,,{\pos(330,900)}This one is from Lieraji\Nname: Shima-chan-san.
-Dialogue: 0,0:22:38.70,0:22:39.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Thank you.
-Dialogue: 0,0:22:39.64,0:22:40.72,Aoyama Nagisa,listener_mail,0,0,0,,{\pos(330,900)}"Hello."
-Dialogue: 0,0:22:40.72,0:22:41.60,Aoyama Nagisa,listener_mail,0,0,0,,{\pos(330,900)}"Good job today."
-Dialogue: 0,0:22:41.60,0:22:42.62,Aoyama Nagisa,listener_mail,0,0,0,,{\pos(330,900)}"This is my first email."
-Dialogue: 0,0:22:42.62,0:22:45.24,Aoyama Nagisa,listener_mail,0,0,0,,{\pos(330,900)}"The song I'm requesting\Nis 'Killer Kyun.'"
-Dialogue: 0,0:22:52.60,0:22:53.32,Sakakura Sakura,host_meta,0,0,0,,{\pos(330,180)}Thank you for the request.
-Dialogue: 0,0:22:53.88,0:22:54.84,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Nice.
-Dialogue: 0,0:22:54.84,0:22:57.24,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}'Killer Kyun' really gets you hyped up.
-Dialogue: 0,0:22:58.45,0:22:58.95,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It does.
-Dialogue: 0,0:22:59.59,0:23:00.09,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Let's play it.
-Dialogue: 0,0:23:00.09,0:23:00.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Yes.
-Dialogue: 0,0:23:00.60,0:23:02.18,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Please listen.
-Dialogue: 0,0:23:02.18,0:23:04.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}'Killer Kyun' by Liella!
-Dialogue: 0,0:23:07.99,0:23:08.49,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yes,
-Dialogue: 0,0:23:09.00,0:23:09.82,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Are you ready for the deadline?
-Dialogue: 0,0:23:09.82,0:23:11.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Are your preparations\Nfor tomorrow perfect?
-Dialogue: 0,0:23:11.58,0:23:15.38,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Make sure to take deep care of yourself.
-Dialogue: 0,0:23:15.38,0:23:16.74,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Yes, don't let them call you.
-Dialogue: 0,0:23:16.74,0:23:18.48,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Don't let them take you away\Neven if you're desperate.
-Dialogue: 0,0:23:23.20,0:23:25.45,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It's almost time to sleep.
-Dialogue: 0,0:23:25.45,0:23:25.97,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Yes, yes, yes.
-Dialogue: 0,0:23:36.92,0:23:37.70,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Kyun kyun.
-Dialogue: 0,0:23:37.70,0:23:39.00,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}You're feeling quite\Na 'kyun,' aren't you?
-Dialogue: 0,0:23:39.88,0:23:42.16,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}My hands are trembling\Nbecause we'll meet soon.
-Dialogue: 0,0:23:43.62,0:23:44.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Kyun kyun.
-Dialogue: 0,0:23:44.12,0:23:46.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Heart-throbbing flying, very nice.
-Dialogue: 0,0:23:46.24,0:23:48.16,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Take a deep breath, in and out.
-Dialogue: 0,0:23:50.80,0:23:51.46,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Kyun kyun.
-Dialogue: 0,0:23:51.46,0:23:52.92,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Let's stay as familiar as always.
-Dialogue: 0,0:23:53.80,0:23:55.80,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}And I'll definitely make you say it.
-Dialogue: 0,0:23:57.67,0:23:58.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A 'kyun' to the heart-throb.
-Dialogue: 0,0:23:58.28,0:23:59.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'm going to feel so 'kyun.'
-Dialogue: 0,0:24:00.52,0:24:03.72,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A 'Killer Kyun' that makes me\Nfeel like I'm going crazy.
-Dialogue: 0,0:24:07.32,0:24:09.92,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}What are you talking about\Nwith that snapping sound?
-Dialogue: 0,0:24:09.92,0:24:10.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I can make a request.
-Dialogue: 0,0:24:10.76,0:24:13.92,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Keeping a smile is the basics, you know.
-Dialogue: 0,0:24:14.48,0:24:15.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Hey, hey, wait a minute.
-Dialogue: 0,0:24:15.84,0:24:17.58,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Wait a minute, I want to be meaty.
-Dialogue: 0,0:24:17.58,0:24:21.24,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}We're weird for doing things\Nlike hype-up changes.
-Dialogue: 0,0:24:22.14,0:24:22.64,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Huff, puff, huff, puff.
-Dialogue: 0,0:24:22.64,0:24:24.59,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It's that late-night high tension.
-Dialogue: 0,0:24:24.59,0:24:25.25,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Huff, puff, huff.
-Dialogue: 0,0:24:25.80,0:24:26.64,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}What is that?
-Dialogue: 0,0:24:26.64,0:24:28.10,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It makes no sense.
-Dialogue: 0,0:24:28.10,0:24:28.88,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Gyun gyun.
-Dialogue: 0,0:24:29.88,0:24:33.36,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}The meaning is something\Nyou understand later.
-Dialogue: 0,0:24:36.01,0:24:36.55,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Kyun, that kyun.
-Dialogue: 0,0:24:36.55,0:24:41.08,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'm not interested in the past,\Nbut I'll love you even more.
-Dialogue: 0,0:24:42.91,0:24:43.41,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Kyun, flexibility, kyun.
-Dialogue: 0,0:24:44.04,0:24:47.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I'll listen and kick, how\Nmany times will I visit?
-Dialogue: 0,0:24:56.20,0:25:00.32,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Love Live! Superstar!! Yuigaoka Girls'\NLunchtime Broadcasting Station, Lieraji.
+Dialogue: 0,0:22:32.96,0:22:36.10,Aoyama Nagisa,host_meta,0,0,0,,[CORNER: Lunchtime Request] Now, let's\Nintroduce a Lunchtime Request email.
+Dialogue: 0,0:22:36.10,0:22:38.70,Aoyama Nagisa,host_meta,0,0,0,,This one is from Lieraji\Nname: Shima-chan-san.
+Dialogue: 0,0:22:38.70,0:22:39.64,Sakakura Sakura,host,0,0,0,,Thank you.
+Dialogue: 0,0:22:39.64,0:22:40.72,Aoyama Nagisa,listener_mail,0,0,0,,"Hello."
+Dialogue: 0,0:22:40.72,0:22:41.60,Aoyama Nagisa,listener_mail,0,0,0,,"Good job today."
+Dialogue: 0,0:22:41.60,0:22:42.62,Aoyama Nagisa,listener_mail,0,0,0,,"This is my first email."
+Dialogue: 0,0:22:42.62,0:22:45.24,Aoyama Nagisa,listener_mail,0,0,0,,"The song I'm requesting\Nis 'Killer Kyun.'"
+Dialogue: 0,0:22:52.60,0:22:53.32,Sakakura Sakura,host_meta,0,0,0,,Thank you for the request.
+Dialogue: 0,0:22:53.88,0:22:54.84,Okuma Wakana,host,0,0,0,,Nice.
+Dialogue: 0,0:22:54.84,0:22:57.24,Sakakura Sakura,host,0,0,0,,'Killer Kyun' really gets you hyped up.
+Dialogue: 0,0:22:58.45,0:22:58.95,Okuma Wakana,host,0,0,0,,It does.
+Dialogue: 0,0:22:59.59,0:23:00.09,Aoyama Nagisa,host,0,0,0,,Let's play it.
+Dialogue: 0,0:23:00.09,0:23:00.60,Sakakura Sakura,host,0,0,0,,Yes.
+Dialogue: 0,0:23:00.60,0:23:02.18,Okuma Wakana,host,0,0,0,,Please listen.
+Dialogue: 0,0:23:02.18,0:23:04.04,Aoyama Nagisa,host,0,0,0,,'Killer Kyun' by Liella!
+Dialogue: 0,0:23:07.99,0:23:08.49,Okuma Wakana,host,0,0,0,,Yes,
+Dialogue: 0,0:23:09.00,0:23:09.82,Aoyama Nagisa,host,0,0,0,,Are you ready for the deadline?
+Dialogue: 0,0:23:09.82,0:23:11.58,Sakakura Sakura,host,0,0,0,,Are your preparations\Nfor tomorrow perfect?
+Dialogue: 0,0:23:11.58,0:23:15.38,Okuma Wakana,host,0,0,0,,Make sure to take deep care of yourself.
+Dialogue: 0,0:23:15.38,0:23:16.74,Aoyama Nagisa,host,0,0,0,,Yes, don't let them call you.
+Dialogue: 0,0:23:16.74,0:23:18.48,Sakakura Sakura,host,0,0,0,,Don't let them take you away\Neven if you're desperate.
+Dialogue: 0,0:23:23.20,0:23:25.45,Okuma Wakana,host,0,0,0,,It's almost time to sleep.
+Dialogue: 0,0:23:25.45,0:23:25.97,Sakakura Sakura,host,0,0,0,,Yes, yes, yes.
+Dialogue: 0,0:23:36.92,0:23:37.70,Aoyama Nagisa,host,0,0,0,,Kyun kyun.
+Dialogue: 0,0:23:37.70,0:23:39.00,Okuma Wakana,host,0,0,0,,You're feeling quite\Na 'kyun,' aren't you?
+Dialogue: 0,0:23:39.88,0:23:42.16,Aoyama Nagisa,host,0,0,0,,My hands are trembling\Nbecause we'll meet soon.
+Dialogue: 0,0:23:43.62,0:23:44.12,Sakakura Sakura,host,0,0,0,,Kyun kyun.
+Dialogue: 0,0:23:44.12,0:23:46.24,Okuma Wakana,host,0,0,0,,Heart-throbbing flying, very nice.
+Dialogue: 0,0:23:46.24,0:23:48.16,Aoyama Nagisa,host,0,0,0,,Take a deep breath, in and out.
+Dialogue: 0,0:23:50.80,0:23:51.46,Sakakura Sakura,host,0,0,0,,Kyun kyun.
+Dialogue: 0,0:23:51.46,0:23:52.92,Sakakura Sakura,host,0,0,0,,Let's stay as familiar as always.
+Dialogue: 0,0:23:53.80,0:23:55.80,Sakakura Sakura,host,0,0,0,,And I'll definitely make you say it.
+Dialogue: 0,0:23:57.67,0:23:58.28,Sakakura Sakura,host,0,0,0,,A 'kyun' to the heart-throb.
+Dialogue: 0,0:23:58.28,0:23:59.84,Sakakura Sakura,host,0,0,0,,I'm going to feel so 'kyun.'
+Dialogue: 0,0:24:00.52,0:24:03.72,Sakakura Sakura,host,0,0,0,,A 'Killer Kyun' that makes me\Nfeel like I'm going crazy.
+Dialogue: 0,0:24:07.32,0:24:09.92,Okuma Wakana,host,0,0,0,,What are you talking about\Nwith that snapping sound?
+Dialogue: 0,0:24:09.92,0:24:10.76,Sakakura Sakura,host,0,0,0,,I can make a request.
+Dialogue: 0,0:24:10.76,0:24:13.92,Okuma Wakana,host,0,0,0,,Keeping a smile is the basics, you know.
+Dialogue: 0,0:24:14.48,0:24:15.84,Sakakura Sakura,host,0,0,0,,Hey, hey, wait a minute.
+Dialogue: 0,0:24:15.84,0:24:17.58,Sakakura Sakura,host,0,0,0,,Wait a minute, I want to be meaty.
+Dialogue: 0,0:24:17.58,0:24:21.24,Okuma Wakana,host,0,0,0,,We're weird for doing things\Nlike hype-up changes.
+Dialogue: 0,0:24:22.14,0:24:22.64,Aoyama Nagisa,host,0,0,0,,Huff, puff, huff, puff.
+Dialogue: 0,0:24:22.64,0:24:24.59,Okuma Wakana,host,0,0,0,,It's that late-night high tension.
+Dialogue: 0,0:24:24.59,0:24:25.25,Aoyama Nagisa,host,0,0,0,,Huff, puff, huff.
+Dialogue: 0,0:24:25.80,0:24:26.64,Sakakura Sakura,host,0,0,0,,What is that?
+Dialogue: 0,0:24:26.64,0:24:28.10,Sakakura Sakura,host,0,0,0,,It makes no sense.
+Dialogue: 0,0:24:28.10,0:24:28.88,Aoyama Nagisa,host,0,0,0,,Gyun gyun.
+Dialogue: 0,0:24:29.88,0:24:33.36,Okuma Wakana,host,0,0,0,,The meaning is something\Nyou understand later.
+Dialogue: 0,0:24:36.01,0:24:36.55,Aoyama Nagisa,host,0,0,0,,Kyun, that kyun.
+Dialogue: 0,0:24:36.55,0:24:41.08,Sakakura Sakura,host,0,0,0,,I'm not interested in the past,\Nbut I'll love you even more.
+Dialogue: 0,0:24:42.91,0:24:43.41,Aoyama Nagisa,host,0,0,0,,Kyun, flexibility, kyun.
+Dialogue: 0,0:24:44.04,0:24:47.00,Sakakura Sakura,host,0,0,0,,I'll listen and kick, how\Nmany times will I visit?
+Dialogue: 0,0:24:56.20,0:25:00.32,Aoyama Nagisa,host,0,0,0,,Love Live! Superstar!! Yuigaoka Girls'\NLunchtime Broadcasting Station, Lieraji.
 Comment: 0,0:25:06.56,0:25:09.40,Default,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
-Dialogue: 0,0:25:06.56,0:25:09.40,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}[CORNER: News from Love Live! Superstar!!]\NNews from Love Live! Superstar!!.
-Dialogue: 0,0:25:11.28,0:25:12.46,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Event information.
-Dialogue: 0,0:25:19.72,0:25:23.06,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Advance mail orders for event\Ngoods are currently being accepted.
-Dialogue: 0,0:25:23.06,0:25:28.18,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}The deadline for this is\NSunday, June 21st at 23:59.
-Dialogue: 0,0:25:43.04,0:25:44.78,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Please check that out as well.
-Dialogue: 0,0:25:44.78,0:25:47.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Next, livestream information.
-Dialogue: 0,0:25:47.28,0:25:52.98,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}A Liella! livestream has been scheduled\Nfor Friday, June 19th at 20:00.
+Dialogue: 0,0:25:06.56,0:25:09.40,Aoyama Nagisa,host,0,0,0,,[CORNER: News from Love Live! Superstar!!]\NNews from Love Live! Superstar!!.
+Dialogue: 0,0:25:11.28,0:25:12.46,Okuma Wakana,host,0,0,0,,Event information.
+Dialogue: 0,0:25:19.72,0:25:23.06,Okuma Wakana,host,0,0,0,,Advance mail orders for event\Ngoods are currently being accepted.
+Dialogue: 0,0:25:23.06,0:25:28.18,Okuma Wakana,host,0,0,0,,The deadline for this is\NSunday, June 21st at 23:59.
+Dialogue: 0,0:25:43.04,0:25:44.78,Okuma Wakana,host,0,0,0,,Please check that out as well.
+Dialogue: 0,0:25:44.78,0:25:47.28,Sakakura Sakura,host,0,0,0,,Next, livestream information.
+Dialogue: 0,0:25:47.28,0:25:52.98,Sakakura Sakura,host,0,0,0,,A Liella! livestream has been scheduled\Nfor Friday, June 19th at 20:00.
 Comment: 0,0:25:52.98,0:26:00.64,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
-Dialogue: 0,0:26:09.38,0:26:13.56,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}and Sagara Mayu-san as Nakasu Kasumi.
-Dialogue: 0,0:26:13.56,0:26:14.32,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Amazing.
-Dialogue: 0,0:26:14.84,0:26:17.88,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh, it's the first time we've\Nhad guests on a livestream.
-Dialogue: 0,0:26:17.88,0:26:18.43,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Right.
-Dialogue: 0,0:26:18.43,0:26:19.32,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}The first time.
-Dialogue: 0,0:26:19.32,0:26:22.06,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}And our senpais are coming to visit.
-Dialogue: 0,0:26:22.06,0:26:22.68,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}I'm so happy.
-Dialogue: 0,0:26:22.68,0:26:23.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Thank you very much.
+Dialogue: 0,0:26:09.38,0:26:13.56,Sakakura Sakura,host,0,0,0,,and Sagara Mayu-san as Nakasu Kasumi.
+Dialogue: 0,0:26:13.56,0:26:14.32,Aoyama Nagisa,host,0,0,0,,Amazing.
+Dialogue: 0,0:26:14.84,0:26:17.88,Okuma Wakana,host,0,0,0,,Oh, it's the first time we've\Nhad guests on a livestream.
+Dialogue: 0,0:26:17.88,0:26:18.43,Sakakura Sakura,host,0,0,0,,Right.
+Dialogue: 0,0:26:18.43,0:26:19.32,Aoyama Nagisa,host,0,0,0,,The first time.
+Dialogue: 0,0:26:19.32,0:26:22.06,Okuma Wakana,host,0,0,0,,And our senpais are coming to visit.
+Dialogue: 0,0:26:22.06,0:26:22.68,Aoyama Nagisa,host,0,0,0,,I'm so happy.
+Dialogue: 0,0:26:22.68,0:26:23.82,Sakakura Sakura,host,0,0,0,,Thank you very much.
 Comment: 0,0:26:32.04,0:26:33.82,Default,,0,0,0,corner,=== Corner: News from Love Live! Superstar!! ===
-Dialogue: 0,0:26:32.04,0:26:33.82,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Next, music information.
-Dialogue: 0,0:26:42.76,0:26:44.24,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Here it is.
-Dialogue: 0,0:26:46.11,0:26:46.74,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Wow.
-Dialogue: 0,0:26:46.74,0:26:47.37,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}This is it.
-Dialogue: 0,0:26:48.04,0:26:50.02,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It's cute.
-Dialogue: 0,0:26:50.02,0:26:51.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It's really good.
-Dialogue: 0,0:26:51.82,0:26:53.10,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}So cute.
-Dialogue: 0,0:26:53.10,0:26:54.08,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Isn't it super stylish?
-Dialogue: 0,0:26:54.08,0:26:54.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Somehow.
-Dialogue: 0,0:26:54.82,0:26:55.64,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yeah.
-Dialogue: 0,0:26:55.64,0:26:56.36,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Instagrammable.
-Dialogue: 0,0:26:56.90,0:26:57.40,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It's nice.
-Dialogue: 0,0:26:57.40,0:27:02.68,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Carrots and tomatoes, tomatoes.
-Dialogue: 0,0:27:02.68,0:27:04.68,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It has lavender and all\Nsorts of things in it.
-Dialogue: 0,0:27:05.44,0:27:06.56,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Whoa.
-Dialogue: 0,0:27:06.56,0:27:07.64,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Amazing.
-Dialogue: 0,0:27:08.60,0:27:11.78,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It's completely different from\Nthe other teams, isn't it?
-Dialogue: 0,0:27:11.78,0:27:12.76,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}True.
-Dialogue: 0,0:27:12.76,0:27:14.92,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}All three teams are different this time.
-Dialogue: 0,0:27:16.48,0:27:17.82,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Cute.
-Dialogue: 0,0:27:17.82,0:27:22.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}The clothes too, everyone's\Nwearing a sort of similar look.
-Dialogue: 0,0:27:22.72,0:27:23.60,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}It's cute, isn't it?
-Dialogue: 0,0:27:23.60,0:27:24.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It is.
-Dialogue: 0,0:27:25.40,0:27:26.56,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}There are no bugs.
-Dialogue: 0,0:27:26.56,0:27:27.30,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}No bugs.
-Dialogue: 0,0:27:27.30,0:27:27.99,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Thank goodness.
-Dialogue: 0,0:27:36.06,0:27:36.90,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Usually, yeah.
-Dialogue: 0,0:27:41.10,0:27:42.18,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Good.
-Dialogue: 0,0:27:42.18,0:27:44.24,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Shiki-chan looks happy\Neven without bugs.
-Dialogue: 0,0:27:44.24,0:27:44.93,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}That's good.
-Dialogue: 0,0:27:44.93,0:27:45.61,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Oh, good.
-Dialogue: 0,0:27:46.84,0:27:48.72,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Though there might be plenty\Non the back of these leaves.
-Dialogue: 0,0:27:52.16,0:27:53.04,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}This is cute.
-Dialogue: 0,0:27:53.72,0:27:54.79,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}It looks great.
-Dialogue: 0,0:27:54.79,0:27:55.54,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It does.
-Dialogue: 0,0:27:55.54,0:27:56.18,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Yes.
-Dialogue: 0,0:28:17.54,0:28:21.98,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}It will be released on Wednesday,\NJuly 8th, so please pre-order early.
-Dialogue: 0,0:28:28.38,0:28:32.68,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}The dates are Friday, October\N2nd and Friday, October 9th.
-Dialogue: 0,0:28:45.84,0:28:49.76,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}For details, please check the official\NLove Live! Superstar!! website.
-Dialogue: 0,0:29:16.92,0:29:22.96,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}The Blu-ray includes the Revival Tokyo\Nperformance Day 2 and the Special Live.
-Dialogue: 0,0:29:52.36,0:29:54.06,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Next, goods information.
-Dialogue: 0,0:30:15.40,0:30:16.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Cute.
-Dialogue: 0,0:30:16.00,0:30:22.96,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}I have it here with me now, and it's\Nso sparkly and incredibly cute.
-Dialogue: 0,0:30:23.56,0:30:27.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Pre-orders for this are open\Nuntil Monday, July 6th.
-Dialogue: 0,0:30:32.74,0:30:37.60,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}For details, check the official Liella!\NX account and the Yuigaoka Girls' Store.
-Dialogue: 0,0:30:38.72,0:30:41.80,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}News from the Love Live!\NSeries Official Card Game.
-Dialogue: 0,0:30:42.32,0:30:46.16,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}The Start Deck 'Love Live!\NSuperstar!! Cheer' is now on sale.
-Dialogue: 0,0:30:46.72,0:30:51.14,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}The package illustration is a new\Ndrawing of Keke-chan, chosen by vote.
-Dialogue: 0,0:30:51.14,0:30:53.48,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Please pick it up at card\Nshops and other retailers.
-Dialogue: 0,0:31:17.88,0:31:22.84,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}which were included in\Npast Loveca products,
-Dialogue: 0,0:31:22.84,0:31:25.20,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}will also be on sale.
-Dialogue: 0,0:31:25.76,0:31:29.00,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}General admission to the sales area\Nis possible from around 14:00.
-Dialogue: 0,0:31:29.00,0:31:31.28,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}So please come and\Nget them at the venue.
-Dialogue: 0,0:31:47.78,0:31:51.54,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}and the official Love\NLive! Superstar!! website.
-Dialogue: 0,0:31:51.54,0:31:53.12,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}That's all for the announcements.
+Dialogue: 0,0:26:32.04,0:26:33.82,Aoyama Nagisa,host,0,0,0,,Next, music information.
+Dialogue: 0,0:26:42.76,0:26:44.24,Aoyama Nagisa,host,0,0,0,,Here it is.
+Dialogue: 0,0:26:46.11,0:26:46.74,Okuma Wakana,host,0,0,0,,Wow.
+Dialogue: 0,0:26:46.74,0:26:47.37,Sakakura Sakura,host,0,0,0,,This is it.
+Dialogue: 0,0:26:48.04,0:26:50.02,Aoyama Nagisa,host,0,0,0,,It's cute.
+Dialogue: 0,0:26:50.02,0:26:51.82,Sakakura Sakura,host,0,0,0,,It's really good.
+Dialogue: 0,0:26:51.82,0:26:53.10,Okuma Wakana,host,0,0,0,,So cute.
+Dialogue: 0,0:26:53.10,0:26:54.08,Aoyama Nagisa,host,0,0,0,,Isn't it super stylish?
+Dialogue: 0,0:26:54.08,0:26:54.82,Sakakura Sakura,host,0,0,0,,Somehow.
+Dialogue: 0,0:26:54.82,0:26:55.64,Okuma Wakana,host,0,0,0,,Yeah.
+Dialogue: 0,0:26:55.64,0:26:56.36,Aoyama Nagisa,host,0,0,0,,Instagrammable.
+Dialogue: 0,0:26:56.90,0:26:57.40,Sakakura Sakura,host,0,0,0,,It's nice.
+Dialogue: 0,0:26:57.40,0:27:02.68,Okuma Wakana,host,0,0,0,,Carrots and tomatoes, tomatoes.
+Dialogue: 0,0:27:02.68,0:27:04.68,Sakakura Sakura,host,0,0,0,,It has lavender and all\Nsorts of things in it.
+Dialogue: 0,0:27:05.44,0:27:06.56,Aoyama Nagisa,host,0,0,0,,Whoa.
+Dialogue: 0,0:27:06.56,0:27:07.64,Okuma Wakana,host,0,0,0,,Amazing.
+Dialogue: 0,0:27:08.60,0:27:11.78,Sakakura Sakura,host,0,0,0,,It's completely different from\Nthe other teams, isn't it?
+Dialogue: 0,0:27:11.78,0:27:12.76,Aoyama Nagisa,host,0,0,0,,True.
+Dialogue: 0,0:27:12.76,0:27:14.92,Okuma Wakana,host,0,0,0,,All three teams are different this time.
+Dialogue: 0,0:27:16.48,0:27:17.82,Sakakura Sakura,host,0,0,0,,Cute.
+Dialogue: 0,0:27:17.82,0:27:22.04,Aoyama Nagisa,host,0,0,0,,The clothes too, everyone's\Nwearing a sort of similar look.
+Dialogue: 0,0:27:22.72,0:27:23.60,Okuma Wakana,host,0,0,0,,It's cute, isn't it?
+Dialogue: 0,0:27:23.60,0:27:24.60,Sakakura Sakura,host,0,0,0,,It is.
+Dialogue: 0,0:27:25.40,0:27:26.56,Okuma Wakana,host,0,0,0,,There are no bugs.
+Dialogue: 0,0:27:26.56,0:27:27.30,Sakakura Sakura,host,0,0,0,,No bugs.
+Dialogue: 0,0:27:27.30,0:27:27.99,Aoyama Nagisa,host,0,0,0,,Thank goodness.
+Dialogue: 0,0:27:36.06,0:27:36.90,Okuma Wakana,host,0,0,0,,Usually, yeah.
+Dialogue: 0,0:27:41.10,0:27:42.18,Sakakura Sakura,host,0,0,0,,Good.
+Dialogue: 0,0:27:42.18,0:27:44.24,Aoyama Nagisa,host,0,0,0,,Shiki-chan looks happy\Neven without bugs.
+Dialogue: 0,0:27:44.24,0:27:44.93,Sakakura Sakura,host,0,0,0,,That's good.
+Dialogue: 0,0:27:44.93,0:27:45.61,Okuma Wakana,host,0,0,0,,Oh, good.
+Dialogue: 0,0:27:46.84,0:27:48.72,Aoyama Nagisa,host,0,0,0,,Though there might be plenty\Non the back of these leaves.
+Dialogue: 0,0:27:52.16,0:27:53.04,Okuma Wakana,host,0,0,0,,This is cute.
+Dialogue: 0,0:27:53.72,0:27:54.79,Sakakura Sakura,host,0,0,0,,It looks great.
+Dialogue: 0,0:27:54.79,0:27:55.54,Aoyama Nagisa,host,0,0,0,,It does.
+Dialogue: 0,0:27:55.54,0:27:56.18,Okuma Wakana,host,0,0,0,,Yes.
+Dialogue: 0,0:28:17.54,0:28:21.98,Aoyama Nagisa,host,0,0,0,,It will be released on Wednesday,\NJuly 8th, so please pre-order early.
+Dialogue: 0,0:28:28.38,0:28:32.68,Okuma Wakana,host,0,0,0,,The dates are Friday, October\N2nd and Friday, October 9th.
+Dialogue: 0,0:28:45.84,0:28:49.76,Okuma Wakana,host,0,0,0,,For details, please check the official\NLove Live! Superstar!! website.
+Dialogue: 0,0:29:16.92,0:29:22.96,Okuma Wakana,host,0,0,0,,The Blu-ray includes the Revival Tokyo\Nperformance Day 2 and the Special Live.
+Dialogue: 0,0:29:52.36,0:29:54.06,Sakakura Sakura,host,0,0,0,,Next, goods information.
+Dialogue: 0,0:30:15.40,0:30:16.00,Sakakura Sakura,host,0,0,0,,Cute.
+Dialogue: 0,0:30:16.00,0:30:22.96,Sakakura Sakura,host,0,0,0,,I have it here with me now, and it's\Nso sparkly and incredibly cute.
+Dialogue: 0,0:30:23.56,0:30:27.12,Sakakura Sakura,host,0,0,0,,Pre-orders for this are open\Nuntil Monday, July 6th.
+Dialogue: 0,0:30:32.74,0:30:37.60,Sakakura Sakura,host,0,0,0,,For details, check the official Liella!\NX account and the Yuigaoka Girls' Store.
+Dialogue: 0,0:30:38.72,0:30:41.80,Aoyama Nagisa,host,0,0,0,,News from the Love Live!\NSeries Official Card Game.
+Dialogue: 0,0:30:42.32,0:30:46.16,Aoyama Nagisa,host,0,0,0,,The Start Deck 'Love Live!\NSuperstar!! Cheer' is now on sale.
+Dialogue: 0,0:30:46.72,0:30:51.14,Aoyama Nagisa,host,0,0,0,,The package illustration is a new\Ndrawing of Keke-chan, chosen by vote.
+Dialogue: 0,0:30:51.14,0:30:53.48,Aoyama Nagisa,host,0,0,0,,Please pick it up at card\Nshops and other retailers.
+Dialogue: 0,0:31:17.88,0:31:22.84,Okuma Wakana,host,0,0,0,,which were included in\Npast Loveca products,
+Dialogue: 0,0:31:22.84,0:31:25.20,Okuma Wakana,host,0,0,0,,will also be on sale.
+Dialogue: 0,0:31:25.76,0:31:29.00,Sakakura Sakura,host,0,0,0,,General admission to the sales area\Nis possible from around 14:00.
+Dialogue: 0,0:31:29.00,0:31:31.28,Sakakura Sakura,host,0,0,0,,So please come and\Nget them at the venue.
+Dialogue: 0,0:31:47.78,0:31:51.54,Aoyama Nagisa,host,0,0,0,,and the official Love\NLive! Superstar!! website.
+Dialogue: 0,0:31:51.54,0:31:53.12,Aoyama Nagisa,host,0,0,0,,That's all for the announcements.
 Comment: 0,0:32:02.84,0:32:08.44,Default,,0,0,0,corner,=== Corner: Closing ===
-Dialogue: 0,0:32:09.00,0:32:11.52,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}Here is the broadcast information\Nfor next time and beyond.
-Dialogue: 0,0:32:31.18,0:32:36.36,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}and Yuina as Wien Margarete.
-Dialogue: 0,0:32:50.74,0:32:52.84,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}We look forward to\Nreceiving many emails.
-Dialogue: 0,0:32:53.80,0:32:57.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}So, how was today's broadcast?
-Dialogue: 0,0:33:06.76,0:33:08.12,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}Since everyone sent so many.
-Dialogue: 0,0:33:09.48,0:33:10.12,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}We'll do our best.
-Dialogue: 0,0:33:11.80,0:33:13.04,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}We ended up talking about\Nillustrations, didn't we?
-Dialogue: 0,0:33:14.24,0:33:14.92,Ookuma Wakana,host,0,0,0,,{\pos(330,540)}We'll do our best.
+Dialogue: 0,0:32:09.00,0:32:11.52,Aoyama Nagisa,host,0,0,0,,Here is the broadcast information\Nfor next time and beyond.
+Dialogue: 0,0:32:31.18,0:32:36.36,Okuma Wakana,host,0,0,0,,and Yuina as Wien Margarete.
+Dialogue: 0,0:32:50.74,0:32:52.84,Sakakura Sakura,host,0,0,0,,We look forward to\Nreceiving many emails.
+Dialogue: 0,0:32:53.80,0:32:57.04,Aoyama Nagisa,host,0,0,0,,So, how was today's broadcast?
+Dialogue: 0,0:33:06.76,0:33:08.12,Okuma Wakana,host,0,0,0,,Since everyone sent so many.
+Dialogue: 0,0:33:09.48,0:33:10.12,Sakakura Sakura,host,0,0,0,,We'll do our best.
+Dialogue: 0,0:33:11.80,0:33:13.04,Aoyama Nagisa,host,0,0,0,,We ended up talking about\Nillustrations, didn't we?
+Dialogue: 0,0:33:14.24,0:33:14.92,Okuma Wakana,host,0,0,0,,We'll do our best.
 Comment: 0,0:33:21.32,0:33:28.52,Default,,0,0,0,corner,=== Corner: Self-Introductions ===
-Dialogue: 0,0:33:28.52,0:33:29.52,Aoyama Nagisa,host,0,0,0,,{\pos(330,900)}See you!
-Dialogue: 0,0:33:33.32,0:33:41.76,Sakakura Sakura,host,0,0,0,,{\pos(330,180)}Even if we share tears and frustration,\Nthe pain is always yours alone.
+Dialogue: 0,0:33:28.52,0:33:29.52,Aoyama Nagisa,host,0,0,0,,See you!
+Dialogue: 0,0:33:33.32,0:33:41.76,Sakakura Sakura,host,0,0,0,,Even if we share tears and frustration,\Nthe pain is always yours alone.
