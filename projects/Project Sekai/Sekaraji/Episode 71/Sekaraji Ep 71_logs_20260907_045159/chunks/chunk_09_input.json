@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "夏ちょっと早めに始める。",
+    "start_time": 485.96,
+    "end_time": 487.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "早めに。",
+    "start_time": 487.73,
+    "end_time": 488.23,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "暑くなる前からもうそろそろ冷やし中華の季節だなって思いながら。",
+    "start_time": 488.36,
+    "end_time": 492.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いや、ま、美味しいですよね。",
+    "start_time": 492.84,
+    "end_time": 494.06,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "食べやすい夏に冷やし中華って。",
+    "start_time": 494.06,
+    "end_time": 496.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "あ、あとなんかさ、ラーメンよりさ、ま、ラーメンも食べるんだけれどもなんかカロリー面で罪悪感が少ないんだよね。",
+    "start_time": 496.4,
+    "end_time": 503.14,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "多分そんな変わらないんだろうけど。",
+    "start_time": 503.14,
+    "end_time": 504.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "いや、でも分かります分かります。",
+    "start_time": 504.52,
+    "end_time": 505.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そう。",
+    "start_time": 505.87,
+    "end_time": 506.37,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ちゅるちゅるっと入っていくから。",
+    "start_time": 506.48,
+    "end_time": 507.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "なんか冷たいそう。",
+    "start_time": 508.0,
+    "end_time": 508.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "確かに罪悪感が少ないかもしれない。",
+    "start_time": 508.92,
+    "end_time": 510.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "最近ね、私作るのではまってんのは冷やし中華ではなくそうめんなんだけどそうめんのそのつけだれをあの、",
+    "start_time": 512.08,
+    "end_time": 521.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "おお。",
+    "start_time": 516.81,
+    "end_time": 517.31,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "はい。",
+    "start_time": 519.59,
+    "end_time": 520.09,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "豆乳と絹豆腐をあの、もうぐーってもう混ぜてあの、ドロドロのスープ状にしてそこに白だしとか顆粒のあの、",
+    "start_time": 521.04,
+    "end_time": 531.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "はい。",
+    "start_time": 525.99,
+    "end_time": 526.49,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "はいはいはい。",
+    "start_time": 528.23,
+    "end_time": 528.73,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "鶏ガラとか入れてでなんかあの、肉味噌とかのトッピングとかネギとかラー油かけて混ぜて食べるのが好き。",
+    "start_time": 531.04,
+    "end_time": 538.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "美味しそうすぎる。",
+    "start_time": 539.04,
+    "end_time": 539.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "めちゃくちゃうまいしめっちゃ簡単。",
+    "start_time": 540.04,
+    "end_time": 541.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "え、やりたい。",
+    "start_time": 541.64,
+    "end_time": 542.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "すごく簡単だよ。",
+    "start_time": 542.56,
+    "end_time": 543.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うわ。",
+    "start_time": 543.51,
+    "end_time": 544.01,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "あっという間にできる。",
+    "start_time": 544.24,
+    "end_time": 545.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "いい、夏でも食べられそうな。",
+    "start_time": 546.0,
+    "end_time": 547.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "めっちゃ食べやすいし。",
+    "start_time": 548.0,
+    "end_time": 548.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そうそうそうそう。",
+    "start_time": 548.89,
+    "end_time": 549.39,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "そう、なんかお豆腐でさ、あの、つけだれを作る系さ、なんか栄養もとっ取れてるんじゃないかと。",
+    "start_time": 549.96,
+    "end_time": 555.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "タンパク質だ。",
+    "start_time": 555.52,
+    "end_time": 556.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

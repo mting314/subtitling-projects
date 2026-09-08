@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "え、おうち時間の過ごし方、それは絵を描くです。",
+    "start_time": 1230.32,
+    "end_time": 1233.96,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "きっかけはネット友達の無茶ぶりから始まりました。",
+    "start_time": 1233.96,
+    "end_time": 1237.72,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 2,
+    "text": "ほえ。",
+    "start_time": 1237.75,
+    "end_time": 1238.25,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いざ描いてみると楽しくはまりました。",
+    "start_time": 1238.44,
+    "end_time": 1241.04,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "今でもプロセカキャラの模写をして楽しんでいます。",
+    "start_time": 1241.04,
+    "end_time": 1244.32,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "今後の目標は自分が描いた衣装デザインをプロセカに起用されることです。",
+    "start_time": 1244.32,
+    "end_time": 1249.16,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "頑張ります。",
+    "start_time": 1249.16,
+    "end_time": 1249.84,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "とのことです。",
+    "start_time": 1249.84,
+    "end_time": 1251.04,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 8,
+    "text": "ありがとう。",
+    "start_time": 1251.04,
+    "end_time": 1252.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ええ。",
+    "start_time": 1252.05,
+    "end_time": 1252.55,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "凄い。",
+    "start_time": 1253.91,
+    "end_time": 1254.41,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "何?",
+    "start_time": 1254.65,
+    "end_time": 1255.395,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "絵のデザインも、",
+    "start_time": 1255.395,
+    "end_time": 1256.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "お洋服のデザインもうん。",
+    "start_time": 1257.04,
+    "end_time": 1259.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "はまったんだ。",
+    "start_time": 1258.2,
+    "end_time": 1258.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "いや、本当になん、このセカラジで何度も言ってるんですけど、絵を描ける人を本当に尊敬しておりまして。",
+    "start_time": 1260.36,
+    "end_time": 1265.8,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そんなに得意ではない?",
+    "start_time": 1266.24,
+    "end_time": 1267.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "あの、なんか絶妙なラインなんですよね、その上手くもないし、",
+    "start_time": 1267.48,
+    "end_time": 1270.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "なんか笑えるほど下手でもない。",
+    "start_time": 1270.6,
+    "end_time": 1271.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "だって、衣装が",
+    "start_time": 1272.04,
+    "end_time": 1272.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "あれ?",
+    "start_time": 1274.05,
+    "end_time": 1274.735,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "結構",
+    "start_time": 1274.735,
+    "end_time": 1275.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "描けないわけじゃないんだよ。",
+    "start_time": 1275.96,
+    "end_time": 1277.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "描けないわけじゃないんですよ。",
+    "start_time": 1277.4,
+    "end_time": 1278.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "でもさ、あの、声優業界絵上いやつ多すぎん?",
+    "start_time": 1278.24,
+    "end_time": 1280.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "それ本当にそうなんですよ。",
+    "start_time": 1280.8,
+    "end_time": 1282.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "上手いのレベルがさ、なんかその何やんみたいな。",
+    "start_time": 1282.8,
+    "end_time": 1286.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "わけわかんなくなる。",
+    "start_time": 1284.92,
+    "end_time": 1285.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "分かります、分かります。",
+    "start_time": 1286.4,
+    "end_time": 1287.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "え?",
+    "start_time": 1287.77,
+    "end_time": 1288.27,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

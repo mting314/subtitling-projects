@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "え、誰?",
+    "start_time": 1288.07,
+    "end_time": 1288.57,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "本当にそれを前にして描けるほどのものが何もないし、",
+    "start_time": 1289.4,
+    "end_time": 1293.82,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "面白い",
+    "start_time": 1293.82,
+    "end_time": 1294.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "趣味の範囲を、もう外せないと言うか。",
+    "start_time": 1294.72,
+    "end_time": 1298.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "分かります。",
+    "start_time": 1298.28,
+    "end_time": 1299.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "いや、かといって独創的なアレもないしさ。",
+    "start_time": 1299.4,
+    "end_time": 1301.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そうなんですよ。",
+    "start_time": 1301.92,
+    "end_time": 1302.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "はあええ。",
+    "start_time": 1302.91,
+    "end_time": 1303.41,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "凄いなあ。",
+    "start_time": 1304.28,
+    "end_time": 1305.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "凄い、模写。",
+    "start_time": 1305.96,
+    "end_time": 1306.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "まあ、でも模写ね、何事も真似と言うかね、そこから始めてどんどん自分のスタイルを見つけていくのが",
+    "start_time": 1306.68,
+    "end_time": 1313.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "やり方だからね。",
+    "start_time": 1314.44,
+    "end_time": 1315.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そしてデザインもいずれはと。",
+    "start_time": 1315.96,
+    "end_time": 1318.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うわあ、楽しみ。",
+    "start_time": 1318.16,
+    "end_time": 1318.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "楽しみさよ、採用されてね。",
+    "start_time": 1318.92,
+    "end_time": 1321.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ね。",
+    "start_time": 1321.11,
+    "end_time": 1321.61,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "その服を着てキャラクター達が歌い踊る姿を見たいよ。",
+    "start_time": 1322.0,
+    "end_time": 1326.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "あれ、毎回凄いワクワクするですよね、放送局でご紹介する衣装デザインの採用発表。",
+    "start_time": 1326.16,
+    "end_time": 1332.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "採用されたものもですし、あの、佳作のレベルの高さね。",
+    "start_time": 1332.24,
+    "end_time": 1335.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "そうなんですよ。",
+    "start_time": 1335.32,
+    "end_time": 1335.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "どうして?",
+    "start_time": 1335.97,
+    "end_time": 1336.61,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "なんであんな",
+    "start_time": 1336.61,
+    "end_time": 1337.25,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "あれはどうなっているの?",
+    "start_time": 1338.6,
+    "end_time": 1340.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "いや、マジ私ああいうのは無理かも。",
+    "start_time": 1340.96,
+    "end_time": 1343.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "あ、既存のものを組み合わせるのは好きだけど。",
+    "start_time": 1343.68,
+    "end_time": 1346.1,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "あ、ゼロから何かするのは結構得意ではないと自分では思ってはいるわ。",
+    "start_time": 1346.1,
+    "end_time": 1353.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "確かに。",
+    "start_time": 1347.73,
+    "end_time": 1348.43,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そうそうそう。",
+    "start_time": 1348.43,
+    "end_time": 1349.13,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "いやあ。",
+    "start_time": 1350.52,
+    "end_time": 1351.24,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "かっこいい。",
+    "start_time": 1354.0,
+    "end_time": 1354.82,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "お届けしてきました、セカラジ。",
+    "start_time": 1779.8,
+    "end_time": 1781.46,
+    "speaker": "Machico",
+    "role": "host",
+    "corner": "Ending"
+  },
+  {
+    "id": 1,
+    "text": "エンディングです。",
+    "start_time": 1781.46,
+    "end_time": 1782.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "はい、番組では皆さんからの投稿をお待ちしています。",
+    "start_time": 1782.6,
+    "end_time": 1786.14,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "アドレスはsekai-radio@pjsekai.jp。",
+    "start_time": 1786.14,
+    "end_time": 1787.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "詳しくはプロセカの公式Xでご確認ください。",
+    "start_time": 1790.0,
+    "end_time": 1793.46,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "メールの投稿はお早めにお願いします。",
+    "start_time": 1793.46,
+    "end_time": 1795.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そしてラジオネームもお忘れなく。",
+    "start_time": 1795.88,
+    "end_time": 1798.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "はい。",
+    "start_time": 1798.26,
+    "end_time": 1798.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そしてで次回もユニットシャッフルでお届け予定です。",
+    "start_time": 1798.76,
+    "end_time": 1802.5,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ということで、次回キャストに向けて連絡の音にコメントを残していきます。",
+    "start_time": 1802.5,
+    "end_time": 1807.5,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "え、我々からのコメントは、この夏楽しかったこと、または楽しみにしていることは何ですか?",
+    "start_time": 1807.5,
+    "end_time": 1814.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "でございます。",
+    "start_time": 1814.0,
+    "end_time": 1815.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "みんなの今が聞けるね。",
+    "start_time": 1815.44,
+    "end_time": 1816.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "今が聞ける。",
+    "start_time": 1816.76,
+    "end_time": 1817.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "何でもいいですからね。",
+    "start_time": 1817.72,
+    "end_time": 1818.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ね。",
+    "start_time": 1818.95,
+    "end_time": 1819.45,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ぜひぜひ答えていただきたいと思います。",
+    "start_time": 1819.52,
+    "end_time": 1823.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "さあ、終わってしまいます。",
+    "start_time": 1824.32,
+    "end_time": 1825.24,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "終わっちゃったの?",
+    "start_time": 1825.36,
+    "end_time": 1825.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "いつも早いんだよな、セカラジ。",
+    "start_time": 1826.76,
+    "end_time": 1827.96,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "セカラジ本当お頼りとかが凄い毎回楽しみなんで。",
+    "start_time": 1828.32,
+    "end_time": 1832.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "まだね、読めてないものとかね、いっぱいあるから。",
+    "start_time": 1832.24,
+    "end_time": 1835.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "いや、本当なんか学生の皆さんの近況を聞ける貴重な時間",
+    "start_time": 1836.04,
+    "end_time": 1839.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "本当に私達に青春を教えてくれてありがとう。",
+    "start_time": 1839.84,
+    "end_time": 1843.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ありがたいですよ。",
+    "start_time": 1843.88,
+    "end_time": 1845.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "もちろんね、大人のファンの方々もね、いつも現状を教えてくれて。",
+    "start_time": 1845.12,
+    "end_time": 1849.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "我々と一緒の気持ちで。",
+    "start_time": 1850.12,
+    "end_time": 1852.26,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "本当に今を教えていただける貴重な機会が。",
+    "start_time": 1852.26,
+    "end_time": 1855.24,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "そうだよ。",
+    "start_time": 1855.41,
+    "end_time": 1855.91,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "あっという間でしたよ。",
+    "start_time": 1856.12,
+    "end_time": 1857.2,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

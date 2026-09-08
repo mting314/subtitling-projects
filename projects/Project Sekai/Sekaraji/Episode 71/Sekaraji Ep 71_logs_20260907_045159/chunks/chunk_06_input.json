@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "じゃ、おたより見ます。",
+    "start_time": 312.64,
+    "end_time": 313.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host",
+    "corner": "Listener Mail"
+  },
+  {
+    "id": 1,
+    "text": "あ、お願いします。",
+    "start_time": 313.88,
+    "end_time": 315.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "はい、ラジオネームあかりんさんからいただきました。",
+    "start_time": 315.24,
+    "end_time": 318.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 3,
+    "text": "ありがとうございます。",
+    "start_time": 318.8,
+    "end_time": 319.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ありがとうございます。",
+    "start_time": 319.76,
+    "end_time": 320.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "初めましてセカラじの皆さん。",
+    "start_time": 320.96,
+    "end_time": 322.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "あかりんと申します。",
+    "start_time": 322.84,
+    "end_time": 324.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "7月にプロセカを始めた新参者です。",
+    "start_time": 324.68,
+    "end_time": 327.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "最近はイベントなどを着々と進めているのですがボイス付きだと皆様方の演技力も高すぎ内容も濃すぎて胃薬必須。",
+    "start_time": 327.76,
+    "end_time": 336.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 9,
+    "text": "そこで普段皆さんが演じていたり見ている中で尊いなと思うプロセカのストーリーまたは掛け合いなどのシーンはありますか?",
+    "start_time": 336.88,
+    "end_time": 344.38,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "読んでくれたら嬉しいです。",
+    "start_time": 344.38,
+    "end_time": 345.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 11,
+    "text": "プロセカ最高。",
+    "start_time": 345.84,
+    "end_time": 346.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 12,
+    "text": "ありがとう。",
+    "start_time": 347.92,
+    "end_time": 348.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "え、",
+    "start_time": 349.25,
+    "end_time": 349.75,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "もう我々で言ったらね、キャラクター的にも一歌ちゃんと寧々は",
+    "start_time": 350.28,
+    "end_time": 354.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "もう長くなってきましたね。",
+    "start_time": 354.68,
+    "end_time": 356.74,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そう、2人が関わり合うようになって。",
+    "start_time": 356.74,
+    "end_time": 359.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ちょっとやっぱりなんか慣れてきて寧々も。",
+    "start_time": 359.24,
+    "end_time": 360.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "分かります分かります。",
+    "start_time": 361.0,
+    "end_time": 361.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ちょっとなんか私歌の練習するけど。",
+    "start_time": 362.32,
+    "end_time": 364.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "あ、それすごい。",
+    "start_time": 364.36,
+    "end_time": 365.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "一緒にする?",
+    "start_time": 365.52,
+    "end_time": 366.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "みたいな。",
+    "start_time": 366.08,
+    "end_time": 366.71,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そうそう誘ってくれているみたいな。",
+    "start_time": 366.71,
+    "end_time": 368.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "それに対して一歌もすごい嬉しそうに是非みたいな感じで。",
+    "start_time": 368.76,
+    "end_time": 372.38,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "めっちゃあそこの2人好きじゃしさ。",
+    "start_time": 372.38,
+    "end_time": 374.22,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "あとこの前あの5月の小祈りでさとうとう一歌と寧々が一緒に歌っておりました。",
+    "start_time": 374.22,
+    "end_time": 380.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "嬉しかった見れて。",
+    "start_time": 381.08,
+    "end_time": 383.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "2人の告白を",
+    "start_time": 383.4,
+    "end_time": 384.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "いや、綺麗でした。",
+    "start_time": 385.12,
+    "end_time": 386.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

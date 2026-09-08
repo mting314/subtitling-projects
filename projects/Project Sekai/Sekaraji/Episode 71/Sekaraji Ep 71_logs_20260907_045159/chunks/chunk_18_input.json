@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "何をしてたか思い出せないんです、だから。",
+    "start_time": 1179.52,
+    "end_time": 1181.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "はしゃいでたことだけを覚えてる。",
+    "start_time": 1181.88,
+    "end_time": 1183.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "一体中高生の時何を楽しみに生きてたんだろう、みたいな。",
+    "start_time": 1184.28,
+    "end_time": 1188.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "なんか帰り道に友達がなんかテンション上がって意味わかんない歌歌い始めて、",
+    "start_time": 1188.28,
+    "end_time": 1192.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "それをなんかムービーに撮って何回も見返したけど。",
+    "start_time": 1192.44,
+    "end_time": 1194.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "楽しい!",
+    "start_time": 1194.71,
+    "end_time": 1195.21,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "本当に楽しかったんか?",
+    "start_time": 1195.96,
+    "end_time": 1197.34,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "面白いことをやってたんかな?",
+    "start_time": 1197.34,
+    "end_time": 1198.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "なんか",
+    "start_time": 1198.8,
+    "end_time": 1199.3,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "記憶が思い出補正みたいなことですか?",
+    "start_time": 1199.6,
+    "end_time": 1201.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "青春補正でさ、もう恥が転がっても面白いみたいな。",
+    "start_time": 1201.4,
+    "end_time": 1204.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "確かに。",
+    "start_time": 1204.23,
+    "end_time": 1204.73,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "でもああいうことがいいんだよな。",
+    "start_time": 1205.16,
+    "end_time": 1206.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "いや、楽しいですよ。",
+    "start_time": 1206.52,
+    "end_time": 1207.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "いいなあ、青春。",
+    "start_time": 1208.52,
+    "end_time": 1209.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "いいですね。",
+    "start_time": 1209.8,
+    "end_time": 1210.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "頑張ってね。",
+    "start_time": 1210.4,
+    "end_time": 1211.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "大変だろうけどね、頑張ってください。",
+    "start_time": 1211.16,
+    "end_time": 1213.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "絶対できるよ。",
+    "start_time": 1213.67,
+    "end_time": 1214.17,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "羨ましい。",
+    "start_time": 1214.76,
+    "end_time": 1215.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "羨ましいね。",
+    "start_time": 1215.76,
+    "end_time": 1216.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "では、もう1通いきますよ。",
+    "start_time": 1217.16,
+    "end_time": 1218.88,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 22,
+    "text": "はい。",
+    "start_time": 1218.55,
+    "end_time": 1219.05,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "ラジオネームたっくTKさんです。",
+    "start_time": 1218.88,
+    "end_time": 1221.76,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 24,
+    "text": "ああ、ありがとうございます。",
+    "start_time": 1221.88,
+    "end_time": 1222.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "え、野口さん、Machikoさん、コンワンダホイ。",
+    "start_time": 1223.68,
+    "end_time": 1225.88,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "コンワンダホイ。",
+    "start_time": 1225.61,
+    "end_time": 1226.11,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "コンワンダホイ。",
+    "start_time": 1225.88,
+    "end_time": 1227.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "コンワンダホイ。",
+    "start_time": 1227.24,
+    "end_time": 1227.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "と、いつもラジオと楽しく聞いてます。",
+    "start_time": 1228.04,
+    "end_time": 1229.8,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  }
+]

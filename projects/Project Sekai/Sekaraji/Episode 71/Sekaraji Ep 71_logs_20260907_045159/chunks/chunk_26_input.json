@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。",
+    "start_time": 1685.31,
+    "end_time": 1685.81,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ああ、嬉しいなあ。",
+    "start_time": 1686.44,
+    "end_time": 1687.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "我々も収録した甲斐があります。",
+    "start_time": 1687.2,
+    "end_time": 1689.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いや、本当そうなんです。",
+    "start_time": 1689.36,
+    "end_time": 1690.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "なんか誰かが読んでくれているんだっていう",
+    "start_time": 1690.36,
+    "end_time": 1692.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "嬉しくなっちゃう。",
+    "start_time": 1693.6,
+    "end_time": 1694.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "一生懸命お芝居をして。",
+    "start_time": 1695.32,
+    "end_time": 1696.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "だってプロセカってさ、結構その歌の収録もさ、セリフの収録もさ、",
+    "start_time": 1697.16,
+    "end_time": 1701.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "結構定期的にあるじゃん。",
+    "start_time": 1701.84,
+    "end_time": 1703.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "めちゃめちゃ定期的にある。",
+    "start_time": 1703.88,
+    "end_time": 1704.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そう、だからなんかこっちもね、あ、もう分かる。",
+    "start_time": 1706.08,
+    "end_time": 1710.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "もう",
+    "start_time": 1709.01,
+    "end_time": 1709.51,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "新しいストーリーがもう来るんだとか。",
+    "start_time": 1710.92,
+    "end_time": 1712.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "どんどんね、更新されていきますから。",
+    "start_time": 1712.92,
+    "end_time": 1715.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "毎回結構なさ、ワード数と言うかさああ、凄い。",
+    "start_time": 1715.12,
+    "end_time": 1720.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "うん、分かります。",
+    "start_time": 1717.68,
+    "end_time": 1718.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "いろんなイベントストーリーだったりとか。",
+    "start_time": 1720.4,
+    "end_time": 1723.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ユニットチームもやっぱ楽曲だけじゃなくってストーリーに力入れてるなっていうのはね我々も感じていますよ。",
+    "start_time": 1723.2,
+    "end_time": 1730.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "分かります。",
+    "start_time": 1727.93,
+    "end_time": 1728.43,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "感じています。",
+    "start_time": 1730.12,
+    "end_time": 1731.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "これからも頑張って。",
+    "start_time": 1731.2,
+    "end_time": 1732.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "頑張って演じますね。",
+    "start_time": 1733.08,
+    "end_time": 1733.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "歌ったり演じたりしていきたいと思います。",
+    "start_time": 1734.08,
+    "end_time": 1736.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "受け取ってください。",
+    "start_time": 1736.36,
+    "end_time": 1737.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ありがとうございます。",
+    "start_time": 1737.28,
+    "end_time": 1738.58,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ではということで、今回のご紹介は以上です。",
+    "start_time": 1738.58,
+    "end_time": 1741.62,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 26,
+    "text": "たくさんのお頼りありがとうございました。",
+    "start_time": 1741.62,
+    "end_time": 1744.24,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 27,
+    "text": "今回はおうち時間の過ごし方というテーマでお届けしました。",
+    "start_time": 1744.76,
+    "end_time": 1748.66,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 28,
+    "text": "ありがとうございました。",
+    "start_time": 1748.66,
+    "end_time": 1750.04,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 29,
+    "text": "はい。",
+    "start_time": 1749.91,
+    "end_time": 1750.41,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

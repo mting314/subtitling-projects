@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "今回はこんなテーマでメールを募集しました。",
+    "start_time": 813.76,
+    "end_time": 816.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host",
+    "corner": "Theme Mail"
+  },
+  {
+    "id": 1,
+    "text": "おうち時間の過ごし方。",
+    "start_time": 817.44,
+    "end_time": 819.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "わーい。",
+    "start_time": 822.4,
+    "end_time": 823.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "まだまだ暑さが続く夏でございます。",
+    "start_time": 823.6,
+    "end_time": 826.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "はいはいはい。",
+    "start_time": 826.64,
+    "end_time": 827.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "必要のない外出は避けて家で暑さを避けるということ大事ですよね。",
+    "start_time": 827.4,
+    "end_time": 832.5,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "え、今回はそんな暑い日のおうち時間の過ごし方を募集しました。",
+    "start_time": 832.5,
+    "end_time": 837.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ということでメールを早速6ご紹介していきます。",
+    "start_time": 837.84,
+    "end_time": 840.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "これが1番。",
+    "start_time": 840.71,
+    "end_time": 841.21,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ラジオネームシュレーディンガーの猫さんでございます。",
+    "start_time": 841.88,
+    "end_time": 844.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 10,
+    "text": "ありがとう。",
+    "start_time": 844.83,
+    "end_time": 845.33,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "野口さんまちこさんこんにちは。",
+    "start_time": 845.6,
+    "end_time": 847.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 12,
+    "text": "こんにちは。",
+    "start_time": 847.51,
+    "end_time": 848.01,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "私のおうち時間の過ごし方は本を読むことです。",
+    "start_time": 848.4,
+    "end_time": 851.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 14,
+    "text": "あ、素晴らしいじゃない。",
+    "start_time": 851.8,
+    "end_time": 852.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "え、去年学校で図書委員に入ったことをきっかけに本を読み始めたのですが多くの面白い作品に出会うことができて夏休みである今でも時間がある時は本を読んでいます。",
+    "start_time": 852.88,
+    "end_time": 865.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "え、最近は授業で先生がおすすめされた夏目漱石の心を読んでいます。",
+    "start_time": 865.16,
+    "end_time": 871.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 17,
+    "text": "ええ。",
+    "start_time": 871.13,
+    "end_time": 871.63,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "内容がなかなか難しく理解するために何度も同じところを読み直すので読み進めるスピードがカメの歩みになっています。",
+    "start_time": 872.2,
+    "end_time": 880.46,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "え、何て書いてあるのかは分かるけどそれがどういう意味なのか分からない読書しながらも仲間とともに歌や演技を頑張る寧々ちゃんのように心を読み進めていこうと思います。",
+    "start_time": 880.46,
+    "end_time": 891.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 20,
+    "text": "とのことです。",
+    "start_time": 891.84,
+    "end_time": 892.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 21,
+    "text": "えらい。",
+    "start_time": 892.49,
+    "end_time": 893.155,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "素晴らしい。",
+    "start_time": 893.155,
+    "end_time": 894.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "漱石とかね、言葉遣いが",
+    "start_time": 894.4,
+    "end_time": 897.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "古い感じのね、昔の言葉が多いから。",
+    "start_time": 898.08,
+    "end_time": 901.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "どういう意味なのか分からない。",
+    "start_time": 901.64,
+    "end_time": 902.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "確かによく分かる。",
+    "start_time": 902.72,
+    "end_time": 904.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "私もなんか芥川龍之介のなんか読んで意味分かんなかった。",
+    "start_time": 904.28,
+    "end_time": 908.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "分かんなかった。",
+    "start_time": 908.6,
+    "end_time": 909.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "もう言葉も分からないし。",
+    "start_time": 909.56,
+    "end_time": 911.16,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

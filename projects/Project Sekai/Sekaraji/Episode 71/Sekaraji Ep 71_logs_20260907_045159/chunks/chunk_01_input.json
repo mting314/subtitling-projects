@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "k:0",
+    "start_time": 0.0,
+    "end_time": 1.0,
+    "speaker": "Machico",
+    "role": "host",
+    "corner": "Opening Talk"
+  },
+  {
+    "id": 1,
+    "text": "accelerated",
+    "start_time": 0.0,
+    "end_time": 1.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "こんばんは。",
+    "start_time": 5.24,
+    "end_time": 5.82,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "Leonide星乃一歌役の小倉るりこです。",
+    "start_time": 5.82,
+    "end_time": 8.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "はい、コンワンダホイ。",
+    "start_time": 8.72,
+    "end_time": 10.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ワンダーショータイム草薙寧々寧々役のまちこです。",
+    "start_time": 10.2,
+    "end_time": 14.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "しょっぱななのに。",
+    "start_time": 15.56,
+    "end_time": 16.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "寧々寧々役でございます。",
+    "start_time": 16.92,
+    "end_time": 18.26,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "草薙寧々です。",
+    "start_time": 18.26,
+    "end_time": 18.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "はい。",
+    "start_time": 19.77,
+    "end_time": 20.27,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "この番組はスマートフォンゲームプロジェクトセカイカラフルステージフィーチャリング初音ミクのキャストがお届けするラジオ番組セカラジ。",
+    "start_time": 20.56,
+    "end_time": 28.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "はい。",
+    "start_time": 28.22,
+    "end_time": 28.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "今回は私とまちこさんの2人でお届けします。",
+    "start_time": 28.72,
+    "end_time": 31.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "この2人は去年の6月約1年ぶり?",
+    "start_time": 32.88,
+    "end_time": 36.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "約1年ぶりですね。",
+    "start_time": 36.56,
+    "end_time": 37.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そうだった?",
+    "start_time": 37.63,
+    "end_time": 38.225,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そんなに前だったっけ?",
+    "start_time": 38.225,
+    "end_time": 39.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ついこの前のような気がしておりましたが。",
+    "start_time": 39.76,
+    "end_time": 42.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "いつの間にか1年が経っております。",
+    "start_time": 42.6,
+    "end_time": 43.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "経ちました。",
+    "start_time": 43.86,
+    "end_time": 44.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "前回はあれでしたね、なんか方言を使ってみたいな私が全然できなかったという記憶が。",
+    "start_time": 44.36,
+    "end_time": 50.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "難しいよね。",
+    "start_time": 50.68,
+    "end_time": 51.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "方言で喋ってって言われたらお互い別の方言っていうのもあって難しかったですけど楽しかった思い出がありますね。",
+    "start_time": 51.32,
+    "end_time": 59.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そして我々あれだ。",
+    "start_time": 59.44,
+    "end_time": 60.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "先週末がLeonideのファンミーで今週末がワンダちょのファンミーの世界線だ。",
+    "start_time": 60.56,
+    "end_time": 65.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "うわ、それその世界線。",
+    "start_time": 65.88,
+    "end_time": 67.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "我々はまだ両方実はまだはい、まだということで。",
+    "start_time": 67.64,
+    "end_time": 71.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "いや、楽しみに。",
+    "start_time": 72.0,
+    "end_time": 73.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ね、なんかさ、",
+    "start_time": 73.36,
+    "end_time": 73.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "あの、終わったユニットのキャストみんながさ口を揃えて本当楽しかったってみんな言ってるじゃん。",
+    "start_time": 74.56,
+    "end_time": 80.52,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

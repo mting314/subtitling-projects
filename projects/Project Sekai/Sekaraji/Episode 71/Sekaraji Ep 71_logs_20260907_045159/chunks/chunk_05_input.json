@@ -1,0 +1,234 @@
+[
+  {
+    "id": 0,
+    "text": "祈る",
+    "start_time": 252.27,
+    "end_time": 252.77,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "商売繁盛的なことですよね。",
+    "start_time": 252.8,
+    "end_time": 254.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "商売繁盛的な分に友達と行って毎年その熊手この過去数年で買うようになってそれでね、",
+    "start_time": 254.32,
+    "end_time": 263.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そうなんですね。",
+    "start_time": 261.36,
+    "end_time": 262.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "まさに屋台飯とかはね、行ったりするね。",
+    "start_time": 263.08,
+    "end_time": 265.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うわ、いいっすね。",
+    "start_time": 266.0,
+    "end_time": 266.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ということはあんまり行かない?",
+    "start_time": 267.12,
+    "end_time": 268.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "全然行ってないです。",
+    "start_time": 268.6,
+    "end_time": 269.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "10年くらい行ってない。",
+    "start_time": 269.48,
+    "end_time": 270.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "人多すぎるよね。",
+    "start_time": 272.52,
+    "end_time": 273.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そうなんですよね。",
+    "start_time": 273.64,
+    "end_time": 274.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "私さ、あの、我々のなんか若い頃の学生の時の夏と今の夏は違いすぎてもう暑くてしかもとにかく人が多いじゃん。",
+    "start_time": 274.64,
+    "end_time": 285.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "多いですね。",
+    "start_time": 286.0,
+    "end_time": 286.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "もう",
+    "start_time": 286.68,
+    "end_time": 287.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "地元とか地方でもさ、やっぱ祭りとなると大ごとだなと思うけど",
+    "start_time": 287.4,
+    "end_time": 291.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "いや、ちょっと桁違いですよね、人の多さが。",
+    "start_time": 292.12,
+    "end_time": 294.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "恐ろしいです。",
+    "start_time": 294.88,
+    "end_time": 295.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "いや、花火とか見たいんですけどもうあのそう、本当に。",
+    "start_time": 295.72,
+    "end_time": 298.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "YouTubeで。",
+    "start_time": 297.89,
+    "end_time": 298.39,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "中継で。",
+    "start_time": 298.99,
+    "end_time": 299.49,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "中継でも。",
+    "start_time": 300.0,
+    "end_time": 300.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "すいません。",
+    "start_time": 300.79,
+    "end_time": 301.29,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "ごめんなさい。",
+    "start_time": 301.41,
+    "end_time": 301.91,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "涼しい部屋で。",
+    "start_time": 301.96,
+    "end_time": 302.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "聞いた部屋で私たちは見ます。",
+    "start_time": 302.92,
+    "end_time": 304.96,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "はい。",
+    "start_time": 304.95,
+    "end_time": 305.45,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "はい。",
+    "start_time": 306.2,
+    "end_time": 306.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "じゃ、我々も後でね、えと連絡ノートにコメントを残していきたいと思いますよ。",
+    "start_time": 306.88,
+    "end_time": 311.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "はい。",
+    "start_time": 311.63,
+    "end_time": 312.13,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

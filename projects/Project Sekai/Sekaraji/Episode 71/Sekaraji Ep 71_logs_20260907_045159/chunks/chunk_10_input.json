@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "そうそうそうそう思ってね。",
+    "start_time": 556.56,
+    "end_time": 557.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "めちゃめちゃいい。",
+    "start_time": 557.96,
+    "end_time": 559.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "おすすめですよ。",
+    "start_time": 559.28,
+    "end_time": 559.94,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "豆乳と豆腐を混ぜたら簡単なスープになるから。",
+    "start_time": 559.94,
+    "end_time": 564.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "冷やしし。",
+    "start_time": 564.0,
+    "end_time": 564.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "確かに。",
+    "start_time": 564.95,
+    "end_time": 565.45,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そうそうそうそう。",
+    "start_time": 565.55,
+    "end_time": 566.05,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "サラッといける。",
+    "start_time": 566.56,
+    "end_time": 567.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "なんか冷まさなくてもいいから。",
+    "start_time": 567.8,
+    "end_time": 569.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "確かに。",
+    "start_time": 570.11,
+    "end_time": 570.61,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そうそうそうそう。",
+    "start_time": 570.57,
+    "end_time": 571.07,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "すぐ食べられるんだ。",
+    "start_time": 571.2,
+    "end_time": 572.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "最近よく作ってるから。",
+    "start_time": 572.4,
+    "end_time": 573.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "へえ。",
+    "start_time": 573.83,
+    "end_time": 574.33,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "私麺類だとあ、いいね。",
+    "start_time": 575.12,
+    "end_time": 579.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "うどん。",
+    "start_time": 577.92,
+    "end_time": 578.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うどん好きなんですよ。",
+    "start_time": 579.48,
+    "end_time": 580.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "うどんは始めてる?",
+    "start_time": 580.72,
+    "end_time": 581.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うどん始めてます。",
+    "start_time": 581.68,
+    "end_time": 582.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "実は昨日の夜もうどんを食べました。",
+    "start_time": 582.56,
+    "end_time": 584.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "嬉しいです。",
+    "start_time": 584.8,
+    "end_time": 585.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "温かいのも冷たいのも。",
+    "start_time": 585.52,
+    "end_time": 587.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "いや、両方いいよね。",
+    "start_time": 587.2,
+    "end_time": 587.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "夏といえば。",
+    "start_time": 587.88,
+    "end_time": 588.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "どっちも食べられちゃう。",
+    "start_time": 589.12,
+    "end_time": 590.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "美味しいんですよね。",
+    "start_time": 591.12,
+    "end_time": 592.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うどんはさ、私絶対なんか海外へ行って行く時にさ、絶対空港でうどんを食べていくんだよ。",
+    "start_time": 592.12,
+    "end_time": 597.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "やっぱ",
+    "start_time": 598.41,
+    "end_time": 598.91,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ジャパニーズだしをさ摂取してから海外に行きたい。",
+    "start_time": 598.76,
+    "end_time": 603.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "確かに。",
+    "start_time": 600.49,
+    "end_time": 600.99,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

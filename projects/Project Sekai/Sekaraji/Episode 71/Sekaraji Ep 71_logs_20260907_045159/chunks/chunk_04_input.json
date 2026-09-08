@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "いや、私も措置派だと思う。",
+    "start_time": 193.32,
+    "end_time": 194.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "絶対に練乳は必要だもん。",
+    "start_time": 195.2,
+    "end_time": 196.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そうそうそうそう。",
+    "start_time": 196.59,
+    "end_time": 197.09,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "でもさ、人気のさ、その野菜に添え付けられてる練乳さもうほぼほぼなかったりするじゃん。",
+    "start_time": 197.24,
+    "end_time": 201.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "分かります分かります。",
+    "start_time": 201.84,
+    "end_time": 202.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "どうにかして新しいのを常に補充しといてくれ。",
+    "start_time": 202.68,
+    "end_time": 205.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "っていつも思うんだよな。",
+    "start_time": 205.4,
+    "end_time": 206.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "分かります分かります。",
+    "start_time": 206.48,
+    "end_time": 207.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "人気ですもんね、やっぱかき氷。",
+    "start_time": 207.44,
+    "end_time": 209.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "って",
+    "start_time": 208.91,
+    "end_time": 209.41,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "え、うち何だろうな。",
+    "start_time": 209.68,
+    "end_time": 210.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ま、",
+    "start_time": 210.64,
+    "end_time": 211.27,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "フランクフルトとか牛タン串とかなんか東京に出てきてなんかそういう肉系の串がめっちゃなんか並んとるのが結構珍しいなと思って。",
+    "start_time": 211.27,
+    "end_time": 223.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "牛タン串?",
+    "start_time": 214.36,
+    "end_time": 215.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そうか。",
+    "start_time": 223.59,
+    "end_time": 224.09,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "牛タン串。",
+    "start_time": 224.72,
+    "end_time": 226.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "めっちゃうまい。",
+    "start_time": 226.3,
+    "end_time": 226.8,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ちょっと屋台価格ではあるけどそれも含めてやっぱり夏祭りだなと思って。",
+    "start_time": 226.8,
+    "end_time": 232.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うんうんなな。",
+    "start_time": 228.49,
+    "end_time": 228.99,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "食べるとまた美味しいですからね。",
+    "start_time": 232.56,
+    "end_time": 234.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そうそうそうそう。",
+    "start_time": 234.47,
+    "end_time": 234.97,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "え、いいないいな。",
+    "start_time": 235.32,
+    "end_time": 236.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "いや、お腹減ってきた。",
+    "start_time": 236.68,
+    "end_time": 238.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "全然お祭り行ってます?",
+    "start_time": 238.6,
+    "end_time": 241.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "なんだかんんね。",
+    "start_time": 241.44,
+    "end_time": 242.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "最近行ってます?",
+    "start_time": 242.28,
+    "end_time": 242.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "でも花火大会とかは行ってないけどそれこそなんかあるじゃん。",
+    "start_time": 243.16,
+    "end_time": 247.24,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "あ、はい。",
+    "start_time": 245.31,
+    "end_time": 245.81,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "あの、お仕事繁盛をなんか祈る",
+    "start_time": 247.24,
+    "end_time": 250.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "あ、はいはい分かりますよ。",
+    "start_time": 250.68,
+    "end_time": 252.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "今回も連絡ノートに質問が届いております。",
+    "start_time": 136.52,
+    "end_time": 139.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta",
+    "corner": "Contact Notebook"
+  },
+  {
+    "id": 1,
+    "text": "前回出演のともりちゃんと田辺氏から質問が来ておりますよ。",
+    "start_time": 140.68,
+    "end_time": 144.56,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 2,
+    "text": "はいはい。",
+    "start_time": 144.57,
+    "end_time": 145.07,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "夏祭りで絶対食べるものは何ですか?",
+    "start_time": 145.68,
+    "end_time": 148.6,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "あ、夏。",
+    "start_time": 149.08,
+    "end_time": 150.1,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "質問が夏だ。",
+    "start_time": 150.1,
+    "end_time": 151.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ちなみにともりちゃんが焼きそば。",
+    "start_time": 152.56,
+    "end_time": 154.48,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "田辺氏がじゃがバター。",
+    "start_time": 154.48,
+    "end_time": 155.92,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "あ、",
+    "start_time": 155.81,
+    "end_time": 156.31,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "結構ご飯系?",
+    "start_time": 156.88,
+    "end_time": 158.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ね、がっつり食べる系だ。",
+    "start_time": 158.44,
+    "end_time": 159.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "すごい。",
+    "start_time": 159.79,
+    "end_time": 160.29,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "え、でも私も焼きそば好きなんだよな。",
+    "start_time": 160.72,
+    "end_time": 162.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "いや、いいっすよね、焼きそば。",
+    "start_time": 162.8,
+    "end_time": 164.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "じゃがバターもいいな。",
+    "start_time": 164.2,
+    "end_time": 166.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "じゃがバターってさ、その外で食べるには難易度高くない?",
+    "start_time": 166.48,
+    "end_time": 169.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あ、確かに。",
+    "start_time": 169.83,
+    "end_time": 170.33,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ちょっとでかいし。",
+    "start_time": 170.4,
+    "end_time": 171.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "ボロボロになる。",
+    "start_time": 171.56,
+    "end_time": 172.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "そうそうそうそうそう。",
+    "start_time": 172.27,
+    "end_time": 172.77,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "かぶりつきな感じがありますよね。",
+    "start_time": 173.64,
+    "end_time": 175.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "めっちゃうまいんだよな。",
+    "start_time": 175.87,
+    "end_time": 176.37,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "え、何だろうな。",
+    "start_time": 177.04,
+    "end_time": 178.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "甘い系でとやっぱ私かき氷か。",
+    "start_time": 178.12,
+    "end_time": 181.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "いいね。",
+    "start_time": 181.9,
+    "end_time": 182.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "何味を頼むの?",
+    "start_time": 182.4,
+    "end_time": 183.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "イチゴですね。",
+    "start_time": 183.64,
+    "end_time": 184.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "イチゴにもう練乳をかけられるだけかけて。",
+    "start_time": 184.64,
+    "end_time": 188.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "私も練乳大好きまんだから。",
+    "start_time": 188.68,
+    "end_time": 190.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "絶対練乳があってかき氷が完成すると思ってるんだよ、私。",
+    "start_time": 190.48,
+    "end_time": 193.16,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

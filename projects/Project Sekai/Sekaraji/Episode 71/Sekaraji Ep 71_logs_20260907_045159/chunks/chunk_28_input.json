@@ -1,0 +1,234 @@
+[
+  {
+    "id": 0,
+    "text": "はあ。",
+    "start_time": 1857.19,
+    "end_time": 1857.69,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "学生かあ。",
+    "start_time": 1858.36,
+    "end_time": 1859.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "夏休みとかめっちゃ楽しみだろうなあ。",
+    "start_time": 1859.04,
+    "end_time": 1861.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いいなあ、また夏休み。",
+    "start_time": 1862.12,
+    "end_time": 1864.34,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "やりたいよ。",
+    "start_time": 1864.34,
+    "end_time": 1865.8,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "でも、もうなんか2ヶ月ぐらい休みあったらやることなくなるんかな?",
+    "start_time": 1865.88,
+    "end_time": 1869.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "もうそうかもしれない。",
+    "start_time": 1869.52,
+    "end_time": 1870.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "なんで学生の時あんなに休み足りなかったんだろう?",
+    "start_time": 1870.48,
+    "end_time": 1873.02,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "宿題のせいか?",
+    "start_time": 1873.02,
+    "end_time": 1874.225,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "宿題、",
+    "start_time": 1874.225,
+    "end_time": 1874.95,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "あいつのせいか。",
+    "start_time": 1875.52,
+    "end_time": 1876.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "私を最終日に苦しめて。",
+    "start_time": 1877.2,
+    "end_time": 1878.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "最終日の派手だった。",
+    "start_time": 1879.04,
+    "end_time": 1879.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "最終日がですか。",
+    "start_time": 1880.12,
+    "end_time": 1880.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "本当に3日前ぐらいから、え、もしかして行けないんじゃないかなと思いながら。",
+    "start_time": 1881.12,
+    "end_time": 1884.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "あ、焦り始める。",
+    "start_time": 1886.0,
+    "end_time": 1886.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "絵日記とかなんか10日分ぐらいまとめて描いて",
+    "start_time": 1887.04,
+    "end_time": 1889.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "適当に貼れるなんか天気とかを描かなきゃいけないじゃん。",
+    "start_time": 1889.04,
+    "end_time": 1892.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "晴れ、晴れ、雨、曇り。",
+    "start_time": 1892.52,
+    "end_time": 1893.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "適当にやってたな。",
+    "start_time": 1895.32,
+    "end_time": 1896.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "やってた、やってた。",
+    "start_time": 1896.48,
+    "end_time": 1897.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "はい、今しかできない宿題。",
+    "start_time": 1897.68,
+    "end_time": 1899.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "皆さん頑張ってください。",
+    "start_time": 1899.24,
+    "end_time": 1900.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "楽しんで夏をお過ごしください。",
+    "start_time": 1900.56,
+    "end_time": 1902.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ということで、お別れのお時間です。",
+    "start_time": 1903.44,
+    "end_time": 1905.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ここまでのお相手は野口瑠璃子と",
+    "start_time": 1906.2,
+    "end_time": 1908.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "Machikoでした。",
+    "start_time": 1908.48,
+    "end_time": 1909.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "この番組はプロジェクトセカイカラフルステージfeat.",
+    "start_time": 1912.6,
+    "end_time": 1915.96,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "初音ミクの提供でお送りしました。",
+    "start_time": 1916.48,
+    "end_time": 1918.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

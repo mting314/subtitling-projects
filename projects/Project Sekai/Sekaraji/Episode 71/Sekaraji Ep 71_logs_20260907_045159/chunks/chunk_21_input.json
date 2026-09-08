@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "デザインとか絵描ける人。",
+    "start_time": 1354.82,
+    "end_time": 1356.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ね。",
+    "start_time": 1356.67,
+    "end_time": 1357.285,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "いろんなね、映画とかね、海外のものとか結構バーンて影響されるデザインのものとか色遣いとかあるからね。",
+    "start_time": 1357.285,
+    "end_time": 1366.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いろんな作品見て想像力を高めて。",
+    "start_time": 1367.12,
+    "end_time": 1370.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うん。",
+    "start_time": 1368.27,
+    "end_time": 1368.77,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "高めて。",
+    "start_time": 1370.76,
+    "end_time": 1371.42,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "この夏休みでより一層上達するのでは。",
+    "start_time": 1371.42,
+    "end_time": 1374.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "うん。",
+    "start_time": 1374.47,
+    "end_time": 1374.97,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "いっぱい描こう、描こう。",
+    "start_time": 1375.08,
+    "end_time": 1376.26,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "頑張ってちょうだい。",
+    "start_time": 1376.26,
+    "end_time": 1377.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うんうんうん。",
+    "start_time": 1377.07,
+    "end_time": 1377.57,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "じゃあ、続きます。",
+    "start_time": 1378.32,
+    "end_time": 1379.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "はい。",
+    "start_time": 1379.04,
+    "end_time": 1379.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ラジオネームCちゃん大好きJKさんからいただきました。",
+    "start_time": 1379.88,
+    "end_time": 1382.72,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 14,
+    "text": "ありがとうございます。",
+    "start_time": 1382.96,
+    "end_time": 1384.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ありがとうございます。",
+    "start_time": 1384.12,
+    "end_time": 1384.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "野口さん、Machikoさん、コンワンダホイ。",
+    "start_time": 1384.96,
+    "end_time": 1387.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 17,
+    "text": "コンワンダホイ。",
+    "start_time": 1387.28,
+    "end_time": 1387.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "コンワンダホイ。",
+    "start_time": 1387.89,
+    "end_time": 1388.39,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "はい、初めてのお頼り失礼いたします。",
+    "start_time": 1388.56,
+    "end_time": 1390.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 20,
+    "text": "はいはい。",
+    "start_time": 1390.43,
+    "end_time": 1390.93,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "私のおうち時間の過ごし方は、ずばり作曲だったり歌ったりしています。",
+    "start_time": 1390.68,
+    "end_time": 1395.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "うええ。",
+    "start_time": 1395.69,
+    "end_time": 1396.19,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "学校で配布されたパソコンを使って曲を作るサイトで曲を作っているのですが、",
+    "start_time": 1396.4,
+    "end_time": 1402.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 24,
+    "text": "ほえ。",
+    "start_time": 1398.83,
+    "end_time": 1399.33,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "やっぱりすごく難しい。",
+    "start_time": 1402.28,
+    "end_time": 1404.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "ほえ。",
+    "start_time": 1404.11,
+    "end_time": 1404.61,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "歌の方も小さい頃から好きでずっと歌っているのですが、",
+    "start_time": 1404.72,
+    "end_time": 1408.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "腹式呼吸を意識できていないところもあり、自分でも下手に感じている今日この頃。",
+    "start_time": 1408.0,
+    "end_time": 1413.7,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "もっともっともっと何年も練習していちゃんやねねちゃんのような歌の上手い人になってみせます。",
+    "start_time": 1413.7,
+    "end_time": 1419.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  }
+]

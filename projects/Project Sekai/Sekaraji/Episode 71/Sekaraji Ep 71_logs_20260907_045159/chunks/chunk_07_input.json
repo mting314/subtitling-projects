@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "いっぱい練習したんだよね。",
+    "start_time": 386.68,
+    "end_time": 387.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "絶対にそう。",
+    "start_time": 388.32,
+    "end_time": 389.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ストーリーで描かれてないところでもきっと練習してますからね、",
+    "start_time": 390.28,
+    "end_time": 393.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "彼女たちは。",
+    "start_time": 393.68,
+    "end_time": 394.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "いや、仕方ないですよ。",
+    "start_time": 394.88,
+    "end_time": 395.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "宇宙の方になんか留学に行かれたと。",
+    "start_time": 395.4,
+    "end_time": 397.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そうそうそう。",
+    "start_time": 397.63,
+    "end_time": 398.325,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "不思議なね、ストーリーもたくさんありました。",
+    "start_time": 398.325,
+    "end_time": 400.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "可愛く見さしていただきましたよ。",
+    "start_time": 401.08,
+    "end_time": 403.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "いや、でもなんかこのねこの5年5年を迎えるのかな、",
+    "start_time": 403.72,
+    "end_time": 408.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "プロセカは。",
+    "start_time": 408.24,
+    "end_time": 408.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "次6ですかね。",
+    "start_time": 409.08,
+    "end_time": 410.14,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "6周年です。",
+    "start_time": 410.14,
+    "end_time": 410.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あっという間。",
+    "start_time": 410.96,
+    "end_time": 411.46,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ここに来て初めてなんだと思って。",
+    "start_time": 411.52,
+    "end_time": 413.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そうですよね。",
+    "start_time": 413.64,
+    "end_time": 414.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そうそうそうそう。",
+    "start_time": 414.36,
+    "end_time": 415.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "いや、確かにようやく2人で。",
+    "start_time": 415.56,
+    "end_time": 417.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "2人の尊いなんか関係形成がさ、1つのまた形となってね。",
+    "start_time": 417.64,
+    "end_time": 421.52,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ですね。",
+    "start_time": 421.57,
+    "end_time": 422.07,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ファンとして見られたことがとても我々は嬉しかったですよ。",
+    "start_time": 422.12,
+    "end_time": 426.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "幸せでございます。",
+    "start_time": 426.28,
+    "end_time": 427.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "ありがとうございます。",
+    "start_time": 427.0,
+    "end_time": 428.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "はい。",
+    "start_time": 428.43,
+    "end_time": 429.065,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "では続いて読みます。",
+    "start_time": 429.065,
+    "end_time": 430.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 25,
+    "text": "お願いします。",
+    "start_time": 430.76,
+    "end_time": 431.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ラジオネームかつおさんでございます。",
+    "start_time": 431.64,
+    "end_time": 434.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 27,
+    "text": "ありがとうございます。",
+    "start_time": 434.04,
+    "end_time": 435.3,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 28,
+    "text": "野口さんまちこさんコンワンダホイ。",
+    "start_time": 435.3,
+    "end_time": 438.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "コンワンダホイ。",
+    "start_time": 438.13,
+    "end_time": 438.63,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "いや、本当羨ましい。",
+    "start_time": 1112.44,
+    "end_time": 1113.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "青春だ。",
+    "start_time": 1113.92,
+    "end_time": 1114.84,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "いや、いいね。",
+    "start_time": 1115.04,
+    "end_time": 1115.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "しかもこんな掛け持ちで?",
+    "start_time": 1115.68,
+    "end_time": 1117.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "確かに、超忙しい。",
+    "start_time": 1117.48,
+    "end_time": 1118.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そりゃ忙しいよ、夏休みどころじゃないね。",
+    "start_time": 1119.12,
+    "end_time": 1121.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "浪人の夏休みでその、うわ、",
+    "start_time": 1122.04,
+    "end_time": 1124.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "かっこいい。",
+    "start_time": 1124.72,
+    "end_time": 1125.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "いいなあ、いっぱい写真撮りなね。",
+    "start_time": 1125.84,
+    "end_time": 1127.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ムービーも撮って。",
+    "start_time": 1128.24,
+    "end_time": 1129.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "絶対ムービーに残して。",
+    "start_time": 1129.28,
+    "end_time": 1130.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "絶対にね。",
+    "start_time": 1131.56,
+    "end_time": 1132.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "なんかもうさあ、なんかうちの学生の時はやっぱガラケーだったし、",
+    "start_time": 1132.6,
+    "end_time": 1137.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "はいはいはい。",
+    "start_time": 1137.09,
+    "end_time": 1137.59,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "SDカードとかさあ、",
+    "start_time": 1138.04,
+    "end_time": 1139.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "あともう自由演技の形も今のスマホとは全然違うわけ。",
+    "start_time": 1139.92,
+    "end_time": 1143.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "だからさあ、もう本当に昔の写真がないの。",
+    "start_time": 1143.88,
+    "end_time": 1147.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ないですよね。",
+    "start_time": 1147.36,
+    "end_time": 1148.24,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "もっとなんか現像すればよかったとか、あの時はさ、携帯持っとるけんさ、",
+    "start_time": 1148.6,
+    "end_time": 1152.46,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "何回もこれ見返しばいいよとか思っとったけどさ、時代が変わったらまずガラケーじゃなくなるし。",
+    "start_time": 1152.46,
+    "end_time": 1157.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "時代が変わると思わないそれ?",
+    "start_time": 1157.72,
+    "end_time": 1158.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ええ、でも思い出を振り返る端末がないって思ったら。",
+    "start_time": 1159.6,
+    "end_time": 1163.08,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "本当に分かります。",
+    "start_time": 1163.4,
+    "end_time": 1164.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "こまめにSDカードとかクラウドとかも、まあ、あるとは思うけどいつそれがね、",
+    "start_time": 1164.4,
+    "end_time": 1170.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "落ちちゃうか分かんないから。",
+    "start_time": 1170.12,
+    "end_time": 1171.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "凄い。",
+    "start_time": 1172.25,
+    "end_time": 1172.75,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "私としてもバックアップしといて欲しい。",
+    "start_time": 1172.84,
+    "end_time": 1175.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "いや、本当に10代の頃の写真とか本当にないですもん、",
+    "start_time": 1175.16,
+    "end_time": 1178.395,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "手元に。",
+    "start_time": 1178.395,
+    "end_time": 1178.97,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "本当だよ。",
+    "start_time": 1178.99,
+    "end_time": 1179.49,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

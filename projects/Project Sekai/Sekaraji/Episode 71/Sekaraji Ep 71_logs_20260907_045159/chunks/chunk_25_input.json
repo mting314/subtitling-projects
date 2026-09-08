@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "の未来は明るいね。",
+    "start_time": 1618.44,
+    "end_time": 1620.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "こんな若者に支えてもらって。",
+    "start_time": 1620.36,
+    "end_time": 1622.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "本当に?",
+    "start_time": 1622.19,
+    "end_time": 1622.69,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ありがとう。",
+    "start_time": 1623.44,
+    "end_time": 1624.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "では最後にもう1通読ませていただきます。",
+    "start_time": 1624.88,
+    "end_time": 1627.42,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 5,
+    "text": "ラジオネームすいはさんです。",
+    "start_time": 1627.42,
+    "end_time": 1629.28,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 6,
+    "text": "ありがとう。",
+    "start_time": 1629.4,
+    "end_time": 1630.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "野口さん、Machikoさん、コンワンダホイ。",
+    "start_time": 1630.12,
+    "end_time": 1631.48,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "こんにちは。",
+    "start_time": 1631.6,
+    "end_time": 1632.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "私の家での過ごし方は、プロセカをプレイすることです。",
+    "start_time": 1632.44,
+    "end_time": 1635.24,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "ありがとう。",
+    "start_time": 1635.23,
+    "end_time": 1635.73,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ありがとう。",
+    "start_time": 1635.75,
+    "end_time": 1636.265,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "音ゲー大好きなのですが、最近はストーリーを読み進めています。",
+    "start_time": 1636.265,
+    "end_time": 1639.94,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 13,
+    "text": "え、レオニアワンダ1のストーリーも読ませていただいたのですが、",
+    "start_time": 1639.94,
+    "end_time": 1643.44,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 14,
+    "text": "どのストーリーも心に残るものばかりでお気に入りのストーリーの欄に収まりきりません。",
+    "start_time": 1643.44,
+    "end_time": 1648.54,
+    "speaker": "Machico",
+    "role": "listener_mail"
+  },
+  {
+    "id": 15,
+    "text": "あら。",
+    "start_time": 1648.35,
+    "end_time": 1648.85,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "のことです。",
+    "start_time": 1648.54,
+    "end_time": 1650.7,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 17,
+    "text": "ありがとう。",
+    "start_time": 1650.7,
+    "end_time": 1651.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "音ゲーもやりつつストーリーを読んでくれていると。",
+    "start_time": 1651.56,
+    "end_time": 1654.44,
+    "speaker": "Machico",
+    "role": "host_meta"
+  },
+  {
+    "id": 19,
+    "text": "ああ、やっぱりなんかプロセカって本当にストーリーがさ、しっかりそのたくさん描いてくださるじゃない。",
+    "start_time": 1654.76,
+    "end_time": 1662.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そうなんですよね。",
+    "start_time": 1662.96,
+    "end_time": 1663.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "だから読みごたえあるよね。",
+    "start_time": 1663.84,
+    "end_time": 1665.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "どのユニットもまた全然違う物語が濃厚なものが繰り広げられているから。",
+    "start_time": 1665.56,
+    "end_time": 1672.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "いや、凄いよっすよね、ストーリー。",
+    "start_time": 1673.28,
+    "end_time": 1675.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "存分に楽しんでいただきたい。",
+    "start_time": 1676.6,
+    "end_time": 1678.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "しかも過去のも見れるしね。",
+    "start_time": 1678.76,
+    "end_time": 1680.36,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "そうなんですよ。",
+    "start_time": 1680.41,
+    "end_time": 1680.91,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ありがたいよね。",
+    "start_time": 1681.28,
+    "end_time": 1682.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "最近始めても昔からやってても。",
+    "start_time": 1682.2,
+    "end_time": 1684.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そうですよね。",
+    "start_time": 1684.6,
+    "end_time": 1685.36,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

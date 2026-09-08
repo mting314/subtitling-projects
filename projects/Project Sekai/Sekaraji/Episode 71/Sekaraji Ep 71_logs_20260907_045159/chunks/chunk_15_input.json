@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "分かります。",
+    "start_time": 969.14,
+    "end_time": 969.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "児童用の図書ってやっぱ面白いんですよね。",
+    "start_time": 969.64,
+    "end_time": 971.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あれがやっぱりね。",
+    "start_time": 971.92,
+    "end_time": 972.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "印象に残って。",
+    "start_time": 973.04,
+    "end_time": 973.795,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "懐かしい。",
+    "start_time": 973.795,
+    "end_time": 974.41,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "じゃんたんのあんまり挿絵のない本とか読むのはやっぱ難しくて。",
+    "start_time": 974.72,
+    "end_time": 979.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "あ、ま、ま、集中力もね、必要ですしね。",
+    "start_time": 979.56,
+    "end_time": 982.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "だから本当今よくこういう仕事してるなって思う。",
+    "start_time": 982.56,
+    "end_time": 985.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "確かに。",
+    "start_time": 985.33,
+    "end_time": 985.83,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そう、作品とかお仕事ってなるとちゃんと出来んだけど",
+    "start_time": 985.84,
+    "end_time": 988.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ま、演じると思って読むとまた違うんですかね。",
+    "start_time": 988.92,
+    "end_time": 992.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "趣味ってなるとやっぱり違う感じが感覚があるね。",
+    "start_time": 992.44,
+    "end_time": 997.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そっかそっか。",
+    "start_time": 994.07,
+    "end_time": 994.57,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あ、なるほど。",
+    "start_time": 997.76,
+    "end_time": 999.22,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "いや、頑張って読み進めてほしい。",
+    "start_time": 999.22,
+    "end_time": 1001.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "面白かった本とかはあるの?",
+    "start_time": 1001.2,
+    "end_time": 1002.68,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あ、結構小説も好きだったんですけど最近エッセイがちょっと気になり始めてて好きなエッセイの作家さんとかいるのでその方の続々読むみたいな感じです。",
+    "start_time": 1002.96,
+    "end_time": 1014.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "寧々ちゃんと思ってるんだよ。",
+    "start_time": 1014.48,
+    "end_time": 1016.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "いやいやいや。",
+    "start_time": 1016.41,
+    "end_time": 1017.135,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "色々ね、人それぞれ趣味があるから。",
+    "start_time": 1017.135,
+    "end_time": 1020.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "いいね。",
+    "start_time": 1020.5,
+    "end_time": 1021.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "夏目漱石読破ね。",
+    "start_time": 1021.0,
+    "end_time": 1022.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "頑張って読んでちょうだい。",
+    "start_time": 1023.0,
+    "end_time": 1023.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "頑張って頑張って。",
+    "start_time": 1023.92,
+    "end_time": 1024.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "じゃ、続きましてラジオネームおはしさんからいただきました。",
+    "start_time": 1026.32,
+    "end_time": 1029.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 25,
+    "text": "ありがとうございます。",
+    "start_time": 1029.6,
+    "end_time": 1030.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ありがとうございます。",
+    "start_time": 1030.87,
+    "end_time": 1031.37,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "野口さんまちこさんコンワンダホイ。",
+    "start_time": 1031.6,
+    "end_time": 1033.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "コンワンダホイ。",
+    "start_time": 1033.32,
+    "end_time": 1034.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "暑い日が続きますがいかがお過ごしでしょうか?",
+    "start_time": 1034.2,
+    "end_time": 1037.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "プロセカも歌もずっと全部大好きです。",
+    "start_time": 1419.56,
+    "end_time": 1421.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "はあええ。",
+    "start_time": 1422.37,
+    "end_time": 1422.87,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ええ、嬉しいし、何?",
+    "start_time": 1423.24,
+    "end_time": 1424.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "学校で配布されたパソコンを使って?",
+    "start_time": 1424.4,
+    "end_time": 1426.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "え、まずそこです。",
+    "start_time": 1426.8,
+    "end_time": 1427.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そう?",
+    "start_time": 1427.67,
+    "end_time": 1428.405,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "パソコン配布してくれるの?",
+    "start_time": 1428.405,
+    "end_time": 1429.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そうなの?",
+    "start_time": 1430.27,
+    "end_time": 1430.77,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "なんかタブレットとかは聞きますけど、パソコンって配布してくれるんですか?",
+    "start_time": 1431.88,
+    "end_time": 1435.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "初めて聞いた私。",
+    "start_time": 1435.8,
+    "end_time": 1437.02,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "凄い、もうついていけません。",
+    "start_time": 1437.02,
+    "end_time": 1439.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "JKだから高校生だよね。",
+    "start_time": 1439.04,
+    "end_time": 1440.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そうだと思います。",
+    "start_time": 1440.84,
+    "end_time": 1441.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "いや、本当にこのセカラジで学生達の、なんて言うだ?",
+    "start_time": 1441.84,
+    "end_time": 1444.8,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "流行りとか今学校はどうなっていますって言うのを聞くことができるから。",
+    "start_time": 1444.8,
+    "end_time": 1448.96,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "教科書はないんかな?",
+    "start_time": 1449.8,
+    "end_time": 1450.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あ、全部タブレットなんですかね?",
+    "start_time": 1451.24,
+    "end_time": 1452.52,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "どうなんだろう?",
+    "start_time": 1452.72,
+    "end_time": 1453.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "さすがにそうなってるよね。",
+    "start_time": 1453.52,
+    "end_time": 1454.56,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "いや、分かります。",
+    "start_time": 1455.64,
+    "end_time": 1456.5,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "私もなんかずっと、",
+    "start_time": 1456.5,
+    "end_time": 1458.28,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "なんかの教科の教科書なくして延々と他のクラスから借りてたの。",
+    "start_time": 1458.88,
+    "end_time": 1463.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そんなことが予防できるだったらタブレットが絶対にいいよ。",
+    "start_time": 1464.6,
+    "end_time": 1467.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "確かに。",
+    "start_time": 1467.56,
+    "end_time": 1468.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "もう絶対持って帰れみたいな時もありましたけど。",
+    "start_time": 1468.16,
+    "end_time": 1471.16,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "重い重いよ。",
+    "start_time": 1471.28,
+    "end_time": 1472.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "私はもうもう没収されても置いて帰ってた。",
+    "start_time": 1472.44,
+    "end_time": 1475.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "置き弁って言ってました。",
+    "start_time": 1476.04,
+    "end_time": 1476.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "置き弁って言ってました。",
+    "start_time": 1477.28,
+    "end_time": 1478.5,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そんなことないのかしら、タブレットだと。",
+    "start_time": 1478.5,
+    "end_time": 1480.52,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

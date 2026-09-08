@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "確かに日本の味ですもんね。",
+    "start_time": 603.16,
+    "end_time": 605.44,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "そうそうそうやっぱ食べやすいしね、朝っぱらからでも。",
+    "start_time": 605.68,
+    "end_time": 608.0,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あの、地元福岡だとうどんが結構有名で。",
+    "start_time": 608.52,
+    "end_time": 611.8,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "え、福岡のうどんはちょっと柔らかいんだよ。",
+    "start_time": 611.92,
+    "end_time": 614.32,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "柔らかいです。",
+    "start_time": 614.41,
+    "end_time": 614.91,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そっかそっか柔らかいな。",
+    "start_time": 615.04,
+    "end_time": 616.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "もう食べたくなるんですよ、無性に福岡のうどんが。",
+    "start_time": 616.88,
+    "end_time": 619.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "え、やっぱりこっちで食べる時も福岡のうどんを取り寄せたりすんだ?",
+    "start_time": 619.88,
+    "end_time": 623.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "しますします。",
+    "start_time": 623.44,
+    "end_time": 624.1,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "結構して。",
+    "start_time": 624.1,
+    "end_time": 625.35,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そうなんですよ。",
+    "start_time": 625.35,
+    "end_time": 626.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ごぼう天うどんみたいな。",
+    "start_time": 626.0,
+    "end_time": 627.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "出たごぼう天。",
+    "start_time": 627.36,
+    "end_time": 628.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あの、ドデカイ",
+    "start_time": 628.04,
+    "end_time": 629.04,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ドデカイ長いのが4本ぐらい入ってるやつ。",
+    "start_time": 629.12,
+    "end_time": 631.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "あれがやっぱ美味しい。",
+    "start_time": 632.84,
+    "end_time": 633.9,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "いつだって食べたい。",
+    "start_time": 633.9,
+    "end_time": 635.0,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "いや、いいな。",
+    "start_time": 635.08,
+    "end_time": 635.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "食べたい。",
+    "start_time": 636.6,
+    "end_time": 637.6,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "お腹空いてきましたね。",
+    "start_time": 637.68,
+    "end_time": 638.52,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ね。",
+    "start_time": 638.43,
+    "end_time": 639.125,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "こんな時間に今ちょっとね、我々の収録タイムお腹が空く時間ということで。",
+    "start_time": 639.125,
+    "end_time": 644.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そう。",
+    "start_time": 644.85,
+    "end_time": 645.35,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "いい食欲増進でございます。",
+    "start_time": 645.6,
+    "end_time": 647.08,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "いいでございますね。",
+    "start_time": 647.16,
+    "end_time": 648.865,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "はあ。",
+    "start_time": 648.865,
+    "end_time": 649.735,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "じゃ、ここでおたよりは以上ということで皆さんありがとうございました。",
+    "start_time": 649.735,
+    "end_time": 654.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 27,
+    "text": "ありがとうございます。",
+    "start_time": 654.76,
+    "end_time": 655.28,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "こんな感じでね、我々プロセカキャストに聞いてみたい質問やテーマもお待ちしておりますよ。",
+    "start_time": 655.48,
+    "end_time": 660.2,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 29,
+    "text": "はい。",
+    "start_time": 660.55,
+    "end_time": 661.05,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

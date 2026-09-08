@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "text": "言ってます。",
+    "start_time": 80.38,
+    "end_time": 80.88,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "スタッフさんもいやいいんですよファンミーってみたいな言っててもうすごいワクワクしてます。",
+    "start_time": 80.88,
+    "end_time": 85.96,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "いや、いいですよね。",
+    "start_time": 86.84,
+    "end_time": 87.48,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "初めてですもんね、ファンミーって。",
+    "start_time": 87.48,
+    "end_time": 89.72,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "楽しみですよ。",
+    "start_time": 89.72,
+    "end_time": 90.88,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "いや、嬉しい。",
+    "start_time": 91.0,
+    "end_time": 91.64,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "どんなことをやるのか皆さん。",
+    "start_time": 91.64,
+    "end_time": 93.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "まあ、あの、過去のねユニットのファンミー参加された方とかはもしかしたら分かってるかもしれないですけれどもまたそれぞれのユニットの色が出ると思いますので。",
+    "start_time": 93.72,
+    "end_time": 103.56,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そうよきっと。",
+    "start_time": 103.96,
+    "end_time": 104.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "楽しみだな。",
+    "start_time": 105.28,
+    "end_time": 105.96,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "楽しみに待っていてください。",
+    "start_time": 106.72,
+    "end_time": 108.36,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ということでセカラじ今回もよろしくお願いします。",
+    "start_time": 109.48,
+    "end_time": 112.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "この番組はプロジェクトセカイカラフルステージフィーチャリング初音ミクの提供でお送りします。",
+    "start_time": 123.76,
+    "end_time": 129.64,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "改めまして野口るりこです。",
+    "start_time": 133.6,
+    "end_time": 135.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "はい、まちこです。",
+    "start_time": 135.36,
+    "end_time": 136.52,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]

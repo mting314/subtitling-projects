@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "私は今絶賛夏休みなのでほぼ毎日おうち時間です。",
+    "start_time": 1037.64,
+    "end_time": 1042.14,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "しかしおうち時間と言っても迫り来る文化祭の準備で大忙しです。",
+    "start_time": 1042.14,
+    "end_time": 1046.72,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 2,
+    "text": "おお。",
+    "start_time": 1046.73,
+    "end_time": 1047.23,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "文化祭では劇のキャストを務めるのですが主人公の生き別れの姉という物語における重要な役をやらせてもらうんでワンダちょのみんなの役作りを参考にしながら練習しています。",
+    "start_time": 1047.28,
+    "end_time": 1058.7,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "また人生初のバンドのドラマをします。",
+    "start_time": 1058.7,
+    "end_time": 1061.4,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "なえ?",
+    "start_time": 1061.33,
+    "end_time": 1061.83,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "私の学校では高3は受験に集中するため高2である今年が文化祭に参加できるラストイヤーです。",
+    "start_time": 1062.16,
+    "end_time": 1068.92,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "ええ。",
+    "start_time": 1068.81,
+    "end_time": 1069.31,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "高校生としてバンドをする最初で最後のチャンスなのでバンドのメンバーを説得してストーリーを演奏することになりました。",
+    "start_time": 1069.48,
+    "end_time": 1077.32,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 9,
+    "text": "なんだって?",
+    "start_time": 1077.48,
+    "end_time": 1078.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "演技が難しいのですが頑張って練習しています。",
+    "start_time": 1078.24,
+    "end_time": 1080.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 11,
+    "text": "頑張れ!",
+    "start_time": 1080.85,
+    "end_time": 1081.35,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "かっこいい!",
+    "start_time": 1084.29,
+    "end_time": 1084.79,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "本当にまんまレオニだね。",
+    "start_time": 1085.64,
+    "end_time": 1087.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そして演劇もする?",
+    "start_time": 1087.72,
+    "end_time": 1089.12,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "凄わワンダちょ!",
+    "start_time": 1089.36,
+    "end_time": 1090.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "とんでもない!",
+    "start_time": 1090.16,
+    "end_time": 1090.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "すっげえ!",
+    "start_time": 1090.96,
+    "end_time": 1091.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "とんでもなくピッタリなお頼りだ。",
+    "start_time": 1091.88,
+    "end_time": 1093.2,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ええ、",
+    "start_time": 1094.53,
+    "end_time": 1095.275,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "難しくない?",
+    "start_time": 1095.275,
+    "end_time": 1096.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "私書っきできないからな。",
+    "start_time": 1096.12,
+    "end_time": 1098.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "すご、しかもドラム?",
+    "start_time": 1098.24,
+    "end_time": 1099.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "ドラム?",
+    "start_time": 1099.61,
+    "end_time": 1100.275,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "かっこいい!",
+    "start_time": 1100.275,
+    "end_time": 1101.12,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ほなみと一緒だ。",
+    "start_time": 1101.92,
+    "end_time": 1103.38,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ほなちゃんと一緒だ。",
+    "start_time": 1103.38,
+    "end_time": 1104.75,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "凄い!",
+    "start_time": 1104.75,
+    "end_time": 1105.4,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "もう超夏の思い出ですね。",
+    "start_time": 1105.4,
+    "end_time": 1107.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "ういい思い出になるよ、これをやりとげた時は。",
+    "start_time": 1109.24,
+    "end_time": 1112.24,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  }
+]

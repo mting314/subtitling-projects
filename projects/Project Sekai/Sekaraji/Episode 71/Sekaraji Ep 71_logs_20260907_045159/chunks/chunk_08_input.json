@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "コンワンダホイ。",
+    "start_time": 438.57,
+    "end_time": 439.18,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "新しい。",
+    "start_time": 439.18,
+    "end_time": 440.015,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "え、最近オリジナルの冷やし中華づくりにはまっています。",
+    "start_time": 440.015,
+    "end_time": 444.97,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 3,
+    "text": "ええやん。",
+    "start_time": 444.81,
+    "end_time": 445.31,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "すごい。",
+    "start_time": 444.97,
+    "end_time": 445.68,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "麺はスーパーで生麺を買ってタレは自作。",
+    "start_time": 445.68,
+    "end_time": 449.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "しています。",
+    "start_time": 449.04,
+    "end_time": 449.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "すごい。",
+    "start_time": 449.55,
+    "end_time": 450.05,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "え、といってもポン酢に調味料を足すという感じですがめちゃくちゃ美味しいです。",
+    "start_time": 450.24,
+    "end_time": 454.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 9,
+    "text": "お2人は冷やし中華食べますか?",
+    "start_time": 454.84,
+    "end_time": 456.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "食べます。",
+    "start_time": 456.77,
+    "end_time": 457.27,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "好きな麺類はありますか?",
+    "start_time": 457.36,
+    "end_time": 458.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 12,
+    "text": "あります。",
+    "start_time": 458.73,
+    "end_time": 459.23,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "とのことです。",
+    "start_time": 460.6,
+    "end_time": 461.54,
+    "speaker": "Ruriko Noguchi",
+    "role": "host_meta"
+  },
+  {
+    "id": 14,
+    "text": "ありがとうございます。",
+    "start_time": 461.54,
+    "end_time": 462.6,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "もうちゅるちゅる麺でしょうよ。",
+    "start_time": 462.88,
+    "end_time": 464.44,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "やっぱ冷たい麺食べたくなりますよね。",
+    "start_time": 464.56,
+    "end_time": 467.1,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "すっと食べれますもんね。",
+    "start_time": 467.1,
+    "end_time": 468.76,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "そうなのよね。",
+    "start_time": 468.88,
+    "end_time": 469.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うわ、冷やし中華か。",
+    "start_time": 470.04,
+    "end_time": 471.84,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "もう始めた今年。",
+    "start_time": 471.92,
+    "end_time": 472.92,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "いいえ。",
+    "start_time": 473.09,
+    "end_time": 473.59,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "え。",
+    "start_time": 473.49,
+    "end_time": 473.99,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "な、実は何年も始めてないかもしれない。",
+    "start_time": 474.64,
+    "end_time": 477.48,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "嘘。",
+    "start_time": 477.55,
+    "end_time": 478.245,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "初めてに夏を終えることってできるの?",
+    "start_time": 478.245,
+    "end_time": 480.76,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ええ。",
+    "start_time": 480.77,
+    "end_time": 481.27,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "お好きなんですね。",
+    "start_time": 482.05,
+    "end_time": 482.55,
+    "speaker": "Machico",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "お好きなんですね。",
+    "start_time": 483.16,
+    "end_time": 484.04,
+    "speaker": "Ruriko Noguchi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "絶対まい寿司始めます。",
+    "start_time": 484.2,
+    "end_time": 485.8,
+    "speaker": "Machico",
+    "role": "host"
+  }
+]
