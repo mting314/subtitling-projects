@@ -5594,7 +5594,7 @@
       "final_text": "But you know how at those popular stalls,"
     },
     {
-      "start_time": 198.837,
+      "start_time": 198.83700000000002,
       "end_time": 201.84,
       "speaker": "Machico",
       "role": "host",
@@ -6248,35 +6248,6 @@
       "final_text": "things like frankfurters or beef tongue skewers. when I came to Tokyo,"
     },
     {
-      "start_time": 214.36,
-      "end_time": 215.16,
-      "speaker": "Ruriko Noguchi",
-      "role": "host",
-      "corner": null,
-      "words": [
-        {
-          "word": "牛タン",
-          "start_time": 214.36,
-          "end_time": 214.92,
-          "speaker": "0",
-          "confidence": null
-        },
-        {
-          "word": "串?",
-          "start_time": 214.92,
-          "end_time": 215.16,
-          "speaker": "0",
-          "confidence": null
-        }
-      ],
-      "replacement_spans": [],
-      "id": "cue-00000089",
-      "source_text": "牛タン串?",
-      "normalized_source_text": "牛タン串?",
-      "translated_text": "Beef tongue skewers?",
-      "final_text": "Beef tongue skewers?"
-    },
-    {
       "start_time": 217.03,
       "end_time": 223.59,
       "speaker": "Machico",
@@ -6423,6 +6394,35 @@
       "normalized_source_text": null,
       "translated_text": "I thought it was so rare to see all those meat skewers lined up like that.",
       "final_text": "I thought it was so rare to see all those meat skewers lined up like that."
+    },
+    {
+      "start_time": 214.36,
+      "end_time": 215.16,
+      "speaker": "Ruriko Noguchi",
+      "role": "host",
+      "corner": null,
+      "words": [
+        {
+          "word": "牛タン",
+          "start_time": 214.36,
+          "end_time": 214.92,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "串?",
+          "start_time": 214.92,
+          "end_time": 215.16,
+          "speaker": "0",
+          "confidence": null
+        }
+      ],
+      "replacement_spans": [],
+      "id": "cue-00000089",
+      "source_text": "牛タン串?",
+      "normalized_source_text": "牛タン串?",
+      "translated_text": "Beef tongue skewers?",
+      "final_text": "Beef tongue skewers?"
     },
     {
       "start_time": 223.59,
@@ -16261,7 +16261,7 @@
       "final_text": "...chicken stock,\\Nand then I like to top it with things like meat miso,"
     },
     {
-      "start_time": 535.45,
+      "start_time": 535.4499999999999,
       "end_time": 539.04,
       "speaker": "Machico",
       "role": "host",
@@ -28301,7 +28301,7 @@
       "final_text": "\"and I've been given the important role of the protagonist's long-lost sister,\""
     },
     {
-      "start_time": 1054.553,
+      "start_time": 1054.5529999999999,
       "end_time": 1058.7,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
