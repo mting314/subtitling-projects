@@ -81,7 +81,8 @@ uv run python scripts/hardsub_trim.py \
   "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
   0:09:53.00 0:14:20.96 \
   0:27:41.00 0:29:22.96 \
-  0:48:30.13 1:11:23.04
+  0:48:30.13 1:11:23.04 \
+  --encoder libx264
 ```
 
 Requires ffmpeg built with **libass** (`ffmpeg -filters | grep -w ass`). On macOS the
@@ -100,9 +101,15 @@ uv run --script scripts/youtube_upload.py \
   --notes "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/notes.md"
 ```
 
-> **Stale render:** `..._final.mp4` (2026-05-29) was burned **before** the style fixes, so its
-> subs are unstyled black Arial. Re-render with the command above and publish
-> `..._hardsubbed.mp4`; delete `_final.mp4` once the new render is verified.
+> **Stale render:** `..._final.mp4` (2026-05-29) predates both the Fontsize 72→100 bump and the
+> QC text pass. Its subs *are* styled (Lato ExtraBold + teal outline), just at the old small
+> size — the earlier "unstyled black Arial" note here was wrong. Superseded by
+> `..._hardsubbed.mp4`; safe to delete.
+
+> **Encoder:** render with `--encoder libx264` (~3 Mbps, ~690MB). `hardsub_trim.py`
+> auto-detects `h264_videotoolbox` on macOS, whose branch used a fixed `-b:v 12M` and
+> produced a 2.6GB file of this same episode for no visible gain. Fixed 2026-09-07 to use
+> `-q:v 60`, but libx264 is what the rest of the published catalog used.
 
 ## Profile
 - `proseka/mmj`
@@ -124,6 +131,11 @@ uv run --script scripts/youtube_upload.py \
 ## QC follow-ups (resolved)
 - **`Hina-dan`**: Verified against Japanese transcript (`ひなだん` / 雛壇) — refers to studio panel/gallery seats, corrected to "studio panel".
 - **`"Metamo Re:born"`**: Verified official Project Sekai English song title for メタモリボン (formerly draft-translated as "Metamolibbon").
+
+## Published
+
+- **Video ID**: `uj9l059X_6E` — <https://youtu.be/uj9l059X_6E> (uploaded 2026-09-08, **private**)
+- Rendered from `_hardsubbed.mp4` (687 MB, libx264 ~3 Mbps, 29:03) off the QC'd `_translated.ass`.
 
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
