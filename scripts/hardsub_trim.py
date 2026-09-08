@@ -6,6 +6,7 @@ Applies:
 - Popup image / VA card overlays from `popups.json` if present.
 - 0.4s Video & Audio fade-in / fade-out transitions at segment boundaries for smooth cuts.
 - Hardware-accelerated encode, auto-detected: NVIDIA `h264_nvenc` → Apple `h264_videotoolbox` → `libx264` (CPU).
+  Override with `--encoder {nvenc,videotoolbox,libx264}`; `libx264` matches the published back catalog.
 
 Usage:
     uv run python scripts/hardsub_trim.py <input.mkv> <subtitle.ass> <output.mp4> <start1> <end1> [<start2> <end2> ...]
@@ -28,22 +29,36 @@ from pathlib import Path
 
 _ENCODER_CACHE = None
 
+# All three are quality-targeted, not fixed-bitrate, so the bitrate tracks how much
+# the content actually needs. AfterTalk footage is mostly static studio talk and lands
+# around 2-4 Mbps. A fixed `-b:v` here pins that ceiling regardless of content: the
+# videotoolbox branch used `-b:v 12M` until 2026-09 and produced a 2.6GB render of an
+# episode that libx264 encodes to ~500MB with no visible difference.
+ENCODER_PRESETS = {
+    "nvenc": ["-c:v", "h264_nvenc", "-preset", "p4", "-cq", "23"],
+    "videotoolbox": ["-c:v", "h264_videotoolbox", "-q:v", "60"],
+    "libx264": ["-c:v", "libx264", "-preset", "medium", "-crf", "20"],
+}
 
-def video_encoder_args() -> list[str]:
-    """Pick the best available H.264 encoder: NVIDIA GPU → Apple VideoToolbox → libx264."""
+
+def video_encoder_args(choice: str = "auto") -> list[str]:
+    """Pick the H.264 encoder: explicit `choice`, else NVIDIA → VideoToolbox → libx264."""
     global _ENCODER_CACHE
     if _ENCODER_CACHE is None:
-        try:
-            avail = subprocess.run(["ffmpeg", "-hide_banner", "-encoders"],
-                                   capture_output=True, text=True).stdout
-        except Exception:
-            avail = ""
-        if "h264_nvenc" in avail:
-            _ENCODER_CACHE = ["-c:v", "h264_nvenc", "-preset", "p4", "-cq", "23"]
-        elif "h264_videotoolbox" in avail:  # Mac hardware encoder
-            _ENCODER_CACHE = ["-c:v", "h264_videotoolbox", "-b:v", "12M"]
+        if choice != "auto":
+            _ENCODER_CACHE = ENCODER_PRESETS[choice]
         else:
-            _ENCODER_CACHE = ["-c:v", "libx264", "-preset", "medium", "-crf", "20"]
+            try:
+                avail = subprocess.run(["ffmpeg", "-hide_banner", "-encoders"],
+                                       capture_output=True, text=True).stdout
+            except Exception:
+                avail = ""
+            if "h264_nvenc" in avail:
+                _ENCODER_CACHE = ENCODER_PRESETS["nvenc"]
+            elif "h264_videotoolbox" in avail:  # Mac hardware encoder
+                _ENCODER_CACHE = ENCODER_PRESETS["videotoolbox"]
+            else:
+                _ENCODER_CACHE = ENCODER_PRESETS["libx264"]
         print(f"video encoder: {_ENCODER_CACHE[1]}")
     return _ENCODER_CACHE
 
@@ -185,10 +200,18 @@ def main() -> int:
         default=0.4,
         help="Fade duration in seconds (default: 0.4s)",
     )
+    ap.add_argument(
+        "--encoder",
+        choices=["auto", *ENCODER_PRESETS],
+        default="auto",
+        help="Force an H.264 encoder instead of auto-detecting (default: auto)",
+    )
     args = ap.parse_args()
 
     if len(args.timestamps) % 2 != 0:
         sys.exit("ERROR: Timestamps must be provided in start end pairs.")
+
+    video_encoder_args(args.encoder)  # prime the cache with the requested encoder
 
     segments = [
         (args.timestamps[i], args.timestamps[i + 1])
