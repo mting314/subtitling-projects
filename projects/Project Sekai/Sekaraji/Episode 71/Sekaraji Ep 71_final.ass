@@ -18,7 +18,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:01.00,Machico,,0,0,0,corner,=== Corner: Opening Talk ===
 Dialogue: 0,0:00:00.00,0:00:01.00,Machico,host,0,0,0,,k:0
 Dialogue: 0,0:00:00.00,0:00:01.00,Ruriko Noguchi,host,0,0,0,,accelerated
-Dialogue: 0,0:00:05.24,0:00:05.82,Ruriko Noguchi,host,0,0,0,,[CORNER: Opening Talk] Good evening.
+Dialogue: 0,0:00:05.24,0:00:05.82,Ruriko Noguchi,host,0,0,0,,Good evening.
 Dialogue: 0,0:00:05.82,0:00:08.36,Ruriko Noguchi,host,0,0,0,,I'm Ruriko Noguchi, the voice of Ichika Hoshino from Leo/need.
 Dialogue: 0,0:00:08.72,0:00:10.20,Machico,host,0,0,0,,And kon-wonderhoi!
 Dialogue: 0,0:00:10.20,0:00:14.00,Machico,host,0,0,0,,I'm Machico,\Nthe voice of Nene- Nene Kusanagi from Wonderlands x Showtime.
@@ -62,10 +62,10 @@ Dialogue: 0,0:01:45.28,0:01:45.96,Ruriko Noguchi,host,0,0,0,,I can't wait.
 Dialogue: 0,0:01:46.72,0:01:48.36,Machico,host,0,0,0,,Please look forward to it.
 Dialogue: 0,0:01:49.48,0:01:52.92,Machico,host,0,0,0,,With that said, let's get started with Sekaraji!
 Dialogue: 0,0:02:03.76,0:02:09.64,Machico,host,0,0,0,,This program is brought to you by Project SEKAI COLORFUL STAGE! feat.\NHATSUNE MIKU.
-Dialogue: 0,0:02:13.60,0:02:15.24,Ruriko Noguchi,host,0,0,0,,[CORNER: Contact Notebook] Once again, I'm Ruriko Noguchi.
+Dialogue: 0,0:02:13.60,0:02:15.24,Ruriko Noguchi,host,0,0,0,,Once again, I'm Ruriko Noguchi.
 Dialogue: 0,0:02:15.36,0:02:16.52,Machico,host,0,0,0,,And I'm Machico.
 Comment: 0,0:02:16.52,0:02:19.80,Ruriko Noguchi,,0,0,0,corner,=== Corner: Contact Notebook ===
-Dialogue: 0,0:02:16.52,0:02:19.80,Ruriko Noguchi,host_meta,0,0,0,,[CORNER: Contact Notebook] We have another question in the contact notebook.
+Dialogue: 0,0:02:16.52,0:02:19.80,Ruriko Noguchi,host_meta,0,0,0,,We have another question in the contact notebook.
 Dialogue: 0,0:02:20.68,0:02:24.56,Machico,host_meta,0,0,0,,We have a question from Tomori-chan and Tanabe-shi,\Nwho were on the last episode.
 Dialogue: 0,0:02:24.57,0:02:25.07,Ruriko Noguchi,host,0,0,0,,Okay, let's see.
 Dialogue: 0,0:02:25.68,0:02:28.60,Machico,listener_mail,0,0,0,,"What is the one thing you absolutely have to eat at a summer festival?"
@@ -156,10 +156,10 @@ Dialogue: 0,0:05:01.96,0:05:02.68,Machico,host,0,0,0,,In a nice cool room.
 Dialogue: 0,0:05:02.92,0:05:04.96,Ruriko Noguchi,host,0,0,0,,We'll watch from an air-conditioned room.
 Dialogue: 0,0:05:04.95,0:05:05.45,Machico,host,0,0,0,,Yes.
 Dialogue: 0,0:05:06.20,0:05:06.88,Ruriko Noguchi,host,0,0,0,,Right.
-Dialogue: 0,0:05:06.88,0:05:11.72,Ruriko Noguchi,host,0,0,0,,[CORNER: Ending] Well,\Nwe'll leave a comment in the contact notebook later too.
+Dialogue: 0,0:05:06.88,0:05:11.72,Ruriko Noguchi,host,0,0,0,,Well,\Nwe'll leave a comment in the contact notebook later too.
 Dialogue: 0,0:05:11.63,0:05:12.13,Machico,host,0,0,0,,Okay.
 Comment: 0,0:05:12.64,0:05:13.84,Ruriko Noguchi,,0,0,0,corner,=== Corner: Listener Mail ===
-Dialogue: 0,0:05:12.64,0:05:13.84,Ruriko Noguchi,host,0,0,0,,[CORNER: Listener Mail] All right, let's look at the mail.
+Dialogue: 0,0:05:12.64,0:05:13.84,Ruriko Noguchi,host,0,0,0,,All right, let's look at the mail.
 Dialogue: 0,0:05:13.88,0:05:15.12,Machico,host,0,0,0,,Yes, please.
 Dialogue: 0,0:05:15.24,0:05:18.80,Ruriko Noguchi,host_meta,0,0,0,,Okay, this one is from Radio name: Akarin.
 Dialogue: 0,0:05:18.80,0:05:19.64,Ruriko Noguchi,host,0,0,0,,Thank you very much.
@@ -222,7 +222,7 @@ Dialogue: 0,0:07:14.04,0:07:15.30,Ruriko Noguchi,host_meta,0,0,0,,Thank you for 
 Dialogue: 0,0:07:15.30,0:07:18.04,Ruriko Noguchi,listener_mail,0,0,0,,"Noguchi-san, Machico-san, kon-Wonderhoi!"
 Dialogue: 0,0:07:18.13,0:07:18.63,Machico,host,0,0,0,,Kon-Wonderhoi!
 Comment: 0,0:07:18.57,0:07:19.18,Ruriko Noguchi,,0,0,0,,[autosub] Chunk boundary - review translation around this line
-Dialogue: 0,0:07:18.57,0:07:19.18,Ruriko Noguchi,host,0,0,0,,[CORNER: Listener Mail] Kon-wonderhoi!
+Dialogue: 0,0:07:18.57,0:07:19.18,Ruriko Noguchi,host,0,0,0,,Kon-wonderhoi!
 Dialogue: 0,0:07:19.18,0:07:20.01,Ruriko Noguchi,host,0,0,0,,That's a new one.
 Dialogue: 0,0:07:20.01,0:07:24.97,Ruriko Noguchi,listener_mail,0,0,0,,"Lately, I've been into making my own original hiyashi chuka."
 Dialogue: 0,0:07:24.81,0:07:25.31,Machico,host,0,0,0,,Nice.
@@ -348,14 +348,14 @@ Dialogue: 0,0:10:55.48,0:10:56.25,Ruriko Noguchi,host_meta,0,0,0,,Just like that
 Dialogue: 0,0:10:56.25,0:11:00.20,Ruriko Noguchi,host_meta,0,0,0,,we're waiting for any questions or themes you'd like to ask the ProSeka cast.
 Dialogue: 0,0:11:00.55,0:11:01.05,Machico,host,0,0,0,,Yes, we are.
 Comment: 0,0:11:01.04,0:11:04.66,Ruriko Noguchi,,0,0,0,corner,=== Corner: Song ===
-Dialogue: 0,0:11:01.04,0:11:04.66,Ruriko Noguchi,host_meta,0,0,0,,[CORNER: Song] And now, it's time to play a song.
+Dialogue: 0,0:11:01.04,0:11:04.66,Ruriko Noguchi,host_meta,0,0,0,,And now, it's time to play a song.
 Dialogue: 0,0:11:04.66,0:11:09.28,Ruriko Noguchi,host_meta,0,0,0,,This track was written for us by ukalo6.
 Dialogue: 0,0:11:09.28,0:11:14.36,Ruriko Noguchi,host,0,0,0,,It's the featured song for the Leo/need event "Echo my melody".
 Dialogue: 0,0:11:14.36,0:11:16.12,Ruriko Noguchi,host,0,0,0,,Please have a listen.
 Dialogue: 0,0:11:16.12,0:11:17.88,Ruriko Noguchi,host,0,0,0,,"Tenbin," by Saki Tenma.
 Dialogue: 0,0:13:29.20,0:13:29.76,Ruriko Noguchi,host,0,0,0,,Sekaraji.
 Comment: 0,0:13:33.76,0:13:36.76,Ruriko Noguchi,,0,0,0,corner,=== Corner: Theme Mail ===
-Dialogue: 0,0:13:33.76,0:13:36.76,Ruriko Noguchi,host,0,0,0,,[CORNER: Theme Mail] For this episode,\Nwe asked for mail on this theme:
+Dialogue: 0,0:13:33.76,0:13:36.76,Ruriko Noguchi,host,0,0,0,,For this episode,\Nwe asked for mail on this theme:
 Dialogue: 0,0:13:37.44,0:13:39.60,Ruriko Noguchi,host,0,0,0,,"How I spend my time at home."
 Dialogue: 0,0:13:42.40,0:13:43.00,Machico,host,0,0,0,,Yay!
 Dialogue: 0,0:13:43.60,0:13:46.56,Ruriko Noguchi,host,0,0,0,,Summer is still going strong, and it's very hot out.
@@ -442,7 +442,7 @@ Dialogue: 0,0:17:00.50,0:17:01.00,Machico,host,0,0,0,,That's nice.
 Dialogue: 0,0:17:01.00,0:17:02.60,Machico,host,0,0,0,,Reading all of Natsume Soseki...
 Dialogue: 0,0:17:03.00,0:17:03.80,Ruriko Noguchi,host,0,0,0,,Good luck with that!
 Dialogue: 0,0:17:03.92,0:17:04.96,Machico,host,0,0,0,,You can do it!
-Dialogue: 0,0:17:06.32,0:17:09.60,Ruriko Noguchi,host_meta,0,0,0,,[CORNER: Listener Mail] Moving on,\Nthis next one is from Radio name: Ohashi.
+Dialogue: 0,0:17:06.32,0:17:09.60,Ruriko Noguchi,host_meta,0,0,0,,Moving on,\Nthis next one is from Radio name: Ohashi.
 Dialogue: 0,0:17:09.60,0:17:10.76,Ruriko Noguchi,host,0,0,0,,Thank you for writing in.
 Dialogue: 0,0:17:10.87,0:17:11.37,Machico,host,0,0,0,,Thank you!
 Dialogue: 0,0:17:11.60,0:17:13.20,Ruriko Noguchi,listener_mail,0,0,0,,"Noguchi-san, Machico-san, kon-wonderhoi!"
@@ -537,7 +537,7 @@ Dialogue: 0,0:20:11.16,0:20:13.44,Machico,host,0,0,0,,It might be tough, but han
 Dialogue: 0,0:20:13.67,0:20:14.17,Ruriko Noguchi,host,0,0,0,,You can definitely do it.
 Dialogue: 0,0:20:14.76,0:20:15.60,Machico,host,0,0,0,,I'm so jealous.
 Dialogue: 0,0:20:15.76,0:20:16.60,Ruriko Noguchi,host,0,0,0,,Me too.
-Dialogue: 0,0:20:17.16,0:20:18.88,Machico,host_meta,0,0,0,,[CORNER: Listener Mail] All right, let's move on to the next one.
+Dialogue: 0,0:20:17.16,0:20:18.88,Machico,host_meta,0,0,0,,All right, let's move on to the next one.
 Dialogue: 0,0:20:18.55,0:20:19.05,Ruriko Noguchi,host,0,0,0,,Okay.
 Dialogue: 0,0:20:18.88,0:20:21.76,Machico,host_meta,0,0,0,,This is from Radio name: Takku TK.
 Dialogue: 0,0:20:21.88,0:20:22.84,Ruriko Noguchi,host,0,0,0,,Oh, thank you.
@@ -798,7 +798,7 @@ Dialogue: 0,0:29:04.76,0:29:08.66,Machico,host_meta,0,0,0,,We presented these un
 Dialogue: 0,0:29:08.66,0:29:10.04,Machico,host_meta,0,0,0,,Thank you very much.
 Dialogue: 0,0:29:09.91,0:29:10.41,Ruriko Noguchi,host,0,0,0,,Yes.
 Comment: 0,0:29:39.80,0:29:41.46,Machico,,0,0,0,corner,=== Corner: Ending ===
-Dialogue: 0,0:29:39.80,0:29:41.46,Machico,host,0,0,0,,[CORNER: Ending] That's all for this episode of Sekaraji.
+Dialogue: 0,0:29:39.80,0:29:41.46,Machico,host,0,0,0,,That's all for this episode of Sekaraji.
 Dialogue: 0,0:29:41.46,0:29:42.28,Machico,host,0,0,0,,It's time for the ending.
 Dialogue: 0,0:29:42.60,0:29:46.14,Ruriko Noguchi,host,0,0,0,,Yes. We're always looking for your submissions for the show.
 Dialogue: 0,0:29:46.14,0:29:47.84,Ruriko Noguchi,host,0,0,0,,The address is sekairadio@pjsekai.jp.
@@ -855,7 +855,7 @@ Dialogue: 0,0:31:36.48,0:31:37.56,Machico,host,0,0,0,,Me too, me too.
 Dialogue: 0,0:31:37.68,0:31:39.24,Ruriko Noguchi,host,0,0,0,,Well, homework is something you can only do now.
 Dialogue: 0,0:31:39.24,0:31:40.36,Ruriko Noguchi,host,0,0,0,,Good luck, everyone!
 Dialogue: 0,0:31:40.56,0:31:42.92,Machico,host,0,0,0,,Please enjoy your summer.
-Dialogue: 0,0:31:43.44,0:31:45.96,Machico,host,0,0,0,,[CORNER: Ending] And with that, it's time to say goodbye.
+Dialogue: 0,0:31:43.44,0:31:45.96,Machico,host,0,0,0,,And with that, it's time to say goodbye.
 Dialogue: 0,0:31:46.20,0:31:48.24,Ruriko Noguchi,host,0,0,0,,Your hosts were Ruriko Noguchi and...
 Dialogue: 0,0:31:48.48,0:31:49.52,Machico,host,0,0,0,,Machico.
 Dialogue: 0,0:31:52.60,0:31:55.96,Ruriko Noguchi,host,0,0,0,,This program was brought to you by Project SEKAI COLORFUL STAGE! feat.

@@ -101,8 +101,8 @@
       "id": "cue-00000003",
       "source_text": "こんばんは。",
       "normalized_source_text": "こんばんは。",
-      "translated_text": "[CORNER: Opening Talk] Good evening.",
-      "final_text": "[CORNER: Opening Talk] Good evening."
+      "translated_text": "Good evening.",
+      "final_text": "Good evening."
     },
     {
       "start_time": 5.82,
@@ -3539,8 +3539,8 @@
       "id": "cue-00000044",
       "source_text": "改めまして野口るりこです。",
       "normalized_source_text": "改めまして野口るりこです。",
-      "translated_text": "[CORNER: Contact Notebook] Once again, I'm Ruriko Noguchi.",
-      "final_text": "[CORNER: Contact Notebook] Once again, I'm Ruriko Noguchi."
+      "translated_text": "Once again, I'm Ruriko Noguchi.",
+      "final_text": "Once again, I'm Ruriko Noguchi."
     },
     {
       "start_time": 135.36,
@@ -3667,8 +3667,8 @@
       "id": "cue-00000046",
       "source_text": "今回も連絡ノートに質問が届いております。",
       "normalized_source_text": "今回も連絡ノートに質問が届いております。",
-      "translated_text": "[CORNER: Contact Notebook] We have another question in the contact notebook.",
-      "final_text": "[CORNER: Contact Notebook] We have another question in the contact notebook."
+      "translated_text": "We have another question in the contact notebook.",
+      "final_text": "We have another question in the contact notebook."
     },
     {
       "start_time": 140.68,
@@ -9230,8 +9230,8 @@
       "id": "cue-00000133",
       "source_text": "じゃ、我々も後でね、えと連絡ノートにコメントを残していきたいと思いますよ。",
       "normalized_source_text": "じゃ、我々も後でね、えと連絡ノートにコメントを残していきたいと思いますよ。",
-      "translated_text": "[CORNER: Ending] Well,\\Nwe'll leave a comment in the contact notebook later too.",
-      "final_text": "[CORNER: Ending] Well,\\Nwe'll leave a comment in the contact notebook later too."
+      "translated_text": "Well,\\Nwe'll leave a comment in the contact notebook later too.",
+      "final_text": "Well,\\Nwe'll leave a comment in the contact notebook later too."
     },
     {
       "start_time": 311.63,
@@ -9302,8 +9302,8 @@
       "id": "cue-00000135",
       "source_text": "じゃ、おたより見ます。",
       "normalized_source_text": "じゃ、おたより見ます。",
-      "translated_text": "[CORNER: Listener Mail] All right, let's look at the mail.",
-      "final_text": "[CORNER: Listener Mail] All right, let's look at the mail."
+      "translated_text": "All right, let's look at the mail.",
+      "final_text": "All right, let's look at the mail."
     },
     {
       "start_time": 313.88,
@@ -13297,8 +13297,8 @@
       "id": "cue-00000195",
       "source_text": "コンワンダホイ。",
       "normalized_source_text": "コンワンダホイ。",
-      "translated_text": "[CORNER: Listener Mail] Kon-wonderhoi!",
-      "final_text": "[CORNER: Listener Mail] Kon-wonderhoi!"
+      "translated_text": "Kon-wonderhoi!",
+      "final_text": "Kon-wonderhoi!"
     },
     {
       "start_time": 439.18,
@@ -20587,8 +20587,8 @@
       "id": "cue-00000315",
       "source_text": "ということでここで1曲お届けいたします。",
       "normalized_source_text": "ということでここで1曲お届けいたします。",
-      "translated_text": "[CORNER: Song] And now, it's time to play a song.",
-      "final_text": "[CORNER: Song] And now, it's time to play a song."
+      "translated_text": "And now, it's time to play a song.",
+      "final_text": "And now, it's time to play a song."
     },
     {
       "start_time": 664.66,
@@ -21055,8 +21055,8 @@
       "id": "cue-00000337",
       "source_text": "今回はこんなテーマでメールを募集しました。",
       "normalized_source_text": "今回はこんなテーマでメールを募集しました。",
-      "translated_text": "[CORNER: Theme Mail] For this episode,\\Nwe asked for mail on this theme:",
-      "final_text": "[CORNER: Theme Mail] For this episode,\\Nwe asked for mail on this theme:"
+      "translated_text": "For this episode,\\Nwe asked for mail on this theme:",
+      "final_text": "For this episode,\\Nwe asked for mail on this theme:"
     },
     {
       "start_time": 817.44,
@@ -27510,8 +27510,8 @@
       "id": "cue-00000421",
       "source_text": "じゃ、続きましてラジオネームおはしさんからいただきました。",
       "normalized_source_text": "じゃ、続きましてラジオネームおはしさんからいただきました。",
-      "translated_text": "[CORNER: Listener Mail] Moving on,\\Nthis next one is from Radio name: Ohashi.",
-      "final_text": "[CORNER: Listener Mail] Moving on,\\Nthis next one is from Radio name: Ohashi."
+      "translated_text": "Moving on,\\Nthis next one is from Radio name: Ohashi.",
+      "final_text": "Moving on,\\Nthis next one is from Radio name: Ohashi."
     },
     {
       "start_time": 1029.6,
@@ -33482,8 +33482,8 @@
       "id": "cue-00000508",
       "source_text": "では、もう1通いきますよ。",
       "normalized_source_text": "では、もう1通いきますよ。",
-      "translated_text": "[CORNER: Listener Mail] All right, let's move on to the next one.",
-      "final_text": "[CORNER: Listener Mail] All right, let's move on to the next one."
+      "translated_text": "All right, let's move on to the next one.",
+      "final_text": "All right, let's move on to the next one."
     },
     {
       "start_time": 1218.55,
@@ -50618,8 +50618,8 @@
       "id": "cue-00000757",
       "source_text": "お届けしてきました、セカラジ。",
       "normalized_source_text": "お届けしてきました、セカラジ。",
-      "translated_text": "[CORNER: Ending] That's all for this episode of Sekaraji.",
-      "final_text": "[CORNER: Ending] That's all for this episode of Sekaraji."
+      "translated_text": "That's all for this episode of Sekaraji.",
+      "final_text": "That's all for this episode of Sekaraji."
     },
     {
       "start_time": 1781.46,
@@ -54412,8 +54412,8 @@
       "id": "cue-00000811",
       "source_text": "ということで、お別れのお時間です。",
       "normalized_source_text": "ということで、お別れのお時間です。",
-      "translated_text": "[CORNER: Ending] And with that, it's time to say goodbye.",
-      "final_text": "[CORNER: Ending] And with that, it's time to say goodbye."
+      "translated_text": "And with that, it's time to say goodbye.",
+      "final_text": "And with that, it's time to say goodbye."
     },
     {
       "start_time": 1906.2,

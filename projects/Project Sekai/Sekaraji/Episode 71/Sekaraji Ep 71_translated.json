@@ -101,7 +101,7 @@
       "id": "cue-00000003",
       "source_text": "こんばんは。",
       "normalized_source_text": "こんばんは。",
-      "translated_text": "[CORNER: Opening Talk] Good evening.",
+      "translated_text": "Good evening.",
       "final_text": null
     },
     {
@@ -3539,7 +3539,7 @@
       "id": "cue-00000044",
       "source_text": "改めまして野口るりこです。",
       "normalized_source_text": "改めまして野口るりこです。",
-      "translated_text": "[CORNER: Contact Notebook] Once again, I'm Ruriko Noguchi.",
+      "translated_text": "Once again, I'm Ruriko Noguchi.",
       "final_text": null
     },
     {
@@ -3667,7 +3667,7 @@
       "id": "cue-00000046",
       "source_text": "今回も連絡ノートに質問が届いております。",
       "normalized_source_text": "今回も連絡ノートに質問が届いております。",
-      "translated_text": "[CORNER: Contact Notebook] We have another question in the contact notebook.",
+      "translated_text": "We have another question in the contact notebook.",
       "final_text": null
     },
     {
@@ -9230,7 +9230,7 @@
       "id": "cue-00000133",
       "source_text": "じゃ、我々も後でね、えと連絡ノートにコメントを残していきたいと思いますよ。",
       "normalized_source_text": "じゃ、我々も後でね、えと連絡ノートにコメントを残していきたいと思いますよ。",
-      "translated_text": "[CORNER: Ending] Well,\\Nwe'll leave a comment in the contact notebook later too.",
+      "translated_text": "Well,\\Nwe'll leave a comment in the contact notebook later too.",
       "final_text": null
     },
     {
@@ -9302,7 +9302,7 @@
       "id": "cue-00000135",
       "source_text": "じゃ、おたより見ます。",
       "normalized_source_text": "じゃ、おたより見ます。",
-      "translated_text": "[CORNER: Listener Mail] All right, let's look at the mail.",
+      "translated_text": "All right, let's look at the mail.",
       "final_text": null
     },
     {
@@ -13297,7 +13297,7 @@
       "id": "cue-00000195",
       "source_text": "コンワンダホイ。",
       "normalized_source_text": "コンワンダホイ。",
-      "translated_text": "[CORNER: Listener Mail] Kon-wonderhoi!",
+      "translated_text": "Kon-wonderhoi!",
       "final_text": null
     },
     {
@@ -20587,7 +20587,7 @@
       "id": "cue-00000315",
       "source_text": "ということでここで1曲お届けいたします。",
       "normalized_source_text": "ということでここで1曲お届けいたします。",
-      "translated_text": "[CORNER: Song] And now, it's time to play a song.",
+      "translated_text": "And now, it's time to play a song.",
       "final_text": null
     },
     {
@@ -21055,7 +21055,7 @@
       "id": "cue-00000337",
       "source_text": "今回はこんなテーマでメールを募集しました。",
       "normalized_source_text": "今回はこんなテーマでメールを募集しました。",
-      "translated_text": "[CORNER: Theme Mail] For this episode,\\Nwe asked for mail on this theme:",
+      "translated_text": "For this episode,\\Nwe asked for mail on this theme:",
       "final_text": null
     },
     {
@@ -27510,7 +27510,7 @@
       "id": "cue-00000421",
       "source_text": "じゃ、続きましてラジオネームおはしさんからいただきました。",
       "normalized_source_text": "じゃ、続きましてラジオネームおはしさんからいただきました。",
-      "translated_text": "[CORNER: Listener Mail] Moving on,\\Nthis next one is from Radio name: Ohashi.",
+      "translated_text": "Moving on,\\Nthis next one is from Radio name: Ohashi.",
       "final_text": null
     },
     {
@@ -33482,7 +33482,7 @@
       "id": "cue-00000508",
       "source_text": "では、もう1通いきますよ。",
       "normalized_source_text": "では、もう1通いきますよ。",
-      "translated_text": "[CORNER: Listener Mail] All right, let's move on to the next one.",
+      "translated_text": "All right, let's move on to the next one.",
       "final_text": null
     },
     {
@@ -50618,7 +50618,7 @@
       "id": "cue-00000757",
       "source_text": "お届けしてきました、セカラジ。",
       "normalized_source_text": "お届けしてきました、セカラジ。",
-      "translated_text": "[CORNER: Ending] That's all for this episode of Sekaraji.",
+      "translated_text": "That's all for this episode of Sekaraji.",
       "final_text": null
     },
     {
@@ -54412,7 +54412,7 @@
       "id": "cue-00000811",
       "source_text": "ということで、お別れのお時間です。",
       "normalized_source_text": "ということで、お別れのお時間です。",
-      "translated_text": "[CORNER: Ending] And with that, it's time to say goodbye.",
+      "translated_text": "And with that, it's time to say goodbye.",
       "final_text": null
     },
     {
