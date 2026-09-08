@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "実実はは私私もも1人1人旅旅好き好きでで",
+    "start_time": 401.24,
+    "end_time": 403.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "あ、あ、あ、あ、あ、",
+    "start_time": 403.61,
+    "end_time": 404.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あ、あ、あ、あ、あ、",
+    "start_time": 404.85,
+    "end_time": 405.35,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "自然のある所にもう行こうと思って急に明日から2日間休みだって日ができたのこないだ。",
+    "start_time": 407.32,
+    "end_time": 414.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うんうんうんうんうん。",
+    "start_time": 414.37,
+    "end_time": 414.87,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "でも前日にすぐ予約してえっと今回は鬼怒川。",
+    "start_time": 414.92,
+    "end_time": 420.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ほー。",
+    "start_time": 420.65,
+    "end_time": 421.15,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "川に行きたくってずっと。",
+    "start_time": 421.96,
+    "end_time": 423.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "はいはいはいはい。",
+    "start_time": 423.32,
+    "end_time": 424.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "いいよね。",
+    "start_time": 424.52,
+    "end_time": 425.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "で、また部屋から川が一望できる予感してるぞ。",
+    "start_time": 425.52,
+    "end_time": 428.84,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "川と海の違いなだけで。",
+    "start_time": 429.4,
+    "end_time": 431.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "水に癒されようと思ってで、温泉いっぱい使って、で、私も旅館行く時はもうデジタルデトックスしよって決めてて",
+    "start_time": 431.48,
+    "end_time": 440.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ああ。",
+    "start_time": 432.77,
+    "end_time": 433.27,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん、同じすぎる。",
+    "start_time": 440.24,
+    "end_time": 441.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "で、宿にこもってずっと本読んでで、今回はその景色がすごい綺麗だったからベランダでずっと川のせせらぎを聞きながら",
+    "start_time": 442.04,
+    "end_time": 449.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ああ。",
+    "start_time": 449.12,
+    "end_time": 449.62,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "一緒すぎる。",
+    "start_time": 452.4,
+    "end_time": 453.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "似てるね。",
+    "start_time": 454.28,
+    "end_time": 455.14,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ね。",
+    "start_time": 454.87,
+    "end_time": 455.37,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "癒され方がね。",
+    "start_time": 455.14,
+    "end_time": 456.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ね。",
+    "start_time": 455.99,
+    "end_time": 456.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "わかる。",
+    "start_time": 457.1,
+    "end_time": 457.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "なんか時折水系を見たかったり浴びたかったり海も大好きなの。",
+    "start_time": 457.6,
+    "end_time": 464.14,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "浴びたい。",
+    "start_time": 462.41,
+    "end_time": 462.91,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "熱海とかちょいちょい行っちゃう。",
+    "start_time": 464.14,
+    "end_time": 466.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "近いから。",
+    "start_time": 466.16,
+    "end_time": 467.02,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "熱海よく行きます、私も。",
+    "start_time": 467.02,
+    "end_time": 469.02,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "北海道行きたくなってきた。",
+    "start_time": 469.02,
+    "end_time": 470.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "いいよ。",
+    "start_time": 470.88,
+    "end_time": 471.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

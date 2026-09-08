@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "なんかアイスクリームは",
+    "start_time": 660.52,
+    "end_time": 661.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うん。",
+    "start_time": 661.78,
+    "end_time": 662.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そう、空港でも帰りは、あの、飛行機で帰ったんだけどあのあの、",
+    "start_time": 662.28,
+    "end_time": 666.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "新千歳に空港にもソフトクリーム売り場っていうか売ってるお店がいっぱいあってもう厳選して1個美味しいやつ食べて。",
+    "start_time": 666.88,
+    "end_time": 676.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "そんなにいっぱいあるんだ。",
+    "start_time": 677.0,
+    "end_time": 678.0,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "いっぱいある。",
+    "start_time": 678.16,
+    "end_time": 678.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "いや、迷っちゃう。",
+    "start_time": 679.4,
+    "end_time": 680.16,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そうなの。",
+    "start_time": 680.28,
+    "end_time": 680.98,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そんな感じでしたね。",
+    "start_time": 680.98,
+    "end_time": 682.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ああ。",
+    "start_time": 682.17,
+    "end_time": 682.67,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "かき氷食べたいね。",
+    "start_time": 683.0,
+    "end_time": 684.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ね。",
+    "start_time": 684.41,
+    "end_time": 684.91,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "ありがとうございます。",
+    "start_time": 685.12,
+    "end_time": 686.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ありがとうございます。",
+    "start_time": 686.96,
+    "end_time": 687.62,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "お次がほぐさんからです。",
+    "start_time": 687.62,
+    "end_time": 690.94,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta"
+  },
+  {
+    "id": 15,
+    "text": "うん。",
+    "start_time": 688.31,
+    "end_time": 688.81,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ありがとうございます。",
+    "start_time": 690.94,
+    "end_time": 692.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ありがとうございます。",
+    "start_time": 692.36,
+    "end_time": 692.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "本泉さん、鈴木さん、こんばんは。",
+    "start_time": 693.92,
+    "end_time": 695.88,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "こんばんは。",
+    "start_time": 696.04,
+    "end_time": 696.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "このメールがもし読まれていればきっと私は夏休みの宿題を必死にやっている頃だと思います。",
+    "start_time": 696.88,
+    "end_time": 703.4,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 21,
+    "text": "自由研究など時間のかかるものは親と一緒に早めにやったのですがまだまだドリルが終わっていないはずです。",
+    "start_time": 704.28,
+    "end_time": 711.4,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "あ、えらい。",
+    "start_time": 708.85,
+    "end_time": 709.35,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "ドリルって響きが可愛い。",
+    "start_time": 711.52,
+    "end_time": 713.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "お2人はやらなきゃいけないことを先にやれるタイプですか?",
+    "start_time": 714.72,
+    "end_time": 718.26,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "ちなみにかき学生の頃はどうだったのでしょうか?",
+    "start_time": 718.26,
+    "end_time": 721.24,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "ああ。",
+    "start_time": 721.36,
+    "end_time": 722.5,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "こりゃね、大変ですよ。",
+    "start_time": 722.5,
+    "end_time": 724.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "大変ですね。",
+    "start_time": 724.08,
+    "end_time": 725.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 724.99,
+    "end_time": 725.525,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

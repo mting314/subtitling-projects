@@ -1,0 +1,243 @@
+[
+  {
+    "id": 0,
+    "text": "え、今回も連絡ノートに質問が届いています。",
+    "start_time": 220.44,
+    "end_time": 223.78,
+    "speaker": "Rina Honnizumi",
+    "role": "host_meta",
+    "corner": "Contact Notebook"
+  },
+  {
+    "id": 1,
+    "text": "うん。",
+    "start_time": 223.47,
+    "end_time": 223.97,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "え、前回出演の野口さん、19さんから質問が来ています。",
+    "start_time": 223.78,
+    "end_time": 227.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host_meta"
+  },
+  {
+    "id": 3,
+    "text": "はい。",
+    "start_time": 227.85,
+    "end_time": 228.35,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "え、この夏楽しかったこと、楽しみにしていること。",
+    "start_time": 228.84,
+    "end_time": 232.6,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "夏終わりますかね。",
+    "start_time": 233.96,
+    "end_time": 235.22,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "夏終わりますかね。",
+    "start_time": 234.0,
+    "end_time": 235.22,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "鈴川ちゃんなんかこの夏できた?",
+    "start_time": 235.22,
+    "end_time": 237.665,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "鈴川ちゃんなんかこの夏できた?",
+    "start_time": 235.22,
+    "end_time": 237.665,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "え?",
+    "start_time": 237.665,
+    "end_time": 238.315,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "え?",
+    "start_time": 237.665,
+    "end_time": 238.315,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "めっちゃした。",
+    "start_time": 238.315,
+    "end_time": 239.215,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "めっちゃした。",
+    "start_time": 238.315,
+    "end_time": 239.235,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "マジ?",
+    "start_time": 239.215,
+    "end_time": 239.945,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "マジ?",
+    "start_time": 239.235,
+    "end_time": 239.945,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "もうしたってほやほや?",
+    "start_time": 239.945,
+    "end_time": 241.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "もうしたってほやほや?",
+    "start_time": 239.945,
+    "end_time": 241.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "1人旅をしまして最高じゃん",
+    "start_time": 242.36,
+    "end_time": 244.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "1人旅をしまして最高じゃんで、人生人生でで初めて初めて船船でで旅旅ををししましました。",
+    "start_time": 242.36,
+    "end_time": 247.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "え?",
+    "start_time": 247.86,
+    "end_time": 248.36,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "た。",
+    "start_time": 247.88,
+    "end_time": 248.38,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "え? すごい。 すごい。",
+    "start_time": 248.36,
+    "end_time": 249.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そう、そう、えっとえっと北海道北海道にに行き行きましました。",
+    "start_time": 249.16,
+    "end_time": 252.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "え? え?",
+    "start_time": 250.86,
+    "end_time": 251.82,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "た。",
+    "start_time": 252.52,
+    "end_time": 253.02,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "東京東京から? から?",
+    "start_time": 252.8,
+    "end_time": 253.5,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "東京東京から、から、えっとえっと水戸水戸までまで電車電車でで行っ行っててそっそっからからまたまた電車電車でで大洗大洗ってってとことこまでまで行っ行っててそっそっからから船船ででえ、",
+    "start_time": 253.56,
+    "end_time": 261.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "え、苫小牧苫小牧うん。",
+    "start_time": 261.76,
+    "end_time": 263.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "うん。",
+    "start_time": 262.75,
+    "end_time": 263.465,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "の北海道まで行って楽しそう。 の北海道まで行って楽しそう。",
+    "start_time": 263.465,
+    "end_time": 266.615,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

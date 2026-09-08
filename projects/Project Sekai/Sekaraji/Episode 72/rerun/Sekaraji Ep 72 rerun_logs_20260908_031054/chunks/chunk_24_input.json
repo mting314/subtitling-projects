@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "ありがとう。",
+    "start_time": 1568.6,
+    "end_time": 1569.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "素敵だなって思っております。",
+    "start_time": 1569.36,
+    "end_time": 1570.96,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "リハーサルとかもね。",
+    "start_time": 1571.08,
+    "end_time": 1572.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "もうこの放送の時ぐらいから始まってるのかしら?",
+    "start_time": 1572.68,
+    "end_time": 1575.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ああ。",
+    "start_time": 1576.44,
+    "end_time": 1577.66,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そっか、踊るもんね。",
+    "start_time": 1577.66,
+    "end_time": 1579.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そう、2号はあんまり踊らないあの演出というか感じだから",
+    "start_time": 1579.12,
+    "end_time": 1584.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そっか。",
+    "start_time": 1580.45,
+    "end_time": 1580.95,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そっか、ユニットごとにバラバラか。",
+    "start_time": 1584.92,
+    "end_time": 1586.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そうなん、そうなん。",
+    "start_time": 1586.76,
+    "end_time": 1587.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "モモジャンがでも1番、まあ、他のチームもそうだろうけど、モモジャンは特に踊ってる。",
+    "start_time": 1587.4,
+    "end_time": 1592.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そうね、毎回ふりも",
+    "start_time": 1593.48,
+    "end_time": 1594.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "がっつりつけていただいて、大田も一緒に歌わせてもらって大体1ヶ月、",
+    "start_time": 1594.88,
+    "end_time": 1601.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん。",
+    "start_time": 1599.37,
+    "end_time": 1599.87,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "本番1ヶ月前くらいからはもう始まってる印象かな。",
+    "start_time": 1601.2,
+    "end_time": 1605.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "すごい。",
+    "start_time": 1605.38,
+    "end_time": 1605.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "自主練とかもするでしょう?",
+    "start_time": 1605.88,
+    "end_time": 1607.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "私はもうめちゃくちゃする。",
+    "start_time": 1607.8,
+    "end_time": 1609.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "1人でとにかく数こなそうって思っちゃう。",
+    "start_time": 1609.52,
+    "end_time": 1615.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 1613.37,
+    "end_time": 1613.87,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん。",
+    "start_time": 1615.27,
+    "end_time": 1615.77,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "なかなか緊張するよね。",
+    "start_time": 1615.68,
+    "end_time": 1617.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そうね、確かにな。",
+    "start_time": 1617.48,
+    "end_time": 1618.9,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "しかもアイドルだしアイドルとしてキャラも成長してくから",
+    "start_time": 1618.9,
+    "end_time": 1624.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うん。",
+    "start_time": 1620.91,
+    "end_time": 1621.41,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "エンジャンとしてはね、なんか頑張らなきゃって思うよね。",
+    "start_time": 1624.76,
+    "end_time": 1628.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "気合が入る。",
+    "start_time": 1628.28,
+    "end_time": 1628.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "この時期は。",
+    "start_time": 1628.92,
+    "end_time": 1629.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ありがたいよ。",
+    "start_time": 1630.08,
+    "end_time": 1631.54,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 1631.21,
+    "end_time": 1631.71,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "でもあんまりなんかモモジャンの皆さんが、ま、",
+    "start_time": 1850.285,
+    "end_time": 1853.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "あの、ほんちゃんと義岡さんは飲んでるイメージあるけど",
+    "start_time": 1854.56,
+    "end_time": 1857.96,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "2人の2人は確かにあんまりイメージないかもな。",
+    "start_time": 1858.64,
+    "end_time": 1861.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ねえ。",
+    "start_time": 1861.79,
+    "end_time": 1862.29,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ご飯食べてて何が好きそうですか?",
+    "start_time": 1863.08,
+    "end_time": 1865.36,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うわ、何が好きだろう?",
+    "start_time": 1865.88,
+    "end_time": 1866.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ウーロン茶?",
+    "start_time": 1866.92,
+    "end_time": 1867.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ウーロン茶?",
+    "start_time": 1867.53,
+    "end_time": 1868.03,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "お茶飲んでるイメージあるな。",
+    "start_time": 1869.44,
+    "end_time": 1870.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そっか、じゃあ大分のお茶と焼酎が飲めそう。",
+    "start_time": 1871.04,
+    "end_time": 1873.8,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うん。",
+    "start_time": 1872.41,
+    "end_time": 1872.91,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "めっちゃうれしい。",
+    "start_time": 1874.61,
+    "end_time": 1875.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "飲料で。",
+    "start_time": 1875.92,
+    "end_time": 1876.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "楽しみだ。",
+    "start_time": 1876.8,
+    "end_time": 1877.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ありがとう。",
+    "start_time": 1877.64,
+    "end_time": 1878.515,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ねえ。",
+    "start_time": 1878.515,
+    "end_time": 1879.325,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "いや、ね、文化祭もあるとのことで楽しんでほしい。",
+    "start_time": 1879.325,
+    "end_time": 1883.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そうだ、文化祭。",
+    "start_time": 1881.6,
+    "end_time": 1882.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "何するんだろうね。",
+    "start_time": 1884.48,
+    "end_time": 1885.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ねえ、大学って、大学って結構自由なのかな?",
+    "start_time": 1885.56,
+    "end_time": 1889.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ねえ、もっと華やかなのか。",
+    "start_time": 1889.4,
+    "end_time": 1891.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "やりたい放題っていうか、なんて言うか、あの",
+    "start_time": 1891.0,
+    "end_time": 1892.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そうだね。",
+    "start_time": 1892.9,
+    "end_time": 1893.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "高校とか中学に比べたら",
+    "start_time": 1893.4,
+    "end_time": 1895.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ああ、自分たちでね。",
+    "start_time": 1895.56,
+    "end_time": 1897.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "あれもあるもんね。",
+    "start_time": 1897.28,
+    "end_time": 1898.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "その声優さんを呼んでトークショーしてくれたりする大学さんもあるから。",
+    "start_time": 1898.04,
+    "end_time": 1902.32,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そういうこともできるから。",
+    "start_time": 1902.32,
+    "end_time": 1904.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "確かに。",
+    "start_time": 1903.47,
+    "end_time": 1903.97,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "より自分たちでいろいろやれるから。",
+    "start_time": 1904.4,
+    "end_time": 1907.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

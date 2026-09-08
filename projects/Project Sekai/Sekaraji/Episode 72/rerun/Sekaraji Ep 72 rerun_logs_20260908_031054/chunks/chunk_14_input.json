@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "あ。",
+    "start_time": 805.89,
+    "end_time": 806.39,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ごめんなさい。",
+    "start_time": 806.325,
+    "end_time": 807.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あ。",
+    "start_time": 807.05,
+    "end_time": 807.55,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "マネージャーさんいつもありがとうもういつもありがとうございます。",
+    "start_time": 808.36,
+    "end_time": 811.46,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "マネージャーさん。",
+    "start_time": 811.46,
+    "end_time": 812.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そうね。",
+    "start_time": 812.65,
+    "end_time": 813.15,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "っていうことはある。",
+    "start_time": 813.2,
+    "end_time": 813.9,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "鈴川ちゃんはどう?",
+    "start_time": 813.9,
+    "end_time": 814.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "その辺。",
+    "start_time": 814.88,
+    "end_time": 815.38,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "私も、私はスイッチが入ると頑張れる。",
+    "start_time": 815.4,
+    "end_time": 818.86,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "なんか割と先にやるけど、でもあの、スイッチ切れると本当に全部後回し後回しで。",
+    "start_time": 818.86,
+    "end_time": 826.22,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "お仕事スイッチ大事だよ。",
+    "start_time": 826.22,
+    "end_time": 827.52,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "ね。",
+    "start_time": 827.64,
+    "end_time": 828.26,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あの、スイッチがずっと一緒入ってればいいんですけどね。",
+    "start_time": 828.26,
+    "end_time": 830.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そうね。",
+    "start_time": 830.95,
+    "end_time": 831.45,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "なかなかね。",
+    "start_time": 831.55,
+    "end_time": 832.05,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "オフスイッチが強すぎる。",
+    "start_time": 832.12,
+    "end_time": 833.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "あ、わかる。",
+    "start_time": 833.72,
+    "end_time": 834.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "そうなんですよね。",
+    "start_time": 835.12,
+    "end_time": 836.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "頑張ってくださいね。",
+    "start_time": 837.24,
+    "end_time": 838.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "もう1はい、じゃ、え、ラジオネーム睦月さんからいただきました。",
+    "start_time": 838.84,
+    "end_time": 843.78,
+    "speaker": "Rina Honnizumi",
+    "role": "host_meta"
+  },
+  {
+    "id": 21,
+    "text": "あ、この方も、え、本泉莉奈さんと鈴木みのりさんこんもは、こんには。",
+    "start_time": 843.78,
+    "end_time": 848.08,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "こんには。",
+    "start_time": 848.27,
+    "end_time": 848.77,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "こんには。",
+    "start_time": 849.13,
+    "end_time": 849.63,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "嬉しい。",
+    "start_time": 850.12,
+    "end_time": 850.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "うん。",
+    "start_time": 850.58,
+    "end_time": 851.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "え、先日プロセカのイベントを走っていたんですが周回している間はセカラジを流していました。",
+    "start_time": 851.08,
+    "end_time": 857.88,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 27,
+    "text": "はあ。",
+    "start_time": 857.77,
+    "end_time": 858.27,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "おおキャストの皆さんのトークが面白くとても癒されてあっという間に時間が過ぎていきました。",
+    "start_time": 858.6,
+    "end_time": 864.28,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "お2人はこれがあると作業が捗るなというものはありますか?",
+    "start_time": 864.28,
+    "end_time": 868.12,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "私は小学生とか中学生の子31日までしっかりお休みだったから多分この時期はまだ宿題まだいけるっ、",
+    "start_time": 118.42,
+    "end_time": 128.06,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "まだやんなくてもいけるってまだ思ってたかもしれない。",
+    "start_time": 128.06,
+    "end_time": 131.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "まだ28はいけるよね。",
+    "start_time": 132.12,
+    "end_time": 134.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そう、20、30からうん。",
+    "start_time": 134.4,
+    "end_time": 136.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "本気出してたな。",
+    "start_time": 137.04,
+    "end_time": 139.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "かけひき始まるよ、そろそろ。",
+    "start_time": 141.08,
+    "end_time": 142.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん、そうだね。",
+    "start_time": 142.64,
+    "end_time": 143.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そうそうそう。",
+    "start_time": 143.6,
+    "end_time": 144.36,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "でも今日も学校の人もいるんでね、お疲れ様でございます。",
+    "start_time": 144.36,
+    "end_time": 147.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そうだね、そうだ。",
+    "start_time": 147.52,
+    "end_time": 148.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "今日金曜日。",
+    "start_time": 148.2,
+    "end_time": 149.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ね。",
+    "start_time": 149.04,
+    "end_time": 149.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "だからもうね、始まってるとまた明日お休みだっていう方もいらっしゃるんかな。",
+    "start_time": 149.72,
+    "end_time": 153.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん。",
+    "start_time": 154.15,
+    "end_time": 154.65,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "大変だ。",
+    "start_time": 155.0,
+    "end_time": 156.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ね、宿題頑張ろうね。",
+    "start_time": 157.16,
+    "end_time": 159.22,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "頑張りましょう。",
+    "start_time": 159.22,
+    "end_time": 160.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "え? でも先にやるタイプ?",
+    "start_time": 160.0,
+    "end_time": 161.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うん。",
+    "start_time": 161.77,
+    "end_time": 162.27,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "あ、そっか。",
+    "start_time": 162.48,
+    "end_time": 163.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そっか。",
+    "start_time": 164.03,
+    "end_time": 164.53,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ギリギリまでため込んでまだいけるって思って自分の首を絞めてきた。",
+    "start_time": 164.76,
+    "end_time": 169.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "一緒だ。",
+    "start_time": 169.52,
+    "end_time": 170.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "あ、本当?",
+    "start_time": 170.36,
+    "end_time": 170.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "意外だった。",
+    "start_time": 170.92,
+    "end_time": 171.76,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "なんかもう毎年31日泣きながら、あの、某24時間のテレビを流しながら自由研究とか書いてた。",
+    "start_time": 171.92,
+    "end_time": 180.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "何で?",
+    "start_time": 177.29,
+    "end_time": 177.79,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "うん。",
+    "start_time": 178.89,
+    "end_time": 179.39,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "自由研究ってもっと計画的にねやるもんだよって言われてたけど最後に書くなんか趣というか",
+    "start_time": 181.48,
+    "end_time": 191.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "ね。",
+    "start_time": 186.23,
+    "end_time": 186.73,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

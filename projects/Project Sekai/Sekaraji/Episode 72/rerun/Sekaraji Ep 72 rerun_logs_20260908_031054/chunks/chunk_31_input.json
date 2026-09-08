@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。 うん。",
+    "start_time": 1978.9,
+    "end_time": 1979.86,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "です。",
+    "start_time": 1979.0,
+    "end_time": 1979.5,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "とといういうことことでで私たち私たちもも次回次回ののキャストキャストさんさんにに向け向けてて連絡連絡ノートノートににコメントコメントをを残し残してていきいきたいたいんんだだけれどけれどももさっきさっきちょろっちょろっととね、",
+    "start_time": 1980.0,
+    "end_time": 1988.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "はい。 はい。",
+    "start_time": 1986.34,
+    "end_time": 1987.14,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ね、おお話し話しししてて聞き聞きたいたいことことががありあります。",
+    "start_time": 1988.44,
+    "end_time": 1991.48,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "はい。 はい。",
+    "start_time": 1989.58,
+    "end_time": 1990.34,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ます。",
+    "start_time": 1991.48,
+    "end_time": 1991.98,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ありあります。 ます。",
+    "start_time": 1991.78,
+    "end_time": 1992.54,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "おお願い願いしします。 ます。",
+    "start_time": 1992.6,
+    "end_time": 1993.58,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "はい。 はい。",
+    "start_time": 1993.18,
+    "end_time": 1993.94,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "人生人生最大最大のの忘れ物忘れ物はは何何ですですか?",
+    "start_time": 1994.6,
+    "end_time": 1997.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "か?",
+    "start_time": 1997.32,
+    "end_time": 1997.82,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "やばい。 やばい。",
+    "start_time": 1997.62,
+    "end_time": 1998.185,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "やばい。 やばい。",
+    "start_time": 1998.185,
+    "end_time": 1999.01,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "とといういうののも、も、ちょっとちょっと旅行旅行のの話話ををまたまたね、",
+    "start_time": 1999.01,
+    "end_time": 2001.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ね、あの、あの、さっきさっきま、ま、改めて改めてししててて、て、私私ががとんでもとんでもないない忘れ物忘れ物をを何何回回もも何何回回ももそのその北海道北海道飛び出し飛び出したってたっていういう話話ををししたらたらそう、",
+    "start_time": 2001.6,
+    "end_time": 2010.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。 うん。",
+    "start_time": 2009.38,
+    "end_time": 2010.3,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そう、じゃあじゃあこれこれににししましました。",
+    "start_time": 2010.24,
+    "end_time": 2011.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "たってね、飲めるもちろんんだっやったらてそれでくれもて。",
+    "start_time": 2011.24,
+    "end_time": 2013.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "いいよね。 あります?",
+    "start_time": 2013.04,
+    "end_time": 2013.8,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そうだよね。",
+    "start_time": 2013.57,
+    "end_time": 2014.07,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "パッとで思いつく。",
+    "start_time": 2013.8,
+    "end_time": 2014.76,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "もあんまりなんかモモジャンの皆さんが、ま、",
+    "start_time": 2014.76,
+    "end_time": 2017.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "パッとはうん。",
+    "start_time": 2015.28,
+    "end_time": 2016.74,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うーん、あ、",
+    "start_time": 2016.74,
+    "end_time": 2019.15,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "あの、ほんちゃんと義岡さんは飲んでるイメージああ。",
+    "start_time": 2018.4,
+    "end_time": 2021.2,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うん。",
+    "start_time": 2019.15,
+    "end_time": 2019.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "iPad忘れた。",
+    "start_time": 2019.88,
+    "end_time": 2021.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "あるけどああ、台本チェックできなくなっちゃう。",
+    "start_time": 2021.2,
+    "end_time": 2025.07,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "スタジオに。",
+    "start_time": 2021.72,
+    "end_time": 2022.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

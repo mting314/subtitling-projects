@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "小樽小樽のの方方にに行っ行ったたんんですですけど、",
+    "start_time": 333.84,
+    "end_time": 335.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "けど、そこそこもも海海ががすごいすごい綺麗綺麗で、で、あとあとなんかなんか北海道北海道のの33大大景色景色綺麗綺麗どころどころがが小樽小樽もも入っ入ってるてるらしくっらしくっててそう、",
+    "start_time": 335.12,
+    "end_time": 343.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そうそうななんんだ。",
+    "start_time": 342.88,
+    "end_time": 343.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "だ。",
+    "start_time": 343.4,
+    "end_time": 343.9,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "そう、そこそこでで景色景色のの綺麗綺麗なな海海のの見える見えるちょっとちょっとおお高い高い宿宿にに泊まっ泊まっててずっとずっと温泉温泉入っ入ったりたりととかか美味しい美味しいものもの食べ食べたりたりととかかもうもう1人1人ででやりやりたいたい放題。",
+    "start_time": 343.76,
+    "end_time": 356.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "放題。",
+    "start_time": 356.76,
+    "end_time": 357.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ごご褒美褒美ってって大事。",
+    "start_time": 357.84,
+    "end_time": 358.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "大事。",
+    "start_time": 358.6,
+    "end_time": 359.1,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そうそうだね。",
+    "start_time": 358.78,
+    "end_time": 359.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "だね。 久々久々にに旅行旅行ででなんなんかかもうもうおお金金ををめちゃくちゃめちゃくちゃ使っ使ったたけどけど",
+    "start_time": 359.28,
+    "end_time": 363.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "あ、あ、そうそういういう時時にに使わ使わないないと。",
+    "start_time": 363.36,
+    "end_time": 364.84,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "と。",
+    "start_time": 364.84,
+    "end_time": 365.34,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そうそうななの。",
+    "start_time": 365.14,
+    "end_time": 365.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "の。 しかもしかも船船のの中中電波電波がが届か届かないないからからそう、",
+    "start_time": 365.64,
+    "end_time": 369.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "あ、そうそうだ。 だ。",
+    "start_time": 368.7,
+    "end_time": 369.58,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そう、Wi-FiWi-Fiももあるあるんんだだけどけど私私がが乗っ乗ったた船船ははえっとえっと1人1人3030分分をを22回回までまでしかしか使え使えなくっなくってて",
+    "start_time": 369.36,
+    "end_time": 376.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。 うん。",
+    "start_time": 372.02,
+    "end_time": 372.98,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そう、そう、だだからからあるある意味意味もうもうほぼほぼデジタルデジタルデトックスデトックスみたいみたいなな感じ感じでで本本もも持っ持ってってってて本本読ん読んだりだりととか、",
+    "start_time": 376.6,
+    "end_time": 382.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "か、あとあとははなんなんかか自分自分ががあの、あの、おお芝居芝居ののことことととかか色々色々おお仕事仕事ののことことメモメモするするノートノート持っ持ってているいるんんだだけどけどそれそれででちょっとちょっと自分自分をを振り返っ振り返っててみみたりたりととか、",
+    "start_time": 382.52,
+    "end_time": 392.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "か、なんなんかかちょっとちょっと1人1人旅旅ってって感じ。",
+    "start_time": 392.16,
+    "end_time": 393.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "感じ。",
+    "start_time": 393.72,
+    "end_time": 394.22,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "充実充実ししてる。 てる。",
+    "start_time": 393.94,
+    "end_time": 394.82,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "充実充実しして。 て。",
+    "start_time": 394.92,
+    "end_time": 395.9,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "集中集中できできそうそうだだね、ね、そのその方方が。",
+    "start_time": 395.6,
+    "end_time": 397.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "が。",
+    "start_time": 397.04,
+    "end_time": 397.54,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "そう、そう、すごいすごいできできましました。",
+    "start_time": 397.28,
+    "end_time": 398.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "た。",
+    "start_time": 398.16,
+    "end_time": 398.66,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "いいいいな。 な。",
+    "start_time": 399.02,
+    "end_time": 399.9,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "どう、どう、どうどうですですか?",
+    "start_time": 400.08,
+    "end_time": 400.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "か?",
+    "start_time": 400.76,
+    "end_time": 401.26,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

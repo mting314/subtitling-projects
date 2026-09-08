@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "なんかそれを聞くとやっぱ気分が乗る。",
+    "start_time": 995.2,
+    "end_time": 996.96,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "はあ、はあ、はあ、はあ。",
+    "start_time": 997.24,
+    "end_time": 997.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "感じがする。",
+    "start_time": 998.0,
+    "end_time": 998.795,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そう。",
+    "start_time": 998.795,
+    "end_time": 999.445,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "アクションとかだってやっぱ激しめの",
+    "start_time": 999.445,
+    "end_time": 1001.16,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ああ、はいはいはいはい。",
+    "start_time": 1001.48,
+    "end_time": 1002.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "音とかうん。",
+    "start_time": 1002.92,
+    "end_time": 1003.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "あとなんか海が舞台だったらもう海の",
+    "start_time": 1004.48,
+    "end_time": 1007.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "ああ、いいね。",
+    "start_time": 1008.2,
+    "end_time": 1009.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "環境音とか聞くかな。",
+    "start_time": 1009.72,
+    "end_time": 1012.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "いいかも。",
+    "start_time": 1010.67,
+    "end_time": 1011.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "へえ。",
+    "start_time": 1012.61,
+    "end_time": 1013.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "え?",
+    "start_time": 1014.01,
+    "end_time": 1014.635,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "旅行にはこういう本を持ってくとかそういうのはある?",
+    "start_time": 1014.635,
+    "end_time": 1017.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "わあ、旅行の時はなるべく読みかけの本を持ってくようにしてて何個かこう同時進行でいつも何冊か読むことが多いの。",
+    "start_time": 1019.16,
+    "end_time": 1028.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "へえ。",
+    "start_time": 1023.81,
+    "end_time": 1024.31,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "すごいよ。",
+    "start_time": 1029.0,
+    "end_time": 1029.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "気分によってなんか気分によって今日はこれがいいけどとかなんか色々あってジャンルがバラバラでで、",
+    "start_time": 1030.12,
+    "end_time": 1038.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うん。",
+    "start_time": 1033.35,
+    "end_time": 1033.85,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 1037.43,
+    "end_time": 1037.93,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "旅行に行くとやっぱ厳選したいじゃない?",
+    "start_time": 1038.6,
+    "end_time": 1040.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "うんうんうん。",
+    "start_time": 1040.96,
+    "end_time": 1041.48,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "荷物減らしたいから。",
+    "start_time": 1041.56,
+    "end_time": 1042.98,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うん。",
+    "start_time": 1042.63,
+    "end_time": 1043.13,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "そうすると読み始めて、あ、今この気分じゃなかったってなるのがすごく後悔をする。",
+    "start_time": 1042.98,
+    "end_time": 1049.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ああ。",
+    "start_time": 1048.85,
+    "end_time": 1049.35,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ちょっと素読み進めて今私はこれが読みたいっていう本を持ってくっていう感じ。",
+    "start_time": 1050.28,
+    "end_time": 1055.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "へえ。",
+    "start_time": 1055.84,
+    "end_time": 1056.42,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "いや、すごい。",
+    "start_time": 1056.42,
+    "end_time": 1057.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "すごい。",
+    "start_time": 1057.76,
+    "end_time": 1058.46,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

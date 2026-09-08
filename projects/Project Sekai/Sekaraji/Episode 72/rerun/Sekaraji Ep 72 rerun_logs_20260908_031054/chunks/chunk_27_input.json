@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "今年は全力で楽しもうとワクワクしています。",
+    "start_time": 1756.0,
+    "end_time": 1758.92,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "うわあ、めっちゃ楽しんでほしい。",
+    "start_time": 1759.84,
+    "end_time": 1762.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "どっちも。",
+    "start_time": 1762.2,
+    "end_time": 1762.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "てか大学生で1人暮らしか。",
+    "start_time": 1763.12,
+    "end_time": 1765.22,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "えらいねえ。",
+    "start_time": 1765.22,
+    "end_time": 1766.1,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "まだ4ヶ月とか?",
+    "start_time": 1766.1,
+    "end_time": 1767.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そんなになるかな?",
+    "start_time": 1768.0,
+    "end_time": 1768.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "もうちょっとで3ヶ月。",
+    "start_time": 1768.8,
+    "end_time": 1769.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "かあ。",
+    "start_time": 1770.29,
+    "end_time": 1770.79,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "すごいよ。",
+    "start_time": 1771.03,
+    "end_time": 1771.53,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "新しい環境って大変だよねえ。",
+    "start_time": 1772.0,
+    "end_time": 1774.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "うん。",
+    "start_time": 1774.77,
+    "end_time": 1775.27,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "いやあ、なんかこういうおたよりをもらうと頑張らなければなと思いますね。",
+    "start_time": 1775.04,
+    "end_time": 1779.2,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "だってみんなはね、ご褒美として来てくれてる人もいるんだと思うと。",
+    "start_time": 1779.2,
+    "end_time": 1783.32,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "本当そうだよね。",
+    "start_time": 1783.56,
+    "end_time": 1784.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "気合が入る。",
+    "start_time": 1784.24,
+    "end_time": 1784.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 1785.59,
+    "end_time": 1786.125,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "素敵なご褒美にならなければと思うばかりでございますが。",
+    "start_time": 1786.125,
+    "end_time": 1790.36,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "あ。",
+    "start_time": 1787.93,
+    "end_time": 1788.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "めちゃくちゃ感動しちゃう。",
+    "start_time": 1790.64,
+    "end_time": 1791.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そのずっと聞いてきてさ、心を支えてもらってた人たちに会えるってなったらね。",
+    "start_time": 1791.44,
+    "end_time": 1796.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "うん。",
+    "start_time": 1794.79,
+    "end_time": 1795.29,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "確かになあ。",
+    "start_time": 1796.88,
+    "end_time": 1797.76,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うれしいなあ。",
+    "start_time": 1798.88,
+    "end_time": 1800.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "そう、大分なんですよ。",
+    "start_time": 1800.56,
+    "end_time": 1802.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "もうこのラジオの次の週かな?",
+    "start_time": 1802.0,
+    "end_time": 1804.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "2行くので私も初めて大分行くんで楽しみ。",
+    "start_time": 1805.32,
+    "end_time": 1811.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "もうちょっとだ。",
+    "start_time": 1805.72,
+    "end_time": 1806.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "うん。",
+    "start_time": 1807.53,
+    "end_time": 1808.03,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 1810.01,
+    "end_time": 1810.51,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

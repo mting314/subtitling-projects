@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "え、水蓮花さんからいただきました。",
+    "start_time": 1693.16,
+    "end_time": 1695.76,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta"
+  },
+  {
+    "id": 1,
+    "text": "ありがとうございます。",
+    "start_time": 1695.84,
+    "end_time": 1696.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ありがとうございます。",
+    "start_time": 1696.92,
+    "end_time": 1697.54,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "みんな優しい。",
+    "start_time": 1697.54,
+    "end_time": 1698.98,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ほんいずみさん、すずきさん、こんまこんにご。",
+    "start_time": 1698.98,
+    "end_time": 1701.12,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "こんまこんにご。",
+    "start_time": 1701.36,
+    "end_time": 1702.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うれしい。",
+    "start_time": 1702.75,
+    "end_time": 1703.25,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "私は2号のエナとみずき、モモジャンの雫様が大好きです。",
+    "start_time": 1703.96,
+    "end_time": 1708.32,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "あ、ありがとうございます。",
+    "start_time": 1708.44,
+    "end_time": 1709.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host_meta"
+  },
+  {
+    "id": 9,
+    "text": "言いたくなるよね、様ってね。",
+    "start_time": 1709.64,
+    "end_time": 1711.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "今回お2人が出演されると知り、初めておたよりを書かせていただきました。",
+    "start_time": 1711.24,
+    "end_time": 1715.56,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 11,
+    "text": "ありがとう。",
+    "start_time": 1715.55,
+    "end_time": 1716.05,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "ありがとう。",
+    "start_time": 1716.12,
+    "end_time": 1716.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "私の秋に楽しみなことは2つあります。",
+    "start_time": 1716.92,
+    "end_time": 1719.72,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 1719.65,
+    "end_time": 1720.15,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "1つ目はプロセカユニットファンミーティング25時ナイトコードでin大分です。",
+    "start_time": 1720.24,
+    "end_time": 1725.56,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "そうだ。",
+    "start_time": 1725.57,
+    "end_time": 1726.07,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ねえ、高校生の頃、受験で辛い時に2号の曲に支えられて合格し",
+    "start_time": 1726.32,
+    "end_time": 1731.64,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "うわあ、おめでとう。",
+    "start_time": 1731.96,
+    "end_time": 1733.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "春から1人暮らしを始めました。",
+    "start_time": 1733.2,
+    "end_time": 1735.24,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 20,
+    "text": "ああ。",
+    "start_time": 1735.21,
+    "end_time": 1735.71,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "今回念願かなって初めてファンミーに参戦できます。",
+    "start_time": 1736.08,
+    "end_time": 1739.52,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "うん。",
+    "start_time": 1739.51,
+    "end_time": 1740.01,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "大好きなキャストの皆さんにお会いできるのが夢のようで、",
+    "start_time": 1740.04,
+    "end_time": 1743.12,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 24,
+    "text": "自分へのご褒美として全力で楽しみたいです。",
+    "start_time": 1743.12,
+    "end_time": 1745.96,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "くう。",
+    "start_time": 1745.97,
+    "end_time": 1746.47,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うん、頑張ります。",
+    "start_time": 1746.76,
+    "end_time": 1747.4,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "2つ目は大学で初めて迎える文化祭です。",
+    "start_time": 1747.92,
+    "end_time": 1751.72,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "うん。",
+    "start_time": 1751.47,
+    "end_time": 1751.97,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "高校時代まではどこか勉強が頭をよぎっていましたが、",
+    "start_time": 1751.72,
+    "end_time": 1756.0,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  }
+]

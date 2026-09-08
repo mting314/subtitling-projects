@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "渋い。",
+    "start_time": 1392.21,
+    "end_time": 1392.71,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "素晴らしい。",
+    "start_time": 1393.47,
+    "end_time": 1393.97,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "はい、じゃあどんどん行きましょうか。",
+    "start_time": 1395.84,
+    "end_time": 1397.84,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 1397.71,
+    "end_time": 1398.21,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "で、続いてラジオネームゆースケえなおしさんからいただきました。",
+    "start_time": 1398.36,
+    "end_time": 1402.52,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta"
+  },
+  {
+    "id": 5,
+    "text": "ありがとうございます。",
+    "start_time": 1402.64,
+    "end_time": 1404.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "お世話になっております。",
+    "start_time": 1404.84,
+    "end_time": 1405.72,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "えー、ほんいずみさん、すずきさん、こんまこんにご。",
+    "start_time": 1406.96,
+    "end_time": 1409.2,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "こんまこんにご。",
+    "start_time": 1409.36,
+    "end_time": 1410.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "えー、初めておたよりを送らせていただきました。",
+    "start_time": 1410.88,
+    "end_time": 1413.48,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "ありがとう。",
+    "start_time": 1413.23,
+    "end_time": 1413.73,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "すごいですね。",
+    "start_time": 1413.48,
+    "end_time": 1414.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "みんな渋いな。",
+    "start_time": 1414.6,
+    "end_time": 1415.66,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "私が秋になってから楽しみなことは涼しい風を感じながら散歩をすることです。",
+    "start_time": 1415.66,
+    "end_time": 1420.24,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 14,
+    "text": "ね、最高なんだが。",
+    "start_time": 1420.32,
+    "end_time": 1421.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "最高。",
+    "start_time": 1421.31,
+    "end_time": 1421.81,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "なんかみんないいね。",
+    "start_time": 1423.08,
+    "end_time": 1424.0,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "大人だね。",
+    "start_time": 1424.0,
+    "end_time": 1424.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "自分はあまり暑さに強くなく、夏は用事以外であまり外に出る気にはなれないのですが外が涼しくなってくる秋になると散歩に出かけることが多いです。",
+    "start_time": 1424.88,
+    "end_time": 1435.28,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 1430.67,
+    "end_time": 1431.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "その散歩の最中に見る、えー、紅葉や夕焼けなどがとても癒しになっています。",
+    "start_time": 1435.92,
+    "end_time": 1441.6,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 21,
+    "text": "うん。",
+    "start_time": 1441.39,
+    "end_time": 1441.89,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "去年はあまり涼しいと感じる期間が短くあまり散歩していませんでしたので、",
+    "start_time": 1441.6,
+    "end_time": 1447.44,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 23,
+    "text": "ねえ。",
+    "start_time": 1445.07,
+    "end_time": 1445.57,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "今年はいっぱい散歩できたらいいなと思っています。",
+    "start_time": 1447.44,
+    "end_time": 1450.08,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "ああ。",
+    "start_time": 1450.37,
+    "end_time": 1450.87,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "私も散歩大好き。",
+    "start_time": 1451.44,
+    "end_time": 1453.08,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ああ。",
+    "start_time": 1452.97,
+    "end_time": 1453.47,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "もう普段からなるべく、や、もう確かに夏はあんまりねえ。",
+    "start_time": 1454.12,
+    "end_time": 1460.3,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 1459.99,
+    "end_time": 1460.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

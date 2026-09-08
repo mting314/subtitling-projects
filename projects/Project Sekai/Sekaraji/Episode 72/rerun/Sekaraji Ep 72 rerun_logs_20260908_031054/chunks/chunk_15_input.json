@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "すごい器用な",
+    "start_time": 869.56,
+    "end_time": 870.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ね、だって周回してるってことは",
+    "start_time": 870.88,
+    "end_time": 872.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ゲームしてリズムゲームしながらトークを聞いてくれてるってことだよね。",
+    "start_time": 873.08,
+    "end_time": 877.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "すごい聖徳太子みたいな。",
+    "start_time": 877.72,
+    "end_time": 878.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ね、すごいよ。",
+    "start_time": 879.0,
+    "end_time": 880.32,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "え?",
+    "start_time": 880.33,
+    "end_time": 880.83,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "曲を覚えてくれてるんだね、きっと。",
+    "start_time": 880.88,
+    "end_time": 882.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ね。",
+    "start_time": 882.67,
+    "end_time": 883.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "もうとか譜面も全部それだけプレイしてくれたらってめっちゃありがたい。",
+    "start_time": 882.88,
+    "end_time": 887.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "はいはいはいはい。",
+    "start_time": 884.48,
+    "end_time": 885.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ありがたいね。",
+    "start_time": 887.68,
+    "end_time": 888.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "捗るもの",
+    "start_time": 889.4,
+    "end_time": 890.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "なんでしょう。",
+    "start_time": 890.73,
+    "end_time": 891.295,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "なんだろう。",
+    "start_time": 891.295,
+    "end_time": 891.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "寝る時に私はラジオとか配信系を流してる時は結構ありますけど",
+    "start_time": 894.04,
+    "end_time": 899.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "え?",
+    "start_time": 899.28,
+    "end_time": 899.78,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そうなんだ。 会話を聞くんだ。",
+    "start_time": 899.78,
+    "end_time": 901.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そう、なんかうん。",
+    "start_time": 901.36,
+    "end_time": 902.78,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "安心して寝れる時が",
+    "start_time": 902.78,
+    "end_time": 904.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 904.91,
+    "end_time": 905.41,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そうね。",
+    "start_time": 906.42,
+    "end_time": 906.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "でも作業じゃないからね。",
+    "start_time": 906.92,
+    "end_time": 908.48,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "あ、そっか、寝る時ね。",
+    "start_time": 908.8,
+    "end_time": 909.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "作業だとそれこそYouTubeとかになんかあの、作業BGMみたいなのあるからそれ流す時もあるかも。",
+    "start_time": 910.64,
+    "end_time": 919.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うん。",
+    "start_time": 913.75,
+    "end_time": 914.25,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ああ、なるほど。",
+    "start_time": 920.12,
+    "end_time": 921.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "本読む時とかってなんか流したりする?",
+    "start_time": 921.76,
+    "end_time": 924.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "うん。",
+    "start_time": 923.03,
+    "end_time": 923.53,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "あ、本読む時は流さない。",
+    "start_time": 924.6,
+    "end_time": 926.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "なんか入ってきちゃう。",
+    "start_time": 926.76,
+    "end_time": 928.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

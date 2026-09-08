@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "食べてないや。",
+    "start_time": 589.8,
+    "end_time": 591.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ちょこちょこそのSNSですっごいもうバエバエなかき氷の写真とか流れてくるんだけど自分でここのお店行きたいって言ったことがまだなくって",
+    "start_time": 591.04,
+    "end_time": 601.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "うん。",
+    "start_time": 594.71,
+    "end_time": 595.21,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 598.31,
+    "end_time": 598.81,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "一緒。",
+    "start_time": 602.12,
+    "end_time": 602.7,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "憧れはあるな。",
+    "start_time": 602.7,
+    "end_time": 603.8,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん。",
+    "start_time": 603.74,
+    "end_time": 604.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "なんかすごい人本当いろんなかき氷のお店回ってねなんかなんだろう、",
+    "start_time": 604.24,
+    "end_time": 609.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "ね。",
+    "start_time": 607.83,
+    "end_time": 608.33,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "普通のさ、いちごシロップとかじゃなくてかぼちゃのクリームかき氷とかなんか野菜系とかもあったりするみたいで。",
+    "start_time": 609.52,
+    "end_time": 617.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "え?",
+    "start_time": 617.45,
+    "end_time": 617.975,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "めっちゃ美味しそう。",
+    "start_time": 617.975,
+    "end_time": 618.8,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "ね。",
+    "start_time": 618.71,
+    "end_time": 619.325,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "冬でも好きな人は食べるじゃん。",
+    "start_time": 619.325,
+    "end_time": 622.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "冬のかき氷もいいね。",
+    "start_time": 622.64,
+    "end_time": 624.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ね。",
+    "start_time": 624.29,
+    "end_time": 624.79,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あったかい所で食べるアイス的なね。",
+    "start_time": 624.8,
+    "end_time": 626.96,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "それはいいかな。",
+    "start_time": 627.12,
+    "end_time": 627.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "いいな。",
+    "start_time": 627.85,
+    "end_time": 628.395,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "挑戦してみよう。",
+    "start_time": 628.395,
+    "end_time": 629.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ね。",
+    "start_time": 629.19,
+    "end_time": 629.885,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "お祭りは行きました?",
+    "start_time": 629.885,
+    "end_time": 631.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "お祭り行ってない。",
+    "start_time": 631.84,
+    "end_time": 632.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "今年偶然遭遇もしてないかも。",
+    "start_time": 633.44,
+    "end_time": 636.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "そっかそっか。",
+    "start_time": 636.4,
+    "end_time": 637.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "私花火大会に行きましてそう、めっちゃ夏を満喫しまくってる。",
+    "start_time": 637.2,
+    "end_time": 643.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "めっちゃ楽しそう。",
+    "start_time": 640.11,
+    "end_time": 640.61,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "でもかき氷は眺めるだけで食べなかったな。",
+    "start_time": 644.04,
+    "end_time": 647.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "あ、あ、屋台とかもね、あるもんね。",
+    "start_time": 647.88,
+    "end_time": 650.32,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "でもそのさっき言った北海道行った時にメロンにあの、ソフトクリームかかってるやつ有名なのがあってそれは食べました。",
+    "start_time": 650.44,
+    "end_time": 660.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "と行ったことある?",
+    "start_time": 1323.78,
+    "end_time": 1326.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ある、ある、ある。",
+    "start_time": 1326.12,
+    "end_time": 1326.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そう、何回も行ったこと。",
+    "start_time": 1326.96,
+    "end_time": 1328.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "1人でも昔行ったりとかして。",
+    "start_time": 1328.24,
+    "end_time": 1330.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ここ数年はちょっとあんま行けてないけれども。",
+    "start_time": 1330.4,
+    "end_time": 1333.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "なんうん。",
+    "start_time": 1331.64,
+    "end_time": 1333.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "でも、確かになんか夏頃、9月頃に行くけれども紅葉がめっちゃ満開みたいな時に行ったことなくて、",
+    "start_time": 1333.92,
+    "end_time": 1345.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "うん。",
+    "start_time": 1339.39,
+    "end_time": 1339.89,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "私も。",
+    "start_time": 1346.0,
+    "end_time": 1346.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "狙うの難しいよね。",
+    "start_time": 1346.68,
+    "end_time": 1348.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ねえ、やっぱり。",
+    "start_time": 1348.52,
+    "end_time": 1349.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "その年のね、なんか気候とかもあるから。",
+    "start_time": 1349.36,
+    "end_time": 1352.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そうだよね。",
+    "start_time": 1352.52,
+    "end_time": 1353.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "でもいいですね。",
+    "start_time": 1353.76,
+    "end_time": 1355.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "はい。",
+    "start_time": 1354.97,
+    "end_time": 1355.47,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "今年、なんか西の方ちょっと集めって聞くからさ、もしかしたら時期もね前後しそうだよね。",
+    "start_time": 1356.16,
+    "end_time": 1363.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "どうなんだろうね。",
+    "start_time": 1363.36,
+    "end_time": 1364.08,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ねえ。",
+    "start_time": 1364.19,
+    "end_time": 1364.905,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "でも、そのもみじが色づかずとも、ね、なんかその緑が綺麗だったりもするから。",
+    "start_time": 1364.905,
+    "end_time": 1370.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 1370.87,
+    "end_time": 1371.37,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ねえ、ポテトさんが見れるかどうかわかんないけど。",
+    "start_time": 1371.48,
+    "end_time": 1374.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ねえ、今年もきっと見れなくてもきっと素敵な景色があることでしょう。",
+    "start_time": 1375.28,
+    "end_time": 1380.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "ねえ。",
+    "start_time": 1380.67,
+    "end_time": 1381.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "いいなあ。",
+    "start_time": 1382.12,
+    "end_time": 1383.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "京都。",
+    "start_time": 1383.52,
+    "end_time": 1384.08,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "なんかおいくつなのかわからないけれども。",
+    "start_time": 1385.4,
+    "end_time": 1387.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うん。",
+    "start_time": 1387.65,
+    "end_time": 1388.15,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "いいですね、なんか。",
+    "start_time": 1388.52,
+    "end_time": 1389.44,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "素敵だよね。",
+    "start_time": 1390.52,
+    "end_time": 1391.08,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 1390.97,
+    "end_time": 1391.47,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

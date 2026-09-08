@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "2人の2人は確かにあんまりイメージないそう。",
+    "start_time": 2022.4,
+    "end_time": 2025.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ね。",
+    "start_time": 2025.07,
+    "end_time": 2025.76,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "かもな。",
+    "start_time": 2025.2,
+    "end_time": 2025.78,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ねえ。",
+    "start_time": 2025.76,
+    "end_time": 2026.26,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "終わってほっとしちゃって、お疲れ様でしたって言った後うわ、なんか何かばんが好き軽いだろう?",
+    "start_time": 2025.78,
+    "end_time": 2030.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ご飯食べてて何が好きそうですか?",
+    "start_time": 2026.92,
+    "end_time": 2029.2,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "なっウーロンて茶?",
+    "start_time": 2030.76,
+    "end_time": 2031.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ウーロン茶?",
+    "start_time": 2031.28,
+    "end_time": 2031.78,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "思ったらあ、あとおそう茶だ。",
+    "start_time": 2031.36,
+    "end_time": 2033.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うん。",
+    "start_time": 2031.78,
+    "end_time": 2032.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "飲んでるイメージあるな。",
+    "start_time": 2033.6,
+    "end_time": 2034.98,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そっか、じゃあ大分のお茶と焼酎うん。",
+    "start_time": 2034.88,
+    "end_time": 2037.36,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "プロセカの放送うん。",
+    "start_time": 2034.98,
+    "end_time": 2036.66,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "局で、いつめっちゃもうれしい。",
+    "start_time": 2036.66,
+    "end_time": 2038.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "が飲めそう。",
+    "start_time": 2037.36,
+    "end_time": 2037.86,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "マイクをお借りするじゃない?",
+    "start_time": 2038.76,
+    "end_time": 2040.46,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "飲料で。",
+    "start_time": 2039.76,
+    "end_time": 2040.28,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "うん、うん、うん。",
+    "start_time": 2040.28,
+    "end_time": 2040.78,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "楽しみあれだ。",
+    "start_time": 2040.46,
+    "end_time": 2041.18,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "を持って帰ったかな。",
+    "start_time": 2041.18,
+    "end_time": 2042.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ありがとう。",
+    "start_time": 2041.44,
+    "end_time": 2042.42,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "だって、あ、ね、友達いや、ね、に文化いる同じ祭もあることとのしことてるで子が楽しんでほしい。",
+    "start_time": 2042.42,
+    "end_time": 2046.92,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "ねえ。",
+    "start_time": 2042.52,
+    "end_time": 2043.02,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そうだ、文化祭。",
+    "start_time": 2045.44,
+    "end_time": 2046.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "いた。",
+    "start_time": 2046.32,
+    "end_time": 2046.82,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "つけたまま帰っちゃってね、ピンマイク。",
+    "start_time": 2046.92,
+    "end_time": 2048.84,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "何するんだろうね。",
+    "start_time": 2048.32,
+    "end_time": 2049.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そうなの。",
+    "start_time": 2049.08,
+    "end_time": 2049.58,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ねえ、大学で、途中でって、メイクさんが気づい大学てくれってて電話結構くれ自由てなのかな?",
+    "start_time": 2049.4,
+    "end_time": 2052.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "急いで戻ってお返しできました。",
+    "start_time": 2052.88,
+    "end_time": 2055.9,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

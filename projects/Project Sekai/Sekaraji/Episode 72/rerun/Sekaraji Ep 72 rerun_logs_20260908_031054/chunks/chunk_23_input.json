@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。",
+    "start_time": 1509.65,
+    "end_time": 1510.15,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "今年の感謝祭は初のモモジャンが4人全員揃うということもあり、",
+    "start_time": 1510.24,
+    "end_time": 1515.18,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 2,
+    "text": "どのようなパフォーマンスになるのかすごく楽しみです。",
+    "start_time": 1515.18,
+    "end_time": 1518.4,
+    "speaker": "Minori Suzuki",
+    "role": "listener_mail"
+  },
+  {
+    "id": 3,
+    "text": "ああ。",
+    "start_time": 1518.61,
+    "end_time": 1519.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ありがとうございます。",
+    "start_time": 1519.36,
+    "end_time": 1520.4,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta"
+  },
+  {
+    "id": 5,
+    "text": "と、モモジャンシンフォニーとかそう。",
+    "start_time": 1521.04,
+    "end_time": 1524.84,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん。",
+    "start_time": 1521.87,
+    "end_time": 1522.37,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "うん。",
+    "start_time": 1523.67,
+    "end_time": 1524.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "こう、なんか生配信とか4人で何回か揃う機会はあったんだけれども、",
+    "start_time": 1524.84,
+    "end_time": 1529.98,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "感謝祭は次が初めて。",
+    "start_time": 1529.98,
+    "end_time": 1532.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うん。",
+    "start_time": 1530.97,
+    "end_time": 1531.47,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そっか。",
+    "start_time": 1532.68,
+    "end_time": 1533.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "なんだって。",
+    "start_time": 1533.48,
+    "end_time": 1534.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "じゃあ、私は初めて4人揃うとか生で見れるんだ。",
+    "start_time": 1534.36,
+    "end_time": 1537.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "写真はそう見てたけど。",
+    "start_time": 1538.2,
+    "end_time": 1539.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "うん。",
+    "start_time": 1539.79,
+    "end_time": 1540.29,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ねえ。",
+    "start_time": 1540.48,
+    "end_time": 1541.14,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "いや、でもモモジャンの皆様はそのモモジャンであることへの熱意がすごい。",
+    "start_time": 1541.14,
+    "end_time": 1546.58,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "なんかなんか皆そうであるんですけど、なんか、なんか絶対やるぞっていう、",
+    "start_time": 1546.58,
+    "end_time": 1551.6,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "え、うれしい。",
+    "start_time": 1547.2,
+    "end_time": 1547.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "なんて言うか、その",
+    "start_time": 1551.6,
+    "end_time": 1552.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "き、気合が",
+    "start_time": 1553.4,
+    "end_time": 1554.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "な、なんだろう。",
+    "start_time": 1554.8,
+    "end_time": 1555.52,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "なんかすごい。",
+    "start_time": 1555.52,
+    "end_time": 1556.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "えー、うれしい。",
+    "start_time": 1556.52,
+    "end_time": 1557.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "だって絶対なんかなんでしょう、な、なんとしてでも4人でやってやるぞみたいな。",
+    "start_time": 1557.92,
+    "end_time": 1563.64,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "なんかそういうのなんか旗から感じてすごい。",
+    "start_time": 1563.64,
+    "end_time": 1566.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "あ。",
+    "start_time": 1565.61,
+    "end_time": 1566.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ちょっと3人にも伝えておこう。",
+    "start_time": 1566.96,
+    "end_time": 1568.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "いや、いや、いや。",
+    "start_time": 1567.99,
+    "end_time": 1568.49,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

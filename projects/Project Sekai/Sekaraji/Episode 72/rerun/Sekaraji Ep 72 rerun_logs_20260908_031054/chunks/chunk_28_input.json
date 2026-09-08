@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "おいしいご飯とか食べてほしいな。",
+    "start_time": 1811.52,
+    "end_time": 1813.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "えー。",
+    "start_time": 1813.17,
+    "end_time": 1813.67,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "食べさせてもらえるかな。",
+    "start_time": 1813.96,
+    "end_time": 1815.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 1816.31,
+    "end_time": 1816.81,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "きっとね。",
+    "start_time": 1817.07,
+    "end_time": 1817.57,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "なんかおいしい。",
+    "start_time": 1817.75,
+    "end_time": 1818.265,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "あのリレーとかもあるらしいから。",
+    "start_time": 1818.265,
+    "end_time": 1819.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "うん、うん、うん。",
+    "start_time": 1819.87,
+    "end_time": 1820.37,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "あ、そうだ。",
+    "start_time": 1820.44,
+    "end_time": 1821.08,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "多分2号があの頑張ったらそれがモモジャンの私たちの景品になるのかな?",
+    "start_time": 1821.08,
+    "end_time": 1827.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うん。",
+    "start_time": 1823.95,
+    "end_time": 1824.45,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "あ。",
+    "start_time": 1825.69,
+    "end_time": 1826.19,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "え?",
+    "start_time": 1827.65,
+    "end_time": 1828.385,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "そうだよね。",
+    "start_time": 1828.385,
+    "end_time": 1829.12,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "多分順繰り順繰り回っててそうえ、よろしくね。",
+    "start_time": 1829.12,
+    "end_time": 1833.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そっか、1周するから。",
+    "start_time": 1830.92,
+    "end_time": 1831.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ねえ、頑張るね。",
+    "start_time": 1833.48,
+    "end_time": 1834.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "大分の",
+    "start_time": 1834.44,
+    "end_time": 1834.94,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "なんだろう。",
+    "start_time": 1834.84,
+    "end_time": 1835.56,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ね、楽しみだね。",
+    "start_time": 1835.56,
+    "end_time": 1836.72,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "なんかいいちこホールって名前なのよ、会場が。",
+    "start_time": 1836.84,
+    "end_time": 1840.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "だから",
+    "start_time": 1840.12,
+    "end_time": 1840.62,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "焼酎。",
+    "start_time": 1840.97,
+    "end_time": 1841.47,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そう、めっちゃ焼酎。",
+    "start_time": 1842.2,
+    "end_time": 1843.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うわ、そうなんだ。",
+    "start_time": 1843.88,
+    "end_time": 1844.68,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "え、飲めるかな?",
+    "start_time": 1844.8,
+    "end_time": 1845.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "あ、でもそれじゃない可能性も全然あるけど。",
+    "start_time": 1845.56,
+    "end_time": 1847.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "確かに。",
+    "start_time": 1847.85,
+    "end_time": 1848.35,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "飲めるだったらそれでもいいよね。",
+    "start_time": 1848.4,
+    "end_time": 1849.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そうだよね。",
+    "start_time": 1849.75,
+    "end_time": 1850.285,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  }
+]

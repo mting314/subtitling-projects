@@ -1,0 +1,163 @@
+[
+  {
+    "id": 0,
+    "text": "今回のご紹介は以上です。",
+    "start_time": 2078.84,
+    "end_time": 2081.12,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta",
+    "corner": "Theme Mail"
+  },
+  {
+    "id": 1,
+    "text": "え、それは東京に着いてからうん。",
+    "start_time": 2079.2,
+    "end_time": 2081.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ありがとうございました、皆いや、えっとさん。",
+    "start_time": 2081.12,
+    "end_time": 2082.96,
+    "speaker": "Minori Suzuki",
+    "role": "host_meta"
+  },
+  {
+    "id": 3,
+    "text": "気が付いたの?",
+    "start_time": 2081.2,
+    "end_time": 2081.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "東京え、から愛知に向かう時に新幹線乗っててかばん漁ってた。",
+    "start_time": 2082.96,
+    "end_time": 2088.48,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ありがとうございます。",
+    "start_time": 2083.24,
+    "end_time": 2083.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host_meta"
+  },
+  {
+    "id": 6,
+    "text": "あれ?",
+    "start_time": 2088.48,
+    "end_time": 2088.99,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そういえば財布ないわ。",
+    "start_time": 2088.99,
+    "end_time": 2089.88,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "でも乗っちゃったし、行くしかねえ。",
+    "start_time": 2090.96,
+    "end_time": 2092.945,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "あ。",
+    "start_time": 2092.945,
+    "end_time": 2093.47,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "なんか携帯の電池が切れたら終わってたかな。",
+    "start_time": 2094.44,
+    "end_time": 2097.24,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "うん。",
+    "start_time": 2096.19,
+    "end_time": 2096.69,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "改札で通れなくなっちゃう。",
+    "start_time": 2097.32,
+    "end_time": 2099.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ああ、ドッキドキ。",
+    "start_time": 2099.69,
+    "end_time": 2100.235,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ヒヤッとしました。",
+    "start_time": 2100.235,
+    "end_time": 2101.8,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ああ。",
+    "start_time": 2102.29,
+    "end_time": 2102.79,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "どんなものが出てくるのか楽しみなの。",
+    "start_time": 2102.84,
+    "end_time": 2105.04,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "初めてです。",
+    "start_time": 2105.04,
+    "end_time": 2105.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "はい。",
+    "start_time": 2106.27,
+    "end_time": 2106.77,
+    "speaker": "Minori Suzuki",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "お願いします。",
+    "start_time": 2106.88,
+    "end_time": 2108.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]
