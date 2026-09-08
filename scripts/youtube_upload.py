@@ -6,6 +6,9 @@
 #   "google-auth-oauthlib>=1.0",
 #   "google-auth-httplib2>=0.2",
 #   "httplib2>=0.22",
+#   # httplib2.socks is None unless PySocks is installed, which makes the proxy path
+#   # below crash with AttributeError instead of proxying.
+#   "pysocks>=1.7",
 # ]
 # ///
 """
@@ -50,10 +53,15 @@ import sys
 from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    # line_buffering: Python block-buffers stdout when it is a pipe rather than a TTY,
+    # which swallows the `--no-browser` consent URL until the process exits. That is
+    # fatal for the consent flow — it blocks waiting for a redirect while the URL you
+    # need to visit sits unflushed in the buffer.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 from urllib.parse import urlparse
 
 import httplib2
+from google.auth.exceptions import RefreshError
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_httplib2 import AuthorizedHttp
@@ -142,8 +150,16 @@ def get_credentials(client_secrets: Path, token: Path, open_browser: bool = True
     if creds and creds.valid:
         return creds
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-    else:
+        try:
+            creds.refresh(Request())
+        except RefreshError:
+            # A cached refresh token can be revoked server-side (password change,
+            # 6 months idle, or a "Testing"-status OAuth app's 7-day expiry). That's
+            # not a fatal error, it just means we need consent again — fall through
+            # to the interactive flow rather than crashing with `invalid_grant`.
+            print("Cached token was rejected (invalid_grant); re-running consent...")
+            creds = None
+    if not (creds and creds.valid):
         if not client_secrets.exists():
             sys.exit(
                 f"ERROR: OAuth client secrets not found at {client_secrets}.\n"
@@ -193,6 +209,11 @@ def main() -> None:
 
     tags = [t.strip() for t in args.tags.split(",") if t.strip()]
 
+    # Authenticate before the confirmation prompt. Consent can need a browser and can
+    # fail on a revoked token, so surface that first rather than after the user has
+    # already read through and approved the metadata.
+    creds = get_credentials(args.client_secrets, args.token, open_browser=not args.no_browser)
+
     print("=== YouTube upload ===")
     print(f"Video    : {args.video}  ({args.video.stat().st_size / 1e6:.0f} MB)")
     print(f"Title    : {title}")
@@ -204,7 +225,6 @@ def main() -> None:
         if input("\nProceed with upload? [y/N] ").strip().lower() not in ("y", "yes"):
             sys.exit("Aborted.")
 
-    creds = get_credentials(args.client_secrets, args.token, open_browser=not args.no_browser)
     proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy_url:
         youtube = build("youtube", "v3", http=AuthorizedHttp(creds, http=build_http()))
