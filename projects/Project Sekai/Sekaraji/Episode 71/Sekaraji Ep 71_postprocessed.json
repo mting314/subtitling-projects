@@ -62,7 +62,7 @@
     },
     {
       "start_time": 5.82,
-      "end_time": 8.36,
+      "end_time": 8.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -411,7 +411,7 @@
     },
     {
       "start_time": 19.77,
-      "end_time": 20.27,
+      "end_time": 20.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -744,7 +744,7 @@
     },
     {
       "start_time": 32.88,
-      "end_time": 36.16,
+      "end_time": 36.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -929,7 +929,7 @@
     },
     {
       "start_time": 38.225,
-      "end_time": 39.56,
+      "end_time": 39.76,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -986,7 +986,7 @@
     },
     {
       "start_time": 39.76,
-      "end_time": 42.48,
+      "end_time": 42.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -1241,7 +1241,7 @@
     },
     {
       "start_time": 44.36,
-      "end_time": 50.48,
+      "end_time": 50.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -1629,7 +1629,7 @@
     },
     {
       "start_time": 56.944,
-      "end_time": 59.32,
+      "end_time": 59.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -1736,7 +1736,7 @@
     },
     {
       "start_time": 60.56,
-      "end_time": 65.72,
+      "end_time": 65.88,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -1941,7 +1941,7 @@
     },
     {
       "start_time": 67.64,
-      "end_time": 71.88,
+      "end_time": 72.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -2047,7 +2047,7 @@
     },
     {
       "start_time": 72.0,
-      "end_time": 73.2,
+      "end_time": 73.36,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -2615,7 +2615,7 @@
     },
     {
       "start_time": 89.72,
-      "end_time": 90.88,
+      "end_time": 91.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -2751,7 +2751,7 @@
     },
     {
       "start_time": 93.72,
-      "end_time": 103.56,
+      "end_time": 103.96,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -3443,7 +3443,7 @@
     },
     {
       "start_time": 133.6,
-      "end_time": 135.24,
+      "end_time": 135.36,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -3628,7 +3628,7 @@
     },
     {
       "start_time": 140.68,
-      "end_time": 144.56,
+      "end_time": 144.57,
       "speaker": "Machico",
       "role": "host_meta",
       "corner": null,
@@ -3791,7 +3791,7 @@
     },
     {
       "start_time": 145.68,
-      "end_time": 148.6,
+      "end_time": 149.08,
       "speaker": "Machico",
       "role": "listener_mail",
       "corner": null,
@@ -4077,7 +4077,7 @@
     },
     {
       "start_time": 156.88,
-      "end_time": 158.08,
+      "end_time": 158.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4163,7 +4163,7 @@
     },
     {
       "start_time": 159.79,
-      "end_time": 160.29,
+      "end_time": 160.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4185,7 +4185,7 @@
     },
     {
       "start_time": 160.72,
-      "end_time": 162.52,
+      "end_time": 162.8,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -4341,7 +4341,7 @@
     },
     {
       "start_time": 164.2,
-      "end_time": 166.32,
+      "end_time": 166.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4391,7 +4391,7 @@
     },
     {
       "start_time": 166.48,
-      "end_time": 169.68,
+      "end_time": 169.83,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -4504,7 +4504,7 @@
     },
     {
       "start_time": 169.83,
-      "end_time": 170.33,
+      "end_time": 170.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4540,7 +4540,7 @@
     },
     {
       "start_time": 170.4,
-      "end_time": 171.48,
+      "end_time": 171.56,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -4576,7 +4576,7 @@
     },
     {
       "start_time": 171.56,
-      "end_time": 172.16,
+      "end_time": 172.27,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4662,7 +4662,7 @@
     },
     {
       "start_time": 173.64,
-      "end_time": 175.64,
+      "end_time": 175.87,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -4933,7 +4933,7 @@
     },
     {
       "start_time": 182.4,
-      "end_time": 183.56,
+      "end_time": 183.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -5019,7 +5019,7 @@
     },
     {
       "start_time": 184.64,
-      "end_time": 188.56,
+      "end_time": 188.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -5104,7 +5104,7 @@
     },
     {
       "start_time": 188.68,
-      "end_time": 190.36,
+      "end_time": 190.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -5168,7 +5168,7 @@
     },
     {
       "start_time": 190.48,
-      "end_time": 193.16,
+      "end_time": 193.32,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -5430,7 +5430,7 @@
     },
     {
       "start_time": 196.59,
-      "end_time": 197.09,
+      "end_time": 197.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -5551,7 +5551,7 @@
     },
     {
       "start_time": 198.83700000000002,
-      "end_time": 201.72,
+      "end_time": 201.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -5650,7 +5650,7 @@
     },
     {
       "start_time": 201.84,
-      "end_time": 202.48,
+      "end_time": 202.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -5813,7 +5813,7 @@
     },
     {
       "start_time": 205.4,
-      "end_time": 206.32,
+      "end_time": 206.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -5884,7 +5884,7 @@
     },
     {
       "start_time": 206.48,
-      "end_time": 207.32,
+      "end_time": 207.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -5984,7 +5984,7 @@
     },
     {
       "start_time": 208.91,
-      "end_time": 209.41,
+      "end_time": 209.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -6205,7 +6205,7 @@
     },
     {
       "start_time": 217.03,
-      "end_time": 223.12,
+      "end_time": 223.59,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -6411,7 +6411,7 @@
     },
     {
       "start_time": 224.72,
-      "end_time": 226.24,
+      "end_time": 226.3,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -6469,7 +6469,7 @@
     },
     {
       "start_time": 226.8,
-      "end_time": 232.36,
+      "end_time": 232.56,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -6653,7 +6653,7 @@
     },
     {
       "start_time": 232.56,
-      "end_time": 234.44,
+      "end_time": 234.47,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -6717,7 +6717,7 @@
     },
     {
       "start_time": 234.47,
-      "end_time": 234.97,
+      "end_time": 235.32,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -6760,7 +6760,7 @@
     },
     {
       "start_time": 235.32,
-      "end_time": 236.44,
+      "end_time": 236.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -6867,7 +6867,7 @@
     },
     {
       "start_time": 238.6,
-      "end_time": 241.2,
+      "end_time": 241.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -6924,7 +6924,7 @@
     },
     {
       "start_time": 241.44,
-      "end_time": 242.08,
+      "end_time": 242.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -6974,7 +6974,7 @@
     },
     {
       "start_time": 242.28,
-      "end_time": 242.84,
+      "end_time": 243.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -7173,7 +7173,7 @@
     },
     {
       "start_time": 247.24,
-      "end_time": 250.56,
+      "end_time": 250.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -7244,7 +7244,7 @@
     },
     {
       "start_time": 250.68,
-      "end_time": 252.04,
+      "end_time": 252.27,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -7301,7 +7301,7 @@
     },
     {
       "start_time": 252.27,
-      "end_time": 252.77,
+      "end_time": 252.8,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -7323,7 +7323,7 @@
     },
     {
       "start_time": 252.8,
-      "end_time": 254.12,
+      "end_time": 254.32,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -7641,7 +7641,7 @@
     },
     {
       "start_time": 263.08,
-      "end_time": 265.76,
+      "end_time": 266.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -7733,7 +7733,7 @@
     },
     {
       "start_time": 266.0,
-      "end_time": 266.68,
+      "end_time": 267.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -7776,7 +7776,7 @@
     },
     {
       "start_time": 267.12,
-      "end_time": 268.32,
+      "end_time": 268.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -7947,7 +7947,7 @@
     },
     {
       "start_time": 272.52,
-      "end_time": 273.52,
+      "end_time": 273.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -7997,7 +7997,7 @@
     },
     {
       "start_time": 273.64,
-      "end_time": 274.44,
+      "end_time": 274.64,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8054,7 +8054,7 @@
     },
     {
       "start_time": 274.64,
-      "end_time": 285.72,
+      "end_time": 286.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -8329,7 +8329,7 @@
     },
     {
       "start_time": 286.68,
-      "end_time": 287.24,
+      "end_time": 287.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8351,7 +8351,7 @@
     },
     {
       "start_time": 287.4,
-      "end_time": 291.84,
+      "end_time": 292.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -8492,7 +8492,7 @@
     },
     {
       "start_time": 292.12,
-      "end_time": 294.76,
+      "end_time": 294.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8584,7 +8584,7 @@
     },
     {
       "start_time": 294.88,
-      "end_time": 295.6,
+      "end_time": 295.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -8613,7 +8613,7 @@
     },
     {
       "start_time": 295.72,
-      "end_time": 298.88,
+      "end_time": 298.99,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8784,7 +8784,7 @@
     },
     {
       "start_time": 300.0,
-      "end_time": 300.68,
+      "end_time": 300.79,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8820,7 +8820,7 @@
     },
     {
       "start_time": 300.79,
-      "end_time": 301.29,
+      "end_time": 301.41,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -8856,7 +8856,7 @@
     },
     {
       "start_time": 301.41,
-      "end_time": 301.91,
+      "end_time": 301.96,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -8885,7 +8885,7 @@
     },
     {
       "start_time": 301.96,
-      "end_time": 302.68,
+      "end_time": 302.92,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -9213,7 +9213,7 @@
     },
     {
       "start_time": 312.64,
-      "end_time": 313.84,
+      "end_time": 313.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": "Listener Mail",
@@ -9263,7 +9263,7 @@
     },
     {
       "start_time": 313.88,
-      "end_time": 315.12,
+      "end_time": 315.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -9391,7 +9391,7 @@
     },
     {
       "start_time": 318.8,
-      "end_time": 319.64,
+      "end_time": 319.76,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -9427,7 +9427,7 @@
     },
     {
       "start_time": 319.76,
-      "end_time": 320.6,
+      "end_time": 320.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -10271,7 +10271,7 @@
     },
     {
       "start_time": 350.28,
-      "end_time": 354.56,
+      "end_time": 354.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -10462,7 +10462,7 @@
     },
     {
       "start_time": 356.74,
-      "end_time": 359.0,
+      "end_time": 359.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -10533,7 +10533,7 @@
     },
     {
       "start_time": 359.24,
-      "end_time": 360.84,
+      "end_time": 361.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -10654,7 +10654,7 @@
     },
     {
       "start_time": 362.32,
-      "end_time": 364.28,
+      "end_time": 364.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -10725,7 +10725,7 @@
     },
     {
       "start_time": 364.36,
-      "end_time": 365.4,
+      "end_time": 365.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -11095,7 +11095,7 @@
     },
     {
       "start_time": 374.22,
-      "end_time": 380.96,
+      "end_time": 381.08,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -11271,7 +11271,7 @@
     },
     {
       "start_time": 381.08,
-      "end_time": 383.24,
+      "end_time": 383.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -11314,7 +11314,7 @@
     },
     {
       "start_time": 383.4,
-      "end_time": 384.72,
+      "end_time": 385.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -11357,7 +11357,7 @@
     },
     {
       "start_time": 385.12,
-      "end_time": 386.6,
+      "end_time": 386.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -11400,7 +11400,7 @@
     },
     {
       "start_time": 386.68,
-      "end_time": 387.96,
+      "end_time": 388.32,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -11634,7 +11634,7 @@
     },
     {
       "start_time": 393.68,
-      "end_time": 394.68,
+      "end_time": 394.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -11848,7 +11848,7 @@
     },
     {
       "start_time": 398.325,
-      "end_time": 400.76,
+      "end_time": 401.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -11926,7 +11926,7 @@
     },
     {
       "start_time": 401.08,
-      "end_time": 403.36,
+      "end_time": 403.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -12131,7 +12131,7 @@
     },
     {
       "start_time": 408.24,
-      "end_time": 408.92,
+      "end_time": 409.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -12246,7 +12246,7 @@
     },
     {
       "start_time": 410.96,
-      "end_time": 411.46,
+      "end_time": 411.52,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -12289,7 +12289,7 @@
     },
     {
       "start_time": 411.52,
-      "end_time": 413.48,
+      "end_time": 413.64,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -12381,7 +12381,7 @@
     },
     {
       "start_time": 413.64,
-      "end_time": 414.28,
+      "end_time": 414.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -12424,7 +12424,7 @@
     },
     {
       "start_time": 414.36,
-      "end_time": 415.4,
+      "end_time": 415.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -12467,7 +12467,7 @@
     },
     {
       "start_time": 415.56,
-      "end_time": 417.44,
+      "end_time": 417.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -12524,7 +12524,7 @@
     },
     {
       "start_time": 417.64,
-      "end_time": 421.52,
+      "end_time": 421.57,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -12665,7 +12665,7 @@
     },
     {
       "start_time": 421.57,
-      "end_time": 422.07,
+      "end_time": 422.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -12694,7 +12694,7 @@
     },
     {
       "start_time": 422.12,
-      "end_time": 426.12,
+      "end_time": 426.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -12922,7 +12922,7 @@
     },
     {
       "start_time": 429.065,
-      "end_time": 430.64,
+      "end_time": 430.76,
       "speaker": "Ruriko Noguchi",
       "role": "host_meta",
       "corner": null,
@@ -12979,7 +12979,7 @@
     },
     {
       "start_time": 430.76,
-      "end_time": 431.44,
+      "end_time": 431.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -13122,7 +13122,7 @@
     },
     {
       "start_time": 435.3,
-      "end_time": 438.04,
+      "end_time": 438.13,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -13565,7 +13565,7 @@
     },
     {
       "start_time": 449.55,
-      "end_time": 450.05,
+      "end_time": 450.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -13735,7 +13735,7 @@
     },
     {
       "start_time": 454.84,
-      "end_time": 456.76,
+      "end_time": 456.77,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -13799,7 +13799,7 @@
     },
     {
       "start_time": 456.77,
-      "end_time": 457.27,
+      "end_time": 457.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -13964,7 +13964,7 @@
     },
     {
       "start_time": 461.54,
-      "end_time": 462.6,
+      "end_time": 462.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14000,7 +14000,7 @@
     },
     {
       "start_time": 462.88,
-      "end_time": 464.44,
+      "end_time": 464.56,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14128,7 +14128,7 @@
     },
     {
       "start_time": 467.1,
-      "end_time": 468.76,
+      "end_time": 468.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14185,7 +14185,7 @@
     },
     {
       "start_time": 468.88,
-      "end_time": 469.92,
+      "end_time": 470.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14235,7 +14235,7 @@
     },
     {
       "start_time": 470.04,
-      "end_time": 471.84,
+      "end_time": 471.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14271,7 +14271,7 @@
     },
     {
       "start_time": 471.92,
-      "end_time": 472.92,
+      "end_time": 473.09,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14358,7 +14358,7 @@
     },
     {
       "start_time": 474.64,
-      "end_time": 477.48,
+      "end_time": 477.55,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14486,7 +14486,7 @@
     },
     {
       "start_time": 478.245,
-      "end_time": 480.76,
+      "end_time": 480.77,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14643,7 +14643,7 @@
     },
     {
       "start_time": 483.16,
-      "end_time": 484.04,
+      "end_time": 484.2,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14700,7 +14700,7 @@
     },
     {
       "start_time": 484.2,
-      "end_time": 485.8,
+      "end_time": 485.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14750,7 +14750,7 @@
     },
     {
       "start_time": 485.96,
-      "end_time": 487.4,
+      "end_time": 487.73,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14800,7 +14800,7 @@
     },
     {
       "start_time": 487.73,
-      "end_time": 488.23,
+      "end_time": 488.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -14829,7 +14829,7 @@
     },
     {
       "start_time": 488.36,
-      "end_time": 492.72,
+      "end_time": 492.84,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -14999,7 +14999,7 @@
     },
     {
       "start_time": 494.06,
-      "end_time": 496.28,
+      "end_time": 496.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -15267,7 +15267,7 @@
     },
     {
       "start_time": 503.14,
-      "end_time": 504.44,
+      "end_time": 504.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -15331,7 +15331,7 @@
     },
     {
       "start_time": 504.52,
-      "end_time": 505.6,
+      "end_time": 505.87,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -15395,7 +15395,7 @@
     },
     {
       "start_time": 505.87,
-      "end_time": 506.37,
+      "end_time": 506.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -15417,7 +15417,7 @@
     },
     {
       "start_time": 506.48,
-      "end_time": 507.84,
+      "end_time": 508.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -16218,7 +16218,7 @@
     },
     {
       "start_time": 535.4499999999999,
-      "end_time": 538.68,
+      "end_time": 539.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -16331,7 +16331,7 @@
     },
     {
       "start_time": 539.04,
-      "end_time": 539.88,
+      "end_time": 540.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -16367,7 +16367,7 @@
     },
     {
       "start_time": 540.04,
-      "end_time": 541.4,
+      "end_time": 541.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -16417,7 +16417,7 @@
     },
     {
       "start_time": 541.64,
-      "end_time": 542.44,
+      "end_time": 542.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -16496,7 +16496,7 @@
     },
     {
       "start_time": 543.51,
-      "end_time": 544.01,
+      "end_time": 544.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -16575,7 +16575,7 @@
     },
     {
       "start_time": 546.0,
-      "end_time": 547.88,
+      "end_time": 548.0,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -16646,7 +16646,7 @@
     },
     {
       "start_time": 548.0,
-      "end_time": 548.76,
+      "end_time": 548.89,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -16732,7 +16732,7 @@
     },
     {
       "start_time": 549.96,
-      "end_time": 555.4,
+      "end_time": 555.52,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -16929,7 +16929,7 @@
     },
     {
       "start_time": 555.52,
-      "end_time": 556.44,
+      "end_time": 556.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17029,7 +17029,7 @@
     },
     {
       "start_time": 557.96,
-      "end_time": 559.12,
+      "end_time": 559.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17200,7 +17200,7 @@
     },
     {
       "start_time": 564.0,
-      "end_time": 564.68,
+      "end_time": 564.95,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17229,7 +17229,7 @@
     },
     {
       "start_time": 564.95,
-      "end_time": 565.45,
+      "end_time": 565.55,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17301,7 +17301,7 @@
     },
     {
       "start_time": 566.56,
-      "end_time": 567.56,
+      "end_time": 567.8,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17337,7 +17337,7 @@
     },
     {
       "start_time": 567.8,
-      "end_time": 569.76,
+      "end_time": 570.11,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17437,7 +17437,7 @@
     },
     {
       "start_time": 570.57,
-      "end_time": 571.07,
+      "end_time": 571.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17480,7 +17480,7 @@
     },
     {
       "start_time": 571.2,
-      "end_time": 572.28,
+      "end_time": 572.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17530,7 +17530,7 @@
     },
     {
       "start_time": 572.4,
-      "end_time": 573.72,
+      "end_time": 573.83,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17602,7 +17602,7 @@
     },
     {
       "start_time": 575.12,
-      "end_time": 579.32,
+      "end_time": 579.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17688,7 +17688,7 @@
     },
     {
       "start_time": 579.48,
-      "end_time": 580.6,
+      "end_time": 580.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17745,7 +17745,7 @@
     },
     {
       "start_time": 580.72,
-      "end_time": 581.28,
+      "end_time": 581.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17831,7 +17831,7 @@
     },
     {
       "start_time": 582.56,
-      "end_time": 584.36,
+      "end_time": 584.8,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -17923,7 +17923,7 @@
     },
     {
       "start_time": 584.8,
-      "end_time": 585.36,
+      "end_time": 585.52,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -17952,7 +17952,7 @@
     },
     {
       "start_time": 585.52,
-      "end_time": 587.12,
+      "end_time": 587.2,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -18152,7 +18152,7 @@
     },
     {
       "start_time": 591.12,
-      "end_time": 592.04,
+      "end_time": 592.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -18202,7 +18202,7 @@
     },
     {
       "start_time": 592.12,
-      "end_time": 597.92,
+      "end_time": 598.41,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -18414,7 +18414,7 @@
     },
     {
       "start_time": 598.76,
-      "end_time": 603.0,
+      "end_time": 603.16,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -18542,7 +18542,7 @@
     },
     {
       "start_time": 603.16,
-      "end_time": 605.44,
+      "end_time": 605.68,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -18712,7 +18712,7 @@
     },
     {
       "start_time": 608.52,
-      "end_time": 611.8,
+      "end_time": 611.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -18797,7 +18797,7 @@
     },
     {
       "start_time": 611.92,
-      "end_time": 614.32,
+      "end_time": 614.41,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -18882,7 +18882,7 @@
     },
     {
       "start_time": 614.41,
-      "end_time": 614.91,
+      "end_time": 615.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -18968,7 +18968,7 @@
     },
     {
       "start_time": 616.88,
-      "end_time": 619.6,
+      "end_time": 619.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -19074,7 +19074,7 @@
     },
     {
       "start_time": 619.88,
-      "end_time": 623.36,
+      "end_time": 623.44,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -19323,7 +19323,7 @@
     },
     {
       "start_time": 626.0,
-      "end_time": 627.24,
+      "end_time": 627.36,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -19416,7 +19416,7 @@
     },
     {
       "start_time": 628.04,
-      "end_time": 629.04,
+      "end_time": 629.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -19573,7 +19573,7 @@
     },
     {
       "start_time": 633.9,
-      "end_time": 635.0,
+      "end_time": 635.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -19659,7 +19659,7 @@
     },
     {
       "start_time": 636.6,
-      "end_time": 637.6,
+      "end_time": 637.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -19915,7 +19915,7 @@
     },
     {
       "start_time": 644.85,
-      "end_time": 645.35,
+      "end_time": 645.6,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -19937,7 +19937,7 @@
     },
     {
       "start_time": 645.6,
-      "end_time": 647.08,
+      "end_time": 647.16,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -20066,7 +20066,7 @@
     },
     {
       "start_time": 649.735,
-      "end_time": 654.6,
+      "end_time": 654.76,
       "speaker": "Ruriko Noguchi",
       "role": "host_meta",
       "corner": null,
@@ -20200,7 +20200,7 @@
     },
     {
       "start_time": 654.76,
-      "end_time": 655.28,
+      "end_time": 655.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -20272,7 +20272,7 @@
     },
     {
       "start_time": 656.25,
-      "end_time": 660.2,
+      "end_time": 660.55,
       "speaker": "Ruriko Noguchi",
       "role": "host_meta",
       "corner": null,
@@ -21095,7 +21095,7 @@
     },
     {
       "start_time": 823.6,
-      "end_time": 826.56,
+      "end_time": 826.64,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -21173,7 +21173,7 @@
     },
     {
       "start_time": 826.64,
-      "end_time": 827.16,
+      "end_time": 827.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -21505,7 +21505,7 @@
     },
     {
       "start_time": 837.84,
-      "end_time": 840.64,
+      "end_time": 840.71,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -21661,7 +21661,7 @@
     },
     {
       "start_time": 841.88,
-      "end_time": 844.8,
+      "end_time": 844.83,
       "speaker": "Ruriko Noguchi",
       "role": "host_meta",
       "corner": null,
@@ -21739,7 +21739,7 @@
     },
     {
       "start_time": 844.83,
-      "end_time": 845.33,
+      "end_time": 845.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -21761,7 +21761,7 @@
     },
     {
       "start_time": 845.6,
-      "end_time": 847.44,
+      "end_time": 847.51,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -21811,7 +21811,7 @@
     },
     {
       "start_time": 847.51,
-      "end_time": 848.01,
+      "end_time": 848.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -21833,7 +21833,7 @@
     },
     {
       "start_time": 848.4,
-      "end_time": 851.56,
+      "end_time": 851.8,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -21946,7 +21946,7 @@
     },
     {
       "start_time": 851.8,
-      "end_time": 852.76,
+      "end_time": 852.88,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -23144,7 +23144,7 @@
     },
     {
       "start_time": 893.155,
-      "end_time": 894.28,
+      "end_time": 894.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -23223,7 +23223,7 @@
     },
     {
       "start_time": 898.08,
-      "end_time": 901.44,
+      "end_time": 901.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -23379,7 +23379,7 @@
     },
     {
       "start_time": 902.72,
-      "end_time": 904.16,
+      "end_time": 904.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -23422,7 +23422,7 @@
     },
     {
       "start_time": 904.28,
-      "end_time": 908.48,
+      "end_time": 908.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -23542,7 +23542,7 @@
     },
     {
       "start_time": 908.6,
-      "end_time": 909.48,
+      "end_time": 909.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -23938,7 +23938,7 @@
     },
     {
       "start_time": 923.72,
-      "end_time": 926.88,
+      "end_time": 927.32,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -24044,7 +24044,7 @@
     },
     {
       "start_time": 927.32,
-      "end_time": 929.32,
+      "end_time": 929.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -24136,7 +24136,7 @@
     },
     {
       "start_time": 929.72,
-      "end_time": 930.52,
+      "end_time": 930.84,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -24193,7 +24193,7 @@
     },
     {
       "start_time": 930.84,
-      "end_time": 934.0,
+      "end_time": 934.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -24392,7 +24392,7 @@
     },
     {
       "start_time": 935.995,
-      "end_time": 937.48,
+      "end_time": 937.57,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -24449,7 +24449,7 @@
     },
     {
       "start_time": 937.57,
-      "end_time": 938.07,
+      "end_time": 938.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -24471,7 +24471,7 @@
     },
     {
       "start_time": 938.28,
-      "end_time": 940.12,
+      "end_time": 940.33,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -24521,7 +24521,7 @@
     },
     {
       "start_time": 940.33,
-      "end_time": 940.83,
+      "end_time": 941.2,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -24571,7 +24571,7 @@
     },
     {
       "start_time": 941.2,
-      "end_time": 946.08,
+      "end_time": 946.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -24805,7 +24805,7 @@
     },
     {
       "start_time": 948.54,
-      "end_time": 949.6,
+      "end_time": 949.8,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -24941,7 +24941,7 @@
     },
     {
       "start_time": 951.96,
-      "end_time": 953.88,
+      "end_time": 954.08,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -25105,7 +25105,7 @@
     },
     {
       "start_time": 955.84,
-      "end_time": 956.48,
+      "end_time": 956.6,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -25276,7 +25276,7 @@
     },
     {
       "start_time": 961.87,
-      "end_time": 962.37,
+      "end_time": 962.53,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -25305,7 +25305,7 @@
     },
     {
       "start_time": 962.53,
-      "end_time": 963.03,
+      "end_time": 963.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -25341,7 +25341,7 @@
     },
     {
       "start_time": 963.24,
-      "end_time": 964.12,
+      "end_time": 964.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -25469,7 +25469,7 @@
     },
     {
       "start_time": 965.52,
-      "end_time": 966.28,
+      "end_time": 966.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -25640,7 +25640,7 @@
     },
     {
       "start_time": 969.64,
-      "end_time": 971.84,
+      "end_time": 971.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -25732,7 +25732,7 @@
     },
     {
       "start_time": 971.92,
-      "end_time": 972.68,
+      "end_time": 973.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -25818,7 +25818,7 @@
     },
     {
       "start_time": 973.795,
-      "end_time": 974.41,
+      "end_time": 974.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -25840,7 +25840,7 @@
     },
     {
       "start_time": 974.72,
-      "end_time": 979.16,
+      "end_time": 979.56,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -25974,7 +25974,7 @@
     },
     {
       "start_time": 979.56,
-      "end_time": 982.44,
+      "end_time": 982.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -26066,7 +26066,7 @@
     },
     {
       "start_time": 982.56,
-      "end_time": 985.32,
+      "end_time": 985.33,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -26172,7 +26172,7 @@
     },
     {
       "start_time": 985.33,
-      "end_time": 985.83,
+      "end_time": 985.84,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -26314,7 +26314,7 @@
     },
     {
       "start_time": 988.92,
-      "end_time": 992.28,
+      "end_time": 992.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -26591,7 +26591,7 @@
     },
     {
       "start_time": 999.22,
-      "end_time": 1001.04,
+      "end_time": 1001.2,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -26648,7 +26648,7 @@
     },
     {
       "start_time": 1001.2,
-      "end_time": 1002.68,
+      "end_time": 1002.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -26825,7 +26825,7 @@
     },
     {
       "start_time": 1007.854,
-      "end_time": 1014.2,
+      "end_time": 1014.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -27029,7 +27029,7 @@
     },
     {
       "start_time": 1014.48,
-      "end_time": 1016.04,
+      "end_time": 1016.41,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -27229,7 +27229,7 @@
     },
     {
       "start_time": 1021.0,
-      "end_time": 1022.6,
+      "end_time": 1023.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -27272,7 +27272,7 @@
     },
     {
       "start_time": 1023.0,
-      "end_time": 1023.8,
+      "end_time": 1023.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -27471,7 +27471,7 @@
     },
     {
       "start_time": 1029.6,
-      "end_time": 1030.76,
+      "end_time": 1030.87,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -27507,7 +27507,7 @@
     },
     {
       "start_time": 1030.87,
-      "end_time": 1031.37,
+      "end_time": 1031.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -27543,7 +27543,7 @@
     },
     {
       "start_time": 1031.6,
-      "end_time": 1033.2,
+      "end_time": 1033.32,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -27607,7 +27607,7 @@
     },
     {
       "start_time": 1033.32,
-      "end_time": 1034.0,
+      "end_time": 1034.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -27848,7 +27848,7 @@
     },
     {
       "start_time": 1042.14,
-      "end_time": 1046.72,
+      "end_time": 1046.73,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -27975,7 +27975,7 @@
     },
     {
       "start_time": 1046.73,
-      "end_time": 1047.23,
+      "end_time": 1047.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -28484,7 +28484,7 @@
     },
     {
       "start_time": 1061.33,
-      "end_time": 1061.83,
+      "end_time": 1062.16,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -28718,7 +28718,7 @@
     },
     {
       "start_time": 1068.81,
-      "end_time": 1069.31,
+      "end_time": 1069.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -28895,7 +28895,7 @@
     },
     {
       "start_time": 1074.08,
-      "end_time": 1077.32,
+      "end_time": 1077.48,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -28994,7 +28994,7 @@
     },
     {
       "start_time": 1077.48,
-      "end_time": 1078.12,
+      "end_time": 1078.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -29030,7 +29030,7 @@
     },
     {
       "start_time": 1078.24,
-      "end_time": 1080.76,
+      "end_time": 1080.85,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -29251,7 +29251,7 @@
     },
     {
       "start_time": 1087.72,
-      "end_time": 1089.12,
+      "end_time": 1089.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -29294,7 +29294,7 @@
     },
     {
       "start_time": 1089.36,
-      "end_time": 1090.04,
+      "end_time": 1090.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -29344,7 +29344,7 @@
     },
     {
       "start_time": 1090.16,
-      "end_time": 1090.76,
+      "end_time": 1090.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -29373,7 +29373,7 @@
     },
     {
       "start_time": 1090.96,
-      "end_time": 1091.48,
+      "end_time": 1091.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -29510,7 +29510,7 @@
     },
     {
       "start_time": 1096.12,
-      "end_time": 1098.04,
+      "end_time": 1098.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -29567,7 +29567,7 @@
     },
     {
       "start_time": 1098.24,
-      "end_time": 1099.44,
+      "end_time": 1099.61,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -29833,7 +29833,7 @@
     },
     {
       "start_time": 1109.24,
-      "end_time": 1112.24,
+      "end_time": 1112.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -29968,7 +29968,7 @@
     },
     {
       "start_time": 1113.92,
-      "end_time": 1114.84,
+      "end_time": 1115.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -30033,7 +30033,7 @@
     },
     {
       "start_time": 1115.68,
-      "end_time": 1117.04,
+      "end_time": 1117.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -30119,7 +30119,7 @@
     },
     {
       "start_time": 1119.12,
-      "end_time": 1121.8,
+      "end_time": 1122.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -30247,7 +30247,7 @@
     },
     {
       "start_time": 1124.72,
-      "end_time": 1125.48,
+      "end_time": 1125.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -30433,7 +30433,7 @@
     },
     {
       "start_time": 1131.56,
-      "end_time": 1132.48,
+      "end_time": 1132.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -30603,7 +30603,7 @@
     },
     {
       "start_time": 1137.09,
-      "end_time": 1137.59,
+      "end_time": 1138.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -30809,7 +30809,7 @@
     },
     {
       "start_time": 1143.88,
-      "end_time": 1147.24,
+      "end_time": 1147.36,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -30908,7 +30908,7 @@
     },
     {
       "start_time": 1147.36,
-      "end_time": 1148.24,
+      "end_time": 1148.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -31121,7 +31121,7 @@
     },
     {
       "start_time": 1153.079,
-      "end_time": 1157.6,
+      "end_time": 1157.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -31361,7 +31361,7 @@
     },
     {
       "start_time": 1159.6,
-      "end_time": 1163.08,
+      "end_time": 1163.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -31467,7 +31467,7 @@
     },
     {
       "start_time": 1163.4,
-      "end_time": 1164.28,
+      "end_time": 1164.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -31722,7 +31722,7 @@
     },
     {
       "start_time": 1172.25,
-      "end_time": 1172.75,
+      "end_time": 1172.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -31744,7 +31744,7 @@
     },
     {
       "start_time": 1172.84,
-      "end_time": 1175.0,
+      "end_time": 1175.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -31956,7 +31956,7 @@
     },
     {
       "start_time": 1178.395,
-      "end_time": 1178.97,
+      "end_time": 1178.99,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -31985,7 +31985,7 @@
     },
     {
       "start_time": 1178.99,
-      "end_time": 1179.49,
+      "end_time": 1179.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -32191,7 +32191,7 @@
     },
     {
       "start_time": 1184.28,
-      "end_time": 1188.2,
+      "end_time": 1188.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -32736,7 +32736,7 @@
     },
     {
       "start_time": 1198.8,
-      "end_time": 1199.3,
+      "end_time": 1199.6,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -32765,7 +32765,7 @@
     },
     {
       "start_time": 1199.6,
-      "end_time": 1201.28,
+      "end_time": 1201.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -32843,7 +32843,7 @@
     },
     {
       "start_time": 1201.4,
-      "end_time": 1204.2,
+      "end_time": 1204.23,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -32949,7 +32949,7 @@
     },
     {
       "start_time": 1204.23,
-      "end_time": 1204.73,
+      "end_time": 1205.16,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -32978,7 +32978,7 @@
     },
     {
       "start_time": 1205.16,
-      "end_time": 1206.4,
+      "end_time": 1206.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -33113,7 +33113,7 @@
     },
     {
       "start_time": 1208.52,
-      "end_time": 1209.72,
+      "end_time": 1209.8,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -33185,7 +33185,7 @@
     },
     {
       "start_time": 1210.4,
-      "end_time": 1211.04,
+      "end_time": 1211.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -33221,7 +33221,7 @@
     },
     {
       "start_time": 1211.16,
-      "end_time": 1213.44,
+      "end_time": 1213.67,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -33321,7 +33321,7 @@
     },
     {
       "start_time": 1214.76,
-      "end_time": 1215.6,
+      "end_time": 1215.76,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -33465,7 +33465,7 @@
     },
     {
       "start_time": 1218.88,
-      "end_time": 1221.76,
+      "end_time": 1221.88,
       "speaker": "Machico",
       "role": "host_meta",
       "corner": null,
@@ -33679,7 +33679,7 @@
     },
     {
       "start_time": 1225.88,
-      "end_time": 1227.12,
+      "end_time": 1227.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -33715,7 +33715,7 @@
     },
     {
       "start_time": 1227.24,
-      "end_time": 1227.92,
+      "end_time": 1228.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -33935,7 +33935,7 @@
     },
     {
       "start_time": 1233.96,
-      "end_time": 1237.72,
+      "end_time": 1237.75,
       "speaker": "Machico",
       "role": "listener_mail",
       "corner": null,
@@ -34020,7 +34020,7 @@
     },
     {
       "start_time": 1237.75,
-      "end_time": 1238.25,
+      "end_time": 1238.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -34504,7 +34504,7 @@
     },
     {
       "start_time": 1253.91,
-      "end_time": 1254.41,
+      "end_time": 1254.65,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -34691,7 +34691,7 @@
     },
     {
       "start_time": 1260.36,
-      "end_time": 1265.8,
+      "end_time": 1266.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -34902,7 +34902,7 @@
     },
     {
       "start_time": 1266.24,
-      "end_time": 1267.36,
+      "end_time": 1267.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -35086,7 +35086,7 @@
     },
     {
       "start_time": 1270.6,
-      "end_time": 1271.88,
+      "end_time": 1272.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -35222,7 +35222,7 @@
     },
     {
       "start_time": 1274.735,
-      "end_time": 1275.48,
+      "end_time": 1275.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -35244,7 +35244,7 @@
     },
     {
       "start_time": 1275.96,
-      "end_time": 1277.08,
+      "end_time": 1277.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -35315,7 +35315,7 @@
     },
     {
       "start_time": 1277.4,
-      "end_time": 1278.12,
+      "end_time": 1278.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -35464,7 +35464,7 @@
     },
     {
       "start_time": 1279.953,
-      "end_time": 1280.48,
+      "end_time": 1280.8,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -35507,7 +35507,7 @@
     },
     {
       "start_time": 1280.8,
-      "end_time": 1282.6,
+      "end_time": 1282.8,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -35578,7 +35578,7 @@
     },
     {
       "start_time": 1282.8,
-      "end_time": 1286.24,
+      "end_time": 1286.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -35955,7 +35955,7 @@
     },
     {
       "start_time": 1293.82,
-      "end_time": 1294.6,
+      "end_time": 1294.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -35977,7 +35977,7 @@
     },
     {
       "start_time": 1294.72,
-      "end_time": 1298.04,
+      "end_time": 1298.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -36062,7 +36062,7 @@
     },
     {
       "start_time": 1298.28,
-      "end_time": 1299.16,
+      "end_time": 1299.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -36091,7 +36091,7 @@
     },
     {
       "start_time": 1299.4,
-      "end_time": 1301.72,
+      "end_time": 1301.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -36197,7 +36197,7 @@
     },
     {
       "start_time": 1301.92,
-      "end_time": 1302.64,
+      "end_time": 1302.91,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -36283,7 +36283,7 @@
     },
     {
       "start_time": 1304.28,
-      "end_time": 1305.64,
+      "end_time": 1305.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -36674,7 +36674,7 @@
     },
     {
       "start_time": 1318.92,
-      "end_time": 1321.08,
+      "end_time": 1321.11,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -36745,7 +36745,7 @@
     },
     {
       "start_time": 1321.11,
-      "end_time": 1321.61,
+      "end_time": 1322.0,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -36767,7 +36767,7 @@
     },
     {
       "start_time": 1322.0,
-      "end_time": 1326.08,
+      "end_time": 1326.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -36887,7 +36887,7 @@
     },
     {
       "start_time": 1326.16,
-      "end_time": 1332.0,
+      "end_time": 1332.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -37035,7 +37035,7 @@
     },
     {
       "start_time": 1332.24,
-      "end_time": 1335.12,
+      "end_time": 1335.32,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -37162,7 +37162,7 @@
     },
     {
       "start_time": 1335.32,
-      "end_time": 1335.88,
+      "end_time": 1335.97,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -37803,7 +37803,7 @@
     },
     {
       "start_time": 1354.82,
-      "end_time": 1356.64,
+      "end_time": 1356.67,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -38093,7 +38093,7 @@
     },
     {
       "start_time": 1367.12,
-      "end_time": 1370.6,
+      "end_time": 1370.76,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -38222,7 +38222,7 @@
     },
     {
       "start_time": 1371.42,
-      "end_time": 1374.44,
+      "end_time": 1374.47,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -38307,7 +38307,7 @@
     },
     {
       "start_time": 1374.47,
-      "end_time": 1374.97,
+      "end_time": 1375.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -38473,7 +38473,7 @@
     },
     {
       "start_time": 1379.04,
-      "end_time": 1379.56,
+      "end_time": 1379.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -38495,7 +38495,7 @@
     },
     {
       "start_time": 1379.88,
-      "end_time": 1382.72,
+      "end_time": 1382.96,
       "speaker": "Machico",
       "role": "host_meta",
       "corner": null,
@@ -38587,7 +38587,7 @@
     },
     {
       "start_time": 1382.96,
-      "end_time": 1384.0,
+      "end_time": 1384.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -38623,7 +38623,7 @@
     },
     {
       "start_time": 1384.12,
-      "end_time": 1384.64,
+      "end_time": 1384.96,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -38759,7 +38759,7 @@
     },
     {
       "start_time": 1387.89,
-      "end_time": 1388.39,
+      "end_time": 1388.56,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -39043,7 +39043,7 @@
     },
     {
       "start_time": 1395.69,
-      "end_time": 1396.19,
+      "end_time": 1396.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -39306,7 +39306,7 @@
     },
     {
       "start_time": 1404.11,
-      "end_time": 1404.61,
+      "end_time": 1404.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -39814,7 +39814,7 @@
     },
     {
       "start_time": 1419.56,
-      "end_time": 1421.88,
+      "end_time": 1422.37,
       "speaker": "Ruriko Noguchi",
       "role": "listener_mail",
       "corner": null,
@@ -39892,7 +39892,7 @@
     },
     {
       "start_time": 1422.37,
-      "end_time": 1422.87,
+      "end_time": 1423.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -39971,7 +39971,7 @@
     },
     {
       "start_time": 1424.4,
-      "end_time": 1426.68,
+      "end_time": 1426.8,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -40121,7 +40121,7 @@
     },
     {
       "start_time": 1428.405,
-      "end_time": 1429.84,
+      "end_time": 1430.27,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -40214,7 +40214,7 @@
     },
     {
       "start_time": 1431.88,
-      "end_time": 1435.72,
+      "end_time": 1435.8,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -40483,7 +40483,7 @@
     },
     {
       "start_time": 1439.04,
-      "end_time": 1440.44,
+      "end_time": 1440.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -40554,7 +40554,7 @@
     },
     {
       "start_time": 1440.84,
-      "end_time": 1441.4,
+      "end_time": 1441.84,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -40872,7 +40872,7 @@
     },
     {
       "start_time": 1449.8,
-      "end_time": 1450.76,
+      "end_time": 1451.24,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -40936,7 +40936,7 @@
     },
     {
       "start_time": 1451.24,
-      "end_time": 1452.52,
+      "end_time": 1452.72,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -41007,7 +41007,7 @@
     },
     {
       "start_time": 1452.72,
-      "end_time": 1453.32,
+      "end_time": 1453.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -41348,7 +41348,7 @@
     },
     {
       "start_time": 1464.6,
-      "end_time": 1467.4,
+      "end_time": 1467.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -41483,7 +41483,7 @@
     },
     {
       "start_time": 1468.16,
-      "end_time": 1471.16,
+      "end_time": 1471.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -41589,7 +41589,7 @@
     },
     {
       "start_time": 1471.28,
-      "end_time": 1472.2,
+      "end_time": 1472.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -41625,7 +41625,7 @@
     },
     {
       "start_time": 1472.44,
-      "end_time": 1475.64,
+      "end_time": 1476.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -41738,7 +41738,7 @@
     },
     {
       "start_time": 1476.04,
-      "end_time": 1476.92,
+      "end_time": 1477.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -41866,7 +41866,7 @@
     },
     {
       "start_time": 1478.5,
-      "end_time": 1480.52,
+      "end_time": 1480.92,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -41937,7 +41937,7 @@
     },
     {
       "start_time": 1480.92,
-      "end_time": 1482.44,
+      "end_time": 1482.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -42016,7 +42016,7 @@
     },
     {
       "start_time": 1483.295,
-      "end_time": 1484.01,
+      "end_time": 1484.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -42052,7 +42052,7 @@
     },
     {
       "start_time": 1484.12,
-      "end_time": 1486.08,
+      "end_time": 1486.2,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -42116,7 +42116,7 @@
     },
     {
       "start_time": 1486.2,
-      "end_time": 1487.52,
+      "end_time": 1487.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -42717,7 +42717,7 @@
     },
     {
       "start_time": 1507.0,
-      "end_time": 1513.96,
+      "end_time": 1514.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -42914,7 +42914,7 @@
     },
     {
       "start_time": 1514.12,
-      "end_time": 1514.92,
+      "end_time": 1515.08,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -42936,7 +42936,7 @@
     },
     {
       "start_time": 1515.08,
-      "end_time": 1516.32,
+      "end_time": 1516.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -43156,7 +43156,7 @@
     },
     {
       "start_time": 1524.12,
-      "end_time": 1526.92,
+      "end_time": 1527.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -43396,7 +43396,7 @@
     },
     {
       "start_time": 1530.82,
-      "end_time": 1535.56,
+      "end_time": 1535.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -43727,7 +43727,7 @@
     },
     {
       "start_time": 1539.24,
-      "end_time": 1541.24,
+      "end_time": 1541.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -44068,7 +44068,7 @@
     },
     {
       "start_time": 1549.16,
-      "end_time": 1550.32,
+      "end_time": 1550.52,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -44090,7 +44090,7 @@
     },
     {
       "start_time": 1550.52,
-      "end_time": 1551.6,
+      "end_time": 1551.72,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -44282,7 +44282,7 @@
     },
     {
       "start_time": 1556.6,
-      "end_time": 1557.24,
+      "end_time": 1557.32,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -44325,7 +44325,7 @@
     },
     {
       "start_time": 1557.32,
-      "end_time": 1558.96,
+      "end_time": 1559.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -44389,7 +44389,7 @@
     },
     {
       "start_time": 1559.08,
-      "end_time": 1559.84,
+      "end_time": 1560.04,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -44525,7 +44525,7 @@
     },
     {
       "start_time": 1564.56,
-      "end_time": 1566.24,
+      "end_time": 1566.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -44596,7 +44596,7 @@
     },
     {
       "start_time": 1566.56,
-      "end_time": 1569.64,
+      "end_time": 1569.8,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -44688,7 +44688,7 @@
     },
     {
       "start_time": 1569.8,
-      "end_time": 1572.04,
+      "end_time": 1572.16,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -44766,7 +44766,7 @@
     },
     {
       "start_time": 1572.16,
-      "end_time": 1575.16,
+      "end_time": 1575.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -45381,7 +45381,7 @@
     },
     {
       "start_time": 1587.4,
-      "end_time": 1589.6,
+      "end_time": 1590.0,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -45466,7 +45466,7 @@
     },
     {
       "start_time": 1590.0,
-      "end_time": 1590.8,
+      "end_time": 1590.92,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -45516,7 +45516,7 @@
     },
     {
       "start_time": 1590.92,
-      "end_time": 1596.72,
+      "end_time": 1596.82,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -45735,7 +45735,7 @@
     },
     {
       "start_time": 1597.32,
-      "end_time": 1599.28,
+      "end_time": 1599.64,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -45963,7 +45963,7 @@
     },
     {
       "start_time": 1603.655,
-      "end_time": 1604.33,
+      "end_time": 1604.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -45999,7 +45999,7 @@
     },
     {
       "start_time": 1604.36,
-      "end_time": 1606.4,
+      "end_time": 1606.41,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -46070,7 +46070,7 @@
     },
     {
       "start_time": 1606.41,
-      "end_time": 1606.91,
+      "end_time": 1607.4,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -46113,7 +46113,7 @@
     },
     {
       "start_time": 1607.4,
-      "end_time": 1610.12,
+      "end_time": 1610.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -46205,7 +46205,7 @@
     },
     {
       "start_time": 1610.48,
-      "end_time": 1611.08,
+      "end_time": 1611.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -46299,7 +46299,7 @@
     },
     {
       "start_time": 1613.225,
-      "end_time": 1616.08,
+      "end_time": 1616.49,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -46391,7 +46391,7 @@
     },
     {
       "start_time": 1616.49,
-      "end_time": 1616.99,
+      "end_time": 1617.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -46514,7 +46514,7 @@
     },
     {
       "start_time": 1620.36,
-      "end_time": 1622.16,
+      "end_time": 1622.19,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -46728,7 +46728,7 @@
     },
     {
       "start_time": 1627.42,
-      "end_time": 1629.28,
+      "end_time": 1629.4,
       "speaker": "Machico",
       "role": "host_meta",
       "corner": null,
@@ -46785,7 +46785,7 @@
     },
     {
       "start_time": 1629.4,
-      "end_time": 1630.04,
+      "end_time": 1630.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -46807,7 +46807,7 @@
     },
     {
       "start_time": 1630.12,
-      "end_time": 1631.48,
+      "end_time": 1631.6,
       "speaker": "Machico",
       "role": "listener_mail",
       "corner": null,
@@ -46871,7 +46871,7 @@
     },
     {
       "start_time": 1631.6,
-      "end_time": 1632.36,
+      "end_time": 1632.44,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -47013,7 +47013,7 @@
     },
     {
       "start_time": 1635.23,
-      "end_time": 1635.73,
+      "end_time": 1635.75,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -47553,7 +47553,7 @@
     },
     {
       "start_time": 1651.56,
-      "end_time": 1654.44,
+      "end_time": 1654.76,
       "speaker": "Machico",
       "role": "host_meta",
       "corner": null,
@@ -47659,7 +47659,7 @@
     },
     {
       "start_time": 1654.76,
-      "end_time": 1662.84,
+      "end_time": 1662.96,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -47807,7 +47807,7 @@
     },
     {
       "start_time": 1662.96,
-      "end_time": 1663.68,
+      "end_time": 1663.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -47864,7 +47864,7 @@
     },
     {
       "start_time": 1663.84,
-      "end_time": 1665.4,
+      "end_time": 1665.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -48119,7 +48119,7 @@
     },
     {
       "start_time": 1676.6,
-      "end_time": 1678.52,
+      "end_time": 1678.76,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -48176,7 +48176,7 @@
     },
     {
       "start_time": 1678.76,
-      "end_time": 1680.36,
+      "end_time": 1680.41,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -48240,7 +48240,7 @@
     },
     {
       "start_time": 1680.41,
-      "end_time": 1680.91,
+      "end_time": 1681.28,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -48326,7 +48326,7 @@
     },
     {
       "start_time": 1682.2,
-      "end_time": 1684.48,
+      "end_time": 1684.6,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -48476,7 +48476,7 @@
     },
     {
       "start_time": 1686.44,
-      "end_time": 1687.08,
+      "end_time": 1687.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -48512,7 +48512,7 @@
     },
     {
       "start_time": 1687.2,
-      "end_time": 1689.2,
+      "end_time": 1689.36,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -48796,7 +48796,7 @@
     },
     {
       "start_time": 1695.32,
-      "end_time": 1696.76,
+      "end_time": 1697.16,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -49001,7 +49001,7 @@
     },
     {
       "start_time": 1701.84,
-      "end_time": 1703.56,
+      "end_time": 1703.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -49222,7 +49222,7 @@
     },
     {
       "start_time": 1710.92,
-      "end_time": 1712.44,
+      "end_time": 1712.92,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -49300,7 +49300,7 @@
     },
     {
       "start_time": 1712.92,
-      "end_time": 1715.04,
+      "end_time": 1715.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -49378,7 +49378,7 @@
     },
     {
       "start_time": 1715.12,
-      "end_time": 1720.24,
+      "end_time": 1720.4,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -49513,7 +49513,7 @@
     },
     {
       "start_time": 1720.4,
-      "end_time": 1723.08,
+      "end_time": 1723.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -49620,7 +49620,7 @@
     },
     {
       "start_time": 1724.488,
-      "end_time": 1730.0,
+      "end_time": 1730.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -49868,7 +49868,7 @@
     },
     {
       "start_time": 1731.2,
-      "end_time": 1732.72,
+      "end_time": 1733.08,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -49918,7 +49918,7 @@
     },
     {
       "start_time": 1733.08,
-      "end_time": 1733.92,
+      "end_time": 1734.08,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -49968,7 +49968,7 @@
     },
     {
       "start_time": 1734.08,
-      "end_time": 1736.28,
+      "end_time": 1736.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -50060,7 +50060,7 @@
     },
     {
       "start_time": 1736.36,
-      "end_time": 1737.16,
+      "end_time": 1737.28,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -50579,7 +50579,7 @@
     },
     {
       "start_time": 1781.46,
-      "end_time": 1782.28,
+      "end_time": 1782.6,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -50948,7 +50948,7 @@
     },
     {
       "start_time": 1795.88,
-      "end_time": 1798.12,
+      "end_time": 1798.26,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -51465,7 +51465,7 @@
     },
     {
       "start_time": 1814.0,
-      "end_time": 1815.32,
+      "end_time": 1815.44,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -51501,7 +51501,7 @@
     },
     {
       "start_time": 1815.44,
-      "end_time": 1816.64,
+      "end_time": 1816.76,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -51594,7 +51594,7 @@
     },
     {
       "start_time": 1817.72,
-      "end_time": 1818.84,
+      "end_time": 1818.95,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -51658,7 +51658,7 @@
     },
     {
       "start_time": 1818.95,
-      "end_time": 1819.45,
+      "end_time": 1819.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -51758,7 +51758,7 @@
     },
     {
       "start_time": 1824.32,
-      "end_time": 1825.24,
+      "end_time": 1825.36,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -51851,7 +51851,7 @@
     },
     {
       "start_time": 1826.76,
-      "end_time": 1827.96,
+      "end_time": 1828.32,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -51922,7 +51922,7 @@
     },
     {
       "start_time": 1828.32,
-      "end_time": 1832.12,
+      "end_time": 1832.24,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -52127,7 +52127,7 @@
     },
     {
       "start_time": 1836.04,
-      "end_time": 1839.4,
+      "end_time": 1839.84,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -52240,7 +52240,7 @@
     },
     {
       "start_time": 1839.84,
-      "end_time": 1843.76,
+      "end_time": 1843.88,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -52332,7 +52332,7 @@
     },
     {
       "start_time": 1843.88,
-      "end_time": 1845.0,
+      "end_time": 1845.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -52574,7 +52574,7 @@
     },
     {
       "start_time": 1852.26,
-      "end_time": 1855.24,
+      "end_time": 1855.41,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -52666,7 +52666,7 @@
     },
     {
       "start_time": 1855.41,
-      "end_time": 1855.91,
+      "end_time": 1856.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -52924,7 +52924,7 @@
     },
     {
       "start_time": 1864.34,
-      "end_time": 1865.8,
+      "end_time": 1865.88,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -52960,7 +52960,7 @@
     },
     {
       "start_time": 1865.88,
-      "end_time": 1869.08,
+      "end_time": 1869.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -53087,7 +53087,7 @@
     },
     {
       "start_time": 1869.52,
-      "end_time": 1870.4,
+      "end_time": 1870.48,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -53358,7 +53358,7 @@
     },
     {
       "start_time": 1877.2,
-      "end_time": 1878.92,
+      "end_time": 1879.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -53422,7 +53422,7 @@
     },
     {
       "start_time": 1879.04,
-      "end_time": 1879.96,
+      "end_time": 1880.12,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -53479,7 +53479,7 @@
     },
     {
       "start_time": 1880.12,
-      "end_time": 1880.92,
+      "end_time": 1881.12,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -53698,7 +53698,7 @@
     },
     {
       "start_time": 1886.0,
-      "end_time": 1886.6,
+      "end_time": 1887.04,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -53854,7 +53854,7 @@
     },
     {
       "start_time": 1889.04,
-      "end_time": 1892.2,
+      "end_time": 1892.52,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -54003,7 +54003,7 @@
     },
     {
       "start_time": 1895.32,
-      "end_time": 1896.4,
+      "end_time": 1896.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -54060,7 +54060,7 @@
     },
     {
       "start_time": 1896.48,
-      "end_time": 1897.56,
+      "end_time": 1897.68,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -54174,7 +54174,7 @@
     },
     {
       "start_time": 1899.24,
-      "end_time": 1900.36,
+      "end_time": 1900.56,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
@@ -54288,7 +54288,7 @@
     },
     {
       "start_time": 1903.44,
-      "end_time": 1905.96,
+      "end_time": 1906.2,
       "speaker": "Machico",
       "role": "host",
       "corner": null,
@@ -54373,7 +54373,7 @@
     },
     {
       "start_time": 1906.2,
-      "end_time": 1908.24,
+      "end_time": 1908.48,
       "speaker": "Ruriko Noguchi",
       "role": "host",
       "corner": null,
