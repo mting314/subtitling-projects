@@ -141,20 +141,18 @@ uv run --script scripts/youtube_upload.py \
 
 ## Published
 
-- **Video ID**: `XcUtHX0Hz0A` — <https://youtu.be/XcUtHX0Hz0A> (uploaded 2026-09-09, **private**)
+- **Video ID**: `VAWD1nq9X7Q` — <https://youtu.be/VAWD1nq9X7Q> (uploaded 2026-09-09, **private**)
 - Rendered from `_hardsubbed.mp4` (684 MB, libx264 ~3 Mbps, 28:52.9) off the QC'd `_translated.ass`.
 
-> **Superseded uploads — delete both.** YouTube cannot swap a file in place, so every
-> re-cut goes up as a new video:
+> **Superseded upload — delete `XcUtHX0Hz0A`** (2026-09-09): same cut, but before the
+> final timing pass and the "resolve everything so gracefully" reword. `uj9l059X_6E` and
+> `oWZMB7uETL4` were already deleted.
 >
-> | ID | Uploaded | Why superseded |
-> |---|---|---|
-> | `uj9l059X_6E` | 2026-09-08 | pre-QC: grammar errors, Japanese-order "Hinomori Shizuku", `"We Are"` |
-> | `oWZMB7uETL4` | 2026-09-09 | post-QC but pre-trim: keeps the 10s trailing ad-lib, old YouTube-chat line |
->
-> `scripts/youtube_upload.py` holds a `youtube.upload`-scoped token, which cannot delete
-> (or even list) videos — deletion needs `youtube.force-ssl`. Do it by hand in Studio
-> rather than widening a persistent token just for cleanup.
+> YouTube cannot swap a file in place, so every re-cut goes up as a new video and the old
+> one has to be removed by hand. `scripts/youtube_upload.py` holds a `youtube.upload`
+> token, which cannot delete (or even list) videos — that needs `youtube.force-ssl`, not
+> worth widening a persistent token for cleanup. **Iterate on the rendered MP4, not the
+> `.ass`, before uploading** — four of these drafts came from fixes caught post-upload.
 
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
