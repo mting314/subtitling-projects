@@ -32,17 +32,24 @@ MORE MORE JUMP! secures their very first TV appearance. However, the MC for the 
 
 Cuts to remove (everything else is kept):
 - start → 00:09:53 — intro delay
-- 00:14:21 → 00:27:44 — story review watchalong
+- 00:14:11 → 00:27:44 — trailing ad-lib + story review watchalong
 - 00:29:33 → 00:48:30 — 3DMV viewing
 - 01:11:23 → end — outro
 
 Kept segments (transcribed + translated) — fade-aware trimming (0.4s audio/video fade transitions).
-Regenerated 2026-07-31 by `scripts/find_segments.py` against the current 443-event `.ass`:
-- 0:09:53.00 → 0:14:20.96 (266s, post-intro host segment)
+Regenerated 2026-07-31 by `scripts/find_segments.py`; segment 1's end was pulled in by hand
+on 2026-09-09 (see below):
+- 0:09:53.00 → 0:14:11.00 (258s, post-intro host segment)
 - 0:27:41.00 → 0:29:22.96 (100s, transition between story review and 3DMV)
 - 0:48:30.13 → 1:11:23.04 (1371s, post-MV: card discussion + song talk)
 
 Both CUT gaps verified silent by the transcript (0 and 2 words), so nothing is lost.
+
+**Segment 1 end (0:14:11.00).** Her last subtitled line 「7話を見ていきましょうね」 ends at
+0:14:09.00; after it she ad-libs 「なんかまたみんなと見ると面白いよね。はい、7話です。」, whose
+subtitles were dropped in the QC pass, so the footage goes too. The cut sits in the 2.36s
+silence between 「よし。」(ends 0:14:09.64) and 「なんか」(starts 0:14:12.00) — the only clean
+spot. Note 0:14:13 (a round 4:20 in the output) is **mid-word** inside 「見る」; don't cut there.
 
 ## Command (full pipeline)
 
@@ -79,7 +86,7 @@ uv run python scripts/hardsub_trim.py \
   "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk.mkv" \
   "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_translated.ass" \
   "projects/Project Sekai/Aftertalk/At The End of The Unraveled Thread Aftertalk/At The End of The Unraveled Thread Aftertalk_hardsubbed.mp4" \
-  0:09:53.00 0:14:20.96 \
+  0:09:53.00 0:14:11.00 \
   0:27:41.00 0:29:22.96 \
   0:48:30.13 1:11:23.04 \
   --encoder libx264
