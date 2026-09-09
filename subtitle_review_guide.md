@@ -346,10 +346,25 @@ Canonical forms to enforce across all episodes of a show.
 | Brands | `Grand Fleur`, `Floraison Éclat` | keep accents |
 | Composer | `Usushioshisuu-san` | as romanized in-show |
 | Song (Run/Far/Reach) | `"Hashiru! Tooku! Todoku!"` | romaji, quoted, not translated |
+| Song (event 85) | `"We are"` | official EN title for 私は、私達は — lowercase `a`, keep it |
 | Host nickname | `Hon-chan` | Rina Honnizumi (VA of Shizuku) |
 
 > When standardizing a stylized name, the fullwidth ＊ is U+FF0A (not the ASCII `*`).
 > Copy it from an existing correct instance to avoid typing the wrong glyph.
+
+> **Resolving an official English song title.** Don't guess or hand-translate — the EN
+> server's own master DB has it. Get the event's `musicId` from `eventMusics.json`, then
+> read `title` out of the **EN** DB (plain `curl` works where WebFetch is gated):
+>
+> ```bash
+> curl -s https://sekai-world.github.io/sekai-master-db-en-diff/musics.json -o /tmp/musics_en.json
+> curl -s https://sekai-world.github.io/sekai-master-db-diff/eventMusics.json -o /tmp/em.json
+> ```
+>
+> Note the `-en-diff` DB is the *official localization*, so its casing is authoritative:
+> event 85's song is `"We are"`, not `"We Are"`. Per `MOS:TITLES` we keep an official
+> lowercase stylization rather than title-casing it. If a song has no EN entry yet
+> (recent events — EN runs ~1.5 yr behind), fall back to romaji.
 
 > **Unit abbreviations vs fan greetings.** The Japanese colloquial short form maps to the
 > English community short form (`モモジャン` → `MMJ`), *not* to a transliteration of the
