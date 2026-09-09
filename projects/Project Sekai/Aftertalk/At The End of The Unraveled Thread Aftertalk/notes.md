@@ -141,14 +141,20 @@ uv run --script scripts/youtube_upload.py \
 
 ## Published
 
-- **Video ID**: `oWZMB7uETL4` — <https://youtu.be/oWZMB7uETL4> (uploaded 2026-09-09, **private**)
-- Rendered from `_hardsubbed.mp4` (687 MB, libx264 ~3 Mbps, 29:03) off the QC'd `_translated.ass`.
+- **Video ID**: `XcUtHX0Hz0A` — <https://youtu.be/XcUtHX0Hz0A> (uploaded 2026-09-09, **private**)
+- Rendered from `_hardsubbed.mp4` (684 MB, libx264 ~3 Mbps, 28:52.9) off the QC'd `_translated.ass`.
 
-> **Superseded upload:** `uj9l059X_6E` (2026-09-08) was burned from the pre-QC subtitles —
-> it has the "talk about of it" / "That scene where says" grammar errors, the
-> Japanese-order "Hinomori Shizuku" self-introduction, and `"We Are"` instead of the
-> official `"We are"`. **Delete it**; YouTube cannot swap a file in place, so the re-cut
-> had to go up as a new video.
+> **Superseded uploads — delete both.** YouTube cannot swap a file in place, so every
+> re-cut goes up as a new video:
+>
+> | ID | Uploaded | Why superseded |
+> |---|---|---|
+> | `uj9l059X_6E` | 2026-09-08 | pre-QC: grammar errors, Japanese-order "Hinomori Shizuku", `"We Are"` |
+> | `oWZMB7uETL4` | 2026-09-09 | post-QC but pre-trim: keeps the 10s trailing ad-lib, old YouTube-chat line |
+>
+> `scripts/youtube_upload.py` holds a `youtube.upload`-scoped token, which cannot delete
+> (or even list) videos — deletion needs `youtube.force-ssl`. Do it by hand in Studio
+> rather than widening a persistent token just for cleanup.
 
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
