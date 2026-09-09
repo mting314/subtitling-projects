@@ -134,8 +134,14 @@ uv run --script scripts/youtube_upload.py \
 
 ## Published
 
-- **Video ID**: `uj9l059X_6E` — <https://youtu.be/uj9l059X_6E> (uploaded 2026-09-08, **private**)
+- **Video ID**: `oWZMB7uETL4` — <https://youtu.be/oWZMB7uETL4> (uploaded 2026-09-09, **private**)
 - Rendered from `_hardsubbed.mp4` (687 MB, libx264 ~3 Mbps, 29:03) off the QC'd `_translated.ass`.
+
+> **Superseded upload:** `uj9l059X_6E` (2026-09-08) was burned from the pre-QC subtitles —
+> it has the "talk about of it" / "That scene where says" grammar errors, the
+> Japanese-order "Hinomori Shizuku" self-introduction, and `"We Are"` instead of the
+> official `"We are"`. **Delete it**; YouTube cannot swap a file in place, so the re-cut
+> had to go up as a new video.
 
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
