@@ -141,12 +141,11 @@ uv run --script scripts/youtube_upload.py \
 
 ## Published
 
-- **Video ID**: `VAWD1nq9X7Q` — <https://youtu.be/VAWD1nq9X7Q> (uploaded 2026-09-09, **private**)
+- **Video ID**: `EiBTJmvvrBU` — <https://youtu.be/EiBTJmvvrBU> (uploaded 2026-09-09, **private**)
 - Rendered from `_hardsubbed.mp4` (684 MB, libx264 ~3 Mbps, 28:52.9) off the QC'd `_translated.ass`.
 
-> **Superseded upload — delete `XcUtHX0Hz0A`** (2026-09-09): same cut, but before the
-> final timing pass and the "resolve everything so gracefully" reword. `uj9l059X_6E` and
-> `oWZMB7uETL4` were already deleted.
+> **Superseded uploads — delete `XcUtHX0Hz0A` and `VAWD1nq9X7Q`** (both 2026-09-09).
+> `uj9l059X_6E` and `oWZMB7uETL4` were already deleted.
 >
 > YouTube cannot swap a file in place, so every re-cut goes up as a new video and the old
 > one has to be removed by hand. `scripts/youtube_upload.py` holds a `youtube.upload`
