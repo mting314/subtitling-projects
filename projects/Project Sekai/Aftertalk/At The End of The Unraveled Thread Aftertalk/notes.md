@@ -155,16 +155,17 @@ uv run --script scripts/youtube_upload.py \
 Final QC state: 0 of 431 lines over 2 rows, no cue overlaps, every cue inside the keep
 segments, both concat joins free of black, Korpokkur popup burned at `0:54:16.16`.
 
-### Superseded drafts
+### Superseded drafts — all deleted 2026-09-09
 
-All re-cuts, since YouTube cannot swap a file in place. Delete any still present.
+Each was a re-cut, since YouTube cannot swap a file in place. Kept here as a record of
+what changed between passes; nothing outstanding.
 
-| ID | Why superseded | Deleted? |
-|---|---|---|
-| `uj9l059X_6E` | pre-QC: grammar errors, `Hinomori Shizuku`, `"We Are"` | yes |
-| `oWZMB7uETL4` | pre-trim: 10s trailing ad-lib, old YouTube-chat line | yes |
-| `XcUtHX0Hz0A` | pre-final timing pass and the "so gracefully" reword | **check** |
-| `VAWD1nq9X7Q` | opening line started 1.78s early, over the graphics fade-in | **check** |
+| ID | Why superseded |
+|---|---|
+| `uj9l059X_6E` | pre-QC: grammar errors, `Hinomori Shizuku`, `"We Are"` |
+| `oWZMB7uETL4` | pre-trim: 10s trailing ad-lib, old YouTube-chat line |
+| `XcUtHX0Hz0A` | pre-final timing pass and the "so gracefully" reword |
+| `VAWD1nq9X7Q` | opening line started 1.78s early, over the graphics fade-in |
 
 > **Lesson for next episode.** Five uploads for one video: every fix after the first was
 > caught *after* upload, on the render rather than the `.ass`. The hardsub is ~6 min and
