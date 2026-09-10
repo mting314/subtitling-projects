@@ -1,5 +1,7 @@
 # At The End of The Unraveled Thread Aftertalk
 
+> **✅ COMPLETE — published 2026-09-09:** <https://youtu.be/EiBTJmvvrBU>
+
 > Official Colorful Stage EN title: **"At The End of The Unraveled Thread"**. JP: ほどかれた糸のその先に (Marathon, asset bundle `event_thread_2023`).
 
 **Commit prefix**: `shizu3`
@@ -139,24 +141,42 @@ uv run --script scripts/youtube_upload.py \
 - **`Hina-dan`**: Verified against Japanese transcript (`ひなだん` / 雛壇) — refers to studio panel/gallery seats, corrected to "studio panel".
 - **`"Metamo Re:born"`**: Verified official Project Sekai English song title for メタモリボン (formerly draft-translated as "Metamolibbon").
 
-## Published
+## Published ✅
 
-- **Video ID**: `EiBTJmvvrBU` — <https://youtu.be/EiBTJmvvrBU> (uploaded 2026-09-09, **private**)
-- Rendered from `_hardsubbed.mp4` (684 MB, libx264 ~3 Mbps, 28:52.9) off the QC'd `_translated.ass`.
+**Live:** <https://youtu.be/EiBTJmvvrBU> — published 2026-09-09.
 
-> **Superseded uploads — delete `XcUtHX0Hz0A` and `VAWD1nq9X7Q`** (both 2026-09-09).
-> `uj9l059X_6E` and `oWZMB7uETL4` were already deleted.
->
-> YouTube cannot swap a file in place, so every re-cut goes up as a new video and the old
-> one has to be removed by hand. `scripts/youtube_upload.py` holds a `youtube.upload`
-> token, which cannot delete (or even list) videos — that needs `youtube.force-ssl`, not
-> worth widening a persistent token for cleanup. **Iterate on the rendered MP4, not the
-> `.ass`, before uploading** — four of these drafts came from fixes caught post-upload.
+| | |
+|---|---|
+| Video ID | `EiBTJmvvrBU` |
+| Runtime | 28:52.9 (3 segments) |
+| Render | 684 MB, H.264 libx264 `-crf 20` (~2.96 Mbps), 1920x1080 |
+| Source | `_hardsubbed.mp4`, burned from the QC'd `_translated.ass` (431 cues) |
+
+Final QC state: 0 of 431 lines over 2 rows, no cue overlaps, every cue inside the keep
+segments, both concat joins free of black, Korpokkur popup burned at `0:54:16.16`.
+
+### Superseded drafts
+
+All re-cuts, since YouTube cannot swap a file in place. Delete any still present.
+
+| ID | Why superseded | Deleted? |
+|---|---|---|
+| `uj9l059X_6E` | pre-QC: grammar errors, `Hinomori Shizuku`, `"We Are"` | yes |
+| `oWZMB7uETL4` | pre-trim: 10s trailing ad-lib, old YouTube-chat line | yes |
+| `XcUtHX0Hz0A` | pre-final timing pass and the "so gracefully" reword | **check** |
+| `VAWD1nq9X7Q` | opening line started 1.78s early, over the graphics fade-in | **check** |
+
+> **Lesson for next episode.** Five uploads for one video: every fix after the first was
+> caught *after* upload, on the render rather than the `.ass`. The hardsub is ~6 min and
+> free; an upload leaves a draft only a human can remove (`scripts/youtube_upload.py`
+> holds a `youtube.upload` token, which cannot delete or even list videos — that needs
+> `youtube.force-ssl`, not worth widening a persistent token for cleanup). **Do the
+> read-through on the rendered MP4, then upload once.**
 
 ## YouTube Title
 [ENG SUB] At The End of The Unraveled Thread Aftertalk feat. Rina Honnizumi (Shizuku's VA)
 
-## YouTube Blurb (draft)
+## YouTube Blurb
 
 This episode of ProSeka AfterTalk has Rina Honnizumi (voice of Shizuku Hinomori) covering the MORE MORE JUMP! event "At The End of The Unraveled Thread", where Shizuku confronts her past with Cheerful＊Days and faces Arisa head-on during a joint filming for MMJ's first TV appearance.
 
