@@ -14,9 +14,9 @@ Audio File: Sekaraji Ep 72.mkv
 Video File: ?dummy:23.976000:40000:1920:1080:47:163:254:
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 150
-Active Line: 164
-Video Position: 10199
+Scroll Position: 380
+Active Line: 394
+Video Position: 23200
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -188,241 +188,238 @@ Dialogue: 0,0:06:40.08,0:06:41.24,Minori Suzuki,host,0,0,0,,How about you, Rina?
 Dialogue: 0,0:06:41.24,0:06:43.56,Rina Honnizumi,host,0,0,0,,Actually, I like traveling alone too.
 Dialogue: 0,0:06:44.98,0:06:50.24,Rina Honnizumi,host,0,0,0,,I love hot springs, so I decided to go somewhere with nature.
 Dialogue: 0,0:06:50.24,0:06:54.28,Rina Honnizumi,host,0,0,0,,The other day,\NI suddenly found out I had two days off starting the next day.
-Dialogue: 0,0:06:54.84,0:07:00.57,Rina Honnizumi,host,0,0,0,,So I booked a place right then and went to Kinugawa.
-Dialogue: 0,0:07:00.57,0:07:01.07,Minori Suzuki,host,0,0,0,,Oh!
+Dialogue: 0,0:06:54.84,0:07:00.79,Rina Honnizumi,host,0,0,0,,So I booked a place right then and went to Kinugawa.
+Dialogue: 0,0:07:00.79,0:07:01.96,Minori Suzuki,host,0,0,0,,Oh!
 Dialogue: 0,0:07:01.96,0:07:03.32,Rina Honnizumi,host,0,0,0,,I'd been wanting to go to a river for a while.
 Dialogue: 0,0:07:03.32,0:07:04.50,Rina Honnizumi,host,0,0,0,,Right, right.
 Dialogue: 0,0:07:04.50,0:07:05.52,Rina Honnizumi,host,0,0,0,,That's lovely.
-Dialogue: 0,0:07:05.52,0:07:08.88,Minori Suzuki,host,0,0,0,,And I had a full view of the river from my room. It's pretty similar!
-Dialogue: 0,0:07:09.40,0:07:11.36,Rina Honnizumi,host,0,0,0,,The only difference is the river versus the ocean.
+Dialogue: 0,0:07:05.52,0:07:09.40,Rina Honnizumi,host,0,0,0,,And I had a full view of the river from my ryokan room.
+Dialogue: 0,0:07:08.21,0:07:09.40,Minori Suzuki,,0,0,0,,We're kind of matching.
+Dialogue: 0,0:07:09.40,0:07:11.36,Rina Honnizumi,host,0,0,0,,We are kind of matching!
+Dialogue: 0,0:07:09.40,0:07:11.36,Minori Suzuki,host,0,0,0,,The only difference is the river versus the ocean.
 Dialogue: 0,0:07:11.36,0:07:13.32,Rina Honnizumi,host,0,0,0,,I just wanted to be healed by the water.
 Dialogue: 0,0:07:13.92,0:07:20.24,Rina Honnizumi,host,0,0,0,,I soaked in the hot springs,\Nand I always decide to do a digital detox when I go to an inn.
 Dialogue: 0,0:07:20.24,0:07:21.28,Minori Suzuki,host,0,0,0,,Yeah, we're exactly the same.
-Dialogue: 0,0:07:22.08,0:07:28.10,Rina Honnizumi,host,0,0,0,,I just stayed in the inn and read books. the view was so beautiful this time,
-Dialogue: 0,0:07:28.10,0:07:32.36,Rina Honnizumi,host,0,0,0,,that I spent the whole time on the balcony listening to the sound of the river.
-Dialogue: 0,0:07:28.93,0:07:29.43,Minori Suzuki,host,0,0,0,,Ah...
-Dialogue: 0,0:07:32.36,0:07:33.00,Minori Suzuki,host,0,0,0,,We're way too similar.
-Dialogue: 0,0:07:34.28,0:07:35.16,Minori Suzuki,host,0,0,0,,We really are.
-Dialogue: 0,0:07:34.83,0:07:35.33,Rina Honnizumi,host,0,0,0,,Right?
-Dialogue: 0,0:07:35.16,0:07:36.16,Minori Suzuki,host,0,0,0,,In how we relax.
-Dialogue: 0,0:07:36.07,0:07:36.57,Rina Honnizumi,host,0,0,0,,Yeah.
-Dialogue: 0,0:07:37.10,0:07:37.60,Minori Suzuki,host,0,0,0,,I get it.
-Dialogue: 0,0:07:37.60,0:07:44.14,Minori Suzuki,host,0,0,0,,Sometimes I just want to see or be near water. I love the ocean too.
-Dialogue: 0,0:07:42.41,0:07:42.91,Rina Honnizumi,host,0,0,0,,I want to soak in it.
-Dialogue: 0,0:07:44.14,0:07:46.20,Minori Suzuki,host,0,0,0,,I end up going to Atami every now and then.
+Dialogue: 0,0:07:22.08,0:07:26.63,Rina Honnizumi,host,0,0,0,,I just stayed in the inn and read books. the view was so beautiful this time,
+Dialogue: 0,0:07:26.63,0:07:32.36,Rina Honnizumi,host,0,0,0,,the view was so beautiful that I spent the whole time on the balcony listening to the sound of the river.
+Dialogue: 0,0:07:29.11,0:07:29.96,Minori Suzuki,host,0,0,0,,Ah...
+Dialogue: 0,0:07:31.84,0:07:33.69,Minori Suzuki,host,0,0,0,,We're way too similar.
+Dialogue: 0,0:07:34.28,0:07:35.16,Rina Honnizumi,host,0,0,0,,We really are.
+Dialogue: 0,0:07:34.83,0:07:35.33,Minori Suzuki,host,0,0,0,,Right?
+Dialogue: 0,0:07:35.16,0:07:37.03,Rina Honnizumi,host,0,0,0,,In how we relax.
+Dialogue: 0,0:07:36.07,0:07:37.03,Minori Suzuki,host,0,0,0,,Yeah.
+Dialogue: 0,0:07:37.60,0:07:42.41,Minori Suzuki,host,0,0,0,,Sometimes I just like looking at water, or taking a dip.
+Dialogue: 0,0:07:42.41,0:07:42.94,Rina Honnizumi,host,0,0,0,,I love just soaking too.
+Dialogue: 0,0:07:42.94,0:07:44.14,Rina Honnizumi,host,0,0,0,,I love the ocean too!
+Dialogue: 0,0:07:44.14,0:07:46.20,Rina Honnizumi,host,0,0,0,,I end up going to Atami every now and then.
 Dialogue: 0,0:07:46.20,0:07:47.20,Rina Honnizumi,host,0,0,0,,Since it's close.
 Dialogue: 0,0:07:47.20,0:07:49.08,Minori Suzuki,host,0,0,0,,I go to Atami a lot too.
 Dialogue: 0,0:07:49.08,0:07:50.88,Rina Honnizumi,host,0,0,0,,Now I want to go to Hokkaido.
 Dialogue: 0,0:07:50.88,0:07:51.88,Minori Suzuki,host,0,0,0,,That sounds nice.
 Dialogue: 0,0:07:51.88,0:07:53.44,Rina Honnizumi,host,0,0,0,,I'd love to see the ocean in Hokkaido too.
-Dialogue: 0,0:07:53.44,0:07:55.12,Rina Honnizumi,host,0,0,0,,It really is lovely.
-Dialogue: 0,0:07:55.88,0:07:57.68,Rina Honnizumi,host,0,0,0,,I think going by ferry is a great idea.
-Dialogue: 0,0:07:57.68,0:08:06.52,Rina Honnizumi,host,0,0,0,,When you factor in flights and hotels,\Ntaking the ferry might even be a bit cheaper, so...
-Dialogue: 0,0:08:05.75,0:08:06.25,Minori Suzuki,host,0,0,0,,Oh, really?
-Dialogue: 0,0:08:06.52,0:08:12.16,Rina Honnizumi,host,0,0,0,,As long as you don't get seasick,\Nit's perfect for people who love the ocean.
-Dialogue: 0,0:08:12.16,0:08:13.64,Minori Suzuki,host,0,0,0,,I've heard Oarai is a nice place too.
-Dialogue: 0,0:08:13.64,0:08:14.68,Rina Honnizumi,host,0,0,0,,Oh, is it?
-Dialogue: 0,0:08:14.68,0:08:20.00,Rina Honnizumi,host,0,0,0,,I only really saw the ferry terminal, but the air was so fresh.
-Dialogue: 0,0:08:20.00,0:08:24.72,Rina Honnizumi,host,0,0,0,,It was only for a short time,\Nbut since it had just rained, there was a rainbow...
-Dialogue: 0,0:08:25.32,0:08:30.26,Rina Honnizumi,host,0,0,0,,The sky was so clear and beautiful.\NI'd love to actually sightsee in Oarai next time.
-Dialogue: 0,0:08:30.26,0:08:35.12,Rina Honnizumi,host,0,0,0,,There were definitely a lot of people heading that way, so... yeah.
+Dialogue: 0,0:07:53.44,0:07:55.12,Minori Suzuki,host,0,0,0,,It really is lovely.
+Dialogue: 0,0:07:55.88,0:07:57.68,Minori Suzuki,host,0,0,0,,I think going by ferry is really nice.
+Dialogue: 0,0:07:57.68,0:08:06.52,Minori Suzuki,host,0,0,0,,When you factor in flights and hotels,\Ntaking the ferry might even be a bit cheaper, so...
+Dialogue: 0,0:08:05.75,0:08:06.52,Rina Honnizumi,host,0,0,0,,Oh, really?
+Dialogue: 0,0:08:06.52,0:08:12.16,Minori Suzuki,host,0,0,0,,As long as you don't get seasick,\Nit's perfect for people who love the ocean.
+Dialogue: 0,0:08:12.16,0:08:13.64,Rina Honnizumi,host,0,0,0,,I've heard Oarai is a nice place too.
+Dialogue: 0,0:08:13.64,0:08:14.68,Minori Suzuki,host,0,0,0,,Oh, is it?
+Dialogue: 0,0:08:14.68,0:08:20.00,Minori Suzuki,host,0,0,0,,I only really saw the ferry terminal, but the air was so fresh.
+Dialogue: 0,0:08:20.00,0:08:24.72,Minori Suzuki,host,0,0,0,,It was only for a short time,\Nbut since it had just rained, there was a rainbow...
+Dialogue: 0,0:08:23.84,0:08:24.72,Rina Honnizumi,,0,0,0,,Eh?
+Dialogue: 0,0:08:24.72,0:08:25.32,Minori Suzuki,,0,0,0,,Yeah.
+Dialogue: 0,0:08:25.32,0:08:30.26,Minori Suzuki,host,0,0,0,,The sky was so clear and beautiful.\NI'd love to actually sightsee in Oarai next time.
+Dialogue: 0,0:08:26.16,0:08:27.42,Rina Honnizumi,,0,0,0,,That's so wonderful!
+Dialogue: 0,0:08:30.26,0:08:35.12,Minori Suzuki,host,0,0,0,,There were definitely a lot of people heading to Oarai, so... yeah.
 Dialogue: 0,0:08:36.04,0:08:37.96,Minori Suzuki,host,0,0,0,,I hear they have a lot of wonderful traditional inns there.
-Dialogue: 0,0:08:37.96,0:08:39.37,Rina Honnizumi,host,0,0,0,,Ah, the list of places I want to visit just keeps growing.
-Dialogue: 0,0:08:39.37,0:08:39.87,Minori Suzuki,host,0,0,0,,That's great.
-Dialogue: 0,0:08:40.40,0:08:41.54,Rina Honnizumi,host,0,0,0,,It really is.
-Dialogue: 0,0:08:41.54,0:08:43.76,Rina Honnizumi,host,0,0,0,,Looks like we both have some nice summer memories after all.
-Dialogue: 0,0:08:43.76,0:08:44.52,Minori Suzuki,host,0,0,0,,Yeah, I'm glad.
+Dialogue: 0,0:08:37.96,0:08:40.40,Rina Honnizumi,host,0,0,0,,Ah, the list of places I want to visit just keeps growing. I'm excited!
+Dialogue: 0,0:08:40.40,0:08:41.54,Minori Suzuki,host,0,0,0,,It really is.
+Dialogue: 0,0:08:41.54,0:08:43.76,Minori Suzuki,host,0,0,0,,Looks like we both have some nice summer memories after all.
+Dialogue: 0,0:08:43.76,0:08:44.52,Rina Honnizumi,host,0,0,0,,Yeah, I'm glad.
 Comment: 0,0:08:45.60,0:08:52.04,Rina Honnizumi,,0,0,0,corner,=== Corner: Listener Mail ===
-Dialogue: 0,0:08:45.60,0:08:52.04,Rina Honnizumi,host,0,0,0,,All right, then.\NLet's move on and read some of the listener mail we've received.
-Dialogue: 0,0:08:50.19,0:08:50.69,Minori Suzuki,host,0,0,0,,Okay.
-Dialogue: 0,0:08:51.89,0:08:52.76,Minori Suzuki,host,0,0,0,,Yeah.
+Dialogue: 0,0:08:45.60,0:08:52.76,Minori Suzuki,host,0,0,0,,All right, then.\NLet's move on and read some of the listener mail we've received.
+Dialogue: 0,0:08:50.19,0:08:50.69,Rina Honnizumi,host,0,0,0,,Okay.
+Dialogue: 0,0:08:51.89,0:08:52.76,Rina Honnizumi,host,0,0,0,,Yeah.
 Comment: 0,0:08:52.76,0:08:53.98,Rina Honnizumi,,0,0,0,corner,=== Corner: Contact Notebook ===
-Dialogue: 0,0:08:52.76,0:08:53.98,Rina Honnizumi,host,0,0,0,,Oh, that's right.
-Dialogue: 0,0:08:53.98,0:08:55.30,Rina Honnizumi,host,0,0,0,,Before we do that,
-Dialogue: 0,0:08:55.30,0:09:02.66,Rina Honnizumi,host,0,0,0,,we'll also be leaving a comment in the contact notebook for the next pair of hosts during the ending.
-Dialogue: 0,0:09:02.66,0:09:04.80,Rina Honnizumi,host,0,0,0,,During the ending, huh? Let's start thinking of something.
-Dialogue: 0,0:09:04.47,0:09:04.97,Minori Suzuki,host,0,0,0,,Right.
+Dialogue: 0,0:08:52.76,0:08:53.98,Minori Suzuki,host,0,0,0,,Oh, that's right.
+Dialogue: 0,0:08:53.98,0:08:56.48,Minori Suzuki,host,0,0,0,,Before we do that, we have the...
+Dialogue: 0,0:08:56.48,0:09:02.66,Minori Suzuki,host,0,0,0,,we'll also be leaving a comment in the contact notebook for the next pair of hosts during the ending.
+Dialogue: 0,0:09:02.66,0:09:05.05,Minori Suzuki,host,0,0,0,,During the ending, huh? Let's start thinking of something.
+Dialogue: 0,0:09:04.66,0:09:05.05,Rina Honnizumi,host,0,0,0,,Yep.
 Comment: 0,0:09:04.80,0:09:10.80,Rina Honnizumi,,0,0,0,corner,=== Corner: Listener Mail ===
-Dialogue: 0,0:09:04.80,0:09:10.80,Rina Honnizumi,host_meta,0,0,0,,Okay, so let's get back to it. This first one is from Radio name: 4B.
+Dialogue: 0,0:09:05.62,0:09:10.80,Minori Suzuki,host_meta,0,0,0,,Okay, so let's get back to it. This first one is from Radio name: 4B.
 Dialogue: 0,0:09:10.80,0:09:12.12,Rina Honnizumi,host,0,0,0,,Thank you very much.
-Dialogue: 0,0:09:12.12,0:09:13.36,Rina Honnizumi,host,0,0,0,,Probably like the pencil lead.
-Dialogue: 0,0:09:13.36,0:09:15.44,Minori Suzuki,host,0,0,0,,They must like the dark ones.
-Dialogue: 0,0:09:15.44,0:09:16.14,Rina Honnizumi,host,0,0,0,,Yeah.
-Dialogue: 0,0:09:16.14,0:09:19.55,Rina Honnizumi,listener_mail,0,0,0,,"Honnizumi-san, Suzuki-san, kon-more, and hello."
-Dialogue: 0,0:09:19.55,0:09:20.32,Minori Suzuki,host,0,0,0,,Hello.
+Dialogue: 0,0:09:10.80,0:09:12.12,Minori Suzuki,host,0,0,0,,Thank you very much.
+Dialogue: 0,0:09:12.12,0:09:13.36,Minori Suzuki,host,0,0,0,,Probably like the pencil lead.
+Dialogue: 0,0:09:13.36,0:09:15.44,Rina Honnizumi,host,0,0,0,,They must like the dark ones.
+Dialogue: 0,0:09:15.44,0:09:16.14,Minori Suzuki,host,0,0,0,,Yeah.
+Dialogue: 0,0:09:16.14,0:09:20.32,Rina Honnizumi,listener_mail,0,0,0,,"Honnizumi-san, Suzuki-san, kon-more, and kon-niigo."
+Dialogue: 0,0:09:19.55,0:09:20.32,Minori Suzuki,host,0,0,0,,Kon-niigo.
 Dialogue: 0,0:09:20.32,0:09:21.06,Rina Honnizumi,host,0,0,0,,Thank you.
-Dialogue: 0,0:09:21.06,0:09:22.18,Rina Honnizumi,host,0,0,0,,Thanks for writing in.
-Dialogue: 0,0:09:22.18,0:09:25.40,Rina Honnizumi,listener_mail,0,0,0,,"I realized that I haven't eaten any shaved ice yet this year."
-Dialogue: 0,0:09:25.92,0:09:29.87,Rina Honnizumi,listener_mail,0,0,0,,"It's been so hot outside that I haven't felt like going out at all, so I think that's why."
-Dialogue: 0,0:09:29.87,0:09:30.37,Minori Suzuki,host,0,0,0,,I bet.
-Dialogue: 0,0:09:31.16,0:09:34.96,Rina Honnizumi,listener_mail,0,0,0,,"There's a festival at the end of the month, so I'm planning to go eat some there."
-Dialogue: 0,0:09:34.96,0:09:37.04,Rina Honnizumi,listener_mail,0,0,0,,"Have you two eaten any shaved ice yet?"
-Dialogue: 0,0:09:37.60,0:09:38.28,Minori Suzuki,host_meta,0,0,0,,That's what they sent in.
-Dialogue: 0,0:09:38.28,0:09:42.36,Rina Honnizumi,host,0,0,0,,I wonder\Nif the festival is happening right around the time this episode airs.
-Dialogue: 0,0:09:41.17,0:09:41.67,Minori Suzuki,host,0,0,0,,True.
-Dialogue: 0,0:09:42.29,0:09:42.79,Minori Suzuki,host,0,0,0,,That sounds nice.
+Dialogue: 0,0:09:21.06,0:09:22.18,Minori Suzuki,host,0,0,0,,Thanks for writing in.
+Dialogue: 0,0:09:22.18,0:09:25.40,Minori Suzuki,listener_mail,0,0,0,,"I realized that I haven't eaten any shaved ice yet this year."
+Dialogue: 0,0:09:25.92,0:09:30.37,Minori Suzuki,listener_mail,0,0,0,,"It's been so hot outside that I haven't felt like going out at all, so I think that's why."
+Dialogue: 0,0:09:29.87,0:09:30.37,Rina Honnizumi,host,0,0,0,,I bet.
+Dialogue: 0,0:09:31.16,0:09:34.96,Minori Suzuki,listener_mail,0,0,0,,"There's a festival at the end of the month, so I'm planning to go eat some there."
+Dialogue: 0,0:09:34.96,0:09:37.04,Minori Suzuki,listener_mail,0,0,0,,"Have you two eaten any shaved ice yet?"
+Dialogue: 0,0:09:38.28,0:09:43.40,Rina Honnizumi,host,0,0,0,,I wonder if there are any festivals happening right around the time this episode will air.
+Dialogue: 0,0:09:41.17,0:09:42.29,Minori Suzuki,host,0,0,0,,Oh yeah.
+Dialogue: 0,0:09:42.29,0:09:43.40,Minori Suzuki,host,0,0,0,,Maybe they're eating some right now.
 Dialogue: 0,0:09:43.40,0:09:44.36,Rina Honnizumi,host,0,0,0,,I hope they got to eat some.
 Dialogue: 0,0:09:44.36,0:09:45.68,Minori Suzuki,host,0,0,0,,Yeah, that'd be great.
-Dialogue: 0,0:09:45.68,0:09:46.92,Minori Suzuki,host,0,0,0,,Have you eaten any?
+Dialogue: 0,0:09:45.68,0:09:47.56,Minori Suzuki,host,0,0,0,,Have you eaten any?
+Dialogue: 0,0:09:45.68,0:09:47.56,Rina Honnizumi,host,0,0,0,,Shaved ice, huh...
 Dialogue: 0,0:09:47.56,0:09:48.60,Rina Honnizumi,host,0,0,0,,I don't think I have.
 Dialogue: 0,0:09:48.60,0:09:51.08,Minori Suzuki,host,0,0,0,,I haven't either.
 Dialogue: 0,0:09:51.08,0:09:58.76,Rina Honnizumi,host,0,0,0,,I keep seeing photos of really fancy,\NInstagrammable shaved ice on social media, but...
-Dialogue: 0,0:09:58.76,0:10:04.08,Minori Suzuki,host,0,0,0,,I've never actually said I wanted to go to a shop like that,\Nbut I've always admired them.
-Dialogue: 0,0:10:02.11,0:10:02.61,Rina Honnizumi,host,0,0,0,,Same here.
-Dialogue: 0,0:10:04.08,0:10:04.58,Rina Honnizumi,host,0,0,0,,Yeah,
-Dialogue: 0,0:10:04.58,0:10:08.45,Rina Honnizumi,host,0,0,0,,some people really go around to all these different shaved ice shops,\Nand...
-Dialogue: 0,0:10:08.45,0:10:09.52,Rina Honnizumi,host,0,0,0,,how should I put it?
-Dialogue: 0,0:10:09.52,0:10:15.08,Rina Honnizumi,host,0,0,0,,It's not just your standard strawberry syrup.\NThey have things like pumpkin cream shaved ice,
-Dialogue: 0,0:10:15.08,0:10:17.78,Rina Honnizumi,host,0,0,0,,and it seems like they even have vegetable-based ones too.
-Dialogue: 0,0:10:17.78,0:10:21.96,Rina Honnizumi,host,0,0,0,,Right? It's so fancy. And people\Nwho really love it will even eat it in the winter.
-Dialogue: 0,0:10:22.64,0:10:24.29,Minori Suzuki,host,0,0,0,,Shaved ice in the winter sounds nice too.
+Dialogue: 0,0:09:58.76,0:10:04.08,Rina Honnizumi,host,0,0,0,,I've never actually said I wanted to go to a shop like that,\Nbut I've always admired them.
+Dialogue: 0,0:10:02.11,0:10:03.58,Minori Suzuki,host,0,0,0,,Same here.
+Dialogue: 0,0:10:04.58,0:10:08.45,Minori Suzuki,host,0,0,0,,Yeah, some people really go around \N to all these different shaved ice shops, 
+Dialogue: 0,0:10:08.45,0:10:09.52,Minori Suzuki,host,0,0,0,,how should I put it?
+Dialogue: 0,0:10:09.52,0:10:15.08,Minori Suzuki,host,0,0,0,,It's not just your standard strawberry syrup.\NThey have things like pumpkin cream shaved ice,
+Dialogue: 0,0:10:15.08,0:10:17.78,Minori Suzuki,host,0,0,0,,and it seems like they even have vegetable-based ones too.
+Dialogue: 0,0:10:17.78,0:10:21.96,Minori Suzuki,host,0,0,0,,Right? It's so fancy. And people\Nwho really love it will even eat it in the winter.
+Dialogue: 0,0:10:22.64,0:10:24.80,Minori Suzuki,host,0,0,0,,Shaved ice in the winter sounds nice too.
 Dialogue: 0,0:10:24.29,0:10:24.80,Rina Honnizumi,host,0,0,0,,Doesn't it?
-Dialogue: 0,0:10:24.80,0:10:27.16,Minori Suzuki,host,0,0,0,,It's like eating ice cream in a warm room.
-Dialogue: 0,0:10:27.16,0:10:28.36,Rina Honnizumi,host,0,0,0,,That sounds pretty good.
-Dialogue: 0,0:10:28.36,0:10:29.28,Minori Suzuki,host,0,0,0,,I'd love to try it sometime.
-Dialogue: 0,0:10:29.19,0:10:29.88,Rina Honnizumi,host,0,0,0,,Definitely.
-Dialogue: 0,0:10:29.88,0:10:31.84,Rina Honnizumi,host,0,0,0,,Did you go to any festivals?
-Dialogue: 0,0:10:31.84,0:10:32.68,Minori Suzuki,host,0,0,0,,I didn't go to any festivals.
-Dialogue: 0,0:10:33.48,0:10:36.20,Minori Suzuki,host,0,0,0,,I don't think I even happened to stumble across one this year.
-Dialogue: 0,0:10:36.20,0:10:43.48,Minori Suzuki,host,0,0,0,,I see. I actually went to a fireworks display,\Nso I've been fully enjoying summer.
+Dialogue: 0,0:10:24.80,0:10:26.84,Minori Suzuki,host,0,0,0,,It's like eating ice cream in a warm room.
+Dialogue: 0,0:10:26.84,0:10:28.36,Minori Suzuki,,0,0,0,,That does sound pretty good.
+Dialogue: 0,0:10:27.69,0:10:28.36,Rina Honnizumi,host,0,0,0,,That does sounds good.
+Dialogue: 0,0:10:28.36,0:10:29.19,Rina Honnizumi,host,0,0,0,,I'd love to try it sometime.
+Dialogue: 0,0:10:29.19,0:10:29.88,Minori Suzuki,host,0,0,0,,Definitely.
+Dialogue: 0,0:10:29.88,0:10:31.84,Minori Suzuki,host,0,0,0,,Did you go to any festivals?
+Dialogue: 0,0:10:31.84,0:10:33.48,Rina Honnizumi,host,0,0,0,,I didn't go to any festivals.
+Dialogue: 0,0:10:33.48,0:10:36.20,Rina Honnizumi,host,0,0,0,,I don't think I even happened to stumble across one this year.
+Dialogue: 0,0:10:36.20,0:10:44.04,Minori Suzuki,host,0,0,0,,I see. I actually went to a fireworks display,\Nso I've been fully enjoying summer.
+Dialogue: 0,0:10:39.83,0:10:44.04,Rina Honnizumi,,0,0,0,,You're having so much fun! Sounds so nice~
 Dialogue: 0,0:10:44.04,0:10:47.76,Minori Suzuki,host,0,0,0,,But I only looked at the shaved ice; I didn't actually eat any.
 Dialogue: 0,0:10:47.76,0:10:50.44,Minori Suzuki,host,0,0,0,,Oh, right, they have those food stalls and everything.
-Dialogue: 0,0:10:50.44,0:11:00.42,Rina Honnizumi,host,0,0,0,,But when I went to Hokkaido like I mentioned earlier,\NI ate that famous melon topped with soft-serve ice cream.
-Dialogue: 0,0:11:00.42,0:11:06.88,Rina Honnizumi,host,0,0,0,,As for ice cream... yeah,\Neven at the airport on the way back—I flew home—well...
-Dialogue: 0,0:11:06.88,0:11:12.90,Rina Honnizumi,host,0,0,0,,New Chitose Airport has so many shops selling soft-serve ice cream.
-Dialogue: 0,0:11:12.90,0:11:16.00,Rina Honnizumi,host,0,0,0,,I carefully picked out one delicious one and ate it.
-Dialogue: 0,0:11:16.96,0:11:18.16,Minori Suzuki,host,0,0,0,,There are really that many?
-Dialogue: 0,0:11:18.16,0:11:18.76,Rina Honnizumi,host,0,0,0,,So many.
-Dialogue: 0,0:11:19.40,0:11:20.28,Minori Suzuki,host,0,0,0,,I wouldn't be able to choose.
-Dialogue: 0,0:11:20.28,0:11:22.28,Rina Honnizumi,host,0,0,0,,Exactly. So that's how it was.
-Dialogue: 0,0:11:22.17,0:11:23.04,Minori Suzuki,host,0,0,0,,I see.
-Dialogue: 0,0:11:23.04,0:11:24.39,Rina Honnizumi,host,0,0,0,,I really want some shaved ice now.
-Dialogue: 0,0:11:24.39,0:11:25.12,Minori Suzuki,host,0,0,0,,Me too.
-Dialogue: 0,0:11:25.12,0:11:26.40,Rina Honnizumi,host,0,0,0,,Thanks for the letter!
-Dialogue: 0,0:11:27.16,0:11:31.08,Minori Suzuki,host_meta,0,0,0,,Um, the next one is from Hogu-san.
-Dialogue: 0,0:11:28.31,0:11:28.81,Rina Honnizumi,host,0,0,0,,Okay.
-Dialogue: 0,0:11:30.81,0:11:31.31,Rina Honnizumi,host,0,0,0,,Yes.
-Dialogue: 0,0:11:31.08,0:11:32.36,Minori Suzuki,host,0,0,0,,Thank you for writing in.
-Dialogue: 0,0:11:32.36,0:11:32.96,Rina Honnizumi,host,0,0,0,,Thank you.
-Dialogue: 0,0:11:33.92,0:11:36.04,Minori Suzuki,listener_mail,0,0,0,,"Honnizumi-san, Suzuki-san, good evening."
-Dialogue: 0,0:11:36.04,0:11:36.88,Rina Honnizumi,host,0,0,0,,Good evening.
-Dialogue: 0,0:11:36.88,0:11:43.40,Minori Suzuki,listener_mail,0,0,0,,"If this mail is being read, I'm probably in the middle of a desperate struggle to finish my summer homework."
-Dialogue: 0,0:11:44.28,0:11:51.48,Minori Suzuki,listener_mail,0,0,0,,"I finished the time-consuming stuff like independent research early with my parents, but I'm sure I still haven't finished my workbooks."
-Dialogue: 0,0:11:48.83,0:11:49.33,Rina Honnizumi,host,0,0,0,,Oh, how responsible.
-Dialogue: 0,0:11:51.48,0:11:53.32,Rina Honnizumi,host,0,0,0,,The word "workbooks" sounds so cute.
-Dialogue: 0,0:11:53.31,0:11:53.81,Minori Suzuki,host,0,0,0,,It is cute.
-Dialogue: 0,0:11:54.72,0:11:58.26,Minori Suzuki,listener_mail,0,0,0,,"Are you two the type to get things done ahead of time?"
-Dialogue: 0,0:11:58.26,0:12:01.32,Minori Suzuki,listener_mail,0,0,0,,"Also, how were you back when you were students?"
-Dialogue: 0,0:12:01.32,0:12:02.50,Rina Honnizumi,host,0,0,0,,Ah.
+Dialogue: 0,0:10:50.44,0:11:00.42,Minori Suzuki,host,0,0,0,,But when I went to Hokkaido like I mentioned earlier,\NI ate that famous melon topped with soft-serve ice cream.
+Dialogue: 0,0:11:00.42,0:11:06.88,Minori Suzuki,host,0,0,0,,As for ice cream... yeah,\Neven at the airport on the way back—I flew home—well...
+Dialogue: 0,0:11:06.88,0:11:12.90,Minori Suzuki,host,0,0,0,,New Chitose Airport has so many shops selling soft-serve ice cream.
+Dialogue: 0,0:11:12.90,0:11:16.96,Minori Suzuki,host,0,0,0,,I carefully picked out one delicious one and ate it.
+Dialogue: 0,0:11:16.96,0:11:18.16,Rina Honnizumi,host,0,0,0,,There are really that many?
+Dialogue: 0,0:11:18.16,0:11:19.40,Minori Suzuki,host,0,0,0,,So many.
+Dialogue: 0,0:11:19.40,0:11:20.28,Rina Honnizumi,host,0,0,0,,I wouldn't be able to choose.
+Dialogue: 0,0:11:20.28,0:11:23.04,Minori Suzuki,host,0,0,0,,Exactly. That's how I felt.
+Dialogue: 0,0:11:23.04,0:11:25.12,Minori Suzuki,host,0,0,0,,I really want some shaved ice now.
+Dialogue: 0,0:11:24.39,0:11:25.12,Rina Honnizumi,host,0,0,0,,Me too.
+Dialogue: 0,0:11:25.12,0:11:27.16,Rina Honnizumi,host,0,0,0,,Thanks for the letter!
+Dialogue: 0,0:11:25.12,0:11:27.16,Minori Suzuki,host,0,0,0,,Thanks for the letter!
+Dialogue: 0,0:11:27.16,0:11:31.08,Rina Honnizumi,host_meta,0,0,0,,Um, the next one is from Hogu-san.
+Dialogue: 0,0:11:31.08,0:11:32.96,Rina Honnizumi,host,0,0,0,,Thank you for writing in.
+Dialogue: 0,0:11:31.68,0:11:32.96,Minori Suzuki,host,0,0,0,,Thank you.
+Dialogue: 0,0:11:33.92,0:11:36.04,Rina Honnizumi,listener_mail,0,0,0,,"Honnizumi-san, Suzuki-san, good evening."
+Dialogue: 0,0:11:36.04,0:11:36.88,Minori Suzuki,host,0,0,0,,Good evening.
+Dialogue: 0,0:11:36.88,0:11:44.28,Rina Honnizumi,listener_mail,0,0,0,,"If this mail is being read right now, I'm probably in the middle of a desperate struggle to finish my summer homework."
+Dialogue: 0,0:11:44.28,0:11:51.48,Rina Honnizumi,listener_mail,0,0,0,,"I finished the time-consuming stuff like independent research early with my parents, but I'm sure I still haven't finished my workbooks."
+Dialogue: 0,0:11:48.83,0:11:49.58,Minori Suzuki,host,0,0,0,,Oh, how responsible.
+Dialogue: 0,0:11:51.48,0:11:54.03,Rina Honnizumi,host,0,0,0,,The word "workbooks" sounds so cute.
+Dialogue: 0,0:11:53.31,0:11:54.03,Minori Suzuki,host,0,0,0,,It is cute.
+Dialogue: 0,0:11:54.72,0:11:58.26,Rina Honnizumi,listener_mail,0,0,0,,"Are you two the type to get things done ahead of time?"
+Dialogue: 0,0:11:58.26,0:12:01.32,Rina Honnizumi,listener_mail,0,0,0,,"Also, how were you back when you were students?"
+Dialogue: 0,0:12:01.32,0:12:02.50,Minori Suzuki,host,0,0,0,,Ah.
 Dialogue: 0,0:12:02.50,0:12:04.08,Rina Honnizumi,host,0,0,0,,This is a tough one.
 Dialogue: 0,0:12:04.08,0:12:05.08,Minori Suzuki,host,0,0,0,,It really is.
-Dialogue: 0,0:12:04.95,0:12:05.50,Rina Honnizumi,host,0,0,0,,Yeah.
-Dialogue: 0,0:12:05.50,0:12:09.27,Rina Honnizumi,host,0,0,0,,Well, you probably gathered this from the opening,
-Dialogue: 0,0:12:09.03,0:12:09.53,Minori Suzuki,host,0,0,0,,Right.
-Dialogue: 0,0:12:09.27,0:12:15.68,Rina Honnizumi,host,0,0,0,,but back in my student days,\NI was a total mess who put everything off.
-Dialogue: 0,0:12:10.67,0:12:11.17,Minori Suzuki,host,0,0,0,,Uh-huh.
-Dialogue: 0,0:12:13.11,0:12:13.61,Minori Suzuki,host,0,0,0,,Yeah.
-Dialogue: 0,0:12:16.40,0:12:21.29,Minori Suzuki,host,0,0,0,,But I did have the habit of actually turning in my homework,
-Dialogue: 0,0:12:21.29,0:12:23.40,Minori Suzuki,host,0,0,0,,so I always made the deadlines.
-Dialogue: 0,0:12:23.40,0:12:26.72,Minori Suzuki,host,0,0,0,,I'm glad I at least had that going for me now that I'm an adult.
-Dialogue: 0,0:12:26.72,0:12:27.88,Rina Honnizumi,host,0,0,0,,You have to be responsible about that, at least.
+Dialogue: 0,0:12:05.08,0:12:05.50,Rina Honnizumi,host,0,0,0,,Yeah.
+Dialogue: 0,0:12:05.50,0:12:09.71,Minori Suzuki,host,0,0,0,,Well, you probably gathered this from the opening,
+Dialogue: 0,0:12:09.71,0:12:15.68,Minori Suzuki,host,0,0,0,,but back in my student days,\NI was a total mess who put everything off.
+Dialogue: 0,0:12:16.40,0:12:21.48,Minori Suzuki,host,0,0,0,,But I did have the habit of actually turning in my homework,
+Dialogue: 0,0:12:21.48,0:12:23.40,Minori Suzuki,host,0,0,0,,so I always made the deadlines.
+Dialogue: 0,0:12:23.40,0:12:26.72,Minori Suzuki,host,0,0,0,,As an adult now, I'm glad I at least had that going for me.
+Dialogue: 0,0:12:26.72,0:12:28.40,Rina Honnizumi,host,0,0,0,,You have to be responsible about that, at least.
 Dialogue: 0,0:12:27.88,0:12:31.48,Minori Suzuki,host,0,0,0,,True, but if you ask if I was doing it properly...
-Dialogue: 0,0:12:32.13,0:12:32.63,Rina Honnizumi,host,0,0,0,,Not at all.
-Dialogue: 0,0:12:33.76,0:12:42.83,Minori Suzuki,host,0,0,0,,I have this one really sneaky side to me.\NYou know how the first class for each subject is on a different day?
-Dialogue: 0,0:12:42.83,0:12:43.33,Rina Honnizumi,host,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:12:31.48,0:12:32.63,Minori Suzuki,host,0,0,0,,not at all.
+Dialogue: 0,0:12:33.76,0:12:42.83,Rina Honnizumi,host,0,0,0,,I have this one really sneaky side to me.\NYou know how the first class for each subject is on a different day?
+Dialogue: 0,0:12:42.83,0:12:43.33,Minori Suzuki,host,0,0,0,,Yeah, yeah.
 Dialogue: 0,0:12:44.16,0:12:46.44,Minori Suzuki,host,0,0,0,,I would keep putting it off until the very last second before\Nthat specific class.
 Dialogue: 0,0:12:46.44,0:12:47.56,Rina Honnizumi,host,0,0,0,,No, but I always made it in time.
-Dialogue: 0,0:12:48.44,0:12:50.76,Minori Suzuki,host,0,0,0,,Also, I used the "I forgot it" excuse a lot.
-Dialogue: 0,0:12:51.64,0:12:55.08,Rina Honnizumi,host,0,0,0,,Like, "I did it, but I forgot to bring it with me."
-Dialogue: 0,0:12:52.55,0:12:53.05,Minori Suzuki,host,0,0,0,,Right.
-Dialogue: 0,0:12:55.76,0:12:56.84,Minori Suzuki,host,0,0,0,,I somehow managed to get by.
-Dialogue: 0,0:12:57.36,0:12:58.56,Rina Honnizumi,host,0,0,0,,Well, as long as you managed.
+Dialogue: 0,0:12:48.44,0:12:51.48,Rina Honnizumi,host,0,0,0,,Also, I used the "I forgot to bring it" excuse a lot.
+Dialogue: 0,0:12:51.48,0:12:55.76,Rina Honnizumi,host,0,0,0,,Like, "I did it, but I forgot to bring it with me."
+Dialogue: 0,0:12:55.76,0:12:57.36,Rina Honnizumi,host,0,0,0,,And I somehow managed to get by.
+Dialogue: 0,0:12:57.36,0:12:59.48,Minori Suzuki,host,0,0,0,,Well, as long as you managed.
 Dialogue: 0,0:12:59.48,0:13:00.46,Minori Suzuki,host,0,0,0,,That's all that matters.
-Dialogue: 0,0:13:00.46,0:13:01.92,Minori Suzuki,host,0,0,0,,Since you're here now.
-Dialogue: 0,0:13:02.52,0:13:06.16,Rina Honnizumi,host,0,0,0,,True, I somehow... no,\Nit's really thanks to all the people around me.
-Dialogue: 0,0:13:05.82,0:13:06.32,Minori Suzuki,host,0,0,0,,Oh?
-Dialogue: 0,0:13:06.32,0:13:07.72,Minori Suzuki,host,0,0,0,,How about now that you're an adult?
+Dialogue: 0,0:13:00.46,0:13:02.52,Minori Suzuki,host,0,0,0,,Since you're here now.
+Dialogue: 0,0:13:02.52,0:13:06.32,Rina Honnizumi,host,0,0,0,,True, I somehow... no,\Nit's really thanks to all the people around me.
+Dialogue: 0,0:13:06.32,0:13:07.96,Minori Suzuki,host,0,0,0,,How about now that you're an adult?
 Dialogue: 0,0:13:08.36,0:13:11.94,Rina Honnizumi,host,0,0,0,,Even as an adult, I still do it.
 Dialogue: 0,0:13:11.94,0:13:14.54,Rina Honnizumi,host,0,0,0,,Every now and then, I cut it pretty close.
+Dialogue: 0,0:13:11.94,0:13:14.54,Minori Suzuki,host,0,0,0,,You still do? Cut it close?
 Dialogue: 0,0:13:14.54,0:13:16.76,Rina Honnizumi,host,0,0,0,,You know how there are deadlines?
 Dialogue: 0,0:13:16.76,0:13:17.26,Rina Honnizumi,host,0,0,0,,Like,
 Dialogue: 0,0:13:17.26,0:13:22.92,Rina Honnizumi,host,0,0,0,,"Please submit this questionnaire by this date," or "Reply by this time."
 Dialogue: 0,0:13:25.03,0:13:25.71,Rina Honnizumi,host,0,0,0,,Yeah.
 Dialogue: 0,0:13:25.59,0:13:26.32,Minori Suzuki,host,0,0,0,,Ah.
 Dialogue: 0,0:13:25.71,0:13:26.39,Rina Honnizumi,host,0,0,0,,Oh.
-Dialogue: 0,0:13:26.32,0:13:27.16,Minori Suzuki,host,0,0,0,,I'm sorry.
-Dialogue: 0,0:13:27.05,0:13:27.55,Rina Honnizumi,host,0,0,0,,Ah.
-Dialogue: 0,0:13:28.40,0:13:29.32,Rina Honnizumi,host,0,0,0,,To my managers...
-Dialogue: 0,0:13:29.32,0:13:29.98,Minori Suzuki,host,0,0,0,,Thank you for everything.
-Dialogue: 0,0:13:29.98,0:13:32.65,Minori Suzuki,host,0,0,0,,Seriously, thank you so much, managers.
-Dialogue: 0,0:13:32.65,0:13:33.20,Rina Honnizumi,host,0,0,0,,Yeah.
-Dialogue: 0,0:13:33.20,0:13:33.92,Minori Suzuki,host,0,0,0,,That definitely happens.
-Dialogue: 0,0:13:33.92,0:13:34.88,Minori Suzuki,host,0,0,0,,How about you, Ringo-chan?
-Dialogue: 0,0:13:34.88,0:13:35.44,Minori Suzuki,host,0,0,0,,In that regard.
-Dialogue: 0,0:13:35.44,0:13:38.84,Rina Honnizumi,host,0,0,0,,For me, if the switch is on, I can work hard.
-Dialogue: 0,0:13:38.84,0:13:46.44,Rina Honnizumi,host,0,0,0,,I usually do things ahead of time,\Nbut when my switch is off, I procrastinate on everything.
-Dialogue: 0,0:13:46.44,0:13:47.64,Minori Suzuki,host,0,0,0,,That work switch is so important.
-Dialogue: 0,0:13:47.64,0:13:50.95,Rina Honnizumi,host,0,0,0,,Right? It would be great if\Nthat motivation switch just stayed on all the time.
-Dialogue: 0,0:13:50.95,0:13:51.55,Minori Suzuki,host,0,0,0,,That's true.
-Dialogue: 0,0:13:51.55,0:13:52.12,Rina Honnizumi,host,0,0,0,,But it's not that easy.
-Dialogue: 0,0:13:52.12,0:13:53.72,Minori Suzuki,host,0,0,0,,The "off" switch is just too powerful.
-Dialogue: 0,0:13:53.72,0:13:54.24,Rina Honnizumi,host,0,0,0,,Oh, I totally get that.
-Dialogue: 0,0:13:55.16,0:13:56.04,Rina Honnizumi,host,0,0,0,,It really is.
-Dialogue: 0,0:13:57.24,0:13:58.56,Rina Honnizumi,host,0,0,0,,Good luck with everything!
-Dialogue: 0,0:13:59.08,0:14:03.78,Rina Honnizumi,host_meta,0,0,0,,Alright, let's move on. This next one is from Radio name: Mutsuki.
+Dialogue: 0,0:13:26.32,0:13:27.16,Rina Honnizumi,host,0,0,0,,I'm sorry.
+Dialogue: 0,0:13:27.05,0:13:27.55,Minori Suzuki,host,0,0,0,,Ah.
+Dialogue: 0,0:13:28.40,0:13:29.32,Minori Suzuki,host,0,0,0,,Our poor managers...
+Dialogue: 0,0:13:29.32,0:13:30.42,Minori Suzuki,host,0,0,0,,Thank you for everything.
+Dialogue: 0,0:13:29.32,0:13:32.65,Rina Honnizumi,host,0,0,0,,Seriously, thank you so much, managers.
+Dialogue: 0,0:13:32.65,0:13:33.92,Minori Suzuki,host,0,0,0,,Oh man.
+Dialogue: 0,0:13:33.20,0:13:33.92,Rina Honnizumi,host,0,0,0,,That definitely happens.
+Dialogue: 0,0:13:33.92,0:13:35.44,Rina Honnizumi,host,0,0,0,,How about you, Ringo-chan?
+Dialogue: 0,0:13:35.44,0:13:38.84,Minori Suzuki,host,0,0,0,,For me, if the switch is on, I can work hard.
+Dialogue: 0,0:13:38.84,0:13:46.44,Minori Suzuki,host,0,0,0,,I usually do things ahead of time,\Nbut when my switch is off, I procrastinate on everything.
+Dialogue: 0,0:13:46.44,0:13:47.64,Rina Honnizumi,host,0,0,0,,That work switch is super important.
+Dialogue: 0,0:13:47.64,0:13:50.95,Minori Suzuki,host,0,0,0,,Right? It would be great if\Nthat work switch just stayed on all the time.
+Dialogue: 0,0:13:50.95,0:13:51.55,Rina Honnizumi,host,0,0,0,,That's true.
+Dialogue: 0,0:13:50.95,0:13:52.12,Minori Suzuki,host,0,0,0,,But it's not that easy.
+Dialogue: 0,0:13:52.12,0:13:53.72,Rina Honnizumi,host,0,0,0,,The "off" switch is just too powerful.
+Dialogue: 0,0:13:53.72,0:13:54.67,Minori Suzuki,host,0,0,0,,Oh, I totally get that.
+Dialogue: 0,0:13:55.16,0:13:56.92,Minori Suzuki,host_meta,0,0,0,,It really is.
+Dialogue: 0,0:13:57.74,0:13:59.08,Rina Honnizumi,,0,0,0,,Let's move on to the next one.
+Dialogue: 0,0:13:57.24,0:13:59.08,Minori Suzuki,host,0,0,0,,Good luck with everything!
+Dialogue: 0,0:13:59.08,0:14:03.78,Minori Suzuki,host_meta,0,0,0,,Alright, let's move on. This next one is from Radio name: Mutsuki.
 Dialogue: 0,0:14:03.78,0:14:08.40,Rina Honnizumi,host_meta,0,0,0,,"Rina Honnizumi-san and Minori Suzuki-san, kon-more, kon-niigo."
-Dialogue: 0,0:14:08.40,0:14:09.60,Minori Suzuki,host,0,0,0,,Kon-more, kon-niigo!
-Dialogue: 0,0:14:10.12,0:14:10.86,Rina Honnizumi,host,0,0,0,,That makes me happy.
-Dialogue: 0,0:14:10.86,0:14:17.84,Rina Honnizumi,listener_mail,0,0,0,,"I was grinding for a ProSeka event the other day, and I had Sekaraji playing while I was doing my runs."
+Dialogue: 0,0:14:08.40,0:14:10.12,Minori Suzuki,host,0,0,0,,Kon-more, kon-niigo!
+Dialogue: 0,0:14:08.40,0:14:10.12,Rina Honnizumi,host,0,0,0,,Kon-more, kon-niigo!
+Dialogue: 0,0:14:10.12,0:14:10.86,Minori Suzuki,host,0,0,0,,That makes me happy.
+Dialogue: 0,0:14:10.86,0:14:18.50,Minori Suzuki,listener_mail,0,0,0,,"I was grinding for a ProSeka event the other day, and I had Sekaraji playing while I was doing my runs."
 Dialogue: 0,0:14:18.50,0:14:19.00,Rina Honnizumi,host,0,0,0,,Oh!
-Dialogue: 0,0:14:19.00,0:14:24.28,Rina Honnizumi,listener_mail,0,0,0,,"The cast's talk was so funny and soothing that the time just flew by. Do you two have anything that helps you get work done?"
-Dialogue: 0,0:14:24.28,0:14:28.08,Rina Honnizumi,listener_mail,0,0,0,,"Do you two have anything that helps you get work done?"
-Dialogue: 0,0:14:29.56,0:14:30.88,Minori Suzuki,host,0,0,0,,They're so skilled!
-Dialogue: 0,0:14:30.88,0:14:34.36,Rina Honnizumi,host,0,0,0,,I mean, if they're doing runs, that means they're playing the game...
-Dialogue: 0,0:14:34.36,0:14:37.72,Minori Suzuki,host,0,0,0,,So they're listening to us talk while playing a rhythm game.
-Dialogue: 0,0:14:37.72,0:14:38.96,Rina Honnizumi,host,0,0,0,,That's like Prince Shotoku levels of multitasking.
+Dialogue: 0,0:14:19.00,0:14:24.28,Minori Suzuki,listener_mail,0,0,0,,"The cast's talk was so funny and soothing that the time just flew by."
+Dialogue: 0,0:14:24.28,0:14:28.08,Minori Suzuki,listener_mail,0,0,0,,"Do you two have anything that helps you get work done?"
+Dialogue: 0,0:14:29.56,0:14:30.88,Rina Honnizumi,host,0,0,0,,They're so skilled!
+Dialogue: 0,0:14:30.88,0:14:34.36,Minori Suzuki,host,0,0,0,,I mean, if they're doing runs, that means they're playing the game...
+Dialogue: 0,0:14:34.36,0:14:37.72,Rina Honnizumi,host,0,0,0,,So they're listening to us talk while playing a rhythm game.
+Dialogue: 0,0:14:37.72,0:14:38.96,Minori Suzuki,host,0,0,0,,That's like Prince Shotoku levels of multitasking.
 Dialogue: 0,0:14:38.96,0:14:40.53,Minori Suzuki,host,0,0,0,,Right? That's amazing.
-Dialogue: 0,0:14:40.53,0:14:41.03,Rina Honnizumi,host,0,0,0,,Yeah.
-Dialogue: 0,0:14:40.92,0:14:42.67,Minori Suzuki,host,0,0,0,,They must have the songs memorized by now.
-Dialogue: 0,0:14:42.67,0:14:43.17,Rina Honnizumi,host,0,0,0,,Definitely.
-Dialogue: 0,0:14:43.16,0:14:47.72,Minori Suzuki,host,0,0,0,,If they've played enough to know the notes and charts by heart,\Nthat's really flattering.
-Dialogue: 0,0:14:44.48,0:14:45.24,Rina Honnizumi,host,0,0,0,,Yeah, yeah, yeah.
-Dialogue: 0,0:14:47.72,0:14:48.48,Rina Honnizumi,host,0,0,0,,We really appreciate it.
-Dialogue: 0,0:14:49.40,0:14:50.73,Minori Suzuki,host,0,0,0,,Something that helps us get things done...
-Dialogue: 0,0:14:50.73,0:14:51.31,Rina Honnizumi,host,0,0,0,,What could it be?
-Dialogue: 0,0:14:51.31,0:14:51.92,Rina Honnizumi,host,0,0,0,,I wonder.
-Dialogue: 0,0:14:52.52,0:14:53.08,Rina Honnizumi,host,0,0,0,,Let's see...
-Dialogue: 0,0:14:54.04,0:14:59.38,Rina Honnizumi,host,0,0,0,,When I go to sleep,\NI often have a radio show or a stream playing in the background.
-Dialogue: 0,0:14:59.38,0:14:59.88,Minori Suzuki,host,0,0,0,,Oh?
-Dialogue: 0,0:14:59.88,0:15:01.40,Minori Suzuki,host,0,0,0,,I see, so you listen to people talking.
-Dialogue: 0,0:15:01.40,0:15:02.96,Rina Honnizumi,host,0,0,0,,Yeah, somehow...
+Dialogue: 0,0:14:40.53,0:14:41.76,Rina Honnizumi,host,0,0,0,,Yeah.
+Dialogue: 0,0:14:40.92,0:14:42.82,Minori Suzuki,host,0,0,0,,They must have the songs memorized by now.
+Dialogue: 0,0:14:42.82,0:14:43.64,Minori Suzuki,host,0,0,0,,Definitely.
+Dialogue: 0,0:14:43.16,0:14:48.35,Rina Honnizumi,host,0,0,0,,If they've played enough to know the notes and charts by heart,\Nthat's really flattering.
+Dialogue: 0,0:14:44.48,0:14:45.94,Minori Suzuki,host,0,0,0,,Yeah, yeah, yeah.
+Dialogue: 0,0:14:47.39,0:14:49.40,Minori Suzuki,host,0,0,0,,We really appreciate it.
+Dialogue: 0,0:14:49.40,0:14:50.73,Rina Honnizumi,host,0,0,0,,Something that helps us get things done...
+Dialogue: 0,0:14:50.73,0:14:52.52,Minori Suzuki,host,0,0,0,,What could it be?
+Dialogue: 0,0:14:51.31,0:14:52.52,Rina Honnizumi,host,0,0,0,,I wonder.
+Dialogue: 0,0:14:52.52,0:14:53.08,Minori Suzuki,host,0,0,0,,Let's see...
+Dialogue: 0,0:14:54.04,0:14:59.56,Minori Suzuki,host,0,0,0,,When I go to sleep,\NI often have a radio show or a stream playing in the background.
+Dialogue: 0,0:14:59.56,0:15:01.40,Rina Honnizumi,host,0,0,0,,Oh? I see, so you listen to people talking.
+Dialogue: 0,0:15:01.40,0:15:02.96,Minori Suzuki,host,0,0,0,,Yeah, somehow...
 Dialogue: 0,0:15:02.96,0:15:08.80,Minori Suzuki,host,0,0,0,,It helps me feel at ease and fall asleep.\NBut that's not for when I'm working.
 Dialogue: 0,0:15:08.80,0:15:10.64,Rina Honnizumi,host,0,0,0,,Ah, right, that's for sleeping.
 Dialogue: 0,0:15:10.64,0:15:17.44,Minori Suzuki,host,0,0,0,,When I'm working,\NI might put on one of those background music videos on YouTube...
 Dialogue: 0,0:15:17.44,0:15:20.20,Minori Suzuki,host,0,0,0,,I play those sometimes.
 Dialogue: 0,0:15:20.20,0:15:21.16,Rina Honnizumi,host,0,0,0,,Ah, I see.
-Dialogue: 0,0:15:21.76,0:15:24.60,Minori Suzuki,host,0,0,0,,Do you play anything when you're reading a book?
-Dialogue: 0,0:15:24.60,0:15:26.76,Rina Honnizumi,host,0,0,0,,Oh, I don't play anything when reading.
-Dialogue: 0,0:15:26.76,0:15:29.16,Rina Honnizumi,host,0,0,0,,The sound just gets in the way.
-Dialogue: 0,0:15:29.16,0:15:30.03,Minori Suzuki,host,0,0,0,,Ah, too much information.
-Dialogue: 0,0:15:30.03,0:15:30.61,Rina Honnizumi,host,0,0,0,,Exactly.
-Dialogue: 0,0:15:30.61,0:15:31.40,Minori Suzuki,host,0,0,0,,That makes sense.
+Dialogue: 0,0:15:21.76,0:15:24.60,Rina Honnizumi,host,0,0,0,,Do you play anything when you're reading a book?
+Dialogue: 0,0:15:24.60,0:15:26.76,Minori Suzuki,host,0,0,0,,Oh, I don't play anything when reading.
+Dialogue: 0,0:15:26.76,0:15:29.16,Minori Suzuki,host,0,0,0,,The sound just gets in the way.
+Dialogue: 0,0:15:29.16,0:15:30.61,Rina Honnizumi,host,0,0,0,,Ah, too much information.
+Dialogue: 0,0:15:30.03,0:15:30.61,Minori Suzuki,host,0,0,0,,Exactly.
+Dialogue: 0,0:15:30.61,0:15:31.40,Rina Honnizumi,host,0,0,0,,That makes sense.
 Dialogue: 0,0:15:31.40,0:15:32.44,Rina Honnizumi,host,0,0,0,,It's strange, isn't it?
-Dialogue: 0,0:15:33.04,0:15:34.33,Rina Honnizumi,host,0,0,0,,Yeah, I prefer silence.
-Dialogue: 0,0:15:34.33,0:15:35.04,Minori Suzuki,host,0,0,0,,I see.
+Dialogue: 0,0:15:33.04,0:15:34.48,Minori Suzuki,host,0,0,0,,Yeah, I prefer silence.
+Dialogue: 0,0:15:34.48,0:15:35.04,Minori Suzuki,host,0,0,0,,I see.
 Dialogue: 0,0:15:35.04,0:15:37.68,Rina Honnizumi,host,0,0,0,,Is it silent when you're checking your work materials too?
-Dialogue: 0,0:15:37.68,0:15:44.12,Minori Suzuki,host,0,0,0,,For checking, it's either silence or that background music,\Nbut I don't play it loud.
-Dialogue: 0,0:15:44.68,0:15:46.44,Minori Suzuki,host,0,0,0,,It's just barely audible.
-Dialogue: 0,0:15:47.16,0:15:48.20,Rina Honnizumi,host,0,0,0,,Oh, really?
+Dialogue: 0,0:15:37.05,0:15:44.68,Minori Suzuki,host,0,0,0,,For checking, it's either silence or that background music,\Nbut I don't play it loud.
+Dialogue: 0,0:15:44.68,0:15:47.16,Minori Suzuki,host,0,0,0,,It's just barely audible.
+Dialogue: 0,0:15:47.16,0:15:48.80,Rina Honnizumi,host,0,0,0,,Oh, really?
 Dialogue: 0,0:15:48.15,0:15:48.80,Minori Suzuki,host,0,0,0,,Yeah.
-Dialogue: 0,0:15:48.80,0:15:50.65,Minori Suzuki,host,0,0,0,,But I think I generally prefer silence.
+Dialogue: 0,0:15:48.80,0:15:51.16,Minori Suzuki,host,0,0,0,,But I think I generally prefer silence.
 Dialogue: 0,0:15:50.65,0:15:51.16,Rina Honnizumi,host,0,0,0,,Mm-hmm.
-Dialogue: 0,0:15:51.16,0:15:55.84,Minori Suzuki,host,0,0,0,,When I need to focus on a story, I prefer silence.
-Dialogue: 0,0:15:55.77,0:15:56.71,Rina Honnizumi,host,0,0,0,,I see.
-Dialogue: 0,0:15:56.71,0:15:57.40,Minori Suzuki,host,0,0,0,,Yeah.
-Dialogue: 0,0:15:57.40,0:15:59.56,Minori Suzuki,host,0,0,0,,What about when you're reading manga?
-Dialogue: 0,0:16:00.24,0:16:07.64,Rina Honnizumi,host,0,0,0,,I usually end up playing some kind of music.
-Dialogue: 0,0:16:01.43,0:16:01.93,Minori Suzuki,host,0,0,0,,Yeah.
+Dialogue: 0,0:15:51.16,0:15:55.93,Minori Suzuki,host,0,0,0,,When I need to focus on a story, I prefer silence.
+Dialogue: 0,0:15:57.57,0:15:59.56,Minori Suzuki,host,0,0,0,,What about when you're reading manga?
+Dialogue: 0,0:16:00.20,0:16:07.61,Rina Honnizumi,host,0,0,0,,I usually end up playing some kind of music.
 Dialogue: 0,0:16:07.61,0:16:08.29,Minori Suzuki,host,0,0,0,,Right, right.
 Dialogue: 0,0:16:08.29,0:16:16.94,Minori Suzuki,host,0,0,0,,Also, when I'm reading,\NI often look for Western music or BGM that fits the story.
 Dialogue: 0,0:16:14.45,0:16:14.95,Rina Honnizumi,host,0,0,0,,Oh, I see.
