@@ -9,30 +9,34 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
 
 ## Handover (2026-09-27)
 
-**Status:** The QC review pass and speaker attribution audit are complete.
+**Status:** The QC review pass, speaker attribution audit, gap-elimination pass, and manual edit integrations are complete.
 - All 21 low-confidence speaker attributions and 4 open questions have been audited and resolved against the Japanese dialogue and Chinese fansub reference (`reference_zh.srt`).
-- Speaker corrections applied to `_translated.json`:
+- Speaker corrections applied:
   - 9:19 (`cue-00000180`): Rui -> Mizuki (`ほら、類でに言われてるよ。` where ASR misheard 奏に as でに; Mizuki teases Rui: "Look, Rui, even Kanade is telling you to.").
   - 14:58 (`cue-00000339`): An -> Ichika (`これ、すごいです。` polite reaction from Ichika after roleplaying with Kanade; matches speaker 4 diarization).
+  - 3:02: An -> Nene ("Maybe you're just too fired up?").
 - Translation corrections applied:
+  - 3:23: "True." -> "Definitely."
   - 17:09 (`cue-00000391`): "It's building up..." -> "That was so thrilling..." (Airi's beam had already fired and the audience wave was finished; this was post-beam exhilaration).
 - Honorifics standardized to bare names per profile rules (dropping -san, -kun, -chan while preserving -senpai and Rui's 02:46 seiyuu slip-of-the-tongue).
-- Line length QC: `detect_long_lines.py` scanned all 433 renderable lines; tightened long lines (cues 40, 63, 66, 67, 68), resulting in **0 lines flagged with > 2 rows**.
-- Postprocess re-run and final `.ass` restyled. Ready for video download and hardsubbing.
+- Line length QC: `detect_long_lines.py` scanned all 434 renderable lines; tightened long lines (cues 40, 63, 66, 67, 68), resulting in **0 lines flagged with > 2 rows**.
+- Gap elimination: applied `_close_screen_gaps` logic extending cue end times when $0 < \text{gap} < 500\text{ms}$; closed all 63 sub-500ms gaps (**0 sub-500ms gaps remaining**).
+- Manual Aegisub edits integrated: off-screen reaction laughs at 02:48-02:50 (`{\pos(320,628)}Hehehehe...` for Mizuki and `{\pos(200,284)}Oh?` for An) preserved and tracked as split cues `cue-00000032-1` and `cue-00000032-2`.
+- Synchronized `_postprocessed.json` and `_translated.json` to 434 cues matching the final `.ass`.
+- Clean source video downloaded and present at `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv`. Ready for final verification and hardsubbing.
 
 ### Setting up on a new machine
 
 1. **Profiles.** `profiles/` here holds copies of `reading_drama.toml` and `5th_kanshasai_drama.toml`.
    Copied to `autosub/profiles/local/proseka/`.
-2. **Videos.** Both `.mkv`s are gitignored. Re-download them with `yt-dlp` from the links above; the audio
-   format used was `30280`.
-   - Save the clean source as `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv`.
+2. **Videos.** Both `.mkv`s are gitignored. Clean source is downloaded at `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv` (1080p, audio format 30280).
+   - If re-downloading: `yt-dlp -f 30080+30280 --merge-output-format mkv -o "5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv" https://www.bilibili.com/video/BV1DVsAzqEiv/`
    - The fansub is only needed if you want to re-OCR `reference_zh_fansub.mkv`. `reference_zh.srt` already has it.
 3. **Fonts.** The final `.ass` uses **Lato ExtraBold**. Installed / present in `assets/fonts/`.
 
 ### Next steps
 
-1. **Download source video**: `yt-dlp -f 30280 -o "5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv" https://www.bilibili.com/video/BV1DVsAzqEiv/`
+1. **Subtitle check in Aegisub**: Open `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.ass` with `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv` for final visual verification.
 2. **Hardsub**: Burn the finished, restyled `.ass` with `hardsub_trim.py`.
 3. **Publish**: Prepare YouTube metadata and blurb.
 
