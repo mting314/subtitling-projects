@@ -1,0 +1,97 @@
+# プロセカ 5th Anniversary 感謝祭 Day 2 — reading drama 「セカイの狭間にて」.
+# Cast from the fansub tags (BV1nnsKz8ELd), mapped to characters via the unit profiles.
+# Scenario summarised from the Chinese fansub reference (reference_zh_fansub.srt).
+
+extends = ["proseka/reading_drama"]
+
+prompt = """
+Event: the ProSeka 5th Anniversary Thanksgiving Festival (5th Anniversary 感謝祭), Day 2 reading drama 「セカイの狭間にて」 (no official English title is known; if it comes up, keep it in romaji or translate it literally).
+
+Cast (character — voice actor):
+- Ichika Hoshino (星乃一歌), Leo/need — Ruriko Noguchi (野口瑠璃子): Kind and caring, struggles with self-expression, considerate.
+- Airi Momoi (桃井愛莉), MORE MORE JUMP! — Ai Furihata (降幡愛): Strong-minded, sharp-tongued, pushy but caring. A seasoned idol who takes fan service seriously.
+- An Shiraishi (白石杏), Vivid BAD SQUAD — Tomomi Jiena Sumi (鷲見友美ジェナ): Cool, candid, bright and friendly, likes teasing.
+- Nene Kusanagi (草薙寧々), Wonderlands x Showtime — Machico: Introverted, blunt straight man. "Sharp-tongued but honey-voiced."
+- Rui Kamishiro (神代類), Wonderlands x Showtime — Shunichi Toki (土岐隼一): Eccentric genius, theatrical speech, mischievous, loves teasing.
+- Kanade Yoisaki (宵崎奏), Nightcord at 25:00 — Tomori Kusunoki (楠木ともり): Soft-spoken, composed, subtle. Not good with crowds.
+- Mizuki Akiyama (暁山瑞希), Nightcord at 25:00 — Hinata Sato (佐藤日向): Bright, playful, emotionally sharp. Uses ボク. Use they/them if a pronoun for Mizuki is ever needed.
+
+The drama is framed by two in-game Virtual Singer scenes with RIN, KAITO and LUKA: an opening where they greet the audience and lead a "yeah!" call-and-response before sending everyone to see "those kids" (the characters), and a short closing scene.
+
+Scenario: the seven characters regroup after a street music parade the units performed in together, themed around delivering thanks through music. They recap each unit's performance: Leo/need's opener with confetti streamers (Saki's idea, inspired by Tsukasa), Vivid BAD SQUAD's song (Akito was fired up; Toya left early for a cookie shop), Wonderlands x Showtime "descending from the sky" via air cannons, and MORE MORE JUMP!'s mini handshake event where Minori was swarmed by kids asking for hugs. This leads into the cast taking turns practising fan service (ファンサ) on each other, some role-playing child fans: Mizuki and Rui, Nene rapping over a hip-hop beat, An, Ichika, and Kanade playing a kid who calls someone お姉ちゃん. Airi closes with her own fan service for the whole audience, who switch their penlights to pink. If the ASR gives something like ハッピー…ビーム, render it as "Happy Airi Beam!".
+
+Other characters mentioned: Minori Hanasato (花里みのり), Haruka Kiritani (桐谷遥), Saki Tenma (天馬咲希), Tsukasa Tenma (天馬司), Honami Mochizuki (望月穂波), Akito Shinonome (東雲彰人), Toya Aoyagi (青柳冬弥).
+"""
+
+vocab = [
+    "セカイの狭間にて",
+    "感謝祭",
+    "握手会",
+    "ハグ会",
+    "お姉ちゃん",
+
+    # --- Cast ---
+    "星乃一歌",
+    "桃井愛莉",
+    "白石杏",
+    "草薙寧々",
+    "神代類",
+    "宵崎奏",
+    "暁山瑞希",
+
+    # --- Mentioned ---
+    "花里みのり",
+    "桐谷遥",
+    "天馬咲希",
+    "天馬司",
+    "望月穂波",
+    "東雲彰人",
+    "青柳冬弥",
+]
+
+[glossary]
+"感謝祭" = "Thanksgiving Festival"
+"握手会" = "handshake event"
+"星乃一歌" = "Ichika Hoshino"
+"桃井愛莉" = "Airi Momoi"
+"白石杏" = "An Shiraishi"
+"草薙寧々" = "Nene Kusanagi"
+"神代類" = "Rui Kamishiro"
+"宵崎奏" = "Kanade Yoisaki"
+"暁山瑞希" = "Mizuki Akiyama"
+"花里みのり" = "Minori Hanasato"
+"桐谷遥" = "Haruka Kiritani"
+"天馬咲希" = "Saki Tenma"
+"天馬司" = "Tsukasa Tenma"
+"望月穂波" = "Honami Mochizuki"
+"東雲彰人" = "Akito Shinonome"
+"青柳冬弥" = "Toya Aoyagi"
+
+# Terms observed misheard in the Chirp 3 pass.
+[[format.normalizer.terms]]
+value = "類"
+explanation = "Rui Kamishiro's given name. ASR writes it as 累 (e.g. 累君, 累が)."
+
+[[format.normalizer.terms]]
+value = "みのり"
+explanation = "Minori Hanasato's given name, written in hiragana. ASR writes it as 稔."
+
+[[format.normalizer.terms]]
+value = "冬弥"
+explanation = "Toya Aoyagi's given name. ASR writes it as 燈哉."
+
+[[format.normalizer.terms]]
+value = "草薙"
+explanation = "Nene Kusanagi's family name (草薙さん). ASR can garble the second kanji."
+
+[[format.normalizer.terms]]
+value = "寧々"
+explanation = "Nene Kusanagi's given name."
+
+[[format.normalizer.terms]]
+value = "尺"
+explanation = "Stage/broadcast running time (尺的に, 尺が大変). ASR writes 借款 or similar."
+
+[[format.normalizer.terms]]
+value = "コール&レスポンス"
+explanation = "Audience call-and-response. ASR shortens it to コレス."

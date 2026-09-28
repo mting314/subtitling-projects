@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "どう?",
+    "start_time": 562.15,
+    "end_time": 562.845,
+    "speaker": "Rui"
+  },
+  {
+    "id": 1,
+    "text": "愛らしい子供でしょ?",
+    "start_time": 562.845,
+    "end_time": 564.36,
+    "speaker": "Rui"
+  },
+  {
+    "id": 2,
+    "text": "いや、全然可愛くない。",
+    "start_time": 565.76,
+    "end_time": 567.52,
+    "speaker": "Nene"
+  },
+  {
+    "id": 3,
+    "text": "友人の",
+    "start_time": 567.49,
+    "end_time": 567.99,
+    "speaker": "Rui"
+  },
+  {
+    "id": 4,
+    "text": "いを叶えようと言っているんだよ。",
+    "start_time": 568.28,
+    "end_time": 569.72,
+    "speaker": "Rui"
+  },
+  {
+    "id": 5,
+    "text": "というわけで、",
+    "start_time": 570.32,
+    "end_time": 571.2,
+    "speaker": "Rui"
+  },
+  {
+    "id": 6,
+    "text": "瑞希さん。",
+    "start_time": 572.6,
+    "end_time": 573.28,
+    "speaker": "Rui"
+  },
+  {
+    "id": 7,
+    "text": "握手してください。",
+    "start_time": 575.08,
+    "end_time": 576.24,
+    "speaker": "Rui"
+  },
+  {
+    "id": 8,
+    "text": "わあ。",
+    "start_time": 577.89,
+    "end_time": 578.39,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 9,
+    "text": "来てくれてありがとう。",
+    "start_time": 579.2,
+    "end_time": 580.6,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 10,
+    "text": "はい、握手。",
+    "start_time": 580.6,
+    "end_time": 582.08,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 11,
+    "text": "ちなみに、僕、かっこいい声も出せるのかな?",
+    "start_time": 583.64,
+    "end_time": 586.72,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 12,
+    "text": "か。",
+    "start_time": 587.69,
+    "end_time": 588.19,
+    "speaker": "Rui"
+  },
+  {
+    "id": 13,
+    "text": "かっこいい声?",
+    "start_time": 588.88,
+    "end_time": 589.76,
+    "speaker": "Rui"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 590.25,
+    "end_time": 590.75,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 15,
+    "text": "僕、かっこいい声の、類君のお声聞きたいな。",
+    "start_time": 591.48,
+    "end_time": 595.68,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 16,
+    "text": "あ。",
+    "start_time": 597.01,
+    "end_time": 597.51,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 17,
+    "text": "ファンサービスの練習しよっか、類君。",
+    "start_time": 598.76,
+    "end_time": 600.84,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 18,
+    "text": "やっ。",
+    "start_time": 602.19,
+    "end_time": 602.69,
+    "speaker": "Rui"
+  },
+  {
+    "id": 19,
+    "text": "やってみる。",
+    "start_time": 603.72,
+    "end_time": 604.44,
+    "speaker": "Rui"
+  },
+  {
+    "id": 20,
+    "text": "え?",
+    "start_time": 605.89,
+    "end_time": 606.53,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 21,
+    "text": "うん。",
+    "start_time": 606.53,
+    "end_time": 607.17,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 22,
+    "text": "僕のファンなの?",
+    "start_time": 610.68,
+    "end_time": 611.8,
+    "speaker": "Rui"
+  },
+  {
+    "id": 23,
+    "text": "本当?",
+    "start_time": 613.89,
+    "end_time": 614.39,
+    "speaker": "Rui"
+  },
+  {
+    "id": 24,
+    "text": "どのショーが一番好きだった?",
+    "start_time": 616.4,
+    "end_time": 617.96,
+    "speaker": "Rui"
+  },
+  {
+    "id": 25,
+    "text": "じゃあ、",
+    "start_time": 619.71,
+    "end_time": 620.21,
+    "speaker": "Rui"
+  },
+  {
+    "id": 26,
+    "text": "絶対に会いに来てね。",
+    "start_time": 621.08,
+    "end_time": 622.28,
+    "speaker": "Rui"
+  },
+  {
+    "id": 27,
+    "text": "見たいな、見たいな。",
+    "start_time": 624.92,
+    "end_time": 625.84,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 28,
+    "text": "どう?",
+    "start_time": 628.31,
+    "end_time": 628.81,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 29,
+    "text": "僕達のファンサ。",
+    "start_time": 629.64,
+    "end_time": 630.84,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 30,
+    "text": "違和、違和感あった?",
+    "start_time": 631.76,
+    "end_time": 632.96,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 31,
+    "text": "うーん。",
+    "start_time": 633.63,
+    "end_time": 634.13,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 32,
+    "text": "意外と、",
+    "start_time": 636.28,
+    "end_time": 637.32,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 33,
+    "text": "違和感、ない。",
+    "start_time": 638.2,
+    "end_time": 639.84,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 34,
+    "text": "ない?",
+    "start_time": 640.15,
+    "end_time": 640.65,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 35,
+    "text": "やった。",
+    "start_time": 640.67,
+    "end_time": 641.17,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 36,
+    "text": "ちょっと、類がノリノリっていうか、そこに違和感があったかなって",
+    "start_time": 643.28,
+    "end_time": 648.0,
+    "speaker": "Nene"
+  },
+  {
+    "id": 37,
+    "text": "で、でも、でも、瑞希の方はいい感じだったわよ。",
+    "start_time": 648.32,
+    "end_time": 651.44,
+    "speaker": "Airi"
+  },
+  {
+    "id": 38,
+    "text": "なんなら今すぐ、アイドルできちゃうんじゃない?",
+    "start_time": 651.44,
+    "end_time": 654.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 39,
+    "text": "ええ。",
+    "start_time": 653.85,
+    "end_time": 654.35,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 40,
+    "text": "それはお世辞でもさすがに恐れ多いよ。",
+    "start_time": 655.04,
+    "end_time": 657.24,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 41,
+    "text": "プロには全然叶わないもん。",
+    "start_time": 657.24,
+    "end_time": 658.92,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 42,
+    "text": "瑞希は本当にアイドルリスペクトしてるな。",
+    "start_time": 659.88,
+    "end_time": 662.48,
+    "speaker": "An"
+  },
+  {
+    "id": 43,
+    "text": "ていうか、子供へのファンサって面白そうだね。",
+    "start_time": 663.36,
+    "end_time": 666.7,
+    "speaker": "An"
+  },
+  {
+    "id": 44,
+    "text": "私もやっちゃおうかな。",
+    "start_time": 666.7,
+    "end_time": 668.48,
+    "speaker": "An"
+  },
+  {
+    "id": 45,
+    "text": "草薙さんも、え、一緒にやらない?",
+    "start_time": 670.8,
+    "end_time": 672.52,
+    "speaker": "An"
+  },
+  {
+    "id": 46,
+    "text": "あ、",
+    "start_time": 673.37,
+    "end_time": 674.095,
+    "speaker": "Nene"
+  },
+  {
+    "id": 47,
+    "text": "あ、あ、私も?",
+    "start_time": 674.095,
+    "end_time": 675.525,
+    "speaker": "Nene"
+  },
+  {
+    "id": 48,
+    "text": "え。",
+    "start_time": 675.525,
+    "end_time": 676.315,
+    "speaker": "Nene"
+  },
+  {
+    "id": 49,
+    "text": "いいけど。",
+    "start_time": 676.315,
+    "end_time": 677.28,
+    "speaker": "Nene"
+  },
+  {
+    "id": 50,
+    "text": "寧々と一緒か。",
+    "start_time": 677.52,
+    "end_time": 679.56,
+    "speaker": "Rui"
+  },
+  {
+    "id": 51,
+    "text": "ちょっと、類に。",
+    "start_time": 680.08,
+    "end_time": 680.6,
+    "speaker": "Nene"
+  },
+  {
+    "id": 52,
+    "text": "歌の上手い二人だもんね。",
+    "start_time": 682.12,
+    "end_time": 684.16,
+    "speaker": "Rui"
+  },
+  {
+    "id": 53,
+    "text": "今、出番だんじゃ?",
+    "start_time": 684.56,
+    "end_time": 685.72,
+    "speaker": "Nene"
+  },
+  {
+    "id": 54,
+    "text": "ヒップホップとかどうかな?",
+    "start_time": 685.72,
+    "end_time": 687.52,
+    "speaker": "Rui"
+  },
+  {
+    "id": 55,
+    "text": "ヒップホップですか?",
+    "start_time": 688.28,
+    "end_time": 689.72,
+    "speaker": "An"
+  },
+  {
+    "id": 56,
+    "text": "ああ。",
+    "start_time": 690.65,
+    "end_time": 691.15,
+    "speaker": "An"
+  },
+  {
+    "id": 57,
+    "text": "よし。",
+    "start_time": 692.89,
+    "end_time": 693.39,
+    "speaker": "An"
+  },
+  {
+    "id": 58,
+    "text": "わかった。",
+    "start_time": 694.44,
+    "end_time": 694.96,
+    "speaker": "An"
+  },
+  {
+    "id": 59,
+    "text": "わかったの?",
+    "start_time": 695.28,
+    "end_time": 695.88,
+    "speaker": "Nene"
+  }
+]

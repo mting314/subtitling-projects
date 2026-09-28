@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "リズムをもらうかい?",
+    "start_time": 697.24,
+    "end_time": 698.4,
+    "speaker": "Rui"
+  },
+  {
+    "id": 1,
+    "text": "うん。",
+    "start_time": 701.39,
+    "end_time": 701.89,
+    "speaker": "An"
+  },
+  {
+    "id": 2,
+    "text": "あの、断ってもいいんだよ。",
+    "start_time": 702.52,
+    "end_time": 703.8,
+    "speaker": "Nene"
+  },
+  {
+    "id": 3,
+    "text": "よし。",
+    "start_time": 705.52,
+    "end_time": 706.12,
+    "speaker": "An"
+  },
+  {
+    "id": 4,
+    "text": "なんだか、",
+    "start_time": 706.12,
+    "end_time": 706.64,
+    "speaker": "An"
+  },
+  {
+    "id": 5,
+    "text": "勢いでいける気がしてきた。",
+    "start_time": 707.56,
+    "end_time": 709.0,
+    "speaker": "An"
+  },
+  {
+    "id": 6,
+    "text": "じゃあ、",
+    "start_time": 711.27,
+    "end_time": 711.77,
+    "speaker": "An"
+  },
+  {
+    "id": 7,
+    "text": "行くよ。",
+    "start_time": 712.38,
+    "end_time": 712.88,
+    "speaker": "An"
+  },
+  {
+    "id": 8,
+    "text": "もっと早く行く?",
+    "start_time": 712.88,
+    "end_time": 714.965,
+    "speaker": "An"
+  },
+  {
+    "id": 9,
+    "text": "さ。",
+    "start_time": 714.965,
+    "end_time": 715.63,
+    "speaker": "An"
+  },
+  {
+    "id": 10,
+    "text": "いて。",
+    "start_time": 717.25,
+    "end_time": 717.75,
+    "speaker": "An"
+  },
+  {
+    "id": 11,
+    "text": "蔵渡しまのざっざっ目の前夢の壁だけなーくな、大層の理想、",
+    "start_time": 718.92,
+    "end_time": 723.28,
+    "speaker": "An"
+  },
+  {
+    "id": 12,
+    "text": "それで結構、後はひたすら前に進むだけ。",
+    "start_time": 723.28,
+    "end_time": 726.0,
+    "speaker": "An"
+  },
+  {
+    "id": 13,
+    "text": "いや。",
+    "start_time": 726.0,
+    "end_time": 726.5,
+    "speaker": "An"
+  },
+  {
+    "id": 14,
+    "text": "わあ。",
+    "start_time": 727.33,
+    "end_time": 727.83,
+    "speaker": "Nene"
+  },
+  {
+    "id": 15,
+    "text": "すごい。",
+    "start_time": 729.19,
+    "end_time": 729.69,
+    "speaker": "Nene"
+  },
+  {
+    "id": 16,
+    "text": "ねえ、もうこれでいいんじゃないかな。",
+    "start_time": 731.04,
+    "end_time": 733.16,
+    "speaker": "Nene"
+  },
+  {
+    "id": 17,
+    "text": "寧々も聞きたいな。",
+    "start_time": 735.04,
+    "end_time": 736.6,
+    "speaker": "Rui"
+  },
+  {
+    "id": 18,
+    "text": "私、できるかな。",
+    "start_time": 739.24,
+    "end_time": 741.0,
+    "speaker": "Nene"
+  },
+  {
+    "id": 19,
+    "text": "あ、じゃあ、",
+    "start_time": 742.88,
+    "end_time": 743.48,
+    "speaker": "Nene"
+  },
+  {
+    "id": 20,
+    "text": "頑張るから、見ててよ。",
+    "start_time": 744.6,
+    "end_time": 746.44,
+    "speaker": "Nene"
+  },
+  {
+    "id": 21,
+    "text": "ヘイ。",
+    "start_time": 749.19,
+    "end_time": 749.93,
+    "speaker": "Nene"
+  },
+  {
+    "id": 22,
+    "text": "ヨウ。",
+    "start_time": 749.93,
+    "end_time": 750.67,
+    "speaker": "Nene"
+  },
+  {
+    "id": 23,
+    "text": "ヘイ。",
+    "start_time": 751.29,
+    "end_time": 751.79,
+    "speaker": "Nene"
+  },
+  {
+    "id": 24,
+    "text": "ヨウ。",
+    "start_time": 752.41,
+    "end_time": 752.91,
+    "speaker": "Nene"
+  },
+  {
+    "id": 25,
+    "text": "我々、ワンダショウ。",
+    "start_time": 753.52,
+    "end_time": 755.46,
+    "speaker": "Nene"
+  },
+  {
+    "id": 26,
+    "text": "イッショウ。",
+    "start_time": 755.46,
+    "end_time": 756.52,
+    "speaker": "Nene"
+  },
+  {
+    "id": 27,
+    "text": "にっこり、ルード和心サムライ。",
+    "start_time": 757.6,
+    "end_time": 761.56,
+    "speaker": "Nene"
+  },
+  {
+    "id": 28,
+    "text": "未来に期待。",
+    "start_time": 761.56,
+    "end_time": 763.32,
+    "speaker": "Nene"
+  },
+  {
+    "id": 29,
+    "text": "叶えたい願い。",
+    "start_time": 763.84,
+    "end_time": 765.24,
+    "speaker": "Nene"
+  },
+  {
+    "id": 30,
+    "text": "みんな誘い込む、",
+    "start_time": 765.8,
+    "end_time": 766.92,
+    "speaker": "Nene"
+  },
+  {
+    "id": 31,
+    "text": "いつ、ショータイム。",
+    "start_time": 767.52,
+    "end_time": 769.08,
+    "speaker": "Nene"
+  },
+  {
+    "id": 32,
+    "text": "イェーイ。",
+    "start_time": 769.03,
+    "end_time": 769.53,
+    "speaker": "Rui"
+  },
+  {
+    "id": 33,
+    "text": "すごい。",
+    "start_time": 772.98,
+    "end_time": 773.48,
+    "speaker": "An"
+  },
+  {
+    "id": 34,
+    "text": "かな。",
+    "start_time": 773.48,
+    "end_time": 774.575,
+    "speaker": "Nene"
+  },
+  {
+    "id": 35,
+    "text": "いつも、",
+    "start_time": 774.575,
+    "end_time": 775.29,
+    "speaker": "Nene"
+  },
+  {
+    "id": 36,
+    "text": "東雲君がヴァイブス刻んでるの聞いてたから。",
+    "start_time": 775.88,
+    "end_time": 778.36,
+    "speaker": "Nene"
+  },
+  {
+    "id": 37,
+    "text": "だからか、すっごく可愛かった。",
+    "start_time": 779.96,
+    "end_time": 782.32,
+    "speaker": "An"
+  },
+  {
+    "id": 38,
+    "text": "恥ずかしい。",
+    "start_time": 782.95,
+    "end_time": 783.45,
+    "speaker": "Nene"
+  },
+  {
+    "id": 39,
+    "text": "本当にありがとう。",
+    "start_time": 784.48,
+    "end_time": 785.48,
+    "speaker": "An"
+  },
+  {
+    "id": 40,
+    "text": "嬉しいよ。",
+    "start_time": 785.48,
+    "end_time": 786.16,
+    "speaker": "An"
+  },
+  {
+    "id": 41,
+    "text": "はい、じゃあ、グー出して。",
+    "start_time": 787.0,
+    "end_time": 788.2,
+    "speaker": "An"
+  },
+  {
+    "id": 42,
+    "text": "う、グー?",
+    "start_time": 788.44,
+    "end_time": 789.56,
+    "speaker": "Nene"
+  },
+  {
+    "id": 43,
+    "text": "こ、こうかな?",
+    "start_time": 789.56,
+    "end_time": 790.6,
+    "speaker": "Nene"
+  },
+  {
+    "id": 44,
+    "text": "イェーイ。",
+    "start_time": 791.8,
+    "end_time": 792.48,
+    "speaker": "An"
+  },
+  {
+    "id": 45,
+    "text": "これからもよろしく。",
+    "start_time": 792.48,
+    "end_time": 793.48,
+    "speaker": "An"
+  },
+  {
+    "id": 46,
+    "text": "い、いえー。",
+    "start_time": 794.12,
+    "end_time": 795.36,
+    "speaker": "Nene"
+  },
+  {
+    "id": 47,
+    "text": "おお",
+    "start_time": 799.63,
+    "end_time": 800.13,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 48,
+    "text": "すごいね。",
+    "start_time": 801.44,
+    "end_time": 802.2,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 49,
+    "text": "草薙さんやってうまいな。",
+    "start_time": 803.0,
+    "end_time": 804.8,
+    "speaker": "An"
+  },
+  {
+    "id": 50,
+    "text": "魂にラッパーが刻まれてるんだね。",
+    "start_time": 805.88,
+    "end_time": 808.235,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 51,
+    "text": "すごかった。",
+    "start_time": 808.235,
+    "end_time": 808.93,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 52,
+    "text": "うん。",
+    "start_time": 808.99,
+    "end_time": 809.49,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 53,
+    "text": "ノリの良さは僕も同じなはずなんだけれどね。",
+    "start_time": 810.44,
+    "end_time": 813.12,
+    "speaker": "Rui"
+  },
+  {
+    "id": 54,
+    "text": "あ。",
+    "start_time": 813.61,
+    "end_time": 814.11,
+    "speaker": "Nene"
+  },
+  {
+    "id": 55,
+    "text": "それは、やりたいってこと?",
+    "start_time": 815.28,
+    "end_time": 817.2,
+    "speaker": "Nene"
+  },
+  {
+    "id": 56,
+    "text": "え?",
+    "start_time": 818.01,
+    "end_time": 818.51,
+    "speaker": "Rui"
+  },
+  {
+    "id": 57,
+    "text": "次に行こう。",
+    "start_time": 821.08,
+    "end_time": 821.64,
+    "speaker": "Rui"
+  },
+  {
+    "id": 58,
+    "text": "そろそろ尺が大変なことになってきた。",
+    "start_time": 823.48,
+    "end_time": 825.24,
+    "speaker": "Rui"
+  },
+  {
+    "id": 59,
+    "text": "いいの?",
+    "start_time": 825.41,
+    "end_time": 825.91,
+    "speaker": "Airi"
+  }
+]

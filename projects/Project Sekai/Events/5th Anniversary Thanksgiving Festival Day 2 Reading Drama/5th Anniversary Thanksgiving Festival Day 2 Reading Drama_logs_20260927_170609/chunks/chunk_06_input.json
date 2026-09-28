@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "わかった。",
+    "start_time": 826.05,
+    "end_time": 826.55,
+    "speaker": "Nene"
+  },
+  {
+    "id": 1,
+    "text": "いいのね。",
+    "start_time": 826.65,
+    "end_time": 827.355,
+    "speaker": "Airi"
+  },
+  {
+    "id": 2,
+    "text": "あんちゃんもなんだか、慣れてる感じがしたわ。",
+    "start_time": 827.355,
+    "end_time": 829.4,
+    "speaker": "Airi"
+  },
+  {
+    "id": 3,
+    "text": "ありがとうございます。",
+    "start_time": 830.04,
+    "end_time": 831.26,
+    "speaker": "An"
+  },
+  {
+    "id": 4,
+    "text": "結構、街のちっちゃい子と話したりするんで。",
+    "start_time": 831.26,
+    "end_time": 833.72,
+    "speaker": "An"
+  },
+  {
+    "id": 5,
+    "text": "じゃあ、次は、",
+    "start_time": 834.28,
+    "end_time": 835.4,
+    "speaker": "An"
+  },
+  {
+    "id": 6,
+    "text": "星野さん、行ってみる?",
+    "start_time": 836.56,
+    "end_time": 838.08,
+    "speaker": "An"
+  },
+  {
+    "id": 7,
+    "text": "え?",
+    "start_time": 838.01,
+    "end_time": 838.51,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 8,
+    "text": "これ、順番でやるの?",
+    "start_time": 839.36,
+    "end_time": 840.6,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 9,
+    "text": "本当、尺にやらなくてもいいかもしれないんだけど、",
+    "start_time": 840.72,
+    "end_time": 842.76,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 10,
+    "text": "やりたくないけど、いいけどって書いてあるけど、いいけど。",
+    "start_time": 842.76,
+    "end_time": 844.96,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 11,
+    "text": "や、やるのね。",
+    "start_time": 845.16,
+    "end_time": 846.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 12,
+    "text": "じゃあ、いいね、いいね。",
+    "start_time": 846.12,
+    "end_time": 846.92,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 13,
+    "text": "順番でどんどん行っちゃおう。",
+    "start_time": 847.68,
+    "end_time": 849.22,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 14,
+    "text": "子供役は、うちからお勧めがいます。",
+    "start_time": 849.22,
+    "end_time": 851.8,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 15,
+    "text": "奏です。",
+    "start_time": 851.8,
+    "end_time": 852.68,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 16,
+    "text": "え?",
+    "start_time": 854.13,
+    "end_time": 854.63,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 17,
+    "text": "頑張れ、奏。",
+    "start_time": 855.48,
+    "end_time": 856.28,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 18,
+    "text": "類。",
+    "start_time": 856.45,
+    "end_time": 856.95,
+    "speaker": "Rui"
+  },
+  {
+    "id": 19,
+    "text": "みんな、期待してるよ。",
+    "start_time": 857.2,
+    "end_time": 858.6,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 20,
+    "text": "あ。",
+    "start_time": 859.05,
+    "end_time": 859.55,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 21,
+    "text": "本当にいいんだね?",
+    "start_time": 859.88,
+    "end_time": 860.88,
+    "speaker": "Rui"
+  },
+  {
+    "id": 22,
+    "text": "えっと、お姉たん。",
+    "start_time": 862.48,
+    "end_time": 863.68,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 23,
+    "text": "お。",
+    "start_time": 865.73,
+    "end_time": 866.23,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 24,
+    "text": "お姉たん?",
+    "start_time": 867.47,
+    "end_time": 867.97,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 25,
+    "text": "思わぬ引き出しがあったね。",
+    "start_time": 868.64,
+    "end_time": 870.0,
+    "speaker": "Rui"
+  },
+  {
+    "id": 26,
+    "text": "ああ。",
+    "start_time": 870.61,
+    "end_time": 871.11,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 27,
+    "text": "お姉たんの演奏、",
+    "start_time": 872.2,
+    "end_time": 873.8,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 28,
+    "text": "素敵でした。",
+    "start_time": 874.48,
+    "end_time": 875.44,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 29,
+    "text": "応援してました。",
+    "start_time": 877.0,
+    "end_time": 878.48,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 30,
+    "text": "ありがとう。",
+    "start_time": 881.12,
+    "end_time": 881.76,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 31,
+    "text": "そんな言葉が出てくるなんて。",
+    "start_time": 882.76,
+    "end_time": 884.12,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 32,
+    "text": "よかったら、",
+    "start_time": 884.99,
+    "end_time": 885.49,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 33,
+    "text": "お友達とも一緒に聞いてくれたら、嬉しいな。",
+    "start_time": 886.08,
+    "end_time": 888.72,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 34,
+    "text": "うん。",
+    "start_time": 889.27,
+    "end_time": 889.825,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 35,
+    "text": "聞きます。",
+    "start_time": 889.825,
+    "end_time": 890.64,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 36,
+    "text": "こんな感じ?",
+    "start_time": 892.52,
+    "end_time": 893.88,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 37,
+    "text": "上手だね。",
+    "start_time": 896.76,
+    "end_time": 897.44,
+    "speaker": "Airi"
+  },
+  {
+    "id": 38,
+    "text": "これ、すごいです。",
+    "start_time": 898.36,
+    "end_time": 899.4,
+    "speaker": "An"
+  },
+  {
+    "id": 39,
+    "text": "みんな、想像以上のものが出てくるね。",
+    "start_time": 899.96,
+    "end_time": 902.4,
+    "speaker": "Rui"
+  },
+  {
+    "id": 40,
+    "text": "さすがだよ。",
+    "start_time": 903.36,
+    "end_time": 904.58,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 41,
+    "text": "本職って感じだ。",
+    "start_time": 904.58,
+    "end_time": 905.84,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 42,
+    "text": "なんの話かな。",
+    "start_time": 907.2,
+    "end_time": 908.12,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 43,
+    "text": "あ、でも、やっぱ、",
+    "start_time": 909.08,
+    "end_time": 910.2,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 44,
+    "text": "うゆさはなかったけど、本職っぽくてすごいドキドキしちゃったな、僕。",
+    "start_time": 911.24,
+    "end_time": 915.36,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 45,
+    "text": "素晴らしかったね。",
+    "start_time": 915.72,
+    "end_time": 916.48,
+    "speaker": "Rui"
+  },
+  {
+    "id": 46,
+    "text": "楽しかった。",
+    "start_time": 916.84,
+    "end_time": 917.36,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 47,
+    "text": "みんなとっても上手だったわよ。",
+    "start_time": 917.48,
+    "end_time": 919.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 48,
+    "text": "じゃあ、",
+    "start_time": 919.87,
+    "end_time": 920.37,
+    "speaker": "Airi"
+  },
+  {
+    "id": 49,
+    "text": "最後に、私から、頑張ったみんなに、",
+    "start_time": 920.96,
+    "end_time": 924.72,
+    "speaker": "Airi"
+  },
+  {
+    "id": 50,
+    "text": "褒め褒めファンサをお届けするわ。",
+    "start_time": 926.68,
+    "end_time": 928.64,
+    "speaker": "Airi"
+  },
+  {
+    "id": 51,
+    "text": "褒め褒めファンサ?",
+    "start_time": 930.24,
+    "end_time": 931.44,
+    "speaker": "Nene"
+  },
+  {
+    "id": 52,
+    "text": "何それ?",
+    "start_time": 932.0,
+    "end_time": 932.88,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 53,
+    "text": "すっごいご褒美がありそう。",
+    "start_time": 932.88,
+    "end_time": 934.92,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 54,
+    "text": "いや、もう、みんなすごかったけど、じゃあ、私も行かせてもらおうわよ。",
+    "start_time": 935.8,
+    "end_time": 939.16,
+    "speaker": "Airi"
+  },
+  {
+    "id": 55,
+    "text": "まあ、まあ、まあ、まあ。",
+    "start_time": 939.28,
+    "end_time": 940.16,
+    "speaker": "Rui"
+  },
+  {
+    "id": 56,
+    "text": "え、なに?",
+    "start_time": 940.49,
+    "end_time": 940.99,
+    "speaker": "Airi"
+  },
+  {
+    "id": 57,
+    "text": "いや。",
+    "start_time": 941.33,
+    "end_time": 941.83,
+    "speaker": "Rui"
+  },
+  {
+    "id": 58,
+    "text": "せっかくこのステージがあるんだ。",
+    "start_time": 942.28,
+    "end_time": 944.275,
+    "speaker": "Rui"
+  },
+  {
+    "id": 59,
+    "text": "え?",
+    "start_time": 944.275,
+    "end_time": 944.81,
+    "speaker": "Airi"
+  }
+]
