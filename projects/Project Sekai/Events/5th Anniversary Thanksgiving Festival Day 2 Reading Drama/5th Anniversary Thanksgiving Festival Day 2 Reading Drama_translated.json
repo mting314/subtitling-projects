@@ -621,7 +621,7 @@
       "id": "cue-00000021",
       "source_text": "星野さん達のオープニング握手と、すごく良かったよ。",
       "normalized_source_text": "星野さん達のオープニング握手と、すごく良かったよ。",
-      "translated_text": "Your group's opening was really great too, Hoshino-san.",
+      "translated_text": "Your group's opening was really great too, Hoshino.",
       "final_text": null
     },
     {
@@ -807,7 +807,7 @@
       "id": "cue-00000025",
       "source_text": "奏さんにそう言っていただけるなんて、嬉しいです。",
       "normalized_source_text": "奏さんにそう言っていただけるなんて、嬉しいです。",
-      "translated_text": "I'm so happy to hear you say that, Kanade-san.",
+      "translated_text": "I'm so happy to hear you say that, Kanade.",
       "final_text": null
     },
     {
@@ -1119,7 +1119,7 @@
       "id": "cue-00000029",
       "source_text": "司さんからアイデアをもらったみたい。",
       "normalized_source_text": "司さんからアイデアをもらったみたい。",
-      "translated_text": "It sounds like she got the idea from Tsukasa-san.",
+      "translated_text": "It sounds like she got the idea from Tsukasa.",
       "final_text": null
     },
     {
@@ -1935,7 +1935,7 @@
       "id": "cue-00000040",
       "source_text": "その一方、白石君達は、歌一本で聞かせてくれたね。",
       "normalized_source_text": "その一方、白石君達は、歌一本で聞かせてくれたね。",
-      "translated_text": "On the other hand,\\NShiraishi-kun and her group really let us hear their talent with just their voices.",
+      "translated_text": "On the other hand, Shiraishi's group captivated us with just their singing.",
       "final_text": null
     },
     {
@@ -2843,7 +2843,7 @@
       "id": "cue-00000052",
       "source_text": "奏さん大丈夫でしたか?",
       "normalized_source_text": "奏さん大丈夫でしたか?",
-      "translated_text": "Were you okay, Kanade-san?",
+      "translated_text": "Were you okay, Kanade?",
       "final_text": null
     },
     {
@@ -3764,7 +3764,7 @@
       "id": "cue-00000063",
       "source_text": "穂波から、空から登場するって聞いてましたけど、まさかあんな手品みたいに登場するとは思いませんでした。",
       "normalized_source_text": "穂波から、空から登場するって聞いてましたけど、まさかあんな手品みたいに登場するとは思いませんでした。",
-      "translated_text": "Honami told me you'd be appearing from the sky,\\Nbut I never expected it to look so much like a magic trick.",
+      "translated_text": "Honami told me you'd appear from the sky, but I never expected a magic trick!",
       "final_text": null
     },
     {
@@ -3949,7 +3949,7 @@
       "id": "cue-00000066",
       "source_text": "あれは実際に、空から現れたわけじゃないんだよ。",
       "normalized_source_text": "あれは実際に、空から現れたわけじゃないんだよ。",
-      "translated_text": "We didn't actually appear from the sky, you know.",
+      "translated_text": "We didn't actually appear out of thin air, you see.",
       "final_text": null
     },
     {
@@ -4104,7 +4104,7 @@
       "id": "cue-00000067",
       "source_text": "パレードフロートの一番高いところに隠れるようにみんなを吊って、パッと下ろしたんだ。",
       "normalized_source_text": "パレードフロートの一番高いところに隠れるようにみんなを吊って、パッと下ろしたんだ。",
-      "translated_text": "We were suspended at the very top of the parade float out of sight,\\Nand then lowered down all at once.",
+      "translated_text": "We suspended everyone at the top of the float, then lowered down all at once.",
       "final_text": null
     },
     {
@@ -4266,7 +4266,7 @@
       "id": "cue-00000068",
       "source_text": "同時に、ガス式のキャノン砲を数台設置して、メタルテープを上に吹き上げることで、",
       "normalized_source_text": "同時に、ガス式のキャノン砲を数台設置して、メタルテープを上に吹き上げることで、",
-      "translated_text": "At the same time,\\Nwe set up several gas-powered cannons to shoot metallic tape into the air,",
+      "translated_text": "At the same time, we fired metallic tape with gas-powered cannons,",
       "final_text": null
     },
     {
@@ -10165,7 +10165,7 @@
     {
       "start_time": 559.12,
       "end_time": 561.4,
-      "speaker": "Rui",
+      "speaker": "Mizuki",
       "role": null,
       "corner": null,
       "words": [
@@ -10173,56 +10173,56 @@
           "word": "ほら、",
           "start_time": 559.12,
           "end_time": 559.6,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "類",
           "start_time": 559.6,
           "end_time": 560.44,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "で",
           "start_time": 560.44,
           "end_time": 560.56,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "に",
           "start_time": 560.56,
           "end_time": 560.6800000000001,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "言わ",
           "start_time": 560.6800000000001,
           "end_time": 560.84,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "れ",
           "start_time": 560.84,
           "end_time": 560.96,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "てる",
           "start_time": 560.96,
           "end_time": 561.16,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "よ。",
           "start_time": 561.16,
           "end_time": 561.4,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         }
       ],
@@ -10237,7 +10237,7 @@
       "id": "cue-00000180",
       "source_text": "ほら、類でに言われてるよ。",
       "normalized_source_text": "ほら、類でに言われてるよ。",
-      "translated_text": "Look, even Kanade is telling you to.",
+      "translated_text": "Look, Rui, even Kanade is telling you to.",
       "final_text": null
     },
     {
@@ -10524,7 +10524,7 @@
       "id": "cue-00000187",
       "source_text": "瑞希さん。",
       "normalized_source_text": "瑞希さん。",
-      "translated_text": "Mizuki-san.",
+      "translated_text": "Mizuki.",
       "final_text": null
     },
     {
@@ -10946,7 +10946,7 @@
       "id": "cue-00000196",
       "source_text": "僕、かっこいい声の、類君のお声聞きたいな。",
       "normalized_source_text": "僕、かっこいい声の、類君のお声聞きたいな。",
-      "translated_text": "I'd love to hear Rui-kun's cool voice.",
+      "translated_text": "I'd love to hear Rui's cool voice.",
       "final_text": null
     },
     {
@@ -11046,7 +11046,7 @@
       "id": "cue-00000198",
       "source_text": "ファンサービスの練習しよっか、類君。",
       "normalized_source_text": "ファンサービスの練習しよっか、類君。",
-      "translated_text": "Let's practice some fan service, Rui-kun.",
+      "translated_text": "Let's practice some fan service, Rui.",
       "final_text": null
     },
     {
@@ -12537,7 +12537,7 @@
       "id": "cue-00000226",
       "source_text": "草薙さんも、え、一緒にやらない?",
       "normalized_source_text": "草薙さんも、え、一緒にやらない?",
-      "translated_text": "Kusanagi-san, do you want to do it with me?",
+      "translated_text": "Kusanagi, do you want to do it with me?",
       "final_text": null
     },
     {
@@ -14569,7 +14569,7 @@
       "id": "cue-00000277",
       "source_text": "東雲君がヴァイブス刻んでるの聞いてたから。",
       "normalized_source_text": "東雲君がヴァイブス刻んでるの聞いてたから。",
-      "translated_text": "listened to Shinonome-kun dropping his vibes.",
+      "translated_text": "listened to Shinonome dropping his vibes.",
       "final_text": null
     },
     {
@@ -15058,7 +15058,7 @@
       "id": "cue-00000290",
       "source_text": "草薙さんやってうまいな。",
       "normalized_source_text": "草薙さんやってうまいな。",
-      "translated_text": "Kusanagi-san is really good at this.",
+      "translated_text": "Kusanagi is really good at this.",
       "final_text": null
     },
     {
@@ -17366,7 +17366,7 @@
     {
       "start_time": 898.36,
       "end_time": 899.4,
-      "speaker": "An",
+      "speaker": "Ichika",
       "role": null,
       "corner": null,
       "words": [
@@ -17374,21 +17374,21 @@
           "word": "これ、",
           "start_time": 898.36,
           "end_time": 898.48,
-          "speaker": "An",
+          "speaker": "Ichika",
           "confidence": null
         },
         {
           "word": "すごい",
           "start_time": 898.92,
           "end_time": 899.24,
-          "speaker": "An",
+          "speaker": "Ichika",
           "confidence": null
         },
         {
           "word": "です。",
           "start_time": 899.24,
           "end_time": 899.4,
-          "speaker": "An",
+          "speaker": "Ichika",
           "confidence": null
         }
       ],
@@ -17396,7 +17396,7 @@
       "id": "cue-00000339",
       "source_text": "これ、すごいです。",
       "normalized_source_text": "これ、すごいです。",
-      "translated_text": "Wow, that was amazing!",
+      "translated_text": "That was incredible!",
       "final_text": null
     },
     {
@@ -20059,7 +20059,7 @@
       "id": "cue-00000391",
       "source_text": "溜まるぞ。",
       "normalized_source_text": "溜まるぞ。",
-      "translated_text": "It's building up...",
+      "translated_text": "That was so thrilling...",
       "final_text": null
     },
     {

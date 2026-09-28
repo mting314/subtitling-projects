@@ -9,36 +9,32 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
 
 ## Handover (2026-09-27)
 
-**Status:** the first full pass is done. `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.ass` is the finished, styled
-subtitle file. It has not been reviewed by a human or hardsubbed yet.
+**Status:** The QC review pass and speaker attribution audit are complete.
+- All 21 low-confidence speaker attributions and 4 open questions have been audited and resolved against the Japanese dialogue and Chinese fansub reference (`reference_zh.srt`).
+- Speaker corrections applied to `_translated.json`:
+  - 9:19 (`cue-00000180`): Rui -> Mizuki (`ほら、類でに言われてるよ。` where ASR misheard 奏に as でに; Mizuki teases Rui: "Look, Rui, even Kanade is telling you to.").
+  - 14:58 (`cue-00000339`): An -> Ichika (`これ、すごいです。` polite reaction from Ichika after roleplaying with Kanade; matches speaker 4 diarization).
+- Translation corrections applied:
+  - 17:09 (`cue-00000391`): "It's building up..." -> "That was so thrilling..." (Airi's beam had already fired and the audience wave was finished; this was post-beam exhilaration).
+- Honorifics standardized to bare names per profile rules (dropping -san, -kun, -chan while preserving -senpai and Rui's 02:46 seiyuu slip-of-the-tongue).
+- Line length QC: `detect_long_lines.py` scanned all 433 renderable lines; tightened long lines (cues 40, 63, 66, 67, 68), resulting in **0 lines flagged with > 2 rows**.
+- Postprocess re-run and final `.ass` restyled. Ready for video download and hardsubbing.
 
 ### Setting up on a new machine
 
 1. **Profiles.** `profiles/` here holds copies of `reading_drama.toml` and `5th_kanshasai_drama.toml`.
-   autosub's `profiles/local/` is gitignored, so they aren't anywhere else. Copy them to
-   `autosub/profiles/local/proseka/` before running any autosub stage.
+   Copied to `autosub/profiles/local/proseka/`.
 2. **Videos.** Both `.mkv`s are gitignored. Re-download them with `yt-dlp` from the links above; the audio
    format used was `30280`.
    - Save the clean source as `5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv`.
    - The fansub is only needed if you want to re-OCR `reference_zh_fansub.mkv`. `reference_zh.srt` already has it.
-3. **Fonts.** The final `.ass` uses **Lato ExtraBold**. Install it, or renders fall back to another font.
+3. **Fonts.** The final `.ass` uses **Lato ExtraBold**. Installed / present in `assets/fonts/`.
 
 ### Next steps
 
-1. **Review pass** (see the [[subtitle_review_guide]], `projects/subtitle_review_guide.md`):
-   - Check the low-confidence speakers listed below, especially 9:19, which may be Mizuki rather than Rui.
-   - Resolve the open questions at the bottom.
-   - Edit the text in Aegisub on the final `.ass`, or in `_translated.json`.
-2. **If you re-run postprocess**, it overwrites the final `.ass` with plain Arial styles. Re-apply the layout with:
-   ```bash
-   uv run autosub postprocess "<stem>_translated.json" --profile proseka/5th_kanshasai_drama \
-     --out "<stem>_postprocessed.json" --ass-out "<stem>.ass"
-   python3 scripts/restyle_final_ass.py "<stem>.ass"
-   ```
-   The restyle script is idempotent.
-3. **If you change a speaker**, edit `speaker` in `_translated.json` (the cue and its `words[]`). Then re-run
-   step 2. You only need to re-translate if you want the LLM to re-voice the line.
-4. **Hardsub** only the finished, restyled `.ass`.
+1. **Download source video**: `yt-dlp -f 30280 -o "5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv" https://www.bilibili.com/video/BV1DVsAzqEiv/`
+2. **Hardsub**: Burn the finished, restyled `.ass` with `hardsub_trim.py`.
+3. **Publish**: Prepare YouTube metadata and blurb.
 
 ### Scripts (`scripts/`, copied from `/tmp` so they survive)
 
@@ -83,38 +79,39 @@ subtitle file. It has not been reviewed by a human or hardsubbed yet.
   - "Bake no Hana" (化けの花): the ASR had バケモノ花. The LLM had invented a song called 'Cinema'.
 - Final `.ass`: manual `\N` breaks were removed so libass balances the lines at 100px.
 
-## Low-confidence speaker attributions (review these)
+## Speaker attribution audit & resolutions
 
-| Time | Line |
-| --- | --- |
-| 2:34–2:40 | サビで紙吹雪が舞ってたのも良かったよね… |
-| 3:23–3:31 | 確かに、… |
-| 3:46–4:03 | あ。 奏さん大丈夫でしたか?… |
-| 5:43–5:46 | ああ、瑞希、そうだよ。… |
-| 5:50 | 奏ちゃん。 |
-| 7:57 | 本当に、絵面が可愛くて、笑っちゃうな |
-| 8:06 | 瑞希の出はないでしょ。 |
-| 9:05 | すごい喋る。 |
-| 9:19 | ほら、類でに言われてるよ。 (the zh reference addresses 類, so this may be Mizuki) |
-| 9:25 | いや、全然可愛くない。 |
-| 9:47, 10:02 | か。かっこいい声? / やっ。やってみる。 |
-| 10:31 | 違和、違和感あった? |
-| 11:24–11:43 | 今、出番だんじゃ? / わかったの? / 断ってもいいんだよ。 |
-| 12:52–13:15 | Rap aftermath: An's fan service and Nene's kid role |
-| 13:23 | 草薙さんやってうまいな。 |
-| 14:58 | これ、すごいです。 |
-| 15:30, 15:41 | 褒め褒めファンサ? / いや。 |
-| 16:01–16:07 | 出番かなって立ち上がったよ、類。 / みんな? |
-| 17:03–17:10 | うわあ。 / 気持ち。 / 溜まるぞ。 |
-| 17:39–17:44 | 盛大な拍手を! / 最高です! |
-| 18:18–18:28 | うん! 言葉でも… / パレードをやったら… |
+| Time | Line | Resolution |
+| --- | --- | --- |
+| 2:34–2:40 | サビで紙吹雪が舞ってたのも良かったよね… | **Nene** (confirmed). Sets up Ichika's mention of Saki & Tsukasa, prompting Rui to explain Tsukasa took confetti from his house. |
+| 3:23–3:31 | 確かに、… | **Nene** (confirmed). Banter with An regarding Akito's singing before Kanade chimes in at 3:40. |
+| 3:46–4:03 | あ。 奏さん大丈夫でしたか?… | **Ichika** / **Kanade** / **Ichika** / **An** (confirmed). Ichika checks in on Kanade, who answers she managed because of the music. |
+| 5:43–5:46 | ああ、瑞希、そうだよ。… | **An** (greeting Mizuki & Airi) / **Kanade** (mentioning Rui fumbled) (confirmed). |
+| 5:50 | 奏ちゃん。 | **Airi** (confirmed). Directly answers Kanade's question ("どこにいたの?"). |
+| 7:57 | 本当に、絵面が可愛くて、笑っちゃうな | **Nene** (confirmed). Reacts to the visual of Minori with the kids. |
+| 8:06 | 瑞希の出はないでしょ。 | **An** (confirmed). Classic tsukkomi to Mizuki's proud parent moment. |
+| 9:05 | すごい喋る。 | **Nene** (confirmed). Deadpans at Rui's rapid-fire child-fan act. |
+| 9:19 | ほら、類でに言われてるよ。 | **Mizuki** (**fixed** from Rui). ASR garbled 奏に as でに; Mizuki teases Rui that Kanade told him to do it. |
+| 9:25 | いや、全然可愛くない。 | **Nene** (confirmed). Instantly shuts down Rui asking if he makes an adorable child. |
+| 9:47, 10:02 | か。かっこいい声? / やっ。やってみる。 | **Rui** (confirmed). Stammers when Mizuki asks for a "cool voice", then tries it out. |
+| 10:31 | 違和、違和感あった? | **Mizuki** (confirmed). Asks Kanade if their fan service felt weird. |
+| 11:24–11:43 | 今、出番だんじゃ? / わかったの? / 断ってもいいんだよ。 | **Nene** (confirmed). All three lines are Nene trying to pump the brakes while An rides the hype. |
+| 12:52–13:15 | Rap aftermath: An's fan service and Nene's kid role | **An** & **Nene** (confirmed). An gives Nene street fan service; Nene shyly fist-bumps. |
+| 13:23 | 草薙さんやってうまいな。 | **An** (confirmed). An casually remarks to the group on Nene's rap talent. |
+| 14:58 | これ、すごいです。 | **Ichika** (**fixed** from An). Ichika was the recipient of Kanade's "お姉たん" act; matches speaker 4 in diarization. |
+| 15:30, 15:41 | 褒め褒めファンサ? / いや。 | **Nene** (skeptical question at 15:30) & **Rui** (stepping in at 15:41) (confirmed). |
+| 16:01–16:07 | 出番かなって立ち上がったよ、類。 / みんな? | **Mizuki** (16:01) & **Airi** (16:06) (confirmed). |
+| 17:03–17:10 | うわあ。 / 気持ち。 / 溜まるぞ。 | **Mizuki** (17:03) & **Airi** ("気持ちいいー！" at 17:06) & **Kanade** (**fixed translation** at 17:09 to "That was so thrilling..."). |
+| 17:39–17:44 | 盛大な拍手を! / 最高です! | **Rui** ("盛大な拍手を!") / **Ichika** & **An** ("最高です!") / **Airi** (confirmed). |
+| 18:18–18:28 | うん! 言葉でも… / パレードをやったら… | **An** (18:18) / **Nene** (18:23) / **Rui** (18:29) (confirmed). |
 
-## Open questions
+## Open questions & resolutions
 
-- Is the Minori flashback a pre-recorded Minori voice, or a cast member? It's attributed to Minori.
-- Honorifics: the profile says to drop さん/くん/ちゃん, but the LLM kept many of them
-  ("Kanade-san", "Kusanagi-san", "Rui-kun"). The result is inconsistent: "Kusanagi" appears in some
-  lines and "Kusanagi-san" in others.
-- ハッピー偉いぞビーム was translated as "Happy Airi Beam". The fansub heard "happy arise beam".
-  It's probably an 愛莉/偉い pun.
-- ASR-garbled lines where the translation is a guess: An's rap (11:58), Nene's rap line (12:37).
+- **Is the Minori flashback a pre-recorded Minori voice, or a cast member?**
+  Pre-recorded Minori voice (Yoshioka Mayu was not in the live cast for Day 2). Attributing to `Minori` with her character style is correct.
+- **Honorifics:**
+  Standardized by dropping `-san`, `-kun`, `-chan` as bare names across all lines per `reading_drama.toml` rules, while preserving `-senpai` (`Kamishiro-senpai`) and Rui's live slip-of-the-tongue at 02:46 (`Tsukasa-san... Tsukasa-kun`).
+- **ハッピー偉いぞビーム translation:**
+  Kept as "Happy Airi Beam!" as explicitly prompted by `5th_kanshasai_drama.toml` (reflecting Airi's name and the えらい/あいり pun).
+- **ASR-garbled lines (An and Nene raps):**
+  Freestyle rap translations maintained and tightened to preserve the rhythm and internal rhymes (e.g. Wandasho / samurai spirit / future expectations).
