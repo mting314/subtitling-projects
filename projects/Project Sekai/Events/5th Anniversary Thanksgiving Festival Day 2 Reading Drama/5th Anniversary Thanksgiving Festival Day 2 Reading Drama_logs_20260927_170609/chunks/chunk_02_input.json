@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "なんか、パーって銀テープが吹き上がったって思ったら、みんな空から登場しちゃうなんて、",
+    "start_time": 250.76,
+    "end_time": 256.24,
+    "speaker": "An"
+  },
+  {
+    "id": 1,
+    "text": "もうずるいですよ。",
+    "start_time": 256.24,
+    "end_time": 258.16,
+    "speaker": "An"
+  },
+  {
+    "id": 2,
+    "text": "穂波から、空から登場するって聞いてましたけど、まさかあんな手品みたいに登場するとは思いませんでした。",
+    "start_time": 258.36,
+    "end_time": 265.84,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 266.07,
+    "end_time": 266.57,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 4,
+    "text": "あれって、どうやって?",
+    "start_time": 267.2,
+    "end_time": 269.0,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 5,
+    "text": "あれは実際に、空から現れたわけじゃないんだよ。",
+    "start_time": 269.36,
+    "end_time": 272.8,
+    "speaker": "Rui"
+  },
+  {
+    "id": 6,
+    "text": "パレードフロートの一番高いところに隠れるようにみんなを吊って、パッと下ろしたんだ。",
+    "start_time": 273.32,
+    "end_time": 278.36,
+    "speaker": "Rui"
+  },
+  {
+    "id": 7,
+    "text": "同時に、ガス式のキャノン砲を数台設置して、メタルテープを上に吹き上げることで、",
+    "start_time": 278.96,
+    "end_time": 284.8,
+    "speaker": "Rui"
+  },
+  {
+    "id": 8,
+    "text": "急に空から現れたように見えたってことさ。",
+    "start_time": 284.8,
+    "end_time": 287.52,
+    "speaker": "Rui"
+  },
+  {
+    "id": 9,
+    "text": "へえ。",
+    "start_time": 287.61,
+    "end_time": 288.11,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 10,
+    "text": "本当に手品みたい。",
+    "start_time": 289.0,
+    "end_time": 290.84,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 11,
+    "text": "吊られる方はちょっと怖いけど。",
+    "start_time": 290.84,
+    "end_time": 293.2,
+    "speaker": "Nene"
+  },
+  {
+    "id": 12,
+    "text": "でも、やっぱり、お客さんの反応は嬉しかったな。",
+    "start_time": 294.16,
+    "end_time": 297.44,
+    "speaker": "Nene"
+  },
+  {
+    "id": 13,
+    "text": "ええ。",
+    "start_time": 297.77,
+    "end_time": 298.27,
+    "speaker": "An"
+  },
+  {
+    "id": 14,
+    "text": "草薙さんっておとなしそうに見えるのに、結構度胸あるよね。",
+    "start_time": 299.16,
+    "end_time": 303.56,
+    "speaker": "An"
+  },
+  {
+    "id": 15,
+    "text": "すごいな。",
+    "start_time": 303.56,
+    "end_time": 304.6,
+    "speaker": "An"
+  },
+  {
+    "id": 16,
+    "text": "ああ、",
+    "start_time": 304.65,
+    "end_time": 305.15,
+    "speaker": "Nene"
+  },
+  {
+    "id": 17,
+    "text": "そんなことないよ。",
+    "start_time": 305.88,
+    "end_time": 307.12,
+    "speaker": "Nene"
+  },
+  {
+    "id": 18,
+    "text": "あ、えっと、",
+    "start_time": 308.12,
+    "end_time": 309.2,
+    "speaker": "Nene"
+  },
+  {
+    "id": 19,
+    "text": "あ、",
+    "start_time": 309.77,
+    "end_time": 310.495,
+    "speaker": "Nene"
+  },
+  {
+    "id": 20,
+    "text": "そういえば、花里さん達の所もすごかったよね。",
+    "start_time": 310.495,
+    "end_time": 314.16,
+    "speaker": "Nene"
+  },
+  {
+    "id": 21,
+    "text": "うん。",
+    "start_time": 314.07,
+    "end_time": 314.57,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 22,
+    "text": "コール&レスポンスって言うんだっけ。",
+    "start_time": 315.12,
+    "end_time": 317.1,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 23,
+    "text": "あれでお客さんをすっごく盛り上げてて、かっこよかったな。",
+    "start_time": 317.1,
+    "end_time": 320.56,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 24,
+    "text": "わかる。",
+    "start_time": 320.84,
+    "end_time": 321.6,
+    "speaker": "An"
+  },
+  {
+    "id": 25,
+    "text": "あそこは本当に、",
+    "start_time": 321.6,
+    "end_time": 323.0,
+    "speaker": "An"
+  },
+  {
+    "id": 26,
+    "text": "って、あれ?",
+    "start_time": 323.6,
+    "end_time": 324.72,
+    "speaker": "An"
+  },
+  {
+    "id": 27,
+    "text": "遥達いなくない?",
+    "start_time": 325.36,
+    "end_time": 326.56,
+    "speaker": "An"
+  },
+  {
+    "id": 28,
+    "text": "本当だ。",
+    "start_time": 327.12,
+    "end_time": 328.02,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 29,
+    "text": "瑞希もいつの間にかいなくなってるし。",
+    "start_time": 328.02,
+    "end_time": 330.64,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 30,
+    "text": "みんな、お疲れ様。",
+    "start_time": 334.28,
+    "end_time": 335.4,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 31,
+    "text": "類が噛んだって。",
+    "start_time": 335.4,
+    "end_time": 336.44,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 32,
+    "text": "ここに集まってたのね。",
+    "start_time": 338.6,
+    "end_time": 340.08,
+    "speaker": "Airi"
+  },
+  {
+    "id": 33,
+    "text": "随分地獄耳だね。",
+    "start_time": 340.52,
+    "end_time": 341.88,
+    "speaker": "Rui"
+  },
+  {
+    "id": 34,
+    "text": "ああ、瑞希、そうだよ。",
+    "start_time": 343.68,
+    "end_time": 345.12,
+    "speaker": "An"
+  },
+  {
+    "id": 35,
+    "text": "それに、愛莉さんも。",
+    "start_time": 345.12,
+    "end_time": 346.44,
+    "speaker": "An"
+  },
+  {
+    "id": 36,
+    "text": "結構噛んでたんだよ。",
+    "start_time": 346.84,
+    "end_time": 348.36,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 37,
+    "text": "あ。",
+    "start_time": 348.25,
+    "end_time": 348.75,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 38,
+    "text": "どこにいたの?",
+    "start_time": 348.92,
+    "end_time": 349.72,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 39,
+    "text": "奏ちゃん。",
+    "start_time": 350.44,
+    "end_time": 351.2,
+    "speaker": "Airi"
+  },
+  {
+    "id": 40,
+    "text": "ああ、実はさっきまで、ミニ握手会を開いてたの。",
+    "start_time": 351.2,
+    "end_time": 354.92,
+    "speaker": "Airi"
+  },
+  {
+    "id": 41,
+    "text": "ミニ握手会?",
+    "start_time": 355.12,
+    "end_time": 356.16,
+    "speaker": "Nene"
+  },
+  {
+    "id": 42,
+    "text": "そう。",
+    "start_time": 356.29,
+    "end_time": 356.915,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 43,
+    "text": "ももちゃんはファンのみんなと交流できるように、運営さんに言って、",
+    "start_time": 356.915,
+    "end_time": 360.72,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 44,
+    "text": "スペースを確保してもらってたんだよ。",
+    "start_time": 360.72,
+    "end_time": 362.96,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 45,
+    "text": "やっぱ、ファンの気持ちわかってるよね。",
+    "start_time": 362.96,
+    "end_time": 365.52,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 46,
+    "text": "ええ。",
+    "start_time": 365.73,
+    "end_time": 366.415,
+    "speaker": "An"
+  },
+  {
+    "id": 47,
+    "text": "というか、それ行きたかったな。",
+    "start_time": 366.415,
+    "end_time": 368.6,
+    "speaker": "An"
+  },
+  {
+    "id": 48,
+    "text": "遥の列に並んで、からかいたいし。",
+    "start_time": 368.6,
+    "end_time": 371.04,
+    "speaker": "An"
+  },
+  {
+    "id": 49,
+    "text": "ちょっと、リアクション見てみたいわね。",
+    "start_time": 372.12,
+    "end_time": 374.08,
+    "speaker": "Airi"
+  },
+  {
+    "id": 50,
+    "text": "でも、今回は、みのりが本当に大人気だったわ。",
+    "start_time": 374.08,
+    "end_time": 378.08,
+    "speaker": "Airi"
+  },
+  {
+    "id": 51,
+    "text": "そうなんですか?",
+    "start_time": 378.36,
+    "end_time": 379.24,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 52,
+    "text": "ええ。",
+    "start_time": 379.39,
+    "end_time": 379.89,
+    "speaker": "Airi"
+  },
+  {
+    "id": 53,
+    "text": "すごかったのよ。",
+    "start_time": 380.52,
+    "end_time": 381.76,
+    "speaker": "Airi"
+  },
+  {
+    "id": 54,
+    "text": "例えば、",
+    "start_time": 382.52,
+    "end_time": 384.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 55,
+    "text": "はい。",
+    "start_time": 392.65,
+    "end_time": 393.15,
+    "speaker": "Minori"
+  },
+  {
+    "id": 56,
+    "text": "応援ありがとうございます。",
+    "start_time": 393.68,
+    "end_time": 394.96,
+    "speaker": "Minori"
+  },
+  {
+    "id": 57,
+    "text": "これからも頑張ります。",
+    "start_time": 395.48,
+    "end_time": 396.68,
+    "speaker": "Minori"
+  },
+  {
+    "id": 58,
+    "text": "ミニ握手会、思ったより人が来てくれて嬉しいな。",
+    "start_time": 399.24,
+    "end_time": 402.48,
+    "speaker": "Minori"
+  },
+  {
+    "id": 59,
+    "text": "次の方どうぞ。",
+    "start_time": 403.6,
+    "end_time": 404.56,
+    "speaker": "Minori"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "あ。",
+    "start_time": 406.01,
+    "end_time": 406.51,
+    "speaker": "Minori"
+  },
+  {
+    "id": 1,
+    "text": "もしかして、ご家族で応援してくださってるんですか?",
+    "start_time": 407.16,
+    "end_time": 410.36,
+    "speaker": "Minori"
+  },
+  {
+    "id": 2,
+    "text": "嬉しいな。",
+    "start_time": 411.52,
+    "end_time": 412.08,
+    "speaker": "Minori"
+  },
+  {
+    "id": 3,
+    "text": "ありがとうございます。",
+    "start_time": 413.04,
+    "end_time": 414.0,
+    "speaker": "Minori"
+  },
+  {
+    "id": 4,
+    "text": "ええ。",
+    "start_time": 414.81,
+    "end_time": 415.31,
+    "speaker": "Minori"
+  },
+  {
+    "id": 5,
+    "text": "今、つなの?",
+    "start_time": 416.0,
+    "end_time": 416.88,
+    "speaker": "Minori"
+  },
+  {
+    "id": 6,
+    "text": "3歳?",
+    "start_time": 418.03,
+    "end_time": 418.53,
+    "speaker": "Minori"
+  },
+  {
+    "id": 7,
+    "text": "ええ。",
+    "start_time": 419.53,
+    "end_time": 420.03,
+    "speaker": "Minori"
+  },
+  {
+    "id": 8,
+    "text": "可愛いね。",
+    "start_time": 420.59,
+    "end_time": 421.09,
+    "speaker": "Minori"
+  },
+  {
+    "id": 9,
+    "text": "それじゃあ、握手を。",
+    "start_time": 423.2,
+    "end_time": 424.24,
+    "speaker": "Minori"
+  },
+  {
+    "id": 10,
+    "text": "え?",
+    "start_time": 425.37,
+    "end_time": 425.87,
+    "speaker": "Minori"
+  },
+  {
+    "id": 11,
+    "text": "お手々繋ぎたい?",
+    "start_time": 426.48,
+    "end_time": 427.84,
+    "speaker": "Minori"
+  },
+  {
+    "id": 12,
+    "text": "うん。",
+    "start_time": 428.95,
+    "end_time": 429.45,
+    "speaker": "Minori"
+  },
+  {
+    "id": 13,
+    "text": "お手々繋いで、ブンブンしよう。",
+    "start_time": 430.04,
+    "end_time": 431.8,
+    "speaker": "Minori"
+  },
+  {
+    "id": 14,
+    "text": "え?",
+    "start_time": 433.21,
+    "end_time": 433.71,
+    "speaker": "Minori"
+  },
+  {
+    "id": 15,
+    "text": "次は、抱っこ?",
+    "start_time": 434.28,
+    "end_time": 435.64,
+    "speaker": "Minori"
+  },
+  {
+    "id": 16,
+    "text": "ああ、",
+    "start_time": 437.77,
+    "end_time": 438.47,
+    "speaker": "Minori"
+  },
+  {
+    "id": 17,
+    "text": "うん。",
+    "start_time": 438.47,
+    "end_time": 439.385,
+    "speaker": "Minori"
+  },
+  {
+    "id": 18,
+    "text": "ちょ、ちょっと重いけど、",
+    "start_time": 439.385,
+    "end_time": 441.04,
+    "speaker": "Minori"
+  },
+  {
+    "id": 19,
+    "text": "喜んでもらえて良かったな。",
+    "start_time": 442.0,
+    "end_time": 443.68,
+    "speaker": "Minori"
+  },
+  {
+    "id": 20,
+    "text": "あれ?",
+    "start_time": 445.67,
+    "end_time": 446.17,
+    "speaker": "Minori"
+  },
+  {
+    "id": 21,
+    "text": "ああ。",
+    "start_time": 448.21,
+    "end_time": 448.71,
+    "speaker": "Minori"
+  },
+  {
+    "id": 22,
+    "text": "後ろに並んでるちっちゃい子達が、みんな抱って言い出しちゃった。",
+    "start_time": 449.56,
+    "end_time": 454.16,
+    "speaker": "Minori"
+  },
+  {
+    "id": 23,
+    "text": "ど、どうしよう。",
+    "start_time": 455.64,
+    "end_time": 456.72,
+    "speaker": "Minori"
+  },
+  {
+    "id": 24,
+    "text": "これじゃ、握手会じゃなくて、抱っこ会だよ。",
+    "start_time": 457.48,
+    "end_time": 460.32,
+    "speaker": "Minori"
+  },
+  {
+    "id": 25,
+    "text": "って感じで、子供に大人気だったの。",
+    "start_time": 471.16,
+    "end_time": 474.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 26,
+    "text": "ああ。",
+    "start_time": 473.83,
+    "end_time": 474.33,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 27,
+    "text": "花里さんらしいな。",
+    "start_time": 475.04,
+    "end_time": 476.44,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 28,
+    "text": "本当に、絵面が可愛くて、笑っちゃうな。",
+    "start_time": 477.72,
+    "end_time": 481.16,
+    "speaker": "Nene"
+  },
+  {
+    "id": 29,
+    "text": "いや、僕のみのりちゃんがちびっ子にも大人気で鼻が高いよ。",
+    "start_time": 481.92,
+    "end_time": 486.36,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 30,
+    "text": "瑞希の出はないでしょ。",
+    "start_time": 486.44,
+    "end_time": 487.92,
+    "speaker": "An"
+  },
+  {
+    "id": 31,
+    "text": "瑞希はそういうところ",
+    "start_time": 488.96,
+    "end_time": 490.16,
+    "speaker": "Rui"
+  },
+  {
+    "id": 32,
+    "text": "ところがあるよね。",
+    "start_time": 490.0,
+    "end_time": 490.68,
+    "speaker": "Rui"
+  },
+  {
+    "id": 33,
+    "text": "まあ、いいじゃん。",
+    "start_time": 491.0,
+    "end_time": 492.06,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 34,
+    "text": "やっぱファンなら僕が育てましたとか言いたいし。",
+    "start_time": 492.06,
+    "end_time": 496.36,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 35,
+    "text": "えー、でもああいうの見てると僕もちびっ子に応援されてファンサとかしてみたいって気持ちになるな。",
+    "start_time": 496.36,
+    "end_time": 503.56,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 36,
+    "text": "え、瑞希が?",
+    "start_time": 503.84,
+    "end_time": 505.08,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 37,
+    "text": "うん。",
+    "start_time": 504.99,
+    "end_time": 505.49,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 38,
+    "text": "あ、まあ、僕達は活動内容的に",
+    "start_time": 506.04,
+    "end_time": 508.84,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 39,
+    "text": "ファンサ?",
+    "start_time": 508.84,
+    "end_time": 509.4,
+    "speaker": "Rui"
+  },
+  {
+    "id": 40,
+    "text": "あ、僕達は活動",
+    "start_time": 511.52,
+    "end_time": 512.52,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 41,
+    "text": "ファンサと言ったかい?",
+    "start_time": 512.52,
+    "end_time": 513.96,
+    "speaker": "Rui"
+  },
+  {
+    "id": 42,
+    "text": "あ、ま、僕達",
+    "start_time": 514.52,
+    "end_time": 515.68,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 43,
+    "text": "なるほど。",
+    "start_time": 515.68,
+    "end_time": 516.64,
+    "speaker": "Rui"
+  },
+  {
+    "id": 44,
+    "text": "やばい、やばい。",
+    "start_time": 517.37,
+    "end_time": 517.87,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 45,
+    "text": "確かに瑞希がどんなファンサをするのか気になるよね。",
+    "start_time": 517.8,
+    "end_time": 522.92,
+    "speaker": "Rui"
+  },
+  {
+    "id": 46,
+    "text": "こんにちは。",
+    "start_time": 529.8,
+    "end_time": 530.48,
+    "speaker": "Rui"
+  },
+  {
+    "id": 47,
+    "text": "僕素敵な東雲ファンです。",
+    "start_time": 532.24,
+    "end_time": 535.84,
+    "speaker": "Rui"
+  },
+  {
+    "id": 48,
+    "text": "なんか",
+    "start_time": 536.79,
+    "end_time": 537.29,
+    "speaker": "Rui"
+  },
+  {
+    "id": 49,
+    "text": "情熱すごい好きです。",
+    "start_time": 537.52,
+    "end_time": 538.8,
+    "speaker": "Rui"
+  },
+  {
+    "id": 50,
+    "text": "バケモノ歌もすごい好きです。",
+    "start_time": 540.32,
+    "end_time": 541.64,
+    "speaker": "Rui"
+  },
+  {
+    "id": 51,
+    "text": "バケモノ花でした。",
+    "start_time": 542.72,
+    "end_time": 543.48,
+    "speaker": "Rui"
+  },
+  {
+    "id": 52,
+    "text": "バケモノ花すごい好きです。",
+    "start_time": 543.48,
+    "end_time": 544.52,
+    "speaker": "Rui"
+  },
+  {
+    "id": 53,
+    "text": "すごい喋る。",
+    "start_time": 545.4,
+    "end_time": 546.04,
+    "speaker": "Nene"
+  },
+  {
+    "id": 54,
+    "text": "いや、",
+    "start_time": 546.39,
+    "end_time": 547.085,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 55,
+    "text": "じゃ、そういう厄介バンとか僕大好きななんで。",
+    "start_time": 547.085,
+    "end_time": 549.36,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 56,
+    "text": "え?",
+    "start_time": 552.29,
+    "end_time": 552.79,
+    "speaker": "Rui"
+  },
+  {
+    "id": 57,
+    "text": "え?",
+    "start_time": 553.77,
+    "end_time": 554.27,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 58,
+    "text": "始めたならやった方がいいと思う。",
+    "start_time": 555.0,
+    "end_time": 557.04,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 59,
+    "text": "ほら、類でに言われてるよ。",
+    "start_time": 559.12,
+    "end_time": 561.4,
+    "speaker": "Rui"
+  }
+]

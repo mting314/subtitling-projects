@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "イエーイ！みんな、盛り上がってる～？",
+    "start_time": 33.25,
+    "end_time": 38.0,
+    "speaker": "Rin"
+  },
+  {
+    "id": 1,
+    "text": "よかった。楽しんでくれているみたいね",
+    "start_time": 44.0,
+    "end_time": 48.75,
+    "speaker": "Luka"
+  },
+  {
+    "id": 2,
+    "text": "そうだね！だけど……みんなの声、もっと聞きたくなっちゃったな",
+    "start_time": 48.75,
+    "end_time": 55.5,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 3,
+    "text": "次は、僕達みんなで一緒にやってみようよ",
+    "start_time": 55.5,
+    "end_time": 61.75,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 4,
+    "text": "あら、楽しそうね。それじゃあ、みんなで『イエーイ』ってやってみましょう",
+    "start_time": 61.75,
+    "end_time": 70.25,
+    "speaker": "Luka"
+  },
+  {
+    "id": 5,
+    "text": "せーのっ！",
+    "start_time": 70.25,
+    "end_time": 72.75,
+    "speaker": "Luka"
+  },
+  {
+    "id": 6,
+    "text": "『イエーイ！』",
+    "start_time": 76.0,
+    "end_time": 77.75,
+    "speaker": "Rin, Luka & KAITO"
+  },
+  {
+    "id": 7,
+    "text": "ありがとう！今日のために、僕達に会いに来てくれて嬉しいよ！",
+    "start_time": 80.0,
+    "end_time": 87.25,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 8,
+    "text": "ここにいるみんなが、いつも一緒にあの子達を見守ってくれていると思うと心強いわね",
+    "start_time": 87.25,
+    "end_time": 96.5,
+    "speaker": "Luka"
+  },
+  {
+    "id": 9,
+    "text": "あ、ねえねえ！せっかくだし、みんなであの子達のとこ行ってみない？",
+    "start_time": 96.5,
+    "end_time": 102.25,
+    "speaker": "Rin"
+  },
+  {
+    "id": 10,
+    "text": "今日は面白いことをやってるみたいなんだ♪",
+    "start_time": 102.25,
+    "end_time": 106.0,
+    "speaker": "Rin"
+  },
+  {
+    "id": 11,
+    "text": "いいんじゃないかな。昨日、レン達も行っていたみたいだし",
+    "start_time": 106.0,
+    "end_time": 111.75,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 12,
+    "text": "みんなも、準備はいいかしら？",
+    "start_time": 111.75,
+    "end_time": 115.75,
+    "speaker": "Luka"
+  },
+  {
+    "id": 13,
+    "text": "それじゃあ——行くよ！",
+    "start_time": 115.75,
+    "end_time": 119.25,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 14,
+    "text": "はあ、",
+    "start_time": 127.53,
+    "end_time": 128.03,
+    "speaker": "An"
+  },
+  {
+    "id": 15,
+    "text": "楽しかった。",
+    "start_time": 129.04,
+    "end_time": 129.6,
+    "speaker": "An"
+  },
+  {
+    "id": 16,
+    "text": "みんなもお疲れ様。",
+    "start_time": 130.64,
+    "end_time": 131.76,
+    "speaker": "An"
+  },
+  {
+    "id": 17,
+    "text": "街を練り歩く音楽パレード、すっごく楽しかったね。",
+    "start_time": 132.28,
+    "end_time": 135.8,
+    "speaker": "An"
+  },
+  {
+    "id": 18,
+    "text": "うん。",
+    "start_time": 136.03,
+    "end_time": 136.53,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 19,
+    "text": "音楽で伝える感謝ってテーマのおかげで、気持ちもすごく乗ったな。",
+    "start_time": 137.2,
+    "end_time": 142.28,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 20,
+    "text": "星野さん達のオープニング握手と、すごく良かったよ。",
+    "start_time": 142.8,
+    "end_time": 146.68,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 21,
+    "text": "気持ちが伝わってきて。",
+    "start_time": 146.68,
+    "end_time": 148.4,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 22,
+    "text": "え?",
+    "start_time": 148.37,
+    "end_time": 149.04,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 23,
+    "text": "あ。",
+    "start_time": 149.04,
+    "end_time": 149.71,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 24,
+    "text": "奏さんにそう言っていただけるなんて、嬉しいです。",
+    "start_time": 150.68,
+    "end_time": 153.6,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 25,
+    "text": "サビで紙吹雪が舞ってたのも良かったよね。",
+    "start_time": 154.44,
+    "end_time": 157.0,
+    "speaker": "Nene"
+  },
+  {
+    "id": 26,
+    "text": "あれって、誰が考えた演出なの?",
+    "start_time": 157.6,
+    "end_time": 160.04,
+    "speaker": "Nene"
+  },
+  {
+    "id": 27,
+    "text": "あれは、咲希なんだ。",
+    "start_time": 160.44,
+    "end_time": 161.76,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 28,
+    "text": "司さんからアイデアをもらったみたい。",
+    "start_time": 162.4,
+    "end_time": 164.64,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 29,
+    "text": "ああ。",
+    "start_time": 165.2,
+    "end_time": 165.76,
+    "speaker": "Rui"
+  },
+  {
+    "id": 30,
+    "text": "だから司さん、司君はこの前、",
+    "start_time": 166.28,
+    "end_time": 168.6,
+    "speaker": "Rui"
+  },
+  {
+    "id": 31,
+    "text": "うん、あれ。",
+    "start_time": 169.39,
+    "end_time": 169.89,
+    "speaker": "Rui"
+  },
+  {
+    "id": 32,
+    "text": "この前、僕の家の家にある机作り置きの紙吹雪を持っていたんだね。",
+    "start_time": 171.36,
+    "end_time": 176.16,
+    "speaker": "Rui"
+  },
+  {
+    "id": 33,
+    "text": "照れるってば。",
+    "start_time": 177.68,
+    "end_time": 178.32,
+    "speaker": "Nene"
+  },
+  {
+    "id": 34,
+    "text": "なんだか調子悪そうですね、神代先輩。",
+    "start_time": 179.8,
+    "end_time": 182.08,
+    "speaker": "An"
+  },
+  {
+    "id": 35,
+    "text": "気意込みすぎなんじゃないですか?",
+    "start_time": 182.08,
+    "end_time": 183.36,
+    "speaker": "An"
+  },
+  {
+    "id": 36,
+    "text": "でも、そういう作り置きの紙吹雪っていうのもあるですね。",
+    "start_time": 184.72,
+    "end_time": 188.08,
+    "speaker": "An"
+  },
+  {
+    "id": 37,
+    "text": "もちろん。",
+    "start_time": 188.28,
+    "end_time": 188.96,
+    "speaker": "Rui"
+  },
+  {
+    "id": 38,
+    "text": "ショーに紙吹雪は欠かせないからね。",
+    "start_time": 189.52,
+    "end_time": 191.88,
+    "speaker": "Rui"
+  },
+  {
+    "id": 39,
+    "text": "その一方、白石君達は、歌一本で聞かせてくれたね。",
+    "start_time": 192.52,
+    "end_time": 196.76,
+    "speaker": "Rui"
+  },
+  {
+    "id": 40,
+    "text": "私達は歌で勝負してますからね。",
+    "start_time": 197.32,
+    "end_time": 199.94,
+    "speaker": "An"
+  },
+  {
+    "id": 41,
+    "text": "彰人とか、今日は特に気合い入ってたみたいだったな。",
+    "start_time": 199.94,
+    "end_time": 203.4,
+    "speaker": "An"
+  },
+  {
+    "id": 42,
+    "text": "確かに、",
+    "start_time": 203.64,
+    "end_time": 204.24,
+    "speaker": "Nene"
+  },
+  {
+    "id": 43,
+    "text": "すごいビリビリ来る歌だったね。",
+    "start_time": 204.88,
+    "end_time": 206.8,
+    "speaker": "Nene"
+  },
+  {
+    "id": 44,
+    "text": "今日はすぐ帰っちゃったけど、",
+    "start_time": 207.52,
+    "end_time": 209.04,
+    "speaker": "Nene"
+  },
+  {
+    "id": 45,
+    "text": "もう少し話を聞いてみたかったな。",
+    "start_time": 209.68,
+    "end_time": 211.68,
+    "speaker": "Nene"
+  },
+  {
+    "id": 46,
+    "text": "ね。",
+    "start_time": 211.93,
+    "end_time": 212.675,
+    "speaker": "An"
+  },
+  {
+    "id": 47,
+    "text": "なんか冬弥に、近くにクッキーがうまい店があったから行くぞとか言ってたな。",
+    "start_time": 212.675,
+    "end_time": 217.48,
+    "speaker": "An"
+  },
+  {
+    "id": 48,
+    "text": "でも、本当にすごかったね。",
+    "start_time": 220.08,
+    "end_time": 222.42,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 49,
+    "text": "お客さん達が一斉に腕を挙げて、熱いくらいだったし。",
+    "start_time": 222.42,
+    "end_time": 226.76,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 50,
+    "text": "あ。",
+    "start_time": 226.81,
+    "end_time": 227.515,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 51,
+    "text": "奏さん大丈夫でしたか?",
+    "start_time": 227.515,
+    "end_time": 229.74,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 52,
+    "text": "人ごみはあんまり得意じゃないって前に言ってましたけど。",
+    "start_time": 229.74,
+    "end_time": 233.44,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 53,
+    "text": "ああ。",
+    "start_time": 233.73,
+    "end_time": 234.23,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 54,
+    "text": "ちょっと、いや、だいぶ疲れたけど、歌が良かったから、そんなに気にならなかったよ。",
+    "start_time": 234.88,
+    "end_time": 240.56,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 55,
+    "text": "あ。",
+    "start_time": 240.53,
+    "end_time": 241.03,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 56,
+    "text": "本当ですか?",
+    "start_time": 241.68,
+    "end_time": 242.24,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 57,
+    "text": "良かった。",
+    "start_time": 242.88,
+    "end_time": 243.76,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 58,
+    "text": "でも、今日一の盛り上がりは神代先輩達に取られちゃったから、",
+    "start_time": 244.56,
+    "end_time": 248.62,
+    "speaker": "An"
+  },
+  {
+    "id": 59,
+    "text": "ちょっと悔しいな。",
+    "start_time": 248.62,
+    "end_time": 250.24,
+    "speaker": "An"
+  }
+]

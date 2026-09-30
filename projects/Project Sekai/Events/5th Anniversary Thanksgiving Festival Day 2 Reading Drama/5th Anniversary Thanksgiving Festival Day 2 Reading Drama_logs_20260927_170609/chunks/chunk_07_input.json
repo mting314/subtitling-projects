@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "text": "ステージを使わない分にはもったいないよね。",
+    "start_time": 945.2,
+    "end_time": 947.8,
+    "speaker": "Rui"
+  },
+  {
+    "id": 1,
+    "text": "わあ。",
+    "start_time": 948.45,
+    "end_time": 948.95,
+    "speaker": "Airi"
+  },
+  {
+    "id": 2,
+    "text": "な。",
+    "start_time": 950.03,
+    "end_time": 950.68,
+    "speaker": "Airi"
+  },
+  {
+    "id": 3,
+    "text": "なに?",
+    "start_time": 950.68,
+    "end_time": 951.33,
+    "speaker": "Airi"
+  },
+  {
+    "id": 4,
+    "text": "マイクを取っていただいて。",
+    "start_time": 951.2,
+    "end_time": 953.08,
+    "speaker": "Rui"
+  },
+  {
+    "id": 5,
+    "text": "おい。",
+    "start_time": 953.2,
+    "end_time": 954.0,
+    "speaker": "Airi"
+  },
+  {
+    "id": 6,
+    "text": "きっとカメラマンさんが追ってくださることでしょう。",
+    "start_time": 954.0,
+    "end_time": 958.2,
+    "speaker": "Rui"
+  },
+  {
+    "id": 7,
+    "text": "な、何を言っているかわか",
+    "start_time": 959.92,
+    "end_time": 961.52,
+    "speaker": "Airi"
+  },
+  {
+    "id": 8,
+    "text": "出番かなって立ち上がったよ、類。",
+    "start_time": 961.6,
+    "end_time": 963.24,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 9,
+    "text": "みんな、スタンドアップ。",
+    "start_time": 963.88,
+    "end_time": 964.68,
+    "speaker": "Rui"
+  },
+  {
+    "id": 10,
+    "text": "みんな?",
+    "start_time": 966.25,
+    "end_time": 966.97,
+    "speaker": "Airi"
+  },
+  {
+    "id": 11,
+    "text": "みんな?",
+    "start_time": 966.97,
+    "end_time": 967.69,
+    "speaker": "Airi"
+  },
+  {
+    "id": 12,
+    "text": "みんな。",
+    "start_time": 967.45,
+    "end_time": 967.95,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 13,
+    "text": "せっかくだから、ピンクい景色とか見たいよね。",
+    "start_time": 968.6,
+    "end_time": 971.4,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 14,
+    "text": "え、ええ。",
+    "start_time": 972.15,
+    "end_time": 972.65,
+    "speaker": "Airi"
+  },
+  {
+    "id": 15,
+    "text": "私、誕生日とかなんでもないんだけど。",
+    "start_time": 973.56,
+    "end_time": 976.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 16,
+    "text": "じゃあ、",
+    "start_time": 977.19,
+    "end_time": 977.69,
+    "speaker": "Airi"
+  },
+  {
+    "id": 17,
+    "text": "いカメラさん、どこのカメラさん?",
+    "start_time": 978.28,
+    "end_time": 980.525,
+    "speaker": "Airi"
+  },
+  {
+    "id": 18,
+    "text": "あれで。",
+    "start_time": 980.525,
+    "end_time": 981.11,
+    "speaker": "Airi"
+  },
+  {
+    "id": 19,
+    "text": "行くわよ。",
+    "start_time": 982.12,
+    "end_time": 982.64,
+    "speaker": "Airi"
+  },
+  {
+    "id": 20,
+    "text": "みんな、今日は歌って踊って、ファンサの練習もして、とっても偉かったわよ。",
+    "start_time": 983.64,
+    "end_time": 989.76,
+    "speaker": "Airi"
+  },
+  {
+    "id": 21,
+    "text": "そんな偉い子には、愛莉ちゃんから、ハッピー偉いぞビームをお見舞いしちゃうよ。",
+    "start_time": 990.44,
+    "end_time": 996.24,
+    "speaker": "Airi"
+  },
+  {
+    "id": 22,
+    "text": "ウェーブをご準備ください。",
+    "start_time": 998.92,
+    "end_time": 1000.32,
+    "speaker": "Rui"
+  },
+  {
+    "id": 23,
+    "text": "行くわよ。",
+    "start_time": 1002.48,
+    "end_time": 1003.64,
+    "speaker": "Airi"
+  },
+  {
+    "id": 24,
+    "text": "ぶむむむむ、溜まってきたわ。",
+    "start_time": 1003.64,
+    "end_time": 1005.36,
+    "speaker": "Airi"
+  },
+  {
+    "id": 25,
+    "text": "行くよ。",
+    "start_time": 1006.37,
+    "end_time": 1006.87,
+    "speaker": "Airi"
+  },
+  {
+    "id": 26,
+    "text": "ハッピー偉いぞビーム。",
+    "start_time": 1007.4,
+    "end_time": 1008.92,
+    "speaker": "Airi"
+  },
+  {
+    "id": 27,
+    "text": "うわあ。",
+    "start_time": 1023.07,
+    "end_time": 1023.57,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 28,
+    "text": "うわあ。",
+    "start_time": 1024.07,
+    "end_time": 1024.57,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 29,
+    "text": "気持ち。",
+    "start_time": 1026.2,
+    "end_time": 1027.0,
+    "speaker": "Airi"
+  },
+  {
+    "id": 30,
+    "text": "溜まるぞ。",
+    "start_time": 1029.94,
+    "end_time": 1030.44,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 31,
+    "text": "すごい。",
+    "start_time": 1030.44,
+    "end_time": 1030.94,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 32,
+    "text": "ど、どう、みんな?",
+    "start_time": 1031.72,
+    "end_time": 1032.88,
+    "speaker": "Airi"
+  },
+  {
+    "id": 33,
+    "text": "みんなに伝わったかしら?",
+    "start_time": 1035.12,
+    "end_time": 1036.52,
+    "speaker": "Airi"
+  },
+  {
+    "id": 34,
+    "text": "最後に僕だけとてつもないファンサをいただいたけどね。",
+    "start_time": 1037.2,
+    "end_time": 1039.72,
+    "speaker": "Rui"
+  },
+  {
+    "id": 35,
+    "text": "くっ。",
+    "start_time": 1039.63,
+    "end_time": 1040.13,
+    "speaker": "Airi"
+  },
+  {
+    "id": 36,
+    "text": "覚えておきなさい。",
+    "start_time": 1040.8,
+    "end_time": 1041.72,
+    "speaker": "Airi"
+  },
+  {
+    "id": 37,
+    "text": "殺されそうな目をしていたけどね。",
+    "start_time": 1042.12,
+    "end_time": 1043.44,
+    "speaker": "Rui"
+  },
+  {
+    "id": 38,
+    "text": "もちろん、みんなに伝わったよね。",
+    "start_time": 1044.72,
+    "end_time": 1046.52,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 39,
+    "text": "なら、よし。",
+    "start_time": 1048.76,
+    "end_time": 1049.76,
+    "speaker": "Airi"
+  },
+  {
+    "id": 40,
+    "text": "それじゃあ、また会いましょう。",
+    "start_time": 1050.32,
+    "end_time": 1051.84,
+    "speaker": "Airi"
+  },
+  {
+    "id": 41,
+    "text": "素晴らしいね。",
+    "start_time": 1052.32,
+    "end_time": 1053.24,
+    "speaker": "Rui"
+  },
+  {
+    "id": 42,
+    "text": "いつまでも、見てるからね。",
+    "start_time": 1053.52,
+    "end_time": 1055.0,
+    "speaker": "Airi"
+  },
+  {
+    "id": 43,
+    "text": "え、どこかしら?",
+    "start_time": 1056.0,
+    "end_time": 1057.52,
+    "speaker": "Airi"
+  },
+  {
+    "id": 44,
+    "text": "盛大な拍手を!",
+    "start_time": 1059.88,
+    "end_time": 1061.04,
+    "speaker": "Rui"
+  },
+  {
+    "id": 45,
+    "text": "最高です!",
+    "start_time": 1061.91,
+    "end_time": 1062.41,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 46,
+    "text": "最高です!",
+    "start_time": 1063.59,
+    "end_time": 1064.09,
+    "speaker": "An"
+  },
+  {
+    "id": 47,
+    "text": "ライブ前に走らせるんじゃないわよ!",
+    "start_time": 1064.68,
+    "end_time": 1066.24,
+    "speaker": "Airi"
+  },
+  {
+    "id": 48,
+    "text": "そんなに褒められるとちょっと照れちゃうわね。",
+    "start_time": 1068.04,
+    "end_time": 1070.04,
+    "speaker": "Airi"
+  },
+  {
+    "id": 49,
+    "text": "まあ、でも応援してくれるみんなのために日々ファンサービスの腕を磨いてるからとっても嬉しいわ!",
+    "start_time": 1070.8,
+    "end_time": 1076.56,
+    "speaker": "Airi"
+  },
+  {
+    "id": 50,
+    "text": "よーし!",
+    "start_time": 1077.32,
+    "end_time": 1078.36,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 51,
+    "text": "僕もファンサとアドリブの腕を磨いていつでも返せるようにしておこっと!",
+    "start_time": 1078.36,
+    "end_time": 1082.92,
+    "speaker": "Mizuki"
+  },
+  {
+    "id": 52,
+    "text": "え、瑞希は",
+    "start_time": 1083.28,
+    "end_time": 1084.72,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 53,
+    "text": "アドリブはいつもできてるんじゃ?",
+    "start_time": 1084.72,
+    "end_time": 1087.0,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 54,
+    "text": "まあ、そういう気配あるのかな?",
+    "start_time": 1088.28,
+    "end_time": 1090.92,
+    "speaker": "Kanade"
+  },
+  {
+    "id": 55,
+    "text": "私もちょっと練習しようかな。",
+    "start_time": 1092.28,
+    "end_time": 1094.2,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 56,
+    "text": "応援してくれる人にありがとうって伝えられますし。",
+    "start_time": 1094.84,
+    "end_time": 1098.12,
+    "speaker": "Ichika"
+  },
+  {
+    "id": 57,
+    "text": "うん!",
+    "start_time": 1098.35,
+    "end_time": 1099.065,
+    "speaker": "An"
+  },
+  {
+    "id": 58,
+    "text": "言葉でももちろん音楽でもちゃんとみんなに届けていきたいよね。",
+    "start_time": 1099.065,
+    "end_time": 1103.4,
+    "speaker": "An"
+  },
+  {
+    "id": 59,
+    "text": "私もパレードをやったらもっといろんな人に伝えたくなっちゃった。",
+    "start_time": 1103.88,
+    "end_time": 1108.68,
+    "speaker": "Nene"
+  }
+]

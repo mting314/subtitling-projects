@@ -1,0 +1,93 @@
+[
+  {
+    "id": 0,
+    "text": "そうだね。",
+    "start_time": 1109.0,
+    "end_time": 1109.76,
+    "speaker": "Rui"
+  },
+  {
+    "id": 1,
+    "text": "これからもたくさんの人に僕たちの思いを伝えていこう!",
+    "start_time": 1110.32,
+    "end_time": 1114.2,
+    "speaker": "Rui"
+  },
+  {
+    "id": 2,
+    "text": "ふふ。とっても賑やかなパレードだったみたいだね",
+    "start_time": 1130.0,
+    "end_time": 1134.0,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 3,
+    "text": "だからミク達も、昨日『パレードしよう！』って誘ってくれたのね",
+    "start_time": 1134.0,
+    "end_time": 1139.5,
+    "speaker": "Luka"
+  },
+  {
+    "id": 4,
+    "text": "わたし達も、ありがとうの気持ちをい～っぱい届けられるように、がんばろーっ！",
+    "start_time": 1139.5,
+    "end_time": 1147.5,
+    "speaker": "Rin"
+  },
+  {
+    "id": 5,
+    "text": "そういえば、リンはもうレンと練習を始めているんだっけ？",
+    "start_time": 1147.5,
+    "end_time": 1152.75,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 6,
+    "text": "うんっ！ふたりで歌って演奏しながら、ロボットダンスするんだ♪",
+    "start_time": 1153.0,
+    "end_time": 1158.75,
+    "speaker": "Rin"
+  },
+  {
+    "id": 7,
+    "text": "そ、そんなに詰め込んで大丈夫かな……？",
+    "start_time": 1158.75,
+    "end_time": 1163.25,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 8,
+    "text": "でも、とっても楽しくて元気の出るパフォーマンスになりそうね",
+    "start_time": 1163.5,
+    "end_time": 1169.0,
+    "speaker": "Luka"
+  },
+  {
+    "id": 9,
+    "text": "たしかにそうだね。僕も、リン達に負けないように頑張らないとな",
+    "start_time": 1169.0,
+    "end_time": 1176.75,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 10,
+    "text": "それじゃあ、みんな。今日は来てくれてありがとう！",
+    "start_time": 1176.75,
+    "end_time": 1183.25,
+    "speaker": "KAITO"
+  },
+  {
+    "id": 11,
+    "text": "このあとも、私達からの感謝の気持ちをたくさん受け取ってくれたら嬉しいわ",
+    "start_time": 1183.25,
+    "end_time": 1190.0,
+    "speaker": "Luka"
+  },
+  {
+    "id": 12,
+    "text": "またね！　バイバーイ！",
+    "start_time": 1190.0,
+    "end_time": 1193.0,
+    "speaker": "Rin"
+  }
+]

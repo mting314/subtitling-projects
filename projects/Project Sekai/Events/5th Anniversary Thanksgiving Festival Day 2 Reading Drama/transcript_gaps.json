@@ -1,0 +1,4861 @@
+{
+  "words": [
+    {
+      "word": "え?",
+      "start_time": 490.0,
+      "end_time": 490.0,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ところ",
+      "start_time": 490.0,
+      "end_time": 490.2,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "が",
+      "start_time": 490.2,
+      "end_time": 490.32,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ある",
+      "start_time": 490.32,
+      "end_time": 490.44,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "よ",
+      "start_time": 490.44,
+      "end_time": 490.52,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ね。",
+      "start_time": 490.52,
+      "end_time": 490.68,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "まあ、",
+      "start_time": 491.0,
+      "end_time": 491.32,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "いい",
+      "start_time": 491.32,
+      "end_time": 491.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "じゃん。",
+      "start_time": 491.64,
+      "end_time": 491.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "やっぱ",
+      "start_time": 492.16,
+      "end_time": 492.44,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 492.44,
+      "end_time": 492.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "なら",
+      "start_time": 492.64,
+      "end_time": 492.92,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 493.28,
+      "end_time": 493.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "が",
+      "start_time": 493.64,
+      "end_time": 493.76,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "育て",
+      "start_time": 493.76,
+      "end_time": 494.08,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "まし",
+      "start_time": 494.08,
+      "end_time": 494.28,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "た",
+      "start_time": 494.28,
+      "end_time": 494.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 494.84,
+      "end_time": 494.92,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 494.92,
+      "end_time": 495.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "言い",
+      "start_time": 495.16,
+      "end_time": 495.36,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "たい",
+      "start_time": 495.36,
+      "end_time": 495.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "し。",
+      "start_time": 495.64,
+      "end_time": 496.12,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "えー、",
+      "start_time": 496.6,
+      "end_time": 497.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 497.4,
+      "end_time": 497.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 497.52,
+      "end_time": 497.92,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ああ",
+      "start_time": 497.92,
+      "end_time": 498.04,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "いう",
+      "start_time": 498.04,
+      "end_time": 498.24,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 498.24,
+      "end_time": 498.36,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "見",
+      "start_time": 498.36,
+      "end_time": 498.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "てる",
+      "start_time": 498.52,
+      "end_time": 498.76,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 498.76,
+      "end_time": 498.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 499.12,
+      "end_time": 499.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 499.4,
+      "end_time": 499.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ちびっ子",
+      "start_time": 499.52,
+      "end_time": 500.0,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 500.0,
+      "end_time": 500.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "応援",
+      "start_time": 500.16,
+      "end_time": 500.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "さ",
+      "start_time": 500.4,
+      "end_time": 500.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "れ",
+      "start_time": 500.52,
+      "end_time": 500.6,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 500.6,
+      "end_time": 500.8,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 500.96,
+      "end_time": 501.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "サ",
+      "start_time": 501.2,
+      "end_time": 501.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 501.4,
+      "end_time": 501.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 501.56,
+      "end_time": 501.8,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "し",
+      "start_time": 501.8,
+      "end_time": 501.92,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 501.92,
+      "end_time": 502.04,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "み",
+      "start_time": 502.04,
+      "end_time": 502.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "た",
+      "start_time": 502.2,
+      "end_time": 502.36,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "いっ",
+      "start_time": 502.36,
+      "end_time": 502.44,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 502.44,
+      "end_time": 502.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "気持ち",
+      "start_time": 502.52,
+      "end_time": 502.88,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 502.88,
+      "end_time": 503.0,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "なる",
+      "start_time": 503.0,
+      "end_time": 503.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "な。",
+      "start_time": 503.2,
+      "end_time": 503.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "え、",
+      "start_time": 503.84,
+      "end_time": 503.88,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "瑞希",
+      "start_time": 504.28,
+      "end_time": 504.88,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "が?",
+      "start_time": 504.88,
+      "end_time": 505.08,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "うん。",
+      "start_time": 505.2,
+      "end_time": 505.28,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "あ、",
+      "start_time": 506.04,
+      "end_time": 506.12,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "まあ、",
+      "start_time": 506.32,
+      "end_time": 506.76,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 507.16,
+      "end_time": 507.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "達",
+      "start_time": 507.4,
+      "end_time": 507.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "は",
+      "start_time": 507.64,
+      "end_time": 507.8,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "活動",
+      "start_time": 507.8,
+      "end_time": 508.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "内容",
+      "start_time": 508.2,
+      "end_time": 508.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "的",
+      "start_time": 508.52,
+      "end_time": 508.76,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 508.76,
+      "end_time": 508.84,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 508.84,
+      "end_time": 509.04,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "サ?",
+      "start_time": 509.04,
+      "end_time": 509.4,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "あ、",
+      "start_time": 511.52,
+      "end_time": 511.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 511.84,
+      "end_time": 512.0,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "達",
+      "start_time": 512.0,
+      "end_time": 512.24,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "は",
+      "start_time": 512.24,
+      "end_time": 512.32,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "活動",
+      "start_time": 512.32,
+      "end_time": 512.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 512.52,
+      "end_time": 512.88,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "サ",
+      "start_time": 512.88,
+      "end_time": 513.08,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 513.08,
+      "end_time": 513.24,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "言っ",
+      "start_time": 513.24,
+      "end_time": 513.48,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "た",
+      "start_time": 513.48,
+      "end_time": 513.64,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 513.64,
+      "end_time": 513.88,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "い?",
+      "start_time": 513.88,
+      "end_time": 513.96,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "あ、",
+      "start_time": 514.52,
+      "end_time": 514.6,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ま、",
+      "start_time": 514.96,
+      "end_time": 515.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 515.28,
+      "end_time": 515.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "達",
+      "start_time": 515.56,
+      "end_time": 515.68,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "なるほど。",
+      "start_time": 515.68,
+      "end_time": 516.64,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "やばい、",
+      "start_time": 517.44,
+      "end_time": 517.6,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "やばい。",
+      "start_time": 517.6,
+      "end_time": 517.8,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "確か",
+      "start_time": 517.8,
+      "end_time": 518.24,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 518.24,
+      "end_time": 518.4,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "瑞希",
+      "start_time": 518.4,
+      "end_time": 518.84,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "が",
+      "start_time": 518.84,
+      "end_time": 519.0,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "どんな",
+      "start_time": 519.0,
+      "end_time": 519.4,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 519.4,
+      "end_time": 519.68,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "サ",
+      "start_time": 519.68,
+      "end_time": 519.88,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "を",
+      "start_time": 519.88,
+      "end_time": 520.0,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "する",
+      "start_time": 520.0,
+      "end_time": 520.32,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 520.32,
+      "end_time": 520.44,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 520.44,
+      "end_time": 520.72,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "気",
+      "start_time": 521.0,
+      "end_time": 521.28,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 521.28,
+      "end_time": 521.52,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "なる",
+      "start_time": 521.52,
+      "end_time": 521.92,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "よ",
+      "start_time": 521.92,
+      "end_time": 522.08,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "ね。",
+      "start_time": 522.08,
+      "end_time": 522.92,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "こんにちは。",
+      "start_time": 529.8,
+      "end_time": 530.48,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 532.24,
+      "end_time": 532.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "素敵",
+      "start_time": 533.84,
+      "end_time": 534.08,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "な",
+      "start_time": 534.08,
+      "end_time": 534.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "東雲",
+      "start_time": 535.0,
+      "end_time": 535.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 535.4,
+      "end_time": 535.6,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "です。",
+      "start_time": 535.6,
+      "end_time": 535.84,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "なん",
+      "start_time": 536.88,
+      "end_time": 537.08,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 537.08,
+      "end_time": 537.2,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "情熱",
+      "start_time": 537.52,
+      "end_time": 538.12,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "すごい",
+      "start_time": 538.12,
+      "end_time": 538.48,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "好き",
+      "start_time": 538.48,
+      "end_time": 538.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "です。",
+      "start_time": 538.64,
+      "end_time": 538.8,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "バケモノ",
+      "start_time": 540.32,
+      "end_time": 540.68,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "歌",
+      "start_time": 540.68,
+      "end_time": 540.84,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 540.84,
+      "end_time": 540.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "すごい",
+      "start_time": 540.96,
+      "end_time": 541.28,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "好き",
+      "start_time": 541.28,
+      "end_time": 541.44,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "です。",
+      "start_time": 541.44,
+      "end_time": 541.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "バケモノ花",
+      "start_time": 542.72,
+      "end_time": 543.24,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "でし",
+      "start_time": 543.24,
+      "end_time": 543.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "た。",
+      "start_time": 543.4,
+      "end_time": 543.48,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "バケモノ花",
+      "start_time": 543.48,
+      "end_time": 543.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "すごい",
+      "start_time": 543.96,
+      "end_time": 544.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "好き",
+      "start_time": 544.2,
+      "end_time": 544.32,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "です。",
+      "start_time": 544.32,
+      "end_time": 544.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "すごい",
+      "start_time": 545.4,
+      "end_time": 545.64,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "喋る。",
+      "start_time": 545.64,
+      "end_time": 546.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "いや、",
+      "start_time": 546.6,
+      "end_time": 546.68,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "じゃ、",
+      "start_time": 547.28,
+      "end_time": 547.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "そう",
+      "start_time": 547.4,
+      "end_time": 547.64,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "いう",
+      "start_time": 547.64,
+      "end_time": 547.8,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "厄介",
+      "start_time": 547.8,
+      "end_time": 548.12,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "バン",
+      "start_time": 548.12,
+      "end_time": 548.28,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 548.28,
+      "end_time": 548.36,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 548.36,
+      "end_time": 548.48,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 548.48,
+      "end_time": 548.68,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "大好き",
+      "start_time": 548.68,
+      "end_time": 548.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "な",
+      "start_time": 548.96,
+      "end_time": 549.04,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "な",
+      "start_time": 549.04,
+      "end_time": 549.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ん",
+      "start_time": 549.16,
+      "end_time": 549.2,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "で。",
+      "start_time": 549.2,
+      "end_time": 549.36,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "え?",
+      "start_time": 552.52,
+      "end_time": 552.56,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "え?",
+      "start_time": 554.0,
+      "end_time": 554.04,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "始め",
+      "start_time": 555.0,
+      "end_time": 555.4,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "た",
+      "start_time": 555.4,
+      "end_time": 555.56,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "なら",
+      "start_time": 555.56,
+      "end_time": 555.8,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "やっ",
+      "start_time": 555.8,
+      "end_time": 556.04,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "た",
+      "start_time": 556.04,
+      "end_time": 556.16,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "方",
+      "start_time": 556.16,
+      "end_time": 556.4,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "が",
+      "start_time": 556.4,
+      "end_time": 556.56,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "いい",
+      "start_time": 556.56,
+      "end_time": 556.76,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 556.76,
+      "end_time": 556.88,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "思う。",
+      "start_time": 556.88,
+      "end_time": 557.04,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "ほら、",
+      "start_time": 559.12,
+      "end_time": 559.6,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "類",
+      "start_time": 559.92,
+      "end_time": 560.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "奏",
+      "start_time": 560.16,
+      "end_time": 560.44,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 560.44,
+      "end_time": 560.56,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 560.56,
+      "end_time": 560.6800000000001,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "言わ",
+      "start_time": 560.6800000000001,
+      "end_time": 560.84,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "れ",
+      "start_time": 560.84,
+      "end_time": 560.96,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "てる",
+      "start_time": 560.96,
+      "end_time": 561.16,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "よ。",
+      "start_time": 561.16,
+      "end_time": 561.4,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "どう?",
+      "start_time": 562.36,
+      "end_time": 562.44,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "愛らしい",
+      "start_time": 563.04,
+      "end_time": 563.64,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "子供",
+      "start_time": 563.64,
+      "end_time": 564.0,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "でしょ?",
+      "start_time": 564.0,
+      "end_time": 564.36,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "いや、",
+      "start_time": 565.76,
+      "end_time": 566.0,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "全然",
+      "start_time": 566.56,
+      "end_time": 567.0,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "可愛く",
+      "start_time": 567.0,
+      "end_time": 567.44,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "ない。",
+      "start_time": 567.44,
+      "end_time": 567.52,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "友人",
+      "start_time": 567.52,
+      "end_time": 567.88,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 567.88,
+      "end_time": 567.96,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "え、",
+      "start_time": 1056.0,
+      "end_time": 1056.76,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "どこ",
+      "start_time": 1056.76,
+      "end_time": 1057.0,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 1057.0,
+      "end_time": 1057.16,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "し",
+      "start_time": 1057.16,
+      "end_time": 1057.36,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ら?",
+      "start_time": 1057.36,
+      "end_time": 1057.52,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "おー!",
+      "start_time": 1058.2,
+      "end_time": 1058.24,
+      "speaker": "1",
+      "confidence": null
+    },
+    {
+      "word": "盛大",
+      "start_time": 1059.88,
+      "end_time": 1060.32,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "な",
+      "start_time": 1060.32,
+      "end_time": 1060.4,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "拍手",
+      "start_time": 1060.64,
+      "end_time": 1061.0,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "を!",
+      "start_time": 1061.0,
+      "end_time": 1061.04,
+      "speaker": "2",
+      "confidence": null
+    },
+    {
+      "word": "最高",
+      "start_time": 1062.0,
+      "end_time": 1062.16,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "です!",
+      "start_time": 1062.16,
+      "end_time": 1062.32,
+      "speaker": "3",
+      "confidence": null
+    },
+    {
+      "word": "最高",
+      "start_time": 1063.64,
+      "end_time": 1063.92,
+      "speaker": "4",
+      "confidence": null
+    },
+    {
+      "word": "です!",
+      "start_time": 1063.92,
+      "end_time": 1064.04,
+      "speaker": "4",
+      "confidence": null
+    },
+    {
+      "word": "ライブ",
+      "start_time": 1064.68,
+      "end_time": 1064.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "前",
+      "start_time": 1064.96,
+      "end_time": 1065.16,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1065.16,
+      "end_time": 1065.24,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "走ら",
+      "start_time": 1065.24,
+      "end_time": 1065.52,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "せる",
+      "start_time": 1065.52,
+      "end_time": 1065.68,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ん",
+      "start_time": 1065.68,
+      "end_time": 1065.72,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "じゃ",
+      "start_time": 1065.72,
+      "end_time": 1065.8,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ない",
+      "start_time": 1065.8,
+      "end_time": 1065.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "わ",
+      "start_time": 1065.96,
+      "end_time": 1066.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "よ!",
+      "start_time": 1066.04,
+      "end_time": 1066.24,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "そんな",
+      "start_time": 1068.04,
+      "end_time": 1068.28,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1068.28,
+      "end_time": 1068.4,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "褒め",
+      "start_time": 1068.4,
+      "end_time": 1068.6,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "られる",
+      "start_time": 1068.6,
+      "end_time": 1068.84,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 1068.84,
+      "end_time": 1068.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ちょっと",
+      "start_time": 1069.28,
+      "end_time": 1069.52,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "照れ",
+      "start_time": 1069.52,
+      "end_time": 1069.68,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ちゃう",
+      "start_time": 1069.68,
+      "end_time": 1069.84,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "わ",
+      "start_time": 1069.84,
+      "end_time": 1069.92,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ね。",
+      "start_time": 1069.92,
+      "end_time": 1070.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "まあ、",
+      "start_time": 1070.8,
+      "end_time": 1071.0,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 1071.0,
+      "end_time": 1071.12,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1071.12,
+      "end_time": 1071.28,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "応援",
+      "start_time": 1071.68,
+      "end_time": 1072.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "し",
+      "start_time": 1072.04,
+      "end_time": 1072.12,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1072.12,
+      "end_time": 1072.2,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "くれる",
+      "start_time": 1072.2,
+      "end_time": 1072.44,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "みんな",
+      "start_time": 1072.44,
+      "end_time": 1072.76,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1072.76,
+      "end_time": 1072.84,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ため",
+      "start_time": 1072.84,
+      "end_time": 1073.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1073.04,
+      "end_time": 1073.24,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "日々",
+      "start_time": 1073.52,
+      "end_time": 1073.8,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 1073.8,
+      "end_time": 1074.04,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "サービス",
+      "start_time": 1074.04,
+      "end_time": 1074.4,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1074.4,
+      "end_time": 1074.48,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "腕",
+      "start_time": 1074.48,
+      "end_time": 1074.64,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "を",
+      "start_time": 1074.64,
+      "end_time": 1074.72,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "磨い",
+      "start_time": 1074.72,
+      "end_time": 1074.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "てる",
+      "start_time": 1074.96,
+      "end_time": 1075.12,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "から",
+      "start_time": 1075.12,
+      "end_time": 1075.4,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "とっても",
+      "start_time": 1075.72,
+      "end_time": 1076.16,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "嬉しい",
+      "start_time": 1076.16,
+      "end_time": 1076.44,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "わ!",
+      "start_time": 1076.44,
+      "end_time": 1076.56,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "よーし!",
+      "start_time": 1077.32,
+      "end_time": 1078.2,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 1078.52,
+      "end_time": 1078.84,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1078.84,
+      "end_time": 1079.0,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "ファン",
+      "start_time": 1079.0,
+      "end_time": 1079.32,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "サ",
+      "start_time": 1079.32,
+      "end_time": 1079.48,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "と",
+      "start_time": 1079.48,
+      "end_time": 1079.64,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "アドリブ",
+      "start_time": 1079.64,
+      "end_time": 1080.12,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1080.12,
+      "end_time": 1080.24,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "腕",
+      "start_time": 1080.24,
+      "end_time": 1080.48,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "を",
+      "start_time": 1080.48,
+      "end_time": 1080.56,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "磨い",
+      "start_time": 1080.56,
+      "end_time": 1080.84,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1080.84,
+      "end_time": 1081.08,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "いつ",
+      "start_time": 1081.32,
+      "end_time": 1081.48,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 1081.48,
+      "end_time": 1081.56,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1081.56,
+      "end_time": 1081.72,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "返せる",
+      "start_time": 1081.72,
+      "end_time": 1082.16,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "よう",
+      "start_time": 1082.16,
+      "end_time": 1082.24,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1082.24,
+      "end_time": 1082.32,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "し",
+      "start_time": 1082.32,
+      "end_time": 1082.4,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1082.4,
+      "end_time": 1082.48,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "おこっ",
+      "start_time": 1082.48,
+      "end_time": 1082.76,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "と!",
+      "start_time": 1082.76,
+      "end_time": 1082.92,
+      "speaker": "5",
+      "confidence": null
+    },
+    {
+      "word": "え、",
+      "start_time": 1083.28,
+      "end_time": 1083.32,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "瑞希",
+      "start_time": 1083.76,
+      "end_time": 1084.36,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "は",
+      "start_time": 1084.36,
+      "end_time": 1084.72,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "アドリブ",
+      "start_time": 1084.72,
+      "end_time": 1085.44,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "は",
+      "start_time": 1085.44,
+      "end_time": 1085.56,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "いつ",
+      "start_time": 1085.56,
+      "end_time": 1085.84,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1085.84,
+      "end_time": 1086.0,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "でき",
+      "start_time": 1086.0,
+      "end_time": 1086.32,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "てる",
+      "start_time": 1086.32,
+      "end_time": 1086.64,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "ん",
+      "start_time": 1086.64,
+      "end_time": 1086.76,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "じゃ?",
+      "start_time": 1086.76,
+      "end_time": 1087.0,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "まあ、",
+      "start_time": 1088.28,
+      "end_time": 1088.52,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "そう",
+      "start_time": 1088.88,
+      "end_time": 1089.08,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "いう",
+      "start_time": 1089.08,
+      "end_time": 1089.28,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "気配",
+      "start_time": 1089.28,
+      "end_time": 1089.96,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "ある",
+      "start_time": 1090.12,
+      "end_time": 1090.36,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1090.36,
+      "end_time": 1090.56,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 1090.56,
+      "end_time": 1090.76,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "な?",
+      "start_time": 1090.76,
+      "end_time": 1090.92,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "私",
+      "start_time": 1092.28,
+      "end_time": 1092.56,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1092.56,
+      "end_time": 1092.8,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "ちょっと",
+      "start_time": 1092.8,
+      "end_time": 1093.2,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "練習",
+      "start_time": 1093.2,
+      "end_time": 1093.6,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "しよう",
+      "start_time": 1093.6,
+      "end_time": 1093.84,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "か",
+      "start_time": 1093.84,
+      "end_time": 1093.96,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "な。",
+      "start_time": 1093.96,
+      "end_time": 1094.2,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "応援",
+      "start_time": 1094.84,
+      "end_time": 1095.24,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "し",
+      "start_time": 1095.24,
+      "end_time": 1095.32,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1095.32,
+      "end_time": 1095.44,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "くれる",
+      "start_time": 1095.44,
+      "end_time": 1095.72,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "人",
+      "start_time": 1095.72,
+      "end_time": 1095.92,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1095.92,
+      "end_time": 1096.2,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "ありがと",
+      "start_time": 1096.32,
+      "end_time": 1096.88,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "うっ",
+      "start_time": 1096.88,
+      "end_time": 1096.96,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1096.96,
+      "end_time": 1097.2,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "伝え",
+      "start_time": 1097.2,
+      "end_time": 1097.52,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "られ",
+      "start_time": 1097.52,
+      "end_time": 1097.68,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "ます",
+      "start_time": 1097.68,
+      "end_time": 1097.96,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "し。",
+      "start_time": 1097.96,
+      "end_time": 1098.12,
+      "speaker": "7",
+      "confidence": null
+    },
+    {
+      "word": "うん!",
+      "start_time": 1098.48,
+      "end_time": 1098.72,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "言葉",
+      "start_time": 1099.28,
+      "end_time": 1099.64,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 1099.64,
+      "end_time": 1099.72,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1099.72,
+      "end_time": 1099.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "もちろん",
+      "start_time": 1100.12,
+      "end_time": 1100.52,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "音楽",
+      "start_time": 1100.52,
+      "end_time": 1100.88,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "で",
+      "start_time": 1100.88,
+      "end_time": 1100.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1100.96,
+      "end_time": 1101.16,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ちゃんと",
+      "start_time": 1101.6,
+      "end_time": 1101.96,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "みんな",
+      "start_time": 1101.96,
+      "end_time": 1102.24,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1102.24,
+      "end_time": 1102.36,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "届け",
+      "start_time": 1102.36,
+      "end_time": 1102.68,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1102.68,
+      "end_time": 1102.76,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "いき",
+      "start_time": 1102.76,
+      "end_time": 1102.92,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "たい",
+      "start_time": 1102.92,
+      "end_time": 1103.08,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "よ",
+      "start_time": 1103.08,
+      "end_time": 1103.16,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "ね。",
+      "start_time": 1103.16,
+      "end_time": 1103.4,
+      "speaker": "0",
+      "confidence": null
+    },
+    {
+      "word": "私",
+      "start_time": 1103.88,
+      "end_time": 1104.24,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1104.24,
+      "end_time": 1104.44,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "パレード",
+      "start_time": 1105.12,
+      "end_time": 1105.56,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "を",
+      "start_time": 1105.56,
+      "end_time": 1105.64,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "やっ",
+      "start_time": 1105.64,
+      "end_time": 1105.84,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "たら",
+      "start_time": 1105.84,
+      "end_time": 1106.2,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "もっと",
+      "start_time": 1106.56,
+      "end_time": 1106.88,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "いろんな",
+      "start_time": 1106.88,
+      "end_time": 1107.24,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "人",
+      "start_time": 1107.24,
+      "end_time": 1107.44,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1107.44,
+      "end_time": 1107.64,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "伝え",
+      "start_time": 1107.72,
+      "end_time": 1107.92,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "たく",
+      "start_time": 1107.92,
+      "end_time": 1108.12,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "なっ",
+      "start_time": 1108.12,
+      "end_time": 1108.28,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "ちゃっ",
+      "start_time": 1108.28,
+      "end_time": 1108.48,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "た。",
+      "start_time": 1108.48,
+      "end_time": 1108.68,
+      "speaker": "6",
+      "confidence": null
+    },
+    {
+      "word": "そう",
+      "start_time": 1109.0,
+      "end_time": 1109.24,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "だ",
+      "start_time": 1109.24,
+      "end_time": 1109.36,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "ね。",
+      "start_time": 1109.36,
+      "end_time": 1109.76,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "これ",
+      "start_time": 1110.32,
+      "end_time": 1110.52,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "から",
+      "start_time": 1110.52,
+      "end_time": 1110.76,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "も",
+      "start_time": 1110.76,
+      "end_time": 1110.88,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "たくさん",
+      "start_time": 1110.88,
+      "end_time": 1111.4,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1111.4,
+      "end_time": 1111.48,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "人",
+      "start_time": 1111.48,
+      "end_time": 1111.76,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "に",
+      "start_time": 1111.76,
+      "end_time": 1112.0,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "僕",
+      "start_time": 1112.44,
+      "end_time": 1112.72,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "たち",
+      "start_time": 1112.72,
+      "end_time": 1112.96,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "の",
+      "start_time": 1112.96,
+      "end_time": 1113.08,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "思い",
+      "start_time": 1113.08,
+      "end_time": 1113.4,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "を",
+      "start_time": 1113.4,
+      "end_time": 1113.48,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "伝え",
+      "start_time": 1113.48,
+      "end_time": 1113.8,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "て",
+      "start_time": 1113.8,
+      "end_time": 1113.92,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "いこう!",
+      "start_time": 1113.92,
+      "end_time": 1114.2,
+      "speaker": "8",
+      "confidence": null
+    },
+    {
+      "word": "おー!",
+      "start_time": 1116.12,
+      "end_time": 1116.16,
+      "speaker": "1",
+      "confidence": null
+    }
+  ],
+  "segments": [
+    {
+      "text": "ところがあるよね。まあ、いいじゃん。やっぱファンなら僕が育てましたとか言いたいし。えー、でもああいうの見てると僕もちびっ子に応援されてファンサとかしてみたいって気持ちになるな。え、瑞希が?うん。あ、まあ、僕達は活動内容的にファンサ?あ、僕達は活動ファンサと言ったかい?あ、ま、僕達なるほど。やばい、やばい。確かに瑞希がどんなファンサをするのか気になるよね。こんにちは。僕素敵な東雲ファンです。なんか情熱すごい好きです。バケモノ歌もすごい好きです。バケモノ花でした。バケモノ花すごい好きです。すごい喋る。いや、じゃ、そういう厄介バンとか僕大好きななんで。え?え?始めたならやった方がいいと思う。ほら、類奏でに言われてるよ。どう?愛らしい子供でしょ?いや、全然可愛くない。友人のえ?",
+      "start_time": 490.0,
+      "end_time": 490.0,
+      "words": [
+        {
+          "word": "ところ",
+          "start_time": 490.0,
+          "end_time": 490.2,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "が",
+          "start_time": 490.2,
+          "end_time": 490.32,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ある",
+          "start_time": 490.32,
+          "end_time": 490.44,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "よ",
+          "start_time": 490.44,
+          "end_time": 490.52,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ね。",
+          "start_time": 490.52,
+          "end_time": 490.68,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "まあ、",
+          "start_time": 491.0,
+          "end_time": 491.32,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "いい",
+          "start_time": 491.32,
+          "end_time": 491.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "じゃん。",
+          "start_time": 491.64,
+          "end_time": 491.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "やっぱ",
+          "start_time": 492.16,
+          "end_time": 492.44,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 492.44,
+          "end_time": 492.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "なら",
+          "start_time": 492.64,
+          "end_time": 492.92,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 493.28,
+          "end_time": 493.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "が",
+          "start_time": 493.64,
+          "end_time": 493.76,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "育て",
+          "start_time": 493.76,
+          "end_time": 494.08,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "まし",
+          "start_time": 494.08,
+          "end_time": 494.28,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "た",
+          "start_time": 494.28,
+          "end_time": 494.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 494.84,
+          "end_time": 494.92,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 494.92,
+          "end_time": 495.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "言い",
+          "start_time": 495.16,
+          "end_time": 495.36,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "たい",
+          "start_time": 495.36,
+          "end_time": 495.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "し。",
+          "start_time": 495.64,
+          "end_time": 496.12,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "えー、",
+          "start_time": 496.6,
+          "end_time": 497.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 497.4,
+          "end_time": 497.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 497.52,
+          "end_time": 497.92,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ああ",
+          "start_time": 497.92,
+          "end_time": 498.04,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "いう",
+          "start_time": 498.04,
+          "end_time": 498.24,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 498.24,
+          "end_time": 498.36,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "見",
+          "start_time": 498.36,
+          "end_time": 498.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "てる",
+          "start_time": 498.52,
+          "end_time": 498.76,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 498.76,
+          "end_time": 498.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 499.12,
+          "end_time": 499.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 499.4,
+          "end_time": 499.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ちびっ子",
+          "start_time": 499.52,
+          "end_time": 500.0,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 500.0,
+          "end_time": 500.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "応援",
+          "start_time": 500.16,
+          "end_time": 500.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "さ",
+          "start_time": 500.4,
+          "end_time": 500.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "れ",
+          "start_time": 500.52,
+          "end_time": 500.6,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 500.6,
+          "end_time": 500.8,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 500.96,
+          "end_time": 501.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "サ",
+          "start_time": 501.2,
+          "end_time": 501.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 501.4,
+          "end_time": 501.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 501.56,
+          "end_time": 501.8,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "し",
+          "start_time": 501.8,
+          "end_time": 501.92,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 501.92,
+          "end_time": 502.04,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "み",
+          "start_time": 502.04,
+          "end_time": 502.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "た",
+          "start_time": 502.2,
+          "end_time": 502.36,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "いっ",
+          "start_time": 502.36,
+          "end_time": 502.44,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 502.44,
+          "end_time": 502.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "気持ち",
+          "start_time": 502.52,
+          "end_time": 502.88,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 502.88,
+          "end_time": 503.0,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "なる",
+          "start_time": 503.0,
+          "end_time": 503.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "な。",
+          "start_time": 503.2,
+          "end_time": 503.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "え、",
+          "start_time": 503.84,
+          "end_time": 503.88,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "瑞希",
+          "start_time": 504.28,
+          "end_time": 504.88,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "が?",
+          "start_time": 504.88,
+          "end_time": 505.08,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "うん。",
+          "start_time": 505.2,
+          "end_time": 505.28,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "あ、",
+          "start_time": 506.04,
+          "end_time": 506.12,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "まあ、",
+          "start_time": 506.32,
+          "end_time": 506.76,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 507.16,
+          "end_time": 507.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "達",
+          "start_time": 507.4,
+          "end_time": 507.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "は",
+          "start_time": 507.64,
+          "end_time": 507.8,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "活動",
+          "start_time": 507.8,
+          "end_time": 508.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "内容",
+          "start_time": 508.2,
+          "end_time": 508.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "的",
+          "start_time": 508.52,
+          "end_time": 508.76,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 508.76,
+          "end_time": 508.84,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 508.84,
+          "end_time": 509.04,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "サ?",
+          "start_time": 509.04,
+          "end_time": 509.4,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "あ、",
+          "start_time": 511.52,
+          "end_time": 511.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 511.84,
+          "end_time": 512.0,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "達",
+          "start_time": 512.0,
+          "end_time": 512.24,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "は",
+          "start_time": 512.24,
+          "end_time": 512.32,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "活動",
+          "start_time": 512.32,
+          "end_time": 512.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 512.52,
+          "end_time": 512.88,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "サ",
+          "start_time": 512.88,
+          "end_time": 513.08,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 513.08,
+          "end_time": 513.24,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "言っ",
+          "start_time": 513.24,
+          "end_time": 513.48,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "た",
+          "start_time": 513.48,
+          "end_time": 513.64,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 513.64,
+          "end_time": 513.88,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "い?",
+          "start_time": 513.88,
+          "end_time": 513.96,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "あ、",
+          "start_time": 514.52,
+          "end_time": 514.6,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ま、",
+          "start_time": 514.96,
+          "end_time": 515.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 515.28,
+          "end_time": 515.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "達",
+          "start_time": 515.56,
+          "end_time": 515.68,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "なるほど。",
+          "start_time": 515.68,
+          "end_time": 516.64,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "やばい、",
+          "start_time": 517.44,
+          "end_time": 517.6,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "やばい。",
+          "start_time": 517.6,
+          "end_time": 517.8,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "確か",
+          "start_time": 517.8,
+          "end_time": 518.24,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 518.24,
+          "end_time": 518.4,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "瑞希",
+          "start_time": 518.4,
+          "end_time": 518.84,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "が",
+          "start_time": 518.84,
+          "end_time": 519.0,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "どんな",
+          "start_time": 519.0,
+          "end_time": 519.4,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 519.4,
+          "end_time": 519.68,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "サ",
+          "start_time": 519.68,
+          "end_time": 519.88,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "を",
+          "start_time": 519.88,
+          "end_time": 520.0,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "する",
+          "start_time": 520.0,
+          "end_time": 520.32,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 520.32,
+          "end_time": 520.44,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 520.44,
+          "end_time": 520.72,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "気",
+          "start_time": 521.0,
+          "end_time": 521.28,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 521.28,
+          "end_time": 521.52,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "なる",
+          "start_time": 521.52,
+          "end_time": 521.92,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "よ",
+          "start_time": 521.92,
+          "end_time": 522.08,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "ね。",
+          "start_time": 522.08,
+          "end_time": 522.92,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "こんにちは。",
+          "start_time": 529.8,
+          "end_time": 530.48,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 532.24,
+          "end_time": 532.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "素敵",
+          "start_time": 533.84,
+          "end_time": 534.08,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "な",
+          "start_time": 534.08,
+          "end_time": 534.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "東雲",
+          "start_time": 535.0,
+          "end_time": 535.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 535.4,
+          "end_time": 535.6,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "です。",
+          "start_time": 535.6,
+          "end_time": 535.84,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "なん",
+          "start_time": 536.88,
+          "end_time": 537.08,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 537.08,
+          "end_time": 537.2,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "情熱",
+          "start_time": 537.52,
+          "end_time": 538.12,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "すごい",
+          "start_time": 538.12,
+          "end_time": 538.48,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "好き",
+          "start_time": 538.48,
+          "end_time": 538.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "です。",
+          "start_time": 538.64,
+          "end_time": 538.8,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "バケモノ",
+          "start_time": 540.32,
+          "end_time": 540.68,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "歌",
+          "start_time": 540.68,
+          "end_time": 540.84,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 540.84,
+          "end_time": 540.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "すごい",
+          "start_time": 540.96,
+          "end_time": 541.28,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "好き",
+          "start_time": 541.28,
+          "end_time": 541.44,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "です。",
+          "start_time": 541.44,
+          "end_time": 541.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "バケモノ花",
+          "start_time": 542.72,
+          "end_time": 543.24,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "でし",
+          "start_time": 543.24,
+          "end_time": 543.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "た。",
+          "start_time": 543.4,
+          "end_time": 543.48,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "バケモノ花",
+          "start_time": 543.48,
+          "end_time": 543.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "すごい",
+          "start_time": 543.96,
+          "end_time": 544.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "好き",
+          "start_time": 544.2,
+          "end_time": 544.32,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "です。",
+          "start_time": 544.32,
+          "end_time": 544.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "すごい",
+          "start_time": 545.4,
+          "end_time": 545.64,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "喋る。",
+          "start_time": 545.64,
+          "end_time": 546.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "いや、",
+          "start_time": 546.6,
+          "end_time": 546.68,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "じゃ、",
+          "start_time": 547.28,
+          "end_time": 547.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "そう",
+          "start_time": 547.4,
+          "end_time": 547.64,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "いう",
+          "start_time": 547.64,
+          "end_time": 547.8,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "厄介",
+          "start_time": 547.8,
+          "end_time": 548.12,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "バン",
+          "start_time": 548.12,
+          "end_time": 548.28,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 548.28,
+          "end_time": 548.36,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 548.36,
+          "end_time": 548.48,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 548.48,
+          "end_time": 548.68,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "大好き",
+          "start_time": 548.68,
+          "end_time": 548.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "な",
+          "start_time": 548.96,
+          "end_time": 549.04,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "な",
+          "start_time": 549.04,
+          "end_time": 549.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ん",
+          "start_time": 549.16,
+          "end_time": 549.2,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "で。",
+          "start_time": 549.2,
+          "end_time": 549.36,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "え?",
+          "start_time": 552.52,
+          "end_time": 552.56,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "え?",
+          "start_time": 554.0,
+          "end_time": 554.04,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "始め",
+          "start_time": 555.0,
+          "end_time": 555.4,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "た",
+          "start_time": 555.4,
+          "end_time": 555.56,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "なら",
+          "start_time": 555.56,
+          "end_time": 555.8,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "やっ",
+          "start_time": 555.8,
+          "end_time": 556.04,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "た",
+          "start_time": 556.04,
+          "end_time": 556.16,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "方",
+          "start_time": 556.16,
+          "end_time": 556.4,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "が",
+          "start_time": 556.4,
+          "end_time": 556.56,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "いい",
+          "start_time": 556.56,
+          "end_time": 556.76,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 556.76,
+          "end_time": 556.88,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "思う。",
+          "start_time": 556.88,
+          "end_time": 557.04,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "ほら、",
+          "start_time": 559.12,
+          "end_time": 559.6,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "類",
+          "start_time": 559.92,
+          "end_time": 560.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "奏",
+          "start_time": 560.16,
+          "end_time": 560.44,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 560.44,
+          "end_time": 560.56,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 560.56,
+          "end_time": 560.6800000000001,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "言わ",
+          "start_time": 560.6800000000001,
+          "end_time": 560.84,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "れ",
+          "start_time": 560.84,
+          "end_time": 560.96,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "てる",
+          "start_time": 560.96,
+          "end_time": 561.16,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "よ。",
+          "start_time": 561.16,
+          "end_time": 561.4,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "どう?",
+          "start_time": 562.36,
+          "end_time": 562.44,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "愛らしい",
+          "start_time": 563.04,
+          "end_time": 563.64,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "子供",
+          "start_time": 563.64,
+          "end_time": 564.0,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "でしょ?",
+          "start_time": 564.0,
+          "end_time": 564.36,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "いや、",
+          "start_time": 565.76,
+          "end_time": 566.0,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "全然",
+          "start_time": 566.56,
+          "end_time": 567.0,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "可愛く",
+          "start_time": 567.0,
+          "end_time": 567.44,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "ない。",
+          "start_time": 567.44,
+          "end_time": 567.52,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "友人",
+          "start_time": 567.52,
+          "end_time": 567.88,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 567.88,
+          "end_time": 567.96,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "え?",
+          "start_time": 490.0,
+          "end_time": 490.0,
+          "speaker": "0",
+          "confidence": null
+        }
+      ],
+      "speaker": null,
+      "confidence": 0.0,
+      "kind": "result"
+    },
+    {
+      "text": "え、どこかしら?おー!盛大な拍手を!最高です!最高です!ライブ前に走らせるんじゃないわよ!そんなに褒められるとちょっと照れちゃうわね。まあ、でも応援してくれるみんなのために日々ファンサービスの腕を磨いてるからとっても嬉しいわ!よーし!僕もファンサとアドリブの腕を磨いていつでも返せるようにしておこっと!え、瑞希はアドリブはいつもできてるんじゃ?まあ、そういう気配あるのかな?私もちょっと練習しようかな。応援してくれる人にありがとうって伝えられますし。うん!言葉でももちろん音楽でもちゃんとみんなに届けていきたいよね。私もパレードをやったらもっといろんな人に伝えたくなっちゃった。そうだね。これからもたくさんの人に僕たちの思いを伝えていこう!おー!",
+      "start_time": 1056.0,
+      "end_time": 1116.16,
+      "words": [
+        {
+          "word": "え、",
+          "start_time": 1056.0,
+          "end_time": 1056.76,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "どこ",
+          "start_time": 1056.76,
+          "end_time": 1057.0,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 1057.0,
+          "end_time": 1057.16,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "し",
+          "start_time": 1057.16,
+          "end_time": 1057.36,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ら?",
+          "start_time": 1057.36,
+          "end_time": 1057.52,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "おー!",
+          "start_time": 1058.2,
+          "end_time": 1058.24,
+          "speaker": "1",
+          "confidence": null
+        },
+        {
+          "word": "盛大",
+          "start_time": 1059.88,
+          "end_time": 1060.32,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "な",
+          "start_time": 1060.32,
+          "end_time": 1060.4,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "拍手",
+          "start_time": 1060.64,
+          "end_time": 1061.0,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "を!",
+          "start_time": 1061.0,
+          "end_time": 1061.04,
+          "speaker": "2",
+          "confidence": null
+        },
+        {
+          "word": "最高",
+          "start_time": 1062.0,
+          "end_time": 1062.16,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "です!",
+          "start_time": 1062.16,
+          "end_time": 1062.32,
+          "speaker": "3",
+          "confidence": null
+        },
+        {
+          "word": "最高",
+          "start_time": 1063.64,
+          "end_time": 1063.92,
+          "speaker": "4",
+          "confidence": null
+        },
+        {
+          "word": "です!",
+          "start_time": 1063.92,
+          "end_time": 1064.04,
+          "speaker": "4",
+          "confidence": null
+        },
+        {
+          "word": "ライブ",
+          "start_time": 1064.68,
+          "end_time": 1064.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "前",
+          "start_time": 1064.96,
+          "end_time": 1065.16,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1065.16,
+          "end_time": 1065.24,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "走ら",
+          "start_time": 1065.24,
+          "end_time": 1065.52,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "せる",
+          "start_time": 1065.52,
+          "end_time": 1065.68,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ん",
+          "start_time": 1065.68,
+          "end_time": 1065.72,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "じゃ",
+          "start_time": 1065.72,
+          "end_time": 1065.8,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ない",
+          "start_time": 1065.8,
+          "end_time": 1065.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "わ",
+          "start_time": 1065.96,
+          "end_time": 1066.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "よ!",
+          "start_time": 1066.04,
+          "end_time": 1066.24,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "そんな",
+          "start_time": 1068.04,
+          "end_time": 1068.28,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1068.28,
+          "end_time": 1068.4,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "褒め",
+          "start_time": 1068.4,
+          "end_time": 1068.6,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "られる",
+          "start_time": 1068.6,
+          "end_time": 1068.84,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 1068.84,
+          "end_time": 1068.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ちょっと",
+          "start_time": 1069.28,
+          "end_time": 1069.52,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "照れ",
+          "start_time": 1069.52,
+          "end_time": 1069.68,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ちゃう",
+          "start_time": 1069.68,
+          "end_time": 1069.84,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "わ",
+          "start_time": 1069.84,
+          "end_time": 1069.92,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ね。",
+          "start_time": 1069.92,
+          "end_time": 1070.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "まあ、",
+          "start_time": 1070.8,
+          "end_time": 1071.0,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 1071.0,
+          "end_time": 1071.12,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1071.12,
+          "end_time": 1071.28,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "応援",
+          "start_time": 1071.68,
+          "end_time": 1072.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "し",
+          "start_time": 1072.04,
+          "end_time": 1072.12,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1072.12,
+          "end_time": 1072.2,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "くれる",
+          "start_time": 1072.2,
+          "end_time": 1072.44,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "みんな",
+          "start_time": 1072.44,
+          "end_time": 1072.76,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1072.76,
+          "end_time": 1072.84,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ため",
+          "start_time": 1072.84,
+          "end_time": 1073.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1073.04,
+          "end_time": 1073.24,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "日々",
+          "start_time": 1073.52,
+          "end_time": 1073.8,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 1073.8,
+          "end_time": 1074.04,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "サービス",
+          "start_time": 1074.04,
+          "end_time": 1074.4,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1074.4,
+          "end_time": 1074.48,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "腕",
+          "start_time": 1074.48,
+          "end_time": 1074.64,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "を",
+          "start_time": 1074.64,
+          "end_time": 1074.72,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "磨い",
+          "start_time": 1074.72,
+          "end_time": 1074.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "てる",
+          "start_time": 1074.96,
+          "end_time": 1075.12,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "から",
+          "start_time": 1075.12,
+          "end_time": 1075.4,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "とっても",
+          "start_time": 1075.72,
+          "end_time": 1076.16,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "嬉しい",
+          "start_time": 1076.16,
+          "end_time": 1076.44,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "わ!",
+          "start_time": 1076.44,
+          "end_time": 1076.56,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "よーし!",
+          "start_time": 1077.32,
+          "end_time": 1078.2,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 1078.52,
+          "end_time": 1078.84,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1078.84,
+          "end_time": 1079.0,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "ファン",
+          "start_time": 1079.0,
+          "end_time": 1079.32,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "サ",
+          "start_time": 1079.32,
+          "end_time": 1079.48,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "と",
+          "start_time": 1079.48,
+          "end_time": 1079.64,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "アドリブ",
+          "start_time": 1079.64,
+          "end_time": 1080.12,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1080.12,
+          "end_time": 1080.24,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "腕",
+          "start_time": 1080.24,
+          "end_time": 1080.48,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "を",
+          "start_time": 1080.48,
+          "end_time": 1080.56,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "磨い",
+          "start_time": 1080.56,
+          "end_time": 1080.84,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1080.84,
+          "end_time": 1081.08,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "いつ",
+          "start_time": 1081.32,
+          "end_time": 1081.48,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 1081.48,
+          "end_time": 1081.56,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1081.56,
+          "end_time": 1081.72,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "返せる",
+          "start_time": 1081.72,
+          "end_time": 1082.16,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "よう",
+          "start_time": 1082.16,
+          "end_time": 1082.24,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1082.24,
+          "end_time": 1082.32,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "し",
+          "start_time": 1082.32,
+          "end_time": 1082.4,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1082.4,
+          "end_time": 1082.48,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "おこっ",
+          "start_time": 1082.48,
+          "end_time": 1082.76,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "と!",
+          "start_time": 1082.76,
+          "end_time": 1082.92,
+          "speaker": "5",
+          "confidence": null
+        },
+        {
+          "word": "え、",
+          "start_time": 1083.28,
+          "end_time": 1083.32,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "瑞希",
+          "start_time": 1083.76,
+          "end_time": 1084.36,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "は",
+          "start_time": 1084.36,
+          "end_time": 1084.72,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "アドリブ",
+          "start_time": 1084.72,
+          "end_time": 1085.44,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "は",
+          "start_time": 1085.44,
+          "end_time": 1085.56,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "いつ",
+          "start_time": 1085.56,
+          "end_time": 1085.84,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1085.84,
+          "end_time": 1086.0,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "でき",
+          "start_time": 1086.0,
+          "end_time": 1086.32,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "てる",
+          "start_time": 1086.32,
+          "end_time": 1086.64,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "ん",
+          "start_time": 1086.64,
+          "end_time": 1086.76,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "じゃ?",
+          "start_time": 1086.76,
+          "end_time": 1087.0,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "まあ、",
+          "start_time": 1088.28,
+          "end_time": 1088.52,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "そう",
+          "start_time": 1088.88,
+          "end_time": 1089.08,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "いう",
+          "start_time": 1089.08,
+          "end_time": 1089.28,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "気配",
+          "start_time": 1089.28,
+          "end_time": 1089.96,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "ある",
+          "start_time": 1090.12,
+          "end_time": 1090.36,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1090.36,
+          "end_time": 1090.56,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 1090.56,
+          "end_time": 1090.76,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "な?",
+          "start_time": 1090.76,
+          "end_time": 1090.92,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "私",
+          "start_time": 1092.28,
+          "end_time": 1092.56,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1092.56,
+          "end_time": 1092.8,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "ちょっと",
+          "start_time": 1092.8,
+          "end_time": 1093.2,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "練習",
+          "start_time": 1093.2,
+          "end_time": 1093.6,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "しよう",
+          "start_time": 1093.6,
+          "end_time": 1093.84,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "か",
+          "start_time": 1093.84,
+          "end_time": 1093.96,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "な。",
+          "start_time": 1093.96,
+          "end_time": 1094.2,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "応援",
+          "start_time": 1094.84,
+          "end_time": 1095.24,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "し",
+          "start_time": 1095.24,
+          "end_time": 1095.32,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1095.32,
+          "end_time": 1095.44,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "くれる",
+          "start_time": 1095.44,
+          "end_time": 1095.72,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "人",
+          "start_time": 1095.72,
+          "end_time": 1095.92,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1095.92,
+          "end_time": 1096.2,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "ありがと",
+          "start_time": 1096.32,
+          "end_time": 1096.88,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "うっ",
+          "start_time": 1096.88,
+          "end_time": 1096.96,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1096.96,
+          "end_time": 1097.2,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "伝え",
+          "start_time": 1097.2,
+          "end_time": 1097.52,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "られ",
+          "start_time": 1097.52,
+          "end_time": 1097.68,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "ます",
+          "start_time": 1097.68,
+          "end_time": 1097.96,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "し。",
+          "start_time": 1097.96,
+          "end_time": 1098.12,
+          "speaker": "7",
+          "confidence": null
+        },
+        {
+          "word": "うん!",
+          "start_time": 1098.48,
+          "end_time": 1098.72,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "言葉",
+          "start_time": 1099.28,
+          "end_time": 1099.64,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 1099.64,
+          "end_time": 1099.72,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1099.72,
+          "end_time": 1099.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "もちろん",
+          "start_time": 1100.12,
+          "end_time": 1100.52,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "音楽",
+          "start_time": 1100.52,
+          "end_time": 1100.88,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "で",
+          "start_time": 1100.88,
+          "end_time": 1100.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1100.96,
+          "end_time": 1101.16,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ちゃんと",
+          "start_time": 1101.6,
+          "end_time": 1101.96,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "みんな",
+          "start_time": 1101.96,
+          "end_time": 1102.24,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1102.24,
+          "end_time": 1102.36,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "届け",
+          "start_time": 1102.36,
+          "end_time": 1102.68,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1102.68,
+          "end_time": 1102.76,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "いき",
+          "start_time": 1102.76,
+          "end_time": 1102.92,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "たい",
+          "start_time": 1102.92,
+          "end_time": 1103.08,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "よ",
+          "start_time": 1103.08,
+          "end_time": 1103.16,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "ね。",
+          "start_time": 1103.16,
+          "end_time": 1103.4,
+          "speaker": "0",
+          "confidence": null
+        },
+        {
+          "word": "私",
+          "start_time": 1103.88,
+          "end_time": 1104.24,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1104.24,
+          "end_time": 1104.44,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "パレード",
+          "start_time": 1105.12,
+          "end_time": 1105.56,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "を",
+          "start_time": 1105.56,
+          "end_time": 1105.64,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "やっ",
+          "start_time": 1105.64,
+          "end_time": 1105.84,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "たら",
+          "start_time": 1105.84,
+          "end_time": 1106.2,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "もっと",
+          "start_time": 1106.56,
+          "end_time": 1106.88,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "いろんな",
+          "start_time": 1106.88,
+          "end_time": 1107.24,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "人",
+          "start_time": 1107.24,
+          "end_time": 1107.44,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1107.44,
+          "end_time": 1107.64,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "伝え",
+          "start_time": 1107.72,
+          "end_time": 1107.92,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "たく",
+          "start_time": 1107.92,
+          "end_time": 1108.12,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "なっ",
+          "start_time": 1108.12,
+          "end_time": 1108.28,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "ちゃっ",
+          "start_time": 1108.28,
+          "end_time": 1108.48,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "た。",
+          "start_time": 1108.48,
+          "end_time": 1108.68,
+          "speaker": "6",
+          "confidence": null
+        },
+        {
+          "word": "そう",
+          "start_time": 1109.0,
+          "end_time": 1109.24,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "だ",
+          "start_time": 1109.24,
+          "end_time": 1109.36,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "ね。",
+          "start_time": 1109.36,
+          "end_time": 1109.76,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "これ",
+          "start_time": 1110.32,
+          "end_time": 1110.52,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "から",
+          "start_time": 1110.52,
+          "end_time": 1110.76,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "も",
+          "start_time": 1110.76,
+          "end_time": 1110.88,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "たくさん",
+          "start_time": 1110.88,
+          "end_time": 1111.4,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1111.4,
+          "end_time": 1111.48,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "人",
+          "start_time": 1111.48,
+          "end_time": 1111.76,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "に",
+          "start_time": 1111.76,
+          "end_time": 1112.0,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "僕",
+          "start_time": 1112.44,
+          "end_time": 1112.72,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "たち",
+          "start_time": 1112.72,
+          "end_time": 1112.96,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "の",
+          "start_time": 1112.96,
+          "end_time": 1113.08,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "思い",
+          "start_time": 1113.08,
+          "end_time": 1113.4,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "を",
+          "start_time": 1113.4,
+          "end_time": 1113.48,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "伝え",
+          "start_time": 1113.48,
+          "end_time": 1113.8,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "て",
+          "start_time": 1113.8,
+          "end_time": 1113.92,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "いこう!",
+          "start_time": 1113.92,
+          "end_time": 1114.2,
+          "speaker": "8",
+          "confidence": null
+        },
+        {
+          "word": "おー!",
+          "start_time": 1116.12,
+          "end_time": 1116.16,
+          "speaker": "1",
+          "confidence": null
+        }
+      ],
+      "speaker": null,
+      "confidence": 0.0,
+      "kind": "result"
+    }
+  ],
+  "metadata": {
+    "backend": "chirp_3",
+    "language": "ja-JP",
+    "model": "chirp_3"
+  }
+}

@@ -1,0 +1,83 @@
+# Base for ProSeka stage reading dramas (朗読劇): voice actors perform a scripted
+# scene in character, live on stage. Deliberately does NOT extend proseka/aftertalk,
+# which inherits solo_seiyuu_radio (listener-mail discourse classification, host
+# framing rules) and AfterTalk corners — none of which fit a scripted drama.
+# Per-event profiles extend this and add the cast + scenario.
+
+prompt = """
+You are translating a Project Sekai: Colorful Stage! feat. Hatsune Miku reading drama (朗読劇) into English subtitles. Voice actors perform a scripted scene live on stage, fully in character, holding scripts. The audience is present and sometimes asked to participate (calls, penlights, waving).
+
+This is dialogue BETWEEN CHARACTERS, not a host talking to listeners:
+1. Translate each line as the character speaking, in that character's voice and personality. Never refer to the voice actors — within the drama, only the characters exist.
+2. Keep each character's speech pattern distinct: formal vs. casual register, first-person quirks, verbal tics, catchphrases.
+3. Preserve how characters address each other. Whether someone is called by family name or given name signals distance, so keep the same name the Japanese uses. Drop さん/くん/ちゃん as bare names; keep 先輩 as "-senpai". Nicknames stay as nicknames.
+4. The script contains ad-libs, audience call-and-response, and moments where the cast visibly breaks character or laughs. Translate those naturally; don't smooth them into scripted prose.
+5. Keep lines compact and subtitle-friendly, in natural spoken English with contractions.
+
+ProSeka style rules:
+- Vocaloid / Virtual Singer names are ALL CAPS: MIKU, RIN, LEN, LUKA, MEIKO, KAITO (咲子 in Vocaloid context is MEIKO). Hatsune Miku in full is "Hatsune Miku".
+- Brand capitalization: ProSeka, SEKAI (all caps).
+- Song and event-story titles in double quotes; unit names are NOT quoted.
+- Unit names in English: Leo/need, MORE MORE JUMP!, Vivid BAD SQUAD, Wonderlands x Showtime, Nightcord at 25:00 (N25).
+- ファンサ / ファンサービス is idol "fan service" in the fandom sense: waves, finger hearts, pointing at a fan, a special pose. Translate as "fan service", never in the anime-risqué sense.
+"""
+
+vocab = [
+    # --- Game & Program ---
+    "プロセカ",
+    "プロジェクトセカイ",
+    "カラフルステージ",
+    "朗読劇",
+    "セカイ",
+    "バーチャルシンガー",
+    "ファンサ",
+    "ファンサービス",
+
+    # --- Units ---
+    "レオニード",
+    "Leo/need",
+    "モア・モア・ジャンプ！",
+    "MORE MORE JUMP!",
+    "ビビッドバッドスクワッド",
+    "Vivid BAD SQUAD",
+    "ワンダーランズ×ショウタイム",
+    "Wonderlands x Showtime",
+    "25時、ナイトコードで。",
+    "レオニ",
+    "モモジャン",
+    "ビビバス",
+    "ワンダショ",
+    "ニーゴ",
+
+    # --- Virtual Singers ---
+    "初音ミク",
+    "鏡音リン",
+    "鏡音レン",
+    "巡音ルカ",
+    "MEIKO",
+    "KAITO",
+]
+
+[glossary]
+"プロセカ" = "ProSeka"
+"セカイ" = "SEKAI"
+"バーチャルシンガー" = "Virtual Singer"
+"ファンサ" = "fan service"
+"レオニ" = "Leoni"
+"ニーゴ" = "N25"
+"ビビバス" = "Vivibasu"
+"ワンダショ" = "Wandasho"
+"モモジャン" = "Momojan"
+"初音ミク" = "Hatsune Miku"
+"鏡音リン" = "Kagamine Rin"
+"鏡音レン" = "Kagamine Len"
+"巡音ルカ" = "Megurine Luka"
+"咲子" = "MEIKO"
+"宮益坂女子学園" = "Miyamasuzaka Girls Academy"
+
+[format.normalizer]
+engine = "llm"
+provider = "google-vertex"
+model = "gemini-3.1-flash-lite"
+reasoning_effort = "minimal"
+allow_llm_correction = true
