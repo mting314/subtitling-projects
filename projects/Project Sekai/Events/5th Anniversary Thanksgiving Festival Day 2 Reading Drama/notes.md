@@ -119,3 +119,11 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
   Kept as "Happy Airi Beam!" as explicitly prompted by `5th_kanshasai_drama.toml` (reflecting Airi's name and the えらい/あいり pun).
 - **ASR-garbled lines (An and Nene raps):**
   Freestyle rap translations maintained and tightened to preserve the rhythm and internal rhymes (e.g. Wandasho / samurai spirit / future expectations).
+
+## YouTube Title
+[ENG SUB] Project SEKAI 5th Anniversary Thanksgiving Festival Day 2 — Reading Drama
+
+## YouTube Blurb (draft)
+English subtitles for the Project SEKAI Colorful Stage! 5th Anniversary Thanksgiving Festival (感謝祭) Day 2 Live Reading Drama.
+
+Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
