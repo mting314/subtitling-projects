@@ -15,9 +15,9 @@ Video File: 5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv
 Video AR Mode: 4
 Video AR Value: 1.774074
 Video Zoom Percent: 0.500000
-Scroll Position: 20
-Active Line: 35
-Video Position: 5394
+Scroll Position: 255
+Active Line: 259
+Video Position: 22726
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -53,36 +53,36 @@ Dialogue: 0,0:01:36.50,0:01:42.25,Rin_VN,Rin,0,0,0,,Oh, hey, hey! Since we're he
 Dialogue: 0,0:01:42.25,0:01:46.00,Rin_VN,Rin,0,0,0,,It sounds like they're doing something interesting today!
 Dialogue: 0,0:01:46.00,0:01:51.75,KAITO_VN,KAITO,0,0,0,,That sounds like a good idea.\NIt seems LEN and the others went yesterday, too.
 Dialogue: 0,0:01:51.75,0:01:55.75,Luka_VN,Luka,0,0,0,,Is everyone ready?
-Dialogue: 0,0:01:55.75,0:01:59.25,KAITO_VN,KAITO,0,0,0,,Well then... here we go!
-Dialogue: 0,0:02:07.53,0:02:08.03,An,An,0,0,0,,Phew...
-Dialogue: 0,0:02:09.04,0:02:09.60,An,An,0,0,0,,That was fun.
-Dialogue: 0,0:02:10.64,0:02:11.76,An,An,0,0,0,,Good work, everyone.
+Dialogue: 0,0:01:55.75,0:01:59.33,KAITO_VN,KAITO,0,0,0,,Well then... here we go!
+Dialogue: 0,0:02:07.71,0:02:08.76,An,An,0,0,0,,Phew...
+Dialogue: 0,0:02:08.76,0:02:10.64,An,An,0,0,0,,That was fun.
+Dialogue: 0,0:02:10.64,0:02:12.28,An,An,0,0,0,,Good work, everyone.
 Dialogue: 0,0:02:12.28,0:02:16.03,An,An,0,0,0,,That music parade through the city was so much fun, wasn't it?
-Dialogue: 0,0:02:16.03,0:02:16.53,Kanade,Kanade,0,0,0,,Yeah.
-Dialogue: 0,0:02:17.20,0:02:22.28,Kanade,Kanade,0,0,0,,Thanks to the theme of "delivering gratitude through music," I really felt motivated.
-Dialogue: 0,0:02:22.80,0:02:26.68,Kanade,Kanade,0,0,0,,Your group's opening was really great too, Hoshino.
+Dialogue: 0,0:02:16.03,0:02:17.20,Ichika,Kanade,0,0,0,,Yeah.
+Dialogue: 0,0:02:17.20,0:02:22.97,Ichika,Kanade,0,0,0,,Thanks to the theme of "giving thanks through music," I really felt motivated.
+Dialogue: 0,0:02:22.97,0:02:26.68,Kanade,Kanade,0,0,0,,Your group's opening was really great too, Hoshino.
 Dialogue: 0,0:02:26.68,0:02:28.37,Kanade,Kanade,0,0,0,,I could really feel your emotions.
-Dialogue: 0,0:02:28.37,0:02:29.04,Ichika,Ichika,0,0,0,,Eh?
-Dialogue: 0,0:02:29.04,0:02:29.71,Ichika,Ichika,0,0,0,,Oh.
-Dialogue: 0,0:02:30.68,0:02:33.60,Ichika,Ichika,0,0,0,,I'm so happy to hear you say that, Kanade.
-Dialogue: 0,0:02:34.44,0:02:37.00,Nene,Nene,0,0,0,,The confetti fluttering during the chorus was nice, too.
-Dialogue: 0,0:02:37.60,0:02:40.44,Nene,Nene,0,0,0,,Who came up with that production?
-Dialogue: 0,0:02:40.44,0:02:42.40,Ichika,Ichika,0,0,0,,That was Saki.
-Dialogue: 0,0:02:42.40,0:02:44.64,Ichika,Ichika,0,0,0,,It sounds like she got the idea from Tsukasa.
-Dialogue: 0,0:02:45.37,0:02:46.28,Rui,Rui,0,0,0,,Ah.
+Dialogue: 0,0:02:28.37,0:02:29.13,Ichika,Ichika,0,0,0,,Eh?
+Dialogue: 0,0:02:29.13,0:02:30.68,Ichika,Ichika,0,0,0,,Oh.
+Dialogue: 0,0:02:30.68,0:02:34.44,Ichika,Ichika,0,0,0,,I'm so happy to hear you say that, Kanade.
+Dialogue: 0,0:02:34.44,0:02:37.60,Nene,Nene,0,0,0,,The confetti shower during the chorus was nice, too.
+Dialogue: 0,0:02:37.60,0:02:40.60,Nene,Nene,0,0,0,,Who came up with that idea?
+Dialogue: 0,0:02:40.60,0:02:42.40,Ichika,Ichika,0,0,0,,That was Saki.
+Dialogue: 0,0:02:42.40,0:02:45.13,Ichika,Ichika,0,0,0,,It sounds like she got the idea from Tsukasa.
+Dialogue: 0,0:02:45.13,0:02:46.28,Rui,Rui,0,0,0,,Ah.
 Dialogue: 0,0:02:46.28,0:02:48.60,Rui,Rui,0,0,0,,So that's why Tsukasa-san... Tsukasa-kun, the other day...
 Dialogue: 0,0:02:48.60,0:02:50.48,Mizuki,Mizuki,0,0,0,,{\pos(320,628)}Hehehehe...
 Dialogue: 0,0:02:49.69,0:02:50.48,An,An,0,0,0,,{\pos(200,284)}Oh?
-Dialogue: 0,0:02:51.36,0:02:56.16,Rui,Rui,0,0,0,,The other day, he was carrying around the stock of confetti I keep at my house.
-Dialogue: 0,0:02:55.40,0:02:56.16,Nene,,0,0,0,,{\pos(160,160)}Rui?
+Dialogue: 0,0:02:51.36,0:02:56.51,Rui,Rui,0,0,0,,...the other day, he was ca-carrying around the st-stock of confetti I keep at my house.
+Dialogue: 0,0:02:55.40,0:02:56.51,Nene,,0,0,0,,{\pos(160,160)}Rui?
 Dialogue: 0,0:02:57.68,0:02:58.67,Nene,Nene,0,0,0,,{\pos(322,174)}Come on, Rui.
 Dialogue: 0,0:02:59.80,0:03:02.08,An,An,0,0,0,,You seem a bit off, Kamishiro-senpai.
-Dialogue: 0,0:03:02.08,0:03:03.36,Nene,Nene,0,0,0,,Maybe you're just too fired up?
-Dialogue: 0,0:03:04.72,0:03:08.28,An,An,0,0,0,,But I didn't know there was such a thing as "stock confetti."
+Dialogue: 0,0:03:02.08,0:03:03.71,Nene,Nene,0,0,0,,Maybe you're just too fired up?
+Dialogue: 0,0:03:04.72,0:03:08.28,An,An,0,0,0,,I had no idea you kept confetti on hand!
 Dialogue: 0,0:03:08.28,0:03:09.52,Rui,Rui,0,0,0,,Of course.
 Dialogue: 0,0:03:09.52,0:03:12.52,Rui,Rui,0,0,0,,Confetti is essential for a show, after all.
-Dialogue: 0,0:03:12.52,0:03:17.32,Rui,Rui,0,0,0,,On the other hand, Shiraishi's group captivated us with just their singing.
-Dialogue: 0,0:03:17.32,0:03:19.94,An,An,0,0,0,,Well, we do compete with our singing.
+Dialogue: 0,0:03:12.52,0:03:17.53,Rui,Rui,0,0,0,,On the other hand, Shiraishi's group captivated us with just their singing.
+Dialogue: 0,0:03:17.53,0:03:19.94,An,An,0,0,0,,Well, we do compete with our singing.
 Dialogue: 0,0:03:19.94,0:03:23.64,An,An,0,0,0,,Akito and the others seemed especially fired up today.
 Dialogue: 0,0:03:23.64,0:03:24.88,Nene,Nene,0,0,0,,Definitely.
 Dialogue: 0,0:03:24.88,0:03:27.00,Nene,Nene,0,0,0,,The singing was really electrifying.
@@ -142,31 +142,29 @@ Dialogue: 0,0:05:46.84,0:05:48.25,Kanade,Kanade,0,0,0,,He did flub quite a bit.
 Dialogue: 0,0:05:48.25,0:05:48.92,Kanade,Kanade,0,0,0,,Ah.
 Dialogue: 0,0:05:48.92,0:05:50.44,Kanade,Kanade,0,0,0,,Where were you two?
 Dialogue: 0,0:05:50.44,0:05:51.20,Airi,Airi,0,0,0,,Kanade.
-Dialogue: 0,0:05:51.20,0:05:52.70,Airi,Airi,0,0,0,,{\an8}Oh, we were actually holding a mini handshake event until just now.
-Dialogue: 0,0:05:52.70,0:05:55.12,Airi,Airi,0,0,0,,Oh, we were actually holding a mini handshake event until just now.
+Dialogue: 0,0:05:51.20,0:05:55.12,Airi,Airi,0,0,0,,Oh, we were actually holding a mini handshake event until just now.
 Dialogue: 0,0:05:55.12,0:05:56.29,Nene,Nene,0,0,0,,A mini handshake event?
-Dialogue: 0,0:05:56.29,0:05:56.91,Mizuki,Mizuki,0,0,0,,Yep.
-Dialogue: 0,0:05:56.91,0:06:00.72,Mizuki,Mizuki,0,0,0,,MMJ asked the staff if they could hold an event
-Dialogue: 0,0:06:00.72,0:06:02.96,Mizuki,Mizuki,0,0,0,,where they could interact with all their fans.
-Dialogue: 0,0:06:02.96,0:06:05.73,Mizuki,Mizuki,0,0,0,,They really know what the fans want.
-Dialogue: 0,0:06:05.73,0:06:06.41,An,An,0,0,0,,Yeah.
-Dialogue: 0,0:06:06.41,0:06:08.60,An,An,0,0,0,,Man, I wish I could've gone to that.
-Dialogue: 0,0:06:08.60,0:06:11.39,An,An,0,0,0,,I wanted to line up for Haruka just to tease her.
+Dialogue: 0,0:05:56.29,0:05:57.13,Mizuki,Mizuki,0,0,0,,Yep.
+Dialogue: 0,0:05:57.13,0:06:02.96,Mizuki,Mizuki,0,0,0,,MMJ asked the staff if they could hold an event where they could meet their fans face-to-face.
+Dialogue: 0,0:06:02.96,0:06:05.86,Mizuki,Mizuki,0,0,0,,They really know what the fans want.
+Dialogue: 0,0:06:05.86,0:06:06.62,An,An,0,0,0,,Really?
+Dialogue: 0,0:06:06.62,0:06:08.84,An,An,0,0,0,,Man, I wish I could've gone to that.
+Dialogue: 0,0:06:08.84,0:06:11.68,An,An,0,0,0,,I wanted to line up for Haruka just to tease her.
 Dialogue: 0,0:06:12.12,0:06:14.08,Airi,Airi,0,0,0,,I'd love to see how she'd react to that.
 Dialogue: 0,0:06:14.08,0:06:18.36,Airi,Airi,0,0,0,,But this time, Minori was the one who was really popular.
 Dialogue: 0,0:06:18.36,0:06:19.39,Ichika,Ichika,0,0,0,,Really?
-Dialogue: 0,0:06:19.39,0:06:19.89,Airi,Airi,0,0,0,,Yes.
+Dialogue: 0,0:06:19.39,0:06:20.52,Airi,Airi,0,0,0,,Yeah!
 Dialogue: 0,0:06:20.52,0:06:22.52,Airi,Airi,0,0,0,,It was incredible.
-Dialogue: 0,0:06:22.52,0:06:24.04,Airi,Airi,0,0,0,,For example...
+Dialogue: 0,0:06:22.52,0:06:24.25,Airi,Airi,0,0,0,,So what happened was...
 Dialogue: 0,0:06:32.77,0:06:35.48,Minori_VN,Minori,0,0,0,,Thank you so much for your support!
 Dialogue: 0,0:06:35.48,0:06:37.15,Minori_VN,Minori,0,0,0,,I'll keep doing my best!
-Dialogue: 0,0:06:39.24,0:06:43.16,Minori_VN,Minori,0,0,0,,I'm so glad more people came\Nto the mini handshake event than I expected.
+Dialogue: 0,0:06:39.24,0:06:43.60,Minori_VN,Minori,0,0,0,,I'm so glad more people came\Nto the mini handshake event than I expected.
 Dialogue: 0,0:06:43.60,0:06:45.47,Minori_VN,Minori,0,0,0,,Next person, please!
 Dialogue: 0,0:06:46.01,0:06:47.16,Minori_VN,Minori,0,0,0,,Ah!
-Dialogue: 0,0:06:47.16,0:06:51.52,Minori_VN,Minori,0,0,0,,Are you here supporting us with your family?
-Dialogue: 0,0:06:51.52,0:06:53.04,Minori_VN,Minori,0,0,0,,I'm so happy!
-Dialogue: 0,0:06:53.04,0:06:54.81,Minori_VN,Minori,0,0,0,,Thank you so much.
-Dialogue: 0,0:06:56.00,0:06:57.51,Minori_VN,Minori,0,0,0,,How old are you?
+Dialogue: 0,0:06:47.16,0:06:51.52,Minori_VN,Minori,0,0,0,,Wait, did your whole family come to cheer us on?
+Dialogue: 0,0:06:51.52,0:06:53.04,Minori_VN,Minori,0,0,0,,Wow, that makes me so happy!
+Dialogue: 0,0:06:53.04,0:06:55.00,Minori_VN,Minori,0,0,0,,Thank you so much.
+Dialogue: 0,0:06:55.00,0:06:57.51,Minori_VN,Minori,0,0,0,,Ehe! How old are you?
 Dialogue: 0,0:06:58.03,0:06:59.53,Minori_VN,Minori,0,0,0,,Three years old?
 Dialogue: 0,0:06:59.53,0:07:02.07,Minori_VN,Minori,0,0,0,,Ehehe, you're so cute!
 Dialogue: 0,0:07:03.06,0:07:04.88,Minori_VN,Minori,0,0,0,,Well then, let's shake hands.
@@ -197,7 +195,7 @@ Dialogue: 0,0:08:16.54,0:08:23.84,Mizuki,Mizuki,0,0,0,,But seeing that makes me 
 Dialogue: 0,0:08:23.84,0:08:25.12,Kanade,Kanade,0,0,0,,Wait, you too, Mizuki?
 Dialogue: 0,0:08:25.12,0:08:26.04,Mizuki,Mizuki,0,0,0,,Yeah.
 Dialogue: 0,0:08:26.04,0:08:29.75,Mizuki,Mizuki,0,0,0,,I mean, given the nature of our group's activities...
-Dialogue: 0,0:08:28.84,0:08:29.75,Rui,Rui,0,0,0,,{\an4}{\pos(160,160)}Fan service? {\i1}(why is his mic so crunchy){\i0}
+Dialogue: 0,0:08:28.73,0:08:29.75,Rui,Rui,0,0,0,,{\an4}{\pos(160,160)}Fan service? {\i1}(why is his mic so crunchy){\i0}
 Dialogue: 0,0:08:31.52,0:08:33.96,Mizuki,Mizuki,0,0,0,,Well, our activities...
 Dialogue: 0,0:08:32.52,0:08:33.96,Rui,Rui,0,0,0,,{\an4}{\pos(160,160)}Did I hear you say fan service?
 Dialogue: 0,0:08:34.52,0:08:36.64,Mizuki,Mizuki,0,0,0,,Ah, well, we...
@@ -302,22 +300,22 @@ Dialogue: 0,0:12:31.29,0:12:31.79,Nene,Nene,0,0,0,,{\pos(1437,944)}Hey.
 Dialogue: 0,0:12:32.41,0:12:33.52,Nene,Nene,0,0,0,,{\pos(1437,944)}Yo.
 Dialogue: 0,0:12:33.52,0:12:35.46,Nene,Nene,0,0,0,,{\pos(1437,944)}We are Wandasho.
 Dialogue: 0,0:12:35.46,0:12:36.87,Nene,Nene,0,0,0,,{\pos(1437,944)}Forever and ever.
-Dialogue: 0,0:12:37.60,0:12:41.81,Nene,Nene,0,0,0,,{\pos(1437,944)}Smiling, with Rui,\Nsamurai spirit!
+Dialogue: 0,0:12:37.60,0:12:41.81,Nene,Nene,0,0,0,,{\pos(1437,944)}All smiles, ruling the show,\Nsamurai spirit!
 Dialogue: 0,0:12:41.81,0:12:43.84,Nene,Nene,0,0,0,,{\pos(1437,944)}Dreams to pursue.
-Dialogue: 0,0:12:43.84,0:12:45.80,Nene,Nene,0,0,0,,{\pos(1437,944)}Dreams we pursue.
+Dialogue: 0,0:12:43.84,0:12:45.80,Nene,Nene,0,0,0,,{\pos(1437,944)}Dreams we\Nmake come true.
 Dialogue: 0,0:12:45.80,0:12:47.52,Nene,Nene,0,0,0,,{\pos(1437,944)}Bringing everyone along,
 Dialogue: 0,0:12:47.52,0:12:49.14,Nene,Nene,0,0,0,,{\pos(1437,944)}it's showtime!
 Dialogue: 0,0:12:49.14,0:12:50.96,Rui,Rui,0,0,0,,Yeah!
 Dialogue: 0,0:12:49.79,0:12:50.96,Nene,Rui,0,0,0,,{\pos(1437,944)}Yeah!
 Dialogue: 0,0:12:50.96,0:12:52.50,An,,0,0,0,,{\pos(479,944)}Yeah!
 Dialogue: 0,0:12:53.19,0:12:54.79,An,An,0,0,0,,{\pos(479,944)}That was\Nawesome!
-Dialogue: 0,0:12:53.65,0:12:54.57,Nene,Nene,0,0,0,,{\pos(1437,944)}Really?
+Dialogue: 0,0:12:53.65,0:12:54.79,Nene,Nene,0,0,0,,{\pos(1437,944)}Really?
 Dialogue: 0,0:12:54.79,0:12:55.88,Nene,Nene,0,0,0,,{\pos(1437,944)}I've always...
 Dialogue: 0,0:12:55.88,0:12:58.71,Nene,Nene,0,0,0,,{\pos(1437,944)}heard Shinonome\Ngrooving to the beat.
 Dialogue: 0,0:12:59.96,0:13:02.95,An,An,0,0,0,,{\pos(479,944)}That explains it!\NThat was so cute.
 Dialogue: 0,0:13:02.95,0:13:03.90,Nene,Nene,0,0,0,,{\pos(1437,944)}That was so\Nembarrassing...
 Dialogue: 0,0:13:04.48,0:13:05.48,An,An,0,0,0,,{\pos(479,944)}Thank you\Nso much.
-Dialogue: 0,0:13:05.48,0:13:06.16,An,An,0,0,0,,{\pos(479,944)}I'm so happy.
+Dialogue: 0,0:13:05.48,0:13:06.53,An,An,0,0,0,,{\pos(479,944)}I'm glad we did that!
 Dialogue: 0,0:13:07.00,0:13:08.44,An,An,0,0,0,,{\pos(479,944)}That deserves\Na fist bump.
 Dialogue: 0,0:13:08.44,0:13:09.56,Nene,Nene,0,0,0,,{\pos(1437,944)}A... fist bump?
 Dialogue: 0,0:13:09.56,0:13:11.05,Nene,Nene,0,0,0,,{\pos(1437,944)}L-Like this?
@@ -445,7 +443,7 @@ Dialogue: 0,0:17:33.52,0:17:35.38,Airi,Airi,0,0,0,,I'll always be watching you.
 Dialogue: 0,0:17:36.55,0:17:38.07,Airi,Airi,0,0,0,,So, where were we?
 Dialogue: 0,0:17:36.55,0:17:39.88,Virtual Singers,,0,0,0,,{\an8\fs55\i1}She's emphasizing that was all an adlib.
 Dialogue: 0,0:17:39.88,0:17:41.91,Rui,Rui,0,0,0,,A big round of applause!
-Dialogue: 0,0:17:39.88,0:17:41.91,Mizuki,Rui,0,0,0,,Now that’s a real idol!
+Dialogue: 0,0:17:39.88,0:17:41.91,Mizuki,Rui,0,0,0,,Now that's a real idol!
 Dialogue: 0,0:17:41.91,0:17:43.59,Nene,Ichika,0,0,0,,That was amazing!
 Dialogue: 0,0:17:43.59,0:17:44.68,An,An,0,0,0,,That was the best!
 Dialogue: 0,0:17:44.68,0:17:46.71,Airi,Airi,0,0,0,,Don't make me run right before the concert!
