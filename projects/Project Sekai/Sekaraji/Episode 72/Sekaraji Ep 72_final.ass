@@ -14,9 +14,9 @@ Audio File: Sekaraji Ep 72.mkv
 Video File: ?dummy:23.976000:40000:1920:1080:47:163:254:
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 380
-Active Line: 394
-Video Position: 23200
+Scroll Position: 395
+Active Line: 405
+Video Position: 23910
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -274,7 +274,7 @@ Dialogue: 0,0:09:48.60,0:09:51.08,Minori Suzuki,host,0,0,0,,I haven't either.
 Dialogue: 0,0:09:51.08,0:09:58.76,Rina Honnizumi,host,0,0,0,,I keep seeing photos of really fancy,\NInstagrammable shaved ice on social media, but...
 Dialogue: 0,0:09:58.76,0:10:04.08,Rina Honnizumi,host,0,0,0,,I've never actually said I wanted to go to a shop like that,\Nbut I've always admired them.
 Dialogue: 0,0:10:02.11,0:10:03.58,Minori Suzuki,host,0,0,0,,Same here.
-Dialogue: 0,0:10:04.58,0:10:08.45,Minori Suzuki,host,0,0,0,,Yeah, some people really go around \N to all these different shaved ice shops, 
+Dialogue: 0,0:10:04.58,0:10:08.45,Minori Suzuki,host,0,0,0,,Yeah, some people really go around \N to all these different shaved ice shops,
 Dialogue: 0,0:10:08.45,0:10:09.52,Minori Suzuki,host,0,0,0,,how should I put it?
 Dialogue: 0,0:10:09.52,0:10:15.08,Minori Suzuki,host,0,0,0,,It's not just your standard strawberry syrup.\NThey have things like pumpkin cream shaved ice,
 Dialogue: 0,0:10:15.08,0:10:17.78,Minori Suzuki,host,0,0,0,,and it seems like they even have vegetable-based ones too.
@@ -421,16 +421,16 @@ Dialogue: 0,0:15:51.16,0:15:55.93,Minori Suzuki,host,0,0,0,,When I need to focus
 Dialogue: 0,0:15:57.57,0:15:59.56,Minori Suzuki,host,0,0,0,,What about when you're reading manga?
 Dialogue: 0,0:16:00.20,0:16:07.61,Rina Honnizumi,host,0,0,0,,I usually end up playing some kind of music.
 Dialogue: 0,0:16:07.61,0:16:08.29,Minori Suzuki,host,0,0,0,,Right, right.
-Dialogue: 0,0:16:08.29,0:16:16.94,Minori Suzuki,host,0,0,0,,Also, when I'm reading,\NI often look for Western music or BGM that fits the story.
-Dialogue: 0,0:16:14.45,0:16:14.95,Rina Honnizumi,host,0,0,0,,Oh, I see.
-Dialogue: 0,0:16:16.94,0:16:21.32,Minori Suzuki,host,0,0,0,,The other day, I was reading a book set in the Mayan civilization...
-Dialogue: 0,0:16:21.32,0:16:22.92,Rina Honnizumi,host,0,0,0,,You really read all sorts of books, don't you?
-Dialogue: 0,0:16:22.92,0:16:23.80,Minori Suzuki,host,0,0,0,,I just love variety.
-Dialogue: 0,0:16:23.67,0:16:24.44,Rina Honnizumi,host,0,0,0,,I see.
-Dialogue: 0,0:16:24.44,0:16:27.71,Minori Suzuki,host,0,0,0,,At the time, I searched for free music
-Dialogue: 0,0:16:27.71,0:16:33.76,Minori Suzuki,host,0,0,0,,that sounded like the Mayan civilization,\Nand things actually came up.
-Dialogue: 0,0:16:33.71,0:16:34.21,Rina Honnizumi,host,0,0,0,,Whoa.
-Dialogue: 0,0:16:35.24,0:16:37.24,Minori Suzuki,host,0,0,0,,Listening to that really gets me into the mood.
+Dialogue: 0,0:16:08.29,0:16:16.94,Rina Honnizumi,host,0,0,0,,Also, when I'm reading,\NI often look for Western music or BGM that fits the story.
+Dialogue: 0,0:16:14.45,0:16:16.20,Minori Suzuki,host,0,0,0,,Oh, I see.
+Dialogue: 0,0:16:16.94,0:16:21.32,Rina Honnizumi,host,0,0,0,,The other day, I was reading a book set in the Mayan civilization...
+Dialogue: 0,0:16:21.32,0:16:22.92,Minori Suzuki,host,0,0,0,,You really read all sorts of books, don't you?
+Dialogue: 0,0:16:22.92,0:16:24.44,Rina Honnizumi,host,0,0,0,,I just love variety.
+Dialogue: 0,0:16:23.80,0:16:24.44,Minori Suzuki,host,0,0,0,,I see.
+Dialogue: 0,0:16:24.44,0:16:33.26,Rina Honnizumi,host,0,0,0,,At the time, I searched for free music that sounded like the Mayan civilization,
+Dialogue: 0,0:16:33.26,0:16:33.90,Rina Honnizumi,host,0,0,0,,and I actually found some good stuff.
+Dialogue: 0,0:16:33.90,0:16:34.76,Minori Suzuki,host,0,0,0,,Whoa.
+Dialogue: 0,0:16:35.24,0:16:37.24,Rina Honnizumi,host,0,0,0,,Listening to that really gets me into the mood.
 Dialogue: 0,0:16:37.24,0:16:38.00,Rina Honnizumi,host,0,0,0,,I get it, I get it.
 Dialogue: 0,0:16:38.00,0:16:38.68,Minori Suzuki,host,0,0,0,,That's how it feels.
 Dialogue: 0,0:16:39.52,0:16:41.48,Minori Suzuki,host,0,0,0,,If it's an action story, I'll pick something intense...
