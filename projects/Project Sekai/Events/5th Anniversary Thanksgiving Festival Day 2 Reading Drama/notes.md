@@ -125,7 +125,23 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
 [ENG SUB] Project SEKAI 5th Anniversary Thanksgiving Festival Day 2 — Reading Drama
 
 ## YouTube Blurb
-English subtitles for the Project SEKAI Colorful Stage! 5th Anniversary Thanksgiving Festival (感謝祭) Day 2 Live Reading Drama.
+English subtitles for the Project SEKAI Colorful Stage! 5th Anniversary Thanksgiving Festival (感謝祭) Day 2 Live Reading Drama, featuring Ichika Hoshino, Airi Momoi, An Shiraishi, Nene Kusanagi, Rui Kamishiro, Kanade Yoisaki, and Mizuki Akiyama (with special appearances by the Virtual Singers and Minori Hanasato).
+
+Fresh off a show-stopping float entrance, the cast gathers backstage to decompress after performing in front of the massive festival crowd. When Airi and Mizuki return from helping out at MORE MORE JUMP!'s mini handshake event—recounting how Minori won over whole families and young kids alike—Mizuki suggests the group practice their fan service and ad-lib skills by roleplaying as little kids meeting their idols down the line.
+
+What follows is pure chaos: Rui channels an over-eager child fan asking Mizuki to do her "cool voice," Nene gets roped into a high-energy freestyle street rap exchange with An, and Kanade delivers a timid, heart-melting "big sister" act for Ichika that catches the entire room off guard. To top it all off, Airi steps up to show everyone how a veteran idol really does it, charging up the ultimate "Happy Airi Beam!" to bring the crowd to its feet.
+
+Timestamps:
+00:00 - Prologue (The Sekai)
+02:07 - Post-Live Gathering & Float Stunt
+05:33 - MORE MORE JUMP!'s Handshake Event
+06:32 - Minori's Hugging Event (Flashback)
+07:44 - Fan Service Roleplay Practice
+08:35 - Rui & Mizuki (Kid Fan & Cool Voice)
+11:20 - An & Nene (Freestyle Street Rap)
+14:05 - Ichika & Kanade ("Big Sister...")
+16:05 - Airi Momoi's Happy Airi Beam!
+18:48 - Epilogue (The Sekai)
 
 Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
 
