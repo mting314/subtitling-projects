@@ -117,7 +117,7 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
 - **Honorifics:**
   Standardized by dropping `-san`, `-kun`, `-chan` as bare names across all lines per `reading_drama.toml` rules, while preserving `-senpai` (`Kamishiro-senpai`) and Rui's live slip-of-the-tongue at 02:46 (`Tsukasa-san... Tsukasa-kun`).
 - **ハッピー偉いぞビーム translation:**
-  Kept as "Happy Airi Beam!" as explicitly prompted by `5th_kanshasai_drama.toml` (reflecting Airi's name and the えらい/あいり pun).
+  Translated as "Happy Good Kids Beam!" (reflecting 偉いぞ = good kids / praiseworthy, directly pairing with Airi's line praising the audience for doing a wonderful job and being such good kids).
 - **ASR-garbled lines (An and Nene raps):**
   Freestyle rap translations maintained and tightened to preserve the rhythm and internal rhymes (e.g. Wandasho / samurai spirit / future expectations).
 
@@ -129,7 +129,7 @@ English subtitles for the Project SEKAI Colorful Stage! 5th Anniversary Thanksgi
 
 Fresh off a show-stopping float entrance, the cast gathers backstage to decompress after performing in front of the massive festival crowd. When Airi and Mizuki return from helping out at MORE MORE JUMP!'s mini handshake event—recounting how Minori won over whole families and young kids alike—Mizuki suggests the group practice their fan service and ad-lib skills by roleplaying as little kids meeting their idols down the line.
 
-What follows is pure chaos: Rui channels an over-eager child fan asking Mizuki to do her "cool voice," Nene gets roped into a high-energy freestyle street rap exchange with An, and Kanade delivers a timid, heart-melting "big sister" act for Ichika that catches the entire room off guard. To top it all off, Airi steps up to show everyone how a veteran idol really does it, charging up the ultimate "Happy Airi Beam!" to bring the crowd to its feet.
+What follows is pure chaos: Rui channels an over-eager child fan asking Mizuki to do her "cool voice," Nene gets roped into a high-energy freestyle street rap exchange with An, and Kanade delivers a timid, heart-melting "big sister" act for Ichika that catches the entire room off guard. To top it all off, Airi steps up to show everyone how a veteran idol really does it, charging up the ultimate "Happy Good Kids Beam!" to bring the crowd to its feet.
 
 Timestamps:
 00:00 - Prologue (The Sekai)
@@ -140,7 +140,7 @@ Timestamps:
 08:35 - Rui & Mizuki (Kid Fan & Cool Voice)
 11:20 - An & Nene (Freestyle Street Rap)
 14:05 - Ichika & Kanade ("Big Sister...")
-16:05 - Airi Momoi's Happy Airi Beam!
+16:05 - Airi Momoi's Happy Good Kids Beam!
 18:48 - Epilogue (The Sekai)
 
 Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
