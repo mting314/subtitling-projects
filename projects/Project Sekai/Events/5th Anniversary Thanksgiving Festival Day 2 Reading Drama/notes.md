@@ -95,7 +95,7 @@ subtitle file. It has not been reviewed by a human or hardsubbed yet.
 | 7:57 | 本当に、絵面が可愛くて、笑っちゃうな |
 | 8:06 | 瑞希の出はないでしょ。 |
 | 9:05 | すごい喋る。 |
-| 9:19 | ほら、類でに言われてるよ。 (the zh reference addresses 類, so this may be Mizuki) |
+| 9:19 | ほら、類でに言われてるよ。 (resolved: Mizuki addressing Rui) |
 | 9:25 | いや、全然可愛くない。 |
 | 9:47, 10:02 | か。かっこいい声? / やっ。やってみる。 |
 | 10:31 | 違和、違和感あった? |

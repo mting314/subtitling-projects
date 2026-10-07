@@ -180,7 +180,7 @@
       "id": "cue-00000012",
       "source_text": "いいんじゃないかな。昨日、レン達も行っていたみたいだし",
       "normalized_source_text": "いいんじゃないかな。昨日、レン達も行っていたみたいだし",
-      "translated_text": "That sounds like a good idea. It seems LEN and the others went yesterday, too.",
+      "translated_text": "That sounds like a good idea. It seems Len and the others went yesterday, too.",
       "final_text": null
     },
     {
@@ -1935,7 +1935,7 @@
       "id": "cue-00000040",
       "source_text": "その一方、白石君達は、歌一本で聞かせてくれたね。",
       "normalized_source_text": "その一方、白石君達は、歌一本で聞かせてくれたね。",
-      "translated_text": "On the other hand,\\NShiraishi-kun and her group really let us hear their talent with just their voices.",
+      "translated_text": "On the other hand,\\NShiraishi-kun's group really let us hear their talent with just their voices.",
       "final_text": null
     },
     {
@@ -4266,7 +4266,7 @@
       "id": "cue-00000068",
       "source_text": "同時に、ガス式のキャノン砲を数台設置して、メタルテープを上に吹き上げることで、",
       "normalized_source_text": "同時に、ガス式のキャノン砲を数台設置して、メタルテープを上に吹き上げることで、",
-      "translated_text": "At the same time,\\Nwe set up several gas-powered cannons to shoot metallic tape into the air,",
+      "translated_text": "At the same time,\\Nwe set up gas cannons to shoot metallic tape into the air,",
       "final_text": null
     },
     {
@@ -4742,7 +4742,7 @@
       "id": "cue-00000075",
       "source_text": "草薙さんっておとなしそうに見えるのに、結構度胸あるよね。",
       "normalized_source_text": "草薙さんっておとなしそうに見えるのに、結構度胸あるよね。",
-      "translated_text": "You look so quiet, Kusanagi, but you've actually got a lot of guts.",
+      "translated_text": "You look so quiet, Kusanagi-san, but you've actually got a lot of guts.",
       "final_text": null
     },
     {
@@ -4993,7 +4993,7 @@
       "id": "cue-00000081",
       "source_text": "そういえば、花里さん達の所もすごかったよね。",
       "normalized_source_text": "そういえば、花里さん達の所もすごかったよね。",
-      "translated_text": "speaking of which, Hanasato and her group were amazing too, right?",
+      "translated_text": "speaking of which, Hanasato-san and her group were amazing too, right?",
       "final_text": null
     },
     {
@@ -6241,7 +6241,7 @@
       "id": "cue-00000104",
       "source_text": "ももちゃんはファンのみんなと交流できるように、運営さんに言って、",
       "normalized_source_text": "ももちゃんはファンのみんなと交流できるように、運営さんに言って、",
-      "translated_text": "Momojan asked the staff to set aside a space",
+      "translated_text": "MMJ asked the staff to set aside a space",
       "final_text": null
     },
     {
@@ -8115,7 +8115,7 @@
       "id": "cue-00000144",
       "source_text": "ど、どうしよう。",
       "normalized_source_text": "ど、どうしよう。",
-      "translated_text": "W-what should I do?",
+      "translated_text": "W-What should I do?",
       "final_text": null
     },
     {
@@ -8854,7 +8854,7 @@
       "id": "cue-00000155",
       "source_text": "やっぱファンなら僕が育てましたとか言いたいし。",
       "normalized_source_text": "やっぱファンなら僕が育てましたとか言いたいし。",
-      "translated_text": "As a fan, you just want to be able to say, 'I'm the one who raised her!'",
+      "translated_text": "As a fan, you just want to be able to say, \"I'm the one who raised her!\"",
       "final_text": null
     },
     {
@@ -9830,7 +9830,7 @@
       "id": "cue-00000172",
       "source_text": "バケモノ花でした。",
       "normalized_source_text": "バケモノ花でした。",
-      "translated_text": "I mean, \"Bake no Hana\".",
+      "translated_text": "I mean, \"Bake no Hana.\"",
       "final_text": null
     },
     {
@@ -9873,7 +9873,7 @@
       "id": "cue-00000173",
       "source_text": "バケモノ花すごい好きです。",
       "normalized_source_text": "バケモノ花すごい好きです。",
-      "translated_text": "I really love \"Bake no Hana\".",
+      "translated_text": "I really love \"Bake no Hana.\"",
       "final_text": null
     },
     {
@@ -10165,7 +10165,7 @@
     {
       "start_time": 559.12,
       "end_time": 561.4,
-      "speaker": "Rui",
+      "speaker": "Mizuki",
       "role": null,
       "corner": null,
       "words": [
@@ -10173,56 +10173,56 @@
           "word": "ほら、",
           "start_time": 559.12,
           "end_time": 559.6,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "類",
           "start_time": 559.6,
           "end_time": 560.44,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "で",
           "start_time": 560.44,
           "end_time": 560.56,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "に",
           "start_time": 560.56,
           "end_time": 560.6800000000001,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "言わ",
           "start_time": 560.6800000000001,
           "end_time": 560.84,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "れ",
           "start_time": 560.84,
           "end_time": 560.96,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "てる",
           "start_time": 560.96,
           "end_time": 561.16,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         },
         {
           "word": "よ。",
           "start_time": 561.16,
           "end_time": 561.4,
-          "speaker": "Rui",
+          "speaker": "Mizuki",
           "confidence": null
         }
       ],
@@ -10237,7 +10237,7 @@
       "id": "cue-00000180",
       "source_text": "ほら、類でに言われてるよ。",
       "normalized_source_text": "ほら、類でに言われてるよ。",
-      "translated_text": "Look, even Kanade is telling you to.",
+      "translated_text": "Look, Rui, even Kanade is telling you to.",
       "final_text": null
     },
     {
@@ -15971,7 +15971,7 @@
       "id": "cue-00000307",
       "source_text": "星野さん、行ってみる?",
       "normalized_source_text": "星野さん、行ってみる?",
-      "translated_text": "Hoshino, want to give it a try?",
+      "translated_text": "Hoshino-san, want to give it a try?",
       "final_text": null
     },
     {
@@ -16276,7 +16276,7 @@
       "id": "cue-00000311",
       "source_text": "やりたくないけど、いいけどって書いてあるけど、いいけど。",
       "normalized_source_text": "やりたくないけど、いいけどって書いてあるけど、いいけど。",
-      "translated_text": "But the script says 'I don't want to, but fine,' so okay...",
+      "translated_text": "But the script says, \"I don't want to, but fine,\" so okay...",
       "final_text": null
     },
     {
@@ -22162,7 +22162,7 @@
       "id": "cue-00000424",
       "source_text": "だからミク達も、昨日『パレードしよう！』って誘ってくれたのね",
       "normalized_source_text": "だからミク達も、昨日『パレードしよう！』って誘ってくれたのね",
-      "translated_text": "That must be why MIKU and the others invited us to hold a parade yesterday.",
+      "translated_text": "That must be why Miku and the others invited us to hold a parade yesterday.",
       "final_text": null
     },
     {
@@ -22190,7 +22190,7 @@
       "id": "cue-00000426",
       "source_text": "そういえば、リンはもうレンと練習を始めているんだっけ？",
       "normalized_source_text": "そういえば、リンはもうレンと練習を始めているんだっけ？",
-      "translated_text": "Come to think of it, RIN, haven't you already started practicing with LEN?",
+      "translated_text": "Come to think of it, Rin, haven't you already started practicing with Len?",
       "final_text": null
     },
     {
@@ -22246,7 +22246,7 @@
       "id": "cue-00000430",
       "source_text": "たしかにそうだね。僕も、リン達に負けないように頑張らないとな",
       "normalized_source_text": "たしかにそうだね。僕も、リン達に負けないように頑張らないとな",
-      "translated_text": "That's true. I'll have to do my best too, so I don't lose to RIN and the others.",
+      "translated_text": "That's true. I'll have to do my best too, so I don't lose to Rin and the others.",
       "final_text": null
     },
     {

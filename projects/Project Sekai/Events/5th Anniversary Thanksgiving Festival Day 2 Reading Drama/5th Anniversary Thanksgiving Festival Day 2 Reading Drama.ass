@@ -36,7 +36,7 @@ Dialogue: 0,0:01:20.00,0:01:27.25,KAITO,KAITO,0,0,0,,{\an8}Thank you! I'm so hap
 Dialogue: 0,0:01:27.25,0:01:36.50,Luka,Luka,0,0,0,,{\an8}It's so reassuring to know that everyone here is always watching over those kids with us.
 Dialogue: 0,0:01:36.50,0:01:42.25,Rin,Rin,0,0,0,,{\an8}Oh, hey, hey! Since we're here, why don't we all go see how they're doing?
 Dialogue: 0,0:01:42.25,0:01:46.00,Rin,Rin,0,0,0,,{\an8}It sounds like they're doing something interesting today!
-Dialogue: 0,0:01:46.00,0:01:51.75,KAITO,KAITO,0,0,0,,{\an8}That sounds like a good idea. It seems LEN and the others went yesterday, too.
+Dialogue: 0,0:01:46.00,0:01:51.75,KAITO,KAITO,0,0,0,,{\an8}That sounds like a good idea. It seems Len and the others went yesterday, too.
 Dialogue: 0,0:01:51.75,0:01:55.75,Luka,Luka,0,0,0,,{\an8}Is everyone ready?
 Dialogue: 0,0:01:55.75,0:01:59.25,KAITO,KAITO,0,0,0,,{\an8}Well then... here we go!
 Dialogue: 0,0:02:07.53,0:02:08.03,An,An,0,0,0,,Phew...
@@ -64,7 +64,7 @@ Dialogue: 0,0:03:02.08,0:03:03.36,An,An,0,0,0,,Maybe you're just too fired up?
 Dialogue: 0,0:03:04.72,0:03:08.28,An,An,0,0,0,,But I didn't know there was such a thing as "stock confetti."
 Dialogue: 0,0:03:08.28,0:03:08.96,Rui,Rui,0,0,0,,Of course.
 Dialogue: 0,0:03:09.52,0:03:11.88,Rui,Rui,0,0,0,,Confetti is essential for a show, after all.
-Dialogue: 0,0:03:12.52,0:03:16.76,Rui,Rui,0,0,0,,On the other hand, Shiraishi-kun and her group really let us hear their talent with just their voices.
+Dialogue: 0,0:03:12.52,0:03:16.76,Rui,Rui,0,0,0,,On the other hand, Shiraishi-kun's group really let us hear their talent with just their voices.
 Dialogue: 0,0:03:17.32,0:03:19.94,An,An,0,0,0,,Well, we do compete with our singing.
 Dialogue: 0,0:03:19.94,0:03:23.64,An,An,0,0,0,,Akito and the others seemed especially fired up today.
 Dialogue: 0,0:03:23.64,0:03:24.24,Nene,Nene,0,0,0,,True.
@@ -87,25 +87,27 @@ Dialogue: 0,0:04:04.56,0:04:08.62,An,An,0,0,0,,But Kamishiro-senpai and his grou
 Dialogue: 0,0:04:08.62,0:04:10.24,An,An,0,0,0,,so I'm a little frustrated.
 Dialogue: 0,0:04:10.76,0:04:16.24,An,An,0,0,0,,Just when I thought the silver tape shot out with a bang, you all appeared from the sky...
 Dialogue: 0,0:04:16.24,0:04:18.36,An,An,0,0,0,,That's just not fair!
-Dialogue: 0,0:04:18.36,0:04:26.07,Ichika,Ichika,0,0,0,,Honami told me you'd be appearing from the sky, but I never expected it to look so much like a magic trick.
+Dialogue: 0,0:04:18.36,0:04:21.84,Ichika,Ichika,0,0,0,,Honami told me you'd be appearing from the sky,
+Dialogue: 0,0:04:21.84,0:04:26.07,Ichika,Ichika,0,0,0,,but I never expected it to look so much like a magic trick.
 Dialogue: 0,0:04:26.07,0:04:26.57,Kanade,Kanade,0,0,0,,Yeah.
 Dialogue: 0,0:04:27.20,0:04:29.36,Kanade,Kanade,0,0,0,,How did you do that?
 Dialogue: 0,0:04:29.36,0:04:32.80,Rui,Rui,0,0,0,,We didn't actually appear from the sky, you know.
-Dialogue: 0,0:04:33.32,0:04:38.36,Rui,Rui,0,0,0,,We were suspended at the very top of the parade float out of sight, and then lowered down all at once.
-Dialogue: 0,0:04:38.96,0:04:44.80,Rui,Rui,0,0,0,,At the same time, we set up several gas-powered cannons to shoot metallic tape into the air,
+Dialogue: 0,0:04:33.32,0:04:37.12,Rui,Rui,0,0,0,,We were suspended at the very top of the parade float out of sight,
+Dialogue: 0,0:04:37.12,0:04:38.36,Rui,Rui,0,0,0,,and then lowered down all at once.
+Dialogue: 0,0:04:38.96,0:04:44.80,Rui,Rui,0,0,0,,At the same time, we set up gas cannons to shoot metallic tape into the air,
 Dialogue: 0,0:04:44.80,0:04:47.61,Rui,Rui,0,0,0,,making it look as if we suddenly dropped out of the sky.
 Dialogue: 0,0:04:47.61,0:04:48.11,Kanade,Kanade,0,0,0,,Wow.
 Dialogue: 0,0:04:49.00,0:04:50.84,Kanade,Kanade,0,0,0,,It really is like magic.
 Dialogue: 0,0:04:50.84,0:04:53.20,Nene,Nene,0,0,0,,Though being suspended up there was a bit scary.
 Dialogue: 0,0:04:54.16,0:04:57.77,Nene,Nene,0,0,0,,But seeing the audience's reaction made it all worth it.
 Dialogue: 0,0:04:57.77,0:04:58.27,An,An,0,0,0,,Right?
-Dialogue: 0,0:04:59.16,0:05:03.56,An,An,0,0,0,,You look so quiet, Kusanagi, but you've actually got a lot of guts.
+Dialogue: 0,0:04:59.16,0:05:03.56,An,An,0,0,0,,You look so quiet, Kusanagi-san, but you've actually got a lot of guts.
 Dialogue: 0,0:05:03.56,0:05:04.65,An,An,0,0,0,,That's amazing.
 Dialogue: 0,0:05:04.65,0:05:05.15,Nene,Nene,0,0,0,,Oh,
 Dialogue: 0,0:05:05.88,0:05:07.12,Nene,Nene,0,0,0,,that's not true.
 Dialogue: 0,0:05:08.12,0:05:09.20,Nene,Nene,0,0,0,,Ah, um...
 Dialogue: 0,0:05:09.77,0:05:10.49,Nene,Nene,0,0,0,,Oh,
-Dialogue: 0,0:05:10.49,0:05:14.07,Nene,Nene,0,0,0,,speaking of which, Hanasato and her group were amazing too, right?
+Dialogue: 0,0:05:10.49,0:05:14.07,Nene,Nene,0,0,0,,speaking of which, Hanasato-san and her group were amazing too, right?
 Dialogue: 0,0:05:14.07,0:05:14.57,Ichika,Ichika,0,0,0,,Yeah.
 Dialogue: 0,0:05:15.12,0:05:17.10,Ichika,Ichika,0,0,0,,It's called a call-and-response, right?
 Dialogue: 0,0:05:17.10,0:05:20.84,Ichika,Ichika,0,0,0,,They really got the crowd pumped up with that. It was so cool.
@@ -128,7 +130,7 @@ Dialogue: 0,0:05:50.44,0:05:51.20,Airi,Airi,0,0,0,,Kanade.
 Dialogue: 0,0:05:51.20,0:05:55.12,Airi,Airi,0,0,0,,Oh, we were actually holding a mini handshake event until just now.
 Dialogue: 0,0:05:55.12,0:05:56.29,Nene,Nene,0,0,0,,A mini handshake event?
 Dialogue: 0,0:05:56.29,0:05:56.91,Mizuki,Mizuki,0,0,0,,Yep.
-Dialogue: 0,0:05:56.91,0:06:00.72,Mizuki,Mizuki,0,0,0,,Momojan asked the staff to set aside a space
+Dialogue: 0,0:05:56.91,0:06:00.72,Mizuki,Mizuki,0,0,0,,MMJ asked the staff to set aside a space
 Dialogue: 0,0:06:00.72,0:06:02.96,Mizuki,Mizuki,0,0,0,,so they could interact with all their fans.
 Dialogue: 0,0:06:02.96,0:06:05.73,Mizuki,Mizuki,0,0,0,,They really know what the fans want.
 Dialogue: 0,0:06:05.73,0:06:06.41,An,An,0,0,0,,Yeah.
@@ -168,7 +170,7 @@ Dialogue: 0,0:07:22.00,0:07:23.68,Minori,Minori,0,0,0,,I'm glad it made you happ
 Dialogue: 0,0:07:25.67,0:07:26.17,Minori,Minori,0,0,0,,Oh?
 Dialogue: 0,0:07:28.21,0:07:28.71,Minori,Minori,0,0,0,,Ah...
 Dialogue: 0,0:07:29.56,0:07:34.16,Minori,Minori,0,0,0,,All the other little kids waiting in line are asking for hugs now too!
-Dialogue: 0,0:07:35.64,0:07:36.72,Minori,Minori,0,0,0,,W-what should I do?
+Dialogue: 0,0:07:35.64,0:07:36.72,Minori,Minori,0,0,0,,W-What should I do?
 Dialogue: 0,0:07:37.48,0:07:40.32,Minori,Minori,0,0,0,,This isn't a handshake event anymore, it's a hugging event!
 Dialogue: 0,0:07:51.16,0:07:53.83,Airi,Airi,0,0,0,,And just like that, she was a total hit with the kids.
 Dialogue: 0,0:07:53.83,0:07:54.33,Kanade,Kanade,0,0,0,,Ah.
@@ -179,7 +181,7 @@ Dialogue: 0,0:08:06.44,0:08:07.92,An,An,0,0,0,,You have no right to be proud, Mi
 Dialogue: 0,0:08:08.96,0:08:10.00,Rui,Rui,0,0,0,,Mizuki always has a habit of...
 Dialogue: 0,0:08:10.00,0:08:11.00,Rui,Rui,0,0,0,,...doing that, don't they?
 Dialogue: 0,0:08:11.00,0:08:12.06,Mizuki,Mizuki,0,0,0,,Oh, come on, why not?
-Dialogue: 0,0:08:12.06,0:08:16.36,Mizuki,Mizuki,0,0,0,,As a fan, you just want to be able to say, 'I'm the one who raised her!'
+Dialogue: 0,0:08:12.06,0:08:16.36,Mizuki,Mizuki,0,0,0,,As a fan, you just want to be able to say, "I'm the one who raised her!"
 Dialogue: 0,0:08:16.36,0:08:23.84,Mizuki,Mizuki,0,0,0,,But seeing that makes me want to be cheered on by little kids and do some fan service too.
 Dialogue: 0,0:08:23.84,0:08:24.99,Kanade,Kanade,0,0,0,,Wait, you, Mizuki?
 Dialogue: 0,0:08:24.99,0:08:25.49,Mizuki,Mizuki,0,0,0,,Yeah.
@@ -196,15 +198,15 @@ Dialogue: 0,0:08:52.24,0:08:55.84,Rui,Rui,0,0,0,,I'm a big fan of your videos.
 Dialogue: 0,0:08:56.79,0:08:57.52,Rui,Rui,0,0,0,,Like,
 Dialogue: 0,0:08:57.52,0:08:58.80,Rui,Rui,0,0,0,,I really love your passion.
 Dialogue: 0,0:09:00.32,0:09:01.64,Rui,Rui,0,0,0,,I really love "Bake no Hana" too.
-Dialogue: 0,0:09:02.72,0:09:03.48,Rui,Rui,0,0,0,,I mean, "Bake no Hana".
-Dialogue: 0,0:09:03.48,0:09:04.52,Rui,Rui,0,0,0,,I really love "Bake no Hana".
+Dialogue: 0,0:09:02.72,0:09:03.48,Rui,Rui,0,0,0,,I mean, "Bake no Hana."
+Dialogue: 0,0:09:03.48,0:09:04.52,Rui,Rui,0,0,0,,I really love "Bake no Hana."
 Dialogue: 0,0:09:05.40,0:09:06.39,Nene,Nene,0,0,0,,He talks so much.
 Dialogue: 0,0:09:06.39,0:09:07.08,Mizuki,Mizuki,0,0,0,,Well,
 Dialogue: 0,0:09:07.08,0:09:09.36,Mizuki,Mizuki,0,0,0,,I actually love those kinds of troublesome fans.
 Dialogue: 0,0:09:12.29,0:09:12.79,Rui,Rui,0,0,0,,Huh?
 Dialogue: 0,0:09:13.77,0:09:14.27,Mizuki,Mizuki,0,0,0,,Huh?
 Dialogue: 0,0:09:15.00,0:09:17.04,Kanade,Kanade,0,0,0,,Since you started it, I think you should go through with it.
-Dialogue: 0,0:09:19.12,0:09:21.40,Rui,Rui,0,0,0,,Look, even Kanade is telling you to.
+Dialogue: 0,0:09:19.12,0:09:21.40,Mizuki,Mizuki,0,0,0,,Look, Rui, even Kanade is telling you to.
 Dialogue: 0,0:09:22.15,0:09:22.84,Rui,Rui,0,0,0,,Well?
 Dialogue: 0,0:09:22.84,0:09:24.36,Rui,Rui,0,0,0,,Don't I make an adorable child?
 Dialogue: 0,0:09:25.76,0:09:27.49,Nene,Nene,0,0,0,,No, not cute at all.
@@ -331,11 +333,11 @@ Dialogue: 0,0:13:47.35,0:13:49.40,Airi,Airi,0,0,0,,An, you seemed pretty used to
 Dialogue: 0,0:13:50.04,0:13:51.26,An,An,0,0,0,,Thank you!
 Dialogue: 0,0:13:51.26,0:13:53.72,An,An,0,0,0,,I talk to the little kids around town quite a bit.
 Dialogue: 0,0:13:54.28,0:13:55.40,An,An,0,0,0,,So, next up...
-Dialogue: 0,0:13:56.56,0:13:58.01,An,An,0,0,0,,Hoshino, want to give it a try?
+Dialogue: 0,0:13:56.56,0:13:58.01,An,An,0,0,0,,Hoshino-san, want to give it a try?
 Dialogue: 0,0:13:58.01,0:13:58.51,Ichika,Ichika,0,0,0,,Huh?
 Dialogue: 0,0:13:59.36,0:14:00.72,Ichika,Ichika,0,0,0,,Are we going in order?
 Dialogue: 0,0:14:00.72,0:14:02.76,Ichika,Ichika,0,0,0,,We really don't have to do this just to fill time.
-Dialogue: 0,0:14:02.76,0:14:05.16,Ichika,Ichika,0,0,0,,But the script says 'I don't want to, but fine,' so okay...
+Dialogue: 0,0:14:02.76,0:14:05.16,Ichika,Ichika,0,0,0,,But the script says, "I don't want to, but fine," so okay...
 Dialogue: 0,0:14:05.16,0:14:06.12,Airi,Airi,0,0,0,,S-So you're doing it.
 Dialogue: 0,0:14:06.12,0:14:06.92,Mizuki,Mizuki,0,0,0,,Alright, nice, nice!
 Dialogue: 0,0:14:07.68,0:14:09.22,Mizuki,Mizuki,0,0,0,,Let's keep going down the line!
@@ -448,13 +450,13 @@ Dialogue: 0,0:18:23.88,0:18:29.00,Nene,Nene,0,0,0,,After doing the parade, I wan
 Dialogue: 0,0:18:29.00,0:18:29.76,Rui,Rui,0,0,0,,That's right.
 Dialogue: 0,0:18:30.32,0:18:34.20,Rui,Rui,0,0,0,,Let's keep delivering our feelings to as many people as possible!
 Dialogue: 0,0:18:50.00,0:18:54.00,KAITO,KAITO,0,0,0,,{\an8}Hehe. It sounds like it was a very lively parade.
-Dialogue: 0,0:18:54.00,0:18:59.50,Luka,Luka,0,0,0,,{\an8}That must be why MIKU and the others invited us to hold a parade yesterday.
+Dialogue: 0,0:18:54.00,0:18:59.50,Luka,Luka,0,0,0,,{\an8}That must be why Miku and the others invited us to hold a parade yesterday.
 Dialogue: 0,0:18:59.50,0:19:07.50,Rin,Rin,0,0,0,,{\an8}Let's do our best to deliver tons and tons of gratitude too!
-Dialogue: 0,0:19:07.50,0:19:13.00,KAITO,KAITO,0,0,0,,{\an8}Come to think of it, RIN, haven't you already started practicing with LEN?
+Dialogue: 0,0:19:07.50,0:19:13.00,KAITO,KAITO,0,0,0,,{\an8}Come to think of it, Rin, haven't you already started practicing with Len?
 Dialogue: 0,0:19:13.00,0:19:18.75,Rin,Rin,0,0,0,,{\an8}Yep! We're going to do a robot dance while singing and playing!
 Dialogue: 0,0:19:18.75,0:19:23.50,KAITO,KAITO,0,0,0,,{\an8}W-Will you be okay packing so much into it...?
 Dialogue: 0,0:19:23.50,0:19:29.00,Luka,Luka,0,0,0,,{\an8}But it sounds like it'll be a really fun and energetic performance.
-Dialogue: 0,0:19:29.00,0:19:36.75,KAITO,KAITO,0,0,0,,{\an8}That's true. I'll have to do my best too, so I don't lose to RIN and the others.
+Dialogue: 0,0:19:29.00,0:19:36.75,KAITO,KAITO,0,0,0,,{\an8}That's true. I'll have to do my best too, so I don't lose to Rin and the others.
 Dialogue: 0,0:19:36.75,0:19:43.25,KAITO,KAITO,0,0,0,,{\an8}Well then, everyone. Thank you for coming today!
 Dialogue: 0,0:19:43.25,0:19:50.00,Luka,Luka,0,0,0,,{\an8}We hope you'll continue to receive plenty of our gratitude after this as well.
 Dialogue: 0,0:19:50.00,0:19:53.00,Rin,Rin,0,0,0,,{\an8}See you! Bye-bye!
