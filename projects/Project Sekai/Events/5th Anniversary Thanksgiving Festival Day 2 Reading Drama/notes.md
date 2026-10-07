@@ -124,7 +124,13 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
 ## YouTube Title
 [ENG SUB] Project SEKAI 5th Anniversary Thanksgiving Festival Day 2 — Reading Drama
 
-## YouTube Blurb (draft)
+## YouTube Blurb
 English subtitles for the Project SEKAI Colorful Stage! 5th Anniversary Thanksgiving Festival (感謝祭) Day 2 Live Reading Drama.
 
 Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
+
+## Published
+- **Video ID**: `2PtYx8z0syA`
+- **Watch**: https://youtu.be/2PtYx8z0syA
+- **Studio**: https://studio.youtube.com/video/2PtYx8z0syA/edit
+- **Privacy**: `PRIVATE` (initial upload)
