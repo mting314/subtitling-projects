@@ -82,6 +82,7 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
   - "fan of your videos": the ASR had 東雲.
   - "Bake no Hana" (化けの花): the ASR had バケモノ花. The LLM had invented a song called 'Cinema'.
 - Final `.ass`: manual `\N` breaks were removed so libass balances the lines at 100px.
+- 18:08: ASR had 気配 (kehai); corrected from audio and context to 機会 (kikai) -> "Though... will you even have the chance?"
 
 ## Speaker attribution audit & resolutions
 

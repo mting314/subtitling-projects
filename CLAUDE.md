@@ -78,6 +78,7 @@ Local finishing/utility scripts live in [`scripts/`](scripts/) (run from the rep
 - **Contractions**: always use natural spoken forms
 - **Song/event titles**: quoted, not italicized
 - **Project Sekai terms**: "AfterTalk" (capital T), "AfterLive" (capital L), "ProSeka" (capital S)
+- **Mizuki Pronouns**: always use "she/her" (never "they/them")
 
 ## QC Review
 
