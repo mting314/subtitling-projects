@@ -17,9 +17,9 @@ Video File: 5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv
 Video AR Mode: 4
 Video AR Value: 1.774074
 Video Zoom Percent: 0.500000
-Scroll Position: 399
-Active Line: 412
-Video Position: 32640
+Scroll Position: 115
+Active Line: 121
+Video Position: 12212
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -104,18 +104,19 @@ Dialogue: 0,0:04:01.68,0:04:02.88,Ichika,Ichika,0,0,0,,Really?
 Dialogue: 0,0:04:02.88,0:04:04.11,Ichika,Ichika,0,0,0,,I'm glad.
 Dialogue: 0,0:04:04.56,0:04:08.62,An,An,0,0,0,,But Kamishiro-senpai and his group stole the biggest hype of the day,
 Dialogue: 0,0:04:08.62,0:04:10.24,An,An,0,0,0,,so I'm a little frustrated.
-Dialogue: 0,0:04:10.76,0:04:16.24,An,An,0,0,0,,Just when I thought the silver tape shot out with a bang, you all appeared from the sky...
+Dialogue: 0,0:04:10.76,0:04:14.11,An,An,0,0,0,,Right when I heard the "bang!" from the streamers shooting out,
+Dialogue: 0,0:04:14.11,0:04:16.24,An,An,0,0,0,,you all just appeared in the sky!
 Dialogue: 0,0:04:16.24,0:04:18.36,An,An,0,0,0,,That's just not fair!
 Dialogue: 0,0:04:18.36,0:04:26.07,Ichika,Ichika,0,0,0,,Honami told me you'd appear from the sky, but I never expected a magic trick!
 Dialogue: 0,0:04:26.07,0:04:26.57,Kanade,Kanade,0,0,0,,Yeah.
 Dialogue: 0,0:04:27.00,0:04:29.36,Kanade,Kanade,0,0,0,,How did you do that?
 Dialogue: 0,0:04:29.36,0:04:33.32,Rui,Rui,0,0,0,,We didn't actually appear out of thin air, you see.
 Dialogue: 0,0:04:33.32,0:04:38.96,Rui,Rui,0,0,0,,We suspended everyone at the top of the float, then lowered down all at once.
-Dialogue: 0,0:04:38.96,0:04:44.80,Rui,Rui,0,0,0,,At the same time, we fired metallic tape with gas-powered cannons,
+Dialogue: 0,0:04:38.96,0:04:44.80,Rui,Rui,0,0,0,,At the same time, we fired streamers with gas-powered cannons,
 Dialogue: 0,0:04:44.80,0:04:47.76,Rui,Rui,0,0,0,,making it look as if we suddenly dropped out of the sky.
 Dialogue: 0,0:04:47.76,0:04:48.46,Kanade,Kanade,0,0,0,,Wow.
 Dialogue: 0,0:04:49.00,0:04:51.36,Kanade,Kanade,0,0,0,,It really is like magic.
-Dialogue: 0,0:04:51.36,0:04:54.16,Nene,Nene,0,0,0,,Though being suspended up there was a bit scary.
+Dialogue: 0,0:04:51.36,0:04:54.16,Nene,Nene,0,0,0,,Being suspended up there was a bit scary.
 Dialogue: 0,0:04:54.16,0:04:57.90,Nene,Nene,0,0,0,,But seeing the audience's reaction made it all worth it.
 Dialogue: 0,0:04:57.90,0:04:58.76,An,An,0,0,0,,Wow.
 Dialogue: 0,0:04:59.16,0:05:03.56,An,An,0,0,0,,You look so quiet, Kusanagi, but you've actually got a lot of guts.
@@ -132,26 +133,26 @@ Dialogue: 0,0:05:20.84,0:05:21.60,An,An,0,0,0,,I know, right?
 Dialogue: 0,0:05:21.60,0:05:23.00,An,An,0,0,0,,They really were...
 Dialogue: 0,0:05:23.60,0:05:25.36,An,An,0,0,0,,Wait, huh?
 Dialogue: 0,0:05:25.36,0:05:26.92,An,An,0,0,0,,Where did Haruka and the others go?
-Dialogue: 0,0:05:26.92,0:05:28.02,Kanade,Kanade,0,0,0,,You're right.
-Dialogue: 0,0:05:28.02,0:05:30.64,Kanade,Kanade,0,0,0,,Mizuki disappeared before I even noticed, too.
+Dialogue: 0,0:05:26.92,0:05:28.01,Kanade,Kanade,0,0,0,,You're right.
+Dialogue: 0,0:05:28.01,0:05:30.99,Kanade,Kanade,0,0,0,,Looks like Mizuki also ran off somewhere.
 Dialogue: 0,0:05:34.28,0:05:35.40,Mizuki,Mizuki,0,0,0,,Good work, everyone!
 Dialogue: 0,0:05:35.40,0:05:36.73,Mizuki,Mizuki,0,0,0,,I heard Rui flubbed his line.
-Dialogue: 0,0:05:38.60,0:05:40.52,Airi,Airi,0,0,0,,So this is where you all gathered.
+Dialogue: 0,0:05:38.60,0:05:40.52,Airi,Airi,0,0,0,,So this is where you all were.
 Dialogue: 0,0:05:40.52,0:05:42.23,Rui,Rui,0,0,0,,You certainly have sharp ears.
-Dialogue: 0,0:05:43.68,0:05:45.12,An,An,0,0,0,,Hey, it's Mizuki!
-Dialogue: 0,0:05:45.12,0:05:46.84,An,An,0,0,0,,And Airi, too.
+Dialogue: 0,0:05:43.68,0:05:45.34,An,An,0,0,0,,Hey, it's Mizuki!
+Dialogue: 0,0:05:45.34,0:05:46.84,An,An,0,0,0,,And Airi, too.
 Dialogue: 0,0:05:46.84,0:05:48.25,Kanade,Kanade,0,0,0,,He did flub quite a bit.
 Dialogue: 0,0:05:48.25,0:05:48.92,Kanade,Kanade,0,0,0,,Ah.
 Dialogue: 0,0:05:48.92,0:05:50.44,Kanade,Kanade,0,0,0,,Where were you two?
-Dialogue: 0,0:05:50.44,0:05:51.20,Airi,Airi,0,0,0,,Kanade.
+Dialogue: 0,0:05:50.44,0:05:51.20,Airi,Airi,0,0,0,,Kanade...
 Dialogue: 0,0:05:51.20,0:05:55.12,Airi,Airi,0,0,0,,Oh, we were actually holding a mini handshake event until just now.
 Dialogue: 0,0:05:55.12,0:05:56.29,Nene,Nene,0,0,0,,A mini handshake event?
 Dialogue: 0,0:05:56.29,0:05:57.13,Mizuki,Mizuki,0,0,0,,Yep.
 Dialogue: 0,0:05:57.13,0:06:02.96,Mizuki,Mizuki,0,0,0,,MMJ asked the staff if they could hold an event where they could meet their fans face-to-face.
-Dialogue: 0,0:06:02.96,0:06:05.86,Mizuki,Mizuki,0,0,0,,They really know what the fans want.
+Dialogue: 0,0:06:02.96,0:06:05.86,Mizuki,Mizuki,0,0,0,,They sure know what the fans want.
 Dialogue: 0,0:06:05.86,0:06:06.62,An,An,0,0,0,,Really?
 Dialogue: 0,0:06:06.62,0:06:08.84,An,An,0,0,0,,Man, I wish I could've gone to that.
-Dialogue: 0,0:06:08.84,0:06:11.68,An,An,0,0,0,,I wanted to line up for Haruka just to tease her.
+Dialogue: 0,0:06:08.84,0:06:11.68,An,Ichika,0,0,0,,I would've lined up for Haruka just to tease her.
 Dialogue: 0,0:06:12.12,0:06:14.08,Airi,Airi,0,0,0,,I'd love to see how she'd react to that.
 Dialogue: 0,0:06:14.08,0:06:18.36,Airi,Airi,0,0,0,,But this time, Minori was the one who was really popular.
 Dialogue: 0,0:06:18.36,0:06:19.39,Ichika,Ichika,0,0,0,,Really?
@@ -163,7 +164,7 @@ Dialogue: 0,0:06:35.48,0:06:37.15,Minori_VN,Minori,0,0,0,,I'll keep doing my bes
 Dialogue: 0,0:06:39.24,0:06:43.60,Minori_VN,Minori,0,0,0,,I'm so glad more people came\Nto the mini handshake event than I expected.
 Dialogue: 0,0:06:43.60,0:06:45.47,Minori_VN,Minori,0,0,0,,Next person, please!
 Dialogue: 0,0:06:46.01,0:06:47.16,Minori_VN,Minori,0,0,0,,Ah!
-Dialogue: 0,0:06:47.16,0:06:51.52,Minori_VN,Minori,0,0,0,,Wait, did your whole family come to cheer us on?
+Dialogue: 0,0:06:47.16,0:06:51.52,Minori_VN,Minori,0,0,0,,Did your whole family come to cheer us on?
 Dialogue: 0,0:06:51.52,0:06:53.04,Minori_VN,Minori,0,0,0,,Wow, that makes me so happy!
 Dialogue: 0,0:06:53.04,0:06:55.00,Minori_VN,Minori,0,0,0,,Thank you so much.
 Dialogue: 0,0:06:55.00,0:06:57.51,Minori_VN,Minori,0,0,0,,Ehe! How old are you?
@@ -352,20 +353,20 @@ Dialogue: 0,0:14:05.16,0:14:06.12,Airi,Airi,0,0,0,,S-So you're doing it.
 Dialogue: 0,0:14:06.12,0:14:07.68,Mizuki,Mizuki,0,0,0,,Nice, nice!
 Dialogue: 0,0:14:07.68,0:14:09.22,Mizuki,Mizuki,0,0,0,,Let's keep going down the line!
 Dialogue: 0,0:14:09.22,0:14:11.80,Mizuki,Mizuki,0,0,0,,I have a recommendation for who should play the kid,
-Dialogue: 0,0:14:11.80,0:14:13.03,Mizuki,Mizuki,0,0,0,,it's our very own Kanade!
+Dialogue: 0,0:14:11.80,0:14:13.05,Mizuki,Mizuki,0,0,0,,it's our very own Kanade!
 Dialogue: 0,0:14:14.25,0:14:14.92,Kanade,Kanade,0,0,0,,Huh?
 Dialogue: 0,0:14:15.48,0:14:16.96,Mizuki,Mizuki,0,0,0,,Good luck, Kanade!
-Dialogue: 0,0:14:16.62,0:14:16.96,Rui,Rui,0,0,0,,{\an4\pos(160,160)}Are—
+Dialogue: 0,0:14:16.62,0:14:17.80,Rui,Rui,0,0,0,,{\an4\pos(160,160)}Are—
 Dialogue: 0,0:14:16.96,0:14:19.05,Mizuki,Mizuki,0,0,0,,Everyone's counting on you!
 Dialogue: 0,0:14:17.80,0:14:19.05,Rui,Rui,0,0,0,,{\an4\pos(160,160)}Are you—
 Dialogue: 0,0:14:19.05,0:14:19.88,Kanade,Kanade,0,0,0,,Oh.
-Dialogue: 0,0:14:19.88,0:14:20.88,Rui,Rui,0,0,0,,Are you really sure about this?
+Dialogue: 0,0:14:19.88,0:14:21.23,Rui,Rui,0,0,0,,Are you really sure about this?
 Dialogue: 0,0:14:22.42,0:14:23.32,Kanade,Kanade,0,0,0,,Um...
-Dialogue: 0,0:14:24.59,0:14:25.73,Kanade,Kanade,0,0,0,,{\pos(1437,944)}Big sister...
-Dialogue: 0,0:14:25.73,0:14:26.23,Ichika,Ichika,0,0,0,,{\pos(479,944)}Oh...
+Dialogue: 0,0:14:24.59,0:14:25.92,Kanade,Kanade,0,0,0,,{\pos(1437,944)}Big sister...
+Dialogue: 0,0:14:25.92,0:14:26.72,Ichika,Ichika,0,0,0,,{\pos(479,944)}Oh...
 Comment: 0,0:14:25.73,0:14:26.23,Ichika,Ichika,0,0,0,,Maybe replace with pog face or ichika surprised stamp
 Dialogue: 0,0:14:27.47,0:14:28.64,Ichika,Ichika,0,0,0,,{\pos(479,944)}Big sister?
-Dialogue: 0,0:14:28.64,0:14:30.61,Rui,Rui,0,0,0,,What an unexpected side of Kanade.
+Dialogue: 0,0:14:28.64,0:14:30.42,Rui,Rui,0,0,0,,What an unexpected side of Kanade.
 Dialogue: 0,0:14:31.00,0:14:32.20,Mizuki,Mizuki,0,0,0,,{\pos(1741.818,270)}Urgh...
 Dialogue: 0,0:14:32.20,0:14:35.81,Kanade,Kanade,0,0,0,,{\pos(1437,944)}Big sister's performance\Nwas so wonderful.
 Dialogue: 0,0:14:37.00,0:14:38.83,Kanade,Kanade,0,0,0,,{\pos(1437,944)}I'll keep\Ncheewing for you.
@@ -455,7 +456,7 @@ Dialogue: 0,0:17:57.32,0:17:58.36,Mizuki,Mizuki,0,0,0,,All right!
 Dialogue: 0,0:17:58.36,0:18:03.28,Mizuki,Mizuki,0,0,0,,I'll polish my fan service and ad-lib skills too, so I can respond anytime!
 Dialogue: 0,0:18:03.28,0:18:04.72,Kanade,Kanade,0,0,0,,Wait, Mizuki...
 Dialogue: 0,0:18:04.72,0:18:07.35,Kanade,Kanade,0,0,0,,Aren't you always good at ad-libbing?
-Dialogue: 0,0:18:08.28,0:18:10.92,Kanade,Kanade,0,0,0,,Though... will you even have the chance?
+Dialogue: 0,0:18:08.28,0:18:11.27,Kanade,Kanade,0,0,0,,Though... will you even have the chance?
 Dialogue: 0,0:18:12.28,0:18:14.84,Ichika,Ichika,0,0,0,,Maybe I should practice a bit too.
 Dialogue: 0,0:18:14.84,0:18:18.35,Ichika,Ichika,0,0,0,,It's a great way to say thank you to all those supporting us.
 Dialogue: 0,0:18:18.35,0:18:19.06,An,An,0,0,0,,Yeah!
