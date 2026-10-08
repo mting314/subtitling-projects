@@ -1,0 +1,28 @@
+# Speaker map for All ways Jump! with you AfterTalk (MMJ)
+# Chirp 3 uses 0-based speaker labels. Verify against the diarized
+# transcript and swap if needed.
+# Character colors from sekai-story-indexer meta.json (webapp/static/meta.json).
+
+[speakers."0"]
+name = "Yui Ogura"
+character = "Minori Hanasato"
+color = "#ffccaa"
+slot = 1
+avatar = "../../official_cast_photos/yui_ogura.webp"
+
+[speakers."1"]
+name = "Yui Ogura"
+character = "Minori Hanasato"
+color = "#ffccaa"
+slot = 1
+avatar = "../../official_cast_photos/yui_ogura.webp"
+
+[speakers."2"]
+name = "Rina Honnizumi"
+character = "Shizuku Hinomori"
+color = "#99eedd"
+slot = 2
+avatar = "../../official_cast_photos/rina_honnizumi.webp"
+
+# Labels 3, 4, 5 appear during in-stream story watchalong playback
+# (episodes 5 and 9 game dialogue audio).

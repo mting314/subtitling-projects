@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。",
+    "start_time": 929.67,
+    "end_time": 930.17,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "え、あるよ。",
+    "start_time": 931.28,
+    "end_time": 932.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "え、ない、ないの?",
+    "start_time": 932.36,
+    "end_time": 933.16,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "いや、私もあるんだけどさ、やっぱなんだろう唯ちゃんとお仕事で会う時もそうだしなんかももジャンプで集まってご飯行く時とかもそうだけどなんかね",
+    "start_time": 933.4,
+    "end_time": 944.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "安心するんだよそのブレないからさ唯ちゃんずっとさ。",
+    "start_time": 946.04,
+    "end_time": 949.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "私は癒しだ。",
+    "start_time": 949.72,
+    "end_time": 950.52,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "そう。",
+    "start_time": 951.71,
+    "end_time": 952.425,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "なんかこう仕事ですって",
+    "start_time": 952.425,
+    "end_time": 954.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "のそれこそももジャンプの感謝祭とかで一緒になった時とか",
+    "start_time": 954.96,
+    "end_time": 958.88,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "結構ずっといつもねステージ一緒だもんね。",
+    "start_time": 959.24,
+    "end_time": 962.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ね。",
+    "start_time": 961.94,
+    "end_time": 962.44,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そう。",
+    "start_time": 962.44,
+    "end_time": 962.94,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "我々我々そういう時とかこう袖にいる時が一番緊張のピークだったりするじゃない?",
+    "start_time": 962.92,
+    "end_time": 969.74,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "そうなんだよ。",
+    "start_time": 963.71,
+    "end_time": 964.21,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "始まるみたいな。",
+    "start_time": 969.74,
+    "end_time": 970.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "確かに。",
+    "start_time": 970.67,
+    "end_time": 971.17,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そういう時になんかこう唯ちゃんの背中見てるとめっちゃくちゃ頼れるみたいな。",
+    "start_time": 971.4,
+    "end_time": 977.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "背中見てるとか",
+    "start_time": 977.88,
+    "end_time": 979.2,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "本当になんかそういうの感じちゃってたからこう不安になったり落ち込んだり部分を逆にあんまり見てこなかったかもなと思って。",
+    "start_time": 979.76,
+    "end_time": 990.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "えー、嬉しい。",
+    "start_time": 982.28,
+    "end_time": 982.84,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん、うん。",
+    "start_time": 987.79,
+    "end_time": 988.29,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "あ、そっか。",
+    "start_time": 990.45,
+    "end_time": 990.95,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "4人の中では色々あると思うの。",
+    "start_time": 991.2,
+    "end_time": 993.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "それはね、もちろん。",
+    "start_time": 993.2,
+    "end_time": 994.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "でもそうだなと思って気になっちゃった。",
+    "start_time": 994.36,
+    "end_time": 996.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "そっか。",
+    "start_time": 997.2,
+    "end_time": 997.8,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "確かにね。",
+    "start_time": 998.32,
+    "end_time": 999.2,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "かっこいいんだもんだって。",
+    "start_time": 999.32,
+    "end_time": 999.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "私も頼ましい感じかな。",
+    "start_time": 1001.24,
+    "end_time": 1002.68,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そう。",
+    "start_time": 1002.83,
+    "end_time": 1003.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

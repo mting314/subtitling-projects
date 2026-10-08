@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "ということで、あ、そっちかはね。",
+    "start_time": 744.84,
+    "end_time": 747.125,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うちらは",
+    "start_time": 747.125,
+    "end_time": 747.83,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "いっちゃんしっかりしてるよ。",
+    "start_time": 749.92,
+    "end_time": 751.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "嘘?",
+    "start_time": 750.86,
+    "end_time": 751.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "本当? いっちゃん",
+    "start_time": 751.36,
+    "end_time": 752.25,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "はい、ということで早速今回のアフタートークwithyouのストーリーについてお話ししていこうと思います。",
+    "start_time": 753.88,
+    "end_time": 761.24,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "皆さん今回のストーリーどうでしたかね?",
+    "start_time": 761.96,
+    "end_time": 764.72,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 7,
+    "text": "うん。",
+    "start_time": 764.59,
+    "end_time": 765.09,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "天然タンと言われてる。",
+    "start_time": 766.72,
+    "end_time": 768.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "天然タンと?",
+    "start_time": 768.16,
+    "end_time": 768.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "言われてふわふわコンビと言われてね。",
+    "start_time": 769.8,
+    "end_time": 772.88,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ふわふわコンビもね。",
+    "start_time": 771.56,
+    "end_time": 772.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "まずはストーリー関連でいただいたおたよりを紹介して一緒に振り返ってみましょう。",
+    "start_time": 774.2,
+    "end_time": 779.68,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "はい。",
+    "start_time": 779.75,
+    "end_time": 780.25,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "えーとみそ煮込みうどんさんからのおたよりです。",
+    "start_time": 780.92,
+    "end_time": 784.64,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 15,
+    "text": "美味しそう。",
+    "start_time": 784.75,
+    "end_time": 785.25,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "美味しそうだよ。",
+    "start_time": 786.4,
+    "end_time": 787.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ありがとうございます。",
+    "start_time": 787.76,
+    "end_time": 788.84,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "小倉さん、泉さんこんばんは。",
+    "start_time": 789.4,
+    "end_time": 791.52,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "こんばんは。",
+    "start_time": 791.61,
+    "end_time": 792.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "こんばんは。",
+    "start_time": 792.07,
+    "end_time": 792.57,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "みのりちゃんの今日がいい日じゃなくても明日はきっといい日になるという言葉が本当に好きです。",
+    "start_time": 793.92,
+    "end_time": 800.46,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "このお話でもまた希望を届けたいという変わらない思いを胸にステージに立つももちゃんは本当に輝かしいです。",
+    "start_time": 800.46,
+    "end_time": 808.76,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 23,
+    "text": "握手会で不安を感じるみのりちゃんの隣でファンの方がすっごく輝いていたと伝えたシーンはまさに希望が届いた瞬間だと感じました。",
+    "start_time": 809.36,
+    "end_time": 819.98,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 24,
+    "text": "これからも4人の活躍を応援しています。",
+    "start_time": 819.98,
+    "end_time": 823.12,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "ありがとうございます。",
+    "start_time": 823.88,
+    "end_time": 824.76,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "ありがとうございます。",
+    "start_time": 824.92,
+    "end_time": 825.88,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 27,
+    "text": "なんかさっきコメントでもあったけどみのりのこう主人公っぽさみたいなのがすごい輝いてたってコメントもらってなんかこのね",
+    "start_time": 826.36,
+    "end_time": 835.04,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "握手会のシーンでもさみのりちゃん常にがむしゃらで頑張ってたけどなんかファンの方に直接みのりちゃんすごく頑張ってたからまず応援したくなっちゃいましたって声かけてくれた人いたじゃない?",
+    "start_time": 835.04,
+    "end_time": 849.96,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "うん、うん。",
+    "start_time": 849.89,
+    "end_time": 850.39,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

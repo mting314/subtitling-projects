@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。",
+    "start_time": 2663.79,
+    "end_time": 2664.29,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うん、うん。",
+    "start_time": 2668.73,
+    "end_time": 2669.23,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "本当にしちゃった。",
+    "start_time": 2673.76,
+    "end_time": 2675.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ね。",
+    "start_time": 2675.15,
+    "end_time": 2675.65,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うん。",
+    "start_time": 2675.53,
+    "end_time": 2676.03,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "なんかこうちょっと動かされるよね、心を。",
+    "start_time": 2676.16,
+    "end_time": 2680.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そう、心が",
+    "start_time": 2680.16,
+    "end_time": 2680.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "なんかだしこれまでずっとさももちゃんってやっぱこう明るかったりアイドルだからさキラキラした部分があるあってからのこれを見るとなんかよりせ、",
+    "start_time": 2680.84,
+    "end_time": 2690.02,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "説得力じゃないけどなんかだからこそこう響く何かがあるというか。",
+    "start_time": 2690.02,
+    "end_time": 2696.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "それもギャップだよね。",
+    "start_time": 2696.4,
+    "end_time": 2697.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そう、そう。",
+    "start_time": 2697.14,
+    "end_time": 2697.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "あやっぱみんなこういうかもするんだなっていうところにすごく逆に惹かれる。",
+    "start_time": 2697.64,
+    "end_time": 2702.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "確かに。",
+    "start_time": 2702.83,
+    "end_time": 2703.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん、うん。",
+    "start_time": 2703.37,
+    "end_time": 2703.87,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "光が強ければ強いほど。",
+    "start_time": 2703.96,
+    "end_time": 2705.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "うん。",
+    "start_time": 2705.22,
+    "end_time": 2705.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "じゃないけどあ、そうだよねってなんかこう説得力ある感じというか。",
+    "start_time": 2705.72,
+    "end_time": 2710.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "人の温かみが出るね。",
+    "start_time": 2711.16,
+    "end_time": 2712.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "そう、そう、そう。",
+    "start_time": 2712.39,
+    "end_time": 2712.89,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "っていうのがね、すごいよね。",
+    "start_time": 2713.88,
+    "end_time": 2715.62,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "えでこんなに。",
+    "start_time": 2715.62,
+    "end_time": 2716.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "本当にね。",
+    "start_time": 2716.52,
+    "end_time": 2717.22,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "毎回すごいんだけど",
+    "start_time": 2717.22,
+    "end_time": 2718.6,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "今回もめちゃくちゃ感動しました。",
+    "start_time": 2718.8,
+    "end_time": 2720.76,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 24,
+    "text": "ありがとうございます。",
+    "start_time": 2720.96,
+    "end_time": 2721.76,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "絵の力ってすごい。",
+    "start_time": 2721.96,
+    "end_time": 2722.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "本当に。",
+    "start_time": 2722.85,
+    "end_time": 2723.35,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ね、ありがとう。",
+    "start_time": 2724.08,
+    "end_time": 2724.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ありがとうございます。",
+    "start_time": 2725.04,
+    "end_time": 2725.56,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "ではせっかくなのでイラストをね実際にちょっとみんなで見てみてみましょう。",
+    "start_time": 2726.12,
+    "end_time": 2732.06,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  }
+]

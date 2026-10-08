@@ -17,9 +17,9 @@ Video File: 5th Anniversary Thanksgiving Festival Day 2 Reading Drama.mkv
 Video AR Mode: 4
 Video AR Value: 1.774074
 Video Zoom Percent: 0.500000
-Scroll Position: 115
-Active Line: 121
-Video Position: 12212
+Scroll Position: 242
+Active Line: 249
+Video Position: 22046
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -279,7 +279,7 @@ Dialogue: 0,0:11:34.44,0:11:35.28,An,An,0,0,0,,{\pos(479,944)}I got it.
 Dialogue: 0,0:11:35.28,0:11:35.88,Nene,Nene,0,0,0,,{\pos(1437,944)}You got it?
 Dialogue: 0,0:11:37.24,0:11:38.40,Rui,Rui,0,0,0,,Would you like a beat?
 Dialogue: 0,0:11:41.39,0:11:42.52,An,An,0,0,0,,{\pos(479,944)}Okay.
-Dialogue: 0,0:11:42.52,0:11:44.37,Mizuki,Mizuki,0,0,0,,An, you can say no, you know.
+Dialogue: 0,0:11:42.52,0:11:44.72,Mizuki,Mizuki,0,0,0,,An, you can say no, you know.
 Dialogue: 0,0:11:45.52,0:11:47.56,An,An,0,0,0,,{\pos(479,944)}I don't know why, but...
 Dialogue: 0,0:11:47.56,0:11:49.61,An,An,0,0,0,,{\pos(479,944)}I feel like I've got this!
 Dialogue: 0,0:11:51.27,0:11:52.88,An,An,0,0,0,,{\pos(479,944)}Alright, here I go.
@@ -292,7 +292,7 @@ Dialogue: 0,0:12:04.12,0:12:07.33,An,An,0,0,0,,{\i1}ato wa hitasura mae ni susum
 Dialogue: 0,0:12:07.33,0:12:08.51,Nene,Nene,0,0,0,,{\pos(1437,944)}Wow.
 Dialogue: 0,0:12:09.19,0:12:10.04,Nene,Nene,0,0,0,,{\pos(1437,944)}That was amazing.
 Dialogue: 0,0:12:11.04,0:12:13.16,Nene,Nene,0,0,0,,{\pos(1437,944)}Hey, so I think\Nthat's plenty, right?
-Dialogue: 0,0:12:15.04,0:12:16.60,Rui,Rui,0,0,0,,I'd love to hear Nene's too.
+Dialogue: 0,0:12:15.04,0:12:16.95,Rui,Rui,0,0,0,,I'd love to hear Nene's too, though...
 Dialogue: 0,0:12:19.24,0:12:21.00,Nene,Nene,0,0,0,,{\pos(1437,944)}I wonder if\NI can do it...
 Dialogue: 0,0:12:22.88,0:12:24.60,Nene,Nene,0,0,0,,{\pos(1437,944)}Ah, well then,
 Dialogue: 0,0:12:24.60,0:12:25.71,Nene,Nene,0,0,0,,{\pos(1437,944)}I'll give it\Nmy best shot...

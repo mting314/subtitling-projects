@@ -1,0 +1,57 @@
+2026-10-06 23:40:28,574:INFO:autosub.cli: Saving log to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_logs_20261006_234028\run.log
+2026-10-06 23:40:28,602:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-10-06 23:40:28,603:INFO:autosub.pipeline.transcribe.main: Starting chirp_3 transcription for 1 segment(s) from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk.mkv
+2026-10-06 23:40:28,603:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 1 (start=00:09:56, end=00:10:56)...
+2026-10-06 23:40:29,321:INFO:autosub.pipeline.transcribe.main: Segment 1 audio duration: 60.01 seconds
+2026-10-06 23:40:29,322:INFO:autosub.pipeline.transcribe.main: Uploading segment 1 audio to autosub_staging/fc0f088f-86b2-4e72-8cbf-3e015339ec3e_All ways Jump! with you Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus...
+2026-10-06 23:40:29,323:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-10-06 23:40:29,323:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-10-06 23:40:30,752:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:40:30,795:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:40:31,026:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:40:31,028:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:40:32,079:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1311
+2026-10-06 23:40:33,291:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 2 speaker(s)
+2026-10-06 23:40:33,292:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-10-06 23:40:33,292:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/fc0f088f-86b2-4e72-8cbf-3e015339ec3e_All ways Jump! with you Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus...
+2026-10-06 23:40:33,370:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:40:33,594:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:40:33,879:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6cee7b1e-0000-2614-8fc4-883d24fc8984 for gs://subtitling-projects/autosub_staging/fc0f088f-86b2-4e72-8cbf-3e015339ec3e_All ways Jump! with you Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus. Polling every 15 seconds.
+2026-10-06 23:40:49,191:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6cee7b1e-0000-2614-8fc4-883d24fc8984 for gs://subtitling-projects/autosub_staging/fc0f088f-86b2-4e72-8cbf-3e015339ec3e_All ways Jump! with you Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus completed in 0m 15s.
+2026-10-06 23:40:49,191:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-10-06 23:40:49,202:INFO:autosub.pipeline.transcribe.main: Cleaning up GCS staging file gs://subtitling-projects/autosub_staging/fc0f088f-86b2-4e72-8cbf-3e015339ec3e_All ways Jump! with you Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus...
+2026-10-06 23:40:50,308:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:40:50,309:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:40:50,556:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:40:50,559:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:40:51,137:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2Ffc0f088f-86b2-4e72-8cbf-3e015339ec3e_All%20ways%20Jump%21%20with%20you%20Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus?fields=name&prettyPrint=false HTTP/1.1" 200 141
+2026-10-06 23:40:51,342:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2Ffc0f088f-86b2-4e72-8cbf-3e015339ec3e_All%20ways%20Jump%21%20with%20you%20Aftertalk_audio_3d3546380e53487281d43c44ba9749ad.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-10-06 23:40:51,342:INFO:autosub.pipeline.transcribe.main: Found 145 transcribed words across 1 segment(s). Saving to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json...
+2026-10-06 23:40:51,346:INFO:autosub.cli: [Step 1.5/4] Processing Video Keyframes & Metadata...
+2026-10-06 23:40:51,420:INFO:autosub.cli: Extracting keyframes to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_keyframes.log...
+2026-10-06 23:40:51,464:WARNING:autosub.cli: Failed to process keyframes: SCXvid not found in system PATH. Please install SCXvid.exe
+2026-10-06 23:40:51,465:INFO:autosub.cli: [Step 2/4] Formatting...
+2026-10-06 23:40:51,465:INFO:autosub.pipeline.format.main: Chunking transcript into semantic subtitle lines...
+2026-10-06 23:40:51,466:INFO:autosub.pipeline.format.main: Loading transcript from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json...
+2026-10-06 23:40:51,480:INFO:autosub.pipeline.format.main: Generated 22 initial subtitle lines from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json.
+2026-10-06 23:40:51,480:INFO:autosub.pipeline.format.main: Generated 22 subtitle lines.
+2026-10-06 23:40:51,648:DEBUG:asyncio: Using proactor: IocpProactor
+2026-10-06 23:40:51,655:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:40:52,760:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:40:53,309:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:40:53,311:DEBUG:httpcore.connection: connect_tcp.started host='aiplatform.googleapis.com' port=443 local_address=None timeout=600.0 socket_options=None
+2026-10-06 23:40:53,397:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x00000136236312E0>
+2026-10-06 23:40:53,397:DEBUG:httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x00000136232F7DD0> server_hostname='aiplatform.googleapis.com' timeout=600.0
+2026-10-06 23:40:53,463:DEBUG:httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x0000013623631250>
+2026-10-06 23:40:53,463:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:40:53,463:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:40:53,463:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:40:53,464:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:40:53,464:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:40:53,586:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:40:54 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:40:53,586:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 404 Not Found"
+2026-10-06 23:40:53,587:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:40:53,588:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:40:53,588:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:40:53,588:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:40:53,589:ERROR:autosub.cli: Failed during formatting: LLM keyword normalizer request to LLM failed: status_code: 404, model_name: gemini-3.1-flash-lite-preview, body: {'error': {'code': 404, 'message': 'Publisher model `projects/future-name-201021/locations/global/publishers/google/models/gemini-3.1-flash-lite-preview` was not found or your project does not have access to it. Ensure you are using a valid model name and that the model is available in the specified region. For more information, see: https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/locations.', 'status': 'NOT_FOUND'}} (project_id=future-name-201021; model=gemini-3.1-flash-lite-preview; location=global)

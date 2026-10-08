@@ -1,0 +1,154 @@
+[
+  {
+    "id": 0,
+    "text": "結構共感してくださってる方も多いんですけど。",
+    "start_time": 1213.8,
+    "end_time": 1216.695,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ね。",
+    "start_time": 1216.695,
+    "end_time": 1217.365,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ま、じゃ、そんな感じかな。",
+    "start_time": 1217.365,
+    "end_time": 1218.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "散歩したり食べて寝て忘れ、忘れよう嫌なことは。",
+    "start_time": 1218.6,
+    "end_time": 1223.385,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "そうだね。",
+    "start_time": 1219.61,
+    "end_time": 1220.11,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "みたいな。",
+    "start_time": 1223.385,
+    "end_time": 1224.085,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん、ね。",
+    "start_time": 1223.79,
+    "end_time": 1224.29,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "それじゃね。",
+    "start_time": 1224.085,
+    "end_time": 1224.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "日常であると思うけどうまいこと切り替えていこうな。",
+    "start_time": 1224.76,
+    "end_time": 1228.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そうだね。",
+    "start_time": 1228.37,
+    "end_time": 1228.87,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "お互いね。",
+    "start_time": 1229.44,
+    "end_time": 1230.08,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "うん。",
+    "start_time": 1230.15,
+    "end_time": 1230.65,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "そう、そう。",
+    "start_time": 1230.71,
+    "end_time": 1231.265,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "大事だよ。",
+    "start_time": 1231.265,
+    "end_time": 1231.92,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ね、こちらぽちさんからおたよりでしたね。",
+    "start_time": 1232.16,
+    "end_time": 1234.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ありがとうございます。",
+    "start_time": 1235.12,
+    "end_time": 1236.2,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "さあ、えー、",
+    "start_time": 1238.0,
+    "end_time": 1238.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ということで、え、もう次行っちゃっていいのかしら?",
+    "start_time": 1239.2,
+    "end_time": 1241.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "ね。",
+    "start_time": 1241.71,
+    "end_time": 1242.21,
+    "speaker": "2",
+    "role": "host"
+  }
+]

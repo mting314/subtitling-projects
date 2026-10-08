@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "ここすごい覚えてる。",
+    "start_time": 1530.12,
+    "end_time": 1531.26,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "じゃなくてだよ。",
+    "start_time": 1531.26,
+    "end_time": 1532.465,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "だよ。",
+    "start_time": 1532.465,
+    "end_time": 1533.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ここ難しかったな。",
+    "start_time": 1533.92,
+    "end_time": 1535.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "じゃあじゃあねがねこういう風になってくれてすごいありがたかった。",
+    "start_time": 1536.6,
+    "end_time": 1540.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "キュって書いて。",
+    "start_time": 1540.64,
+    "end_time": 1541.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そう、そう、そう。",
+    "start_time": 1541.48,
+    "end_time": 1542.0,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "すごいあの句点をめっちゃ意識して",
+    "start_time": 1543.0,
+    "end_time": 1544.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "私にできることを探していこう。",
+    "start_time": 1544.88,
+    "end_time": 1545.96,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "じゃなくてだよ。",
+    "start_time": 1546.28,
+    "end_time": 1547.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "アイドルとしては叶わなかったけど",
+    "start_time": 1547.72,
+    "end_time": 1548.84,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "可愛い、可愛い。",
+    "start_time": 1549.08,
+    "end_time": 1549.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "今度こそたくさんの希望を届けられるように",
+    "start_time": 1550.64,
+    "end_time": 1553.8,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ね、皆皆見ちゃって。",
+    "start_time": 1554.68,
+    "end_time": 1556.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "ん?",
+    "start_time": 1554.85,
+    "end_time": 1555.35,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "皆このこの顔の",
+    "start_time": 1556.72,
+    "end_time": 1558.84,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "大丈夫なんですか?",
+    "start_time": 1558.96,
+    "end_time": 1559.96,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "てて本当にててよこの2人。",
+    "start_time": 1560.76,
+    "end_time": 1564.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "ててよ。",
+    "start_time": 1561.51,
+    "end_time": 1562.01,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん、うん。",
+    "start_time": 1564.39,
+    "end_time": 1564.89,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "だよ。",
+    "start_time": 1564.93,
+    "end_time": 1565.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "気にしてる。",
+    "start_time": 1565.88,
+    "end_time": 1566.48,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "癒し。",
+    "start_time": 1566.89,
+    "end_time": 1567.51,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "癒し。",
+    "start_time": 1567.51,
+    "end_time": 1568.13,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うん。",
+    "start_time": 1568.89,
+    "end_time": 1569.39,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "だよって言うの。",
+    "start_time": 1570.32,
+    "end_time": 1570.96,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "なんだかね元気をもらえた気がする。",
+    "start_time": 1571.08,
+    "end_time": 1573.44,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ふん、ふん。",
+    "start_time": 1574.23,
+    "end_time": 1574.73,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "進んでいこう。",
+    "start_time": 1575.72,
+    "end_time": 1576.6,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "うん。",
+    "start_time": 1576.83,
+    "end_time": 1577.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

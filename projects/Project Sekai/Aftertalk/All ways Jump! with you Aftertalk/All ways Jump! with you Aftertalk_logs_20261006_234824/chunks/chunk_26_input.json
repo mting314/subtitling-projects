@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "なんかね、",
+    "start_time": 2242.25,
+    "end_time": 2242.75,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "見てる私たちも",
+    "start_time": 2243.28,
+    "end_time": 2244.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "嬉しいな。",
+    "start_time": 2244.15,
+    "end_time": 2244.65,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "私も自己PRを考えてきますね。",
+    "start_time": 2245.4,
+    "end_time": 2246.96,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "かわいい。",
+    "start_time": 2247.64,
+    "end_time": 2248.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "自己PR。",
+    "start_time": 2248.24,
+    "end_time": 2249.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "かわいい。",
+    "start_time": 2249.01,
+    "end_time": 2249.755,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "癒される。",
+    "start_time": 2249.755,
+    "end_time": 2250.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "はい。",
+    "start_time": 2259.52,
+    "end_time": 2260.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "わあ。",
+    "start_time": 2259.99,
+    "end_time": 2260.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "しずくの後編でござした。",
+    "start_time": 2261.24,
+    "end_time": 2263.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "私いっぱい迷ってさ、いいシーンいっぱいあったからそうなんだよね。",
+    "start_time": 2265.52,
+    "end_time": 2271.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "みんなそれぞれの",
+    "start_time": 2268.88,
+    "end_time": 2269.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "でも",
+    "start_time": 2271.61,
+    "end_time": 2272.11,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 2271.95,
+    "end_time": 2272.45,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "まあ、前編通してだったんだけどみのりちゃんが光でありすぎて太陽すぎる、",
+    "start_time": 2273.64,
+    "end_time": 2280.4,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 2275.49,
+    "end_time": 2275.99,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "いや、本当よね。",
+    "start_time": 2278.48,
+    "end_time": 2279.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "彼女は。",
+    "start_time": 2280.4,
+    "end_time": 2281.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 2281.13,
+    "end_time": 2281.63,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "だからそれぞれみんなの心の支えになってくれて、そのももちゃんとして活動していないこの世界でも、",
+    "start_time": 2282.08,
+    "end_time": 2290.14,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "うん、うん。",
+    "start_time": 2284.69,
+    "end_time": 2285.19,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "あ、太陽だなってなんかやっぱ変わらずいてくれる存在でありなんかこのみのりというこのパワーがみんなをこういい方にこう巻き込んでいく力というかね。",
+    "start_time": 2290.14,
+    "end_time": 2302.4,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そうだね。",
+    "start_time": 2292.04,
+    "end_time": 2292.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "そう。",
+    "start_time": 2296.23,
+    "end_time": 2296.73,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "なんか引力があるよね。",
+    "start_time": 2302.52,
+    "end_time": 2303.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "みんなを引きつける。",
+    "start_time": 2303.68,
+    "end_time": 2304.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "しなんならこう心もこうなんか救われるというかね。",
+    "start_time": 2304.92,
+    "end_time": 2309.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "持ち上げてくれる。",
+    "start_time": 2309.92,
+    "end_time": 2310.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そう、そう、そう。",
+    "start_time": 2310.91,
+    "end_time": 2311.41,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

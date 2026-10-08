@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "ね、もうこんな感じ出てる。",
+    "start_time": 3070.76,
+    "end_time": 3072.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "そう、そして",
+    "start_time": 3073.08,
+    "end_time": 3073.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そして雫です。",
+    "start_time": 3073.96,
+    "end_time": 3075.0,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 3,
+    "text": "いや、これまた美しいですね。",
+    "start_time": 3075.64,
+    "end_time": 3078.12,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "なんだろうね、この絵画みたいなさ雫の美しさ。",
+    "start_time": 3078.44,
+    "end_time": 3081.92,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 3080.27,
+    "end_time": 3080.77,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "なんかさ、お顔があえて影っていうのがやっぱすごくなんかこう意味を感じるよね。",
+    "start_time": 3082.04,
+    "end_time": 3087.56,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "確かにね。",
+    "start_time": 3085.48,
+    "end_time": 3086.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "うん。",
+    "start_time": 3088.11,
+    "end_time": 3088.61,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そうだよね、顔に当たってないっていうのがまたいいね。",
+    "start_time": 3089.56,
+    "end_time": 3092.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うん、うん。",
+    "start_time": 3093.15,
+    "end_time": 3093.65,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そしてテーブルに寝転がるっていうのもさなんかいろんな解釈ができて深いな。",
+    "start_time": 3094.12,
+    "end_time": 3100.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "うん。",
+    "start_time": 3096.67,
+    "end_time": 3097.17,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "いや、本当に。",
+    "start_time": 3099.08,
+    "end_time": 3100.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "しかも雫だよっていうところがうん。",
+    "start_time": 3100.12,
+    "end_time": 3103.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "あ、ね。",
+    "start_time": 3102.37,
+    "end_time": 3102.87,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そうなんよ。",
+    "start_time": 3103.68,
+    "end_time": 3104.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "うん。",
+    "start_time": 3104.11,
+    "end_time": 3104.61,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "美しいですよ。",
+    "start_time": 3105.48,
+    "end_time": 3106.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ね。",
+    "start_time": 3106.68,
+    "end_time": 3107.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん。",
+    "start_time": 3107.27,
+    "end_time": 3107.77,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "儚い。",
+    "start_time": 3108.56,
+    "end_time": 3109.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "ね。",
+    "start_time": 3109.25,
+    "end_time": 3109.75,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "なんか全部いいね。",
+    "start_time": 3110.56,
+    "end_time": 3111.84,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "この絵画みたいなこう",
+    "start_time": 3111.84,
+    "end_time": 3113.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "絵になるね。",
+    "start_time": 3113.76,
+    "end_time": 3114.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "絵になって。",
+    "start_time": 3114.32,
+    "end_time": 3115.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "モデルの本領発揮みたいなところも",
+    "start_time": 3115.0,
+    "end_time": 3116.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "本当に。",
+    "start_time": 3117.48,
+    "end_time": 3118.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "美しいです。",
+    "start_time": 3119.08,
+    "end_time": 3119.72,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "text": "なんか原点であり頂点的なこう",
+    "start_time": 2463.12,
+    "end_time": 2465.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "戻ってきたというか改めてこう絆も感じたしね。",
+    "start_time": 2465.8,
+    "end_time": 2471.725,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "そうね。",
+    "start_time": 2467.33,
+    "end_time": 2467.83,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そうだね。",
+    "start_time": 2470.43,
+    "end_time": 2470.93,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うん。",
+    "start_time": 2471.55,
+    "end_time": 2472.05,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "はい。",
+    "start_time": 2471.725,
+    "end_time": 2472.47,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "感じではい。",
+    "start_time": 2473.48,
+    "end_time": 2474.5,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ございます。",
+    "start_time": 2474.5,
+    "end_time": 2475.32,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "ありがとうございました。",
+    "start_time": 2475.44,
+    "end_time": 2476.2,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 9,
+    "text": "ありがとうございました。",
+    "start_time": 2476.28,
+    "end_time": 2477.48,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  }
+]

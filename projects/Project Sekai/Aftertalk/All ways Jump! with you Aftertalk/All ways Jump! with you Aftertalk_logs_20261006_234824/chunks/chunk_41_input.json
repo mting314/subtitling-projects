@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "それもいい。",
+    "start_time": 3171.71,
+    "end_time": 3172.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "複雑。",
+    "start_time": 3172.61,
+    "end_time": 3173.35,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "うん。",
+    "start_time": 3173.35,
+    "end_time": 3174.09,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "美しいです。",
+    "start_time": 3174.99,
+    "end_time": 3175.49,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "ね、美しいでございます。",
+    "start_time": 3175.72,
+    "end_time": 3177.0,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "はい、ということで全部見てきました。",
+    "start_time": 3178.88,
+    "end_time": 3182.04,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 6,
+    "text": "はい。",
+    "start_time": 3179.83,
+    "end_time": 3180.33,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "本当に素敵。",
+    "start_time": 3182.32,
+    "end_time": 3183.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "ね。",
+    "start_time": 3183.45,
+    "end_time": 3183.95,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "なんかまた新しいこうももジャンの",
+    "start_time": 3184.0,
+    "end_time": 3186.6,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "そうだね、1面が見られて。",
+    "start_time": 3187.04,
+    "end_time": 3188.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そう、そう、そう。",
+    "start_time": 3188.39,
+    "end_time": 3189.045,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "雰囲気というかさね。",
+    "start_time": 3189.045,
+    "end_time": 3190.92,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん。",
+    "start_time": 3190.11,
+    "end_time": 3190.77,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 3190.77,
+    "end_time": 3191.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "魅力が伝わったんじゃないかなってね、思いますよ。",
+    "start_time": 3191.48,
+    "end_time": 3195.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "魅力が膨らんだな。",
+    "start_time": 3192.2,
+    "end_time": 3194.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そしてあの、チーム名を屋上にしてる。",
+    "start_time": 3195.96,
+    "end_time": 3198.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "はい。",
+    "start_time": 3198.45,
+    "end_time": 3198.95,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "屋上が原点だから。",
+    "start_time": 3200.6,
+    "end_time": 3201.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん、万場一で屋上にしました。",
+    "start_time": 3202.04,
+    "end_time": 3203.84,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 21,
+    "text": "屋上にしましたということ。",
+    "start_time": 3203.96,
+    "end_time": 3205.0,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "はい。",
+    "start_time": 3204.85,
+    "end_time": 3205.35,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "はい。",
+    "start_time": 3206.11,
+    "end_time": 3206.61,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ということで呼ぼう。",
+    "start_time": 3207.56,
+    "end_time": 3209.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "うん。",
+    "start_time": 3208.07,
+    "end_time": 3208.57,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "めっちゃ短かった。",
+    "start_time": 3209.12,
+    "end_time": 3210.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "あ、ちょも。",
+    "start_time": 3210.21,
+    "end_time": 3210.74,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "けども。",
+    "start_time": 3210.74,
+    "end_time": 3211.27,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "はい、プロセカアフタートークアフタートークジャンプウィズユー編は以上で終了となります。",
+    "start_time": 3211.88,
+    "end_time": 3218.78,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  }
+]

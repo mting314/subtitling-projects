@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "じゃあ、操作ほんちゃんにお願いしながらはい。",
+    "start_time": 2732.06,
+    "end_time": 2735.44,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "任してよ。",
+    "start_time": 2734.56,
+    "end_time": 2735.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "で、まずはみのりからいきましょうかね。",
+    "start_time": 2736.04,
+    "end_time": 2738.68,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "みのりちゃん。",
+    "start_time": 2738.8,
+    "end_time": 2739.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "まずはああ。",
+    "start_time": 2740.52,
+    "end_time": 2741.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "なんかこの光の入り方が本当におしゃれなんだよね。",
+    "start_time": 2742.52,
+    "end_time": 2747.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "インスポが当たってる。",
+    "start_time": 2747.32,
+    "end_time": 2748.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そう、そう、そう。",
+    "start_time": 2748.36,
+    "end_time": 2749.16,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "あとキンセンカ。",
+    "start_time": 2749.28,
+    "end_time": 2750.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うん、うん。",
+    "start_time": 2750.51,
+    "end_time": 2751.01,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "花あるね。",
+    "start_time": 2751.12,
+    "end_time": 2751.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "この花あれだね。",
+    "start_time": 2751.76,
+    "end_time": 2753.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "ここにあるさっき言ってた誰?",
+    "start_time": 2753.08,
+    "end_time": 2755.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "かが一緒に踊ってるようなというね。",
+    "start_time": 2755.04,
+    "end_time": 2757.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "お花でそれを表現して",
+    "start_time": 2758.04,
+    "end_time": 2759.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "でも本当にそう見るとそう見えてきた。",
+    "start_time": 2759.32,
+    "end_time": 2761.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そうだよ、後ろにもあるし、うん。",
+    "start_time": 2761.76,
+    "end_time": 2763.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ポージングうん。",
+    "start_time": 2763.64,
+    "end_time": 2764.62,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "とかもそうだし。",
+    "start_time": 2764.62,
+    "end_time": 2765.68,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "あ、もうなんかこの空気のさ、埃がちょっと舞う感じ。",
+    "start_time": 2766.52,
+    "end_time": 2770.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ね、リアルだよね。",
+    "start_time": 2770.48,
+    "end_time": 2771.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "すごいね。",
+    "start_time": 2771.34,
+    "end_time": 2771.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "これも孤独さが",
+    "start_time": 2771.84,
+    "end_time": 2773.64,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "本当に現れてる。",
+    "start_time": 2773.76,
+    "end_time": 2775.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "光というか色味の加減うん、うん。",
+    "start_time": 2775.52,
+    "end_time": 2777.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "うん。",
+    "start_time": 2778.77,
+    "end_time": 2779.27,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "そういうのもやっぱこう全て味に繋がってて",
+    "start_time": 2779.24,
+    "end_time": 2782.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そうね、味だね。",
+    "start_time": 2782.44,
+    "end_time": 2783.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "すごい素敵な1枚。",
+    "start_time": 2783.8,
+    "end_time": 2785.48,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "すごい綺麗。",
+    "start_time": 2785.84,
+    "end_time": 2786.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "今はもう違いますよね。",
+    "start_time": 1384.08,
+    "end_time": 1385.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "そう、そう。",
+    "start_time": 1385.88,
+    "end_time": 1386.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ちょっとだけだったから思い出しながら",
+    "start_time": 1386.4,
+    "end_time": 1389.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そんなこと言っちゃって。",
+    "start_time": 1387.92,
+    "end_time": 1388.52,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "私も思い出す作業またゼロからスタートって言いました。",
+    "start_time": 1389.76,
+    "end_time": 1393.28,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "楽しかった。",
+    "start_time": 1393.44,
+    "end_time": 1394.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "また出会いのところからみたいな。",
+    "start_time": 1394.12,
+    "end_time": 1396.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ちょっとタイムループした気持ちにそうそうそうなんか新鮮だった。",
+    "start_time": 1396.76,
+    "end_time": 1401.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "夢をくれたので",
+    "start_time": 1398.64,
+    "end_time": 1399.24,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "アフタートークアフタートークじゃない。",
+    "start_time": 1401.84,
+    "end_time": 1404.22,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "えーと",
+    "start_time": 1404.22,
+    "end_time": 1405.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ワールドリンクならではの",
+    "start_time": 1405.04,
+    "end_time": 1407.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "いや、本当に",
+    "start_time": 1407.56,
+    "end_time": 1408.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "霧谷さんに比べたら全然まだまだって感じですけど。",
+    "start_time": 1408.6,
+    "end_time": 1412.6,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 1412.49,
+    "end_time": 1412.99,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "でも昔遥ちゃんが今日がいい日じゃなくても明日はいい日になるかもしれないって言ってくれたから",
+    "start_time": 1413.6,
+    "end_time": 1420.92,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "とても励まされるっていうかね。",
+    "start_time": 1421.24,
+    "end_time": 1422.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "落ち込んじゃうことがあっても頑張れるんです。",
+    "start_time": 1423.04,
+    "end_time": 1425.0,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "ずっとみのりちゃんのそばに遥ちゃんいたんだなって感じるよね。",
+    "start_time": 1425.32,
+    "end_time": 1430.0,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 1429.89,
+    "end_time": 1430.39,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "私は",
+    "start_time": 1430.67,
+    "end_time": 1431.17,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 21,
+    "text": "昔も今もずっとずっと遥ちゃんにいっぱい希望をもらって",
+    "start_time": 1432.92,
+    "end_time": 1437.8,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "刺さるよね。",
+    "start_time": 1438.08,
+    "end_time": 1439.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "こんな風に言われたら",
+    "start_time": 1439.12,
+    "end_time": 1440.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "私もいつか誰かに希望を届けられるアイドルになれるように頑張ります。",
+    "start_time": 1440.72,
+    "end_time": 1446.36,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "このみのりの心を動かす力が本当にやっぱみのりってすごいなってすごく真っ直ぐに届く",
+    "start_time": 1446.88,
+    "end_time": 1453.56,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "私が前にしたことやたくさんのファンを悲しませたことは舞ちゃんね絶対に許されることじゃない。",
+    "start_time": 1454.12,
+    "end_time": 1461.2,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 27,
+    "text": "でも",
+    "start_time": 1462.93,
+    "end_time": 1463.43,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "届いてた希望もあったんだ。",
+    "start_time": 1466.24,
+    "end_time": 1468.72,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そうだよ。",
+    "start_time": 1469.12,
+    "end_time": 1470.18,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

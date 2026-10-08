@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "そうかもしれないけど。",
+    "start_time": 1953.04,
+    "end_time": 1954.32,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "ちょっとショックな感じが出てる。",
+    "start_time": 1954.44,
+    "end_time": 1955.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "悲しかった。",
+    "start_time": 1956.24,
+    "end_time": 1956.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "でもしーちゃんはかわいい動物が大好きだからピッタリなお仕事ね。",
+    "start_time": 1958.72,
+    "end_time": 1965.2,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "そうだね。",
+    "start_time": 1965.45,
+    "end_time": 1965.95,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 1965.95,
+    "end_time": 1966.45,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "なるほどね。",
+    "start_time": 1968.88,
+    "end_time": 1969.4,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "しーちゃんだけにしークインって言われてる。",
+    "start_time": 1969.4,
+    "end_time": 1971.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "うまいこと言うな。",
+    "start_time": 1971.8,
+    "end_time": 1972.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うまい。",
+    "start_time": 1972.65,
+    "end_time": 1973.15,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "しークイーンですよ。",
+    "start_time": 1974.23,
+    "end_time": 1974.73,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そういうとこだったの?",
+    "start_time": 1974.76,
+    "end_time": 1975.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "1匹の性格を見てすごい。",
+    "start_time": 1975.92,
+    "end_time": 1978.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "しーちゃんね。",
+    "start_time": 1979.08,
+    "end_time": 1979.84,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "しーちゃん。",
+    "start_time": 1979.87,
+    "end_time": 1980.37,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "しほちゃんいつもクールな感じだけど面倒見が良くて優しいですよね。",
+    "start_time": 1982.6,
+    "end_time": 1987.6,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん、うん、うん。",
+    "start_time": 1988.35,
+    "end_time": 1988.85,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "確かに。",
+    "start_time": 1989.55,
+    "end_time": 1990.05,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "ギャップがいいよね。",
+    "start_time": 1990.16,
+    "end_time": 1990.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "そうだよね。",
+    "start_time": 1990.87,
+    "end_time": 1991.37,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "この前もね駅で迷子になってたらわざわざ迎えに来てくれたのよ。",
+    "start_time": 1993.64,
+    "end_time": 1998.72,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "だんだんね。",
+    "start_time": 1999.2,
+    "end_time": 2000.14,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "うん。",
+    "start_time": 1999.93,
+    "end_time": 2000.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "しずくの良さがこの辺からちょっとねうん。",
+    "start_time": 2000.14,
+    "end_time": 2003.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "出てきちゃう。",
+    "start_time": 2002.93,
+    "end_time": 2003.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "女子で",
+    "start_time": 2004.48,
+    "end_time": 2005.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "く。",
+    "start_time": 2004.83,
+    "end_time": 2005.33,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "やばいよ。",
+    "start_time": 2006.08,
+    "end_time": 2006.76,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "うん。",
+    "start_time": 2006.73,
+    "end_time": 2007.23,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "はあ。",
+    "start_time": 2008.17,
+    "end_time": 2008.67,
+    "speaker": "3",
+    "role": "host"
+  }
+]

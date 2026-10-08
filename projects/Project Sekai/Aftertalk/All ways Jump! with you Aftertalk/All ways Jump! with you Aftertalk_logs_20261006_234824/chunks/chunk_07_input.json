@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "その時にほんちゃんのなんか柔らかい声が聞こえるとあ、すごい。",
+    "start_time": 1069.945,
+    "end_time": 1073.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "あ、落ち着くみたいな。",
+    "start_time": 1073.4,
+    "end_time": 1075.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "癒される。",
+    "start_time": 1075.55,
+    "end_time": 1076.05,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そういう感じに癒されてる。",
+    "start_time": 1076.36,
+    "end_time": 1077.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "なんか美味しそうなもん廊下にあったよとかなんか集中してる時に話しかけたら邪魔しちゃったんじゃないかなと思ったりしてた。",
+    "start_time": 1077.64,
+    "end_time": 1084.24,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "全然、全然。",
+    "start_time": 1084.36,
+    "end_time": 1085.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "めっちゃ癒されてる。",
+    "start_time": 1085.36,
+    "end_time": 1086.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "良かった。",
+    "start_time": 1086.54,
+    "end_time": 1087.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "ケータリングの報告",
+    "start_time": 1087.04,
+    "end_time": 1088.08,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ムードメーカーです。",
+    "start_time": 1088.16,
+    "end_time": 1089.04,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "ほんちゃんは。",
+    "start_time": 1089.85,
+    "end_time": 1090.35,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ありがとう。",
+    "start_time": 1090.29,
+    "end_time": 1090.79,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "え、でもほんちゃんもあるの?",
+    "start_time": 1090.92,
+    "end_time": 1092.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "なんかあるんだ。",
+    "start_time": 1092.32,
+    "end_time": 1094.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "めっちゃある。",
+    "start_time": 1093.24,
+    "end_time": 1093.84,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "私も唯ちゃんがさっき言ったみたいにこうお家に帰って1人になっていや、",
+    "start_time": 1094.88,
+    "end_time": 1100.54,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あ、やっぱいる。",
+    "start_time": 1099.32,
+    "end_time": 1100.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そうだよね。",
+    "start_time": 1100.54,
+    "end_time": 1101.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "そりゃそうだよね。",
+    "start_time": 1101.44,
+    "end_time": 1102.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "こう人に見られてない時",
+    "start_time": 1103.04,
+    "end_time": 1105.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん、うん。",
+    "start_time": 1104.93,
+    "end_time": 1105.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "あ、あん時なんでああいう風にできなかったんだろうとかもっとこういう風にできたのって後になってこうどんどん湧いてきたり結構悔しくなっちゃって",
+    "start_time": 1106.88,
+    "end_time": 1116.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "確かに。",
+    "start_time": 1114.83,
+    "end_time": 1115.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "後悔力もあるしね。",
+    "start_time": 1116.56,
+    "end_time": 1117.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "自分ではどうしようもないけど何かあったりとかだからなんかそういうところで悔しいとかちょっとンってなったりするんだけどうん、",
+    "start_time": 1117.44,
+    "end_time": 1128.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "うん。",
+    "start_time": 1120.19,
+    "end_time": 1120.69,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うん。",
+    "start_time": 1126.47,
+    "end_time": 1126.97,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そうだな。",
+    "start_time": 1128.2,
+    "end_time": 1128.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "そういう時私はあの猫ちゃんとこう癒してて癒しだよね。",
+    "start_time": 1128.92,
+    "end_time": 1135.32,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "あー。",
+    "start_time": 1133.29,
+    "end_time": 1133.79,
+    "speaker": "2",
+    "role": "host"
+  }
+]

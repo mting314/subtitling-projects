@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん、うん。",
+    "start_time": 2786.59,
+    "end_time": 2787.09,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "よし、じゃあ特訓前も見ていこう。",
+    "start_time": 2788.0,
+    "end_time": 2789.92,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "このやっぱコメントをさ、いただいてから見るとまた変わっていいね。",
+    "start_time": 2789.92,
+    "end_time": 2794.16,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "すごいちゃんとこう細かいところまで見える。",
+    "start_time": 2794.28,
+    "end_time": 2797.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ね、これさ、リアルすぎない?",
+    "start_time": 2798.72,
+    "end_time": 2800.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "この",
+    "start_time": 2800.96,
+    "end_time": 2801.46,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "本当に。",
+    "start_time": 2801.43,
+    "end_time": 2801.93,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "チラシを配って、あ、大丈夫ですって。",
+    "start_time": 2802.64,
+    "end_time": 2804.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "可愛いけど、もらってよ。",
+    "start_time": 2805.8,
+    "end_time": 2807.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ね。",
+    "start_time": 2807.97,
+    "end_time": 2808.47,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "これめっちゃわかる。",
+    "start_time": 2809.16,
+    "end_time": 2810.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ね。",
+    "start_time": 2810.76,
+    "end_time": 2811.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "でも目はキラキラです。",
+    "start_time": 2811.84,
+    "end_time": 2813.4,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 13,
+    "text": "そうだよ、ここでも",
+    "start_time": 2813.88,
+    "end_time": 2814.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "みのりちゃんはくじけないで。",
+    "start_time": 2814.68,
+    "end_time": 2816.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "まっすぐ目を見てお渡ししてます。",
+    "start_time": 2816.52,
+    "end_time": 2818.28,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "ポップスターです。",
+    "start_time": 2818.39,
+    "end_time": 2818.89,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 17,
+    "text": "ね、みんなもらってあげてね、みのりが配ってたら。",
+    "start_time": 2819.0,
+    "end_time": 2821.36,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "いっぱいもらっちゃう。",
+    "start_time": 2823.96,
+    "end_time": 2824.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ね、可愛い。",
+    "start_time": 2824.84,
+    "end_time": 2825.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "可愛い。",
+    "start_time": 2825.78,
+    "end_time": 2826.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ガムシャラなみのりちゃんでした。",
+    "start_time": 2826.28,
+    "end_time": 2828.04,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "では続いてははるか。",
+    "start_time": 2828.72,
+    "end_time": 2830.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うん。",
+    "start_time": 2830.33,
+    "end_time": 2830.83,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "はるかちゃん。",
+    "start_time": 2830.85,
+    "end_time": 2831.35,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "特訓5て",
+    "start_time": 2832.72,
+    "end_time": 2833.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "うん。",
+    "start_time": 2833.27,
+    "end_time": 2833.77,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "はい、これね。",
+    "start_time": 2835.28,
+    "end_time": 2835.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "これね、なんか構図がめちゃくちゃ良くない?",
+    "start_time": 2836.12,
+    "end_time": 2838.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "これ。",
+    "start_time": 2838.96,
+    "end_time": 2839.46,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

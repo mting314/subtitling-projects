@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "全然いいのに。",
+    "start_time": 2010.48,
+    "end_time": 2011.4,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "いけない。",
+    "start_time": 2011.87,
+    "end_time": 2012.37,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ね、傍から見てたら",
+    "start_time": 2012.68,
+    "end_time": 2013.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "全然いいのにと思っちゃうけど。",
+    "start_time": 2013.84,
+    "end_time": 2015.84,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "再きが緩んちゃったわ。",
+    "start_time": 2016.08,
+    "end_time": 2017.32,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "やっぱダメなんだよね。",
+    "start_time": 2017.56,
+    "end_time": 2018.76,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "まあね。",
+    "start_time": 2018.84,
+    "end_time": 2019.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ね。",
+    "start_time": 2019.35,
+    "end_time": 2019.85,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "あっ。",
+    "start_time": 2019.77,
+    "end_time": 2020.27,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "迷子ではなくて",
+    "start_time": 2020.96,
+    "end_time": 2022.72,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "迷子じゃなくて。",
+    "start_time": 2023.2,
+    "end_time": 2024.16,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "まずい。",
+    "start_time": 2025.53,
+    "end_time": 2026.255,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "地図を見ても自分がどこにいるのか分からなくなってしまったの。",
+    "start_time": 2026.255,
+    "end_time": 2031.0,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん。",
+    "start_time": 2028.79,
+    "end_time": 2029.29,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "この言い方めちゃいい。",
+    "start_time": 2032.72,
+    "end_time": 2033.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そんなこと言わずに",
+    "start_time": 2034.0,
+    "end_time": 2034.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "なんて言うのよ。",
+    "start_time": 2034.88,
+    "end_time": 2035.76,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "すごい真剣な感じが。",
+    "start_time": 2036.28,
+    "end_time": 2038.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "ここで台本のト書きにしのもり先輩って書いてあった。",
+    "start_time": 2040.4,
+    "end_time": 2045.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "あ。",
+    "start_time": 2045.05,
+    "end_time": 2045.55,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "だからか。",
+    "start_time": 2045.96,
+    "end_time": 2046.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "なんかすごいこう意味を",
+    "start_time": 2046.56,
+    "end_time": 2048.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そう、そう、そう。",
+    "start_time": 2048.39,
+    "end_time": 2048.89,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "どうしましょう。",
+    "start_time": 2049.2,
+    "end_time": 2049.8,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "すごく素敵な",
+    "start_time": 2050.72,
+    "end_time": 2051.76,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "どうしましょう。",
+    "start_time": 2052.01,
+    "end_time": 2052.51,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ちょっと天然なところもあるですね。",
+    "start_time": 2054.84,
+    "end_time": 2057.08,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "かわいいな。",
+    "start_time": 2057.68,
+    "end_time": 2058.24,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "光りすぎる、みのりちゃん。",
+    "start_time": 2058.6,
+    "end_time": 2060.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "え?",
+    "start_time": 2060.61,
+    "end_time": 2061.11,
+    "speaker": "3",
+    "role": "host"
+  }
+]

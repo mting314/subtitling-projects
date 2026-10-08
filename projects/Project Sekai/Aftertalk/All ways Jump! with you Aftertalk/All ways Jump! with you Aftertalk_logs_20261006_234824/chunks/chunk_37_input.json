@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "いや、これ本当に本当にいいね。",
+    "start_time": 2954.12,
+    "end_time": 2956.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "愛莉ちゃん。",
+    "start_time": 2957.64,
+    "end_time": 2958.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "なんかなんだろう、この愛莉だからこそのこの世界観っていうのはある気がするな。",
+    "start_time": 2960.16,
+    "end_time": 2966.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "愛莉ちゃんってやっぱ元気だからさ。",
+    "start_time": 2966.72,
+    "end_time": 2968.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うん、うん。",
+    "start_time": 2968.44,
+    "end_time": 2969.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "頑張り屋さんだし。",
+    "start_time": 2969.32,
+    "end_time": 2970.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん。",
+    "start_time": 2970.19,
+    "end_time": 2970.69,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "でもここまでがっつりこう何、画面全体暗い感じっていうのもすごい",
+    "start_time": 2970.76,
+    "end_time": 2975.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "ね、",
+    "start_time": 2976.61,
+    "end_time": 2977.11,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "珍しいし。",
+    "start_time": 2977.64,
+    "end_time": 2978.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "うん。",
+    "start_time": 2978.83,
+    "end_time": 2979.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "あとこの色味がめっちゃ好きなんだよね。",
+    "start_time": 2979.44,
+    "end_time": 2981.82,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "このなんかちょっと沈んだ色の中にピンクがこうちょっと差し色というか衣装とか髪色とか。",
+    "start_time": 2981.82,
+    "end_time": 2989.16,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "トーンがね。",
+    "start_time": 2982.31,
+    "end_time": 2982.81,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そう、そう、そのなんかさ、配色が絶妙なのよね。",
+    "start_time": 2989.44,
+    "end_time": 2992.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "本当ね。",
+    "start_time": 2993.01,
+    "end_time": 2993.51,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そう、そう。",
+    "start_time": 2993.61,
+    "end_time": 2994.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "テーブルとか暗いおしゃれだし、うん。",
+    "start_time": 2994.2,
+    "end_time": 2995.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "こう静かさとでもちょっと温かさもある。",
+    "start_time": 2996.72,
+    "end_time": 3000.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 2997.59,
+    "end_time": 2998.09,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ね。",
+    "start_time": 3000.15,
+    "end_time": 3000.65,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "素敵。",
+    "start_time": 3001.27,
+    "end_time": 3001.77,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "抱きしめたくなっちゃう。",
+    "start_time": 3003.0,
+    "end_time": 3004.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "可愛いね。",
+    "start_time": 3004.32,
+    "end_time": 3004.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "帽子がね、可愛いんだ、みんな。",
+    "start_time": 3004.88,
+    "end_time": 3006.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "確かに、みんなちょっとずつディテール違うよね。",
+    "start_time": 3006.84,
+    "end_time": 3009.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "本当に可愛い衣装ね。",
+    "start_time": 3009.28,
+    "end_time": 3010.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "この愛莉ちゃんも素敵です。",
+    "start_time": 3012.48,
+    "end_time": 3013.64,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "うん。",
+    "start_time": 3013.55,
+    "end_time": 3014.05,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そしてあ、ね、可愛い。",
+    "start_time": 3015.08,
+    "end_time": 3018.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "かわいい。",
+    "start_time": 1789.92,
+    "end_time": 1790.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "みのりちゃん覚えてるもんね、この覚えてるよ。",
+    "start_time": 1790.92,
+    "end_time": 1792.84,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "このね、そう、数えるのたまにやる。",
+    "start_time": 1793.4,
+    "end_time": 1795.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "あ、私も結構たまに頻繁に出てくるから。",
+    "start_time": 1796.04,
+    "end_time": 1798.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "なんか気になる。",
+    "start_time": 1797.21,
+    "end_time": 1797.71,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うん、うん。",
+    "start_time": 1798.81,
+    "end_time": 1799.31,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "12ちゃんと数えてたんだ。",
+    "start_time": 1799.24,
+    "end_time": 1801.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "一応ね。",
+    "start_time": 1799.99,
+    "end_time": 1800.49,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "一応数えてる。",
+    "start_time": 1801.36,
+    "end_time": 1802.18,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "言えてるかはちょっと分からないけど一応意識はしてる。",
+    "start_time": 1802.18,
+    "end_time": 1806.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "みのりちゃんの動揺が伝わってくる。",
+    "start_time": 1806.68,
+    "end_time": 1808.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "終わりなさい。",
+    "start_time": 1809.19,
+    "end_time": 1809.69,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "書いてる数字もちゃんと台本に。",
+    "start_time": 1810.72,
+    "end_time": 1812.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "え、マジで?",
+    "start_time": 1812.45,
+    "end_time": 1812.95,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "5とか。",
+    "start_time": 1813.09,
+    "end_time": 1813.59,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "実は。",
+    "start_time": 1815.63,
+    "end_time": 1816.13,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "そうだったんだ。",
+    "start_time": 1817.08,
+    "end_time": 1817.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そう。",
+    "start_time": 1817.69,
+    "end_time": 1818.235,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "書いてる。",
+    "start_time": 1818.235,
+    "end_time": 1818.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "結構あるんだよね。",
+    "start_time": 1819.8,
+    "end_time": 1820.6,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "そうだよね。",
+    "start_time": 1821.52,
+    "end_time": 1822.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "それで一生懸命踊ってるみのりを見て私も頑張ろうって思ったの。",
+    "start_time": 1822.16,
+    "end_time": 1827.36,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "あ、ね、みのりちゃんがライブした時の感動かの今。",
+    "start_time": 1829.12,
+    "end_time": 1832.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そうだよね。",
+    "start_time": 1832.39,
+    "end_time": 1832.89,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "そうだよ。",
+    "start_time": 1832.99,
+    "end_time": 1833.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "すごいよね。",
+    "start_time": 1833.46,
+    "end_time": 1833.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "こんなことさ、なかなかないじゃない。",
+    "start_time": 1833.96,
+    "end_time": 1836.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "めちゃ贅沢。",
+    "start_time": 1837.32,
+    "end_time": 1838.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "本当にすごい。",
+    "start_time": 1839.16,
+    "end_time": 1840.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "時々だよね。",
+    "start_time": 1840.44,
+    "end_time": 1841.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

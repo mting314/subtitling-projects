@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "みのりちゃんの元気づけ方。",
+    "start_time": 1322.32,
+    "end_time": 1325.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うん。",
+    "start_time": 1325.43,
+    "end_time": 1325.93,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "さすがだなって。",
+    "start_time": 1326.92,
+    "end_time": 1327.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん、うん。",
+    "start_time": 1327.73,
+    "end_time": 1328.23,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "応援してるね。",
+    "start_time": 1328.76,
+    "end_time": 1329.4,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "遥ちゃん見てんだよね、ちゃんと。",
+    "start_time": 1329.84,
+    "end_time": 1331.48,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そうなんですよ。",
+    "start_time": 1331.6,
+    "end_time": 1332.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "それはさすがだなって。",
+    "start_time": 1332.52,
+    "end_time": 1333.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "良かった。",
+    "start_time": 1337.56,
+    "end_time": 1338.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "ね、良かった。",
+    "start_time": 1338.24,
+    "end_time": 1339.56,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "微笑ま",
+    "start_time": 1341.4,
+    "end_time": 1341.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "なんかさ、すごいお姉さんに見えるよね。",
+    "start_time": 1342.04,
+    "end_time": 1343.92,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "こうやって。",
+    "start_time": 1343.92,
+    "end_time": 1344.64,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "誰?",
+    "start_time": 1344.5,
+    "end_time": 1345.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "小学校というかあの子供達とたむれているところを見ると",
+    "start_time": 1345.0,
+    "end_time": 1349.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "そうだね。",
+    "start_time": 1350.8,
+    "end_time": 1351.48,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "すごいいいお姉さん達って思いながら",
+    "start_time": 1351.48,
+    "end_time": 1353.72,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "すごい癒したかもしれない。",
+    "start_time": 1354.6,
+    "end_time": 1356.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "先輩に囲まれてる欲しかったですし。",
+    "start_time": 1356.16,
+    "end_time": 1358.12,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "そう見えるね。",
+    "start_time": 1359.72,
+    "end_time": 1360.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "すごい遥ちゃん霧谷さんですよ。",
+    "start_time": 1360.68,
+    "end_time": 1363.6,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "そっか。",
+    "start_time": 1363.5,
+    "end_time": 1364.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "まだここではね",
+    "start_time": 1364.0,
+    "end_time": 1364.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "そうだね。",
+    "start_time": 1365.03,
+    "end_time": 1365.545,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ドッジボールに混ぜてあげるだけじゃなくてもっと楽しめるように色々教えてあげて。",
+    "start_time": 1365.545,
+    "end_time": 1371.2,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "霧谷さんって",
+    "start_time": 1367.56,
+    "end_time": 1368.44,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "なんかこの距離感で押し柴するのがすごいなんか今なんか癒し感じ。",
+    "start_time": 1372.28,
+    "end_time": 1378.77,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "うん。",
+    "start_time": 1378.51,
+    "end_time": 1379.01,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "した。",
+    "start_time": 1378.77,
+    "end_time": 1379.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そう難しいのはあるんだけどなんかね難しいって思いながら",
+    "start_time": 1379.48,
+    "end_time": 1383.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

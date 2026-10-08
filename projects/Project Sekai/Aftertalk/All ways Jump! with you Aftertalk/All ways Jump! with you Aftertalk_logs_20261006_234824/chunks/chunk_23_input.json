@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "かわいいよ。",
+    "start_time": 2061.8,
+    "end_time": 2062.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "かわいいよね。",
+    "start_time": 2062.83,
+    "end_time": 2063.33,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ギャップがいいよね。",
+    "start_time": 2063.71,
+    "end_time": 2064.37,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 2064.11,
+    "end_time": 2064.61,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ギャップがいい。",
+    "start_time": 2064.37,
+    "end_time": 2065.03,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ごめんなさい。",
+    "start_time": 2064.95,
+    "end_time": 2065.45,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "ギャップっていい。",
+    "start_time": 2065.84,
+    "end_time": 2066.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "私も好き、ギャップ。",
+    "start_time": 2067.52,
+    "end_time": 2068.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "そうなの。",
+    "start_time": 2069.32,
+    "end_time": 2070.0,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "これで結構抜けてるのよ。",
+    "start_time": 2070.56,
+    "end_time": 2072.12,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "だから時々手がかかるんだけどなんだかんだ癒されてたりするのよね。",
+    "start_time": 2073.84,
+    "end_time": 2080.0,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "うん、うん。",
+    "start_time": 2076.33,
+    "end_time": 2076.83,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "あいりちゃん。",
+    "start_time": 2080.08,
+    "end_time": 2080.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あいりちゃん。",
+    "start_time": 2081.09,
+    "end_time": 2081.59,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そうやって言ってくれるのよ。",
+    "start_time": 2081.8,
+    "end_time": 2083.16,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "ちょっと離れてますね。",
+    "start_time": 2083.4,
+    "end_time": 2084.16,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "テレビや雑誌で見るしずくちゃんは綺麗でかっこよくて雲の上の人ってイメージだったんですけど。",
+    "start_time": 2085.24,
+    "end_time": 2091.72,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "うん、うん。",
+    "start_time": 2091.69,
+    "end_time": 2092.19,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "しほちゃんの話をしてるひなもり先輩はすごく優しそうな顔をしててなんだかあったかい気持ちになるなって。",
+    "start_time": 2092.68,
+    "end_time": 2100.76,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "これはね、みのりの言葉でね。",
+    "start_time": 2101.08,
+    "end_time": 2103.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "届く。",
+    "start_time": 2103.05,
+    "end_time": 2103.55,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "本当にしみわたる。",
+    "start_time": 2103.84,
+    "end_time": 2105.32,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "このこったろう。",
+    "start_time": 2105.37,
+    "end_time": 2105.87,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "本当にこのこったろう。",
+    "start_time": 2106.32,
+    "end_time": 2107.6,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "愛しすぎるよ。",
+    "start_time": 2109.36,
+    "end_time": 2110.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "みのりちゃん。",
+    "start_time": 2110.96,
+    "end_time": 2111.6,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "はあ。",
+    "start_time": 2112.53,
+    "end_time": 2113.03,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "はあ。",
+    "start_time": 2113.03,
+    "end_time": 2113.53,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "そんな風に言ってくれるなんて。",
+    "start_time": 2114.36,
+    "end_time": 2118.0,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "ね。",
+    "start_time": 2118.03,
+    "end_time": 2118.53,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

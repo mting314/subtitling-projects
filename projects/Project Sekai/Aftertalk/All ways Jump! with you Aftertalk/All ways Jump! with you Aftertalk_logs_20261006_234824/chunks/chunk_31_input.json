@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "そうだね。",
+    "start_time": 2578.53,
+    "end_time": 2579.03,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うん、うん。",
+    "start_time": 2579.79,
+    "end_time": 2580.29,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "この辺はやっぱ意識してまた見るとイラストの感じ方もね変化するかもしれません。",
+    "start_time": 2580.52,
+    "end_time": 2585.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "はあ。",
+    "start_time": 2585.86,
+    "end_time": 2586.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "はい。",
+    "start_time": 2586.36,
+    "end_time": 2587.095,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "はい。",
+    "start_time": 2587.095,
+    "end_time": 2587.83,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "次、あいりちゃん。",
+    "start_time": 2588.44,
+    "end_time": 2589.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "あいりちゃん。",
+    "start_time": 2589.19,
+    "end_time": 2589.69,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "あいりちゃんは特訓前でお菓子を食べながら楽しそうに配信しているイラストと対比するように誰もいないお茶会に満たされていないようなあいりの心情を表すようなイラストにしています。",
+    "start_time": 2589.92,
+    "end_time": 2602.52,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 9,
+    "text": "うん。",
+    "start_time": 2602.43,
+    "end_time": 2602.93,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "明るい部屋での特訓前と影の中にいる特訓後で寂しさが際立つ1枚にしています。",
+    "start_time": 2603.16,
+    "end_time": 2610.0,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 11,
+    "text": "なるほど。",
+    "start_time": 2610.48,
+    "end_time": 2611.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "もう目の光ないもんね。",
+    "start_time": 2611.24,
+    "end_time": 2612.68,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "今ここに特訓後。",
+    "start_time": 2612.68,
+    "end_time": 2615.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "そうなんだよ。",
+    "start_time": 2613.77,
+    "end_time": 2614.27,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "なんか新鮮だよね。",
+    "start_time": 2615.36,
+    "end_time": 2617.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "珍しいよね、このあいりちゃんね。",
+    "start_time": 2617.08,
+    "end_time": 2618.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "珍しくて、でもいい。",
+    "start_time": 2618.68,
+    "end_time": 2620.225,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うん。",
+    "start_time": 2620.225,
+    "end_time": 2620.83,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "このあいりちゃんも",
+    "start_time": 2620.92,
+    "end_time": 2622.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "救えるよね、こういう表情というか。",
+    "start_time": 2622.08,
+    "end_time": 2624.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "かと来る。",
+    "start_time": 2625.76,
+    "end_time": 2626.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "うん、うん。",
+    "start_time": 2626.45,
+    "end_time": 2626.95,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "ね。",
+    "start_time": 2628.11,
+    "end_time": 2628.745,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ありがとうございます。",
+    "start_time": 2628.745,
+    "end_time": 2629.64,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "そしてしずく。",
+    "start_time": 2630.6,
+    "end_time": 2631.58,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "しずくは特訓前でのみんなが求める完璧なのひなもりしずくの笑顔に対して特訓後は本当に違うことを表すように誰もいないお茶会でやるせない表情でテーブルに寝転がるイラストにしています。",
+    "start_time": 2631.58,
+    "end_time": 2646.52,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 27,
+    "text": "うん。",
+    "start_time": 2646.53,
+    "end_time": 2647.03,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "私さ、あの、特訓前の方もあの、ストーリー中にもね、出てたんだけどさあのなんだろう、",
+    "start_time": 2648.16,
+    "end_time": 2656.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "完璧なひなもりしずくとして微笑んでるんだけどなんかちょっとこう寂しさというか本当の自分としてカメラの前に入れない苦しさみたいなのが表現できるこの画力って。",
+    "start_time": 2656.08,
+    "end_time": 2673.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

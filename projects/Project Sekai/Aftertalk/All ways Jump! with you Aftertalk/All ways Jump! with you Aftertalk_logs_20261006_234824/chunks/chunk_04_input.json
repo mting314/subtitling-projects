@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "なんかその人を見ててなんかこのみのりちゃんの輝きがこう届いたっていうのが見てる私も嬉しくなっちゃって",
+    "start_time": 850.68,
+    "end_time": 860.32,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "うん。",
+    "start_time": 855.15,
+    "end_time": 855.65,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "うん。",
+    "start_time": 858.09,
+    "end_time": 858.59,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そうだね。",
+    "start_time": 860.46,
+    "end_time": 860.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "なんかちょっと報われた感じというか確かにみのりの良さが今回もすごくこうなんか際立っていたというかストーリーだしやっぱなんかももジャンプらしさで言ったらやっぱすごいももジャンプのストーリーだなって感じは",
+    "start_time": 860.96,
+    "end_time": 875.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 863.75,
+    "end_time": 864.25,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん。",
+    "start_time": 869.81,
+    "end_time": 870.31,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そうだね。",
+    "start_time": 875.53,
+    "end_time": 876.135,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "みのりちゃん特にそうだったかも。",
+    "start_time": 876.135,
+    "end_time": 877.56,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うん、うん、うん。",
+    "start_time": 877.64,
+    "end_time": 878.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "希望を胸にというか応援したくなるというか",
+    "start_time": 878.48,
+    "end_time": 881.48,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ね。",
+    "start_time": 879.79,
+    "end_time": 880.29,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "魅力もねたくさん感じていただけたかなと",
+    "start_time": 881.88,
+    "end_time": 884.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "ね。",
+    "start_time": 884.75,
+    "end_time": 885.25,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "みそ煮込みうどんさんありがとうございます。",
+    "start_time": 885.88,
+    "end_time": 887.68,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 15,
+    "text": "ありがとうございます。",
+    "start_time": 887.8,
+    "end_time": 888.58,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "ではもう1通おたより紹介したいと思います。",
+    "start_time": 888.58,
+    "end_time": 890.76,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 17,
+    "text": "お願いします。",
+    "start_time": 890.93,
+    "end_time": 891.43,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "小倉さん、泉さんこんばんは。",
+    "start_time": 891.52,
+    "end_time": 893.2,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "こんばんは。",
+    "start_time": 893.25,
+    "end_time": 893.76,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "こんばんは。",
+    "start_time": 893.76,
+    "end_time": 894.345,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "ありがとう。",
+    "start_time": 894.345,
+    "end_time": 894.93,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "みのりちゃんと遥ちゃんの出会いがとっても可愛かったです。",
+    "start_time": 894.92,
+    "end_time": 898.995,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 23,
+    "text": "それな。",
+    "start_time": 898.995,
+    "end_time": 899.585,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "遥ちゃんがボランティアのリーダーだと知ってワールドリンクでも驚きの出会いをしている感じが良かったです。",
+    "start_time": 899.585,
+    "end_time": 906.28,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "お互いに希望を与え合う2人の関係が可愛くて尊くてこれからも応援しちゃいます。",
+    "start_time": 906.28,
+    "end_time": 911.96,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "うん。",
+    "start_time": 911.85,
+    "end_time": 912.35,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "え、お2人はお仕事や日常生活の中で不安になったり落ち込んだりした時どのように乗り越えていますか?",
+    "start_time": 912.72,
+    "end_time": 920.78,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "ね、明日も頑張ろうと思える秘訣があったら是非教えてくださいといただいております。",
+    "start_time": 920.78,
+    "end_time": 926.24,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "不安になったり落ち込んだりってある?",
+    "start_time": 927.44,
+    "end_time": 930.84,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  }
+]

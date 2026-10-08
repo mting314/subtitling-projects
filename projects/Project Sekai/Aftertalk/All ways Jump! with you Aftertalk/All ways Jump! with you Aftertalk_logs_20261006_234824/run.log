@@ -1,0 +1,1188 @@
+2026-10-06 23:48:24,408:INFO:autosub.cli: Saving log to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_logs_20261006_234824\run.log
+2026-10-06 23:48:24,410:INFO:autosub.cli: [Step 1/4] Transcribing...
+2026-10-06 23:48:24,410:INFO:autosub.pipeline.transcribe.main: Starting chirp_3 transcription for 1 segment(s) from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk.mkv
+2026-10-06 23:48:24,410:INFO:autosub.pipeline.transcribe.main: Extracting audio for segment 1 (start=00:09:56, end=00:55:18)...
+2026-10-06 23:48:31,258:INFO:autosub.pipeline.transcribe.main: Segment 1 audio duration: 2722.01 seconds
+2026-10-06 23:48:31,258:WARNING:autosub.pipeline.transcribe.main: Diarization (--speakers) with Chirp 3 on audio longer than 18 min: the audio is split into independent chunks that are diarized separately, so speaker labels are NOT consistent across chunk boundaries (label '0' in one chunk is unrelated to '0' in the next). Reconcile labels afterward with `assign-speakers`, or transcribe shorter --start/--end ranges.
+2026-10-06 23:48:31,399:INFO:autosub.pipeline.transcribe.audio:   Chunk 0: 0s - 1080s (1080s)
+2026-10-06 23:48:31,515:INFO:autosub.pipeline.transcribe.audio:   Chunk 1: 1080s - 2160s (1080s)
+2026-10-06 23:48:31,599:INFO:autosub.pipeline.transcribe.audio:   Chunk 2: 2160s - 2722s (562s)
+2026-10-06 23:48:31,599:INFO:autosub.pipeline.transcribe.main: Split audio into 3 chunks (18 min each)
+2026-10-06 23:48:31,634:INFO:autosub.pipeline.transcribe.main:   Chunk 1/3: uploading to autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus...
+2026-10-06 23:48:31,634:INFO:autosub.pipeline.transcribe.main:   Chunk 2/3: uploading to autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus...
+2026-10-06 23:48:31,634:INFO:autosub.pipeline.transcribe.main:   Chunk 3/3: uploading to autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking '' for explicit credentials as part of auth process...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-10-06 23:48:31,635:DEBUG:google.auth._default: Checking Cloud SDK credentials as part of auth process...
+2026-10-06 23:48:32,734:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:48:32,743:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:32,830:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:48:32,831:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:32,876:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:48:32,877:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:32,961:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:32,963:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:48:33,063:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:33,064:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:48:33,106:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:33,107:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:48:33,244:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable HTTP/1.1" 200 0
+2026-10-06 23:48:33,260:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable HTTP/1.1" 200 0
+2026-10-06 23:48:33,479:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "POST /upload/storage/v1/b/subtitling-projects/o?uploadType=multipart HTTP/1.1" 200 1040
+2026-10-06 23:48:34,100:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "PUT /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable&upload_id=AP6rU81VvaT31gUXSTjVAZUugKX6-pj9xfy-x6eo4G454gPV9QEMZOJADl-nmT2cUY-LTlh3fG6Bhx8JmHS2jc0AN6-8wTfnr-cmrl7kFlWWdOM HTTP/1.1" 200 1040
+2026-10-06 23:48:34,172:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "PUT /upload/storage/v1/b/subtitling-projects/o?uploadType=resumable&upload_id=AP6rU827Uss3-Vsb2Uv43aFJiCgbwqOB0OzQ-AM1OMlgu1i7WYNzpoyf6LeEsmdf3p6jYxSoKQsYnr7-eKRoykEwvVjd95ltszZX36NEAEQp8A HTTP/1.1" 200 1040
+2026-10-06 23:48:34,714:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 2 speaker(s)
+2026-10-06 23:48:34,714:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-10-06 23:48:34,714:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus...
+2026-10-06 23:48:34,754:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:34,966:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:35,231:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 2 speaker(s)
+2026-10-06 23:48:35,231:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-10-06 23:48:35,231:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus...
+2026-10-06 23:48:35,268:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:35,349:INFO:autosub.pipeline.transcribe.api: Speaker diarization enabled with 2 speaker(s)
+2026-10-06 23:48:35,350:WARNING:autosub.pipeline.transcribe.api: Vocabulary hints ignored — Chirp 3 SpeechAdaptation PhraseSet is incompatible with enable_word_time_offsets (required for subtitle timing).
+2026-10-06 23:48:35,350:INFO:autosub.pipeline.transcribe.api: Starting long-running transcription on gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus...
+2026-10-06 23:48:35,387:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:48:35,441:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6ad4b920-0000-2d01-8bc4-14223bcb9d72 for gs://subtitling-projects/autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus. Polling every 15 seconds.
+2026-10-06 23:48:35,505:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:35,610:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:48:35,880:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6d2a3cb6-0000-2414-a0f8-ac3eb147b53c for gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus. Polling every 15 seconds.
+2026-10-06 23:48:35,969:INFO:autosub.pipeline.transcribe.api: Submitted Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6be56736-0000-2dbf-b47a-34c7e91f243b for gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus. Polling every 15 seconds.
+2026-10-06 23:49:36,910:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6ad4b920-0000-2d01-8bc4-14223bcb9d72 for gs://subtitling-projects/autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus after 1m 01s.
+2026-10-06 23:49:37,267:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6d2a3cb6-0000-2414-a0f8-ac3eb147b53c for gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus after 1m 01s.
+2026-10-06 23:49:37,393:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6be56736-0000-2dbf-b47a-34c7e91f243b for gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus after 1m 01s.
+2026-10-06 23:50:23,243:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6ad4b920-0000-2d01-8bc4-14223bcb9d72 for gs://subtitling-projects/autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus completed in 1m 47s.
+2026-10-06 23:50:23,243:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-10-06 23:50:23,259:WARNING:autosub.pipeline.transcribe.main: Clamped 2 bogus word timestamp(s) from Chirp API response.
+2026-10-06 23:50:23,274:WARNING:autosub.pipeline.transcribe.main: Clamped 1 bogus segment word timestamp(s) from Chirp API response.
+2026-10-06 23:50:23,274:INFO:autosub.pipeline.transcribe.main:   Cleaning up autosub_staging/efec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus...
+2026-10-06 23:50:24,462:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:50:24,463:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:50:24,678:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:50:24,679:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:50:24,830:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2Fefec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus?fields=name&prettyPrint=false HTTP/1.1" 200 78
+2026-10-06 23:50:25,008:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2Fefec554f-c2ad-4fca-81da-f5f810e5b88a_chunk_002.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-10-06 23:50:38,639:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6d2a3cb6-0000-2414-a0f8-ac3eb147b53c for gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus after 2m 02s.
+2026-10-06 23:50:38,793:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6be56736-0000-2dbf-b47a-34c7e91f243b for gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus after 2m 02s.
+2026-10-06 23:51:39,941:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6d2a3cb6-0000-2414-a0f8-ac3eb147b53c for gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus after 3m 04s.
+2026-10-06 23:51:40,184:INFO:autosub.pipeline.transcribe.api: Still waiting on Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6be56736-0000-2dbf-b47a-34c7e91f243b for gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus after 3m 04s.
+2026-10-06 23:51:40,816:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6be56736-0000-2dbf-b47a-34c7e91f243b for gs://subtitling-projects/autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus completed in 3m 04s.
+2026-10-06 23:51:40,816:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-10-06 23:51:40,918:WARNING:autosub.pipeline.transcribe.main: Clamped 6 bogus word timestamp(s) from Chirp API response.
+2026-10-06 23:51:40,999:WARNING:autosub.pipeline.transcribe.main: Clamped 3 bogus segment word timestamp(s) from Chirp API response.
+2026-10-06 23:51:40,999:INFO:autosub.pipeline.transcribe.main:   Cleaning up autosub_staging/7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus...
+2026-10-06 23:51:42,150:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:51:42,151:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:51:42,394:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:51:42,399:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:51:42,971:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus?fields=name&prettyPrint=false HTTP/1.1" 200 78
+2026-10-06 23:51:43,149:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F7c79baec-4458-4833-9a7a-0a0eba44ff7b_chunk_000.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-10-06 23:51:55,684:INFO:autosub.pipeline.transcribe.api: Chirp 3 batch job projects/278890546984/locations/us/operations/v2-6d2a3cb6-0000-2414-a0f8-ac3eb147b53c for gs://subtitling-projects/autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus completed in 3m 19s.
+2026-10-06 23:51:55,685:INFO:autosub.pipeline.transcribe.api: Transcription complete!
+2026-10-06 23:51:55,720:WARNING:autosub.pipeline.transcribe.main: Clamped 2 bogus word timestamp(s) from Chirp API response.
+2026-10-06 23:51:55,754:WARNING:autosub.pipeline.transcribe.main: Clamped 1 bogus segment word timestamp(s) from Chirp API response.
+2026-10-06 23:51:55,754:INFO:autosub.pipeline.transcribe.main:   Cleaning up autosub_staging/7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus...
+2026-10-06 23:51:56,927:DEBUG:urllib3.util.retry: Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-10-06 23:51:56,927:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:51:57,148:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:51:57,149:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): storage.googleapis.com:443
+2026-10-06 23:51:57,711:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "GET /storage/v1/b/subtitling-projects/o/autosub_staging%2F7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus?fields=name&prettyPrint=false HTTP/1.1" 200 78
+2026-10-06 23:51:57,901:DEBUG:urllib3.connectionpool: https://storage.googleapis.com:443 "DELETE /storage/v1/b/subtitling-projects/o/autosub_staging%2F7d3f6030-b0fb-4208-8808-0e13cc777879_chunk_001.opus?prettyPrint=false HTTP/1.1" 204 0
+2026-10-06 23:51:57,909:INFO:autosub.pipeline.transcribe.main: Found 7931 transcribed words across 1 segment(s). Saving to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json...
+2026-10-06 23:51:57,927:WARNING:autosub.cli: Requested 2 speakers but transcription returned 6 labels: ['0', '1', '2', '3', '4', '5']. Use 'autosub assign-speakers' after reviewing in Aegisub.
+2026-10-06 23:51:57,927:INFO:autosub.cli: [Step 1.5/4] Processing Video Keyframes & Metadata...
+2026-10-06 23:51:58,000:INFO:autosub.cli: Extracting keyframes to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_keyframes.log...
+2026-10-06 23:51:58,016:WARNING:autosub.cli: Failed to process keyframes: SCXvid not found in system PATH. Please install SCXvid.exe
+2026-10-06 23:51:58,017:INFO:autosub.cli: [Step 2/4] Formatting...
+2026-10-06 23:51:58,017:INFO:autosub.pipeline.format.main: Chunking transcript into semantic subtitle lines...
+2026-10-06 23:51:58,017:INFO:autosub.pipeline.format.main: Loading transcript from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json...
+2026-10-06 23:51:58,080:INFO:autosub.pipeline.format.main: Generated 1226 initial subtitle lines from projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_transcript.json.
+2026-10-06 23:51:58,082:INFO:autosub.pipeline.format.main: Generated 1226 subtitle lines.
+2026-10-06 23:51:58,143:DEBUG:asyncio: Using proactor: IocpProactor
+2026-10-06 23:51:58,149:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:51:59,275:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:51:59,508:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:51:59,510:DEBUG:httpcore.connection: connect_tcp.started host='aiplatform.googleapis.com' port=443 local_address=None timeout=600.0 socket_options=None
+2026-10-06 23:51:59,595:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D5A07A5310>
+2026-10-06 23:51:59,595:DEBUG:httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D5A1144A50> server_hostname='aiplatform.googleapis.com' timeout=600.0
+2026-10-06 23:51:59,661:DEBUG:httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D5A07A4CE0>
+2026-10-06 23:51:59,661:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:51:59,661:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:51:59,661:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:51:59,662:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:51:59,662:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:02,837:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:03 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:02,837:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:52:02,839:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:02,839:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:02,840:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:02,840:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:02,851:DEBUG:autosub.core.llm.pydantic_ai: LLM keyword normalizer response diagnostics: VertexResponseDiagnostics(response_id='EOzFaujFGsnx67MP-Zym8A8', model_version='gemini-2.5-flash-lite', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=36057, candidates_token_count=520, total_token_count=36577, thoughts_token_count=None, thinking_text=None, text_preview='[]', http_body_preview=None)
+2026-10-06 23:52:02,855:INFO:autosub.pipeline.format.normalizer: LLM normalizer proposed no edits.
+2026-10-06 23:52:02,857:INFO:autosub.pipeline.format.main: Running combined radio discourse + corners classification...
+2026-10-06 23:52:02,870:DEBUG:autosub.extensions.corners.main:   Cue match at line 6: 'おたよりを紹介' → Fan Letter Corner
+2026-10-06 23:52:02,870:DEBUG:autosub.extensions.corners.main:   Cue match at line 73: 'おたよりを紹介' → Fan Letter Corner
+2026-10-06 23:52:02,871:DEBUG:autosub.extensions.corners.main:   Cue match at line 261: '語りたいシーンをピックアップ' → Story Watchalong
+2026-10-06 23:52:02,871:DEBUG:autosub.extensions.corners.main:   Cue match at line 842: 'カードイラスト' → Card Illustrations
+2026-10-06 23:52:02,872:INFO:autosub.extensions.corners.main:   No cue matches for: Song Watchalong
+2026-10-06 23:52:03,049:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:04,250:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:04,472:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:04,474:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:04,474:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:04,474:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:04,474:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:04,475:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:12,851:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:13 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:12,851:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-06 23:52:12,852:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:12,852:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:12,852:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:12,852:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:12,854:WARNING:autosub.extensions.combined_classifier: Window 1/1 failed (attempt 1/3), retrying in 2s: LLM combined classifier request to LLM failed: status_code: 429, model_name: gemini-2.5-flash-lite, body: {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} (project_id=future-name-201021; model=gemini-2.5-flash-lite; location=global)
+2026-10-06 23:52:14,897:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:16,039:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:16,268:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:16,270:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:16,270:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:16,270:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:16,270:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:16,270:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:21,154:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:21 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:21,154:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-06 23:52:21,155:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:21,155:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:21,155:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:21,155:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:21,157:WARNING:autosub.extensions.combined_classifier: Window 1/1 failed (attempt 2/3), retrying in 4s: LLM combined classifier request to LLM failed: status_code: 429, model_name: gemini-2.5-flash-lite, body: {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} (project_id=future-name-201021; model=gemini-2.5-flash-lite; location=global)
+2026-10-06 23:52:25,182:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:26,361:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:26,590:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:26,592:DEBUG:httpcore.connection: close.started
+2026-10-06 23:52:26,592:DEBUG:httpcore.connection: close.complete
+2026-10-06 23:52:26,592:DEBUG:httpcore.connection: connect_tcp.started host='aiplatform.googleapis.com' port=443 local_address=None timeout=600.0 socket_options=None
+2026-10-06 23:52:26,658:DEBUG:httpcore.connection: connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D59ED029F0>
+2026-10-06 23:52:26,658:DEBUG:httpcore.connection: start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D5A1144A50> server_hostname='aiplatform.googleapis.com' timeout=600.0
+2026-10-06 23:52:26,724:DEBUG:httpcore.connection: start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001D59ED03770>
+2026-10-06 23:52:26,724:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:26,725:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:26,725:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:26,725:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:26,725:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:31,066:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:31 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:31,066:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-06 23:52:31,066:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:31,067:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:31,067:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:31,067:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:31,069:ERROR:autosub.extensions.combined_classifier: Window 1/1 failed on all 3 attempts.
+2026-10-06 23:52:31,069:WARNING:autosub.pipeline.format.main: Combined classification failed; falling back to rules + cues.
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\models\google.py", line 516, in _generate_content
+    return await func(model=self._model_name, contents=contents, config=config)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\models.py", line 7487, in generate_content
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\models.py", line 6242, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\_api_client.py", line 1442, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\_api_client.py", line 1375, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\_api_client.py", line 1355, in _async_request_once
+    await errors.APIError.raise_for_async_response(client_response)
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\errors.py", line 216, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\google\genai\errors.py", line 238, in raise_error_async
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\core\llm\pydantic_ai.py", line 528, in _run_structured_output
+    result = agent.run_sync(user_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\agent\abstract.py", line 443, in run_sync
+    return _utils.get_event_loop().run_until_complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\agent\abstract.py", line 330, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\run.py", line 356, in next
+    return await self._run_node_with_hooks(node, self._advance_graph)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\run.py", line 282, in _run_node_with_hooks
+    return await self._wrap_and_advance(run_context, node, step_fn)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\run.py", line 262, in _wrap_and_advance
+    result = await cap.on_node_run_error(run_context, node=node, error=e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\capabilities\combined.py", line 215, in on_node_run_error
+    raise error
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\run.py", line 260, in _wrap_and_advance
+    result = await cap.wrap_node_run(run_context, node=node, handler=step_fn)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\capabilities\combined.py", line 201, in wrap_node_run
+    return await chain(node)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\run.py", line 238, in _advance_graph
+    task = await self._graph_run.next(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\graph.py", line 497, in next
+    return await anext(self)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\graph.py", line 471, in __anext__
+    self._next = await self._iterator.asend(self._next)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\graph.py", line 580, in iter_graph
+    raise task_result.error
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\graph.py", line 754, in _run_tracked_task
+    result = await self._run_task(t_)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\graph.py", line 795, in _run_task
+    output = await node.call(step_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_graph\beta\step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 521, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 736, in _make_request
+    model_response = await ctx.deps.root_capability.on_model_request_error(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\capabilities\combined.py", line 276, in on_model_request_error
+    raise error
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 726, in _make_request
+    model_response = await ctx.deps.root_capability.wrap_model_request(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\capabilities\combined.py", line 262, in wrap_model_request
+    return await chain(request_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\_agent_graph.py", line 712, in model_handler
+    response = await req_ctx.model.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\models\google.py", line 316, in request
+    response = await self._generate_content(messages, False, model_settings, model_request_parameters)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\.venv\Lib\site-packages\pydantic_ai\models\google.py", line 519, in _generate_content
+    raise ModelHTTPError(
+pydantic_ai.exceptions.ModelHTTPError: status_code: 429, model_name: gemini-2.5-flash-lite, body: {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\pipeline\format\main.py", line 136, in _apply_combined_extensions
+    roles, corners, speakers = classify_combined(
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\extensions\combined_classifier.py", line 249, in classify_combined
+    decisions = _classify_window_with_retry(classifier, window, index, len(windows))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\extensions\combined_classifier.py", line 318, in _classify_window_with_retry
+    return classifier.classify_window(window)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\extensions\combined_classifier.py", line 169, in classify_window
+    decisions, diagnostics = self._run_structured_output(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Michael\Documents\GitHub\autosub\autosub\core\llm\pydantic_ai.py", line 537, in _run_structured_output
+    raise self._map_run_error(exc, operation_name) from exc
+autosub.core.errors.VertexRequestError: LLM combined classifier request to LLM failed: status_code: 429, model_name: gemini-2.5-flash-lite, body: {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}} (project_id=future-name-201021; model=gemini-2.5-flash-lite; location=global)
+2026-10-06 23:52:31,100:INFO:autosub.pipeline.format.main: Applying timing rules (snapping, keyframes, min duration)...
+2026-10-06 23:52:31,108:INFO:autosub.pipeline.format.main: Writing formatted JSON to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_formatted.json...
+2026-10-06 23:52:31,120:INFO:autosub.pipeline.format.main: Writing .ass file to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_original.ass...
+2026-10-06 23:52:31,132:INFO:autosub.pipeline.format.main: Wrote LLM trace to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_original.normalizer.llm_trace.jsonl.
+2026-10-06 23:52:31,132:INFO:autosub.pipeline.format.main: Wrote LLM trace to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_original.combined.llm_trace.jsonl.
+2026-10-06 23:52:31,132:INFO:autosub.pipeline.format.main: Subtitle formatting complete!
+2026-10-06 23:52:31,135:INFO:autosub.cli: [Step 3/4] Translating...
+2026-10-06 23:52:31,135:INFO:autosub.pipeline.translate.main: Loading 'projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_formatted.json' for translation...
+2026-10-06 23:52:31,163:INFO:autosub.pipeline.translate.main: Removed previous LLM trace file.
+2026-10-06 23:52:31,164:INFO:autosub.pipeline.translate.main: Found 3 corner boundaries at dialogue indices [6, 259, 839]
+2026-10-06 23:52:31,164:WARNING:autosub.pipeline.translate.chunker:   Segment at line 0 exceeds chunk_size (259 > 30), sub-splitting. Consider adding more corners to the profile.
+2026-10-06 23:52:31,164:WARNING:autosub.pipeline.translate.chunker:   Segment at line 259 exceeds chunk_size (580 > 30), sub-splitting. Consider adding more corners to the profile.
+2026-10-06 23:52:31,164:WARNING:autosub.pipeline.translate.chunker:   Segment at line 839 exceeds chunk_size (384 > 30), sub-splitting. Consider adding more corners to the profile.
+2026-10-06 23:52:31,164:INFO:autosub.pipeline.translate.chunker: Corner-aware chunking: 3 boundaries found at lines [6, 259, 839], producing 42 chunks of sizes [30, 30, 30, 30, 30, 30, 30, 30, 19, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 10, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 24]
+2026-10-06 23:52:31,168:INFO:autosub.pipeline.translate.main: Translating 1223 subtitle lines in 42 chunks of up to 30...
+2026-10-06 23:52:31,169:INFO:autosub.pipeline.translate.main:   Chunk 1/42 (lines 1-30, 30 lines)
+2026-10-06 23:52:31,169:INFO:autosub.pipeline.translate.main:     first: せーのプロセカアフタートークアフタートークwithyou編
+2026-10-06 23:52:31,169:INFO:autosub.pipeline.translate.main:     last:  うん、うん。
+2026-10-06 23:52:31,169:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:52:31,193:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:32,362:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:32,579:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:32,581:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:32,581:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:32,581:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:32,581:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:32,581:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:36,559:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:37 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:36,559:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:52:36,561:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:36,562:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:36,562:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:36,563:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:36,565:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='MezFasniCY3Uz9MPiPzikAs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5675, candidates_token_count=505, total_token_count=6180, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Ready, set... ProSeka AfterTalk: With You Edition!"}, {"id": 1, "translated": "Hello, everyone. Good evening."}, {"id": 2, "translated": "I\'m Yui Ogura, the voice of Minori Hanasato from Momojan..."}, {"id": 3, ...', http_body_preview=None)
+2026-10-06 23:52:36,573:INFO:autosub.pipeline.translate.main:   Chunk 2/42 (lines 31-60, 30 lines)
+2026-10-06 23:52:36,573:INFO:autosub.pipeline.translate.main:     first: そして4月からあ、違うや。
+2026-10-06 23:52:36,573:INFO:autosub.pipeline.translate.main:     last:  ももちゃんの中では
+2026-10-06 23:52:36,573:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:52:36,613:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:37,753:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:37,980:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:37,986:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:37,988:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:37,988:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:37,990:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:37,990:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:44,250:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:44 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:44,250:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:52:44,251:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:44,252:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:44,252:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:44,252:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:44,253:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='NuzFau7TIrXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5723, candidates_token_count=510, total_token_count=6233, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "And starting in April... oh, wait, that\'s not right."}, {"id": 1, "translated": "Um, this time... huh?"}, {"id": 2, "translated": "Oh, I was right."}, {"id": 3, "translated": "This time is the second round of Wo...', http_body_preview=None)
+2026-10-06 23:52:44,269:INFO:autosub.pipeline.translate.main:   Chunk 3/42 (lines 61-90, 30 lines)
+2026-10-06 23:52:44,269:INFO:autosub.pipeline.translate.main:     first: ということで、あ、そっちかはね。
+2026-10-06 23:52:44,270:INFO:autosub.pipeline.translate.main:     last:  うん、うん。
+2026-10-06 23:52:44,270:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:52:44,321:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:45,445:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:45,667:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:45,669:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:45,669:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:45,671:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:45,671:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:45,671:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:49,811:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:50 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:49,811:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:52:49,812:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:49,813:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:49,813:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:49,813:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:49,815:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='PuzFao6XEN3T67MP7L-viQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5784, candidates_token_count=594, total_token_count=6378, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "So, oh, that\'s how it is."}, {"id": 1, "translated": "We\'re..."}, {"id": 2, "translated": "We\'re the most reliable ones here."}, {"id": 3, "translated": "Really?"}, {"id": 4, "translated": "Are you sure? The mos...', http_body_preview=None)
+2026-10-06 23:52:49,827:INFO:autosub.pipeline.translate.main:   Chunk 4/42 (lines 91-120, 30 lines)
+2026-10-06 23:52:49,827:INFO:autosub.pipeline.translate.main:     first: なんかその人を見ててなんかこのみのりちゃんの輝きがこう届いたっていうのが見てる私...
+2026-10-06 23:52:49,828:INFO:autosub.pipeline.translate.main:     last:  不安になったり落ち込んだりってある?
+2026-10-06 23:52:49,828:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:52:49,868:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:51,026:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:51,239:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:51,241:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:51,241:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:51,241:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:51,241:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:51,241:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:54,714:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:52:55 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:52:54,714:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:52:54,715:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:52:54,716:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:52:54,716:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:52:54,716:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:52:54,717:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='Q-zFaoPYMaCq67MPve6_sQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5780, candidates_token_count=537, total_token_count=6317, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Watching that person, I felt like Minori\'s radiance really reached them, and that made me so happy just watching it."}, {"id": 1, "translated": "Yeah."}, {"id": 2, "translated": "Mm-hmm."}, {"id": 3, "translated...', http_body_preview=None)
+2026-10-06 23:52:54,722:INFO:autosub.pipeline.translate.main:   Chunk 5/42 (lines 121-150, 30 lines)
+2026-10-06 23:52:54,722:INFO:autosub.pipeline.translate.main:     first: うん。
+2026-10-06 23:52:54,722:INFO:autosub.pipeline.translate.main:     last:  そう。
+2026-10-06 23:52:54,723:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:52:54,761:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:52:55,847:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:52:56,084:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:52:56,087:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:52:56,088:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:52:56,088:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:52:56,088:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:52:56,088:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:01,207:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:01 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:01,207:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:01,208:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:01,209:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:01,209:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:01,210:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:01,212:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='SOzFatmuKKCq67MPve6_sQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5718, candidates_token_count=515, total_token_count=6233, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah."}, {"id": 1, "translated": "Wait, I do have them."}, {"id": 2, "translated": "Wait, you don\'t think I have any?"}, {"id": 3, "translated": "Well, I have them too, but how should I put it... Whether we\'re w...', http_body_preview=None)
+2026-10-06 23:53:01,218:INFO:autosub.pipeline.translate.main:   Chunk 6/42 (lines 151-180, 30 lines)
+2026-10-06 23:53:01,218:INFO:autosub.pipeline.translate.main:     first: え、確かに。
+2026-10-06 23:53:01,218:INFO:autosub.pipeline.translate.main:     last:  そう、そう。
+2026-10-06 23:53:01,218:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:01,259:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:02,367:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:02,614:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:02,621:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:02,622:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:02,622:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:02,622:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:02,622:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:13,629:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:14 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:13,629:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:13,629:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:13,635:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:13,635:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:13,635:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:13,636:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='T-zFaoK8DLXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5762, candidates_token_count=519, total_token_count=6281, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah, that\'s true."}, {"id": 1, "translated": "But I think I have a switch that flips when I\'m on-site."}, {"id": 2, "translated": "Oh, so you really do have a switch."}, {"id": 3, "translated": "Yeah, I definit...', http_body_preview=None)
+2026-10-06 23:53:13,641:INFO:autosub.pipeline.translate.main:   Chunk 7/42 (lines 181-210, 30 lines)
+2026-10-06 23:53:13,641:INFO:autosub.pipeline.translate.main:     first: その時にほんちゃんのなんか柔らかい声が聞こえるとあ、すごい。
+2026-10-06 23:53:13,641:INFO:autosub.pipeline.translate.main:     last:  あー。
+2026-10-06 23:53:13,641:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:13,679:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:14,805:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:15,039:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:15,040:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:15,040:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:15,040:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:15,041:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:15,041:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:18,598:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:18,598:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:18,599:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:18,600:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:18,601:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:18,601:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:18,602:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='W-zFau3WKO7Hu7APh8-SkAM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5783, candidates_token_count=521, total_token_count=6304, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "When I hear Hon-chan\'s soft voice, I\'m like, \\"Wow.\\""}, {"id": 1, "translated": "It\'s so calming."}, {"id": 2, "translated": "It\'s healing."}, {"id": 3, "translated": "I feel healed in that way."}, {"id": 4, "t...', http_body_preview=None)
+2026-10-06 23:53:18,607:INFO:autosub.pipeline.translate.main:   Chunk 8/42 (lines 211-240, 30 lines)
+2026-10-06 23:53:18,607:INFO:autosub.pipeline.translate.main:     first: え、肉球触ったりとか
+2026-10-06 23:53:18,607:INFO:autosub.pipeline.translate.main:     last:  猫ちゃん癒し。
+2026-10-06 23:53:18,607:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:18,650:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:19,807:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:20,040:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:20,040:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:20,040:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:20,044:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:20,044:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:20,044:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:25,330:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:25 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:25,330:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:25,333:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:25,335:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:25,335:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:25,335:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:25,337:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='YOzFarnAJ5iB1dUPq43K0QM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5784, candidates_token_count=573, total_token_count=6357, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Oh, like touching their paw pads?"}, {"id": 1, "translated": "Yeah, paw pads are so squishy. I huff them, pet them... Oh, and Sally-chan—that\'s her name, right?"}, {"id": 2, "translated": "That sounds so nice."}...', http_body_preview=None)
+2026-10-06 23:53:25,342:INFO:autosub.pipeline.translate.main:   Chunk 9/42 (lines 241-259, 19 lines)
+2026-10-06 23:53:25,343:INFO:autosub.pipeline.translate.main:     first: 結構共感してくださってる方も多いんですけど。
+2026-10-06 23:53:25,343:INFO:autosub.pipeline.translate.main:     last:  ね。
+2026-10-06 23:53:25,343:INFO:autosub.pipeline.translate.translator: Translating 19 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:25,383:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:26,624:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:26,845:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:26,849:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:26,849:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:26,849:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:26,849:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:26,849:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:29,307:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:29 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:29,307:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:29,308:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:29,308:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:29,308:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:29,309:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:29,311:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='Z-zFas2lG9qB1dUP5_z00QY', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=4868, candidates_token_count=274, total_token_count=5142, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "It seems like a lot of people can relate to that."}, {"id": 1, "translated": "Right?"}, {"id": 2, "translated": "Well, I guess that\'s that."}, {"id": 3, "translated": "Go for a walk, eat, sleep, and just forget....', http_body_preview=None)
+2026-10-06 23:53:29,315:INFO:autosub.pipeline.translate.main:   Chunk 10/42 (lines 260-289, 30 lines)
+2026-10-06 23:53:29,315:INFO:autosub.pipeline.translate.main:     first: ここからは私たちキャストそれぞれが個人的に語りたいシーンをピックアップしておりま...
+2026-10-06 23:53:29,315:INFO:autosub.pipeline.translate.main:     last:  そう、そう、そう。
+2026-10-06 23:53:29,315:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:29,358:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:30,505:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:30,734:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:30,735:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:30,735:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:30,735:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:30,737:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:30,737:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:34,507:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:34 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:34,507:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:34,508:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:34,509:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:34,509:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:34,509:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:34,511:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='a-zFaq2PE93T67MP7L-viQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5778, candidates_token_count=514, total_token_count=6292, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Story Watchalong] From here, each of us in the cast has picked out a scene we personally want to talk about."}, {"id": 1, "translated": "Yes, we each chose our own."}, {"id": 2, "translated": "Right."},...', http_body_preview=None)
+2026-10-06 23:53:34,516:INFO:autosub.pipeline.translate.main:   Chunk 11/42 (lines 290-319, 30 lines)
+2026-10-06 23:53:34,516:INFO:autosub.pipeline.translate.main:     first: みのりちゃんの元気づけ方。
+2026-10-06 23:53:34,516:INFO:autosub.pipeline.translate.main:     last:  そう難しいのはあるんだけどなんかね難しいって思いながら
+2026-10-06 23:53:34,516:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:34,560:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:35,669:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:35,902:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:35,905:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:35,905:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:35,906:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:35,906:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:35,906:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:40,057:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:40 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:40,057:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:40,058:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:40,059:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:40,059:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:40,059:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:40,061:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='cOzFapC8Hp6Uz9MP94LL8Qs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5705, candidates_token_count=477, total_token_count=6182, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "The way she cheers up Minori-chan..."}, {"id": 1, "translated": "Yeah."}, {"id": 2, "translated": "She\'s really something."}, {"id": 3, "translated": "Mhm, mhm."}, {"id": 4, "translated": "I\'m rooting for her."}...', http_body_preview=None)
+2026-10-06 23:53:40,066:INFO:autosub.pipeline.translate.main:   Chunk 12/42 (lines 320-349, 30 lines)
+2026-10-06 23:53:40,066:INFO:autosub.pipeline.translate.main:     first: 今はもう違いますよね。
+2026-10-06 23:53:40,066:INFO:autosub.pipeline.translate.main:     last:  そうだよ。
+2026-10-06 23:53:40,066:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:40,109:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:41,243:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:41,474:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:41,477:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:41,477:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:41,477:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:41,477:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:41,477:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:46,125:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:46 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:46,125:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:46,127:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:46,128:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:46,128:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:46,128:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:46,130:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='duzFarK9A8nx67MP-Zym8A8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5777, candidates_token_count=564, total_token_count=6341, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "But it\'s different now, isn\'t it?"}, {"id": 1, "translated": "Right, right."}, {"id": 2, "translated": "It was only for a little bit, so I had to try and remember..."}, {"id": 3, "translated": "Oh, don\'t say tha...', http_body_preview=None)
+2026-10-06 23:53:46,144:INFO:autosub.pipeline.translate.main:   Chunk 13/42 (lines 350-379, 30 lines)
+2026-10-06 23:53:46,144:INFO:autosub.pipeline.translate.main:     first: 良かった。
+2026-10-06 23:53:46,144:INFO:autosub.pipeline.translate.main:     last:  じゃなくてだよ。
+2026-10-06 23:53:46,144:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:46,166:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:47,279:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:47,521:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:47,521:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:47,521:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:47,521:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:47,525:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:47,525:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:50,925:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:51 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:50,925:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:50,929:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:50,930:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:50,930:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:50,930:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:50,933:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='fOzFapypBo3Uz9MPiPzikAs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5643, candidates_token_count=442, total_token_count=6085, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Story Watchalong] I\'m so glad."}, {"id": 1, "translated": "I want to be strong enough to keep pushing someone forward."}, {"id": 2, "translated": "Yeah, yeah."}, {"id": 3, "translated": "In that case......', http_body_preview=None)
+2026-10-06 23:53:50,947:INFO:autosub.pipeline.translate.main:   Chunk 14/42 (lines 380-409, 30 lines)
+2026-10-06 23:53:50,947:INFO:autosub.pipeline.translate.main:     first: ここすごい覚えてる。
+2026-10-06 23:53:50,948:INFO:autosub.pipeline.translate.main:     last:  うん。
+2026-10-06 23:53:50,948:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:50,985:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:52,034:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:52,270:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:52,275:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:52,275:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:52,275:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:52,275:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:52,275:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:55,451:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:53:55 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:53:55,451:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:53:55,452:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:53:55,453:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:53:55,453:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:53:55,453:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:53:55,456:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='gOzFavuQNLXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5680, candidates_token_count=445, total_token_count=6125, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Story Watchalong] I remember this part so well."}, {"id": 1, "translated": "It\'s not \\"but.\\""}, {"id": 2, "translated": "It\'s \\"and.\\""}, {"id": 3, "translated": "This part was difficult."}, {"id": 4, ...', http_body_preview=None)
+2026-10-06 23:53:55,462:INFO:autosub.pipeline.translate.main:   Chunk 15/42 (lines 410-439, 30 lines)
+2026-10-06 23:53:55,462:INFO:autosub.pipeline.translate.main:     first: この思いを胸に。
+2026-10-06 23:53:55,462:INFO:autosub.pipeline.translate.main:     last:  はい、ありがとうございます。
+2026-10-06 23:53:55,463:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:53:55,509:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:53:56,695:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:53:56,918:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:53:56,922:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:53:56,922:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:53:56,922:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:53:56,923:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:53:56,923:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:00,272:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:00 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:00,272:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:00,272:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:00,273:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:00,273:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:00,273:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:00,276:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='hezFaqmFHo3Uz9MPiPzikAs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5786, candidates_token_count=491, total_token_count=6277, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Keeping these feelings in my heart."}, {"id": 1, "translated": "Ah..."}, {"id": 2, "translated": "Oh..."}, {"id": 3, "translated": "[CORNER: Fan Letter Corner] That\'s right."}, {"id": 4, "translated": "I really ...', http_body_preview=None)
+2026-10-06 23:54:00,281:INFO:autosub.pipeline.translate.main:   Chunk 16/42 (lines 440-469, 30 lines)
+2026-10-06 23:54:00,281:INFO:autosub.pipeline.translate.main:     first: ではでは続いて
+2026-10-06 23:54:00,282:INFO:autosub.pipeline.translate.main:     last:  とても急いで来てくれたみたいね。
+2026-10-06 23:54:00,282:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:00,317:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:01,425:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:01,651:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:01,653:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:01,653:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:01,653:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:01,653:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:01,653:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:04,811:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:05 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:04,811:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:04,811:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:04,812:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:04,812:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:04,812:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:04,814:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='iuzFaq65Dcnx67MP-Zym8A8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5724, candidates_token_count=465, total_token_count=6189, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "All right, next up..."}, {"id": 1, "translated": "[CORNER: Story Watchalong] The next scene I\'ve chosen is from the second half of Shizuku\'s story."}, {"id": 2, "translated": "Let\'s watch it together."}, {"id": ...', http_body_preview=None)
+2026-10-06 23:54:04,820:INFO:autosub.pipeline.translate.main:   Chunk 17/42 (lines 470-499, 30 lines)
+2026-10-06 23:54:04,820:INFO:autosub.pipeline.translate.main:     first: はい。
+2026-10-06 23:54:04,820:INFO:autosub.pipeline.translate.main:     last:  え?
+2026-10-06 23:54:04,820:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:04,858:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:06,233:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:06,460:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:06,462:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:06,463:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:06,463:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:06,463:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:06,463:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:09,825:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:10 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:09,825:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:09,826:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:09,827:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:09,827:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:09,827:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:09,829:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='j-zFaterA56Uz9MP94LL8Qs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5642, candidates_token_count=391, total_token_count=6033, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yes."}, {"id": 1, "translated": "I was really looking forward to eating together."}, {"id": 2, "translated": "That\'s true."}, {"id": 3, "translated": "Yeah."}, {"id": 4, "translated": "Mm-hmm."}, {"id": 5, "tran...', http_body_preview=None)
+2026-10-06 23:54:09,838:INFO:autosub.pipeline.translate.main:   Chunk 18/42 (lines 500-529, 30 lines)
+2026-10-06 23:54:09,838:INFO:autosub.pipeline.translate.main:     first: かわいい。
+2026-10-06 23:54:09,839:INFO:autosub.pipeline.translate.main:     last:  時々だよね。
+2026-10-06 23:54:09,839:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:09,877:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:11,011:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:11,230:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:11,232:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:11,232:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:11,232:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:11,232:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:11,232:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:14,497:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:14 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:14,499:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:14,499:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:14,500:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:14,500:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:14,500:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:14,501:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='k-zFara1MbXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5738, candidates_token_count=466, total_token_count=6204, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "So cute."}, {"id": 1, "translated": "Minori-chan remembers it, doesn\'t she? I remember this too."}, {"id": 2, "translated": "Yeah, I occasionally do that counting thing."}, {"id": 3, "translated": "Oh, I do it p...', http_body_preview=None)
+2026-10-06 23:54:14,516:INFO:autosub.pipeline.translate.main:   Chunk 19/42 (lines 530-559, 30 lines)
+2026-10-06 23:54:14,516:INFO:autosub.pipeline.translate.main:     first: うん。
+2026-10-06 23:54:14,516:INFO:autosub.pipeline.translate.main:     last:  しっかしてると引っ張ってます。
+2026-10-06 23:54:14,516:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:14,556:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:15,740:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:15,962:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:15,964:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:15,964:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:15,964:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:15,964:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:15,964:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:19,016:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:19,016:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:19,016:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:19,018:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:19,018:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:19,018:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:19,020:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='mOzFasLqIaCq67MPve6_sQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5711, candidates_token_count=456, total_token_count=6167, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah."}, {"id": 1, "translated": "But this is where she shines."}, {"id": 2, "translated": "Right."}, {"id": 3, "translated": "Airi-chan\'s..."}, {"id": 4, "translated": "It\'s like her power, you know?"}, {"id": ...', http_body_preview=None)
+2026-10-06 23:54:19,027:INFO:autosub.pipeline.translate.main:   Chunk 20/42 (lines 560-589, 30 lines)
+2026-10-06 23:54:19,027:INFO:autosub.pipeline.translate.main:     first: そう、そう、そう。
+2026-10-06 23:54:19,027:INFO:autosub.pipeline.translate.main:     last:  なんでもかんでも家族に話したりしないでしょ。
+2026-10-06 23:54:19,027:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:19,065:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:20,146:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:20,358:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:20,361:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:20,362:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:20,362:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:20,362:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:20,362:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:23,749:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:24 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:23,749:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:23,750:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:23,751:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:23,752:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:23,752:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:23,753:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='nOzFarOpOvWswtQPgZyXiA8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5718, candidates_token_count=503, total_token_count=6221, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Right, right, right."}, {"id": 1, "translated": "They have such a great balance."}, {"id": 2, "translated": "[CORNER: Story Watchalong] \\"Thank you for being friends with my little sister,\\""}, {"id": 3, "transl...', http_body_preview=None)
+2026-10-06 23:54:23,760:INFO:autosub.pipeline.translate.main:   Chunk 21/42 (lines 590-619, 30 lines)
+2026-10-06 23:54:23,760:INFO:autosub.pipeline.translate.main:     first: そうかもしれないけど。
+2026-10-06 23:54:23,760:INFO:autosub.pipeline.translate.main:     last:  はあ。
+2026-10-06 23:54:23,760:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:23,799:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:24,923:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:25,156:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:25,160:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:25,160:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:25,160:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:25,160:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:25,160:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:28,184:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:28 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:28,184:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:28,185:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:28,186:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:28,186:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:28,186:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:28,188:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='oezFara3Lt_gwtQPtbyj8QU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5717, candidates_token_count=451, total_token_count=6168, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "That might be true, but..."}, {"id": 1, "translated": "She looks a little shocked there."}, {"id": 2, "translated": "It was so sad."}, {"id": 3, "translated": "But since Shi-chan loves cute animals, this job is ...', http_body_preview=None)
+2026-10-06 23:54:28,195:INFO:autosub.pipeline.translate.main:   Chunk 22/42 (lines 620-649, 30 lines)
+2026-10-06 23:54:28,195:INFO:autosub.pipeline.translate.main:     first: 全然いいのに。
+2026-10-06 23:54:28,195:INFO:autosub.pipeline.translate.main:     last:  え?
+2026-10-06 23:54:28,195:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:28,234:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:29,421:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:29,639:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:29,641:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:29,641:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:29,641:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:29,641:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:29,641:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:33,063:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:33,063:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:33,064:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:33,065:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:33,065:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:33,065:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:33,066:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='puzFaqviDq3YwtQP68umkAY', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5672, candidates_token_count=448, total_token_count=6120, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "It would have been totally fine, though."}, {"id": 1, "translated": "I can\'t do that."}, {"id": 2, "translated": "Right? From an outsider\'s perspective,"}, {"id": 3, "translated": "you\'d think it was totally fin...', http_body_preview=None)
+2026-10-06 23:54:33,075:INFO:autosub.pipeline.translate.main:   Chunk 23/42 (lines 650-679, 30 lines)
+2026-10-06 23:54:33,075:INFO:autosub.pipeline.translate.main:     first: かわいいよ。
+2026-10-06 23:54:33,075:INFO:autosub.pipeline.translate.main:     last:  ね。
+2026-10-06 23:54:33,075:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:33,113:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:34,246:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:34,473:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:34,475:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:34,475:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:34,476:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:34,476:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:34,476:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:37,424:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:37 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:37,424:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:37,424:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:37,426:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:37,426:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:37,426:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:37,427:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='q-zFaq_FBO7Hu7APh8-SkAM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5712, candidates_token_count=483, total_token_count=6195, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "She\'s so cute."}, {"id": 1, "translated": "She really is."}, {"id": 2, "translated": "I love the gap in her personality."}, {"id": 3, "translated": "Yeah."}, {"id": 4, "translated": "The gap is great."}, {"id": ...', http_body_preview=None)
+2026-10-06 23:54:37,433:INFO:autosub.pipeline.translate.main:   Chunk 24/42 (lines 680-709, 30 lines)
+2026-10-06 23:54:37,434:INFO:autosub.pipeline.translate.main:     first: ありのままの私じゃ周りを失望させるだけだって思ってたけど。
+2026-10-06 23:54:37,434:INFO:autosub.pipeline.translate.main:     last:  本当に。
+2026-10-06 23:54:37,434:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:37,473:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:38,647:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:38,859:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:38,862:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:38,863:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:38,863:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:38,863:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:38,863:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:42,059:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:42 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:42,060:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:42,060:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:42,061:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:42,062:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:42,062:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:42,063:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='r-zFavKwG93T67MP7L-viQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5712, candidates_token_count=482, total_token_count=6194, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Story Watchalong] \\"I thought that being my true self would only disappoint everyone around me.\\""}, {"id": 1, "translated": "Yeah, yeah."}, {"id": 2, "translated": "\\"But I see there are people who wil...', http_body_preview=None)
+2026-10-06 23:54:42,076:INFO:autosub.pipeline.translate.main:   Chunk 25/42 (lines 710-739, 30 lines)
+2026-10-06 23:54:42,076:INFO:autosub.pipeline.translate.main:     first: 本当に。
+2026-10-06 23:54:42,076:INFO:autosub.pipeline.translate.main:     last:  照れてきちゃった、なんか。
+2026-10-06 23:54:42,076:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:42,114:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:43,264:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:43,484:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:43,486:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:43,486:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:43,486:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:43,486:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:43,486:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:46,724:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:47 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:46,725:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:46,725:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:46,726:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:46,726:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:46,726:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:46,729:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='tOzFapu1A93T67MP7L-viQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5694, candidates_token_count=461, total_token_count=6155, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Seriously."}, {"id": 1, "translated": "Um, but..."}, {"id": 2, "translated": "I\'d love to see this side of you every now and then, Hinomori-senpai."}, {"id": 3, "translated": "Just kidding."}, {"id": 4, "transla...', http_body_preview=None)
+2026-10-06 23:54:46,735:INFO:autosub.pipeline.translate.main:   Chunk 26/42 (lines 740-769, 30 lines)
+2026-10-06 23:54:46,736:INFO:autosub.pipeline.translate.main:     first: なんかね、
+2026-10-06 23:54:46,736:INFO:autosub.pipeline.translate.main:     last:  そう、そう、そう。
+2026-10-06 23:54:46,736:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:46,779:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:47,925:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:48,154:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:48,155:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:48,155:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:48,155:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:48,156:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:48,156:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:51,421:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:51 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:51,421:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:51,422:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:51,423:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:51,423:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:51,423:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:51,426:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='uOzFatSHLKCq67MPve6_sQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5763, candidates_token_count=471, total_token_count=6234, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "It\'s like,"}, {"id": 1, "translated": "watching them makes us..."}, {"id": 2, "translated": "...so happy too."}, {"id": 3, "translated": "\\"I\'ll go and think of a self-introduction too!\\""}, {"id": 4, "translate...', http_body_preview=None)
+2026-10-06 23:54:51,431:INFO:autosub.pipeline.translate.main:   Chunk 27/42 (lines 770-799, 30 lines)
+2026-10-06 23:54:51,431:INFO:autosub.pipeline.translate.main:     first: しずくもなんか、あ息がしやすいって言ってたけどそのなんだろう、
+2026-10-06 23:54:51,431:INFO:autosub.pipeline.translate.main:     last:  うん。
+2026-10-06 23:54:51,431:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:51,471:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:52,668:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:52,888:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:52,891:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:52,891:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:52,891:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:52,891:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:52,891:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:56,331:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:54:56 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:54:56,332:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:54:56,333:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:54:56,334:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:54:56,334:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:54:56,334:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:54:56,340:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='vezFarqSHZ6Uz9MP94LL8Qs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5840, candidates_token_count=523, total_token_count=6363, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Shizuku mentioned that she felt like she could breathe easier, and well..."}, {"id": 1, "translated": "You know how it is."}, {"id": 2, "translated": "Like we were talking about earlier, when you\'re working, it\'...', http_body_preview=None)
+2026-10-06 23:54:56,347:INFO:autosub.pipeline.translate.main:   Chunk 28/42 (lines 800-829, 30 lines)
+2026-10-06 23:54:56,347:INFO:autosub.pipeline.translate.main:     first: 確かにね。
+2026-10-06 23:54:56,347:INFO:autosub.pipeline.translate.main:     last:  あ、そうだね。
+2026-10-06 23:54:56,347:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:54:56,385:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:54:57,484:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:54:57,706:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:54:57,708:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:54:57,709:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:54:57,709:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:54:57,709:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:54:57,709:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:01,106:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:01 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:01,106:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:01,106:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:01,108:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:01,108:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:01,108:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:01,109:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='wuzFaoWIEsnx67MP-Zym8A8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5829, candidates_token_count=478, total_token_count=6307, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "That\'s true."}, {"id": 1, "translated": "It makes you feel anxious."}, {"id": 2, "translated": "Momojan has been through a lot, and the unit\'s story has many raw, realistic depictions, so..."}, {"id": 3, "transl...', http_body_preview=None)
+2026-10-06 23:55:01,115:INFO:autosub.pipeline.translate.main:   Chunk 29/42 (lines 830-839, 10 lines)
+2026-10-06 23:55:01,115:INFO:autosub.pipeline.translate.main:     first: なんか原点であり頂点的なこう
+2026-10-06 23:55:01,115:INFO:autosub.pipeline.translate.main:     last:  ありがとうございました。
+2026-10-06 23:55:01,115:INFO:autosub.pipeline.translate.translator: Translating 10 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:01,152:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:02,263:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:02,506:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:02,508:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:02,508:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:02,508:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:02,508:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:02,508:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:05,329:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:05 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:05,329:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:05,330:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:05,330:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:05,330:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:05,330:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:05,331:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='x-zFar7fBd_gwtQPtbyj8QU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=4156, candidates_token_count=146, total_token_count=4302, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "It really felt like a return to their roots, or like a peak moment."}, {"id": 1, "translated": "It felt like they came back to where they started, and I really felt their bond again."}, {"id": 2, "translated": "...', http_body_preview=None)
+2026-10-06 23:55:05,335:INFO:autosub.pipeline.translate.main:   Chunk 30/42 (lines 840-869, 30 lines)
+2026-10-06 23:55:05,336:INFO:autosub.pipeline.translate.main:     first: ではここからは今回のカードイラストも一緒に見ていこうかな。
+2026-10-06 23:55:05,336:INFO:autosub.pipeline.translate.main:     last:  うん。
+2026-10-06 23:55:05,336:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:05,375:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:06,451:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:06,686:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:06,688:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:06,688:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:06,688:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:06,688:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:06,688:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:12,036:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:12 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:12,037:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:12,037:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:12,040:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:12,040:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:12,040:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:12,040:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='y-zFarfWEJiB1dUPq43K0QM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5944, candidates_token_count=655, total_token_count=6599, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Card Illustrations] Now, let\'s take a look at the card illustrations for this event."}, {"id": 1, "translated": "Oh, the cards! They were so good."}, {"id": 2, "translated": "They really were."}, {"id":...', http_body_preview=None)
+2026-10-06 23:55:12,045:INFO:autosub.pipeline.translate.main:   Chunk 31/42 (lines 870-899, 30 lines)
+2026-10-06 23:55:12,045:INFO:autosub.pipeline.translate.main:     first: そうだね。
+2026-10-06 23:55:12,045:INFO:autosub.pipeline.translate.main:     last:  完璧なひなもりしずくとして微笑んでるんだけどなんかちょっとこう寂しさというか本当...
+2026-10-06 23:55:12,045:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:12,083:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:13,214:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:13,434:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:13,436:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:13,436:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:13,436:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:13,436:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:13,436:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:18,689:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:18,689:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:18,689:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:18,690:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:18,690:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:18,691:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:18,692:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='0uzFao6hAY3Uz9MPiPzikAs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5871, candidates_token_count=566, total_token_count=6437, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "That\'s true."}, {"id": 1, "translated": "Yeah, yeah."}, {"id": 2, "translated": "If you keep that in mind while looking at them, it might change how you feel about the illustrations."}, {"id": 3, "translated": "...', http_body_preview=None)
+2026-10-06 23:55:18,698:INFO:autosub.pipeline.translate.main:   Chunk 32/42 (lines 900-929, 30 lines)
+2026-10-06 23:55:18,698:INFO:autosub.pipeline.translate.main:     first: うん。
+2026-10-06 23:55:18,698:INFO:autosub.pipeline.translate.main:     last:  ではせっかくなのでイラストをね実際にちょっとみんなで見てみてみましょう。
+2026-10-06 23:55:18,698:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:18,737:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:19,973:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:20,209:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:20,211:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:20,212:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:20,212:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:20,212:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:20,212:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:23,367:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:23 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:23,368:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:23,370:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:23,371:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:23,371:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:23,372:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:23,375:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='2OzFaoPsL43Uz9MPiPzikAs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5778, candidates_token_count=464, total_token_count=6242, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah."}, {"id": 1, "translated": "Yeah, definitely."}, {"id": 2, "translated": "It really happened."}, {"id": 3, "translated": "Right?"}, {"id": 4, "translated": "Yeah."}, {"id": 5, "translated": "It really move...', http_body_preview=None)
+2026-10-06 23:55:23,380:INFO:autosub.pipeline.translate.main:   Chunk 33/42 (lines 930-959, 30 lines)
+2026-10-06 23:55:23,380:INFO:autosub.pipeline.translate.main:     first: じゃあ、操作ほんちゃんにお願いしながらはい。
+2026-10-06 23:55:23,380:INFO:autosub.pipeline.translate.main:     last:  すごい綺麗。
+2026-10-06 23:55:23,380:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:23,419:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:24,460:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:24,688:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:24,692:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:24,693:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:24,693:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:24,693:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:24,693:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:39,114:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:39 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:39,116:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:39,116:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:39,120:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:39,122:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:39,123:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:39,127:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='3ezFauiKEbXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5771, candidates_token_count=450, total_token_count=6221, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Card Illustrations] Okay, I\'ll leave the controls to Hon-chan."}, {"id": 1, "translated": "Leave it to me."}, {"id": 2, "translated": "Let\'s start with Minori\'s card."}, {"id": 3, "translated": "Minori-...', http_body_preview=None)
+2026-10-06 23:55:39,143:INFO:autosub.pipeline.translate.main:   Chunk 34/42 (lines 960-989, 30 lines)
+2026-10-06 23:55:39,143:INFO:autosub.pipeline.translate.main:     first: うん、うん。
+2026-10-06 23:55:39,143:INFO:autosub.pipeline.translate.main:     last:  これ。
+2026-10-06 23:55:39,143:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:39,179:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:40,272:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:40,496:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:40,498:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:40,498:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:40,498:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:40,498:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:40,498:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:43,659:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:44 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:43,659:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:43,662:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:43,663:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:43,663:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:43,663:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:43,665:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='7ezFatXdBZiB1dUPq43K0QM', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5766, candidates_token_count=486, total_token_count=6252, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah, definitely."}, {"id": 1, "translated": "[CORNER: Card Illustrations] All right, let\'s take a look at the untrained art too."}, {"id": 2, "translated": "It\'s nice to look at these again after reading everyo...', http_body_preview=None)
+2026-10-06 23:55:43,670:INFO:autosub.pipeline.translate.main:   Chunk 35/42 (lines 990-1019, 30 lines)
+2026-10-06 23:55:43,670:INFO:autosub.pipeline.translate.main:     first: うん。
+2026-10-06 23:55:43,671:INFO:autosub.pipeline.translate.main:     last:  すごい可愛い。
+2026-10-06 23:55:43,671:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:43,707:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:44,840:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:45,057:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:45,060:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:45,060:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:45,060:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:45,060:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:45,060:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:47,980:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:48 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:47,980:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:47,982:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:47,983:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:47,983:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:47,983:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:47,984:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='8ezFauK4J9qB1dUP5_z00QY', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5760, candidates_token_count=451, total_token_count=6211, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Yeah."}, {"id": 1, "translated": "It really is."}, {"id": 2, "translated": "The way they used light and shadow here..."}, {"id": 3, "translated": "Yeah, right here."}, {"id": 4, "translated": "It\'s so clearly......', http_body_preview=None)
+2026-10-06 23:55:47,990:INFO:autosub.pipeline.translate.main:   Chunk 36/42 (lines 1020-1049, 30 lines)
+2026-10-06 23:55:47,990:INFO:autosub.pipeline.translate.main:     first: お茶会。
+2026-10-06 23:55:47,990:INFO:autosub.pipeline.translate.main:     last:  もう。
+2026-10-06 23:55:47,990:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:48,035:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:49,295:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:49,511:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:49,512:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:49,513:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:49,513:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:49,513:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:49,513:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:52,458:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:52 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:52,458:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:52,458:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:52,458:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:52,458:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:52,458:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:52,461:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='9uzFapz6BvWswtQPgZyXiA8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5767, candidates_token_count=434, total_token_count=6201, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "A tea party."}, {"id": 1, "translated": "And, oh..."}, {"id": 2, "translated": "The untrained art."}, {"id": 3, "translated": "This one is so cute too."}, {"id": 4, "translated": "It\'s like..."}, {"id": 5, "tran...', http_body_preview=None)
+2026-10-06 23:55:52,467:INFO:autosub.pipeline.translate.main:   Chunk 37/42 (lines 1050-1079, 30 lines)
+2026-10-06 23:55:52,467:INFO:autosub.pipeline.translate.main:     first: いや、これ本当に本当にいいね。
+2026-10-06 23:55:52,467:INFO:autosub.pipeline.translate.main:     last:  そしてあ、ね、可愛い。
+2026-10-06 23:55:52,467:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:52,506:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:53,684:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:53,919:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:53,919:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:53,919:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:53,919:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:53,919:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:53,919:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:56,936:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:55:57 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:55:56,936:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:55:56,936:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:55:56,938:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:55:56,938:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:55:56,938:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:55:56,940:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='-uzFat7iHp6Uz9MP94LL8Qs', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5775, candidates_token_count=446, total_token_count=6221, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Man, this is just really, really good."}, {"id": 1, "translated": "Airi-chan..."}, {"id": 2, "translated": "I feel like this atmosphere is something only Airi could pull off."}, {"id": 3, "translated": "Airi-cha...', http_body_preview=None)
+2026-10-06 23:55:56,947:INFO:autosub.pipeline.translate.main:   Chunk 38/42 (lines 1080-1109, 30 lines)
+2026-10-06 23:55:56,947:INFO:autosub.pipeline.translate.main:     first: ドーナッツ食べる安心するね。
+2026-10-06 23:55:56,947:INFO:autosub.pipeline.translate.main:     last:  ももジャンイベの時そう、コメント絶対あのストーリー考えてくださる皆さん楽しんで考...
+2026-10-06 23:55:56,947:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:55:56,986:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:55:58,159:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:55:58,377:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:55:58,378:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:55:58,378:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:55:58,378:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:55:58,378:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:55:58,378:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:01,639:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:56:02 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:56:01,639:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:56:01,641:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:56:01,642:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:56:01,642:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:56:01,642:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:56:01,644:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='_uzFary8OqCq67MPve6_sQU', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5752, candidates_token_count=433, total_token_count=6185, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Eating donuts is so comforting."}, {"id": 1, "translated": "This Airi-chan..."}, {"id": 2, "translated": "She\'s so cute."}, {"id": 3, "translated": "She\'s even sticking her tongue out."}, {"id": 4, "translated":...', http_body_preview=None)
+2026-10-06 23:56:01,648:INFO:autosub.pipeline.translate.main:   Chunk 39/42 (lines 1110-1139, 30 lines)
+2026-10-06 23:56:01,649:INFO:autosub.pipeline.translate.main:     first: ね、もうこんな感じ出てる。
+2026-10-06 23:56:01,649:INFO:autosub.pipeline.translate.main:     last:  美しいです。
+2026-10-06 23:56:01,649:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:56:01,686:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:56:02,866:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:56:03,084:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:56:03,088:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:03,088:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:56:03,088:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:56:03,088:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:56:03,088:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:06,474:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:56:06 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:56:06,474:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:56:06,478:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:56:06,479:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:56:06,479:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:56:06,479:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:56:06,480:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='A-3FarjOKMnx67MP-Zym8A8', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5733, candidates_token_count=431, total_token_count=6164, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "Right? You can already feel that vibe."}, {"id": 1, "translated": "Yes, and next..."}, {"id": 2, "translated": "And here is Shizuku."}, {"id": 3, "translated": "Wow, this one is also beautiful."}, {"id": 4, "tra...', http_body_preview=None)
+2026-10-06 23:56:06,487:INFO:autosub.pipeline.translate.main:   Chunk 40/42 (lines 1140-1169, 30 lines)
+2026-10-06 23:56:06,487:INFO:autosub.pipeline.translate.main:     first: さすがです、雫。
+2026-10-06 23:56:06,487:INFO:autosub.pipeline.translate.main:     last:  でも笑って欲しい。
+2026-10-06 23:56:06,487:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:56:06,529:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:56:07,655:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:56:07,885:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:56:07,890:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:07,890:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:56:07,890:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:56:07,890:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:56:07,890:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:11,764:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:56:12 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:56:11,764:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:56:11,764:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:56:11,766:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:56:11,766:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:56:11,767:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:56:11,769:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='CO3FarOaH-Cm3tMPh8mLoAE', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5736, candidates_token_count=461, total_token_count=6197, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "That\'s our Shizuku for you."}, {"id": 1, "translated": "Her modeling skills just keep getting better and better."}, {"id": 2, "translated": "Yeah, they really do."}, {"id": 3, "translated": "And here is the untr...', http_body_preview=None)
+2026-10-06 23:56:11,775:INFO:autosub.pipeline.translate.main:   Chunk 41/42 (lines 1170-1199, 30 lines)
+2026-10-06 23:56:11,775:INFO:autosub.pipeline.translate.main:     first: それもいい。
+2026-10-06 23:56:11,775:INFO:autosub.pipeline.translate.main:     last:  はい、プロセカアフタートークアフタートークジャンプウィズユー編は以上で終了となり...
+2026-10-06 23:56:11,775:INFO:autosub.pipeline.translate.translator: Translating 30 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:56:11,815:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:56:12,923:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:56:13,145:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:56:13,149:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:13,149:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:56:13,149:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:56:13,149:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:56:13,149:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:16,401:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:56:16 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:56:16,402:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:56:16,402:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:56:16,404:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:56:16,404:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:56:16,404:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:56:16,406:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='De3FaqObLaXQj8MP1ca24AQ', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5742, candidates_token_count=425, total_token_count=6167, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "That\'s nice too."}, {"id": 1, "translated": "It\'s complicated."}, {"id": 2, "translated": "Yeah."}, {"id": 3, "translated": "It\'s beautiful."}, {"id": 4, "translated": "Right? It really is beautiful."}, {"id": 5...', http_body_preview=None)
+2026-10-06 23:56:16,413:INFO:autosub.pipeline.translate.main:   Chunk 42/42 (lines 1200-1223, 24 lines)
+2026-10-06 23:56:16,414:INFO:autosub.pipeline.translate.main:     first: 配信ご覧の皆さん、いかがでしたか?
+2026-10-06 23:56:16,414:INFO:autosub.pipeline.translate.main:     last:  ということで今回のイベントを
+2026-10-06 23:56:16,414:INFO:autosub.pipeline.translate.translator: Translating 24 structured subtitle cues using provider 'google-vertex' model 'gemini-3-flash-preview' in 'global'...
+2026-10-06 23:56:16,454:INFO:google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-06 23:56:17,537:DEBUG:urllib3.connectionpool: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-10-06 23:56:17,757:DEBUG:urllib3.connectionpool: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-10-06 23:56:17,757:DEBUG:httpcore.http11: send_request_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:17,757:DEBUG:httpcore.http11: send_request_headers.complete
+2026-10-06 23:56:17,761:DEBUG:httpcore.http11: send_request_body.started request=<Request [b'POST']>
+2026-10-06 23:56:17,761:DEBUG:httpcore.http11: send_request_body.complete
+2026-10-06 23:56:17,761:DEBUG:httpcore.http11: receive_response_headers.started request=<Request [b'POST']>
+2026-10-06 23:56:20,694:DEBUG:httpcore.http11: receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Wed, 07 Oct 2026 06:56:21 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2026-10-06 23:56:20,694:INFO:httpx: HTTP Request: POST https://aiplatform.googleapis.com/v1beta1/projects/future-name-201021/locations/global/publishers/google/models/gemini-3-flash-preview:generateContent "HTTP/1.1 200 OK"
+2026-10-06 23:56:20,695:DEBUG:httpcore.http11: receive_response_body.started request=<Request [b'POST']>
+2026-10-06 23:56:20,695:DEBUG:httpcore.http11: receive_response_body.complete
+2026-10-06 23:56:20,695:DEBUG:httpcore.http11: response_closed.started
+2026-10-06 23:56:20,695:DEBUG:httpcore.http11: response_closed.complete
+2026-10-06 23:56:20,697:DEBUG:autosub.core.llm.pydantic_ai: LLM translator response diagnostics: VertexResponseDiagnostics(response_id='Eu3FarqzFrXiz9MP-rDXqQo', model_version='gemini-3-flash-preview', prompt_block_reason=None, prompt_block_reason_message=None, prompt_safety_ratings=(), candidate_finish_reasons=('stop',), candidate_finish_messages=(), candidate_token_counts=(), candidate_safety_ratings=(), prompt_token_count=5280, candidates_token_count=375, total_token_count=5655, thoughts_token_count=None, thinking_text=None, text_preview='[{"id": 0, "translated": "[CORNER: Song Watchalong] Everyone watching the stream, what did you think?"}, {"id": 1, "translated": "Thank you so much for all the excitement in the comments."}, {"id": 2, "translated": "It makes me so happy,...', http_body_preview=None)
+2026-10-06 23:56:20,702:INFO:autosub.pipeline.translate.main: Removed checkpoint file.
+2026-10-06 23:56:20,705:INFO:autosub.pipeline.translate.reflow: Line-break reflow adjusted 1 sentence group(s).
+2026-10-06 23:56:20,706:INFO:autosub.pipeline.translate.main: Applying translations to subtitle document...
+2026-10-06 23:56:20,786:INFO:autosub.pipeline.translate.main: Removed the [CORNER: ...] prefix from 17 line(s); the boundary is already carried by cue.corner and the rendered corner comments.
+2026-10-06 23:56:20,797:INFO:autosub.pipeline.translate.linebreak: spaCy/en_core_web_sm unavailable (ModuleNotFoundError); using the regex line-break engine.
+2026-10-06 23:56:20,800:WARNING:autosub.pipeline.translate.main: Splitting would leave a line under 500ms, leaving it over length: 'Also, please post your thoughts on the event and this stream'
+2026-10-06 23:56:20,801:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "let's get right into talking about the story for this AfterT"
+2026-10-06 23:56:20,801:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"I really love Minori-chan\'s words: \'Even if today wasn\'t a '
+2026-10-06 23:56:20,802:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"Momojan is truly radiant on stage, standing there with that'
+2026-10-06 23:56:20,802:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"The scene where a fan tells a worried Minori-chan how much '
+2026-10-06 23:56:20,802:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'Someone mentioned in the comments earlier how Minori\'s "prot'
+2026-10-06 23:56:20,804:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"Finding out Haruka was the volunteer leader made for anothe'
+2026-10-06 23:56:20,804:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"The way they give each other hope is so cute and precious, '
+2026-10-06 23:56:20,805:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"When you two feel anxious or down in your work or daily liv'
+2026-10-06 23:56:20,805:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"If you have any secrets for feeling like you can do your be'
+2026-10-06 23:56:20,806:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "looking at Yui-chan's back makes me feel like I can really c"
+2026-10-06 23:56:20,806:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "so I realized I haven't actually seen you get anxious or dep"
+2026-10-06 23:56:20,807:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'That mindset of consciously deciding to set something aside '
+2026-10-06 23:56:20,809:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"Why couldn\'t I do it like that then?" or "I could\'ve done t'
+2026-10-06 23:56:20,811:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'each of us in the cast has picked out a scene we personally '
+2026-10-06 23:56:20,812:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "where she noticed Minori-chan's distress and asked what was "
+2026-10-06 23:56:20,812:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'She told Miyuki-chan the T-shirt she was wearing was a maste'
+2026-10-06 23:56:20,818:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'The stage directions in the script actually said "Hinomori-s'
+2026-10-06 23:56:20,819:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"The Shizuku-chan I see on TV and in magazines is beautiful '
+2026-10-06 23:56:20,819:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"But when Hinomori-senpai talks about Shiho-chan, she has su'
+2026-10-06 23:56:20,825:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"Since this event takes place in a world where Momojan was n'
+2026-10-06 23:56:20,827:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"First, for Minori, the trained art shows her dancing alone '
+2026-10-06 23:56:20,827:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"On the table of the empty tea party, we placed marigolds—wh'
+2026-10-06 23:56:20,828:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"Next, for Haruka, we wanted to express how she still wants '
+2026-10-06 23:56:20,829:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"While she has a melancholy expression, she\'s leaning her bo'
+2026-10-06 23:56:20,829:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"For Airi-chan, we contrasted the untrained art of her strea'
+2026-10-06 23:56:20,830:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"By putting the untrained art in a bright room and the train'
+2026-10-06 23:56:20,830:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: '"For Shizuku, we contrasted the perfect smile everyone expec'
+2026-10-06 23:56:20,831:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "She's smiling as the 'perfect Shizuku Hinomori,' but the art"
+2026-10-06 23:56:20,832:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'that hint of loneliness and the pain of not being her true s'
+2026-10-06 23:56:20,835:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'The pink of her outfit and hair acts as an accent color agai'
+2026-10-06 23:56:20,837:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: "And the way she's lying on the table allows for so many deep"
+2026-10-06 23:56:20,839:WARNING:autosub.pipeline.translate.main: No safe line break, leaving it over length: 'this edition of ProSeka AfterTalk for the "Jump With You" ev'
+2026-10-06 23:56:20,840:INFO:autosub.pipeline.translate.main: Line breaking split 17 cue(s) that could not fit two lines.
+2026-10-06 23:56:20,844:INFO:autosub.pipeline.translate.main: Writing translated JSON to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_translated.json...
+2026-10-06 23:56:20,866:INFO:autosub.pipeline.translate.main: Writing translated .ass file to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_translated.ass...
+2026-10-06 23:56:20,887:INFO:autosub.pipeline.translate.main: Wrote LLM trace to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_translated.llm_trace.jsonl.
+2026-10-06 23:56:20,887:INFO:autosub.pipeline.translate.main: Translation complete!
+2026-10-06 23:56:20,894:INFO:autosub.cli: [Step 4/4] Postprocessing...
+2026-10-06 23:56:21,097:INFO:autosub.pipeline.postprocess.main: Postprocessing modified subtitle document.
+2026-10-06 23:56:21,114:INFO:autosub.pipeline.postprocess.main: Extended 466 line(s) to close sub-500ms gaps.
+2026-10-06 23:56:21,119:WARNING:autosub.pipeline.postprocess.main: 1 display invariant violation(s) remain in the finished document:
+2026-10-06 23:56:21,119:WARNING:autosub.pipeline.postprocess.main:   26:23.20 [duration] cue-00000412: on screen 40ms, under the 500ms floor
+2026-10-06 23:56:21,120:INFO:autosub.pipeline.postprocess.main: Writing postprocessed JSON to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_postprocessed.json...
+2026-10-06 23:56:21,140:INFO:autosub.pipeline.postprocess.main: Writing postprocessed subtitles to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_final.ass...
+2026-10-06 23:56:21,164:INFO:autosub.cli: Pipeline completed successfully! Final output saved to projects\projects\Project Sekai\Aftertalk\All ways Jump! with you Aftertalk\All ways Jump! with you Aftertalk_final.ass

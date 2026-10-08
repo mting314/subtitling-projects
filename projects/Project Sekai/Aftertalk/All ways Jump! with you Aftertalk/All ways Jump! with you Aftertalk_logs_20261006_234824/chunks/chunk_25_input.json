@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "本当に。",
+    "start_time": 2165.77,
+    "end_time": 2166.27,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "え、でもあの",
+    "start_time": 2166.51,
+    "end_time": 2167.01,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "時々でいいので今みたいなひなもり先輩も見たいな。",
+    "start_time": 2169.0,
+    "end_time": 2172.92,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "なんて。",
+    "start_time": 2173.71,
+    "end_time": 2174.21,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "こんな言われたらもうね。",
+    "start_time": 2174.32,
+    "end_time": 2177.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "そうだよね。",
+    "start_time": 2178.15,
+    "end_time": 2178.65,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "そう言ってもらえて嬉しいよ。",
+    "start_time": 2181.16,
+    "end_time": 2182.6,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "みのりクリニック。",
+    "start_time": 2182.72,
+    "end_time": 2183.6,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "言われてる。",
+    "start_time": 2185.11,
+    "end_time": 2185.61,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "よかったです。",
+    "start_time": 2185.61,
+    "end_time": 2186.11,
+    "speaker": "3",
+    "role": "listener_mail"
+  },
+  {
+    "id": 10,
+    "text": "みのりクリニック最強。",
+    "start_time": 2188.12,
+    "end_time": 2190.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "いや、本当だよね。",
+    "start_time": 2190.12,
+    "end_time": 2190.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "どんな時も求められる姿でいなくちゃと思ってたけど。",
+    "start_time": 2192.72,
+    "end_time": 2197.2,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "気張っちゃうから。",
+    "start_time": 2197.68,
+    "end_time": 2198.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん。",
+    "start_time": 2198.51,
+    "end_time": 2199.01,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "わ、この笑顔。",
+    "start_time": 2200.16,
+    "end_time": 2201.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "あの場所でなら",
+    "start_time": 2201.36,
+    "end_time": 2202.08,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "もう少し力を抜いてもいいのかもしれないわ。",
+    "start_time": 2203.92,
+    "end_time": 2207.56,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "絶対。",
+    "start_time": 2207.73,
+    "end_time": 2208.23,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ありのままのしずくちゃんを受け入れてくれる人はきっといるはずよ。",
+    "start_time": 2209.2,
+    "end_time": 2213.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "え?",
+    "start_time": 2213.81,
+    "end_time": 2214.31,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "今の空耳かしら?",
+    "start_time": 2219.56,
+    "end_time": 2222.48,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "でも",
+    "start_time": 2223.29,
+    "end_time": 2223.79,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "さあね。",
+    "start_time": 2225.39,
+    "end_time": 2225.89,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "うん。",
+    "start_time": 2226.79,
+    "end_time": 2227.29,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "ねえ、みのりちゃん。",
+    "start_time": 2228.48,
+    "end_time": 2229.36,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "よかったらまた一緒にご飯を食べてもいいかしら?",
+    "start_time": 2230.48,
+    "end_time": 2234.04,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "みのりちゃんのこともまた知れたら嬉しいわ。",
+    "start_time": 2235.24,
+    "end_time": 2238.44,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "なんか照れちゃうね、これも。",
+    "start_time": 2238.92,
+    "end_time": 2240.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "照れてきちゃった、なんか。",
+    "start_time": 2241.16,
+    "end_time": 2242.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

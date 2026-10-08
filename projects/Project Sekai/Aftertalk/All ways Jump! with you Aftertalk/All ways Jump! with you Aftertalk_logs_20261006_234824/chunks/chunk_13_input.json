@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "良かった。",
+    "start_time": 1470.18,
+    "end_time": 1471.28,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "誰かの背中を押し続けられるくらい強く",
+    "start_time": 1471.52,
+    "end_time": 1475.52,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "うん、うん。",
+    "start_time": 1476.24,
+    "end_time": 1476.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "それなら",
+    "start_time": 1477.8,
+    "end_time": 1478.36,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ああ、",
+    "start_time": 1482.73,
+    "end_time": 1483.44,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ありがとう。",
+    "start_time": 1483.44,
+    "end_time": 1484.15,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "花里さん。",
+    "start_time": 1485.08,
+    "end_time": 1485.76,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "え?",
+    "start_time": 1487.41,
+    "end_time": 1487.91,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "お礼を言うのは私の方で。",
+    "start_time": 1488.48,
+    "end_time": 1490.2,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うん。",
+    "start_time": 1491.11,
+    "end_time": 1491.61,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "無自覚なんだよね。",
+    "start_time": 1491.76,
+    "end_time": 1492.92,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "みのりちゃんはね。",
+    "start_time": 1492.92,
+    "end_time": 1493.8,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "私",
+    "start_time": 1494.65,
+    "end_time": 1495.15,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "あー。",
+    "start_time": 1494.93,
+    "end_time": 1495.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "明日を頑張る希望をもらったから入るというかね。",
+    "start_time": 1496.04,
+    "end_time": 1500.2,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "うん。",
+    "start_time": 1498.35,
+    "end_time": 1498.85,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 1500.19,
+    "end_time": 1500.69,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ありがとう。",
+    "start_time": 1500.93,
+    "end_time": 1501.43,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "なんかほん、本当の言葉なんだみたいな。",
+    "start_time": 1501.68,
+    "end_time": 1503.8,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "偽りのない真っ直ぐな歌でよければ私のことはそのまま遥って呼んでほしいな。",
+    "start_time": 1504.56,
+    "end_time": 1511.48,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "嬉しいよ。",
+    "start_time": 1511.51,
+    "end_time": 1512.01,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "グッと距離が縮まるね。",
+    "start_time": 1512.72,
+    "end_time": 1514.44,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "敬語じゃなくていいよ。",
+    "start_time": 1514.96,
+    "end_time": 1516.08,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "私もみのりって呼んでいい?",
+    "start_time": 1517.32,
+    "end_time": 1520.0,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "え?",
+    "start_time": 1522.01,
+    "end_time": 1522.51,
+    "speaker": "5",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "あ、",
+    "start_time": 1523.05,
+    "end_time": 1523.55,
+    "speaker": "5",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "はい。",
+    "start_time": 1524.43,
+    "end_time": 1524.93,
+    "speaker": "5",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ちょっと大丈夫です?",
+    "start_time": 1524.72,
+    "end_time": 1526.16,
+    "speaker": "4",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "可愛い。",
+    "start_time": 1526.31,
+    "end_time": 1526.81,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "じゃなくてだよ。",
+    "start_time": 1527.28,
+    "end_time": 1528.52,
+    "speaker": "4",
+    "role": "host"
+  }
+]

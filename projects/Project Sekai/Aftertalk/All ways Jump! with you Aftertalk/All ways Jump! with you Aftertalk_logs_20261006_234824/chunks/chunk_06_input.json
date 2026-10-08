@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "え、確かに。",
+    "start_time": 1003.8,
+    "end_time": 1004.78,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "でもなんか現場だとそうかもスイッチ。",
+    "start_time": 1004.78,
+    "end_time": 1007.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あ、やっぱあるんだスイッチ。",
+    "start_time": 1007.12,
+    "end_time": 1008.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん、ある、ある。",
+    "start_time": 1008.48,
+    "end_time": 1009.12,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "結構家とかだと落ち込むタイプだからえ、そう、そう。",
+    "start_time": 1009.68,
+    "end_time": 1013.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "マジ?",
+    "start_time": 1012.17,
+    "end_time": 1012.67,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "帰ってからじゃあスイッチをオフになってはってあんとちいて",
+    "start_time": 1013.68,
+    "end_time": 1017.96,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "え、そう。",
+    "start_time": 1016.04,
+    "end_time": 1016.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "落ち込んだりとかするけどでも結構あの幸いのことに嫌なこととかあっても忘れちゃうのねすぐ。",
+    "start_time": 1018.12,
+    "end_time": 1025.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "最高。",
+    "start_time": 1026.05,
+    "end_time": 1026.55,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "え、そう。",
+    "start_time": 1026.62,
+    "end_time": 1027.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "寝たらそうだよね。",
+    "start_time": 1027.12,
+    "end_time": 1028.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "寝たら忘れちゃうから。",
+    "start_time": 1028.28,
+    "end_time": 1029.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "それが一番いいよ。",
+    "start_time": 1029.56,
+    "end_time": 1030.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "だからいっぱい寝るようにしてる。",
+    "start_time": 1030.84,
+    "end_time": 1032.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "なんか美味しいもの食べていっぱい寝てちょっとしたらもう忘れてる。",
+    "start_time": 1033.16,
+    "end_time": 1037.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "一番最強。",
+    "start_time": 1039.44,
+    "end_time": 1040.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "本当?",
+    "start_time": 1040.51,
+    "end_time": 1041.01,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "そうだよね。",
+    "start_time": 1041.08,
+    "end_time": 1041.64,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "やっぱいっぱい食べて寝るが",
+    "start_time": 1041.64,
+    "end_time": 1043.64,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "だからなんか忘れられる努力も必要かもしれない。",
+    "start_time": 1044.2,
+    "end_time": 1047.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "あ、そうだよね。",
+    "start_time": 1048.12,
+    "end_time": 1048.88,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "意識してこれはもう一旦置いとこうって切り替える気持ち大事だね。",
+    "start_time": 1048.88,
+    "end_time": 1054.48,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うん。",
+    "start_time": 1054.39,
+    "end_time": 1054.89,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "あ、ちょっと真似してみるね。",
+    "start_time": 1055.68,
+    "end_time": 1057.0,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "本当?",
+    "start_time": 1057.01,
+    "end_time": 1057.695,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ほんちゃんこそいつもなんか現場でこう明るく皆をしてくれて本当にそれに助けられてる部分もあるからそう、",
+    "start_time": 1057.695,
+    "end_time": 1065.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "そう。 私結構さこう真剣になっちゃうタイプだから",
+    "start_time": 1065.08,
+    "end_time": 1067.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "唯ちゃん結構集中してる時",
+    "start_time": 1068.04,
+    "end_time": 1069.44,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "そう、そう。",
+    "start_time": 1069.35,
+    "end_time": 1069.945,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  }
+]

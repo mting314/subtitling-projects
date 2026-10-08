@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "はい。",
+    "start_time": 1737.51,
+    "end_time": 1738.245,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "一緒にご飯食べるのすごく楽しみにしてたので。",
+    "start_time": 1738.245,
+    "end_time": 1741.56,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "確かに。",
+    "start_time": 1741.65,
+    "end_time": 1742.21,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 1741.99,
+    "end_time": 1742.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "うん。",
+    "start_time": 1742.21,
+    "end_time": 1742.77,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "ええ?",
+    "start_time": 1743.45,
+    "end_time": 1744.18,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "あ、",
+    "start_time": 1744.18,
+    "end_time": 1745.06,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "あなたも。",
+    "start_time": 1745.06,
+    "end_time": 1745.71,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "スペシャルゲストの",
+    "start_time": 1749.16,
+    "end_time": 1750.04,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "スペシャルすぎるよ。",
+    "start_time": 1750.16,
+    "end_time": 1751.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "誰読んだ?",
+    "start_time": 1751.31,
+    "end_time": 1751.81,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "ね。",
+    "start_time": 1752.51,
+    "end_time": 1753.01,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "よろしくね。",
+    "start_time": 1753.52,
+    "end_time": 1754.32,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "みのりちゃん。",
+    "start_time": 1755.08,
+    "end_time": 1755.64,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "かわいい。",
+    "start_time": 1756.32,
+    "end_time": 1757.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "はあ。",
+    "start_time": 1757.45,
+    "end_time": 1757.95,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "眩しい。",
+    "start_time": 1758.71,
+    "end_time": 1759.21,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "出てます、オーラが。",
+    "start_time": 1759.2,
+    "end_time": 1760.48,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "眩しい。",
+    "start_time": 1760.61,
+    "end_time": 1761.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "かわいい。",
+    "start_time": 1762.91,
+    "end_time": 1763.41,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "周りの子まで光ってる。",
+    "start_time": 1764.36,
+    "end_time": 1766.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "かわいい。",
+    "start_time": 1766.2,
+    "end_time": 1766.7,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "突然お邪魔してごめんなさいね。",
+    "start_time": 1767.6,
+    "end_time": 1770.28,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "私も入れてもらってもいいかしら?",
+    "start_time": 1771.56,
+    "end_time": 1773.8,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "も、も、も、もちろんです。",
+    "start_time": 1776.2,
+    "end_time": 1776.96,
+    "speaker": "3",
+    "role": "listener_mail"
+  },
+  {
+    "id": 25,
+    "text": "なんなら私少し寄らせていただきます。",
+    "start_time": 1777.8,
+    "end_time": 1780.0,
+    "speaker": "3",
+    "role": "listener_mail"
+  },
+  {
+    "id": 26,
+    "text": "台本で12",
+    "start_time": 1781.84,
+    "end_time": 1783.32,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "なんでそうなるのよ。",
+    "start_time": 1783.8,
+    "end_time": 1784.56,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "今日の主役あんたでしょ。",
+    "start_time": 1785.2,
+    "end_time": 1786.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "え?",
+    "start_time": 1787.41,
+    "end_time": 1787.91,
+    "speaker": "3",
+    "role": "host"
+  }
+]

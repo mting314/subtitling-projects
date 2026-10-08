@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "うん。",
+    "start_time": 1841.19,
+    "end_time": 1841.69,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "でもこれが輝いてるんだ。",
+    "start_time": 1842.48,
+    "end_time": 1844.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "うん。",
+    "start_time": 1845.11,
+    "end_time": 1845.61,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "ほあいりちゃんが",
+    "start_time": 1845.56,
+    "end_time": 1846.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "パワーというかね。",
+    "start_time": 1846.28,
+    "end_time": 1847.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 1847.63,
+    "end_time": 1848.13,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "珍しいのよ。",
+    "start_time": 1848.56,
+    "end_time": 1849.28,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "みのり自身は運がなかったはずなのにそこを乗り越えた先にこんなにも強運の",
+    "start_time": 1849.6,
+    "end_time": 1854.76,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "強運が待ってるんだ。",
+    "start_time": 1855.84,
+    "end_time": 1856.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "誰も褒めてくれないもの。",
+    "start_time": 1858.6,
+    "end_time": 1860.2,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "たまに褒めれば十分でしょ。",
+    "start_time": 1861.64,
+    "end_time": 1863.2,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "みずしずくとあいりちゃんが",
+    "start_time": 1864.12,
+    "end_time": 1865.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "うん。",
+    "start_time": 1864.99,
+    "end_time": 1865.49,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "2人はとても仲良しなんですね。",
+    "start_time": 1865.76,
+    "end_time": 1867.64,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "あ、そういえば",
+    "start_time": 1868.64,
+    "end_time": 1869.6,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "改めてさ、この2人の話が読んですごいいいなと思った。",
+    "start_time": 1869.76,
+    "end_time": 1873.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "しほちゃんってひなもりしほちゃんの妹さんのですよね。",
+    "start_time": 1874.0,
+    "end_time": 1876.96,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "そうだね。",
+    "start_time": 1877.31,
+    "end_time": 1877.81,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "うん。",
+    "start_time": 1877.61,
+    "end_time": 1878.11,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "絶妙な",
+    "start_time": 1878.32,
+    "end_time": 1879.04,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "絶妙な",
+    "start_time": 1879.16,
+    "end_time": 1879.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "みのりちゃん",
+    "start_time": 1880.12,
+    "end_time": 1880.72,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "私たちは割とその天然",
+    "start_time": 1881.52,
+    "end_time": 1883.24,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "妹とお友達なの?",
+    "start_time": 1883.48,
+    "end_time": 1884.68,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "ふんわりしてる。",
+    "start_time": 1885.16,
+    "end_time": 1885.84,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "はい。",
+    "start_time": 1885.99,
+    "end_time": 1886.49,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "そんな感じだよ。",
+    "start_time": 1886.56,
+    "end_time": 1887.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "たくさん頼ってます。",
+    "start_time": 1887.48,
+    "end_time": 1888.4,
+    "speaker": "3",
+    "role": "listener_mail"
+  },
+  {
+    "id": 28,
+    "text": "ごめんしてくれるし。",
+    "start_time": 1888.52,
+    "end_time": 1889.44,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "しっかしてると引っ張ってます。",
+    "start_time": 1889.72,
+    "end_time": 1891.4,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  }
+]

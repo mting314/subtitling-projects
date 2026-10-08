@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "この思いを胸に。",
+    "start_time": 1577.6,
+    "end_time": 1579.2,
+    "speaker": "4",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "あー。",
+    "start_time": 1582.7,
+    "end_time": 1583.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "あー。",
+    "start_time": 1583.2,
+    "end_time": 1583.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "そうなんです。",
+    "start_time": 1583.24,
+    "end_time": 1585.8,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 4,
+    "text": "やっぱここはみのりのねこの言葉が響いたってところがはい、やっぱり良かった。",
+    "start_time": 1585.8,
+    "end_time": 1593.68,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 1591.61,
+    "end_time": 1592.11,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "はい、あ、すいません。",
+    "start_time": 1594.88,
+    "end_time": 1595.96,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "先に話しちゃった。",
+    "start_time": 1595.96,
+    "end_time": 1597.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "話してこう。",
+    "start_time": 1598.44,
+    "end_time": 1599.12,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "そう、もう今話しちゃいましたけどやっぱりこのみのりの何気ない一言この素直なピュアな心の言葉が遥のこの胸にもすっとこう通ってそれが結果遥自身を励ますことができたりとかなんかまたそれが遥も自信に繋がったりとかだこの2人の関係性って言うのかながすごいこう描かれているなと思ってそう、",
+    "start_time": 1599.28,
+    "end_time": 1626.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "確かに。",
+    "start_time": 1625.47,
+    "end_time": 1625.97,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "そう。",
+    "start_time": 1626.32,
+    "end_time": 1626.94,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "かつなんかなんかちょっとなんだろう切なくもあり感動もあり温かさもありだよもありみたいな。",
+    "start_time": 1626.94,
+    "end_time": 1634.88,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "外せませんよだよ。",
+    "start_time": 1635.88,
+    "end_time": 1636.92,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "もういろんな要素がぎゅっとこう詰まってて素敵なエピソードだなと思いました。",
+    "start_time": 1637.04,
+    "end_time": 1643.2,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 15,
+    "text": "この2人の良さがぎゅっと詰まったストーリーだったね。",
+    "start_time": 1643.4,
+    "end_time": 1647.335,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 1645.59,
+    "end_time": 1646.09,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "うん。",
+    "start_time": 1647.335,
+    "end_time": 1647.945,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "いかがでしたでしょうかね。",
+    "start_time": 1647.945,
+    "end_time": 1649.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "ありがとうございました。",
+    "start_time": 1650.04,
+    "end_time": 1651.24,
+    "speaker": "2",
+    "role": "listener_mail"
+  },
+  {
+    "id": 20,
+    "text": "皆も最高だみのり。",
+    "start_time": 1651.24,
+    "end_time": 1653.28,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "だよ。",
+    "start_time": 1656.25,
+    "end_time": 1656.75,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "だよ。",
+    "start_time": 1656.71,
+    "end_time": 1657.21,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "だよ一番大事。",
+    "start_time": 1657.36,
+    "end_time": 1658.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "だよ書いてる人いる。",
+    "start_time": 1658.52,
+    "end_time": 1659.44,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "それな。",
+    "start_time": 1660.21,
+    "end_time": 1660.71,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "是非、是非だよ何回も聞いてください。",
+    "start_time": 1660.76,
+    "end_time": 1663.4,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "ね、皆使っていこう。",
+    "start_time": 1663.48,
+    "end_time": 1664.48,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "はい。",
+    "start_time": 1664.81,
+    "end_time": 1665.31,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "はい、ありがとうございます。",
+    "start_time": 1667.04,
+    "end_time": 1668.76,
+    "speaker": "2",
+    "role": "listener_mail"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": 0,
+    "text": "配信ご覧の皆さん、いかがでしたか?",
+    "start_time": 3218.78,
+    "end_time": 3221.5,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 1,
+    "text": "本当コメント盛り上がっていただいて本当にありがとうございます。",
+    "start_time": 3221.5,
+    "end_time": 3224.48,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 2,
+    "text": "本当に嬉しい、ありがとう。",
+    "start_time": 3224.6,
+    "end_time": 3226.2,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 3226.41,
+    "end_time": 3226.91,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "ね、笑ってるのに切ない。",
+    "start_time": 3228.04,
+    "end_time": 3229.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "うん。",
+    "start_time": 3229.63,
+    "end_time": 3230.13,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "影がある感じもいい。",
+    "start_time": 3230.72,
+    "end_time": 3231.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "そうなんだよね、こんな表情してるももジャン。",
+    "start_time": 3233.32,
+    "end_time": 3235.82,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "やっぱなかなかレアというかね。",
+    "start_time": 3235.82,
+    "end_time": 3238.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "うん。",
+    "start_time": 3237.67,
+    "end_time": 3238.17,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "いかにこの4人が最高かっていうのを感じるね。",
+    "start_time": 3239.6,
+    "end_time": 3242.6,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "本当だね。",
+    "start_time": 3242.72,
+    "end_time": 3243.345,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "うん。",
+    "start_time": 3243.19,
+    "end_time": 3243.69,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "うん。",
+    "start_time": 3243.345,
+    "end_time": 3243.95,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "出会えてよかったよ。",
+    "start_time": 3244.2,
+    "end_time": 3245.2,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "よかった。",
+    "start_time": 3245.32,
+    "end_time": 3246.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 3246.27,
+    "end_time": 3246.77,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "改めてももジャン最高ってなるね。",
+    "start_time": 3247.44,
+    "end_time": 3251.36,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "いや、本当に。",
+    "start_time": 3252.08,
+    "end_time": 3252.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "なんか私たちも再確認というかねチームの強さというか、",
+    "start_time": 3253.28,
+    "end_time": 3258.18,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "うん、改めて",
+    "start_time": 3256.2,
+    "end_time": 3257.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "まあ、本当にできたかなって思いました。",
+    "start_time": 3258.18,
+    "end_time": 3261.08,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 22,
+    "text": "思いました。",
+    "start_time": 3261.36,
+    "end_time": 3262.16,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 23,
+    "text": "ということで今回のイベントを",
+    "start_time": 3262.72,
+    "end_time": 3265.04,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  }
+]

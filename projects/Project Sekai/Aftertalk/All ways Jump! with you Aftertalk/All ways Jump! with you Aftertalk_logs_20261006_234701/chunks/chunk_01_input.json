@@ -1,0 +1,179 @@
+[
+  {
+    "id": 0,
+    "text": "せーのプロセカアフタートークアフタートークwithyou",
+    "start_time": 596.0,
+    "end_time": 602.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "はい、皆さんこんばんは。",
+    "start_time": 606.36,
+    "end_time": 608.52,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "ももジャンプ華房寧々役の谷はゆいと",
+    "start_time": 608.52,
+    "end_time": 611.36,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "はい、ひのもりしずく役穂泉鈴奈です。",
+    "start_time": 611.68,
+    "end_time": 614.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "お願いします。",
+    "start_time": 614.92,
+    "end_time": 615.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "お願いします。",
+    "start_time": 615.8,
+    "end_time": 616.76,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "このプロセカアフタートークは皆さんからいただいたおたよりを紹介しながらイベントを振り返る番組となっております。",
+    "start_time": 618.12,
+    "end_time": 625.7,
+    "speaker": "Yui Ogura",
+    "role": "host",
+    "corner": "Fan Letter Corner"
+  },
+  {
+    "id": 7,
+    "text": "今回はアフタートークwithyou編となっていまして、皆さんストーリーはお楽しみいただけましたでしょうか?",
+    "start_time": 625.7,
+    "end_time": 633.32,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "皆さんどうですか?",
+    "start_time": 633.4,
+    "end_time": 634.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "どうですかね?",
+    "start_time": 634.64,
+    "end_time": 635.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "コメントあ、こんばんは皆言ってる。",
+    "start_time": 635.4,
+    "end_time": 638.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "うん。",
+    "start_time": 635.97,
+    "end_time": 636.47,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "本当?",
+    "start_time": 638.3,
+    "end_time": 638.8,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "こんばんは。",
+    "start_time": 638.8,
+    "end_time": 639.6,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 14,
+    "text": "こんばんは。",
+    "start_time": 639.61,
+    "end_time": 640.11,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 15,
+    "text": "うん、うん。",
+    "start_time": 641.97,
+    "end_time": 642.47,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "ほんちゃん",
+    "start_time": 643.55,
+    "end_time": 644.05,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 17,
+    "text": "ほんちゃん、ほんちゃん。",
+    "start_time": 644.36,
+    "end_time": 645.24,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 18,
+    "text": "ほんちゃんです。",
+    "start_time": 645.92,
+    "end_time": 646.72,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 19,
+    "text": "ストーリー泣きました。",
+    "start_time": 647.36,
+    "end_time": 648.5,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 20,
+    "text": "ね、皆多分それぞれ感想あると思うんですが、この後も2人でしっかり触れていこう",
+    "start_time": 648.5,
+    "end_time": 656.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "うん、うん。",
+    "start_time": 651.08,
+    "end_time": 651.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

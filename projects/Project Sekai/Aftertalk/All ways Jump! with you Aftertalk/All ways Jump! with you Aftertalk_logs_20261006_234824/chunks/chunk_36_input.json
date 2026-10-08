@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "お茶会。",
+    "start_time": 2897.12,
+    "end_time": 2897.845,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "そして、あ、",
+    "start_time": 2897.845,
+    "end_time": 2898.51,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "特訓前。",
+    "start_time": 2899.08,
+    "end_time": 2899.72,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 3,
+    "text": "これも可愛いよね。",
+    "start_time": 2899.84,
+    "end_time": 2901.68,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "なんかさ、こう",
+    "start_time": 2903.68,
+    "end_time": 2905.08,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 5,
+    "text": "日常に溢れるこの切り取った感じ。",
+    "start_time": 2906.2,
+    "end_time": 2909.68,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "うん。",
+    "start_time": 2909.81,
+    "end_time": 2910.31,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "ね、ずっと続けよこの時間って感じ。",
+    "start_time": 2910.92,
+    "end_time": 2912.68,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 8,
+    "text": "わかるね。",
+    "start_time": 2912.69,
+    "end_time": 2913.215,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "なんかすごいありがとうございますみたいな感じだよね。",
+    "start_time": 2913.215,
+    "end_time": 2915.96,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "こんなね、素敵なひとコマを見せていただいてみたいな。",
+    "start_time": 2916.24,
+    "end_time": 2920.12,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "みのりちゃんも嬉しそうね。",
+    "start_time": 2921.08,
+    "end_time": 2922.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "可愛いな。",
+    "start_time": 2922.76,
+    "end_time": 2923.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "このみのりちゃん見つめるはるかちゃんの優しい目を。",
+    "start_time": 2923.72,
+    "end_time": 2926.0,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん、うん。",
+    "start_time": 2926.03,
+    "end_time": 2926.53,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "本当にラフなさ、こう衣装というかさもいいよね。",
+    "start_time": 2927.2,
+    "end_time": 2931.28,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "うん。",
+    "start_time": 2929.99,
+    "end_time": 2930.49,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "ジャージ、Tシャツ。",
+    "start_time": 2931.4,
+    "end_time": 2932.52,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "こう頑張ってる感じというか、ナチュラルな感じだ。",
+    "start_time": 2932.64,
+    "end_time": 2935.385,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "うん。",
+    "start_time": 2935.385,
+    "end_time": 2935.91,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "ボール持ってる。",
+    "start_time": 2936.28,
+    "end_time": 2937.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "あれか、あの、ドッヂボールみんなでやってた時とかのやつかな。",
+    "start_time": 2938.0,
+    "end_time": 2942.04,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "可愛い。",
+    "start_time": 2942.17,
+    "end_time": 2942.67,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "可愛い。",
+    "start_time": 2942.93,
+    "end_time": 2943.43,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "本当。",
+    "start_time": 2944.01,
+    "end_time": 2944.515,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "この時間守りたいよ、この2人の笑顔。",
+    "start_time": 2944.515,
+    "end_time": 2946.92,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "でも続いて愛莉ちゃん。",
+    "start_time": 2948.24,
+    "end_time": 2950.08,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "うん。",
+    "start_time": 2950.07,
+    "end_time": 2950.57,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "特訓5です。",
+    "start_time": 2951.2,
+    "end_time": 2952.12,
+    "speaker": "Rina Honnizumi",
+    "role": "listener_mail"
+  },
+  {
+    "id": 29,
+    "text": "もう。",
+    "start_time": 2953.4,
+    "end_time": 2954.12,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "text": "ではでは続いて",
+    "start_time": 1669.76,
+    "end_time": 1671.24,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 1,
+    "text": "続いては私がえーと選んだのがしずく",
+    "start_time": 1671.52,
+    "end_time": 1676.0,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 2,
+    "text": "の後編になります。",
+    "start_time": 1676.0,
+    "end_time": 1677.6,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 3,
+    "text": "うん。",
+    "start_time": 1677.49,
+    "end_time": 1677.99,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 4,
+    "text": "これもみんなで一緒に見ていこうと思います。",
+    "start_time": 1678.16,
+    "end_time": 1681.36,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 5,
+    "text": "どうぞ。",
+    "start_time": 1682.51,
+    "end_time": 1683.01,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 6,
+    "text": "木の下のベンチに座ってるわね。",
+    "start_time": 1687.4,
+    "end_time": 1689.92,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 7,
+    "text": "お昼ご飯を食べます。",
+    "start_time": 1690.48,
+    "end_time": 1691.64,
+    "speaker": "Yui Ogura",
+    "role": "listener_mail"
+  },
+  {
+    "id": 8,
+    "text": "そうだね。",
+    "start_time": 1691.76,
+    "end_time": 1692.32,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 9,
+    "text": "場所連絡したからもうすぐ来ると思うわ。",
+    "start_time": 1692.52,
+    "end_time": 1694.76,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 10,
+    "text": "ありがとう。",
+    "start_time": 1696.24,
+    "end_time": 1696.8,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 11,
+    "text": "花咲とみのりちゃんやね。",
+    "start_time": 1698.2,
+    "end_time": 1700.52,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 12,
+    "text": "楽しみだな。",
+    "start_time": 1701.96,
+    "end_time": 1702.72,
+    "speaker": "3",
+    "role": "host"
+  },
+  {
+    "id": 13,
+    "text": "私このみのり花咲とみのりちゃんも現滅させてしまわないように気をつけなくちゃ。",
+    "start_time": 1703.36,
+    "end_time": 1709.88,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 14,
+    "text": "うん、うん、うん。",
+    "start_time": 1710.01,
+    "end_time": 1710.51,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 15,
+    "text": "あえて慣れない感じを出すのにちょっと苦労した。",
+    "start_time": 1712.36,
+    "end_time": 1715.64,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 16,
+    "text": "確かに。",
+    "start_time": 1715.85,
+    "end_time": 1716.35,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 17,
+    "text": "出てたよ。",
+    "start_time": 1717.68,
+    "end_time": 1718.2,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 18,
+    "text": "あ、出てた?",
+    "start_time": 1718.59,
+    "end_time": 1719.09,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 19,
+    "text": "めっちゃ出てた。",
+    "start_time": 1719.2,
+    "end_time": 1719.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 20,
+    "text": "確かに。",
+    "start_time": 1719.89,
+    "end_time": 1720.39,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 21,
+    "text": "確かに。",
+    "start_time": 1721.2,
+    "end_time": 1721.72,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 22,
+    "text": "そしてこのドドドね。",
+    "start_time": 1722.12,
+    "end_time": 1723.24,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 23,
+    "text": "うん。",
+    "start_time": 1723.23,
+    "end_time": 1723.73,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 24,
+    "text": "台本にも書いてましたよ。",
+    "start_time": 1725.44,
+    "end_time": 1726.76,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 25,
+    "text": "スピード。",
+    "start_time": 1726.85,
+    "end_time": 1727.35,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 26,
+    "text": "ドタドタ走ってくるみのりって書いてあったよ。",
+    "start_time": 1727.68,
+    "end_time": 1730.16,
+    "speaker": "Rina Honnizumi",
+    "role": "host"
+  },
+  {
+    "id": 27,
+    "text": "間に合わせたも何もさっき連絡したばっかりよ。",
+    "start_time": 1730.28,
+    "end_time": 1732.84,
+    "speaker": "2",
+    "role": "host"
+  },
+  {
+    "id": 28,
+    "text": "かわいい。",
+    "start_time": 1733.63,
+    "end_time": 1734.13,
+    "speaker": "Yui Ogura",
+    "role": "host"
+  },
+  {
+    "id": 29,
+    "text": "とても急いで来てくれたみたいね。",
+    "start_time": 1734.28,
+    "end_time": 1736.4,
+    "speaker": "2",
+    "role": "host"
+  }
+]
