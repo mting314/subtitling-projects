@@ -156,4 +156,7 @@ Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
 
 ## Distribution
 - **Target**: Google Drive (DO NOT upload to YouTube — Content ID / copyright strike risk)
-- **Status**: Pending user QC checks before final Google Drive export
+- **Drive Link**: https://drive.google.com/file/d/1CtXcmSGWuDhLAWCf7bCQ1VFgxgFDgwcA/view?usp=drivesdk
+- **File ID**: `1CtXcmSGWuDhLAWCf7bCQ1VFgxgFDgwcA`
+- **Access**: Anyone with the link (Viewer)
+- **Status**: Published to Google Drive

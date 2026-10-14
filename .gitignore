@@ -21,9 +21,10 @@ transcript.txt
 .venv/
 subtitling-projects/
 
-# YouTube uploader OAuth credentials / tokens (NEVER commit)
+# YouTube / Google Drive uploader OAuth credentials / tokens (NEVER commit)
 scripts/client_secret*.json
 scripts/*client_secret*.json
 scripts/.youtube_token*.json
+scripts/.gdrive_token*.json
 
 concat.txt

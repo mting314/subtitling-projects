@@ -150,6 +150,21 @@ Defaults to `PRIVATE`. Never set `public` or `unlisted` unless explicitly instru
 
 ---
 
+## 7. Google Drive upload (`scripts/gdrive_upload.py`)
+
+For releases facing YouTube Content ID or copyright strikes (such as paid stage readings, live anniversary concerts, or copyright-sensitive events):
+
+```bash
+uv run --script scripts/gdrive_upload.py \
+  --video "<path_to_hardsubbed.mp4>" \
+  --notes "<path_to_notes.md>" \
+  --public --yes
+```
+
+Uploads via resumable chunks, sets public viewer access (`anyone` with role `reader`), and records the shareable link in `notes.md` under `## Distribution`.
+
+---
+
 ## Guardrails
 - **Overlays**: Check `popups.json` before hardsubbing. No uncommitted assets.
 - **Positional**: Only Alignment + MarginL/R/V change; never recolor or wipe existing `\pos`.

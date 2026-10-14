@@ -263,6 +263,16 @@ uv run --script scripts/youtube_upload.py \
   --notes "projects/Project Sekai/Aftertalk/<event>/notes.md"
 ```
 
+### Google Drive Upload (`scripts/gdrive_upload.py`)
+For projects with copyright risk on YouTube (e.g. paid anniversary events, live concerts, stage reading dramas):
+```bash
+uv run --script scripts/gdrive_upload.py \
+  --video "projects/Project Sekai/Events/<event>/<name>_hardsubbed.mp4" \
+  --notes "projects/Project Sekai/Events/<event>/notes.md" \
+  --public --yes
+```
+Uploads via resumable upload, automatically grants public viewer access (`anyone` with role `reader`), prints the shareable link, and appends it to `notes.md` under `## Distribution`.
+
 ## Git Conventions
 
 - `project-shortname: description` for project work
