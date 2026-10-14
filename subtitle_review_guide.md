@@ -313,8 +313,8 @@ python3 scripts/apply_positional_styles.py "projects/Project Sekai/Aftertalk/<ev
 
 Mapping: `TARGET_STYLE:REF_STYLE[:X,Y]`. It copies only Alignment + MarginL/R/V (color/font
 preserved), prepends `{\pos(650,750)}` to PiP *Dialogue* lines, and skips `Comment:` lines
-and any line already carrying a `\pos`. The **`aftertalk-launch` skill** wraps this
-(along with hardsub segment-finding and the YouTube title/description) — it resolves
+and any line already carrying a `\pos`. The **`video-launch` skill** (formerly `aftertalk-launch`) wraps this
+(along with overlay pre-flight checks, hardsub rendering, and YouTube publishing) — it resolves
 the differing style names to roles and render-verifies for you.
 
 Then **verify by rendering** (per the `aegisub-ass` skill): retime one PiP and one

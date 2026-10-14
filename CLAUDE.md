@@ -98,7 +98,7 @@ Process: extract dialogue with awk (the `.ass` can be 1+ MB due to embedded `img
 
 **Line length (max 2 rows):** 3+ rows is bad practice. Detect by rendering with `scripts/detect_long_lines.py` (via `uv run --with pillow --with numpy`); fix each flagged line by splitting into two events or rewording, then re-run to confirm 0 flagged. See "Dimension 5" in [`subtitle_review_guide.md`](subtitle_review_guide.md).
 
-**Launch workflow:** the **`aftertalk-launch`** skill (`.claude/skills/`) is the self-contained finishing guide covering positional styles, line-length QC (`scripts/detect_long_lines.py`), hardsub segment-finding (`scripts/find_segments.py`), and the YouTube title + description in one place.
+**Launch workflow:** the **`video-launch`** skill (`.claude/skills/video-launch/SKILL.md`, formerly `aftertalk-launch`) is the universal finishing guide covering positional styles, line-length QC (`scripts/detect_long_lines.py`), **overlays & popups pre-flight audit (`popups.json`)**, hardsub rendering (`scripts/hardsub_trim.py`), and the YouTube title + description in one place.
 
 ## Post-Pipeline: Hardsub + Trim
 
@@ -171,6 +171,14 @@ For reference images, VA photos, or meme popups (e.g., Gachapin, VA cards):
 > **Case matters.** Keep `image` byte-identical to the filename on disk. macOS is
 > case-insensitive so a mismatch works locally and then fails in the Linux Docker remote.
 
+#### Mandatory Pre-Flight Overlay Checklist
+Before running `scripts/hardsub_trim.py` or uploading to YouTube:
+1. **Audit `notes.md` (`## Overlays`) & QC notes**: Check if any visual moments, meme popups, reaction stamps, or VA cards were discussed.
+2. **Verify `popups.json`**: Ensure `popups.json` exists in the project folder with valid `image`, `pos: [X, Y]`, and timestamps.
+3. **Commit Assets**: Ensure all raw/finished overlay images and animated GIFs are committed inside the project folder (or franchise `official_cast_photos/`), never left in scratch directories.
+4. **Deconflict Subtitles**: If a stamp/graphic replaces spoken words or acts as a reaction, comment out the corresponding `.ass` subtitle event (`Comment:`) so text doesn't collide with the graphic.
+5. **Render-Verify**: Render a quick test frame or short clip at the overlay timestamp before full encoding.
+
 ### Migrating legacy `img2ass` projects
 
 Older projects embedded the image **into the `.ass`** as a `\p` vector drawing (one 1px-tall
@@ -199,8 +207,17 @@ Measured on the two migrated events: `1.3M → 72K` and `760K → 56K`.
 
 ### `scripts/hardsub_trim.py`
 
-Python tool in `scripts/` (run from repo root). Handles single or multiple segments with parallel GPU encoding, automatic `popups.json` card overlays, smooth 0.4s video/audio fade transitions at boundaries, and seamless concatenation.
+Python tool in `scripts/` (run from repo root). Auto-detects GPU hardware acceleration (`h264_nvenc` / `h264_videotoolbox` / `libx264`), burns subtitles, loops animated GIFs and composites all overlays from `popups.json`.
 
+**Full video (Events, Stage Dramas, Radio)** — omit timestamps to hardsub the entire video without cuts or fades:
+```bash
+uv run python scripts/hardsub_trim.py \
+  "projects/Project Sekai/Events/<event>/<name>.mkv" \
+  "projects/Project Sekai/Events/<event>/<name>.ass" \
+  "projects/Project Sekai/Events/<event>/<name>_hardsubbed.mp4"
+```
+
+**Trimmed segments (AfterTalks)** — pass pairs of start/end timestamps to encode in parallel with 0.4s fade transitions and concatenate:
 ```bash
 uv run python scripts/hardsub_trim.py \
   "projects/Project Sekai/Aftertalk/<event>/<name>.mkv" \

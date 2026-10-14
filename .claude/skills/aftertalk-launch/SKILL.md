@@ -1,179 +1,24 @@
 ---
 name: aftertalk-launch
 description: >-
-  Use when finishing a ProSeka AfterTalk (or similar) `_translated.ass` for
-  release, after the QC text pass — the layout + publish steps in one place:
-  (1) applying PiP / song-shift positional styles, (2) detecting + fixing lines
-  that render to 3+ rows, (3) finding hardsub keep-segments (cutting the intro
-  delay, PV, story watchalong, and song/2DMV), and (4) writing the YouTube title
-  + description. Self-contained: drives `apply_positional_styles.py`,
-  `detect_long_lines.py`, `find_segments.py`, and `hardsub_trim.sh`, and inlines
-  the YouTube blurb style rules. The scripts live in `scripts/` under the projects
-  repo root. Composes with the `aegisub-ass` skill for render verification.
+  Finishing pass for ProSeka AfterTalk streams (and alias for video-launch).
+  Covers (1) positional styles, (2) line length QC, (3) Overlays & Popups pre-flight
+  audit (popups.json), (4) watchalong segment cutting and hardsubbing, and (5) YouTube publish.
+  For all general video releases (Events, Stage Dramas, Radio), use `video-launch`.
 ---
 
-# AfterTalk launch (positioning → hardsub → publish)
+# AfterTalk Launch (Alias of `video-launch`)
 
-The finishing pass on a `_translated.ass`, after the four-dimension QC text review
-(that's in `subtitle_review_guide.md`). Four steps, each backed by a deterministic
-script in **`scripts/`** under the projects repo root so this skill only supplies
-judgment. Run everything from the projects repo root (paths below are `scripts/…`).
+> [!NOTE]
+> This skill has been generalized to **[`video-launch`](../video-launch/SKILL.md)** to support all video formats (AfterTalks, Stage Dramas, Event streams, and Radio shows). See [`video-launch/SKILL.md`](../video-launch/SKILL.md) for the universal reference.
 
-1. **Positional styles** — reposition subs so they clear on-screen content.
-2. **Line length** — flag + fix any line rendering to 3+ rows (do after positional,
-   since PiP/Side-Song lines wrap narrower and are the main offenders).
-3. **Hardsub segments** — find the host-talk ranges to keep and burn them in.
-4. **YouTube title + description** — write the release copy.
+The finishing pass on an AfterTalk `_translated.ass`, after the four-dimension QC text review:
 
----
+1. **Positional styles** — reposition subs so they clear on-screen content (PiP mid-frame, Side-Song lower-right shift).
+2. **Line length** — flag + fix any line rendering to 3+ rows (`detect_long_lines.py`).
+3. **Overlays & Popups pre-flight** — audit `popups.json`, verify VA card / meme assets, deconflict lines.
+4. **Hardsub segments** — find host-talk ranges (`find_segments.py`) and burn with GPU acceleration (`hardsub_trim.py`).
+5. **YouTube title + description** — write release copy in `notes.md`.
+6. **YouTube upload** — automated upload via `scripts/youtube_upload.py`.
 
-## 1. Positional styles (PiP / song-shift)
-
-Repositions subtitles so they never sit on top of on-screen content. The pipeline
-pre-assigns the style *names* to the right line ranges but usually ships them as
-plain copies of the main style (wrong margins) with no `\pos` on PiP lines. The
-script fixes both, copying layout from a known-good reference; this skill resolves
-the per-episode style names to roles (they differ per character).
-
-| Role | When | Reference style (Colors of Pure Sense) | Gets `\pos`? |
-|---|---|---|---|
-| **pip** | host cam / card art fills the frame; subs sit mid-frame | `PiP` (Alignment 8, margins 100/800/50) | yes — `{\pos(650,750)}` per line |
-| **shift** | a 2D/3D MV plays lower-right; shift subs left to clear it | `DefaultOnibe - Shifted` (Alignment 2, margins 100/730/60) | no — style margins do it |
-
-**Discover** the target's positional styles, then infer role from name tokens
-(`PiP`→pip; `Shifted`/`Side Song`/`Shift`→shift) and **confirm with the user**:
-```bash
-f="projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass"
-grep -oE "^Dialogue: [0-9]+,[^,]+,[^,]+,[^,]+" "$f" | awk -F, '{print $4}' | sort | uniq -c
-grep "^Style:" "$f"
-```
-**Apply** (copies only Alignment + MarginL/R/V — color/font preserved; skips
-`Comment:` and already-positioned lines; idempotent, `--dry-run`):
-```bash
-python3 scripts/apply_positional_styles.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
-  --reference "projects/Project Sekai/Events/Colors of Pure Sense/Colors of Pure Sense_translated.ass" \
-  --pip   "<Char> - PiP:PiP:650,750" \
-  --shift "<Char> - Side Song:DefaultOnibe - Shifted" \
-  --dry-run
-```
-Mapping: `TARGET_STYLE:REF_STYLE[:X,Y]`; `--pip`/`--shift` repeatable per character.
-Confirm the target and reference share the same `PlayResX/Y`.
-
-**Verify by rendering** (defer to the `aegisub-ass` skill): retime one pip and one
-shift line to `0:00:00.00–0:00:05.00`, render a frame over flat gray, and confirm
-the pip text sits mid-frame and the shift text clears the lower-right.
-
----
-
-## 2. Line length (max 2 rows on screen)
-
-3+ rows is bad practice (eye-sweep, screen real estate). Row count depends on libass's
-actual wrapping under each line's *style*, so measure by rendering. Run after positional
-(PiP wraps ~1020px, Side-Song ~1090px vs main ~1320px — the narrow ones are the offenders)
-and after any text edits (a reword changes wrapping).
-
-Detect (renders each line under its style over black, counts rows by projection):
-```bash
-uv run --with pillow --with numpy python3 scripts/detect_long_lines.py \
-  "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass"
-```
-For each flagged line, offer the user **both** fixes and apply their choice:
-- **Split into two events** at a clause boundary (comma, `and`/`but`/`so`, `that`, sentence
-  end) with `scripts/split_subtitle_line.py --line N --before "<clause>" --transcript <t.json>`.
-  It sets the *time* split on a real breath: proportional-by-length estimate, then snaps
-  to the largest word-gap within ±1s of it (rejecting distant mid-sentence pauses and any
-  snap that leaves a half too short to read). Preserves exact wording + `\pos`.
-- **Reword shorter**, preserving meaning + casual style.
-
-Prefer split for two real clauses/sentences or a natural `...` pause; reword for a single
-breath. **Re-render every candidate fix and confirm ≤2 rows before presenting/applying**,
-then re-run the detector — target is 0 flagged. (Requires pillow + numpy via `uv run --with`.)
-
----
-
-## 3. Hardsub segments (find keep-ranges → burn)
-
-An AfterTalk interleaves host talk (keep) with watchalongs (cut): intro delay, an
-opening PV/digest, the in-game story watchalong, and the song/2DMV. Cut regions are
-non-rendering `Comment:` lines (or nothing), so they appear as **gaps** in the
-rendered `Dialogue` timeline. `find_segments.py` finds them and, with
-`--transcript`, reports whether each gap is silent (safe) or watchalong audio.
-
-```bash
-python3 scripts/find_segments.py "projects/Project Sekai/Aftertalk/<event>/<name>_translated.ass" \
-  --transcript "projects/Project Sekai/Aftertalk/<event>/<name>_transcript.json" \
-  --hardsub "projects/Project Sekai/Aftertalk/<event>/<name>.mkv:projects/Project Sekai/Aftertalk/<event>/<name>_final.mp4"
-```
-Read the CUT regions: `~0 words` = silent (safe to drop); many words = a story/song
-watchalong you're intentionally cutting (its own audio, not host talk). **Confirm
-the cut plan with the user** before rendering — cutting is an editorial call, and
-the render is expensive. Record the ranges in the project's `notes.md` "Segments".
-
-**Fade-aware boundaries:** passing `--mkv` (or `--hardsub`, which reuses its MKV)
-makes it run `blackdetect` near each boundary and pull the cut just clear of any
-source fade. Watchalongs/MVs fade to/from black at their edges; the pad can push a
-cut into a fade, and two cut-adjacent half-fades meeting at a concat join produce a
-black flash. It emits sub-second boundaries — no subtitles lost (the pad region is
-sub-free). The script reports e.g. `end 0:51:00->0:50:59.69 (source fade)`.
-
-Then **hardsub** (the `--hardsub` flag prints this command; must hardsub before
-trimming — trimming invalidates .ass timestamps):
-```bash
-uv run python scripts/hardsub_trim.py "<name>.mkv" "<name>_translated.ass" "<name>_hardsubbed.mp4" \
-  0:01:37 0:05:27  0:10:53 0:27:40  0:36:05 0:51:00  0:52:25 1:00:09
-```
-Handles parallel GPU encoding (`h264_nvenc`), automatic `popups.json` VA/gachapin overlay card compositing, smooth 0.4s video + audio fade-in/fade-out transitions at segment boundaries, and concatenation into the final video.
-
----
-
-## 4. YouTube title + description
-
-Write these into the project's `notes.md` (`## YouTube Title`, `## YouTube Blurb`).
-
-**Title** — `[ENG SUB] <Event Title> Aftertalk feat. <VA Name> (<Character>'s VA)`
-e.g. `[ENG SUB] Gazing Upon the Night Sky's Fading Stars Aftertalk feat. Karin Isobe (Saki's VA)`.
-
-**Blurb** — two paragraphs, casual and enthusiastic, recap voice (fans who want a
-recap, not a teaser). Style rules:
-
-1. **No em dashes (`—`).** Use commas, parentheses, or separate clauses. Scan the
-   draft and replace any `—` before saving.
-2. **Open with the series framing:** `This episode of ProSeka AfterTalk has <VA name>
-   (voice of <character>) covering <event/topic>...`. It's a recurring series, so
-   "this episode of," not "in the AfterTalk."
-3. **Weave personality into substance.** The spine is the substantive coverage
-   (story, card art, song, recording); pair each topic with a personality detail
-   from that same topic (e.g. discussing the song *and* fumbling "2DMV"). Don't
-   ghetto the silly bits into their own paragraph.
-4. **No hook sentences** ("Bonus:", "Don't miss...", "Plus:"). Keep the descriptive
-   recap voice throughout.
-
-End with `Original video: <url>`.
-
-Structure to mirror: paragraph 1 identifies VA + event + framing (solo/duo host,
-what she watches); paragraph 2 covers story/recording, card illustrations, and the
-song/MV, with personality woven in. See `Grow Glorious Glow Aftertalk/notes.md` or
-`Gazing Upon the Night Sky's Fading Stars Aftertalk/notes.md` for worked examples.
-
----
-
-## 5. YouTube upload
-
-After hardsubbing and writing `notes.md`, run `scripts/youtube_upload.py` to upload the finished video:
-
-```bash
-uv run --script scripts/youtube_upload.py \
-  --video "projects/Project Sekai/Aftertalk/<event>/<name>_hardsubbed.mp4" \
-  --notes "projects/Project Sekai/Aftertalk/<event>/notes.md"
-```
-
-The script automatically extracts the title and description from `notes.md`, verifies lengths, requests confirmation, and uploads via the YouTube Data API v3 (resumable upload).
-
----
-
-## Guardrails
-- Positional: only Alignment + MarginL/R/V change; never recolor; never touch
-  `Comment:` lines or overwrite an existing `\pos`.
-- Segments: cutting is editorial — confirm before the (expensive) render; log the
-  ranges to `notes.md`; the transcript word-count tells you *why* a gap is a cut.
-- The scripts error out on unknown style/paths — fix the args rather than forcing.
+Refer to [`video-launch/SKILL.md`](../video-launch/SKILL.md) for full documentation and CLI flags.

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "meme_minori_scream",
+    "image": "meme_minori_scream_framed.gif",
+    "start": "00:07:37.48",
+    "end": "00:07:41.48",
+    "pos": [80, 160],
+    "description": "Brock Lesnar SCREAM IF YOU LOVE MINORI animated GIF framed with orange border"
+  },
+  {
+    "id": "meme_mizuki_card",
+    "image": "meme_mizuki_card_topright.png",
+    "start": "00:08:12.06",
+    "end": "00:08:16.54",
+    "pos": [1296, 50],
+    "description": "Mizuki 'I raised that girl!' card with Stamp0634 and purple-pink border"
+  },
+  {
+    "id": "stamp_ichika_reaction",
+    "image": "stamp50_sub_overlay.png",
+    "start": "00:14:25.92",
+    "end": "00:14:27.47",
+    "pos": [339, 803],
+    "description": "Official Ichika Surprised Stamp (Stamp0050) reacting to Kanade's 'Big sister...'"
+  }
+]

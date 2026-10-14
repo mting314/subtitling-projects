@@ -57,6 +57,15 @@ Profile: `proseka/5th_kanshasai_drama` (extends `proseka/reading_drama`).
   cover the text box.
 - 2:07–18:36: live reading drama. The Minori handshake flashback runs 6:32–7:38.
 
+## Overlays
+
+All overlays are defined in `popups.json` and burned in during hardsubbing:
+- **Moment 1 (`00:07:37.48`–`00:07:41.48`)**: Brock Lesnar *"SCREAM IF YOU LOVE MINORI"* animated GIF framed with orange border (`meme_minori_scream_framed.gif`) placed top-left at $X=80, Y=160$.
+- **Moment 2 (`00:08:12.06`–`00:08:16.54`)**: Mizuki *"I raised that girl!"* Meme Card (`meme_mizuki_card_topright.png`) with Energetic Minori Stamp (Stamp0634) and purple-pink border placed top-right at $X=1296, Y=50$.
+- **Moment 3 (`00:14:25.92`–`00:14:27.47`)**: Official Ichika Surprised Stamp (Stamp0050 *"びっくりした..."*) overlay (`stamp50_sub_overlay.png`) placed at bottom baseline $X=339, Y=803$, reacting to Kanade's *"Big sister..."* line (sub text "Oh..." commented out).
+- **Moment 4 (`00:17:36.55`–`00:17:39.88`)**: Airi ad-lib TL Note (`{\an8\fs55\i1}TL Note: She's emphasizing that was all an adlib.`) embedded directly in subtitle track.
+
+
 ## How the transcript was built
 
 - **Chirp 3 dropped speech** at 8:12–9:26 and 17:38–18:35 and returned nothing for those spans.
@@ -146,7 +155,7 @@ Timestamps:
 Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
 
 ## Published
-- **Video ID**: `2PtYx8z0syA`
-- **Watch**: https://youtu.be/2PtYx8z0syA
-- **Studio**: https://studio.youtube.com/video/2PtYx8z0syA/edit
-- **Privacy**: `PRIVATE` (initial upload)
+- **Video ID**: `BtPCoqibohg`
+- **Watch**: https://youtu.be/BtPCoqibohg
+- **Studio**: https://studio.youtube.com/video/BtPCoqibohg/edit
+- **Privacy**: `PRIVATE` (hardsubbed with subtitles + overlays)

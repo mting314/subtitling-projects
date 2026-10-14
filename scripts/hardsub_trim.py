@@ -104,15 +104,16 @@ def create_shifted_ass(
 def build_hardsub_command(
     input_video: Path,
     subs_file: Path,
-    start_str: str,
-    end_str: str,
+    start_str: str | None,
+    end_str: str | None,
     output_part: Path,
     popups: list[dict],
     fade_duration: float = 0.4,
 ) -> list[str]:
-    seg_start = parse_time(start_str)
-    seg_end = parse_time(end_str)
-    dur = max(0.1, seg_end - seg_start)
+    is_segment = start_str is not None and end_str is not None
+    seg_start = parse_time(start_str) if is_segment else 0.0
+    seg_end = parse_time(end_str) if is_segment else None
+    dur = max(0.1, seg_end - seg_start) if is_segment else None
 
     # Check overlays in this segment
     active_overlays = []
@@ -120,31 +121,43 @@ def build_hardsub_command(
     for item in popups:
         o_start = parse_time(item["start"])
         o_end = parse_time(item["end"])
-        if o_start >= seg_start and o_end <= seg_end:
+        if (seg_end is None or o_start <= seg_end) and o_end >= seg_start:
             img_path = proj_dir / item.get("image", "")
             if img_path.exists():
                 active_overlays.append(
                     {
                         "path": img_path,
-                        "start_rel": o_start - seg_start,
+                        "start_rel": max(0.0, o_start - seg_start),
                         "end_rel": o_end - seg_start,
                         "pos": item.get("pos", [1580, 60]),
+                        "is_gif": img_path.suffix.lower() == ".gif",
                     }
                 )
 
-    cmd = ["ffmpeg", "-y", "-ss", start_str, "-to", end_str, "-i", str(input_video)]
+    cmd = ["ffmpeg", "-y"]
+    if is_segment:
+        cmd.extend(["-ss", start_str, "-to", end_str])
+    cmd.extend(["-i", str(input_video)])
+
     for ov in active_overlays:
+        if ov["is_gif"]:
+            cmd.extend(["-ignore_loop", "0"])
         cmd.extend(["-i", str(ov["path"])])
 
     # Video & Audio fade parameters
-    fade_out_st = max(0.0, dur - fade_duration)
-    v_fade = f"fade=t=in:st=0:d={fade_duration},fade=t=out:st={fade_out_st:.2f}:d={fade_duration}"
-    a_fade = f"afade=t=in:st=0:d={fade_duration},afade=t=out:st={fade_out_st:.2f}:d={fade_duration}"
+    do_fade = fade_duration > 0 and dur is not None
+    if do_fade:
+        fade_out_st = max(0.0, dur - fade_duration)
+        v_fade = f",fade=t=in:st=0:d={fade_duration},fade=t=out:st={fade_out_st:.2f}:d={fade_duration}"
+        a_fade = f"afade=t=in:st=0:d={fade_duration},afade=t=out:st={fade_out_st:.2f}:d={fade_duration}"
+    else:
+        v_fade = ""
+        a_fade = ""
 
-    sub_filter = f"subtitles={subs_file.name}"
+    sub_filter = f"subtitles='{subs_file.name}'"
 
     if active_overlays:
-        filters = [f"[0:v]{sub_filter},{v_fade}[v0]"]
+        filters = [f"[0:v]{sub_filter}{v_fade}[v0]"]
         for idx, ov in enumerate(active_overlays, start=1):
             x, y = ov["pos"]
             t_s, t_e = ov["start_rel"], ov["end_rel"]
@@ -153,30 +166,26 @@ def build_hardsub_command(
             filters.append(
                 f"{in_label}[{idx}:v]overlay={x}:{y}:enable='between(t,{t_s:.2f},{t_e:.2f})'{out_label}"
             )
-        filters.append(f"[0:a]{a_fade}[outa]")
+        if do_fade:
+            filters.append(f"[0:a]{a_fade}[outa]")
 
         filter_str = ";".join(filters)
-        cmd.extend(
-            [
-                "-filter_complex",
-                filter_str,
-                "-map",
-                "[outv]",
-                "-map",
-                "[outa]",
-            ]
-        )
+        cmd.extend(["-filter_complex", filter_str, "-map", "[outv]"])
+        if do_fade:
+            cmd.extend(["-map", "[outa]"])
+        else:
+            cmd.extend(["-map", "0:a"])
     else:
-        cmd.extend(
-            [
-                "-vf",
-                f"{sub_filter},{v_fade}",
-                "-af",
-                a_fade,
-            ]
-        )
+        vf = f"{sub_filter}{v_fade}"
+        cmd.extend(["-vf", vf])
+        if do_fade:
+            cmd.extend(["-af", a_fade])
 
     cmd.extend(video_encoder_args())
+    if is_segment:
+        cmd.extend(["-t", f"{dur:.3f}"])
+    elif active_overlays:
+        cmd.append("-shortest")
     cmd.extend(["-c:a", "aac", "-b:a", "192k", str(output_part)])
 
     return cmd
@@ -191,14 +200,15 @@ def main() -> int:
     ap.add_argument("output_video", type=Path, help="Path to output hardsubbed .mp4")
     ap.add_argument(
         "timestamps",
-        nargs="+",
-        help="Pairs of start end timestamps (e.g. 10:00 15:00 30:04 33:40)",
+        nargs="*",
+        default=[],
+        help="Pairs of start end timestamps (e.g. 10:00 15:00 30:04 33:40). If omitted, hardsubs the whole video.",
     )
     ap.add_argument(
         "--fade",
         type=float,
-        default=0.4,
-        help="Fade duration in seconds (default: 0.4s)",
+        default=None,
+        help="Fade duration in seconds (default: 0.4s for segments, 0.0s for whole video)",
     )
     ap.add_argument(
         "--encoder",
@@ -229,19 +239,42 @@ def main() -> int:
             popups = json.load(f)
         print(f"Loaded {len(popups)} overlay cards from {popups_manifest.name}")
 
+    fade_dur = args.fade if args.fade is not None else (0.4 if segments else 0.0)
+
     tmpdir = Path(tempfile.mkdtemp())
     print(f"Temp working dir: {tmpdir}")
-
-    print(
-        f"Encoding {len(segments)} segments in parallel with time-shifted subtitles & 0.4s fade transitions..."
-    )
-    parts = []
-    procs = []
 
     cwd_original = Path.cwd()
     os.chdir(tmpdir)
 
     try:
+        if not segments:
+            print("Encoding full video with subtitles & overlays...")
+            seg_subs = tmpdir / "subs.ass"
+            shutil.copy2(subs_file_abs, seg_subs)
+
+            cmd = build_hardsub_command(
+                input_video_abs,
+                seg_subs,
+                None,
+                None,
+                output_video_abs,
+                popups,
+                fade_duration=fade_dur,
+            )
+            res = subprocess.run(cmd)
+            if res.returncode != 0:
+                sys.exit(f"ERROR: Encoding failed with exit code {res.returncode}")
+            print(f"\nDone! Output: {output_video_abs}")
+            print(f"File size: {output_video_abs.stat().st_size / 1e6:.1f} MB")
+            return 0
+
+        print(
+            f"Encoding {len(segments)} segments in parallel with time-shifted subtitles & {fade_dur}s fade transitions..."
+        )
+        parts = []
+        procs = []
+
         for i, (start_str, end_str) in enumerate(segments):
             part = tmpdir / f"part{i+1}.mp4"
             parts.append(part)
@@ -257,7 +290,7 @@ def main() -> int:
                 end_str,
                 part,
                 popups,
-                fade_duration=args.fade,
+                fade_duration=fade_dur,
             )
             print(f"  Segment {i+1}/{len(segments)}: {start_str} -> {end_str}")
             p = subprocess.Popen(
