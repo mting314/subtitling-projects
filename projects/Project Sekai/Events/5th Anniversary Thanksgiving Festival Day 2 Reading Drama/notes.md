@@ -154,8 +154,6 @@ Timestamps:
 
 Original clean video: https://www.bilibili.com/video/BV1DVsAzqEiv/
 
-## Published
-- **Video ID**: `BtPCoqibohg`
-- **Watch**: https://youtu.be/BtPCoqibohg
-- **Studio**: https://studio.youtube.com/video/BtPCoqibohg/edit
-- **Privacy**: `PRIVATE` (hardsubbed with subtitles + overlays)
+## Distribution
+- **Target**: Google Drive (DO NOT upload to YouTube — Content ID / copyright strike risk)
+- **Status**: Pending user QC checks before final Google Drive export
