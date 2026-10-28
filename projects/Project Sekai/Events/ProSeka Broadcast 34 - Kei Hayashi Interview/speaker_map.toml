@@ -1,0 +1,17 @@
+# Speaker map for ProSeka Broadcast #34 — Kei Hayashi Interview ("Going On as We Are")
+# Chirp 3 uses 0-based speaker labels per transcribed --start/--end range.
+# Verify raw labels against _transcript.json across Segment 1 (12:24–14:16) and
+# Segment 2 (21:47–35:19), and reconcile if Chirp 3 permutes labels across the cut.
+
+[speakers."0"]
+name = "Ai Shimizu"
+color = "#22AA99"
+
+[speakers."1"]
+name = "Yuki Nakashima"
+character = "Shiho Hinomori"
+color = "#A5C31E" # Darkened from official #BBDD22 (1.53x -> ~1.93x vs bright broadcast lower-thirds) per subtitle_review_guide.md
+
+[speakers."2"]
+name = "Kei Hayashi"
+color = "#4488DD"

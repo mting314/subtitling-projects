@@ -1,0 +1,121 @@
+# ProSeka Broadcast Station #34 (プロセカ放送局 #34) — "Sekai of Vocalo Music" Guest Interview
+# Guest Vocaloid Producer: Kei Hayashi (ハヤシケイ / KEI)
+# Cast Host: Yuki Nakashima (中島由貴, voice of Shiho Hinomori)
+# Broadcast MC: Ai Shimizu (清水藍, CBC Radio "RADIO MIKU")
+# Commissioned Song: 「このまんまでいこう」 ("Going On as We Are") — Event #195 "Path made by faith" (shiho6)
+
+prompt = [
+    """
+You are translating a live Japanese studio interview from "ProSeka Broadcast Station #34" (プロセカ放送局 #34), specifically the opening "Sekai of Vocalo Music" (ボカロミュージックのセカイ) creator interview segment, into natural English subtitles.
+
+Core translation guidelines:
+1. Treat the audio as live spoken conversation, not formal written prose. Three people are on set together: a broadcast MC, a voice actress who grew up loving the guest's Vocaloid songs, and a veteran Vocaloid/rock songwriter making a rare livestream appearance.
+2. Prioritize natural, conversational English with contractions and clean, compact clauses suitable for subtitles (aim for concise phrasing that fits comfortably in ≤ 2 subtitle rows).
+3. Preserve each speaker's distinct voice and demeanor:
+   - Ai Shimizu (清水藍, MC): Warm, articulate, attentive radio/livestream MC guiding the questions and reacting empathetically.
+   - Yuki Nakashima (中島由貴, voice of Shiho Hinomori): Bright, earnest, and genuinely excited—speaking both as Shiho's voice actress who deeply understands Leo/need's arc and as a lifelong fan who sang KEI's songs at karaoke growing up.
+   - Kei Hayashi (ハヤシケイ / KEI, guest Vocaloid producer): Thoughtful, humble, slightly nervous on a rare live broadcast, speaking with grounded sincerity and dry self-deprecating warmth about songwriting and 40 years of life experience.
+4. Do not spell out filler sounds literally unless hesitation or comedic timing matters. Keep interjections, backchannels ("Yeah," "Right," "Totally"), and self-directed tsukkomi ("Though I shouldn't be saying that myself!" at 33:32) lively and natural.
+5. Maintain smooth sentence continuity across adjacent subtitle lines: if a clause continues onto the next cue, end with a comma (or no terminal punctuation) and start the next cue lowercase; if a thought finishes, end with terminal punctuation and capitalize the next cue.
+""",
+    """
+Broadcast, Song, Event Story, and Lyric Resonance Context:
+- Program: ProSeka Broadcast Station #34 (プロセカ放送局 #34, aired July 27, 2026), opening corner "Sekai of Vocalo Music" (ボカロミュージックのセカイ).
+- Cut-opening callback at 13:37–14:03 (Pickled Plums / Ume): Just before this clip (at 10:18–11:53), Yuki Nakashima shared that she beats summer heat fatigue by eating pickled plums (ume / umeboshi) from her home prefecture of Wakayama, and MC Ai Shimizu mentioned honey-pickled plums (hachimitsu-ume) for people who dislike sour ones. At 13:37, Ai Shimizu breaks the ice by asking Kei Hayashi his favorite plum dish; Kei says he likes honey-pickled plums, and Yuki jokes that if he'd said he couldn't stand them, she almost would've asked him to step back out ("Just kidding!").
+- Kei Hayashi's Profile & Cited Songs (12:43–13:07 & 28:31–29:04): Started band activities (vocals & guitar) and Vocaloid music uploads simultaneously in 2008 under the moniker KEI / Kei Hayashi (ハヤシケイ). Million-view classics mentioned: "Pierrot" (ピエロ), "Hello, Worker" (ハロー、ワーカー — covered by Leo/need × Megurine Luka in 2023), and "Hashire" (走れ). At 28:43, Yuki gushes that she grew up on KEI's music and sang "dialogue" (ダイアログ, KEI's 2013 song/major debut album title track; ASR may write ダイヤローグ) nonstop at karaoke. Note: on air, the hosts address him politely as "Kei-san" (ケイさん; ASR often writes Kさん) or "Kei Hayashi-san"—keep "-san" in direct address/conversation between speakers, while crediting the artist name without honorifics.
+- Associated Event Story — Event #195 "Path made by faith" (shiho6, Leo/need):
+  - After their first one-man live, Leo/need lands their national TV debut on the music program WAVING-BOX alongside the veteran girl band Iolite, whose bassist Sumire first taught childhood Shiho how to play bass and inspired her vow to stay true to her convictions (自分の想いを貫く).
+  - Shiho spars intensely on bass with Megurine Luka in the School SEKAI, then clashes passionately with Sumire in a televised bass battle (Ep 7, "The Road Here" / ここまでの道), reflecting that through everything she never once let go of her bass (ずっと、どんな時も……ベースだけは手放さなかった). Sumire praises Shiho's unwavering conviction and reveals she secretly attended a Leo/need concert and recognized Shiho's bassline playing in the city.
+  - In Ep 8 ("Resonating, Spreading Out" / 響いて、広がって), Shiho receives a fan letter from a viewer who saw how much fun and passion she radiated playing bass on TV and decided to start playing bass themselves—proving her small, steady steps forward with the four members of Leo/need are reaching others.
+- Surrounding Leo/need Timeline Context (explaining Yuki's 30:25–30:45 remark):
+  - At 30:25, Yuki laughs that in the chronological order of Leo/need's event stories (時系列的), Shiho was the only one beaming with positivity at a moment when "storm clouds were starting to gather" (雲行きが怪しくなってる) around the other members (Saki's anxiety over fan distance in Event #188 right before, and Honami/Ichika's overwork strain right after WAVING-BOX), making fans comment on the MV: "Shiho's smiling the whole time, what's going to happen next?!"
+- Commissioned Song — "Going On as We Are" (このまんまでいこう) Production & Lyric Resonance:
+  1. Title Origin (22:07–22:55): Colorful Palette's commission brief (依頼書/企画書) included the key phrase 「このままいこう」 ("let's keep going as we are"), and Kei thought that worked straight away as both lyric and title, adopting it colloquially as 「このまんまでいこう」 ("Going On as We Are"). Ensure the English at 22:27–22:45 makes clear how the brief's key phrase ("let's keep going as we are") directly became the title "Going On as We Are".
+  2. Live Band Sound & Arrangement (22:58–24:44): Built to capture band authenticity and youthful freshness (瑞々しさ) around a core 5-piece ensemble (drums, bass, piano, 2 guitars—matching Leo/need + Virtual Singer) recorded by live studio musicians rather than MIDI programming (打ち込み). Yuki recalls Kei visiting vocal recording and saying he refused to make the instrumental parts easy just because the characters are high schoolers—playfully challenging instrumental cover players (弾いてみた / "hikitemita", people who post "play-through" / instrumental covers) with "Let's see if you can play this!"
+  3. KEI's Lyric Philosophy (24:44–28:25): Unlike most composers who start with melody, Kei writes a lyrical framework first. His rule even on commissioned songs is never to write hollow lies (嘘っぱち) that go against his own beliefs. Having lived ~40 years and watched dreams go unfulfilled and peers give up, saying "your dreams will come true if you just don't give up" would feel fake. Overlapping Leo/need's story (hesitating, stopping, yet choosing to keep making music together) with his own path (continuing music for small, ordinary reasons), he chose "dreams" as the theme—not as a story of chasing/achieving dreams, but "the story of people who didn't quit" (何かをやめなかった人の物語), celebrating "the clumsiness of being unable to throw a dream away" (夢を捨てられない不器用さを称える歌, echoing the opening verse: それでも憧れは握りしめたまま くしゃくしゃになっても 捨てられないでいる, and 「信じてるから」じゃなくて「信じたい」と思えるから).
+  4. KEI's Favorite Lyric Phrase (31:12–32:45): The bridge after the second chorus: 「虹のかからない雨上がりに それでも種は土に芽吹く」 ("Even after a rain with no rainbow, seeds still sprout in the soil"). People always say "there's a rainbow after the rain," but rain isn't guaranteed to bring a rainbow, just as hardship isn't guaranteed to bring flashy success. Even without an obvious symbol of beauty like a rainbow, ordinary days quietly continuing on (淡々と営みが続いていく) hold their own beauty and dignity, and unseen seeds still sprout in the earth (resonating directly with Shiho's steady steps and the Ep 8 fan letter).
+  5. Shiho's Vocal Direction (32:46–34:08): Yuki sang in one of her brightest tones ever for Shiho to project pure love for music/sound ("I love this sound!" / 音が好きです) so listeners can picture Shiho smiling just from her singing voice, while keeping her signature cool rock edge to match the driving band sound. Versions mentioned at 33:57: Virtual Singer version, SEKAI version, and Another Vocal (アナザーボーカル) version.
+""",
+    """
+Style rules for ProSeka content:
+1. Names use Western order ("Given Family"): Shiho Hinomori, Ichika Hoshino, Saki Tenma, Honami Mochizuki, Yuki Nakashima, Kei Hayashi, Ai Shimizu.
+2. Brand capitalization is strict: ProSeka (capital S, never "Proseka"), SEKAI (all caps), Leo/need, Virtual Singer, Another Vocal.
+3. Unit short forms: レオニ → "Leo/need" (never "Leoni").
+4. Song and event titles are placed in double quotes, never italicized: "Going On as We Are", "Path made by faith", "Pierrot", "Hello, Worker", "Hashire", "dialogue".
+5. Full Virtual Singer names use standard title case ("Hatsune Miku", "Megurine Luka"); standalone short Vocaloid voicebank/character references follow ProSeka convention.
+""",
+]
+
+vocab = [
+    "プロセカ",
+    "プロセカ放送局",
+    "ボカロミュージックのセカイ",
+    "ハヤシケイ",
+    "中島由貴",
+    "清水藍",
+    "日野森志歩",
+    "星乃一歌",
+    "天馬咲希",
+    "望月穂波",
+    "レオニード",
+    "レオニ",
+    "巡音ルカ",
+    "初音ミク",
+    "このまんまでいこう",
+    "ピエロ",
+    "ハロー、ワーカー",
+    "走れ",
+    "ダイアログ",
+    "瑞々しさ",
+    "打ち込み",
+    "弾いてみた",
+    "虹のかからない雨上がりに",
+    "それでも種は土に芽吹く",
+    "バーチャル・シンガー",
+    "アナザーボーカル",
+]
+
+[glossary]
+"プロセカ" = "ProSeka"
+"プロセカ放送局" = "ProSeka Broadcast Station"
+"ボカロミュージックのセカイ" = "Sekai of Vocalo Music"
+"セカイ" = "SEKAI"
+"バーチャルシンガー" = "Virtual Singer"
+"バーチャル・シンガー" = "Virtual Singer"
+"アナザーボーカル" = "Another Vocal"
+"アナザーバージョン" = "Another Vocal version"
+"レオニ" = "Leo/need"
+"レオニード" = "Leo/need"
+"日野森志歩" = "Shiho Hinomori"
+"星乃一歌" = "Ichika Hoshino"
+"天馬咲希" = "Saki Tenma"
+"望月穂波" = "Honami Mochizuki"
+"中島由貴" = "Yuki Nakashima"
+"ハヤシケイ" = "Kei Hayashi"
+"清水藍" = "Ai Shimizu"
+"初音ミク" = "Hatsune Miku"
+"巡音ルカ" = "Megurine Luka"
+"このまんまでいこう" = "Going On as We Are"
+"ピエロ" = "Pierrot"
+"ハロー、ワーカー" = "Hello, Worker"
+"ハローワーカー" = "Hello, Worker"
+"ダイアログ" = "dialogue"
+
+[format.normalizer]
+engine = "exact"
+
+[format.normalizer.replacements]
+"林の敬" = "ハヤシケイ"
+"林敬" = "ハヤシケイ"
+"敬さん" = "ケイさん"
+"LeoNied" = "Leo/need"
+"レオニード" = "Leo/need"
+"ハローワークは" = "ハロー、ワーカー"
+"ハローワーカー" = "ハロー、ワーカー"
+"走れては" = "走れでは"
+"ダイアローグ" = "dialogue"
+"ダイヤローグ" = "dialogue"
+"ボーカロミュージックの世界" = "ボカロミュージックのセカイ"
+"ここのミュージックの世界" = "ボカロミュージックのセカイ"
+"ボーカロの話" = "ボカロの話"
+"世界バージョン" = "セカイバージョン"
