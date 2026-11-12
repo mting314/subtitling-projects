@@ -182,19 +182,47 @@ Three speakers on camera (bottom-centered `DefaultOnibe` styles, `Fontsize 100`,
     - Ran `scripts/autosplit_long_lines.py` (`spaCy` `dep` engine + pause snapping) and targeted clause splits: **`287` final English cues**, with **`0` lines exceeding 2 rows** (`scripts/detect_long_lines.py`), **`0` timestamp overlaps**, and **`0` out-of-bounds cues**.
     - Ran `scripts/check_outline_contrast.py`: all 6 styles pass contrast verification (`Ai Shimizu - Shifted`: `2.83x`, `Kei Hayashi - Shifted`: `3.52x`, `Yuki Nakashima - Shifted`: `1.98x`).
 
+## Overlays
+
+All overlays are defined in `popups.json` and burned in during hardsubbing (`scripts/hardsub_trim.py`):
+- **Moment 1 (`00:30:30.19`–`00:30:32.49`)**: Event #195 *"Path made by faith"* (Shiho7) official banner (`banner_shiho7.png`) centered at $X=692, Y=56$.
+- **Moment 2 (`00:30:32.49`–`00:30:37.95`)**: Event #188 *"Gazing Upon the Night Sky's Fading Stars"* (Saki7) & Event #212 *"Echo of a Prayer"* (Ichi7) official banners (`banner_stormclouds_pair.png`) centered at $X=476, Y=56$.
+- **Moment 3 (`00:34:47.29`–`00:34:48.92`)**: Leonardo DiCaprio pointing meme animated GIF (`meme_leo_pointing.gif`) placed top-right at $X=1530, Y=36$ (title drop: *"sekai"*).
+
 ## YouTube Transcript Reference
 Raw YouTube Japanese auto-captions are saved at [`haI1rvme9V4.ja-orig.vtt`](haI1rvme9V4.ja-orig.vtt) for structure cross-checking.
 
 ## YouTube Title
-[ENG SUB] Vocaloid Producer Kei Hayashi & Yuki Nakashima (Shiho's VA) Interview on "Going On as We Are" | ProSeka Broadcast #34
+[ENG SUB] Kei Hayashi & Yuki Nakashima (Shiho's VA) Interview: "Going On as We Are" | Broadcast #34
 
-## YouTube Blurb (draft)
+## YouTube Blurb
 
 Yuki Nakashima (voice of Shiho Hinomori) and MC Ai Shimizu welcome veteran Vocaloid producer Kei Hayashi (KEI) to the "Sekai of Vocalo Music" corner of ProSeka Broadcast Station #34 for a rare live interview breaking down the making of Leo/need's commissioned song "Going On as We Are" (このまんまでいこう) for Shiho's focus event "Path made by faith"!
 
 Kei Hayashi shares how a single key phrase in the commission brief sparked the song's title, why he recorded the track with a live five-piece band without watering down the parts for cover players, and why—after 40 years of life—he wanted to write not a cliché "dreams always come true" anthem, but a tribute to the clumsy beauty of people who simply couldn't throw their dreams away and kept walking. Meanwhile, lifelong KEI fan Yuki Nakashima gushes about growing up singing "dialogue" at karaoke, talks about bringing out an audible smile in Shiho's vocals, and laughs over how Shiho's radiant grin in the MV stood out while storm clouds gathered around the rest of Leo/need in the story timeline.
 
+Chapters:
+00:00 Guest Entrance: Kei Hayashi
+00:20 Career Profile ("Pierrot", "Hello, Worker")
+00:55 Rare Live Broadcast Appearance
+01:14 Wakayama Ume Icebreaker
+01:55 Guest Q&A Corner: "Going On as We Are"
+02:15 Title Origin & The Commission Brief
+03:06 Live 5-Piece Band & The Cover Challenge
+04:52 Lyric Philosophy: People Who Didn't Quit
+08:33 Yuki's KEI Fandom & Shiho's Smile
+11:20 KEI's Favorite Lyric: Seeds Sprouting After Rain
+12:54 Vocal Direction: Singing with a Smile
+14:16 Closing Thoughts & Sign-off
+
 Original livestream: https://www.youtube.com/watch?v=haI1rvme9V4
+
+## Distribution
+- **YouTube Video ID**: `hvc9cjB_uoo`
+- **Watch URL**: https://youtu.be/hvc9cjB_uoo
+- **Studio URL**: https://studio.youtube.com/video/hvc9cjB_uoo/edit
+- **Privacy**: `PRIVATE`
+- **Uploaded File**: [`ProSeka Broadcast 34 - Kei Hayashi Interview_hardsubbed.mp4`](ProSeka%20Broadcast%2034%20-%20Kei%20Hayashi%20Interview_hardsubbed.mp4) (909 MB, 15m 30s)
 
 ## Source
 - **URL**: https://www.youtube.com/watch?v=haI1rvme9V4

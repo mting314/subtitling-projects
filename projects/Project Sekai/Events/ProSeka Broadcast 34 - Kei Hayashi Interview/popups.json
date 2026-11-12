@@ -1,0 +1,26 @@
+[
+  {
+    "id": "banner_shiho7",
+    "image": "banner_shiho7.png",
+    "start": "00:30:30.19",
+    "end": "00:30:32.49",
+    "pos": [692, 56],
+    "description": "Event #195 'Path made by faith' (Shiho7) official banner"
+  },
+  {
+    "id": "banner_stormclouds",
+    "image": "banner_stormclouds_pair.png",
+    "start": "00:30:32.49",
+    "end": "00:30:37.95",
+    "pos": [476, 56],
+    "description": "Event #188 'Gazing Upon the Night Sky's Fading Stars' (Saki7) & Event #212 'Echo of a Prayer' (Ichi7) official banners"
+  },
+  {
+    "id": "meme_leo_pointing",
+    "image": "meme_leo_pointing.gif",
+    "start": "00:34:47.29",
+    "end": "00:34:48.92",
+    "pos": [1530, 36],
+    "description": "Meme: Leonardo DiCaprio pointing at TV screen (title drop: 'sekai')"
+  }
+]
