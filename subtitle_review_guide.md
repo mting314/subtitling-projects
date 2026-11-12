@@ -153,6 +153,18 @@ academic essay. The pipeline output is usually close; tighten the literal/stiff 
 - Prefer everyday words over formal/literal ones: `stoic with her diet` → `strict with
   her diet`; `meals as refreshments` (差し入れ) → `snacks`; `the foundation of your
   physique` → `the foundation of your body`.
+- **Unwrap Japanese shell-noun relative clauses (`〜な現場/場所/ところ/こと/感じ/人`):**
+  Never leave stiff `"this is a [studio/place/moment] where they..."` or `"she is a person
+  who..."` calques (`連体修飾` wrappers), which sound unnatural in spoken English and often
+  flip adjacent subtitle cards backward. Turn the shell noun into an active subject or
+  simple adverbial: `this is a studio where they encourage us` → `the staff here really
+  lets us...` / `here in the studio, they...`; `that's a moment where I feel` → `in moments
+  like that, I really feel...`.
+- **Rewrite literal studio/character-analysis buzzwords into idiomatic spoken English:**
+  `as a character` (キャラクターとして) → drop or rephrase around her growth/journey;
+  `positive experiences` (成功体験) → `little wins` / `confidence`; `a core in her voice`
+  (声の芯) → `steadiness` / `groundedness`; `bringing out energy` (声・歌を出す) → `belting
+  it out` / `pushing her voice`.
 - Keep contractions and casual interjections (`yeah`, `man`, `Gotta`, `yapping`) — these
   are correct register, don't formalize them.
 - **Keep deliberate fandom terms**, even niche ones, when the speaker signals them — e.g.
