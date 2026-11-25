@@ -1,0 +1,24 @@
+# Speaker map for Sekaraji Episode 78 (An / Toya)
+# Character colours from sekai-story-indexer meta.json (webapp/static/meta.json).
+# An Shiraishi: #00BBDD (slot 1)
+# Toya Aoyagi: #0077DD (slot 2)
+
+[layout]
+card_margin_left = 92
+bar_margin_right = 92
+bar_alpha = 210
+slot_2_y_offset = 15
+
+[speakers."0"]
+name = "Tomomi Jiena Sumi"
+character = "An Shiraishi"
+color = "#00BBDD"
+slot = 1
+avatar = "../../official_cast_photos/tomomi_jiena_sumi.webp"
+
+[speakers."1"]
+name = "Kent Ito"
+character = "Toya Aoyagi"
+color = "#0077DD"
+slot = 2
+avatar = "../../official_cast_photos/kent_ito.webp"
