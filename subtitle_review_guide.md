@@ -343,14 +343,16 @@ Canonical forms to enforce across all episodes of a show.
 ### Project Sekai
 | Term | Canonical form | Notes |
 |---|---|---|
+| Official game title | `Project SEKAI COLORFUL STAGE! feat. Hatsune Miku` | ALL CAPS `SEKAI COLORFUL STAGE!`; lowercase `feat.`, title-case `Hatsune Miku` |
 | Program name | `ProSeka AfterTalk` | capital T (also `AfterLive`, capital L) |
+| Fan appreciation event | `Thanks Festival` / `ProSeka Thanks Festival` | `感謝祭` / `プロセカ感謝祭` — never "Thanksgiving" or untranslated "Kanshasai" |
 | Unit (MMJ) | `MORE MORE JUMP!` / `MMJ` | full name first use, then abbreviate |
 | Unit (Leo/need) | `Leo/need` | `レオニ` also renders `Leo/need` |
 | Unit (VBS) | `Vivid BAD SQUAD` / `VBS` | `ビビバス` → `VBS`, never "Vivibasu" |
 | Unit (WxS) | `Wonderlands x Showtime` / `WxS` | `ワンダショ` → `WxS`, never "Wandasho" |
 | Unit (N25) | `Nightcord at 25:00` / `N25` | `ニーゴ` → `N25`, never "Niigo" |
 | Unit (VS) | `Virtual Singer` | |
-| Fan greetings | `kon-needo`, `kon-more`, `kon-niigo`, `Wonderhoi!` | lowercase, hyphenated — coined catchphrases, NOT the unit abbreviations |
+| Fan greetings | `kon-needo`, `kon-more`, `kon-vivid`, `kon-niigo`, `Wonderhoi!` | lowercase, hyphenated — coined catchphrases, NOT the unit abbreviations (`Kon-vivid!` when sentence-initial/standalone) |
 | Shizuku's debut unit | `Cheerful＊Days` | fullwidth ＊ (U+FF0A) — official stylization |
 | Rival character | `Hagiyama-chan` | unify honorific unless a -san/-chan split is intentional |
 | Vocaloid | `Miku` / `Miku-chan` | never `MIKU` |

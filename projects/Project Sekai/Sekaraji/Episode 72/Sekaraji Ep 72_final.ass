@@ -585,15 +585,15 @@ Dialogue: 0,0:24:59.98,0:25:01.27,Rina Honnizumi,host,0,0,0,,Thank you so much.
 Dialogue: 0,0:25:01.27,0:25:01.80,Minori Suzuki,host,0,0,0,,Thank you.
 Dialogue: 0,0:25:01.80,0:25:04.80,Rina Honnizumi,listener_mail,0,0,0,,"Honnizumi-san, Suzuki-san, kon-niigo-niigo!"
 Dialogue: 0,0:25:04.80,0:25:06.14,Minori Suzuki,host,0,0,0,,Kon-niigo-niigo!
-Dialogue: 0,0:25:06.14,0:25:09.64,Minori Suzuki,listener_mail,0,0,0,,"What I'm looking forward to this autumn is the ProSeka Kanshasai."
-Dialogue: 0,0:25:10.24,0:25:15.18,Minori Suzuki,listener_mail,0,0,0,,"Since this year's Kanshasai will be the first time all four members of MORE MORE JUMP! are together,"
+Dialogue: 0,0:25:06.14,0:25:09.64,Minori Suzuki,listener_mail,0,0,0,,"What I'm looking forward to this autumn is the ProSeka Thanks Festival."
+Dialogue: 0,0:25:10.24,0:25:15.18,Minori Suzuki,listener_mail,0,0,0,,"Since this year's Thanks Festival will be the first time all four members of MORE MORE JUMP! are together,"
 Dialogue: 0,0:25:15.18,0:25:18.44,Minori Suzuki,listener_mail,0,0,0,,"I'm really excited to see what kind of performance it will be."
 Dialogue: 0,0:25:19.32,0:25:20.44,Minori Suzuki,host_meta,0,0,0,,Thank you for the letter.
 Dialogue: 0,0:25:21.00,0:25:22.28,Minori Suzuki,host,0,0,0,,So, MMJ... right.
 Dialogue: 0,0:25:22.84,0:25:23.72,Minori Suzuki,host,0,0,0,,Like at the Symphony and all.
 Dialogue: 0,0:25:24.32,0:25:29.98,Minori Suzuki,host,0,0,0,,We've had a few chances to get all four of us together for things like livestreams,
 Dialogue: 0,0:25:29.98,0:25:32.60,Minori Suzuki,host,0,0,0,,but apparently this is the first time
-Dialogue: 0,0:25:33.48,0:25:34.26,Minori Suzuki,host,0,0,0,,we'll all be at Kanshasai together.
+Dialogue: 0,0:25:33.48,0:25:34.26,Minori Suzuki,host,0,0,0,,we'll all be at the Thanks Festival together.
 Dialogue: 0,0:25:34.26,0:25:37.36,Minori Suzuki,host,0,0,0,,So it'll be the first time I get to see all four of them together in person.
 Dialogue: 0,0:25:38.16,0:25:41.14,Minori Suzuki,host,0,0,0,,I've seen photos, but still.
 Dialogue: 0,0:25:41.14,0:25:41.64,Minori Suzuki,host,0,0,0,,Man,
@@ -801,7 +801,7 @@ Dialogue: 0,0:35:06.12,0:35:06.86,Minori Suzuki,host,0,0,0,,Yes.
 Dialogue: 0,0:35:06.86,0:35:08.20,Minori Suzuki,host,0,0,0,,Let's do this.
 Dialogue: 0,0:35:08.20,0:35:10.60,Minori Suzuki,host,0,0,0,,Well, the time has flown by, but...
 Dialogue: 0,0:35:11.44,0:35:14.64,Minori Suzuki,host,0,0,0,,It's time for us to say goodbye for now.
-Dialogue: 0,0:35:16.16,0:35:20.02,Minori Suzuki,host,0,0,0,,I guess we'll see everyone again at Kanshasai or the fan meeting.
+Dialogue: 0,0:35:16.16,0:35:20.02,Minori Suzuki,host,0,0,0,,I guess we'll see everyone again at the Thanks Festival or the fan meeting.
 Dialogue: 0,0:35:20.02,0:35:22.52,Minori Suzuki,host,0,0,0,,I wonder if I failed to sound like a proper big sister today.
 Dialogue: 0,0:35:23.16,0:35:24.96,Minori Suzuki,host,0,0,0,,Now that I think about it, I was the one forgetting things.
 Dialogue: 0,0:35:25.52,0:35:27.92,Minori Suzuki,host,0,0,0,,I wonder what it even means to be "big sister-like."

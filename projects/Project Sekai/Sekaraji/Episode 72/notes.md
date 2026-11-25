@@ -302,7 +302,7 @@ just the hosts'.
 
 1. **`感謝祭` → "Thanksgiving"**, 4 times. It's ProSeka's fan appreciation event. **Fixed**
    — added to the `proseka/base` glossary as `Kanshasai (ProSeka fan appreciation
-   festival)`.
+   festival)` (later standardized repo-wide to `Thanks Festival` / `ProSeka Thanks Festival`).
 2. **`ニーゴ` → "Niigo"**, contradicting `sekaraji.toml`'s own prompt line telling it to
    use "N25". Cause: `proseka/base`'s glossary inherited `"ニーゴ" = "Niigo"` from the old
    aftertalk profile while `proseka/n25` overrode it to `"N25"`, so the same term resolved
