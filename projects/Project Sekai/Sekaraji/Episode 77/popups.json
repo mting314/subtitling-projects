@@ -1,0 +1,32 @@
+[
+  {
+    "id": "setlog_blank",
+    "image": "setlog_blank_card.png",
+    "start": "0:31:42.74",
+    "end": "0:31:48.96",
+    "pos": [
+      372,
+      145
+    ]
+  },
+  {
+    "id": "banana",
+    "image": "banana_card.png",
+    "start": "0:32:32.64",
+    "end": "0:32:38.01",
+    "pos": [
+      372,
+      385
+    ]
+  },
+  {
+    "id": "haruka_whiteboard",
+    "image": "haruka_whiteboard.mov",
+    "start": "0:32:38.01",
+    "end": "0:32:45.26",
+    "pos": [
+      627,
+      375
+    ]
+  }
+]

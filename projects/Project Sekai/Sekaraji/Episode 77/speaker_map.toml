@@ -1,0 +1,24 @@
+# Speaker map for Sekaraji Episode 77 (Shizuku / Minori)
+# Character colours from sekai-story-indexer meta.json (webapp/static/meta.json).
+# Shizuku Hinomori: #99EEDD (slot 1)
+# Minori Hanasato: #FFCCAA (slot 2)
+
+[layout]
+card_margin_left = 92
+bar_margin_right = 92
+bar_alpha = 210
+slot_2_y_offset = 15
+
+[speakers."0"]
+name = "Rina Honnizumi"
+character = "Shizuku Hinomori"
+color = "#99EEDD"
+slot = 1
+avatar = "../../official_cast_photos/rina_honnizumi.webp"
+
+[speakers."1"]
+name = "Yui Ogura"
+character = "Minori Hanasato"
+color = "#FFCCAA"
+slot = 2
+avatar = "../../official_cast_photos/yui_ogura.webp"

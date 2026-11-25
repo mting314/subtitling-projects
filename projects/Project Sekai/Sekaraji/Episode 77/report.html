@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sekaraji #77 - Final Segment (Setlog Story)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: #1a1a2e; color: #e0e0e0; padding: 20px; }
+  h1 { color: #fff; margin-bottom: 16px; }
+  .stats-grid { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+  .stat-card { background: #16213e; border-radius: 8px; padding: 16px; flex: 1; min-width: 150px; }
+  .stat-value { font-size: 1.5em; font-weight: bold; color: #fff; }
+  .stat-label { font-size: 0.85em; color: #888; margin-top: 4px; }
+  #sticky-top { position: sticky; top: 0; z-index: 10; background: #1a1a2e; padding-bottom: 4px; }
+  .filters { margin: 8px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { border: none; border-radius: 6px; padding: 8px 16px; cursor: pointer;
+                 font-size: 0.85em; font-weight: 600; transition: opacity 0.2s; }
+  .filter-btn.inactive { opacity: 0.35; }
+  .btn-all { background: #555; color: #fff; }
+  .btn-issues { background: #333; color: #fff; border: 1px solid #666; }
+  .btn-orange { background: #ff9933; color: #fff; }
+  .btn-yellow { background: #e6c300; color: #1a1a2e; }
+  .btn-red { background: #ff4444; color: #fff; }
+  .btn-purple { background: #b366ff; color: #fff; }
+  .info-tip { margin-left: 6px; cursor: help; opacity: 0.7; font-size: 0.85em;
+               position: relative; }
+  .info-tip::after { content: attr(data-tip); position: absolute; bottom: 125%; left: 50%;
+                      transform: translateX(-50%); background: #16213e; color: #e0e0e0;
+                      padding: 6px 10px; border-radius: 6px; font-size: 0.8em;
+                      white-space: nowrap; border: 1px solid #2a3a5c;
+                      opacity: 0; pointer-events: none; transition: opacity 0.1s; z-index: 20; }
+  .info-tip:hover::after { opacity: 1; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 0.85em; }
+  th { background: #0f3460; color: #fff; padding: 10px 8px; text-align: left;
+       position: sticky; top: 0; z-index: 2; }
+  td { padding: 8px; border-bottom: 1px solid #222; vertical-align: top; }
+  tr { cursor: pointer; transition: background 0.15s; }
+  tr:hover { background: #1e2d4a !important; }
+  tr.selected { outline: 2px solid #4d94ff; }
+  tr.active-line { background: rgba(77,148,255,0.15) !important; }
+  .severity-orange { background: rgba(255,153,51,0.12); }
+  .severity-yellow { background: rgba(230,195,0,0.10); }
+  .severity-red { background: rgba(255,68,68,0.12); }
+  .severity-purple { background: rgba(179,102,255,0.10); }
+  .jp-text { color: #ffcc66; }
+  .en-text { color: #66ccff; }
+  .hidden-row { display: none !important; }
+  #player-section { display: flex; gap: 16px; align-items: stretch; padding: 8px 0; }
+  #video-wrap { width: 420px; min-width: 200px; flex-shrink: 0; resize: horizontal; overflow: hidden; }
+  #video { width: 100%; background: #000; border-radius: 8px; display: block; }
+  #now-playing { flex: 1; background: #16213e; border-radius: 8px; padding: 10px 14px;
+                  border: 1px solid #2a3a5c; display: flex; flex-direction: column; gap: 6px; }
+  #now-header { display: flex; justify-content: space-between; margin-bottom: 4px; }
+  #now-line-num { font-size: 0.75em; color: #4d94ff; font-weight: 600; }
+  #now-time { font-size: 0.75em; color: #888; font-family: monospace; }
+  .now-text { font-size: 1em; line-height: 1.5; background: #0d1a30;
+              border: 1px solid #2a3a5c; border-radius: 6px; padding: 10px 12px;
+              white-space: pre-wrap; word-break: break-word; flex: 1; overflow-y: auto; }
+  #now-jp { color: #ffcc66; }
+  #now-en { color: #66ccff; }
+</style>
+</head>
+<body>
+<h1>Translation Comparison &mdash; Sekaraji #77 - Final Segment (Setlog Story)</h1>
+<div class="stats-grid">
+  <div class="stat-card"><div class="stat-value">115</div><div class="stat-label">Lines</div></div>
+  <div class="stat-card"><div class="stat-value">1714</div><div class="stat-label">JP Characters</div></div>
+  <div class="stat-card"><div class="stat-value">4146</div><div class="stat-label">EN Characters</div></div>
+  <div class="stat-card"><div class="stat-value">2.42</div><div class="stat-label">EN/JP Ratio</div></div>
+</div>
+<div id="sticky-top">
+<div id="player-section">
+  <div id="video-wrap">
+    <video id="video" controls preload="metadata">
+      <source src="Sekaraji Ep 77.mkv">
+    </video>
+  </div>
+  <div id="now-playing">
+    <div id="now-header">
+      <span id="now-line-num"></span>
+      <span id="now-time"></span>
+    </div>
+    <div id="now-jp" class="now-text">Click a line to preview</div>
+    <div id="now-en" class="now-text"></div>
+  </div>
+</div>
+<div class="filters">
+  <button class="filter-btn btn-all" onclick="filterAll()">All</button>
+  <button class="filter-btn btn-issues" onclick="filterIssuesOnly()">Issues Only</button>
+  <button class="filter-btn btn-yellow" data-filter="long" onclick="toggleFilter(this)">Long translations (48)<span class="info-tip" data-tip="EN/JP ratio &gt; 2.5 and JP ≥ 4 chars">ⓘ</span></button>
+</div>
+</div>
+<table>
+<thead><tr>
+  <th>#</th><th>Start</th><th>End</th><th>Duration</th>
+  <th>Style</th><th>Japanese</th><th>English</th><th>Chars (JP/EN)</th>
+</tr></thead>
+<tbody>
+<tr class=""  data-start="1737.280" data-end="1739.700" data-jp="とお届けしてきましたセカラジエンディングです。" data-en="And with that, we&#x27;ve reached the end of Sekaraji." onclick="onRowClick(this)"><td>1</td><td>0:28:57.28</td><td>0:28:59.70</td><td>2.42s</td><td>Rina Honnizumi</td><td class="jp-text">とお届けしてきましたセカラジエンディングです。</td><td class="en-text">And with that, we&#x27;ve reached the end of Sekaraji.</td><td>23/49</td></tr>
+<tr class=""  data-start="1739.700" data-end="1743.520" data-jp="はい、番組では皆さんからの投稿お待ちしています。" data-en="Yes, we&#x27;re always waiting for your submissions to the show." onclick="onRowClick(this)"><td>2</td><td>0:28:59.70</td><td>0:29:03.52</td><td>3.82s</td><td>Rina Honnizumi</td><td class="jp-text">はい、番組では皆さんからの投稿お待ちしています。</td><td class="en-text">Yes, we&#x27;re always waiting for your submissions to the show.</td><td>24/59</td></tr>
+<tr class=""  data-start="1743.520" data-end="1748.320" data-jp="アドレスはセカラジ@pjsekai.jpです。" data-en="The address is sekairadio@pjsekai.jp." onclick="onRowClick(this)"><td>3</td><td>0:29:03.52</td><td>0:29:08.32</td><td>4.80s</td><td>Rina Honnizumi</td><td class="jp-text">アドレスはセカラジ@pjsekai.jpです。</td><td class="en-text">The address is sekairadio@pjsekai.jp.</td><td>23/37</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1748.320" data-end="1752.260" data-jp="詳しくはプロセカの公式Xでご確認ください。" data-en="Please check the official ProSeka X account for more details." onclick="onRowClick(this)"><td>4</td><td>0:29:08.32</td><td>0:29:12.26</td><td>3.94s</td><td>Rina Honnizumi</td><td class="jp-text">詳しくはプロセカの公式Xでご確認ください。</td><td class="en-text">Please check the official ProSeka X account for more details.</td><td>21/61</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1752.260" data-end="1754.980" data-jp="メールの投稿はお早めにお願いします。" data-en="Please send in your emails as soon as possible." onclick="onRowClick(this)"><td>5</td><td>0:29:12.26</td><td>0:29:14.98</td><td>2.72s</td><td>Rina Honnizumi</td><td class="jp-text">メールの投稿はお早めにお願いします。</td><td class="en-text">Please send in your emails as soon as possible.</td><td>18/47</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1754.980" data-end="1757.300" data-jp="ラジオネームもお忘れなく。" data-en="And don&#x27;t forget to include your Radio name." onclick="onRowClick(this)"><td>6</td><td>0:29:14.98</td><td>0:29:17.30</td><td>2.32s</td><td>Rina Honnizumi</td><td class="jp-text">ラジオネームもお忘れなく。</td><td class="en-text">And don&#x27;t forget to include your Radio name.</td><td>13/44</td></tr>
+<tr class=""  data-start="1757.300" data-end="1761.640" data-jp="それでは次回キャストに向けて連絡ノートにコメントを残していきます。" data-en="Now, let&#x27;s leave a comment in the contact notebook for the next cast members." onclick="onRowClick(this)"><td>7</td><td>0:29:17.30</td><td>0:29:21.64</td><td>4.34s</td><td>Rina Honnizumi</td><td class="jp-text">それでは次回キャストに向けて連絡ノートにコメントを残していきます。</td><td class="en-text">Now, let&#x27;s leave a comment in the contact notebook for the next cast members.</td><td>33/77</td></tr>
+<tr class=""  data-start="1761.510" data-end="1762.010" data-jp="うん。" data-en="Right." onclick="onRowClick(this)"><td>8</td><td>0:29:21.51</td><td>0:29:22.01</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">うん。</td><td class="en-text">Right.</td><td>3/6</td></tr>
+<tr class=""  data-start="1762.160" data-end="1765.480" data-jp="え、次回はですね、ビビバスキャストさん登場予定。" data-en="The next episode is scheduled to feature the VBS cast." onclick="onRowClick(this)"><td>9</td><td>0:29:22.16</td><td>0:29:25.48</td><td>3.32s</td><td>Rina Honnizumi</td><td class="jp-text">え、次回はですね、ビビバスキャストさん登場予定。</td><td class="en-text">The next episode is scheduled to feature the VBS cast.</td><td>24/54</td></tr>
+<tr class=""  data-start="1765.480" data-end="1766.560" data-jp="ビビです。" data-en="It&#x27;s VBS." onclick="onRowClick(this)"><td>10</td><td>0:29:25.48</td><td>0:29:26.56</td><td>1.08s</td><td>Rina Honnizumi</td><td class="jp-text">ビビです。</td><td class="en-text">It&#x27;s VBS.</td><td>5/9</td></tr>
+<tr class=""  data-start="1766.710" data-end="1767.210" data-jp="はい。" data-en="Okay." onclick="onRowClick(this)"><td>11</td><td>0:29:26.71</td><td>0:29:27.21</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">はい。</td><td class="en-text">Okay.</td><td>3/5</td></tr>
+<tr class=""  data-start="1767.210" data-end="1767.710" data-jp="はい。" data-en="Got it." onclick="onRowClick(this)"><td>12</td><td>0:29:27.21</td><td>0:29:27.71</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">はい。</td><td class="en-text">Got it.</td><td>3/7</td></tr>
+<tr class=""  data-start="1767.760" data-end="1769.760" data-jp="で、私たちからのコメントですが、うん。" data-en="As for our comment for them... let&#x27;s see." onclick="onRowClick(this)"><td>13</td><td>0:29:27.76</td><td>0:29:29.76</td><td>2.00s</td><td>Rina Honnizumi</td><td class="jp-text">で、私たちからのコメントですが、うん。</td><td class="en-text">As for our comment for them... let&#x27;s see.</td><td>19/41</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1770.280" data-end="1772.240" data-jp="え、年内中にやりたいことは?" data-en="&quot;What do you want to do before the end of the year?&quot;" onclick="onRowClick(this)"><td>14</td><td>0:29:30.28</td><td>0:29:32.24</td><td>1.96s</td><td>Rina Honnizumi</td><td class="jp-text">え、年内中にやりたいことは?</td><td class="en-text">&quot;What do you want to do before the end of the year?&quot;</td><td>14/52</td></tr>
+<tr class=""  data-start="1772.410" data-end="1772.910" data-jp="はっはっはっ。" data-en="Haha!" onclick="onRowClick(this)"><td>15</td><td>0:29:32.41</td><td>0:29:32.91</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">はっはっはっ。</td><td class="en-text">Haha!</td><td>7/5</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1773.720" data-end="1774.320" data-jp="年末だね。" data-en="It really is the end of the year, isn&#x27;t it?" onclick="onRowClick(this)"><td>16</td><td>0:29:33.72</td><td>0:29:34.32</td><td>0.60s</td><td>Yui Ogura</td><td class="jp-text">年末だね。</td><td class="en-text">It really is the end of the year, isn&#x27;t it?</td><td>5/43</td></tr>
+<tr class=""  data-start="1774.560" data-end="1778.360" data-jp="もうあと1ヶ月ちょっとで終わりなんですよね、今年が。" data-en="Yeah, there&#x27;s only a little over a month left in this year." onclick="onRowClick(this)"><td>17</td><td>0:29:34.56</td><td>0:29:38.36</td><td>3.80s</td><td>Rina Honnizumi</td><td class="jp-text">もうあと1ヶ月ちょっとで終わりなんですよね、今年が。</td><td class="en-text">Yeah, there&#x27;s only a little over a month left in this year.</td><td>26/59</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1778.360" data-end="1783.120" data-jp="そう、だからやり残したことあってもギリま間に合うんじゃないかということで、" data-en="Exactly. So I thought even if there&#x27;s something they haven&#x27;t done yet,\Nthey might just barely make it." onclick="onRowClick(this)"><td>18</td><td>0:29:38.36</td><td>0:29:43.12</td><td>4.76s</td><td>Rina Honnizumi</td><td class="jp-text">そう、だからやり残したことあってもギリま間に合うんじゃないかということで、</td><td class="en-text">Exactly. So I thought even if there&#x27;s something they haven&#x27;t done yet,\Nthey might just barely make it.</td><td>37/103</td></tr>
+<tr class=""  data-start="1783.120" data-end="1788.840" data-jp="今からなら今からあと1ヶ月あるからちょっと是非聞いてみたいなと思っております。" data-en="Since there&#x27;s still a month left,\NI&#x27;d really like to ask them about that." onclick="onRowClick(this)"><td>19</td><td>0:29:43.12</td><td>0:29:48.84</td><td>5.72s</td><td>Rina Honnizumi</td><td class="jp-text">今からなら今からあと1ヶ月あるからちょっと是非聞いてみたいなと思っております。</td><td class="en-text">Since there&#x27;s still a month left,\NI&#x27;d really like to ask them about that.</td><td>39/74</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1788.840" data-end="1789.740" data-jp="ゆいちゃんある?" data-en="Do you have anything, Yui-chan?" onclick="onRowClick(this)"><td>20</td><td>0:29:48.84</td><td>0:29:49.74</td><td>0.90s</td><td>Rina Honnizumi</td><td class="jp-text">ゆいちゃんある?</td><td class="en-text">Do you have anything, Yui-chan?</td><td>8/31</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1789.740" data-end="1790.640" data-jp="やりたいこと。" data-en="Something you want to do?" onclick="onRowClick(this)"><td>21</td><td>0:29:49.74</td><td>0:29:50.64</td><td>0.90s</td><td>Rina Honnizumi</td><td class="jp-text">やりたいこと。</td><td class="en-text">Something you want to do?</td><td>7/25</td></tr>
+<tr class=""  data-start="1790.710" data-end="1791.210" data-jp="はあ。" data-en="Hmm..." onclick="onRowClick(this)"><td>22</td><td>0:29:50.71</td><td>0:29:51.21</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">はあ。</td><td class="en-text">Hmm...</td><td>3/6</td></tr>
+<tr class=""  data-start="1792.600" data-end="1794.000" data-jp="ゆいちゃん、あれしたいな。" data-en="Yui-chan wants to do that..." onclick="onRowClick(this)"><td>23</td><td>0:29:52.60</td><td>0:29:54.00</td><td>1.40s</td><td>Yui Ogura</td><td class="jp-text">ゆいちゃん、あれしたいな。</td><td class="en-text">Yui-chan wants to do that...</td><td>13/28</td></tr>
+<tr class=""  data-start="1794.000" data-end="1795.600" data-jp="模様替えとかしたい、部屋の。" data-en="I want to redecorate my room." onclick="onRowClick(this)"><td>24</td><td>0:29:54.00</td><td>0:29:55.60</td><td>1.60s</td><td>Yui Ogura</td><td class="jp-text">模様替えとかしたい、部屋の。</td><td class="en-text">I want to redecorate my room.</td><td>14/29</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1796.240" data-end="1798.760" data-jp="でも絶対間に合わないと1ヶ月じゃあ。" data-en="But there&#x27;s no way I&#x27;ll make it in just one month." onclick="onRowClick(this)"><td>25</td><td>0:29:56.24</td><td>0:29:58.76</td><td>2.52s</td><td>Yui Ogura</td><td class="jp-text">でも絶対間に合わないと1ヶ月じゃあ。</td><td class="en-text">But there&#x27;s no way I&#x27;ll make it in just one month.</td><td>18/50</td></tr>
+<tr class=""  data-start="1799.650" data-end="1800.150" data-jp="うわあ。" data-en="Oh man." onclick="onRowClick(this)"><td>26</td><td>0:29:59.65</td><td>0:30:00.15</td><td>0.50s</td><td>Rina Honnizumi</td><td class="jp-text">うわあ。</td><td class="en-text">Oh man.</td><td>4/7</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1801.120" data-end="1802.000" data-jp="絶対無理だ。" data-en="It&#x27;s definitely impossible." onclick="onRowClick(this)"><td>27</td><td>0:30:01.12</td><td>0:30:02.00</td><td>0.88s</td><td>Yui Ogura</td><td class="jp-text">絶対無理だ。</td><td class="en-text">It&#x27;s definitely impossible.</td><td>6/27</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1802.560" data-end="1803.440" data-jp="体力いるね。" data-en="That takes a lot of energy." onclick="onRowClick(this)"><td>28</td><td>0:30:02.56</td><td>0:30:03.44</td><td>0.88s</td><td>Rina Honnizumi</td><td class="jp-text">体力いるね。</td><td class="en-text">That takes a lot of energy.</td><td>6/27</td></tr>
+<tr class=""  data-start="1803.520" data-end="1805.160" data-jp="体力いるし、うん。" data-en="It really does, yeah." onclick="onRowClick(this)"><td>29</td><td>0:30:03.52</td><td>0:30:05.16</td><td>1.64s</td><td>Yui Ogura</td><td class="jp-text">体力いるし、うん。</td><td class="en-text">It really does, yeah.</td><td>9/21</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1805.160" data-end="1807.800" data-jp="片付けもしなきゃいけないし、そうね。" data-en="I&#x27;d have to clean up first and everything, so yeah." onclick="onRowClick(this)"><td>30</td><td>0:30:05.16</td><td>0:30:07.80</td><td>2.64s</td><td>Yui Ogura</td><td class="jp-text">片付けもしなきゃいけないし、そうね。</td><td class="en-text">I&#x27;d have to clean up first and everything, so yeah.</td><td>18/51</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1807.800" data-end="1809.040" data-jp="無理だね、多分。" data-en="It&#x27;s probably impossible." onclick="onRowClick(this)"><td>31</td><td>0:30:07.80</td><td>0:30:09.04</td><td>1.24s</td><td>Yui Ogura</td><td class="jp-text">無理だね、多分。</td><td class="en-text">It&#x27;s probably impossible.</td><td>8/25</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1809.240" data-end="1810.140" data-jp="でもやりたい。" data-en="But I still want to do it." onclick="onRowClick(this)"><td>32</td><td>0:30:09.24</td><td>0:30:10.14</td><td>0.90s</td><td>Rina Honnizumi</td><td class="jp-text">でもやりたい。</td><td class="en-text">But I still want to do it.</td><td>7/26</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1810.140" data-end="1810.880" data-jp="気持ちはある。" data-en="The motivation is there." onclick="onRowClick(this)"><td>33</td><td>0:30:10.14</td><td>0:30:10.88</td><td>0.74s</td><td>Rina Honnizumi</td><td class="jp-text">気持ちはある。</td><td class="en-text">The motivation is there.</td><td>7/24</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1811.120" data-end="1813.240" data-jp="終わった後の爽快感半端ないね。" data-en="The sense of accomplishment afterward is incredible." onclick="onRowClick(this)"><td>34</td><td>0:30:11.12</td><td>0:30:13.24</td><td>2.12s</td><td>Yui Ogura</td><td class="jp-text">終わった後の爽快感半端ないね。</td><td class="en-text">The sense of accomplishment afterward is incredible.</td><td>15/52</td></tr>
+<tr class=""  data-start="1813.360" data-end="1814.160" data-jp="半端ないよね。" data-en="It really is." onclick="onRowClick(this)"><td>35</td><td>0:30:13.36</td><td>0:30:14.16</td><td>0.80s</td><td>Rina Honnizumi</td><td class="jp-text">半端ないよね。</td><td class="en-text">It really is.</td><td>7/13</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1814.200" data-end="1816.320" data-jp="届かないとこの掃除もできるし、一緒に。" data-en="We could even clean the hard-to-reach spots together." onclick="onRowClick(this)"><td>36</td><td>0:30:14.20</td><td>0:30:16.32</td><td>2.12s</td><td>Yui Ogura</td><td class="jp-text">届かないとこの掃除もできるし、一緒に。</td><td class="en-text">We could even clean the hard-to-reach spots together.</td><td>19/53</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1817.000" data-end="1818.040" data-jp="うわ、それもいいな。" data-en="Ooh, that sounds nice too." onclick="onRowClick(this)"><td>37</td><td>0:30:17.00</td><td>0:30:18.04</td><td>1.04s</td><td>Rina Honnizumi</td><td class="jp-text">うわ、それもいいな。</td><td class="en-text">Ooh, that sounds nice too.</td><td>10/26</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1818.160" data-end="1819.040" data-jp="ほんちゃんはなんかある?" data-en="Do you have anything, Hon-chan?" onclick="onRowClick(this)"><td>38</td><td>0:30:18.16</td><td>0:30:19.04</td><td>0.88s</td><td>Yui Ogura</td><td class="jp-text">ほんちゃんはなんかある?</td><td class="en-text">Do you have anything, Hon-chan?</td><td>12/31</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1819.320" data-end="1820.920" data-jp="私は温泉行きたい。" data-en="I want to go to a hot spring." onclick="onRowClick(this)"><td>39</td><td>0:30:19.32</td><td>0:30:20.92</td><td>1.60s</td><td>Rina Honnizumi</td><td class="jp-text">私は温泉行きたい。</td><td class="en-text">I want to go to a hot spring.</td><td>9/29</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1821.080" data-end="1821.880" data-jp="温泉かあ。" data-en="A hot spring, huh?" onclick="onRowClick(this)"><td>40</td><td>0:30:21.08</td><td>0:30:21.88</td><td>0.80s</td><td>Yui Ogura</td><td class="jp-text">温泉かあ。</td><td class="en-text">A hot spring, huh?</td><td>5/18</td></tr>
+<tr class=""  data-start="1821.750" data-end="1822.250" data-jp="うん。" data-en="Yeah." onclick="onRowClick(this)"><td>41</td><td>0:30:21.75</td><td>0:30:22.25</td><td>0.50s</td><td>Rina Honnizumi</td><td class="jp-text">うん。</td><td class="en-text">Yeah.</td><td>3/5</td></tr>
+<tr class=""  data-start="1822.640" data-end="1823.720" data-jp="え、行けるんじゃない?" data-en="Wait, couldn&#x27;t you go?" onclick="onRowClick(this)"><td>42</td><td>0:30:22.64</td><td>0:30:23.72</td><td>1.08s</td><td>Yui Ogura</td><td class="jp-text">え、行けるんじゃない?</td><td class="en-text">Wait, couldn&#x27;t you go?</td><td>11/22</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1823.720" data-end="1824.560" data-jp="今年あるよ。" data-en="There&#x27;s still time this year." onclick="onRowClick(this)"><td>43</td><td>0:30:23.72</td><td>0:30:24.56</td><td>0.84s</td><td>Yui Ogura</td><td class="jp-text">今年あるよ。</td><td class="en-text">There&#x27;s still time this year.</td><td>6/29</td></tr>
+<tr class=""  data-start="1824.560" data-end="1828.480" data-jp="1ヶ月あったらどっかで1泊ぐらいうん、うん、うん、うん。" data-en="If you have a month, surely you could manage one night away." onclick="onRowClick(this)"><td>44</td><td>0:30:24.56</td><td>0:30:28.48</td><td>3.92s</td><td>Yui Ogura</td><td class="jp-text">1ヶ月あったらどっかで1泊ぐらいうん、うん、うん、うん。</td><td class="en-text">If you have a month, surely you could manage one night away.</td><td>28/60</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1828.680" data-end="1829.720" data-jp="行ける気がしてる。" data-en="I feel like I can make it happen." onclick="onRowClick(this)"><td>45</td><td>0:30:28.68</td><td>0:30:29.72</td><td>1.04s</td><td>Rina Honnizumi</td><td class="jp-text">行ける気がしてる。</td><td class="en-text">I feel like I can make it happen.</td><td>9/33</td></tr>
+<tr class=""  data-start="1829.720" data-end="1832.140" data-jp="最近ずっと調べてて、そうなんだ。" data-en="I&#x27;ve been looking into it lately." onclick="onRowClick(this)"><td>46</td><td>0:30:29.72</td><td>0:30:32.14</td><td>2.42s</td><td>Rina Honnizumi</td><td class="jp-text">最近ずっと調べてて、そうなんだ。</td><td class="en-text">I&#x27;ve been looking into it lately.</td><td>16/33</td></tr>
+<tr class=""  data-start="1832.140" data-end="1834.160" data-jp="行きたいところも候補いっぱいあって、ええ。" data-en="I have a lot of places on my list." onclick="onRowClick(this)"><td>47</td><td>0:30:32.14</td><td>0:30:34.16</td><td>2.02s</td><td>Rina Honnizumi</td><td class="jp-text">行きたいところも候補いっぱいあって、ええ。</td><td class="en-text">I have a lot of places on my list.</td><td>21/34</td></tr>
+<tr class=""  data-start="1834.800" data-end="1839.180" data-jp="でもこう、あ、ここ行けそうって思うとなかなかこうスケジュールがうまくいかなかったり、" data-en="But whenever I think,\N&quot;Oh, I could go here,&quot; my schedule doesn&#x27;t quite work out." onclick="onRowClick(this)"><td>48</td><td>0:30:34.80</td><td>0:30:39.18</td><td>4.38s</td><td>Rina Honnizumi</td><td class="jp-text">でもこう、あ、ここ行けそうって思うとなかなかこうスケジュールがうまくいかなかったり、</td><td class="en-text">But whenever I think,\N&quot;Oh, I could go here,&quot; my schedule doesn&#x27;t quite work out.</td><td>42/81</td></tr>
+<tr class=""  data-start="1839.180" data-end="1843.920" data-jp="そう、なんか重なっちゃってるからそろそろ自分のご褒美に狙ってやる。" data-en="Things keep overlapping,\Nso I&#x27;m aiming to finally go as a reward to myself." onclick="onRowClick(this)"><td>49</td><td>0:30:39.18</td><td>0:30:43.92</td><td>4.74s</td><td>Rina Honnizumi</td><td class="jp-text">そう、なんか重なっちゃってるからそろそろ自分のご褒美に狙ってやる。</td><td class="en-text">Things keep overlapping,\Nso I&#x27;m aiming to finally go as a reward to myself.</td><td>33/76</td></tr>
+<tr class=""  data-start="1844.200" data-end="1845.080" data-jp="めっちゃいい。" data-en="That&#x27;s great." onclick="onRowClick(this)"><td>50</td><td>0:30:44.20</td><td>0:30:45.08</td><td>0.88s</td><td>Yui Ogura</td><td class="jp-text">めっちゃいい。</td><td class="en-text">That&#x27;s great.</td><td>7/13</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1845.080" data-end="1846.120" data-jp="行けますように。" data-en="I hope you get to go." onclick="onRowClick(this)"><td>51</td><td>0:30:45.08</td><td>0:30:46.12</td><td>1.04s</td><td>Yui Ogura</td><td class="jp-text">行けますように。</td><td class="en-text">I hope you get to go.</td><td>8/21</td></tr>
+<tr class=""  data-start="1846.030" data-end="1846.660" data-jp="ね。" data-en="Me too." onclick="onRowClick(this)"><td>52</td><td>0:30:46.03</td><td>0:30:46.66</td><td>0.63s</td><td>Rina Honnizumi</td><td class="jp-text">ね。</td><td class="en-text">Me too.</td><td>2/7</td></tr>
+<tr class=""  data-start="1846.660" data-end="1850.000" data-jp="ということで、次回どんな回答をしてくれるのか、お楽しみに。" data-en="Anyway, look forward to seeing how they answer next time." onclick="onRowClick(this)"><td>53</td><td>0:30:46.66</td><td>0:30:50.00</td><td>3.34s</td><td>Rina Honnizumi</td><td class="jp-text">ということで、次回どんな回答をしてくれるのか、お楽しみに。</td><td class="en-text">Anyway, look forward to seeing how they answer next time.</td><td>29/57</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1850.240" data-end="1850.880" data-jp="お楽しみに。" data-en="Look forward to it!" onclick="onRowClick(this)"><td>54</td><td>0:30:50.24</td><td>0:30:50.88</td><td>0.64s</td><td>Yui Ogura</td><td class="jp-text">お楽しみに。</td><td class="en-text">Look forward to it!</td><td>6/19</td></tr>
+<tr class=""  data-start="1851.110" data-end="1851.610" data-jp="はい。" data-en="Right." onclick="onRowClick(this)"><td>55</td><td>0:30:51.11</td><td>0:30:51.61</td><td>0.50s</td><td>Rina Honnizumi</td><td class="jp-text">はい。</td><td class="en-text">Right.</td><td>3/6</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1851.920" data-end="1852.760" data-jp="今日どうでした?" data-en="How was today for you," onclick="onRowClick(this)"><td>56</td><td>0:30:51.92</td><td>0:30:52.76</td><td>0.84s</td><td>Yui Ogura</td><td class="jp-text">今日どうでした?</td><td class="en-text">How was today for you,</td><td>8/22</td></tr>
+<tr class=""  data-start="1852.760" data-end="1853.280" data-jp="ほんちゃん。" data-en="Hon-chan?" onclick="onRowClick(this)"><td>57</td><td>0:30:52.76</td><td>0:30:53.28</td><td>0.52s</td><td>Yui Ogura</td><td class="jp-text">ほんちゃん。</td><td class="en-text">Hon-chan?</td><td>6/9</td></tr>
+<tr class=""  data-start="1853.960" data-end="1860.080" data-jp="なんか久しぶりだなって言ってたけど、やっぱ感謝祭でずっと一緒に練習してたのもあって、" data-en="We said it&#x27;s been a while,\Nbut since we were practicing together for the Kanshasai," onclick="onRowClick(this)"><td>58</td><td>0:30:53.96</td><td>0:31:00.08</td><td>6.12s</td><td>Rina Honnizumi</td><td class="jp-text">なんか久しぶりだなって言ってたけど、やっぱ感謝祭でずっと一緒に練習してたのもあって、</td><td class="en-text">We said it&#x27;s been a while,\Nbut since we were practicing together for the Kanshasai,</td><td>42/84</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1860.080" data-end="1862.120" data-jp="話すと思い出しかない。" data-en="talking to you just brings back all those memories." onclick="onRowClick(this)"><td>59</td><td>0:31:00.08</td><td>0:31:02.12</td><td>2.04s</td><td>Rina Honnizumi</td><td class="jp-text">話すと思い出しかない。</td><td class="en-text">talking to you just brings back all those memories.</td><td>11/51</td></tr>
+<tr class=""  data-start="1862.440" data-end="1863.280" data-jp="そうだね。" data-en="That&#x27;s true." onclick="onRowClick(this)"><td>60</td><td>0:31:02.44</td><td>0:31:03.28</td><td>0.84s</td><td>Yui Ogura</td><td class="jp-text">そうだね。</td><td class="en-text">That&#x27;s true.</td><td>5/12</td></tr>
+<tr class=""  data-start="1864.160" data-end="1864.920" data-jp="本当だね。" data-en="That&#x27;s true." onclick="onRowClick(this)"><td>61</td><td>0:31:04.16</td><td>0:31:04.92</td><td>0.76s</td><td>Rina Honnizumi</td><td class="jp-text">本当だね。</td><td class="en-text">That&#x27;s true.</td><td>5/12</td></tr>
+<tr class=""  data-start="1864.590" data-end="1865.090" data-jp="うん。" data-en="Yeah." onclick="onRowClick(this)"><td>62</td><td>0:31:04.59</td><td>0:31:05.09</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">うん。</td><td class="en-text">Yeah.</td><td>3/5</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1864.920" data-end="1867.360" data-jp="あっという間だしね、うん。" data-en="It really goes by in a flash, doesn&#x27;t it?" onclick="onRowClick(this)"><td>63</td><td>0:31:04.92</td><td>0:31:07.36</td><td>2.44s</td><td>Rina Honnizumi</td><td class="jp-text">あっという間だしね、うん。</td><td class="en-text">It really goes by in a flash, doesn&#x27;t it?</td><td>13/41</td></tr>
+<tr class=""  data-start="1868.600" data-end="1871.440" data-jp="あっという間にさ、そう、来年とかなっちゃうんだろうね。" data-en="It&#x27;ll be next year before we know it." onclick="onRowClick(this)"><td>64</td><td>0:31:08.60</td><td>0:31:11.44</td><td>2.84s</td><td>Yui Ogura</td><td class="jp-text">あっという間にさ、そう、来年とかなっちゃうんだろうね。</td><td class="en-text">It&#x27;ll be next year before we know it.</td><td>27/37</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1871.440" data-end="1873.040" data-jp="もう7周年だよ、次。" data-en="Next up is already the 7th anniversary." onclick="onRowClick(this)"><td>65</td><td>0:31:11.44</td><td>0:31:13.04</td><td>1.60s</td><td>Yui Ogura</td><td class="jp-text">もう7周年だよ、次。</td><td class="en-text">Next up is already the 7th anniversary.</td><td>10/39</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1874.200" data-end="1874.720" data-jp="すごくない?" data-en="Isn&#x27;t that amazing?" onclick="onRowClick(this)"><td>66</td><td>0:31:14.20</td><td>0:31:14.72</td><td>0.52s</td><td>Yui Ogura</td><td class="jp-text">すごくない?</td><td class="en-text">Isn&#x27;t that amazing?</td><td>6/19</td></tr>
+<tr class=""  data-start="1875.040" data-end="1875.720" data-jp="すごくない。" data-en="It really is." onclick="onRowClick(this)"><td>67</td><td>0:31:15.04</td><td>0:31:15.72</td><td>0.68s</td><td>Rina Honnizumi</td><td class="jp-text">すごくない。</td><td class="en-text">It really is.</td><td>6/13</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1876.040" data-end="1878.080" data-jp="付き合い長くなったね、私たちもね。" data-en="We&#x27;ve known each other for a long time now, haven&#x27;t we?" onclick="onRowClick(this)"><td>68</td><td>0:31:16.04</td><td>0:31:18.08</td><td>2.04s</td><td>Yui Ogura</td><td class="jp-text">付き合い長くなったね、私たちもね。</td><td class="en-text">We&#x27;ve known each other for a long time now, haven&#x27;t we?</td><td>17/55</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1878.350" data-end="1878.850" data-jp="本当に。" data-en="We really have." onclick="onRowClick(this)"><td>69</td><td>0:31:18.35</td><td>0:31:18.85</td><td>0.50s</td><td>Rina Honnizumi</td><td class="jp-text">本当に。</td><td class="en-text">We really have.</td><td>4/15</td></tr>
+<tr class=""  data-start="1879.510" data-end="1880.010" data-jp="うん。" data-en="Yeah." onclick="onRowClick(this)"><td>70</td><td>0:31:19.51</td><td>0:31:20.01</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">うん。</td><td class="en-text">Yeah.</td><td>3/5</td></tr>
+<tr class=""  data-start="1880.040" data-end="1882.000" data-jp="なんか4人でいる時のさ、うん。" data-en="When the four of us are together..." onclick="onRowClick(this)"><td>71</td><td>0:31:20.04</td><td>0:31:22.00</td><td>1.96s</td><td>Rina Honnizumi</td><td class="jp-text">なんか4人でいる時のさ、うん。</td><td class="en-text">When the four of us are together...</td><td>15/35</td></tr>
+<tr class=""  data-start="1882.000" data-end="1884.000" data-jp="なんだろう、空気感とかもさ、うん。" data-en="How should I put it? The atmosphere..." onclick="onRowClick(this)"><td>72</td><td>0:31:22.00</td><td>0:31:24.00</td><td>2.00s</td><td>Rina Honnizumi</td><td class="jp-text">なんだろう、空気感とかもさ、うん。</td><td class="en-text">How should I put it? The atmosphere...</td><td>17/38</td></tr>
+<tr class=""  data-start="1884.000" data-end="1886.080" data-jp="もうなんかファミリー感あるもんね、ちょっと。" data-en="It almost feels like we&#x27;re a family now." onclick="onRowClick(this)"><td>73</td><td>0:31:24.00</td><td>0:31:26.08</td><td>2.08s</td><td>Rina Honnizumi</td><td class="jp-text">もうなんかファミリー感あるもんね、ちょっと。</td><td class="en-text">It almost feels like we&#x27;re a family now.</td><td>22/40</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1886.200" data-end="1887.460" data-jp="もう実家のような。" data-en="It&#x27;s like being at home." onclick="onRowClick(this)"><td>74</td><td>0:31:26.20</td><td>0:31:27.46</td><td>1.26s</td><td>Yui Ogura</td><td class="jp-text">もう実家のような。</td><td class="en-text">It&#x27;s like being at home.</td><td>9/24</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1887.460" data-end="1888.440" data-jp="安心感。" data-en="It&#x27;s so comforting." onclick="onRowClick(this)"><td>75</td><td>0:31:27.46</td><td>0:31:28.44</td><td>0.98s</td><td>Yui Ogura</td><td class="jp-text">安心感。</td><td class="en-text">It&#x27;s so comforting.</td><td>4/19</td></tr>
+<tr class=""  data-start="1888.600" data-end="1889.560" data-jp="親戚集まったみたい。" data-en="Like a family reunion." onclick="onRowClick(this)"><td>76</td><td>0:31:28.60</td><td>0:31:29.56</td><td>0.96s</td><td>Rina Honnizumi</td><td class="jp-text">親戚集まったみたい。</td><td class="en-text">Like a family reunion.</td><td>10/22</td></tr>
+<tr class=""  data-start="1890.960" data-end="1892.640" data-jp="ずっとすごいしゃべりしてるとか。" data-en="We just talk and talk the whole time." onclick="onRowClick(this)"><td>77</td><td>0:31:30.96</td><td>0:31:32.64</td><td>1.68s</td><td>Yui Ogura</td><td class="jp-text">ずっとすごいしゃべりしてるとか。</td><td class="en-text">We just talk and talk the whole time.</td><td>16/37</td></tr>
+<tr class=""  data-start="1892.640" data-end="1897.080" data-jp="あれだ、ほんちゃんあれだよ、セットログさ、めっちゃ好評だったよね。" data-en="Oh, Hon-chan, that Setlog you did was really popular!" onclick="onRowClick(this)"><td>78</td><td>0:31:32.64</td><td>0:31:37.08</td><td>4.44s</td><td>Yui Ogura</td><td class="jp-text">あれだ、ほんちゃんあれだよ、セットログさ、めっちゃ好評だったよね。</td><td class="en-text">Oh, Hon-chan, that Setlog you did was really popular!</td><td>33/53</td></tr>
+<tr class=""  data-start="1897.950" data-end="1898.580" data-jp="え、本当に?" data-en="Wait, really?" onclick="onRowClick(this)"><td>79</td><td>0:31:37.95</td><td>0:31:38.58</td><td>0.63s</td><td>Rina Honnizumi</td><td class="jp-text">え、本当に?</td><td class="en-text">Wait, really?</td><td>6/13</td></tr>
+<tr class=""  data-start="1898.580" data-end="1899.360" data-jp="大丈夫だった?" data-en="Was it okay?" onclick="onRowClick(this)"><td>80</td><td>0:31:38.58</td><td>0:31:39.36</td><td>0.78s</td><td>Rina Honnizumi</td><td class="jp-text">大丈夫だった?</td><td class="en-text">Was it okay?</td><td>7/12</td></tr>
+<tr class=""  data-start="1899.480" data-end="1902.740" data-jp="なんかめっちゃくちゃしずくって言われてたよ。" data-en="Everyone was saying how much you were like Shizuku." onclick="onRowClick(this)"><td>81</td><td>0:31:39.48</td><td>0:31:42.74</td><td>3.26s</td><td>Yui Ogura</td><td class="jp-text">なんかめっちゃくちゃしずくって言われてたよ。</td><td class="en-text">Everyone was saying how much you were like Shizuku.</td><td>22/51</td></tr>
+<tr class=""  data-start="1902.740" data-end="1908.000" data-jp="あの、ほとんど取れてない感じがしずくとめっちゃ重なるって言われてたの、" data-en="They said the way you barely caught anything in the Setlog" onclick="onRowClick(this)"><td>82</td><td>0:31:42.74</td><td>0:31:48.00</td><td>5.26s</td><td>Yui Ogura</td><td class="jp-text">あの、ほとんど取れてない感じがしずくとめっちゃ重なるって言われてたの、</td><td class="en-text">They said the way you barely caught anything in the Setlog</td><td>35/58</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1908.000" data-end="1908.640" data-jp="セットログ。" data-en="was just like Shizuku." onclick="onRowClick(this)"><td>83</td><td>0:31:48.00</td><td>0:31:48.64</td><td>0.64s</td><td>Yui Ogura</td><td class="jp-text">セットログ。</td><td class="en-text">was just like Shizuku.</td><td>6/22</td></tr>
+<tr class=""  data-start="1908.960" data-end="1909.600" data-jp="あ、そういうことか。" data-en="Oh, I see!" onclick="onRowClick(this)"><td>84</td><td>0:31:48.96</td><td>0:31:49.60</td><td>0.64s</td><td>Rina Honnizumi</td><td class="jp-text">あ、そういうことか。</td><td class="en-text">Oh, I see!</td><td>10/10</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1910.480" data-end="1915.000" data-jp="しずくそうね、機械苦手だから苦手にながらありがてえ。" data-en="Shizuku isn&#x27;t good with technology,\Nso I&#x27;m glad it worked out that way." onclick="onRowClick(this)"><td>85</td><td>0:31:50.48</td><td>0:31:55.00</td><td>4.52s</td><td>Rina Honnizumi</td><td class="jp-text">しずくそうね、機械苦手だから苦手にながらありがてえ。</td><td class="en-text">Shizuku isn&#x27;t good with technology,\Nso I&#x27;m glad it worked out that way.</td><td>26/72</td></tr>
+<tr class=""  data-start="1915.080" data-end="1918.680" data-jp="めっちゃそう、みんな喜んでくれてたから、また撮ろうね、4人でも。" data-en="Everyone was so happy, so let&#x27;s take another one with the four of us." onclick="onRowClick(this)"><td>86</td><td>0:31:55.08</td><td>0:31:58.68</td><td>3.60s</td><td>Yui Ogura</td><td class="jp-text">めっちゃそう、みんな喜んでくれてたから、また撮ろうね、4人でも。</td><td class="en-text">Everyone was so happy, so let&#x27;s take another one with the four of us.</td><td>32/69</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1918.800" data-end="1919.880" data-jp="私もリベンジしたい。" data-en="I want a chance to redeem myself!" onclick="onRowClick(this)"><td>87</td><td>0:31:58.80</td><td>0:31:59.88</td><td>1.08s</td><td>Rina Honnizumi</td><td class="jp-text">私もリベンジしたい。</td><td class="en-text">I want a chance to redeem myself!</td><td>10/33</td></tr>
+<tr class=""  data-start="1920.680" data-end="1926.220" data-jp="あの、事前にゆいちゃんから、あの、LINEでね、連絡してくれて、グループに招待して、" data-en="Yui-chan messaged the group and invited us all," onclick="onRowClick(this)"><td>88</td><td>0:32:00.68</td><td>0:32:06.22</td><td>5.54s</td><td>Rina Honnizumi</td><td class="jp-text">あの、事前にゆいちゃんから、あの、LINEでね、連絡してくれて、グループに招待して、</td><td class="en-text">Yui-chan messaged the group and invited us all,</td><td>42/47</td></tr>
+<tr class=""  data-start="1926.220" data-end="1929.240" data-jp="で、ジェットラグって何だろうだったの、私その時。" data-en="but at the time, I was like, &quot;What&#x27;s a Setlog?&quot;" onclick="onRowClick(this)"><td>89</td><td>0:32:06.22</td><td>0:32:09.24</td><td>3.02s</td><td>Rina Honnizumi</td><td class="jp-text">で、ジェットラグって何だろうだったの、私その時。</td><td class="en-text">but at the time, I was like, &quot;What&#x27;s a Setlog?&quot;</td><td>24/47</td></tr>
+<tr class=""  data-start="1930.160" data-end="1936.480" data-jp="調べたら、アプリがあるんだと思って、一旦それを次みんなに会う時までにダウンロードしとこうと思って、" data-en="I looked it up and realized it was an app,\Nso I thought I&#x27;d download it before we met up again." onclick="onRowClick(this)"><td>90</td><td>0:32:10.16</td><td>0:32:16.48</td><td>6.32s</td><td>Rina Honnizumi</td><td class="jp-text">調べたら、アプリがあるんだと思って、一旦それを次みんなに会う時までにダウンロードしとこうと思って、</td><td class="en-text">I looked it up and realized it was an app,\Nso I thought I&#x27;d download it before we met up again.</td><td>49/96</td></tr>
+<tr class=""  data-start="1936.480" data-end="1937.540" data-jp="ダウンロードしました。" data-en="I downloaded the app." onclick="onRowClick(this)"><td>91</td><td>0:32:16.48</td><td>0:32:17.54</td><td>1.06s</td><td>Rina Honnizumi</td><td class="jp-text">ダウンロードしました。</td><td class="en-text">I downloaded the app.</td><td>11/21</td></tr>
+<tr class=""  data-start="1937.540" data-end="1939.240" data-jp="で、アカウントも作りました。" data-en="And I even made an account." onclick="onRowClick(this)"><td>92</td><td>0:32:17.54</td><td>0:32:19.24</td><td>1.70s</td><td>Rina Honnizumi</td><td class="jp-text">で、アカウントも作りました。</td><td class="en-text">And I even made an account.</td><td>14/27</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1939.240" data-end="1943.520" data-jp="これで大丈夫だって思って、で、朝合流して、で、" data-en="I thought I was all set, but when we met up that morning..." onclick="onRowClick(this)"><td>93</td><td>0:32:19.24</td><td>0:32:23.52</td><td>4.28s</td><td>Rina Honnizumi</td><td class="jp-text">これで大丈夫だって思って、で、朝合流して、で、</td><td class="en-text">I thought I was all set, but when we met up that morning...</td><td>23/59</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1944.920" data-end="1950.520" data-jp="何もしてなかったの、その撮るっていう概念がなくて、で、なんか" data-en="I hadn&#x27;t done anything.\NThe concept of taking photos didn&#x27;t even occur to me, so..." onclick="onRowClick(this)"><td>94</td><td>0:32:24.92</td><td>0:32:30.52</td><td>5.60s</td><td>Rina Honnizumi</td><td class="jp-text">何もしてなかったの、その撮るっていう概念がなくて、で、なんか</td><td class="en-text">I hadn&#x27;t done anything.\NThe concept of taking photos didn&#x27;t even occur to me, so...</td><td>30/84</td></tr>
+<tr class=""  data-start="1952.150" data-end="1952.650" data-jp="何?" data-en="What happened?" onclick="onRowClick(this)"><td>95</td><td>0:32:32.15</td><td>0:32:32.65</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">何?</td><td class="en-text">What happened?</td><td>2/14</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1952.640" data-end="1953.550" data-jp="朝のバナナ。" data-en="My morning banana." onclick="onRowClick(this)"><td>96</td><td>0:32:32.64</td><td>0:32:33.55</td><td>0.91s</td><td>Rina Honnizumi</td><td class="jp-text">朝のバナナ。</td><td class="en-text">My morning banana.</td><td>6/18</td></tr>
+<tr class=""  data-start="1953.550" data-end="1954.090" data-jp="朝" data-en="In the morning..." onclick="onRowClick(this)"><td>97</td><td>0:32:33.55</td><td>0:32:34.09</td><td>0.54s</td><td>Rina Honnizumi</td><td class="jp-text">朝</td><td class="en-text">In the morning...</td><td>1/17</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1955.600" data-end="1960.480" data-jp="ほんちゃんあの1本のあ、こうやって撮るんだとそん時そのゆいちゃんが、" data-en="Honn-chan, that one photo...\NThat was when Yui-chan showed me how to actually take them." onclick="onRowClick(this)"><td>98</td><td>0:32:35.60</td><td>0:32:40.48</td><td>4.88s</td><td>Rina Honnizumi</td><td class="jp-text">ほんちゃんあの1本のあ、こうやって撮るんだとそん時そのゆいちゃんが、</td><td class="en-text">Honn-chan, that one photo...\NThat was when Yui-chan showed me how to actually take them.</td><td>34/89</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1960.480" data-end="1965.260" data-jp="もうぜ、私の画面を見せてやってくれて、ここをこうしてこうしてこうやると撮れるから、" data-en="She looked at my screen and walked me through it,\Nsaying, &quot;If you do this and that, you can take a photo.&quot;" onclick="onRowClick(this)"><td>99</td><td>0:32:40.48</td><td>0:32:45.26</td><td>4.78s</td><td>Rina Honnizumi</td><td class="jp-text">もうぜ、私の画面を見せてやってくれて、ここをこうしてこうしてこうやると撮れるから、</td><td class="en-text">She looked at my screen and walked me through it,\Nsaying, &quot;If you do this and that, you can take a photo.&quot;</td><td>41/107</td></tr>
+<tr class=""  data-start="1965.260" data-end="1970.920" data-jp="これでオッケーだよって言って、はって言ってその目の前にあったバナナを投稿して、" data-en="She said, &quot;There, you&#x27;re all set!&quot; so I just posted the banana\Nthat was right in front of me." onclick="onRowClick(this)"><td>100</td><td>0:32:45.26</td><td>0:32:50.92</td><td>5.66s</td><td>Rina Honnizumi</td><td class="jp-text">これでオッケーだよって言って、はって言ってその目の前にあったバナナを投稿して、</td><td class="en-text">She said, &quot;There, you&#x27;re all set!&quot; so I just posted the banana\Nthat was right in front of me.</td><td>39/94</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1971.480" data-end="1975.840" data-jp="で、よし、できたって言って、後はみんなのカメラに映り込むだけっていう、" data-en="I was like, &quot;Okay, done!&quot; and after that,\NI just focused on photobombing everyone else&#x27;s pictures." onclick="onRowClick(this)"><td>101</td><td>0:32:51.48</td><td>0:32:55.84</td><td>4.36s</td><td>Rina Honnizumi</td><td class="jp-text">で、よし、できたって言って、後はみんなのカメラに映り込むだけっていう、</td><td class="en-text">I was like, &quot;Okay, done!&quot; and after that,\NI just focused on photobombing everyone else&#x27;s pictures.</td><td>35/99</td></tr>
+<tr class=""  data-start="1975.730" data-end="1976.230" data-jp="そう。" data-en="Right." onclick="onRowClick(this)"><td>102</td><td>0:32:55.73</td><td>0:32:56.23</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">そう。</td><td class="en-text">Right.</td><td>3/6</td></tr>
+<tr class=""  data-start="1976.680" data-end="1980.040" data-jp="そう、めっちゃそれが、うん、まさにしずくだって言われてて。" data-en="Yeah, everyone was saying that was such a Shizuku thing to do." onclick="onRowClick(this)"><td>103</td><td>0:32:56.68</td><td>0:33:00.04</td><td>3.36s</td><td>Rina Honnizumi</td><td class="jp-text">そう、めっちゃそれが、うん、まさにしずくだって言われてて。</td><td class="en-text">Yeah, everyone was saying that was such a Shizuku thing to do.</td><td>29/62</td></tr>
+<tr class=""  data-start="1980.240" data-end="1981.120" data-jp="よかった。" data-en="I&#x27;m glad." onclick="onRowClick(this)"><td>104</td><td>0:33:00.24</td><td>0:33:01.12</td><td>0.88s</td><td>Yui Ogura</td><td class="jp-text">よかった。</td><td class="en-text">I&#x27;m glad.</td><td>5/9</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1981.600" data-end="1984.120" data-jp="次はちゃんと1時間ごとに撮るよ。" data-en="Next time, I&#x27;ll make sure to take a photo every hour." onclick="onRowClick(this)"><td>105</td><td>0:33:01.60</td><td>0:33:04.12</td><td>2.52s</td><td>Rina Honnizumi</td><td class="jp-text">次はちゃんと1時間ごとに撮るよ。</td><td class="en-text">Next time, I&#x27;ll make sure to take a photo every hour.</td><td>16/53</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1984.120" data-end="1985.520" data-jp="何かしら絶対。" data-en="I&#x27;ll definitely find something." onclick="onRowClick(this)"><td>106</td><td>0:33:04.12</td><td>0:33:05.52</td><td>1.40s</td><td>Rina Honnizumi</td><td class="jp-text">何かしら絶対。</td><td class="en-text">I&#x27;ll definitely find something.</td><td>7/31</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1985.520" data-end="1987.040" data-jp="携帯も持ち歩く。" data-en="And I&#x27;ll keep my phone with me." onclick="onRowClick(this)"><td>107</td><td>0:33:05.52</td><td>0:33:07.04</td><td>1.52s</td><td>Rina Honnizumi</td><td class="jp-text">携帯も持ち歩く。</td><td class="en-text">And I&#x27;ll keep my phone with me.</td><td>8/31</td></tr>
+<tr class=""  data-start="1987.130" data-end="1987.630" data-jp="はい。" data-en="Okay." onclick="onRowClick(this)"><td>108</td><td>0:33:07.13</td><td>0:33:07.63</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">はい。</td><td class="en-text">Okay.</td><td>3/5</td></tr>
+<tr class=""  data-start="1987.720" data-end="1988.880" data-jp="じゃあ、リベンジします。" data-en="I&#x27;ll get my revenge next time." onclick="onRowClick(this)"><td>109</td><td>0:33:07.72</td><td>0:33:08.88</td><td>1.16s</td><td>Rina Honnizumi</td><td class="jp-text">じゃあ、リベンジします。</td><td class="en-text">I&#x27;ll get my revenge next time.</td><td>12/30</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1989.040" data-end="1989.680" data-jp="期待です。" data-en="I&#x27;m looking forward to it." onclick="onRowClick(this)"><td>110</td><td>0:33:09.04</td><td>0:33:09.68</td><td>0.64s</td><td>Yui Ogura</td><td class="jp-text">期待です。</td><td class="en-text">I&#x27;m looking forward to it.</td><td>5/26</td></tr>
+<tr class=""  data-start="1989.720" data-end="1990.520" data-jp="お願いします。" data-en="Please do." onclick="onRowClick(this)"><td>111</td><td>0:33:09.72</td><td>0:33:10.52</td><td>0.80s</td><td>Rina Honnizumi</td><td class="jp-text">お願いします。</td><td class="en-text">Please do.</td><td>7/10</td></tr>
+<tr class=""  data-start="1991.280" data-end="1993.600" data-jp="さあ、ということで、ここでお別れになります。" data-en="Well then, it&#x27;s time for us to say goodbye." onclick="onRowClick(this)"><td>112</td><td>0:33:11.28</td><td>0:33:13.60</td><td>2.32s</td><td>Yui Ogura</td><td class="jp-text">さあ、ということで、ここでお別れになります。</td><td class="en-text">Well then, it&#x27;s time for us to say goodbye.</td><td>22/43</td></tr>
+<tr class=""  data-start="1993.600" data-end="1996.880" data-jp="ここまでのお相手は小倉唯とほん泉莉奈でした。" data-en="Your hosts were Yui Ogura and Rina Honnizumi." onclick="onRowClick(this)"><td>113</td><td>0:33:13.60</td><td>0:33:16.88</td><td>3.28s</td><td>Yui Ogura</td><td class="jp-text">ここまでのお相手は小倉唯とほん泉莉奈でした。</td><td class="en-text">Your hosts were Yui Ogura and Rina Honnizumi.</td><td>22/45</td></tr>
+<tr class="severity-yellow" data-issue-long="1" data-start="1997.080" data-end="1997.840" data-jp="またね。" data-en="See you later!" onclick="onRowClick(this)"><td>114</td><td>0:33:17.08</td><td>0:33:17.84</td><td>0.76s</td><td>Rina Honnizumi</td><td class="jp-text">またね。</td><td class="en-text">See you later!</td><td>4/14</td></tr>
+<tr class=""  data-start="1997.750" data-end="1998.250" data-jp="バイバイ。" data-en="Bye-bye!" onclick="onRowClick(this)"><td>115</td><td>0:33:17.75</td><td>0:33:18.25</td><td>0.50s</td><td>Yui Ogura</td><td class="jp-text">バイバイ。</td><td class="en-text">Bye-bye!</td><td>5/8</td></tr>
+</tbody>
+</table>
+<script>
+const video = document.getElementById('video');
+const nowLineNum = document.getElementById('now-line-num');
+const nowTime = document.getElementById('now-time');
+const nowJp = document.getElementById('now-jp');
+const nowEn = document.getElementById('now-en');
+const rows = document.querySelectorAll('tbody tr');
+let selectedRow = null;
+let activeRow = null;
+
+function updateNowPlaying(row) {
+  const lineNum = row.cells[0].textContent;
+  const startTime = row.cells[1].textContent;
+  const endTime = row.cells[2].textContent;
+  if (nowLineNum) nowLineNum.textContent = 'Line #' + lineNum;
+  if (nowTime) nowTime.textContent = startTime + ' \u2192 ' + endTime;
+  if (nowJp) nowJp.textContent = row.getAttribute('data-jp');
+  if (nowEn) nowEn.textContent = row.getAttribute('data-en');
+}
+
+function onRowClick(row) {
+  if (selectedRow) selectedRow.classList.remove('selected');
+  row.classList.add('selected');
+  selectedRow = row;
+  updateNowPlaying(row);
+  if (video) {
+    const t = parseFloat(row.getAttribute('data-start'));
+    video.currentTime = t;
+    video.play();
+  }
+}
+
+// Auto-highlight current subtitle as video plays
+if (video) {
+  video.addEventListener('timeupdate', function() {
+    const t = video.currentTime;
+    let found = null;
+    for (const row of rows) {
+      if (row.classList.contains('hidden-row')) continue;
+      const s = parseFloat(row.dataset.start);
+      const e = parseFloat(row.dataset.end);
+      if (t >= s && t < e) { found = row; break; }
+    }
+    if (found && found !== activeRow) {
+      if (activeRow) activeRow.classList.remove('active-line');
+      found.classList.add('active-line');
+      activeRow = found;
+      updateNowPlaying(found);
+    }
+  });
+}
+
+// Filter logic
+const activeFilters = new Set();
+const issueAttrs = ['short', 'long', 'zero_duration', 'large_gap'];
+
+function hasAnyIssue(row) {
+  for (const attr of issueAttrs) {
+    if (row.getAttribute('data-issue-' + attr) === '1') return true;
+  }
+  return false;
+}
+
+function applyFilters() {
+  rows.forEach(row => {
+    if (activeFilters.size === 0) {
+      row.classList.remove('hidden-row');
+      return;
+    }
+    let show = false;
+    if (activeFilters.has('__issues__')) {
+      show = hasAnyIssue(row);
+    } else {
+      for (const f of activeFilters) {
+        if (row.getAttribute('data-issue-' + f) === '1') show = true;
+      }
+    }
+    row.classList.toggle('hidden-row', !show);
+  });
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+    btn.classList.toggle('inactive', activeFilters.size > 0 && !activeFilters.has(btn.dataset.filter));
+  });
+  document.querySelector('.btn-issues').classList.toggle('inactive',
+    activeFilters.size > 0 && !activeFilters.has('__issues__'));
+
+  // If there's a selected/active row that's still visible, scroll to it
+  const anchor = (selectedRow && !selectedRow.classList.contains('hidden-row')) ? selectedRow
+               : (activeRow && !activeRow.classList.contains('hidden-row')) ? activeRow
+               : null;
+  if (anchor) {
+    anchor.scrollIntoView({block: 'center', behavior: 'instant'});
+  }
+}
+
+function toggleFilter(btn) {
+  const f = btn.dataset.filter;
+  activeFilters.delete('__issues__');
+  if (activeFilters.has(f)) activeFilters.delete(f); else activeFilters.add(f);
+  applyFilters();
+}
+
+function filterAll() {
+  activeFilters.clear();
+  applyFilters();
+}
+
+function filterIssuesOnly() {
+  activeFilters.clear();
+  activeFilters.add('__issues__');
+  applyFilters();
+}
+
+// Pin table headers below sticky top bar
+(function() {
+  const stickyTop = document.getElementById('sticky-top');
+  if (!stickyTop) return;
+  function updateThTop() {
+    const h = stickyTop.offsetHeight;
+    document.querySelectorAll('th').forEach(th => th.style.top = h + 'px');
+  }
+  updateThTop();
+  window.addEventListener('resize', updateThTop);
+  new ResizeObserver(updateThTop).observe(stickyTop);
+})();
+</script>
+</body>
+</html>
