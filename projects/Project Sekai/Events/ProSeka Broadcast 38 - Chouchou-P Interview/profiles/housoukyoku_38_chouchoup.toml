@@ -1,0 +1,111 @@
+# ProSeka Broadcast Station #38 (プロセカ放送局 #38) — "Sekai of Vocalo Music" Guest Interview
+# Guest Vocaloid Producer: Chouchou-P (蝶々P; EN server credit "papiyon")
+# Cast Host: Minori Suzuki (鈴木みのり, voice of Ena Shinonome)
+# Broadcast MC: Ai Shimizu (清水藍, CBC Radio "RADIO MIKU")
+# Commissioned Song: 「その絵の名前は」 ("The name of painting") — Event #184 "Colors of Pure Sense" (ena6)
+#
+# Transcribed with Chirp 3 (--speakers 3); translated with local Claude Opus via
+# --llm-provider claude-cli. The normalizer is exact-only so no Gemini call is made.
+
+extends = ["proseka/base"]
+
+prompt = [
+    """
+You are translating a live Japanese studio interview from "ProSeka Broadcast Station #38" (プロセカ放送局 #38, aired November 25, 2026), specifically the opening "Sekai of Vocalo Music" (ボカロミュージックのセカイ) creator interview segment, into natural English subtitles.
+
+Core translation guidelines:
+1. Treat the audio as live spoken conversation, not formal written prose. Three people are on set together: a broadcast MC, a voice actress who is a longtime fan of the guest, and a veteran Vocaloid producer making an almost-first-ever broadcast appearance.
+2. Prioritize natural, conversational English with contractions and clean, compact clauses suitable for subtitles (aim for concise phrasing that fits comfortably in ≤ 2 subtitle rows).
+3. Preserve each speaker's distinct voice and demeanor:
+   - Ai Shimizu (清水藍, MC): Warm, articulate livestream MC guiding the questions, reacting empathetically, and keeping time.
+   - Minori Suzuki (鈴木みのり, voice of Ena Shinonome): Emotional, effusive, and quick-talking—speaking as Ena's voice actress who feels "like Ena's parent," and as a longtime fan of Chouchou-P's work. She gushes, piles up clauses, and sometimes trails off mid-thought; keep her energy without making her sound incoherent.
+   - Chouchou-P (蝶々P, guest Vocaloid producer): Soft-spoken, humble, visibly nervous ("I'm super nervous"), hedges a lot (なんか, やっぱり, ちょっと), struggles to put his process into words, and has gentle, self-deprecating humor (e.g. answering "what's your routine for writing warm songs?" with "Well, I had gratin for lunch today").
+4. Do not spell out filler sounds literally unless hesitation or comedic timing matters. Keep interjections and backchannels ("Yeah," "Right," "I see") lively and natural.
+5. Maintain smooth sentence continuity across adjacent subtitle lines: if a clause continues onto the next cue, end with a comma (or no terminal punctuation) and start the next cue lowercase; if a thought finishes, end with terminal punctuation and capitalize the next cue.
+6. Speaker labels come from automatic diarization and can occasionally be wrong on short backchannels; translate the words as spoken and don't invent dialogue to fit a label. Chouchou-P is addressed as 蝶々Pさん → "Chouchou-P-san"; Minori Suzuki as 鈴木さん → "Suzuki-san".
+""",
+    """
+Broadcast & Interview Context:
+- Program: ProSeka Broadcast Station #38 (プロセカ放送局 #38), opening corner "Sekai of Vocalo Music" (ボカロミュージックのセカイ). Minori Suzuki says it's her first time appearing in this corner; on past broadcasts she'd be getting ready backstage while it aired, wishing she could join in.
+- Chouchou-P's profile (read by the MC): began posting songs as Vocaloid producer Chouchou-P in 2008; released his first album under the Chouchou-P name in 2011; has performed as a guitarist/keyboardist on stages such as the Nippon Budokan and Saitama Super Arena; made his major-label debut in 2017 as singer-songwriter Yu Ichinose (一之瀬ユウ); also writes and produces songs for other artists, anime, and games. He says this is practically his first time on a show like this.
+- Q&A corner (ゲストさんへの質問コーナー), discussed while the full song plays with its SEKAI 2DMV (illustrated by Nekome Toworu, 猫目トヲル; the speakers may shorten this to "Toworu-san"):
+  1. Title: While writing, he used 「タイトル」 ("Title") as a working title—meaning the title of the painting Ena paints. Wanting something better, he turned it into a question asking for the painting's name: 「その絵の名前は」. Only afterward did they notice Ena's name (絵名) was hidden inside it (その「絵」の「名」前は)—unintentional. The English title, however, was intentional: he chose "The name of painting" rather than "The title of painting" so that "thE NAme" spells out "Ena". Make this wordplay clear in English (e.g. "the E in 'the' and the 'na' in 'name' make 'Ena'").
+  2. Minori says she feels like Ena's parent, received the song as a love letter—a treasure that's the culmination of who this girl is now—and practiced like crazy to live up to his feelings.
+  3. Lyrics: His favorite part—what he most wanted to say—is the lyrics after the piano solo, starting from 「突きつけられた現実が…」 ("the reality thrust before me..."). He usually writes lyrics after the music is done, drawing on what he was told about Ena and the upcoming story in advance; as a fellow creator he relates to Ena's creator side.
+  4. Minori highlights the line 「答えはただ一つじゃない」 ("the answer isn't just one"): Ena used to believe one particular path was the best way for her and her art, suffered setbacks and frustration when she couldn't manage it, and through growth realizes there's a different path to art that is hers. The MC loves how the chorus uses 「それでも」 ("even so") rather than 「でも」/「だけど」 ("but"), which feels so Ena.
+  5. Recording: Minori sang it as if looking back on Ena's life up to now, alongside the 2DMV illustrations; old Ena would sing the painful parts as painful and the sad parts tearfully, but today's Ena would think even those were worth having, so she sang each line as accepting rather than denying the past—"それでも" not as negation but as "that's true, but this is too, and I won't give up on either." She records both a take singing her assigned part of the SEKAI-version line split and a take singing the whole song through as Ena (used for the Another Vocal version), so the game-size and full-size versions show different expressions on the same lyrics.
+  6. Chouchou-P on hearing the recording: it felt like a soul had come to dwell in the song; his first thought was "I'm really glad I made this." He watched the recording session remotely; Minori felt double pressure—being heard by a legend she'd listened to for years, and needing to nail Ena's important song.
+  7. Virtual Singer version sung by Hatsune Miku: his first Miku song in about two years; coming back to Miku felt like "the comfort of coming home to your parents' house" (実家のような安心感) and brought back nostalgia for his early days. The song was released in 2025 ("last year").
+  8. Closing question: Minori asks why he can make such warm songs; he credits Ena as a character and can't quite put his process into words. He composes from piano/guitar melody and atmosphere first. Asked for a routine viewers could imitate, he says he had gratin for lunch today; the MC runs with it ("everyone, it's getting chilly, so eat some warm gratin and feel warm inside"). Minori protests the time being up (やだ、嫌だよ).
+- Versions mentioned: Virtual Singer version, SEKAI version (Kanade, Mafuyu, Ena, Mizuki + Miku), and Ena's Another Vocal version.
+""",
+    """
+Event story context — Event #184 "Colors of Pure Sense" (ena6), the story the song was written for:
+- Ena joins the exam-prep practical course at her art class and is overwhelmed by stronger classmates such as Futaba Natsuno. In the first mock concours (theme "memory") she plays it safe and gets C−, last place. The strict teacher Yukihira-sensei assigns her to submit a deliberately "failed work."
+- Kanade tells her there are things you can only see through failure; KAITO asks what she hates most. Ena realizes her real failure is failing to express what she wants to say, and paints the Nightcord screen—the place she always comes back to—as her "landmark"; every attempt to ruin it only makes it better.
+- Yukihira tells her that her weapon is her own worldview (世界観), not correct technique, and that what makes a painting right can't be explained by theory alone. Remembering her painter father's words ("Painting is free. It's your own world."), she paints joyfully, still only gets a C, but declares 「それでも、東美に行きたいんです」 ("Even so, I want to go to Toubi") and commits to aiming for Toubi.
+- This is why "the answer isn't just one" and 「それでも」 ("even so") resonate so strongly with Ena's arc.
+""",
+    """
+Style rules for this broadcast:
+1. Names use Western order ("Given Family"): Ai Shimizu, Minori Suzuki, Ena Shinonome, Kanade Yoisaki, Mafuyu Asahina, Mizuki Akiyama, Yu Ichinose. Keep "Chouchou-P" as-is.
+2. Unit: 25時、ナイトコードで。 → "Nightcord at 25:00" in full; ニーゴ → "N25".
+3. Song and event titles go in double quotes, never italicized. The commissioned song's official English title is exactly "The name of painting" (lowercase "name" and "painting"). The event is "Colors of Pure Sense".
+4. Hatsune Miku in full; standalone ミク/ミクちゃん → "Miku".
+""",
+]
+
+vocab = [
+    "プロセカ放送局",
+    "ボカロミュージックのセカイ",
+    "蝶々P",
+    "鈴木みのり",
+    "清水藍",
+    "東雲絵名",
+    "25時、ナイトコードで。",
+    "その絵の名前は",
+    "アナザーボーカル",
+    "一之瀬ユウ",
+]
+
+[glossary]
+"プロセカ放送局" = "ProSeka Broadcast Station"
+"ボカロミュージックのセカイ" = "Sekai of Vocalo Music"
+"セカイバージョン" = "SEKAI version"
+"バーチャル・シンガー" = "Virtual Singer"
+"アナザーボーカル" = "Another Vocal"
+"蝶々P" = "Chouchou-P"
+"鈴木みのり" = "Minori Suzuki"
+"清水藍" = "Ai Shimizu"
+"東雲絵名" = "Ena Shinonome"
+"絵名" = "Ena"
+"エナ" = "Ena"
+"25時、ナイトコードで。" = "Nightcord at 25:00"
+"その絵の名前は" = "The name of painting"
+"一之瀬ユウ" = "Yu Ichinose"
+"猫目トヲル" = "Nekome Toworu"
+"雪平" = "Yukihira"
+"夏野二葉" = "Futaba Natsuno"
+"東美" = "Toubi"
+
+[format.normalizer]
+# Exact replacements only: skips proseka/base's Gemini LLM normalizer.
+engine = "exact"
+
+# Chirp 3 misreadings observed on this broadcast (2026-11-25 run).
+[format.normalizer.replacements]
+"その音の名前は" = "その絵の名前は"
+"その絵の名前をお聞きながら" = "その絵の名前はを聞きながら"
+"25時ナイトコードで" = "25時、ナイトコードで。"
+"ボカロエイトプロデューサー" = "ボーカロイドプロデューサー"
+"蝶々P名初" = "蝶々P名義初"
+"一ノ瀬優" = "一之瀬ユウ"
+"ボカロミュージックの世界" = "ボカロミュージックのセカイ"
+"世界バージョン" = "セカイバージョン"
+"配信バージョン" = "セカイバージョン"
+"突きつけられた歌詞が" = "突きつけられた現実が"
+"コメとるさん" = "猫目トヲルさん"
+"とるさん、ね、" = "トヲルさん、ね、"
+"それぞれの25" = "それぞれのニーゴ"
+"から物みたいな" = "宝物みたいな"
+"ばぎらわしくて" = "紛らわしくて"

@@ -1,0 +1,17 @@
+# Speaker map for ProSeka Broadcast #38 — Chouchou-P Interview ("The name of painting")
+# Chirp 3 (--speakers 3) labels, verified against _transcript.json: consistent across
+# Segment 1 (11:42–13:06, guest entrance) and Segment 2 (18:55–30:44, Q&A).
+# On-set layout (left → right): Ai Shimizu, Minori Suzuki, Chouchou-P.
+
+[speakers."0"]
+name = "Ai Shimizu"
+color = "#22AA99"
+
+[speakers."1"]
+name = "Chouchou-P"
+color = "#8866DD"
+
+[speakers."2"]
+name = "Minori Suzuki"
+character = "Ena Shinonome"
+color = "#CCAA88" # Official Ena color (sekai-story-indexer meta.json)
