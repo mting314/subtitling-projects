@@ -17,9 +17,9 @@ Video File: Sekaraji Ep 76.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Scroll Position: 12
-Active Line: 15
-Video Position: 1396
+Scroll Position: 855
+Active Line: 869
+Video Position: 53291
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -876,30 +876,28 @@ Dialogue: 0,0:28:55.58,0:28:59.00,Yuki Nakashima,listener_mail,0,0,0,,"but I spe
 Dialogue: 0,0:28:58.40,0:28:59.00,Ruriko Noguchi,host,0,0,0,,Amazing!
 Dialogue: 0,0:28:59.00,0:29:01.80,Yuki Nakashima,listener_mail,0,0,0,,"However, since I still had my event hair and press-on nails done,"
 Dialogue: 0,0:29:01.80,0:29:04.56,Yuki Nakashima,listener_mail,0,0,0,,"I ended up working looking super cute."
-Dialogue: 0,0:29:04.56,0:29:06.28,Ruriko Noguchi,host,0,0,0,,Hey, why not?
-Dialogue: 0,0:29:06.28,0:29:06.87,Yuki Nakashima,host,0,0,0,,That's great!
-Dialogue: 0,0:29:06.87,0:29:08.48,Ruriko Noguchi,host,0,0,0,,Yay! That'd put a spring in your step.
-Dialogue: 0,0:29:08.48,0:29:11.92,Yuki Nakashima,host,0,0,0,,So you blazed right through Shibuya for us!
-Dialogue: 0,0:29:10.21,0:29:10.96,Ruriko Noguchi,host,0,0,0,,Right?
-Dialogue: 0,0:29:10.96,0:29:11.92,Ruriko Noguchi,host,0,0,0,,It was a bit far, wasn't it?
-Dialogue: 0,0:29:11.92,0:29:15.49,Yuki Nakashima,host,0,0,0,,Must've been! That route is pretty far.
+Dialogue: 0,0:29:04.56,0:29:06.87,Ruriko Noguchi,host,0,0,0,,Hey, why not?
+Dialogue: 0,0:29:05.16,0:29:06.87,Yuki Nakashima,host,0,0,0,,That's great!
+Dialogue: 0,0:29:06.87,0:29:08.22,Yuki Nakashima,host,0,0,0,,That'd put a spring in your step.
+Dialogue: 0,0:29:08.22,0:29:11.92,Ruriko Noguchi,host,0,0,0,,So you blazed right through Shibuya for us!
+Dialogue: 0,0:29:10.88,0:29:11.92,Yuki Nakashima,host,0,0,0,,The station was a bit far, wasn't it?
+Dialogue: 0,0:29:11.92,0:29:15.49,Yuki Nakashima,host,0,0,0,,It was! That route is pretty far.
 Dialogue: 0,0:29:13.07,0:29:14.43,Ruriko Noguchi,host,0,0,0,,From the station, yeah.
 Dialogue: 0,0:29:15.00,0:29:16.04,Ruriko Noguchi,host,0,0,0,,That venue is far, right?
 Dialogue: 0,0:29:16.04,0:29:17.32,Yuki Nakashima,host,0,0,0,,It really is.
-Dialogue: 0,0:29:17.32,0:29:22.40,Ruriko Noguchi,host,0,0,0,,Like, whether you come from Harajuku or Shibuya,\Nit's right in the middle,
-Dialogue: 0,0:29:18.92,0:29:19.96,Yuki Nakashima,host,0,0,0,,Yeah.
-Dialogue: 0,0:29:21.56,0:29:22.40,Yuki Nakashima,host,0,0,0,,so you definitely have to walk.
+Dialogue: 0,0:29:17.32,0:29:22.40,Yuki Nakashima,host,0,0,0,,Like, whether you come from Harajuku or Shibuya,\Nit's right in the middle,
+Dialogue: 0,0:29:21.26,0:29:22.40,Ruriko Noguchi,host,0,0,0,,so you definitely have to walk.
 Dialogue: 0,0:29:22.40,0:29:24.48,Ruriko Noguchi,host,0,0,0,,Right? It's a solid walk.
 Dialogue: 0,0:29:24.48,0:29:25.83,Yuki Nakashima,host,0,0,0,,Plus, it was in August!
-Dialogue: 0,0:29:25.04,0:29:27.22,Ruriko Noguchi,host,0,0,0,,Oh, that's so true!
-Dialogue: 0,0:29:27.22,0:29:27.72,Yuki Nakashima,host,0,0,0,,It must have been so hot.
-Dialogue: 0,0:29:27.22,0:29:28.76,Ruriko Noguchi,host,0,0,0,,Thank you so much!
-Dialogue: 0,0:29:28.76,0:29:30.48,Yuki Nakashima,host,0,0,0,,Thank you! You must've worked so hard.
-Dialogue: 0,0:29:30.48,0:29:31.80,Ruriko Noguchi,host,0,0,0,,Speaking of which, the fan meeting was so fun, wasn't it?
-Dialogue: 0,0:29:31.80,0:29:34.28,Yuki Nakashima,host,0,0,0,,It was! The fan meeting was such a blast.
-Dialogue: 0,0:29:34.28,0:29:35.89,Ruriko Noguchi,host,0,0,0,,Seriously, it was super fun.
-Dialogue: 0,0:29:35.89,0:29:38.12,Yuki Nakashima,host,0,0,0,,It was great. I feel like the entire cast has been saying that.
-Dialogue: 0,0:29:38.12,0:29:39.34,Ruriko Noguchi,host,0,0,0,,Oh, true, they probably have.
+Dialogue: 0,0:29:25.83,0:29:27.72,Yuki Nakashima,host,0,0,0,,Oh, that's so true!
+Dialogue: 0,0:29:26.20,0:29:27.72,Ruriko Noguchi,host,0,0,0,,It must have been so hot.
+Dialogue: 0,0:29:27.72,0:29:28.76,Yuki Nakashima,host,0,0,0,,Thank you so much!
+Dialogue: 0,0:29:28.45,0:29:30.48,Ruriko Noguchi,host,0,0,0,,Thank you! You must've worked so hard.
+Dialogue: 0,0:29:30.48,0:29:32.33,Yuki Nakashima,host,0,0,0,,Speaking of which, the fan meeting was so fun, wasn't it?
+Dialogue: 0,0:29:31.80,0:29:34.28,Ruriko Noguchi,host,0,0,0,,It was! The fan meeting was such a blast.
+Dialogue: 0,0:29:34.28,0:29:35.67,Yuki Nakashima,host,0,0,0,,Seriously, it was super fun.
+Dialogue: 0,0:29:35.67,0:29:38.12,Ruriko Noguchi,host,0,0,0,,It was great. I feel like the entire cast has been saying that.
+Dialogue: 0,0:29:38.12,0:29:39.34,Yuki Nakashima,host,0,0,0,,Oh, true, they probably have.
 Dialogue: 0,0:29:39.34,0:29:40.99,Yuki Nakashima,host,0,0,0,,Everyone's saying how great the fan meetings were.
 Dialogue: 0,0:29:40.89,0:29:44.38,Ruriko Noguchi,host,0,0,0,,Like, the Thanks Festival is obviously tons of fun too,
 Dialogue: 0,0:29:40.99,0:29:42.05,Yuki Nakashima,host,0,0,0,,Yeah.
